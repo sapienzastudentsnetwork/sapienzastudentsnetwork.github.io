@@ -8,9 +8,11 @@ permalink: contribuire
 Per vedere il sito in locale, eseguire i seguenti comandi, e aprire `127.0.0.1:4000` nel browser. Si presuppone che abbiate installato [Docker](https://www.docker.com/) e [nodejs + npm](https://nodejs.org/en).
 
 ```bash
-docker build -t informatica .
+docker build -t informatica . # Solo la prima volta
 docker run --rm --volume="${PWD}:/srv/jekyll" --publish 4000:4000 informatica
 ```
+
+> Le modifiche a `_config.yml` richiedono il riavvio dell'immagine docker
 
 Per `${PWD}` nella seconda riga viene usato per PowerShell... su Linux dovrebbe funzionare con `$PWD` o `$pwd`
 
@@ -26,6 +28,7 @@ Usa il seguente comando prima di fare commit
 ```
 npm run build # Prima di fare il commit
 ```
+
 
 ## Icone 
 

@@ -10,7 +10,7 @@ google_analytics: G-HFNEYKB0G4
 nav:
   - text: Home
     icon: home
-    permalink: informatica
+    permalink: ./
   - text: Percorso Formativo
     icon: conversion_path
     permalink: percorso-formativo
