@@ -1,0 +1,31 @@
+exclude:
+  - node_modules
+encoding: UTF-8
+markdown: GMF
+include:
+  - assets
+plugins:
+  - jemoji
+google_analytics: G-HFNEYKB0G4
+nav:
+  - text: Home
+    icon: home
+    permalink: /
+  - text: Percorso Formativo
+    icon: conversion_path
+    permalink: /percorso-formativo/
+  - text: Risorse
+    icon: folder_open
+    permalink: /risorse/
+  # - text: Tirocinio
+  #   icon: lab_research
+  #   permalink: /tirocinio/
+  # - text: Laurea
+  #   icon: description
+  #   permalink: /laurea/
+  - text: Gruppi
+    icon: group
+    permalink: /gruppi/
+  - text: Orari
+    icon: schedule
+    permalink: /orari/

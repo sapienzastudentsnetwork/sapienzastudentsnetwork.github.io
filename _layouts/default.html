@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en-US" }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+
+    <link rel="stylesheet" href="{{ '/assets/css/app.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet"
+        href="{{ '/assets/css/tailwind.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet"
+        href="{{ '/assets/css/gruvbox.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
+
+    {% include head-custom.html %}
+</head>
+
+<body class="flex flex-col md:flex-row">
+    {% include sidebar.html %}
+
+    <div id="content"
+        class="grow bg-gray-50 dark:bg-gray-900 overflow-y-auto overflow-x-hidden min-w-0 h-screen md:h-auto max-h-screen w-full flex">
+        <div class="p-5 md:p-10 pt-20 md:pt-10 prose dark:prose-invert grow-1 w-full max-w-full">
+            {{ content }}
+            <br />
+        </div>
+
+        {% if page.url!='/' %}
+        <div id='onThisPage'
+            class="hidden lg:block sticky top-0 p-10 whitespace-nowrap border-l border-l-gray-400 w-96">
+            <div class="text-gray-700 dark:text-gray-200 text-xl font-bold">
+                Su questa pagina
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+        integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+</body>
+
+</html>
+
+{% if page.url != '/' %}
+<script>
+    function generateOnThisPage() {
+        let parentId = ''
+
+        for (const title of document.querySelectorAll('h2, h3')) {
+            const titleId = title.getAttribute('id'),
+                style = title.tagName == 'H2' ? 'font-bold' : 'ml-5';
+
+            if (title.tagName == 'H2')
+                parentId = `link-${titleId}`;
+
+            // Not the best way to do this, but it works
+            document.getElementById('onThisPage').innerHTML +=
+                `<a href="#${titleId}" id="link-${titleId}" data-parent-id="${parentId}" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 ${style} no-wrap">${title.innerText}</a><br>`;
+        }
+    }
+
+    function isVisibleInViewport(element) {
+        const
+            {top, left, bottom, right} = element.getBoundingClientRect(),
+            {innerHeight, innerWidth} = window;
+
+        return ((top > 0 && top < innerHeight) || (bottom > 0 && bottom < innerHeight)) &&
+            ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
+    };
+
+    function onContentScroll(event) {
+        for (const title of document.querySelectorAll('h2, h3')) {
+            if (!isVisibleInViewport(title))
+                continue;
+
+            document
+                .querySelectorAll('.selected')
+                .forEach(element => element.classList.remove('selected'));
+
+            const titleId = title.getAttribute('id');
+
+            let onThisPageLink = document.getElementById(`link-${titleId}`);
+            onThisPageLink.classList.add('selected');
+            document.getElementById(onThisPageLink.dataset.parentId).classList.add('selected');
+
+            // If bottom is reached, highlight the last visible title 
+            // (this is needed because the last title is not always the last visible one)
+            const {scrollHeight, scrollTop, clientHeight} = event.target;
+            if (!(Math.abs(scrollHeight - clientHeight - scrollTop) < 10) && (title.tagName == 'H3' || scrollTop < 10))
+                break;
+
+        }
+
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        generateOnThisPage();
+        // Call once to highlight the first title
+        onContentScroll({target: document.getElementById('content')});
+        document.getElementById('content').addEventListener('scroll', onContentScroll)
+    })
+</script>
+{% endif %}

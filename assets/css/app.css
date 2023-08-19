@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fill {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+img {
+    display: inline !important;
+}
+
+@variants group-hover {
+    .fill {
+      font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+    }
+}
+
+.selected {
+    @apply text-black  dark:!text-white;
+}
+
+.red {
+    @apply text-red-600 dark:text-red-400;
+}
+
+.yellow {
+    @apply text-yellow-600 dark:text-yellow-400;
+}
+
+.green {
+    @apply text-green-600 dark:text-green-400;
+}
+
+.blue {
+    @apply text-blue-600 dark:text-blue-400;
+}
+
+.purple {
+    @apply text-purple-600 dark:text-purple-400;
+}
+
+/* , 'pink', 'indigo', 'gray' */
+
+/* th, td, tr { */
+/*     @apply whitespace-nowrap overflow-ellipsis overflow-hidden w-fit; */
+/* } */
+
+/* table { */
+/*     @apply !w-fit; */
+/* } */
