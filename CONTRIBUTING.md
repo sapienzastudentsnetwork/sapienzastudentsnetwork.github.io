@@ -1,6 +1,6 @@
 ---
 title: "Contribuire"
-permalink: /contribuire/
+permalink: contribuire
 ---
 
 # Testare il codice in locale
@@ -41,3 +41,8 @@ Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o prob
 ## Aggiungere contenuti
 
 Se vuoi aggiungere dei contenuti, apri una [Pull Request](https://github.com/sapienzastudentsnetwork/informatica/pulls) con le modifiche che vuoi fare. Le modifiche saranno revisionate prima di essere salvate sul sito. Se non sai come fare, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) per contribuire a progetti.
+
+# Documentazione
+
+Alcuni link utili
+- [Liquid](https://shopify.github.io/liquid/) *(per templating)*

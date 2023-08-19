@@ -1,6 +1,6 @@
 ---
 title: "Percorso Formativo"
-permalink: /percorso-formativo/
+permalink: percorso-formativo
 ---
 
 # Percorso Formativo

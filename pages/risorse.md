@@ -1,6 +1,6 @@
 ---
 title: "Risorse"
-permalink: /risorse/
+permalink: risorse
 ---
 
 # Risorse

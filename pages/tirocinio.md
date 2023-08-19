@@ -1,6 +1,6 @@
 ---
 title: "Tirocinio"
-permalink: /tirocinio/
+permalink: tirocinio
 ---
 
 

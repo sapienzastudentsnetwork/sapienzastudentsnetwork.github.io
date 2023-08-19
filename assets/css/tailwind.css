@@ -1338,6 +1338,16 @@ img {
   display: inline !important;
 }
 
+@variants group-hover {
+  .fill {
+    font-variation-settings:
+      'FILL' 1,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 48
+  }
+}
+
 .selected {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));

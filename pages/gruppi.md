@@ -1,6 +1,6 @@
 ---
 title: "Gruppi"
-permalink: /gruppi/
+permalink: gruppi
 ---
 
 <p align="center">

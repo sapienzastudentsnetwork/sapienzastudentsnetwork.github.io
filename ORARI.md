@@ -1,7 +1,7 @@
 ---
 title: "Orari"
 layout: schedule
-permalink: /orari/
+permalink: orari
 subjects:
     'Calcolo Differenziale':
         abbr: CD

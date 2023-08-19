@@ -1,6 +1,6 @@
 ---
 title: "Laurea"
-permalink: /laurea/
+permalink: laurea
 ---
 
 # Laurea

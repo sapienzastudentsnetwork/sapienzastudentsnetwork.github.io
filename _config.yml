@@ -13,19 +13,19 @@ nav:
     permalink: /
   - text: Percorso Formativo
     icon: conversion_path
-    permalink: /percorso-formativo/
+    permalink: percorso-formativo
   - text: Risorse
     icon: folder_open
-    permalink: /risorse/
+    permalink: risorse
   # - text: Tirocinio
   #   icon: lab_research
-  #   permalink: /tirocinio/
+  #   permalink: tirocinio
   # - text: Laurea
   #   icon: description
-  #   permalink: /laurea/
+  #   permalink: laurea
   - text: Gruppi
     icon: group
-    permalink: /gruppi/
+    permalink: gruppi
   - text: Orari
     icon: schedule
-    permalink: /orari/
+    permalink: orari
