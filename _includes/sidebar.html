@@ -6,8 +6,8 @@
         {% assign label = "text-gray-800 dark:text-gray-100" %}
         {% assign icon = "group-hover:bg-gray-100 group-hover:dark:bg-gray-800" %}
 
-        {% assign url = page.url | split: "/" | last %}
-        {% assign permalink = link.permalink | split: "/" | last %}
+        {% assign url = page.url | replace: ".", "" | split: "/" | last %}
+        {% assign permalink = link.permalink | replace: ".", "" | split: "/" | last %}
 
         {% if url==permalink %}
         {% assign label = "font-bold text-black dark:text-white" %}
@@ -65,8 +65,8 @@
             {% assign label = "text-gray-800 dark:text-gray-100" %}
             {% assign icon = "group-hover:fill" %}
 
-            {% assign url = page.url | split: "/" | last %}
-            {% assign permalink = link.permalink | split: "/" | last %}
+            {% assign url = page.url | replace: ".", "" | split: "/" | last %}
+            {% assign permalink = link.permalink | replace: ".", "" | split: "/" | last %}
 
             {% if url==permalink %}
             {% assign color = "bg-black dark:bg-white" %}
