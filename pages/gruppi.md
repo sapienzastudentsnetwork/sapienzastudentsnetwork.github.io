@@ -4,7 +4,7 @@ permalink: gruppi
 ---
 
 <p align="center">
-  <h1 align="center">Centralizzazione dei Link per i canali di Comunicazione del Corso di Laurea in Informatica (triennale)</h1>
+  <h1 align="center">Gruppi e altri canali di comunicazione</h1>
 </p>
 
 <p align="center">
@@ -132,9 +132,10 @@ permalink: gruppi
 
 ## Server Discord
 
-> La seguente tabella contiene link a Server Discord di ogni canale
+> La seguente tabella contiene link ai Server Discord di ogni anno e canale
 
-| Canale | Link | 
-| :--- | :--------: |
-| Canale A-L | [Link]() |
-
+| Canale | Canale A/L | Canale M/Z | Teledidattica |
+| :----: | :--------: | :--------: | :-----------: |
+| 1° anno | [UNISCITI](https://discord.gg/QEzjgwnjTp) | [UNISCITI](https://discord.gg/APKFM5V5ed) | — |
+| 2° anno | [UNISCITI](https://discord.gg/QEzjgwnjTp) | [UNISCITI](https://discord.gg/APKFM5V5ed) | — |
+| 3° anno | [UNISCITI](https://discord.gg/Wg94weSeq3) | [UNISCITI](https://discord.gg/Wg94weSeq3) | [UNISCITI](https://discord.gg/Wg94weSeq3) |
