@@ -148,7 +148,7 @@ Per sicurezza lo studente può chiedere al responsabile della gestione della car
 ## :pushpin: Altro
 
 ### Come contribuire
-todo
+Scopri [come contribuire](https://sapienzastudents.net/informatica/contribuire) alla forma e al contenuto di questa o altre pagine del sito!
 
 ### Note
 La seguente lista è stata creata per aiutare gli studenti a scegliere gli esami da sostenere, non è una lista ufficiale e potrebbe contenere errori. Per qualsiasi dubbio o problema aprire una issue.
