@@ -150,7 +150,7 @@ layout: default
                         tableCell.innerHTML +=
                             subjects[course.subject] ?
                                 subjects[course.subject].abbr :
-                                course.subject.substring(0, 3);
+                                course.subject.substring(0, 2).toUpperCase();
                     else
                         tableCell.innerHTML += course.subject.split(' ')[0];
 

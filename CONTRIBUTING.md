@@ -3,49 +3,44 @@ title: "Contribuire"
 permalink: contribuire
 ---
 
-# Testare il codice in locale
+# Contribuire
 
-Per vedere il sito in locale, eseguire i seguenti comandi, e aprire `127.0.0.1:4000` nel browser. Si presuppone che abbiate installato [Docker](https://www.docker.com/) e [nodejs + npm](https://nodejs.org/en).
+## Clonare il progetto
 
-```bash
-docker build -t informatica . # Solo la prima volta
-docker run --rm --volume="${PWD}:/srv/jekyll" --publish 4000:4000 informatica
-```
+Se vuoi aggiungere dei contenuti, devi fare il **fork** del progetto e aprire una [**pull request**](https://github.com/sapienzastudentsnetwork/informatica/pulls) con le modifiche che vuoi fare. Le modifiche saranno revisionate prima di essere salvate sul sito. Se non sai usare bene **git** e **GitHub** puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire a progetti, o chiedere aiuto su uno dei [gruppi](./gruppi).
 
-> Le modifiche a `_config.yml` richiedono il riavvio dell'immagine docker
+## Aprire il sito in locale
 
-Per `${PWD}` nella seconda riga viene usato per PowerShell... su Linux dovrebbe funzionare con `$PWD` o `$pwd`
-
-In un terminale separato eseguire:
+Per aprire il sito in locale e testare il codice, bisogna eseguire i comandi di seguito elencati, e aprire [localhost:4000](http://localhost:4000/) nel browser. È necessario aver installato [**Docker**](https://www.docker.com/) e [**Node.js**](https://nodejs.org/en).
 
 ```bash
 npm install # Solo la prima volta
 npm run dev # Ogni volta che lavori sul progetto
 ```
 
-Usa il seguente comando prima di fare commit
+Per interrompere l'esecuzione, basta premere `Ctrl+C` nel terminale, e [terminare il container Docker](https://docs.docker.com/engine/reference/commandline/stop/).
 
+> Le modifiche a `_config.yml` richiedono la riesecuzione di `npm run dev`
+
+Su **Windows** bisogna usare 
+
+```bash
+npm run dev-windows
 ```
-npm run build # Prima di fare il commit
-```
 
-
-## Icone 
-
-I nomi delle icone li trovate su [Google Fonts](https://fonts.google.com/icons)
-
-
-# Contribuire 
 
 ## Proposte / Bug
 
 Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o problema con il sito, apri una [ISSUE](https://github.com/sapienzastudentsnetwork/informatica/issues)
 
-## Aggiungere contenuti
 
-Se vuoi aggiungere dei contenuti, apri una [Pull Request](https://github.com/sapienzastudentsnetwork/informatica/pulls) con le modifiche che vuoi fare. Le modifiche saranno revisionate prima di essere salvate sul sito. Se non sai come fare, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) per contribuire a progetti.
-
-# Documentazione
+## Documentazione
 
 Alcuni link utili
-- [Liquid](https://shopify.github.io/liquid/) *(per templating)*
+- Per i contenuti delle pagine, GitHub Pages usa [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [**Jekyll**](https://jekyllrb.com/docs/pages/) è il *static site generator* usato da GitHub.
+- Jekyll usa [**Liquid**](https://shopify.github.io/liquid/) per templating server-side *(vi da l'accesso all'instestazione dei file markdown)*
+
+### Icone 
+
+I nomi delle icone li trovate su [Google Fonts](https://fonts.google.com/icons)

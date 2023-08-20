@@ -35,7 +35,7 @@
 
         {% if page.url!='/' %}
         <div id='onThisPage'
-            class="hidden lg:block sticky top-0 p-10 whitespace-nowrap border-l border-l-gray-400 w-96">
+            class="hidden lg:block sticky top-0 p-10 whitespace-nowrap border-l border-l-gray-400 w-96 max-w-[384px] min-w-[384px] box-border">
             <div class="text-gray-700 dark:text-gray-200 text-xl font-bold">
                 Su questa pagina
             </div>
@@ -54,60 +54,31 @@
 {% if page.url != '/' %}
 <script>
     function generateOnThisPage() {
-        let parentId = ''
+        for (const title of document.querySelectorAll('h2, h3, h4')) {
+            const titleId = title.getAttribute('id');
 
-        for (const title of document.querySelectorAll('h2, h3')) {
-            const titleId = title.getAttribute('id'),
-                style = title.tagName == 'H2' ? 'font-bold' : 'ml-5';
-
-            if (title.tagName == 'H2')
-                parentId = `link-${titleId}`;
-
-            // Not the best way to do this, but it works
             document.getElementById('onThisPage').innerHTML +=
-                `<a href="#${titleId}" id="link-${titleId}" data-parent-id="${parentId}" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 ${style} no-wrap">${title.innerText}</a><br>`;
+                `<a href="#${titleId}" id="link-${titleId}" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 on-this-page ${title.tagName} no-wrap">${title.innerText}</a><br>`;
         }
     }
 
-    function isVisibleInViewport(element) {
-        const
-            {top, left, bottom, right} = element.getBoundingClientRect(),
-            {innerHeight, innerWidth} = window;
+    function highlightOnThisPageTitle() {
+        hash = window.location.hash;
 
-        return ((top > 0 && top < innerHeight) || (bottom > 0 && bottom < innerHeight)) &&
-            ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
-    };
+        if (hash === '') return;
 
-    function onContentScroll(event) {
-        for (const title of document.querySelectorAll('h2, h3')) {
-            if (!isVisibleInViewport(title))
-                continue;
+        document
+            .querySelectorAll('.highlighted')
+            .forEach(element => element.classList.remove('highlighted'));
 
-            document
-                .querySelectorAll('.selected')
-                .forEach(element => element.classList.remove('selected'));
-
-            const titleId = title.getAttribute('id');
-
-            let onThisPageLink = document.getElementById(`link-${titleId}`);
-            onThisPageLink.classList.add('selected');
-            document.getElementById(onThisPageLink.dataset.parentId).classList.add('selected');
-
-            // If bottom is reached, highlight the last visible title 
-            // (this is needed because the last title is not always the last visible one)
-            const {scrollHeight, scrollTop, clientHeight} = event.target;
-            if (!(Math.abs(scrollHeight - clientHeight - scrollTop) < 10) && (title.tagName == 'H3' || scrollTop < 10))
-                break;
-
-        }
-
+        // TODO highlight parent too
+        document.querySelector(`#link-${hash.substring(1)}`).classList.add('highlighted');
     }
 
     document.addEventListener('DOMContentLoaded', () => {
         generateOnThisPage();
-        // Call once to highlight the first title
-        onContentScroll({target: document.getElementById('content')});
-        document.getElementById('content').addEventListener('scroll', onContentScroll)
+        highlightOnThisPageTitle();
+        window.addEventListener('hashchange', highlightOnThisPageTitle);
     })
 </script>
 {% endif %}

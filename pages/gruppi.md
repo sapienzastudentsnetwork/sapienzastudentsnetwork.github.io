@@ -14,11 +14,11 @@ permalink: gruppi
   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white">
 </p>
 
-<p align="center">
-    <h4 align="center">
-    La seguente pagina contiene i link ai gruppi di comunicazione come WhatsApp, Telegram e Discord per ogni insegnamento della laurea triennale in Informatica e per i gruppi generali di ogni Anno Accademico.
-    </h4>
-</p>
+<!-- <p align="center"> -->
+<!--     <h4 align="center"> -->
+La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**, **Telegram** e **Discord** per ogni insegnamento della laurea triennale in Informatica e per i gruppi generali di ogni Anno Accademico.
+<!--     </h4> -->
+<!-- </p> -->
 
 ## Indice
 - [Gruppi](#whatsapp)

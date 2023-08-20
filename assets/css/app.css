@@ -29,7 +29,21 @@ img {
     }
 }
 
-.selected {
+
+.on-this-page.H2 {
+    @apply font-bold;
+}
+
+.on-this-page.H3 {
+    @apply ml-5;
+}
+
+.on-this-page.H4 {
+    @apply ml-10 whitespace-nowrap overflow-ellipsis overflow-hidden;
+}
+
+
+.highlighted {
     @apply text-black  dark:!text-white;
 }
 
