@@ -23,11 +23,11 @@ permalink: gruppi
 ## Indice
 - [Gruppi](#whatsapp)
   - [Generali](#gruppi-generali)
-  - [Singoli insegnamenti](#gruppi-delle-materie)
+  - [Singoli insegnamenti](#gruppi-dei-singoli-insegnamenti)
     - [Primo Anno](#primo-anno)
     - [Secondo Anno](#secondo-anno)
     - [Terzo Anno](#terzo-anno)
-- [Server Discord](#discord)
+- [Server Discord](#server-discord)
 
 ## Gruppi
 
