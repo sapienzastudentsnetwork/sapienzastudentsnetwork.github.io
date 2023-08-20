@@ -72,25 +72,25 @@ permalink: gruppi
 | Calcolo Differenziale | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) |
 | Fondamenti di Programmazione | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
 | Metodi Matematici per l'Informatica | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
-| Progettazione di Sistemi Digitali | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | [WhatsApp]() \| [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) |
-| Architettura degli Elaboratori | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | [WhatsApp]() \| [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) |
-| Calcolo Integrale | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | [WhatsApp]() \| [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) |
-| Introduzione agli Algoritmi | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | [WhatsApp]() \| [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) |
+| Progettazione di Sistemi Digitali | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | WhatsApp \| [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) |
+| Architettura degli Elaboratori | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | WhatsApp] \| [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) |
+| Calcolo Integrale | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | WhatsApp \| [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) |
+| Introduzione agli Algoritmi | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | WhatsApp \| [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) |
 | Lingua Inglese | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) |
-| Metodologie di Programmazione | [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) | [WhatsApp]() \| [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) | [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) |
+| Metodologie di Programmazione | [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) | WhatsApp \| [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) | [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) |
 
 #### Secondo Anno
 
 | Insegnamento | Canale A-L | Canale M-Z | Teledidattica |
 | :--- | :--------: | :--------: | :--------: |
-| Algebra | [Telegram](https://t.me/+798mXLThj_JmYTBk) | [WhatsApp]() \| [Telegram](https://t.me/+798mXLThj_JmYTBk) | [Telegram](https://t.me/+798mXLThj_JmYTBk) |
-| Basi di Dati 1 | [Telegram](https://t.me/+eRVplF3Va3dlNDJk) | [WhatsApp]() \| [Telegram](https://t.me/+eRVplF3Va3dlNDJk) | [Telegram](https://t.me/+eRVplF3Va3dlNDJk) |
-| Calcolo delle Probabilità | [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) | [WhatsApp]() \| [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) | [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) |
-| Sistemi Operativi 1 | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) | [WhatsApp]() \| [Telegram](https://t.me/+oF0ppISY8EFmOTZk) | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) |
+| Algebra | [Telegram](https://t.me/+798mXLThj_JmYTBk) | WhatsApp \| [Telegram](https://t.me/+798mXLThj_JmYTBk) | [Telegram](https://t.me/+798mXLThj_JmYTBk) |
+| Basi di Dati 1 | [Telegram](https://t.me/+eRVplF3Va3dlNDJk) | WhatsApp \| [Telegram](https://t.me/+eRVplF3Va3dlNDJk) | [Telegram](https://t.me/+eRVplF3Va3dlNDJk) |
+| Calcolo delle Probabilità | [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) | WhatsApp \| [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) | [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) |
+| Sistemi Operativi 1 | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) | WhatsApp \| [Telegram](https://t.me/+oF0ppISY8EFmOTZk) | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) |
 | Basi di Dati 2 | [Telegram](https://t.me/+xTuUWRfneSwwMjBk) | [Telegram](https://t.me/+xTuUWRfneSwwMjBk) | [Telegram](https://t.me/+xTuUWRfneSwwMjBk) |
-| Progettazione di Algoritmi | [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) | [WhatsApp]() \| [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) | [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) |
-| Reti di Elaboratori| [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) | [WhatsApp]() \| [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) | [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) |
-| Sistemi Operativi 2 | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) \| [WhatsApp]() | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) |
+| Progettazione di Algoritmi | [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) | WhatsApp \| [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) | [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) |
+| Reti di Elaboratori| [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) | WhatsApp \| [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) | [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) |
+| Sistemi Operativi 2 | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) \| WhatsApp | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) |
 
 #### Terzo Anno
 
@@ -113,16 +113,16 @@ permalink: gruppi
 | Programmazione Web | [Telegram](https://t.me/+SNkXYOYD8edMJ4TS) |
 | Matematica Discreta | [Telegram](https://t.me/+x5k6q2yrsztlOWVk) | 
 | Multicore | [Telegram](https://t.me/+VBYueH15i5bz6MZv) | 
-| Metodi Numerici dell'Informatica | [WhatsApp]() | 
-| Computer Graphics | [WhatsApp]() \| [Telegram](https://t.me/+UkvugTa0Bxm0nA4t) | 
-| Biologia Computazionale | [WhatsApp]() | 
+| Metodi Numerici dell'Informatica | WhatsApp | 
+| Computer Graphics | WhatsApp \| [Telegram](https://t.me/+UkvugTa0Bxm0nA4t) | 
+| Biologia Computazionale | WhatsApp | 
 | Organizzazione e Gestione per lo Start-Up Aziendale | [Telegram](https://t.me/+UwPBxAs2d1t1DyEO) | 
 | Tecniche di Programmazione Funzionale e Imperativa | [Telegram](https://t.me/+FX62ifPquP9kODA8) | 
 | Linguaggi di Programmazione | [Telegram](https://t.me/+WMcOOMn-dTLBVtQq) | 
 | Intelligenza Artificiale | [Telegram](https://t.me/+ScQeqz7Ij1hglCy-) | 
 | Sicurezza | [Telegram](https://t.me/+VOfFTJId_33Juoly) | 
 | Linguaggi e Compilatori | [Telegram](https://t.me/+SpmBS1GeLmVO-4ff) | 
-| Fisica | [WhatsApp]() | 
+| Fisica | WhatsApp | 
 | Modelli e Ottimizzazione | [Telegram](https://t.me/+TyMj4NBvh8pVeId9) | 
 | Linguaggi e Tecnlogie per il Web (Ingegneria Informatica) | [Telegram](https://t.me/+VHTJ59xpWcgjLkl8) | 
 | Law and Computer Science (ACSAI) | [Link]() | 
