@@ -13,9 +13,7 @@ Elenco di risorse utili per gli studenti.
 - [Bot Telegram con appunti, vecchi esami, gruppi etc...](https://t.me/SSN_Notes_Bot)
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
-- [Appunti Algebra flag _(Alessio Bandiera)_](https://ph04.github.io/algebra/html/index.html)
-- [Appunti DB flag](https://ph04.github.io/database/html/index.html)
-
+- [Appunti ph04 _(Alessio Bandiera)_](https://github.com/orgs/ph-notes/repositories)
 
 ## Primo Anno
 
