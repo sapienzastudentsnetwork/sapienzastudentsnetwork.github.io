@@ -50,10 +50,10 @@ permalink: gruppi
 
 | Anno | Canale A-L | Canale M-Z |
 | :--- | :--------: | :--------: |
-| Anno 2023-2024 |   [Link]()   | [Link]() |
-| Anno 2022-2023 |   [Link]()   | [Link]() |
-| Anno  2021-2022|   [Link]()   | [Link]() |
-| Anno 2020-2021 |   [Link]()   | [Link]() |
+| Anno 2023-2024 | — | — |
+| Anno 2022-2023 | — | — |
+| Anno 2021-2022 | — | — |
+| Anno 2020-2021 | — | — |
 
 ### Gruppi dei singoli insegnamenti
 
@@ -125,7 +125,7 @@ permalink: gruppi
 | Fisica | WhatsApp | 
 | Modelli e Ottimizzazione | [Telegram](https://t.me/+TyMj4NBvh8pVeId9) | 
 | Linguaggi e Tecnlogie per il Web (Ingegneria Informatica) | [Telegram](https://t.me/+VHTJ59xpWcgjLkl8) | 
-| Law and Computer Science (ACSAI) | [Link]() | 
+| Law and Computer Science (ACSAI) | —| 
 | Verifica e Validazione di Sistemi Intelligenti | [Telegram](https://t.me/+VD1dKb1M777XscAU) | 
 
 > Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel bot Telegram [https://telegram.me/SapienzaStudentsBot](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista indicizzarlo autonomamente
