@@ -21,8 +21,9 @@ La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**,
 <!-- </p> -->
 
 ## Indice
-- [Gruppi](#whatsapp)
+- [Gruppi](#gruppi)
   - [Generali](#gruppi-generali)
+  - [Nuove matricole](#gruppi-nuove-matricole)
   - [Singoli insegnamenti](#gruppi-dei-singoli-insegnamenti)
     - [Primo Anno](#primo-anno)
     - [Secondo Anno](#secondo-anno)
@@ -31,39 +32,30 @@ La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**,
 
 ## Gruppi
 
-### Gruppi generali
-
-> I gruppi generali sono quelli che riuniscono tutti gli studenti e le studentesse del corso di laurea in Informatica. Questi gruppi sono utili per comunicazioni di carattere generale tra studenti e rappresentanti.
-
-#### Telegram
-
-> I gruppi generali su Telegram esistono da diversi anni e riuniscono tutti gli studenti e le studentesse (in particolare, nel caso del gruppo della triennale in presenza, sia gli studenti e le studentesse del canale A/L sia gli studenti e le studentesse del canale M/Z)
-
-| Descrizione | Link |
-| :---------: | :--: |
-| In presenza | [Entra](https://t.me/sapienzainformatica) |
-| Da remoto (Teledidattica - Unitelma) | [Entra](https://t.me/InformaticaSapienzaTeledidattica) |
-
-#### WhatsApp
-
-> I gruppi generali su WhatsApp sono gestiti da un associazione studentesca, sono suddivisi per canale e ne viene creato uno nuovo per le matricole del primo anno ad ogni anno accademico. Rispetto ai gruppi Telegram non godono quindi di apoliticità e di una platea molto più ampia di membri (quelli di tutti i canali e di tutti gli anni accademici) ma sono più specifici e auspicabilmente più monitorati dai rappresentanti per eventuali dubbi di rappresentanza
-
-| Anno | Canale A-L | Canale M-Z |
-| :--- | :--------: | :--------: |
-| Anno 2023-2024 | — | — |
-| Anno 2022-2023 | — | — |
-| Anno 2021-2022 | — | — |
-| Anno 2020-2021 | — | — |
-
-### Gruppi dei singoli insegnamenti
-
-#### Premesse
+### Premesse
 
 - Dove è predisposto soltanto il link al gruppo Telegram/WhatsApp il gruppo WhatsApp/Telegram equivalente non esiste o è talmente abbandonato / inattivo / con decine in meno di membri da essere notevolmente sconveniente da indicare qui poiché altrimenti si andrebbe a creare solamente inutile _frammentazione_ (immaginate gli studenti di uno stesso insegnamento inutilmente divisi in due gruppi non comunicanti) e/o _un danno_ per coloro i quali entrassero nel gruppo più inattivo e non trovassero così le stesse risposte ai propri quesiti;
 
 - I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantaggi**, preoccupanti specie nella loro applicazione come gruppi delle materie, quale in particolare l'**assenza di cronologia per i nuovi membri** e la conseguente perdita negli anni di dispense o informazioni utili pubblicate in precedenza da precedenti utenti del gruppo; oltre che diverse comodità in meno come l'**impossibilità di fissare messaggi o di mantenere i media sul cloud** anziché doverli scaricare e mantenere sui propri dispositivi e rischiare quindi anche potenzialmente di perderli cambiando dispositivo. Se ne sconsiglia quindi ulteriormente l'utilizzo nei casi delle materie in cui la cronologia per i nuovi membri è particolarmente importante, ed è anche per questo motivo che in alcuni casi, confrontando alcuni gruppi WhatsApp e Telegram che avevano un numero simile (ma comunque molto basso ad esempio) di membri, si è preferito indicizzare qui soltanto l'alternativa Telegram;
 
 - **I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno di https://telegram.me/SapienzaStudentsBot, in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
+
+### Gruppi generali
+
+> I gruppi generali esistono da diversi anni su Telegram e riuniscono tutti gli studenti e le studentesse (in particolare, nel caso del gruppo della triennale in presenza, sia gli studenti e le studentesse del canale A/L sia gli studenti e le studentesse del canale M/Z)
+
+| Descrizione | Link |
+| :---------: | :--: |
+| In presenza | [Entra](https://t.me/sapienzainformatica) |
+| Da remoto (Teledidattica - Unitelma) | [Entra](https://t.me/InformaticaSapienzaTeledidattica) |
+
+### Gruppi nuove matricole
+
+| Anno | Canale A-L | Canale M-Z |
+| :--- | :--------: | :--------: |
+| Anno 2023-2024 | [Telegram](https://t.me/addlist/10sQnIhXeJ84ZWY0) | [Telegram](https://t.me/addlist/4mgg0jzRSgUzNTZk) |
+
+### Gruppi dei singoli insegnamenti
 
 #### Primo Anno
 
