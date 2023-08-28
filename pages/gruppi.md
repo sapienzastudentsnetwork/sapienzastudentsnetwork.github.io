@@ -88,7 +88,7 @@ La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**,
 
 > Il terzo anno non è suddiviso in canali A-L e M-Z, si tratta ovvero di un canale unificato. Quindi, per ogni insegnamento è presente un solo link per piattaforma (o un solo link dove è opportuna una sola piattaforma, vedi [premesse](#premesse)).
 
->**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di altri corsi di laurea, purché siano coerenti con il piano di studi e vengano approvati di conseguenza. Per maggiori informazioni si rimanda all'[apposito repository](https://github.com/SapienzaInformatica/PercorsoFormativo).
+>**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di altri corsi di laurea, purché siano coerenti con il piano di studi e vengano approvati di conseguenza. Per maggiori informazioni si rimanda alla [pagina apposita](percorso-formativo).
 
 ##### Insegnamenti obbligatori
 
