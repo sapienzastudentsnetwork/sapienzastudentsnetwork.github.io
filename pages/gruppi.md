@@ -38,7 +38,7 @@ La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**,
 
 - I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantaggi**, preoccupanti specie nella loro applicazione come gruppi delle materie, quale in particolare l'**assenza di cronologia per i nuovi membri** e la conseguente perdita negli anni di dispense o informazioni utili pubblicate in precedenza da precedenti utenti del gruppo; oltre che diverse comodità in meno come l'**impossibilità di fissare messaggi o di mantenere i media sul cloud** anziché doverli scaricare e mantenere sui propri dispositivi e rischiare quindi anche potenzialmente di perderli cambiando dispositivo. Se ne sconsiglia quindi ulteriormente l'utilizzo nei casi delle materie in cui la cronologia per i nuovi membri è particolarmente importante, ed è anche per questo motivo che in alcuni casi, confrontando alcuni gruppi WhatsApp e Telegram che avevano un numero simile (ma comunque molto basso ad esempio) di membri, si è preferito indicizzare qui soltanto l'alternativa Telegram;
 
-- **I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno di https://telegram.me/SapienzaStudentsBot, in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
+- **I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno di [SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot), in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
 
 ### Gruppi generali
 
@@ -65,7 +65,7 @@ La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**,
 | Fondamenti di Programmazione | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
 | Metodi Matematici per l'Informatica | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
 | Progettazione di Sistemi Digitali | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | WhatsApp \| [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) |
-| Architettura degli Elaboratori | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | WhatsApp] \| [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) |
+| Architettura degli Elaboratori | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | WhatsApp \| [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) |
 | Calcolo Integrale | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | WhatsApp \| [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) |
 | Introduzione agli Algoritmi | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | WhatsApp \| [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) |
 | Lingua Inglese | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) |
