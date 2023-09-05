@@ -10,3 +10,20 @@ permalink: tirocinio
 ## Tabella dei contenuti
 * 
 {:toc}
+
+## Come funziona il tirocinio 
+
+### Come richiedere il tirocinio 
+
+## Tirocini e Professori
+
+| Prof. | - |
+|-|:-:|
+| riga | - |
+
+## FAQ 
+
+<details>
+    <summary>Questa è una domanda?</summary>
+    Si, lo è.
+</details>
