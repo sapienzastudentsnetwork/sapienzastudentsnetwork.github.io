@@ -37,7 +37,7 @@ Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o prob
 ## Documentazione
 
 Alcuni link utili
-- Per i contenuti delle pagine, GitHub Pages usa [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- Per i contenuti delle pagine, GitHub Pages usa [**Markdown**](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [**Jekyll**](https://jekyllrb.com/docs/pages/) è il *static site generator* usato da GitHub.
 - Jekyll usa [**Liquid**](https://shopify.github.io/liquid/) per templating server-side *(vi da l'accesso all'instestazione dei file markdown)*
 

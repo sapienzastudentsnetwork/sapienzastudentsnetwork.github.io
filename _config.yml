@@ -1,7 +1,7 @@
 exclude:
   - node_modules
 encoding: UTF-8
-markdown: GMF
+markdown: kramdown # GMF
 include:
   - assets
 plugins:
@@ -11,21 +11,27 @@ nav:
   - text: Home
     icon: home
     permalink: ./
+  - text: Matricole
+    icon: school
+    permalink: matricole
   - text: Percorso Formativo
     icon: conversion_path
     permalink: percorso-formativo
+  - text: Tirocinio
+    icon: lab_research
+    permalink: tirocinio
+  - text: Laurea
+    icon: description
+    permalink: laurea
   - text: Risorse
     icon: folder_open
     permalink: risorse
-  # - text: Tirocinio
-  #   icon: lab_research
-  #   permalink: tirocinio
-  # - text: Laurea
-  #   icon: description
-  #   permalink: laurea
   - text: Gruppi
     icon: group
     permalink: gruppi
   - text: Orari
     icon: schedule
     permalink: orari
+  # - text:
+  #   icon:
+  #   permalink:

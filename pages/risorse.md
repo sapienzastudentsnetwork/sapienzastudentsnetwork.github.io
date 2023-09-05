@@ -5,9 +5,7 @@ permalink: risorse
 
 # Risorse
 
-Elenco di risorse utili per gli studenti. 
-
-## Appunti, Esercizi, Libri etc...
+## Appunti, Esercizi etc...
 
 - [Sapienza Students Network](https://github.com/orgs/sapienzastudentsnetwork/repositories)
 - [Bot Telegram con appunti, vecchi esami, gruppi etc...](https://t.me/SSN_Notes_Bot)
@@ -47,7 +45,6 @@ Elenco di risorse utili per gli studenti.
 - [Algoritmi Forum](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/WebHome)
 - [Algoritmi Dispense](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/Dispense)
 - [Algoritmi Vecchi Esami](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/VecchiScritti)
-
 
 ## Secondo Anno
 

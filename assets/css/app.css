@@ -19,6 +19,27 @@ img {
     display: inline !important;
 }
 
+blockquote {
+    @apply bg-white shadow-md shadow-gray-300 dark:shadow-black dark:bg-gray-800;
+}
+
+blockquote > p {
+    @apply p-4;
+}
+
+details[open] { 
+    @apply mb-5;
+}
+
+details[open] > summary { 
+    @apply mb-2;
+}
+
+summary {
+    @apply text-black dark:text-white;
+}
+
+
 @variants group-hover {
     .fill {
       font-variation-settings:
@@ -65,6 +86,10 @@ img {
 
 .purple {
     @apply text-purple-600 dark:text-purple-400;
+}
+
+table {
+    @apply !overflow-x-auto;
 }
 
 /* , 'pink', 'indigo', 'gray' */
