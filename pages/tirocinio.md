@@ -17,11 +17,13 @@ permalink: tirocinio
 
 ## Tirocini e Professori
 
-Nome Cognome | Link Pagina professore sapienza | Link pagina docente | Ambito di ricerca
+<!-- Nome Cognome | Link Pagina professore sapienza | Link pagina docente | Ambito di ricerca -->
+<!-- Ovviamente l obiettivo è raggruppare più professori possibili tra triennale/magistrale e magari ingegneria informatica -->
 
-| Professore | - |
-|-|:-:|
-| riga | - |
+| Docente | Argomenti di ricerca |
+|-|-:|
+| [Monti Angelo](https://corsidilaurea.uniroma1.it/it/users/angelomontiuniroma1it) | - |
+| [Sterbini Andrea](https://corsidilaurea.uniroma1.it/it/users/andreasterbiniuniroma1it) | E-Learning, algoritmi, modellazione bayesiana del peer-assessment |
 
 ## FAQ 
 

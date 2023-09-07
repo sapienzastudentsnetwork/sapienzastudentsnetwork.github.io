@@ -16,6 +16,7 @@ Informazioni utili per le matricole
 - [Pagina per le graduatorie](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni)
 - [Bando per l'iscrizione](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_ingegnerie_tolcap_2023_2024_0.pdf)
 - [Gruppi WhatsApp / Telegram e server Discord](./gruppi)
+- [Pagina "frequentare" del corso](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv)
 
 ### Canali
 
@@ -33,6 +34,8 @@ Il secondo anno si fa lezione dalle 14:00 alle 19:00 💀 .
 
 Tendenzialmente le lezioni si fanno nell'[Edificio di Chimica "Vincenzo Caglioti"](https://www.uniroma1.it/sites/default/files/ACU032.pdf) Aula 1 (la prima a destra). Le lezioni di laboratorio si fanno in [via Tiburtina 205](https://web.uniroma1.it/i3s/node/8901)
 
+
+
 ### È difficile?
 
 Se seguite le lezioni, fate sempre gli esercizi ed è facile. Comunque, nei vari [gruppi](./gruppi) siamo sempre disposti a darvi una mano e a rispondere alle vostre domande! E c'è un sacco di [materiale](./risorse) su cui studiare: appunti, esercizi, dispense, slide etc... Il primo anno, nel pomeriggio, ci sono anche tutoraggi.
@@ -48,9 +51,13 @@ Per poter acquisire l'ISEE su InfoStud bisogna fare due cose:
 - Recarsi al CAF locale e richiedere l'ISEE per il diritto allo studio universitario (se l'ISEE già lo avete è un'operazione veloce e facile)
 - Premere il pulsante "Acquisisci" sulla pagina ISEE di InfoStud (qualche giorno dopo aver fatto la richiesta al CAF, ci vuole un po' di tempo)
 
-### Dispositivi / Sistemi Operativi / Software etc...
+### Libri / Dispositivi / Sistemi Operativi 🐧 etc...
 
 Per quanto riguarda i dispositivi da usare ci sono opinioni diverse, ma generalmente siamo tutti d'accordo che un **computer** bisogna avercelo.
+
+#### Libri
+
+Saranno i professori consigliarvi i libri all'inizio delle lezioni, ma nella maggior parte dei casi saranno fornite slide / trovate pdf online o li potete prendere in biblioteca.
 
 #### Tablet
 
