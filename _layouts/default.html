@@ -25,12 +25,12 @@
     {% include head-custom.html %}
 </head>
 
-<body class="flex flex-col md:flex-row">
+<body class="flex flex-col h-screen md:flex-row">
     {% include sidebar.html %}
 
     <div id="content"
-        class="grow bg-gray-50 dark:bg-gray-900 overflow-y-auto overflow-x-hidden min-w-0 h-screen md:h-auto max-h-screen w-full flex">
-        <div class="p-5 md:p-10 pt-20 md:pt-10 prose dark:prose-invert grow-1 w-full max-w-full">
+        class="grow bg-gray-50 dark:bg-gray-900 overflow-y-auto overflow-x-hidden min-w-0 h-full md:h-auto max-h-screen w-full flex">
+        <div class="p-5 md:p-10 pt-5 md:pt-10 prose dark:prose-invert grow-1 w-full max-w-full">
             {{ content }}
             <br />
         </div>

@@ -1,3 +1,5 @@
+<!-- Desktop -->
+
 <div
     class="w-[88px] min-w-[88px] h-screen hidden md:flex flex-col justify-between items-center py-4 shadow-xl dark:shadow-2xl dark:shadow-black z-10 dark:bg-black dark:text-white">
     <nav class="flex flex-col items-center">
@@ -31,8 +33,11 @@
     </span>
 </div>
 
+
+<!-- Mobile -->
+
 <div
-    class="fixed z-10 w-full h-12 md:hidden flex items-center p-7 bg-white dark:bg-black dark:text-white justify-between">
+    class="relative z-10 w-full h-12 md:hidden flex items-center p-7 bg-white dark:bg-black dark:text-white justify-between">
     <div class="flex items-center gap-5">
         <button class="material-symbols-outlined cursor-pointer" onclick="openDialog()">
             menu
@@ -48,6 +53,9 @@
         </a>
     </div>
 </div>
+
+
+<!-- Mobile Side Dialog -->
 
 <dialog
     class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
