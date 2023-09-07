@@ -63,6 +63,7 @@ I gruppi **WhatsApp** per le **matricole 2023/2024**:
 - [Cybersecurity]( https://chat.whatsapp.com/HGqjF3YPYIq8sjMNEcZi7A)
 - [ACSAI](https://chat.whatsapp.com/H4XKATjNMqxIhauBHv2JGI)
 
+Trovate altri gruppi WhatsApp sul sito per le [matricole](https://sites.google.com/uniroma1.it/matricolesapienza/home-page?authuser=0)
 <!-- | Anno | Canale A-L | Canale M-Z | Gruppo Unico | -->
 <!-- | :--- | :--------: | :--------: | -->
 <!-- | 2023-2024 | [Link](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) | [Link](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO) | - | -->
