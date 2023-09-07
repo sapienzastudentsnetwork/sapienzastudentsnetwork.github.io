@@ -15,6 +15,12 @@
   'opsz' 48
 }
 
+@supports (-webkit-touch-callout: none) {
+  .h-screen {
+    height: -webkit-fill-available;
+  }
+}
+
 img {
     display: inline !important;
 }
