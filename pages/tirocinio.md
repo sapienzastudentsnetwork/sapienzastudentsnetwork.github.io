@@ -76,8 +76,134 @@ permalink: tirocinio
 | [Spinelli Indro]() | - |
 | [Sterbini Andrea](https://corsidilaurea.uniroma1.it/it/users/andreasterbiniuniroma1it) | E-Learning, algoritmi, modellazione bayesiana del peer-assessment |
 
-<!-- | [Monti Angelo](https://corsidilaurea.uniroma1.it/it/users/angelomontiuniroma1it) | - | -->
-<!-- | [Sterbini Andrea](https://corsidilaurea.uniroma1.it/it/users/andreasterbiniuniroma1it) | E-Learning, algoritmi, modellazione bayesiana del peer-assessment | -->
+
+### Ingegneria Informatica e Automatica
+
+È possibile chiedere il tirocinio anche ai professori del Dipartimento di Ingegneria Informatica e Automatica
+
+| Docente | Argomenti di ricerca |
+|-|-:|
+| [Agostinelli Simone]() | - |
+| [Amerini Irene]() | - |
+| [Anagnostopoulos Aris]() | - |
+| [Angelini Marco]() | - |
+| [Annarelli Alessandro]() | - |
+| [Arico' Pietro]() | - |
+| [Astolfi Laura]() | - |
+| [Ausiello Giorgio]() | - |
+| [Avenali Alessandro]() | - |
+| [Barba Edoardo]() | - |
+| [Battilotti Stefano]() | - |
+| [Becchetti Luca]() | - |
+| [Benvenuti Luca]() | - |
+| [Beraldi Roberto]() | - |
+| [Bonomi Silvia]() | - |
+| [Bruni Renato]() | - |
+| [Califano Claudia]() | - |
+| [Carlucci Aiello Luigia]() | - |
+| [Catalano Giuseppe]() | - |
+| [Catarci Tiziana]() | - |
+| [Chatzigiannakis Ioannis]() | - |
+| [Ciarfuglia Thomas Alessandro]() | - |
+| [Cima Gianluca]() | - |
+| [Cincotti Febo]() | - |
+| [Colabianchi Silvia]() | - |
+| [Colamarino Emma]() | - |
+| [Console Marco]() | - |
+| [Conti Chiara]() | - |
+| [Coppa Emilio]() | - |
+| [Costantino Francesco]() | - |
+| [Cristofaro Andrea]() | - |
+| [D'Adamo Idiano]() | - |
+| [D'Alfonso Tiziana]() | - |
+| [D'Amore Fabrizio]() | - |
+| [D'Elia Daniele Cono]() | - |
+| [Daraio Cinzia]() | - |
+| [De Giacomo Giuseppe]() | - |
+| [De Luca Alessandro]() | - |
+| [De Santis Emanuele]() | - |
+| [De Santis Marianna]() | - |
+| [De Santis Alberto]() | - |
+| [Delli Priscoli Francesco]() | - |
+| [Di Giamberardino Paolo]() | - |
+| [Di Giorgio Alessandro]() | - |
+| [Di Luna Giuseppe Antonio]() | - |
+| [Di Pillo Francesca]() | - |
+| [Di Pillo Gianni]() | - |
+| [Dose Valerio]() | - |
+| [Facchinei Francisco]() | - |
+| [Farina Lorenzo]() | - |
+| [Farina Giovanni]() | - |
+| [Fazzone Adriano]() | - |
+| [Fiscon Giulia]() | - |
+| [Fraccascia Luca]() | - |
+| [Franchi Antonio]() | - |
+| [Furini Fabio]() | - |
+| [Fusco Federico]() | - |
+| [Galesi Nicola]() | - |
+| [Giuseppi Alessandro]() | - |
+| [Grisetti Giorgio]() | - |
+| [Iacoviello Daniela]() | - |
+| [Iocchi Luca]() | - |
+| [Isidori Alberto]() | - |
+| [Lanari Leonardo]() | - |
+| [Lazzeretti Riccardo]() | - |
+| [Lembo Domenico]() | - |
+| [Lenti Simone]() | - |
+| [Lenzerini Maurizio]() | - |
+| [Leonardi Stefano]() | - |
+| [Leotta Francesco]() | - |
+| [Liberati Francesco]() | - |
+| [Liberatore Paolo]() | - |
+| [Liuzzi Giampaolo]() | - |
+| [Lucidi Stefano]() | - |
+| [Marchetti-Spaccamela Alberto]() | - |
+| [Marrella Andrea]() | - |
+| [Marzano Riccardo]() | - |
+| [Matteucci Giorgio]() | - |
+| [Mattioni Mattia]() | - |
+| [Mecella Massimo]() | - |
+| [Meloni Carlo]() | - |
+| [Monaco Salvatore]() | - |
+| [Nanni Umberto]() | - |
+| [Napoli Christian]() | - |
+| [Nardi Daniele]() | - |
+| [Nastasi Alberto]() | - |
+| [Navigli Roberto]() | - |
+| [Nonino Fabio]() | - |
+| [Oriolo Giuseppe]() | - |
+| [Paci Paola]() | - |
+| [Palagi Laura]() | - |
+| [Palombi Giulia]() | - |
+| [Patrizi Fabio]() | - |
+| [Pereira Ramon Fraga]() | - |
+| [Petrioli Chiara]() | - |
+| [Petti Manuela]() | - |
+| [Piccialli Veronica]() | - |
+| [Pietrabissa Antonio]() | - |
+| [Poggi Antonella]() | - |
+| [Proietti Mattia Gabriele]() | - |
+| [Querzoni Leonardo]() | - |
+| [Reverberi Pierfrancesco]() | - |
+| [Roma Massimo]() | - |
+| [Rosati Riccardo]() | - |
+| [Russo Paolo]() | - |
+| [Sagratella Simone]() | - |
+| [Salzo Saverio]() | - |
+| [Santucci Giuseppe]() | - |
+| [Sassano Antonio]() | - |
+| [Scafoglieri Federico]() | - |
+| [Schaerf Marco]() | - |
+| [Scianca Nicola]() | - |
+| [Sciandrone Marco]() | - |
+| [Sestini Roberta]() | - |
+| [Silvestri Fabrizio]() | - |
+| [Temperini Marco]() | - |
+| [Toppi Jlenia]() | - |
+| [Trappolini Giovanni]() | - |
+| [Vendittelli Marilena]() | - |
+| [Vitaletti Andrea]() | - |
+
 
 ## FAQ 
 
