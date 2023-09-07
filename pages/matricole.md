@@ -85,7 +85,7 @@ La seconda scelta ricarde su **MacOS** (altro sistema basato su Unix), comodo pe
 
 In genere sconsigliamo Windows, però c'è da dire che non ci sono problemi ad usare Windows se ci installate [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) su cui ci appoggiate qualche distribuzione di Linux (come [Ubuntu](https://apps.microsoft.com/store/detail/ubuntu-22042-lts/9PN20MSR04DW?hl=it-it&gl=it&rtc=1)) così avete entrambi i sistemi contemboraneamente.
 
-#### Altro consigli (molto biased) 
+#### Altri consigli (molto biased) 
 
 [Imparate ad usare una tastiera](https://www.typingclub.com/) (ci spenderete tanto tempo, tanto vale la pena imparare ad usarla come si deve). Per *"usarala come si deve"* intendo che non avete bisogni di guardare la tastiera / pensare quando la usate), la velocità non conta tantissimo, anche se è un bel bonus.
 
