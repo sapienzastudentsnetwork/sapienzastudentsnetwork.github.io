@@ -29,7 +29,7 @@ Il terzo anno c'è un solo canale unificato.
 
 Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso, o [su questo stesso sito](./orari) appena saranno pubblicati), ma in linea di massima, quelli del primo anno hanno lezione tutti i giorni dalle 08:00 alle 13:00 (tranne il mercoledì, perché si fanno 3 ore di laboratorio). Il mercoledì, l'anno scorso, nel primo semestre il canale A-L aveva laboratorio di mattina, e il canale M-Z di pomeriggio. Il secondo semestre il contrario (A-L pomeriggio, M-Z mattina). 
 
-Il secondo hanno si fa lezione dalle 14:00 alle 19:00 💀 .
+Il secondo anno si fa lezione dalle 14:00 alle 19:00 💀 .
 
 Tendenzialmente le lezioni si fanno nell'[Edificio di Chimica "Vincenzo Caglioti"](https://www.uniroma1.it/sites/default/files/ACU032.pdf) Aula 1 (la prima a destra). Le lezioni di laboratorio si fanno in [via Tiburtina 205](https://web.uniroma1.it/i3s/node/8901)
 
@@ -58,7 +58,7 @@ Per quanto riguarda **tablet**, riporto qui una [discussione del gruppo Telegram
 - Secondo me se ne può fare a meno. Comodo ma non essenziale
 - Ero sciettico sui tablet, molto sciettico. ne acquistai uno per diversi motivi, da quasi subito mi ricredetti: tablet utilissimo non potrei farne a meno.
 
-    1. Prendo appunti molto piu velocemente, posso addirittura riorganizzarli rapidamente mentre il prof spiega (e io sono pure uno lento a scrivere) date le funzioni che i tablet hanno.
+    1. Prendo appunti molto piu velocemente, posso addirittura riorganizzarli rapidamente mentre il prof spiega (e io sono pure uno lento a scrivere) date le funzioni che i tablet anno.
     2. Se usi libri li scarichi in pdf e li hai sempre a portata.
     3. Se i professori proiettano le slide e non si vedono perche le lim fanno cagare: hai tutto sullo schermo a 10cm da te.
     4. Puoi scrivere appunti direttamente sulle slide dei professori.

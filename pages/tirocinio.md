@@ -17,7 +17,9 @@ permalink: tirocinio
 
 ## Tirocini e Professori
 
-| Prof. | - |
+Nome Cognome | Link Pagina professore sapienza | Link pagina docente | Ambito di ricerca
+
+| Professore | - |
 |-|:-:|
 | riga | - |
 

@@ -73,7 +73,7 @@ Gli esami hanno collegate le rispettive pagine dei corsi _(se presenti)_
 | Esame | Facoltà | CFU |
 |-|:-:|:-:|
 | AI Lab: Computer Vision and NLP | - | - |
-| Applicazioni Dell'Automatica| ? | - |
+| Applicazioni Dell'Automatica| - | - |
 | Automazione | - | - |
 | Basi Molecolari e Cellulari della Vita | - | - |
 | Biology of the Cell | - | - |
