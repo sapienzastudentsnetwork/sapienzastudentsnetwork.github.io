@@ -30,6 +30,10 @@ I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantagg
 
 **I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno di [SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot), in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
 
+### Affitti
+
+- [Sapienza Affitti](https://t.me/SapienzaAffittiGroup)
+
 ### Gruppi generali
 
 I gruppi generali sono quelli che riuniscono **tutti gli studenti** e le studentesse del corso, e sono utili per comunicazioni di carattere generale tra studenti e rappresentanti.
