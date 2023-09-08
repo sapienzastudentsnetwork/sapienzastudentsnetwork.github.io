@@ -24,56 +24,56 @@ permalink: tirocinio
 |-|-:|
 | [Bartolini Novella](https://corsidilaurea.uniroma1.it/it/users/novellabartoliniuniroma1it) | - |
 | [Bottoni Paolo](https://corsidilaurea.uniroma1.it/it/users/paologasparebottoniuniroma1it) | - |
-| [Calamoneri Tiziana]() | - |
-| [Chierichetti Flavio]() | - |
-| [Cinque Luigi]() | - |
-| [De Marsico Maria]() | - |
-| [Mancini Luigi Vincenzo]() | - |
-| [Mei Alessandro]() | - |
-| [Panconesi Alessandro]() | - |
-| [Rodolà Emanuele]() | - |
-| [Tronci Enrico]() | - |
-| [Velardi Paola]() | - |
-| [Venturi Daniele]() | - |
-| [Wollan Paul]() | - |
-| [Casalicchio Emiliano]() | - |
-| [Di Ciccio Claudio]() | - |
-| [Galasso Fabio]() | - |
-| [Gorla Daniele]() | - |
-| [Mancini Maurizio]() | - |
-| [Mancini Toni]() | - |
-| [Maselli Gaia]() | - |
-| [Masi Iacopo]() | - |
-| [Massini Annalisa]() | - |
+| [Calamoneri Tiziana](https://corsidilaurea.uniroma1.it/it/users/tizianacalamoneriuniroma1it) | - |
+| [Chierichetti Flavio](https://corsidilaurea.uniroma1.it/it/users/flaviochierichettiuniroma1it) | - |
+| [Cinque Luigi](https://corsidilaurea.uniroma1.it/it/users/luigicinqueuniroma1it) | - |
+| [De Marsico Maria](https://corsidilaurea.uniroma1.it/it/users/mariademarsicouniroma1it) | - |
+| [Mancini Luigi Vincenzo](https://corsidilaurea.uniroma1.it/it/users/luigimanciniuniroma1it) | - |
+| [Mei Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandromeiuniroma1it) | - |
+| [Panconesi Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandropanconesiuniroma1it) | - |
+| [Rodolà Emanuele](https://corsidilaurea.uniroma1.it/it/users/emanuelerodolauniroma1it) | - |
+| [Tronci Enrico](https://corsidilaurea.uniroma1.it/it/users/enricotronciuniroma1it) | - |
+| [Velardi Paola](https://corsidilaurea.uniroma1.it/it/users/paolavelardiuniroma1it) | - |
+| [Venturi Daniele](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it) | - |
+| [Wollan Paul](https://corsidilaurea.uniroma1.it/it/users/pauljosephwollanuniroma1it) | - |
+| [Casalicchio Emiliano](https://corsidilaurea.uniroma1.it/it/users/emilianocasalicchiouniroma1it) | - |
+| [Di Ciccio Claudio](https://corsidilaurea.uniroma1.it/it/users/claudiodicicciouniroma1it) | - |
+| [Galasso Fabio](https://corsidilaurea.uniroma1.it/it/users/fabiogalassouniroma1it) | - |
+| [Gorla Daniele](https://corsidilaurea.uniroma1.it/it/users/danielegorlauniroma1it) | - |
+| [Mancini Maurizio](https://corsidilaurea.uniroma1.it/it/users/mauriziomanciniuniroma1it) | - |
+| [Mancini Toni](https://corsidilaurea.uniroma1.it/it/users/tonimanciniuniroma1it) | - |
+| [Maselli Gaia](https://corsidilaurea.uniroma1.it/it/users/gaiamaselliuniroma1it) | - |
+| [Masi Iacopo](https://corsidilaurea.uniroma1.it/it/users/iacopomasiuniroma1it) | - |
+| [Massini Annalisa](https://corsidilaurea.uniroma1.it/it/users/annalisamassiniuniroma1it) | - |
 | [Monti Angelo](https://corsidilaurea.uniroma1.it/it/users/angelomontiuniroma1it) | - |
-| [Panizzi Emanuele]() | - |
-| [Piperno Adolfo]() | - |
-| [Quattrociocchi Walter]() | - |
-| [Salvo Ivano]() | - |
-| [Spognardi Angelo]() | - |
-| [Tolomei Gabriele]() | - |
-| [Zuliani Paolo ]() | - |
-| [Arrigoni Viviana]() | - |
-| [Avola Danilo]() | - |
-| [Cenciarelli Pietro]() | - |
-| [Checco Alessandro]() | - |
-| [Cinelli Matteo]() | - |
-| [De Agostino Sergio]() | - |
-| [De Gaspari Fabio]() | - |
-| [De Sensi Daniele]() | - |
-| [Faralli Stefano]() | - |
-| [Franceschini Gianni]() | - |
-| [Friolo Daniele]() | - |
-| [Hitaj Dorjan]() | - |
-| [Huynh Tony]() | - |
-| [La Morgia Massimo]() | - |
-| [Marini Marco Raoul]() | - |
-| [Pannone Daniele]() | - |
-| [Perelli Giuseppe]() | - |
-| [Persichetti Edoardo]() | - |
-| [Pontarelli Salvatore]() | - |
-| [Samory Mattia]() | - |
-| [Spinelli Indro]() | - |
+| [Panizzi Emanuele](https://corsidilaurea.uniroma1.it/it/users/emanuelepanizziuniroma1it) | - |
+| [Piperno Adolfo](https://corsidilaurea.uniroma1.it/it/users/adolfopipernouniroma1it) | - |
+| [Quattrociocchi Walter](https://corsidilaurea.uniroma1.it/it/users/walterquattrociocchiuniroma1it) | - |
+| [Salvo Ivano](https://corsidilaurea.uniroma1.it/it/users/ivanosalvouniroma1it) | - |
+| [Spognardi Angelo](https://corsidilaurea.uniroma1.it/it/users/angelospognardiuniroma1it) | - |
+| [Tolomei Gabriele](https://corsidilaurea.uniroma1.it/it/users/gabrieletolomeiuniroma1it) | - |
+| Zuliani Paolo | - |
+| Arrigoni Viviana | - |
+| [Avola Danilo](https://corsidilaurea.uniroma1.it/it/users/daniloavolauniroma1it) | - |
+| [Cenciarelli Pietro](https://corsidilaurea.uniroma1.it/it/users/pietrocenciarelliuniroma1it) | - |
+| [Checco Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandrocheccouniroma1it) | - |
+| [Cinelli Matteo](https://corsidilaurea.uniroma1.it/it/users/matteocinelliuniroma1it) | - |
+| [De Agostino Sergio](https://corsidilaurea.uniroma1.it/it/users/sergiodeagostinouniroma1it) | - |
+| [De Gaspari Fabio](https://corsidilaurea.uniroma1.it/it/users/fabiodegaspariuniroma1it) | - |
+| [De Sensi Daniele](https://corsidilaurea.uniroma1.it/it/users/danieledesensiuniroma1it) | - |
+| [Faralli Stefano](https://corsidilaurea.uniroma1.it/it/users/stefanofaralliuniroma1it) | - |
+| [Franceschini Gianni](https://corsidilaurea.uniroma1.it/it/users/giannifranceschiniuniroma1it) | - |
+| [Friolo Daniele](https://corsidilaurea.uniroma1.it/it/users/danielefriolouniroma1it) | - |
+| [Hitaj Dorjan](https://corsidilaurea.uniroma1.it/it/users/dorjanhitajuniroma1it) | - |
+| Huynh Tony | - |
+| [La Morgia Massimo](https://corsidilaurea.uniroma1.it/it/users/massimolamorgiauniroma1it) | - |
+| [Marini Marco Raoul](https://corsidilaurea.uniroma1.it/it/users/marcoraoulmariniuniroma1it) | - |
+| [Pannone Daniele](https://corsidilaurea.uniroma1.it/it/users/danielepannoneuniroma1it) | - |
+| [Perelli Giuseppe](https://corsidilaurea.uniroma1.it/it/users/giuseppeperelliuniroma1it) | - |
+| [Persichetti Edoardo](https://corsidilaurea.uniroma1.it/it/users/edoardopersichettiuniroma1it) | - |
+| [Pontarelli Salvatore](https://corsidilaurea.uniroma1.it/it/users/salvatorepontarelliuniroma1it) | - |
+| [Samory Mattia](https://corsidilaurea.uniroma1.it/it/users/mattiasamoryuniroma1it) | - |
+| Spinelli Indro | - |
 | [Sterbini Andrea](https://corsidilaurea.uniroma1.it/it/users/andreasterbiniuniroma1it) | E-Learning, algoritmi, modellazione bayesiana del peer-assessment |
 
 
@@ -83,126 +83,126 @@ permalink: tirocinio
 
 | Docente | Argomenti di ricerca |
 |-|-:|
-| [Agostinelli Simone]() | - |
-| [Amerini Irene]() | - |
-| [Anagnostopoulos Aris]() | - |
-| [Angelini Marco]() | - |
-| [Annarelli Alessandro]() | - |
-| [Arico' Pietro]() | - |
-| [Astolfi Laura]() | - |
-| [Ausiello Giorgio]() | - |
-| [Avenali Alessandro]() | - |
-| [Barba Edoardo]() | - |
-| [Battilotti Stefano]() | - |
-| [Becchetti Luca]() | - |
-| [Benvenuti Luca]() | - |
-| [Beraldi Roberto]() | - |
-| [Bonomi Silvia]() | - |
-| [Bruni Renato]() | - |
-| [Califano Claudia]() | - |
-| [Carlucci Aiello Luigia]() | - |
-| [Catalano Giuseppe]() | - |
-| [Catarci Tiziana]() | - |
-| [Chatzigiannakis Ioannis]() | - |
-| [Ciarfuglia Thomas Alessandro]() | - |
-| [Cima Gianluca]() | - |
-| [Cincotti Febo]() | - |
-| [Colabianchi Silvia]() | - |
-| [Colamarino Emma]() | - |
-| [Console Marco]() | - |
-| [Conti Chiara]() | - |
-| [Coppa Emilio]() | - |
-| [Costantino Francesco]() | - |
-| [Cristofaro Andrea]() | - |
-| [D'Adamo Idiano]() | - |
-| [D'Alfonso Tiziana]() | - |
-| [D'Amore Fabrizio]() | - |
-| [D'Elia Daniele Cono]() | - |
-| [Daraio Cinzia]() | - |
-| [De Giacomo Giuseppe]() | - |
-| [De Luca Alessandro]() | - |
-| [De Santis Emanuele]() | - |
-| [De Santis Marianna]() | - |
-| [De Santis Alberto]() | - |
-| [Delli Priscoli Francesco]() | - |
-| [Di Giamberardino Paolo]() | - |
-| [Di Giorgio Alessandro]() | - |
-| [Di Luna Giuseppe Antonio]() | - |
-| [Di Pillo Francesca]() | - |
-| [Di Pillo Gianni]() | - |
-| [Dose Valerio]() | - |
-| [Facchinei Francisco]() | - |
-| [Farina Lorenzo]() | - |
-| [Farina Giovanni]() | - |
-| [Fazzone Adriano]() | - |
-| [Fiscon Giulia]() | - |
-| [Fraccascia Luca]() | - |
-| [Franchi Antonio]() | - |
-| [Furini Fabio]() | - |
-| [Fusco Federico]() | - |
-| [Galesi Nicola]() | - |
-| [Giuseppi Alessandro]() | - |
-| [Grisetti Giorgio]() | - |
-| [Iacoviello Daniela]() | - |
-| [Iocchi Luca]() | - |
-| [Isidori Alberto]() | - |
-| [Lanari Leonardo]() | - |
-| [Lazzeretti Riccardo]() | - |
-| [Lembo Domenico]() | - |
-| [Lenti Simone]() | - |
-| [Lenzerini Maurizio]() | - |
-| [Leonardi Stefano]() | - |
-| [Leotta Francesco]() | - |
-| [Liberati Francesco]() | - |
-| [Liberatore Paolo]() | - |
-| [Liuzzi Giampaolo]() | - |
-| [Lucidi Stefano]() | - |
-| [Marchetti-Spaccamela Alberto]() | - |
-| [Marrella Andrea]() | - |
-| [Marzano Riccardo]() | - |
-| [Matteucci Giorgio]() | - |
-| [Mattioni Mattia]() | - |
-| [Mecella Massimo]() | - |
-| [Meloni Carlo]() | - |
-| [Monaco Salvatore]() | - |
-| [Nanni Umberto]() | - |
-| [Napoli Christian]() | - |
-| [Nardi Daniele]() | - |
-| [Nastasi Alberto]() | - |
-| [Navigli Roberto]() | - |
-| [Nonino Fabio]() | - |
-| [Oriolo Giuseppe]() | - |
-| [Paci Paola]() | - |
-| [Palagi Laura]() | - |
-| [Palombi Giulia]() | - |
-| [Patrizi Fabio]() | - |
-| [Pereira Ramon Fraga]() | - |
-| [Petrioli Chiara]() | - |
-| [Petti Manuela]() | - |
-| [Piccialli Veronica]() | - |
-| [Pietrabissa Antonio]() | - |
-| [Poggi Antonella]() | - |
-| [Proietti Mattia Gabriele]() | - |
-| [Querzoni Leonardo]() | - |
-| [Reverberi Pierfrancesco]() | - |
-| [Roma Massimo]() | - |
-| [Rosati Riccardo]() | - |
-| [Russo Paolo]() | - |
-| [Sagratella Simone]() | - |
-| [Salzo Saverio]() | - |
-| [Santucci Giuseppe]() | - |
-| [Sassano Antonio]() | - |
-| [Scafoglieri Federico]() | - |
-| [Schaerf Marco]() | - |
-| [Scianca Nicola]() | - |
-| [Sciandrone Marco]() | - |
-| [Sestini Roberta]() | - |
-| [Silvestri Fabrizio]() | - |
-| [Temperini Marco]() | - |
-| [Toppi Jlenia]() | - |
-| [Trappolini Giovanni]() | - |
-| [Vendittelli Marilena]() | - |
-| [Vitaletti Andrea]() | - |
+| Agostinelli Simone | - |
+| [Amerini Irene](https://corsidilaurea.uniroma1.it/it/users/ireneameriniuniroma1it) | - |
+| [Anagnostopoulos Aris](https://corsidilaurea.uniroma1.it/it/users/arisanagnostopoulosuniroma1it) | - |
+| [Angelini Marco](https://corsidilaurea.uniroma1.it/it/users/marcoangeliniuniroma1it) | - |
+| [Annarelli Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandroannarelliuniroma1it) | - |
+| Arico' Pietro | - |
+| [Astolfi Laura](https://corsidilaurea.uniroma1.it/it/users/lauraastolfiuniroma1it) | - |
+| Ausiello Giorgio | - |
+| [Avenali Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandroavenaliuniroma1it) | - |
+| Barba Edoardo | - |
+| [Battilotti Stefano](https://corsidilaurea.uniroma1.it/it/users/stefanobattilottiuniroma1it) | - |
+| [Becchetti Luca](https://corsidilaurea.uniroma1.it/it/users/lucabecchettiuniroma1it) | - |
+| [Benvenuti Luca](https://corsidilaurea.uniroma1.it/it/users/lucabenvenutiuniroma1it) | - |
+| [Beraldi Roberto](https://corsidilaurea.uniroma1.it/it/users/robertoberaldiuniroma1it) | - |
+| [Bonomi Silvia](https://corsidilaurea.uniroma1.it/it/users/silviabonomiuniroma1it) | - |
+| [Bruni Renato](https://corsidilaurea.uniroma1.it/it/users/renatobruniuniroma1it) | - |
+| [Califano Claudia](https://corsidilaurea.uniroma1.it/it/users/claudiacalifanouniroma1it) | - |
+| Carlucci Aiello Luigia | - |
+| [Catalano Giuseppe](https://corsidilaurea.uniroma1.it/it/users/giuseppecatalano1uniroma1it) | - |
+| [Catarci Tiziana](https://corsidilaurea.uniroma1.it/it/users/tizianacatarciuniroma1it) | - |
+| [Chatzigiannakis Ioannis](https://corsidilaurea.uniroma1.it/it/users/ioannischatzigiannakisuniroma1it) | - |
+| [Ciarfuglia Thomas Alessandro](https://corsidilaurea.uniroma1.it/it/users/thomasciarfugliauniroma1it) | - |
+| [Cima Gianluca](https://corsidilaurea.uniroma1.it/it/users/gianlucacimauniroma1it) | - |
+| [Cincotti Febo](https://corsidilaurea.uniroma1.it/it/users/febocincottiuniroma1it) | - |
+| Colabianchi Silvia | - |
+| [Colamarino Emma](https://corsidilaurea.uniroma1.it/it/users/emmacolamarinouniroma1it) | - |
+| [Console Marco](https://corsidilaurea.uniroma1.it/it/users/marcoconsoleuniroma1it) | - |
+| [Conti Chiara](https://corsidilaurea.uniroma1.it/it/users/chiaracontiuniroma1it) | - |
+| [Coppa Emilio](https://corsidilaurea.uniroma1.it/it/users/emiliocoppauniroma1it) | - |
+| [Costantino Francesco](https://corsidilaurea.uniroma1.it/it/users/fcostantinouniroma1it) | - |
+| [Cristofaro Andrea](https://corsidilaurea.uniroma1.it/it/users/andreacristofarouniroma1it) | - |
+| [D'Adamo Idiano](https://corsidilaurea.uniroma1.it/it/users/idianodadamouniroma1it) | - |
+| [D'Alfonso Tiziana](https://corsidilaurea.uniroma1.it/it/users/tizianadalfonsouniroma1it) | - |
+| [D'Amore Fabrizio](https://corsidilaurea.uniroma1.it/it/users/fabriziodamoreuniroma1it) | - |
+| [D'Elia Daniele Cono](https://corsidilaurea.uniroma1.it/it/users/danieleconodeliauniroma1it) | - |
+| [Daraio Cinzia](https://corsidilaurea.uniroma1.it/it/users/cinziadaraiouniroma1it) | - |
+| [De Giacomo Giuseppe](https://corsidilaurea.uniroma1.it/it/users/giuseppedegiacomouniroma1it) | - |
+| [De Luca Alessandro](https://corsidilaurea.uniroma1.it/it/users/adelucauniroma1it) | - |
+| De Santis Emanuele | - |
+| [De Santis Marianna](https://corsidilaurea.uniroma1.it/it/users/mariannadesantisuniroma1it) | - |
+| [De Santis Alberto](https://corsidilaurea.uniroma1.it/it/users/albertodesantisuniroma1it) | - |
+| [Delli Priscoli Francesco](https://corsidilaurea.uniroma1.it/it/users/francescodellipriscoliuniroma1it) | - |
+| [Di Giamberardino Paolo](https://corsidilaurea.uniroma1.it/it/users/paolodigiamberardinouniroma1it) | - |
+| [Di Giorgio Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandrodigiorgiouniroma1it) | - |
+| [Di Luna Giuseppe Antonio](https://corsidilaurea.uniroma1.it/it/users/giuseppeantoniodilunauniroma1it) | - |
+| [Di Pillo Francesca](https://corsidilaurea.uniroma1.it/it/users/francescadipillouniroma1it) | - |
+| Di Pillo Gianni | - |
+| [Dose Valerio](https://corsidilaurea.uniroma1.it/it/users/valeriodoseuniroma1it) | - |
+| [Facchinei Francisco](https://corsidilaurea.uniroma1.it/it/users/franciscofacchineiuniroma1it) | - |
+| [Farina Lorenzo](https://corsidilaurea.uniroma1.it/it/users/lorenzofarinauniroma1it) | - |
+| [Farina Giovanni](https://corsidilaurea.uniroma1.it/it/users/giovannifarinauniroma1it) | - |
+| [Fazzone Adriano](https://corsidilaurea.uniroma1.it/it/users/adrianofazzoneuniroma1it) | - |
+| [Fiscon Giulia](https://corsidilaurea.uniroma1.it/it/users/giuliafisconuniroma1it) | - |
+| [Fraccascia Luca](https://corsidilaurea.uniroma1.it/it/users/lucafraccasciauniroma1it) | - |
+| [Franchi Antonio](https://corsidilaurea.uniroma1.it/it/users/antoniofranchittouniroma1it) | - |
+| [Furini Fabio](https://corsidilaurea.uniroma1.it/it/users/fabiofuriniuniroma1it) | - |
+| [Fusco Federico](https://corsidilaurea.uniroma1.it/it/users/federicofuscouniroma1it) | - |
+| [Galesi Nicola](https://corsidilaurea.uniroma1.it/it/users/nicolagalesiuniroma1it) | - |
+| [Giuseppi Alessandro](https://corsidilaurea.uniroma1.it/it/users/alessandrogiuseppiuniroma1it) | - |
+| [Grisetti Giorgio](https://corsidilaurea.uniroma1.it/it/users/giorgiogrisettiuniroma1it) | - |
+| [Iacoviello Daniela](https://corsidilaurea.uniroma1.it/it/users/danielaiacoviellouniroma1it) | - |
+| [Iocchi Luca](https://corsidilaurea.uniroma1.it/it/users/lucaiocchiuniroma1it) | - |
+| [Isidori Alberto](https://corsidilaurea.uniroma1.it/it/users/albertoisidoriuniroma1it) | - |
+| [Lanari Leonardo](https://corsidilaurea.uniroma1.it/it/users/leonardolanariuniroma1it) | - |
+| [Lazzeretti Riccardo](https://corsidilaurea.uniroma1.it/it/users/riccardolazzerettiuniroma1it) | - |
+| [Lembo Domenico](https://corsidilaurea.uniroma1.it/it/users/domenicolembouniroma1it) | - |
+| [Lenti Simone](https://corsidilaurea.uniroma1.it/it/users/simonelentiuniroma1it) | - |
+| [Lenzerini Maurizio](https://corsidilaurea.uniroma1.it/it/users/mauriziolenzeriniuniroma1it) | - |
+| [Leonardi Stefano](https://corsidilaurea.uniroma1.it/it/users/stefanoleonardiuniroma1it) | - |
+| [Leotta Francesco](https://corsidilaurea.uniroma1.it/it/users/francescoleottauniroma1it) | - |
+| [Liberati Francesco](https://corsidilaurea.uniroma1.it/it/users/francescoliberatiuniroma1it) | - |
+| [Liberatore Paolo](https://corsidilaurea.uniroma1.it/it/users/paololiberatoreuniroma1it) | - |
+| [Liuzzi Giampaolo](https://corsidilaurea.uniroma1.it/it/users/giampaololiuzziuniroma1it) | - |
+| [Lucidi Stefano](https://corsidilaurea.uniroma1.it/it/users/slucidiuniroma1it) | - |
+| Marchetti-Spaccamela Alberto | - |
+| [Marrella Andrea](https://corsidilaurea.uniroma1.it/it/users/andreamarrellauniroma1it) | - |
+| [Marzano Riccardo](https://corsidilaurea.uniroma1.it/it/users/riccardomarzanouniroma1it) | - |
+| [Matteucci Giorgio](https://corsidilaurea.uniroma1.it/it/users/giorgiomatteucciuniroma1it) | - |
+| [Mattioni Mattia](https://corsidilaurea.uniroma1.it/it/users/mattiamattioniuniroma1it) | - |
+| [Mecella Massimo](https://corsidilaurea.uniroma1.it/it/users/massimomecellauniroma1it) | - |
+| [Meloni Carlo](https://corsidilaurea.uniroma1.it/it/users/carlomeloniuniroma1it) | - |
+| [Monaco Salvatore](https://corsidilaurea.uniroma1.it/it/users/salvatoremonacouniroma1it) | - |
+| [Nanni Umberto](https://corsidilaurea.uniroma1.it/it/users/umbertonanniuniroma1it) | - |
+| [Napoli Christian](https://corsidilaurea.uniroma1.it/it/users/cnapoliuniroma1it) | - |
+| [Nardi Daniele](https://corsidilaurea.uniroma1.it/it/users/danielenardiuniroma1it) | - |
+| [Nastasi Alberto](https://corsidilaurea.uniroma1.it/it/users/albertonastasiuniroma1it) | - |
+| [Navigli Roberto](https://corsidilaurea.uniroma1.it/it/users/robertonavigliuniroma1it) | - |
+| [Nonino Fabio](https://corsidilaurea.uniroma1.it/it/users/fabiononinouniroma1it) | - |
+| [Oriolo Giuseppe](https://corsidilaurea.uniroma1.it/it/users/giuseppeoriolouniroma1it) | - |
+| [Paci Paola](https://corsidilaurea.uniroma1.it/it/users/paolapaciuniroma1it) | - |
+| [Palagi Laura](https://corsidilaurea.uniroma1.it/it/users/laurapalagiuniroma1it) | - |
+| [Palombi Giulia](https://corsidilaurea.uniroma1.it/it/users/giuliapalombiuniroma1it) | - |
+| [Patrizi Fabio](https://corsidilaurea.uniroma1.it/it/users/fabiopatriziuniroma1it) | - |
+| Pereira Ramon Fraga | - |
+| [Petrioli Chiara](https://corsidilaurea.uniroma1.it/it/users/chiarapetrioliuniroma1it) | - |
+| [Petti Manuela](https://corsidilaurea.uniroma1.it/it/users/manuelapettiuniroma1it) | - |
+| [Piccialli Veronica](https://corsidilaurea.uniroma1.it/it/users/veronicapiccialliuniroma1it) | - |
+| [Pietrabissa Antonio](https://corsidilaurea.uniroma1.it/it/users/antoniopietrabissauniroma1it) | - |
+| [Poggi Antonella](https://corsidilaurea.uniroma1.it/it/users/antonellapoggiuniroma1it) | - |
+| [Proietti Mattia Gabriele](https://corsidilaurea.uniroma1.it/it/users/gabrieleproiettimattiauniroma1it) | - |
+| [Querzoni Leonardo](https://corsidilaurea.uniroma1.it/it/users/leonardoquerzoniuniroma1it) | - |
+| [Reverberi Pierfrancesco](https://corsidilaurea.uniroma1.it/it/users/pierfrancescoreverberiuniroma1it) | - |
+| [Roma Massimo](https://corsidilaurea.uniroma1.it/it/users/massimoromauniroma1it) | - |
+| [Rosati Riccardo](https://corsidilaurea.uniroma1.it/it/users/riccardorosatiuniroma1it) | - |
+| [Russo Paolo](https://corsidilaurea.uniroma1.it/it/users/paolorussouniroma1it) | - |
+| [Sagratella Simone](https://corsidilaurea.uniroma1.it/it/users/simonesagratellauniroma1it) | - |
+| [Salzo Saverio](https://corsidilaurea.uniroma1.it/it/users/saveriosalzouniroma1it) | - |
+| [Santucci Giuseppe](https://corsidilaurea.uniroma1.it/it/users/giuseppesantucciuniroma1it) | - |
+| [Sassano Antonio](https://corsidilaurea.uniroma1.it/it/users/antoniosassanouniroma1it) | - |
+| [Scafoglieri Federico](https://corsidilaurea.uniroma1.it/it/users/federicoscafoglieriuniroma1it) | - |
+| [Schaerf Marco](https://corsidilaurea.uniroma1.it/it/users/marcoschaerfuniroma1it) | - |
+| Scianca Nicola | - |
+| [Sciandrone Marco](https://corsidilaurea.uniroma1.it/it/users/marcosciandroneuniroma1it) | - |
+| [Sestini Roberta](https://corsidilaurea.uniroma1.it/it/users/robertasestiniuniroma1it) | - |
+| [Silvestri Fabrizio](https://corsidilaurea.uniroma1.it/it/users/fabriziosilvestriuniroma1it) | - |
+| [Temperini Marco](https://corsidilaurea.uniroma1.it/it/users/marcotemperiniuniroma1it) | - |
+| [Toppi Jlenia](https://corsidilaurea.uniroma1.it/it/users/jleniatoppiuniroma1it) | - |
+| Trappolini Giovanni | - |
+| [Vendittelli Marilena](https://corsidilaurea.uniroma1.it/it/users/marilenavendittelliuniroma1it) | - |
+| [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
 
 ## FAQ 
