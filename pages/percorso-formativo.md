@@ -41,14 +41,14 @@ Gli esami hanno collegate le rispettive pagine dei corsi _(se presenti)_
 ### Esami Obbligatori
 
 | Esame | CFU |
-|-|:-:|
+|-|-:|
 | [Ingegneria Del Software](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/6543ae72-79ee-4d09-be79-43786792f287?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) | 6 |
 | [Automi, Calcolabilità e Complessità](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/8bcc378c-9ff1-4263-87b7-04a394485a9f?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) | 6 |
 
 ### Esami Informatica
 
 | Esame | CFU |
-|-|:-:|
+|-|-:|
 | Linguaggi di Programmazione | 6 |
 | Programmazione di Sistemi Embedded e Multicore | 6 |
 | Intelligenza Artificiale | 6 |
@@ -71,7 +71,7 @@ Gli esami hanno collegate le rispettive pagine dei corsi _(se presenti)_
 ### Esami Esterni
 
 | Esame | Facoltà | CFU |
-|-|:-:|:-:|
+|-|:-:|-:|
 | AI Lab: Computer Vision and NLP | - | - |
 | Applicazioni Dell'Automatica| - | - |
 | Automazione | - | - |

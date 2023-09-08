@@ -12,7 +12,6 @@ permalink: gruppi
 <!--   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"> -->
 <!--   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"> -->
 <!-- </p> -->
-<!-- La seguente pagina contiene i link ai gruppi di comunicazione come **WhatsApp**, **Telegram** e **Discord** per ogni insegnamento della laurea triennale in Informatica e per i gruppi generali di ogni Anno Accademico. -->
 
 Qui trovi i link a gruppi **WhatsApp**, **Telegram** e server **Discord** per la Laurea Triennale in **Informatica**
 
@@ -42,32 +41,20 @@ I gruppi generali sono quelli che riuniscono **tutti gli studenti** e le student
 
 I gruppi generali su Telegram esistono da diversi anni, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
 
-<!-- I gruppi generali su Telegram esistono da diversi anni e riuniscono tutti gli studenti e le studentesse  -->
-<!-- (il gruppo in presenza è **unico**, non è separato per canali) -->
-<!-- in particolare, nel caso del gruppo della triennale in presenza, sia gli studenti e le studentesse del canale A/L sia gli studenti e le studentesse del canale M/Z -->
-<!-- | Descrizione | Link | -->
-<!-- | :- | :-: | -->
-
 - [In presenza (unico)](https://t.me/sapienzainformatica)
 - [Da remoto (Teledidattica - Unitelma)](https://t.me/InformaticaSapienzaTeledidattica)
-- [Matricole A/L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
-- [Matricole M/Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
+- [Matricole A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
+- [Matricole M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
 
 #### WhatsApp
 
 I gruppi generali su WhatsApp sono gestiti da un'**associazione studentesca**, sono suddivisi per **canale** e ne viene creato uno nuovo ogni anno accademico per le **matricole**. Hanno molti meno membri (essendo più specifici), sono (auspicabilmente) più monitorati dai **rappresentati**, e non sono apolitici.
 
-<!-- I gruppi generali su WhatsApp sono gestiti da un'**associazione studentesca**, sono suddivisi per **canale** e ne viene creato uno nuovo ogni anno accademico per le **matricole**. Rispetto ai gruppi Telegram non godono quindi di apoliticità e di una platea molto più ampia di membri (quelli di tutti i canali e di tutti gli anni accademici) ma sono più specifici e auspicabilmente più monitorati dai rappresentanti per eventuali dubbi di rappresentanza. -->
-
 I gruppi **WhatsApp** per le **matricole 2023/2024**:
 
-- [Informatica A/L](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) 
-- [Informatica M/Z](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO)
-- [Computer Science](https://chat.whatsapp.com/HyHzjj4ypC6BghNiTSukIQ) 
-- [Cybersecurity]( https://chat.whatsapp.com/HGqjF3YPYIq8sjMNEcZi7A)
-- [ACSAI](https://chat.whatsapp.com/H4XKATjNMqxIhauBHv2JGI)
+- [Informatica A-L](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) 
+- [Informatica M-Z](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO)
 
-Trovate altri gruppi WhatsApp sul sito per le [matricole](https://sites.google.com/uniroma1.it/matricolesapienza/home-page?authuser=0)
 <!-- | Anno | Canale A-L | Canale M-Z | Gruppo Unico | -->
 <!-- | :--- | :--------: | :--------: | -->
 <!-- | 2023-2024 | [Link](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) | [Link](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO) | - | -->
@@ -79,49 +66,36 @@ Trovate altri gruppi WhatsApp sul sito per le [matricole](https://sites.google.c
 
 #### Primo Anno
 
+##### Primo Semestre
+
 - [Calcolo Differenziale](https://t.me/+Cw_63BoRvE03YmM0)
 - [Fondamenti di Programmazione](https://t.me/+NQ8H6iLHOIIwMzM0)
 - [Metodi Matematici per l'Informatica](https://t.me/+m_-WkFEmQzdmZDZk)
 - [Progettazione di Sistemi Digitali](https://t.me/+hr9OFwWWGCZhODU0)
+
+##### Secondo Semestre
+
 - [Architettura degli Elaboratori](https://t.me/+2PAqwS4raLY4N2U0)
 - [Calcolo Integrale](https://t.me/+lnnFbmFQNNBjNGRk)
 - [Introduzione agli Algoritmi](https://t.me/+wJY633Yc1pUxMjk0)
 - [Lingua Inglese](https://t.me/+clLwVwTLUHk3YzM0)
 - [Metodologie di Programmazione](https://t.me/+8iyKxeRgfXtmY2Y0)
 
-<!-- | Insegnamento | Gruppo |  -->
-<!-- | :- | :-: | -->
-<!-- | Calcolo Differenziale | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) | -->
-<!-- | Fondamenti di Programmazione | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) | -->
-<!-- | Metodi Matematici per l'Informatica | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) | -->
-<!-- | Progettazione di Sistemi Digitali | [Telegram](https://t.me/+hr9OFwWWGCZhODU0) | -->
-<!-- | Architettura degli Elaboratori | [Telegram](https://t.me/+2PAqwS4raLY4N2U0) | -->
-<!-- | Calcolo Integrale | [Telegram](https://t.me/+lnnFbmFQNNBjNGRk) | -->
-<!-- | Introduzione agli Algoritmi | [Telegram](https://t.me/+wJY633Yc1pUxMjk0) | -->
-<!-- | Lingua Inglese | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) | -->
-<!-- | Metodologie di Programmazione | [Telegram](https://t.me/+8iyKxeRgfXtmY2Y0) | -->
-
 #### Secondo Anno
+
+##### Primo Semestre
 
 - [Algebra](https://t.me/+798mXLThj_JmYTBk)
 - [Basi di Dati 1](https://t.me/+eRVplF3Va3dlNDJk)
 - [Calcolo delle Probabilità](https://t.me/+Dq6lPczRbJtmNmVk)
 - [Sistemi Operativi 1](https://t.me/+oF0ppISY8EFmOTZk)
+
+##### Secondo Semestre
+
 - [Basi di Dati 2](https://t.me/+xTuUWRfneSwwMjBk)
 - [Progettazione di Algoritmi](https://t.me/+qtCCTLlBW4pjY2Jk)
 - [Reti di Elaboratori](https://t.me/+vNSkWJUgs9Y1MzFk)
 - [Sistemi Operativi 2](https://t.me/+PzNOzkmwVio4Nzg0)
-
-<!-- | Insegnamento | Gruppo | -->
-<!-- | :- | :-: | -->
-<!-- | Algebra | [Telegram](https://t.me/+798mXLThj_JmYTBk) | -->
-<!-- | Basi di Dati 1 | [Telegram](https://t.me/+eRVplF3Va3dlNDJk) | -->
-<!-- | Calcolo delle Probabilità | [Telegram](https://t.me/+Dq6lPczRbJtmNmVk) | -->
-<!-- | Sistemi Operativi 1 | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) | -->
-<!-- | Basi di Dati 2 | [Telegram](https://t.me/+xTuUWRfneSwwMjBk) | -->
-<!-- | Progettazione di Algoritmi &emsp; &emsp; &emsp; &emsp; | [Telegram](https://t.me/+qtCCTLlBW4pjY2Jk) | -->
-<!-- | Reti di Elaboratori| [Telegram](https://t.me/+vNSkWJUgs9Y1MzFk) | -->
-<!-- | Sistemi Operativi 2 | [Telegram](https://t.me/+PzNOzkmwVio4Nzg0) | -->
 
 #### Terzo Anno
 
@@ -137,9 +111,6 @@ Il terzo anno è a **canale unificato**, non è suddiviso in canali A-L e M-Z. P
 | Automi, Calcolabilità e Complessità | [Telegram](https://t.me/+u6hEDMJqXsNhZjk0) | [Telegram](https://t.me/+cyF-V6dnurcyNGQ0) |
 
 ##### Insegnamenti a scelta
-
-<!-- | Insegnamento | Gruppo unico | -->
-<!-- | :----------: | :----------: | -->
 
 - [Interazione Uomo Macchina](https://t.me/+SH7YpeAP-WpNXCC_)
 - [Programmazione Web](https://t.me/+SNkXYOYD8edMJ4TS)
@@ -164,16 +135,6 @@ Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel [Bot Teleg
 
 ## Server Discord
 
-Il server di **Teledidattica** è particolarmente attivo.
-
 - [A-L (primo e secondo anno)](https://discord.gg/QEzjgwnjTp) 
 - [M-Z (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
-- [Terzo Anno + Teledidattica](https://discord.gg/Wg94weSeq3)
-
-<!-- La seguente tabella contiene link ai Server Discord di ogni anno e canale -->
-<!-- I link ai Server Discord -->
-<!-- | Canale | Canale A/L | Canale M/Z | Teledidattica | -->
-<!-- | :----: | :--------: | :--------: | :-----------: | -->
-<!-- | 1° anno | [UNISCITI](https://discord.gg/QEzjgwnjTp) | [UNISCITI](https://discord.gg/APKFM5V5ed) | — | -->
-<!-- | 2° anno | [UNISCITI](https://discord.gg/QEzjgwnjTp) | [UNISCITI](https://discord.gg/APKFM5V5ed) | — | -->
-<!-- | 3° anno | [UNISCITI](https://discord.gg/Wg94weSeq3) | [UNISCITI](https://discord.gg/Wg94weSeq3) | [UNISCITI](https://discord.gg/Wg94weSeq3) | -->
+- [Terzo Anno](https://discord.gg/Wg94weSeq3)

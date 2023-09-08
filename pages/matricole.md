@@ -92,7 +92,11 @@ In genere sconsigliamo Windows, però c'è da dire che non ci sono problemi ad u
 Usate una tastiera con [layout americano](https://miamioh.edu/cas/centers-institutes/interactive-language-resource-center/tech-support/_images/us-intl-keyboard-1.png)
 - Ci sono simboli che vi servono quando programmate, ma sul layout italiano non ci sono (\` e ~)
 - Alcuni tasti (;:<>[]{}@/) che sono usati in maniera estremamente frequente quando si programma sono posizionati in maniera molto più comoda e richiedono meno combinazioni di tasti
-    
+
+
+## Trasferimenti
+
+Ti vuoi trasferire da un'altra università? Qui è spiegato come fare!
 
 
 ## FAQ 
