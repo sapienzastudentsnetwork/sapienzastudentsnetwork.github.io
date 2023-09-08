@@ -96,7 +96,23 @@ Usate una tastiera con [layout americano](https://miamioh.edu/cas/centers-instit
 
 ## Trasferimenti
 
-Ti vuoi trasferire da un'altra università? Qui è spiegato come fare!
+Ringrazio [Marco Mazzella](https://github.com/Warcophyr) per aver raccolto queste informazioni.
+
+### Trasferimento verso un'altro ateneo
+
+Per prima cosa è necessario registrarsi su [InfoStud](https://www.uniroma1.it/it/pagina-strutturale/studenti) è salvarsi la **matricola** generata. Il trasferimento può essere effettuato dal secondo anno accademico se si hanno almeno 30 cfu convalidabili e validi per l’ammissione agli anni successivi al primo per verificare ciò va inviata a questa email [cdlinformatica@uniroma1.it](mailto:cdlinformatica@uniroma1.it)
+l'allegato presente in [questa pagina](https://www.uniroma1.it/it/pagina/segreteria-di-ingegneria-dellinformazione-informatica-e-statistica) non oltre il 31 ottobre (questo per non dover risostenere la prova TOLC-I).
+
+Soltanto dopo la risposta di valutazione positiva ricevuta tramite mail, gli studenti interessati devono chiedere la generazione del bollettino della prima rata contattando la Segreteria amministrativa studenti all’indirizzo [segrstudenti.i3s@uniroma1.it](mailto:segrstudenti.i3s@uniroma1.it). Soltanto dopo la risposta di valutazione positiva ricevuta tramite mail vi sono altri due passaggi da effettuare.
+
+### Trasferimento in uscita
+
+Dall'università dove siete al momento immatricolati va fatta la richiesta di **trasferimento in uscita** ovvero: vanno compilati e consegnati i fogli all'università dove
+vi trovate indicando l'intenzione di effettuare il trasferimento ad un altro ateneo, e vi sarà da pagare un bollettino.
+
+### Trasferimento in entrata
+
+Dalla pagina della sapienza [Modulistica studenti](https://www.uniroma1.it/it/pagina/modulistica-studenti) compilare il modulo “Trasferimento da altro ateneo” che va inviato alla seguente email [segrstudenti.i3s@uniroma1.it](mailto:segrstudenti.i3s@uniroma1.it) insieme alla richiesta di trasferimento in uscita che avevate effettuato ed il bollettino pagato e la matricola ottenuta dalla registrazione di InfoStud e chiedere la generazione del bollettino della prima rata.
 
 
 ## FAQ 

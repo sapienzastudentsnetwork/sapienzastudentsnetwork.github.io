@@ -35,6 +35,26 @@ Non sempre è così, ad esempio se c'è già un contatto diretto preesistente tr
 12. Deve essere tutto inviato alla segreteria attraverso il form Google, assieme ad altri moduli che devi consegnare. Il cronogramma contiene tutto, appena avranno finito la transizione dal vecchio sito studiareinformatica
 13. Finalmente inizi. Per sicurezza, chiedi al prof. Gorla se è tutto ok
 
+### Documenti
+
+Documenti per compilare la domanda di tirocinio:
+
+* Assegnazione di tirocinio
+* Autorizzazione al trattamento dei dati personali (potrebbe non essere aggiornato, sul sito non è più presente e questa copia risale a Febbraio 2023)
+* Controllo anti-plagio
+
+Per avere sempre l'ultima versione dei documenti assicuratevi di controllare anche su: [https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi
+)
+
+## Come fare la relazione
+
+Per la relazione consigliamo di usare Latex. Non è obbligatorio, ma semplifica tantissimo la vita, e si tratta di imparare solo qualche comando. Per quanto riguarda il **template** (parlo di Latex ovviamente) se si fa utilizzo di un sito come [Overleaf](overleaf.com) è possibile trovare all’interno vari template da utilizzare tra cui quello della Sapienza per la tesi. Basta cercare "Sapienza" ed esce fuori. Di esempi pubblici ce ne sono pochi, si può provare a chiedere al proprio relatore se ti è possibile mandare la tesi di un ragazzo che seguiva.
+
+Volendo poi si può pure aggiornare Sapthesis, semplicemente mettendo i file più recenti nella cartella del progetto di Overleaf (presi da [https://biccari.altervista.org/c/informatica/latex/sapthesis.php](https://biccari.altervista.org/c/informatica/latex/sapthesis.php)).
+
+```latex
+\documentclass{ieeetran} % E fai un figurone
+```
 
 ## Tirocini e Professori
 
