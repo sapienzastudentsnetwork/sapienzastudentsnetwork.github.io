@@ -38,7 +38,7 @@ Tendenzialmente le lezioni si fanno nell'[Edificio di Chimica "Vincenzo Caglioti
 
 ### È difficile?
 
-Se seguite le lezioni, fate sempre gli esercizi ed è facile. Comunque, nei vari [gruppi](./gruppi) siamo sempre disposti a darvi una mano e a rispondere alle vostre domande! E c'è un sacco di [materiale](./risorse) su cui studiare: appunti, esercizi, dispense, slide etc... Il primo anno, nel pomeriggio, ci sono anche tutoraggi.
+Se seguite le lezioni, e fate sempre gli esercizi è facile. Comunque, nei vari [gruppi](./gruppi) siamo sempre disposti a darvi una mano e a rispondere alle vostre domande! E c'è un sacco di [materiale](./risorse) su cui studiare: appunti, esercizi, dispense, slide etc... Il primo anno, nel pomeriggio, ci sono anche tutoraggi.
 
 Alcuni consigli generali:
 - Per gli esami di programmazione, dovete fare **tanta pratica** ed esperienza. Non si può semplicemente imparare a programmare studiando un libro, bisogna fare tanti **progetti**. Lavorare con altri aiuta, perché vi possono "guidare", ma non fatevi dare la soluzione ad esercizi e problemi subito.
