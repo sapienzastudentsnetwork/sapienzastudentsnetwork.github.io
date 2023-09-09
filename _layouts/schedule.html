@@ -118,6 +118,9 @@ layout: default
     subjects = JSON.parse(subjects.replaceAll('=>', ':'))
 
     function generateTableFromSchedule(tableBodyId, schedule) {
+        // Temp solution till schedule comes out
+        return;
+
         const COLORS = ['red', 'yellow', 'green', 'blue', 'purple']
         document.getElementById(tableBodyId).innerHTML = '';
 
@@ -184,11 +187,11 @@ layout: default
         {{ page.third-year }}
     `
 
-    firstYearAL = JSON.parse(firstYearAL.replaceAll('=>', ':'))
-    firstYearMZ = JSON.parse(firstYearMZ.replaceAll('=>', ':'))
-    secondYearAL = JSON.parse(secondYearAL.replaceAll('=>', ':'))
-    secondYearMZ = JSON.parse(secondYearMZ.replaceAll('=>', ':'))
-    thirdYear = JSON.parse(thirdYear.replaceAll('=>', ':'))
+    // firstYearAL = JSON.parse(firstYearAL.replaceAll('=>', ':'))
+    // firstYearMZ = JSON.parse(firstYearMZ.replaceAll('=>', ':'))
+    // secondYearAL = JSON.parse(secondYearAL.replaceAll('=>', ':'))
+    // secondYearMZ = JSON.parse(secondYearMZ.replaceAll('=>', ':'))
+    // thirdYear = JSON.parse(thirdYear.replaceAll('=>', ':'))
 
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById("channel").innerHTML = channel;
