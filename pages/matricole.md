@@ -69,7 +69,7 @@ Per quanto riguarda **tablet**, riporto qui una [discussione del gruppo Telegram
 
 #### Sistema Operativo
 
-In genere, consigliamo di usare distribuzioni di **Linux**. Vanno benissimo iniziare anche con [**Ubuntu**](https://ubuntu.com/). Per chi è più avanzato, suggeriamo [**Arch**](./https://archlinux.org/) con qualche [configurazione custom](https://www.reddit.com/r/unixporn/)).
+In genere, consigliamo di usare distribuzioni di **Linux** (è più comodo lavorare su Linux, ma non è obbligatorio). Va benissimo iniziare anche con [**Ubuntu**](https://ubuntu.com/). Per chi è più avanzato, suggeriamo [**Arch**](./https://archlinux.org/) con qualche [configurazione custom](https://www.reddit.com/r/unixporn/)).
 
 Anche **MacOS** è comodo per programmare (essendo basato su Unix).
 
