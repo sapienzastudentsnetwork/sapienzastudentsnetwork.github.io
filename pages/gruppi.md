@@ -13,7 +13,7 @@ permalink: gruppi
 <!--   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"> -->
 <!-- </p> -->
 
-Qui trovi i link ai gruppi e ai server **Discord** per la Laurea Triennale in **Informatica**
+Qui trovi i link ai **gruppi** e ai server **Discord** per la Laurea Triennale in **Informatica**
 
 ## Tabella dei contenuti
 * 
@@ -120,10 +120,11 @@ Il terzo anno è a **canale unificato**, non è suddiviso in canali A-L e M-Z. P
 
 ##### Insegnamenti obbligatori
 
-| Insegnamento | Corso in presenza | Teledidattica |
-| :- | :-: | :-: |
-| Ingegneria Del Software | [Telegram](https://t.me/+u6hEDMJqXsNhZjk0) | [Telegram](https://t.me/+ziirbiKQi2g5ZjU0) |
-| Automi, Calcolabilità e Complessità | [Telegram](https://t.me/+u6hEDMJqXsNhZjk0) | [Telegram](https://t.me/+cyF-V6dnurcyNGQ0) |
+- Per il **corso in presenza** è disponibile un [gruppo unico](https://t.me/+u6hEDMJqXsNhZjk0) per i due insegnamenti obbligatori del Terzo Anno
+
+- Per il **corso in teledidattica** (Unitelma) sono disponibili due gruppi separati:
+  - [Automi, Calcolabilità e Complessità](https://t.me/+cyF-V6dnurcyNGQ0)
+  - [Ingegneria del Software](https://t.me/+ziirbiKQi2g5ZjU0)
 
 ##### Insegnamenti a scelta
 
