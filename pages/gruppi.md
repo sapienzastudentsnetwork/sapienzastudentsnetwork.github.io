@@ -59,15 +59,15 @@ Esiste più o meno **un gruppo** per le matricole su WhatsApp **per ogni associa
 <details class="custom-details">
     <summary>Gruppi WhatsApp 2023/2024 (sconsigliati)</summary>
 
-    <p>• Azione Universitaria [<a href='https://chat.whatsapp.com/FnIxidgWDlWLVTvv1dZyKJ'>Canale unico</a>]</p>
+    <p>• Azione Universitaria <a href='https://chat.whatsapp.com/FnIxidgWDlWLVTvv1dZyKJ'>[Entrambi i canali]</a></p>
 
-    <p>• Link Sapienza <a href='https://chat.whatsapp.com/KI9xOuv8IpgGmtrM1GDTJa'>[Canale unico]</a></p>
+    <p>• Link Sapienza <a href='https://chat.whatsapp.com/KI9xOuv8IpgGmtrM1GDTJa'>[Entrambi i canali]</a></p>
 
     <p>• Sapienza Futura <a href='https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ'>[A/L]</a> <a href='https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO'>[M/Z]</a></p>
 
     <p>• Sapienza In Movimento <a href='https://chat.whatsapp.com/Jh6D8YlhSSNB2Y7JTzsIks'>[A/L]</a> <a href='https://chat.whatsapp.com/ISNbKJ2Cizk97mFxTVN4fn'>[M/Z]</a></p>
 
-    <p>• UDU Sapienza [<a href='https://chat.whatsapp.com/BOyRhzoqQvK01xrGky0Sea'>Canale unico</a>]</p>
+    <p>• UDU Sapienza <a href='https://chat.whatsapp.com/BOyRhzoqQvK01xrGky0Sea'>[Entrambi i canali]</a></p>
 </details>
 
 <!-- | Anno | Canale A-L | Canale M-Z | Gruppo Unico | -->
