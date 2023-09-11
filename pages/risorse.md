@@ -5,12 +5,19 @@ permalink: risorse
 
 # Risorse
 
+## SSN | Notes
+
+È disponibile su Telegram un [bot](https://t.me/SSN_Notes_Bot) che funge da navigatore di risorse didattiche condivise tra studenti e studentesse dell'ateneo, comprendente appunti, dispense, **vecchi esami**, gruppi e molto altro! 🚀
+
+Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse (principalmente appunti) al bot o suggerire link utili attraverso le interfacce dedicate e automatizzate disponibili all'interno del bot stesso. Considera questa possibilità qualora vuoi o volessi mai pubblicare dei tuoi appunti 🙂
+
+[Vai al bot](https://t.me/SSN_Notes_Bot)
+
 ## Appunti, Esercizi etc...
 
 - [Sapienza Students Network](https://github.com/orgs/sapienzastudentsnetwork/repositories)
-- [Bot Telegram con appunti, vecchi esami, gruppi etc...](https://t.me/SSN_Notes_Bot)
-- [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
+- [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti ph04 _(Alessio Bandiera)_](https://github.com/orgs/ph-notes/repositories)
 
 ## Primo Anno
@@ -37,15 +44,16 @@ permalink: risorse
 - [Architettura Google Group](https://groups.google.com/u/1/a/uniroma1.it/g/architettura-degli-elaboratori-2022-23-a-l)
 - [Architettura Classroom](https://classroom.google.com/u/1/c/NTYyODM4NDA2NDcy)
 - [Architettura Drive](https://drive.google.com/drive/folders/1JU1D1xdahVb5hvRDG8aHQFZ73a6arFNo)
-- [Architettura Slide]()
-- [Architettura Esami]()
-- [Architettura Cheat Sheet]()
+<!-- [Architettura Slide]() -->
+<!--  [Architettura Esami]() -->
+<!--  [Architettura Cheat Sheet]() -->
 - [Architettura Esercizi Svolti](https://github.com/sapienzastudentsnetwork/archelab2223)
 - [Java Classroom](https://classroom.google.com/c/NTkzNzA4NTg3MDU5)
 - [Algoritmi Forum](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/WebHome)
 - [Algoritmi Dispense](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/Dispense)
 - [Algoritmi Vecchi Esami](https://twiki.di.uniroma1.it/twiki/view/Intro_algo/AD/VecchiScritti)
 
+<!--
 ## Secondo Anno
 
 ### Primo Semestre
@@ -58,4 +66,4 @@ permalink: risorse
 ### Primo Semestre
 
 ### Secondo Semestre
-
+-->
