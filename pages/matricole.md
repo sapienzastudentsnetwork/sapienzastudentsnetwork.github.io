@@ -15,14 +15,14 @@ Informazioni utili per le matricole
 
 - [Pagina per le graduatorie](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni)
 - [Bando per l'iscrizione](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_ingegnerie_tolcap_2023_2024_0.pdf)
-- [Gruppi WhatsApp / Telegram e server Discord](./gruppi)
+- [Gruppi chat e server Discord](./gruppi)
 - [Pagina "frequentare" del corso](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv)
 
 ### Canali
 
 Gli studenti del corso sono divisi in **due canali** in base all'iniziale del cognome: **A-L** e **M-Z**. All'inizio dell'anno sarà possibile **cambiare canale** comunicandolo alla segreteria (non è detto che la richiesta venga approvata). Al momento la pagina informativa non è ancora disponibile sul sito della Sapienza, ma appena sarà pubblicata, la troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso. C'è un **tempo limite** per fare il cambio del canale all'inizio dell'anno. 
 
-Gli insegnamenti per i due canali sono gli stessi, cambiano i **professori**. Per alcuni corsi (Es. Algoritmi, Fondamenti di Programmazione etc...) i professori fanno esami uguali per i due canali.
+Gli insegnamenti per i due canali sono gli stessi, cambiano i **professori**. Per alcuni corsi (come ad esempio Introduzione agli Algoritmi, Fondamenti di Programmazione etc...) i professori fanno esami uguali per i due canali.
 
 Il **terzo anno** c'è un solo canale **unificato**.
 
@@ -30,7 +30,7 @@ Il **terzo anno** c'è un solo canale **unificato**.
 
 Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-L aveva laboratorio di mattina, e il canale M-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (A-L pomeriggio, M-Z mattina). 
 
-Il **secondo anno** si fa lezione dalle **14:00** alle **19:00** 💀 .
+Il **secondo anno** si in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
 
 Tendenzialmente le lezioni si svolgono nell'[Edificio di Chimica "Vincenzo Caglioti"](https://www.uniroma1.it/sites/default/files/ACU032.pdf) Aula 1 (la prima a destra). Le lezioni di laboratorio si svolgono nei laboratori di [via Tiburtina 205](https://web.uniroma1.it/i3s/node/8901)
 
@@ -47,25 +47,31 @@ Per quanto riguarda i dispositivi da usare ci sono opinioni diverse, ma generalm
 
 #### Libri
 
-Saranno i professori a dirvi che libri servono all'**inizio delle lezioni** (per cui vi suggeriamo di aspettare prima di acquistarli). Potete comprarli, ma nella maggior parte dei casi saranno fornite **slide** / trovate **pdf** online o li potete prendere in **biblioteca**.
+Saranno i professori a dirvi che libri servono all'**inizio delle lezioni** (per cui vi suggeriamo di aspettare prima di acquistarli). Potete comprarli, ma nella maggior parte dei casi saranno fornite **slide** / trovate **pdf** di valutazione online o li potete prendere in **biblioteca**.
 
-<!-- Quali libri sono effettivamente utili, è una cosa troppo opinionata, quindi non la scrivo -->
+<!-- Quali libri sono effettivamente utili, è una cosa troppo soggetta ad opinioni personali, quindi non la scrivo -->
 
 #### Tablet
 
-Per quanto riguarda **tablet**, riporto qui una [discussione del gruppo Telegram](https://t.me/sapienzainformatica/113467):
-- Secondo me se ne può fare a meno. Comodo ma non essenziale
-- Ero sciettico sui tablet, molto sciettico. ne acquistai uno per diversi motivi, da quasi subito mi ricredetti: tablet utilissimo non potrei farne a meno.
+Per quanto riguarda **tablet**, si riporta qui qualche estratto di una [discussione del gruppo Telegram](https://t.me/sapienzainformatica/113467):
 
-    1. Prendo appunti molto piu velocemente, posso addirittura riorganizzarli rapidamente mentre il prof spiega (e io sono pure uno lento a scrivere) date le funzioni che i tablet anno.
-    2. Se usi libri li scarichi in pdf e li hai sempre a portata.
-    3. Se i professori proiettano le slide e non si vedono perche le lim fanno cagare: hai tutto sullo schermo a 10cm da te.
-    4. Puoi scrivere appunti direttamente sulle slide dei professori.
+- Secondo me se ne può fare a meno. Comodo ma non essenziale.
+
+- Ero scettico sui tablet, molto scettico. Ne acquistai uno per diversi motivi, da quasi subito mi ricredetti: tablet utilissimo, non potrei farne a meno.
+
+    1. Prendo appunti molto più velocemente, posso addirittura riorganizzarli rapidamente mentre il prof spiega (nonostante io sia pure lento a scrivere) date le funzioni che i tablet hanno
+
+    2. Se usi libri li scarichi in pdf e li hai sempre a portata
+
+    3. Se i professori proiettano le slide e magari non si vedono perché le lim non sono di buona qualità hai tutto sullo schermo del tablet a pochissimi centimetri da te
+
+    4. Puoi scrivere appunti direttamente sulle slide dei professori
+    
     5. Puoi registrare la voce in contemporanea a quello che scrivi, cosi quando riguardi il "video" è come guardare un video tipo di Elia Bombardelli (la lim si scrive da sola mentre senti una voce parlare)
 
-    - Piccolo consiglio: o un tablet Samsung di ultima generazione tab S8 o tab S8 plus (ultra non serve) se vuoi spendere poco s6 Lite
+    - Piccolo consiglio: o un tablet Samsung di ultima generazione tab S8 o tab S8 plus (ultra non serve) se vuoi spendere poco S6 Lite
 
-- Però ecco forse mi concentrerei molto sul pc da prendere: prendine uno dove puoi usare Linux (chromebook è vivamente sconsigliato)
+- Forse mi concentrerei molto sul PC da prendere: prendine uno dove puoi usare Linux (chromebook vivamente sconsigliati)
 
 #### Sistema Operativo
 
@@ -92,10 +98,9 @@ In genere sconsigliamo Windows, però, se lo volete usare, ci potete installare 
 <!-- - Ci sono simboli che vi servono quando programmate, ma sul layout italiano non ci sono (\` e ~) -->
 <!-- - Alcuni tasti (;:<>[]{}@/) che sono usati in maniera estremamente frequente quando si programma sono posizionati in maniera molto più comoda e richiedono meno combinazioni di tasti -->
 
-
 ## Trasferimenti
 
-Ringrazio [Marco Mazzella](https://github.com/Warcophyr) per aver raccolto queste informazioni.
+Grazie a [Marco Mazzella](https://github.com/Warcophyr) per aver raccolto queste informazioni.
 
 ### Trasferimento verso un'altro ateneo
 
@@ -116,7 +121,11 @@ Dalla pagina della sapienza [Modulistica studenti](https://www.uniroma1.it/it/pa
 
 ## FAQ 
 
+Disponibili in seguito.
+
+<!--
 <details>
     <summary>Quando saranno disponibili le FAQ?</summary>
     A breve 😅
 </details>
+-->
