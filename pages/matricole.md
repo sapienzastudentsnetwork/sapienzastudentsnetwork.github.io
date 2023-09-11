@@ -30,7 +30,7 @@ Il **terzo anno** c'è un solo canale **unificato**.
 
 Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-L aveva laboratorio di mattina, e il canale M-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (A-L pomeriggio, M-Z mattina). 
 
-Il **secondo anno** si in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
+Il **secondo anno** si ha in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
 
 Tendenzialmente le lezioni si svolgono nell'[Edificio di Chimica "Vincenzo Caglioti"](https://www.uniroma1.it/sites/default/files/ACU032.pdf) Aula 1 (la prima a destra). Le lezioni di laboratorio si svolgono nei laboratori di [via Tiburtina 205](https://web.uniroma1.it/i3s/node/8901)
 
