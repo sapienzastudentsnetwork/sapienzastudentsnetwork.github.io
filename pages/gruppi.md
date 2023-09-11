@@ -27,18 +27,20 @@ Dove è predisposto soltanto il link al gruppo Telegram/WhatsApp il gruppo Whats
 
 I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantaggi**, preoccupanti specie nella loro applicazione come gruppi delle materie, quale in particolare l'**assenza di cronologia per i nuovi membri** e la conseguente perdita negli anni di dispense o informazioni utili pubblicate in precedenza da precedenti utenti del gruppo; oltre che diverse comodità in meno come l'**impossibilità di fissare messaggi o di mantenere i media sul cloud** anziché doverli scaricare e mantenere sui propri dispositivi e rischiare quindi anche potenzialmente di perderli cambiando dispositivo. Se ne sconsiglia quindi ulteriormente l'utilizzo nei casi delle materie in cui la cronologia per i nuovi membri è particolarmente importante, ed è anche per questo motivo che in alcuni casi, confrontando alcuni gruppi WhatsApp e Telegram che avevano un numero simile (ma comunque molto basso ad esempio) di membri, si è preferito indicizzare qui soltanto l'alternativa Telegram;
 
-**I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno di [SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot), in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
-
-### Affitti
-
-- [Sapienza Affitti](https://t.me/SapienzaAffittiGroup)
+**I link potrebbero talvolta scadere**, nel caso dei gruppi WhatsApp in quel caso servirà che un amministratore li rinnovi, mentre nel caso dei gruppi Telegram in genere vengono rinnovati automaticamente all'interno del Bot Telegram [SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot), in entrambi i casi **è gradita la contribuzione di aggiornarli** anche in questa repository qualora foste a conoscenza di un nuovo link non scaduto.
 
 ### Gruppi generali
 
-I gruppi generali su Telegram riuniscono **tutti gli studenti** e le studentesse del corso, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
+I gruppi generali su Telegram riuniscono **tutti gli studenti** e le studentesse, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
 
-- [Corso in presenza](https://t.me/sapienzainformatica)
-- [Corso in teledidattica (Unitelma)](https://t.me/InformaticaSapienzaTeledidattica)
+- [Affitti](https://t.me/SapienzaAffittiGroup)
+- [Birra e politica (OffTopic group)](https://t.me/sapienzapolitica)
+- [Corso di Informatica in presenza](https://t.me/+zj6QEcHwZU82M2Y0)
+- [Corso di Informatica in teledidattica (Unitelma)](https://t.me/+ly5tVN1h3yZmNDdk)
+- [Discussioni generali](https://t.me/sapienzadiscussioni)
+- [Sapienza GNU/Linux community](https://t.me/+r-InQzG0ctkwNjNk)
+
+... altri gruppi Telegram sul Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot) 👀
 
 ### Gruppi matricole
 
@@ -145,7 +147,7 @@ Il terzo anno è a **canale unificato**, non è suddiviso in canali A-L e M-Z. P
 - Law and Computer Science (ACSAI)
 - [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+VD1dKb1M777XscAU)
 
-Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel [Bot Telegram](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista indicizzarlo autonomamente.
+Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram, o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista, indicizzarlo autonomamente.
 
 ## Server Discord
 
