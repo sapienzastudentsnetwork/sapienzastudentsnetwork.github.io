@@ -1,16 +1,18 @@
 
-# Home 
+# Home
 
-Sito per il portale SapienzaInformatica su GitHub. Vuoi contribuire al progetto? [Scopri come!](contribuire)
+Vuoi iscriverti ad Informatica a Sapienza, hai tante domande, ma non sai dove cercare? Sei approdato nel posto giusto!
 
-[Clicca qui per tornare al portale](https://sapienzastudents.net/)
+Qui troverai informazioni e risorse utili per studenti e studentesse di qualsiasi anno e canale 😉
+
+Naviga nelle singole sezioni del sito e non esitare a contribuire al progetto in caso ti venisse in mente qualche informazione da aggiungere o rettificare, [scopri come!](contribuire)
 
 ```html
 </sito work in progress, fatto con ❤️>
 ```
 
-## Informatica alla Sapienza
+## Sapienza Students Network
 
-Vuoi iscriverti ad informatica alla Sapienza, hai tante domande, ma non sai dove cercare? Sei arrivato nel posto giusto!
+[Sapienza Students Network](https://sapienzastudents.net/) è un'organizzazione studentesca indipendente mirata a fare rete tra studenti e studentesse dell'ateneo più grande d'Europa per poterlo vivere al meglio e in comunità 😊
 
-
+_**N.B.:** in quanto indipendente non sussiste alcuna affiliazione o riconoscimento ufficiale da parte dell'ateneo._
