@@ -3,7 +3,7 @@ title: "Gruppi"
 permalink: gruppi
 ---
 
-# Gruppi e altri canali di comunicazione 🐦
+# Gruppi e altri canali di comunicazione
 
 <!-- <p align="center"> -->
 <!-- <p> -->
@@ -13,7 +13,7 @@ permalink: gruppi
 <!--   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"> -->
 <!-- </p> -->
 
-Qui trovi i link a gruppi **WhatsApp**, **Telegram** e server **Discord** per la Laurea Triennale in **Informatica**
+Qui trovi i link ai gruppi e ai server **Discord** per la Laurea Triennale in **Informatica**
 
 ## Tabella dei contenuti
 * 
@@ -35,25 +35,39 @@ I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantagg
 
 ### Gruppi generali
 
-I gruppi generali sono quelli che riuniscono **tutti gli studenti** e le studentesse del corso, e sono utili per comunicazioni di carattere generale tra studenti e rappresentanti.
+I gruppi generali su Telegram riuniscono **tutti gli studenti** e le studentesse del corso, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
+
+- [Corso in presenza](https://t.me/sapienzainformatica)
+- [Corso in teledidattica (Unitelma)](https://t.me/InformaticaSapienzaTeledidattica)
+
+### Gruppi matricole
 
 #### Telegram
 
-I gruppi generali su Telegram esistono da diversi anni, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
+Gruppi Telegram per le **matricole 2023/2024**:
 
-- [In presenza (unico)](https://t.me/sapienzainformatica)
-- [Da remoto (Teledidattica - Unitelma)](https://t.me/InformaticaSapienzaTeledidattica)
-- [Matricole A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
-- [Matricole M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
+- [Informatica A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
+- [Informatica M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
 
 #### WhatsApp
 
-I gruppi generali su WhatsApp sono gestiti da un'**associazione studentesca**, sono suddivisi per **canale** e ne viene creato uno nuovo ogni anno accademico per le **matricole**. Hanno molti meno membri (essendo più specifici), sono (auspicabilmente) più monitorati dai **rappresentati**, e non sono apolitici.
+Esiste più o meno **un gruppo** per le matricole su WhatsApp **per ogni associazione studentesca**, per ogni anno accademico e in genere anche per ogni canale. I gruppi WhatsApp sono **sconsigliati** come da [premesse](#premesse).
 
-I gruppi **WhatsApp** per le **matricole 2023/2024**:
+❗️Questi gruppi vengono **utilizzati** in genere **dalle associazioni per auto-promozione**, e tutta questa frammentazione porta a un numero minore di membri rispetto ai gruppi Telegram, oltre ad una **mancata indipendenza** che sarebbe invece importante per questo genere di gruppi (vedi [controversia](https://t.me/sapienzapolitica/8524)).
 
-- [Informatica A-L](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) 
-- [Informatica M-Z](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO)
+<details class="custom-details">
+    <summary>Gruppi WhatsApp 2023/2024 (sconsigliati)</summary>
+
+    <p>• Azione Universitaria [<a href='https://chat.whatsapp.com/FnIxidgWDlWLVTvv1dZyKJ'>Canale unico</a>]</p>
+
+    <p>• Link Sapienza <a href='https://chat.whatsapp.com/KI9xOuv8IpgGmtrM1GDTJa'>[Canale unico]</a></p>
+
+    <p>• Sapienza Futura <a href='https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ'>[A/L]</a> <a href='https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO'>[M/Z]</a></p>
+
+    <p>• Sapienza In Movimento <a href='https://chat.whatsapp.com/Jh6D8YlhSSNB2Y7JTzsIks'>[A/L]</a> <a href='https://chat.whatsapp.com/ISNbKJ2Cizk97mFxTVN4fn'>[M/Z]</a></p>
+
+    <p>• UDU Sapienza [<a href='https://chat.whatsapp.com/BOyRhzoqQvK01xrGky0Sea'>Canale unico</a>]</p>
+</details>
 
 <!-- | Anno | Canale A-L | Canale M-Z | Gruppo Unico | -->
 <!-- | :--- | :--------: | :--------: | -->
@@ -137,4 +151,4 @@ Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel [Bot Teleg
 
 - [A-L (primo e secondo anno)](https://discord.gg/QEzjgwnjTp) 
 - [M-Z (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
-- [Terzo Anno](https://discord.gg/Wg94weSeq3)
+- [Terzo Anno (canale unificato)](https://discord.gg/Wg94weSeq3)
