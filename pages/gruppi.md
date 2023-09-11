@@ -31,16 +31,14 @@ I **gruppi WhatsApp** rispetto ai gruppi Telegram **presentano notevoli svantagg
 
 ### Gruppi generali
 
-I gruppi generali su Telegram riuniscono **tutti gli studenti** e le studentesse, riuniscono anche studenti di anni passati (di entrambi i canali) e sono **gestiti dagli studenti** stessi.
+I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse, **di qualsiasi anno e canale**:
 
-- [Affitti](https://t.me/SapienzaAffittiGroup)
-- [Birra e politica (OffTopic group)](https://t.me/sapienzapolitica)
+- [Affitti](https://t.me/SapienzaAffittiGroup) (❕non gestito da studenti)
+- [Birra e politica](https://t.me/sapienzapolitica) (OffTopic group)
 - [Corso di Informatica in presenza](https://t.me/+zj6QEcHwZU82M2Y0)
 - [Corso di Informatica in teledidattica (Unitelma)](https://t.me/+ly5tVN1h3yZmNDdk)
-- [Discussioni generali](https://t.me/sapienzadiscussioni)
+- [Discussioni generali sull'ateneo](https://t.me/sapienzadiscussioni)
 - [Sapienza GNU/Linux community](https://t.me/+r-InQzG0ctkwNjNk)
-
-... altri gruppi Telegram sul Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot) 👀
 
 ### Gruppi matricole
 
@@ -50,6 +48,7 @@ Gruppi Telegram per le **matricole 2023/2024**:
 
 - [Informatica A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
 - [Informatica M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
+- [Teledidattica (Unitelma)](https://t.me/addlist/i3KUGH7P84kyOTNk)
 
 #### WhatsApp
 
