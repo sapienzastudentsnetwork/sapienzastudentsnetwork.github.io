@@ -115,38 +115,38 @@ second-year-al:
           #endTime: 13 
           #subject: Sistemi Digitali
 second-year-mz:
-    #monday:
-    #    - startTime: 8
-          #endTime: 10 
-          #subject: Calcolo Differenziale
-        #- startTime: 10 
-          #endTime: 13 
-          #subject: Python
-    #tuesday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Sistemi Digitali 
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Metodi Matematici
-    #wednesday:
-        #- startTime: 14
-          #endTime: 17 
-          #subject: Python 
-    #thursday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Metodi Matematici
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Python
-    #friday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Calcolo Differenziale
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Sistemi Digitali
+    monday:
+        - startTime: 13
+          endTime: 16
+          subject: Probabilità
+    tuesday:
+        - startTime: 13
+          endTime: 15
+          subject: Algebra
+        - startTime: 15
+          endTime: 18
+          subject: Basi di Dati 1
+    wednesday:
+        - startTime: 13
+          endTime: 16
+          subject: Sistemi Operativi
+        - startTime: 16
+          endTime: 18
+          subject: Basi di Dati 1  
+    thursday:
+        - startTime: 13
+          endTime: 15
+          subject: Probabilità
+        - startTime: 15
+          endTime: 18
+          subject: Algebra
+    friday:
+        - startTime: 13
+          endTime: 15
+          subject: Algebra
+        - startTime: 15
+          endTime: 17
+          subject: Sistemi Operativi
 third-year:
     #monday:
         #- startTime: 8
