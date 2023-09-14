@@ -154,6 +154,8 @@ layout: default
                             subjects[course.subject] ?
                                 subjects[course.subject].abbr :
                                 course.subject.substring(0, 2).toUpperCase();
+                    else if (tableBodyId == 'thirdYear')
+                        tableCell.innerHTML += course.subject;
                     else
                         tableCell.innerHTML += course.subject.split(' ')[0];
 
