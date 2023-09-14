@@ -98,10 +98,9 @@ summary {
     @apply text-cyan-600 dark:text-cyan-400;
 }
 
-.magenta {
-    @apply text-magenta-600 dark:text-magenta-400;
+.fuchsia {
+    @apply text-fuchsia-600 dark:text-fuchsia-400;
 }
-
 
 table {
     @apply !overflow-x-auto;
