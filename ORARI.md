@@ -148,38 +148,44 @@ second-year-mz:
           endTime: 17
           subject: Sistemi Operativi
 third-year:
-    #monday:
-        #- startTime: 8
-          #endTime: 10 
-          #subject: Calcolo Differenziale
-        #- startTime: 10 
-          #endTime: 13 
-          #subject: Python
-    #tuesday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Sistemi Digitali 
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Metodi Matematici
-    #wednesday:
-        #- startTime: 14
-          #endTime: 17 
-          #subject: Python 
-    #thursday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Metodi 
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Python
-    #friday:
-        #- startTime: 8 
-          #endTime: 11 
-          #subject: Calcolo Differenziale
-        #- startTime: 11 
-          #endTime: 13 
-          #subject: Sistemi Digitali
+    monday:
+        - startTime: 10
+          endTime: 13 
+          subject: Linguaggi di Programmazione
+        - startTime: 14
+          endTime: 16
+          subject: Interazione Uomo Macchina
+        - startTime: 16
+          endTime: 19
+          subject: Ingegneria del Software
+    tuesday:
+        - startTime: 14
+          endTime: 17 
+          subject: Programmazione di Sistemi Embedded e Multicore
+        - startTime: 10 
+          endTime: 13 
+          subject: Fisica
+    wednesday:
+        - startTime: 17
+          endTime: 19 
+          subject: Organizzazione e Gestione per lo Start-Up Aziendale 
+        - startTime: 11
+          endTime: 13 
+          subject: Ingegneria del Software
+    thursday:
+        - startTime: 14 
+          endTime: 16 
+          subject: Programmazione di Sistemi Embedded e Multicore
+        - startTime: 10
+          endTime: 13 
+          subject: Computer Graphics
+    friday:
+        - startTime: 8
+          endTime: 11 
+          subject: Organizzazione e Gestione per lo Start-Up Aziendale 
+        - startTime: 11 
+          endTime: 13 
+          subject: Fisica
 ---
 
 # Orari
