@@ -28,7 +28,7 @@ Il **terzo anno** c'è un solo canale **unificato**.
 
 ### Orari e aule
 
-Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-F aveva laboratorio di mattina, e il canale G-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (AF pomeriggio, G-Z mattina). 
+Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-F aveva laboratorio di mattina, e il canale G-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (A-F pomeriggio, G-Z mattina). 
 
 Il **secondo anno** si ha in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
 
