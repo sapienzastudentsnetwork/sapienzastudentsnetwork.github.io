@@ -11,19 +11,19 @@ subjects:
         abbr: SD
     'Metodi Matematic':
         abbr: MM
-    'Linguaggi di Programmazione':
+    'Ling. di Progr.':
         abbr: LDP
-    'Computer Graphics':
+    'Comp. Graphics':
         abbr: CG
     'Fisica':
         abbr: FIS
-    'Interazione Uomo Macchina':
+    'Int. Uomo Macchina':
         abbr: IUM
-    'Ingegneria del Software':
+    'Ing. del Software':
         abbr: ISW
-    'Organizzazione e Gestione per lo Start-Up Aziendale':
+    'Org. e Gest. Az.':
         abbr: OGA
-    'Programmazione di Sistemi Embedded e Multicore':
+    'Prog. Emb. e Multic.':
         abbr: PEM
 
 first-year-al:
@@ -165,38 +165,38 @@ third-year:
     monday:
         - startTime: 10
           endTime: 13 
-          subject: Linguaggi di Programmazione
+          subject: Ling. di Progr.
         - startTime: 14
           endTime: 16
-          subject: Interazione Uomo Macchina
+          subject: Int. Uomo Macchina
         - startTime: 16
           endTime: 19
-          subject: Ingegneria del Software
+          subject: Ing. del Software
     tuesday:
         - startTime: 14
           endTime: 17 
-          subject: Programmazione di Sistemi Embedded e Multicore
+          subject: Prog. Emb. e Multic.
         - startTime: 10 
           endTime: 13 
           subject: Fisica
     wednesday:
         - startTime: 17
           endTime: 19 
-          subject: Organizzazione e Gestione per lo Start-Up Aziendale 
+          subject: Org. e Gest. Az. 
         - startTime: 11
           endTime: 13 
-          subject: Ingegneria del Software
+          subject: Ing. del Software
     thursday:
         - startTime: 14 
           endTime: 16 
-          subject: Programmazione di Sistemi Embedded e Multicore
+          subject: Prog. Emb. e Multic.
         - startTime: 10
           endTime: 13 
-          subject: Computer Graphics
+          subject: Comp. Graphics
     friday:
         - startTime: 8
           endTime: 11 
-          subject: Organizzazione e Gestione per lo Start-Up Aziendale 
+          subject: Org. e Gest. Az. 
         - startTime: 11 
           endTime: 13 
           subject: Fisica
