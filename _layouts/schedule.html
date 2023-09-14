@@ -173,6 +173,12 @@ layout: default
     }
 
     let channel = localStorage.getItem('channel') || '1';
+    
+    if (channel === "A/L" || channel === "M/Z") {
+        channel = channel === "A/L" ? '1' : '2';
+        localStorage.setItem('channel', channel);
+    }
+
     let firstYear1 = `
         {{ page.first-year-1 }}
     `
