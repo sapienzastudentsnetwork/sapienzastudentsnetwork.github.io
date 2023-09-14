@@ -26,7 +26,7 @@ subjects:
     'Prog. Emb. e Multic.':
         abbr: PEM
 
-first-year-al:
+first-year-1:
     monday:
         - startTime: 8
           endTime: 11
@@ -62,7 +62,7 @@ first-year-al:
         - startTime: 10
           endTime: 13 
           subject: Sistemi Digitali
-first-year-mz:
+first-year-2:
     #monday:
         #- startTime: 8
           #endTime: 10 
@@ -95,7 +95,7 @@ first-year-mz:
         #- startTime: 11 
           #endTime: 13 
           #subject: Sistemi Digitali
-second-year-al:
+second-year-1:
     #monday:
         #- startTime: 8
           #endTime: 10 
@@ -128,7 +128,7 @@ second-year-al:
         #- startTime: 11 
           #endTime: 13 
           #subject: Sistemi Digitali
-second-year-mz:
+second-year-2:
     monday:
         - startTime: 13
           endTime: 16
