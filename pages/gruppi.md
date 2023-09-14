@@ -46,8 +46,8 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 Gruppi Telegram per le **matricole 2023/2024**:
 
-- [Informatica A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)
-- [Informatica M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
+- [Informatica A-F](https://t.me/addlist/10sQnIhXeJ84ZWY0)
+- [Informatica G-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)
 - [Teledidattica (Unitelma)](https://t.me/addlist/i3KUGH7P84kyOTNk)
 
 #### WhatsApp
@@ -69,13 +69,6 @@ Esiste più o meno **un gruppo** per le matricole su WhatsApp **per ogni associa
 
     <p>• UDU Sapienza <a href='https://chat.whatsapp.com/BOyRhzoqQvK01xrGky0Sea'>[Entrambi i canali]</a></p>
 </details>
-
-<!-- | Anno | Canale A-L | Canale M-Z | Gruppo Unico | -->
-<!-- | :--- | :--------: | :--------: | -->
-<!-- | 2023-2024 | [Link](https://chat.whatsapp.com/LQ7URHEodWwFy9lef532ZJ) | [Link](https://chat.whatsapp.com/FrQywvsNDReB6vfTv6NElO) | - | -->
-<!-- | 2022-2023 | [Link](https://chat.whatsapp.com/G0JFRbnfH2tGNvG5aoGDfq) | [Link](https://chat.whatsapp.com/DiYRHHGhn9VIOtXxD7KAAK) | - | -->
-<!-- | 2021-2022 | [Link](https://chat.whatsapp.com/IB4KHEu0R7tCz5G8PWPWOz) | [Link](https://chat.whatsapp.com/JkcRXRSx8S65IuASUAsXVb) | - |  -->
-<!-- | 2020-2021 | [Link](https://chat.whatsapp.com/K24g7YAuRqw9Fi92gHmLGd) | [Link](https://chat.whatsapp.com/Cw7HNwLDmb3KWlhbHiaB0y) | [Link](https://chat.whatsapp.com/BmXr67w2jnmBV4EldlwtJZ) | -->
 
 ### Gruppi dei singoli insegnamenti
 
@@ -114,7 +107,7 @@ Esiste più o meno **un gruppo** per le matricole su WhatsApp **per ogni associa
 
 #### Terzo Anno
 
-Il terzo anno è a **canale unificato**, non è suddiviso in canali A-L e M-Z. Per ogni insegnamento è presente un solo link per piattaforma (o un solo link dove è opportuna una sola piattaforma, vedi [premesse](#gruppi-dei-singoli-insegnamenti)).
+Il terzo anno è a **canale unificato**, non è suddiviso in canali A-F e G-Z. Per ogni insegnamento è presente un solo link per piattaforma (o un solo link dove è opportuna una sola piattaforma, vedi [premesse](#gruppi-dei-singoli-insegnamenti)).
 
 > **NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](./percorso-formativo#come-scegliere-gli-esami-esterni).
 
@@ -151,6 +144,8 @@ Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegr
 
 ## Server Discord
 
-- [A-L (primo e secondo anno)](https://discord.gg/QEzjgwnjTp) 
-- [M-Z (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
+- [Canale 1 (primo e secondo anno)](https://discord.gg/QEzjgwnjTp) 
+- [Canale 2 (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
 - [Terzo Anno (canale unificato)](https://discord.gg/Wg94weSeq3)
+
+***N.B.:** Per canale 1 si intende A-F (primo anno) / A-L (secondo anno).*

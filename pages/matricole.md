@@ -20,7 +20,7 @@ Informazioni utili per le matricole
 
 ### Canali
 
-Gli studenti del corso sono divisi in **due canali** in base all'iniziale del cognome: **A-L** e **M-Z**. All'inizio dell'anno sarà possibile **cambiare canale** comunicandolo alla segreteria (non è detto che la richiesta venga approvata). Al momento la pagina informativa non è ancora disponibile sul sito della Sapienza, ma appena sarà pubblicata, la troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso. C'è un **tempo limite** per fare il cambio del canale all'inizio dell'anno. 
+Gli studenti del corso sono divisi in **due canali** in base all'iniziale del cognome: **A-F** e **G-Z**. All'inizio dell'anno sarà possibile **cambiare canale** comunicandolo alla segreteria (non è detto che la richiesta venga approvata). Al momento la pagina informativa non è ancora disponibile sul sito della Sapienza, ma appena sarà pubblicata, la troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso. C'è un **tempo limite** per fare il cambio del canale all'inizio dell'anno. 
 
 Gli insegnamenti per i due canali sono gli stessi, cambiano i **professori**. Per alcuni corsi (come ad esempio Introduzione agli Algoritmi, Fondamenti di Programmazione etc...) i professori fanno esami uguali per i due canali.
 
@@ -28,7 +28,7 @@ Il **terzo anno** c'è un solo canale **unificato**.
 
 ### Orari e aule
 
-Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-L aveva laboratorio di mattina, e il canale M-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (A-L pomeriggio, M-Z mattina). 
+Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-F aveva laboratorio di mattina, e il canale G-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (AF pomeriggio, G-Z mattina). 
 
 Il **secondo anno** si ha in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
 
