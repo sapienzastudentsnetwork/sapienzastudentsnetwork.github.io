@@ -14,7 +14,7 @@ layout: default
 
     {{ content }}
 
-    <h2>Primo Anno</h2>
+    <h2 id="first-year">Primo Anno</h2>
 
     <table class="hidden sm:table">
         <thead>
@@ -46,7 +46,7 @@ layout: default
         </tbody>
     </table>
 
-    <h2>Secondo Anno</h2>
+    <h2 id="second-year">Secondo Anno</h2>
 
     <table class="hidden sm:table">
         <thead>
@@ -78,7 +78,7 @@ layout: default
         </tbody>
     </table>
 
-    <h2>Terzo Anno</h2>
+    <h2 id="third-year">Terzo Anno</h2>
 
     <table class="hidden sm:table">
         <thead>
@@ -197,6 +197,7 @@ layout: default
 
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById("channel").innerHTML = channel;
+        updateTitles(channel)
         generateTableFromSchedule('firstYear', channel == 'A-L' ? firstYearAL : firstYearMZ);
         generateTableFromSchedule('firstYearMobile', channel == 'A-L' ? firstYearAL : firstYearMZ);
         generateTableFromSchedule('secondYear', channel == 'A-L' ? secondYearAL : secondYearMZ);
@@ -205,7 +206,11 @@ layout: default
         generateTableFromSchedule('thirdYearMobile', thirdYear);
     });
 
-
+    function updateTitles(channel) {
+        document.getElementById("first-year").innerHTML = "Primo Anno " + (channel == "A-L" ? "A-F" : "G-Z");
+        document.getElementById("second-year").innerHTML = "Secondo Anno " + channel;
+    }
+    
     function changeChannel() {
         channel = channel == 'A-L' ? 'M-Z' : 'A-L';
         if (channel == 'A-L') {
@@ -220,6 +225,7 @@ layout: default
             generateTableFromSchedule('secondYearMobile', secondYearMZ);
         }
 
+        updateTitles(channel)
         localStorage.setItem('channel', channel);
         document.getElementById('channel').innerHTML = channel;
     }
