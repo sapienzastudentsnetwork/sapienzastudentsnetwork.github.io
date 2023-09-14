@@ -11,6 +11,20 @@ subjects:
         abbr: SD
     'Metodi Matematic':
         abbr: MM
+    'Linguaggi di Programmazione':
+        abbr: LDP
+    'Computer Graphics':
+        abbr: CG
+    'Fisica':
+        abbr: FIS
+    'Interazione Uomo Macchina':
+        abbr: IUM
+    'Ingegneria del Software':
+        abbr: ISW
+    'Organizzazione e Gestione per lo Start-Up Aziendale':
+        abbr: OGA
+    'Programmazione di Sistemi Embedded e Multicore':
+        abbr: PEM
 
 first-year-al:
     monday:
