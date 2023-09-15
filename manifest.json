@@ -1,6 +1,6 @@
 {
     "short_name": "sapienza",
-    "name": "Sapienza Informatica",
+    "name": "SSN | Informatica",
     "start_url": "/",
     "prefer_related_applications": false,
     "related_applications": [],
@@ -22,5 +22,5 @@
     "theme_color": "#000000",
     "display": "standalone",
     "scope": "/",
-    "description": "🤖 Sito Web per il portale SapienzaInformatica su GitHub"
+    "description": "🤖 Sito Web degli studenti e le studentesse di Informatica a Sapienza"
 }

@@ -1,6 +1,6 @@
 FROM jekyll/minimal:pages
 
-ENV PAGES_REPO_NWO="SapienzaInformatica/sapienzainformatica.github.io"
+ENV PAGES_REPO_NWO="sapienzastudentsnetwork/informatica"
 
 RUN gem install webrick
 RUN gem install jemoji

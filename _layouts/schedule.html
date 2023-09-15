@@ -121,7 +121,7 @@ layout: default
         // Temp solution till schedule comes out
         // return;
 
-        const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'cyan', 'fuchsia']
+        const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'cyan', 'fuchsia', 'emerald']
         document.getElementById(tableBodyId).innerHTML = '';
 
         let classesStartTime = undefined,
@@ -141,7 +141,7 @@ layout: default
                 timeCell = document.createElement('td');
 
             timeCell.classList.add('font-light', 'italic');
-            timeCell.innerHTML = `${time}:00`;
+            timeCell.innerHTML = `${time} - ${time + 1}`;
             tableRow.append(timeCell);
 
             for (const day of ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']) {
@@ -154,10 +154,12 @@ layout: default
                             subjects[course.subject] ?
                                 subjects[course.subject].abbr :
                                 course.subject.substring(0, 2).toUpperCase();
-                    else if (tableBodyId == 'thirdYear')
-                        tableCell.innerHTML += course.subject;
+                    //else if (tableBodyId === 'thirdYear')
+                    //    tableCell.innerHTML += course.subject;
+                    //else
+                    //    tableCell.innerHTML += course.subject.split(' ')[0];
                     else
-                        tableCell.innerHTML += course.subject.split(' ')[0];
+                        tableCell.innerHTML += course.subject;
 
                     if (!subjectsColors[course.subject])
                         subjectsColors[course.subject] = COLORS[nextColorIndex++ % COLORS.length];
@@ -196,30 +198,30 @@ layout: default
     `
 
     firstYear1 = JSON.parse(firstYear1.replaceAll('=>', ':'))
-    // firstYear2 = JSON.parse(firstYear2.replaceAll('=>', ':'))
-    // secondYear1 = JSON.parse(secondYear1.replaceAll('=>', ':'))
+    firstYear2 = JSON.parse(firstYear2.replaceAll('=>', ':'))
+    secondYear1 = JSON.parse(secondYear1.replaceAll('=>', ':'))
     secondYear2 = JSON.parse(secondYear2.replaceAll('=>', ':'))
     thirdYear = JSON.parse(thirdYear.replaceAll('=>', ':'))
 
     document.addEventListener('DOMContentLoaded', () => {
         document.getElementById("channel").innerHTML = channel;
         updateTitles(channel)
-        generateTableFromSchedule('firstYear', channel == '1' ? firstYear1 : firstYear2);
-        generateTableFromSchedule('firstYearMobile', channel == '1' ? firstYear1 : firstYear2);
-        generateTableFromSchedule('secondYear', channel == '1' ? secondYear1 : secondYear2);
-        generateTableFromSchedule('secondYearMobile', channel == '1' ? secondYear1 : secondYear2);
+        generateTableFromSchedule('firstYear', channel === '1' ? firstYear1 : firstYear2);
+        generateTableFromSchedule('firstYearMobile', channel === '1' ? firstYear1 : firstYear2);
+        generateTableFromSchedule('secondYear', channel === '1' ? secondYear1 : secondYear2);
+        generateTableFromSchedule('secondYearMobile', channel === '1' ? secondYear1 : secondYear2);
         generateTableFromSchedule('thirdYear', thirdYear);
         generateTableFromSchedule('thirdYearMobile', thirdYear);
     });
 
     function updateTitles(channel) {
-        document.getElementById("first-year").innerHTML = "Primo Anno " + (channel == "1" ? "A-F" : "G-Z");
-        document.getElementById("second-year").innerHTML = "Secondo Anno " + (channel == "1" ? "A-L" : "M-Z");
+        document.getElementById("first-year").innerHTML = "Primo Anno " + (channel === '1' ? "A-F" : "G-Z");
+        document.getElementById("second-year").innerHTML = "Secondo Anno " + (channel === '1' ? "A-L" : "M-Z");
     }
     
     function changeChannel() {
-        channel = channel == '1' ? '2' : '1';
-        if (channel == '1') {
+        channel = channel === '1' ? '2' : '1';
+        if (channel === '1') {
             generateTableFromSchedule('firstYear', firstYear1);
             generateTableFromSchedule('firstYearMobile', firstYear1);
             generateTableFromSchedule('secondYear', secondYear1);

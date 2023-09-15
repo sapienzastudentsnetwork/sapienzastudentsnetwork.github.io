@@ -102,6 +102,10 @@ summary {
     @apply text-fuchsia-600 dark:text-fuchsia-400;
 }
 
+.emerald {
+    @apply text-emerald-600 dark:text-emerald-400;
+}
+
 table {
     @apply !overflow-x-auto;
 }
