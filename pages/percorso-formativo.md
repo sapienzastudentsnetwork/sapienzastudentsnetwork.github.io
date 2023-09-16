@@ -22,7 +22,6 @@ Ogni studente ha due esami obbligatori al primo semestre del terzo anno, **Ingeg
 
 Prima di inizia il terzo anno, ogni studente deve scegliere gli esami che vuole sostenere. Lo studente ha vasta scelta di esami, può scegliere tra esami della propria facoltà oppure esami di altre facoltà (12 CFU). 
 
-
 ### Come scegliere gli esami esterni
 
 Ogni studente può scegliere 12 CFU di esami anche in altre facoltà, ma **come scegliere questi esami?**
@@ -36,73 +35,92 @@ Ricorda bene che non sempre **gli esami esterni** proposti vengono accettati, sp
 <!-- :books:  -->
 ## Esami
 
-Gli esami hanno collegate le rispettive pagine dei corsi _(se presenti)_
-
-### Esami Obbligatori
+### Esami obbligatori
 
 | Esame | CFU |
 |-|-:|
 | [Ingegneria Del Software](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/6543ae72-79ee-4d09-be79-43786792f287?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) | 6 |
 | [Automi, Calcolabilità e Complessità](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/8bcc378c-9ff1-4263-87b7-04a394485a9f?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) | 6 |
 
-### Esami Informatica
+### Esami a scelta interni
 
-| Esame | CFU |
-|-|-:|
-| Linguaggi di Programmazione | 6 |
-| Programmazione di Sistemi Embedded e Multicore | 6 |
-| Intelligenza Artificiale | 6 |
-| Modelli e Ottimizzazione | 6 |
-| Sicurezza | 6 |
-| Tecniche di Programmazione Funzionale e Imperativa | 6 |
-| Fisica | 6 |
-| Matematica Discreta | 6 |
-| Interazione Uomo Macchina | 6 |
-| Organizzazione e Gestione per lo Start-Up Aziendale | 6 |
-| Programmazione per il Web | 6 |
-| Biologia Computazionale | 6 |
-| Computer Graphics | 6 |
-| Linguaggi e Compilatori | 6 |
-| Programmazione di Sistema | 6 |
-| Metodi Numerici Dell Informatica | 6 |
-| Verifica e Validazione di Sistemi Intelligenti | 6 |
-| Data Science e Diritto | 6 |
+#### Legenda curriculum
 
-### Esami Esterni
+I due curriculum (metodologico e tecnologico) prevedono dei gruppi di insegnamenti interni al corso di Informatica e un minimo di CFU che devono essere scelti da ciascun gruppo
 
-| Esame | Facoltà | CFU |
-|-|:-:|-:|
-| AI Lab: Computer Vision and NLP | - | - |
-| Applicazioni Dell'Automatica| - | - |
-| Automazione | - | - |
-| Basi Molecolari e Cellulari della Vita | - | - |
-| Biology of the Cell | - | - |
-| Chimica | - | - |
-| Chimica Biologica | - | - |
-| Combinatoria per Informatica | - | - |
-| Economia Applicata | - | - |
-| Economia Politica | - | - |
-| Elettrotecnica | - | - |
-| Filologia Romanza II A | - | - |
-| Filosofia del Diritto | - | - |
-| Fisica Tecnica | - | - |
-| Fondamenti di Automatica | - | - |
-| Fondamenti di Filologia e Linguistica Romana | - | - |
-| Gamification e Game Design | - | -
-| Istituzioni di Diritto Pubblico | - | - |
-| Laboratorio di Calcolo | - | - |
-| Laboratorio di Fisica Computazionale I | - | - |
-| Laboratorio di Meccanica | - | - |
-| Linguaggi e Tecnologie per il Web | - | - |
-| Matematica Corso Base | - | - |
-| Meccanica | - | - |
-| Meccanica Statistica | - | - |
-| Reti di Telecomunicazioni | - | - |
-| Sociologia dei Processi Culturali | - | - |
-| Storia della Pedagogia | - | - |
-| Tecniche di Programmazione | - | - |
-| Teoria dei Segnali | - | - |
-| Teorie della Comunicazione e dei MEdia Digitali | - | - |
+Metodologico:
+- Metodologici caratterizzanti (**mc**) - 12 CFU
+- Metodologici affini (**ma**) - 6 CFU
+
+Tecnologico:
+- Metodologici di completamento (**tmc**) - 6 CFU
+  - _**N.B.:** come scelte sembrerebbe coincidere con il gruppo **mc**_
+- Tecnologici affini (**ta**) - 6 CFU
+- Tecnologici di completamento (**tc**) - 6 CFU
+
+#### Primo Semestre
+
+| Insegnamento                                        | Codice   | Curriculum                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Data Science e Diritto                              | 10606972 | ma, ta                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Fisica                                              | 97597    | [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/15ecc655-f8c0-4c3f-afcf-da46946dcf5f/fed92e02-9df5-4277-a972-9a4b171e1c23?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Interazione Uomo Macchina                           | 1022263  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/4ef2ae77-6850-46cb-b81c-bc33dc2b494e/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/81efaa08-93b6-4bc3-863f-c7c639c140fe/ba4e6918-4ff1-4423-89a0-9646d1e855a6)                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Linguaggi di Programmazione                         | 1022264  | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/15ecc655-f8c0-4c3f-afcf-da46946dcf5f/bce20707-e43c-4002-96ce-9e73045a6f50?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/15ecc655-f8c0-4c3f-afcf-da46946dcf5f/65e47acb-ada6-457f-89df-09d8c756b388/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/ad4822c0-283f-49b4-a672-2aacd86b6e83?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                         |
+| Organizzazione e Gestione per lo Start-Up Aziendale | 10596283 | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/66077d95-5a41-41bc-a545-5e8c68bea9d5?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Programmazione di Sistemi Embedded e Multicore      | 10593235 | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/15ecc655-f8c0-4c3f-afcf-da46946dcf5f/202c266a-1960-4e69-b670-db8cddab8984?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/15ecc655-f8c0-4c3f-afcf-da46946dcf5f/359f0288-368b-440a-adbf-a308d381e762/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/d84cdcf1-ad92-4d75-a5fc-8ef9041ea429?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) |
+| Programmazione per il Web                           | 1022267  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/595f7b27-0326-431c-841b-da3b0b374432/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/2acf2f46-1176-4c70-8837-ac0ffa27fd8d?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+
+#### Secondo Semestre
+
+| Insegnamento                                       | Codice   | Curriculum                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|----------------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Biologia Computazionale                            | 1031337  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/f8f1a527-018e-45e6-9036-46072a4fea8d/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/12eec10d-678e-4f06-b075-fa15644a6e06?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+| Computer Graphics                                  | 1047673  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/6f4c0bb3-c6a2-4a4f-9e02-09c1d2e19b6c/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/13b8d85d-9b62-4657-b338-abc63501d601?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+| Intelligenza Artificiale                           | 1022262  | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/928c18e5-7f86-4bed-9ab2-b3e4b775a1a1?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a9543e16-a6cc-455e-a3c7-cb2135bf8d05/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/c1dc92eb-a7c0-4ece-b911-10bcbe675284?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) |
+| Linguaggi e Compilatori                            | 1041761  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/3b3f96d1-1768-4611-b483-65c3f675e80d/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/f3218073-0b38-4b71-8dfd-12b00fb0cfbb?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+| Matematica Discreta                                | 1021828  | [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a863ee71-ed31-4197-84e8-3406a49964b7?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Metodi Numerici dell'Informatica                   | 10593234 | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/65d828d1-50dd-4ac3-b45f-1b078e21f389?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Modelli e Ottimizzazione                           | 1022265  | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/bc90354a-737e-45c9-8228-74561cf056ed?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/e5503d11-9664-4ac9-aa86-24e8237faf53/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/47af8b6b-1ba2-4108-80ad-301a1dae19c6?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) |
+| Programmazione di Sistema                          | 1022266  | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/b943173d-5dae-46cf-a641-9d35615e6cd6/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/b871733a-0844-42b2-9ef1-d4cc5fe3a6dd?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+| Sicurezza                                          | 1022268  | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/73088754-2c80-4567-aa7b-d2679d4e7307?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/0e162d40-31e3-40d5-a7da-2a8453f50ed2/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/b1c96578-9a45-477a-ba40-726f05ee27c7?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) |
+| Tecniche di Programmazione Funzionale e Imperativa | 10589652 | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/1bed3b37-4aba-42f5-912a-5c5847269bb7?guid_cv=f5e77c3f-84d5-4123-8b84-8a0a5c597463&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/f5e77c3f-84d5-4123-8b84-8a0a5c597463/19e02234-31a0-4a36-b7ca-d00a5f3278a9/ce63b5d1-6671-47b1-83b2-93e93c979142/f8cef9fd-6d98-4ada-b4bf-6b9b94ca6cc3), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/3210f957-90e0-4b8d-bfec-1d5fd8b867c5?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd) |
+| Verifica e Validazione di Sistemi Intelligenti     | 10600494 | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/0842a63f-a193-4186-9e4a-d5dba483752f/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/c8905320-4c31-40bd-b20b-28e20d3b8b78?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
+
+### Esami a scelta esterni
+
+| Esame                                           |  Codice |    Facoltà     |  CFU |
+|-------------------------------------------------|--------:|:--------------:|-----:|
+| AI Lab: Computer Vision and NLP                 |       - |       -        |    - |
+| Applicazioni Dell'Automatica                    |       - |       -        |    - |
+| Automazione                                     |       - |       -        |    - |
+| Basi Molecolari e Cellulari della Vita          |       - |       -        |    - |
+| Biology of the Cell                             |       - |       -        |    - |
+| Chimica                                         |       - |       -        |    - |
+| Chimica Biologica                               |       - |       -        |    - |
+| Combinatoria per Informatica                    |       - |       -        |    - |
+| Economia Applicata                              |       - |       -        |    - |
+| Economia Politica                               |       - |       -        |    - |
+| Elettrotecnica                                  |       - |       -        |    - |
+| Filologia Romanza II A                          |       - |       -        |    - |
+| Filosofia del Diritto                           |       - |       -        |    - |
+| Fisica Tecnica                                  |       - |       -        |    - |
+| Fondamenti di Automatica                        |       - |       -        |    - |
+| Fondamenti di Filologia e Linguistica Romana    |       - |       -        |    - |
+| Gamification e Game Design                      |       - |       -        |    - |
+| Istituzioni di Diritto Pubblico                 |       - |       -        |    - |
+| Laboratorio di Calcolo                          |       - |       -        |    - |
+| Laboratorio di Fisica Computazionale I          |       - |       -        |    - |
+| Laboratorio di Meccanica                        |       - |       -        |    - |
+| Linguaggi e Tecnologie per il Web               |       - |       -        |    - |
+| Matematica Corso Base                           |       - |       -        |    - |
+| Meccanica                                       |       - |       -        |    - |
+| Meccanica Statistica                            |       - |       -        |    - |
+| Reti di Telecomunicazioni                       |       - |       -        |    - |
+| Sociologia dei Processi Culturali               |       - |       -        |    - |
+| Storia della Pedagogia                          |       - |       -        |    - |
+| Tecniche di Programmazione                      |       - |       -        |    - |
+| Teoria dei Segnali                              |       - |       -        |    - |
+| Teorie della Comunicazione e dei MEdia Digitali |       - |       -        |    - |
 
 <!-- :pushpin: -->
 ### Disclaimer
