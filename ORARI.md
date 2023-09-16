@@ -3,308 +3,334 @@ title: "Orari"
 layout: schedule
 permalink: orari
 subjects:
-    'Calcolo Differenziale':
-        short_name: Calc. Diff.
+    '101226':
+        name: Calcolo Differenziale
+        shortName: Calc. Diff.
         abbr: CD
-    'Fondamenti di Programmazione':
-        short_name: Python
+    '1015883':
+        name: Fondamenti di Programmazione
+        shortName: Python
         abbr: FDP
-    'Metodi Matematici per l''Informatica':
-        short_name: Metodi Matem.
+    '1020420':
+        name: Metodi Matematici per l'Informatica
+        shortName: Metodi Matem.
         abbr: MMI
-    'Progettazione di Sistemi Digitali':
-        short_name: Sist. Digit.
+    '1015880':
+        name: Progettazione di Sistemi Digitali
+        shortName: Sist. Digit.
         abbr: PSD
-    'Architettura degli Elaboratori':
-        short_name: Arch. Elab.
+    '1015881':
+        name: Architettura degli Elaboratori
+        shortName: Arch. Elab.
         abbr: AE
-    'Calcolo Integrale':
-        short_name: Calc. Int.
+    '97796':
+        name: Calcolo Integrale
+        shortName: Calc. Int.
         abbr: CI
-    'Introduzione agli Algoritmi':
-        short_name: Intro. Algo
+    '1015885':
+        name: Introduzione agli Algoritmi
+        shortName: Intro. Algo
         abbr: IA
-    'Metodologie di Programmazione':
-        short_name: Java
+    '1015884':
+        name: Metodologie di Programmazione
+        shortName: Java
         abbr: MDP
-    'Lingua Inglese':
-        short_name: Inglese
+    'AAF1101':
+        name: Lingua Inglese
+        shortName: Inglese
         abbr: ENG
-    'Algebra':
-        short_name: Algebra
+    '1015886':
+        name: Algebra
+        shortName: Algebra
         abbr: ALG
-    'Basi di Dati I':
-        short_name: Basi di Dati 1
+    '1015887':
+        name: Basi di Dati I
+        shortName: Basi di Dati 1
         abbr: BD1
-    'Calcolo delle Probabilità':
-        short_name: Probabilità
+    '1020421':
+        name: Calcolo delle Probabilità
+        shortName: Probabilità
         abbr: PRB
-    'Sistemi Operativi I':
-        short_name: Sist. Op. 1
+    '1020422':
+        name: Sistemi Operativi I
+        shortName: Sist. Op. 1
         abbr: SO1
-    'Basi di Dati II':
-        short_name: Basi di Dati 2
-        abbr: BD2
-    'Progettazione di Algoritmi':
-        short_name: Prog. Algo
+    '1015888':
+        name: Progettazione di Algoritmi
+        shortName: Prog. Algo
         abbr: PA
-    'Reti di Elaboratori':
-        short_name: Reti Elab.
+    '1015889':
+        name: Reti di Elaboratori
+        shortName: Reti Elab.
         abbr: RE
-    'Sistemi Operativi II':
-        short_name: Sist. Op. 2
-        abbr: SO2
-    'Automi, Calcolabilità e Complessità':
-        short_name: Automi
+    '1041727':
+        name: Automi, Calcolabilità e Complessità
+        shortName: Automi
         abbr: AUT
-    'Biologia Computazionale':
-        short_name: Biol. Comput.
+    '1031337':
+        name: Biologia Computazionale
+        shortName: Biol. Comput.
         abbr: BIO
-    'Computer Graphics':
-        short_name: Comp. Graphics
+    '1047673':
+        name: Computer Graphics
+        shortName: Comp. Graphics
         abbr: CG
-    'Fisica':
-        short_name: Fisica
+    '97597':
+        name: Fisica
+        shortName: Fisica
         abbr: FIS
-    'Ingegneria del Software':
-      short_name: Ing. del Software
-      abbr: ISW
-    'Interazione Uomo Macchina':
-        short_name: Int. Uomo Macchina
+    '1022301':
+        name: Ingegneria del Software
+        shortName: Ing. del Software
+        abbr: ISW
+    '1022263':
+        name: Interazione Uomo Macchina
+        shortName: Int. Uomo Macchina
         abbr: IUM
-    'Intelligenza Artificiale':
-        short_name: Int. Artificiale
+    '1022262':
+        name: Intelligenza Artificiale
+        shortName: Int. Artificiale
         abbr: IA
-    'Linguaggi di Programmazione':
-        short_name: Ling. di Progr.
+    '1022264':
+        name: Linguaggi di Programmazione
+        shortName: Ling. di Progr.
         abbr: LDP
-    'Metodi Numerici dell''Informatica':
-        short_name: Metodi Numerici
+    '10593234':
+        name: Metodi Numerici dell'Informatica
+        shortName: Metodi Numerici
         abbr: NUM
-    'Modelli e Ottimizzazione':
-        short_name: Modelli e Ottimiz.
+    '1022265':
+        name: Modelli e Ottimizzazione
+        shortName: Modelli e Ottimiz.
         abbr: OTT
-    'Organizzazione e Gestione per lo Start-Up Aziendale':
-        short_name: Org. e Gest. Az.
+    '10596283':
+        name: Organizzazione e Gestione per lo Start-Up Aziendale
+        shortName: Org. e Gest. Az.
         abbr: OGA
-    'Programmazione di Sistemi Embedded e Multicore':
-        short_name: Prog. Emb. e Multic.
+    '10593235':
+        name: Programmazione di Sistemi Embedded e Multicore
+        shortName: Prog. Emb. e Multic.
         abbr: PEM
-    'Programmazione per il Web':
-        short_name: Prog. Web
+    '1022267':
+        name: Programmazione per il Web
+        shortName: Prog. Web
         abbr: WEB
-    'Programmazione di Sistema':
-        short_name: Prog. di Sistema
+    '1022266':
+        name: Programmazione di Sistema
+        shortName: Prog. di Sistema
         abbr: PS
-    'Sicurezza':
-        short_name: Sicurezza
+    '1022268':
+        name: Sicurezza
+        shortName: Sicurezza
         abbr: SIC
-    'Tecniche di Programmazione Funzionale e Imperativa':
-        short_name: Prog. Funz. e Imp.
+    '10589652':
+        name: Tecniche di Programmazione Funzionale e Imperativa
+        shortName: Prog. Funz. e Imp.
         abbr: TPFI
-    'Verifica e Validazione di Sistemi Intelligenti':
-        short_name: Sist. Intelligenti
+    '10600494':
+        name: Verifica e Validazione di Sistemi Intelligenti
+        shortName: Sist. Intelligenti
         abbr: VVSI
 
 first-year-1:
     monday:
         - startTime: 8
           endTime: 11
-          subject: Calcolo Differenziale
+          teachingCode: 101226
         - startTime: 11
           endTime: 13
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     tuesday:
         - startTime: 8
           endTime: 11
-          subject: Metodi Matematici per l'Informatica
+          teachingCode: 1020420
         - startTime: 11
           endTime: 13
-          subject: Progettazione di Sistemi Digitali
+          teachingCode: 1015880
     wednesday:
         - startTime: 16
           endTime: 19
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     thursday:
         - startTime: 8
           endTime: 10
-          subject: Metodi Matematici per l'Informatica
+          teachingCode: 1020420
         - startTime: 10
           endTime: 13
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     friday:
         - startTime: 8
           endTime: 10
-          subject: Calcolo Differenziale
+          teachingCode: 101226
         - startTime: 10
           endTime: 13
-          subject: Progettazione di Sistemi Digitali
+          teachingCode: 1015880
 
 first-year-2:
     monday:
         - startTime: 13
           endTime: 16
-          subject: Calcolo Differenziale
+          teachingCode: 101226
         - startTime: 16
           endTime: 18
-          subject: Progettazione di Sistemi Digitali
+          teachingCode: 1015880
     tuesday:
         - startTime: 13
           endTime: 16
-          subject: Metodi Matematici per l'Informatica
+          teachingCode: 1020420
         - startTime: 16
           endTime: 18
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     wednesday:
         - startTime: 9
           endTime: 12
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     thursday:
         - startTime: 13
           endTime: 15
-          subject: Metodi Matematici per l'Informatica
+          teachingCode: 1020420
         - startTime: 15
           endTime: 18
-          subject: Fondamenti di Programmazione
+          teachingCode: 1015883
     friday:
         - startTime: 13
           endTime: 15
-          subject: Calcolo Differenziale
+          teachingCode: 101226
         - startTime: 15
           endTime: 18
-          subject: Progettazione di Sistemi Digitali
+          teachingCode: 1015880
 
 second-year-1:
     monday:
         - startTime: 13
           endTime: 16
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
         - startTime: 16
           endTime: 18
-          subject: Algebra
+          teachingCode: 1015886
     tuesday:
         - startTime: 14
           endTime: 16
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
         - startTime: 16
           endTime: 19
-          subject: Sistemi Operativi I
+          teachingCode: 1020422
     wednesday:
         - startTime: 13
           endTime: 15
-          subject: Algebra
+          teachingCode: 1015886
         - startTime: 15
           endTime: 18
-          subject: Basi di Dati I
+          teachingCode: 1015887
     thursday:
         - startTime: 13
           endTime: 15
-          subject: Sistemi Operativi I
+          teachingCode: 1020422
         - startTime: 15
           endTime: 17
-          subject: Basi di Dati I
+          teachingCode: 1015887
     friday:
         - startTime: 14
           endTime: 16
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
         - startTime: 16
           endTime: 19
-          subject: Algebra
+          teachingCode: 1015886
 
 second-year-2:
     monday:
         - startTime: 13
           endTime: 16
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
     tuesday:
         - startTime: 13
           endTime: 15
-          subject: Algebra
+          teachingCode: 1015886
         - startTime: 15
           endTime: 18
-          subject: Basi di Dati I
+          teachingCode: 1015887
     wednesday:
         - startTime: 13
           endTime: 16
-          subject: Sistemi Operativi I
+          teachingCode: 1020422
         - startTime: 16
           endTime: 18
-          subject: Basi di Dati I
+          teachingCode: 1015887
     thursday:
         - startTime: 13
           endTime: 15
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
         - startTime: 15
           endTime: 18
-          subject: Algebra
+          teachingCode: 1015886
     friday:
         - startTime: 13
           endTime: 15
-          subject: Algebra
+          teachingCode: 1015886
         - startTime: 15
           endTime: 17
-          subject: Sistemi Operativi I
+          teachingCode: 1020422
         - startTime: 17
           endTime: 19
-          subject: Calcolo delle Probabilità
+          teachingCode: 1020421
 
 third-year:
     monday:
         - startTime: 10
           endTime: 13
-          subject: Linguaggi di Programmazione
+          teachingCode: 1022264
         - startTime: 14
           endTime: 16
-          subject: Interazione Uomo Macchina
+          teachingCode: 1022263
         - startTime: 16
           endTime: 19
-          subject: Ingegneria del Software
+          teachingCode: 1022301
     tuesday:
         - startTime: 8
           endTime: 10
-          subject: Linguaggi di Programmazione
+          teachingCode: 1022264
         - startTime: 10
           endTime: 13
-          subject: Fisica
+          teachingCode: 97597
         - startTime: 14
           endTime: 17
-          subject: Programmazione di Sistemi Embedded e Multicore
+          teachingCode: 10593235
     wednesday:
         - startTime: 8
           endTime: 11
-          subject: Interazione Uomo Macchina
+          teachingCode: 1022263
         - startTime: 11
           endTime: 13
-          subject: Ingegneria del Software
+          teachingCode: 1022301
         - startTime: 14
           endTime: 17
-          subject: Automi, Calcolabilità e Complessità
+          teachingCode: 1041727
         - startTime: 17
           endTime: 19
-          subject: Organizzazione e Gestione per lo Start-Up Aziendale
+          teachingCode: 10596283
     thursday:
         - startTime: 10
           endTime: 13
-          subject: Computer Graphics
+          teachingCode: 1047673
         - startTime: 14
           endTime: 16
-          subject: Programmazione di Sistemi Embedded e Multicore
+          teachingCode: 10593235
         - startTime: 16
           endTime: 19
-          subject: Programmazione per il Web
+          teachingCode: 1022267
     friday:
         - startTime: 8
           endTime: 11
-          subject: Organizzazione e Gestione per lo Start-Up Aziendale
+          teachingCode: 10596283
         - startTime: 11
           endTime: 13
-          subject: Fisica
+          teachingCode: 97597
         - startTime: 14
           endTime: 16
-          subject: Automi, Calcolabilità e Complessità
+          teachingCode: 1041727
         - startTime: 16
           endTime: 18
-          subject: Computer Graphics
+          teachingCode: 1047673
 ---
 
 # Orari

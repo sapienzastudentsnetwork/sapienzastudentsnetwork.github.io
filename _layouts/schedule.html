@@ -151,19 +151,29 @@ layout: default
                 for (let course of courses) {
                     if (tableBodyId.includes('Mobile'))
                         tableCell.innerHTML +=
-                            subjects[course.subject] ?
-                                subjects[course.subject].abbr :
-                                course.subject.substring(0, 2).toUpperCase();
+                            subjects[course.teachingCode] ?
+                                (
+                                    subjects[course.teachingCode].abbr ?
+                                        subjects[course.teachingCode].abbr :
+                                        subjects[course.teachingCode].name.substring(0, 2).toUpperCase()
+                                )
+                                :
+                                course.teachingCode;
                     else
                         tableCell.innerHTML +=
-                            subjects[course.subject] ?
-                                subjects[course.subject].short_name :
-                                course.subject;
+                            subjects[course.teachingCode] ?
+                                (
+                                    subjects[course.teachingCode].shortName ?
+                                        subjects[course.teachingCode].shortName :
+                                        subjects[course.teachingCode].name
+                                )
+                                :
+                                course.teachingCode;
 
-                    if (!subjectsColors[course.subject])
-                        subjectsColors[course.subject] = COLORS[nextColorIndex++ % COLORS.length];
+                    if (!subjectsColors[course.teachingCode])
+                        subjectsColors[course.teachingCode] = COLORS[nextColorIndex++ % COLORS.length];
 
-                    tableCell.classList.add(subjectsColors[course.subject], 'font-bold');
+                    tableCell.classList.add(subjectsColors[course.teachingCode], 'font-bold');
                 }
 
                 tableRow.append(tableCell);
