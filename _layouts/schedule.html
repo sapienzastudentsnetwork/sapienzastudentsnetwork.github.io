@@ -154,12 +154,11 @@ layout: default
                             subjects[course.subject] ?
                                 subjects[course.subject].abbr :
                                 course.subject.substring(0, 2).toUpperCase();
-                    //else if (tableBodyId === 'thirdYear')
-                    //    tableCell.innerHTML += course.subject;
-                    //else
-                    //    tableCell.innerHTML += course.subject.split(' ')[0];
                     else
-                        tableCell.innerHTML += course.subject;
+                        tableCell.innerHTML +=
+                            subjects[course.subject] ?
+                                subjects[course.subject].short_name :
+                                course.subject;
 
                     if (!subjectsColors[course.subject])
                         subjectsColors[course.subject] = COLORS[nextColorIndex++ % COLORS.length];
