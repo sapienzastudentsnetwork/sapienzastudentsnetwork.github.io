@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="relative">
+<div class="relative" id="main_div">
     <button class="absolute top-2 right-0 flex items-center gap-2" onclick="changeChannel()">
         <span class="material-symbols-outlined">
             sort_by_alpha
@@ -109,18 +109,27 @@ layout: default
         <tbody id='thirdYearMobile'>
         </tbody>
     </table>
+
+    <h2>Orari per insegnamento</h2>
 </div>
 
 <script>
-    let subjects = `
-        {{ page.subjects }}
+    let teachings = `
+        {{ page.teachings }}
     `
-    subjects = JSON.parse(subjects.replaceAll('=>', ':'))
+    teachings = JSON.parse(teachings.replaceAll('=>', ':').replaceAll('nil', 'null'))
+
+    let schedules = `
+        {{ page.schedules }}
+    `
+    schedules = JSON.parse(schedules.replaceAll('=>', ':').replaceAll('nil', 'null'))
+
+    let classrooms = `
+        {{ page.classrooms }}
+    `
+    classrooms = JSON.parse(classrooms.replaceAll('=>', ':').replaceAll('nil', 'null'))
 
     function generateTableFromSchedule(tableBodyId, schedule) {
-        // Temp solution till schedule comes out
-        // return;
-
         const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal']
         document.getElementById(tableBodyId).innerHTML = '';
 
@@ -133,7 +142,7 @@ layout: default
                 classesEndTime = Math.max(classesEndTime, endTime) || endTime;
             }
 
-        let subjectsColors = {},
+        let teachingsColors = {},
             nextColorIndex = 0;
 
         for (let time = classesStartTime; time < classesEndTime; time++) {
@@ -149,37 +158,164 @@ layout: default
                     courses = schedule[day].filter(c => c.startTime <= time && c.endTime > time);
 
                 for (let course of courses) {
+                    courseLink = document.createElement('a');
+                    courseLink.href = "#" + course.teachingCode
+
                     if (tableBodyId.includes('Mobile'))
-                        tableCell.innerHTML +=
-                            subjects[course.teachingCode] ?
+                        courseLink.textContent =
+                            teachings[course.teachingCode] ?
                                 (
-                                    subjects[course.teachingCode].abbr ?
-                                        subjects[course.teachingCode].abbr :
-                                        subjects[course.teachingCode].name.substring(0, 2).toUpperCase()
+                                    teachings[course.teachingCode].abbr ?
+                                        teachings[course.teachingCode].abbr :
+                                        teachings[course.teachingCode].name.substring(0, 2).toUpperCase()
                                 )
                                 :
                                 course.teachingCode;
                     else
-                        tableCell.innerHTML +=
-                            subjects[course.teachingCode] ?
+                        courseLink.textContent =
+                            teachings[course.teachingCode] ?
                                 (
-                                    subjects[course.teachingCode].shortName ?
-                                        subjects[course.teachingCode].shortName :
-                                        subjects[course.teachingCode].name
+                                    teachings[course.teachingCode].shortName ?
+                                        teachings[course.teachingCode].shortName :
+                                        teachings[course.teachingCode].name
                                 )
                                 :
                                 course.teachingCode;
 
-                    if (!subjectsColors[course.teachingCode])
-                        subjectsColors[course.teachingCode] = COLORS[nextColorIndex++ % COLORS.length];
+                    tableCell.appendChild(courseLink)
 
-                    tableCell.classList.add(subjectsColors[course.teachingCode], 'font-bold');
+                    if (!teachingsColors[course.teachingCode])
+                        teachingsColors[course.teachingCode] = COLORS[nextColorIndex++ % COLORS.length];
+
+                    courseLink.classList.add(teachingsColors[course.teachingCode], 'font-bold');
                 }
 
                 tableRow.append(tableCell);
             }
 
             document.getElementById(tableBodyId).append(tableRow);
+        }
+    }
+
+    function createTeachingSchedulesTable(teachingCode, teachingChannel) {
+        var table = document.createElement('table');
+        table.classList.add('table');
+
+        var thead = document.createElement('thead');
+        var tr = document.createElement('tr');
+
+        var th1 = document.createElement('th');
+        th1.setAttribute('scope', 'col');
+        th1.textContent = 'Giorno';
+
+        var th2 = document.createElement('th');
+        th2.setAttribute('scope', 'col');
+        th2.textContent = 'Docente';
+
+        var th3 = document.createElement('th');
+        th3.setAttribute('scope', 'col');
+        th3.textContent = 'Orario';
+
+        var th4 = document.createElement('th');
+        th4.setAttribute('scope', 'col');
+        th4.textContent = 'Aula';
+
+        tr.appendChild(th1);
+        tr.appendChild(th2);
+        tr.appendChild(th3);
+        tr.appendChild(th4);
+        thead.appendChild(tr);
+
+        var tbody = document.createElement('tbody');
+        tbody.setAttribute('id', teachingCode + "-" + teachingChannel + "-table");
+
+        table.appendChild(thead);
+        table.appendChild(tbody);
+
+        return table;
+    }
+
+    function translateDayName(dayInEnglish) {
+        const translations = {
+            monday: 'Lunedì',
+            tuesday: 'Martedì',
+            wednesday: 'Mercoledì',
+            thursday: 'Giovedì',
+            friday: 'Venerdì',
+            saturday: 'Sabato',
+            sunday: 'Domenica'
+        };
+
+        return translations[dayInEnglish] || "Invalid day name";
+    }
+
+    function addRowToTeachingSchedulesTable(table, dayName, teacherName, teacherPageUrl, hours, classroomDesc, classroomMapsUrl) {
+        var tbody = table.tBodies[0];
+
+        var row = document.createElement('tr');
+
+        var dayCell = document.createElement('td');
+        dayCell.textContent = translateDayName(dayName);
+        row.appendChild(dayCell);
+
+        var teacherCell = document.createElement('td');
+        var teacherLink = document.createElement('a');
+        teacherLink.textContent = teacherName;
+        teacherLink.href = teacherPageUrl;
+        teacherCell.appendChild(teacherLink);
+        row.appendChild(teacherCell);
+
+        var hoursCell = document.createElement('td');
+        hoursCell.textContent = hours;
+        row.appendChild(hoursCell);
+
+        var classroomCell = document.createElement('td');
+        classroomCell.textContent = classroomDesc + " ";
+
+        if (classroomMapsUrl) {
+            var classroomMapsLink = document.createElement('a');
+            classroomMapsLink.textContent = "[mappa]";
+            classroomMapsLink.href = classroomMapsUrl;
+            classroomCell.appendChild(classroomMapsLink);
+        }
+        row.appendChild(classroomCell);
+
+        tbody.appendChild(row);
+    }
+
+    function addTeachingSchedules(teachingCode) {
+        const mainDiv = document.getElementById('main_div');
+
+        const teachingData = teachings[teachingCode];
+        const teachingChannels = Object.entries(schedules[teachingCode]).sort(([key1], [key2]) => Number(key1) - Number(key2));
+
+        const h3Element = document.createElement("h3");
+        h3Element.id = teachingCode;
+        h3Element.textContent = teachingCode;
+
+        if (teachingData.name) {
+            h3Element.textContent += " - " + teachingData.name;
+        }
+
+        mainDiv.appendChild(h3Element);
+
+        for (let [teachingChannel, teachingChannelSchedules] of teachingChannels) {
+            const h4Element = document.createElement("h4");
+            h4Element.id = teachingCode + "-" + teachingChannel;
+
+            h4Element.textContent = "Canale " + (teachingChannel === "1" || teachingChannel === "2" ? teachingChannel : "Unico");
+
+            mainDiv.appendChild(h4Element);
+
+            let teachingSchedulesTable = createTeachingSchedulesTable(teachingCode);
+
+            mainDiv.appendChild(teachingSchedulesTable);
+
+            for (let [englishDayName, schedule] of Object.entries(teachingChannelSchedules)) {
+                classroomMapsUrl = classrooms[schedule.classroomId] ? classrooms[schedule.classroomId].mapsUrl : null;
+
+                addRowToTeachingSchedulesTable(teachingSchedulesTable, englishDayName, schedule.teacherName, schedule.teacherPageUrl, schedule.hours, schedule.location, classroomMapsUrl)
+            }
         }
     }
 
@@ -221,6 +357,18 @@ layout: default
         generateTableFromSchedule('secondYearMobile', channel === '1' ? secondYear1 : secondYear2);
         generateTableFromSchedule('thirdYear', thirdYear);
         generateTableFromSchedule('thirdYearMobile', thirdYear);
+
+        const teachingCodes = Object.keys(schedules);
+
+        teachingCodes.sort((codeA, codeB) => {
+            const nameA = teachings[codeA].name.toLowerCase();
+            const nameB = teachings[codeB].name.toLowerCase();
+            return nameA.localeCompare(nameB);
+        });
+
+        for (const teachingCode of teachingCodes) {
+            addTeachingSchedules(teachingCode);
+        }
     });
 
     function updateTitles(channel) {
