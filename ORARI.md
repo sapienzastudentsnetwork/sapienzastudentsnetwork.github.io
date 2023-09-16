@@ -134,6 +134,9 @@ second-year-1:
           endTime: 17
           subject: Basi di Dati I
     friday:
+        - startTime: 14
+          endTime: 16
+          subject: Probabilità
         - startTime: 16
           endTime: 19
           subject: Algebra
