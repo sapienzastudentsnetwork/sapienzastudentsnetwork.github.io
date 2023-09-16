@@ -88,39 +88,39 @@ Tecnologico:
 
 ### Esami a scelta esterni
 
-| Esame                                           |  Codice |    Facoltà     |  CFU |
-|-------------------------------------------------|--------:|:--------------:|-----:|
-| AI Lab: Computer Vision and NLP                 |       - |       -        |    - |
-| Applicazioni Dell'Automatica                    |       - |       -        |    - |
-| Automazione                                     |       - |       -        |    - |
-| Basi Molecolari e Cellulari della Vita          |       - |       -        |    - |
-| Biology of the Cell                             |       - |       -        |    - |
-| Chimica                                         |       - |       -        |    - |
-| Chimica Biologica                               |       - |       -        |    - |
-| Combinatoria per Informatica                    |       - |       -        |    - |
-| Economia Applicata                              |       - |       -        |    - |
-| Economia Politica                               |       - |       -        |    - |
-| Elettrotecnica                                  |       - |       -        |    - |
-| Filologia Romanza II A                          |       - |       -        |    - |
-| Filosofia del Diritto                           |       - |       -        |    - |
-| Fisica Tecnica                                  |       - |       -        |    - |
-| Fondamenti di Automatica                        |       - |       -        |    - |
-| Fondamenti di Filologia e Linguistica Romana    |       - |       -        |    - |
-| Gamification e Game Design                      |       - |       -        |    - |
-| Istituzioni di Diritto Pubblico                 |       - |       -        |    - |
-| Laboratorio di Calcolo                          |       - |       -        |    - |
-| Laboratorio di Fisica Computazionale I          |       - |       -        |    - |
-| Laboratorio di Meccanica                        |       - |       -        |    - |
-| Linguaggi e Tecnologie per il Web               |       - |       -        |    - |
-| Matematica Corso Base                           |       - |       -        |    - |
-| Meccanica                                       |       - |       -        |    - |
-| Meccanica Statistica                            |       - |       -        |    - |
-| Reti di Telecomunicazioni                       |       - |       -        |    - |
-| Sociologia dei Processi Culturali               |       - |       -        |    - |
-| Storia della Pedagogia                          |       - |       -        |    - |
-| Tecniche di Programmazione                      |       - |       -        |    - |
-| Teoria dei Segnali                              |       - |       -        |    - |
-| Teorie della Comunicazione e dei MEdia Digitali |       - |       -        |    - |
+| Esame                                           | Codice | Facoltà       | CFU    |
+|-------------------------------------------------|--------|---------------|--------|
+| AI Lab: Computer Vision and NLP                 | -      | -             | -      |
+| Applicazioni dell'Automatica                    | -      | -             | -      |
+| Automazione                                     | -      | -             | -      |
+| Basi Molecolari e Cellulari della Vita          | -      | -             | -      |
+| Biology of the Cell                             | -      | -             | -      |
+| Chimica                                         | -      | -             | -      |
+| Chimica Biologica                               | -      | -             | -      |
+| Combinatoria per Informatica                    | -      | -             | -      |
+| Economia Applicata                              | -      | -             | -      |
+| Economia Politica                               | -      | -             | -      |
+| Elettrotecnica                                  | -      | -             | -      |
+| Filologia Romanza II A                          | -      | -             | -      |
+| Filosofia del Diritto                           | -      | -             | -      |
+| Fisica Tecnica                                  | -      | -             | -      |
+| Fondamenti di Automatica                        | -      | -             | -      |
+| Fondamenti di Filologia e Linguistica Romana    | -      | -             | -      |
+| Gamification e Game Design                      | -      | -             | -      |
+| Istituzioni di Diritto Pubblico                 | -      | -             | -      |
+| Laboratorio di Calcolo                          | -      | -             | -      |
+| Laboratorio di Fisica Computazionale I          | -      | -             | -      |
+| Laboratorio di Meccanica                        | -      | -             | -      |
+| Linguaggi e Tecnologie per il Web               | -      | -             | -      |
+| Matematica Corso Base                           | -      | -             | -      |
+| Meccanica                                       | -      | -             | -      |
+| Meccanica Statistica                            | -      | -             | -      |
+| Reti di Telecomunicazioni                       | -      | -             | -      |
+| Sociologia dei Processi Culturali               | -      | -             | -      |
+| Storia della Pedagogia                          | -      | -             | -      |
+| Tecniche di Programmazione                      | -      | -             | -      |
+| Teoria dei Segnali                              | -      | -             | -      |
+| Teorie della Comunicazione e dei Media Digitali | -      | -             | -      |
 
 <!-- :pushpin: -->
 ### Disclaimer
