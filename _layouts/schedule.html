@@ -249,7 +249,7 @@ layout: default
         return translations[dayInEnglish] || "Invalid day name";
     }
 
-    function addRowToTeachingSchedulesTable(table, dayName, teacherName, teacherPageUrl, hours, classroomDesc, classroomMapsUrl) {
+    function addRowToTeachingSchedulesTable(table, dayName, teacherName, teacherPageUrl, hours, teachingClassrooms) {
         var tbody = table.tBodies[0];
 
         var row = document.createElement('tr');
@@ -269,15 +269,57 @@ layout: default
         hoursCell.textContent = hours;
         row.appendChild(hoursCell);
 
-        var classroomCell = document.createElement('td');
-        classroomCell.textContent = classroomDesc + " ";
+        const classroomCell = document.createElement('td');
+        const groupedBuildings = {};
 
-        if (classroomMapsUrl) {
-            var classroomMapsLink = document.createElement('a');
-            classroomMapsLink.textContent = "[mappa]";
-            classroomMapsLink.href = classroomMapsUrl;
-            classroomCell.appendChild(classroomMapsLink);
-        }
+        Object.entries(teachingClassrooms).forEach(([locationId, teachingClassroomDesc]) => {
+            const match = teachingClassroomDesc.match(/Aula (.*?) \(Edificio: ([^)]+)\)/);
+            if (match) {
+                const classroom = match[1];
+                const building = match[2];
+                if (!groupedBuildings[building]) {
+                    groupedBuildings[building] = {
+                        classrooms: [],
+                        mapsUrls: [],
+                    };
+                }
+                groupedBuildings[building].classrooms.push(`Aula ${classroom}`);
+
+                const mapUrl = classrooms[locationId]?.mapsUrl;
+                if (mapUrl) {
+                    groupedBuildings[building].mapsUrls.push(mapUrl);
+                }
+            }
+        });
+
+        const uniqueBuildings = Object.keys(groupedBuildings);
+
+        uniqueBuildings.forEach((building, index) => {
+            if (index > 0) {
+                classroomCell.appendChild(document.createTextNode(', '));
+            }
+
+            const buildingClassrooms = groupedBuildings[building].classrooms.join(', ');
+
+            classroomCell.appendChild(document.createTextNode(buildingClassrooms));
+
+            const uniqueMapsUrls = [...new Set(groupedBuildings[building].mapsUrls)];
+
+            if (uniqueMapsUrls.length > 0) {
+                classroomCell.appendChild(document.createTextNode(` (Edificio: ${building}) `));
+
+                const classroomMapsLink = document.createElement('a');
+                classroomMapsLink.textContent = `[mappa]`;
+                classroomMapsLink.href = (groupedBuildings[building].classrooms.length > 1) ?
+                    uniqueMapsUrls[0].replace(/\(Aula\+[^)]+\)/g, '') :
+                    uniqueMapsUrls[0];
+
+                classroomCell.appendChild(classroomMapsLink);
+            } else {
+                classroomCell.appendChild(document.createTextNode(` (Edificio: ${building}) `));
+            }
+        });
+
         row.appendChild(classroomCell);
 
         tbody.appendChild(row);
@@ -312,9 +354,7 @@ layout: default
             mainDiv.appendChild(teachingSchedulesTable);
 
             for (let [englishDayName, schedule] of Object.entries(teachingChannelSchedules)) {
-                classroomMapsUrl = classrooms[schedule.classroomId] ? classrooms[schedule.classroomId].mapsUrl : null;
-
-                addRowToTeachingSchedulesTable(teachingSchedulesTable, englishDayName, schedule.teacherName, schedule.teacherPageUrl, schedule.hours, schedule.location, classroomMapsUrl)
+                addRowToTeachingSchedulesTable(teachingSchedulesTable, englishDayName, schedule.teacherName, schedule.teacherPageUrl, schedule.hours, schedule.classrooms)
             }
         }
     }

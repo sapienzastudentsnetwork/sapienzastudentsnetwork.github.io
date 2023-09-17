@@ -172,15 +172,17 @@ schedules: {
                 "teacherName": "GARRONI ADRIANA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=5374367e-49df-4ff1-985b-ab4b4612e702",
                 "hours": "08 - 11",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "friday": {
                 "teacherName": "GARRONI ADRIANA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=5374367e-49df-4ff1-985b-ab4b4612e702",
                 "hours": "08 - 10",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         },
         "2": {
@@ -188,15 +190,17 @@ schedules: {
                 "teacherName": "ORSINA LUIGI",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
                 "hours": "13 - 16",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             },
             "friday": {
                 "teacherName": "ORSINA LUIGI",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
                 "hours": "13 - 15",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             }
         }
     },
@@ -206,22 +210,26 @@ schedules: {
                 "teacherName": "STERBINI ANDREA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=ba591ba4-54ca-43a6-a90c-e22161b08302",
                 "hours": "16 - 19",
-                "location": "Aule informatiche 15-17 (Edificio: RM025)",
-                "classroomId": "4af56786-2ca8-4ce1-8034-23fd243c90c1"
+                "classrooms": {
+                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                    "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                }
             },
             "monday": {
                 "teacherName": "STERBINI ANDREA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=ba591ba4-54ca-43a6-a90c-e22161b08302",
                 "hours": "11 - 13",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "thursday": {
                 "teacherName": "STERBINI ANDREA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=ba591ba4-54ca-43a6-a90c-e22161b08302",
                 "hours": "10 - 13",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         },
         "2": {
@@ -229,22 +237,26 @@ schedules: {
                 "teacherName": "MASI IACOPO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=a1deb1cd-55ba-49d0-a93c-a0377269b71f",
                 "hours": "16 - 18",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             },
             "thursday": {
                 "teacherName": "MASI IACOPO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=a1deb1cd-55ba-49d0-a93c-a0377269b71f",
                 "hours": "15 - 18",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             },
             "wednesday": {
                 "teacherName": "MASI IACOPO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=a1deb1cd-55ba-49d0-a93c-a0377269b71f",
                 "hours": "09 - 12",
-                "location": "Aule informatiche 15-17 (Edificio: RM025)",
-                "classroomId": "4af56786-2ca8-4ce1-8034-23fd243c90c1"
+                "classrooms": {
+                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                    "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                }
             }
         }
     },
@@ -254,15 +266,17 @@ schedules: {
                 "teacherName": "CARLUCCI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
                 "hours": "08 - 11",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "thursday": {
                 "teacherName": "CARLUCCI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
                 "hours": "08 - 10",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         },
         "2": {
@@ -270,15 +284,17 @@ schedules: {
                 "teacherName": "PIPERNO ADOLFO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=aed597cc-a9b6-4800-ad4d-34e794018592",
                 "hours": "13 - 16",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             },
             "thursday": {
                 "teacherName": "PIPERNO ADOLFO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=aed597cc-a9b6-4800-ad4d-34e794018592",
                 "hours": "13 - 15",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             }
         }
     },
@@ -288,15 +304,17 @@ schedules: {
                 "teacherName": "PONTARELLI SALVATORE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=901bb1e4-2771-4614-89a6-1c8a7f810a02",
                 "hours": "11 - 13",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "friday": {
                 "teacherName": "PONTARELLI SALVATORE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=901bb1e4-2771-4614-89a6-1c8a7f810a02",
                 "hours": "10 - 13",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         },
         "2": {
@@ -304,15 +322,17 @@ schedules: {
                 "teacherName": "MASSINI ANNALISA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=4952f5b2-23ec-4e93-a525-ab3a8445c628",
                 "hours": "16 - 18",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             },
             "friday": {
                 "teacherName": "MASSINI ANNALISA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=4952f5b2-23ec-4e93-a525-ab3a8445c628",
                 "hours": "15 - 18",
-                "location": "Aula III (Edificio: CU006)",
-                "classroomId": "1dc4ff8b-cbba-420b-bdd8-0128d5937cae"
+                "classrooms": {
+                    "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                }
             }
         }
     },
@@ -322,22 +342,25 @@ schedules: {
                 "teacherName": "VALERI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
                 "hours": "16 - 18",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "wednesday": {
                 "teacherName": "VALERI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
                 "hours": "13 - 15",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "friday": {
                 "teacherName": "VALERI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
                 "hours": "16 - 19",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             }
         },
         "2": {
@@ -345,22 +368,25 @@ schedules: {
                 "teacherName": "PELLARIN FEDERICO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=d2d55785-da72-49d5-a091-fb5c72884201",
                 "hours": "13 - 15",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "thursday": {
                 "teacherName": "PELLARIN FEDERICO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=d2d55785-da72-49d5-a091-fb5c72884201",
                 "hours": "15 - 18",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "friday": {
                 "teacherName": "PELLARIN FEDERICO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=d2d55785-da72-49d5-a091-fb5c72884201",
                 "hours": "13 - 15",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         }
     },
@@ -370,15 +396,17 @@ schedules: {
                 "teacherName": "PERELLI GIUSEPPE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
                 "hours": "15 - 18",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "thursday": {
                 "teacherName": "PERELLI GIUSEPPE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
                 "hours": "15 - 17",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             }
         },
         "2": {
@@ -386,15 +414,17 @@ schedules: {
                 "teacherName": "DE MARSICO MARIA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=58c84b39-9448-4ec2-8d83-e89268086aef",
                 "hours": "15 - 18",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "wednesday": {
                 "teacherName": "DE MARSICO MARIA",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=58c84b39-9448-4ec2-8d83-e89268086aef",
                 "hours": "16 - 18",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         }
     },
@@ -404,22 +434,25 @@ schedules: {
                 "teacherName": "BERTINI MALGARINI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=4952daed-d004-49b4-9525-5d6707254b25",
                 "hours": "13 - 16",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "tuesday": {
                 "teacherName": "BERTINI MALGARINI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=4952daed-d004-49b4-9525-5d6707254b25",
                 "hours": "14 - 16",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "friday": {
                 "teacherName": "BERTINI MALGARINI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=4952daed-d004-49b4-9525-5d6707254b25",
                 "hours": "14 - 16",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             }
         },
         "2": {
@@ -427,22 +460,25 @@ schedules: {
                 "teacherName": "TAGGI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=2e12b106-1350-4035-be32-b889dd46d6ec",
                 "hours": "13 - 16",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "thursday": {
                 "teacherName": "TAGGI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=2e12b106-1350-4035-be32-b889dd46d6ec",
                 "hours": "13 - 15",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "friday": {
                 "teacherName": "TAGGI LORENZO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=2e12b106-1350-4035-be32-b889dd46d6ec",
                 "hours": "17 - 19",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         }
     },
@@ -452,15 +488,17 @@ schedules: {
                 "teacherName": "TOLOMEI GABRIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=8f36766a-6eae-491c-9412-e437f4e904cd",
                 "hours": "16 - 19",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             },
             "thursday": {
                 "teacherName": "TOLOMEI GABRIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=8f36766a-6eae-491c-9412-e437f4e904cd",
                 "hours": "13 - 15",
-                "location": "Aula III (Edificio: CU032)",
-                "classroomId": "34cb38a4-6c1c-4d5f-b680-5157749f8a0a"
+                "classrooms": {
+                    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                }
             }
         },
         "2": {
@@ -468,15 +506,17 @@ schedules: {
                 "teacherName": "DE GASPARI FABIO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
                 "hours": "13 - 16",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             },
             "friday": {
                 "teacherName": "DE GASPARI FABIO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
                 "hours": "15 - 17",
-                "location": "Aula Ponzi (Edificio: CU005)",
-                "classroomId": "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9"
+                "classrooms": {
+                    "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                }
             }
         }
     },
@@ -486,15 +526,17 @@ schedules: {
                 "teacherName": "VENTURI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=0dfd0deb-ac72-429b-8258-3a34436a560c",
                 "hours": "14 - 17",
-                "location": "Aula IV (Edificio: CU006)",
-                "classroomId": "de6555c8-2b3b-4143-8652-01ff8fb2c19f"
+                "classrooms": {
+                    "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                }
             },
             "friday": {
                 "teacherName": "VENTURI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=0dfd0deb-ac72-429b-8258-3a34436a560c",
                 "hours": "14 - 16",
-                "location": "Aula IV (Edificio: CU006)",
-                "classroomId": "de6555c8-2b3b-4143-8652-01ff8fb2c19f"
+                "classrooms": {
+                    "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                }
             }
         }
     },
@@ -504,15 +546,17 @@ schedules: {
                 "teacherName": null,
                 "teacherPageUrl": null,
                 "hours": "10 - 13",
-                "location": "Aula 1 (Edificio: RM018)",
-                "classroomId": "3247d3bb-417e-4bba-8e7e-829bbb3863de"
+                "classrooms": {
+                    "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                }
             },
             "friday": {
                 "teacherName": null,
                 "teacherPageUrl": null,
                 "hours": "16 - 18",
-                "location": "Aula IV (Edificio: CU006)",
-                "classroomId": "de6555c8-2b3b-4143-8652-01ff8fb2c19f"
+                "classrooms": {
+                    "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                }
             }
         }
     },
@@ -522,15 +566,17 @@ schedules: {
                 "teacherName": "GERMANO MASSIMO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=3a840165-ed3c-4865-bd68-51cc12fef8f6",
                 "hours": "10 - 13",
-                "location": "Aula G0 (Edificio: RM115)",
-                "classroomId": "19cb3112-33cb-4dfa-9e08-54f8ebc94b68"
+                "classrooms": {
+                    "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+                }
             },
             "friday": {
                 "teacherName": "GERMANO MASSIMO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=3a840165-ed3c-4865-bd68-51cc12fef8f6",
                 "hours": "11 - 13",
-                "location": "Aula G0 (Edificio: RM115)",
-                "classroomId": "19cb3112-33cb-4dfa-9e08-54f8ebc94b68"
+                "classrooms": {
+                    "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+                }
             }
         }
     },
@@ -540,15 +586,17 @@ schedules: {
                 "teacherName": "TRONCI ENRICO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=2bf66397-ce7b-43e0-b640-ca1e45805df4",
                 "hours": "11 - 13",
-                "location": "Aula 3 (Edificio: RM018)",
-                "classroomId": "27a4966a-0abc-418d-aa04-ea3973e3cdef"
+                "classrooms": {
+                    "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                }
             },
             "monday": {
                 "teacherName": "TRONCI ENRICO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=2bf66397-ce7b-43e0-b640-ca1e45805df4",
                 "hours": "16 - 19",
-                "location": "Aula I (Edificio: CU032)",
-                "classroomId": "44f829c8-fa6f-4c51-8e6d-6631432d4ab0"
+                "classrooms": {
+                    "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                }
             }
         }
     },
@@ -558,15 +606,17 @@ schedules: {
                 "teacherName": "MANCINI MAURIZIO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=f738330a-ffb2-4dc3-b40e-205299ff9ad1",
                 "hours": "14 - 16",
-                "location": "Aula 2 (Edificio: RM018)",
-                "classroomId": "625390f2-0bbb-4072-b866-50902fa1bad9"
+                "classrooms": {
+                    "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                }
             },
             "wednesday": {
                 "teacherName": "MANCINI MAURIZIO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=f738330a-ffb2-4dc3-b40e-205299ff9ad1",
                 "hours": "08 - 11",
-                "location": "Aula 3 (Edificio: RM018)",
-                "classroomId": "27a4966a-0abc-418d-aa04-ea3973e3cdef"
+                "classrooms": {
+                    "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                }
             }
         }
     },
@@ -576,15 +626,17 @@ schedules: {
                 "teacherName": "CENCIARELLI PIETRO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=69deb155-d23e-44ab-a771-8c58952368c1",
                 "hours": "08 - 10",
-                "location": "Aula G50 (Edificio: RM115)",
-                "classroomId": "b368dabe-4b63-4129-94bd-2c97ea916fd0"
+                "classrooms": {
+                    "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                }
             },
             "monday": {
                 "teacherName": "CENCIARELLI PIETRO",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=69deb155-d23e-44ab-a771-8c58952368c1",
                 "hours": "10 - 13",
-                "location": "Aula Magna (Edificio: RM111)",
-                "classroomId": "74a8a956-ade6-4883-b10f-416c38c9d93d"
+                "classrooms": {
+                    "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                }
             }
         }
     },
@@ -594,15 +646,17 @@ schedules: {
                 "teacherName": null,
                 "teacherPageUrl": null,
                 "hours": "17 - 19",
-                "location": "Aula G50 (Edificio: RM115)",
-                "classroomId": "b368dabe-4b63-4129-94bd-2c97ea916fd0"
+                "classrooms": {
+                    "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                }
             },
             "friday": {
                 "teacherName": null,
                 "teacherPageUrl": null,
                 "hours": "08 - 11",
-                "location": "Aula G50 (Edificio: RM115)",
-                "classroomId": "b368dabe-4b63-4129-94bd-2c97ea916fd0"
+                "classrooms": {
+                    "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                }
             }
         }
     },
@@ -612,15 +666,17 @@ schedules: {
                 "teacherName": "PONTARELLI SALVATORE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=901bb1e4-2771-4614-89a6-1c8a7f810a02",
                 "hours": "14 - 17",
-                "location": "Aula T1 (Edificio: RM113)",
-                "classroomId": "70000b7b-daf3-4315-839c-3f4b0ab0e131"
+                "classrooms": {
+                    "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+                }
             },
             "thursday": {
                 "teacherName": "PONTARELLI SALVATORE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=901bb1e4-2771-4614-89a6-1c8a7f810a02",
                 "hours": "14 - 16",
-                "location": "Aula T1 (Edificio: RM113)",
-                "classroomId": "70000b7b-daf3-4315-839c-3f4b0ab0e131"
+                "classrooms": {
+                    "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+                }
             }
         }
     },
@@ -630,8 +686,9 @@ schedules: {
                 "teacherName": "PANIZZI EMANUELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=544c3def-98c6-4285-b6e9-16d2b5b1dc07",
                 "hours": "16 - 19",
-                "location": "Aula IV (Edificio: CU006)",
-                "classroomId": "de6555c8-2b3b-4143-8652-01ff8fb2c19f"
+                "classrooms": {
+                    "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                }
             }
         }
     }
