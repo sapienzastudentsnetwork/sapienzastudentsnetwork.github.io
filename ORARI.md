@@ -682,6 +682,14 @@ schedules: {
     },
     "1022267": {
         "0": {
+            "tuesday": {
+                "teacherName": "PANIZZI EMANUELE",
+                "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                "hours": "17 - 19",
+                "classrooms": {
+                    "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                }
+            },
             "thursday": {
                 "teacherName": "PANIZZI EMANUELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=544c3def-98c6-4285-b6e9-16d2b5b1dc07",
