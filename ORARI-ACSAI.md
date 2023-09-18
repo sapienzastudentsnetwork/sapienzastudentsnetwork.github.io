@@ -180,10 +180,11 @@ schedules: {
             }
         },
         "wednesday": {
-            "teacherName": "SPOGNARDI ANGELO",
-            "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=d774d700-87a4-4e84-8281-d6d61aa5cda9",
-            "hours": "14 - 16",
+            "teacherName": "MANCINI MAURIZIO",
+            "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+            "hours": "12 - 14",
             "classrooms": {
+                "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)",
                 "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
                 "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
             }
@@ -203,14 +204,6 @@ schedules: {
             "teacherName": null,
             "teacherPageUrl": null,
             "hours": "16 - 19",
-            "classrooms": {
-                "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-            }
-        },
-        "wednesday": {
-            "teacherName": null,
-            "teacherPageUrl": null,
-            "hours": "17 - 19",
             "classrooms": {
                 "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
             }
@@ -297,7 +290,7 @@ schedules: {
         }
     },
     "10595531": {
-        "monday": {
+        "tuesday": {
             "teacherName": "HUYNH TONY CHI THONG",
             "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=996d00c3-151c-401a-a3d1-89b9add7e0e5",
             "hours": "14 - 17",
@@ -331,24 +324,6 @@ schedules: {
                 "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
         }
-    },
-    "10595534": {
-        "tuesday": {
-            "teacherName": "PANIZZI EMANUELE",
-            "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "hours": "17 - 19",
-            "classrooms": {
-                "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-            }
-        },
-        "thursday": {
-            "teacherName": "PANIZZI EMANUELE",
-            "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "hours": "16 - 19",
-            "classrooms": {
-                "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-            }
-        }
     }
 }
 
@@ -372,6 +347,11 @@ classrooms: {
         "description": "aula I - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
         "address": "PIAZZALE Aldo Moro, 5",
         "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(aula+I)&iwloc=A&hl=it"
+    },
+    "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": {
+        "description": "Aula III - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
+        "address": "PIAZZALE Aldo Moro, 5",
+        "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(Aula+III)&iwloc=A&hl=it"
     },
     "50369700-02c9-46b7-a8f6-cd0171322dee": {
         "description": "Aula informatica 15",
@@ -411,6 +391,9 @@ first-year:
           endTime: 13
           teachingCode: 10595099
     wednesday:
+        - startTime: 12
+          endTime: 14
+          teachingCode: 10595102
         - startTime: 14
           endTime: 16
           teachingCode: 10595102
@@ -448,9 +431,6 @@ second-year:
         - startTime: 14
           endTime: 17
           teachingCode: 10595616
-        - startTime: 17
-          endTime: 19
-          teachingCode: 10595529
     thursday:
         - startTime: 8
           endTime: 10
@@ -474,13 +454,10 @@ third-year:
         - startTime: 11
           endTime: 14
           teachingCode: 10595532
+    tuesday:
         - startTime: 14
           endTime: 17
           teachingCode: 10595531
-    tuesday:
-        - startTime: 17
-          endTime: 19
-          teachingCode: 10595534
     wednesday:
         - startTime: 9
           endTime: 11
@@ -492,9 +469,6 @@ third-year:
         - startTime: 14
           endTime: 16
           teachingCode: 10595531
-        - startTime: 16
-          endTime: 19
-          teachingCode: 10595534
 ---
 
 # Orari (ACSAI - 30786)

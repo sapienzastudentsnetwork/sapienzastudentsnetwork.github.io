@@ -349,7 +349,7 @@ schedules: {
             "wednesday": {
                 "teacherName": "VALERI DANIELE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
-                "hours": "13 - 15",
+                "hours": "17 - 19",
                 "classrooms": {
                     "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
                 }
@@ -395,7 +395,7 @@ schedules: {
             "wednesday": {
                 "teacherName": "PERELLI GIUSEPPE",
                 "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
-                "hours": "15 - 18",
+                "hours": "14 - 17",
                 "classrooms": {
                     "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
                 }
@@ -859,12 +859,12 @@ second-year-1:
           endTime: 19
           teachingCode: 1020422
     wednesday:
-        - startTime: 13
-          endTime: 15
-          teachingCode: 1015886
-        - startTime: 15
-          endTime: 18
+        - startTime: 14
+          endTime: 17
           teachingCode: 1015887
+        - startTime: 17
+          endTime: 19
+          teachingCode: 1015886
     thursday:
         - startTime: 13
           endTime: 15
