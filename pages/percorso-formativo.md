@@ -18,19 +18,49 @@ Nel terzo anno si completa la formazione informatica con due insegnamenti obblig
 
 ## Come funziona il percorso formativo
 
-Ogni studente ha due esami obbligatori al primo semestre del terzo anno, **Ingegneria del Software** e **Automi, Calcolabilità e Complessità**. Inoltre, ogni studente ha a disposizione **30 CFU di esami a scelta**, di cui **12 CFU anche in altre facoltà**.
+In aggiunta ai due esami obbligatori previsti per il Terzo Anno della laurea triennale in Informatica, **Ingegneria del Software** e **Automi, Calcolabilità e Complessità**, gli studenti sono invitati a presentare il loro percorso formativo dopo l'inizio del loro terzo anno al fine di scegliere come completare il loro curriculum con insegnamenti non obbligatori per tutti.
 
-Prima di inizia il terzo anno, ogni studente deve scegliere gli esami che vuole sostenere. Lo studente ha vasta scelta di esami, può scegliere tra esami della propria facoltà oppure esami di altre facoltà (12 CFU). 
+### Quanti esami scegliere
+
+Ogni studente ha a disposizione **30 CFU** di **esami a scelta**, di cui **12 CFU** anche al di fuori del manifesto del corso di studi (quindi anche di altri corsi di laurea o anche di altre facoltà).
+
+È quindi possibile scegliere, ad esempio, 5 esami da 6 CFU, o altre combinazioni che producono un totale di 30 CFU come 3 esami da 6 CFU e 1 esame da 12 CFU e così via.
+
+### Quando presentare il proprio percorso formativo
+
+Gli studenti immatricolati nell'anno accademico **2020/21** o in anni accademici **successivi** possono presentare o chiedere di rinnovare il loro percorso formativo **una sola volta per ogni anno accademico**, **dal 1 dicembre** di ogni anno **al successivo 31 dicembre**.
+
+### Come compilare il proprio percorso formativo
+
+> Tutte le informazioni relative alla compilazione dei percorsi formativi, anche riferiti nel SIAD e nei nostri manifesti come 'Piani di Completamento', possono essere reperite nei seguenti manuali relativi alle due diverse interfacce di sistema: [manuale Studenti - SIAD - Percorsi Formativi Versione 1.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/didattica/Manuale_Percorsi_Formativi_Lato%20Studente_2011_11_11.pdf), [manuale Studenti - SIAD - Percorsi Formativi Versione 2.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/Manuale_Percorsi_Formativi_Guida_Informatica_SapienzaV2.pdf)
+
+> Qualora lo studente prescelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del nostro Corso di Laurea, otterranno l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: 'Il percorso formativo proposto è corretto e può essere approvato automaticamente'.
+
+In tutti gli altri casi è prevista la verifica del percorso formativo da parte di un [docente incaricato della validazione](#commissione-competente).
 
 ### Come scegliere gli esami esterni
 
-Ogni studente può scegliere 12 CFU di esami anche in altre facoltà, ma **come scegliere questi esami?**
+Ogni studente può scegliere **12 CFU** di esami anche al di fuori del manifesto del corso di studi (quindi anche di altri corsi di laurea o anche di altre facoltà), ma **come scegliere questi esami?**
 
-La scelta di un esame esterno deve essere inerente al corso di laurea, quindi deve essere un **esame che può essere utile per la formazione informatica**. Per esempio, un esame di matematica potrebbe essere utile per la formazione informatica, ma un esame di storia no. 
+La scelta di un esame esterno deve essere inerente al corso di laurea, quindi deve essere un **esame che può essere utile per la formazione informatica**.
 
-Per sicurezza lo studente può chiedere al **responsabile della gestione della carriera studenti** se l'esame scelto è inerente al corso di laurea. Lo studente deve mandare una mail con il nome dell'esame e la facoltà, cercando di motivare la scelta dell'esame e chiedendo se è possibile scegliere quell'esame per il percorso formativo.
+- _Per esempio, un esame di matematica potrebbe essere utile per la formazione informatica, ma un esame di storia molto probabilmente non verrà reputato utile._
 
-Ricorda bene che non sempre **gli esami esterni** proposti vengono accettati, spesso **vengono rifiutati** perché simili ad esami già presenti nel corso di laurea oppure perché non inerenti.
+Per sicurezza lo studente può chiedere al docente di riferimento nella [Commissione competente per la valutazione e l'approvazione dei percorsi formativi](#commissione-competente) se l'esame scelto è inerente al corso di laurea, ad esempio inviando una mail, con il nome dell'esame e la facoltà, in cui cerca di motivare la scelta dell'esame e chiede conferma circa se è possibile scegliere quell'esame per il percorso formativo.
+
+Ricorda bene che non sempre **gli esami esterni proposti** vengono accettati, **spesso vengono rifiutati** poiché simili ad esami già presenti nel corso di laurea oppure in quanto non inerenti.
+
+Alcuni esami che sappiamo essere stati verbalizzati come esami esterni a studenti di Informatica in anni precedenti sono elencati nella sezione [esami a scelta esterni](#esami-a-scelta-esterni).
+
+### Commissione competente
+
+La 'Commissione competente per la valutazione e l'approvazione dei percorsi formativi' si occupa di valutare ed approvare i percorsi formativi entro alcune settimane.
+
+> Gli studenti riceveranno opportuna comunicazione sulle modifiche da apportare in modo da rendere il piano di studi conforme al regolamento dei percorsi formativi. Uno studente può ripresentare in nuovo percorso con le dovute correzioni subito dopo la notifica della mancata approvazione.
+
+Il docente di riferimento è il [Prof. Angelo Spognardi](https://www.di.uniroma1.it/it/docenti/spognardi-angelo),
+
+> al quale è possibile scrivere per ulteriori informazioni e/o richieste motivate di approvazione urgente.
 
 <!-- :books:  -->
 ## Esami
@@ -87,6 +117,12 @@ Tecnologico:
 | Verifica e Validazione di Sistemi Intelligenti     | 10600494 | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/0842a63f-a193-4186-9e4a-d5dba483752f/e4dbc4e4-2b09-4472-ae13-676e859ecfed), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29923/20190322090929/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4ec81886-0068-42fe-aede-0141fb81bb64/c8905320-4c31-40bd-b20b-28e20d3b8b78?guid_cv=8e637351-4a3a-47a1-ab11-dfe4ad47e446&current_erogata=1c0d2a0e-d989-463c-a09a-00b823557edd)                                                                                                                                                                                                                                                                                                                                                  |
 
 ### Esami a scelta esterni
+
+Segue una lista di alcuni esami che sappiamo essere stati verbalizzati come esami esterni a studenti di Informatica in anni precedenti
+
+- **N.B.:** alcuni di questi esami potrebbero essere stati convalidati a studenti che si trasferivano da altri corsi anziché essere stati direttamente scelti come parte del percorso formativo per il terzo anno di Informatica 
+
+Consulta anche le indicazioni su [come scegliere gli esami esterni](#come-scegliere-gli-esami-esterni) per ulteriori informazioni in merito!
 
 | Esame                                           | Codice | Facoltà       | CFU    |
 |-------------------------------------------------|--------|---------------|--------|
