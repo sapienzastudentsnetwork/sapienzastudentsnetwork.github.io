@@ -5,7 +5,7 @@ permalink: percorso-formativo
 
 # Percorso Formativo
 
-Nel terzo anno si completa la formazione informatica con due insegnamenti obbligatori nell'area dell'Ingegneria del Software e degli Automi, Calcolabilità e Complessità, e si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione**.
+Nel terzo anno si completa la formazione informatica con due insegnamenti obbligatori di "Ingegneria del Software" e "Automi, Calcolabilità e Complessità", e si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione** attraverso la scelta di un **percorso formativo**.
 
 <!-- :triangular_flag_on_post: -->
 
@@ -18,7 +18,9 @@ Nel terzo anno si completa la formazione informatica con due insegnamenti obblig
 
 ## Come funziona il percorso formativo
 
-In aggiunta ai due esami obbligatori previsti per il Terzo Anno della laurea triennale in Informatica, **Ingegneria del Software** e **Automi, Calcolabilità e Complessità**, gli studenti sono invitati a presentare il loro percorso formativo dopo l'inizio del loro terzo anno al fine di scegliere come completare il loro curriculum con insegnamenti non obbligatori per tutti.
+Gli studenti sono invitati a presentare il loro percorso formativo dopo l'inizio del loro terzo anno al fine di scegliere come completare il loro curriculum con insegnamenti non obbligatori per tutti.
+
+Le informazioni ufficiali in merito al percorso formativo sono disponibili nell'apposita sezione della pagina [Frequentare](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione) del corso di laurea, da cui la maggior parte delle informazioni che potete trovare qui sono state tratte.
 
 ### Quanti esami scegliere
 
