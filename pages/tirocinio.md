@@ -7,6 +7,8 @@ permalink: tirocinio
 
 "Tirocini e Professori": tutto ciò di cui hai bisogno per la ricerca di tirocini e contatti dei professori.
 
+**N.B.:** è disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8) gestita tra studenti e studentesse del corso di laurea dedicata agli argomenti tirocinio e laurea.
+
 ## Tabella dei contenuti
 * 
 {:toc}
@@ -39,12 +41,17 @@ Non sempre è così, ad esempio se c'è già un contatto diretto preesistente tr
 
 Documenti per compilare la domanda di tirocinio:
 
-* Assegnazione di tirocinio
-* Autorizzazione al trattamento dei dati personali (potrebbe non essere aggiornato, sul sito non è più presente e questa copia risale a Febbraio 2023)
-* Controllo anti-plagio
+* [Assegnazione di tirocinio](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1.pdf)
+* Autorizzazione al trattamento dei dati personali (attualmente non disponibile sul sito*)
+* [Controllo anti-plagio](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1.pdf)
 
-Per avere sempre l'ultima versione dei documenti assicuratevi di controllare anche su: [https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi
-)
+Per avere sempre l'ultima versione dei documenti assicuratevi di controllare anche su:
+
+- [https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2022-23
+
+- [https://corsidilaurea.uniroma1.it/it/corso/2023/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2023-24
+
+_* Una versione potenzialmente precedente, risalente a Febbraio 2023, del documento di autorizzazione al trattamento dei dati personali, è disponibile nella cronologia della [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8)_ 
 
 ## Come fare la relazione
 
