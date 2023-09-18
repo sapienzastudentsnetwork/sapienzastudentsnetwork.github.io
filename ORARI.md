@@ -938,6 +938,9 @@ third-year:
         - startTime: 14
           endTime: 17
           teachingCode: 10593235
+        - startTime: 17
+          endTime: 19
+          teachingCode: 1022267
     wednesday:
         - startTime: 8
           endTime: 11
