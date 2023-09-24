@@ -1,7 +1,6 @@
 {
   "0": {
     "1": {
-      "title": "Primo Anno A-F",
       "timetable": {
         "monday": [
           {
@@ -58,10 +57,10 @@
             "code": 1015880
           }
         ]
-      }
+      },
+      "title": "Primo Anno A-F"
     },
     "2": {
-      "title": "Primo Anno G-Z",
       "timetable": {
         "monday": [
           {
@@ -118,12 +117,12 @@
             "code": 1015880
           }
         ]
-      }
+      },
+      "title": "Primo Anno G-Z"
     }
   },
   "1": {
     "1": {
-      "title": "Secondo Anno A-L",
       "timetable": {
         "monday": [
           {
@@ -185,10 +184,10 @@
             "code": 1015886
           }
         ]
-      }
+      },
+      "title": "Secondo Anno A-L"
     },
     "2": {
-      "title": "Secondo Anno M-Z",
       "timetable": {
         "monday": [
           {
@@ -250,12 +249,12 @@
             "code": 1020421
           }
         ]
-      }
+      },
+      "title": "Secondo Anno M-Z"
     }
   },
   "2": {
     "0": {
-      "title": "Terzo Anno",
       "timetable": {
         "monday": [
           {
@@ -357,7 +356,8 @@
             "code": 1047673
           }
         ]
-      }
+      },
+      "title": "Terzo Anno"
     }
   }
 }
