@@ -11,6 +11,8 @@ Naviga nelle singole sezioni del sito e non esitare a contribuire al progetto in
 </sito work in progress, fatto con ❤️>
 ```
 
+**N.B.:** Per informazioni ufficiali, visita la pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso
+
 ## Sapienza Students Network
 
 [Sapienza Students Network](https://sapienzastudents.net/) è un'organizzazione studentesca indipendente mirata a fare rete tra studenti e studentesse dell'ateneo più grande d'Europa per poterlo vivere al meglio e in comunità 😊

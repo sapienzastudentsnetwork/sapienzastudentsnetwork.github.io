@@ -9,6 +9,12 @@ module.exports = {
         './*.md',
         './*.html',
     ],
+    safelist: [
+        'hidden',
+        'sm:table',
+        'table',
+        'sm:hidden',
+    ],
     theme: {
         extend: {
             colors: {

@@ -35,14 +35,14 @@
             <br />
         </div>
 
-        {% if page.url!='/' %}
-        <div id='onThisPage'
-            class="hidden lg:block sticky top-0 p-10 whitespace-nowrap border-l border-l-gray-400 w-96 max-w-[384px] min-w-[384px] box-border">
-            <div class="text-gray-700 dark:text-gray-200 text-xl font-bold">
-                Su questa pagina
-            </div>
-        </div>
-        {% endif %}
+        <!-- {% if page.url!='/' %} -->
+        <!-- <div id='on-this-page' -->
+        <!--     class="hidden lg:block sticky top-0 p-10 whitespace-nowrap border-l border-l-gray-400 w-96 max-w-[400px] min-w-[400px] box-border"> -->
+        <!--     <div class="text-gray-700 dark:text-gray-200 text-xl font-bold"> -->
+        <!--         Su questa pagina -->
+        <!--     </div> -->
+        <!-- </div> -->
+        <!-- {% endif %} -->
     </div>
 
 
@@ -56,11 +56,12 @@
 {% if page.url != '/' %}
 <script>
     function generateOnThisPage() {
-        for (const title of document.querySelectorAll('h2, h3, h4')) {
+        // for (const title of document.querySelectorAll('h2, h3, h4')) {
+        for (const title of document.querySelectorAll('h2, h3')) {
             const titleId = title.getAttribute('id');
 
-            document.getElementById('onThisPage').innerHTML +=
-                `<a href="#${titleId}" id="link-${titleId}" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 on-this-page ${title.tagName} no-wrap">${title.innerText}</a><br>`;
+            document.getElementById('on-this-page').innerHTML +=
+                `<a href="#${titleId}" id="link-${titleId}" class="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 on-this-page ${title.tagName} text-clip text-ellipsis no-wrap">${title.innerText}</a><br>`;
         }
     }
 
@@ -78,9 +79,9 @@
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        generateOnThisPage();
-        highlightOnThisPageTitle();
-        window.addEventListener('hashchange', highlightOnThisPageTitle);
+        // generateOnThisPage();
+        // highlightOnThisPageTitle();
+        // window.addEventListener('hashchange', highlightOnThisPageTitle);
     })
 </script>
 {% endif %}

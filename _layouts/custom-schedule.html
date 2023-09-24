@@ -1,0 +1,91 @@
+---
+layout: default
+---
+
+<!-- {% assign schedules = site.data[page.schedules] | default: site.data.schedules %} -->
+{% assign subjects = site.data[page.subjects] | default: site.data.subjects %}
+<!-- {% assign classrooms = site.data[page.classrooms] | default: site.data.classrooms %} -->
+<!-- {% assign timetables = site.data[page.timetables] | default: site.data.timetables %} -->
+<!-- {% assign timetables = site.data[page.timetables] | default: site.data.timetables %} -->
+
+<script>
+    let subjects = JSON.parse(`{{ subjects | jsonify }}`);
+</script>
+<script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+<div class="relative" id="main">
+    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
+    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="openDialog()">
+        Materie
+        <span class="material-symbols-outlined">
+            add
+        </span>
+    </button>
+
+    {{ content }}
+
+    <div id="{{ info.title | slugify }}" class="channel-{{ channel_id }}">
+        <h2> {{ info.title }} </h2>
+
+        <table class="hidden sm:table desktop">
+            <thead>
+                <tr>
+                    <th scope="col" class='font-light'>Orario</th>
+                    <th scope="col">Lunedì</th>
+                    <th scope="col">Martedì</th>
+                    <th scope="col">Mercoledì</th>
+                    <th scope="col">Giovedì</th>
+                    <th scope="col">Venerdì</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <table class="table sm:hidden mobile">
+            <thead>
+                <tr>
+                    <th scope="col" class='font-light'>Orario</th>
+                    <th scope="col">L</th>
+                    <th scope="col">M</th>
+                    <th scope="col">M</th>
+                    <th scope="col">G</th>
+                    <th scope="col">V</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+<!-- TODO: rendere il contenuto del dialog scrollable! -->
+<!-- TODO: customizzare un po' il dialog! -->
+<dialog
+    class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
+    id="subjects" onclick="closeDialog()">
+    <div class="flex flex-col justify-between items-center h-full">
+        <div>
+            <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
+                on:click="closeDialog()">
+                menu_open
+            </button>
+
+            <div>
+                Lista delle materie!
+            </div>
+            <!-- TODO: prendere spunto da _includes/sidebar.html per capire come riempire l'elenco? -->
+        </div>
+    </div>
+</dialog>
+
+<script>
+    function openDialog() {
+        document.getElementById('subjects').showModal();
+    }
+
+    function closeDialog() {
+        document.getElementById('subjects').close();
+    }
+</script>
