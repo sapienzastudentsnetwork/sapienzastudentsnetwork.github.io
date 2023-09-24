@@ -1,0 +1,363 @@
+{
+  "0": {
+    "1": {
+      "title": "Primo Anno A-F",
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 8,
+            "endTime": 11,
+            "code": 101226
+          },
+          {
+            "startTime": 11,
+            "endTime": 13,
+            "code": 1015883
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 8,
+            "endTime": 11,
+            "code": 1020420
+          },
+          {
+            "startTime": 11,
+            "endTime": 13,
+            "code": 1015880
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 1015883
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 1020420
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 1015883
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 101226
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 1015880
+          }
+        ]
+      }
+    },
+    "2": {
+      "title": "Primo Anno G-Z",
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 101226
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 1015880
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 1020420
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 1015883
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 9,
+            "endTime": 12,
+            "code": 1015883
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 1020420
+          },
+          {
+            "startTime": 15,
+            "endTime": 18,
+            "code": 1015883
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 101226
+          },
+          {
+            "startTime": 15,
+            "endTime": 18,
+            "code": 1015880
+          }
+        ]
+      }
+    }
+  },
+  "1": {
+    "1": {
+      "title": "Secondo Anno A-L",
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 1020421
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 1015886
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 1020421
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 1020422
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 14,
+            "endTime": 17,
+            "code": 1015887
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 1015886
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 1020422
+          },
+          {
+            "startTime": 15,
+            "endTime": 17,
+            "code": 1015887
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 1020421
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 1015886
+          }
+        ]
+      }
+    },
+    "2": {
+      "title": "Secondo Anno M-Z",
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 1020421
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 1015886
+          },
+          {
+            "startTime": 15,
+            "endTime": 18,
+            "code": 1015887
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 1020422
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 1015887
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 1020421
+          },
+          {
+            "startTime": 15,
+            "endTime": 18,
+            "code": 1015886
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 13,
+            "endTime": 15,
+            "code": 1015886
+          },
+          {
+            "startTime": 15,
+            "endTime": 17,
+            "code": 1020422
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 1020421
+          }
+        ]
+      }
+    }
+  },
+  "2": {
+    "0": {
+      "title": "Terzo Anno",
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 1022264
+          },
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 1022263
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 1022301
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 1022264
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 97597
+          },
+          {
+            "startTime": 14,
+            "endTime": 17,
+            "code": 10593235
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 1022267
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 8,
+            "endTime": 11,
+            "code": 1022263
+          },
+          {
+            "startTime": 11,
+            "endTime": 13,
+            "code": 1022301
+          },
+          {
+            "startTime": 14,
+            "endTime": 17,
+            "code": 1041727
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 10596283
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 1047673
+          },
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 10593235
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 1022267
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 8,
+            "endTime": 11,
+            "code": 10596283
+          },
+          {
+            "startTime": 11,
+            "endTime": 13,
+            "code": 97597
+          },
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 1041727
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 1047673
+          }
+        ]
+      }
+    }
+  }
+}
