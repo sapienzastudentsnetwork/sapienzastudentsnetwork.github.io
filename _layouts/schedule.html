@@ -135,15 +135,15 @@ layout: default
                 <td style="text-align: right; width: 100%;">
                     {% for classroom in info.classrooms %}
 
-                    {% assign location_id = classroom[0] %}
-                    {% assign location = classroom[1] %}
-                    {% assign maps_url = classrooms[location_id].mapsUrl %}
+                        {% assign location_id = classroom[0] %}
+                        {% assign location = classroom[1] %}
+                        {% assign mapsUrl = classrooms[location_id].mapsUrl %}
 
-                    {% if maps_url %}
-                    <a href="{{ mapsUrl }}">{{ location }}</a>
-                    {% else %}
-                    {{ location }}
-                    {% endif %}
+                        {% if mapsUrl %}
+                            <a href="{{ mapsUrl }}">{{ location }}</a>
+                        {% else %}
+                            {{ location }}
+                        {% endif %}
 
                     {% endfor %}
                 </td>
