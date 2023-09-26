@@ -121,24 +121,26 @@ Il terzo anno è a **canale unificato**, non è suddiviso in canali A-F e G-Z. P
 
 ##### Insegnamenti a scelta
 
-- [Interazione Uomo Macchina](https://t.me/+SH7YpeAP-WpNXCC_)
-- [Programmazione Web](https://t.me/+SNkXYOYD8edMJ4TS)
+- [Biologia Computazionale](https://t.me/+cBediJPv7GxmZTc8)
+- [Computer Graphics](https://t.me/+Tc_zoLaRxFgxODc8)
+- [Cybersecurity (ACSAI)](https://t.me/+ZLceB7Q8cSA2NzA0)
+- [Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)
+- [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
+- [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)
+- [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
+- [Law and Computer Science (ACSAI)](https://t.me/+Mvi6pA7Mlc4xNDU0)
+- [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
+- [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
+- [Linguaggi e Tecnlogie per il Web (Ing. Inf. e Aut.)](https://t.me/+VHTJ59xpWcgjLkl8)
 - [Matematica Discreta](https://t.me/+x5k6q2yrsztlOWVk)
-- [Multicore](https://t.me/+VBYueH15i5bz6MZv)
-- Metodi Numerici dell'Informatica
-- [Computer Graphics](https://t.me/+UkvugTa0Bxm0nA4t)
-- Biologia Computazionale
-- [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+UwPBxAs2d1t1DyEO)
-- [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+FX62ifPquP9kODA8)
-- [Linguaggi di Programmazione](https://t.me/+WMcOOMn-dTLBVtQq)
-- [Intelligenza Artificiale](https://t.me/+ScQeqz7Ij1hglCy-)
-- [Sicurezza](https://t.me/+VOfFTJId_33Juoly)
-- [Linguaggi e Compilatori](https://t.me/+SpmBS1GeLmVO-4ff)
-- Fisica
-- [Modelli e Ottimizzazione](https://t.me/+TyMj4NBvh8pVeId9)
-- [Linguaggi e Tecnlogie per il Web (Ingegneria Informatica)](https://t.me/+VHTJ59xpWcgjLkl8)
-- Law and Computer Science (ACSAI)
-- [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+VD1dKb1M777XscAU)
+- [Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)
+- [Modelli e Ottimizzazione](https://t.me/+nx7dseifrswzNGU6)
+- [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
+- [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
+- [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
+- [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
+- [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
+- [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)
 
 Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram, o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista, indicizzarlo autonomamente.
 
@@ -148,4 +150,4 @@ Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegr
 - [Canale 2 (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
 - [Terzo Anno (canale unificato)](https://discord.gg/Wg94weSeq3)
 
-***N.B.:** Per canale 1 si intende A-F (primo anno) / A-L (secondo anno).*
+***N.B.:** Per canale 1 si intende A-F (Primo Anno) / A-L (Secondo Anno).*
