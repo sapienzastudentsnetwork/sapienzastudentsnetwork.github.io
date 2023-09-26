@@ -14,14 +14,18 @@ layout: default
 <script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
 <div class="relative channel-1" id="main">
+    {% if page.url contains 'acsai' %}
+        <!-- Non aggiungere nessun pulsante per il cambio canale -->
+    {% else %}
     <button class="absolute top-2 right-0 flex items-center gap-2" onclick="toggleChannel()">
-        <span class="material-symbols-outlined">
-            sort_by_alpha
-        </span>
+            <span class="material-symbols-outlined">
+                sort_by_alpha
+            </span>
         Canale:
         <span id="channel" class="font-bold text-black dark:text-white">
-        </span>
+            </span>
     </button>
+    {% endif %}
 
     {{ content }}
 
@@ -157,6 +161,9 @@ layout: default
     {% endfor %}
 </div>
 
+{% if page.url contains 'acsai' %}
+    <!-- Non inserire il codice per il cambio canale -->
+{% else %}
 <style>
     .channel-1>.channel-2,
     .channel-2>.channel-1 {
@@ -181,3 +188,4 @@ layout: default
         updateChannel(channel);
     }
 </script>
+{% endif %}
