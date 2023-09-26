@@ -21,6 +21,6 @@
     "background_color": "#000000",
     "theme_color": "#000000",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/informatica",
     "description": "🤖 Sito Web degli studenti e le studentesse di Informatica a Sapienza"
 }
