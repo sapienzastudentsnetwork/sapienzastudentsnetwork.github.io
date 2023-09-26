@@ -42,16 +42,16 @@
   "10595524": {
     "0": {
       "monday": {
-        "teacherName": null,
-        "teacherPageUrl": null,
+        "teacherName": "Zabad Sahar",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
         "hours": "12 - 14",
         "classrooms": {
           "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
         }
       },
       "thursday": {
-        "teacherName": null,
-        "teacherPageUrl": null,
+        "teacherName": "Zabad Sahar",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
         "hours": "13 - 16",
         "classrooms": {
           "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
@@ -93,16 +93,16 @@
   "10595529": {
     "0": {
       "monday": {
-        "teacherName": null,
-        "teacherPageUrl": null,
+        "teacherName": "Zabad Sahar",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
         "hours": "16 - 19",
         "classrooms": {
           "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
         }
       },
       "wednesday": {
-        "teacherName": null,
-        "teacherPageUrl": null,
+        "teacherName": "Zabad Sahar",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
         "hours": "17 - 19",
         "classrooms": {
           "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
@@ -112,20 +112,20 @@
   },
   "10595617": {
     "0": {
-      "friday": {
-        "teacherName": "PERELLI GIUSEPPE",
-        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
-        "hours": "10 - 13",
-        "classrooms": {
-          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-        }
-      },
       "monday": {
         "teacherName": "PERELLI GIUSEPPE",
         "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
         "hours": "14 - 16",
         "classrooms": {
           "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+        }
+      },
+      "friday": {
+        "teacherName": "PERELLI GIUSEPPE",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=7353baa2-b69d-499a-b7f4-a59f02bdac25",
+        "hours": "10 - 13",
+        "classrooms": {
+          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
         }
       }
     }
@@ -152,6 +152,14 @@
   },
   "10595616": {
     "0": {
+      "tuesday": {
+        "teacherName": "BARTOLINI NOVELLA",
+        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=af262e9a-41ee-4fd1-a36f-de5f003d100e",
+        "hours": "11 - 13",
+        "classrooms": {
+          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+        }
+      },
       "wednesday": {
         "teacherName": "TOLOMEI GABRIELE",
         "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=8f36766a-6eae-491c-9412-e437f4e904cd",
@@ -164,14 +172,6 @@
         "teacherName": "TOLOMEI GABRIELE",
         "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=8f36766a-6eae-491c-9412-e437f4e904cd",
         "hours": "08 - 10",
-        "classrooms": {
-          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-        }
-      },
-      "tuesday": {
-        "teacherName": "BARTOLINI NOVELLA",
-        "teacherPageUrl": "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=af262e9a-41ee-4fd1-a36f-de5f003d100e",
-        "hours": "11 - 13",
         "classrooms": {
           "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
         }
