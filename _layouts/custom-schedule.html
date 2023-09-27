@@ -15,7 +15,7 @@ layout: default
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="openDialog()">
+    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="openSubjectsDialog()">
         Materie
         <span class="material-symbols-outlined">
             add
@@ -62,30 +62,30 @@ layout: default
 
 <!-- TODO: rendere il contenuto del dialog scrollable! -->
 <!-- TODO: customizzare un po' il dialog! -->
-<!-- <dialog -->
-<!--     class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white" -->
-<!--     id="subjects" onclick="closeDialog()"> -->
-<!--     <div class="flex flex-col justify-between items-center h-full"> -->
-<!--         <div> -->
-<!--             <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer" -->
-<!--                 on:click="closeDialog()"> -->
-<!--                 menu_open -->
-<!--             </button> -->
-<!---->
-<!--             <div> -->
-<!--                 Lista delle materie! -->
-<!--             </div> -->
-<!--             <!-- TODO: prendere spunto da _includes/sidebar.html per capire come riempire l'elenco? --> -->
-<!--         </div> -->
-<!--     </div> -->
-<!-- </dialog> -->
+<dialog
+    class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
+    id="subjects" onclick="closeSubjectsDialog()">
+    <div class="flex flex-col justify-between items-center h-full">
+        <div>
+            <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
+                on:click="closeSubjectsDialog()">
+                menu_open
+            </button>
 
-<!-- <script> -->
-<!--     function openDialog() { -->
-<!--         document.getElementById('subjects').showModal(); -->
-<!--     } -->
-<!---->
-<!--     function closeDialog() { -->
-<!--         document.getElementById('subjects').close(); -->
-<!--     } -->
-<!-- </script> -->
+            <div>
+                Lista delle materie!
+            </div>
+            <!-- TODO: prendere spunto da _includes/sidebar.html per capire come riempire l'elenco? -->
+        </div>
+    </div>
+</dialog>
+
+<script>
+    function openSubjectsDialog() {
+        document.getElementById('subjects').showModal();
+    }
+
+    function closeSubjectsDialog() {
+        document.getElementById('subjects').close();
+    }
+</script>
