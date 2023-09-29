@@ -2,9 +2,11 @@
 layout: default
 ---
 
-<!-- TODO: find a better way to do this -->
 {% assign subjects = site.data.subjects %}
-{% assign subjects-acsai = site.data.subjects-acsai %}
+{% assign schedules = site.data.schedules %}
+
+<!-- TODO: find a better way to do this -->
+<!-- {% assign subjects-acsai = site.data.subjects-acsai %} -->
 <!-- {% assign first_year_af = "101226-1, 1015883-1, 1020420-1, 1015880-1" | split: ", " %} -->
 <!-- {% assign first_year_gz = "" | split: ", " %} -->
 <!-- {% assign first_year_acsai = "" | split: ", " %} -->
@@ -14,10 +16,10 @@ layout: default
 <!-- {% assign third_year = "" | split: ", " %} -->
 <!-- {% assign third_year_acsai = "" | split: ", " %} -->
 
-<script>
-    let subjects = JSON.parse(`{{ subjects | jsonify }}`);
-</script>
-<script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+<!-- <script> -->
+<!--     let subjects = JSON.parse(`{{ subjects | jsonify }}`); -->
+<!-- </script> -->
+<!-- <script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script> -->
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
@@ -30,9 +32,7 @@ layout: default
 
     {{ content }}
 
-    <div id="{{ info.title | slugify }}" class="channel-{{ channel_id }}">
-        <h2> {{ info.title }} </h2>
-
+    <div id="">
         <table class="hidden sm:table desktop">
             <thead>
                 <tr>
@@ -62,7 +62,6 @@ layout: default
             <tbody>
             </tbody>
         </table>
-
     </div>
 </div>
 
@@ -71,34 +70,70 @@ layout: default
 <dialog
     class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
     id="subjects" onclick="closeSubjectsDialog()">
-    <div class="flex flex-col justify-between items-center h-full">
-        <div>
-            <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
-                on:click="closeSubjectsDialog()">
-                menu_open
+    <div class="w-full h-full flex flex-col items-start">
+        <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
+            onclick="closeSubjectsDialog()">
+            menu_open
+        </button>
+
+        <div id="subjects" class="w-full h-full mb-4 pr-4 overflow-y-scroll">
+            {% for subject in schedules %}
+
+            {% assign code = subject[0] %}
+            {% assign channels = subject[1] %}
+
+            {% for channel in channels %}
+            {% assign channel_id = channel[0] %}
+            {% assign schedule = channel[1] %}
+
+            {% assign subject_info = subjects[code] %}
+            <button id="{{ code }}-{{ channel_id }}"
+                class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full truncate"
+                onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
+                {{ subject_info.shortName }}
+                {% if channel_id != "0" %}
+                Canale {{ channel_id }}
+                {% endif %}
             </button>
+            {% endfor %}
 
-            <!-- TODO: prendere spunto da _includes/sidebar.html per capire come riempire l'elenco? -->
-                <div>
-                {% for subject in subjects %}
-
-                <!-- In case of selected subject -->
-                <!-- {% assign label = "font-bold text-black dark:text-white" %} -->
-                {% assign code = subject[0] %}
-                {% assign info = subject[1] %}
-
-                <button class="group w-min mb-3 mx-1 flex flex-col items-center" id="{{ code }}">
-                    {{ info.shortName }}
-                </button>
-
-                {% enfor %}
-            </div>
+            {% endfor %}
         </div>
+
     </div>
 </dialog>
 
 <script>
-    const selectedSubjects = localStorage['selectedSubjects']
+    const selectedSubjects = new Set(JSON.parse(localStorage.getItem('selectedSubjects')));
+
+
+    function toggleSubject(subjectId) {
+        if (selectedSubjects.has(subjectId)) {
+            let button = document.getElementById(subjectId);
+            button.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+            button.classList.add('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+            selectedSubjects.delete(subjectId);
+        } else {
+            let button = document.getElementById(subjectId);
+            button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+            button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+            selectedSubjects.add(subjectId);
+        }
+        localStorage.setItem('selectedSubjects', JSON.stringify(Array.from(selectedSubjects)));
+    }
+
+    addEventListener("DOMContentLoaded", () => {
+        // const subjectsDiv = document.querySelectorAll('subjects > button');
+        // subjectsDiv.forEach((node) => node.addEventListener('click', (event) => event.stopPropagation()));
+        // subjectsDiv.addEventListener('click', (event) => event.stopPropagation());
+
+        for (const subjectId of selectedSubjects) {
+            const button = document.getElementById(subjectId);
+            button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+            button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+        }
+    });
+
 
     function openSubjectsDialog() {
         document.getElementById('subjects').showModal();
