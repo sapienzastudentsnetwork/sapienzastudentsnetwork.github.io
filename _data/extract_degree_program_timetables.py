@@ -1,4 +1,5 @@
 import os
+from datetime import datetime
 
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -13,12 +14,13 @@ import json
 # ▒█▄▄▄█ ▒█▄▄█ ▒█░▒█ ▒█░▒█ ▒█░░░ ▒█▄▄▄ 　 ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█░▒█
 #
 
-# Url of the university page containing timetables and classrooms for a specific degree program
-url = os.getenv("URL", "")
+# Degree program to scrape timetables and classrooms for
+degreeProgramCode = os.getenv("DEGREEPROGRAMCODE", "")
 
-# Suffix for the output file names
-# - classrooms{suffix}.json - including classrooms data
-# - schedules{suffix}.json - including schedules data for each subject
+# Url of the university page containing timetables and classrooms for the specific degree program
+url = f"$ORARI_BASE_URL_SECRET/{degreeProgramCode}"
+
+# Suffix for the output timetables file name
 # - timetables{suffix}.json - including all timetables in the page
 
 suffix = os.getenv("SUFFIX", "")
@@ -45,6 +47,51 @@ h2_tags = soup.find_all('h2')
 
 # Having completed the scraping part, we can quit the driver
 driver.quit()
+
+#
+# ▒█░░░ ▒█▀▀▀█ ░█▀▀█ ▒█▀▀▄ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
+# ▒█░░░ ▒█░░▒█ ▒█▄▄█ ▒█░▒█ 　 ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▄▄█
+# ▒█▄▄█ ▒█▄▄▄█ ▒█░▒█ ▒█▄▄▀ 　 ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█░▒█
+#
+
+
+def load_dict_from_json(source_file_name):
+    if os.path.exists(source_file_name):
+        try:
+            # Try to open the file as JSON
+            with open(source_file_name, "r") as file:
+                dictionary_data = json.load(file)
+
+                print(f"File '{source_file_name}' opened successfully and loaded as a dictionary.")
+
+                return dictionary_data
+
+        except json.JSONDecodeError:
+            # If the file is not a valid JSON, rename the file by adding the .bak extension
+            # with the current date and time to avoid overwriting it when it might not be desired
+            current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            new_file_name = f"{source_file_name}.bak{current_time}"
+            os.rename(source_file_name, new_file_name)
+
+            print(f"The file '{source_file_name}' is not a valid JSON, renamed to '{new_file_name}'.")
+    else:
+        print(f"File '{source_file_name}' not found.")
+
+    return {}
+
+
+# Dictionary to store classroom information
+classrooms_file_name = "classrooms.json"
+classrooms_dict = load_dict_from_json(classrooms_file_name)
+
+# Dictionary to store teacher info
+teachers_file_name = "teachers.json"
+teachers_dict = load_dict_from_json(teachers_file_name)
+
+# Dictionary to store teaching schedules
+teaching_schedules_file_name = "schedules.json"
+teaching_schedules_dict = load_dict_from_json(teaching_schedules_file_name)
+
 
 #
 # ▒█▀▀▀ ▀▄▒▄▀ ▀▀█▀▀ ▒█▀▀█ ░█▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
@@ -104,10 +151,7 @@ for h2_tag in h2_tags:
     count += 1
 
 # Dictionary to store class timetables
-timetables = {}
-
-# Dictionary to store teaching schedules
-teaching_schedules_dict = {}
+timetables_dict = {}
 
 
 # Function to translate Italian day names to English
@@ -134,8 +178,8 @@ for table_index, table in enumerate(table_elements):
     # Extract year index and channel for the current timetable
     year_index, channel = year_and_channel_indexes[table_index]
 
-    if year_index not in timetables:
-        timetables[year_index] = {}
+    if year_index not in timetables_dict:
+        timetables_dict[year_index] = {}
 
     # Find all table rows, excluding the first row with headers
     rows = table.find_all('tr')[1:]
@@ -167,8 +211,8 @@ for table_index, table in enumerate(table_elements):
             # Extract class timings from the third column
             day_and_time_strings = str(columns[2]).replace("dalle ", "").replace("alle ", "").replace(":00", "")
 
-            if channel not in timetables[year_index]:
-                timetables[year_index][channel] = {
+            if channel not in timetables_dict[year_index]:
+                timetables_dict[year_index][channel] = {
                     "timetable": {
                         "monday": [],
                         "tuesday": [],
@@ -187,7 +231,7 @@ for table_index, table in enumerate(table_elements):
                 endTime   = day_and_time_string_fields[2]
 
                 # Add the class schedule to the timetables dictionary
-                timetables[year_index][channel]["timetable"][day_name].append({
+                timetables_dict[year_index][channel]["timetable"][day_name].append({
                     "startTime": int(startTime),
                     "endTime": int(endTime),
                     "code": int(teachingCode)
@@ -207,6 +251,18 @@ for table_index, table in enumerate(table_elements):
 
                     # Extract the URL of the teacher's page
                     teacherPageUrl = teacher_a['href']
+
+                    # Extract the teacher's UID from the URL of the teacher's page
+                    teacherId = teacherPageUrl.split('=')[-1]
+
+                    if teacherId not in teachers_dict:
+                        teachers_dict[teacherId] = {
+                            "teacherName": teacherName,
+                            "teacherPageUrl": teacherPageUrl
+                        }
+                    else:
+                        teachers_dict[teacherId]["teacherName"] = teacherName
+                        teachers_dict[teacherId]["teacherPageUrl"] = teacherPageUrl
 
                 # Extract location information from column 1 of the table
                 location = columns[1]
@@ -235,16 +291,18 @@ for table_index, table in enumerate(table_elements):
                 classroomId = columns[1].find('a').get('href').replace("#aula_", "")
 
                 if teachingCode not in teaching_schedules_dict:
-                    teaching_schedules_dict[teachingCode] = {}
+                    teaching_schedules_dict[teachingCode] = {
+                        "degreeProgramCode": degreeProgramCode,
+                        "channels": {}
+                    }
 
-                if f"{channel}" not in teaching_schedules_dict[teachingCode]:
-                    teaching_schedules_dict[teachingCode][f"{channel}"] = {}
+                if f"{channel}" not in teaching_schedules_dict[teachingCode]["channels"]:
+                    teaching_schedules_dict[teachingCode]["channels"][f"{channel}"] = {}
 
-                if day_name not in teaching_schedules_dict[teachingCode][f"{channel}"]:
+                if day_name not in teaching_schedules_dict[teachingCode]["channels"][f"{channel}"]:
                     # Create a new dictionary for the day name with class information for the channel
-                    teaching_schedules_dict[teachingCode][f"{channel}"][day_name] = {
-                        "teacherName": teacherName,
-                        "teacherPageUrl": teacherPageUrl,
+                    teaching_schedules_dict[teachingCode]["channels"][f"{channel}"][day_name] = {
+                        "teacherId": teacherId,
                         "hours": f"{startTime} - {endTime}",
                         "classrooms": {
                             classroomId: location
@@ -257,10 +315,10 @@ for table_index, table in enumerate(table_elements):
                     # classroom at the same time (usually those in laboratories)
                     #
 
-                    teaching_schedules_dict[teachingCode][f"{channel}"][day_name]["classrooms"][classroomId] = location
+                    teaching_schedules_dict[teachingCode]["channels"][f"{channel}"][day_name]["classrooms"][classroomId] = location
 
     # Remove duplicates and sort class timetables
-    for day, classes in timetables[year_index][channel]["timetable"].items():
+    for day, classes in timetables_dict[year_index][channel]["timetable"].items():
         unique_classes = {}
         for cls in classes:
             unique_key = (cls["startTime"], cls["endTime"], cls["code"])
@@ -268,47 +326,42 @@ for table_index, table in enumerate(table_elements):
         
         unique_classes = list(unique_classes.values())
         
-        timetables[year_index][channel]["timetable"][day] = sorted(unique_classes, key=lambda x: x["startTime"])
+        timetables_dict[year_index][channel]["timetable"][day] = sorted(unique_classes, key=lambda x: x["startTime"])
 
 sort_days_order = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
 # Refine "teaching_schedules_dict" dictionary
-sorted_schedules = {}
-
-for teaching_code, channel_data in teaching_schedules_dict.items():
+for teaching_code, teaching_code_data in teaching_schedules_dict.items():
     sorted_channels = {}
 
-    for channel, day_data in channel_data.items():
+    for channel, day_data in teaching_code_data["channels"].items():
         sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
         sorted_channels[channel] = sorted_days
 
-    sorted_schedules[teaching_code] = sorted_channels
+    teaching_schedules_dict[teaching_code]["channels"] = sorted_channels
 
-# Refine "timetables" dictionary
+# Refine "timetables_dict" dictionary
 if "29923" in url:
-    if '0' in timetables and '1' in timetables['0']:
-        timetables['0']['1']["title"] = "Primo Anno A-F"
-    if '0' in timetables and '2' in timetables['0']:
-        timetables['0']['2']["title"] = "Primo Anno G-Z"
-    if '1' in timetables and '1' in timetables['1']:
-        timetables['1']['1']["title"] = "Secondo Anno A-L"
-    if '1' in timetables and '2' in timetables['1']:
-        timetables['1']['2']["title"] = "Secondo Anno M-Z"
-    if '2' in timetables and '0' in timetables['2']:
-        timetables['2']['0']["title"] = "Terzo Anno"
+    if '0' in timetables_dict and '1' in timetables_dict['0']:
+        timetables_dict['0']['1']["title"] = "Primo Anno A-F"
+    if '0' in timetables_dict and '2' in timetables_dict['0']:
+        timetables_dict['0']['2']["title"] = "Primo Anno G-Z"
+    if '1' in timetables_dict and '1' in timetables_dict['1']:
+        timetables_dict['1']['1']["title"] = "Secondo Anno A-L"
+    if '1' in timetables_dict and '2' in timetables_dict['1']:
+        timetables_dict['1']['2']["title"] = "Secondo Anno M-Z"
+    if '2' in timetables_dict and '0' in timetables_dict['2']:
+        timetables_dict['2']['0']["title"] = "Terzo Anno"
 
 if "30786" in url:
-    if '0' in timetables and '0' in timetables['0']:
-        timetables['0']['0']["title"] = "Primo Anno"
+    if '0' in timetables_dict and '0' in timetables_dict['0']:
+        timetables_dict['0']['0']["title"] = "Primo Anno"
 
-    if '1' in timetables and '0' in timetables['1']:
-        timetables['1']['0']["title"] = "Secondo Anno"
+    if '1' in timetables_dict and '0' in timetables_dict['1']:
+        timetables_dict['1']['0']["title"] = "Secondo Anno"
 
-    if '2' in timetables and '0' in timetables['2']:
-        timetables['2']['0']["title"] = "Terzo Anno"
-
-# Dictionary to store classroom information
-classrooms = {}
+    if '2' in timetables_dict and '0' in timetables_dict['2']:
+        timetables_dict['2']['0']["title"] = "Terzo Anno"
 
 # In the page structure, it is planned that after the tables
 # containing the schedules, there is a single table with more
@@ -359,7 +412,7 @@ for row in rows:
             map_link = None
         
         # Create an information dictionary for this classroom
-        classrooms[id] = {
+        classrooms_dict[id] = {
             "description": description,
             "address": address,
             "mapsUrl": map_link
@@ -378,20 +431,28 @@ for row in rows:
 
 def escape_dict_double_quotes(input_dict) -> dict:
     # Convert the input dictionary to a JSON-formatted string with 4-space indentation
-    input_dict_json_string = json.dumps(input_dict)
-    
-    # Return dict with double quote characters within the JSON string replaced with escaped double quotes
-    return json.loads(input_dict_json_string.replace('\\"', '\\\\\\"'))
+    input_dict_json_string = json.dumps(input_dict, indent=4)
+
+    # Use a regular expression to replace double quote characters within the JSON string
+    # with escaped double quotes if they are not already escaped (not preceded by a backslash)
+    input_dict_json_string = re.sub(r'(?<!\\)\\"', r'\\\\\\"', input_dict_json_string)
+
+    # Return the resulting dictionary after parsing the JSON string
+    return json.loads(input_dict_json_string)
 
 
 # Save the classroom information to a JSON file
-with open(f"classrooms{suffix}.json", "w") as classroomsFile:
-    json.dump(escape_dict_double_quotes(classrooms), classroomsFile, indent=2)
+with open(f"classrooms.json", "w") as classroomsFile:
+    json.dump(escape_dict_double_quotes(classrooms_dict), classroomsFile, indent=2)
+
+# Save the teacher information to a JSON file
+with open(f"teachers.json", "w") as teachersFile:
+    json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
 
 # Save the teaching schedules to a JSON file
-with open(f"schedules{suffix}.json", "w") as schedulesFile:
-    json.dump(escape_dict_double_quotes(sorted_schedules), schedulesFile, indent=2)
+with open(f"schedules.json", "w") as schedulesFile:
+    json.dump(escape_dict_double_quotes(teaching_schedules_dict), schedulesFile, indent=2)
 
 # Save the class timetables to a JSON file
 with open(f"timetables{suffix}.json", "w") as timetablesFile:
-    json.dump(escape_dict_double_quotes(timetables), timetablesFile, indent=2)
+    json.dump(escape_dict_double_quotes(timetables_dict), timetablesFile, indent=2)

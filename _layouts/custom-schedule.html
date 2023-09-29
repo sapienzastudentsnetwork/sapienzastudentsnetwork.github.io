@@ -58,42 +58,38 @@ layout: default
             menu_open
         </button>
 
-        <div id="subjects" class="w-full h-full mb-4 pr-4 overflow-y-scroll">
-            {% assign suffixes = ", -acsai" | split: ", " %}
-
-            {% for suffix in suffixes %}
-
-            {% assign subjects_key = "subjects" | append: suffix %}
-            {% assign schedules_key = "schedules" | append: suffix %}
-
-            {% assign subjects = site.data[subjects_key] %}
-            {% assign schedules = site.data[schedules_key] %}
+        <div class="w-full h-full mb-4 pr-4 overflow-y-scroll">
+            {% assign subjects = site.data.subjects %}
+            {% assign schedules = site.data.schedules %}
 
             {% for subject in schedules %}
+                {% assign code = subject[0] %}
 
-            {% assign code = subject[0] %}
-            {% assign channels = subject[1] %}
+                {% assign subject_info = subjects[code] %}
 
-            {% for channel in channels %}
-            {% assign channel_id = channel[0] %}
-            {% assign schedule = channel[1] %}
+                {% assign teachingDegreeProgramCode = subject[1].degreeProgramCode %}
 
-            {% assign subject_info = subjects[code] %}
+                {% assign subject_description = '[' | append: teachingDegreeProgramCode | append: ']' | append: ' ' | append: subject_info.shortName %}
 
-            <button id="{{ code }}-{{ channel_id }}"
-                class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full truncate"
-                onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
-                {{ subject_info.shortName }}
-                {% if channel_id != "0" %}
-                Canale {{ channel_id }}
-                {% endif %}
-            </button>
+                {% assign channels = subject[1].channels %}
 
-            {% endfor %}
-            {% endfor %}
+                {% for channel in channels %}
+                    {% assign channel_id = channel[0] %}
+                    {% assign schedule = channel[1] %}
+
+                    <button id="{{ code }}-{{ channel_id }}"
+                        class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full truncate"
+                        onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
+
+                        {{ subject_description }}
+
+                        {% if channel_id != "0" %}
+                            (Canale {{ channel_id }})
+                        {% endif %}
+                    </button>
+                {% endfor %}
             {% endfor %}
         </div>
-
     </div>
 </dialog>
 
