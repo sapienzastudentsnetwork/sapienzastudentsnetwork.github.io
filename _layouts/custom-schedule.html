@@ -2,11 +2,17 @@
 layout: default
 ---
 
-<!-- {% assign schedules = site.data[page.schedules] | default: site.data.schedules %} -->
-{% assign subjects = site.data[page.subjects] | default: site.data.subjects %}
-<!-- {% assign classrooms = site.data[page.classrooms] | default: site.data.classrooms %} -->
-<!-- {% assign timetables = site.data[page.timetables] | default: site.data.timetables %} -->
-<!-- {% assign timetables = site.data[page.timetables] | default: site.data.timetables %} -->
+<!-- TODO: find a better way to do this -->
+{% assign subjects = site.data.subjects %}
+{% assign subjects-acsai = site.data.subjects-acsai %}
+<!-- {% assign first_year_af = "101226-1, 1015883-1, 1020420-1, 1015880-1" | split: ", " %} -->
+<!-- {% assign first_year_gz = "" | split: ", " %} -->
+<!-- {% assign first_year_acsai = "" | split: ", " %} -->
+<!-- {% assign second_year_al = "1015886-1, 1015887-1, 1020421-1, 1020422-1" | split: ", " %} -->
+<!-- {% assign second_year_mz = "" | split: ", " %} -->
+<!-- {% assign second_year_acsai = "" | split: ", " %} -->
+<!-- {% assign third_year = "" | split: ", " %} -->
+<!-- {% assign third_year_acsai = "" | split: ", " %} -->
 
 <script>
     let subjects = JSON.parse(`{{ subjects | jsonify }}`);
@@ -72,15 +78,28 @@ layout: default
                 menu_open
             </button>
 
-            <div>
-                Lista delle materie!
-            </div>
             <!-- TODO: prendere spunto da _includes/sidebar.html per capire come riempire l'elenco? -->
+                <div>
+                {% for subject in subjects %}
+
+                <!-- In case of selected subject -->
+                <!-- {% assign label = "font-bold text-black dark:text-white" %} -->
+                {% assign code = subject[0] %}
+                {% assign info = subject[1] %}
+
+                <button class="group w-min mb-3 mx-1 flex flex-col items-center" id="{{ code }}">
+                    {{ info.shortName }}
+                </button>
+
+                {% enfor %}
+            </div>
         </div>
     </div>
 </dialog>
 
 <script>
+    const selectedSubjects = localStorage['selectedSubjects']
+
     function openSubjectsDialog() {
         document.getElementById('subjects').showModal();
     }
