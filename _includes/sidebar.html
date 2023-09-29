@@ -4,26 +4,25 @@
     class="w-[88px] min-w-[88px] h-screen hidden md:flex flex-col justify-between items-center py-4 shadow-xl dark:shadow-2xl dark:shadow-black z-10 dark:bg-black dark:text-white">
     <nav class="flex flex-col items-center">
         {% for link in site.nav %}
+            {% assign label = "text-gray-800 dark:text-gray-100" %}
+            {% assign icon = "group-hover:bg-gray-100 group-hover:dark:bg-gray-800" %}
 
-        {% assign label = "text-gray-800 dark:text-gray-100" %}
-        {% assign icon = "group-hover:bg-gray-100 group-hover:dark:bg-gray-800" %}
+            {% assign url = page.url | replace: ".", "" | split: "/" | last %}
+            {% assign permalink = link.permalink | replace: ".", "" | split: "/" | last %}
 
-        {% assign url = page.url | replace: ".", "" | split: "/" | last %}
-        {% assign permalink = link.permalink | replace: ".", "" | split: "/" | last %}
+            {% if url==permalink %}
+                {% assign label = "font-bold text-black dark:text-white" %}
+                {% assign icon = "fill bg-black text-white dark:bg-white dark:text-black" %}
+            {% endif %}
 
-        {% if url==permalink %}
-        {% assign label = "font-bold text-black dark:text-white" %}
-        {% assign icon = "fill bg-black text-white dark:bg-white dark:text-black" %}
-        {% endif %}
-
-        <a href="{{ link.permalink }}" class="group w-min mb-3 mx-1 flex flex-col items-center">
-            <span class="material-symbols-outlined {{ icon }} rounded-full px-4 py-1 mb-1 ">
-                {{ link.icon }}
-            </span>
-            <span class="text-xs {{ label }} text-center">
-                {{ link.text }}
-            </span>
-        </a>
+            <a href="{{ site.baseurl | append: '/' | append: permalink }}" class="group w-min mb-3 mx-1 flex flex-col items-center">
+                <span class="material-symbols-outlined {{ icon }} rounded-full px-4 py-1 mb-1 ">
+                    {{ link.icon }}
+                </span>
+                <span class="text-xs {{ label }} text-center">
+                    {{ link.text }}
+                </span>
+            </a>
         {% endfor %}
     </nav>
     <span id="darkMode"
