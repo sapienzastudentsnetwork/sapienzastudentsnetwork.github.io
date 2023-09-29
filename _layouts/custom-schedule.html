@@ -2,24 +2,6 @@
 layout: default
 ---
 
-{% assign subjects = site.data.subjects %}
-{% assign schedules = site.data.schedules %}
-
-<!-- TODO: find a better way to do this -->
-<!-- {% assign subjects-acsai = site.data.subjects-acsai %} -->
-<!-- {% assign first_year_af = "101226-1, 1015883-1, 1020420-1, 1015880-1" | split: ", " %} -->
-<!-- {% assign first_year_gz = "" | split: ", " %} -->
-<!-- {% assign first_year_acsai = "" | split: ", " %} -->
-<!-- {% assign second_year_al = "1015886-1, 1015887-1, 1020421-1, 1020422-1" | split: ", " %} -->
-<!-- {% assign second_year_mz = "" | split: ", " %} -->
-<!-- {% assign second_year_acsai = "" | split: ", " %} -->
-<!-- {% assign third_year = "" | split: ", " %} -->
-<!-- {% assign third_year_acsai = "" | split: ", " %} -->
-
-<!-- <script> -->
-<!--     let subjects = JSON.parse(`{{ subjects | jsonify }}`); -->
-<!-- </script> -->
-<!-- <script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script> -->
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
@@ -77,6 +59,16 @@ layout: default
         </button>
 
         <div id="subjects" class="w-full h-full mb-4 pr-4 overflow-y-scroll">
+            {% assign suffixes = ", -acsai" | split: ", " %}
+
+            {% for suffix in suffixes %}
+
+            {% assign subjects_key = "subjects" | append: suffix %}
+            {% assign schedules_key = "schedules" | append: suffix %}
+
+            {% assign subjects = site.data[subjects_key] %}
+            {% assign schedules = site.data[schedules_key] %}
+
             {% for subject in schedules %}
 
             {% assign code = subject[0] %}
@@ -87,6 +79,7 @@ layout: default
             {% assign schedule = channel[1] %}
 
             {% assign subject_info = subjects[code] %}
+
             <button id="{{ code }}-{{ channel_id }}"
                 class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full truncate"
                 onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
@@ -95,8 +88,9 @@ layout: default
                 Canale {{ channel_id }}
                 {% endif %}
             </button>
-            {% endfor %}
 
+            {% endfor %}
+            {% endfor %}
             {% endfor %}
         </div>
 
