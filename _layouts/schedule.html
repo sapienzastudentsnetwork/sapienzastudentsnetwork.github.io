@@ -16,16 +16,22 @@ layout: default
 
 <div class="relative channel-1" id="main">
     {% if page.url contains 'acsai' %}
+        <a href="{{ site.baseurl | append: '/orari'}}" class="absolute top-2 right-2 flex items-center gap-2">Informatica</a>
+
         <!-- Non aggiungere nessun pulsante per il cambio canale -->
     {% else %}
-        <button class="absolute top-2 right-0 flex items-center gap-2" onclick="toggleChannel()">
-                <span class="material-symbols-outlined">
-                    sort_by_alpha
-                </span>
-            Canale:
-            <span id="channel" class="font-bold text-black dark:text-white">
-                </span>
-        </button>
+        <div class="absolute top-2 right-2 flex items-center gap-2">
+            <a href="acsai">ACSAI</a>
+
+            <button class="items-center" onclick="toggleChannel()">
+                    <span class="material-symbols-outlined">
+                        sort_by_alpha
+                    </span>
+                Canale:
+                <span id="channel" class="font-bold text-black dark:text-white">
+                    </span>
+            </button>
+        </div>
     {% endif %}
 
     {{ content }}
