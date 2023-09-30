@@ -2,10 +2,11 @@
 layout: default
 ---
 
-{% assign schedules = site.data[page.schedules] | default: site.data.schedules %}
-{% assign subjects = site.data[page.subjects] | default: site.data.subjects %}
-{% assign classrooms = site.data[page.classrooms] | default: site.data.classrooms %}
-{% assign timetables = site.data[page.timetables] | default: site.data.timetables %}
+{% assign degreeprogramcode = page.degreeprogramcode | plus: 0 %}
+{% assign subjects = site.data.subjects %}
+{% assign classrooms = site.data.classrooms %}
+{% assign teachers = site.data.teachers %}
+{% assign schedules = site.data.schedules %}
 {% assign timetables = site.data[page.timetables] | default: site.data.timetables %}
 
 <script>
@@ -15,177 +16,177 @@ layout: default
 
 <div class="relative channel-1" id="main">
     {% if page.url contains 'acsai' %}
+        <a href="{{ site.baseurl | append: '/orari'}}" class="absolute top-2 right-2 flex items-center gap-2">Informatica</a>
+
         <!-- Non aggiungere nessun pulsante per il cambio canale -->
     {% else %}
-    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="toggleChannel()">
-            <span class="material-symbols-outlined">
-                sort_by_alpha
-            </span>
-        Canale:
-        <span id="channel" class="font-bold text-black dark:text-white">
-            </span>
-    </button>
+        <div class="absolute top-2 right-2 flex items-center gap-2">
+            <a href="acsai">ACSAI</a>
+
+            <button class="items-center" onclick="toggleChannel()">
+                    <span class="material-symbols-outlined">
+                        sort_by_alpha
+                    </span>
+                Canale:
+                <span id="channel" class="font-bold text-black dark:text-white">
+                    </span>
+            </button>
+        </div>
     {% endif %}
 
     {{ content }}
 
     {% for year in timetables %}
-    {% assign year_id = year[0] %}
-    {% assign channels = year[1] %}
+        {% assign year_id = year[0] %}
+        {% assign channels = year[1] %}
 
-    {% for channel in channels %}
-    {% assign channel_id = channel[0] %}
-    {% assign info = channel[1] %}
+        {% for channel in channels %}
+            {% assign channel_id = channel[0] %}
+            {% assign info = channel[1] %}
 
+            <div id="{{ info.title | slugify }}" class="channel-{{ channel_id }}">
+                <h2> {{ info.title }} </h2>
 
-    <div id="{{ info.title | slugify }}" class="channel-{{ channel_id }}">
-        <h2> {{ info.title }} </h2>
+                <table class="hidden sm:table desktop">
+                    <thead>
+                        <tr>
+                            <th scope="col" class='font-light'>Orario</th>
+                            <th scope="col">Lunedì</th>
+                            <th scope="col">Martedì</th>
+                            <th scope="col">Mercoledì</th>
+                            <th scope="col">Giovedì</th>
+                            <th scope="col">Venerdì</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
 
-        <table class="hidden sm:table desktop">
-            <thead>
-                <tr>
-                    <th scope="col" class='font-light'>Orario</th>
-                    <th scope="col">Lunedì</th>
-                    <th scope="col">Martedì</th>
-                    <th scope="col">Mercoledì</th>
-                    <th scope="col">Giovedì</th>
-                    <th scope="col">Venerdì</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+                <table class="table sm:hidden mobile">
+                    <thead>
+                        <tr>
+                            <th scope="col" class='font-light'>Orario</th>
+                            <th scope="col">L</th>
+                            <th scope="col">M</th>
+                            <th scope="col">M</th>
+                            <th scope="col">G</th>
+                            <th scope="col">V</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
 
-        <table class="table sm:hidden mobile">
-            <thead>
-                <tr>
-                    <th scope="col" class='font-light'>Orario</th>
-                    <th scope="col">L</th>
-                    <th scope="col">M</th>
-                    <th scope="col">M</th>
-                    <th scope="col">G</th>
-                    <th scope="col">V</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-
-    </div>
-
-    <script>
-        fillTimetables(
-            "{{ info.title | slugify }}",
-            JSON.parse(`{{ info.timetable | jsonify }}`),
-            subjects
-        );
-    </script>
-
+            <script>
+                fillTimetables(
+                    "{{ info.title | slugify }}",
+                    JSON.parse(`{{ info.timetable | jsonify }}`),
+                    subjects
+                );
+            </script>
+        {% endfor %}
     {% endfor %}
-    {% endfor %}
-
 
     <h2>Orari per insegnamento</h2>
 
     {% for subject in schedules %}
+        {% assign code = subject[0] %}
+        {% assign subjectDegreeProgramCode = subject[1].degreeProgramCode | plus: 0 %}
 
-    {% assign code = subject[0] %}
-    {% assign channels = subject[1] %}
-    {% assign subject_info = subjects[code]] %}
+        {% if subjectDegreeProgramCode == degreeprogramcode %}
+            {% assign channels = subject[1].channels %}
+            {% assign subject_info = subjects[code]] %}
 
+            <h3 id="{{ code }}"> {{ code }} - {{ subject_info.name }} </h3>
 
-    <h3 id="{{ code }}"> {{ code }} - {{ subject_info.name }} </h3>
+            {% for channel in channels %}
+                {% assign channel_id = channel[0] %}
+                {% assign days = channel[1] %}
 
-    {% for channel in channels %}
+                {% assign first_day = days | first %}
+                {% assign first_day_info = first_day[1] %}
 
-    {% assign channel_id = channel[0] %}
-    {% assign days = channel[1] %}
+                <h4>
+                    {% if channel_id != "0" %}
+                        Canale {{ channel_id }} -
+                    {% endif %}
 
-    {% assign first_day = days | first %}
-    {% assign first_day_info = first_day[1] %}
+                    <a href="{{ first_day_info.teacherPageUrl }}">{{ teachers[first_day_info.teacherId].teacherName }}</a>
+                </h4>
 
-    <h4>
-        {% if channel_id != "0" %}
-        Canale {{ channel_id }} -
-        {% endif %}
-        <a href="{{ first_day_info.teacherPageUrl }}">{{ first_day_info.teacherName }}</a>
-    </h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Giorno</th>
+                            <th scope="col">Orario</th>
+                            <th scope="col" style="text-align: right">Aula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for day in days %}
+                            {% assign name = day[0] %}
+                            {% assign info = day[1] %}
+                            <tr>
+                                <td>
+                                    {% case name %}
+                                        {% when "monday" %} Lunedì
+                                        {% when "tuesday" %} Martedì
+                                        {% when "wednesday" %} Mercoledì
+                                        {% when "thursday" %} Giovedì
+                                        {% when "friday" %} Venerdì
+                                        {% when "saturday" %} Sabato
+                                        {% when "sunday" %} Domenica
+                                    {% endcase %}
+                                </td>
+                                <td>{{ info.hours }}</td>
+                                <td style="text-align: right; width: 100%;">
+                                    {% for classroom in info.classrooms %}
+                                        {% assign location_id = classroom[0] %}
+                                        {% assign location = classroom[1] %}
+                                        {% assign mapsUrl = classrooms[location_id].mapsUrl %}
 
-    <table>
-        <thead>
-            <tr>
-                <th scope="col">Giorno</th>
-                <th scope="col">Orario</th>
-                <th scope="col" style="text-align: right">Aula</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for day in days %}
-            {% assign name = day[0] %}
-            {% assign info = day[1] %}
-            <tr>
-                <td>
-                    {% case name %}
-                    {% when "monday" %} Lunedì
-                    {% when "tuesday" %} Martedì
-                    {% when "wednesday" %} Mercoledì
-                    {% when "thursday" %} Giovedì
-                    {% when "friday" %} Venerdì
-                    {% when "saturday" %} Sabato
-                    {% when "sunday" %} Domenica
-                    {% endcase %}
-                </td>
-                <td>{{ info.hours }}</td>
-                <td style="text-align: right; width: 100%;">
-                    {% for classroom in info.classrooms %}
-
-                        {% assign location_id = classroom[0] %}
-                        {% assign location = classroom[1] %}
-                        {% assign mapsUrl = classrooms[location_id].mapsUrl %}
-
-                        {% if mapsUrl %}
-                            <a href="{{ mapsUrl }}">{{ location }}</a>
-                        {% else %}
-                            {{ location }}
-                        {% endif %}
-
-                    {% endfor %}
-                </td>
-            </tr>
+                                        {% if mapsUrl %}
+                                            <a href="{{ mapsUrl }}">{{ location }}</a>
+                                        {% else %}
+                                            {{ location }}
+                                        {% endif %}
+                                    {% endfor %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
             {% endfor %}
-        </tbody>
-    </table>
-
-    {% endfor %}
-
+        {% endif %}
     {% endfor %}
 </div>
 
 {% if page.url contains 'acsai' %}
     <!-- Non inserire il codice per il cambio canale -->
 {% else %}
-<style>
-    .channel-1>.channel-2,
-    .channel-2>.channel-1 {
-        display: none;
-    }
-</style>
-<script>
-    function updateChannel(channel) {
-        localStorage.setItem('channel', channel);
-        document.getElementById('channel').innerHTML = channel;
+    <style>
+        .channel-1>.channel-2,
+        .channel-2>.channel-1 {
+            display: none;
+        }
+    </style>
+    <script>
+        function updateChannel(channel) {
+            localStorage.setItem('channel', channel);
+            document.getElementById('channel').innerHTML = channel;
 
-        const main = document.getElementById('main');
-        main.classList.remove('channel-1', 'channel-2')
-        main.classList.add(`channel-${channel}`)
-    }
+            const main = document.getElementById('main');
+            main.classList.remove('channel-1', 'channel-2')
+            main.classList.add(`channel-${channel}`)
+        }
 
-    let channel = localStorage.getItem('channel') || '1';
-    updateChannel(channel);
-
-    function toggleChannel() {
-        channel = channel === '1' ? '2' : '1';
+        let channel = localStorage.getItem('channel') || '1';
         updateChannel(channel);
-    }
-</script>
+
+        function toggleChannel() {
+            channel = channel === '1' ? '2' : '1';
+            updateChannel(channel);
+        }
+    </script>
 {% endif %}
