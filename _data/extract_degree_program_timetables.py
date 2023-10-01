@@ -23,7 +23,7 @@ import json
 degreeProgramCode = os.getenv("DEGREEPROGRAMCODE", "")
 
 # Url of the university page containing timetables and classrooms for the specific degree program
-url = f"$ORARI_BASE_URL_SECRET/{degreeProgramCode}"
+url = os.getenv("ORARI_BASE_URL") + "/{degreeProgramCode}"
 
 # Suffix for the output timetables file name
 # - timetables{suffix}.json - including all timetables in the page

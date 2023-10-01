@@ -58,6 +58,8 @@ jobs:
           chmod +x _data/updateData.sh
           cd _data
           ./updateData.sh
+        env:
+          ORARI_BASE_URL: ${{ secrets.ORARI_BASE_URL_SECRET }}
         working-directory: ${{ github.workspace }}
 
       - name: Commit and push changes
