@@ -204,7 +204,7 @@ for table_index, table in enumerate(table_elements):
         if len(columns) == 3:
             # Find the <a> element containing the teaching's code
             teaching_code_link = columns[0].find('a')
-            
+
             # Extract the teaching code from the link
             teachingCode = teaching_code_link.get_text(strip=False).split(" ")[0]
 
@@ -292,7 +292,7 @@ for table_index, table in enumerate(table_elements):
 
                 if teachingCode not in teaching_schedules_dict:
                     teaching_schedules_dict[teachingCode] = {
-                        "degreeProgramCode": degreeProgramCode,
+                        "degree": degreeProgramCode,
                         "channels": {}
                     }
 

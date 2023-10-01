@@ -32,9 +32,12 @@ nav:
   - text: Orari
     icon: schedule
     permalink: orari
-  # - text: Orario Custom
-  #  icon: calendar_today
-  #  permalink: orario
+  - text: Orari ACSAI
+    icon: alarm
+    permalink: orari/acsai
+  - text: Orario Custom
+    icon: calendar_today
+    permalink: orario
   # - text:
   #   icon:
   #   permalink:
