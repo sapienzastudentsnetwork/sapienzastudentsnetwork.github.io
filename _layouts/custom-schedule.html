@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<script>
+    const courses = JSON.parse(`{{ site.data.courses | jsonify }}`);
+    const schedules = JSON.parse(`{{ site.data.schedules | jsonify }}`);
+</script>
+<script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
@@ -14,7 +19,7 @@ layout: default
 
     {{ content }}
 
-    <div id="">
+    <div id="custom-schedule">
         <table class="hidden sm:table desktop">
             <thead>
                 <tr>
@@ -47,8 +52,6 @@ layout: default
     </div>
 </div>
 
-<!-- TODO: rendere il contenuto del dialog scrollable! -->
-<!-- TODO: customizzare un po' il dialog! -->
 <dialog
     class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
     id="subjects" onclick="closeSubjectsDialog()">
@@ -59,35 +62,36 @@ layout: default
         </button>
 
         <div class="w-full h-full mb-4 pr-4 overflow-y-scroll">
-            {% assign subjects = site.data.subjects %}
-            {% assign schedules = site.data.schedules %}
 
-            {% for subject in schedules %}
-                {% assign code = subject[0] %}
+            {% for subject in site.data.schedules %}
+            {% assign code = subject[0] %}
 
-                {% assign subject_info = subjects[code] %}
+            {% assign subject_info = site.data.courses[code] %}
 
-                {% assign teachingDegreeProgramCode = subject[1].degreeProgramCode %}
+            {% assign teachingDegreeProgramCode = subject[1].degree %}
 
-                {% assign subject_description = '[' | append: teachingDegreeProgramCode | append: ']' | append: ' ' | append: subject_info.shortName %}
+            {% assign subject_description = '[' | append: teachingDegreeProgramCode | append: ']' | append: ' ' |
+            append: subject_info.shortName %}
 
-                {% assign channels = subject[1].channels %}
+            {% assign channels = subject[1].channels %}
 
-                {% for channel in channels %}
-                    {% assign channel_id = channel[0] %}
-                    {% assign schedule = channel[1] %}
+            {% for channel in channels %}
+            {% assign channel_id = channel[0] %}
+            {% assign schedule = channel[1] %}
 
-                    <button id="{{ code }}-{{ channel_id }}"
-                        class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full truncate"
-                        onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
+            <button id="{{ code }}-{{ channel_id }}"
+                class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full"
+                onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
 
-                        {{ subject_description }}
+                <span class="w-full truncate text-left">
+                    {{ subject_description }}
 
-                        {% if channel_id != "0" %}
-                            (Canale {{ channel_id }})
-                        {% endif %}
-                    </button>
-                {% endfor %}
+                    {% if channel_id != "0" %}
+                    (Canale {{ channel_id }})
+                    {% endif %}
+                </span>
+            </button>
+            {% endfor %}
             {% endfor %}
         </div>
     </div>
@@ -110,18 +114,27 @@ layout: default
             selectedSubjects.add(subjectId);
         }
         localStorage.setItem('selectedSubjects', JSON.stringify(Array.from(selectedSubjects)));
+        fillTimetables(
+            'custom-schedule',
+            Array.from(selectedSubjects),
+            courses,
+            schedules,
+        );
     }
 
     addEventListener("DOMContentLoaded", () => {
-        // const subjectsDiv = document.querySelectorAll('subjects > button');
-        // subjectsDiv.forEach((node) => node.addEventListener('click', (event) => event.stopPropagation()));
-        // subjectsDiv.addEventListener('click', (event) => event.stopPropagation());
-
         for (const subjectId of selectedSubjects) {
             const button = document.getElementById(subjectId);
             button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
             button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
         }
+
+        fillTimetables(
+            'custom-schedule',
+            Array.from(selectedSubjects),
+            courses,
+            schedules,
+        );
     });
 
 
