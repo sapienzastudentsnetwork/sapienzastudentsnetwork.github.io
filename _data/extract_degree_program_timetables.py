@@ -263,6 +263,8 @@ for table_index, table in enumerate(table_elements):
                     else:
                         teachers_dict[teacherId]["teacherName"] = teacherName
                         teachers_dict[teacherId]["teacherPageUrl"] = teacherPageUrl
+                else:
+                    teacherId = None
 
                 # Extract location information from column 1 of the table
                 location = columns[1]
