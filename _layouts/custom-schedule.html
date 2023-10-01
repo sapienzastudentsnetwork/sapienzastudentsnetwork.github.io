@@ -60,7 +60,7 @@ layout: default
         {% assign channels = subject[1].channels %}
         {% assign subject_info = site.data.courses[code] %}
 
-        <div id="subject-info-{{ code }}" class="hidden">
+        <div id="{{ code }}" class="hidden">
             <h3 id="{{ code | append: '-h3' }}"> {{ code }} - {{ subject_info.name }} </h3>
 
             {% for channel in channels %}
@@ -70,7 +70,7 @@ layout: default
                 {% assign first_day = days | first %}
                 {% assign first_day_info = first_day[1] %}
 
-                <div id="subject-info-{{ code }}-{{ channel_id }}" class="hidden">
+                <div id="{{ code }}-{{ channel_id }}" class="hidden">
                     <h4>
                         {% if channel_id != "0" %}
                             Canale {{ channel_id }} -
@@ -153,7 +153,7 @@ layout: default
                     {% assign channel_id = channel[0] %}
                     {% assign schedule = channel[1] %}
 
-                    <button id="{{ code }}-{{ channel_id }}"
+                    <button id="dialog-{{ code }}-{{ channel_id }}"
                         class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full"
                         onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
 
@@ -176,7 +176,7 @@ layout: default
 
     function toggleSubject(subjectId) {
         if (selectedSubjects.has(subjectId)) {
-            let button = document.getElementById(subjectId);
+            let button = document.getElementById("dialog-" + subjectId);
             button.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
             button.classList.add('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
 
@@ -185,24 +185,24 @@ layout: default
             // Hide this subject's timetable div only if the subject was not also added with another channel
             let otherSubjectIdsWithSameCode = Array.from(selectedSubjects).filter(item => item.startsWith(subjectCode));
             if (otherSubjectIdsWithSameCode.length === 1) {
-                let subject_div = document.getElementById("subject-info-" + subjectCode)
+                let subject_div = document.getElementById(subjectCode)
                 subject_div.classList.add('hidden');
             }
 
-            let channel_div = document.getElementById("subject-info-" + subjectId)
+            let channel_div = document.getElementById(subjectId)
             channel_div.classList.add('hidden');
 
             selectedSubjects.delete(subjectId);
         } else {
-            let button = document.getElementById(subjectId);
+            let button = document.getElementById("dialog-" + subjectId);
             button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
             button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
             let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById("subject-info-" + subjectCode)
+            let subject_div = document.getElementById(subjectCode)
             subject_div.classList.remove('hidden');
 
-            let channel_div = document.getElementById("subject-info-" + subjectId)
+            let channel_div = document.getElementById(subjectId)
             channel_div.classList.remove('hidden');
 
             selectedSubjects.add(subjectId);
@@ -220,16 +220,15 @@ layout: default
 
     addEventListener("DOMContentLoaded", () => {
         for (const subjectId of selectedSubjects) {
-            const button = document.getElementById(subjectId);
-
+            const button = document.getElementById("dialog-" + subjectId);
             button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
             button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
             let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById("subject-info-" + subjectCode)
+            let subject_div = document.getElementById(subjectCode)
             subject_div.classList.remove('hidden');
 
-            let channel_div = document.getElementById("subject-info-" + subjectId)
+            let channel_div = document.getElementById(subjectId)
             channel_div.classList.remove('hidden');
         }
 
