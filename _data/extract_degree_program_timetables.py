@@ -461,5 +461,5 @@ with open(f"schedules.json", "w") as schedulesFile:
     json.dump(escape_dict_double_quotes(teaching_schedules_dict), schedulesFile, indent=2)
 
 # Save the class timetables to a JSON file
-with open(f"timetables{suffix}.json", "w") as timetablesFile:
-    json.dump(escape_dict_double_quotes(timetables_dict), timetablesFile, indent=2)
+#with open(f"timetables{suffix}.json", "w") as timetablesFile:
+#    json.dump(escape_dict_double_quotes(timetables_dict), timetablesFile, indent=2)
