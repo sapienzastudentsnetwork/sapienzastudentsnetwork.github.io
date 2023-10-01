@@ -48,7 +48,7 @@
         <a href="risorse" class="material-symbols-outlined">
             link
         </a>
-        <a href="orari" class="material-symbols-outlined">
+        <a href="orari" id="schedule-shortcut" class="material-symbols-outlined">
             calendar_month
         </a>
     </div>
@@ -112,6 +112,24 @@
     function closeDialog() {
         document.getElementById('nav').close();
     }
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const customSubjects = new Set(JSON.parse(localStorage.getItem('selectedSubjects')));
+
+        if (customSubjects.size > 0) {
+            const scheduleShortcut = document.getElementById('schedule-shortcut');
+            scheduleShortcut.setAttribute('href', 'orario');
+        }
+    });
+
+    document.addEventListener('storage', () => {
+        const customSubjects = new Set(JSON.parse(localStorage.getItem('selectedSubjects')));
+        if (customSubjects.size > 0) {
+            const scheduleShortcut = document.getElementById('schedule-shortcut');
+            scheduleShortcut.setAttribute('href', 'orario');
+        }
+    });
 
     // document.addEventListener('DOMContentLoaded', () => {
     const darkMode = JSON.parse(localStorage.getItem('darkMode'))
