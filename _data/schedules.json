@@ -449,14 +449,14 @@
     "channels": {
       "0": {
         "wednesday": {
-          "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
+          "teacherId": null,
           "hours": "17 - 19",
           "classrooms": {
             "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
           }
         },
         "friday": {
-          "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
+          "teacherId": null,
           "hours": "08 - 11",
           "classrooms": {
             "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
