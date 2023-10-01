@@ -2,7 +2,12 @@ import os
 from datetime import datetime
 
 from selenium import webdriver
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
+from pyvirtualdisplay import Display
 from bs4 import BeautifulSoup
+display = Display(visible=0, size=(1920, 1080))
+display.start()
 
 import re
 
@@ -26,7 +31,7 @@ url = f"$ORARI_BASE_URL_SECRET/{degreeProgramCode}"
 suffix = os.getenv("SUFFIX", "")
 
 # Initialize the Firefox browser driver
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 
 # Get the HTML source code of the webpage
 driver.get(url)

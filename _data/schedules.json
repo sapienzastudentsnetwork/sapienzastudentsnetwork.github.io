@@ -457,6 +457,7 @@
         },
         "friday": {
           "teacherId": null,
+          "test": null,
           "hours": "08 - 11",
           "classrooms": {
             "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
