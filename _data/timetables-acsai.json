@@ -1,0 +1,192 @@
+{
+  "0": {
+    "0": {
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 9,
+            "endTime": 12,
+            "code": 10595102
+          },
+          {
+            "startTime": 12,
+            "endTime": 14,
+            "code": 10595524
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 10595546
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 10595099
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 12,
+            "endTime": 14,
+            "code": 10595102
+          },
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 10595102
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 13,
+            "endTime": 16,
+            "code": 10595524
+          },
+          {
+            "startTime": 16,
+            "endTime": 18,
+            "code": 10595099
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 11,
+            "endTime": 14,
+            "code": 10595102
+          },
+          {
+            "startTime": 15,
+            "endTime": 18,
+            "code": 10595546
+          }
+        ]
+      },
+      "title": "Primo Anno"
+    }
+  },
+  "1": {
+    "0": {
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 10595617
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 10595529
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 8,
+            "endTime": 11,
+            "code": 10595525
+          },
+          {
+            "startTime": 11,
+            "endTime": 13,
+            "code": 10595616
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 14,
+            "endTime": 17,
+            "code": 10595616
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 10595529
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 10595616
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 10595616
+          }
+        ],
+        "friday": [
+          {
+            "startTime": 8,
+            "endTime": 10,
+            "code": 10595525
+          },
+          {
+            "startTime": 10,
+            "endTime": 13,
+            "code": 10595617
+          }
+        ]
+      },
+      "title": "Secondo Anno"
+    }
+  },
+  "2": {
+    "0": {
+      "timetable": {
+        "monday": [
+          {
+            "startTime": 9,
+            "endTime": 11,
+            "code": 10595530
+          },
+          {
+            "startTime": 11,
+            "endTime": 14,
+            "code": 10595532
+          }
+        ],
+        "tuesday": [
+          {
+            "startTime": 14,
+            "endTime": 17,
+            "code": 10595531
+          },
+          {
+            "startTime": 17,
+            "endTime": 19,
+            "code": 10595534
+          }
+        ],
+        "wednesday": [
+          {
+            "startTime": 9,
+            "endTime": 11,
+            "code": 10595532
+          },
+          {
+            "startTime": 11,
+            "endTime": 14,
+            "code": 10595530
+          }
+        ],
+        "thursday": [
+          {
+            "startTime": 14,
+            "endTime": 16,
+            "code": 10595531
+          },
+          {
+            "startTime": 16,
+            "endTime": 19,
+            "code": 10595534
+          }
+        ],
+        "friday": []
+      },
+      "title": "Terzo Anno"
+    }
+  }
+}
