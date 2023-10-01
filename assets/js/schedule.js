@@ -1,8 +1,28 @@
-function fillTimetables(timetablesContainerId, schedule, subjects) {
+function fillTimetables(timetablesContainerId, timetableCourses, courses, schedules, channel) {
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal']
 
     let classesStartTime = undefined,
         classesEndTime = undefined;
+
+    let schedule = {};
+
+    for (const day of ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'])
+        schedule[day] = [];
+
+    for (let course of timetableCourses) {
+        let info = course.toString().split('-');
+        let c = info[0];
+        let ch = info[1] || channel;
+        let d = schedules[c]['channels'][ch]
+
+        for (const [day, info] of Object.entries(d)) {
+            let times = info.hours.split('-')
+            let startTime = parseInt(times[0])
+            let endTime = parseInt(times[1])
+            schedule[day].push({ code: c, startTime, endTime });
+        }
+    }
+
 
     for (const events of Object.values(schedule))
         for (const { startTime, endTime } of events) {
@@ -14,6 +34,9 @@ function fillTimetables(timetablesContainerId, schedule, subjects) {
 
     const desktopTbody = document.querySelector(`#${timetablesContainerId} .desktop tbody`);
     const mobileTbody = document.querySelector(`#${timetablesContainerId} .mobile tbody`);
+
+    desktopTbody.innerHTML = '';
+    mobileTbody.innerHTML = '';
 
     for (let time = classesStartTime; time < classesEndTime; time++) {
         const desktopTimeTd = document.createElement('td');
@@ -37,18 +60,19 @@ function fillTimetables(timetablesContainerId, schedule, subjects) {
             const desktopTd = document.createElement('td');
             const mobileTd = document.createElement('td');
 
-            const courses = schedule[day]
+            const cc = schedule[day]
                 .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
-            for (const { code } of courses) {
+            let counter = 0;
+            for (const { code } of cc) {
                 desktopCourseLink = document.createElement('a');
                 desktopCourseLink.href = `#${code}`
                 desktopCourseLink.textContent =
-                    subjects[code] ?
+                    courses[code] ?
                         (
-                            subjects[code].shortName ?
-                                subjects[code].shortName :
-                                subjects[code].name
+                            courses[code].shortName ?
+                                courses[code].shortName :
+                                courses[code].name
                         )
                         :
                         code;
@@ -56,29 +80,35 @@ function fillTimetables(timetablesContainerId, schedule, subjects) {
                 mobileCourseLink = document.createElement('a');
                 mobileCourseLink.href = `#${code}`
                 mobileCourseLink.textContent =
-                    subjects[code] ?
+                    courses[code] ?
                         (
-                            subjects[code].abbr ?
-                                subjects[code].abbr :
-                                subjects[code].name.substring(0, 2).toUpperCase()
+                            courses[code].abbr ?
+                                courses[code].abbr :
+                                courses[code].name.substring(0, 2).toUpperCase()
                         )
                         :
                         code;
 
 
-                desktopTd.append(desktopCourseLink);
-                mobileTd.append(mobileCourseLink);
 
                 if (!subjectsColors[code])
                     subjectsColors[code] = COLORS[nextColorIndex++ % COLORS.length];
 
                 desktopCourseLink.classList.add(subjectsColors[code], 'font-bold');
                 mobileCourseLink.classList.add(subjectsColors[code], 'font-bold');
+
+                if (counter > 0) {
+                    desktopTd.append(document.createElement('br'));
+                    mobileTd.append(document.createElement('br'));
+                }
+                desktopTd.append(desktopCourseLink);
+                mobileTd.append(mobileCourseLink);
+                counter++;
             }
+
 
             desktopTr.append(desktopTd);
             mobileTr.append(mobileTd);
-
         }
 
         desktopTbody.append(desktopTr);

@@ -1,6 +1,6 @@
 {
   "101226": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "monday": {
@@ -37,7 +37,7 @@
     }
   },
   "1015883": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "monday": {
@@ -90,7 +90,7 @@
     }
   },
   "1020420": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "tuesday": {
@@ -127,7 +127,7 @@
     }
   },
   "1015880": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "tuesday": {
@@ -164,7 +164,7 @@
     }
   },
   "1015886": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "monday": {
@@ -215,7 +215,7 @@
     }
   },
   "1015887": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "wednesday": {
@@ -252,7 +252,7 @@
     }
   },
   "1020421": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "monday": {
@@ -303,7 +303,7 @@
     }
   },
   "1020422": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "1": {
         "tuesday": {
@@ -340,7 +340,7 @@
     }
   },
   "1041727": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "wednesday": {
@@ -361,7 +361,7 @@
     }
   },
   "97597": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "tuesday": {
@@ -382,7 +382,7 @@
     }
   },
   "1022301": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "monday": {
@@ -403,7 +403,7 @@
     }
   },
   "1022263": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "monday": {
@@ -424,7 +424,7 @@
     }
   },
   "1022264": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "monday": {
@@ -445,7 +445,7 @@
     }
   },
   "10596283": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "wednesday": {
@@ -466,7 +466,7 @@
     }
   },
   "10593235": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "tuesday": {
@@ -487,7 +487,7 @@
     }
   },
   "1022267": {
-    "degreeProgramCode": "29923",
+    "degree": "29923",
     "channels": {
       "0": {
         "tuesday": {
@@ -508,7 +508,7 @@
     }
   },
   "10595099": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
@@ -529,7 +529,7 @@
     }
   },
   "10595546": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
@@ -550,7 +550,7 @@
     }
   },
   "10595524": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -571,7 +571,7 @@
     }
   },
   "10595102": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -602,7 +602,7 @@
     }
   },
   "10595529": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -623,7 +623,7 @@
     }
   },
   "10595617": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -644,7 +644,7 @@
     }
   },
   "10595525": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
@@ -665,7 +665,7 @@
     }
   },
   "10595616": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
@@ -693,7 +693,7 @@
     }
   },
   "10595532": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -714,7 +714,7 @@
     }
   },
   "10595531": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
@@ -735,7 +735,7 @@
     }
   },
   "10595530": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "monday": {
@@ -756,7 +756,7 @@
     }
   },
   "10595534": {
-    "degreeProgramCode": "30786",
+    "degree": "30786",
     "channels": {
       "0": {
         "tuesday": {
