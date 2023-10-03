@@ -1,4 +1,9 @@
 {
+  "3247d3bb-417e-4bba-8e7e-829bbb3863de": {
+    "description": "Aula 1 - Aule L",
+    "address": "VIA del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+1)&iwloc=A&hl=it"
+  },
   "625390f2-0bbb-4072-b866-50902fa1bad9": {
     "description": "Aula 2 - Aule L",
     "address": "VIA del Castro Laurenziano, 7a",
@@ -63,11 +68,6 @@
     "description": "Aula T1 - Regina Elena - Edificio E",
     "address": "VIALE Regina Elena, 295",
     "mapsUrl": null
-  },
-  "3247d3bb-417e-4bba-8e7e-829bbb3863de": {
-    "description": "Aula 1 - Aule L",
-    "address": "VIA del Castro Laurenziano, 7a",
-    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+1)&iwloc=A&hl=it"
   },
   "deffa19a-65db-4abe-be55-4178b791dc1b": {
     "description": "Aula informatica 16 ",
