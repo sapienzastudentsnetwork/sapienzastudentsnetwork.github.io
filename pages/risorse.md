@@ -64,15 +64,6 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 - [Basi di Dati 1 Sito](https://giuseppeperelli.github.io/teaching/2023-24_basi_di_dati/)
 - [Basi di Dati 1 Classroom](https://classroom.google.com/c/NjMzNTU2MTY4NjQz?cjc=7s3zywu)
 - [Calcolo delle probabilità Sito](https://www1.mat.uniroma1.it/people/bertini/ama/didattica/informatica/)
-
-<!-- Sistemi operativi -->
-
-
-<!-- ### Secondo Semestre -->
-
-<!---->
-<!-- ## Terzo Anno -->
-<!---->
-<!-- ### Primo Semestre -->
-<!---->
-<!-- ### Secondo Semestre -->
+- [Sistemi Operativi 1 repository](https://github.com/gtolomei/operating-systems)
+- [Sistemi Operativi 1 slide](https://github.com/gtolomei/operating-systems/tree/master/lectures/slides)
+- [Sistemi Operativi 1 esercizi](https://github.com/gtolomei/operating-systems/tree/master/exercises)
