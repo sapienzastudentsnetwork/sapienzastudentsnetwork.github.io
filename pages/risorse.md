@@ -67,3 +67,4 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 - [Sistemi Operativi 1 repository](https://github.com/gtolomei/operating-systems)
 - [Sistemi Operativi 1 slide](https://github.com/gtolomei/operating-systems/tree/master/lectures/slides)
 - [Sistemi Operativi 1 esercizi](https://github.com/gtolomei/operating-systems/tree/master/exercises)
+- [Sistemi Operativi 1 Moodle](https://elearning.uniroma1.it/course/view.php?id=16966)
