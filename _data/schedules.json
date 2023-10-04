@@ -9,13 +9,6 @@
           "classrooms": {
             "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
           }
-        },
-        "friday": {
-          "teacherId": "5374367e-49df-4ff1-985b-ab4b4612e702",
-          "hours": "08 - 10",
-          "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
-          }
         }
       },
       "2": {
@@ -122,15 +115,6 @@
   "1015880": {
     "degree": "29923",
     "channels": {
-      "1": {
-        "friday": {
-          "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
-          "hours": "10 - 13",
-          "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
-          }
-        }
-      },
       "2": {
         "monday": {
           "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
@@ -189,6 +173,13 @@
           "classrooms": {
             "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
           }
+        },
+        "friday": {
+          "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
+          "hours": "13 - 15",
+          "classrooms": {
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+          }
         }
       }
     }
@@ -213,11 +204,11 @@
         }
       },
       "2": {
-        "wednesday": {
+        "tuesday": {
           "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
-          "hours": "16 - 18",
+          "hours": "15 - 18",
           "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
           }
         }
       }
@@ -263,6 +254,13 @@
           "classrooms": {
             "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
           }
+        },
+        "friday": {
+          "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
+          "hours": "17 - 19",
+          "classrooms": {
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+          }
         }
       }
     }
@@ -292,6 +290,13 @@
           "hours": "13 - 16",
           "classrooms": {
             "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+          }
+        },
+        "friday": {
+          "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+          "hours": "15 - 17",
+          "classrooms": {
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
           }
         }
       }
