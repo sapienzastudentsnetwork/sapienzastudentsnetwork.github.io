@@ -86,6 +86,13 @@
     "degree": "29923",
     "channels": {
       "1": {
+        "tuesday": {
+          "teacherId": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+          "hours": "08 - 11",
+          "classrooms": {
+            "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+          }
+        },
         "thursday": {
           "teacherId": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
           "hours": "08 - 10",
@@ -115,6 +122,15 @@
   "1015880": {
     "degree": "29923",
     "channels": {
+      "1": {
+        "tuesday": {
+          "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
+          "hours": "11 - 13",
+          "classrooms": {
+            "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+          }
+        }
+      },
       "2": {
         "monday": {
           "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
@@ -209,6 +225,13 @@
           "hours": "15 - 18",
           "classrooms": {
             "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+          }
+        },
+        "wednesday": {
+          "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
+          "hours": "16 - 18",
+          "classrooms": {
+            "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
           }
         }
       }
@@ -436,7 +459,7 @@
           "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
           "hours": "14 - 17",
           "classrooms": {
-            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
           }
         },
         "thursday": {
