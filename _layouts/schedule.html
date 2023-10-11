@@ -94,10 +94,29 @@ layout: default
                 <h4>
                     {% if channel_id != "0" %}
                         Canale {{ channel_id }} -
+                    {% else %}
+                        Canale Unico -
                     {% endif %}
 
-                    <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">{{ site.data.teachers[first_day_info.teacherId].teacherName }}</a>
+                    {% if site.data.teachers[first_day_info.teacherId] %}
+                        <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">{{ site.data.teachers[first_day_info.teacherId].teacherName }}</a>
+                    {% else %}
+                        <span class="not-bold">Docente sconosciuto o non assegnato</span>
+                    {% endif %}
                 </h4>
+
+                {% if subject_info["alerts"] %}
+                    {% assign subject_alerts = subject_info["alerts"] %}
+
+                    {% if subject_alerts[channel_id] %}
+                        {% assign subject_channel_alerts = subject_info["alerts"] %}
+
+                        {% for subject_alert in subject_alerts[channel_id] %}
+                            {{ subject_alert }}
+                            <br/>
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
 
                 <table>
                     <thead>

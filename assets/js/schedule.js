@@ -13,13 +13,26 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
         let info = course.toString().split('-');
         let c = info[0];
         let ch = info[1] || channel;
-        let d = schedules[c]['channels'][ch]
+        let d = schedules[c]['channels'][ch];
 
         for (const [day, info] of Object.entries(d)) {
-            let times = info.hours.split('-')
-            let startTime = parseInt(times[0])
-            let endTime = parseInt(times[1])
-            schedule[day].push({ code: c, startTime, endTime });
+            let times = info.hours.split('-');
+            let startTime = parseInt(times[0]);
+            let endTime = parseInt(times[1]);
+
+            let courseInfo = courses[c];
+
+            let courseHasAlerts = false;
+
+            if (courses[c]["alerts"]) {
+                let courseAlerts = courseInfo["alerts"]
+
+                if (courseAlerts[ch]) {
+                    courseHasAlerts = true;
+                }
+            }
+
+            schedule[day].push({ code: c, startTime, endTime, alerts: courseHasAlerts });
         }
     }
 
@@ -37,6 +50,8 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
 
     desktopTbody.innerHTML = '';
     mobileTbody.innerHTML = '';
+
+    let timetableHasAlerts = false;
 
     for (let time = classesStartTime; time < classesEndTime; time++) {
         const desktopTimeTd = document.createElement('td');
@@ -64,7 +79,7 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
                 .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
             let counter = 0;
-            for (const { code } of cc) {
+            for (const { code, alerts } of cc) {
                 desktopCourseLink = document.createElement('a');
                 desktopCourseLink.href = `#${code}`
                 desktopCourseLink.textContent =
@@ -89,7 +104,12 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
                         :
                         code;
 
+                if (alerts) {
+                    desktopCourseLink.textContent += "*";
+                    mobileCourseLink.textContent += "*";
 
+                    timetableHasAlerts = true;
+                }
 
                 if (!subjectsColors[code])
                     subjectsColors[code] = COLORS[nextColorIndex++ % COLORS.length];
@@ -113,5 +133,12 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
 
         desktopTbody.append(desktopTr);
         mobileTbody.append(mobileTr);
+    }
+
+    if (timetableHasAlerts) {
+        const alertsLegend = document.createElement("div");
+        alertsLegend.textContent = "* ⚠️ Consultare gli avvertimenti disponibili cliccando sul nome della materia";
+
+        document.getElementById(timetablesContainerId).appendChild(alertsLegend);
     }
 }

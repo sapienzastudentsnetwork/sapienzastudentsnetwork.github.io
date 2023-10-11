@@ -129,3 +129,5 @@ table {
 /* } */
 
 h5 { font-weight: bold }
+
+.not-bold { font-weight: normal }

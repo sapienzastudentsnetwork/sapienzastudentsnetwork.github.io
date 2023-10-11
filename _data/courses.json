@@ -122,12 +122,22 @@
     "10596283": {
         "name": "Organizzazione e Gestione per lo Start-Up Aziendale",
         "shortName": "Org. e Gest. Az.",
-        "abbr": "OGA"
+        "abbr": "OGA",
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F La prima lezione avverrà giorno Lunedì 16 ottobre dalle ore 08:00 alle ore 10:00, in Aula Magna (Edificio: RM111)."
+            ]
+        }
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
         "shortName": "Prog. Emb. e Multic.",
-        "abbr": "PEM"
+        "abbr": "PEM",
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F Stando ad un annuncio su Classroom del 6 ottobre 2023 le lezioni del corso sono spostate in Aula G50 (Edificio: RM115)."
+            ]
+        }
     },
     "1022267": {
         "name": "Programmazione per il Web",
