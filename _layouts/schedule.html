@@ -84,6 +84,10 @@ layout: default
 
             <h3 id="{{ code }}"> {{ code }} - {{ subject_info.name }} </h3>
 
+            {% if subject_info["tgGroup"] %}
+                ℹ️️ Unisciti al <a href='{{ subject_info["tgGroup"] }}'>gruppo Telegram</a> dedicato per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
+            {% endif %}
+
             {% for channel in channels %}
                 {% assign channel_id = channel[0] %}
                 {% assign days = channel[1] %}
@@ -101,7 +105,7 @@ layout: default
                     {% if site.data.teachers[first_day_info.teacherId] %}
                         <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">{{ site.data.teachers[first_day_info.teacherId].teacherName }}</a>
                     {% else %}
-                        <span class="not-bold">Docente sconosciuto o non assegnato</span>
+                        <span class="not-bold">Docente sconosciuto/a</span>
                     {% endif %}
                 </h4>
 
