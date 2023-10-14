@@ -111,7 +111,12 @@
         "name": "Ingegneria del Software",
         "shortName": "Ing. del Software",
         "abbr": "ISW",
-        "tgGroup": "https://t.me/sapienzainformatica3/9"
+        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F Lunedì 16 Ottobre 2023 la lezione di Ingegneria del Software non si terrà. Le lezioni riprenderanno regolarmente Mercoledì 18 Ottobre 2023."
+            ]
+        }
     },
     "1022263": {
         "name": "Interazione Uomo Macchina",
