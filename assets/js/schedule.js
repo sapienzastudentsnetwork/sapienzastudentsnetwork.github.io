@@ -135,10 +135,18 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
         mobileTbody.append(mobileTr);
     }
 
-    if (timetableHasAlerts) {
-        const alertsLegend = document.createElement("div");
-        alertsLegend.textContent = "* ⚠️ Consultare gli avvertimenti disponibili cliccando sul nome della materia";
+    const existingAlertsLegend = document.getElementById("alertsLegend");
 
-        document.getElementById(timetablesContainerId).appendChild(alertsLegend);
+    if (timetableHasAlerts) {
+        if (!existingAlertsLegend) {
+            const alertsLegend = document.createElement("div");
+            alertsLegend.id = "alertsLegend";
+            alertsLegend.textContent = "* ⚠️ Consultare gli avvertimenti disponibili cliccando sul nome della materia";
+
+            document.getElementById(timetablesContainerId).appendChild(alertsLegend);
+        }
+    } else if (existingAlertsLegend) {
+        const parentElement = existingAlertsLegend.parentElement;
+        parentElement.removeChild(existingAlertsLegend);
     }
 }
