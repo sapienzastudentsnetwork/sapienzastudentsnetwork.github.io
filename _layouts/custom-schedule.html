@@ -86,7 +86,7 @@ layout: default
             {% for channel in channels %}
                 {% assign channel_id = channel[0] %}
 
-                {% unless site.data.hardcodedSchedules[code] %}
+                {% unless site.data.hardcodedSchedules[code] and site.data.hardcodedSchedules[code].channels[channel_id] %}
                     {% assign days = channel[1] %}
                 {% else %}
                     {% assign days = site.data.hardcodedSchedules[code].channels[channel_id] %}
