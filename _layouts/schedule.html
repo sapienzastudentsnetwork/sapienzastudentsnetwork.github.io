@@ -4,7 +4,23 @@ layout: default
 
 <script>
     const courses = JSON.parse(`{{ site.data.courses | jsonify }}`);
+
     const schedules = JSON.parse(`{{ site.data.schedules | jsonify }}`);
+    const hardcodedSchedules = JSON.parse(`{{ site.data.hardcodedSchedules | jsonify }}`);
+
+    for (const courseId in hardcodedSchedules) {
+        if (schedules[courseId]) {
+            const channelsToUpdate = hardcodedSchedules[courseId].channels;
+
+            // Iterate over the channels to be updated
+            for (const channelId in channelsToUpdate) {
+                if (schedules[courseId].channels[channelId]) {
+                    // Replace the relevant information
+                    schedules[courseId].channels[channelId] = channelsToUpdate[channelId];
+                }
+            }
+        }
+    }
 </script>
 <script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
@@ -90,7 +106,12 @@ layout: default
 
             {% for channel in channels %}
                 {% assign channel_id = channel[0] %}
-                {% assign days = channel[1] %}
+
+                {% unless site.data.hardcodedSchedules[code] %}
+                    {% assign days = channel[1] %}
+                {% else %}
+                    {% assign days = site.data.hardcodedSchedules[code].channels[channel_id] %}
+                {% endunless %}
 
                 {% assign first_day = days | first %}
                 {% assign first_day_info = first_day[1] %}
@@ -146,19 +167,36 @@ layout: default
                                         {% when "sunday" %} Domenica
                                     {% endcase %}
                                 </td>
-                                <td>{{ info.hours }}</td>
+                                <td>
+                                    {% if info.hours | size == 1 %}
+                                        {{ info.hours | join: ', ' }}
+                                    {% else %}
+                                        {{ info.hours | join: ', ' }}
+                                    {% endif %}
+                                </td>
                                 <td style="text-align: right; width: 100%;">
-                                    {% for classroom in info.classrooms %}
-                                        {% assign location_id = classroom[0] %}
-                                        {% assign location = classroom[1] %}
-                                        {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
+                                    {% if info.classrooms %}
+                                        {% for classroom in info.classrooms %}
+                                            {% assign location_id = classroom[0] %}
+                                            {% assign location = classroom[1] %}
+                                            {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
 
-                                        {% if mapsUrl %}
-                                            <a href="{{ mapsUrl }}">{{ location }}</a>
+                                            {% if mapsUrl %}
+                                                <a href="{{ mapsUrl }}">{{ location }}</a>
+                                            {% else %}
+                                                {{ location }}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% else %}
+                                        {% assign classroomInfo = info.classroomInfo %}
+                                        {% assign classroomUrl = info.classroomUrl %}
+
+                                        {% if classroomUrl %}
+                                            <a href="{{ classroomUrl }}">{{ classroomInfo }}</a>
                                         {% else %}
-                                            {{ location }}
+                                            {{ classroomInfo }}
                                         {% endif %}
-                                    {% endfor %}
+                                    {% endif %}
                                 </td>
                             </tr>
                         {% endfor %}

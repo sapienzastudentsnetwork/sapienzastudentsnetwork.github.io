@@ -158,12 +158,7 @@
         "name": "Programmazione di Sistemi Embedded e Multicore",
         "shortName": "Prog. Emb. e Multic.",
         "abbr": "PEM",
-        "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk",
-        "alerts": {
-            "0": [
-                "• ⚠\uFE0F Stando ad un annuncio su Classroom del 6 ottobre 2023 le lezioni del corso sono spostate in Aula G50 (Edificio: RM115)."
-            ]
-        }
+        "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk"
     },
     "1022267": {
         "name": "Programmazione per il Web",
