@@ -16,26 +16,33 @@ function fillTimetables(timetablesContainerId, timetableCourses, courses, schedu
         let d = schedules[c]['channels'][ch];
 
         for (const [day, info] of Object.entries(d)) {
-            let times = info.hours.split('-');
-            let startTime = parseInt(times[0]);
-            let endTime = parseInt(times[1]);
+            let times = info.hours;
 
-            let courseInfo = courses[c];
-
-            let courseHasAlerts = false;
-
-            if (courses[c]["alerts"]) {
-                let courseAlerts = courseInfo["alerts"]
-
-                if (courseAlerts[ch]) {
-                    courseHasAlerts = true;
-                }
+            if (!Array.isArray(times)) {
+                times = [times]; // Convert to an array if it's not already
             }
 
-            schedule[day].push({ code: c, startTime, endTime, alerts: courseHasAlerts });
+            for (const time of times) {
+                let timeRange = time.split('-');
+                let startTime = parseInt(timeRange[0]);
+                let endTime = parseInt(timeRange[1]);
+
+                let courseInfo = courses[c];
+
+                let courseHasAlerts = false;
+
+                if (courses[c]["alerts"]) {
+                    let courseAlerts = courseInfo["alerts"];
+
+                    if (courseAlerts[ch]) {
+                        courseHasAlerts = true;
+                    }
+                }
+
+                schedule[day].push({ code: c, startTime, endTime, alerts: courseHasAlerts });
+            }
         }
     }
-
 
     for (const events of Object.values(schedule))
         for (const { startTime, endTime } of events) {
