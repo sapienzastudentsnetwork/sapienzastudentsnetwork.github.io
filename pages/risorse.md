@@ -20,6 +20,7 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti ph04 _(Alessio Bandiera)_](https://github.com/orgs/ph-notes/repositories)
 - [Appunti Rurik-D _(Emanuele D'Agostino)_](https://github.com/Rurik-D/University-notes)
+- [Appunti CasuFrost (Marco Casu)_](https://github.com/CasuFrost/UNIVERSITA-)
 
 <!-- ## Primo Anno -->
 <!---->
