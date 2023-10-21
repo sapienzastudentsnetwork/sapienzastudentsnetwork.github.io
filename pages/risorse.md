@@ -16,7 +16,7 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 ## Appunti, Esercizi etc...
 
 - [Sapienza Students Network](https://github.com/orgs/sapienzastudentsnetwork/repositories)
-- [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/UNIVERSITA-)
+- [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/University_notes)
 - [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti ph04 _(Alessio Bandiera)_](https://github.com/orgs/ph-notes/repositories)
