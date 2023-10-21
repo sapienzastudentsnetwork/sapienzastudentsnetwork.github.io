@@ -16,11 +16,12 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 ## Appunti, Esercizi etc...
 
 - [Sapienza Students Network](https://github.com/orgs/sapienzastudentsnetwork/repositories)
+- [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/UNIVERSITA-)
 - [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti ph04 _(Alessio Bandiera)_](https://github.com/orgs/ph-notes/repositories)
 - [Appunti Rurik-D _(Emanuele D'Agostino)_](https://github.com/Rurik-D/University-notes)
-- [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/UNIVERSITA-)
+- [Appunti SimLid _(Simone Lidonnici)_](https://deserted-drawbridge-894.notion.site/Laurea-Informatica-646ba04621584c82a639604725750cc5)
 
 <!-- ## Primo Anno -->
 <!---->
