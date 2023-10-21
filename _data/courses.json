@@ -164,7 +164,12 @@
         "name": "Programmazione per il Web",
         "shortName": "Prog. Web",
         "abbr": "WEB",
-        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F No lesson next Tuesday 24 October"
+            ]
+        }
     },
     "1022266": {
         "name": "Programmazione di Sistema",

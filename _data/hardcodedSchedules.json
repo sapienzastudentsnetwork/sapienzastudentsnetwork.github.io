@@ -97,5 +97,25 @@
         }
       }
     }
+  },
+  "1015887": {
+    "degree": "29923",
+    "channels": {
+      "2": {
+        "tuesday": {
+          "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
+          "hours": "15 - 18",
+          "classrooms": {
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+          }
+        },
+        "wednesday": {
+          "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
+          "hours": "16 - 18",
+          "classroomInfo": "Vedi pagina 'Frequentare' del CdL",
+          "classroomUrl": "https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione"
+        }
+      }
+    }
   }
 }
