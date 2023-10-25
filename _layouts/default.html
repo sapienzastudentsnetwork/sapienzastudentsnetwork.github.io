@@ -30,7 +30,33 @@
 
     <div id="content"
         class="w-full min-w-0 md:h-auto flex grow flex-1 bg-gray-50 dark:bg-gray-900 overflow-y-auto overflow-x-hidden">
+
         <div class="p-5 md:p-10 pt-5 md:pt-10 prose dark:prose-invert grow-1 w-full max-w-full">
+            {% unless page.url == '/' or page.url contains 'orari' or page.url contains 'risorse' or page.url contains 'gruppi' %}
+                <div class="block">
+                    <p>ℹ️ Le informazioni contenute in questo sito (e progetto <a href="http://github.com/sapienzastudentsnetwork/informatica">Open Source</a>
+                    gestito da studenti) vogliono essere di sintesi e di supporto ma non sostitutive rispetto alle fonti
+                    ufficiali da cui sono state tratte e che potrebbero essere aggiornate più attivamente<br/><br/>
+
+                    ⚠️ Il progetto è gestito inoltre da studenti del CdL in Informatica - triennale in presenza
+                    [<a href="https://uniroma1-29923.sapienzastudents.net/home">29923</a>], le informazioni indicate
+                    potrebbero quindi non corrispondere per il CdL prevalentemente a distanza (teledidattica)
+                    [<a href="https://uniroma1-29400.sapienzastudents.net/home">29400</a>]
+                    o in inglese (ACSAI) [<a href="https://uniroma1-30786.sapienzastudents.net/home">30786</a>]<br/><br/>
+
+                    Scopri come <a href="http://sapienzastudents.net/informatica/contribuire">dare il tuo prezioso contributo</a>
+                    (segnalando incoerenze o integrando nuove informazioni) affinché il sito sia sempre aggiornato
+                    e ricco di informazioni utili 🙂
+
+                    {% assign last_modified_date = page.last_modified_at %}
+
+                    {% if last_modified_date %}
+                        <br/><br/>📅 L'ultima modifica a questa pagina è avvenuta in data {{ last_modified_date }}
+                    {% endif %}
+                    </p>
+                </div>
+            {% endunless %}
+
             {{ content }}
             <br />
         </div>

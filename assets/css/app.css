@@ -25,6 +25,15 @@ img {
     display: inline !important;
 }
 
+.block {
+    @apply bg-white shadow-md shadow-gray-300 dark:shadow-black dark:bg-gray-800;
+}
+
+.block > p {
+    @apply p-4;
+}
+
+
 blockquote {
     @apply bg-white shadow-md shadow-gray-300 dark:shadow-black dark:bg-gray-800;
 }
