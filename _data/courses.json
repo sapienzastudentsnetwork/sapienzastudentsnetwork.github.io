@@ -167,12 +167,7 @@
         "name": "Programmazione per il Web",
         "shortName": "Prog. Web",
         "abbr": "WEB",
-        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "alerts":  {
-            "0": [
-                "• ⚠\uFE0F On Thursday, October 26th, the class will be in Room 1L at Via del Castro Laurenziano 7/a."
-            ]
-        }
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
     },
     "1022266": {
         "name": "Programmazione di Sistema",
