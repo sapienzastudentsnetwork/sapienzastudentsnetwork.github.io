@@ -154,21 +154,21 @@
     "channels": {
       "1": {
         "monday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+          "teacherId": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
           "hours": "16 - 18",
           "classrooms": {
             "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
           }
         },
         "wednesday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+          "teacherId": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
           "hours": "17 - 19",
           "classrooms": {
             "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
           }
         },
         "friday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+          "teacherId": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
           "hours": "14 - 17",
           "classrooms": {
             "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
