@@ -111,7 +111,12 @@
         "name": "Ingegneria del Software",
         "shortName": "Ing. del Software",
         "abbr": "ISW",
-        "tgGroup": "https://t.me/sapienzainformatica3/9"
+        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F Lunedì 27 novembre 2023 la lezione di Ingegneria del Software non si terrà a causa di sopraggiunti impegni istituzionali del professore. Le lezioni riprenderanno regolarmente Mercoledì 29 novembre 2023."
+            ]
+        }
     },
     "1022263": {
         "name": "Interazione Uomo Macchina",
@@ -151,8 +156,7 @@
         "alerts": {
             "0": [
                 "⏰ Le lezioni si svolgeranno:",
-                "• Lunedì in orario 8:00 - 10:00 in Aula Magna RM111-E01PTEL001 nei giorni 30/10, 06/11, 20/11",
-                "• Venerdì in orario 8:00 - 11:00 e 16:00 - 19:45 in Aula G50 RM115-E01P03L001 nei giorni 3/11, 17/11, 1/12, 15/12, 22/12"
+                "• Venerdì in orario 8:00 - 11:00 e 16:00 - 19:45 in Aula G50 RM115-E01P03L001 nei giorni 1/12, 15/12, 22/12"
             ]
         }
     },

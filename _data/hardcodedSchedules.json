@@ -81,13 +81,6 @@
     "degree": "29923",
     "channels": {
       "0": {
-        "monday": {
-          "teacherId": null,
-          "hours": "08 - 10",
-          "classrooms": {
-            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-          }
-        },
         "friday": {
           "teacherId": null,
           "hours": ["08 - 11", "16 - 20"],
