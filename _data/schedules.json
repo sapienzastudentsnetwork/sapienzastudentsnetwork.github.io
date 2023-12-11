@@ -1,742 +1,770 @@
 {
-  "101226": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "monday": {
-          "teacherId": "5374367e-49df-4ff1-985b-ab4b4612e702",
-          "hours": "08 - 11",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
+    "101226": {
+        "code": "101226",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "monday": {
+                    "teacherId": "5374367e-49df-4ff1-985b-ab4b4612e702",
+                    "hours": "08 - 11",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                }
+            },
+            "2": {
+                "monday": {
+                    "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+                    "hours": "13 - 16",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                }
+            }
         }
-      },
-      "2": {
-        "monday": {
-          "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-          "hours": "13 - 16",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        },
-        "friday": {
-          "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-          "hours": "13 - 15",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
+    },
+    "1015883": {
+        "code": "1015883",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "monday": {
+                    "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+                    "hours": "11 - 13",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                        "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+                    "hours": "10 - 13",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            },
+            "2": {
+                "tuesday": {
+                    "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+                    "hours": "16 - 18",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+                    "hours": "09 - 12",
+                    "classrooms": {
+                        "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                        "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+                    "hours": "15 - 18",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                }
+            }
         }
-      }
+    },
+    "1020420": {
+        "code": "1020420",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "thursday": {
+                    "teacherId": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+                    "hours": "08 - 10",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            },
+            "2": {
+                "tuesday": {
+                    "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
+                    "hours": "13 - 16",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1015880": {
+        "code": "1015880",
+        "degree": "29923",
+        "channels": {
+            "2": {
+                "monday": {
+                    "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+                    "hours": "16 - 18",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+                    "hours": "15 - 18",
+                    "classrooms": {
+                        "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1015886": {
+        "code": "1015886",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "monday": {
+                    "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+                    "hours": "16 - 18",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                }
+            },
+            "2": {
+                "tuesday": {
+                    "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
+                    "hours": "15 - 18",
+                    "classrooms": {
+                        "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1015887": {
+        "code": "1015887",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "wednesday": {
+                    "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+                    "hours": "15 - 17",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                }
+            },
+            "2": {
+                "tuesday": {
+                    "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                    "hours": "15 - 18",
+                    "classrooms": {
+                        "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1020421": {
+        "code": "1020421",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "monday": {
+                    "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
+                    "hours": "13 - 16",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "tuesday": {
+                    "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                }
+            },
+            "2": {
+                "monday": {
+                    "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1020422": {
+        "code": "1020422",
+        "degree": "29923",
+        "channels": {
+            "1": {
+                "tuesday": {
+                    "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
+                    "hours": "13 - 15",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
+                    }
+                }
+            },
+            "2": {
+                "wednesday": {
+                    "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+                    "hours": "13 - 16",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+                    "hours": "15 - 17",
+                    "classrooms": {
+                        "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "1041727": {
+        "code": "1041727",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "wednesday": {
+                    "teacherId": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "97597": {
+        "code": "97597",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
+                    "hours": "10 - 13",
+                    "classrooms": {
+                        "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
+                    "hours": "11 - 13",
+                    "classrooms": {
+                        "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+                    }
+                }
+            }
+        }
+    },
+    "1022301": {
+        "code": "1022301",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+                    "hours": "11 - 13",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "1022263": {
+        "code": "1022263",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+                    "hours": "08 - 11",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "1022264": {
+        "code": "1022264",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
+                    "hours": "10 - 13",
+                    "classrooms": {
+                        "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                    }
+                },
+                "tuesday": {
+                    "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
+                    "hours": "08 - 10",
+                    "classrooms": {
+                        "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                    }
+                }
+            }
+        }
+    },
+    "10596283": {
+        "code": "10596283",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "wednesday": {
+                    "teacherId": null,
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                    }
+                },
+                "friday": {
+                    "teacherId": null,
+                    "hours": "08 - 11",
+                    "classrooms": {
+                        "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                    }
+                }
+            }
+        }
+    },
+    "10593235": {
+        "code": "10593235",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+                    }
+                }
+            }
+        }
+    },
+    "1022267": {
+        "code": "1022267",
+        "degree": "29923",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "10595099": {
+        "code": "10595099",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "0bcc8b25-0978-4471-b07b-4f383540ee05",
+                    "hours": "10 - 13",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "0bcc8b25-0978-4471-b07b-4f383540ee05",
+                    "hours": "16 - 18",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                }
+            }
+        }
+    },
+    "10595546": {
+        "code": "10595546",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+                    "hours": "08 - 10",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+                    "hours": "15 - 18",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                }
+            }
+        }
+    },
+    "10595524": {
+        "code": "10595524",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+                    "hours": "12 - 14",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+                    "hours": "13 - 16",
+                    "classrooms": {
+                        "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+                    }
+                }
+            }
+        }
+    },
+    "10595102": {
+        "code": "10595102",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+                    "hours": "09 - 12",
+                    "classrooms": {
+                        "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+                    "hours": "12 - 14",
+                    "classrooms": {
+                        "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)",
+                        "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                        "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+                    "hours": "11 - 14",
+                    "classrooms": {
+                        "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                        "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+                    }
+                }
+            }
+        }
+    },
+    "10595529": {
+        "code": "10595529",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                }
+            }
+        }
+    },
+    "10595617": {
+        "code": "10595617",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+                    "hours": "10 - 13",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595525": {
+        "code": "10595525",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "ad904d98-6922-445f-9245-7228e8b30f25",
+                    "hours": "08 - 11",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                },
+                "friday": {
+                    "teacherId": "ad904d98-6922-445f-9245-7228e8b30f25",
+                    "hours": "08 - 10",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595616": {
+        "code": "10595616",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+                    "hours": "11 - 13",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
+                    "hours": "08 - 10",
+                    "classrooms": {
+                        "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595532": {
+        "code": "10595532",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+                    "hours": "11 - 14",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+                    "hours": "09 - 11",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595531": {
+        "code": "10595531",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+                    "hours": "14 - 17",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+                    "hours": "14 - 16",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595530": {
+        "code": "10595530",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "monday": {
+                    "teacherId": "317e1573-2929-41f9-b215-adc3b3a3115a",
+                    "hours": "09 - 11",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                },
+                "wednesday": {
+                    "teacherId": "317e1573-2929-41f9-b215-adc3b3a3115a",
+                    "hours": "11 - 14",
+                    "classrooms": {
+                        "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            }
+        }
+    },
+    "10595534": {
+        "code": "10595534",
+        "degree": "30786",
+        "channels": {
+            "0": {
+                "tuesday": {
+                    "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                    "hours": "17 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                },
+                "thursday": {
+                    "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                    "hours": "16 - 19",
+                    "classrooms": {
+                        "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+                    }
+                }
+            }
+        }
     }
-  },
-  "1015883": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "monday": {
-          "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-          "hours": "11 - 13",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-          "hours": "16 - 19",
-          "classrooms": {
-            "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-            "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-          }
-        },
-        "thursday": {
-          "teacherId": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-          "hours": "10 - 13",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      },
-      "2": {
-        "tuesday": {
-          "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-          "hours": "16 - 18",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-          "hours": "09 - 12",
-          "classrooms": {
-            "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-            "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-          }
-        },
-        "thursday": {
-          "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-          "hours": "15 - 18",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1020420": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "thursday": {
-          "teacherId": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-          "hours": "08 - 10",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      },
-      "2": {
-        "tuesday": {
-          "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
-          "hours": "13 - 16",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        },
-        "thursday": {
-          "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
-          "hours": "13 - 15",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1015880": {
-    "degree": "29923",
-    "channels": {
-      "2": {
-        "monday": {
-          "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
-          "hours": "16 - 18",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        },
-        "friday": {
-          "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
-          "hours": "15 - 18",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1015886": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "monday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
-          "hours": "16 - 18",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
-          "hours": "17 - 19",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "friday": {
-          "teacherId": "6d6f5b4f-ddd4-46ba-8fdf-28cb725cdb52",
-          "hours": "14 - 17",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        }
-      },
-      "2": {
-        "tuesday": {
-          "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
-          "hours": "13 - 15",
-          "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
-          }
-        },
-        "thursday": {
-          "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
-          "hours": "15 - 18",
-          "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
-          }
-        },
-        "friday": {
-          "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
-          "hours": "13 - 15",
-          "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1015887": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "wednesday": {
-          "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
-          "hours": "14 - 17",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "thursday": {
-          "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
-          "hours": "15 - 17",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        }
-      },
-      "2": {
-        "tuesday": {
-          "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
-          "hours": "15 - 18",
-          "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1020421": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "monday": {
-          "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
-          "hours": "13 - 16",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "tuesday": {
-          "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
-          "hours": "14 - 16",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "friday": {
-          "teacherId": "4952daed-d004-49b4-9525-5d6707254b25",
-          "hours": "17 - 19",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        }
-      },
-      "2": {
-        "monday": {
-          "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
-          "hours": "14 - 17",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
-          "hours": "13 - 15",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
-        "friday": {
-          "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
-          "hours": "17 - 19",
-          "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1020422": {
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "tuesday": {
-          "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
-          "hours": "16 - 19",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        },
-        "thursday": {
-          "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
-          "hours": "13 - 15",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)"
-          }
-        }
-      },
-      "2": {
-        "wednesday": {
-          "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
-          "hours": "13 - 16",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
-        "friday": {
-          "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
-          "hours": "15 - 17",
-          "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "1041727": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "wednesday": {
-          "teacherId": "0dfd0deb-ac72-429b-8258-3a34436a560c",
-          "hours": "14 - 17",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        },
-        "friday": {
-          "teacherId": "0dfd0deb-ac72-429b-8258-3a34436a560c",
-          "hours": "14 - 16",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "97597": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
-          "hours": "10 - 13",
-          "classrooms": {
-            "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
-          }
-        },
-        "friday": {
-          "teacherId": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
-          "hours": "11 - 13",
-          "classrooms": {
-            "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
-          }
-        }
-      }
-    }
-  },
-  "1022301": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-          "hours": "16 - 19",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-          "hours": "11 - 13",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "1022263": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
-          "hours": "14 - 16",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
-          "hours": "08 - 11",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "1022264": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
-          "hours": "10 - 13",
-          "classrooms": {
-            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-          }
-        },
-        "tuesday": {
-          "teacherId": "69deb155-d23e-44ab-a771-8c58952368c1",
-          "hours": "08 - 10",
-          "classrooms": {
-            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-          }
-        }
-      }
-    }
-  },
-  "10596283": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "wednesday": {
-          "teacherId": null,
-          "hours": "17 - 19",
-          "classrooms": {
-            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-          }
-        },
-        "friday": {
-          "teacherId": null,
-          "hours": "08 - 11",
-          "classrooms": {
-            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-          }
-        }
-      }
-    }
-  },
-  "10593235": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
-          "hours": "14 - 17",
-          "classrooms": {
-            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-          }
-        },
-        "thursday": {
-          "teacherId": "901bb1e4-2771-4614-89a6-1c8a7f810a02",
-          "hours": "14 - 16",
-          "classrooms": {
-            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-          }
-        }
-      }
-    }
-  },
-  "1022267": {
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-          "hours": "17 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        },
-        "thursday": {
-          "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-          "hours": "16 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "10595099": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "0bcc8b25-0978-4471-b07b-4f383540ee05",
-          "hours": "10 - 13",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "0bcc8b25-0978-4471-b07b-4f383540ee05",
-          "hours": "16 - 18",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
-        }
-      }
-    }
-  },
-  "10595546": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
-          "hours": "08 - 10",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        },
-        "friday": {
-          "teacherId": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
-          "hours": "15 - 18",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
-        }
-      }
-    }
-  },
-  "10595524": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
-          "hours": "12 - 14",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
-          "hours": "13 - 16",
-          "classrooms": {
-            "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-          }
-        }
-      }
-    }
-  },
-  "10595102": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
-          "hours": "09 - 12",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
-          "hours": "12 - 14",
-          "classrooms": {
-            "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III (Edificio: CU032)",
-            "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-            "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-          }
-        },
-        "friday": {
-          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
-          "hours": "11 - 14",
-          "classrooms": {
-            "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-            "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-          }
-        }
-      }
-    }
-  },
-  "10595529": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
-          "hours": "16 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
-          "hours": "17 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  },
-  "10595617": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
-          "hours": "14 - 16",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        },
-        "friday": {
-          "teacherId": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
-          "hours": "10 - 13",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595525": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "ad904d98-6922-445f-9245-7228e8b30f25",
-          "hours": "08 - 11",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
-        "friday": {
-          "teacherId": "ad904d98-6922-445f-9245-7228e8b30f25",
-          "hours": "08 - 10",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595616": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
-          "hours": "11 - 13",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
-          "hours": "14 - 17",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "8f36766a-6eae-491c-9412-e437f4e904cd",
-          "hours": "08 - 10",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595532": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
-          "hours": "11 - 14",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
-          "hours": "09 - 11",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595531": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
-          "hours": "14 - 17",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
-          "hours": "14 - 16",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595530": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "317e1573-2929-41f9-b215-adc3b3a3115a",
-          "hours": "09 - 11",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "317e1573-2929-41f9-b215-adc3b3a3115a",
-          "hours": "11 - 14",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      }
-    }
-  },
-  "10595534": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "tuesday": {
-          "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-          "hours": "17 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        },
-        "thursday": {
-          "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-          "hours": "16 - 19",
-          "classrooms": {
-            "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
-          }
-        }
-      }
-    }
-  }
 }

@@ -1,0 +1,16 @@
+root: .
+
+UndefinedObject:
+  enabled: false
+
+RemoteAsset:
+  enabled: false
+
+UnknownFilter:
+  enabled: false
+
+ConvertIncludeToRender:
+  enabled: false
+
+LiquidTag:
+  enabled: false

@@ -1,0 +1,151 @@
+---
+layout: default
+---
+<script>
+    {% include timetable.js %}
+</script>
+
+<div class="relative channel-1" id="main">
+    {% unless page.url contains 'acsai' %}
+        <button class="absolute top-2 right-2 flex items-center gap-2" onclick="toggleChannel()">
+            <span class="material-symbols-outlined"> sort_by_alpha </span>
+            Canale:
+            <span id="channel" class="font-bold text-black dark:text-white"> </span>
+        </button>
+    {% endunless %}
+
+    {{ content }}
+
+    {% assign days = 'Lunedì, Martedì, Mercoledì, Giovedì, Venerdì' | split: ', ' %}
+
+    {% for timetable in page.timetables %}
+        <div id="{{ timetable.title | slugify }}" class="channel-{{ timetable.channel }}">
+            <h2>{{ timetable.title }}</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" class="font-light">Orario</th>
+                        {% for day in days %}
+                            <th class="hidden sm:table-cell" scope="col">{{ day }}</th>
+                            <th class="table-cell sm:hidden" scope="col">{{ day | slice: 0 }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody class="hidden sm:table-row-group desktop"></tbody>
+                <tbody class="table-row-group sm:hidden mobile"></tbody>
+            </table>
+        </div>
+
+        <script>
+            addEventListener('DOMContentLoaded', (event) => {
+                fillTimetable(
+                    `{{ timetable.title | slugify }}`,
+                    JSON.parse(`{{ timetable.courses | jsonify }}`),
+                    `{{ timetable.channel | default: 0 }}`,
+                );
+            });
+        </script>
+    {% endfor %}
+
+    <h2>Orari per insegnamento</h2>
+
+    {% assign courses = site.data.schedules | where: 'degree', page.degree %}
+    {% for course in courses %}
+        <h3 id="{{ course.code }}">{{ course.code }} - {{ site.data.courses[course.code].name }}</h3>
+
+        {% for channel in course.channels %}
+            {% assign channel_id = channel[0] %}
+            {% assign days = channel[1] %}
+
+            {% assign first_day = days | first %}
+            {% assign first_day_info = first_day[1] %}
+
+            <h4>
+                {% if channel_id != '0' %}
+                    Canale {{ channel_id }} -
+                {% endif %}
+
+                <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
+                    {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
+                </a>
+            </h4>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Giorno</th>
+                        <th scope="col">Orario</th>
+                        <th scope="col" style="text-align: right">Aula</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for day in days %}
+                        {% assign name = day[0] %}
+                        {% assign info = day[1] %}
+                        <tr>
+                            <td>
+                                {% case name %}
+                                    {% when 'monday' %}
+                                        Lunedì
+                                    {% when 'tuesday' %}
+                                        Martedì
+                                    {% when 'wednesday' %}
+                                        Mercoledì
+                                    {% when 'thursday' %}
+                                        Giovedì
+                                    {% when 'friday' %}
+                                        Venerdì
+                                    {% when 'saturday' %}
+                                        Sabato
+                                    {% when 'sunday' %}
+                                        Domenica
+                                {% endcase %}
+                            </td>
+                            <td>{{ info.hours }}</td>
+                            <td style="text-align: right; width: 100%;">
+                                {% for classroom in info.classrooms %}
+                                    {% assign location_id = classroom[0] %}
+                                    {% assign location = classroom[1] %}
+                                    {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
+
+                                    {% if mapsUrl %}
+                                        <a href="{{ mapsUrl }}">{{ location }}</a>
+                                    {% else %}
+                                        {{ location }}
+                                    {% endif %}
+                                {% endfor %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% unless page.url contains 'acsai' %}
+    <style>
+        .channel-1 > .channel-2,
+        .channel-2 > .channel-1 {
+            display: none;
+        }
+    </style>
+    <script>
+        function updateChannel(channel) {
+            localStorage.setItem('channel', channel);
+            document.getElementById('channel').innerHTML = channel;
+
+            const main = document.getElementById('main');
+            main.classList.remove('channel-1', 'channel-2');
+            main.classList.add(`channel-${channel}`);
+        }
+
+        let channel = localStorage.getItem('channel') || '1';
+        updateChannel(channel);
+
+        function toggleChannel() {
+            channel = channel === '1' ? '2' : '1';
+            updateChannel(channel);
+        }
+    </script>
+{% endunless %}

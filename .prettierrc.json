@@ -1,0 +1,6 @@
+{
+    "plugins": [
+        "@shopify/prettier-plugin-liquid"
+    ],
+    "tabWidth": 4
+}

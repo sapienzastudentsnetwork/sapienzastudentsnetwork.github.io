@@ -7,14 +7,11 @@ permalink: percorso-formativo
 
 Nel terzo anno si completa la formazione informatica con due insegnamenti obbligatori di "Ingegneria del Software" e "Automi, Calcolabilità e Complessità", e si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione** attraverso la scelta di un **percorso formativo**.
 
-<!-- :triangular_flag_on_post: -->
 
 ## Tabella dei contenuti
 * 
 {:toc}
 
-
-<!-- :interrobang: -->
 
 ## Come funziona il percorso formativo
 
@@ -162,7 +159,6 @@ Consulta anche le indicazioni su [come scegliere gli esami esterni](#come-scegli
 | Teoria dei Segnali                              | -                                                                                                                                                                                                                                                                                                                                                    | -                                                                                                | -   | -                                          |
 | Teorie della Comunicazione e dei Media Digitali | -                                                                                                                                                                                                                                                                                                                                                    | -                                                                                                | -   | -                                          |
 
-<!-- :pushpin: -->
 ### Disclaimer
 
 La lista è stata creata per aiutare gli studenti e le studentesse a scegliere gli esami da sostenere, non è una lista ufficiale, è incompleta e potrebbe contenere errori, nel caso [faccelo sapere](./contribuire#proposte--bug).

@@ -8,6 +8,12 @@ module.exports = {
         './_posts/*.md',
         './*.md',
         './*.html',
+        './_drafts/**/*.liquid',
+        './_includes/**/*.liquid',
+        './_layouts/**/*.liquid',
+        './_posts/*.liquid',
+        './*.liquid',
+        './*.liquid',
     ],
     safelist: [
         'hidden',

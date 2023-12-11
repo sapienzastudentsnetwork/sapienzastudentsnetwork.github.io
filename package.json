@@ -11,7 +11,9 @@
         "build": "npx tailwindcss -i ./assets/css/app.css -o ./assets/css/tailwind.css --minify"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.9",
-        "tailwindcss": "^3.3.3"
+        "@shopify/prettier-plugin-liquid": "^1.4.0",
+        "@tailwindcss/typography": "^0.5.10",
+        "prettier": "^3.1.0",
+        "tailwindcss": "^3.3.6"
     }
 }
