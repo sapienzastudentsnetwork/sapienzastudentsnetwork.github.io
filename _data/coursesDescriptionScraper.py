@@ -11,25 +11,23 @@ page = requests.get('https://corsidilaurea.uniroma1.it/it/corso/2021/29923/cds',
 soup = BeautifulSoup(page.content.decode('utf-8'), 'html.parser')
 
 
+course_text = soup.find_all("div", attrs={'style':'display:none;'}) # => Course without the associated id
+course_description = {} # => {'id':'text'}
 
-courseText = soup.find_all("div", attrs={'style':'display:none;'}) # => Course without the associated id
-courseDescription = {} # => {'id':'text'}
-invalidIds = soup.find_all("td", class_="open-insegnamento-detail insegnamento-title") #Not filtered invalidIds
+invalid_ids = soup.find_all("td", class_="open-insegnamento-detail insegnamento-title") #Not filtered invalidIds
 ids = list() # Filtered invalidIds
+
 #Ids' filter
-for i in invalidIds:
-    a = i.text
-    if "-" in a and a.split(" ")[4]!="":
-        ids.append(a.split(" ")[4])
+for invalid_id in invalid_ids:
+    if "-" in invalid_id.text and invalid_id.text.split(" ")[4]!="":
+        ids.append(invalid_id.text.split(" ")[4])
     
-#put data in courseDescription
-for x, i in enumerate(courseText):
-    c = ""
-    for l in i:
-        c+=l.text
-        c+="\n"
-    courseDescription[ids[x]] = c
+#put data in course_description
+for course_index, description in enumerate(course_text):
+    course_description[ids[course_index]] = ""
+    for paragraph in description:
+        course_description[ids[course_index]] += paragraph.text + "<br/>"
 
 #save everything in json
 with open('coursesDescription.json', 'w') as fp:
-    json.dump(courseDescription, fp, indent=2)
+    json.dump(course_description, fp, indent=2)
