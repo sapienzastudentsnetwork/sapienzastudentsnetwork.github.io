@@ -13,6 +13,18 @@
                     "{{ '/service-worker.js?v=' | append: site.github.build_revision | relative_url }}",
                     { scope: '/informatica' },
                 );
+
+            {% comment %} Makes long tables scrollable on mobile, untill I find a better solution {% endcomment %}
+            addEventListener('DOMContentLoaded', () => {
+                for (table of  document.querySelectorAll('table')) {
+                    let div = document.createElement('div');
+                    div.classList.add('overflow-x-auto');
+                    {% comment %} If I don't clone the table, I'm replacing an element with itself... which can't be done {% endcomment %}
+                    div.append(table.cloneNode(true));
+
+                    table.replaceWith(div);
+                }
+            });
         </script>
         <link rel="manifest" href="{{ '/manifest.json?v=' | append: site.github.build_revision | relative_url }}">
         <meta name="theme-color" content="#000000">
@@ -51,14 +63,14 @@
             </div>
         </div>
 
-        <script
-            async
-            src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
-            integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
-            crossorigin="anonymous"
-        ></script>
-        <script>
-            anchors.add();
-        </script>
+        {% comment %} <script {% endcomment %}
+        {% comment %}     async {% endcomment %}
+        {% comment %}     src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" {% endcomment %}
+        {% comment %}     integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" {% endcomment %}
+        {% comment %}     crossorigin="anonymous" {% endcomment %}
+        {% comment %} ></script> {% endcomment %}
+        {% comment %} <script> {% endcomment %}
+        {% comment %}     anchors.add(); {% endcomment %}
+        {% comment %} </script> {% endcomment %}
     </body>
 </html>
