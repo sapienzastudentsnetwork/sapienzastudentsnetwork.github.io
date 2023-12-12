@@ -7,19 +7,29 @@
 
         {% comment %} TODO: better SEO tags {% endcomment %}
 
+        <script>
+            navigator.serviceWorker &&
+                navigator.serviceWorker.register(
+                    "{{ '/service-worker.js?v=' | append: site.github.build_revision | relative_url }}",
+                    { scope: '/informatica' },
+                );
+        </script>
+        <link rel="manifest" href="{{ '/manifest.json?v=' | append: site.github.build_revision | relative_url }}">
+        <meta name="theme-color" content="#000000">
+
         <link rel="icon" href="./favicon.png">
 
         <link
             rel="stylesheet"
-            href="{{ '/assets/css/app.css?v=' | append: site.github.build_revision | relative_url }}"
+            href="{{ '/_assets/css/app.css?v=' | append: site.github.build_revision | relative_url }}"
         >
         <link
             rel="stylesheet"
-            href="{{ '/assets/css/tailwind.css?v=' | append: site.github.build_revision | relative_url }}"
+            href="{{ '/_assets/css/tailwind.css?v=' | append: site.github.build_revision | relative_url }}"
         >
         <link
             rel="stylesheet"
-            href="{{ '/assets/css/gruvbox.css?v=' | append: site.github.build_revision | relative_url }}"
+            href="{{ '/_assets/css/gruvbox.css?v=' | append: site.github.build_revision | relative_url }}"
         >
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,8 +39,6 @@
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         >
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
-
-        {% include head.liquid %}
     </head>
 
     <body class="h-screen flex flex-col md:flex-row">
@@ -43,7 +51,14 @@
             </div>
         </div>
 
-        {% comment %} <script async src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script> {% endcomment %}
-        {% comment %} <script>anchors.add();</script> {% endcomment %}
+        <script
+            async
+            src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+            integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            anchors.add();
+        </script>
     </body>
 </html>

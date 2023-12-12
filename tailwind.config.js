@@ -16,10 +16,10 @@ module.exports = {
         './*.liquid',
     ],
     safelist: [
-        'hidden',
-        'sm:table',
-        'table',
-        'sm:hidden',
+        'hidden', 'sm:table', 'table', 'sm:hidden', 'hover:bg-gray-100',
+        'dar:hover:bg-gray-800', 'text-gray-800', 'dark:text-gray-100',
+        'group-hover:fill', 'bg-black', 'dark:bg-white', 'font-bold',
+        'text-white', 'dark:text-black', 'fill', 'text-white', 'dark:text-black'
     ],
     theme: {
         extend: {

@@ -7,12 +7,12 @@ function fillTimetable(tableId, coursesCodes, channel) {
     let classesStartTime = undefined,
         classesEndTime = undefined;
 
-    const schedule = Object.fromEntries(DAYS.map(day => [day, []]))
+    const schedule = Object.fromEntries(DAYS.map(day => [day, []]));
 
     for (const course of coursesCodes) {
-        const [courseCode, _channel] = course.toString().split('-')
+        const [courseCode, _channel] = course.toString().split('-');
 
-        const days = SCHEDULES[courseCode]['channels'][_channel || channel] || []
+        const days = SCHEDULES[courseCode]['channels'][_channel || channel] || [];
         for (const [day, { hours }] of Object.entries(days)) {
             // In custom schedule we have to specify the channel with a - (dash)
             const [startTime, endTime] = hours.split('-').map(time => parseInt(time))
@@ -74,9 +74,10 @@ function fillTimetable(tableId, coursesCodes, channel) {
                     mobileTd.append(document.createElement('br'));
                 }
 
+                hasMoreThanACourse = true;
+
                 desktopTd.append(desktopCourseLink);
                 mobileTd.append(mobileCourseLink);
-                hasMoreThanACourse = true;
             }
 
             desktopTr.append(desktopTd);

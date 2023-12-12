@@ -3,12 +3,12 @@
         "pwd": "${PWD}"
     },
     "scripts": {
-        "tailwind": "npx tailwindcss -i ./assets/css/app.css -o ./assets/css/tailwind.css --watch",
+        "tailwind": "npx tailwindcss -i ./_assets/css/app.css -o ./_assets/css/tailwind.css --watch",
         "docker": "docker build -t informatica .  & docker run --rm -d --volume=\"$INIT_CWD:/srv/jekyll\" --publish 4000:4000 informatica",
         "docker-windows": "docker build -t informatica .  & docker run --rm -d --volume=\"%INIT_CWD%:/srv/jekyll\" --publish 4000:4000 informatica",
         "dev": "npm run docker & npm run tailwind",
         "dev-windows": "npm run docker-windows & npm run tailwind",
-        "build": "npx tailwindcss -i ./assets/css/app.css -o ./assets/css/tailwind.css --minify"
+        "build": "npx tailwindcss -i ./_assets/css/app.css -o ./_assets/css/tailwind.css --minify"
     },
     "devDependencies": {
         "@shopify/prettier-plugin-liquid": "^1.4.0",

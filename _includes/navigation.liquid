@@ -3,32 +3,30 @@
 <div class="w-[88px] min-w-[88px] h-screen max-h-screen overflow-x-hidden overflow-y-auto hidden md:flex flex-col justify-between items-center py-4 shadow-xl dark:shadow-2xl dark:shadow-black z-10 dark:bg-black dark:text-white">
     <nav class="flex flex-col items-center">
         {% for link in site.nav %}
-            {% assign label = 'text-gray-800 dark:text-gray-100' %}
-            {% assign icon = 'group-hover:bg-gray-100 group-hover:dark:bg-gray-800' %}
-
+            {% comment %} TODO: this seems to hacky... convert the permalink into a url, and use it that way {% endcomment %}
             {% assign url = page.url | replace: '.', '' | split: '/' | last %}
             {% assign permalink = link.permalink | replace: '.', '' | split: '/' | last %}
 
+            {% assign is_selected = '' %}
             {% if url == permalink %}
-                {% assign label = 'font-bold text-black dark:text-white' %}
-                {% assign icon = 'fill bg-black text-white dark:bg-white dark:text-black' %}
+                {% assign is_selected = 'is-selected' %}
             {% endif %}
 
             <a
                 href="{{ site.baseurl | append: '/' | append: link.permalink }}"
-                class="group w-min mb-3 mx-1 flex flex-col items-center"
+                class="group w-min mb-3 mx-1 flex flex-col items-center {{ is_selected }}"
             >
-                <span class="material-symbols-outlined {{ icon }} rounded-full px-4 py-1 mb-1 ">
+                <span class="material-symbols-outlined rounded-full px-4 py-1 mb-1 group-hover:bg-gray-100 group-hover:dark:bg-gray-800 group-[.is-selected]:fill group-[.is-selected]:bg-black group-[.is-selected]:text-white group-[.is-selected]:dark:bg-white group-[.is-selected]:dark:text-black">
                     {{ link.icon }}
                 </span>
-                <span class="text-xs {{ label }} text-center">
+                <span class="text-xs text-center text-gray-800 dark:text-gray-100 group-[.is-selected]:font-bold group-[.is-selected]:text-black group-[.is-selected]:dark:text-white">
                     {{ link.text }}
                 </span>
             </a>
         {% endfor %}
     </nav>
     <span
-        id="darkMode"
+        id="desktopDarkMode"
         class="material-symbols-outlined rounded-full p-4 border border-black dark:border-white cursor-pointer"
         onclick="toggleDarkMode()"
     >
@@ -53,7 +51,7 @@
 
 <dialog
     class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
-    id="nav"
+    id="navigationDrawer"
     onclick="closeNavigationDrawer()"
 >
     <div class="flex flex-col justify-between items-center h-full">
@@ -96,7 +94,7 @@
             class="rounded-full p-4 border border-black dark:border-white flex items-center gap-4 cursor-pointer"
             onclick="toggleDarkMode()"
         >
-            <span id="darkMode2" class="material-symbols-outlined"> dark_mode </span>
+            <span id="mobileDarkMode" class="material-symbols-outlined"> dark_mode </span>
 
             Cambia tema
         </span>
@@ -105,11 +103,11 @@
 
 <script>
     function openNavigationDrawer() {
-        document.getElementById('nav').showModal();
+        document.getElementById('navgationDrawer').showModal();
     }
 
     function closeNavigationDrawer() {
-        document.getElementById('nav').close();
+        document.getElementById('navigationDrawer').close();
     }
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -129,22 +127,29 @@
         }
     });
 
-    // document.addEventListener('DOMContentLoaded', () => {
-    const darkMode = JSON.parse(localStorage.getItem('darkMode'));
-    document.getElementById('darkMode').innerHTML = darkMode ? 'light_mode' : 'dark_mode';
-    document.getElementById('darkMode2').innerHTML = darkMode ? 'light_mode' : 'dark_mode';
-    document.body.classList.toggle('dark', darkMode);
-    // });
+    // document.addEventListener('DOMContentLoaded', () => { });
 
-    function toggleDarkMode(e) {
+    const desktopDarkMode = document.getElementById('desktopDarkMode');
+    const mobileDarkMode = document.getElementById('mobileDarkMode');
+
+    const isDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+    const icon = isDarkMode ? 'light_mode' : 'dark_mode';
+
+    desktopDarkMode.innerHTML = icon;
+    mobileDarkMode.innerHTML = icon;
+
+    document.body.classList.toggle('dark', isDarkMode);
+
+    function toggleDarkMode() {
         document.body.classList.toggle('dark');
-        localStorage.setItem('darkMode', document.body.classList.contains('dark'));
-        document.getElementById('darkMode').innerHTML = JSON.parse(localStorage.getItem('darkMode'))
-            ? 'light_mode'
-            : 'dark_mode';
-        document.getElementById('darkMode2').innerHTML = JSON.parse(localStorage.getItem('darkMode'))
-            ? 'light_mode'
-            : 'dark_mode';
+        const isDarkMode = document.body.classList.contains('dark');
+
+        localStorage.setItem('darkMode', isDarkMode);
+        const icon = isDarkMode ? 'light_mode' : 'dark_mode';
+
+        desktopDarkMode.innerHTML = icon;
+        mobileDarkMode.innerHTML = icon;
+
         window.event.stopPropagation();
     }
 </script>
