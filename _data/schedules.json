@@ -314,13 +314,6 @@
           "classrooms": {
             "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
           }
-        },
-        "friday": {
-          "teacherId": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
-          "hours": "15 - 17",
-          "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
-          }
         }
       }
     }
