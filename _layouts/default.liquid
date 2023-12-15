@@ -53,24 +53,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet">
     </head>
 
-    <body class="h-screen flex flex-col md:flex-row">
+    <body class="flex h-screen flex-col md:flex-row">
         {% include navigation.liquid %}
 
-        <div class="w-full min-w-0 md:h-auto flex grow flex-1 bg-gray-50 dark:bg-gray-900 overflow-y-auto overflow-x-hidden">
-            <div class="p-5 md:p-10 pt-5 md:pt-10 prose dark:prose-invert grow-1 w-full max-w-full">
+        <div class="flex w-full min-w-0 flex-1 grow overflow-y-auto overflow-x-hidden bg-gray-50 dark:bg-gray-900 md:h-auto">
+            <div class="grow-1 prose w-full max-w-full p-5 pt-5 dark:prose-invert md:p-10 md:pt-10">
+                {% include disclaimer.liquid %}
+
                 {{ content }}
                 <br>
             </div>
         </div>
 
-        {% comment %} <script {% endcomment %}
-        {% comment %}     async {% endcomment %}
-        {% comment %}     src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" {% endcomment %}
-        {% comment %}     integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" {% endcomment %}
-        {% comment %}     crossorigin="anonymous" {% endcomment %}
-        {% comment %} ></script> {% endcomment %}
-        {% comment %} <script> {% endcomment %}
-        {% comment %}     anchors.add(); {% endcomment %}
-        {% comment %} </script> {% endcomment %}
+        <script
+            async
+            src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js"
+            integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            anchors.add();
+        </script>
     </body>
 </html>

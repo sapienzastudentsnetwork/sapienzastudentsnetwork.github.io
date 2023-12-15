@@ -1,6 +1,6 @@
 <!-- Navigation Rail (Desktop) -->
 
-<div class="w-[88px] min-w-[88px] h-screen max-h-screen overflow-x-hidden overflow-y-auto hidden md:flex flex-col justify-between items-center py-4 shadow-xl dark:shadow-2xl dark:shadow-black z-10 dark:bg-black dark:text-white">
+<div class="z-10 hidden h-screen max-h-screen w-[88px] min-w-[88px] flex-col items-center justify-between overflow-y-auto overflow-x-hidden py-4 shadow-xl dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black md:flex">
     <nav class="flex flex-col items-center">
         {% for link in site.nav %}
             {% comment %} TODO: this seems to hacky... convert the permalink into a url, and use it that way {% endcomment %}
@@ -14,12 +14,12 @@
 
             <a
                 href="{{ site.baseurl | append: '/' | append: link.permalink }}"
-                class="group w-min mb-3 mx-1 flex flex-col items-center {{ is_selected }}"
+                class="group mx-1 mb-3 flex w-min flex-col items-center {{ is_selected }}"
             >
-                <span class="material-symbols-outlined rounded-full px-4 py-1 mb-1 group-hover:bg-gray-100 group-hover:dark:bg-gray-800 group-[.is-selected]:fill group-[.is-selected]:bg-black group-[.is-selected]:text-white group-[.is-selected]:dark:bg-white group-[.is-selected]:dark:text-black">
+                <span class="material-symbols-outlined group-[.is-selected]:fill mb-1 rounded-full px-4 py-1 group-hover:bg-gray-100 group-[.is-selected]:bg-black group-[.is-selected]:text-white group-hover:dark:bg-gray-800 group-[.is-selected]:dark:bg-white group-[.is-selected]:dark:text-black">
                     {{ link.icon }}
                 </span>
-                <span class="text-xs text-center text-gray-800 dark:text-gray-100 group-[.is-selected]:font-bold group-[.is-selected]:text-black group-[.is-selected]:dark:text-white">
+                <span class="text-center text-xs text-gray-800 group-[.is-selected]:font-bold group-[.is-selected]:text-black dark:text-gray-100 group-[.is-selected]:dark:text-white">
                     {{ link.text }}
                 </span>
             </a>
@@ -27,7 +27,7 @@
     </nav>
     <span
         id="desktopDarkMode"
-        class="material-symbols-outlined rounded-full p-4 border border-black dark:border-white cursor-pointer"
+        class="material-symbols-outlined cursor-pointer rounded-full border border-black p-4 dark:border-white"
         onclick="toggleDarkMode()"
     >
         dark_mode
@@ -36,7 +36,7 @@
 
 <!-- Navigation Bar (Mobile) -->
 
-<div class="relative z-10 w-full h-12 md:hidden flex items-center p-7 bg-white dark:bg-black dark:text-white justify-between">
+<div class="relative z-10 flex h-12 w-full items-center justify-between bg-white p-7 dark:bg-black dark:text-white md:hidden">
     <div class="flex items-center gap-5">
         <button class="material-symbols-outlined cursor-pointer" onclick="openNavigationDrawer()">menu</button>
         <h1 class="font-bold">Sapienza Informatica</h1>
@@ -50,14 +50,14 @@
 <!-- Navigation Drawer (Mobile) -->
 
 <dialog
-    class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
+    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
     id="navigationDrawer"
     onclick="closeNavigationDrawer()"
 >
-    <div class="flex flex-col justify-between items-center h-full">
+    <div class="flex h-full flex-col items-center justify-between">
         <div>
             <button
-                class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
+                class="material-symbols-outlined m-2 cursor-pointer rounded-full p-2 hover:bg-gray-100"
                 onclick="closeNavigationDrawer()"
             >
                 menu_open
@@ -76,12 +76,12 @@
                 <span class="group {{ is_selected }}">
                     <a
                         href="{{ site.baseurl | append: '/' | append: link.permalink }}"
-                        class="w-72 h-12 py-1 px-4 flex items-center rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 group-[.is-selected]:bg-black group-[.is-selected]:dark:bg-white"
+                        class="flex h-12 w-72 items-center rounded-full px-4 py-1 hover:bg-gray-100 group-[.is-selected]:bg-black dark:hover:bg-gray-800 group-[.is-selected]:dark:bg-white"
                     >
-                        <span class="material-symbols-outlined mr-4 rounded-full group-hover:fill group-[.is-selected]:fill group-[.is-selected]:text-white group-[.is-selected]:dark:text-black">
+                        <span class="material-symbols-outlined group-hover:fill group-[.is-selected]:fill mr-4 rounded-full group-[.is-selected]:text-white group-[.is-selected]:dark:text-black">
                             {{ link.icon }}
                         </span>
-                        <span class="text-base text-center text-gray-800 dark:text-gray-100 group-[.is-selected]:font-bold group-[.is-selected]:text-white group-[.is-selected]:dark:text-black">
+                        <span class="text-center text-base text-gray-800 group-[.is-selected]:font-bold group-[.is-selected]:text-white dark:text-gray-100 group-[.is-selected]:dark:text-black">
                             {{ link.text }}
                         </span>
                     </a>
@@ -89,7 +89,7 @@
             {% endfor %}
         </div>
         <span
-            class="rounded-full p-4 border border-black dark:border-white flex items-center gap-4 cursor-pointer"
+            class="flex cursor-pointer items-center gap-4 rounded-full border border-black p-4 dark:border-white"
             onclick="toggleDarkMode()"
         >
             <span id="mobileDarkMode" class="material-symbols-outlined"> dark_mode </span>

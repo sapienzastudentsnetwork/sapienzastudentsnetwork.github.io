@@ -8,7 +8,7 @@ layout: default
 <h1>Orario personalizzato</h1>
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="openSubjectsDialog()">
+    <button class="absolute right-0 top-2 flex items-center gap-2" onclick="openSubjectsDialog()">
         Materie
         <span class="material-symbols-outlined"> add </span>
     </button>
@@ -16,36 +16,48 @@ layout: default
     {{ content }}
 
     {% assign days = 'Lunedì, Martedì, Mercoledì, Giovedì, Venerdì' | split: ', ' %}
-    <div id="custom-schedule">
-        <table>
-            <thead>
-                <tr>
-                    <th scope="col" class="font-light">Orario</th>
-                    {% for day in days %}
-                        <th class="hidden sm:table-cell" scope="col">{{ day }}</th>
-                        <th class="table-cell sm:hidden" scope="col">{{ day | slice: 0 }}</th>
-                    {% endfor %}
-                </tr>
-            </thead>
-            <tbody class="hidden sm:table-row-group desktop"></tbody>
-            <tbody class="table-row-group sm:hidden mobile"></tbody>
-        </table>
-    </div>
+
+    {% comment %} <div> around table is necessary for alerts {% endcomment %}
+
+    <table id="customSchedule">
+        <thead>
+            <tr>
+                <th scope="col" class="font-light">Orario</th>
+                {% for day in days %}
+                    <th class="hidden sm:table-cell" scope="col">{{ day }}</th>
+                    <th class="table-cell sm:hidden" scope="col">{{ day | slice: 0 }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="desktop hidden sm:table-row-group"></tbody>
+        <tbody class="mobile table-row-group sm:hidden"></tbody>
+    </table>
 
     <h2>Orari per insegnamento</h2>
 
     {% for subject in site.data.schedules %}
         {% assign code = subject[0] %}
-        {% comment %} {% assign degree = subject[1].degree | to_integer %} {% endcomment %}
         {% assign channels = subject[1].channels %}
         {% assign subject_info = site.data.courses[code] %}
 
         <div id="{{ code }}" class="hidden">
             <h3 id="{{ code | append: '-h3' }}">{{ code }} - {{ subject_info.name }}</h3>
 
+            {% if subject_info.tgGroup %}
+                ℹ️️ Unisciti al <a href="{{ subject_info["tgGroup"] }}">gruppo Telegram</a> dedicato per essere sempre
+                aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
+            {% endif %}
+
             {% for channel in channels %}
                 {% assign channel_id = channel[0] %}
-                {% assign days = channel[1] %}
+
+                {% unless site.data.hardcodedSchedules[code]
+                    and site.data.hardcodedSchedules[code].channels[channel_id]
+                %}
+                    {% assign days = channel[1] %}
+                {% else %}
+                    {% assign days = site.data.hardcodedSchedules[code].channels[channel_id] %}
+                {% endunless %}
 
                 {% assign first_day = days | first %}
                 {% assign first_day_info = first_day[1] %}
@@ -54,12 +66,31 @@ layout: default
                     <h4>
                         {% if channel_id != '0' %}
                             Canale {{ channel_id }} -
+                        {% else %}
+                            Canale Unico -
                         {% endif %}
 
-                        <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
-                            {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
-                        </a>
+                        {% if site.data.teachers[first_day_info.teacherId] %}
+                            <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
+                                {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
+                            </a>
+                        {% else %}
+                            <span class="not-bold">Docente sconosciuto/a</span>
+                        {% endif %}
                     </h4>
+
+                    {% if subject_info.alerts %}
+                        {% assign subject_alerts = subject_info.alerts %}
+
+                        {% if subject_alerts[channel_id] %}
+                            {% assign subject_channel_alerts = subject_info.alerts %}
+
+                            {% for subject_alert in subject_alerts[channel_id] %}
+                                {{ subject_alert }}
+                                <br>
+                            {% endfor %}
+                        {% endif %}
+                    {% endif %}
 
                     <table>
                         <thead>
@@ -92,19 +123,32 @@ layout: default
                                                 Domenica
                                         {% endcase %}
                                     </td>
-                                    <td>{{ info.hours }}</td>
+                                    <td>
+                                        {{ info.hours | join: ', ' }}
+                                    </td>
                                     <td style="text-align: right; width: 100%;">
-                                        {% for classroom in info.classrooms %}
-                                            {% assign location_id = classroom[0] %}
-                                            {% assign location = classroom[1] %}
-                                            {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
+                                        {% if info.classrooms %}
+                                            {% for classroom in info.classrooms %}
+                                                {% assign location_id = classroom[0] %}
+                                                {% assign location = classroom[1] %}
+                                                {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
 
-                                            {% if mapsUrl %}
-                                                <a href="{{ mapsUrl }}">{{ location }}</a>
+                                                {% if mapsUrl %}
+                                                    <a href="{{ mapsUrl }}">{{ location }}</a>
+                                                {% else %}
+                                                    {{ location }}
+                                                {% endif %}
+                                            {% endfor %}
+                                        {% else %}
+                                            {% assign classroomInfo = info.classroomInfo %}
+                                            {% assign classroomUrl = info.classroomUrl %}
+
+                                            {% if classroomUrl %}
+                                                <a href="{{ classroomUrl }}">{{ classroomInfo }}</a>
                                             {% else %}
-                                                {{ location }}
+                                                {{ classroomInfo }}
                                             {% endif %}
-                                        {% endfor %}
+                                        {% endif %}
                                     </td>
                                 </tr>
                             {% endfor %}
@@ -117,19 +161,19 @@ layout: default
 </div>
 
 <dialog
-    class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
+    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
     id="subjects"
     onclick="closeSubjectsDialog()"
 >
-    <div class="w-full h-full flex flex-col items-start">
+    <div class="flex h-full w-full flex-col items-start">
         <button
-            class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
+            class="material-symbols-outlined m-2 cursor-pointer rounded-full p-2 hover:bg-gray-100"
             onclick="closeSubjectsDialog()"
         >
             menu_open
         </button>
 
-        <div class="w-full h-full mb-4 pr-4 overflow-y-scroll">
+        <div class="mb-4 h-full w-full overflow-y-scroll pr-4">
             {% for subject in site.data.schedules %}
                 {% assign code = subject[0] %}
 
@@ -152,7 +196,7 @@ layout: default
 
                     <button
                         id="dialog-{{ code }}-{{ channel_id }}"
-                        class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full"
+                        class="group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
                         onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)"
                     >
                         <span class="w-full truncate text-left">
@@ -210,7 +254,7 @@ layout: default
 
         localStorage.setItem('selectedSubjects', JSON.stringify(Array.from(selectedSubjects)));
 
-        fillTimetable('custom-schedule', Array.from(selectedSubjects));
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
     }
 
     addEventListener('DOMContentLoaded', () => {
@@ -227,7 +271,7 @@ layout: default
             channel_div.classList.remove('hidden');
         }
 
-        fillTimetable('custom-schedule', Array.from(selectedSubjects));
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
     });
 
     function openSubjectsDialog() {

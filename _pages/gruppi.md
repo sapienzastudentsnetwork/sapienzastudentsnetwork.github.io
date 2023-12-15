@@ -5,14 +5,6 @@ permalink: gruppi
 
 # Gruppi e altri canali di comunicazione
 
-<!-- <p align="center"> -->
-<!-- <p> -->
-<!--   <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white"> -->
-<!--   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"> -->
-<!--   <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"> -->
-<!--   <img src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white"> -->
-<!-- </p> -->
-
 Qui trovi i link ai **gruppi** e ai server **Discord** per la Laurea Triennale in **Informatica**
 
 ## Tabella dei contenuti
@@ -121,11 +113,13 @@ Il terzo anno è a **canale unificato**, non è suddiviso in canali A-F e G-Z. P
 
 ##### Insegnamenti a scelta
 
+- [AI Lab: Computer Vision and NLP (ACSAI)](https://t.me/+wg42G94fUtJlY2Fk)
 - [Biologia Computazionale](https://t.me/+cBediJPv7GxmZTc8)
 - [Computer Graphics](https://t.me/+Tc_zoLaRxFgxODc8)
 - [Cybersecurity (ACSAI)](https://t.me/+ZLceB7Q8cSA2NzA0)
 - [Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
+- [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
 - [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Law and Computer Science (ACSAI)](https://t.me/+Mvi6pA7Mlc4xNDU0)
@@ -150,4 +144,4 @@ Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegr
 - [Canale 2 (primo e secondo anno)](https://discord.gg/APKFM5V5ed) 
 - [Terzo Anno (canale unificato)](https://discord.gg/Wg94weSeq3)
 
-***N.B.:** Per canale 1 si intende A-F (Primo Anno) / A-L (Secondo Anno).*
+***N.B.:** Per "Canale 1" si intende A-F (Primo Anno) / A-L (Secondo Anno).*

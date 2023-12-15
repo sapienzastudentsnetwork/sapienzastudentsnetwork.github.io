@@ -7,7 +7,10 @@ include:
   - _assets
 plugins:
   - jemoji
-google_analytics: G-HFNEYKB0G4
+  - jekyll-last-modified-at
+last-modified-at:
+  date-format: '%d/%b/%y'
+#google_analytics: G-HFNEYKB0G4
 nav:
   - text: Home
     icon: home

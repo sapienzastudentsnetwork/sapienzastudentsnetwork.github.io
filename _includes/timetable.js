@@ -1,7 +1,22 @@
 const COURSES = JSON.parse(`{{ site.data.courses | jsonify }}`);
 const SCHEDULES = JSON.parse(`{{ site.data.schedules | jsonify }}`);
+const HARDCODED_SCHEDULES = JSON.parse(`{{ site.data.hardcodedSchedules | jsonify }}`)
 const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
 const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+
+for (const courseId in HARDCODED_SCHEDULES) {
+    if (SCHEDULES[courseId]) {
+        const channelsToUpdate = HARDCODED_SCHEDULES[courseId].channels;
+
+        // Iterate over the channels to be updated
+        for (const channelId in channelsToUpdate) {
+            if (SCHEDULES[courseId].channels[channelId]) {
+                // Replace the relevant information
+                SCHEDULES[courseId].channels[channelId] = channelsToUpdate[channelId];
+            }
+        }
+    }
+}
 
 function fillTimetable(tableId, coursesCodes, channel) {
     let classesStartTime = undefined,
@@ -13,13 +28,19 @@ function fillTimetable(tableId, coursesCodes, channel) {
         const [courseCode, _channel] = course.toString().split('-');
 
         const days = SCHEDULES[courseCode]['channels'][_channel || channel] || [];
-        for (const [day, { hours }] of Object.entries(days)) {
-            // In custom schedule we have to specify the channel with a - (dash)
-            const [startTime, endTime] = hours.split('-').map(time => parseInt(time))
-            schedule[day].push({ courseCode: courseCode, startTime, endTime });
+        for (let [day, { hours }] of Object.entries(days)) {
+            if (!Array.isArray(hours))
+                hours = [hours]
 
-            classesStartTime = Math.min(classesStartTime, startTime) || startTime;
-            classesEndTime = Math.max(classesEndTime, endTime) || endTime;
+            for (const time of hours) {
+                const [startTime, endTime] = time.split('-').map(time => parseInt(time))
+                const alerts = COURSES[courseCode].alerts;
+
+                schedule[day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] });
+
+                classesStartTime = Math.min(classesStartTime, startTime) || startTime;
+                classesEndTime = Math.max(classesEndTime, endTime) || endTime;
+            }
         }
     }
 
@@ -31,6 +52,7 @@ function fillTimetable(tableId, coursesCodes, channel) {
     desktopTbody.innerHTML = '';
     mobileTbody.innerHTML = '';
 
+    let tableHasAlerts = false;
     for (let time = classesStartTime; time < classesEndTime; time++) {
         const timeTd = document.createElement('td');
         timeTd.classList.add('font-light', 'italic');
@@ -53,7 +75,7 @@ function fillTimetable(tableId, coursesCodes, channel) {
                 .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
             let hasMoreThanACourse = false;
-            for (const { courseCode } of courses) {
+            for (const { courseCode, alerts } of courses) {
                 const course = COURSES[courseCode];
 
                 desktopCourseLink = document.createElement('a');
@@ -68,6 +90,13 @@ function fillTimetable(tableId, coursesCodes, channel) {
                 mobileCourseLink = desktopCourseLink.cloneNode(true);
                 mobileCourseLink.textContent = course ?
                     course.abbr || course.name.substring(0, 2).toUpperCase() : courseCode;
+
+                if (alerts) {
+                    desktopCourseLink.textContent += '*';
+                    mobileCourseLink.textContent += '*';
+
+                    tableHasAlerts = true;
+                }
 
                 if (hasMoreThanACourse) {
                     desktopTd.append(document.createElement('br'));
@@ -87,4 +116,18 @@ function fillTimetable(tableId, coursesCodes, channel) {
         desktopTbody.append(desktopTr);
         mobileTbody.append(mobileTr);
     }
+
+
+    let alertsLegend = document.getElementById("alertsLegend");
+
+    if (tableHasAlerts) {
+        if (!alertsLegend) {
+            alertsLegend = document.createElement("div");
+            alertsLegend.id = "alertsLegend";
+            alertsLegend.textContent = "* ⚠️ Consultare gli avvertimenti disponibili cliccando sul nome della materia";
+
+            document.getElementById(tableId).insertAdjacentElement('afterend', alertsLegend);
+        }
+    } else if (alertsLegend)
+        alertsLegend.remove();
 }

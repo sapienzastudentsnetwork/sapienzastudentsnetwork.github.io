@@ -5,9 +5,9 @@ layout: default
     {% include timetable.js %}
 </script>
 
-<div class="relative channel-1" id="main">
+<div class="channel-1 relative" id="main">
     {% unless page.url contains 'acsai' %}
-        <button class="absolute top-2 right-2 flex items-center gap-2" onclick="toggleChannel()">
+        <button class="absolute right-2 top-2 flex items-center gap-2" onclick="toggleChannel()">
             <span class="material-symbols-outlined"> sort_by_alpha </span>
             Canale:
             <span id="channel" class="font-bold text-black dark:text-white"> </span>
@@ -31,8 +31,8 @@ layout: default
                         {% endfor %}
                     </tr>
                 </thead>
-                <tbody class="hidden sm:table-row-group desktop"></tbody>
-                <tbody class="table-row-group sm:hidden mobile"></tbody>
+                <tbody class="desktop hidden sm:table-row-group"></tbody>
+                <tbody class="mobile table-row-group sm:hidden"></tbody>
             </table>
         </div>
 
@@ -53,9 +53,23 @@ layout: default
     {% for course in courses %}
         <h3 id="{{ course.code }}">{{ course.code }} - {{ site.data.courses[course.code].name }}</h3>
 
+        {% assign telegram_group = site.data.courses[course.code].tgGroup %}
+        {% if telegram_group %}
+            ℹ️️ Unisciti al <a href="{{ telegram_group }}">gruppo Telegram</a> dedicato per essere sempre aggiornato su
+            eventuali cambiamenti d'orario, risorse ed info del corso
+        {% endif %}
+
         {% for channel in course.channels %}
             {% assign channel_id = channel[0] %}
             {% assign days = channel[1] %}
+
+            {% unless site.data.hardcodedSchedules[course.code]
+                and site.data.hardcodedSchedules[course.code].channels[channel_id]
+            %}
+                {% assign days = channel[1] %}
+            {% else %}
+                {% assign days = site.data.hardcodedSchedules[course.code].channels[channel_id] %}
+            {% endunless %}
 
             {% assign first_day = days | first %}
             {% assign first_day_info = first_day[1] %}
@@ -63,12 +77,28 @@ layout: default
             <h4>
                 {% if channel_id != '0' %}
                     Canale {{ channel_id }} -
+                {% else %}
+                    Canale Unico -
                 {% endif %}
 
-                <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
-                    {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
-                </a>
+                {% if site.data.teachers[first_day_info.teacherId] %}
+                    <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
+                        {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
+                    </a>
+                {% else %}
+                    <span class="not-bold">Docente sconosciuto/a</span>
+                {% endif %}
             </h4>
+
+            {% assign alerts = site.data.courses[course.code].alerts %}
+            {% if alerts %}
+                {% if alerts[channel_id] %}
+                    {% for alert in alerts[channel_id] %}
+                        {{ alert }}
+                        <br>
+                    {% endfor %}
+                {% endif %}
+            {% endif %}
 
             <table>
                 <thead>
@@ -101,19 +131,32 @@ layout: default
                                         Domenica
                                 {% endcase %}
                             </td>
-                            <td>{{ info.hours }}</td>
+                            <td>
+                                {{ info.hours | join: ', ' }}
+                            </td>
                             <td style="text-align: right; width: 100%;">
-                                {% for classroom in info.classrooms %}
-                                    {% assign location_id = classroom[0] %}
-                                    {% assign location = classroom[1] %}
-                                    {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
+                                {% if info.classrooms %}
+                                    {% for classroom in info.classrooms %}
+                                        {% assign location_id = classroom[0] %}
+                                        {% assign location = classroom[1] %}
+                                        {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
 
-                                    {% if mapsUrl %}
-                                        <a href="{{ mapsUrl }}">{{ location }}</a>
+                                        {% if mapsUrl %}
+                                            <a href="{{ mapsUrl }}">{{ location }}</a>
+                                        {% else %}
+                                            {{ location }}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    {% assign classroomInfo = info.classroomInfo %}
+                                    {% assign classroomUrl = info.classroomUrl %}
+
+                                    {% if classroomUrl %}
+                                        <a href="{{ classroomUrl }}">{{ classroomInfo }}</a>
                                     {% else %}
-                                        {{ location }}
+                                        {{ classroomInfo }}
                                     {% endif %}
-                                {% endfor %}
+                                {% endif %}
                             </td>
                         </tr>
                     {% endfor %}

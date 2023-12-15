@@ -1,0 +1,234 @@
+---
+layout: default
+---
+
+<script>
+    const courses = JSON.parse(`{{ site.data.courses | jsonify }}`);
+    const schedules = JSON.parse(`{{ site.data.schedules | jsonify }}`);
+    const hardcodedSchedules = JSON.parse(`{{ site.data.hardcodedSchedules | jsonify }}`);
+
+    for (const courseId in hardcodedSchedules) {
+        if (schedules[courseId]) {
+            const channelsToUpdate = hardcodedSchedules[courseId].channels;
+
+            // Iterate over the channels to be updated
+            for (const channelId in channelsToUpdate) {
+                if (schedules[courseId].channels[channelId]) {
+                    // Replace the relevant information
+                    schedules[courseId].channels[channelId] = channelsToUpdate[channelId];
+                }
+            }
+        }
+    }
+</script>
+<script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+
+<div class="relative channel-1" id="main">
+    {% unless page.url contains 'acsai' %}
+    <button class="absolute top-2 right-2 flex items-center gap-2" onclick="toggleChannel()">
+        <span class="material-symbols-outlined">
+            sort_by_alpha
+        </span>
+        Canale:
+        <span id="channel" class="font-bold text-black dark:text-white">
+        </span>
+    </button>
+    {% endunless %}
+
+    {{ content }}
+
+    {% for timetable in page.timetables %}
+        {% assign title = timetable.title %}
+        {% assign channel = timetable.channel %}
+        {% assign courses = timetable.courses %}
+
+        <div id="{{ title | slugify }}" class="channel-{{ channel }}">
+            <h2> {{ title }} </h2>
+
+            <table class="hidden sm:table desktop">
+                <thead>
+                    <tr>
+                        <th scope="col" class='font-light'>Orario</th>
+                        <th scope="col">Lunedì</th>
+                        <th scope="col">Martedì</th>
+                        <th scope="col">Mercoledì</th>
+                        <th scope="col">Giovedì</th>
+                        <th scope="col">Venerdì</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+            <table class="table sm:hidden mobile">
+                <thead>
+                    <tr>
+                        <th scope="col" class='font-light'>Orario</th>
+                        <th scope="col">L</th>
+                        <th scope="col">M</th>
+                        <th scope="col">M</th>
+                        <th scope="col">G</th>
+                        <th scope="col">V</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <script>
+            fillTimetables(
+                "{{ title | slugify }}",
+                JSON.parse(`{{ courses | jsonify }}`),
+                courses,
+                schedules,
+                `{{ channel | default: 0 }}`
+            );
+        </script>
+    {% endfor %}
+
+    <h2>Orari per insegnamento</h2>
+
+    {% for subject in site.data.schedules %}
+        {% assign code = subject[0] %}
+        {% assign degree = subject[1].degree | to_integer %}
+
+        {% if degree == page.degree %}
+            {% assign channels = subject[1].channels %}
+            {% assign subject_info = site.data.courses[code] %}
+
+            <h3 id="{{ code }}"> {{ code }} - {{ subject_info.name }} </h3>
+
+            {% if subject_info["tgGroup"] %}
+                ℹ️️ Unisciti al <a href='{{ subject_info["tgGroup"] }}'>gruppo Telegram</a> dedicato per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
+            {% endif %}
+
+            {% for channel in channels %}
+                {% assign channel_id = channel[0] %}
+
+                {% unless site.data.hardcodedSchedules[code] and site.data.hardcodedSchedules[code].channels[channel_id] %}
+                    {% assign days = channel[1] %}
+                {% else %}
+                    {% assign days = site.data.hardcodedSchedules[code].channels[channel_id] %}
+                {% endunless %}
+
+                {% assign first_day = days | first %}
+                {% assign first_day_info = first_day[1] %}
+
+                <h4>
+                    {% if channel_id != "0" %}
+                        Canale {{ channel_id }} -
+                    {% else %}
+                        Canale Unico -
+                    {% endif %}
+
+                    {% if site.data.teachers[first_day_info.teacherId] %}
+                        <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">{{ site.data.teachers[first_day_info.teacherId].teacherName }}</a>
+                    {% else %}
+                        <span class="not-bold">Docente sconosciuto/a</span>
+                    {% endif %}
+                </h4>
+
+                {% if subject_info["alerts"] %}
+                    {% assign subject_alerts = subject_info["alerts"] %}
+
+                    {% if subject_alerts[channel_id] %}
+                        {% assign subject_channel_alerts = subject_info["alerts"] %}
+
+                        {% for subject_alert in subject_alerts[channel_id] %}
+                            {{ subject_alert }}
+                            <br/>
+                        {% endfor %}
+                    {% endif %}
+                {% endif %}
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Giorno</th>
+                            <th scope="col">Orario</th>
+                            <th scope="col" style="text-align: right">Aula</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for day in days %}
+                            {% assign name = day[0] %}
+                            {% assign info = day[1] %}
+                            <tr>
+                                <td>
+                                    {% case name %}
+                                        {% when "monday" %} Lunedì
+                                        {% when "tuesday" %} Martedì
+                                        {% when "wednesday" %} Mercoledì
+                                        {% when "thursday" %} Giovedì
+                                        {% when "friday" %} Venerdì
+                                        {% when "saturday" %} Sabato
+                                        {% when "sunday" %} Domenica
+                                    {% endcase %}
+                                </td>
+                                <td>
+                                    {% if info.hours | size == 1 %}
+                                        {{ info.hours | join: ', ' }}
+                                    {% else %}
+                                        {{ info.hours | join: ', ' }}
+                                    {% endif %}
+                                </td>
+                                <td style="text-align: right; width: 100%;">
+                                    {% if info.classrooms %}
+                                        {% for classroom in info.classrooms %}
+                                            {% assign location_id = classroom[0] %}
+                                            {% assign location = classroom[1] %}
+                                            {% assign mapsUrl = site.data.classrooms[location_id].mapsUrl %}
+
+                                            {% if mapsUrl %}
+                                                <a href="{{ mapsUrl }}">{{ location }}</a>
+                                            {% else %}
+                                                {{ location }}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% else %}
+                                        {% assign classroomInfo = info.classroomInfo %}
+                                        {% assign classroomUrl = info.classroomUrl %}
+
+                                        {% if classroomUrl %}
+                                            <a href="{{ classroomUrl }}">{{ classroomInfo }}</a>
+                                        {% else %}
+                                            {{ classroomInfo }}
+                                        {% endif %}
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% unless page.url contains 'acsai' %}
+<style>
+    .channel-1>.channel-2,
+    .channel-2>.channel-1 {
+        display: none;
+    }
+</style>
+<script>
+    function updateChannel(channel) {
+        localStorage.setItem('channel', channel);
+        document.getElementById('channel').innerHTML = channel;
+
+        const main = document.getElementById('main');
+        main.classList.remove('channel-1', 'channel-2')
+        main.classList.add(`channel-${channel}`)
+    }
+
+    let channel = localStorage.getItem('channel') || '1';
+    updateChannel(channel);
+
+    function toggleChannel() {
+        channel = channel === '1' ? '2' : '1';
+        updateChannel(channel);
+    }
+</script>
+{% endunless %}

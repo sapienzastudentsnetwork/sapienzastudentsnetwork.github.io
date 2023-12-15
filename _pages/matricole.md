@@ -20,20 +20,11 @@ Informazioni utili per le matricole
 
 ### Canali
 
-Gli studenti del corso sono divisi in **due canali** in base all'iniziale del cognome: **A-F** e **G-Z**. All'inizio dell'anno sarà possibile **cambiare canale** comunicandolo alla segreteria (non è detto che la richiesta venga approvata). Al momento la pagina informativa non è ancora disponibile sul sito della Sapienza, ma appena sarà pubblicata, la troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso. C'è un **tempo limite** per fare il cambio del canale all'inizio dell'anno. 
+Gli studenti del corso sono divisi in **due canali** in base all'iniziale del cognome: **A-F** e **G-Z**.
 
 Gli insegnamenti per i due canali sono gli stessi, cambiano i **professori**. Per alcuni corsi (come ad esempio Introduzione agli Algoritmi, Fondamenti di Programmazione etc...) i professori fanno esami uguali per i due canali.
 
 Il **terzo anno** c'è un solo canale **unificato**.
-
-### Orari e aule
-
-Gli orari escono verso l'inizio delle lezioni (li troverete nella pagina ["frequentare"](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv) del corso o nella sezione ["orari"](./orari) di questo sito appena saranno pubblicati). Il primo anno si fa lezione tutti i giorni dalle **08:00** alle **13:00** (tranne il **mercoledì**, perché si fanno **3 ore di laboratorio**). Il mercoledì il canale A-F aveva laboratorio di mattina, e il canale G-Z di pomeriggio durante il primo semestre. Viceversa durante il secondo semestre (A-F pomeriggio, G-Z mattina). 
-
-Il **secondo anno** si ha in genere lezione di pomeriggio, dalle **14:00** alle **19:00**.
-
-Tendenzialmente le lezioni si svolgono nell'[Edificio di Chimica "Vincenzo Caglioti"](https://www.uniroma1.it/sites/default/files/ACU032.pdf) Aula 1 (la prima a destra). Le lezioni di laboratorio si svolgono nei laboratori di [via Tiburtina 205](https://web.uniroma1.it/i3s/node/8901)
-
 
 ### ISEE
 
@@ -75,7 +66,7 @@ Per quanto riguarda **tablet**, si riporta qui qualche estratto di una [discussi
 
 #### Sistema Operativo
 
-In genere, consigliamo di usare distribuzioni di **Linux** (è più comodo lavorare su Linux, ma non è obbligatorio). Va benissimo iniziare anche con [**Ubuntu**](https://ubuntu.com/). Per chi è più avanzato, suggeriamo [**Arch**](./https://archlinux.org/) con qualche [configurazione custom](https://www.reddit.com/r/unixporn/)).
+In genere, consigliamo di usare distribuzioni di **Linux** (è più comodo lavorare su Linux, ma non è obbligatorio). Va benissimo iniziare anche con [**Ubuntu**](https://ubuntu.com/). Per chi è più avanzato, suggeriamo [**Arch**](https://archlinux.org/) con qualche [configurazione custom](https://www.reddit.com/r/unixporn/)).
 
 Anche **MacOS** è comodo per programmare (essendo basato su Unix).
 
@@ -119,9 +110,9 @@ vi trovate indicando l'intenzione di effettuare il trasferimento ad un altro ate
 Dalla pagina della sapienza [Modulistica studenti](https://www.uniroma1.it/it/pagina/modulistica-studenti) compilare il modulo “Trasferimento da altro ateneo” che va inviato alla seguente email [segrstudenti.i3s@uniroma1.it](mailto:segrstudenti.i3s@uniroma1.it) insieme alla richiesta di trasferimento in uscita che avevate effettuato ed il bollettino pagato e la matricola ottenuta dalla registrazione di InfoStud e chiedere la generazione del bollettino della prima rata.
 
 
-## FAQ 
+<!--## FAQ-->
 
-Disponibili in seguito.
+<!--Disponibili in seguito.-->
 
 <!--
 <details>

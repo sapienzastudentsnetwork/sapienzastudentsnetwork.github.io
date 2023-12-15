@@ -2,137 +2,170 @@
     "101226": {
         "name": "Calcolo Differenziale",
         "shortName": "Calc. Diff.",
-        "abbr": "CD"
+        "abbr": "CD",
+        "tgGroup": "https://t.me/+Cw_63BoRvE03YmM0"
     },
     "1015883": {
         "name": "Fondamenti di Programmazione",
         "shortName": "Python",
-        "abbr": "FDP"
+        "abbr": "FDP",
+        "tgGroup": "https://t.me/+NQ8H6iLHOIIwMzM0"
     },
     "1020420": {
         "name": "Metodi Matematici per l'Informatica",
         "shortName": "Metodi Matem.",
-        "abbr": "MMI"
+        "abbr": "MMI",
+        "tgGroup": "https://t.me/+m_-WkFEmQzdmZDZk"
     },
     "1015880": {
         "name": "Progettazione di Sistemi Digitali",
         "shortName": "Sist. Digit.",
-        "abbr": "PSD"
+        "abbr": "PSD",
+        "tgGroup": "https://t.me/+hr9OFwWWGCZhODU0"
     },
     "1015881": {
         "name": "Architettura degli Elaboratori",
         "shortName": "Arch. Elab.",
-        "abbr": "AE"
+        "abbr": "AE",
+        "tgGroup": "https://t.me/+2PAqwS4raLY4N2U0"
     },
     "97796": {
         "name": "Calcolo Integrale",
         "shortName": "Calc. Int.",
-        "abbr": "CI"
+        "abbr": "CI",
+        "tgGroup": "https://t.me/+lnnFbmFQNNBjNGRk"
     },
     "1015885": {
         "name": "Introduzione agli Algoritmi",
         "shortName": "Intro. Algo",
-        "abbr": "IA"
+        "abbr": "IA",
+        "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0"
     },
     "1015884": {
         "name": "Metodologie di Programmazione",
         "shortName": "Java",
-        "abbr": "MDP"
+        "abbr": "MDP",
+        "tgGroup": "https://t.me/+8iyKxeRgfXtmY2Y0"
     },
     "AAF1101": {
         "name": "Lingua Inglese",
         "shortName": "Inglese",
-        "abbr": "ENG"
+        "abbr": "ENG",
+        "tgGroup": "https://t.me/+clLwVwTLUHk3YzM0"
     },
     "1015886": {
         "name": "Algebra",
         "shortName": "Algebra",
-        "abbr": "ALG"
+        "abbr": "ALG",
+        "tgGroup": "https://t.me/+798mXLThj_JmYTBk"
     },
     "1015887": {
         "name": "Basi di Dati I",
         "shortName": "Basi di Dati 1",
-        "abbr": "BD1"
+        "abbr": "BD1",
+        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk"
     },
     "1020421": {
         "name": "Calcolo delle Probabilit\u00e0",
         "shortName": "Probabilit\u00e0",
-        "abbr": "PRB"
+        "abbr": "PRB",
+        "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk"
     },
     "1020422": {
         "name": "Sistemi Operativi I",
         "shortName": "Sist. Op. 1",
-        "abbr": "SO1"
+        "abbr": "SO1",
+        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk"
     },
     "1015888": {
         "name": "Progettazione di Algoritmi",
         "shortName": "Prog. Algo",
-        "abbr": "PA"
+        "abbr": "PA",
+        "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk"
     },
     "1015889": {
         "name": "Reti di Elaboratori",
         "shortName": "Reti Elab.",
-        "abbr": "RE"
+        "abbr": "RE",
+        "tgGroup": "https://t.me/+vNSkWJUgs9Y1MzFk"
     },
     "1041727": {
         "name": "Automi, Calcolabilit\u00e0 e Complessit\u00e0",
         "shortName": "Automi",
-        "abbr": "AUT"
+        "abbr": "AUT",
+        "tgGroup": "https://t.me/sapienzainformatica3/9"
     },
     "1031337": {
         "name": "Biologia Computazionale",
         "shortName": "Biol. Comput.",
-        "abbr": "BIO"
+        "abbr": "BIO",
+        "tgGroup": "https://t.me/+cBediJPv7GxmZTc8"
     },
     "97597": {
         "name": "Fisica",
         "shortName": "Fisica",
-        "abbr": "FIS"
+        "abbr": "FIS",
+        "tgGroup": "https://t.me/+-ZO2tsF0w8YyNDE8"
     },
     "1022301": {
         "name": "Ingegneria del Software",
         "shortName": "Ing. del Software",
-        "abbr": "ISW"
+        "abbr": "ISW",
+        "tgGroup": "https://t.me/sapienzainformatica3/9"
     },
     "1022263": {
         "name": "Interazione Uomo Macchina",
         "shortName": "Int. Uomo Macchina",
-        "abbr": "IUM"
+        "abbr": "IUM",
+        "tgGroup": "https://t.me/+HPJydQNfbJRmM2Y8"
     },
     "1022262": {
         "name": "Intelligenza Artificiale",
         "shortName": "Int. Artificiale",
-        "abbr": "IA"
+        "abbr": "IA",
+        "tgGroup": "https://t.me/+qSkWuJbIauY2ODI0"
     },
     "1022264": {
         "name": "Linguaggi di Programmazione",
         "shortName": "Ling. di Progr.",
-        "abbr": "LDP"
+        "abbr": "LDP",
+        "tgGroup": "https://t.me/+YNWScBhdFWE1NWNk"
     },
     "10593234": {
         "name": "Metodi Numerici dell'Informatica",
         "shortName": "Metodi Numerici",
-        "abbr": "NUM"
+        "abbr": "NUM",
+        "tgGroup": "https://t.me/+Njer81tnaZNkY2M8"
     },
     "1022265": {
         "name": "Modelli e Ottimizzazione",
         "shortName": "Modelli e Ottimiz.",
-        "abbr": "OTT"
+        "abbr": "OTT",
+        "tgGroup": "https://t.me/+nx7dseifrswzNGU6"
     },
     "10596283": {
         "name": "Organizzazione e Gestione per lo Start-Up Aziendale",
         "shortName": "Org. e Gest. Az.",
-        "abbr": "OGA"
+        "abbr": "OGA",
+        "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
+        "alerts": {
+            "0": [
+                "⏰ Le lezioni si svolgeranno:",
+                "• Venerdì in orario 8:00 - 11:00 e 16:00 - 19:45 in Aula G50 RM115-E01P03L001 nei giorni 1/12, 15/12, 22/12"
+            ]
+        }
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
         "shortName": "Prog. Emb. e Multic.",
-        "abbr": "PEM"
+        "abbr": "PEM",
+        "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk"
     },
     "1022267": {
         "name": "Programmazione per il Web",
         "shortName": "Prog. Web",
-        "abbr": "WEB"
+        "abbr": "WEB",
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
     },
     "1022266": {
         "name": "Programmazione di Sistema",
@@ -142,17 +175,20 @@
     "1022268": {
         "name": "Sicurezza",
         "shortName": "Sicurezza",
-        "abbr": "SIC"
+        "abbr": "SIC",
+        "tgGroup": "https://t.me/+WfOOX_dUtBJkZmVk"
     },
     "10589652": {
         "name": "Tecniche di Programmazione Funzionale e Imperativa",
         "shortName": "Prog. Funz. e Imp.",
-        "abbr": "TPFI"
+        "abbr": "TPFI",
+        "tgGroup": "https://t.me/+X7XCdT3tfA83OTVk"
     },
     "10600494": {
         "name": "Verifica e Validazione di Sistemi Intelligenti",
         "shortName": "Sist. Intelligenti",
-        "abbr": "VVSI"
+        "abbr": "VVSI",
+        "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk"
     },
     "10595099": {
         "name": "Calculus",
@@ -232,7 +268,8 @@
     "10595532": {
         "name": "Cybersecurity",
         "shortName": "Cybersec",
-        "abbr": "SEC"
+        "abbr": "SEC",
+        "tgGroup": "https://t.me/+ZLceB7Q8cSA2NzA0"
     },
     "10595531": {
         "name": "Deep Learning",
@@ -262,6 +299,7 @@
     "10595537": {
         "name": "Law and Computer Science",
         "shortName": "Law & CS",
-        "abbr": "LCS"
+        "abbr": "LCS",
+        "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0"
     }
 }

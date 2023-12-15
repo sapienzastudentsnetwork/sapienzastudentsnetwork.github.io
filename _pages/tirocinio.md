@@ -251,9 +251,9 @@ Volendo poi si può pure aggiornare Sapthesis, semplicemente mettendo i file pi�
 | [Vendittelli Marilena](https://corsidilaurea.uniroma1.it/it/users/marilenavendittelliuniroma1it) | - |
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
-## FAQ 
-
-<details>
-    <summary>Questa è una domanda?</summary>
-    Si, lo è.
-</details>
+<!-- ## FAQ  -->
+<!---->
+<!-- <details> -->
+<!--     <summary>Questa è una domanda?</summary> -->
+<!--     Si, lo è. -->
+<!-- </details> -->
