@@ -1,0 +1,145 @@
+<!-- Navigation Rail (Desktop) -->
+
+<div class="z-10 hidden h-screen max-h-screen w-[88px] min-w-[88px] flex-col items-center justify-between overflow-y-auto overflow-x-hidden py-4 shadow-xl dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black md:flex">
+    <nav class="flex flex-col items-center">
+        {% for link in site.nav %}
+            {% comment %} TODO: this seems to hacky... convert the permalink into a url, and use it that way {% endcomment %}
+            {% assign url = page.url | replace: '.', '' | split: '/' | last %}
+            {% assign permalink = link.permalink | replace: '.', '' | split: '/' | last %}
+
+            {% assign is_selected = '' %}
+            {% if url == permalink %}
+                {% assign is_selected = 'is-selected' %}
+            {% endif %}
+
+            <a
+                href="{{ site.baseurl | append: '/' | append: link.permalink }}"
+                class="group mx-1 mb-3 flex w-min flex-col items-center {{ is_selected }}"
+            >
+                <span class="material-symbols-outlined group-[.is-selected]:fill mb-1 rounded-full px-4 py-1 group-hover:bg-gray-100 group-[.is-selected]:bg-black group-[.is-selected]:text-white group-hover:dark:bg-gray-800 group-[.is-selected]:dark:bg-white group-[.is-selected]:dark:text-black">
+                    {{ link.icon }}
+                </span>
+                <span class="text-center text-xs text-gray-800 group-[.is-selected]:font-bold group-[.is-selected]:text-black dark:text-gray-100 group-[.is-selected]:dark:text-white">
+                    {{ link.text }}
+                </span>
+            </a>
+        {% endfor %}
+    </nav>
+    <span
+        id="desktopDarkMode"
+        class="material-symbols-outlined cursor-pointer rounded-full border border-black p-4 dark:border-white"
+        onclick="toggleDarkMode()"
+    >
+        dark_mode
+    </span>
+</div>
+
+<!-- Navigation Bar (Mobile) -->
+
+<div class="relative z-10 flex h-12 w-full items-center justify-between bg-white p-7 dark:bg-black dark:text-white md:hidden">
+    <div class="flex items-center gap-5">
+        <button class="material-symbols-outlined cursor-pointer" onclick="openNavigationDrawer()">menu</button>
+        <h1 class="font-bold">Sapienza Informatica</h1>
+    </div>
+    <div class="flex items-center gap-2">
+        <a href="risorse" class="material-symbols-outlined"> link </a>
+        <a href="orari" id="schedule-shortcut" class="material-symbols-outlined"> calendar_month </a>
+    </div>
+</div>
+
+<!-- Navigation Drawer (Mobile) -->
+
+<dialog
+    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
+    id="navigationDrawer"
+    onclick="closeNavigationDrawer()"
+>
+    <div class="flex h-full flex-col items-center justify-between">
+        <div>
+            <button
+                class="material-symbols-outlined m-2 cursor-pointer rounded-full p-2 hover:bg-gray-100"
+                onclick="closeNavigationDrawer()"
+            >
+                menu_open
+            </button>
+
+            {% for link in site.nav %}
+                {% comment %} TODO: this seems to hacky... convert the permalink into a url, and use it that way {% endcomment %}
+                {% assign url = page.url | replace: '.', '' | split: '/' | last %}
+                {% assign permalink = link.permalink | replace: '.', '' | split: '/' | last %}
+
+                {% assign is_selected = '' %}
+                {% if url == permalink %}
+                    {% assign is_selected = 'is-selected' %}
+                {% endif %}
+
+                <span class="group {{ is_selected }}">
+                    <a
+                        href="{{ site.baseurl | append: '/' | append: link.permalink }}"
+                        class="flex h-12 w-72 items-center rounded-full px-4 py-1 hover:bg-gray-100 group-[.is-selected]:bg-black dark:hover:bg-gray-800 group-[.is-selected]:dark:bg-white"
+                    >
+                        <span class="material-symbols-outlined group-hover:fill group-[.is-selected]:fill mr-4 rounded-full group-[.is-selected]:text-white group-[.is-selected]:dark:text-black">
+                            {{ link.icon }}
+                        </span>
+                        <span class="text-center text-base text-gray-800 group-[.is-selected]:font-bold group-[.is-selected]:text-white dark:text-gray-100 group-[.is-selected]:dark:text-black">
+                            {{ link.text }}
+                        </span>
+                    </a>
+                </span>
+            {% endfor %}
+        </div>
+        <span
+            class="flex cursor-pointer items-center gap-4 rounded-full border border-black p-4 dark:border-white"
+            onclick="toggleDarkMode()"
+        >
+            <span id="mobileDarkMode" class="material-symbols-outlined"> dark_mode </span>
+
+            Cambia tema
+        </span>
+    </div>
+</dialog>
+
+<script>
+    function openNavigationDrawer() {
+        document.getElementById('navigationDrawer').showModal();
+    }
+
+    function closeNavigationDrawer() {
+        document.getElementById('navigationDrawer').close();
+    }
+
+    function updateScheduleShortcut() {
+        const selectedSubjects = new Set(JSON.parse(localStorage.getItem('selectedSubjects')));
+        if (selectedSubjects.size > 0) document.getElementById('schedule-shortcut').setAttribute('href', 'orario');
+    }
+
+    function setupDarkMode() {
+        const desktopDarkMode = document.getElementById('desktopDarkMode');
+        const mobileDarkMode = document.getElementById('mobileDarkMode');
+
+        const isDarkMode = JSON.parse(localStorage.getItem('darkMode'));
+        const icon = isDarkMode ? 'light_mode' : 'dark_mode';
+
+        desktopDarkMode.innerHTML = icon;
+        mobileDarkMode.innerHTML = icon;
+
+        document.body.classList.toggle('dark', isDarkMode);
+    }
+
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark');
+        const isDarkMode = document.body.classList.contains('dark');
+
+        localStorage.setItem('darkMode', isDarkMode);
+        const icon = isDarkMode ? 'light_mode' : 'dark_mode';
+
+        desktopDarkMode.innerHTML = icon;
+        mobileDarkMode.innerHTML = icon;
+
+        window.event.stopPropagation();
+    }
+
+    document.addEventListener('DOMContentLoaded', updateScheduleShortcut);
+    document.addEventListener('DOMContentLoaded', setupDarkMode);
+    document.addEventListener('storage', updateScheduleShortcut);
+</script>

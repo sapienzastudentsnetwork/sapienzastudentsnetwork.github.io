@@ -1,92 +1,59 @@
 ---
 layout: default
 ---
-
 <script>
-    const courses = JSON.parse(`{{ site.data.courses | jsonify }}`);
-
-    const schedules = JSON.parse(`{{ site.data.schedules | jsonify }}`);
-    const hardcodedSchedules = JSON.parse(`{{ site.data.hardcodedSchedules | jsonify }}`);
-
-    for (const courseId in hardcodedSchedules) {
-        if (schedules[courseId]) {
-            const channelsToUpdate = hardcodedSchedules[courseId].channels;
-
-            // Iterate over the channels to be updated
-            for (const channelId in channelsToUpdate) {
-                if (schedules[courseId].channels[channelId]) {
-                    // Replace the relevant information
-                    schedules[courseId].channels[channelId] = channelsToUpdate[channelId];
-                }
-            }
-        }
-    }
+    {% include timetable.js %}
 </script>
-<script src="{{ '/assets/js/schedule.js?v=' | append: site.github.build_revision | relative_url }}"></script>
 
+<h1>Orario personalizzato</h1>
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button class="absolute top-2 right-0 flex items-center gap-2" onclick="openSubjectsDialog()">
+    <button class="absolute right-0 top-2 flex items-center gap-2" onclick="openSubjectsDialog()">
         Materie
-        <span class="material-symbols-outlined">
-            add
-        </span>
+        <span class="material-symbols-outlined"> add </span>
     </button>
 
     {{ content }}
 
-    <div id="custom-schedule">
-        <table class="hidden sm:table desktop">
-            <thead>
-                <tr>
-                    <th scope="col" class='font-light'>Orario</th>
-                    <th scope="col">Lunedì</th>
-                    <th scope="col">Martedì</th>
-                    <th scope="col">Mercoledì</th>
-                    <th scope="col">Giovedì</th>
-                    <th scope="col">Venerdì</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
+    {% assign days = 'Lunedì, Martedì, Mercoledì, Giovedì, Venerdì' | split: ', ' %}
 
-        <table class="table sm:hidden mobile">
-            <thead>
-                <tr>
-                    <th scope="col" class='font-light'>Orario</th>
-                    <th scope="col">L</th>
-                    <th scope="col">M</th>
-                    <th scope="col">M</th>
-                    <th scope="col">G</th>
-                    <th scope="col">V</th>
-                </tr>
-            </thead>
-            <tbody>
-            </tbody>
-        </table>
-    </div>
+    {% comment %} <div> around table is necessary for alerts {% endcomment %}
 
+    <table id="customSchedule">
+        <thead>
+            <tr>
+                <th scope="col" class="font-light">Orario</th>
+                {% for day in days %}
+                    <th class="hidden sm:table-cell" scope="col">{{ day }}</th>
+                    <th class="table-cell sm:hidden" scope="col">{{ day | slice: 0 }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="desktop hidden sm:table-row-group"></tbody>
+        <tbody class="mobile table-row-group sm:hidden"></tbody>
+    </table>
 
     <h2>Orari per insegnamento</h2>
 
     {% for subject in site.data.schedules %}
         {% assign code = subject[0] %}
-        {% assign degree = subject[1].degree | to_integer %}
         {% assign channels = subject[1].channels %}
         {% assign subject_info = site.data.courses[code] %}
 
         <div id="{{ code }}" class="hidden">
-            <h3 id="{{ code | append: '-h3' }}"> {{ code }} - {{ subject_info.name }} </h3>
+            <h3 id="{{ code | append: '-h3' }}">{{ code }} - {{ subject_info.name }}</h3>
 
-            {% if subject_info["tgGroup"] %}
-                ℹ️️ Unisciti al <a href='{{ subject_info["tgGroup"] }}'>gruppo Telegram</a> dedicato per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
+            {% if subject_info.tgGroup %}
+                ℹ️️ Unisciti al <a href="{{ subject_info["tgGroup"] }}">gruppo Telegram</a> dedicato per essere sempre
+                aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
             {% endif %}
 
             {% for channel in channels %}
                 {% assign channel_id = channel[0] %}
 
-                {% unless site.data.hardcodedSchedules[code] and site.data.hardcodedSchedules[code].channels[channel_id] %}
+                {% unless site.data.hardcodedSchedules[code]
+                    and site.data.hardcodedSchedules[code].channels[channel_id]
+                %}
                     {% assign days = channel[1] %}
                 {% else %}
                     {% assign days = site.data.hardcodedSchedules[code].channels[channel_id] %}
@@ -97,28 +64,30 @@ layout: default
 
                 <div id="{{ code }}-{{ channel_id }}" class="hidden">
                     <h4>
-                        {% if channel_id != "0" %}
+                        {% if channel_id != '0' %}
                             Canale {{ channel_id }} -
                         {% else %}
                             Canale Unico -
                         {% endif %}
 
                         {% if site.data.teachers[first_day_info.teacherId] %}
-                            <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">{{ site.data.teachers[first_day_info.teacherId].teacherName }}</a>
+                            <a href="{{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}">
+                                {{- site.data.teachers[first_day_info.teacherId].teacherName -}}
+                            </a>
                         {% else %}
                             <span class="not-bold">Docente sconosciuto/a</span>
                         {% endif %}
                     </h4>
 
-                    {% if subject_info["alerts"] %}
-                        {% assign subject_alerts = subject_info["alerts"] %}
+                    {% if subject_info.alerts %}
+                        {% assign subject_alerts = subject_info.alerts %}
 
                         {% if subject_alerts[channel_id] %}
-                            {% assign subject_channel_alerts = subject_info["alerts"] %}
+                            {% assign subject_channel_alerts = subject_info.alerts %}
 
                             {% for subject_alert in subject_alerts[channel_id] %}
                                 {{ subject_alert }}
-                                <br/>
+                                <br>
                             {% endfor %}
                         {% endif %}
                     {% endif %}
@@ -138,21 +107,24 @@ layout: default
                                 <tr>
                                     <td>
                                         {% case name %}
-                                            {% when "monday" %} Lunedì
-                                            {% when "tuesday" %} Martedì
-                                            {% when "wednesday" %} Mercoledì
-                                            {% when "thursday" %} Giovedì
-                                            {% when "friday" %} Venerdì
-                                            {% when "saturday" %} Sabato
-                                            {% when "sunday" %} Domenica
+                                            {% when 'monday' %}
+                                                Lunedì
+                                            {% when 'tuesday' %}
+                                                Martedì
+                                            {% when 'wednesday' %}
+                                                Mercoledì
+                                            {% when 'thursday' %}
+                                                Giovedì
+                                            {% when 'friday' %}
+                                                Venerdì
+                                            {% when 'saturday' %}
+                                                Sabato
+                                            {% when 'sunday' %}
+                                                Domenica
                                         {% endcase %}
                                     </td>
                                     <td>
-                                        {% if info.hours | size == 1 %}
-                                            {{ info.hours | join: ', ' }}
-                                        {% else %}
-                                            {{ info.hours | join: ', ' }}
-                                        {% endif %}
+                                        {{ info.hours | join: ', ' }}
                                     </td>
                                     <td style="text-align: right; width: 100%;">
                                         {% if info.classrooms %}
@@ -189,15 +161,19 @@ layout: default
 </div>
 
 <dialog
-    class="h-full ml-0 p-4 items-center rounded-r-3xl shadow-xl dark:shadow-2xl dark:shadow-black backdrop:backdrop-blur-sm dark:bg-black dark:text-white"
-    id="subjects" onclick="closeSubjectsDialog()">
-    <div class="w-full h-full flex flex-col items-start">
-        <button class="material-symbols-outlined rounded-full p-2 m-2 hover:bg-gray-100 cursor-pointer"
-            onclick="closeSubjectsDialog()">
+    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
+    id="subjects"
+    onclick="closeSubjectsDialog()"
+>
+    <div class="flex h-full w-full flex-col items-start">
+        <button
+            class="material-symbols-outlined m-2 cursor-pointer rounded-full p-2 hover:bg-gray-100"
+            onclick="closeSubjectsDialog()"
+        >
             menu_open
         </button>
 
-        <div class="w-full h-full mb-4 pr-4 overflow-y-scroll">
+        <div class="mb-4 h-full w-full overflow-y-scroll pr-4">
             {% for subject in site.data.schedules %}
                 {% assign code = subject[0] %}
 
@@ -205,23 +181,28 @@ layout: default
 
                 {% assign teachingDegreeProgramCode = subject[1].degree %}
 
-                {% assign subject_description = '[' | append: teachingDegreeProgramCode | append: ']' | append: ' ' |
-                append: subject_info.shortName %}
+                {% assign subject_description = '['
+                    | append: teachingDegreeProgramCode
+                    | append: ']'
+                    | append: ' '
+                    | append: subject_info.shortName
+                %}
 
                 {% assign channels = subject[1].channels %}
 
                 {% for channel in channels %}
                     {% assign channel_id = channel[0] %}
-                    {% assign schedule = channel[1] %}
+                    {% comment %} {% assign schedule = channel[1] %} {% endcomment %}
 
-                    <button id="dialog-{{ code }}-{{ channel_id }}"
-                        class="group w-72 h-12 py-1 px-4 flex bg-gray-50 text-black dark:bg-gray-900 dark:text-white mb-2 items-center rounded-full"
-                        onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)">
-
+                    <button
+                        id="dialog-{{ code }}-{{ channel_id }}"
+                        class="group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                        onclick="event.stopPropagation(); toggleSubject(`{{ code }}-{{ channel_id }}`)"
+                    >
                         <span class="w-full truncate text-left">
                             {{ subject_description }}
 
-                            {% if channel_id != "0" %}
+                            {% if channel_id != '0' %}
                                 (Canale {{ channel_id }})
                             {% endif %}
                         </span>
@@ -237,33 +218,35 @@ layout: default
 
     function toggleSubject(subjectId) {
         if (selectedSubjects.has(subjectId)) {
-            let button = document.getElementById("dialog-" + subjectId);
+            let button = document.getElementById('dialog-' + subjectId);
             button.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
             button.classList.add('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
 
-            let subjectCode = subjectId.split("-")[0];
+            let subjectCode = subjectId.split('-')[0];
 
             // Hide this subject's timetable div only if the subject was not also added with another channel
-            let otherSubjectIdsWithSameCode = Array.from(selectedSubjects).filter(item => item.startsWith(subjectCode));
+            let otherSubjectIdsWithSameCode = Array.from(selectedSubjects).filter((item) =>
+                item.startsWith(subjectCode),
+            );
             if (otherSubjectIdsWithSameCode.length === 1) {
-                let subject_div = document.getElementById(subjectCode)
+                let subject_div = document.getElementById(subjectCode);
                 subject_div.classList.add('hidden');
             }
 
-            let channel_div = document.getElementById(subjectId)
+            let channel_div = document.getElementById(subjectId);
             channel_div.classList.add('hidden');
 
             selectedSubjects.delete(subjectId);
         } else {
-            let button = document.getElementById("dialog-" + subjectId);
+            let button = document.getElementById('dialog-' + subjectId);
             button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
             button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode)
+            let subjectCode = subjectId.split('-')[0];
+            let subject_div = document.getElementById(subjectCode);
             subject_div.classList.remove('hidden');
 
-            let channel_div = document.getElementById(subjectId)
+            let channel_div = document.getElementById(subjectId);
             channel_div.classList.remove('hidden');
 
             selectedSubjects.add(subjectId);
@@ -271,36 +254,25 @@ layout: default
 
         localStorage.setItem('selectedSubjects', JSON.stringify(Array.from(selectedSubjects)));
 
-        fillTimetables(
-            'custom-schedule',
-            Array.from(selectedSubjects),
-            courses,
-            schedules,
-        );
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
     }
 
-    addEventListener("DOMContentLoaded", () => {
+    addEventListener('DOMContentLoaded', () => {
         for (const subjectId of selectedSubjects) {
-            const button = document.getElementById("dialog-" + subjectId);
+            const button = document.getElementById('dialog-' + subjectId);
             button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
             button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
 
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode)
+            let subjectCode = subjectId.split('-')[0];
+            let subject_div = document.getElementById(subjectCode);
             subject_div.classList.remove('hidden');
 
-            let channel_div = document.getElementById(subjectId)
+            let channel_div = document.getElementById(subjectId);
             channel_div.classList.remove('hidden');
         }
 
-        fillTimetables(
-            'custom-schedule',
-            Array.from(selectedSubjects),
-            courses,
-            schedules,
-        );
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
     });
-
 
     function openSubjectsDialog() {
         document.getElementById('subjects').showModal();

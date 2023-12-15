@@ -110,5 +110,33 @@
         }
       }
     }
+  },
+  "10595532": {
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "monday": {
+          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+          "hours": "11 - 14",
+          "classrooms": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        },
+        "tuesday": {
+          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+          "hours": "11 - 13",
+          "classrooms": {
+            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+          }
+        },
+        "wednesday": {
+          "teacherId": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+          "hours": "09 - 11",
+          "classrooms": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        }
+      }
+    }
   }
 }

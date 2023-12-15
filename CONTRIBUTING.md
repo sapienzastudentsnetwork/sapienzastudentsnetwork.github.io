@@ -15,7 +15,7 @@ Per aprire il sito in locale e testare il codice, bisogna eseguire i comandi di 
 
 ```bash
 npm install # Solo la prima volta
-npm run dev # Ogni volta che lavori sul progetto
+sudo npm run dev # Ogni volta che lavori sul progetto
 ```
 
 Per interrompere l'esecuzione, basta premere `Ctrl+C` nel terminale, e [terminare il container Docker](https://docs.docker.com/engine/reference/commandline/stop/).

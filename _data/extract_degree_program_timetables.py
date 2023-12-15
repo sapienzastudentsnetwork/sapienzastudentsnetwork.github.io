@@ -297,6 +297,7 @@ for table_index, table in enumerate(table_elements):
                 # Extract the classroom ID from the URL in the 'a' element in column 1
                 classroomId = columns[1].find('a').get('href').replace("#aula_", "")
 
+                teaching_schedules_dict[teachingCode]["code"] = teachingCode
                 if teachingCode not in teaching_schedules_dict:
                     teaching_schedules_dict[teachingCode] = {
                         "degree": degreeProgramCode,

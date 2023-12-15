@@ -124,8 +124,14 @@ summary {
 }
 
 table {
-    @apply !overflow-x-auto;
+    @apply w-full;
 }
+
+/* tr { */
+/*     @apply overflow-x-auto; */
+/* } */
+
+
 
 /* , 'pink', 'indigo', 'gray' */
 
