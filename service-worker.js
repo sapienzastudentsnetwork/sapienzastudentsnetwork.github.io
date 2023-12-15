@@ -1,3 +1,5 @@
+self.addEventListener('fetch', () => { });
+
 // TODO: strategy
 // - get from cache 
 // - if has internet, update current cache (except for icons)
