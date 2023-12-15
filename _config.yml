@@ -3,7 +3,8 @@ exclude:
 encoding: UTF-8
 markdown: kramdown # GMF
 include:
-  - assets
+  - _pages
+  - _assets
 plugins:
   - jemoji
   - jekyll-last-modified-at

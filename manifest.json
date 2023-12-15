@@ -6,49 +6,49 @@
     "related_applications": [],
     "icons": [
         {
-            "src": "assets/icon-48.png",
+            "src": "_assets/icon-48.png",
             "type": "image/png",
             "sizes": "48x48",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-72.png",
+            "src": "_assets/icon-72.png",
             "type": "image/png",
             "sizes": "72x72",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-96.png",
+            "src": "_assets/icon-96.png",
             "type": "image/png",
             "sizes": "96x96",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-144.png",
+            "src": "_assets/icon-144.png",
             "type": "image/png",
             "sizes": "144x144",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-168.png",
+            "src": "_assets/icon-168.png",
             "type": "image/png",
             "sizes": "168x168",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-192.png",
+            "src": "_assets/icon-192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-192.png",
+            "src": "_assets/icon-192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src": "assets/icon-512.png",
+            "src": "_assets/icon-512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any maskable"

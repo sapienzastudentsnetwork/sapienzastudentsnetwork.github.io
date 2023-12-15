@@ -1,4 +1,3 @@
-
 # Home
 
 Vuoi iscriverti ad Informatica a Sapienza, hai tante domande, ma non sai dove cercare? Sei approdato nel posto giusto!
