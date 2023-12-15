@@ -34,9 +34,9 @@ Gli studenti immatricolati nell'anno accademico **2020/21** o in anni accademici
 
 ### Come compilare il proprio percorso formativo
 
-> Tutte le informazioni relative alla compilazione dei percorsi formativi, anche riferiti nel SIAD e nei nostri manifesti come 'Piani di Completamento', possono essere reperite nei seguenti manuali relativi alle due diverse interfacce di sistema: [manuale Studenti - SIAD - Percorsi Formativi Versione 1.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/didattica/Manuale_Percorsi_Formativi_Lato%20Studente_2011_11_11.pdf), [manuale Studenti - SIAD - Percorsi Formativi Versione 2.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/Manuale_Percorsi_Formativi_Guida_Informatica_SapienzaV2.pdf)
+> La presentazione di un percorso formativo avviene online tramite il sistema Infostud seguendo la procedura descritta nel [Manuale Studenti – SIAD – Percorsi formativi](https://drive.google.com/file/d/10vPLZKxIqgS1a4SItdhS6lj8OmdRfeIC/view?usp=sharing)
 
-> Qualora lo studente prescelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del nostro Corso di Laurea, otterranno l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: 'Il percorso formativo proposto è corretto e può essere approvato automaticamente'.
+> Qualora lo studente prescelga un Percorso Formativo Curriculare (PFC) e tra gli “Insegnamenti a scelta dello studente” indichi due insegnamenti inclusi nel Manifesto del nostro Corso di Laurea, otterrà l’approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: ‘Il percorso formativo proposto è corretto e può essere approvato automaticamente’.
 
 In tutti gli altri casi è prevista la verifica del percorso formativo da parte di un [docente incaricato della validazione](#commissione-competente).
 
