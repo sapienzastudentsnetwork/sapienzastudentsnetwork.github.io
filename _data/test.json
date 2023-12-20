@@ -1,0 +1,658 @@
+[
+  {
+    "year": "Primo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "course": "101226",
+            "subject": "101226 CALCOLO DIFFERENZIALE",
+            "building": "Edificio: CU032",
+            "room": "aula I",
+            "teacher": "GARRONI ADRIANA",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "STERBINI ANDREA",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: CU032",
+            "room": "aula I",
+            "teacher": "STERBINI ANDREA",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 15",
+            "teacher": "STERBINI ANDREA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 17",
+            "teacher": "STERBINI ANDREA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1020420",
+            "subject": "1020420 METODI MATEMATICI PER L'INFORMATICA",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "CARLUCCI LORENZO",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ]
+          },
+          {
+            "course": "1020420",
+            "subject": "1020420 METODI MATEMATICI PER L'INFORMATICA",
+            "building": "Edificio: RM112",
+            "room": "AULA 101",
+            "teacher": "CARLUCCI LORENZO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "1015880",
+            "subject": "1015880 PROGETTAZIONE DI SISTEMI DIGITALI",
+            "building": "Edificio: RM112",
+            "room": "AULA 101",
+            "teacher": "PONTARELLI SALVATORE",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "course": "101226",
+            "subject": "101226 CALCOLO DIFFERENZIALE",
+            "building": "Edificio: CU006",
+            "room": "Aula III",
+            "teacher": "ORSINA LUIGI",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: CU006",
+            "room": "Aula III",
+            "teacher": "MASI IACOPO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 15",
+            "teacher": "MASI IACOPO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1015883",
+            "subject": "1015883 FONDAMENTI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 17",
+            "teacher": "MASI IACOPO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1020420",
+            "subject": "1020420 METODI MATEMATICI PER L'INFORMATICA",
+            "building": "Edificio: CU006",
+            "room": "Aula III",
+            "teacher": "PIPERNO ADOLFO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ]
+          },
+          {
+            "course": "1015880",
+            "subject": "1015880 PROGETTAZIONE DI SISTEMI DIGITALI",
+            "building": "Edificio: CU006",
+            "room": "Aula III",
+            "teacher": "MASSINI ANNALISA",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "Secondo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "course": "1015886",
+            "subject": "1015886 ALGEBRA",
+            "building": "Edificio: CU032",
+            "room": "Aula III",
+            "teacher": "PIAZZA PAOLO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          {
+            "course": "1015887",
+            "subject": "1015887 BASI DI DATI  I MODULO",
+            "building": "Edificio: CU032",
+            "room": "Aula III",
+            "teacher": "PERELLI GIUSEPPE",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          {
+            "course": "1020421",
+            "subject": "1020421 CALCOLO DELLE PROBABILITA'",
+            "building": "Edificio: CU032",
+            "room": "Aula III",
+            "teacher": "BERTINI MALGARINI LORENZO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1020422",
+            "subject": "1020422 SISTEMI OPERATIVI  I MODULO",
+            "building": "Edificio: CU032",
+            "room": "Aula III",
+            "teacher": "TOLOMEI GABRIELE",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "course": "1015886",
+            "subject": "1015886 ALGEBRA",
+            "building": "Edificio: CU006",
+            "room": "Aula I",
+            "teacher": "PELLARIN FEDERICO",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ]
+          },
+          {
+            "course": "1015886",
+            "subject": "1015886 ALGEBRA",
+            "building": "Edificio: CU005",
+            "room": "Aula Ponzi I",
+            "teacher": "PELLARIN FEDERICO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "1015887",
+            "subject": "1015887 BASI DI DATI  I MODULO",
+            "building": "Edificio: RM112",
+            "room": "AULA 201",
+            "teacher": "DE MARSICO MARIA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "1015887",
+            "subject": "1015887 BASI DI DATI  I MODULO",
+            "building": "Edificio: CU006",
+            "room": "Aula I",
+            "teacher": "DE MARSICO MARIA",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "1020421",
+            "subject": "1020421 CALCOLO DELLE PROBABILITA'",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "TAGGI LORENZO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          {
+            "course": "1020421",
+            "subject": "1020421 CALCOLO DELLE PROBABILITA'",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "TAGGI LORENZO",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ]
+          },
+          {
+            "course": "1020421",
+            "subject": "1020421 CALCOLO DELLE PROBABILITA'",
+            "building": "Edificio: CU006",
+            "room": "Aula I",
+            "teacher": "TAGGI LORENZO",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1020422",
+            "subject": "1020422 SISTEMI OPERATIVI  I MODULO",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "DE GASPARI FABIO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "Terzo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "course": "1041727",
+            "subject": "1041727 AUTOMI CALCOLABILITA' E COMPLESSITA'",
+            "building": "Edificio: CU006",
+            "room": "Aula IV",
+            "teacher": "VENTURI DANIELE",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          },
+          {
+            "course": "97597",
+            "subject": "97597 FISICA",
+            "building": "Edificio: RM115",
+            "room": "Aula G0",
+            "teacher": "GERMANO MASSIMO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "1022301",
+            "subject": "1022301 INGEGNERIA DEL SOFTWARE",
+            "building": "Edificio: RM018",
+            "room": "Aula 3",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "1022301",
+            "subject": "1022301 INGEGNERIA DEL SOFTWARE",
+            "building": "Edificio: CU032",
+            "room": "aula I",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1022263",
+            "subject": "1022263 INTERAZIONE UOMO MACCHINA",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "MANCINI MAURIZIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          },
+          {
+            "course": "1022263",
+            "subject": "1022263 INTERAZIONE UOMO MACCHINA",
+            "building": "Edificio: RM018",
+            "room": "Aula 3",
+            "teacher": "MANCINI MAURIZIO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "1022264",
+            "subject": "1022264 LINGUAGGI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "CENCIARELLI PIETRO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ]
+          },
+          {
+            "course": "1022264",
+            "subject": "1022264 LINGUAGGI DI PROGRAMMAZIONE",
+            "building": "Edificio: RM111",
+            "room": "Aula Magna",
+            "teacher": "CENCIARELLI PIETRO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "10596283",
+            "subject": "10596283 ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "10596283",
+            "subject": "10596283 ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "building": "Edificio: RM111",
+            "room": "Aula Magna",
+            "teacher": "",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ]
+          },
+          {
+            "course": "10593235",
+            "subject": "10593235 PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "PONTARELLI SALVATORE",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ]
+          },
+          {
+            "course": "10593235",
+            "subject": "10593235 PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+            "building": "Edificio: RM113",
+            "room": "Aula T1 ",
+            "teacher": "PONTARELLI SALVATORE",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          },
+          {
+            "course": "1022267",
+            "subject": "1022267 PROGRAMMAZIONE PER IL WEB",
+            "building": "Edificio: CU006",
+            "room": "Aula IV",
+            "teacher": "PANIZZI EMANUELE",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

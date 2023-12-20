@@ -6,6 +6,8 @@ rm schedules.json
 declare -a degree_program_codes=("29923" "30786")
 declare -a suffixes=("" "-acsai")
 
+export TARGET="debug" # It's "release" for poduction code
+
 for ((i=0; i<${#degree_program_codes[@]}; i++)); do
     export DEGREEPROGRAMCODE="${degree_program_codes[i]}"
     export SUFFIX="${suffixes[i]}"

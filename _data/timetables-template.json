@@ -1,0 +1,26 @@
+[
+    {
+        "year": "Primo anno - primo semestre",
+        "channels": [
+            {
+                "channel": "Canale 1",
+                "timetable": [
+                    {
+                        "course": "101226",
+                        "subject": "calcolo differenziale",
+                        "teacher": "Orsina Luigi",
+                        "building": "CU006",
+                        "room": "Aula III",
+                        "schedule": [
+                            {
+                                "day": "lunedì",
+                                "from": "13:00",
+                                "to": "16:00",
+                            }
+                        ]
+                    } 
+                ]
+            }
+        ] 
+    }
+]
