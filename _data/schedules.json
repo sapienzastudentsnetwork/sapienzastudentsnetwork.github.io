@@ -16,14 +16,14 @@
           "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
           "hours": "13 - 16",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         },
         "friday": {
           "teacherId": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
           "hours": "13 - 15",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
@@ -62,7 +62,7 @@
           "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
           "hours": "16 - 18",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         },
         "wednesday": {
@@ -77,7 +77,7 @@
           "teacherId": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
           "hours": "15 - 18",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
@@ -108,14 +108,14 @@
           "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
           "hours": "13 - 16",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         },
         "thursday": {
           "teacherId": "aed597cc-a9b6-4800-ad4d-34e794018592",
           "hours": "13 - 15",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
@@ -139,14 +139,14 @@
           "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
           "hours": "16 - 18",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         },
         "friday": {
           "teacherId": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
           "hours": "15 - 18",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula III (Edificio: CU006)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
@@ -198,7 +198,7 @@
           "teacherId": "d2d55785-da72-49d5-a091-fb5c72884201",
           "hours": "13 - 15",
           "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
           }
         }
       }
@@ -229,7 +229,7 @@
           "teacherId": "58c84b39-9448-4ec2-8d83-e89268086aef",
           "hours": "15 - 18",
           "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
           }
         },
         "wednesday": {
@@ -288,7 +288,7 @@
           "teacherId": "2e12b106-1350-4035-be32-b889dd46d6ec",
           "hours": "17 - 19",
           "classrooms": {
-            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula I (Edificio: CU006)"
+            "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
           }
         }
       }

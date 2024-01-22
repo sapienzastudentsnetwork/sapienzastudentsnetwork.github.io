@@ -39,16 +39,6 @@
     "address": "PIAZZALE Aldo Moro, 5",
     "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(aula+I)&iwloc=A&hl=it"
   },
-  "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": {
-    "description": "Aula I - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
-    "address": "PIAZZALE Aldo Moro, 2",
-    "mapsUrl": "https://maps.google.com/maps?q=41.901626,+12.515186+(Aula+I)&iwloc=A&hl=it"
-  },
-  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
-    "description": "Aula III - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
-    "address": "PIAZZALE Aldo Moro, 2",
-    "mapsUrl": "https://maps.google.com/maps?q=41.901626,+12.515186+(Aula+III)&iwloc=A&hl=it"
-  },
   "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": {
     "description": "Aula III - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
     "address": "PIAZZALE Aldo Moro, 5",
@@ -82,6 +72,16 @@
   "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
     "description": "Aula T1 - Regina Elena - Edificio E",
     "address": "VIALE Regina Elena, 295",
+    "mapsUrl": null
+  },
+  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
+    "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
+    "address": null,
+    "mapsUrl": null
+  },
+  "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": {
+    "description": "Aula Vito Volterra - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
+    "address": null,
     "mapsUrl": null
   },
   "deffa19a-65db-4abe-be55-4178b791dc1b": {
