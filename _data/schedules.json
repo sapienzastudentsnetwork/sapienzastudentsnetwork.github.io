@@ -321,6 +321,13 @@
           "classrooms": {
             "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
           }
+        },
+        "friday": {
+          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "hours": "10 - 13",
+          "classrooms": {
+            "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+          }
         }
       }
     },
