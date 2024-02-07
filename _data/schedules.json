@@ -513,9 +513,16 @@
     "degree": "29923",
     "channels": {
       "0": {
+        "monday": {
+          "teacherId": "57f392fe-2884-449b-8935-d209a2f0700b",
+          "hours": "08 - 10",
+          "classrooms": {
+            "42858a5b-be57-4ab4-8479-444629b791b2": "Aula 1B (Edificio: RM002)"
+          }
+        },
         "thursday": {
           "teacherId": "57f392fe-2884-449b-8935-d209a2f0700b",
-          "hours": "08 - 13",
+          "hours": "08 - 10",
           "classrooms": {
             "42858a5b-be57-4ab4-8479-444629b791b2": "Aula 1B (Edificio: RM002)"
           }
