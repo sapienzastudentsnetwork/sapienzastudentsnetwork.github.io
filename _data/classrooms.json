@@ -93,5 +93,10 @@
     "description": "Aula informatica 16 ",
     "address": "VIA Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
+  },
+  "3204f38e-7393-4457-a108-c048458d026a": {
+    "description": "Aula S1 - Regina Elena - Edificio E",
+    "address": "VIALE Regina Elena, 295",
+    "mapsUrl": null
   }
 }
