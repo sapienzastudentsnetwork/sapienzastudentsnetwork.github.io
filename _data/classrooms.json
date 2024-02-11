@@ -48,5 +48,10 @@
     "description": "Aula S1 - Regina Elena - Edificio E",
     "address": "VIALE Regina Elena, 295",
     "mapsUrl": null
+  },
+  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
+    "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
+    "address": null,
+    "mapsUrl": null
   }
 }
