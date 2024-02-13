@@ -60,10 +60,10 @@
         "tgGroup": "https://t.me/+798mXLThj_JmYTBk"
     },
     "1015887": {
-        "name": "Basi di Dati I",
-        "shortName": "Basi di Dati 1",
-        "abbr": "BD1",
-        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk"
+        "name": "Basi di Dati",
+        "shortName": "Basi di Dati",
+        "abbr": "BD",
+        "tgGroup": "https://t.me/+xTuUWRfneSwwMjBk"
     },
     "1020421": {
         "name": "Calcolo delle Probabilit\u00e0",
@@ -72,10 +72,10 @@
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk"
     },
     "1020422": {
-        "name": "Sistemi Operativi I",
-        "shortName": "Sist. Op. 1",
-        "abbr": "SO1",
-        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk"
+        "name": "Sistemi Operativi",
+        "shortName": "Sist. Op.",
+        "abbr": "SO",
+        "tgGroup": "https://t.me/+PzNOzkmwVio4Nzg0"
     },
     "1015888": {
         "name": "Progettazione di Algoritmi",
@@ -131,6 +131,18 @@
         "abbr": "LDP",
         "tgGroup": "https://t.me/+YNWScBhdFWE1NWNk"
     },
+    "1041761": {
+        "name": "Linguaggi e Compilatori",
+        "shortName": "Ling. e Comp.",
+        "abbr": "LEC",
+        "tgGroup": "https://t.me/+EOvDZsXSLI0zZGRk"
+    },
+    "1021828": {
+        "name": "Matematica Discreta",
+        "shortName": "Matematica Discreta",
+        "abbr": "DIS",
+        "tgGroup": "https://t.me/+x5k6q2yrsztlOWVk"
+    },
     "10593234": {
         "name": "Metodi Numerici dell'Informatica",
         "shortName": "Metodi Numerici",
@@ -147,13 +159,7 @@
         "name": "Organizzazione e Gestione per lo Start-Up Aziendale",
         "shortName": "Org. e Gest. Az.",
         "abbr": "OGA",
-        "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
-        "alerts": {
-            "0": [
-                "⏰ Le lezioni si svolgeranno:",
-                "• Venerdì in orario 8:00 - 11:00 e 16:00 - 19:45 in Aula G50 RM115-E01P03L001 nei giorni 1/12, 15/12, 22/12"
-            ]
-        }
+        "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8"
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",

@@ -19,6 +19,9 @@ import json
 # ▒█▄▄▄█ ▒█▄▄█ ▒█░▒█ ▒█░▒█ ▒█░░░ ▒█▄▄▄ 　 ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█░▒█
 #
 
+# Semester to scrape timetables and classrooms for
+semester = os.getenv("SEMESTER")
+
 # Degree program to scrape timetables and classrooms for
 degreeProgramCode = os.getenv("DEGREEPROGRAMCODE", "")
 
@@ -143,17 +146,30 @@ year_and_channel_indexes = []
 
 count = 0
 
+table_index = 0
+
 for h2_tag in h2_tags:
+    h2_tag_text = h2_tag.text
+
     h3_tags = h2_tag.find_next_siblings('h3')
 
     h3_texts = [
         h3.text.split()[-1] if h3.text.split()[-1] != "Unico" else '0' for h3 in h3_tags
     ]
 
-    for h3_text in h3_texts:
-        year_and_channel_indexes.append((str(count), str(h3_text)))
+    if "semestre" not in h2_tag_text or f"{semester} semestre" in h2_tag_text:
+        for h3_text in h3_texts:
+            year_and_channel_indexes.append((str(count), str(h3_text)))
 
-    count += 1
+            table_index += 1
+
+        count += 1
+
+    else:
+        for h3_text in h3_texts:
+            del table_elements[table_index]
+
+            number_of_timetables -= 1
 
 # Dictionary to store class timetables
 timetables_dict = {}
@@ -239,7 +255,7 @@ for table_index, table in enumerate(table_elements):
                 timetables_dict[year_index][channel]["timetable"][day_name].append({
                     "startTime": int(startTime),
                     "endTime": int(endTime),
-                    "code": int(teachingCode)
+                    "code": teachingCode
                 })
 
                 teacherName    = None

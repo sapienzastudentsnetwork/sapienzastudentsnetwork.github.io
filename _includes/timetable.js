@@ -27,19 +27,21 @@ function fillTimetable(tableId, coursesCodes, channel) {
     for (const course of coursesCodes) {
         const [courseCode, _channel] = course.toString().split('-');
 
-        const days = SCHEDULES[courseCode]['channels'][_channel || channel] || [];
-        for (let [day, { hours }] of Object.entries(days)) {
-            if (!Array.isArray(hours))
-                hours = [hours]
+        if (SCHEDULES.hasOwnProperty(courseCode)) {
+            const days = SCHEDULES[courseCode]['channels'][_channel || channel] || [];
+            for (let [day, {hours}] of Object.entries(days)) {
+                if (!Array.isArray(hours))
+                    hours = [hours]
 
-            for (const time of hours) {
-                const [startTime, endTime] = time.split('-').map(time => parseInt(time))
-                const alerts = COURSES[courseCode].alerts;
+                for (const time of hours) {
+                    const [startTime, endTime] = time.split('-').map(time => parseInt(time))
+                    const alerts = COURSES[courseCode] ? COURSES[courseCode].alerts : [];
 
-                schedule[day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] });
+                    schedule[day].push({courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel]});
 
-                classesStartTime = Math.min(classesStartTime, startTime) || startTime;
-                classesEndTime = Math.max(classesEndTime, endTime) || endTime;
+                    classesStartTime = Math.min(classesStartTime, startTime) || startTime;
+                    classesEndTime = Math.max(classesEndTime, endTime) || endTime;
+                }
             }
         }
     }

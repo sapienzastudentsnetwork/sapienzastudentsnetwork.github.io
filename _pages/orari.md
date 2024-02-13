@@ -4,44 +4,46 @@ layout: schedule
 permalink: orari
 degree: 29923
 timetables:
-    - title: Primo Anno A-F 
+    - title: Primo Anno A-L 
       channel: 1
       courses: 
-        - 101226
-        - 1015883
-        - 1020420
-        - 1015880
-    - title: Primo Anno G-Z
+        - 1015881
+        - 97796
+        - 1015885
+        - 1015884
+        - AAF1101
+    - title: Primo Anno M-Z
       channel: 2
-      courses: 
-        - 101226
-        - 1015883
-        - 1020420
-        - 1015880
+      courses:
+        - 1015881
+        - 97796
+        - 1015885
+        - 1015884
+        - AAF1101
     - title: Secondo Anno A-L 
       channel: 1
       courses: 
-        - 1020421 
-        - 1015886
-        - 1020422
         - 1015887
+        - 1015888
+        - 1015889
+        - 1020422
     - title: Secondo Anno M-Z
       channel: 2
-      courses: 
-        - 1020421 
-        - 1015886
-        - 1020422
+      courses:
         - 1015887
+        - 1015888
+        - 1015889
+        - 1020422
     - title: Terzo Anno
       courses:
-        - 1022264
-        - 1022263
-        - 1022301
-        - 97597
-        - 10593235
-        - 1022267
-        - 10596283
-        - 1041727
+        - 1031337
+        - 1022262
+        - 1041761
+        - 1021828
+        - 1022265
+        - 1022268
+        - 10589652
+        - 10600494
 ---
 
 # Orari

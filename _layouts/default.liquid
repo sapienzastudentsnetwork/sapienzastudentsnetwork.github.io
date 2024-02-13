@@ -72,7 +72,9 @@
             crossorigin="anonymous"
         ></script>
         <script>
-            anchors.add();
+            if (typeof anchors !== 'undefined') {
+                anchors.add();
+            }
         </script>
     </body>
 </html>
