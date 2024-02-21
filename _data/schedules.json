@@ -238,13 +238,6 @@
             "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
           }
         },
-        "wednesday": {
-          "teacherId": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-          "hours": "14 - 16",
-          "classrooms": {
-            "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-          }
-        },
         "thursday": {
           "teacherId": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
           "hours": "17 - 19",
@@ -445,7 +438,7 @@
             "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
           }
         },
-        "thursday": {
+        "wednesday": {
           "teacherId": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
           "hours": "08 - 10",
           "classrooms": {
@@ -465,13 +458,6 @@
           "hours": "11 - 13",
           "classrooms": {
             "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "thursday": {
-          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
-          "hours": "10 - 13",
-          "classrooms": {
-            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
           }
         }
       }
@@ -526,13 +512,6 @@
     "degree": "30786",
     "channels": {
       "0": {
-        "wednesday": {
-          "teacherId": "82bb2c63-2204-467b-87e3-f86046d91a26",
-          "hours": "11 - 14",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-          }
-        },
         "friday": {
           "teacherId": "82bb2c63-2204-467b-87e3-f86046d91a26",
           "hours": "11 - 13",
@@ -575,13 +554,6 @@
           "hours": "12 - 14",
           "classrooms": {
             "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-          }
-        },
-        "wednesday": {
-          "teacherId": "b74754c9-9029-4830-8118-952c1851c0a4",
-          "hours": "08 - 11",
-          "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
@@ -705,39 +677,10 @@
     },
     "code": "10595617"
   },
-  "1055043": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "teacherId": "2265b44e-67f0-4e4d-bfdb-6c2a49a13b05",
-          "hours": "17 - 19",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        },
-        "tuesday": {
-          "teacherId": "2265b44e-67f0-4e4d-bfdb-6c2a49a13b05",
-          "hours": "16 - 19",
-          "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-          }
-        }
-      }
-    },
-    "code": "1055043"
-  },
   "10595535": {
     "degree": "30786",
     "channels": {
       "0": {
-        "thursday": {
-          "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-          "hours": "11 - 13",
-          "classrooms": {
-            "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-          }
-        },
         "friday": {
           "teacherId": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
           "hours": "10 - 13",
