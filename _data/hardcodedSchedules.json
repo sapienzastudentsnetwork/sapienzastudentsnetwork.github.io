@@ -1,2 +1,22 @@
 {
+  "1022268": {
+    "degree": "29923",
+    "channels": {
+      "0": {
+        "wednesday": {
+          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "hours": "11 - 13",
+          "classroomInfo": "Aula Magna (Edificio: RM111)",
+          "classroomUrl": "https://www.google.com/maps/place/Aula+Magna+-+Regina+Elena+(RM111)/@41.9050899,12.5170303,20z/data=!4m6!3m5!1s0x132f6158464ed089:0x5e16da263d18f1c3!8m2!3d41.9050829!4d12.5171251!16s%2Fg%2F11gtz667lw"
+        },
+        "thursday": {
+          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "hours": "10 - 13",
+          "classroomInfo": "Aula Magna (Edificio: RM111)",
+          "classroomUrl": "https://www.google.com/maps/place/Aula+Magna+-+Regina+Elena+(RM111)/@41.9050899,12.5170303,20z/data=!4m6!3m5!1s0x132f6158464ed089:0x5e16da263d18f1c3!8m2!3d41.9050829!4d12.5171251!16s%2Fg%2F11gtz667lw"
+        }
+      }
+    },
+    "code": "1022268"
+  }
 }
