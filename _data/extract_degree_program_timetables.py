@@ -355,6 +355,10 @@ for table_index, table in enumerate(table_elements):
 
 sort_days_order = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
+# Hard-code the alignment of Basi di Dati II's Channel 2 class schedules with those of Channel 1 for the A.Y. 2023-2024
+if "1015887" in teaching_schedules_dict and "2" not in teaching_schedules_dict["1015887"]["channels"]:
+    teaching_schedules_dict["1015887"]["channels"]["2"] = teaching_schedules_dict["1015887"]["channels"]["1"]
+
 # Refine "teaching_schedules_dict" dictionary
 for teaching_code, teaching_code_data in teaching_schedules_dict.items():
     sorted_channels = {}
@@ -368,9 +372,9 @@ for teaching_code, teaching_code_data in teaching_schedules_dict.items():
 # Refine "timetables_dict" dictionary
 if "29923" in url:
     if '0' in timetables_dict and '1' in timetables_dict['0']:
-        timetables_dict['0']['1']["title"] = "Primo Anno A-F"
+        timetables_dict['0']['1']["title"] = "Primo Anno A-L"
     if '0' in timetables_dict and '2' in timetables_dict['0']:
-        timetables_dict['0']['2']["title"] = "Primo Anno G-Z"
+        timetables_dict['0']['2']["title"] = "Primo Anno M-Z"
     if '1' in timetables_dict and '1' in timetables_dict['1']:
         timetables_dict['1']['1']["title"] = "Secondo Anno A-L"
     if '1' in timetables_dict and '2' in timetables_dict['1']:
