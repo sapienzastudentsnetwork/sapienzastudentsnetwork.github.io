@@ -38,7 +38,7 @@
     "1015885": {
         "name": "Introduzione agli Algoritmi",
         "shortName": "Intro. Algo",
-        "abbr": "ALGO",
+        "abbr": "ALG",
         "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0"
     },
     "1015884": {
@@ -80,7 +80,7 @@
     "1015888": {
         "name": "Progettazione di Algoritmi",
         "shortName": "Prog. Algo",
-        "abbr": "ALGO",
+        "abbr": "ALG",
         "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk"
     },
     "1015889": {
@@ -239,7 +239,7 @@
     "10595617": {
         "name": "Data Management and Analysis",
         "shortName": "Data Man. & Analy.",
-        "abbr": ""
+        "abbr": "DMA"
     },
     "10595525": {
         "name": "Probability",
