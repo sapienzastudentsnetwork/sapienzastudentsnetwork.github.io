@@ -38,7 +38,7 @@
     "1015885": {
         "name": "Introduzione agli Algoritmi",
         "shortName": "Intro. Algo",
-        "abbr": "IA",
+        "abbr": "ALGO",
         "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0"
     },
     "1015884": {
@@ -80,7 +80,7 @@
     "1015888": {
         "name": "Progettazione di Algoritmi",
         "shortName": "Prog. Algo",
-        "abbr": "PA",
+        "abbr": "ALGO",
         "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk"
     },
     "1015889": {
@@ -209,7 +209,7 @@
     "10595524": {
         "name": "Linear Algebra",
         "shortName": "Algebra",
-        "abbr": "LA"
+        "abbr": "ALG"
     },
     "10595102": {
         "name": "Programming",

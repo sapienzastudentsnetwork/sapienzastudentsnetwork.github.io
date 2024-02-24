@@ -19,6 +19,9 @@ timetables:
         - 1055043
     - title: Terzo Anno
       courses:
+        - 10595533
+        - 10595535
+        - 10595536
         - 10595537
 ---
 

@@ -538,6 +538,28 @@
     },
     "code": "10600494"
   },
+  "10595533": {
+    "degree": "29923",
+    "channels": {
+      "0": {
+        "tuesday": {
+          "teacherId": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+          "hours": "14 - 17",
+          "classrooms": {
+            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+          }
+        },
+        "wednesday": {
+          "teacherId": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+          "hours": "08 - 10",
+          "classrooms": {
+            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+          }
+        }
+      }
+    },
+    "code": "1022265"
+  },
   "1049269": {
     "degree": "30786",
     "channels": {
