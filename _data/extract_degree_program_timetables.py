@@ -355,6 +355,122 @@ for table_index, table in enumerate(table_elements):
 
 sort_days_order = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
+# ACSAI's Business and Computer Science (10595536) class schedules
+
+currentDate = datetime.now()
+
+if currentDate >= datetime(2024, 5, 4):
+    # Lunedì 6 maggio, Martedì 7 maggio
+
+    bcs_schedules = {
+        "monday": {
+            "hours": "9 - 12"
+        },
+        "tuesday": {
+            "hours": ["10 - 13", "14 - 17"]
+        }
+    }
+
+elif currentDate >= datetime(2024, 4, 27):
+    # Lunedì 29 aprile
+
+    bcs_schedules = {
+        "monday": {
+            "hours": ["10 - 13", "14 - 17"]
+        }
+    }
+
+elif currentDate >= datetime(2024, 4, 14):
+    # Nessuna lezione
+
+    bcs_schedules = None
+
+elif currentDate >= datetime(2024, 4, 6):
+    # Lunedì 8 aprile
+
+    bcs_schedules = {
+        "monday": {
+            "hours": "9 - 12"
+        }
+    }
+
+elif currentDate >= datetime(2024, 3, 30):
+    # Martedì 2 aprile, Mercoledì 3 aprile, Giovedì 4 aprile, Venerdì 5 aprile
+
+    bcs_schedules = {
+        "tuesday" : {
+            "hours": ["10 - 13", "14 - 17"]
+        },
+        "wednesday": {
+            "hours": ["10 - 13", "14 - 17"]
+        },
+        "thursday": {
+            "hours": ["10 - 13", "14 - 17"]
+        },
+        "friday": {
+            "hours": ["10 - 13", "14 - 17"]
+        }
+    }
+
+elif currentDate >= datetime(2024, 3, 23):
+    # Giovedì 28 marzo, Venerdì 29 marzo
+
+    bcs_schedules = {
+        "thursday": {
+            "hours": "9 - 12"
+        },
+        "friday": {
+            "hours": ["10 - 13", "14 - 17"]
+        }
+    }
+
+elif currentDate >= datetime(2024, 3, 16):
+    # Lunedì 18 marzo
+
+    bcs_schedules = {
+        "monday": {
+            "hours": ["10 - 13", "14 - 17"]
+        }
+    }
+
+elif currentDate >= datetime(2024, 3, 9):
+    # Nessuna lezione
+
+    bcs_schedules = None
+
+elif currentDate >= datetime(2024, 3, 2):
+    # Lunedì 4 marzo, Martedì 5 marzo
+
+    bcs_schedules = {
+        "monday": {
+            "hours": ["10 - 13", "14 - 17"]
+        },
+        "tuesday": {
+            "hours": "9 - 12"
+        }
+    }
+
+else:
+   # Nessuna lezione
+
+   bcs_schedules = None
+
+if bcs_schedules is not None:
+    for key in bcs_schedules.keys():
+        bcs_schedules[key]["teacherId"] = "9ea70dc6-a3d6-447d-addf-592abe8ad7e7"
+        bcs_schedules[key]["classroomInfo"] = "Aula G0 (Edificio: RM115)"
+        bcs_schedules[key]["classroomUrl"] = "https://www.google.com/maps/place/Dipartimento+di+informatica,+(RM115,+Edificio+G)+Sapienza/@41.9049935,12.5172091,21z/data=!4m6!3m5!1s0x132f6177ef3e5ee7:0xd818bf54824a3a05!8m2!3d41.9049692!4d12.517376!16s%2Fg%2F11g65dwyqz"
+
+    teaching_schedules_dict["10595536"] = {
+      "degree": "30786",
+      "channels": {
+        "0": bcs_schedules
+      },
+      "code": "10595536"
+    }
+elif "10595536" in teaching_schedules_dict:
+    teaching_schedules_dict.pop("10595536")
+
 # Hard-code the alignment of ACSAI "Optimization"'s class schedules with those of "Modelli e Ottimizzazione" for the A.Y. 2023-2024
 if "1022265" in teaching_schedules_dict and "10595533" not in teaching_schedules_dict:
     teaching_schedules_dict["10595533"] = teaching_schedules_dict["1022265"]

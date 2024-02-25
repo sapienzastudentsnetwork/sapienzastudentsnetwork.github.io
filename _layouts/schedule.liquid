@@ -16,7 +16,7 @@ layout: default
 
     {{ content }}
 
-    {% assign days = 'Lunedì, Martedì, Mercoledì, Giovedì, Venerdì' | split: ', ' %}
+    {% assign days = page.days | split: ', ' %}
 
     {% for timetable in page.timetables %}
         <div id="{{ timetable.title | slugify }}" class="channel-{{ timetable.channel }}">
@@ -24,7 +24,13 @@ layout: default
             <table>
                 <thead>
                     <tr>
-                        <th scope="col" class="font-light">Orario</th>
+                        <th scope="col" class="font-light">
+                            {% if page.url contains "acsai" %}
+                                Hours
+                            {% else %}
+                                Orario
+                            {% endif %}
+                        </th>
                         {% for day in days %}
                             <th class="hidden sm:table-cell" scope="col">{{ day }}</th>
                             <th class="table-cell sm:hidden" scope="col">{{ day | slice: 0 }}</th>
@@ -47,7 +53,13 @@ layout: default
         </script>
     {% endfor %}
 
-    <h2>Orari per insegnamento</h2>
+    <h2>
+        {% if page.url contains "acsai" %}
+            Timetables by teaching
+        {% else %}
+            Orari per insegnamento
+        {% endif %}
+    </h2>
 
     {% assign courses = site.data.schedules | where: 'degree', page.degree %}
     {% for course in courses %}
@@ -55,8 +67,13 @@ layout: default
 
         {% assign telegram_group = site.data.courses[course.code].tgGroup %}
         {% if telegram_group %}
-            ℹ️️ Unisciti al <a href="{{ telegram_group }}">gruppo Telegram</a> dedicato per essere sempre aggiornato su
-            eventuali cambiamenti d'orario, risorse ed info del corso
+            {% if page.url contains "acsai" %}
+                ℹ️️ Join the dedicated <a href="{{ telegram_group }}">Telegram group</a> to keep up to date on any schedule
+                changes, resources and course info
+            {% else %}
+                ℹ️️ Unisciti al <a href="{{ telegram_group }}">gruppo Telegram</a> dedicato per essere sempre aggiornato
+                su eventuali cambiamenti d'orario, risorse ed info del corso
+            {% endif %}
         {% endif %}
 
         {% for channel in course.channels %}
@@ -75,10 +92,14 @@ layout: default
             {% assign first_day_info = first_day[1] %}
 
             <h4>
-                {% if channel_id != '0' %}
-                    Canale {{ channel_id }} -
+                {% if page.url contains "acsai" %}
+                    Professor:
                 {% else %}
-                    Canale Unico -
+                    {% if channel_id != '0' %}
+                        Canale {{ channel_id }} -
+                    {% else %}
+                        Canale Unico -
+                    {% endif %}
                 {% endif %}
 
                 {% if site.data.teachers[first_day_info.teacherId] %}
@@ -102,11 +123,19 @@ layout: default
 
             <table>
                 <thead>
-                    <tr>
-                        <th scope="col">Giorno</th>
-                        <th scope="col">Orario</th>
-                        <th scope="col" style="text-align: right">Aula</th>
-                    </tr>
+                    {% if page.url contains "acsai" %}
+                        <tr>
+                            <th scope="col">Day</th>
+                            <th scope="col">Hours:</th>
+                            <th scope="col" style="text-align: right">Classroom</th>
+                        </tr>
+                    {% else %}
+                        <tr>
+                            <th scope="col">Giorno</th>
+                            <th scope="col">Orario</th>
+                            <th scope="col" style="text-align: right">Aula</th>
+                        </tr>
+                    {% endif %}
                 </thead>
                 <tbody>
                     {% for day in days %}
@@ -116,19 +145,47 @@ layout: default
                             <td>
                                 {% case name %}
                                     {% when 'monday' %}
-                                        Lunedì
+                                        {% if page.url contains 'acsai' %}
+                                            Monday
+                                        {% else %}
+                                            Lunedì
+                                        {% endif %}
                                     {% when 'tuesday' %}
-                                        Martedì
+                                        {% if page.url contains 'acsai' %}
+                                            Tuesday
+                                        {% else %}
+                                            Martedì
+                                        {% endif %}
                                     {% when 'wednesday' %}
-                                        Mercoledì
+                                        {% if page.url contains 'acsai' %}
+                                            Wednesday
+                                        {% else %}
+                                            Mercoledì
+                                        {% endif %}
                                     {% when 'thursday' %}
-                                        Giovedì
+                                        {% if page.url contains 'acsai' %}
+                                            Thursday
+                                        {% else %}
+                                            Giovedì
+                                        {% endif %}
                                     {% when 'friday' %}
-                                        Venerdì
+                                        {% if page.url contains 'acsai' %}
+                                            Friday
+                                        {% else %}
+                                            Venerdì
+                                        {% endif %}
                                     {% when 'saturday' %}
-                                        Sabato
+                                        {% if page.url contains 'acsai' %}
+                                            Saturday
+                                        {% else %}
+                                            Sabato
+                                        {% endif %}
                                     {% when 'sunday' %}
-                                        Domenica
+                                        {% if page.url contains 'acsai' %}
+                                            Sunday
+                                        {% else %}
+                                            Domenica
+                                        {% endif %}
                                 {% endcase %}
                             </td>
                             <td>

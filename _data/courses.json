@@ -259,7 +259,8 @@
     "10595610": {
         "name": "AI Lab: Computer Vision and NLP",
         "shortName": "AI Lab",
-        "abbr": "AIL"
+        "abbr": "AIL",
+        "tgGroup": "https://t.me/+wg42G94fUtJlY2Fk"
     },
     "1055043": {
         "name": "Statics",
@@ -285,22 +286,26 @@
     "10595534": {
         "name": "Web and Software Architecture",
         "shortName": "Web. & SW. Arch.",
-        "abbr": "WASA"
+        "abbr": "WASA",
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
     },
     "10595535": {
         "name": "Human Computer Interaction",
         "shortName": "Human Comp. Int.",
-        "abbr": "HCI"
+        "abbr": "HCI",
+        "tgGroup": "https://t.me/+vKK_-l_aqoJjMmQ0"
     },
     "10595533": {
         "name": "Optimization",
         "shortName": "Optimization",
-        "abbr": "OPT"
+        "abbr": "OPT",
+        "tgGroup": "https://t.me/+nx7dseifrswzNGU6"
     },
     "10595536": {
         "name": "Business and Computer Science",
         "shortName": "Business & CS",
-        "abbr": "BCS"
+        "abbr": "BCS",
+        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk"
     },
     "10595537": {
         "name": "Law and Computer Science",
