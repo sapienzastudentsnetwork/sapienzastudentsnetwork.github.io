@@ -260,15 +260,22 @@ layout: default
     addEventListener('DOMContentLoaded', () => {
         for (const subjectId of selectedSubjects) {
             const button = document.getElementById('dialog-' + subjectId);
-            button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
-            button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+
+            if (button != null) {
+                button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+                button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+            }
 
             let subjectCode = subjectId.split('-')[0];
             let subject_div = document.getElementById(subjectCode);
-            subject_div.classList.remove('hidden');
+            if (subject_div != null) {
+                subject_div.classList.remove('hidden');
+            }
 
             let channel_div = document.getElementById(subjectId);
-            channel_div.classList.remove('hidden');
+            if (channel_div != null) {
+                channel_div.classList.remove('hidden');
+            }
         }
 
         fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
