@@ -1,0 +1,35 @@
+<div class="block">
+    <p>
+        {% if page.url contains 'acsai' %}
+            ℹ️ The schedules on this page are <a href="https://github.com/sapienzastudentsnetwork/informatica/actions/workflows/update-class-schedules.yml">automatically synchronized</a> every evening with the schedules
+            listed on <a href="https://corsidilaurea.uniroma1.it/cdlcontroller-orari-cdl/2023/30786">Sapienza's dedicated page</a>;<br>
+            <br>
+
+            ⚠️ However, neither this site nor Sapienza's dedicated page are actively updated regarding
+            occasional changes in classrooms or schedules. It is suggested to stay updated by frequently
+            checking the '<a href="https://corsidilaurea.uniroma1.it/it/corso/2023/30786/programmazione?guid_cv">Attendance</a>' page of the Degree Course as well<br>
+            <br>
+
+            📣 Ensure to actively check the channels (teacher profiles, Google Classroom, Moodle, other websites, etc.) through which individual professors provide specific communications for their courses;<br>
+            <br>
+
+            👥 Sometimes, Telegram groups also help to stay updated among us students.
+
+        {% else %}
+            ℹ️ Gli orari di questa pagina vengono <a href="https://github.com/sapienzastudentsnetwork/informatica/actions/workflows/update-class-schedules.yml">sincronizzati automaticamente</a> ogni sera con gli orari presenti
+            nella <a href="https://corsidilaurea.uniroma1.it/cdlcontroller-orari-cdl/2023/29923">pagina dedicata di Sapienza</a>;<br>
+            <br>
+
+            ⚠️ Né questo sito né la pagina dedicata di Sapienza sono però attivamente aggiornati rispetto ad occasionali
+            cambiamenti di aula o di orario, per i quali si suggerisce di tenersi aggiornati consultando frequentemente
+            anche la pagina '<a href="https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv">Frequentare</a>' del Corso di Laurea<br>
+            <br>
+
+            📣 Controllare attivamente anche i canali (schede docenti, Google Classroom, Moodle, altri siti web, etc) attraverso cui i singoli docenti rendono disponibili le comunicazioni specifiche dei loro insegnamenti;<br>
+            <br>
+
+            👥 Talvolta anche i <a href="../gruppi#gruppi-dei-singoli-insegnamenti">gruppi Telegram</a> aiutano a tenersi aggiornati tra noi studenti.
+
+        {% endif %}
+    </p>
+</div>

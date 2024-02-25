@@ -60,6 +60,10 @@
             <div class="grow-1 prose w-full max-w-full p-5 pt-5 dark:prose-invert md:p-10 md:pt-10">
                 {% include disclaimer.liquid %}
 
+                {% if page.url contains 'orari' %}
+                    {% include orari-disclaimer.liquid %}
+                {% endif %}
+
                 {{ content }}
                 <br>
             </div>
