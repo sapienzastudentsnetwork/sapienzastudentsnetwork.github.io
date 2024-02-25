@@ -438,7 +438,7 @@ elif currentDate >= datetime(2024, 3, 9):
 
     bcs_schedules = None
 
-elif currentDate >= datetime(2024, 3, 2):
+elif currentDate >= datetime(2024, 2, 25):
     # Lunedì 4 marzo, Martedì 5 marzo
 
     bcs_schedules = {

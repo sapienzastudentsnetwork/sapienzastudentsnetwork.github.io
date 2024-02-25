@@ -305,7 +305,12 @@
         "name": "Business and Computer Science",
         "shortName": "Business & CS",
         "abbr": "BCS",
-        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk"
+        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk",
+        "alerts": {
+            "0": [
+                "⏰ Business and Computer Science classes will begin on 4 March and will take place according to the calendar indicated on the dedicated page: https://corsidilaurea.uniroma1.it/sites/default/files/10595536_-_business_and_computer_science_0.pdf"
+            ]
+        }
     },
     "10595537": {
         "name": "Law and Computer Science",
