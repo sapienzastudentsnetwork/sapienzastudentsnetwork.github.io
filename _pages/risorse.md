@@ -41,6 +41,6 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 ### Secondo Semestre A-L
 
 - [Basi di Dati 2 Moodle](https://elearning.uniroma1.it/course/view.php?id=17659)
-- [Sistemi Operativi 2 Classroom](https://classroom.google.com/c/NjY1MzE4NzQ0Nzcx)
-- [Reti di Elaboratori Classroom](https://classroom.google.com/c/NjYzNDI4OTU1MjYz)
+- [Sistemi Operativi 2 Classroom](https://classroom.google.com/c/NjY1MzE4NzQ0Nzcx?cjc=n62yrwh) _(Codice corso n62yrwh)_
+- [Reti di Elaboratori Classroom](https://classroom.google.com/c/NjYzNDI4OTU1MjYz?cjc=le6ydfg) _(Codice corso le6ydfg)_
 - [Progettazione di Algoritmi Sito](http://wwwusers.di.uniroma1.it/~wollan/Prog_Alg/index.html)
