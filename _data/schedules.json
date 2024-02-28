@@ -502,14 +502,14 @@
           "teacherId": "f071e391-82a8-41b0-9532-df545c55ddbb",
           "hours": "13 - 16",
           "classrooms": {
-            "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
           }
         },
         "thursday": {
           "teacherId": "f071e391-82a8-41b0-9532-df545c55ddbb",
           "hours": "14 - 16",
           "classrooms": {
-            "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
           }
         }
       }
