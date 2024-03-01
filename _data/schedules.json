@@ -317,7 +317,7 @@
           "teacherId": "35085c26-00da-4721-b7df-cd1d0970f13c",
           "hours": "14 - 16",
           "classrooms": {
-            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
           }
         }
       }
@@ -708,7 +708,7 @@
           "teacherId": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
           "hours": "14 - 16",
           "classrooms": {
-            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       }
