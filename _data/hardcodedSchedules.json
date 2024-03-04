@@ -20,5 +20,27 @@
       }
     },
     "code": "1022268"
+  },
+  "10595610": {
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "wednesday": {
+          "teacherId": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
+          "hours": "9 - 12",
+          "classrooms": {
+            "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+          }
+        },
+        "friday": {
+          "teacherId": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
+          "hours": "14 - 16",
+          "classrooms": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "code": "10595610"
   }
 }
