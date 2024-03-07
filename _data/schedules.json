@@ -56,6 +56,13 @@
     "degree": "29923",
     "channels": {
       "1": {
+        "monday": {
+          "teacherId": "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6",
+          "hours": "09 - 12",
+          "classrooms": {
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+          }
+        },
         "tuesday": {
           "teacherId": "4b170678-fc03-4261-ad08-704d9395529e",
           "hours": "12 - 14",
@@ -67,7 +74,8 @@
           "teacherId": "4b170678-fc03-4261-ad08-704d9395529e",
           "hours": "09 - 12",
           "classrooms": {
-            "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+            "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)",
+            "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
           }
         }
       },
