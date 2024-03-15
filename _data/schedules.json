@@ -546,6 +546,20 @@
     },
     "code": "10600494"
   },
+  "10595536": {
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "friday": {
+          "hours": "14 - 17",
+          "teacherId": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
+          "classroomInfo": "Aula RE1 (Edificio SSAS)",
+          "classroomUrl": "https://www.google.com/maps/place/Sapienza+-+Residenza+%22Luca+Serianni%22/@41.9057602,12.5144365,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61cab7470995:0xab05c2c2352b410a!8m2!3d41.9057602!4d12.5170061!16s%2Fg%2F11vbwbb49n"
+        }
+      }
+    },
+    "code": "10595536"
+  },
   "10595533": {
     "degree": "29923",
     "channels": {
