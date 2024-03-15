@@ -425,18 +425,18 @@ elif currentDate >= datetime(2024, 3, 23):
     }
 
 elif currentDate >= datetime(2024, 3, 16):
-    # Lunedì 18 marzo
+    # Nessuna lezione
 
-    bcs_schedules = {
-        "monday": {
-            "hours": ["10 - 13", "14 - 17"]
-        }
-    }
+    bcs_schedules = None
 
 elif currentDate >= datetime(2024, 3, 9):
     # Nessuna lezione
 
-    bcs_schedules = None
+    bcs_schedules = {
+        "friday": {
+            "hours": "14 - 17"
+        }
+    }
 
 elif currentDate >= datetime(2024, 2, 25):
     # Lunedì 4 marzo, Martedì 5 marzo
