@@ -459,7 +459,7 @@ if bcs_schedules is not None:
     for key in bcs_schedules.keys():
         bcs_schedules[key]["teacherId"] = "9ea70dc6-a3d6-447d-addf-592abe8ad7e7"
 
-        if current_date >= datetime(2024, 3, 16):
+        if currentDate >= datetime(2024, 3, 16):
             bcs_schedules[key]["classroomInfo"] = "Aula G0 (Edificio: RM115)"
             bcs_schedules[key]["classroomUrl"] = "https://www.google.com/maps/place/Dipartimento+di+informatica,+(RM115,+Edificio+G)+Sapienza/@41.9049935,12.5172091,21z/data=!4m6!3m5!1s0x132f6177ef3e5ee7:0xd818bf54824a3a05!8m2!3d41.9049692!4d12.517376!16s%2Fg%2F11g65dwyqz"
         else:
