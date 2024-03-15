@@ -458,8 +458,13 @@ else:
 if bcs_schedules is not None:
     for key in bcs_schedules.keys():
         bcs_schedules[key]["teacherId"] = "9ea70dc6-a3d6-447d-addf-592abe8ad7e7"
-        bcs_schedules[key]["classroomInfo"] = "Aula G0 (Edificio: RM115)"
-        bcs_schedules[key]["classroomUrl"] = "https://www.google.com/maps/place/Dipartimento+di+informatica,+(RM115,+Edificio+G)+Sapienza/@41.9049935,12.5172091,21z/data=!4m6!3m5!1s0x132f6177ef3e5ee7:0xd818bf54824a3a05!8m2!3d41.9049692!4d12.517376!16s%2Fg%2F11g65dwyqz"
+
+        if current_date >= datetime(2024, 3, 16):
+            bcs_schedules[key]["classroomInfo"] = "Aula G0 (Edificio: RM115)"
+            bcs_schedules[key]["classroomUrl"] = "https://www.google.com/maps/place/Dipartimento+di+informatica,+(RM115,+Edificio+G)+Sapienza/@41.9049935,12.5172091,21z/data=!4m6!3m5!1s0x132f6177ef3e5ee7:0xd818bf54824a3a05!8m2!3d41.9049692!4d12.517376!16s%2Fg%2F11g65dwyqz"
+        else:
+            bcs_schedules[key]["classroomInfo"] = "Aula RE1 (Edificio SSAS)"
+            bcs_schedules[key]["classroomUrl"] = "https://www.google.com/maps/place/Sapienza+-+Residenza+%22Luca+Serianni%22/@41.9057602,12.5144365,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61cab7470995:0xab05c2c2352b410a!8m2!3d41.9057602!4d12.5170061!16s%2Fg%2F11vbwbb49n"
 
     teaching_schedules_dict["10595536"] = {
       "degree": "30786",
