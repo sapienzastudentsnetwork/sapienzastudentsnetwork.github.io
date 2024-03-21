@@ -395,12 +395,9 @@ elif currentDate >= datetime(2024, 4, 6):
     }
 
 elif currentDate >= datetime(2024, 3, 30):
-    # Martedì 2 aprile, Mercoledì 3 aprile, Giovedì 4 aprile, Venerdì 5 aprile
+    # Mercoledì 3 aprile, Giovedì 4 aprile, Venerdì 5 aprile
 
     bcs_schedules = {
-        "tuesday" : {
-            "hours": ["10 - 13", "14 - 17"]
-        },
         "wednesday": {
             "hours": ["10 - 13", "14 - 17"]
         },
@@ -413,16 +410,9 @@ elif currentDate >= datetime(2024, 3, 30):
     }
 
 elif currentDate >= datetime(2024, 3, 23):
-    # Giovedì 28 marzo, Venerdì 29 marzo
+    # Nessuna lezione
 
-    bcs_schedules = {
-        "thursday": {
-            "hours": "9 - 12"
-        },
-        "friday": {
-            "hours": ["10 - 13", "14 - 17"]
-        }
-    }
+    bcs_schedules = None
 
 elif currentDate >= datetime(2024, 3, 16):
     # Nessuna lezione
