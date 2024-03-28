@@ -69,7 +69,9 @@ jobs:
       - name: Check if there are any changes
         id: verify_diff
         run: |
-          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit
         if: steps.verify_diff.outputs.changed == 'true'
