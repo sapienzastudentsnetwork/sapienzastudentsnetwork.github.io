@@ -13,6 +13,8 @@ import re
 
 import json
 
+import copy
+
 #
 # ▒█▀▀▀█ ▒█▀▀█ ▒█▀▀█ ░█▀▀█ ▒█▀▀█ ▒█▀▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
 # ░▀▀▀▄▄ ▒█░░░ ▒█▄▄▀ ▒█▄▄█ ▒█▄▄█ ▒█▀▀▀ 　 ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▄▄█
@@ -503,7 +505,10 @@ elif "10595536" in teaching_schedules_dict:
 
 # Hard-code the alignment of ACSAI "Optimization"'s class schedules with those of "Modelli e Ottimizzazione" for the A.Y. 2023-2024
 if "1022265" in teaching_schedules_dict and "10595533" not in teaching_schedules_dict:
-    teaching_schedules_dict["10595533"] = teaching_schedules_dict["1022265"]
+    teaching_schedules_dict["10595533"] = copy.deepcopy(teaching_schedules_dict["1022265"])
+
+    teaching_schedules_dict["10595533"]["degree"] = "30786"
+    teaching_schedules_dict["10595533"]["code"] = "10595533"
 
 # Hard-code the alignment of Basi di Dati II's Channel 2 class schedules with those of Channel 1 for the A.Y. 2023-2024
 if "1015887" in teaching_schedules_dict and "2" not in teaching_schedules_dict["1015887"]["channels"]:
