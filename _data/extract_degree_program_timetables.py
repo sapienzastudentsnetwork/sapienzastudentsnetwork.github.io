@@ -231,6 +231,66 @@ for table_index, table in enumerate(table_elements):
             # Extract the teaching code from the link
             teachingCode = teaching_code_link.get_text(strip=False).split(" ")[0]
 
+            # Prepare to extract teacher data
+            teacherName    = None
+            teacherPageUrl = None
+
+            # Find the <a> element containing the teacher's name
+            teacher_div = columns[0].find('div', class_='docente')
+
+            if teacher_div:
+                teacher_a = teacher_div.find('a')
+
+                # Extract the teacher's name
+                teacherName = teacher_a.text
+
+                # Hard-code the ignoring of PONSIGLIONE MARCELLO's class schedules for channel 1
+                if teachingCode == "97796" and channel == "1" and teacherName == "PONSIGLIONE MARCELLO":
+                    continue
+
+                # Extract the URL of the teacher's page
+                teacherPageUrl = teacher_a['href']
+
+                # Extract the teacher's UID from the URL of the teacher's page
+                teacherId = teacherPageUrl.split('=')[-1]
+
+                if teacherId not in teachers_dict:
+                    teachers_dict[teacherId] = {
+                        "teacherName": teacherName,
+                        "teacherPageUrl": teacherPageUrl
+                    }
+                else:
+                    teachers_dict[teacherId]["teacherName"] = teacherName
+                    teachers_dict[teacherId]["teacherPageUrl"] = teacherPageUrl
+            else:
+                teacherId = None
+
+            # Extract location information from column 1 of the table
+            location = columns[1]
+
+            # Search for matches for building and classroom in the location string
+            building_match = re.search(r'Edificio: (\w+)', str(location), re.IGNORECASE)
+            classroom_match = re.search(r'Aula ([\w\s\d]+)', str(location), re.IGNORECASE)
+
+            # If matches for building and classroom are found
+            if building_match and classroom_match:
+                # Extract the building name and remove extra spaces
+                building = building_match.group(1)
+                building = re.sub(r'\s+', ' ', building).strip()
+
+                # Extract the classroom name and remove extra spaces
+                classroom = classroom_match.group(1)
+                classroom = re.sub(r'\s+', ' ', classroom).strip()
+
+                # Create a new location string that combines building and classroom
+                location = f"Aula {classroom} (Edificio: {building})"
+            else:
+                # If no matches are found, use the original text of the location
+                location = location.get_text()
+
+            # Extract the classroom ID from the URL in the 'a' element in column 1
+            classroomId = columns[1].find('a').get('href').replace("#aula_", "")
+
             # Extract class timings from the third column
             day_and_time_strings = str(columns[2]).replace("dalle ", "").replace("alle ", "").replace(":00", "")
 
@@ -259,62 +319,6 @@ for table_index, table in enumerate(table_elements):
                     "endTime": int(endTime),
                     "code": teachingCode
                 })
-
-                teacherName    = None
-                teacherPageUrl = None
-
-                # Find the <a> element containing the teacher's name
-                teacher_div = columns[0].find('div', class_='docente')
-
-                if teacher_div:
-                    teacher_a = teacher_div.find('a')
-
-                    # Extract the teacher's name
-                    teacherName = teacher_a.text
-
-                    # Extract the URL of the teacher's page
-                    teacherPageUrl = teacher_a['href']
-
-                    # Extract the teacher's UID from the URL of the teacher's page
-                    teacherId = teacherPageUrl.split('=')[-1]
-
-                    if teacherId not in teachers_dict:
-                        teachers_dict[teacherId] = {
-                            "teacherName": teacherName,
-                            "teacherPageUrl": teacherPageUrl
-                        }
-                    else:
-                        teachers_dict[teacherId]["teacherName"] = teacherName
-                        teachers_dict[teacherId]["teacherPageUrl"] = teacherPageUrl
-                else:
-                    teacherId = None
-
-                # Extract location information from column 1 of the table
-                location = columns[1]
-
-                # Search for matches for building and classroom in the location string
-                building_match = re.search(r'Edificio: (\w+)', str(location), re.IGNORECASE)
-                classroom_match = re.search(r'Aula ([\w\s\d]+)', str(location), re.IGNORECASE)
-
-                # If matches for building and classroom are found
-                if building_match and classroom_match:
-                    # Extract the building name and remove extra spaces
-                    building = building_match.group(1)
-                    building = re.sub(r'\s+', ' ', building).strip()
-
-                    # Extract the classroom name and remove extra spaces
-                    classroom = classroom_match.group(1)
-                    classroom = re.sub(r'\s+', ' ', classroom).strip()
-
-                    # Create a new location string that combines building and classroom
-                    location = f"Aula {classroom} (Edificio: {building})"
-                else:
-                    # If no matches are found, use the original text of the location
-                    location = location.get_text()
-
-                # Extract the classroom ID from the URL in the 'a' element in column 1
-                classroomId = columns[1].find('a').get('href').replace("#aula_", "")
-
                 
                 if teachingCode not in teaching_schedules_dict:
                     teaching_schedules_dict[teachingCode] = {
