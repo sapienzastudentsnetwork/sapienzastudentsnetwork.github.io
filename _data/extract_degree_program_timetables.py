@@ -359,8 +359,34 @@ sort_days_order = ["monday", "tuesday", "wednesday", "thursday", "friday"]
 
 currentDate = datetime.now()
 
-if currentDate >= datetime(2024, 5, 4):
-    # Lunedì 6 maggio, Martedì 7 maggio
+if currentDate >= datetime(2024, 5, 25):
+    # Lunedì 27 maggio, Martedì 28 maggio
+
+    bcs_schedules = {
+        "monday": {
+            "hours": ["10 - 13", "14 - 17"]
+        },
+        "tuesday": {
+            "hours": "9 - 12"
+        }
+    }
+
+elif currentDate >= datetime(2024, 5, 18):
+    # Nessuna lezione
+
+    bcs_schedules = None
+
+elif currentDate >= datetime(2024, 5, 11):
+    # Lunedì 13 maggio
+
+    bcs_schedules = {
+        "monday": {
+            "hours": "10 - 13"
+        }
+    }
+
+elif currentDate >= datetime(2024, 5, 4):
+    # Lunedì 6 maggio, Martedì 7 maggio, Mercoledì 8 maggio, Venerdì 10 maggio
 
     bcs_schedules = {
         "monday": {
@@ -368,19 +394,26 @@ if currentDate >= datetime(2024, 5, 4):
         },
         "tuesday": {
             "hours": ["10 - 13", "14 - 17"]
+        },
+        "wednesday": {
+            "hours": "13 - 16"
+        },
+        "friday": {
+            "hours": "14 - 17"
         }
     }
 
 elif currentDate >= datetime(2024, 4, 27):
-    # Lunedì 29 aprile
+    # Nessuna lezione
 
-    bcs_schedules = {
-        "monday": {
-            "hours": ["10 - 13", "14 - 17"]
-        }
-    }
+    bcs_schedules = None
 
-elif currentDate >= datetime(2024, 4, 14):
+elif currentDate >= datetime(2024, 4, 20):
+    # Nessuna lezione
+
+    bcs_schedules = None
+
+elif currentDate >= datetime(2024, 4, 13):
     # Nessuna lezione
 
     bcs_schedules = None
@@ -427,6 +460,11 @@ elif currentDate >= datetime(2024, 3, 9):
             "hours": "14 - 17"
         }
     }
+
+elif currentDate >= datetime(2024, 3, 2):
+    # Nessuna lezione
+
+    bcs_schedules = None
 
 elif currentDate >= datetime(2024, 2, 25):
     # Lunedì 4 marzo, Martedì 5 marzo
