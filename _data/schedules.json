@@ -726,14 +726,14 @@
     "channels": {
       "0": {
         "monday": {
-          "teacherId": "490d6ef6-7a7b-4e8f-ba75-fea941d5a9c1",
+          "teacherId": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
           "hours": "14 - 17",
           "classrooms": {
             "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
           }
         },
         "wednesday": {
-          "teacherId": "490d6ef6-7a7b-4e8f-ba75-fea941d5a9c1",
+          "teacherId": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
           "hours": "14 - 16",
           "classrooms": {
             "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
