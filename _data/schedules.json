@@ -345,14 +345,14 @@
       },
       "2": {
         "wednesday": {
-          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "teacherId": "aca42953-c2c6-40e7-939b-de68f20065e8",
           "hours": "16 - 19",
           "classrooms": {
             "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
           }
         },
         "friday": {
-          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "teacherId": "aca42953-c2c6-40e7-939b-de68f20065e8",
           "hours": "10 - 13",
           "classrooms": {
             "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
@@ -477,14 +477,14 @@
     "channels": {
       "0": {
         "wednesday": {
-          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "teacherId": "aca42953-c2c6-40e7-939b-de68f20065e8",
           "hours": "11 - 13",
           "classrooms": {
             "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
           }
         },
         "thursday": {
-          "teacherId": "3767ad7c-669b-4f4c-aeb4-b4e6c59f258d",
+          "teacherId": "aca42953-c2c6-40e7-939b-de68f20065e8",
           "hours": "11 - 14",
           "classrooms": {
             "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
