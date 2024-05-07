@@ -55,9 +55,9 @@
     "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(Aula+II)&iwloc=A&hl=it"
   },
   "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": {
-    "description": "Aula III - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
-    "address": "PIAZZALE Aldo Moro, 5",
-    "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(Aula+III)&iwloc=A&hl=it"
+    "description": "Aula III AREA DI CANTIERE - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
+    "address": null,
+    "mapsUrl": null
   },
   "50369700-02c9-46b7-a8f6-cd0171322dee": {
     "description": "Aula informatica 15",
