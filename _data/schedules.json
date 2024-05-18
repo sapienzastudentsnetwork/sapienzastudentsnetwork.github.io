@@ -538,21 +538,6 @@
     },
     "code": "10600494"
   },
-  "10595536": {
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "monday": {
-          "hours": "10 - 13",
-          "teacherId": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
-          "classrooms": {
-            "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
-          }
-        }
-      }
-    },
-    "code": "10595536"
-  },
   "10595533": {
     "degree": "30786",
     "channels": {
