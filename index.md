@@ -2,7 +2,9 @@
 
 Vuoi iscriverti ad uno dei Corsi di Laurea in Informatica] di Sapienza Università di Roma, hai tante domande, ma non sai dove cercare? Sei già iscritto e in cerca di risorse, gruppi chat e informazioni utili? Sei approdato/a nel posto giusto 😉
 
-**sapienzastudents.net** è il sito ufficiale degli studenti e delle studentesse per quanto riguarda i [Corsi di Laurea afferenti al Consiglio di Area Didattica di Informatica](#corsi-di-laurea), naviga nelle [singole sezioni del sito](#indice) e non esitare a [contattarci](#curatori-del-progetto) o a [contribuire](/contribuire) direttamente al progetto in caso ti venisse in mente qualche informazione da aggiungere o rettificare 🙂
+**sapienzastudents.net** è il sito ufficiale degli studenti e delle studentesse per quanto riguarda i [Corsi di Laurea afferenti al Consiglio di Area Didattica di Informatica](#corsi-di-laurea)
+
+Naviga nelle [singole sezioni del sito](#indice) e non esitare a [contattarci](#curatori-del-progetto), o a [contribuire](/contribuire) direttamente al progetto, in caso ti venisse in mente del contenuto da aggiungere o rettificare 🙂
 
 ## Indice
 
