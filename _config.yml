@@ -12,8 +12,8 @@ last-modified-at:
   date-format: '%d/%b/%y'
 #google_analytics: G-HFNEYKB0G4
 nav:
-  - text: Home
-    icon: home
+  - text: Guida
+    icon: help
     permalink: ./
   - text: Matricole
     icon: school
@@ -31,7 +31,7 @@ nav:
     icon: folder_open
     permalink: risorse
   - text: Gruppi
-    icon: group
+    icon: forum
     permalink: gruppi
   - text: Orari
     icon: schedule
@@ -40,8 +40,11 @@ nav:
     icon: alarm
     permalink: orari/acsai
   - text: Orario Custom
-    icon: calendar_today
+    icon: edit_calendar
     permalink: orario
+  - text: Contribuisci
+    icon: edit
+    permalink: contribuire
   # - text:
   #   icon:
   #   permalink:
