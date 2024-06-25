@@ -7,11 +7,11 @@ Vuoi iscriverti ad uno dei Corsi di Laurea in Informatica] di Sapienza Universit
 ## Indice
 
 - **[Matricole:](/matricole)** informazioni utili per nuove matricole, intese come studenti e studentesse appena iscritti o futuri interessati ad iscriversi;
-- **[Percorso Formativo:](/matricole)** informazioni utili per i/le frequentanti la magistrale in Computer Science o il Terzo Anno della laurea Triennale, inerentemente al funzionamento e alla compilazione del Percorso Formativo;
+- **[Percorso Formativo:](/percorso-formativo)** informazioni utili per i/le frequentanti la magistrale in Computer Science o il Terzo Anno della laurea Triennale, inerentemente al funzionamento e alla compilazione del Percorso Formativo;
 - **[Tirocinio:](/tirocinio)** informazioni utili per i laureandi che si apprestano a dover realizzare la propria tesi (magistrale) o relazione di tirocinio (triennale);
 - **[Laurea:](/laurea)** informazioni utili in merito alla domanda di laurea e alle modalità di svolgimento delle verifiche finali;
 - **[Risorse:](/risorse)** indice di appunti e risorse didattiche aggiuntive per gli insegnamenti dei corsi di laurea triennali;
-- **[Gruppi:](/gruppi)** gruppi di affiancamento al tuo percorso di laurea nei nostri corsi di studio, generici dei corsi di laurea e specifici dei singoli insegnamenti;
+- **[Gruppi:](/gruppi)** gruppi chat di affiancamento al tuo percorso di laurea nei nostri corsi di studio, generici dei corsi di laurea e specifici dei singoli insegnamenti;
 - Orario delle Lezioni:
   - **[Orari:](/orari)** corso di Laurea Triennale in Informatica;
   - **[Orari ACSAI:](/orari/acsai)** corso di Laurea Triennale in Applied Computer Science and Artificial Intelligence;
