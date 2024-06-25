@@ -7,7 +7,7 @@ permalink: contribuire
 
 ## Clonare il progetto
 
-Se vuoi aggiungere dei contenuti, devi fare il **fork** del progetto e aprire una [**pull request**](https://github.com/sapienzastudentsnetwork/informatica/pulls) con le modifiche che vuoi fare. Le modifiche saranno revisionate prima di essere salvate sul sito. Se non sai usare bene **git** e **GitHub** puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire a progetti, o chiedere aiuto su uno dei [gruppi](./gruppi).
+Se vuoi aggiungere dei contenuti, devi fare il **fork** del progetto e aprire una [**pull request**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls) con le modifiche che vuoi fare. Le modifiche saranno revisionate prima di essere salvate sul sito. Se non sai usare bene **git** e **GitHub** puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire a progetti, o chiedere aiuto su uno dei [gruppi](./gruppi).
 
 ## Aprire il sito in locale
 
@@ -31,7 +31,7 @@ npm run dev-windows
 
 ## Proposte / Bug
 
-Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o problema con il sito, apri una [ISSUE](https://github.com/sapienzastudentsnetwork/informatica/issues)
+Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o problema con il sito, apri una [ISSUE](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues)
 
 
 ## Documentazione
@@ -39,7 +39,7 @@ Se hai dei suggerimenti per migliorare il sito o vuoi rendere noto un bug o prob
 Alcuni link utili
 - Per i contenuti delle pagine, GitHub Pages usa [**Markdown**](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [**Jekyll**](https://jekyllrb.com/docs/pages/) è il *static site generator* usato da GitHub.
-- Jekyll usa [**Liquid**](https://shopify.github.io/liquid/) per templating server-side *(vi da l'accesso all'instestazione dei file markdown)*
+- Jekyll usa [**Liquid**](https://shopify.github.io/liquid/) per templating server-side *(vi da l'accesso all'intestazione dei file markdown)*
 
 ### Icone 
 

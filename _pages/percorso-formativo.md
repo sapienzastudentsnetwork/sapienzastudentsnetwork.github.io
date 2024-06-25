@@ -164,7 +164,7 @@ Consulta anche le indicazioni su [come scegliere gli esami esterni](#come-scegli
 La lista è stata creata per aiutare gli studenti e le studentesse a scegliere gli esami da sostenere, non è una lista ufficiale, è incompleta e potrebbe contenere errori, nel caso [faccelo sapere](./contribuire#proposte--bug).
 
 <!-- ### Come contribuire -->
-<!-- Scopri [come contribuire](https://sapienzastudents.net/informatica/contribuire) alla forma e al contenuto di questa o altre pagine del sito! -->
+<!-- Scopri [come contribuire](https://sapienzastudents.net/contribuire) alla forma e al contenuto di questa o altre pagine del sito! -->
 
 ## FAQ 
 

@@ -11,7 +11,7 @@
             navigator.serviceWorker &&
                 navigator.serviceWorker.register(
                     "{{ '/service-worker.js?v=' | append: site.github.build_revision | relative_url }}",
-                    { scope: '/informatica/' },
+                    { scope: '/' },
                 );
 
             {% comment %} Makes long tables scrollable on mobile, untill I find a better solution {% endcomment %}

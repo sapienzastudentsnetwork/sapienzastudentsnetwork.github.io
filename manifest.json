@@ -1,7 +1,7 @@
 {
     "short_name": "Informatica",
-    "name": "SSN | Informatica",
-    "start_url": "/informatica",
+    "name": "sapienzastudents.net",
+    "start_url": "/",
     "prefer_related_applications": false,
     "related_applications": [],
     "icons": [
@@ -57,6 +57,6 @@
     "background_color": "#000000",
     "theme_color": "#000000",
     "display": "standalone",
-    "scope": "/informatica",
-    "description": "🤖 Sito Web degli studenti e le studentesse di Informatica a Sapienza"
+    "scope": "/",
+    "description": "\uD83C\uDF10 Sito Web degli studenti e le studentesse dei Corsi di Laurea afferenti al Consiglio di Area Didattica in Informatica di Sapienza Università di Roma"
 }
