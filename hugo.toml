@@ -58,5 +58,5 @@ enableGitInfo = true
     # GitHub Stuff
     BookRepo = 'https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io'
     BookCommitPath = 'commit'
-    BookEditPath = 'edit/devel'
+    BookEditPath = 'edit/main'
     BookDateFormat = '2 Jan 2006'
