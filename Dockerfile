@@ -1,6 +1,6 @@
 FROM jekyll/minimal:pages
 
-ENV PAGES_REPO_NWO="sapienzastudentsnetwork/informatica"
+ENV PAGES_REPO_NWO="sapienzastudentsnetwork/sapienzastudentsnetwork.github.io"
 
 RUN apk add --no-cache make gcc libc-dev
 
