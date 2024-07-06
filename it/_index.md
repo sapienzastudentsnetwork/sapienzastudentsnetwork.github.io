@@ -12,8 +12,8 @@ Perfetto! Abbiamo raccolto tutto ciò di cui hai bisogno: orari delle lezioni, m
 ## Cosa potrai trovare qui?
 * 📚 Dettagli sul corso di laurea in Informatica
 * 📅 Calendario accademico e scadenze importanti
-* 📝 Guida alla prenotazione degli esami
-* 🎓 Informazioni su tirocini e tesi
+* 📝 Guida alla prenotazione degli esami e alla compilazione del percorso formativo
+* 🎓 Informazioni su tirocinio, relazione di tirocinio e laurea
 
 ## Hai bisogno di aiuto?
 Nei **[gruppi](/it/canali/telegram)** puoi confrontarti con altri studenti e ottenere il supporto che cerchi :-)
