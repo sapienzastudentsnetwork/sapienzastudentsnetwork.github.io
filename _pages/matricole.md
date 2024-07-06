@@ -1,6 +1,8 @@
 ---
 title: "Matricole"
-permalink: matricole 
+permalink: matricole
+redirect_from:
+  - /informatica/matricole
 ---
 
 # Matricole

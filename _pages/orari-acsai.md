@@ -2,6 +2,10 @@
 title: "ACSAI class schedules"
 layout: schedule
 permalink: orari/acsai
+redirect_from:
+  - /orari-acsai
+  - /informatica/orari-acsai
+  - /informatica/orari/acsai
 degree: 30786
 timetables:
     - title: "First Year"

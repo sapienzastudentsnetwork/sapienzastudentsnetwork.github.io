@@ -1,6 +1,8 @@
 ---
 title: "Gruppi"
 permalink: gruppi
+redirect_from:
+  - /informatica/gruppi
 ---
 
 # Gruppi e altri canali di comunicazione

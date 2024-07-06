@@ -2,6 +2,8 @@
 title: "Orari"
 layout: schedule
 permalink: orari
+redirect_from:
+  - /informatica/orari
 degree: 29923
 timetables:
     - title: "Primo Anno A-L"

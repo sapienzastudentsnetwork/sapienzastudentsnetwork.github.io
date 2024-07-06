@@ -1,6 +1,8 @@
 ---
 title: "Risorse"
 permalink: risorse
+redirect_from:
+  - /informatica/risorse
 ---
 
 # Risorse

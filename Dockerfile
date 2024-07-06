@@ -7,5 +7,6 @@ RUN apk add --no-cache make gcc libc-dev
 RUN gem install webrick
 RUN gem install jemoji
 RUN gem install jekyll-last-modified-at
+RUN gem install jekyll-redirect-from
 
 ENTRYPOINT [ "jekyll", "serve", "--force_polling", "--watch" ]

@@ -1,6 +1,8 @@
 ---
 title: "Percorso Formativo"
 permalink: percorso-formativo
+redirect_from:
+ - /informatica/percorso-formativo
 ---
 
 # Percorso Formativo

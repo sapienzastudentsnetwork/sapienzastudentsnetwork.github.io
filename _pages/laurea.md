@@ -1,6 +1,8 @@
 ---
 title: "Laurea"
 permalink: laurea
+redirect_from:
+  - /informatica/laurea
 ---
 
 # Laurea

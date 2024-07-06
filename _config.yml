@@ -8,6 +8,7 @@ include:
 plugins:
   - jemoji
   - jekyll-last-modified-at
+  - jekyll-redirect-from
 last-modified-at:
   date-format: '%d/%b/%y'
 #google_analytics: G-HFNEYKB0G4

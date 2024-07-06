@@ -1,6 +1,8 @@
 ---
 title: "Tirocinio"
 permalink: tirocinio
+redirect_from:
+  - /informatica/tirocinio
 ---
 
 # Tirocinio 
