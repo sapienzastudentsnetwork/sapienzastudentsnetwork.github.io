@@ -30,7 +30,7 @@ enableGitInfo = true
         disabled = false
         languageName = 'Computer Science'
         title = 'Computer Science'
-        weight = 1
+        weight = 2
 
         [languages.29932.params]
             contentDir = '29932'
