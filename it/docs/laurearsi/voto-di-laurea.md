@@ -1,5 +1,6 @@
 ---
 title: Voto di Laurea
+aliases: ["/voto-di-laurea", "/it/voto-di-laurea", "/it/laurearsi/calcolo-voto-di-laurea", "/it/laurearsi/calcolo-voto-laurea"]
 ---
 # Calcolo del Voto di Laurea
 {{< hint warning >}}

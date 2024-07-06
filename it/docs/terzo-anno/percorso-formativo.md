@@ -1,5 +1,6 @@
 ---
 title: "Percorso Formativo"
+aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percorso-formativo"]
 ---
 
 # Percorso Formativo

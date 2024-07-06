@@ -1,5 +1,6 @@
 ---
 title: "Come contribuire"
+aliases: ["/contribuire", "/informatica/contribuire"]
 bookToC: false
 ---
 

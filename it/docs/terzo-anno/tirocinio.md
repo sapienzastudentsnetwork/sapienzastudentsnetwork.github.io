@@ -1,5 +1,6 @@
 ---
 title: "Tirocinio"
+aliases: ["/tirocinio", "/it/tirocinio", "/informatica/tirocinio"]
 ---
 
 # Tirocinio
