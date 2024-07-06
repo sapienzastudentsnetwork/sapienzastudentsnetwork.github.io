@@ -6,19 +6,19 @@
     "related_applications": [],
     "icons": [
         {
-            "src": "_assets/icon-48.png",
+            "src": "_assets/icon/icon-48.png",
             "type": "image/png",
             "sizes": "48x48",
             "purpose": "any maskable"
         },
         {
-            "src": "_assets/icon-72.png",
+            "src": "_assets/icon/icon-72.png",
             "type": "image/png",
             "sizes": "72x72",
             "purpose": "any maskable"
         },
         {
-            "src": "_assets/icon-96.png",
+            "src": "_assets/icon/icon-96.png",
             "type": "image/png",
             "sizes": "96x96",
             "purpose": "any maskable"
@@ -42,9 +42,9 @@
             "purpose": "any maskable"
         },
         {
-            "src": "_assets/icon-192.png",
+            "src": "_assets/icon-256.png",
             "type": "image/png",
-            "sizes": "192x192",
+            "sizes": "256x256",
             "purpose": "any maskable"
         },
         {

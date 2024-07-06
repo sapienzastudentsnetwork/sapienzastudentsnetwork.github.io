@@ -1,0 +1,62 @@
+title = 'sapienzastudents.net'
+theme = 'hugo-book'
+defaultContentLanguage = 'it'
+defaultContentLanguageInSubdir = true
+enableGitInfo = true
+
+[languages]
+    [languages.it]
+        contentDir = 'it'
+        disabled = false
+        languageName = 'Informatica'
+        title = 'Informatica'
+        weight = 0
+
+        [languages.it.params]
+            contentDir = 'it'
+
+    [languages.30786]
+        contentDir = '30786'
+        disabled = false
+        languageName = 'ACSAI'
+        title = 'ACSAI'
+        weight = 1
+
+        [languages.en.params]
+            contentDir = '30786'
+
+    [languages.29932]
+        contentDir = '29932'
+        disabled = false
+        languageName = 'Computer Science'
+        title = 'Computer Science'
+        weight = 1
+
+        [languages.29932.params]
+            contentDir = '29932'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    block = [['\[', '\]'], ['$$', '$$']]
+                    inline = [['\(', '\)'], ['$', '$']]
+
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[params]
+    math = true
+    BookTheme = 'auto'
+    BookToC = true
+    BookLogo = 'logo.png'
+    BookSection = '*'
+
+    # GitHub Stuff
+    BookRepo = 'https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io'
+    BookCommitPath = 'commit'
+    BookEditPath = 'edit/devel'
+    BookDateFormat = '2 Jan 2006'
