@@ -27,7 +27,8 @@ The calendar may be subtle to variations until the first week of lectures. Some 
     </tr>
     <tr align="center">
         <td>8:00</td>
-        <td rowspan=2>Statistics<br><p style="font-size: 9pt">8:30-10:00<br>Online</p></td>
+        <!--<td rowspan=2>Statistics<br><p style="font-size: 9pt">8:30-10:00<br>Online</p></td>-->
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -35,6 +36,7 @@ The calendar may be subtle to variations until the first week of lectures. Some 
     </tr>
     <tr align="center">
         <td>9:00</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -138,7 +140,8 @@ The calendar may be subtle to variations until the first week of lectures. Some 
     </tr>
     <tr align="center">
         <td>8:00</td>
-        <td rowspan=2>Statistics<br><p style="font-size: 9pt">8:30-10:00<br>Online</p></td>
+        <!--<td rowspan=2>Statistics<br><p style="font-size: 9pt">8:30-10:00<br>Online</p></td>-->
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
@@ -146,6 +149,7 @@ The calendar may be subtle to variations until the first week of lectures. Some 
     </tr>
     <tr align="center">
         <td>9:00</td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
