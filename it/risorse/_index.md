@@ -1,5 +1,5 @@
 ---
+title: 📚 Corsi
 bookFlatSection: true
 bookHidden: true
-disable: true
 ---

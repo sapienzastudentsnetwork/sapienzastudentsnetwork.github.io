@@ -2,13 +2,12 @@
 title: Graduation Grade
 ---
 # Calculation of Graduation Grade
+
 {{< hint warning >}}
 **Warning**
 
 This page is based on the guidelines in effect as per the CAD meeting minutes of 06/22/2016.
 {{< /hint >}}
-
-# Calculation of Graduation Grade
 
 The graduation grade is decided by the Graduation Committee based on the final exam, the evaluators' judgment, and the candidate's curriculum. The grade is expressed out of 110 and is calculated as follows:
 
