@@ -22,7 +22,7 @@ enableGitInfo = true
         title = 'ACSAI'
         weight = 1
 
-        [languages.en.params]
+        [languages.30786.params]
             contentDir = '30786'
 
     [languages.29932]
