@@ -8,9 +8,9 @@ weight: 2
 
 The website will soon undergo a major content transformation, with the main project curators becoming:
 
-- **[Lorenzo Antonelli](https://github.com/Lorenzoantonelli):** Computer Science student, Teaching Assistant of the Computer Science Didactic Council, Staff Member of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and site code developer;
-- **[Michele Palma](https://github.com/palmaaaa):** Computer Science student, Teaching Assistant of the Computer Science Didactic Council, content curator and site code developer;
-- **[Marcello Galisai](https://github.com/marcellogalisai):** student of [Philosophy and Artificial Intelligence](https://corsidilaurea.uniroma1.it/it/corso/2023/31774/home), Teaching Assistant of the Computer Science Didactic Council, content curator of the site.
+- **[Lorenzo Antonelli](https://github.com/Lorenzoantonelli):** Computer Science student, tutor of the Computer Science Didactic Council, Staff Member of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and site code developer;
+- **[Michele Palma](https://github.com/palmaaaa):** Computer Science student, tutor of the Computer Science Didactic Council, content curator and site code developer;
+- **[Marcello Galisai](https://github.com/marcellogalisai):** student of [Philosophy and Artificial Intelligence](https://corsidilaurea.uniroma1.it/it/corso/2023/31774/home), tutor of the Computer Science Didactic Council, content curator of the site.
 
 As of **July 6, 2024**, the main project curators were:
 
