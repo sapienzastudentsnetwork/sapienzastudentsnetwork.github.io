@@ -1,3 +1,4 @@
 ---
+title: 🙌 Contribuire
 bookFlatSection: true
 ---
