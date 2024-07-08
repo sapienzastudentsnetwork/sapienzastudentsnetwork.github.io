@@ -1,4 +1,0 @@
----
-title: 🙌 Contribute
-bookFlatSection: true
----

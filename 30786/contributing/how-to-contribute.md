@@ -29,7 +29,7 @@ In order to contribute to the development of the site, you must create a **fork*
 2. Once your fork finished being created, you have to **clone it locally**. Before actually cloning it, you must copy the address of the repository: on the page of the fork that you just created, click on the green "**<i class="fa-solid fa-code" style="color: #63E6BE;"></i> Code**" button that you can find on the top of the page, and copy the `https` URL that should end in `.git` from the newly opened pop-up;
 3. Open a terminal and navigate on a folder where you want to clone the fork. Once you decided a folder, type `git clone` and then paste your URL after the command. You'll see something like:
 ```bash
-git clone https://github.com/<your_username>/<fork_name>.git
+git clone --recurse-submodules https://github.com/<your_username>/<fork_name>.git
 ```
 Now you cloned the fork locally, meaning that by opening up a text editor you can start editing the files of the site
 
@@ -88,7 +88,7 @@ docker build -t hugo-site . # Just the first time that you clone the fork
 sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Everytime that you work on the project
 ```
 
-5. Open [`localhost:4000`](http://localhost:4000/) in the browser, and there you go! You can now preview the site. 
+5. Open [`localhost:4000`](http://localhost:4000/) in the browser, and there you go! You can now preview the site.
 6. If you want to stop the server, just press `Ctrl+C` in the terminal.
 {{< /tab >}}
 {{< /tabs >}}
