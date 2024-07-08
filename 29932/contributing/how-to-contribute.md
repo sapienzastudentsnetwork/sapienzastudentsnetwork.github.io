@@ -23,7 +23,7 @@ If you're not familiar with **git** and **GitHub**, you can follow [GitHub's gui
 
 ## Clone the project
 
-In order to contribute to the development of the site, you must create a **fork** of the project and edit it. Once you make your edit, you can open a  and send your edits to us. Let's see how to do this:
+In order to contribute to the development of the site, you must create a **fork** of the project and edit it. Once you make your edit, you can open a **pull request** and send your edits to us. Let's see how to do this:
 
 1. On GitHub, open the [**repository page of the site**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io) and create a fork via the button on the top right. You can call it however you want, it won't impact the original repo;
 2. Once your fork finished being created, you have to **clone it locally**. Before actually cloning it, you must copy the address of the repository: on the page of the fork that you just created, click on the green "**<i class="fa-solid fa-code" style="color: #63E6BE;"></i> Code**" button that you can find on the top of the page, and copy the `https` URL that should end in `.git` from the newly opened pop-up;
