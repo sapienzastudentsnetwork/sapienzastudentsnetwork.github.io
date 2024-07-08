@@ -9,7 +9,7 @@ weight: 1
 
 # Contributing
 
-This project is immense, and not everytime the working staff can work on it. It's a project born for the students by the students, so every possible help is appreciated. Do you feel like helping out? Just follow this guide in order to know how you cna contribute!
+This project is immense, and not everytime the working staff can work on it. It's a project born for the students by the students, so every possible help is appreciated. Do you feel like helping out? Just follow this guide in order to know how you can contribute!
 
 Contributing can be done via **GitHub**, so you might want to know a bit of the basics of it (mainly what's **Git**, how to **fork** and **clone** a repo, what are **commits** and **pull requests**). If you don't feel like doing it from the **CLI** (Command Line Interface), you can do it via VSCode or any editor that you may prefer. Here, we'll tell you how to do it via a CLI, so that at the end you'll also have some take-home knowledge of how **Git** works.
 
