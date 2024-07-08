@@ -1,4 +1,5 @@
 ---
-title: 🙌 Contribuire
+title: 💪 Contribuire
 bookFlatSection: true
+weight: 6
 ---
