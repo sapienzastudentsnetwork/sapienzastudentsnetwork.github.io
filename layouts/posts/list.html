@@ -1,0 +1,46 @@
+{{ define "main" }} {{ range sort .Paginator.Pages }}
+<div
+    style="
+        background-color: #5d656a30;
+        border-radius: 8px;
+        border: 1px solid #81868a;
+        padding: 12px;
+        margin: 0 0 10pt 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+    "
+>
+    <article class="markdown book-post" style="margin-bottom: 3px">
+        <h2 style="margin-bottom: 1px;">
+            <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
+        </h2 >
+        {{ partial "docs/post-meta" . }}
+    </article>
+    <div
+        style="
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 1px;
+            background-color: #81868a;
+        "
+    ></div>
+    <article class="markdown book-post">
+        <p>
+            {{- .Summary -}} {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">...</a>
+            {{ end }}
+        </p>
+    </article>
+</div>
+{{ end }}
+
+{{ template "_internal/pagination.html" . }}
+{{ end }}
+
+{{ define "toc"}}
+    {{ partial "docs/taxonomy" . }}
+{{ end }}

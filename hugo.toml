@@ -53,10 +53,11 @@ enableGitInfo = true
     BookTheme = 'auto'
     BookToC = true
     BookLogo = 'logo.png'
+    #BookSection = '*'
     BookSection = '*'
 
     # GitHub Stuff
     BookRepo = 'https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io'
     BookCommitPath = 'commit'
     BookEditPath = 'edit/main'
-    BookDateFormat = '2 Jan 2006'
+    BookDateFormat = '2 January 2006'

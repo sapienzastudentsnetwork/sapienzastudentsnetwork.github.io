@@ -1,0 +1,31 @@
+<div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: left;">
+    {{ with .Date }}
+      <h5>{{ partial "docs/date" (dict "Date" . "Format" $.Site.Params.BookDateFormat) }}</h5>
+    {{ end }}
+    <h5>&nbsp;•&nbsp;</h5>
+    {{ range $taxonomy, $_ := .Site.Taxonomies }}
+      {{ with $terms := $.GetTerms $taxonomy }}
+      <h5>
+        {{ range $n, $term := $terms }}{{ if $n }}, {{ end }}
+          <a href="{{ $term.RelPermalink }}">{{ $term.Title }}</a>
+        {{- end }}
+      </h5>
+      {{ end }}
+    {{ end }}
+</div >
+
+
+
+
+{{ if .Params.image }}
+<p>
+  {{ with .Resources.GetMatch .Params.image }}
+    <img src={{ .RelPermalink }} />
+  {{ else }}
+    <img src={{ .Params.image | relURL }} />
+  {{ end }}
+</p>
+{{ end }}
