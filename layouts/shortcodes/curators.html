@@ -1,0 +1,7 @@
+<div class="book-columns flex flex-wrap" style="margin-top: 40px;">
+{{ range split .Inner "<--->" }}
+  <div class="flex-even markdown-inner" align="center">
+    {{ . | $.Page.RenderString }}
+  </div>
+{{ end }}
+</div>
