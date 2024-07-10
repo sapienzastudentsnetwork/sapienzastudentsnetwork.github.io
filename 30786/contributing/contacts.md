@@ -6,19 +6,18 @@ weight: 2
 ---
 
 <style>
+@media screen and (min-width: 100px) {
+    .curatorList {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center
+    }
 
-.curatorList {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 50px
-}
-
-@media screen and (minx-width: 100px) {
     .curator {
         background-color: #5d656a30;
-        width: 80%;
-        height: 350px;
+        width: 90%;
+        height: 400px;
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
@@ -29,6 +28,13 @@ weight: 2
 }
 
 @media screen and (min-width: 520px) {
+    .curatorList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px
+    }
+
     .curator {
         background-color: #5d656a30;
         width: 45%;
@@ -50,16 +56,35 @@ weight: 2
 }
 
 @media screen and (min-width: 720px) {
+    .curatorList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 50px
+    }
+
     .curator {
         background-color: #5d656a30;
         width: 30%;
-        height: 350px;
+        height: 370px;
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+}
+
+.curSocials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -40px
+}
+
+.curSocialIcon {
+    color: #8e9693;
+    margin: 0 15px 0 15px;
 }
 
 .curPic {
@@ -113,11 +138,18 @@ weight: 2
     flex-wrap: wrap;
 }
 
+.separator {
+    width: 98%;
+    height: 1.5px;
+    background-color: #a3a3a3;
+    border-radius: 3px;
+    margin: 25px 0 20px 0;
+}
 </style>
 
 # Project Curators
 
-- **[Lorenzo Antonelli](https://github.com/Lorenzoantonelli):** Computer Science student, Tutor of the Computer Science Didactic Area Council ("CAD"), Staff Member of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and code developer;
+<!-- - **[Lorenzo Antonelli](https://github.com/Lorenzoantonelli):** Computer Science student, Tutor of the Computer Science Didactic Area Council ("CAD"), Staff Member of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and code developer;
 - **[Leonardo Biason (ElBi21)](https://github.com/ElBi21):** Applied Computer Science and Artificial Intelligence student, Tutor of the Computer Science Didactic Area Council ("CAD"), content curator and code developer;
 - **[Matteo Collica (matypist)](https://github.com/matypist):** Computer Science student, Student Representative at the Computer Science Didactic Area Council ("CAD"), Creator and Manager of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and code developer;
 - **[Ionut Cicio (CuriousCI)](https://github.com/CuriousCI):** Computer Science student, Tutor of the Computer Science Didactic Area Council ("CAD"), Staff Member of [Sapienza Students Network](https://hub.sapienzastudents.net/), content curator and code developer.
@@ -129,6 +161,11 @@ weight: 2
 <div class="curator">
     <img src="https://www.github.com/Lorenzoantonelli.png" class="curPic">
     <p class="curTitle"><b>Lorenzo Antonelli</b><p>
+    <div class="curSocials">
+        <a href="https://github.com/Lorenzoantonelli"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
+        <a href="https://github.com/Lorenzoantonelli"><i class="fa-brands fa-telegram curSocialIcon fa-2xl"></i></a>
+    </div>
+    <div class="separator"></div>
     <div class="curBadges">
         <div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> CS</div>
         <div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor for DI</div>
@@ -140,6 +177,11 @@ weight: 2
 <div class="curator">
     <img src="https://www.github.com/ElBi21.png" class="curPic">
     <p class="curTitle"><b>Leonardo Biason</b><p>
+    <div class="curSocials">
+        <a href="https://github.com/ElBi21"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
+        <a href="mailto:leonardo@biason.org"><i class="fa-solid fa-envelope curSocialIcon fa-2xl"></i></a>
+    </div>
+    <div class="separator"></div>
     <div class="curBadges">
         <div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> ACSAI</div>
         <div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor for DI</div>
@@ -151,6 +193,11 @@ weight: 2
 <div class="curator">
     <img src="https://www.github.com/matypist.png" class="curPic">
     <p class="curTitle"><b>Matteo Collica</b><p>
+    <div class="curSocials">
+        <a href="https://github.com/matypist"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
+        <!--<a href="mailto:leonardo@biason.org"><i class="fa-solid fa-envelope curSocialIcon fa-2xl"></i></a>-->
+    </div>
+    <div class="separator"></div>
     <div class="curBadges">
         <div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Informatica</div>
         <!--<div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor for DI</div>-->
@@ -163,8 +210,13 @@ weight: 2
 <div class="curator">
     <img src="https://www.github.com/CuriousCI.png" class="curPic">
     <p class="curTitle"><b>Ionut Cicio</b><p>
+    <div class="curSocials">
+        <a href="https://github.com/CuriousCI"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
+        <!--<a href="mailto:leonardo@biason.org"><i class="fa-solid fa-envelope curSocialIcon fa-2xl"></i></a>-->
+    </div>
+    <div class="separator"></div>
     <div class="curBadges">
-        <div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> CS</div>
+        <div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Informatica</div>
         <div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor for DI</div>
         <div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div>
         <div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div>
