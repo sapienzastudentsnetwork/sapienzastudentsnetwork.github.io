@@ -58,7 +58,7 @@
     .curator {
         background-color: #5d656a30;
         width: 30%;
-        height: 350px;
+        height: 370px;
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
@@ -68,7 +68,15 @@
 }
 
 .curSocials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -40px
+}
 
+.curSocialIcon {
+    color: #8e9693;
+    margin: 0 15px 0 15px;
 }
 
 .curPic {
@@ -93,6 +101,8 @@
     border-radius: 8px;
     padding: 1px 6px 1px 6px;
     margin: 4px;
+    text-decoration: none;
+    color: #e9ecef;
 }
 
 .curCourse {
@@ -120,4 +130,12 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.separator {
+    width: 98%;
+    height: 1.5px;
+    background-color: #a3a3a3;
+    border-radius: 3px;
+    margin: 25px 0 20px 0;
 }

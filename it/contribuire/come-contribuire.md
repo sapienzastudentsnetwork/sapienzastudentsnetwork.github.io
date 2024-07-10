@@ -27,7 +27,7 @@ Per contribuire allo sviluppo del sito, devi creare un **fork** del progetto e m
 
 1. Su GitHub, apri la [**repository del sito**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io) e crea un fork tramite il pulsante in alto a destra. Puoi chiamarlo come vuoi, non influirà sulla repo originale;
 2. Una volta creato il fork, devi **clonarlo in locale**. Prima di clonarlo, devi copiare l'indirizzo del repository: sulla pagina del fork che hai appena creato, clicca sul pulsante verde "**<i class="fa-solid fa-code" style="color: #63E6BE;"></i> Code**" che trovi in alto sulla pagina e copia l'URL `https` che dovrebbe terminare in `.git` dalla finestra pop-up appena aperta;
-3. Apri un terminale e naviga in una cartella dove vuoi clonare il fork. Una volta scelta la cartella, digita `git clone` e poi incolla il tuo URL dopo il comando. Vedrai qualcosa del tipo:
+3. Apri un terminale e naviga in una cartella dove vuoi clonare il fork. Una volta scelta la cartella, digita `git clone --recurse-submodules` e poi incolla il tuo URL dopo il comando. Vedrai qualcosa del tipo:
 ```bash
 git clone --recurse-submodules https://github.com/<tuo_username>/<nome_fork>.git
 ```
