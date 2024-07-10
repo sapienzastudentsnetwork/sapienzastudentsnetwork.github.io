@@ -23,7 +23,7 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti aflaag _(Alessio Bandiera)_](https://github.com/aflaag-notes)
 - [Appunti Rurik-D _(Emanuele D'Agostino)_](https://github.com/Rurik-D/University-notes)
-- [Appunti SimLid _(Simone Lidonnici)_](https://deserted-drawbridge-894.notion.site/Laurea-Informatica-646ba04621584c82a639604725750cc5)
+- [Appunti SimLid _(Simone Lidonnici)_](https://github.com/SimoneLid/Notes-Informatica)
 
 ## Secondo Anno
 
