@@ -3,6 +3,7 @@ theme = 'hugo-book'
 defaultContentLanguage = 'it'
 defaultContentLanguageInSubdir = true
 enableGitInfo = true
+custom_css = ["css/contributors.css"]
 
 [languages]
     [languages.it]

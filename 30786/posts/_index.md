@@ -1,7 +1,7 @@
 ---
 title: News
-bookFlatSection: true
+# bookFlatSection: true
 weight: 1
-_build:
-    list: never
+# _build:
+#    list: never
 ---
