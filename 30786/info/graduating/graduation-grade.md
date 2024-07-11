@@ -29,7 +29,7 @@ The maximum increment is 13 points. The Committee can add points to the weighted
 
 1. **Evaluation of the Internship Report**: from 0 to 9 points
 2. **Duration of the Study Program**:
-   - 3 points if you graduate within the legal duration of the program
+   - 3 points if you graduate within the legal duration of the program (before October)
    - 2 points if you graduate by March after the legal duration of the program
    - 1 point if you graduate within the first year beyond the legal duration
 3. **Exam Average**: 1 point if your average is at least 27/30
