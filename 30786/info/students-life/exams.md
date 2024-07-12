@@ -34,16 +34,23 @@ You will be able to find more information regarding which kind of exams you'll f
 
 In order to reserve an exam, you must do it through **Infostud**, the official student platform made by Sapienza. You can find Infostud by going to the official Sapienza website ([uniroma1.it](https://www.uniroma1.it)) and navigating to the `Studenti`/`Students` section. There, you'll find two versions of Infostud: `Desktop` and `Mobile`. They both allow you to do the same things. If you are on a computer, you can freely open both versions, since they are responsive for desktops. If you are on a mobile, consider opening the mobile version, since is adapted for small, vertical devices.
 
-{{< columns >}}
-
 1. Go to the [uniroma1.it](https://www.uniroma1.it) website, and click on the `Studenti`/`Students` section;
-<br><br>
+
+<img src="https://i.imgur.com/5d9TxZN.png">
+<p style="font-size: 8pt">Step 1: homepage of Sapienza's website</p>
+
 2. Choose if you want to open the `Desktop` or `Mobile` version of Infostud. Depending on the one that you choose, click on the corresponding tab here below;
-<br><br>
+
+<img src="https://i.imgur.com/kcmhsej.png">
+<p style="font-size: 8pt">Step 2: <code>Studenti</code>/<code>Students</code> webpage</p>
+
 3. After clicking on any of the two versions of Infostud, you'll be brought to the SSO page for accessing any Sapienza service. There will be 3 options for logging in:
     - **Matricola**: you will be able to log in with your matricola and password;
     - **SPID**: log in through your SPID method;
     - **CIE**: log in with your Carta d'Identità (**CI**), the italian ID card.
+
+<img src="https://i.imgur.com/JB10ioP.png">
+<p style="font-size: 8pt">Step 3: unified SSO page, with the three login options</p>
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
@@ -52,21 +59,6 @@ If you are italian or you have an italian CI, then **you must log in** with eith
 
 The italian CI is not the same of the "Permesso di Soggiorno" (**PdS**, from here on) (the Staying Permit): if you have the PdS then you can access through your matricola.
 {{< /hint >}}
-
-<--->
-
-<img src="https://i.imgur.com/5d9TxZN.png">
-<p style="font-size: 8pt">Step 1: homepage of Sapienza's website</p>
-<br>
-
-<img src="https://i.imgur.com/kcmhsej.png">
-<p style="font-size: 8pt">Step 2: <code>Studenti</code>/<code>Students</code> webpage</p>
-<br>
-
-<img src="https://i.imgur.com/JB10ioP.png">
-<p style="font-size: 8pt">Step 3: unified SSO page, with the three login options</p>
-
-{{< /columns >}}
 
 Now, depending on the platform that you chose at step 2, the procedure may vary slightly. Here we show the procedure for both platforms:
 
@@ -122,7 +114,7 @@ If you can't book for an exam date, check whether the reservation period opened 
 
 6. Finally, choose the date that you want to book. On the corresponding date, select first the checkmark on the top-right corner. After that, a pop-up will show on the bottom of the page. There, select from the attendance mode menu the voice `In presenza`, and finally click on `Continua`/`Continue`. If all went well, you will receive an email notification on your institutional email with the receipt of the exam, confirming that the booking was successful.
 
-<img src="https://i.imgur.com/4jQtWVj.png"> 
+<img src="https://i.imgur.com/4jQtWVj.png">
 <p style="font-size: 8pt">Step 6: Select the date that you want to book and choose the exam modality. After that, click on <code>Continua</code>/<code>Continue</code></p>
 
 {{< hint warning >}}
