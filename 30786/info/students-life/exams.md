@@ -157,6 +157,8 @@ You can see the exams to which you registered within InfoStud.
 
 <img src="https://i.imgur.com/kQFvSEu.png">
 
+---
+
 - In the **mobile version**, you can delete an exam by searching it first among the booked exams, then pressing the downwards arrow on the corresponding exam and finally pressing the trashcan glyph.
 
 <img src="https://i.imgur.com/XLQPej4.png">
@@ -177,9 +179,25 @@ If you don't see immediately your grade on InfoStud, it's fine. The professors m
 
 {{< /details >}}
 <br>
-{{< details "Where can I see my grades?">}}
+{{< details "**Where can I see my grades?**">}}
 
-to-do
+In the **desktop version** of InfoStud, do the following steps:
+1. Once in the homepage, click on the `Corsi di Laurea`/`Bachelors and Masters Degree Programmes` menu;
+
+<img src="https://i.imgur.com/HGcNtGz.png">
+
+2. Navigate on the left until the `Esami registrati`/`Registered exams` and click on that menu. On the page on which you'll arrive, you'll see a list of all the held exams. Alternatively, when in the main menu, click on the `Statistiche`/`Statistics` voice on the top right (above the `Masters`/`Professional Master Courses` menu);
+
+<img src="https://i.imgur.com/V7fYQUY.png">
+
+---
+
+In the **mobile version** of InfoStud, just click on the button where you can see your last registered exam: a new page will open up with a plot of your grades and a list of your passed exams.
+
+<img src="https://i.imgur.com/BDSElCA.png">
+
+<img src="https://i.imgur.com/l9PXIcn.png">
+
 
 {{< /details >}}
 <br>
