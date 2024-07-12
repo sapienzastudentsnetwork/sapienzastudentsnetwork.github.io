@@ -97,6 +97,6 @@ weight: 2
     </tr>
     <tr>
         <td align="center"><div class="curBadge curCADRepr" id="anch_curBadge_CADRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> Student Representative</div></td>
-        <td>This badge shows that the curator is a Student Representative for the Computer Science department</td>
+        <td>This badge shows that the curator is a Student Representative for the Computer Science Didactic Area Council ("CAD")</td>
     </tr>
 </table>
