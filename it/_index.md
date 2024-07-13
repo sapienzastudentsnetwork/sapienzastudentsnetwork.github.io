@@ -1,5 +1,6 @@
 ---
 title: Home
+bookToc: False
 ---
 # Benvenuto! 💻
 
