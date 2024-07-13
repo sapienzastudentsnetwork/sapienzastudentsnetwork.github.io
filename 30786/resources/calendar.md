@@ -41,6 +41,11 @@ The calendar can be also seen from the [official department's page](https://web.
         </td>
     </tr>
     <tr>
+        <td>17/3/2025 (Monday)</td>
+        <td>18/4/2025 (Friday)</td>
+        <td>1st Extraordinary Exam Session</td>
+    </tr>
+    <tr>
         <td>3/6/2025 (Tuesday)</td>
         <td>25/7/2025 (Friday)</td>
         <td>Summer Exam Session</td>
@@ -49,5 +54,10 @@ The calendar can be also seen from the [official department's page](https://web.
         <td>1/9/2025 (Monday)</td>
         <td>23/9/2025 (Tuesday)</td>
         <td>Semptember Exam Session</td>
+    </tr>
+    <tr>
+        <td>8/10/2025 (Wednesday)</td>
+        <td>6/11/2025 (Thursday)</td>
+        <td>2nd Extraordinary Exam Session</td>
     </tr>
 </table>
