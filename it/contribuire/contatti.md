@@ -1,6 +1,6 @@
 ---
-title: "Contatti"
-aliases: ["/contatti", "/it/contribuire/curatori-del-progetto"]
+title: "Contatti & curatori progetto"
+aliases: ["/it/contribuire/curatori-del-progetto"]
 bookToC: false
 ---
 # Curatori del progetto
