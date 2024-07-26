@@ -9,7 +9,7 @@ Nel terzo anno del corso di laurea in Informatica, gli studenti completano la lo
 
 La maggior parte delle informazioni riportate in questa pagina sono state tratte dalla pagina Frequentare del Corso di Laurea in Informatica dedicata alla [Compilazione del percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione#bootstrap-fieldgroup-nav-item-compilazione-del-percorso-formativo)
 
-## Cosa è un percorso formativo
+## Come funziona il percorso formativo
 
 Un percorso formativo l'insieme degli insegnamenti di cui sostenere l'esame al fine di conseguire il titolo di studio (laurea triennale). Gli studenti sprovvisti di percorso formativo non potranno prenotare né sostenere gli esami degli insegnamenti a scelta, ma soltanto quelli obbligatori per tutti.
 
