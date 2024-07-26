@@ -175,7 +175,7 @@ La lista è stata creata per aiutare gli studenti e le studentesse a scegliere g
 
 <details>
     <summary>Posso scegliere tutti insegnamenti interni?</summary>
-    **Sì**, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (29923). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
+    <b>Sì</b>, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (29923). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
 </details>
 
 <details>
@@ -185,5 +185,5 @@ La lista è stata creata per aiutare gli studenti e le studentesse a scegliere g
 
 <details>
     <summary>Cosa posso fare se ho scelto un insegnamento che non mi piace?</summary>
-    Se **non hai ancora inviato il percorso formativo**, puoi modificare la tua scelta di insegnamenti. Se invece hai già inviato il percorso, dovrai attendere l'Anno Accademico successivo per effettuare eventuali cambiamenti. In alcuni casi, è possibile richiedere una modifica anticipata al [docente responsabile per i percorsi formativi](#docente-di-riferimento), previa autorizzazione.
+    Se <b>non hai ancora inviato il percorso formativo</b>, puoi modificare la tua scelta di insegnamenti. Se invece hai già inviato il percorso, dovrai attendere l'Anno Accademico successivo per effettuare eventuali cambiamenti. In alcuni casi, è possibile richiedere una modifica anticipata al <a href="#docente-di-riferimento">docente responsabile per i percorsi formativi</a>, previa autorizzazione.
 </details>
