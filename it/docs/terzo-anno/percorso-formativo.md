@@ -5,25 +5,29 @@ aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percors
 
 # Percorso Formativo
 
-Nel terzo anno del corso di laurea in Informatica, gli studenti completano la loro formazione con due insegnamenti obbligatori: "Ingegneria del Software" e "Automi, Calcolabilità e Complessità". Inoltre, sono tenuti a presentare un percorso formativo (comunemente chiamato "piano di studio" o "Piano di Completamento"), che deve essere approvato dalla Commissione competente. In questo modo si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione**.
+Nel terzo anno del corso di laurea in Informatica, gli studenti completano la loro formazione con due insegnamenti obbligatori: "Ingegneria del Software" e "Automi, Calcolabilità e Complessità".
 
-La maggior parte delle informazioni riportate in questa pagina sono state tratte dalla pagina Frequentare del Corso di Laurea in Informatica dedicata alla [Compilazione del percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione#bootstrap-fieldgroup-nav-item-compilazione-del-percorso-formativo)
+Inoltre, sono tenuti a presentare un percorso formativo (comunemente chiamato "piano di studio" o "Piano di Completamento"), che deve essere approvato dalla Commissione competente. In questo modo si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione**.
+
+La maggior parte delle informazioni riportate in questa pagina sono state tratte dalla pagina Frequentare del Corso di Laurea in Informatica dedicata alla [compilazione del percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione#bootstrap-fieldgroup-nav-item-compilazione-del-percorso-formativo).
 
 ## Come funziona il percorso formativo
 
-Un percorso formativo l'insieme degli insegnamenti di cui sostenere l'esame al fine di conseguire il titolo di studio (laurea triennale). Gli studenti sprovvisti di percorso formativo non potranno prenotare né sostenere gli esami degli insegnamenti a scelta, ma soltanto quelli obbligatori per tutti.
+Un percorso formativo rappresenta l'insieme degli insegnamenti di cui sostenere l'esame al fine di conseguire il titolo di studio (laurea triennale).
+
+Gli studenti sprovvisti di percorso formativo non potranno prenotare né sostenere gli esami degli insegnamenti a scelta, ma soltanto quelli obbligatori per tutti.
 
 ### Quanti insegnamenti scegliere
 
-Ogni studente deve scegliere **30 CFU** di **insegnamenti opzionali**, di cui **12 CFU** possono essere scelti anche al di fuori del manifesto del corso di studi, incluse altre facoltà.
+Ogni studente deve scegliere **30 CFU** di **insegnamenti opzionali**. È possibile scegliere, ad esempio, 5 insegnamenti da 6 CFU o altre combinazioni che portano a un totale di 30 CFU, come 3 insegnamenti da 6 CFU e 1 insegnamento da 12 CFU, e così via.
 
-È possibile scegliere, ad esempio, 5 insegnamenti da 6 CFU o altre combinazioni che portano a un totale di 30 CFU, come 3 insegnamenti da 6 CFU e 1 insegnamento da 12 CFU, e così via.
+**12 CFU** dei **30 CFU** possono essere scelti anche al di fuori del manifesto del corso di studi, incluse altre facoltà.
 
 ### Quando presentare il proprio percorso formativo
 
-Gli studenti possono presentare o chiedere di rinnovare il loro percorso formativo, una volta raggiunto il Terzo Anno, una sola volta per ogni anno accademico.
+Gli studenti, una volta raggiunto il Terzo Anno, possono presentare o chiedere di rinnovare il loro percorso formativo una sola volta per ogni anno accademico.
 
-Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabella, distinte in base al loro anno di immatricolazione al Primo Anno (e ciò per via di modifiche regolamentari che si sono susseguite negli anni):
+Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabella, distinte in base al tuo anno di immatricolazione al Primo Anno (e ciò per via di modifiche regolamentari che si sono susseguite negli anni):
 
 | Anno di immatricolazione | Finestra di presentazione del percorso formativo         |
 |--------------------------|----------------------------------------------------------|
@@ -33,19 +37,19 @@ Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabel
 | 2022/23                  | dal 1 al 31 dicembre 2024                                |
 | 2023/24                  | dal 1 al 31 dicembre 2025                                |
 | 2024/25                  | dal 15 settembre al 30 novembre 2026                     |
-| 2025/26 e successivi     | dal 15 settembre al 30 novembre 2027                     |
+| 2025/26 e successivi     | dal 15 settembre al 30 novembre                          |
 
 ### Come presentare o rinnovare il proprio percorso formativo
 
-La presentazione di un percorso formativo avviene online tramite il sistema Infostud seguendo la procedura descritta nel [**Manuale Studenti – SIAD – Percorsi formativi**](https://drive.google.com/file/d/10vPLZKxIqgS1a4SItdhS6lj8OmdRfeIC/view?usp=sharing).
+La presentazione di un percorso formativo avviene online, tramite il sistema Infostud, secondo la procedura descritta nel [**Manuale Studenti – SIAD – Percorsi formativi**](https://drive.google.com/file/d/10vPLZKxIqgS1a4SItdhS6lj8OmdRfeIC/view?usp=sharing).
 
 - La stessa procedura viene utilizzata per rinnovare il percorso formativo, presentando un nuovo percorso con la modifica degli insegnamenti non obbligatori;
 
 - Non è necessario presentare un nuovo percorso se non si vogliono apportare modifiche.
 
-Qualora lo studente pre-scelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del Corso di Laurea in Informatica, otterrà l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il  seguente: Il percorso formativo proposto è corretto e può essere approvato automaticamente.
+Qualora lo studente pre-scelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del Corso di Laurea in Informatica, otterrà l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: "Il percorso formativo proposto è corretto e può essere approvato automaticamente."
 
-In tutti gli altri casi, gli studenti dovranno attendere la verifica del loro percorso formativo da parte di un [docente incaricato della validazione](#docente-di-riferimento).
+In tutti gli altri casi, gli studenti dovranno attendere la verifica del loro percorso formativo da parte di un [docente incaricato della validazione](#docente-di-riferimento); verifica che avverrà entro alcune settimane.
 
 ### Come scegliere gli insegnamenti esterni
 
@@ -53,11 +57,11 @@ Ogni studente può scegliere **12 CFU** di insegnamenti anche al di fuori del ma
 
 La scelta di un insegnamento esterno deve essere comunque inerente al corso di laurea in Informatica, quindi deve essere un **insegnamento che può essere utile per la formazione informatica**.
 
-- _Per esempio, un insegnamento di Matematica potrebbe essere utile per la formazione Informatica, ma un insegnamento di Storia molto probabilmente non verrebbe reputato utile._
+- _Per esempio, un insegnamento di Matematica potrebbe essere utile per la formazione informatica, ma un insegnamento di Storia molto probabilmente non verrebbe reputato utile._
 
 Per sicurezza lo studente può chiedere al docente di riferimento nella [Commissione competente per la valutazione e l'approvazione dei percorsi formativi](#docente-di-riferimento) se l'insegnamento scelto è inerente al corso di laurea, ad esempio inviando una mail, con il nome dell'insegnamento, il Corso di Laurea e la Facoltà in cui viene erogato, cercando di motivare la scelta dell'insegnamento e chiedendo conferma circa se è possibile scegliere quell'insegnamento come parte del proprio percorso formativo.
 
-Ricorda bene che non sempre **gli insegnamenti esterni scelti** vengono accettati, **spesso vengono rifiutati** poiché simili ad insegnamenti già presenti nel Corso di Laurea oppure in quanto non inerenti.
+Ricorda bene che non sempre **gli insegnamenti esterni scelti** vengono accettati, **spesso vengono rifiutati** poiché simili a insegnamenti già presenti come insegnamenti obbligatori nel Corso di Laurea, oppure in quanto non inerenti.
 
 Alcuni insegnamenti che sappiamo essere stati verbalizzati come insegnamenti esterni a studenti di Informatica in anni precedenti sono elencati nella sezione [insegnamenti a scelta esterni](#insegnamenti-a-scelta-esterni).
 
@@ -65,7 +69,7 @@ Alcuni insegnamenti che sappiamo essere stati verbalizzati come insegnamenti est
 
 La "Commissione competente per la valutazione e l'approvazione dei percorsi formativi" si occupa di valutare e approvare i percorsi formativi entro alcune settimane.
 
-> Quindi gli studenti sono invitati a non scrivere prima di due settimane se non strettamente necessario. In caso di mancata approvazione, gli studenti riceveranno opportuna comunicazione sulle modifiche da apportare in modo da rendere il piano di studi conforme al regolamento dei percorsi formativi. Uno studente può ripresentare un nuovo percorso con le dovute correzioni subito dopo la notifica della mancata approvazione.
+> Gli studenti sono invitati a non scrivere prima di due settimane se non strettamente necessario. In caso di mancata approvazione, gli studenti riceveranno opportuna comunicazione sulle modifiche da apportare in modo da rendere il piano di studi conforme al regolamento dei percorsi formativi. Uno studente può ripresentare un nuovo percorso con le dovute correzioni subito dopo la notifica della mancata approvazione.
 
 Il docente di riferimento nella Commissione competente per la laurea triennale è il [Prof. Angelo Spognardi](https://www.di.uniroma1.it/it/docenti/spognardi-angelo), al quale è possibile scrivere per ulteriori informazioni e/o richieste motivate di approvazione urgente (ad esempio, learning agreement per il programma Erasmus).
 
@@ -112,7 +116,7 @@ Tecnologico:
 | Insegnamento | Codice           | Curriculum |                Telegram                |
 |--|------------------|--|:--------------------------------------:|
 | Biologia Computazionale | 1031337          | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/f8f1a527-018e-45e6-9036-46072a4fea8d/25970a64-877d-4e03-9a50-ef039a5d72f1), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/12eec10d-678e-4f06-b075-fa15644a6e06?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+cBediJPv7GxmZTc8) | 
-| Intelligenza Artificiale | 1022262          | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/928c18e5-7f86-4bed-9ab2-b3e4b775a1a1?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a9543e16-a6cc-455e-a3c7-cb2135bf8d05/2d25cfc5-5734-434c-8174-8e0995f358d1), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/8bcc378c-9ff1-4263-87b7-04a394485a9f?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+qSkWuJbIauY2ODI0) | 
+| Intelligenza Artificiale | 1022262          | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/928c18e5-7f86-4bed-9ab2-b3e4b775a1a1?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a9543e16-a6cc-455e-a3c7-cb2135bf8d05/2d25cfc5-5734-434c-8174-8e0995f358d1), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/c1dc92eb-a7c0-4ece-b911-10bcbe675284?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+qSkWuJbIauY2ODI0) | 
 | Linguaggi e Compilatori | 1041761          | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/3b3f96d1-1768-4611-b483-65c3f675e80d/25970a64-877d-4e03-9a50-ef039a5d72f1), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/f3218073-0b38-4b71-8dfd-12b00fb0cfbb/0e53443e-177c-4708-846e-85857f06a57e) | [Chat](https://t.me/+EOvDZsXSLI0zZGRk) | 
 | Matematica Discreta | 1021828          | [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a863ee71-ed31-4197-84e8-3406a49964b7?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+x5k6q2yrsztlOWVk) |
 | Modelli e Ottimizzazione | 1022265          | [mc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/bc90354a-737e-45c9-8228-74561cf056ed?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a), [ma](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/e5503d11-9664-4ac9-aa86-24e8237faf53/2d25cfc5-5734-434c-8174-8e0995f358d1), [tmc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/47af8b6b-1ba2-4108-80ad-301a1dae19c6?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+TyMj4NBvh8pVeId9) | 
