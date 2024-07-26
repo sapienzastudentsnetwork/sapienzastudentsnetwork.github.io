@@ -5,75 +5,80 @@ aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percors
 
 # Percorso Formativo
 
-Nel terzo anno si completa la formazione informatica con due insegnamenti obbligatori di "Ingegneria del Software" e "Automi, Calcolabilità e Complessità", e si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione** attraverso la scelta di un **percorso formativo**.
+Nel terzo anno del corso di laurea in Informatica, gli studenti completano la loro formazione con due insegnamenti obbligatori: "Ingegneria del Software" e "Automi, Calcolabilità e Complessità". Inoltre, sono tenuti a presentare un percorso formativo (comunemente chiamato "piano di studio" o "Piano di Completamento"), che deve essere approvato dalla Commissione competente. In questo modo si offre allo studente la possibilità di **scegliere in quale direzione approfondire la propria preparazione**.
 
-## Come funziona il percorso formativo
+La maggior parte delle informazioni riportate in questa pagina sono state tratte dalla pagina Frequentare del Corso di Laurea in Informatica dedicata alla [Compilazione del percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione#bootstrap-fieldgroup-nav-item-compilazione-del-percorso-formativo)
 
-Gli studenti sono invitati a presentare il loro percorso formativo dopo l'inizio del loro terzo anno al fine di scegliere come completare il loro curriculum con insegnamenti non obbligatori per tutti.
+## Cosa è un percorso formativo
 
-Le informazioni ufficiali in merito al percorso formativo sono disponibili nell'apposita sezione della pagina [Frequentare](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) del corso di laurea, da cui la maggior parte delle informazioni che potete trovare qui sono state tratte.
+Un percorso formativo l'insieme degli insegnamenti di cui sostenere l'esame al fine di conseguire il titolo di studio (laurea triennale). Gli studenti sprovvisti di percorso formativo non potranno prenotare né sostenere gli esami degli insegnamenti a scelta, ma soltanto quelli obbligatori per tutti.
 
-### Quanti esami scegliere
+### Quanti insegnamenti scegliere
 
-Ogni studente ha a disposizione **30 CFU** di **esami a scelta**, di cui **12 CFU** anche al di fuori del manifesto del corso di studi (quindi anche di altri corsi di laurea o anche di altre facoltà).
+Ogni studente deve scegliere **30 CFU** di **insegnamenti opzionali**, di cui **12 CFU** possono essere scelti anche al di fuori del manifesto del corso di studi, incluse altre facoltà.
 
-È quindi possibile scegliere, ad esempio, 5 esami da 6 CFU, o altre combinazioni che producono un totale di 30 CFU come 3 esami da 6 CFU e 1 esame da 12 CFU e così via.
+È possibile scegliere, ad esempio, 5 insegnamenti da 6 CFU o altre combinazioni che portano a un totale di 30 CFU, come 3 insegnamenti da 6 CFU e 1 insegnamento da 12 CFU, e così via.
 
 ### Quando presentare il proprio percorso formativo
 
+Gli studenti possono presentare o chiedere di rinnovare il loro percorso formativo, una volta raggiunto il Terzo Anno, una sola volta per ogni anno accademico.
+
+Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabella, distinte in base al loro anno di immatricolazione al Primo Anno (e ciò per via di modifiche regolamentari che si sono susseguite negli anni):
+
 | Anno di immatricolazione | Finestra di presentazione del percorso formativo         |
-|---------|----------------------------------------------------------|
-| Antecedente al 2020/21 | dal 1 settembre al 31 dicembre e dal 1 marzo al 31 marzo |
-| 2020/21 | dal 1 al 31 dicembre                                     |
-| 2021/22 | dal 1 al 31 dicembre                                     |
-| 2022/23 | dal 1 al 31 dicembre                                     |
-| 2023/24 | dal 1 al 31 dicembre                                     |
-| 2024/25 | dal 15 settembre al 30 novembre                          |
-| 2025/26 e successivi | dal 15 settembre al 30 novembre                          |
+|--------------------------|----------------------------------------------------------|
+| Antecedente al 2020/21   | dal 1 settembre al 31 dicembre e dal 1 marzo al 31 marzo |
+| 2020/21                  | dal 1 al 31 dicembre                                     |
+| 2021/22                  | dal 1 al 31 dicembre                                     |
+| 2022/23                  | dal 1 al 31 dicembre 2024                                |
+| 2023/24                  | dal 1 al 31 dicembre 2025                                |
+| 2024/25                  | dal 15 settembre al 30 novembre 2026                     |
+| 2025/26 e successivi     | dal 15 settembre al 30 novembre 2027                     |
 
-### Come compilare il proprio percorso formativo
+### Come presentare o rinnovare il proprio percorso formativo
 
-> Tutte le informazioni relative alla compilazione dei percorsi formativi, anche riferiti nel SIAD e nei nostri manifesti come 'Piani di Completamento', possono essere reperite nei seguenti manuali relativi alle due diverse interfacce di sistema: [manuale Studenti - SIAD - Percorsi Formativi Versione 1.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/didattica/Manuale_Percorsi_Formativi_Lato%20Studente_2011_11_11.pdf), [manuale Studenti - SIAD - Percorsi Formativi Versione 2.0](https://www.studiareinformatica.uniroma1.it/sites/default/files/Manuale_Percorsi_Formativi_Guida_Informatica_SapienzaV2.pdf)
+La presentazione di un percorso formativo avviene online tramite il sistema Infostud seguendo la procedura descritta nel [**Manuale Studenti – SIAD – Percorsi formativi**](https://drive.google.com/file/d/10vPLZKxIqgS1a4SItdhS6lj8OmdRfeIC/view?usp=sharing).
 
-> Qualora lo studente prescelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del nostro Corso di Laurea, otterranno l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: 'Il percorso formativo proposto è corretto e può essere approvato automaticamente'.
+- La stessa procedura viene utilizzata per rinnovare il percorso formativo, presentando un nuovo percorso con la modifica degli insegnamenti non obbligatori;
 
-In tutti gli altri casi è prevista la verifica del percorso formativo da parte di un [docente incaricato della validazione](#commissione-competente).
+- Non è necessario presentare un nuovo percorso se non si vogliono apportare modifiche.
 
-### Come scegliere gli esami esterni
+Qualora lo studente pre-scelga un Percorso Formativo Curriculare (PFC) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del Corso di Laurea in Informatica, otterrà l'approvazione automatica del piano di studi. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il  seguente: Il percorso formativo proposto è corretto e può essere approvato automaticamente.
 
-Ogni studente può scegliere **12 CFU** di esami anche al di fuori del manifesto del corso di studi (quindi anche di altri corsi di laurea o anche di altre facoltà), ma **come scegliere questi esami?**
+In tutti gli altri casi, gli studenti dovranno attendere la verifica del loro percorso formativo da parte di un [docente incaricato della validazione](#docente-di-riferimento).
 
-La scelta di un esame esterno deve essere inerente al corso di laurea, quindi deve essere un **esame che può essere utile per la formazione informatica**.
+### Come scegliere gli insegnamenti esterni
 
-- _Per esempio, un esame di matematica potrebbe essere utile per la formazione informatica, ma un esame di storia molto probabilmente non verrà reputato utile._
+Ogni studente può scegliere **12 CFU** di insegnamenti anche al di fuori del manifesto del corso di studi (quindi anche di altri corsi di laurea o anche di altre facoltà), ma **come scegliere questi insegnamenti?**
 
-Per sicurezza lo studente può chiedere al docente di riferimento nella [Commissione competente per la valutazione e l'approvazione dei percorsi formativi](#commissione-competente) se l'esame scelto è inerente al corso di laurea, ad esempio inviando una mail, con il nome dell'esame e la facoltà, in cui cerca di motivare la scelta dell'esame e chiede conferma circa se è possibile scegliere quell'esame per il percorso formativo.
+La scelta di un insegnamento esterno deve essere comunque inerente al corso di laurea in Informatica, quindi deve essere un **insegnamento che può essere utile per la formazione informatica**.
 
-Ricorda bene che non sempre **gli esami esterni proposti** vengono accettati, **spesso vengono rifiutati** poiché simili ad esami già presenti nel corso di laurea oppure in quanto non inerenti.
+- _Per esempio, un insegnamento di Matematica potrebbe essere utile per la formazione Informatica, ma un insegnamento di Storia molto probabilmente non verrebbe reputato utile._
 
-Alcuni esami che sappiamo essere stati verbalizzati come esami esterni a studenti di Informatica in anni precedenti sono elencati nella sezione [esami a scelta esterni](#esami-a-scelta-esterni).
+Per sicurezza lo studente può chiedere al docente di riferimento nella [Commissione competente per la valutazione e l'approvazione dei percorsi formativi](#docente-di-riferimento) se l'insegnamento scelto è inerente al corso di laurea, ad esempio inviando una mail, con il nome dell'insegnamento, il Corso di Laurea e la Facoltà in cui viene erogato, cercando di motivare la scelta dell'insegnamento e chiedendo conferma circa se è possibile scegliere quell'insegnamento come parte del proprio percorso formativo.
 
-### Commissione competente
+Ricorda bene che non sempre **gli insegnamenti esterni scelti** vengono accettati, **spesso vengono rifiutati** poiché simili ad insegnamenti già presenti nel Corso di Laurea oppure in quanto non inerenti.
+
+Alcuni insegnamenti che sappiamo essere stati verbalizzati come insegnamenti esterni a studenti di Informatica in anni precedenti sono elencati nella sezione [insegnamenti a scelta esterni](#insegnamenti-a-scelta-esterni).
+
+### Docente di riferimento
 
 La "Commissione competente per la valutazione e l'approvazione dei percorsi formativi" si occupa di valutare e approvare i percorsi formativi entro alcune settimane.
 
-> Gli studenti riceveranno opportuna comunicazione sulle modifiche da apportare in modo da rendere il piano di studi conforme al regolamento dei percorsi formativi. Uno studente può ripresentare in nuovo percorso con le dovute correzioni subito dopo la notifica della mancata approvazione.
+> Quindi gli studenti sono invitati a non scrivere prima di due settimane se non strettamente necessario. In caso di mancata approvazione, gli studenti riceveranno opportuna comunicazione sulle modifiche da apportare in modo da rendere il piano di studi conforme al regolamento dei percorsi formativi. Uno studente può ripresentare un nuovo percorso con le dovute correzioni subito dopo la notifica della mancata approvazione.
 
-Il docente di riferimento è il [Prof. Angelo Spognardi](https://www.di.uniroma1.it/it/docenti/spognardi-angelo),
+Il docente di riferimento nella Commissione competente per la laurea triennale è il [Prof. Angelo Spognardi](https://www.di.uniroma1.it/it/docenti/spognardi-angelo), al quale è possibile scrivere per ulteriori informazioni e/o richieste motivate di approvazione urgente (ad esempio, learning agreement per il programma Erasmus).
 
-> al quale è possibile scrivere per ulteriori informazioni e/o richieste motivate di approvazione urgente.
+## Insegnamenti
 
-<!-- :books:  -->
-## Esami
+### Insegnamenti obbligatori
 
-### Esami obbligatori
-
-| Esame | CFU |
-|-|-:|
+| Insegnamento                                                                                                                                                                                                                                                                                                                                                                    | CFU |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-:|
 | [Automi, Calcolabilità e Complessità](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/6543ae72-79ee-4d09-be79-43786792f287?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | 6 |
-| [Ingegneria Del Software](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/8bcc378c-9ff1-4263-87b7-04a394485a9f?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | 6 |
+| [Ingegneria Del Software](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/8bcc378c-9ff1-4263-87b7-04a394485a9f?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a)             | 6 |
 
-### Esami a scelta interni
+### Insegnamenti a scelta interni
 
 #### Legenda curriculum
 
@@ -116,52 +121,52 @@ Tecnologico:
 | Verifica e Validazione di Sistemi Intelligenti | 10600494         | [ta](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/0842a63f-a193-4186-9e4a-d5dba483752f/25970a64-877d-4e03-9a50-ef039a5d72f1), [tc](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4ec81886-0068-42fe-aede-0141fb81bb64/c8905320-4c31-40bd-b20b-28e20d3b8b78?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
 <!--| Machine Learning | 1047635 |                mc, tmc                 | Chat |-->
 
-### Esami a scelta esterni
+### Insegnamenti a scelta esterni
 
-Segue una lista di alcuni esami che sappiamo essere stati verbalizzati come esami esterni a studenti di Informatica in anni precedenti
+Segue una lista di alcuni insegnamenti che sappiamo essere stati verbalizzati come insegnamenti esterni a studenti di Informatica in anni precedenti
 
-- **N.B.:** alcuni di questi esami potrebbero essere stati convalidati a studenti che si trasferivano da altri corsi anziché essere stati direttamente scelti come parte del percorso formativo per il terzo anno di Informatica
+- **N.B.:** alcuni di questi insegnamenti potrebbero essere stati convalidati a studenti che si trasferivano da altri corsi anziché essere stati direttamente scelti come parte del percorso formativo per il terzo anno di Informatica
 
-Consulta anche le indicazioni su [come scegliere gli esami esterni](#come-scegliere-gli-esami-esterni) per ulteriori informazioni in merito!
+Consulta anche le indicazioni su [come scegliere gli insegnamenti esterni](#come-scegliere-gli-insegnamenti-esterni) per ulteriori informazioni in merito!
 
-| Esame | Codice | CdL                                                                                              | CFU | Chat |
-|--|--|--------------------------------------------------------------------------------------------------|--|--|
-| AI Lab: Computer Vision and NLP | [10595610](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/5bdc55e7-ac18-48d8-a75c-a7e4dab0f26c/3583e1b7-4c99-4d44-811f-53b3082bad7f?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+wg42G94fUtJlY2Fk) | 
-| Applicazioni dell'Automatica | - | -                                                                                                | - | - |
-| Automazione | - | -                                                                                                | - | - |
-| Basi Molecolari e Cellulari della Vita | - | -                                                                                                | - | - |
-| Biology of the Cell | - | -                                                                                                | - | - |
-| Chimica | - | -                                                                                                | - | - |
-| Chimica Biologica | - | -                                                                                                | - | - |
-| Combinatoria per Informatica | - | -                                                                                                | - | - |
-| Cybersecurity | [10595532](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/d6e7a387-20b3-4a2b-b61e-93a1e051b6c8/44f36b55-0d8d-4db4-ac99-287e21c9e30f?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0) |
-| Economia Applicata | - | -                                                                                                | - | - |
-| Economia Politica | - | -                                                                                                | - | - |
-| Elettrotecnica | - | -                                                                                                | - | - |
-| Filologia Romanza II A | - | -                                                                                                | - | - |
-| Filosofia del Diritto | - | -                                                                                                | - | - |
-| Fisica Tecnica | - | -                                                                                                | - | - |
-| Fondamenti di Automatica | - | -                                                                                                | - | - |
-| Fondamenti di Filologia e Linguistica Romana | - | -                                                                                                | - | - |
-| Gamification e Game Design | [1047674](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29400/20220331104432/8743a256-1f46-4afb-a693-6a41cb5aa90b/c6eacf19-511e-438f-bfea-2ff3441d7202/dcdb65b9-1278-4f33-9a75-8d860282b5ae/cc46fb68-7425-4aa6-8183-6144b7d37b67?guid_cv=c6eacf19-511e-438f-bfea-2ff3441d7202&current_erogata=8743a256-1f46-4afb-a693-6a41cb5aa90b) | [[29400] Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)    | 6 | [Telegram](https://t.me/+CnCSKOzEdU05ODE0) |
-| Istituzioni di Diritto Pubblico | - | -                                                                                                | - | - |
-| Laboratorio di Calcolo | - | -                                                                                                | - | - |
-| Laboratorio di Fisica Computazionale I | - | -                                                                                                | - | - |
-| Laboratorio di Meccanica | - | -                                                                                                | - | - |
-| Law and Computer Science | [10595537](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/60b9f6c1-6be8-4365-9aef-020f7c1b0cbb/b1ed52be-80f5-474d-83eb-471e916fe25a?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
-| Matematica Corso Base | - | -                                                                                                | - | - |
-| Meccanica | - | -                                                                                                | - | - |
-| Meccanica Statistica | - | -                                                                                                | - | - |
-| Reti di Telecomunicazioni | - | -                                                                                                | - | - |
-| Sociologia dei Processi Culturali | - | -                                                                                                | - | - |
-| Storia della Pedagogia | - | -                                                                                                | - | - |
-| Tecniche di Programmazione | - | -                                                                                                | - | - |
-| Teoria dei Segnali | - | -                                                                                                | - | - |
+| Insegnamento                                    | Codice | CdL                                                                                              | CFU | Chat |
+|-------------------------------------------------|--|--------------------------------------------------------------------------------------------------|--|--|
+| AI Lab: Computer Vision and NLP                 | [10595610](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/5bdc55e7-ac18-48d8-a75c-a7e4dab0f26c/3583e1b7-4c99-4d44-811f-53b3082bad7f?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+wg42G94fUtJlY2Fk) | 
+| Applicazioni dell'Automatica                    | - | -                                                                                                | - | - |
+| Automazione                                     | - | -                                                                                                | - | - |
+| Basi Molecolari e Cellulari della Vita          | - | -                                                                                                | - | - |
+| Biology of the Cell                             | - | -                                                                                                | - | - |
+| Chimica                                         | - | -                                                                                                | - | - |
+| Chimica Biologica                               | - | -                                                                                                | - | - |
+| Combinatoria per Informatica                    | - | -                                                                                                | - | - |
+| Cybersecurity                                   | [10595532](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/d6e7a387-20b3-4a2b-b61e-93a1e051b6c8/44f36b55-0d8d-4db4-ac99-287e21c9e30f?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0) |
+| Economia Applicata                              | - | -                                                                                                | - | - |
+| Economia Politica                               | - | -                                                                                                | - | - |
+| Elettrotecnica                                  | - | -                                                                                                | - | - |
+| Filologia Romanza II A                          | - | -                                                                                                | - | - |
+| Filosofia del Diritto                           | - | -                                                                                                | - | - |
+| Fisica Tecnica                                  | - | -                                                                                                | - | - |
+| Fondamenti di Automatica                        | - | -                                                                                                | - | - |
+| Fondamenti di Filologia e Linguistica Romana    | - | -                                                                                                | - | - |
+| Gamification e Game Design                      | [1047674](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29400/20220331104432/8743a256-1f46-4afb-a693-6a41cb5aa90b/c6eacf19-511e-438f-bfea-2ff3441d7202/dcdb65b9-1278-4f33-9a75-8d860282b5ae/cc46fb68-7425-4aa6-8183-6144b7d37b67?guid_cv=c6eacf19-511e-438f-bfea-2ff3441d7202&current_erogata=8743a256-1f46-4afb-a693-6a41cb5aa90b) | [[29400] Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)    | 6 | [Telegram](https://t.me/+CnCSKOzEdU05ODE0) |
+| Istituzioni di Diritto Pubblico                 | - | -                                                                                                | - | - |
+| Laboratorio di Calcolo                          | - | -                                                                                                | - | - |
+| Laboratorio di Fisica Computazionale I          | - | -                                                                                                | - | - |
+| Laboratorio di Meccanica                        | - | -                                                                                                | - | - |
+| Law and Computer Science                        | [10595537](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/30786/20220331104432/1a78d0de-7fbc-472a-9865-0d15230d1ed6/6365e652-b57f-4199-afb3-7d4b5a90bb2b/60b9f6c1-6be8-4365-9aef-020f7c1b0cbb/b1ed52be-80f5-474d-83eb-471e916fe25a?guid_cv=6365e652-b57f-4199-afb3-7d4b5a90bb2b&current_erogata=1a78d0de-7fbc-472a-9865-0d15230d1ed6) | [[30786] ACSAI](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/programmazione)            | 6 | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
+| Matematica Corso Base                           | - | -                                                                                                | - | - |
+| Meccanica                                       | - | -                                                                                                | - | - |
+| Meccanica Statistica                            | - | -                                                                                                | - | - |
+| Reti di Telecomunicazioni                       | - | -                                                                                                | - | - |
+| Sociologia dei Processi Culturali               | - | -                                                                                                | - | - |
+| Storia della Pedagogia                          | - | -                                                                                                | - | - |
+| Tecniche di Programmazione                      | - | -                                                                                                | - | - |
+| Teoria dei Segnali                              | - | -                                                                                                | - | - |
 | Teorie della Comunicazione e dei Media Digitali | - | -                                                                                                | - | - |
 
 ### Disclaimer
 
-La lista è stata creata per aiutare gli studenti e le studentesse a scegliere gli esami da sostenere, non è una lista ufficiale, è incompleta e potrebbe contenere errori, nel caso [faccelo sapere](/it/contribuire/come-contribuire#proposte--bug).
+La lista è stata creata per aiutare gli studenti e le studentesse a scegliere gli insegnamenti da sostenere, non è una lista ufficiale, è incompleta e potrebbe contenere errori, nel caso [faccelo sapere](/it/contribuire/come-contribuire#proposte--bug).
 
 <!-- ### Come contribuire -->
 <!-- Scopri [come contribuire](https://sapienzastudents.net/it/contribuire/come-contribuire/) alla forma e al contenuto di questa o altre pagine del sito! -->
@@ -169,37 +174,16 @@ La lista è stata creata per aiutare gli studenti e le studentesse a scegliere g
 ## FAQ
 
 <details>
-    <summary>Posso scegliere esami solo del corso di Informatica?</summary>
-    <b>Certo</b>, puoi scegliere esami solo del corso di Informatica. Lo studente ha la possibilità di scegliere 12 CFU di esami anche in altre facoltà, ciò non significa che è obbligatorio scegliere esami di altre facoltà.
+    <summary>Posso scegliere tutti insegnamenti interni?</summary>
+    **Sì**, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (29923). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
 </details>
 
 <details>
-    <summary>Quando devo mandare il percorso formativo?</summary>
-    Il percorso formativo può essere mandato ufficialmente da inizio <b>dicembre</b> <i>(la data può variare ogni anno)</i>, ma ogni studente prima di iniziare il terzo anno deve avere già un'idea di quali esami vuole sostenere.
+    <summary>Posso scegliere tutti insegnamenti erogati al Primo Semestre?</summary>
+    <b>Sì</b>, se hai scelto due insegnamenti con orari delle lezioni che si sovrappongono, e intendi frequentare, dovrai riuscire a organizzarti in qualche modo, ma non ci sono problemi per quanto riguarda gli esami. La scelta degli insegnamenti è libera, puoi scegliere tutti insegnamenti erogati al Primo Semestre oppure tutti insegnamenti erogati al Secondo Semestre.
 </details>
 
 <details>
-    <summary>Posso scegliere esami esterni da 12 CFU?</summary>
-    <b>Certo</b>, si possono scegliere ad esempio 2 esami da 6 CFU oppure 1 esame da 12 CFU. Ci sta anche la possibilità di scegliere 1 esame da 9 CFU e 1 esame da 3 CFU. Se hai qualche dubbio <b>chiedi al responsabile del percorso formativo</b>, onde evitare problemi.
+    <summary>Cosa posso fare se ho scelto un insegnamento che non mi piace?</summary>
+    Se **non hai ancora inviato il percorso formativo**, puoi modificare la tua scelta di insegnamenti. Se invece hai già inviato il percorso, dovrai attendere l'Anno Accademico successivo per effettuare eventuali cambiamenti. In alcuni casi, è possibile richiedere una modifica anticipata al [docente responsabile per i percorsi formativi](#docente-di-riferimento), previa autorizzazione.
 </details>
-
-<details>
-    <summary>Posso scegliere tutti gli esami al primo semestre?</summary>
-    <b>Certo</b>, ovviamente se hai scelto due esami che si sovrappongono il problema è tuo per quanto riguarda le lezioni, ma non ci sono problemi per quanto riguarda gli esami. La scelta degli esami è libera, puoi scegliere tutti gli esami al primo semestre oppure tutti gli esami al secondo semestre. 
-</details>
-
-<details>
-<summary>Cosa devo fare se ho scelto un esame che non mi piace?</summary>
-Se <b>non hai ancora mandato il percorso formativo puoi cambiare gli esami</b>, altrimenti devi <b>aspettare settembre</b> per cambiare gli esami. In alcuni casi puoi cambiare gli esami anche prima di settembre, ma devi chiedere al responsabile del percorso formativo.
-</details>
-
-<!-- - Posso scegliere solo esami del corso di Informatica ? -->
-<!--     <details> -->
-<!--     <summary>Risposta</summary> -->
-<!--     Certo, puoi scegliere solo esami del corso di Informatica. Lo studente ha la possibilità di scegliere 12 CFU di esami anche in altre facoltà, ciò non significa che è obbligatorio scegliere esami di altre facoltà. -->
-<!--     </details> -->
-<!-- <details>
-
-<summary>DOMANDA</summary>
-RISPOSTA
-</details> -->
