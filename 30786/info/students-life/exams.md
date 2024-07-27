@@ -2,7 +2,6 @@
 title: Exams
 weight: 1
 ---
-<script src="https://kit.fontawesome.com/6fd9d2b408.js" crossorigin="anonymous"></script>
 
 # Exams
 
