@@ -1,5 +1,7 @@
 ---
 title: Home
+aliases: ["/informatica"]
+bookToc: False
 ---
 # Benvenuto! 💻
 

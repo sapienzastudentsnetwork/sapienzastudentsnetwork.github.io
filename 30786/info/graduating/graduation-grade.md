@@ -27,13 +27,13 @@ Where:
 
 The maximum increment is 13 points. The Committee can add points to the weighted average according to the following criteria:
 
-1. **Evaluation of the Internship Report**: from 0 to 9 points
+1. **Evaluation of the Internship Report**: from 0 to 9 points;
 2. **Duration of the Study Program**:
-   - 3 points if you graduate within the legal duration of the program
-   - 2 points if you graduate by March after the legal duration of the program
-   - 1 point if you graduate within the first year beyond the legal duration
-3. **Exam Average**: 1 point if your average is at least 27/30
-4. **Honors or Erasmus**: 1 point if you have obtained at least 3 honors or participated in an Erasmus program
+   - 3 points if you graduate within the legal duration of the program (so at most during the last graduation session, which is usually in December);
+   - 2 points if you graduate by March after the legal duration of the program;
+   - 1 point if you graduate within the first year beyond the legal duration;
+3. **Exam Average**: 1 point if your weighted average is at least 27/30;
+4. **Honors or Erasmus**: 1 point if you have obtained at least 3 honors or participated in an Erasmus program;
 
 ## Increment for the Master's Degree in Computer Science
 

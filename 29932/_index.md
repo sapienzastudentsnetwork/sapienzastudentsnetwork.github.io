@@ -1,3 +1,7 @@
+---
+title: Home
+bookToc: False
+---
 # Welcome! 💻
 
 ## Do you want to enroll in the Computer Science course?

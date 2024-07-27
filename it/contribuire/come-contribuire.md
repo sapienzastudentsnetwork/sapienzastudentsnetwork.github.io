@@ -1,6 +1,6 @@
 ---
 title: "Come contribuire"
-aliases: ["/contributing"]
+aliases: ["/contribuire"]
 bookToC: true
 weight: 1
 ---

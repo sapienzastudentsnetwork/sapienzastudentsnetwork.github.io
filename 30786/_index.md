@@ -1,7 +1,7 @@
 ---
+title: Home
 bookToc: False
 ---
-
 # Welcome! 💻
 
 ## Do you want to enroll in the Applied Computer Science and Artificial Intelligence course?
