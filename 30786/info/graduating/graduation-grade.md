@@ -4,7 +4,7 @@ title: Graduation Grade
 # Calculation of Graduation Grade
 
 {{< hint warning >}}
-**Warning**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 This page is based on the guidelines in effect as per the CAD meeting minutes of 06/22/2016.
 {{< /hint >}}

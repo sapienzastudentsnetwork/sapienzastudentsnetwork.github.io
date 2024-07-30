@@ -1,8 +1,8 @@
 {{ define "main" }}
-    <article class="markdown book-article"><h1 id="-curatori-del-progetto">
-        🖋 Curatori del Progetto
+    <article class="markdown book-article"><h1 id="-project-curators">
+        {{ T "Contacts_Title" }}
 
-        <a class="anchor" href="#-curatori-del-progetto">#</a>
+        <a class="anchor" href="#-project-curators">#</a>
     </h1>
         <div class="curatorList">
             <div class="curator">
@@ -14,10 +14,26 @@
                 </div>
                 <div class="separator"></div>
                 <div class="curBadges">
-                    <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Informatica</div></a>
-                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor per il CAD</div></a>
-                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div></a>
-                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div></a>
+                    <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> CS</div></a>
+                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> {{ T "B_Tutor_23" }}</div></a>
+                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> {{ T "B_Cont_Cur" }}</div></a>
+                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> {{ T "B_Code_Dev" }}</div></a>
+                </div>
+            </div>
+
+            <div class="curator">
+                <img src="https://www.github.com/ElBi21.png" class="curPic">
+                <p class="curTitle"><b>Leonardo Biason</b><p>
+                <div class="curSocials">
+                    <a href="https://github.com/ElBi21"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
+                    <a href="mailto:leonardo@biason.org"><i class="fa-solid fa-envelope curSocialIcon fa-2xl"></i></a>
+                </div>
+                <div class="separator"></div>
+                <div class="curBadges">
+                    <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> ACSAI</div></a>
+                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> {{ T "B_Tutor_23" }}</div></a>
+                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> {{ T "B_Cont_Cur" }}</div></a>
+                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> {{ T "B_Code_Dev" }}</div></a>
                 </div>
             </div>
 
@@ -32,25 +48,9 @@
                 <div class="separator"></div>
                 <div class="curBadges">
                     <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Informatica</div></a>
-                    <a href="#anch_curBadge_CADRepr"><div class="curBadge curCADRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> Rappresentante</div></a>
-                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div></a>
-                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div></a>
-                </div>
-            </div>
-
-            <div class="curator">
-                <img src="https://www.github.com/ElBi21.png" class="curPic">
-                <p class="curTitle"><b>Leonardo Biason</b><p>
-                <div class="curSocials">
-                    <a href="https://github.com/ElBi21"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
-                    <a href="mailto:leonardo@biason.org"><i class="fa-solid fa-envelope curSocialIcon fa-2xl"></i></a>
-                </div>
-                <div class="separator"></div>
-                <div class="curBadges">
-                    <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> ACSAI</div></a>
-                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor per il CAD</div></a>
-                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div></a>
-                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div></a>
+                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> {{ T "B_Cont_Cur" }}</div></a>
+                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> {{ T "B_Code_Dev" }}</div></a>
+                    <a href="#anch_curBadge_CADRepr"><div class="curBadge curCADRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> {{ T "B_Stud_Repr" }}</div></a>
                 </div>
             </div>
 
@@ -64,36 +64,36 @@
                 <div class="separator"></div>
                 <div class="curBadges">
                     <a href="#anch_curBadge_Course"><div class="curBadge curCourse"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Informatica</div></a>
-                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor per il CAD</div></a>
-                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div></a>
-                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div></a>
+                    <a href="#anch_curBadge_Tutor"><div class="curBadge curTutor"><i class="fa-solid fa-person-chalkboard"></i> {{ T "B_Tutor_23" }}</div></a>
+                    <a href="#anch_curBadge_ContCur"><div class="curBadge curContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> {{ T "B_Cont_Cur" }}</div></a>
+                    <a href="#anch_curBadge_CodeDev"><div class="curBadge curCodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> {{ T "B_Code_Dev" }}</div></a>
                 </div>
             </div>
         </div>
-        <h2 id="cosa-significano-i-badge">
-            Cosa significano i badge?
-            <a class="anchor" href="#cosa-significano-i-badge">#</a>
+        <h2 id="what-do-the-badges-mean">
+            {{ T "Contacts_BadgeMeaning" }}
+            <a class="anchor" href="#what-do-the-badges-mean">#</a>
         </h2>
         <table>
             <tr>
-                <td align="center"><div class="curBadge curCourse" id="anch_curBadge_Course"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> Corso di Laurea</div></td>
-                <td>Questo badge indica il Corso di Laurea attuale o completato dal curatore presso Sapienza</td>
+                <td align="center"><div class="curBadge curCourse" id="anch_curBadge_Course"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> {{ T "B_Course" }}</div></td>
+                <td>{{ T "B_Course_Desc" }}</td>
             </tr>
             <tr>
-                <td align="center"><div class="curBadge curTutor" id="anch_curBadge_Tutor"><i class="fa-solid fa-person-chalkboard"></i> Tutor per il CAD</div></td>
-                <td>Questo badge indica che il curatore è un tutor del Consiglio di Area Didattica (CAD) di Informatica per l'anno accademico 2023-2024</td>
+                <td align="center"><div class="curBadge curTutor" id="anch_curBadge_Tutor"><i class="fa-solid fa-person-chalkboard"></i> {{ T "B_Tutor_23" }}</div></td>
+                <td> {{ T "B_Tutor_Desc_23"}}</td>
             </tr>
             <tr>
-                <td align="center"><div class="curBadge curContCur" id="anch_curBadge_ContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> Content Curator</div></td>
-                <td>Questo badge indica che il curatore compone o ha composto contenuti per il sito</td>
+                <td align="center"><div class="curBadge curContCur" id="anch_curBadge_ContCur"><i class="fa-solid fa-scroll" style="color: #feffff;"></i> {{ T "B_Cont_Cur" }}</div></td>
+                <td>{{ T "B_Cont_Cur_Desc" }}</td>
             </tr>
             <tr>
-                <td align="center"><div class="curBadge curCodeDev" id="anch_curBadge_CodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> Code Developer</div></td>
-                <td>Questo badge indica che il curatore sviluppa o ha sviluppato codice per il sito</td>
+                <td align="center"><div class="curBadge curCodeDev" id="anch_curBadge_CodeDev"><i class="fa-solid fa-code" style="color: #feffff;"></i> {{ T "B_Code_Dev" }}</div></td>
+                <td>{{ T "B_Code_Dev_Desc"}}</td>
             </tr>
             <tr>
-                <td align="center"><div class="curBadge curCADRepr" id="anch_curBadge_CADRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> Rappresentante</div></td>
-                <td>Questo badge indica che il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica (CAD) di Informatica</td>
+                <td align="center"><div class="curBadge curCADRepr" id="anch_curBadge_CADRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> {{ T "B_Stud_Repr" }}</div></td>
+                <td>{{ T "B_Stud_Repr_Desc" }}</td>
             </tr>
         </table>
     </article>

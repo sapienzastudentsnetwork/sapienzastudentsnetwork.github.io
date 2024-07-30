@@ -1,0 +1,40 @@
+- id: EditPage
+  translation: Edit this page
+
+
+
+- id: Contacts_Title
+  translation: 🖋 Curatori del Progetto
+
+- id: Contacts_BadgeMeaning
+  translation: Cosa significano i badges?
+
+- id: B_Course
+  translation: Corso
+
+- id: B_Course_Desc
+  translation: Questo badge mostra il corso di studi in cui il curatore studia/ha studiato durante il suo periodo di studi presso la Sapienza
+
+- id: B_Tutor_23
+  translation: Tutor (2023/24)
+
+- id: B_Tutor_Desc_23
+  translation: Questo badge mostra che il curatore è un tutor per il Consiglio di Area Didattica ("CAD") di Informatica per l'anno accademico 2023-2024
+
+- id: B_Cont_Cur
+  translation: Content Curator
+
+- id: B_Cont_Cur_Desc
+  translation: Questo badge mostra che il curatore compone/ha composto contenuti per il sito
+
+- id: B_Code_Dev
+  translation: Code Developer
+
+- id: B_Code_Dev_Desc
+  translation: Questo badge dimostra che il curatore sviluppa/ha sviluppato codice per il sito
+
+- id: B_Stud_Repr
+  translation: Rappresentante degli Studenti
+
+- id: B_Stud_Repr_Desc
+  translation: Questo badge mostra che il curatore è un Rappresentante degli Studenti per il Consiglio di Area Didattico ("CAD") di Informatica
