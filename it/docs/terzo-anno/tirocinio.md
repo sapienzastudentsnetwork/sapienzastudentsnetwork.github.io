@@ -1,5 +1,6 @@
 ---
 title: "Tirocinio"
+bookHidden: true
 aliases: ["/tirocinio", "/it/tirocinio", "/informatica/tirocinio"]
 ---
 
