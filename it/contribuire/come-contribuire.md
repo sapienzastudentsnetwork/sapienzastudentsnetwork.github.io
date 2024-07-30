@@ -72,7 +72,7 @@ git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 Ora il problema dovrebbe essere scomparso e dovresti essere in grado di buildare il sito senza problemi.
 {{< /hint>}}
 
-5. Apri [`localhost:1313`](localhost:1313) nel tuo browser ed ecco fatto! Ora puoi visualizzare il sito in tempo reale. Poiché Hugo supporta il ricaricamento automatico, ogni volta che un file cambia, cambierà anche il sito.
+5. Apri [`localhost:1313`](http://localhost:1313/) nel tuo browser ed ecco fatto! Ora puoi visualizzare il sito in tempo reale. Poiché Hugo supporta il ricaricamento automatico, ogni volta che un file cambia, cambierà anche il sito.
 
 6. Se vuoi fermare il server, premi semplicemente `Ctrl + C` nel terminale.
 
@@ -88,7 +88,7 @@ docker build -t hugo-site . # Solo la prima volta che cloni il fork
 sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavori sul progetto
 ```
 
-5. Apri [`localhost:4000`](http://localhost:4000/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
+5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
 6. Se vuoi fermare il server, premi semplicemente `Ctrl+C` nel terminale.
 {{< /tab >}}
 {{< /tabs >}}
