@@ -1,15 +1,16 @@
 ---
 title: Come iscriversi?
 ---
+
 # Come faccio ad iscrivermi ad Informatica?
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Le informazioni qui riportate sono basate sul [**D.R. n. 380**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14617_l31_ing._informatica_i3s_2024-2025.pdf). Si consiglia di controllare la pagina dedicata ai [corsi ad accesso programmato](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni) per verificare la presenza di un bando L-31 più recente.
 {{< /hint >}}
 
 {{< hint info >}}
-**Gruppo Telegram**
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
 
 È disponibile una [chat Telegram](/it/canali/gruppi/), gestita tra studentesse e studenti del corso di laurea, dove puoi trovare supporto in caso di problemi o maggiori informazioni.
 {{< /hint >}}
@@ -25,6 +26,8 @@ L'iscrizione al corso di laurea in Informatica segue una serie di passaggi fonda
 ## Sostenere il test di ingresso TOLC-I
 
 {{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Calendari CISIA**
+
 Sul sito di CISIA è disponibile una guida per la consultazione dei calendari: https://guide.cisiaonline.it/it/DateTolc
 {{< /hint >}}
 
@@ -40,7 +43,7 @@ Per partecipare alle selezioni, il primo passo è registrarsi sul sito CISIA e s
 | **Terza selezione**   | 9 settembre 2024                  | Circa una settimana prima |
 
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 È molto importante tenere in considerazione che la data limite per sostenere il test di ingresso è anche la data limite entro la quale è necessario registrarsi ad Infostud e pagare il contributo di €10.
 {{< /hint >}}
@@ -59,6 +62,8 @@ In base alla selezione è necessario registrarsi a Infostud e pagare il contribu
 ## Registrarsi ad Infostud
 
 {{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
 Per gli studenti di cittadinanza italiana è necessario possedere delle credenziali [SPID](https://www.spid.gov.it) o [CIE](https://www.cartaidentita.interno.gov.it) per procedere con la registrazione.
 {{< /hint >}}
 
@@ -71,6 +76,8 @@ Per partecipare alla selezione, è necessario pagare un contributo di 10 euro. E
 - Effettua il pagamento tramite PagoPa seguendo le istruzioni riportate sul bollettino.
 
 {{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Problemi con i pagamenti**
+
 In caso di problemi è presente una [guida sulle modalità di pagamento](https://www.uniroma1.it/it/pagina/come-pagare).
 {{< /hint >}}
 
@@ -80,6 +87,8 @@ Conclusi i termini di iscrizione alle selezioni, vengono pubblicate le graduator
 Per risultare vincitore nella prima e nella seconda selezione, è necessario ottenere un punteggio **maggiore o uguale a 18/50**. In caso di più tentativi, sarà considerato il miglior punteggio ottenuto.
 
 {{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Cosa succede a parità di punteggio?**
+
 In caso di parità di punteggio, prevale il candidato con il miglior risultato rispettivamente nelle sezioni di Matematica, Scienze, Logica, Comprensione verbale. In caso di ulteriore parità, prevale il candidato anagraficamente più giovane.
 {{< /hint >}}
 
@@ -109,7 +118,7 @@ Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le 
 La pre-immatricolazione prevede il versamento di un contributo pari a €200,00 a partire dal 17 aprile ed entro il 7 maggio 2024, salvo eventuali riduzioni o esenzioni commisurate all’Isee 2024 per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
 
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Coloro che non effettueranno la pre-immatricolazione entro la data prescritta **saranno considerati rinunciatari** e i posti non coperti saranno resi disponibili per le selezioni successive. Chi ha effettuato la pre-immatricolazione a valle della prima selezione non può iscriversi alla selezione successiva.
 {{< /hint >}}
@@ -123,6 +132,8 @@ La procedura di immatricolazione è necessaria per perfezionare l’iscrizione a
 I vincitori della prima selezione pre-immatricolati devono perfezionare l’immatricolazione entro le scadenze indicate nel [Calendario delle procedure](#prima-selezione).
 
 {{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
 Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, non effettua l’immatricolazione entro le scadenze prescritte, **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
 {{< /hint >}}
 
@@ -131,6 +142,8 @@ Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, 
 I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il **2 agosto 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
 
 {{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
 Lo studente che, pur vincitore della seconda selezione, non effettua l’immatricolazione entro le scadenze prescritte **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
 {{< /hint >}}
 
@@ -139,6 +152,8 @@ Lo studente che, pur vincitore della seconda selezione, non effettua l’immatri
 I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il **12 settembre 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
 
 {{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
 Lo studente che, pur vincitore della terza selezione, non effettua l’immatricolazione entro le scadenze prescritte sarà considerato rinunciatario ed il posto non coperto sarà attribuito per subentro ai successivi candidati secondo la graduatoria di merito, come da [Calendario delle procedure](#terza-selezione).
 {{< /hint >}}
 
@@ -147,11 +162,13 @@ Lo studente che, pur vincitore della terza selezione, non effettua l’immatrico
 L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’anno accademico 2024-2025 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
 
 {{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Esenzione dai contributi**
+
 Durante la procedura di immatricolazione è possibile inserire eventuali condizioni per l’esenzione dai contributi di iscrizione e dalla tassa regionale. Coloro che non sono tenuti a versare alcun contributo di iscrizione all’università, procedono all’immatricolazione pagando la sola imposta di bollo da €16,00.
 {{< /hint >}}
 
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee 2024 per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
 {{< /hint >}}
@@ -169,7 +186,7 @@ Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica sono assegnati a:
 Gli OFA si assolvono superando l’esame curriculare [Metodi matematici per l'Informatica (6 CFU)](https://www.corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/234eae2d-5a31-4233-b38a-aa8ce26aed31/d623530a-d41c-444b-8cb0-9db90bcbfed3?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
 
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà possibile sostenere gli esami di anni successivi al primo.
 {{< /hint >}}
