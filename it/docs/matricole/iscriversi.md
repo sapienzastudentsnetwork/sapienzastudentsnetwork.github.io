@@ -120,7 +120,7 @@ La procedura di immatricolazione è necessaria per perfezionare l’iscrizione a
 
 ### Pre-immatricolati
 
-I vincitori della prima selezione pre-immatricolati devono perfezionare l’immatricolazione entro le scadenze indicate nel [Calendario delle procedure](#calendario-delle-procedure).
+I vincitori della prima selezione pre-immatricolati devono perfezionare l’immatricolazione entro le scadenze indicate nel [Calendario delle procedure](#prima-selezione).
 
 {{< hint warning >}}
 Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, non effettua l’immatricolazione entro le scadenze prescritte, **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
@@ -128,7 +128,7 @@ Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, 
 
 ### Vincitori della seconda selezione
 
-I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il **2 agosto 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#calendario-delle-procedure).
+I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il **2 agosto 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
 
 {{< hint warning >}}
 Lo studente che, pur vincitore della seconda selezione, non effettua l’immatricolazione entro le scadenze prescritte **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
@@ -136,10 +136,10 @@ Lo studente che, pur vincitore della seconda selezione, non effettua l’immatri
 
 ### Vincitori della terza selezione
 
-I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il **12 settembre 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#calendario-delle-procedure).
+I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il **12 settembre 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
 
 {{< hint warning >}}
-Lo studente che, pur vincitore della terza selezione, non effettua l’immatricolazione entro le scadenze prescritte sarà considerato rinunciatario ed il posto non coperto sarà attribuito per subentro ai successivi candidati secondo la graduatoria di merito, come da [Calendario delle procedure](#calendario-delle-procedure).
+Lo studente che, pur vincitore della terza selezione, non effettua l’immatricolazione entro le scadenze prescritte sarà considerato rinunciatario ed il posto non coperto sarà attribuito per subentro ai successivi candidati secondo la graduatoria di merito, come da [Calendario delle procedure](#terza-selezione).
 {{< /hint >}}
 
 ### Come immatricolarsi?
@@ -175,6 +175,7 @@ Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà p
 {{< /hint >}}
 
 ## Calendario delle procedure
+### Prima selezione
 
 | Prima selezione                                           | Periodo/Scadenza                    |
 |-----------------------------------------------------------|-------------------------------------|
@@ -183,6 +184,7 @@ Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà p
 | Fase della pre-immatricolazione per i candidati vincitori | Dal 17 aprile al 7 maggio 2024      |
 | Fase delle immatricolazioni per i pre-immatricolati       | Dal 2 settembre al 5 settembre 2024 |
 
+### Seconda selezione
 | Seconda selezione                                    | Periodo/Scadenza                    |
 |------------------------------------------------------|-------------------------------------|
 | Iscrizione alla selezione                            | Dal 7 maggio al 29 luglio 2024      |
@@ -190,6 +192,7 @@ Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà p
 | Pubblicazione graduatoria                            | 2 agosto 2024                       |
 | Fase delle immatricolazioni per i candiati vincitori | Dal 2 settembre al 5 settembre 2024 |
 
+### Terza selezione
 | Terza selezione                                                                                | Periodo/Scadenza                      |
 |------------------------------------------------------------------------------------------------|---------------------------------------|
 | Iscrizione alla selezione                                                                      | Dal 2 agosto al 9 settembre 2024      |
