@@ -13,13 +13,13 @@ Here is a list of general channels available to all students across all years of
 
 [![](https://img.shields.io/badge/-discord_server-5865F2?style=for-the-badge&logo=Discord&logoColor=white&link=https://discord.gg/vekTABg4Aj)](https://discord.gg/vekTABg4Aj)
 
-[![](https://img.shields.io/badge/-telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://t.me/appliedCS_AI)](https://t.me/appliedCS_AI)
+[![](https://img.shields.io/badge/-general_telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/appliedCS_AI)](https://t.me/appliedCS_AI)
 
-## Groups for new students
+## New students
 
 ### A.Y. 2024/25
 
-[![](https://img.shields.io/badge/-telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://t.me/appliedCS_AI)](https://t.me/appliedCS_AI)
+[![](https://img.shields.io/badge/-telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
 
 ## Teaching groups
 
