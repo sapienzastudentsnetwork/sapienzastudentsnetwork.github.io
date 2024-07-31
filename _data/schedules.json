@@ -1,266 +1,337 @@
 {
-  "null": {
-    "subject": "LINGUA INGLESE",
+  "101226": {
+    "subject": "CALCOLO DIFFERENZIALE",
     "degree": "29923",
     "channels": {
-      "0": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "101226"
+  },
+  "1015883": {
+    "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "gioved\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          },
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "09 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          },
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ],
         "marted\u00ec": [
           {
-            "teacher": "f77bfb4c-dd02-4161-8b24-aa3ded1c0b5e",
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "09 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015883"
+  },
+  "1020420": {
+    "subject": "METODI MATEMATICI PER L'INFORMATICA",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "gioved\u00ec": [
+          {
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          },
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+            }
+          },
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "marted\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1020420"
+  },
+  "1015880": {
+    "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015880"
+  },
+  "1015886": {
+    "subject": "ALGEBRA",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teacher": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "02283ecf-7b6b-4907-bc51-b7bf8cd6d4b2",
             "timeslot": "14 - 17",
+            "classrooms": {
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "marted\u00ec": [
+          {
+            "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
+            "timeslot": "13 - 15",
             "classrooms": {
               "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
             }
           }
-        ]
-      }
-    },
-    "code": "AAF1101"
-  },
-  "1015881": {
-    "subject": "ARCHITETTURA DEGLI ELABORATORI",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "marted\u00ec": [
-          {
-            "teacher": "969e8206-1cde-4637-8f13-a439cc58fc8e",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
         ],
         "gioved\u00ec": [
           {
-            "teacher": "969e8206-1cde-4637-8f13-a439cc58fc8e",
-            "timeslot": "09 - 11",
+            "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
+            "timeslot": "15 - 18",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "marted\u00ec": [
-          {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+              "86f5ff2f-f175-4e20-9efe-3fd3c9bd8fe9": "Aula Ponzi I (Edificio: CU005)"
             }
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015881"
-  },
-  "97796": {
-    "subject": "CALCOLO INTEGRALE",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "marted\u00ec": [
-          {
-            "teacher": "4b170678-fc03-4261-ad08-704d9395529e",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "4b170678-fc03-4261-ad08-704d9395529e",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          },
-          {
-            "teacher": "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6",
-            "timeslot": "09 - 11",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
-        "luned\u00ec": [
-          {
-            "teacher": "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "luned\u00ec": [
-          {
-            "teacher": "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6",
-            "timeslot": "09 - 11",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "97796"
-  },
-  "1015885": {
-    "subject": "INTRODUZIONE AGLI ALGORITMI",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "luned\u00ec": [
-          {
-            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "luned\u00ec": [
-          {
-            "teacher": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015885"
-  },
-  "1015884": {
-    "subject": "METODOLOGIE DI PROGRAMMAZIONE",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "luned\u00ec": [
-          {
-            "teacher": "7b5918bd-f0bf-44f0-b509-43c31a489184",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "7b5918bd-f0bf-44f0-b509-43c31a489184",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "7b5918bd-f0bf-44f0-b509-43c31a489184",
-            "timeslot": "12 - 16",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "c39de046-70cd-4260-b37a-81eacd6105b0",
-            "timeslot": "08 - 12",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }
-        ],
-        "marted\u00ec": [
-          {
-            "teacher": "c39de046-70cd-4260-b37a-81eacd6105b0",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "c39de046-70cd-4260-b37a-81eacd6105b0",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015884"
-  },
-  "1015887_2": {
-    "subject": "BASI DI DATI II MODULO",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "luned\u00ec": [
-          {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
             "timeslot": "13 - 15",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015886"
+  },
+  "1015887_1": {
+    "subject": "BASI DI DATI I MODULO",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ],
-        "venerd\u00ec": [
+        "gioved\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
-            "timeslot": "16 - 19",
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "15 - 17",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
             }
           }
         ]
@@ -268,109 +339,44 @@
     },
     "code": "1015887"
   },
-  "1015888": {
-    "subject": "PROGETTAZIONE DI ALGORITMI",
+  "1020421": {
+    "subject": "CALCOLO DELLE PROBABILITA'",
     "degree": "29923",
     "channels": {
       "1": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "de6db8f8-c345-4d91-b3df-4db4c8993363": "Aula 3 (Edificio: CU033)"
-            }
-          }
-        ],
-        "marted\u00ec": [
-          {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
-            "teacher": "72e2bc49-938f-42bf-a2e3-63bb8f578379",
-            "timeslot": "16 - 19",
+            "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
+            "timeslot": "13 - 16",
             "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015888"
-  },
-  "1015889": {
-    "subject": "RETI DI ELABORATORI",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "marted\u00ec": [
-          {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ],
-        "gioved\u00ec": [
+        "marted\u00ec": [
           {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
+            "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
             "timeslot": "14 - 16",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
-            "timeslot": "14 - 16",
+            "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
+            "timeslot": "17 - 19",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ]
       },
       "2": {
-        "venerd\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
-            "timeslot": "14 - 16",
+            "teacher": "58db5986-acf7-4f3c-8e73-81ac130167af",
+            "timeslot": "14 - 17",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
@@ -378,46 +384,46 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
-            "timeslot": "14 - 17",
+            "teacher": "58db5986-acf7-4f3c-8e73-81ac130167af",
+            "timeslot": "13 - 15",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ],
-        "mercoled\u00ec": [
+        "venerd\u00ec": [
           {
-            "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
-            "timeslot": "12 - 14",
+            "teacher": "58db5986-acf7-4f3c-8e73-81ac130167af",
+            "timeslot": "17 - 19",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
             }
           }
         ]
       }
     },
-    "code": "1015889"
+    "code": "1020421"
   },
-  "1020422_2": {
-    "subject": "SISTEMI OPERATIVI II MODULO",
+  "1020422_1": {
+    "subject": "SISTEMI OPERATIVI I MODULO",
     "degree": "29923",
     "channels": {
       "1": {
-        "luned\u00ec": [
+        "marted\u00ec": [
           {
-            "teacher": "8ed8a497-ed02-41ea-b32a-96de43093776",
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "16 - 19",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ],
-        "mercoled\u00ec": [
+        "gioved\u00ec": [
           {
-            "teacher": "8ed8a497-ed02-41ea-b32a-96de43093776",
-            "timeslot": "16 - 19",
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "13 - 15",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ]
@@ -425,19 +431,10 @@
       "2": {
         "mercoled\u00ec": [
           {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "16 - 19",
+            "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+            "timeslot": "13 - 16",
             "classrooms": {
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ]
@@ -445,420 +442,177 @@
     },
     "code": "1020422"
   },
-  "1031337": {
-    "subject": "BIOLOGIA COMPUTAZIONALE",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "84c9cab2-1d0f-4bfb-8500-c83c82480e2d",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
-            }
-          }
-        ],
-        "luned\u00ec": [
-          {
-            "teacher": "84c9cab2-1d0f-4bfb-8500-c83c82480e2d",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1031337"
-  },
-  "1022262": {
-    "subject": "INTELLIGENZA ARTIFICIALE",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1022262"
-  },
-  "1041761": {
-    "subject": "LINGUAGGI E COMPILATORI",
+  "1041727": {
+    "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
     "degree": "29923",
     "channels": {
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "cc84cdf2-5bea-4784-9272-524bed69e674",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "cc84cdf2-5bea-4784-9272-524bed69e674",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1041761"
-  },
-  "1021828": {
-    "subject": "MATEMATICA DISCRETA",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "57f392fe-2884-449b-8935-d209a2f0700b",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "42858a5b-be57-4ab4-8479-444629b791b2": "Aula 1B (Edificio: RM002)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "57f392fe-2884-449b-8935-d209a2f0700b",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "42858a5b-be57-4ab4-8479-444629b791b2": "Aula 1B (Edificio: RM002)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1021828"
-  },
-  "1022265": {
-    "subject": "MODELLI E OTTIMIZZAZIONE",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
             "timeslot": "14 - 17",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
             }
           }
         ],
-        "mercoled\u00ec": [
+        "venerd\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1022265"
-  },
-  "1022268": {
-    "subject": "SICUREZZA",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1022268"
-  },
-  "10589652": {
-    "subject": "TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "f071e391-82a8-41b0-9532-df545c55ddbb",
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "f071e391-82a8-41b0-9532-df545c55ddbb",
+            "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
             "timeslot": "14 - 16",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
             }
           }
         ]
       }
     },
-    "code": "10589652"
+    "code": "1041727"
   },
-  "10600494": {
-    "subject": "VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI",
+  "97597": {
+    "subject": "FISICA",
     "degree": "29923",
     "channels": {
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "teacher": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
             "timeslot": "10 - 13",
             "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
             }
           }
         ],
+        "venerd\u00ec": [
+          {
+            "teacher": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "97597"
+  },
+  "1022301": {
+    "subject": "INGEGNERIA DEL SOFTWARE",
+    "degree": "29923",
+    "channels": {
+      "0": {
         "mercoled\u00ec": [
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10600494"
-  },
-  "1047613": {
-    "subject": "ADVANCED ALGORITHMS",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047613"
-  },
-  "10612318": {
-    "subject": "ADVANCED ARCHITECTURES",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
             "timeslot": "11 - 13",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
             }
           }
         ]
       }
     },
-    "code": "10612318"
+    "code": "1022301"
   },
-  "1047614": {
-    "subject": "ADVANCED SOFTWARE ENGINEERING",
-    "degree": "29932",
+  "1022263": {
+    "subject": "INTERAZIONE UOMO MACCHINA",
+    "degree": "29923",
     "channels": {
       "0": {
-        "venerd\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a",
-            "timeslot": "13 - 16",
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+            "timeslot": "14 - 16",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ],
-        "marted\u00ec": [
+        "mercoled\u00ec": [
           {
-            "teacher": "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047614"
-  },
-  "1047205": {
-    "subject": "CLOUD COMPUTING",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
-            "timeslot": "15 - 19",
-            "classrooms": {
-              "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047205"
-  },
-  "1047619": {
-    "subject": "CONCURRENT SYSTEMS",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "08 - 11",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
-        ],
+        ]
+      }
+    },
+    "code": "1022263"
+  },
+  "1022264": {
+    "subject": "LINGUAGGI DI PROGRAMMAZIONE",
+    "degree": "29923",
+    "channels": {
+      "0": {
         "marted\u00ec": [
           {
-            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
             "timeslot": "08 - 10",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
             }
           }
         ]
       }
     },
-    "code": "1047619"
+    "code": "1022264"
   },
-  "1047623": {
-    "subject": "DATA AND NETWORK SECURITY",
-    "degree": "29932",
+  "10596283": {
+    "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+    "degree": "29923",
     "channels": {
       "0": {
-        "luned\u00ec": [
+        "venerd\u00ec": [
           {
-            "teacher": "5457d8e3-6352-4c7b-ab90-a3b8a3db1968",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "5457d8e3-6352-4c7b-ab90-a3b8a3db1968",
+            "teacher": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
             "timeslot": "08 - 11",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047623"
-  },
-  "10593236": {
-    "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "1114aab0-aebf-46cf-8893-29cdf376c654",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ],
-        "marted\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "1114aab0-aebf-46cf-8893-29cdf376c654",
-            "timeslot": "13 - 16",
+            "teacher": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
+            "timeslot": "08 - 10",
             "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
             }
           }
         ]
       }
     },
-    "code": "10593236"
+    "code": "10596283"
   },
-  "10607006": {
-    "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
-    "degree": "29932",
+  "10593235": {
+    "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+    "degree": "29923",
     "channels": {
       "0": {
-        "mercoled\u00ec": [
+        "marted\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
-            "timeslot": "13 - 16",
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "14 - 17",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
@@ -866,197 +620,368 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10593235"
+  },
+  "1022267": {
+    "subject": "PROGRAMMAZIONE PER IL WEB",
+    "degree": "29923",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1022267"
+  },
+  "10589621": {
+    "subject": "ADVANCED MACHINE LEARNING",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "13 - 15",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10607006"
-  },
-  "1047629": {
-    "subject": "GRAPH THEORY",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
             }
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047629"
-  },
-  "1047630": {
-    "subject": "HUMAN COMPUTER INTERACTION ON THE WEB",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047630"
-  },
-  "1047634": {
-    "subject": "INTERNET OF THINGS",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047634"
-  },
-  "1047636": {
-    "subject": "MATHEMATICAL LOGIC FOR COMPUTER SCIENCE",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047636"
-  },
-  "1047639": {
-    "subject": "MULTIMODAL INTERACTION",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
-          }
-        ],
-        "marted\u00ec": [
-          {
-            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-            "timeslot": "09 - 11",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047639"
-  },
-  "1038141": {
-    "subject": "NATURAL LANGUAGE PROCESSING",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "16 - 19",
             "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
             }
           }
         ]
       }
     },
-    "code": "1038141"
+    "code": "10589621"
   },
-  "10589555": {
-    "subject": "PRACTICAL NETWORK DEFENSE",
+  "10600495": {
+    "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
     "degree": "29932",
     "channels": {
       "0": {
-        "venerd\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "09 - 12",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600495"
+  },
+  "10596281": {
+    "subject": "AUTONOMOUS NETWORKING",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
             "timeslot": "11 - 13",
             "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10596281"
+  },
+  "1041764": {
+    "subject": "BIG DATA COMPUTING",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041764"
+  },
+  "1041792": {
+    "subject": "BIOMETRIC SYSTEMS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041792"
+  },
+  "10600490": {
+    "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "a95c60d3-6f14-4eb3-8867-0c09ea24a150",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "a95c60d3-6f14-4eb3-8867-0c09ea24a150",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600490"
+  },
+  "1047616": {
+    "subject": "COMPUTATIONAL COMPLEXITY",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "ff573185-4666-4567-bec0-20faadb35886",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
             }
           }
         ],
         "gioved\u00ec": [
           {
-            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
-            "timeslot": "12 - 15",
+            "teacher": "ff573185-4666-4567-bec0-20faadb35886",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047616"
+  },
+  "1047617": {
+    "subject": "COMPUTER NETWORK PERFORMANCE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047617"
+  },
+  "1047618": {
+    "subject": "COMPUTER VISION",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047618"
+  },
+  "1047622": {
+    "subject": "CRYPTOGRAPHY",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047622"
+  },
+  "1047624": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047624"
+  },
+  "1047627": {
+    "subject": "FOUNDATIONS OF DATA SCIENCE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "c9bc0f07-e933-48f3-aa84-0a40352ae5df": "Aula 6 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "16 - 19",
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
             }
@@ -1064,82 +989,190 @@
         ]
       }
     },
-    "code": "10589555"
+    "code": "1047627"
   },
-  "1047643": {
-    "subject": "TOPICS IN PHYSICS",
+  "1047635": {
+    "subject": "MACHINE LEARNING",
     "degree": "29932",
     "channels": {
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "b028c4e5-048c-4dc5-a752-57db32f7174a",
-            "timeslot": "08 - 11",
+            "teacher": "ec8fcc32-a37d-4688-97ca-0bac94daada1",
+            "timeslot": "16 - 19",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "b028c4e5-048c-4dc5-a752-57db32f7174a",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047643"
-  },
-  "1049269": {
-    "subject": "ALGORITHMS",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1049269"
-  },
-  "10595099_2": {
-    "subject": "CALCULUS UNIT 2",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "b2e0cf55-721d-4df9-b821-6bf90427ceb1",
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ],
         "gioved\u00ec": [
           {
-            "teacher": "b2e0cf55-721d-4df9-b821-6bf90427ceb1",
-            "timeslot": "11 - 14",
+            "teacher": "ec8fcc32-a37d-4688-97ca-0bac94daada1",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047635"
+  },
+  "10589558": {
+    "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teacher": "a40b28df-4a34-40ad-bbbf-ebfaf44148d0",
+            "timeslot": "14 - 19",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589558"
+  },
+  "1047638": {
+    "subject": "MODELS OF COMPUTATION",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047638"
+  },
+  "1047640": {
+    "subject": "NETWORK ALGORITHMS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047640"
+  },
+  "1047642": {
+    "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teacher": "3ce2ec52-79a0-4093-8ad8-78b8790882a8",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "3ce2ec52-79a0-4093-8ad8-78b8790882a8",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047642"
+  },
+  "null": {
+    "subject": "ATTIVITA' FORMATIVA COMPLEMENTARE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "e5c83a47-fac5-4ff4-81b4-626a28e92180": "Aula G informatica (Edificio: RM103)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "AAF1246"
+  },
+  "10595099_1": {
+    "subject": "CALCULUS UNIT 1",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "0bcc8b25-0978-4471-b07b-4f383540ee05",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "0bcc8b25-0978-4471-b07b-4f383540ee05",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
             }
           }
         ]
@@ -1147,26 +1180,26 @@
     },
     "code": "10595099"
   },
-  "10595546_2": {
-    "subject": "COMPUTER ARCHITECTURE UNIT 2",
+  "10595546_1": {
+    "subject": "COMPUTER ARCHITECTURE UNIT 1",
     "degree": "30786",
     "channels": {
       "0": {
-        "luned\u00ec": [
+        "marted\u00ec": [
           {
-            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
-            "timeslot": "12 - 14",
+            "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+            "timeslot": "08 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
         ],
-        "mercoled\u00ec": [
+        "venerd\u00ec": [
           {
-            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
-            "timeslot": "08 - 11",
+            "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+            "timeslot": "15 - 18",
             "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
             }
           }
         ]
@@ -1174,161 +1207,136 @@
     },
     "code": "10595546"
   },
-  "10595523": {
-    "subject": "PHYSICS",
+  "10595524": {
+    "subject": "LINEAR ALGEBRA",
     "degree": "30786",
     "channels": {
       "0": {
-        "venerd\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "fa316055-67a3-4018-99b9-14a56d0abe9c",
-            "timeslot": "09 - 11",
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+            "timeslot": "12 - 14",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
         ],
+        "gioved\u00ec": [
+          {
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595524"
+  },
+  "10595102_1": {
+    "subject": "PROGRAMMING UNIT 1",
+    "degree": "30786",
+    "channels": {
+      "0": {
         "luned\u00ec": [
           {
-            "teacher": "fa316055-67a3-4018-99b9-14a56d0abe9c",
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "09 - 12",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
-        ]
-      }
-    },
-    "code": "10595523"
-  },
-  "10600241": {
-    "subject": "PROGRAMMING 2",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
-            "timeslot": "09 - 12",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
         ],
-        "gioved\u00ec": [
+        "mercoled\u00ec": [
           {
-            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
-            "timeslot": "09 - 11",
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+            "timeslot": "12 - 14",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "34cb38a4-6c1c-4d5f-b680-5157749f8a0a": "Aula III AREA DI CANTIERE (Edificio: CU032)"
             }
           }
         ]
       }
     },
-    "code": "10600241"
+    "code": "10595102"
   },
-  "10595610": {
-    "subject": "AI LAB: COMPUTER VISION AND NLP",
+  "10595102_2": {
+    "subject": "PROGRAMMING UNIT 2",
     "degree": "30786",
     "channels": {
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
-            "timeslot": "09 - 12",
+            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+            "timeslot": "14 - 16",
             "classrooms": {
-              "5ee06ba9-893d-4e90-81f5-f059deef144f": "Aula II (Edificio: CU032)"
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
             }
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
-            "timeslot": "14 - 16",
+            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+            "timeslot": "11 - 14",
             "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
             }
           }
         ]
       }
     },
-    "code": "10595610"
+    "code": "10595102"
   },
-  "10595618_1": {
-    "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT I",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "gioved\u00ec": [
-          {
-            "teacher": "a1981481-7d65-45e4-9aca-56fe37e9b95b",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "a1981481-7d65-45e4-9aca-56fe37e9b95b",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10595618"
-  },
-  "10595618_2": {
-    "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT II",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10595618"
-  },
-  "10595617_2": {
-    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT II",
+  "10595529": {
+    "subject": "CALCULUS 2",
     "degree": "30786",
     "channels": {
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
-            "timeslot": "14 - 17",
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+            "timeslot": "16 - 19",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
             }
           }
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595529"
+  },
+  "10595617_1": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "luned\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "14 - 16",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
             }
           }
         ]
@@ -1336,15 +1344,69 @@
     },
     "code": "10595617"
   },
-  "10595535": {
-    "subject": "HUMAN COMPUTER INTERACTION",
+  "10595525": {
+    "subject": "PROBABILITY",
     "degree": "30786",
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "ad904d98-6922-445f-9245-7228e8b30f25",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "10 - 13",
+            "teacher": "ad904d98-6922-445f-9245-7228e8b30f25",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595525"
+  },
+  "10595616_1": {
+    "subject": "SYSTEMS AND NETWORKING UNIT I",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  },
+  "10595616_2": {
+    "subject": "SYSTEMS AND NETWORKING UNIT II",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "11 - 13",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
@@ -1352,42 +1414,123 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "11 - 13",
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "10 - 13",
             "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ]
       }
     },
-    "code": "10595535"
+    "code": "10595616"
   },
-  "10595537": {
-    "subject": "LAW AND COMPUTER SCIENCE",
+  "10595532": {
+    "subject": "CYBERSECURITY",
     "degree": "30786",
     "channels": {
       "0": {
-        "marted\u00ec": [
+        "luned\u00ec": [
           {
-            "teacher": "050bb7c4-9752-4718-8940-8854d745309a",
-            "timeslot": "17 - 19",
+            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+            "timeslot": "11 - 14",
             "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "050bb7c4-9752-4718-8940-8854d745309a",
-            "timeslot": "16 - 19",
+            "teacher": "d774d700-87a4-4e84-8281-d6d61aa5cda9",
+            "timeslot": "09 - 11",
             "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
       }
     },
-    "code": "10595537"
+    "code": "10595532"
+  },
+  "10595531": {
+    "subject": "DEEP LEARNING",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595531"
+  },
+  "10595530": {
+    "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "timeslot": "09 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595530"
+  },
+  "10595534": {
+    "subject": "WEB AND SOFTWARE ARCHITECTURE",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595534"
   }
 }
