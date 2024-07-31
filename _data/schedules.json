@@ -42,28 +42,21 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "gioved\u00ec": [
-          {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          },
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "15 - 18",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
             "timeslot": "11 - 13",
             "classrooms": {
               "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
           }
         ],
@@ -85,10 +78,17 @@
             }
           }
         ],
-        "marted\u00ec": [
+        "gioved\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          },
           {
             "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "16 - 18",
+            "timeslot": "15 - 18",
             "classrooms": {
               "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
@@ -96,6 +96,15 @@
         ]
       },
       "2": {
+        "marted\u00ec": [
+          {
+            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
@@ -103,15 +112,6 @@
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-            }
-          }
-        ],
-        "marted\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
           }
         ],
@@ -133,22 +133,6 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "gioved\u00ec": [
-          {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          },
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "13 - 15",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
         "marted\u00ec": [
           {
             "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
@@ -160,6 +144,22 @@
           {
             "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
             "timeslot": "13 - 16",
+            "classrooms": {
+              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          },
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "13 - 15",
             "classrooms": {
               "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
@@ -317,21 +317,21 @@
         ]
       },
       "2": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
-            }
-          }
-        ],
         "marted\u00ec": [
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "15 - 18",
             "classrooms": {
               "8abd989f-5e7a-47c2-893b-e6005a4cf2e0": "Aula Vito Volterra (Edificio: CU006)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
             }
           }
         ]
@@ -501,21 +501,21 @@
     "degree": "29923",
     "channels": {
       "0": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
             "timeslot": "16 - 19",
             "classrooms": {
               "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
         ]
@@ -555,21 +555,21 @@
     "degree": "29923",
     "channels": {
       "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
-            "timeslot": "08 - 10",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
             "timeslot": "10 - 13",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
@@ -582,21 +582,21 @@
     "degree": "29923",
     "channels": {
       "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
             "timeslot": "08 - 10",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "9ea70dc6-a3d6-447d-addf-592abe8ad7e7",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
@@ -771,21 +771,21 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-            "timeslot": "08 - 11",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
-          }
-        ],
         "marted\u00ec": [
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "11 - 13",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
             }
           }
         ]
@@ -969,21 +969,21 @@
             }
           }
         ],
-        "venerd\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "c9bc0f07-e933-48f3-aa84-0a40352ae5df": "Aula 6 (Edificio: RM018)"
-            }
-          }
-        ],
         "gioved\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "16 - 19",
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "c9bc0f07-e933-48f3-aa84-0a40352ae5df": "Aula 6 (Edificio: RM018)"
             }
           }
         ]
@@ -1041,21 +1041,21 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "gioved\u00ec": [
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "15 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
-          }
-        ],
         "mercoled\u00ec": [
           {
             "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
             "timeslot": "08 - 10",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
             }
           }
         ]
@@ -1068,21 +1068,21 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "gioved\u00ec": [
-          {
-            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
             "timeslot": "10 - 13",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "2e5108b5-5967-4c7f-a1fc-8283b04bcef5",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
@@ -1122,12 +1122,12 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "venerd\u00ec": [
+        "luned\u00ec": [
           {
             "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
-            "timeslot": "10 - 12",
+            "timeslot": "08 - 10",
             "classrooms": {
-              "e5c83a47-fac5-4ff4-81b4-626a28e92180": "Aula G informatica (Edificio: RM103)"
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
         ],
@@ -1140,12 +1140,12 @@
             }
           }
         ],
-        "luned\u00ec": [
+        "venerd\u00ec": [
           {
             "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
-            "timeslot": "08 - 10",
+            "timeslot": "10 - 12",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "e5c83a47-fac5-4ff4-81b4-626a28e92180": "Aula G informatica (Edificio: RM103)"
             }
           }
         ]
@@ -1322,21 +1322,21 @@
     "degree": "30786",
     "channels": {
       "0": {
-        "venerd\u00ec": [
-          {
-            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
         "luned\u00ec": [
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "14 - 16",
             "classrooms": {
               "de6555c8-2b3b-4143-8652-01ff8fb2c19f": "Aula IV (Edificio: CU006)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ]

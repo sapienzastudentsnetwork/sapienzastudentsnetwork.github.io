@@ -193,17 +193,18 @@ def parse(DOM):
     # Sort days
     sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì"]
 
-    #for teaching_code, teaching_code_data in teaching_schedules_dict.items():
-    #    sorted_channels = {}
-    #
-    #    for channel, day_data in teaching_code_data["channels"].items():
-    #        sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
-    #        sorted_channels[channel] = sorted_days
-    #
-    #    teaching_schedules_dict[teaching_code]["channels"] = sorted_channels
+    for teaching_code, teaching_code_data in teaching_schedules_dict.items():
+        sorted_channels = {}
 
-    # ▀█▀ █ █▀▄▀█ █▀▀ ▀█▀ ▄▀█ █▄▄ █░░ █▀▀ █▀ ░ ░░█ █▀ █▀█ █▄░█
-    # ░█░ █ █░▀░█ ██▄ ░█░ █▀█ █▄█ █▄▄ ██▄ ▄█ ▄ █▄█ ▄█ █▄█ █░▀█
+        for channel, day_data in teaching_code_data["channels"].items():
+            sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
+            sorted_channels[channel] = sorted_days
+
+        teaching_schedules_dict[teaching_code]["channels"] = sorted_channels
+
+    # ▀▀█▀▀ ▀█▀ ▒█▀▄▀█ ▒█▀▀▀ ▀▀█▀▀ ░█▀▀█ ▒█▀▀█ ▒█░░░ ▒█▀▀▀ ▒█▀▀▀█ ░ ░░░▒█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▄░▒█
+    # ░▒█░░ ▒█░ ▒█▒█▒█ ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█▀▀▄ ▒█░░░ ▒█▀▀▀ ░▀▀▀▄▄ ▄ ░▄░▒█ ░▀▀▀▄▄ ▒█░░▒█ ▒█▒█▒█
+    # ░▒█░░ ▄█▄ ▒█░░▒█ ▒█▄▄▄ ░▒█░░ ▒█░▒█ ▒█▄▄█ ▒█▄▄█ ▒█▄▄▄ ▒█▄▄▄█ █ ▒█▄▄█ ▒█▄▄▄█ ▒█▄▄▄█ ▒█░░▀█
 
     data = []
 
@@ -246,8 +247,9 @@ def parse(DOM):
 
         data.append(year)
 
-    # █▀▀ █░░ ▄▀█ █▀ █▀ █▀█ █▀█ █▀█ █▀▄▀█ █▀ ░ ░░█ █▀ █▀█ █▄░█
-    # █▄▄ █▄▄ █▀█ ▄█ ▄█ █▀▄ █▄█ █▄█ █░▀░█ ▄█ ▄ █▄█ ▄█ █▄█ █░▀█
+    # ▒█▀▀█ ▒█░░░ ░█▀▀█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▀▄▀█ ▒█▀▀▀█ ░ ░░░▒█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▄░▒█
+    # ▒█░░░ ▒█░░░ ▒█▄▄█ ░▀▀▀▄▄ ░▀▀▀▄▄ ▒█▄▄▀ ▒█░░▒█ ▒█░░▒█ ▒█▒█▒█ ░▀▀▀▄▄ ▄ ░▄░▒█ ░▀▀▀▄▄ ▒█░░▒█ ▒█▒█▒█
+    # ▒█▄▄█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█▄▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█▄▄▄█ ▒█░░▒█ ▒█▄▄▄█ █ ▒█▄▄█ ▒█▄▄▄█ ▒█▄▄▄█ ▒█░░▀█
 
     # Get all the rows in the classrooms table except the first one (header)
     rows = DOM.find(class_='elenco_aule').find_all('tr')[1:]
