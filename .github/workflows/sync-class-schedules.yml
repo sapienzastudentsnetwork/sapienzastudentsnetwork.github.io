@@ -1,13 +1,13 @@
-name: Update class schedules
+name: Sync class schedules
 
 on:
   # Triggers this workflow on pushes to the default branch (main)
   push:
     branches: ["main"]
 
-  # Schedule this workflow to run every day at 18:00 UTC (20:00 Europe/Rome time)
+  # Schedule this workflow to run every 6 hours
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 */6 * * *"
 
   # Enables manual execution of this workflow from the Actions tab
   workflow_dispatch:
@@ -20,50 +20,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install xvfb
-        run: |
-          sudo apt update
-          sudo apt install xvfb -y
-
-      - name: Remove Firefox (Snap and APT)
-        run: |
-          sudo snap remove firefox
-          sudo apt remove firefox
-        continue-on-error: true
-
-      - name: Add Mozilla PPA
-        run: sudo add-apt-repository ppa:mozillateam/ppa -y
-
-      - name: Create preferences file
-        run: |
-          echo 'Package: firefox*' | sudo tee /etc/apt/preferences.d/mozillateamppa
-          echo 'Pin: release o=LP-PPA-mozillateam' | sudo tee -a /etc/apt/preferences.d/mozillateamppa
-          echo 'Pin-Priority: 501' | sudo tee -a /etc/apt/preferences.d/mozillateamppa
-
       - name: Update package list
         run: sudo apt update
 
-      - name: Install Firefox
-        run: sudo apt install firefox -y
-
       - name: Setup Python
         uses: actions/setup-python@v4
-        with:
-          python-version: '3.11.5'
 
       - name: Installing package list
         run: apt list --installed
 
       - name: Installing all necessary pip packages
-        run: pip install webdriver-manager selenium pyvirtualdisplay bs4
+        run: pip install bs4
 
       - name: Run class schedules update script
         run: |
-          chmod +x _data/updateData.sh
+          chmod +x _data/sync-class-schedules.sh
           cd _data
-          ./updateData.sh
+          ./sync-class-schedules.sh
         env:
-          ORARI_BASE_URL: ${{ secrets.ORARI_BASE_URL_SECRET }}
+          GOMPPUBLIC_GENERATEORARIO_URL: ${{ secrets.GOMPPUBLIC_GENERATEORARIO_URL }}
         working-directory: ${{ github.workspace }}
 
       - name: Check if there are any changes
@@ -79,5 +54,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data
-          git commit -m "Update class schedules"
+          git commit -m "Sync class schedules"
           git push

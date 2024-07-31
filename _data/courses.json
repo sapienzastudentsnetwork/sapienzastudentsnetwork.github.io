@@ -59,10 +59,16 @@
         "abbr": "ALG",
         "tgGroup": "https://t.me/+798mXLThj_JmYTBk"
     },
-    "1015887": {
-        "name": "Basi di Dati",
-        "shortName": "Basi di Dati",
-        "abbr": "BD",
+    "1015887_1": {
+        "name": "Basi di Dati 1",
+        "shortName": "Basi di Dati 1",
+        "abbr": "BD1",
+        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk"
+    },
+    "1015887_2": {
+        "name": "Basi di Dati 2",
+        "shortName": "Basi di Dati 2",
+        "abbr": "BD2",
         "tgGroup": "https://t.me/+xTuUWRfneSwwMjBk"
     },
     "1020421": {
@@ -71,10 +77,16 @@
         "abbr": "PRB",
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk"
     },
-    "1020422": {
-        "name": "Sistemi Operativi",
-        "shortName": "Sist. Op.",
-        "abbr": "SO",
+    "1020422_1": {
+        "name": "Sistemi Operativi 1",
+        "shortName": "Sist. Op. 1",
+        "abbr": "SO1",
+        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk"
+    },
+    "1020422_2": {
+        "name": "Sistemi Operativi 2",
+        "shortName": "Sist. Op. 2",
+        "abbr": "SO2",
         "tgGroup": "https://t.me/+PzNOzkmwVio4Nzg0"
     },
     "1015888": {
@@ -100,6 +112,12 @@
         "shortName": "Biol. Comput.",
         "abbr": "BIO",
         "tgGroup": "https://t.me/+cBediJPv7GxmZTc8"
+    },
+    "10606972": {
+        "name": "Data Science e Diritto",
+        "shortName": "DS e Diritto",
+        "abbr": "DSD",
+        "tgGroup": "https://t.me/+bHU0Mc28yjBhZWM0"
     },
     "97597": {
         "name": "Fisica",
@@ -139,7 +157,7 @@
     },
     "1021828": {
         "name": "Matematica Discreta",
-        "shortName": "Matematica Discreta",
+        "shortName": "Matem. Discreta",
         "abbr": "DIS",
         "tgGroup": "https://t.me/+x5k6q2yrsztlOWVk"
     },
@@ -163,7 +181,7 @@
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
-        "shortName": "Prog. Emb. e Multic.",
+        "shortName": "Multicore",
         "abbr": "PEM",
         "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk"
     },
@@ -175,7 +193,7 @@
     },
     "1022266": {
         "name": "Programmazione di Sistema",
-        "shortName": "Prog. di Sistema",
+        "shortName": "Prog. Sistema",
         "abbr": "PS"
     },
     "1022268": {
@@ -196,25 +214,40 @@
         "abbr": "VVSI",
         "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk"
     },
-    "10595099": {
-        "name": "Calculus",
-        "shortName": "Calculus",
-        "abbr": "C1"
+    "10595099_1": {
+        "name": "Calculus U1",
+        "shortName": "Calculus U1",
+        "abbr": "CU1"
     },
-    "10595546": {
-        "name": "Computer Architecture",
-        "shortName": "Comp. Arch.",
+    "10595099_2": {
+        "name": "Calculus U2",
+        "shortName": "Calculus U2",
+        "abbr": "CU2"
+    },
+    "10595546_1": {
+        "name": "Computer Architecture U1",
+        "shortName": "Comp. Arch. U1",
         "abbr": "CA1"
+    },
+    "10595546_2": {
+        "name": "Computer Architecture U2",
+        "shortName": "Comp. Arch. U2",
+        "abbr": "CA2"
     },
     "10595524": {
         "name": "Linear Algebra",
         "shortName": "Algebra",
         "abbr": "ALG"
     },
-    "10595102": {
-        "name": "Programming",
-        "shortName": "Programming",
-        "abbr": "PR"
+    "10595102_1": {
+        "name": "Programming U1",
+        "shortName": "Programming U1",
+        "abbr": "PRU1"
+    },
+    "10595102_2": {
+        "name": "Programming U2",
+        "shortName": "Programming U2",
+        "abbr": "PRU2"
     },
     "1049269": {
         "name": "Algorithms",
@@ -236,10 +269,15 @@
         "shortName": "Calculus 2",
         "abbr": "C2"
     },
-    "10595617": {
-        "name": "Data Management and Analysis",
-        "shortName": "Data Man. & Analy.",
-        "abbr": "DMA"
+    "10595617_1": {
+        "name": "Data Management and Analysis U1",
+        "shortName": "Data U1",
+        "abbr": "DMA1"
+    },
+    "10595617_2": {
+        "name": "Data Management and Analysis U2",
+        "shortName": "Data U2",
+        "abbr": "DMA2"
     },
     "10595525": {
         "name": "Probability",
@@ -251,10 +289,15 @@
         "shortName": "Systems & Net.",
         "abbr": "SN"
     },
-    "10595618": {
-        "name": "Artificial Intelligence and Machine Learning",
-        "shortName": "AI & ML",
-        "abbr": "AIML"
+    "10595618_1": {
+        "name": "Artificial Intelligence (AI & ML)",
+        "shortName": "AI (AI & ML)",
+        "abbr": "AI"
+    },
+    "10595618_2": {
+        "name": "Machine Learning (AI & ML)",
+        "shortName": "ML (AI & ML)",
+        "abbr": "ML"
     },
     "10595610": {
         "name": "AI Lab: Computer Vision and NLP",
@@ -305,12 +348,7 @@
         "name": "Business and Computer Science",
         "shortName": "Business & CS",
         "abbr": "BCS",
-        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk",
-        "alerts": {
-            "0": [
-                "⚠\uFE0F Business & CS classes will take place according to the calendar indicated on the <a href='https://corsidilaurea.uniroma1.it/sites/default/files/business_and_computer_science_prof._eleonora_veglianti.pdf'>dedicated document</a>; some changes may also occur, keep up to date by subscribing to the <a href='https://classroom.google.com/c/NjY2OTgyNTA4MTY0?cjc=626mfgi'>Google Classroom</a> of the course"
-            ]
-        }
+        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk"
     },
     "10595537": {
         "name": "Law and Computer Science",
