@@ -19,9 +19,9 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 ### Gruppi matricole
 
-#### 2023/2024
+#### 2024/2025
 
-Gruppi Telegram per le **matricole 2023/2024**:
+Gruppi Telegram per le **matricole 2024/2025**:
 
 - [Informatica A-L](https://t.me/SapienzaInformaticaAL)
 - [Informatica M-Z](https://t.me/SapienzaInformaticaMZ)
