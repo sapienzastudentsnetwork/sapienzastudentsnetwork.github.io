@@ -56,6 +56,10 @@
     }
 }
 
+.degree_choice_page {
+    align-items: center;
+}
+
 .home_box_text_title {
     color: #e9ecef;
     font-family: 'DM Sans';
@@ -64,11 +68,39 @@
     margin-bottom: -35px;
 }
 
+.degree_choice_box_text_title {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
 .home_box_text {
     color: #e9ecef;
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 18px;
+}
+
+.degree_choice_box_text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#degree_choice_acsai {
+    background-image: url("https://i.imgur.com/C2vugWG.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#degree_choice_computer_science {
+    background-image: url("https://i.imgur.com/DWKgwUm.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#degree_choice_informatica {
+    background-image: url("https://i.imgur.com/saayfXr.png");
+    background-position: center;
+    background-size: cover;
 }
 
 #home_enroll {
@@ -121,6 +153,12 @@
     font-family: "DM Sans";
     font-size: 56px;
     font-weight: 700;
+}
+
+#title_grad_degree_choice {
+    background: linear-gradient(72deg, #d3d3d3 6.74%, #ffffff 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 #title_grad_acsai {
