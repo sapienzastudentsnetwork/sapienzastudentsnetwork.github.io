@@ -14,7 +14,7 @@ We welcome you to the wiki for the Applied Computer Science and Artificial Intel
     <div class="home_page" id="home_enroll">
         <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
         <p class="home_box_text">Get into the ACSAI course</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/it/docs/matricole/iscriversi/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/30786/info/getting-in/how-to-get-in/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_wiki">
         <p class="home_box_text_title" id="home_wiki_text">Wiki</p>
