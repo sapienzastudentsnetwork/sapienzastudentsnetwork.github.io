@@ -1,10 +1,10 @@
 ---
-title: Come connettersi al WiFi
+title: Wi-Fi di Ateneo
 ---
 
-# Come connettersi al WiFi della Sapienza?
+# Sapienza Wireless
 
-L'Università Sapienza offre agli studenti due reti wireless: **Sapienza** ed **Eduroam**. Entrambe consentono una navigazione veloce utilizzando le credenziali universitarie, ma presentano alcune differenze significative.
+Sapienza offre a studenti, dottorandi, assegnisti di ricerca, ricercatori, personale docente e tecnico-amministrativo due reti wireless: **Sapienza** ed **Eduroam**. Entrambe consentono una navigazione veloce utilizzando le credenziali universitarie, ma presentano alcune differenze significative.
 
 ## Rete Sapienza
 

@@ -10,4 +10,4 @@ bookToc: False
 
 👋 We welcome you to the wiki of the Master's Degree in Computer Science, maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!
 
-🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself by correcting any typos or adding new information and guides 💪
+🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪

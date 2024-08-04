@@ -1,8 +1,8 @@
 ---
-title: Come iscriversi?
+title: Come iscriversi
 ---
 
-# Come faccio ad iscrivermi ad Informatica?
+# Iscrizione al CdL in Informatica
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
@@ -15,7 +15,7 @@ Le informazioni qui riportate sono basate sul [**D.R. n. 380**](https://www.unir
 È disponibile una [chat Telegram](/it/canali/gruppi/), gestita tra studentesse e studenti del corso di laurea, dove puoi trovare supporto in caso di problemi o maggiori informazioni.
 {{< /hint >}}
 
-L'iscrizione al corso di laurea in Informatica segue una serie di passaggi fondamentali:
+L'iscrizione al Corso di Laurea in Informatica segue una serie di passaggi fondamentali:
 1. [Sostenere il test di ingresso TOLC-I](#sostenere-il-test-di-ingresso-tolc-i)
 2. [Registrarsi ad Infostud](#registrarsi-ad-infostud)
 3. [Pagare il contributo di €10](#pagamento-del-contributo-di-10)

@@ -10,7 +10,7 @@ bookToc: False
 
 👋 We welcome you to the wiki of the Bachelor Degree in Applied Computer Science and Artificial Intelligence (also called ACSAI), maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!
 
-🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself by correcting any typos or adding new information and guides 💪
+🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪
 
 👥 Make sure you also visit the [Telegram groups](channels/groups) in order to receive further answers on any topics not yet covered on the pages of this site 😉
 
