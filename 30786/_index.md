@@ -8,8 +8,13 @@ bookToc: False
 
 <div style="width: 90%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
-We welcome you to the wiki for the Applied Computer Science and Artificial Intelligence course (also called ACSAI). This course is a Computer Science based course, which specifies in teaching what AIs are and how they do work. [Check out more](https://corsidilaurea.uniroma1.it/it/corso/2024/30786/il-corso) about the course!
+👋 We welcome you to the wiki of the Bachelor Degree in Applied Computer Science and Artificial Intelligence (also called ACSAI), maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!
 
+🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself by correcting any typos or adding new information and guides 💪
+
+👥 Make sure you also visit the [Telegram groups](channels/groups) in order to receive further answers on any topics not yet covered on the pages of this site 😉
+
+## Featured pages
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
         <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
@@ -27,18 +32,3 @@ We welcome you to the wiki for the Applied Computer Science and Artificial Intel
         <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/30786/posts/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
-
-<!--### Do you want to enroll in the Applied Computer Science and Artificial Intelligence course?
-Great choice! Here you will find all the information about the study plan, opportunities for your path, and all the details on how to enroll and attend courses.
-
-### Are you already enrolled and looking for information?
-Perfect! We have gathered everything you need: class schedules, study materials, and much more.-->
-
-### What can you find here?
-* 📚 Details about the Applied Computer Science and Artificial Intelligence degree
-* 📅 Academic calendar and important deadlines
-* 📝 Guide to exam booking
-* 🎓 Information on internships and theses
-
-### Do you need help?
-In the **groups** section, you can interact with other students and get the support you need.

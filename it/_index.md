@@ -9,37 +9,27 @@ bookToc: False
 
 <div style="width: 90%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
-Ti diamo il benvenutə alla wiki del corso di Informatica. Che tu sia alla ricerca di informazioni su come iscriversi o come funzionano gli esami, qui troverai tutto ciò che cerchi.
+👋 Ti diamo il benvenuto nella wiki del Corso di Laurea Triennale in Informatica, curata dagli studenti e le studentesse del corso. Che tu sia già un aspirante futura matricola o uno studente già iscritto, qui troverai molte informazioni utili per il tuo percorso!
 
+🔍 Naviga le sezioni e gli articoli disponibili nella barra laterale e non esitare a [contattarci](contribuire/contatti/) in caso di eventuali dubbi o a [contribuire](contribuire/come-contribuire/) anche tu correggendo eventuali refusi o integrando nuove informazioni e guide 💪
+
+👥 Assicurati di visitare anche i [gruppi Telegram](canali/gruppi) per poter ricevere ulteriori risposte in merito ad eventuali temi non ancora trattati nelle pagine di questo sito 😉
+
+## In evidenza
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
-        <p class="home_box_text_title" id="home_enroll_text">Iscriversi</p>
-        <p class="home_box_text">Entra nel CdL di Informatica</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/it/docs/matricole/iscriversi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <p class="home_box_text_title" id="home_enroll_text">Iscrizione</p>
+        <p class="home_box_text">Info su come iscriversi</p>
+        <button class="explore_more" onclick="window.location.href = 'docs/matricole/iscriversi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_wiki">
-        <p class="home_box_text_title" id="home_wiki_text">Wiki</p>
-        <p class="home_box_text">Trova ciò di cui hai bisogno</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/30786/info/students-life/exams/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_ssn_groups">
+        <p class="home_box_text_title" id="home_wiki_text">Gruppi</p>
+        <p class="home_box_text">Gruppi chat tra studenti</p>
+        <button class="explore_more" onclick="window.location.href = 'canali/gruppi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_news">
-        <p class="home_box_text_title" id="home_news_text">Novità</p>
-        <p class="home_box_text">Sfoglia le ultime notizie</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/30786/posts/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_study_plan">
+        <p class="home_box_text_title" id="home_wiki_text">Piano di Studi</p>
+        <p class="home_box_text">Da compilare al Terzo Anno</p>
+        <button class="explore_more" onclick="window.location.href = 'docs/terzo-anno/percorso-formativo/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
-
-## Vuoi iscriverti alla triennale in Informatica?
-Ottima scelta! In questo sito ufficiale degli studenti e le studentesse del corso di laurea troverai tutte le informazioni sul piano di studi, le opportunità per il tuo percorso e tutte le informazioni su come iscriversi e frequentare gli insegnamenti.
-
-## Sei già iscritto e cerchi informazioni?
-Perfetto! Abbiamo raccolto tutto ciò di cui hai bisogno: orari delle lezioni, materiali di studio e molto altro.
-
-## Cosa potrai trovare qui?
-* 📚 Dettagli sul corso di laurea in Informatica
-* 📅 Calendario accademico e scadenze importanti
-* 📝 Guida alla prenotazione degli esami e alla compilazione del percorso formativo
-* 🎓 Informazioni su tirocinio, relazione di tirocinio e laurea
-
-## Hai bisogno di aiuto?
-Nei **[gruppi](/it/canali/telegram)** puoi confrontarti con altri studenti e ottenere il supporto che cerchi :-)

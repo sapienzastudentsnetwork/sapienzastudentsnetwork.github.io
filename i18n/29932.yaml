@@ -13,28 +13,34 @@
   translation: Course
 
 - id: B_Course_Desc
-  translation: This badge shows the programme on which the curator currently studies in/studied in while in Sapienza
+  translation: Course of study in which the curator studies/studied during their period of studies at Sapienza
 
-- id: B_Tutor_23
-  translation: Tutor for CAD
+- id: B_Tutor_CAD
+  translation: Tutor
 
-- id: B_Tutor_Desc_23
-  translation: This badge shows that the curator is a tutor of the Computer Science Didactic Area Council ("CAD") for the academic year 2023-2024
+- id: B_Tutor_CAD_Desc
+  translation: The curator collaborates on content for the project as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+
+- id: B_SSN
+  translation: SSN
+
+- id: B_SSN_Desc
+  translation: The curator is a member of the GitHub organization Sapienza Students Network
 
 - id: B_Cont_Cur
   translation: Content Curator
 
 - id: B_Cont_Cur_Desc
-  translation: This badge shows that the curator composes/composed content for the site
+  translation: The curator composes/has composed content for the site
 
 - id: B_Code_Dev
   translation: Code Developer
 
 - id: B_Code_Dev_Desc
-  translation: This badge shows that the curator develops/developed code for the site
+  translation: The curator develops/has developed code for the site
 
 - id: B_Stud_Repr
-  translation: Student Representative
+  translation: Representative @ CAD
 
 - id: B_Stud_Repr_Desc
-  translation: This badge shows that the curator is a Student Representative for the Computer Science Didactic Area Council ("CAD")
+  translation: The curator is a Student Representative at the Didactic Area Council ("CAD") of Computer Science (of the four degree courses involved in this project)
