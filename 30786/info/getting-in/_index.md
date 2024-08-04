@@ -1,6 +1,6 @@
 ---
 title: Getting in ACSAI
 bookCollapseSection: true
-bookHidden: true
+bookHidden: false
 weight: 1
 ---

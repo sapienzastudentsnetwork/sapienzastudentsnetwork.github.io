@@ -34,7 +34,7 @@ A differenza della rete Sapienza, le credenziali per la rete Eduroam richiedono 
 ### Configurazione di Eduroam
 
 {{< tabs "uniqueid" >}}
-{{< tab "📱 smartphone" >}}
+{{< tab "📱 Smartphone" >}}
 Per accedere alla rete Eduroam tramite smartphone iOS e Android:
 
 1. Scarica l'applicazione ufficiale **GetEduroam**:
@@ -43,7 +43,7 @@ Per accedere alla rete Eduroam tramite smartphone iOS e Android:
 2. Apri l'app e segui la procedura guidata per configurare la rete.
 {{< /tab >}}
 
-{{< tab "💻 laptop" >}}
+{{< tab "💻 Laptop" >}}
 Per accedere alla rete Eduroam tramite PC o Mac:
 
 1. Visita il [sito ufficiale di Eduroam](https://cat.eduroam.org).
