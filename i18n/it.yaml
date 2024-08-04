@@ -13,13 +13,13 @@
   translation: Corso
 
 - id: B_Course_Desc
-  translation: Corso di studi in cui il curatore studia/ha studiato durante il suo periodo di studi presso Sapienza
+  translation: Corso di Laurea in cui il curatore studia/ha studiato durante il suo periodo di studi presso Sapienza
 
 - id: B_Tutor_CAD
   translation: Tutor
 
 - id: B_Tutor_CAD_Desc
-  translation: Il curatore collabora, nei contenuti, al progetto, nell'ambito di un tutoraggio per l'apprendimento complessivo del CAD di Informatica
+  translation: Il curatore collabora ai contenuti delle wiki del sito nell'ambito di un tutoraggio per l'apprendimento complessivo del CAD di Informatica
 
 - id: B_SSN
   translation: SSN
@@ -43,4 +43,4 @@
   translation: Rappresentante @ CAD
 
 - id: B_Stud_Repr_Desc
-  translation: Il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica ("CAD") di Informatica (dei quattro corsi di laurea oggetto di questo progetto)
+  translation: Il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica ("CAD") di Informatica (dei quattro corsi di laurea trattati nel sito)

@@ -19,7 +19,7 @@
   translation: Tutor
 
 - id: B_Tutor_CAD_Desc
-  translation: The curator collaborates on content for the project as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+  translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
 
 - id: B_SSN
   translation: SSN
@@ -43,4 +43,4 @@
   translation: Representative @ CAD
 
 - id: B_Stud_Repr_Desc
-  translation: The curator is a Student Representative at the Didactic Area Council ("CAD") of Computer Science (of the four degree courses involved in this project)
+  translation: The curator is a Student Representative at the Didactic Area Council ("CAD") of Computer Science (of the four degree programmes featured on the website)
