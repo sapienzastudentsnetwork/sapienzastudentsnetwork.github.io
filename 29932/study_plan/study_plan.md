@@ -1,8 +1,8 @@
 # Computer Science Study Plan
 
->> ï¸âš ï¸ All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024-25 academic year when the recommended curriculums were added.
+>> ⚠️ All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024-25 academic year when the recommended curriculums were added.
 
->> â„¹ï¸In the [Computer Science Study Plan Telegram section](https://t.me/computersciencesapienza/9766I) you can discuss, compare and ask for advices regarding your plan.
+>>ℹ️ In the [Computer Science Study Plan Telegram section](https://t.me/computersciencesapienza/9766I) you can discuss, compare and ask for advices regarding your plan.
 
 ## Study Plan Basics
 
@@ -29,7 +29,7 @@ The committee will evaluate the submitted study plans periodically as follows:
 - Plans submitted after October 10th and by November 30th will be evaluated by December 31st.
 
 Study plans, once approved for an academic year, cannot be modified within the same academic year. 
->> ï¸âš ï¸We recommend to follow the courses for at least a month before making any final choie in order to avoid having to wait an entire academic year before making some changes. It's very frequent that students change ideas and might try other courses before making a definitive plan.
+>> ⚠️ We recommend to follow the courses for at least a month before making any final choie in order to avoid having to wait an entire academic year before making some changes. It's very frequent that students change ideas and might try other courses before making a definitive plan.
 
 An already valid study plan can be revised in the following A.Y. by submitting a new plan that includes all previously approved courses.
 
@@ -51,7 +51,7 @@ This means that if you are enrolled in the 24-25 A.Y in December 2025 you won't 
 ## Can a study plan be rejected?
 Yes, you will have to submit a new plan until it gets approved. There's not a plain rejection, usually an email explaining the reason why the plan was rejected is sent.
 
->> ï¸âš ï¸Sometimes even if different students might submit an identical plan some might be rejected. This is to enforce the selection of exams within the same degree (e.g. selecting ML in CS instead of ML from AIRO).
+>> ⚠️ Sometimes even if different students might submit an identical plan some might be rejected. This is to enforce the selection of exams within the same degree (e.g. selecting ML in CS instead of ML from AIRO).
 Re-submitting can get your plan approved.
 In other situations where you have two virtually identical exams (like FDS and ML) will result in a rejection at every re-submission so check the groups to be sure if there's anything wrong with your plan!
 

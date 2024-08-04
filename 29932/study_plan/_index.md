@@ -1,5 +1,5 @@
 ---
 title: 📚 Study Plan
 bookFlatSection: true
-weight: 6
+weight: 7
 ---
