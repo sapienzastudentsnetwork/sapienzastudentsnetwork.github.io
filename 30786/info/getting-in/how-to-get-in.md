@@ -99,11 +99,11 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 
 ## Preselection (mandatory for non-EU applicants)
 
-
+Further instructions Coming Soon!
 
 ## Visa
 
-
+Further instructions Coming Soon!
 
 ## Infostud
 
@@ -114,11 +114,13 @@ Check thoroughly all the deadlines for registering for a selection on the docume
 {{< /hint >}}
 
 First things first, you have to register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) in order to obtain an ID number. The email address inserted during the procedures will be used for communications, so it is better to chose an address you frequently check.
-Once registered, you can access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students): here click on "Bachelor and Master Degree Programmes" and then 'Admission to Programmes"; finally, enter the code **14824** and pay the 10€ fee. The fee must be payed within the registration period for the round itself: please check deadlines and dates of the selection rounds on this [webisite](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections). Furthermore, the fee is valid for only one round: if you want to partecipate in a second or third round you must pay the fee again following the same process.
+Once registered, you can access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students): here click on "Bachelor and Master Degree Programmes" and then 'Admission to Programmes":
 
-<!--![This is an alt text.](https://lh6.googleusercontent.com/cHDm-A_D-V-O5PtwGNfPgzXWIIwmgRhqDB6LQwqBxTu4uJf23JZXnchc-ZtsotfCp-OXEyH4ty_vVKI8wm3qnLwqZQGYbzYCwHLwM2Yisz4rpnCVEsPfm2bCs5qq95b0_w=w1280)
+![Image](https://i.imgur.com/T2VvbNd.png)
 
-![This is an alt text.](https://lh5.googleusercontent.com/TBOleKMVa2V3tHBzTFg1uXC3-kuUXYVH8zZowKX3C7DR6LlhLAjmprovk9JiDtMpn80Mj1-eO1y-a55E5xjNwzAwO4IOwA5JD0RaX1wJaUP5_saAap7b-GIZyjFy4GjHRw=w1280)-->
+Finally, enter the code **14824** and pay the 10€ fee. The fee must be payed within the registration period for the round itself: please check deadlines and dates of the selection rounds on this [website](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections). Furthermore, the fee is valid for only one round: if you want to partecipate in a second or third round you must pay the fee again following the same process.
+
+![Image](https://i.imgur.com/v84PZyb.png)
 
 ## Pre-enrollment or enrollment
 
@@ -131,7 +133,7 @@ Check thoroughly all the deadlines for enrollment and pre-enrollment on the docu
 If you registered correctly to a selection round, your ID number will show up on the rankings uploaded on the [Sapienza website](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections).
 
 If you partecipated to the first selection and you passed it, you must **pre-enroll**: pre-enrollment requires to pay a fee of 200€ (which will be subtracted by the enrollment fee). **If you do not pre-enroll during the pre-enrollment period or if you do not provide the English requirement as explained above, Sapienza will consider your application as dropped-out.**
-In order to pre-enroll, you have to log-in on Infostud as before and go to "Bachelor and Master Degree Programmes"; then, click on "Pre-enrollment TOLC-I": follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Print" and pay the fee through PagoPA (further information on the payment method on [Sapienza website](https://www.uniroma1.it/en/pagina/payment)).
+In order to pre-enroll, you have to log-in on Infostud as before and go to "Bachelor and Master Degree Programmes"; then, click on "Pre-enrollment TOLC-I" ([image](https://i.imgur.com/x0k4zGC.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Print" and pay the fee through PagoPA (further information on the payment method on [Sapienza website](https://www.uniroma1.it/en/pagina/payment)).
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Important**
@@ -139,10 +141,6 @@ In order to pre-enroll, you have to log-in on Infostud as before and go to "Bach
 If you partecipated in selection rounds after the first **you do not need to pre-enroll**! Follow the procedure for enrollment below.
 {{< /hint >}}
 
-<!--![This is an alt text.](https://lh5.googleusercontent.com/gqbU-uOjelsQD0k-wGmDlUWYB_aWRjjkDko-cE0Div4LCFd6qeNJDM7WNFXEJiJ06qKETXPtHq3esshBm1MnQDjo9hq5tM28VQ5vf8YtXaaV6x4VtiKRmvmGBuI6iTTzGA=w1280)-->
-
 Every applicant (**first, second and third rounders**) must **enroll in the period indicated on the document mentioned above**. Usually first and second rounders have the same period of enrollment.
 
-In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuiton Fees"): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment for your selection round.**
-
-<!--![This is an alt text.](https://lh3.googleusercontent.com/RQAHn6fHzXsd1VMhkxAbDQtsKH6OcewIHuol_h2-RcdMpbXibG0rEa0NdUETSiJ-V1YrTgUp7XNo1PEMaPC1bBkYrlx3DBtaEOWnvXHQUefpRnuiEgkrQ6dHRiL0PiIxbA=w1280)-->
+In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuiton Fees", [image](https://i.imgur.com/zaY3eXy.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment for your selection round.**
