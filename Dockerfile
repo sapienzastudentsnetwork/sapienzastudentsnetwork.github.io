@@ -55,4 +55,4 @@ RUN if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then npm ci; fi
 EXPOSE 1313
 
 # Comando per avviare il server di sviluppo Hugo
-CMD ["hugo", "server", "--bind", "0.0.0.0"]
+CMD ["hugo", "server", "--disableFastRender", "--bind", "0.0.0.0"]
