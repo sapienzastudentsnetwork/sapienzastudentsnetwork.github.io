@@ -1,6 +1,7 @@
 ---
 title: "Gruppi Telegram"
 aliases: ["/gruppi", "/it/gruppi", "/informatica/gruppi", "/telegram", "/it/telegram", "/it/canali/telegram"]
+weight: 1
 ---
 # Gruppi Telegram
 
