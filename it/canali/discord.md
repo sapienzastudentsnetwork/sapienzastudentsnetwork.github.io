@@ -1,6 +1,7 @@
 ---
 title: "Server Discord"
 aliases: ["/discord", "/it/discord"]
+weight: 2
 ---
 # Server Discord
 
