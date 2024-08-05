@@ -3,7 +3,7 @@ title: sapienzastudents.net
 bookToc: False
 ---
 
-<h1 align="center" class="title_grad" style="font-weight: 900">Degree Programme Choice</h1>
+<h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>
 
 <p align="center" style="margin-top: -15px">Official student website of the Computer Science Didactic Area Council ("CAD") Degree Programmes</p>
 
