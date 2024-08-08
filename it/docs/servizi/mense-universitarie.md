@@ -20,7 +20,7 @@ Esse consentono l'accesso solo agli studenti iscritti alle Università statali e
 |         oltre 60 mila euro         |           5,90 €            |             
 |           non dichiarato           |           7,70 €            | 
 
-Gli studenti internazionali possono ottenere l'ISEE soltanto in uno dei CAF convenzionati: l'elenco per l'A.A. 2024/25 si trova [qui](http://www.laziodisco.it/a-a-a2024-2025-elenco-dei-caf-convenzionati/). La documentazione richiesta per ottenere il calcolo dell'ISEE si trova sul sito di [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) sotto la voce "Documentazione per il primo accredito di studenti internazionali".
+Gli studenti internazionali possono ottenere l'ISEE soltanto in uno dei CAF convenzionati: l'elenco per l'A.A. 2024/2025 si trova [qui](http://www.laziodisco.it/a-a-a2024-2025-elenco-dei-caf-convenzionati/). La documentazione richiesta per ottenere il calcolo dell'ISEE si trova sul sito di [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) sotto la voce "Documentazione per il primo accredito di studenti internazionali".
 
 ## Registrazione
 Prima di tutto, dovrai registrarti all'[Area Riservata di DiSCo Lazio](https://login.laziodisco.it/access/borse).

@@ -29,7 +29,7 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 
 - [Algebra](https://github.com/sapienzastudentsnetwork/algebra)
 - [Basi di Dati I](https://github.com/sapienzastudentsnetwork/basi-di-dati-1)
-- Calcolo delle Probabilità [[Bertini]](https://github.com/sapienzastudentsnetwork/calcprob2324) [[Isopi, 2022-2023]](https://github.com/sapienzastudentsnetwork/calcprob2223)
+- Calcolo delle Probabilità [[Bertini]](https://github.com/sapienzastudentsnetwork/calcprob2324) [[Isopi, 2022/2023]](https://github.com/sapienzastudentsnetwork/calcprob2223)
 
 ### Secondo Semestre
 

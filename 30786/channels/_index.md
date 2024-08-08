@@ -17,9 +17,19 @@ Here is a list of general channels available to all students across all years of
 
 ## New students
 
-### A.Y. 2024/25
+### A.Y. 2024/2025
 
 [![](https://img.shields.io/badge/-telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
+
+## Students from previous years
+
+### A.Y. 2023/2024
+
+[![](https://img.shields.io/badge/-whatsapp_group-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
+
+### A.Y. 2022/2023
+
+[![](https://img.shields.io/badge/-whatsapp_gorup-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)](https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)
 
 ## Teaching groups
 
