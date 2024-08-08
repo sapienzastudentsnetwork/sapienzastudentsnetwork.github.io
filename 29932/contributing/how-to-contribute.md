@@ -72,7 +72,7 @@ git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 Now the problem should have disappeared, and you should be able to build without problems the site.
 {{< /hint>}}
 
-5. Open [`localhost:1313`](localhost:1313) on your browser and there you go! You can now live preview the site. Since Hugo supports hot reloading, everytime a file changes, the site will too.
+5. Open [`localhost:1313`](http://localhost:1313/) on your browser and there you go! You can now live preview the site. Since Hugo supports hot reloading, everytime a file changes, the site will too.
 
 6. If you want to stop the server, just press `Ctrl + C` in the terminal.
 
@@ -88,7 +88,7 @@ docker build -t hugo-site . # Just the first time that you clone the fork
 sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Everytime that you work on the project
 ```
 
-5. Open [`localhost:4000`](http://localhost:4000/) in the browser, and there you go! You can now preview the site.
+5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
 6. If you want to stop the server, just press `Ctrl+C` in the terminal.
 {{< /tab >}}
 {{< /tabs >}}

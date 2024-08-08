@@ -1,0 +1,200 @@
+.home_evid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 0px) {
+    .home_page {
+        width: 90%;
+        height: 370px;
+        margin: 10px;
+        border-radius: 12px;
+        border: 2px solid #d5d5d5;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    .home_page {
+        width: 45%;
+        height: 370px;
+        margin: 10px;
+        border-radius: 12px;
+        border: 2px solid #d5d5d5;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 10px;
+    }
+
+    #home_news {
+        width: 93%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .home_page {
+        width: 30%;
+        height: 370px;
+        margin: 10px;
+        border-radius: 12px;
+        border: 2px solid #d5d5d5;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding: 10px;
+    }
+
+    #home_news {
+        width: 30%;
+    }
+}
+
+.degree_choice_page {
+    align-items: center;
+}
+
+.home_box_text_title {
+    color: #e9ecef;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: -35px;
+}
+
+.degree_choice_box_text_title {
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.home_box_text {
+    color: #e9ecef;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.degree_choice_box_text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#degree_choice_acsai {
+    background-image: url("https://i.imgur.com/C2vugWG.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#degree_choice_computer_science {
+    background-image: url("https://i.imgur.com/DWKgwUm.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#degree_choice_informatica {
+    background-image: url("https://i.imgur.com/saayfXr.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#home_enroll {
+    background-image: url("https://i.imgur.com/TLz9M7A.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+#home_ssn_groups {
+    background-image: url("https://i.imgur.com/V6vnarQ.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#home_study_plan {
+    background-image: url("https://i.imgur.com/uGtXtRb.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#home_wiki {
+    background-image: url("https://i.imgur.com/uGtXtRb.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#home_news {
+    background-image: url("https://i.imgur.com/A6eSJbm.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.explore_more {
+    background-color: #eeeeee;
+    font-family: 'DM Sans';
+    font-weight: 200;
+    font-size: 18px;
+    color: #252d3f;
+    width: 120px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    margin: -10px 0 0 0;
+    border-width: 0;
+}
+
+.title_grad {
+    font-family: "DM Sans";
+    font-size: 56px;
+    font-weight: 700;
+}
+
+#title_grad_degree_choice {
+    background: linear-gradient(72deg, #d3d3d3 6.74%, #ffffff 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#title_grad_acsai {
+    background: linear-gradient(72deg, #b13a44 6.74%, #49429c 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#title_grad_cs {
+    background: linear-gradient(72deg, #356f54 6.74%, #70ce88 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#title_grad_inform {
+    background: linear-gradient(72deg, #2d5b8c 6.74%, #2794af 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*
+#home_enroll_text {
+    background: linear-gradient(72deg, #d55660 6.74%, #d57f56 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#home_wiki_text {
+    background: linear-gradient(72deg, #21996b 6.74%, #47d65d 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#home_news_text {
+    background: linear-gradient(72deg, #3c72b0 6.74%, #47bcd6 82.36%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+*/

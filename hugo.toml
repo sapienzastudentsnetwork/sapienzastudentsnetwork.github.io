@@ -1,20 +1,20 @@
 title = 'sapienzastudents.net'
 theme = 'hugo-book'
-defaultContentLanguage = 'it'
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = 'homepage'
+defaultContentLanguageInSubdir = false
 enableGitInfo = true
 custom_css = ["css/contributors.css"]
 
 [languages]
-    [languages.it]
-        contentDir = 'it'
-        disabled = false
-        languageName = 'Informatica'
-        title = 'Informatica'
+    [languages.homepage]
+        BookSearch = false
+        contentDir = 'homepage'
+        languageName = 'Degree Programme Choice'
+        title = "Homepage"
         weight = 0
 
-        [languages.it.params]
-            contentDir = 'it'
+        [languages.homepage.params]
+            contentDir = 'homepage'
 
     [languages.30786]
         contentDir = '30786'
@@ -35,6 +35,16 @@ custom_css = ["css/contributors.css"]
 
         [languages.29932.params]
             contentDir = '29932'
+
+    [languages.it]
+        contentDir = 'it'
+        disabled = false
+        languageName = 'Informatica'
+        title = 'Informatica'
+        weight = 3
+
+        [languages.it.params]
+            contentDir = 'it'
 
 [markup]
     [markup.goldmark]

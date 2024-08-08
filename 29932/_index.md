@@ -2,19 +2,12 @@
 title: Home
 bookToc: False
 ---
-# Welcome! 💻
 
-## Do you want to enroll in the Computer Science course?
-Great choice! Here you will find all the information about the study plan, opportunities for your path, and all the details on how to enroll and attend courses.
+<h1 align="center" id="title_grad_cs" class="title_grad" style="font-weight: 900">Computer Science</h1>
+<p align="center" style="margin-top: -15px">Master's Degree in Computer Science</p>
 
-## Are you already enrolled and looking for information?
-Perfect! We have gathered everything you need: class schedules, study materials, and much more.
+<div style="width: 90%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
-## What can you find here?
-* 📚 Details about the Computer Science degree
-* 📅 Academic calendar and important deadlines
-* 📝 Guide to exam booking
-* 🎓 Information on internships and theses
+👋 We welcome you to the wiki of the Master's Degree in Computer Science, maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!
 
-## Do you need help?
-In the **groups** section, you can interact with other students and get the support you need.
+🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪

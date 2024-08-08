@@ -1,6 +1,7 @@
 ---
 title: "Gruppi Telegram"
 aliases: ["/gruppi", "/it/gruppi", "/informatica/gruppi", "/telegram", "/it/telegram", "/it/canali/telegram"]
+weight: 1
 ---
 # Gruppi Telegram
 
@@ -19,9 +20,9 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 ### Gruppi matricole
 
-#### 2023/2024
+#### 2024/2025
 
-Gruppi Telegram per le **matricole 2023/2024**:
+Gruppi Telegram per le **matricole 2024/2025**:
 
 - [Informatica A-L](https://t.me/SapienzaInformaticaAL)
 - [Informatica M-Z](https://t.me/SapienzaInformaticaMZ)
@@ -88,40 +89,34 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
 ##### Insegnamenti a scelta
 
-###### Secondo Semestre
-
-- [Biologia Computazionale](https://t.me/+cBediJPv7GxmZTc8)
-- [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)
-- [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
-- [Matematica Discreta](https://t.me/+9gj83CXWj6MxZTM8)
-- [Modelli e Ottimizzazione](https://t.me/+nx7dseifrswzNGU6)
-    - [ACSAI] Optimization
-- [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
-- [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
-- [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)
-- [[ACSAI] AI Lab: Computer Vision and NLP](https://t.me/+wg42G94fUtJlY2Fk)
-- [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
-- [[ACSAI] Human Computer Interaction](https://t.me/+vKK_-l_aqoJjMmQ0)
-- [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
-- [[Ing. Inf. e Aut.] Linguaggi e Tecnologie per il Web](https://t.me/+VHTJ59xpWcgjLkl8)
-- [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
-
 ###### Primo Semestre
 
+- [Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
+- [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
+- [Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)
 - [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
     - [ACSAI] Web and Software Architecture
+- [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
 - [[ACSAI] Cybersecurity](https://t.me/+ZLceB7Q8cSA2NzA0)
 
-###### Cancellati per l'A.A. 2023-2024
+###### Secondo Semestre
 
-- <del>[Computer Graphics](https://t.me/+Tc_zoLaRxFgxODc8)</del>
-- <del>[Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)</del>
-- <del>[Programmazione di Sistema](https://t.me/+ptMtKg0TLyRhODU8)</del>
-- <del>[Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)</del>
+- [Biologia Computazionale](https://t.me/+cBediJPv7GxmZTc8)
+- [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)
+- [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
+- [Matematica Discreta](https://t.me/+9gj83CXWj6MxZTM8)
+- [Modelli e Ottimizzazione](https://t.me/+nx7dseifrswzNGU6)
+  - [ACSAI] Optimization
+- [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
+- [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
+- [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)
+- [[ACSAI, 2° anno] AI Lab: Computer Vision and NLP](https://t.me/+wg42G94fUtJlY2Fk)
+- [[ACSAI] Human Computer Interaction](https://t.me/+vKK_-l_aqoJjMmQ0)
+- [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
+- [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
 
 Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram, o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista, indicizzarlo autonomamente.

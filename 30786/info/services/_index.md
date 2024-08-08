@@ -1,5 +1,5 @@
 ---
+title: Services
 bookCollapseSection: true
-bookHidden: true
-weight: 2
+weight: 3
 ---

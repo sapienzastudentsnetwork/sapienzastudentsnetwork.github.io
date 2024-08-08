@@ -1,0 +1,46 @@
+- id: EditPage
+  translation: Edit this page
+
+
+
+- id: Contacts_Title
+  translation: 🖋 Contacts of the wiki's main curators
+
+- id: Contacts_BadgeMeaning
+  translation: What do the badges mean?
+
+- id: B_Course
+  translation: Course
+
+- id: B_Course_Desc
+  translation: Course of study in which the curator studies/studied during their period of studies at Sapienza
+
+- id: B_Tutor_CAD
+  translation: Tutor
+
+- id: B_Tutor_CAD_Desc
+  translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+
+- id: B_SSN
+  translation: SSN
+
+- id: B_SSN_Desc
+  translation: The curator is a member of the GitHub organization Sapienza Students Network
+
+- id: B_Cont_Cur
+  translation: Content Curator
+
+- id: B_Cont_Cur_Desc
+  translation: The curator composes/has composed content for the site
+
+- id: B_Code_Dev
+  translation: Code Developer
+
+- id: B_Code_Dev_Desc
+  translation: The curator develops/has developed code for the site
+
+- id: B_Stud_Repr
+  translation: Representative @ CAD
+
+- id: B_Stud_Repr_Desc
+  translation: The curator is a Student Representative at the Didactic Area Council ("CAD") of Computer Science (of the four degree programmes featured on the website)
