@@ -15,12 +15,12 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 
 ### Primo Semestre
 
-- Metodi Matematici [[A-L]](https://github.com/sapienzastudentsnetwork/mmi2122)
+- [Metodi Matematici per l'Informatica](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica)
 - Progettazione di Sistemi Digitali [[A-L, Pontarelli]](https://github.com/sapienzastudentsnetwork/psd2223)
 
 ### Secondo Semestre
 
-- [Architettura degli Elaboratori](https://github.com/sapienzastudentsnetwork/archelab2223)
+- [Architettura degli Elaboratori](https://github.com/sapienzastudentsnetwork/architettura-degli-elaboratori)
 - Metodologie di Programmazione [[Quattrociocchi]](https://github.com/sapienzastudentsnetwork/mdp2223)
 
 ## Secondo Anno
@@ -29,7 +29,7 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 
 - [Algebra](https://github.com/sapienzastudentsnetwork/algebra)
 - [Basi di Dati I](https://github.com/sapienzastudentsnetwork/basi-di-dati-1)
-- Calcolo delle Probabilità [[Bertini]](https://github.com/sapienzastudentsnetwork/calcprob2324) [[Isopi, 2022/2023]](https://github.com/sapienzastudentsnetwork/calcprob2223)
+- [Calcolo delle Probabilità](https://github.com/sapienzastudentsnetwork/calcolo-delle-probabilita)
 
 ### Secondo Semestre
 
