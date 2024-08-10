@@ -1,6 +1,6 @@
 ---
 title: Counseling
-weight: 2
+weight: 3
 ---
 
 # Psychological Counseling
