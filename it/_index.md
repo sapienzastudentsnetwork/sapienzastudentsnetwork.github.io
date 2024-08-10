@@ -20,7 +20,7 @@ bookToc: False
     <div class="home_page" id="home_enroll">
         <p class="home_box_text_title" id="home_enroll_text">Iscrizione</p>
         <p class="home_box_text">Info su come iscriversi</p>
-        <button class="explore_more" onclick="window.location.href = 'docs/matricole/iscriversi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/matricole/iscriversi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_ssn_groups">
         <p class="home_box_text_title" id="home_wiki_text">Gruppi</p>
@@ -30,6 +30,6 @@ bookToc: False
     <div class="home_page" id="home_study_plan">
         <p class="home_box_text_title" id="home_wiki_text">Piano di Studi</p>
         <p class="home_box_text">Da compilare al Terzo Anno</p>
-        <button class="explore_more" onclick="window.location.href = 'docs/terzo-anno/percorso-formativo/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/terzo-anno/percorso-formativo/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>

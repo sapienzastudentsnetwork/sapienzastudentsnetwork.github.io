@@ -85,7 +85,7 @@ Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
 {{< hint info >}}
-**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/docs/percorso-formativo#come-scegliere-gli-esami-esterni).
+**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/percorso-formativo#come-scegliere-gli-esami-esterni).
 {{< /hint >}}
 
 ##### Insegnamenti obbligatori
