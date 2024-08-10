@@ -1,9 +1,9 @@
 ---
-title: "Gruppi Telegram"
-aliases: ["/gruppi", "/it/gruppi", "/informatica/gruppi", "/telegram", "/it/telegram", "/it/canali/telegram"]
+title: "Gruppi"
+aliases: ["/gruppi", "/it/gruppi", "/informatica/gruppi", "/telegram", "/it/telegram", "/it/canali/telegram", "/whatsapp", "/it/whatsapp", "/it/canali/whatsapp"]
 weight: 1
 ---
-# Gruppi Telegram
+# Gruppi
 
 In questa pagina puoi trovare i link ai **gruppi** per le Lauree Triennali in **Informatica** (29923) e **Informatica - erogato in modalità prevalentemente a distanza** (29400)
 
@@ -20,13 +20,22 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 ### Gruppi matricole
 
-#### 2024/2025
+#### A.A. 2024/2025
 
-Gruppi Telegram per le **matricole 2024/2025**:
+Gruppi per le **matricole dell'A.A. 2024/2025**:
 
-- [Informatica A-L](https://t.me/SapienzaInformaticaAL)
-- [Informatica M-Z](https://t.me/SapienzaInformaticaMZ)
-- [Teledidattica (29400)](https://t.me/SapienzaInformaticaTeledidattica)
+|                        Telegram                        |                      WhatsApp                      |
+|:------------------------------------------------------:|:--------------------------------------------------:|
+|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://minfwa1.sapienzastudents.net) |
+|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://minfwa2.sapienzastudents.net) |
+| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                         -                          |
+
+#### A.A. 2023/2024
+
+Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
+- [Canale A-L](https://t.me/+d48JCYoNsBVlN2Fk)
+- [Canale M-Z](https://t.me/+XYn7MpH2ja5jZGNk)
+- [Teledidattica](https://t.me/+p_NLeLvBlkowYmI0)
 
 ### Gruppi dei singoli insegnamenti
 
@@ -76,7 +85,7 @@ Gruppi Telegram per le **matricole 2024/2025**:
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
 {{< hint info >}}
-**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/informazioni/percorso-formativo#come-scegliere-gli-esami-esterni).
+**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/docs/percorso-formativo#come-scegliere-gli-esami-esterni).
 {{< /hint >}}
 
 ##### Insegnamenti obbligatori

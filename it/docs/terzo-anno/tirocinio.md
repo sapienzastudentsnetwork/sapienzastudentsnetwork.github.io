@@ -46,9 +46,9 @@ Documenti per compilare la domanda di tirocinio:
 
 Per avere sempre l'ultima versione dei documenti assicuratevi di controllare anche su:
 
-- [https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2022-23
+- [https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2022/23
 
-- [https://corsidilaurea.uniroma1.it/it/corso/2023/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2023-24
+- [https://corsidilaurea.uniroma1.it/it/corso/2023/29923/laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2022/29923/laurearsi) per l'A.A. 2023/24
 
 _* Una versione potenzialmente precedente, risalente a Febbraio 2023, del documento di autorizzazione al trattamento dei dati personali, è disponibile nella cronologia della [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8)_
 

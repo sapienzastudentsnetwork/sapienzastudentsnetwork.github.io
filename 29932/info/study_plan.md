@@ -2,7 +2,7 @@
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
-All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024-25 academic year when the recommended curriculums were added.
+All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024/25 academic year when the recommended curriculums were added.
 {{< /hint >}}
 
 {{< hint info >}}
@@ -14,7 +14,7 @@ In the [Computer Science Study Plan Telegram section](https://t.me/computerscien
 
 Students of the Master's Degree in Computer Science must have a valid study plan ("percorso formativo") to be able to book and take exams.
 
-As for 2024-2025 A.Y. a total of 120 CFUs must be obtained, divided in:
+As for 2024/2025 A.Y. a total of 120 CFUs must be obtained, divided in:
 - 12 CFUs of exams coming from any faculty within Sapienza (must be justified in order to be approved, you can't simply insert Philosofy 3)
 - 6 CFUs of AFC (supplementary educational activities) which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub))
 - 66 CFUs of exams within the Computer Science degree
@@ -54,7 +54,7 @@ Late-submitted study plans will be evaluated as follows:
 ### When Does an Approved Study Plan Come into Effect?
 
 Study plans come into effect starting from the academic year in which they were submitted and remain in effect until a new substitute study plan is submitted and approved.
-This means that if you are enrolled in the 24-25 A.Y in December 2025 you won't be able to take exams of the new study plan submitted in September 2025. You'll have to wait January 2026 to take the exams of the new study plan!
+This means that if you are enrolled in the 24/25 A.Y in December 2025 you won't be able to take exams of the new study plan submitted in September 2025. You'll have to wait January 2026 to take the exams of the new study plan!
 
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
@@ -72,7 +72,7 @@ In other situations where you have two virtually identical exams (like FDS and M
 {{< /hint >}}
 
 ### How to avoid rejection?
-As for 24-25 A.Y. you can decide to follow some recommended study plans which will be automatically approved (find them [here](https://docs.google.com/document/d/1dZo8qgXtprAkwmmSn82mMbQoxv5GGR_P/edit)), although they might not reflect your full interests.
+As for 2024/25 A.Y. you can decide to follow some recommended study plans which will be automatically approved (find them [here](https://docs.google.com/document/d/1dZo8qgXtprAkwmmSn82mMbQoxv5GGR_P/edit)), although they might not reflect your full interests.
 Alternatively you can opt for an individual study plan which you might have to adjust, which will give you the freedom to build a very unique and diversified plan.
 
 ## Exams Ahead of Schedule

@@ -9,4 +9,4 @@ _build:
     list: never
 ---
 
-The new tutors have been assigned for the A.Y. 2024/25. Soon, a list with their contacts will be published
+The new tutors have been assigned for the A.Y. 2024/2025. Soon, a list with their contacts will be published

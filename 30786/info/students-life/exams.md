@@ -14,7 +14,7 @@ You can sit for an exam as many times you want, and there is no penalty for that
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Q&A: When can I sit for an exam?**
 
-Assume that you want to take the exam of Linear Algebra. You just started the course in the A.Y. 2024/25. The professor will communicate two dates on which you will be able to take the exam, (say for instance the 10/1/2025 and the 3/2/2025). You can take the exam either on the first or in the second date.
+Assume that you want to take the exam of Linear Algebra. You just started the course in the A.Y. 2024/2025. The professor will communicate two dates on which you will be able to take the exam, (say for instance the 10/1/2025 and the 3/2/2025). You can take the exam either on the first or in the second date.
 
 Suppose that, for any reason, you can't take it in the first exam session (so in the winter one): you will be able to sit for that exam in **any other** exam session to which you are allowed to participate (so either in the summer or September session, unless you made request for the extraordinary sessions. More info regarding them can be found below) **until you pass the exam**.
 {{< /hint >}}

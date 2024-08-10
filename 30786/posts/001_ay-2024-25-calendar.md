@@ -9,7 +9,7 @@ menu: "main"
 ---
 
 Dear all,<br>
-the summer exam session is coming to an end, but we already have some news for next year: we already have the new dates for the academic year 2024/25!
+the summer exam session is coming to an end, but we already have some news for next year: we already have the new dates for the academic year 2024/2025!
 
 Here are listed the new dates for the two semesters and the three exam sessions (the winter, summer and September ones). The calendar will always be available [at this link](../../resources/calendar/).
 

@@ -159,7 +159,7 @@ Lo studente che, pur vincitore della terza selezione, non effettua l’immatrico
 
 ### Come immatricolarsi?
 
-L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’anno accademico 2024-2025 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
+L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’anno accademico 2024/2025 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
 
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Esenzione dai contributi**
