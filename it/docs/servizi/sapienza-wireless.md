@@ -31,6 +31,12 @@ Eduroam (education roaming) è un servizio internazionale di roaming wireless pr
 A differenza della rete Sapienza, le credenziali per la rete Eduroam richiedono l'**email istituzionale** e la password di ateneo. L'email istituzionale è composta da COGNOME.MATRICOLA@studenti.uniroma1.it.
 {{< /hint >}}
 
+{{< hint tip >}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Sapevi che...**
+
+La rete network di Eduroam è disponibile in tante università internazionali! Questo significa che, se tu volessi, potresti andare in un'altra università associata ad Eduroam e connetterti al suddetto network usando le stesse credenziali che useresti presso la Sapienza!
+{{< /hint >}}
+
 ### Configurazione di Eduroam
 
 {{< tabs "uniqueid" >}}

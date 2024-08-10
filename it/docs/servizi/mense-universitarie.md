@@ -17,8 +17,8 @@ Esse consentono l'accesso solo agli studenti iscritti alle Università statali e
 |        fino a ~19 mila euro        |           2,20 €            |
 |        fino a ~35 mila euro        |             3 €             |
 |        fino a ~60 mila euro        |           4,10 €            |
-|         oltre 60 mila euro         |           5,90 €            |             
-|           non dichiarato           |           7,70 €            | 
+|         oltre 60 mila euro         |           5,90 €            |
+|           non dichiarato           |           7,70 €            |
 
 Gli studenti internazionali possono ottenere l'ISEE soltanto in uno dei CAF convenzionati: l'elenco per l'A.A. 2024/2025 si trova [qui](http://www.laziodisco.it/a-a-a2024-2025-elenco-dei-caf-convenzionati/). La documentazione richiesta per ottenere il calcolo dell'ISEE si trova sul sito di [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) sotto la voce "Documentazione per il primo accredito di studenti internazionali".
 
@@ -60,9 +60,13 @@ Potrai usare l'app nei seguenti punti di ristoro:
 - [Mensa Via delle Sette Sale](http://www.laziodisco.it/luoghi/mensa-via-delle-sette-sale/), Via delle Sette Sale 29
 
 {{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Pasti per celiaci e intolleranti al glutine**
+
 In alcune mense è necessario chiamare per prenotare un pasto celiaco. In caso, il numero da chiamare si trova sul sito della mensa stessa.
 {{< /hint >}}
 
-{{< hint info >}}
-Controllare giorni e orari di apertura delle mense sui rispettivi siti, potrebbero variare da anno ad anno e durante l'anno
+{{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
+È importante controllare giorni e orari di apertura delle mense sui rispettivi siti, siccome potrebbero variare non solo da anno ad anno, ma anche durante l'anno stesso
 {{< /hint >}}
