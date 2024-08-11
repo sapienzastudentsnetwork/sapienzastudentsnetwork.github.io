@@ -1,0 +1,26 @@
+name: Notify Telegram on Commit
+
+on: [push]
+
+jobs:
+  notify-telegram:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run notify script
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.SAPIENZASTUDENTSNETBOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.SAPIENZASTUDENTSNETBOT_CHANNEL_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+          GITHUB_EVENT_COMMITS: ${{ toJSON(github.event.commits) }}
+        run: python _scripts/notify-commits-to-telegram-channel.py
