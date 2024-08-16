@@ -47,6 +47,9 @@ $hint-colors: (
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
   --hint-colot-tip: #238636;
+
+  --course-dash-background: #F9F9F9;
+  --course-panel-background: #E2E3E7;
 }
 
 @mixin theme-dark {
@@ -66,4 +69,7 @@ $hint-colors: (
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
   --hint-colot-tip: #238636;
+
+  --course-dash-background: #3E444A;
+  --course-panel-background: #454C52;
 }

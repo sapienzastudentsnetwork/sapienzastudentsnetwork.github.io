@@ -1,0 +1,54 @@
+.course_dash {
+    width: 100%;
+    height: 300px;
+    background-color: var(--course-dash-background);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    padding: 6px 3px 6px 3px;
+}
+
+.course_panel {
+    width: 33%;
+    height: 288px;
+    background-color: var(--course-panel-background);
+    border-radius: 8px;
+    margin: 0 3px 0 3px;
+}
+
+.course_gen {
+    width: 99%;
+    height: 50%;
+    /*background-color: blue;*/
+    padding: 6px;
+    /*margin: auto;*/
+}
+
+.course_sep {
+    width: 98%;
+    height: 1.5px;
+    background-color: #63696E;
+    border-radius: 0.75px;
+    margin: auto;
+}
+
+.course_badge {
+    width: 130px;
+    height: 32px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_dept {
+    background-color: #9E3131;
+}
+
+.course_panel_title {
+    font-family: "DM Sans";
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: -40px;
+}

@@ -21,6 +21,12 @@
 - id: B_Tutor_CAD_Desc
   translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
 
+- id: B_Volunteer
+  translation: Volunteer
+
+- id: B_Volunteer_Desc
+  translation: The curator collaborates to the project as a volunteer
+
 - id: B_SSN
   translation: SSN
 

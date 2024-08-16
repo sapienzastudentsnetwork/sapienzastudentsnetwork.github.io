@@ -1,3 +1,7 @@
+:root {
+    --curator-height: 430px;
+}
+
 @media screen and (min-width: 100px) {
     .curatorList {
         display: flex;
@@ -9,7 +13,7 @@
     .curator {
         background-color: #5d656a30;
         width: 90%;
-        height: 415px;
+        height: var(--curator-height);
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
@@ -30,7 +34,7 @@
     .curator {
         background-color: #5d656a30;
         width: 45%;
-        height: 380px;
+        height: var(--curator-height);
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
@@ -58,7 +62,7 @@
     .curator {
         background-color: #5d656a30;
         width: 30%;
-        height: 400px;
+        height: var(--curator-height);
         border-radius: 8px;
         margin: 50px 10px 10px 10px;
         display: flex;
@@ -113,6 +117,10 @@
     background-color: #2a69a4;
 }
 
+.curVolunteer {
+    background-color: #359396;
+}
+
 .curSSN {
     background-color: #000000;
 }
@@ -136,7 +144,7 @@
     flex-wrap: wrap;
 }
 
-.separator {
+.curSeparator {
     width: 98%;
     height: 1.5px;
     background-color: #a3a3a3;
