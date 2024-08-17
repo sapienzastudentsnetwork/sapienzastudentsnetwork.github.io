@@ -16,7 +16,7 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 ### Primo Semestre
 
 - [Metodi Matematici per l'Informatica](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica)
-- Progettazione di Sistemi Digitali [[A-L, Pontarelli]](https://github.com/sapienzastudentsnetwork/psd2223)
+- [Progettazione di Sistemi Digitali](https://github.com/sapienzastudentsnetwork/progettazione-di-sistemi-digitali)
 
 ### Secondo Semestre
 
