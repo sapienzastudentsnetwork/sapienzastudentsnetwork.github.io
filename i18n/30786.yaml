@@ -1,6 +1,18 @@
 - id: EditPage
   translation: Edit this page
 
+- id: 404_Desc_1
+  translation: The page that you are trying to reach could have been removed,
+
+- id: 404_Desc_2
+  translation: its name could've been edited or it could be not reachable at the moment.
+
+- id: 404_Homepage
+  translation: Go to the homepage
+
+- id: 404_Report
+  translation: Report an issue
+
 
 
 - id: Contacts_Title

@@ -12,6 +12,21 @@ p, li, tr, a, label {
     font-weight: 400;
 }
 
+code {
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+}
+
+kbd {
+    font-family: "JetBrains Mono";
+    font-weight: 800;
+    background-color: #3C3C3C;
+    border: solid gray 1px;
+    border-radius: 4px;
+    padding: 0 4px 0 4px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.50);
+}
+
 .SiteLogo {
     border-radius: 8px;
 }

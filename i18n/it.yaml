@@ -1,6 +1,18 @@
 - id: EditPage
   translation: Edit this page
 
+- id: 404_Desc_1
+  translation: La pagina che stai cercando potrebbe essere stata rimossa,
+
+- id: 404_Desc_2
+  translation: il suo nome è stato cambiato o è temporaneamente non disponibile.
+
+- id: 404_Homepage
+  translation: Vai alla homepage
+
+- id: 404_Report
+  translation: Segnala un problema
+
 
 
 - id: Contacts_Title
