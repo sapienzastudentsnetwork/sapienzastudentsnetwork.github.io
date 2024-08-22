@@ -41,7 +41,7 @@ Per ogni esame è presente una data entro la quale è possibile prenotare l'esam
 <!-- Qui possiamo linkare la guida di Leonardo tradotta in Italiano -->
 
 ## Compilare il Percorso Formativo
-All'inzio del terzo anno, dovrai compilare il tuo Percorso Formativo scegliendo gli esami opzionali che vorrai sostenere. Questa è un'opportunità per personalizzare il tuo percorso di studi in base ai tuoi interessi.
+All'inizio del terzo anno, dovrai compilare il tuo Percorso Formativo scegliendo gli esami opzionali che vorrai sostenere. Questa è un'opportunità per personalizzare il tuo percorso di studi in base ai tuoi interessi.
 
 Per tutte le informazioni su come compilare il Percorso Formativo e la lista di esami tra cui scegliere, consulta la [guida al Percorso Formativo](/it/info/terzo-anno/percorso-formativo/).
 
