@@ -1,5 +1,5 @@
 ---
-title: Calendar A.A. 2024/25
+title: Calendario A.A. 2024/25
 weight: 1
 ---
 
@@ -51,6 +51,6 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
 </table>
 
 **(*)** Si prevede un appello a gennaio 2025 per i corsi del 2° semestre dell’anno accademico 2023/24.
-**(\*\*)** Per i moduli del secondo e terzo anno dei Corsi di Laurea Triennale _e del secondo anno dei corsi di Laurea magistrale_, il primo appello della sessione va fissato entro il 19/06 per consentire la consegna della documentazione di laurea entro il 20/06.  
+**(\*\*)** Per i moduli del secondo e terzo anno dei Corsi di Laurea Triennale _e del secondo anno dei corsi di Laurea magistrale_, il primo appello della sessione viene fissato entro il 19/06 per consentire la consegna della documentazione di laurea entro il 20/06.  
 **(§)** Riservata alle categorie di studenti indicate nell’[art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), comma 6 del [Regolamento Studenti](https://www.uniroma1.it/it/pagina/regolamento-studenti).  
 **(§§)** Riservata alle categorie di studenti indicate nell’[art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), comma 6 del [Regolamento Studenti](https://www.uniroma1.it/it/pagina/regolamento-studenti), e agli studenti fuori corso, iscritti per l’A.A. 2024-2025 al Terzo Anno della laurea Triennale _e al secondo anno della laurea magistrale_.
