@@ -22,7 +22,7 @@ Keep in mind that Sapienza Wi-Fi requires login every time you try to connect to
 Crediantial for the access are **your personal Sapienza email (surname.id_number@studenti.uniroma1.it)** and **the password you use for Infostud**.
 
 ### Setting Up Eduroam
-{{< tabs "uniqueid" >}}
+{{< tabs "eduroamdevices" >}}
 {{< tab "📱 Smartphone" >}}
 To use Eduroam on your smartphone:
 1. Dowload the app **GetEduroam**:

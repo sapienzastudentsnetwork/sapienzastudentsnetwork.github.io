@@ -2,15 +2,17 @@
 title: Voto di Laurea
 aliases: ["/voto-di-laurea", "/it/voto-di-laurea", "/it/laurearsi/calcolo-voto-di-laurea", "/it/laurearsi/calcolo-voto-laurea"]
 ---
+
 # Calcolo del Voto di Laurea
+
 {{< hint warning >}}
-**Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Questa pagina è basata sulle indicazioni in vigore come da verbale del CAD del 22/06/2016.
 {{< /hint >}}
 
 {{< hint info >}}
-**Gruppo Telegram**
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
 
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
 {{< /hint >}}

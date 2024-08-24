@@ -1,5 +1,6 @@
 ---
 title: Wi-Fi di Ateneo
+weight: 2
 ---
 
 # Sapienza Wireless
@@ -39,7 +40,7 @@ La rete network di Eduroam è disponibile in tante università internazionali! Q
 
 ### Configurazione di Eduroam
 
-{{< tabs "uniqueid" >}}
+{{< tabs "eduroamdevices" >}}
 {{< tab "📱 Smartphone" >}}
 Per accedere alla rete Eduroam tramite smartphone iOS e Android:
 

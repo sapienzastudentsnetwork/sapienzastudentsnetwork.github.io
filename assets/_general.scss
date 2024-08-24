@@ -7,9 +7,13 @@ h1 {
     font-size: 40px;
 }
 
-p, li, tr, a, label {
+p, li, tr, a, label, summary {
     font-family: "DM Sans";
     font-weight: 400;
+}
+
+summary {
+    line-height: 1.2;
 }
 
 code {

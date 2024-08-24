@@ -61,7 +61,7 @@ The italian CI is not the same of the "Permesso di Soggiorno" (**PdS**, from her
 
 Now, depending on the platform that you chose at step 2, the procedure may vary slightly. Here we show the procedure for both platforms:
 
-{{< tabs "uniqueid" >}}
+{{< tabs "infostudversion" >}}
 {{< tab "🖥 Infostud Desktop" >}}
 
 4. If you chose to open Infostud Desktop, you'll see a screen with 8 tiles, one of which being `Corsi di Laurea`/`Bachelors and Masters Degree Programmes` (CdL): click on that tile, and a new page will open up;
@@ -216,7 +216,7 @@ No, there is no penalty for refusing a grade. You can refuse any grade as many t
 
 {{< /details >}}
 <br>
-{{< details "**I successfully passed an exam, but I don't see my grade on InfoStud. Why can't I see it?**">}}
+{{< details "**I successfully passed an exam, but I don't see my grade on InfoStud. Why is that?**">}}
 
 ---
 
