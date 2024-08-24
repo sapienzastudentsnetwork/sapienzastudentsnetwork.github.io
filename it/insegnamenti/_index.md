@@ -1,6 +1,6 @@
 ---
 title: 📚 Insegnamenti
 bookFlatSection: true
-weight: 2
+weight: 3
 bookHidden: false
 ---
