@@ -1,3 +1,4 @@
 ---
 bookCollapseSection: true
+bookHidden: true
 ---
