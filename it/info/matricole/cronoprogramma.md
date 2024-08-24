@@ -53,9 +53,7 @@ Il tirocinio è un'esperienza formativa importante che ti permetterà di applica
 ## Scrivere la relazione di tirocinio
 Il Corso di Laurea in Informatica non prevede una vera e propria tesi, ma la realizzazione di una relazione di tirocinio. Questa relazione è un documento scritto che descrive il lavoro svolto durante il tirocinio e i risultati ottenuti.
 
-Per ottenere tutte le informazioni su come scrivere la relazione di tirocinio, quale template utilizzare e dei consigli utili, consulta la [guida per scrivere la relazione di tirocinio].
-
-<!-- Qui dovremmo aggiungere una guida -->
+Per ottenere tutte le informazioni su come scrivere la relazione di tirocinio, quale template utilizzare e dei consigli utili, consulta la [guida per scrivere la relazione di tirocinio](/it/info/terzo-anno/relazione-tirocinio/).
 
 ## Laurearsi
 Una volta completati tutti gli esami e la relazione di tirocinio, potrai finalmente conseguire la tua laurea in Informatica. Per preparare tutto il necessario bisogna compilare la domanda di laurea, inviare la relazione di tirocinio alla Segreteria Didattica e prenotarsi all'appello su InfoStud.
