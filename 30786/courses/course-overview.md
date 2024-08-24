@@ -1,9 +1,9 @@
 ---
-title: Course Overview
+title: Curriculum
 weight: 2
 ---
 
-# Course Overview
+# Curriculum
 
 ## First year
 
