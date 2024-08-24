@@ -1,6 +1,6 @@
 ---
 title: 📚 Courses
 bookFlatSection: true
-weight: 2
+weight: 3
 bookHidden: false
 ---
