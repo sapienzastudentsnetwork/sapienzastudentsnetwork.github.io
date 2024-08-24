@@ -5,6 +5,12 @@ weight: 2
 
 # ACSAI Rulebook
 
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Source**
+
+These rules are copied from the "[Programme Regulations](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/cds#bootstrap-fieldgroup-nav-item-programme-regulations)" page within the "[Study plan](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/cds)" section of the [Degree Course](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/home) in the [Course Catalog](https://corsidilaurea.uniroma1.it/).
+{{< /hint >}}
+
 The following is a list of regulations regarding the course:
 - [NG1 Admission requirements](#ng1-admission-requirements)
 - [NG2 Admission test](#ng2-admission-test)
@@ -31,7 +37,7 @@ Enrollment in the Degree Course in Applied Computer Science and Artificial Intel
 
 The methods of enrollment, carrying out and evaluating the test are defined in the announcement relating to the methods of admission to the Degree Course in Applied Computer Science and Artificial Intelligence, published by Sapienza and available at:
 
-https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-...
+https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections
 
 ## NG3 Course abbreviations, credit recognition
 
