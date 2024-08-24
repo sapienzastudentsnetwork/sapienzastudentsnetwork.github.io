@@ -28,23 +28,23 @@ International students must obtain ISEE only from an affiliated CAF (Fiscal Assi
 
 First things first, register on ["Area Riservata" (Restricted Area) of DiSCo Lazio](https://login.laziodisco.it/access/borse).
 
-Once you access the restricted area, click on "Servizio Mensa" (Canteen Service):
+Once you access to your restricted area, click on "Servizio Mensa" (Canteen Service):
 
-![Ciao](https://lh5.googleusercontent.com/5dMONMdi3Z8YLuq7ghb7FI5zBsWaB4o4RXJw0mcA_tuLr96SZjYXuaUJuiCH0kfXZHIJPo5_jOd_7dCVGq1VfneCt8KuxcyWHbLy-pZ8vMSOT9cEiHryux2_GPqhVOu2Hw=w1280)
+<img src="https://i.imgur.com/g1oXxfz.png">
 
 Then, accreditate yourself for the chosen academic year; if you can't see it among the options, try again after some time: it means that DiSCo LAzio hasn't published the call yet.
 
 Otherwise, click on "Accreditamento Mensa" (Canteen Accreditation) for the chosen academic year:
 
-![Ciao](https://lh4.googleusercontent.com/EymIsWN2Tahrm49Awn1DmIYx5CmsGkzxDAOHq4QHfOIlAaPHqTDVYsp-qVF5_V-dcXmGUqW4Lgmx1OcL-rKXs_7g1t-pm2namEB-3Wk2MFTK2iWHDieV3Rq-pR0k0oakCQ=w1280)
+<img src="https://i.imgur.com/8pkxOiT.png">
 
 Follow the procedure and upload the required documents. It usually requires between 24 and 48 hours for the procedure to be accepted: after that, it will become possible to generate an association QRCode. Once you can generate the QRCode, install "DiSCo Mensa App" on your cellphone:
 
-![Ciao](https://lh4.googleusercontent.com/9io4HbJFyrW8nI54H-v6fkWeQhhncziuHbEn0VYsYpqAqPsIpB_YxncMqQ3vyRjjKJp3iAPPT4JKrUqUJI-8qTKHN2GQzbATKJKiPgEwrNzHLd8D14_WWNj86xyFGKrj-A=w1280)
+<p><a href="https://play.google.com/store/apps/details?id=it.in4matic.disco&amp;hl=it&amp;gl=US" target="_blank" rel="attachment noopener wp-att-35892"><img loading="lazy" decoding="async" src="https://i.imgur.com/lMuV9nw.png" alt="Get It On Google Play" width="200px">&nbsp;</a><a href="https://apps.apple.com/us/app/disco-mensaapp/id1623855271" rel="attachment wp-att-35894"><img loading="lazy" decoding="async" src="https://i.imgur.com/EhmxDtk.png" alt="Download on the App Store" width="200px"></a> <a href="https://appgallery.huawei.com/#/app/C106212543" rel="attachment wp-att-66686"><img loading="lazy" decoding="async" src="https://i.imgur.com/0bmdI4z.png" alt="Explore it on Huawei AppGallery" width="200px"></a></p>
 
 Finally, using a second device, log into the [restricted area](https://login.laziodisco.it/access/borse), click on "Servizio mensa" and then on "Associazione App Mensa" (Association Canteen App): generate the QRCode and scan it with the device you have installed "DiSCo Mensa App" on.
 
-![Ciao](https://lh3.googleusercontent.com/U2KNIMKgPf2-hqSHdpEb55L0VF_3whtvHBuct8UsrVffwOmvt5c7Ij58yNZa2uE7ZeHIwZ9L-qzFqrZU3wcG3Kr9aRjPnferLvQdYlE2dJaLNHz27dbNTeQTZaIfrwXaxQ=w1280)
+<img src="https://i.imgur.com/KQZmLYc.png">
 
 Now, just show the app at the chosen canteen to obtain a meal at the prize of your ISEE range!
 

@@ -28,13 +28,13 @@ Prima di tutto, dovrai registrarti all'[Area Riservata di DiSCo Lazio](https://l
 
 Una volta fatto l'accesso, dovrai cliccare su "Servizio Mensa":
 
-![Image](https://i.imgur.com/g1oXxfz.png)
+<img src="https://i.imgur.com/g1oXxfz.png">
 
 Dopodiché, dovrai accreditarti per l'anno accademico che ti interessa; se non è disponibile, riprova più avanti: vuol dire che DiSCo Lazio non ha ancora pubblicato il bando.
 
 Altrimenti, clicca su "Accreditamento Mensa" per l'anno che ti interessa:
 
-![Image](https://i.imgur.com/8pkxOiT.png)
+<img src="https://i.imgur.com/8pkxOiT.png">
 
 Segui la procedura e carica i documenti richiesti. Quando avrai completato il tutto, dovrai aspettare tra le 24 e le 48 ore: entro questo lasso di tempo diventerà possibile generare un QRCode di associazione. Quando diventerà possibile farlo, scarica l'applicazione "DiSCo Mensa App" sul tuo cellulare:
 
@@ -42,7 +42,7 @@ Segui la procedura e carica i documenti richiesti. Quando avrai completato il tu
 
 Infine, usando un secondo dispositivo, accedi all'[Area Riservata](https://login.laziodisco.it/access/borse), clicca su "Servizio mensa" e poi su "Associazione App Mensa": genera il QRCode e inquadralo con il cellulare su cui hai scaricato "DiSCo Mensa App".
 
-![Image](https://i.imgur.com/KQZmLYc.png)
+<img src="https://i.imgur.com/KQZmLYc.png">
 
 Ti basterà avviare l'app e far scansionare il tuo QR Code alla mensa da te scelta per avere il pasto al prezzo della fascia corrispondente al tuo ISEE!
 
