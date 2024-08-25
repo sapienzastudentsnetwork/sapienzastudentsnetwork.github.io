@@ -10,18 +10,18 @@ weight: 2
 During the first year, basic mathematical preparation is provided and the first fundamental knowledge of computer science is provided.
 The first year courses are all compulsory and are:
 
-| Course code | Course                        | Semester | CFU | SSD    | Language |
-| ----------- | ----------------------------- | -------- | --- | ------ | -------- |
-| 10595099    | Calculus 1, Unit 1            | First    | 6   | MAT/05 | English  |
-| 10595546    | Computer Architecture, Unit 1 | First    | 6   | INF/01 | English  |
-| 10595524    | Linear Algebra                | First    | 6   | MAT/02 | English  |
-| 10595102    | Programming, Unit 1           | First    | 6   | INF/01 | English  |
-| 10595102    | Programming, Unit 2           | First    | 6   | INF/01 | English  |
-| 1049269     | Algorithms                    | Second   | 6   | INF/01 | English  |
-| 10595099    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 | English  |
-| 10595546    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 | English  |
-| 10595523    | Physics                       | Second   | 6   | FIS/01 | English  |
-| 10600241    | Programming 2                 | Second   | 6   | INF/01 | English  |
+| Course code | Course                        | Semester | CFU | SSD    |
+| ----------- | ----------------------------- | -------- | --- | ------ |
+| 10595099    | Calculus 1, Unit 1            | First    | 6   | MAT/05 |
+| 10595546    | Computer Architecture, Unit 1 | First    | 6   | INF/01 |
+| 10595524    | Linear Algebra                | First    | 6   | MAT/02 |
+| 10595102    | Programming, Unit 1           | First    | 6   | INF/01 |
+| 10595102    | Programming, Unit 2           | First    | 6   | INF/01 |
+| 1049269     | Algorithms                    | Second   | 6   | INF/01 |
+| 10595099    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 |
+| 10595546    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 |
+| 10595523    | Physics                       | Second   | 6   | FIS/01 |
+| 10600241    | Programming 2                 | Second   | 6   | INF/01 |
 
 
 ## Second year
@@ -29,18 +29,18 @@ The first year courses are all compulsory and are:
 During the second year, the necessary mathematical preparation is completed and further knowledge of computer science is provided in areas, in particular artificial intelligence, the knowledge of which is essential for a graduate in Applied Computer Science and Artificial Intelligence.
 The second year courses are all compulsory and are:
 
-| Course code | Course                                               | Semester | CFU | SSD       | Language |
-| ----------- | ---------------------------------------------------- | -------- | --- | --------- | -------- |
-| 10595529    | Calculus 2                                           | First    | 6   | MAT/05    | English  |
-| 10595617    | Data management and analysis, Unit 1                 | First    | 6   | INF/01    | English  |
-| 10595525    | Probability                                          | First    | 6   | MAT/06    | English  |
-| 10595616    | Systems and networking, Unit 1                       | First    | 6   | INF/01    | English  |
-| 10595616    | Systems and networking, Unit 2                       | First    | 6   | INF/01    | English  |
-| 10595618    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    | English  |
-| 10595618    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    | English  |
-| 10595546    | Computer Architecture, Unit 2                        | Second   | 6   | INF/01    | English  |
-| 10595617    | Data management and analysis, Unit 1                 | Second   | 6   | FIS/01    | English  |
-| 1055043     | Statistics                                           | Second   | 6   | SECS-S/01 | English  |
+| Course code | Course                                               | Semester | CFU | SSD       |
+| ----------- | ---------------------------------------------------- | -------- | --- | --------- |
+| 10595529    | Calculus 2                                           | First    | 6   | MAT/05    |
+| 10595617    | Data management and analysis, Unit 1                 | First    | 6   | INF/01    |
+| 10595525    | Probability                                          | First    | 6   | MAT/06    |
+| 10595616    | Systems and networking, Unit 1                       | First    | 6   | INF/01    |
+| 10595616    | Systems and networking, Unit 2                       | First    | 6   | INF/01    |
+| 10595618    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    |
+| 10595618    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    |
+| 10595546    | Computer Architecture, Unit 2                        | Second   | 6   | INF/01    |
+| 10595617    | Data management and analysis, Unit 1                 | Second   | 6   | FIS/01    |
+| 1055043     | Statistics                                           | Second   | 6   | SECS-S/01 |
 
 
 ## Third year
@@ -59,14 +59,14 @@ The methods of assessing the knowledge and skills acquired for individual aspect
 
 The verification of the overall preparation acquired during the course of studies takes place through the final test, which consists in the presentation of the internship activity carried out under the supervision of a teacher to the evaluation commission, which will be able to ask questions to ascertain the candidate's mastery of the work. of internship completed.
 
-| Course code | Course                          | Semester              | CFU | SSD    | Language |
-| ----------- | ------------------------------- | --------------------- | --- | ------ | -------- |
-| 10595530    | Foundations of Computer Science | First                 | 6   | INF/01 | English  |
-|             | Applied Computer Science        | See "Optional Groups" | 18  | INF/01 | English  |
-|             | Law and Economics               | See "Optional Groups" | 6   |        | English  |
-|             | Elective course                 | Second                | 12  |        | English  |
-| AAF1466     | Internship                      | Second                | 12  |        | English  |
-| AAF2011     | Final exam                      | Second                | 6   |        | English  |
+| Course code | Course                          | Semester              | CFU | SSD    |
+| ----------- |---------------------------------|-----------------------| --- | ------ |
+| 10595530    | Foundations of Computer Science | First                 | 6   | INF/01 |
+|             | Applied Computer Science        | See "Optional Groups" | 18  | INF/01 |
+|             | Law and Economics               | See "Optional Groups" | 6   |        |
+|             | Elective courses                | -                     | 12  |        |
+| AAF1466     | Internship                      | Second                | 12  |        |
+| AAF2011     | Final exam                      | Second                | 6   |        |
 
 
 ### Optional groups
@@ -75,19 +75,19 @@ The verification of the overall preparation acquired during the course of studie
 
 The student must acquire 18 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD    | Language |
-| ----------- | ----------------------------- | ----- | -------- | --- | ------ | -------- |
-| 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 | English  |
-| 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 | English  |
-| 10595534    | Web and software Architecture | Third | First    | 6   | INF/01 | English  |
-| 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 | English  |
-| 10595533    | Optimization                  | Third | Second   | 6   | INF/01 | English  |
+| Course code | Course                        | Year  | Semester | CFU | SSD    |
+| ----------- | ----------------------------- | ----- | -------- | --- | ------ |
+| 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
+| 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
+| 10595534    | Web and software Architecture | Third | First    | 6   | INF/01 |
+| 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
+| 10595533    | Optimization                  | Third | Second   | 6   | INF/01 |
 
 
 #### Law and Economics
 The student must acquire 6 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD       | Language |
-| ----------- | ----------------------------- | ----- | -------- | --- | --------- | -------- |
-| 10595536    | Business and Computer Science | Third | Second   | 6   | SECS-P/07 | English  |
-| 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    | English  |
+| Course code | Course                        | Year  | Semester | CFU | SSD       |
+| ----------- | ----------------------------- | ----- | -------- | --- | --------- |
+| 10595536    | Business and Computer Science | Third | Second   | 6   | SECS-P/07 |
+| 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |

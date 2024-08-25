@@ -31,7 +31,7 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
     <tr>
         <td>17/03/2025 (Lunedì)</td>
         <td>18/04/2025 (Venerdì)</td>
-        <td>Sessione Straordinaria di Esami di Marzo/Aprile <b>(§)</b></td>
+        <td>Sessione Straordinaria d'Esame di Marzo/Aprile <b>(§)</b></td>
     </tr>
     <tr>
         <td>03/06/2025 (Martedì)</td>
@@ -46,7 +46,7 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
     <tr>
         <td>08/10/2025 (Mercoledì)</td>
         <td>06/11/2025 (Giovedì)</td>
-        <td>Sessione Straordinaria di Esami di Ottobre/Novembre <b>(§§)</b></td>
+        <td>Sessione Straordinaria d'Esame di Ottobre/Novembre <b>(§§)</b></td>
     </tr>
 </table>
 
