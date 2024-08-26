@@ -5,7 +5,7 @@ title: Come scrivere la relazione di tirocinio
 La relazione di tirocinio è un documento importante che riassume l'esperienza formativa svolta durante il tirocinio. Nonostante non ci siano delle linee guida vere e proprie per la scrittura della relazione, qui troverai alcuni consigli utili per strutturare e scrivere una relazione di tirocinio di qualità.
 
 ## Perché utilizzare LaTeX?
-Per la stesura della relazione di tirocinio, ti consigliamo fortemente l'utilizzo di LaTeX. LaTeX è un sistema di scrittura particolarmente adatto per documenti scientifici, articoli accademici e documenti tecnici. È ampiamente utilizzato in ambito accademico per la sua capacità di produrre documenti dall'aspetto professionale, gestire formule matematiche complesse e automatizzare la gestione di riferimenti e bibliografia tramite BibTeX.
+Per la stesura della relazione di tirocinio, ti consigliamo fortemente l'utilizzo di LaTeX. LaTeX è un sistema di scrittura particolarmente adatto per documenti scientifici, articoli accademici e documenti tecnici. È ampiamente utilizzato in ambito accademico per la sua capacità di produrre documenti dall'aspetto professionale, gestire formule matematiche complesse e automatizzare la gestione di riferimenti e bibliografia tramite [BibTeX](#gestione-della-bibliografia).
 
 LaTeX ti permetterà di realizzare la tua relazione più velocemente, concentrandoti sul contenuto e lasciando che il sistema si occupi della formattazione. Inoltre, ti fornirà un documento ben strutturato e facilmente modificabile, che risulterà professionale e di alta qualità.
 
