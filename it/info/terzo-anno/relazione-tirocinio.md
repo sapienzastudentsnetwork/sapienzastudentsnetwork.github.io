@@ -18,6 +18,9 @@ Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overl
 Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida rapida di 30 minuti](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) per familiarizzare con i concetti di base.
 {{< /hint >}}
 
+### Simboli matematici
+Se durante la stesura della tua relazione dovessi utilizzare simboli matematici, LaTeX ti permette di inserirli facilmente. Ad esempio, per scrivere l'insieme dei numeri reali, puoi utilizzare il comando `\mathbb{R}`. Se hai bisogno di un simbolo specifico, puoi consultare questa [lista di simboli matematici in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) per trovare il codice corrispondente.
+
 ## Struttura della relazione
 Sebbene non esista una struttura rigida da seguire obbligatoriamente, ti proponiamo una possibile organizzazione del tuo documento. Sentiti libero di adattarla alle tue esigenze specifiche:
 
