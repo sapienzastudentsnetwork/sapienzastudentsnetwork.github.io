@@ -1,3 +1,7 @@
+#
+#   S I T E   G E N E R A L
+#
+
 - id: EditPage
   translation: Edit this page
 
@@ -13,7 +17,22 @@
 - id: 404_Report
   translation: Segnala un problema
 
+#
+#   S U B J E C T S   T I M E T A B L E
+#
 
+- id: Subjs_Add
+  translation: Aggiungi una materia
+
+- id: Subjs_Close_Menu
+  translation: Chiudi il menu
+
+- id: Subjs_Select_Title
+  translation: Seleziona le materie da inserire
+
+#
+#   C O N T A C T S   P A G E
+#
 
 - id: Contacts_Title
   translation: 🖋 Contatti dei principali curatori della wiki

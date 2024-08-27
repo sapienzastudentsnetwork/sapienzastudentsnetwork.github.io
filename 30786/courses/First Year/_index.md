@@ -1,5 +1,5 @@
 ---
 bookCollapseSection: true
-bookHidden: true
+bookHidden: false
 weight: 2
 ---

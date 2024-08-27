@@ -1,5 +1,6 @@
 :root {
     --curator-height: 430px;
+    --border-color: #dedede;
 }
 
 @media screen and (min-width: 100px) {
@@ -87,7 +88,7 @@
     width: 50%;
     border-radius: 128px;
     margin-top: -40px;
-    border: 3.5px solid #dedede;
+    border: 3.5px solid var(--border-color);
 }
 
 .curTitle {

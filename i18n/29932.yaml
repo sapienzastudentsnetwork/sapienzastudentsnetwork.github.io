@@ -1,3 +1,7 @@
+#
+#   S I T E   G E N E R A L
+#
+
 - id: EditPage
   translation: Edit this page
 
@@ -13,7 +17,22 @@
 - id: 404_Report
   translation: Report an issue
 
+#
+#   S U B J E C T S   T I M E T A B L E
+#
 
+- id: Add_Subjs
+  translation: Add a subject
+
+- id: Subjs_Close_Menu
+  translation: Close the menu
+
+- id: Subjs_Select_Title
+  translation: Select the subjects you want to insert
+
+#
+#   C O N T A C T S   P A G E
+#
 
 - id: Contacts_Title
   translation: 🖋 Contacts of the wiki's main curators
