@@ -423,7 +423,7 @@ if __name__ == '__main__':
         return json.loads(input_dict_json_string)
 
     # Save the timetables to a JSON file
-    with open(f'../data/timetables_{degree_programme_code}_{academic_year}.json'.replace('/', '-'), 'w') as file:
+    with open(f'../data/timetables_{degree_programme_code}_{academic_year.replace('/', '-')}.json', 'w') as file:
         json.dump(parse(DOM), file, indent=2)
 
     # Save the classroom information to a JSON file
