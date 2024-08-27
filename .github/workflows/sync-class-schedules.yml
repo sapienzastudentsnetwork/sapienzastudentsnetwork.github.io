@@ -34,8 +34,8 @@ jobs:
 
       - name: Run class schedules update script
         run: |
-          chmod +x _data/sync-class-schedules.sh
-          cd _data
+          chmod +x data/sync-class-schedules.sh
+          cd data
           ./sync-class-schedules.sh
         env:
           GOMPPUBLIC_GENERATEORARIO_URL: ${{ secrets.GOMPPUBLIC_GENERATEORARIO_URL }}
@@ -53,6 +53,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _data
+          git add data
           git commit -m "Sync class schedules"
           git push

@@ -1,0 +1,138 @@
+{{ define "main" }}
+    {{ partial "timetable.html" . }}
+
+
+    <h1>Orario personalizzato</h1>
+    <div class="relative" id="main">
+    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
+        <button class="absolute right-0 top-2 flex items-center gap-2"
+                onclick="openSubjectsDialog()">
+            Materie +
+            <!-- <span class="material-symbols-outlined">add</span> -->
+        </button>
+    <!-- { .Content } -->
+        {{ $days := slice "Lunedì" "Martedì" "Mercoledì" "Giovedì" "Venerdì" }}
+        <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
+        <table id="customSchedule">
+            <thead>
+                <tr>
+                    <th scope="col" class="font-light">Orario</th>
+                    {{ range $days }}
+                <th class="hidden sm:table-cell" scope="col">{{ . }}</th>
+                <th class="table-cell sm:hidden" scope="col">{{ . }}</th>
+                        <!-- <th class="table-cell sm:hidden" scope="col">{ day | slice: 0 }</th> -->
+                    {{ end }}
+                </tr>
+            </thead>
+            <tbody class="desktop hidden sm:table-row-group">
+            </tbody>
+            <tbody class="mobile table-row-group sm:hidden">
+            </tbody>
+        </table>
+
+    </div>
+    <!-- { end }} -->
+<!-- </div> -->
+<dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
+        id="subjects"
+        onclick="closeSubjectsDialog()">
+    <div class="flex h-full w-full flex-col items-start">
+        <button class="material-symbols-outlined m-2 cursor-pointer rounded-full p-2 hover:bg-gray-100"
+                onclick="closeSubjectsDialog()">menu_open</button>
+        <div class="mb-4 h-full w-full overflow-y-scroll pr-4">
+
+            {{ $courses := .Site.Data.courses }}
+            {{ range $code, $data := .Site.Data.schedules }}
+                {{ $subject_info := index $courses $code }}
+                {{ $channels := $data.channels }}
+                {{ range $channel_id, $_ := $data.channels }}
+                <button id="dialog-{{ $code }}-{{ $channel_id }}"
+                            class="group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                        <span class="w-full truncate text-left">
+                            [{{ $data.degree }}] {{ $subject_info.shortName }}
+                            {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
+                        </span>
+                    </button>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</dialog>
+<script>
+    const selectedSubjects = new Set(JSON.parse(localStorage.getItem('selectedSubjects')));
+
+    function toggleSubject(subjectId) {
+        if (selectedSubjects.has(subjectId)) {
+            let button = document.getElementById('dialog-' + subjectId);
+            button.classList.remove('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+            button.classList.add('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+
+            let subjectCode = subjectId.split('-')[0];
+
+            // Hide this subject's timetable div only if the subject was not also added with another channel
+            let otherSubjectIdsWithSameCode = Array.from(selectedSubjects).filter((item) =>
+                item.startsWith(subjectCode),
+            );
+            if (otherSubjectIdsWithSameCode.length === 1) {
+                let subject_div = document.getElementById(subjectCode);
+                if (subject_div)
+                    subject_div.classList.add('hidden');
+            }
+
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div)
+                channel_div.classList.add('hidden');
+
+            selectedSubjects.delete(subjectId);
+        } else {
+            let button = document.getElementById('dialog-' + subjectId);
+            button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+            button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+
+            let subjectCode = subjectId.split('-')[0];
+            let subject_div = document.getElementById(subjectCode);
+            if (subject_div)
+                subject_div.classList.remove('hidden');
+
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div)
+                channel_div.classList.remove('hidden');
+
+            selectedSubjects.add(subjectId);
+        }
+
+        localStorage.setItem('selectedSubjects', JSON.stringify(Array.from(selectedSubjects)));
+
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
+    }
+
+    addEventListener('DOMContentLoaded', () => {
+        for (const subjectId of selectedSubjects) {
+            const button = document.getElementById('dialog-' + subjectId);
+            button.classList.remove('bg-gray-50', 'dark:bg-gray-900', 'dark:text-white');
+            button.classList.add('bg-black', 'text-white', 'dark:bg-white', 'dark:text-black');
+
+            let subjectCode = subjectId.split('-')[0];
+            let subject_div = document.getElementById(subjectCode);
+            if (subject_div)
+                subject_div.classList.remove('hidden');
+
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div)
+                channel_div.classList.remove('hidden');
+        }
+
+        fillTimetable('customSchedule', Array.from(selectedSubjects), 0);
+    });
+
+    function openSubjectsDialog() {
+        document.getElementById('subjects').showModal();
+    }
+
+    function closeSubjectsDialog() {
+        document.getElementById('subjects').close();
+    }
+</script>
+{{ end }}
+
