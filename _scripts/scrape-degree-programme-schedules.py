@@ -367,13 +367,13 @@ if __name__ == '__main__':
         .replace("{annoAccademico}", academic_year)
 
     # File to read and write classroom data to
-    classrooms_file_name = "classrooms.json"
+    classrooms_file_name = "../data/classrooms.json"
 
     # File to read and write teacher data to
-    teachers_file_name = "teachers.json"
+    teachers_file_name = "../data/teachers.json"
 
     # File to read and write teaching schedules info to
-    teaching_schedules_file_name = "schedules.json"
+    teaching_schedules_file_name = "../data/schedules.json"
 
     #
     # ▒█░░░ ▒█▀▀▀█ ░█▀▀█ ▒█▀▀▄ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
@@ -423,17 +423,17 @@ if __name__ == '__main__':
         return json.loads(input_dict_json_string)
 
     # Save the timetables to a JSON file
-    with open(f'timetables_{degree_programme_code}_{academic_year}.json'.replace('/', '-'), 'w') as file:
+    with open(f'../data/timetables_{degree_programme_code}_{academic_year}.json'.replace('/', '-'), 'w') as file:
         json.dump(parse(DOM), file, indent=2)
 
     # Save the classroom information to a JSON file
-    with open(f"classrooms.json", "w") as classroomsFile:
+    with open(f"../data/classrooms.json", 'w') as classroomsFile:
         json.dump(escape_dict_double_quotes(classrooms_dict), classroomsFile, indent=2)
 
     # Save the teacher information to a JSON file
-    with open(f"teachers.json", "w") as teachersFile:
+    with open(f"../data/teachers.json", 'w') as teachersFile:
         json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
 
     # Save the teaching schedules to a JSON file
-    with open(f"schedules.json", "w") as schedulesFile:
+    with open(f"../data/schedules.json", 'w') as schedulesFile:
         json.dump(escape_dict_double_quotes(teaching_schedules_dict), schedulesFile, indent=2)

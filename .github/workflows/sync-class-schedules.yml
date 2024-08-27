@@ -34,8 +34,8 @@ jobs:
 
       - name: Run class schedules update script
         run: |
-          chmod +x data/sync-class-schedules.sh
-          cd data
+          chmod +x _scripts/sync-class-schedules.sh
+          cd _scripts
           ./sync-class-schedules.sh
         env:
           GOMPPUBLIC_GENERATEORARIO_URL: ${{ secrets.GOMPPUBLIC_GENERATEORARIO_URL }}
