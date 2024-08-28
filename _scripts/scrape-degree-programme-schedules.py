@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 
 
 def extract_teaching_code(teaching_name):
-    # Extract the numeric ID
-    match = re.match(r"(\d+)", teaching_name)
+    # Extract the ID that starts with "AAF" followed by numbers or just a numeric ID
+    match = re.match(r"(AAF\d+|\d+)", teaching_name)
     if not match:
         return None
     id_number = match.group(1)

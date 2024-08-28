@@ -38,21 +38,23 @@
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_Select_Title" }}</h2>
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-            {{ $courses := .Site.Data.courses }} {{ range $code, $data :=
-            .Site.Data.schedules }} {{ $subject_info := index $courses $code }}
-            {{ $channels := $data.channels }} {{ range $channel_id, $_ :=
-            $data.channels }}
-            <button
-                id="dialog-{{ $code }}-{{ $channel_id }}"
-                class="subjButton group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
-                onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
-            >
-                <span class="w-full truncate text-left">
-                    [{{ $data.degree }}] {{ $subject_info.shortName }} {{ if ne
-                    $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
-                </span>
-            </button>
-            {{ end }} {{ end }}
+            {{ $courses := .Site.Data.courses }}
+            {{ range $code, $data := .Site.Data.schedules }}
+                {{ $subject_info := index $courses $code }}
+                {{ $channels := $data.channels }}
+                {{ range $channel_id, $_ := $data.channels }}
+                <button
+                    id="dialog-{{ $code }}-{{ $channel_id }}"
+                    class="subjButton group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                    onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
+                >
+                    <span class="w-full truncate text-left">
+                        [{{ $data.degree }}] {{ $subject_info.shortName }}
+                        {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
+                    </span>
+                </button>
+                {{ end }}
+            {{ end }}
         </div>
         <button
             class="subjsCloseMenu hover:bg-gray-100"
@@ -62,6 +64,7 @@
         </button>
     </div>
 </dialog>
+
 <script>
     const selectedSubjects = new Set(
         JSON.parse(localStorage.getItem("selectedSubjects")),
