@@ -58,11 +58,11 @@ In all other cases, students will need to wait for their study plan to be review
 
 ### How to select External Courses
 
-Each student can choose **12 CFU** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**  
+Each student can choose **12 CFU** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
-- _For example, a Mathematics course might be useful for Applied Computer Science and Artificial Intelligence training, but a Literature course is unlikely to be considered useful._ 
+- _For example, a Mathematics course might be useful for Applied Computer Science and Artificial Intelligence training, but a Literature course is unlikely to be considered useful._
 
 For assurance, students can ask the relevant [Academic Advisor](#academic-advisor) in the Competent Commission for the evaluation and approval of study plans whether the chosen course is relevant to the degree program.
 
@@ -76,7 +76,9 @@ Some courses that have been previously approved as external courses for ACSAI st
 
 The **"Commission for the Evaluation and Approval of Study Plans"** is responsible for assessing and approving study plans within a few weeks.
 
-> Students are advised not to write before two weeks if it is not strictly necessary. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the study plan compliant with the study plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval. 
+{{< hint warning >}}
+Students are advised not to write before two weeks if it is not strictly necessary. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the study plan compliant with the study plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval.
+{{< /hint >}}
 
 The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angelo Spognardi](https://www.di.uniroma1.it/en/docenti/spognardi-angelo), to whom you can write for further information and/or urgent approval requests (e.g., learning agreement for the Erasmus program).
 
@@ -118,7 +120,7 @@ The student must acquire 6 credits from the exams in the group
 
 Below is a list of some courses that have been recognized for Applied Computer Science and Artificial Intelligence students in previous academic years as external courses:
 
-- **N.B.:** Some of these courses may have been accredited to students transferring from other programs rather than being directly chosen as part of the Third Year Applied Computer Science and Artificial Intelligence curriculum.  
+- **N.B.:** Some of these courses may have been accredited to students transferring from other programs rather than being directly chosen as part of the Third Year Applied Computer Science and Artificial Intelligence curriculum.
 
 Please also refer to the guidelines on [how to select external courses](#how-to-select-external-courses) for more information!
 
@@ -145,26 +147,26 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 ## FAQ
 
-<details>
+{{< details "**Can I choose only internal courses?**">}}
 
-<summary>Can I choose only internal courses?</summary>
+---
 
-<b>Yes</b>, you can choose to take only courses within the Applied Computer Science and Artificial Intelligence degree program (30786). However, you also have the option to include up to 12 ECTS credits from courses offered by other degree programs and faculties, if you prefer. This is not mandatory, but it is available as an option.
+**Yes**, you can choose to take only courses within the Applied Computer Science and Artificial Intelligence degree program (30786). However, you also have the option to include up to 12 ECTS credits from courses offered by other degree programs and faculties, if you prefer. This is not mandatory, but it is available as an option.
 
-</details>
+{{< /details >}}
+<br>
+{{< details "**Can I choose all courses offered in the First Semester?**">}}
 
-<details>
+---
 
-<summary>Can I choose all courses offered in the First Semester?</summary>
+**Yes**, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping schedules and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
 
-<b>Yes</b>, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping schedules and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
+{{< /details >}}
+<br>
+{{< details "**What should I do if I choose a course that I don't like?**">}}
 
-</details>
+---
 
-<details>
+If **you have not yet submitted your study plan**, you can still modify your course choices. If you have already submitted your plan, you will need to wait until the next Academic Year to make any changes. In some cases, you may request an early modification to the <a href="#academic-advisor">academic advisor for the study plans</a>, subject to approval.
 
-<summary>What should I do if I choose a course that I don't like?</summary>
-
-If <b>you have not yet submitted your study plan</b>, you can still modify your course choices. If you have already submitted your plan, you will need to wait until the next Academic Year to make any changes. In some cases, you may request an early modification to the <a href="#academic-advisor">academic advisor for the study plans</a>, subject to approval.
-
-</details>
+{{< /details >}}

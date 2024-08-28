@@ -346,6 +346,7 @@ pip install numpy matplotlib scikit-learn opencv-contrib-python seaborn nltk
 
 Later on in the course you will also need to use Pytorch. In order to install it, then you must refer to [Pytorch's download page](https://pytorch.org/get-started/locally/), since it will auto detect your system hardware and will thus indicate what's the best setup for you.
 
+<!--
 ---
 
 ## R
@@ -353,36 +354,4 @@ Later on in the course you will also need to use Pytorch. In order to install it
 ---
 
 <kbd>⌘</kbd> + <kbd>R</kbd>
-
-
-<!--
-(to that extent, we highly suggest the Windows users to download their new official [Terminal app](https://apps.microsoft.com/detail/9n0dx20hk701), which supports various useful features)
-
----
-
-If you want to create a new conda environment just for this subject, you can do the following steps:
-
-Open a terminal (on Windows, if you don’t use the new Terminal app with PowerShell, open the conda shell by typing “conda“ on the search bar of the menu);
-
-In order to create a new environment, type the following:
-
-conda create --name ailab -y
-
-Clearly the ailab name can be whatever you want. From now on, replace ailab with the name of your environment;
-
-Once the environment is created, access it with the following:
-
-conda activate ailab
-
-Now, install Python and pip:
-
-conda install python pip -y
-
-After this, you’re good to go! You can install all the other packages that you may need with pip, by using the pip install <packages> formula;
-
-OPTIONAL: if you want to install everything in one go, this command should be enough:
-
-pip install numpy matplotlib scikit-learn opencv-contrib-python seaborn nltk
-
-For PyTorch, follow the instructions on their website, since each installation command depends on your platform.
 -->
