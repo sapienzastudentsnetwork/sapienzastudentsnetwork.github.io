@@ -21,4 +21,4 @@ timetables:
         - 1015887
 ---
 
-Check layout/page/schedule.html for this page's content
+Check layout/page/schedule.html to analyze this page's content

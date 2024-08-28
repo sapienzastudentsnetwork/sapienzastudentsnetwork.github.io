@@ -6,4 +6,4 @@ layout: 'custom-schedule'
 type: 'page'
 ---
 
-Check layout/page/custom-schedule.html for this page's content
+Check layout/page/custom-schedule.html to analyze this page's content
