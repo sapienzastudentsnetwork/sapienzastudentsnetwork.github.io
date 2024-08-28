@@ -38,7 +38,7 @@
     "1015885": {
         "name": "Introduzione agli Algoritmi",
         "shortName": "Intro. Algo",
-        "abbr": "ALG",
+        "abbr": "IALG",
         "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0"
     },
     "1015884": {
@@ -92,7 +92,7 @@
     "1015888": {
         "name": "Progettazione di Algoritmi",
         "shortName": "Prog. Algo",
-        "abbr": "ALG",
+        "abbr": "PALG",
         "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk"
     },
     "1015889": {
@@ -355,5 +355,213 @@
         "shortName": "Law & CS",
         "abbr": "LCS",
         "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0"
+    },
+    "10596281": {
+        "name": "Autonomous Networking",
+        "shortName": "Autonomous Net",
+        "abbr": "ANET",
+        "tgGroup": "https://t.me/+S2AJbgMrd8LhbABF"
+    },
+    "1041764": {
+        "name": "Big Data Computing",
+        "shortName": "Big Data Comp.",
+        "abbr": "BDC",
+        "tgGroup": "https://t.me/+KSHTVVfzDQ42MTU8"
+    },
+    "1041792": {
+        "name": "Biometric Systems",
+        "shortName": "Biometric Sys.",
+        "abbr": "BIO",
+        "tgGroup": "https://t.me/+cTqgWjub2OtiYTRk"
+    },
+    "1047617": {
+        "name": "Computer Network Performance",
+        "shortName": "Computer Net. Perf.",
+        "abbr": "CNP",
+        "tgGroup": "https://t.me/+p0-u-meZ1rE3MGU0"
+    },
+    "1047622": {
+        "name": "Cryptography",
+        "shortName": "Cryptography",
+        "abbr": "CRY",
+        "tgGroup": "https://t.me/+WIS5BygCxm9mZjE0"
+    },
+    "1047624": {
+        "name": "Distributed Systems",
+        "shortName": "Distributed Sys.",
+        "abbr": "DS",
+        "tgGroup": "https://t.me/+VKIsENZg1uzB2n1v"
+    },
+    "1047627": {
+        "name": "Foundations of Data Science",
+        "shortName": "Found. of DS",
+        "abbr": "FDS",
+        "tgGroup": "https://t.me/+zIFUj3d_Puk3ZjBk"
+    },
+    "1047638": {
+        "name": "Models of Computation",
+        "shortName": "Models of Comput.",
+        "abbr": "MOC",
+        "tgGroup": "https://t.me/+WCzSlKOyfy42ZGJk"
+    },
+    "1047642": {
+        "name": "Security in Software Applications",
+        "shortName": "Sec. in Soft. Appl.",
+        "abbr": "SSA",
+        "tgGroup": "https://t.me/+R4OoiPgWdB82MjFk"
+    },
+    "10589621": {
+        "name": "Advanced Machine Learning",
+        "shortName": "Adv. Machine Learn.",
+        "abbr": "AML",
+        "tgGroup": "https://t.me/+ut8SmYWsoR41MzZl"
+    },
+    "10600495": {
+        "name": "Automatic Verification of Intelligent Systems",
+        "shortName": "Auto. Ver. Int. Sys.",
+        "abbr": "AVIS",
+        "tgGroup": "https://t.me/+npTs-awpbTM3MzA0"
+    },
+    "10600490": {
+        "name": "Blockchain and Distributed Ledger Technologies",
+        "shortName": "Blockchain and DLT",
+        "abbr": "BCDL",
+        "tgGroup": "https://t.me/+x45vqQjj-YA0MWM8"
+    },
+    "1047616": {
+        "name": "Computational Complexity",
+        "shortName": "Comput. Complexity",
+        "abbr": "COMP",
+        "tgGroup": "https://t.me/+cFO5rxhe0ak3YjFk"
+    },
+    "1047618": {
+        "name": "Computer Vision",
+        "shortName": "Computer Vision",
+        "abbr": "CV",
+        "tgGroup": "https://t.me/+AUr_HfwR3kAxNDA0"
+    },
+    "1047640": {
+        "name": "Network Algorithms",
+        "shortName": "Network Algorithms",
+        "abbr": "NA",
+        "tgGroup": "https://t.me/+Xdg3QAARmlRjODlk"
+    },
+    "10589558": {
+        "name": "Methods in Computer Science Education: Design",
+        "shortName": "CS Edu: Design",
+        "abbr": "EDUD",
+        "tgGroup": "https://t.me/+j9L6adNepTUzMmM0"
+    },
+    "10607006": {
+        "name": "Formal Methods for AI-based Systems Engineering",
+        "shortName": "AI-based Sys. Eng.",
+        "abbr": "FMAI"
+    },
+    "1047614": {
+        "name": "Advanced Software Engineering",
+        "shortName": "Adv. Software Eng.",
+        "abbr": "ASE",
+        "tgGroup": "https://t.me/+SRnmNKaAM3kwYzk8"
+    },
+    "1047205": {
+        "name": "Cloud Computing",
+        "shortName": "Cloud Computing",
+        "abbr": "CC",
+        "tgGroup": "https://t.me/+TFOpJk7wLJMUSZaH"
+    },
+    "10593236": {
+        "name": "Deep Learning and Applied Artificial Intelligence",
+        "shortName": "Deep Learn. & AI",
+        "abbr": "DLAI",
+        "tgGroup": "https://t.me/+S914sAzRVG2weEM4"
+    },
+    "1047630": {
+        "name": "Human Computer Interaction on the Web",
+        "shortName": "HCI on the Web",
+        "abbr": "HCIW",
+        "tgGroup": "https://t.me/+B_S4NnD6VPE1OGNk"
+    },
+    "1047634": {
+        "name": "Internet of Things",
+        "shortName": "Internet of Things",
+        "abbr": "IOT",
+        "tgGroup": "https://t.me/+-iMx8soyQyNmYTk8"
+    },
+    "1047636": {
+        "name": "Mathematical Logic for Computer Science",
+        "shortName": "Math. Logic for CS",
+        "abbr": "MATH",
+        "tgGroup": "https://t.me/+o5P3c6dDULM2YmE0"
+    },
+    "1038141": {
+        "name": "Natural Language Processing",
+        "shortName": "Natural Lang. Proc.",
+        "abbr": "NLP",
+        "tgGroup": "https://t.me/+Rijud7jizOpiYzc8"
+    },
+    "10589555": {
+        "name": "Practical Network Defense",
+        "shortName": "Practical Network Def.",
+        "abbr": "PND",
+        "tgGroup": "https://t.me/+RDOCbqa50vZAkWjN"
+    },
+    "1047613": {
+        "name": "Advanced Algorithms",
+        "shortName": "Adv. Algorithms",
+        "abbr": "ALGO",
+        "tgGroup": "https://t.me/+Xb9-VqXQMXk3MGQ0"
+    },
+    "10612318": {
+        "name": "Advanced Architectures",
+        "shortName": "Adv. Architectures",
+        "abbr": "ARCH"
+    },
+    "1047619": {
+        "name": "Concurrent Systems",
+        "shortName": "Concurrent Systems",
+        "abbr": "CS",
+        "tgGroup": "https://t.me/+nDsSnNQMF8kxMjI0"
+    },
+    "1047623": {
+        "name": "Data and Network Security",
+        "shortName": "Data & Net. Sec.",
+        "abbr": "DNS",
+        "tgGroup": "https://t.me/+Te_HbNnd3U2w6SaU"
+    },
+    "1047629": {
+        "name": "Graph Theory",
+        "shortName": "Graph Theory",
+        "abbr": "GT",
+        "tgGroup": "https://t.me/+SGioclc0MRIcxera"
+    },
+    "1047639": {
+        "name": "Multimodal Interaction",
+        "shortName": "Multimodal Int.",
+        "abbr": "MI",
+        "tgGroup": "https://t.me/+RSYya0P9YzDiLP27"
+    },
+    "10589557": {
+        "name": "Methods in Computer Science Education: Analysis",
+        "shortName": "CS Edu: Analysis",
+        "abbr": "EDUA",
+        "tgGroup": "https://t.me/+_FCryPyBYGY2NDFk"
+    },
+    "1047643": {
+        "name": "Topics in Physics",
+        "shortName": "Physics",
+        "abbr": "TPHY",
+        "tgGroup": "https://t.me/+DbwdPc_jWzsyOThk"
+    },
+    "1047635": {
+        "name": "Machine Learning",
+        "shortName": "Machine Learn.",
+        "abbr": "ML",
+        "tgGroup": "https://t.me/+ujSucyy-G4UyNTc0"
+    },
+    "1047626": {
+        "name": "Formal Methods in Software Development",
+        "shortName": "Software Development",
+        "abbr": "FMSD",
+        "tgGroup": "https://t.me/+RarJRCwFq6BhMTQ0"
     }
 }
