@@ -11,11 +11,28 @@
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
 }
 
-.subjsList {
+.subjsDial {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.subjsList {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjButton {
+    margin: 2px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .subjsCloseMenu {
@@ -29,6 +46,7 @@
 
 #subjsSelTitle {
     text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 #subjects {
