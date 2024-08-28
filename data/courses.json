@@ -568,5 +568,10 @@
         "shortName": "Software Development",
         "abbr": "FMSD",
         "tgGroup": "https://t.me/+RarJRCwFq6BhMTQ0"
+    },
+    "AAF1246": {
+        "name": "Attività Formativa Complementare",
+        "shortName": "Attività Form. Compl.",
+        "abbr": "AFC"
     }
 }
