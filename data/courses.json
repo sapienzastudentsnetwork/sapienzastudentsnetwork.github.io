@@ -215,24 +215,24 @@
         "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk"
     },
     "10595099_1": {
-        "name": "Calculus U1",
+        "name": "Calculus - Unit 1",
         "shortName": "Calculus U1",
         "abbr": "CU1"
     },
     "10595099_2": {
-        "name": "Calculus U2",
+        "name": "Calculus - Unit 2",
         "shortName": "Calculus U2",
         "abbr": "CU2"
     },
     "10595546_1": {
-        "name": "Computer Architecture U1",
+        "name": "Computer Architecture - Unit 1",
         "shortName": "Comp. Arch. U1",
-        "abbr": "CA1"
+        "abbr": "CAU1"
     },
     "10595546_2": {
-        "name": "Computer Architecture U2",
+        "name": "Computer Architecture - Unit 2",
         "shortName": "Comp. Arch. U2",
-        "abbr": "CA2"
+        "abbr": "CAU2"
     },
     "10595524": {
         "name": "Linear Algebra",
@@ -261,7 +261,7 @@
     },
     "10600241": {
         "name": "Programming 2",
-        "shortName": "Programming",
+        "shortName": "Programming 2",
         "abbr": "PR2"
     },
     "10595529": {
@@ -270,12 +270,12 @@
         "abbr": "C2"
     },
     "10595617_1": {
-        "name": "Data Management and Analysis U1",
+        "name": "Data Management and Analysis - Unit 1",
         "shortName": "Data U1",
         "abbr": "DMA1"
     },
     "10595617_2": {
-        "name": "Data Management and Analysis U2",
+        "name": "Data Management and Analysis - Unit 2",
         "shortName": "Data U2",
         "abbr": "DMA2"
     },
@@ -284,19 +284,24 @@
         "shortName": "Probability",
         "abbr": "PR"
     },
-    "10595616": {
-        "name": "Systems and Networking",
-        "shortName": "Systems & Net.",
-        "abbr": "SN"
+    "10595616_1": {
+        "name": "Systems and Networking - Unit 1",
+        "shortName": "Systems & Net. U1",
+        "abbr": "SNU1"
+    },
+    "10595616_2": {
+        "name": "Systems and Networking - Unit 2",
+        "shortName": "Systems & Net. U2",
+        "abbr": "SNU2"
     },
     "10595618_1": {
-        "name": "Artificial Intelligence (AI & ML)",
-        "shortName": "AI (AI & ML)",
+        "name": "Artificial Intelligence and Machine Learning - Unit 1",
+        "shortName": "AI (AI & ML - U1)",
         "abbr": "AI"
     },
     "10595618_2": {
-        "name": "Machine Learning (AI & ML)",
-        "shortName": "ML (AI & ML)",
+        "name": "Artificial Intelligence and Machine Learning - Unit 2",
+        "shortName": "ML (AI & ML - U2)",
         "abbr": "ML"
     },
     "10595610": {
