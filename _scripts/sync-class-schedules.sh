@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rm classrooms.json
-rm schedules.json
+rm ../data/classrooms.json
+rm ../data/schedules.json
 
 declare -a degree_programme_codes=("29923" "29932" "30786")
 academic_year="2023/2024"
