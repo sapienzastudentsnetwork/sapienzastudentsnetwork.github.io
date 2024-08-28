@@ -1532,5 +1532,41 @@
       }
     },
     "code": "10595534"
+  },
+  "AAF1246": {
+    "subject": "ATTIVITA' FORMATIVA COMPLEMENTARE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "e5c83a47-fac5-4ff4-81b4-626a28e92180": "Aula G informatica (Edificio: RM103)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "AAF1246"
   }
 }
