@@ -29,7 +29,7 @@ Supponiamo che io debba cercare il libro "Learning Python":
 1. Scrivi sulla barra di ricerca di MyEBSCO il nome del testo (nel caso di ricerche specifiche è bene inserire anche il nome dell'autore, per ridurre al minimo il numero di risultati trovati)
 2. Se la ricerca va a buon fine, clicca su "**Opzioni accesso**" sotto al libro scelto
 
-![ciao](https://lh5.googleusercontent.com/hNEsCt7_Xc3-FqrsCt-MOJJFbEEm0UOudLTGMjSsDK3Q17PXHSHwJYsyXUQZX8ESCVrkCok6UnprMQz4TPRGz8fsjGkruhb9babbKV4PfsRr4DhJlI2xOwg7-tKj18IvjQ=w1280)
+![ciao](https://i.imgur.com/vXip7re.png)
 
 3. Se vuoi consultarlo digitalmente, clicca **"Verifica la disponibilità in formato elettronico"** o "**Accedi alla Risorsa**": se disponibile online, ti verrà indicato dove trovarlo o verrai direttamente reindirizzato al sito dove si trova
 4. Se il testo è disponibile in formato cartaceo nelle biblioteche Sapienza e vuoi consultarlo fisicamente (o la versione digitale non è disponibile), clicca su "**Vai al Catalogo**": verrai indirizzato alla pagina del testo sul sito [OPAC](https://opac.uniroma1.it/SebinaOpacRMS/.do), il catalogo dei testi presenti nelle biblioteche Sapienza. Qui potrai vedere in che biblioteche è disponibile: nel nostro esempio, "Learning Python" si trova nella biblioteca di Ricerca sociale, informatica e comunicazione; se dovesse essere disponibile in più biblioteche, seleziona quella che preferisci. Inoltre, **segnati sia il codice inventario sia il codice collocazione**. Infine, vai alla biblioteca scelta, richiedi un modulo di consultazione o prestito e inserisci i codici.
@@ -40,4 +40,4 @@ Supponiamo che io debba cercare il libro "Learning Python":
 Ripetiamo per chiarezza che **è possibile fare richiesta di un testo SOLO ED ESCLUSIVAMENTE nelle biblioteche in cui esso è disponibile!**
 {{< /hint >}}
 
-![ciao](https://lh5.googleusercontent.com/kItUq9PrZkekKn3BiatDRPf1OaR-_bUeYPyJvpz8STpCmYzAi71j2BGPABR5tOdO6cLsa_u1gtdg9juQtFORfZsAIsHFyuEca5xQAkaGN-uCU-3TwAd1oDYIWaEtfEZF=w1280)
+![ciao](https://i.imgur.com/FWZb6K6.png)
