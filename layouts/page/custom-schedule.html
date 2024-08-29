@@ -45,7 +45,7 @@
                 {{ range $channel_id, $_ := $data.channels }}
                 <button
                     id="dialog-{{ $code }}-{{ $channel_id }}"
-                    class="subjButton group mb-2 flex h-12 w-72 items-center rounded-full bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
                     onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
                 >
                     <span class="w-full truncate text-left">
@@ -71,18 +71,20 @@
     );
 
     function toggleSubject(subjectId) {
-        if (selectedSubjects.has(subjectId)) {
+        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON
             let button = document.getElementById("dialog-" + subjectId);
             button.classList.remove(
                 "bg-black",
                 "text-white",
                 "dark:bg-white",
                 "dark:text-black",
+                "subjIsSelected"
             );
             button.classList.add(
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
+                "c-30786", "c-29932", "c-29923"
             );
 
             let subjectCode = subjectId.split("-")[0];
@@ -100,18 +102,20 @@
             if (channel_div) channel_div.classList.add("hidden");
 
             selectedSubjects.delete(subjectId);
-        } else {
+        } else {    // If subject is not in the JSON
             let button = document.getElementById("dialog-" + subjectId);
             button.classList.remove(
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
+                "c-30786", "c-29932", "c-29923"
             );
             button.classList.add(
                 "bg-black",
                 "text-white",
                 "dark:bg-white",
                 "dark:text-black",
+                "subjIsSelected"
             );
 
             let subjectCode = subjectId.split("-")[0];
@@ -139,12 +143,14 @@
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
+                "c-30786", "c-29932", "c-29923"
             );
             button.classList.add(
                 "bg-black",
                 "text-white",
                 "dark:bg-white",
                 "dark:text-black",
+                "subjIsSelected"
             );
 
             let subjectCode = subjectId.split("-")[0];
