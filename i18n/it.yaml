@@ -22,13 +22,13 @@
 #
 
 - id: Subjs_Add
-  translation: Aggiungi una materia
+  translation: Aggiungi e rimuovi materie
 
 - id: Subjs_Close_Menu
   translation: Chiudi il menu
 
 - id: Subjs_Select_Title
-  translation: Seleziona le materie da inserire
+  translation: Seleziona le materie da inserire o rimuovere
 
 #
 #   C O N T A C T S   P A G E

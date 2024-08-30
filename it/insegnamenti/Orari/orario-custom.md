@@ -4,6 +4,7 @@ aliases: ["/orari/orario-custom", "/it/orari/orario-custom", "/informatica/orari
 weight: 4
 layout: 'custom-schedule'
 type: 'page'
+bookToc: false
 ---
 
 Check layout/page/custom-schedule.html to analyze this page's content

@@ -50,6 +50,11 @@ $hint-colors: (
 
   --course-dash-background: #F9F9F9;
   --course-panel-background: #E2E3E7;
+
+  --timetable-add-button-background: #D6DADF;
+  --timetable-popup-background: linear-gradient(63deg, rgba(97,151,204,0.2) 20%, rgba(134,196,246,0.2) 80%);
+  --timetable-popup-shadow-size: 15px;
+  --timetable-popup-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 @mixin theme-dark {
@@ -72,4 +77,9 @@ $hint-colors: (
 
   --course-dash-background: #3E444A;
   --course-panel-background: #454C52;
+
+  --timetable-add-button-background: #454958;
+  --timetable-popup-background: linear-gradient(147deg, rgba(160,103,223,0.2) 20%, rgba(98,127,208,0.2) 85%);
+  --timetable-popup-shadow-size: 2000px;
+  --timetable-popup-shadow-color: rgba(0, 0, 0, 1);
 }

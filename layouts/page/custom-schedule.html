@@ -28,8 +28,7 @@
         <tbody class="mobile table-row-group sm:hidden"></tbody>
     </table>
 </div>
-<!-- { end }} -->
-<!-- </div> -->
+
 <dialog
     class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
     id="subjects"
@@ -38,28 +37,27 @@
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_Select_Title" }}</h2>
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-            {{ $courses := .Site.Data.courses }}
-            {{ range $code, $data := .Site.Data.schedules }}
-                {{ $subject_info := index $courses $code }}
-                {{ $channels := $data.channels }}
-                {{ range $channel_id, $_ := $data.channels }}
-                <button
-                    id="dialog-{{ $code }}-{{ $channel_id }}"
-                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
-                    onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
-                >
-                    <span class="w-full truncate text-left">
-                        [{{ $data.degree }}] {{ $subject_info.shortName }}
-                        {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
-                    </span>
-                </button>
+            <div class="subjsSingCourse">
+                {{ $courses := .Site.Data.courses }}
+                {{ range $code, $data := .Site.Data.schedules }}
+                    {{ $subject_info := index $courses $code }}
+                    {{ $channels := $data.channels }}
+                    {{ range $channel_id, $_ := $data.channels }}
+                        <button
+                            id="dialog-{{ $code }}-{{ $channel_id }}"
+                            class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                            onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
+                        >
+                            <span class="w-full truncate text-left">
+                                [{{ $data.degree }}] {{ $subject_info.shortName }}
+                                {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
+                            </span>
+                        </button>
+                    {{ end }}
                 {{ end }}
-            {{ end }}
+            </div>
         </div>
-        <button
-            class="subjsCloseMenu hover:bg-gray-100"
-            onclick="closeSubjectsDialog()"
-        >
+        <button class="subjsCloseMenu hover:bg-gray-100" onclick="closeSubjectsDialog()">
             {{ T "Subjs_Close_Menu" }}
         </button>
     </div>
@@ -71,8 +69,20 @@
     );
 
     function toggleSubject(subjectId) {
-        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON
-            let button = document.getElementById("dialog-" + subjectId);
+        let button = document.getElementById("dialog-" + subjectId);
+
+        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
+            if (button.classList.contains("c-30786-disabled")) {
+                button.classList.remove("c-30786-disabled")
+                button.classList.add("c-30786")
+            } else if (button.classList.contains("c-29932-disabled")) {
+                button.classList.remove("c-29932-disabled")
+                button.classList.add("c-29932")
+            } else if (button.classList.contains("c-29923-disabled")) {
+                button.classList.remove("c-29923-disabled")
+                button.classList.add("c-29923")
+            }
+
             button.classList.remove(
                 "bg-black",
                 "text-white",
@@ -84,7 +94,6 @@
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
-                "c-30786", "c-29932", "c-29923"
             );
 
             let subjectCode = subjectId.split("-")[0];
@@ -102,13 +111,22 @@
             if (channel_div) channel_div.classList.add("hidden");
 
             selectedSubjects.delete(subjectId);
-        } else {    // If subject is not in the JSON
-            let button = document.getElementById("dialog-" + subjectId);
+        } else {    // If subject is not in the JSON, then add it
+            if (button.classList.contains("c-30786")) {
+                button.classList.add("c-30786-disabled")
+                button.classList.remove("c-30786")
+            } else if (button.classList.contains("c-29932")) {
+                button.classList.add("c-29932-disabled")
+                button.classList.remove("c-29932")
+            } else if (button.classList.contains("c-29923")) {
+                button.classList.add("c-29923-disabled")
+                button.classList.remove("c-29923")
+            }
+
             button.classList.remove(
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
-                "c-30786", "c-29932", "c-29923"
             );
             button.classList.add(
                 "bg-black",
@@ -139,11 +157,22 @@
     addEventListener("DOMContentLoaded", () => {
         for (const subjectId of selectedSubjects) {
             const button = document.getElementById("dialog-" + subjectId);
+
+            if (button.classList.contains("c-30786")) {
+                button.classList.add("c-30786-disabled")
+                button.classList.remove("c-30786")
+            } else if (button.classList.contains("c-29932")) {
+                button.classList.add("c-29932-disabled")
+                button.classList.remove("c-29932")
+            } else if (button.classList.contains("c-29923")) {
+                button.classList.add("c-29923-disabled")
+                button.classList.remove("c-29923")
+            }
+
             button.classList.remove(
                 "bg-gray-50",
                 "dark:bg-gray-900",
                 "dark:text-white",
-                "c-30786", "c-29932", "c-29923"
             );
             button.classList.add(
                 "bg-black",
@@ -172,4 +201,5 @@
         document.getElementById("subjects").close();
     }
 </script>
+
 {{ end }}

@@ -22,13 +22,13 @@
 #
 
 - id: Add_Subjs
-  translation: Add a subject
+  translation: Add and remove subjects
 
 - id: Subjs_Close_Menu
   translation: Close the menu
 
 - id: Subjs_Select_Title
-  translation: Select the subjects you want to insert
+  translation: Select the subjects you wish to add or remove
 
 #
 #   C O N T A C T S   P A G E
