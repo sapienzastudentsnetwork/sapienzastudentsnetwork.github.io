@@ -31,7 +31,7 @@
 
 <dialog
     class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
-    id="subjects"
+    id="subjsPopUp"
     onclick="closeSubjectsDialog()"
 >
     <div class="subjsDial flex h-full w-full flex-col items-start">
@@ -57,7 +57,7 @@
                 {{ end }}
             </div>
         </div>
-        <button class="subjsCloseMenu hover:bg-gray-100" onclick="closeSubjectsDialog()">
+        <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
             {{ T "Subjs_Close_Menu" }}
         </button>
     </div>
@@ -194,11 +194,11 @@
     });
 
     function openSubjectsDialog() {
-        document.getElementById("subjects").showModal();
+        document.getElementById("subjsPopUp").showModal();
     }
 
     function closeSubjectsDialog() {
-        document.getElementById("subjects").close();
+        document.getElementById("subjsPopUp").close();
     }
 </script>
 
