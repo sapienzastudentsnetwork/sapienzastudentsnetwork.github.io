@@ -94,7 +94,7 @@
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
   translation: to stay updated on any schedule changes, resources, and course information.
 
-- id: Add_Subjs
+- id: Subjs_Add
   translation: Add and remove subjects
 
 - id: Subjs_Close_Menu
