@@ -65,7 +65,17 @@
                     </tr>
                 </thead>
                 <tbody>
-                    {{ range $day, $day_info := $days }}
+                    {{ $dayOrder := slice "lunedì" "martedì" "mercoledì" "giovedì" "venerdì" "sabato" "domenica" }}
+                    {{ $sortedDays := slice }}
+
+                    {{ range $day := $dayOrder }}
+                        {{ if index $days $day }}
+                            {{ $sortedDays = $sortedDays | append $day }}
+                        {{ end }}
+                    {{ end }}
+
+                    {{ range $day := $sortedDays }}
+                        {{ $day_info := index $days $day }}
                         {{ range $info := $day_info }}
                             {{ $timeslot := $info.timeslot }}
 
