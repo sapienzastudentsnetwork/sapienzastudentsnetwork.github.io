@@ -1,220 +1,226 @@
-{{ define "main" }} {{ partial "timetable.html" . }}
+{{ define "main" }}
+    {{ partial "timetable.html" . }}
 
-<h1>Orario personalizzato</h1>
-<div class="relative" id="main">
-    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button
-        class="addSubjs absolute right-0 top-2 flex items-center gap-2"
-        onclick="openSubjectsDialog()"
-    >
-        {{ T "Subjs_Add" }}
-        <!-- <span class="material-symbols-outlined">add</span> -->
-    </button>
-    <!-- { .Content } -->
-    {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+    <h1>Orario personalizzato</h1>
 
-    <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
-    <div>
-        <table id="customSchedule">
-            <thead>
-                <tr>
-                    <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
-                    {{ range $days }}
-                        <th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
-                        <th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>
-                        <!-- <th class="table-cell sm:hidden" scope="col">{ day | slice: 0 }</th> -->
-                    {{ end }}
-                </tr>
-            </thead>
-            <tbody class="desktop hidden sm:table-row-group"></tbody>
-            <tbody class="mobile table-row-group sm:hidden"></tbody>
-        </table>
-    </div>
-</div>
+    <blockquote class="book-hint wip">
+        <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
+        {{ T "Subjs_WorkInProgress" }}
+    </blockquote>
 
-<dialog
-    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
-    id="subjsPopUp"
-    onclick="closeSubjectsDialog()"
->
-    <div class="subjsDial flex h-full w-full flex-col items-start">
-        <h2 id="subjsSelTitle">{{ T "Subjs_Select_Title" }}</h2>
-        <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-            <div class="subjsSingCourse">
-                {{ $courses := .Site.Data.courses }}
-                {{ range $code, $data := .Site.Data.schedules }}
-                    {{ $subject_info := index $courses $code }}
-                    {{ $channels := $data.channels }}
-                    {{ range $channel_id, $_ := $data.channels }}
-                        <button
-                            id="dialog-{{ $code }}-{{ $channel_id }}"
-                            class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
-                            onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
-                        >
-                            <span class="w-full truncate text-left">
-                                [{{ $data.degree }}] {{ $subject_info.shortName }}
-                                {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
-                            </span>
-                        </button>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-        <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
-            {{ T "Subjs_Close_Menu" }}
+    <div class="relative" id="main">
+        <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
+        <button
+            class="addSubjs absolute right-0 top-2 flex items-center gap-2"
+            onclick="openSubjectsDialog()"
+        >
+            {{ T "Subjs_Add" }}
+            <!-- <span class="material-symbols-outlined">add</span> -->
         </button>
+        <!-- { .Content } -->
+        {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+
+        <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
+        <div>
+            <table id="customSchedule">
+                <thead>
+                    <tr>
+                        <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
+                        {{ range $days }}
+                            <!--<th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
+                            <!--<th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
+                            <th class="schedulesTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
+                        {{ end }}
+                    </tr>
+                </thead>
+                <tbody class="desktop hidden sm:table-row-group"></tbody>
+                <tbody class="mobile table-row-group sm:hidden"></tbody>
+            </table>
+        </div>
     </div>
-</dialog>
 
-{{ $dataSchedules := site.Data.schedules }}
-{{ $allCourses := slice }}
+    <dialog
+        class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
+        id="subjsPopUp"
+        onclick="closeSubjectsDialog()"
+    >
+        <div class="subjsDial flex h-full w-full flex-col items-start">
+            <h2 id="subjsSelTitle">{{ T "Subjs_Select_Title" }}</h2>
+            <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
+                <div class="subjsSingCourse">
+                    {{ $courses := .Site.Data.courses }}
+                    {{ range $code, $data := .Site.Data.schedules }}
+                        {{ $subject_info := index $courses $code }}
+                        {{ $channels := $data.channels }}
+                        {{ range $channel_id, $_ := $data.channels }}
+                            <button
+                                id="dialog-{{ $code }}-{{ $channel_id }}"
+                                class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                                onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
+                            >
+                                <span class="w-full truncate text-left">
+                                    [{{ $data.degree }}] {{ $subject_info.shortName }}
+                                    {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
+                                </span>
+                            </button>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
+                {{ T "Subjs_Close_Menu" }}
+            </button>
+        </div>
+    </dialog>
 
-{{ range $courseCode, $courseData := $dataSchedules }}
-    {{ $allCourses = $allCourses | append $courseCode }}
-{{ end }}
+    {{ $dataSchedules := site.Data.schedules }}
+    {{ $allCourses := slice }}
 
-<!-- Add the "Schedules per teaching" part for all courses -->
-{{ with dict "courses" $allCourses "defaultHidden" true }}
-    {{ partial "schedules-per-teaching.html" . }}
-{{ end }}
+    {{ range $courseCode, $courseData := $dataSchedules }}
+        {{ $allCourses = $allCourses | append $courseCode }}
+    {{ end }}
 
-<script>
-    const selectedSubjects = new Set(
-        JSON.parse(localStorage.getItem("selectedSubjects")),
-    );
+    <!-- Add the "Schedules per teaching" part for all courses -->
+    {{ with dict "courses" $allCourses "defaultHidden" true }}
+        {{ partial "schedules-per-teaching.html" . }}
+    {{ end }}
 
-    function toggleSubject(subjectId) {
-        let button = document.getElementById("dialog-" + subjectId);
-
-        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
-            if (button.classList.contains("c-30786-disabled")) {
-                button.classList.remove("c-30786-disabled")
-                button.classList.add("c-30786")
-            } else if (button.classList.contains("c-29932-disabled")) {
-                button.classList.remove("c-29932-disabled")
-                button.classList.add("c-29932")
-            } else if (button.classList.contains("c-29923-disabled")) {
-                button.classList.remove("c-29923-disabled")
-                button.classList.add("c-29923")
-            }
-
-            button.classList.remove(
-                "bg-black",
-                "text-white",
-                "dark:bg-white",
-                "dark:text-black",
-                "subjIsSelected"
-            );
-            button.classList.add(
-                "bg-gray-50",
-                "dark:bg-gray-900",
-                "dark:text-white",
-            );
-
-            let subjectCode = subjectId.split("-")[0];
-
-            // Hide this subject's timetable div only if the subject was not also added with another channel
-            let otherSubjectIdsWithSameCode = Array.from(
-                selectedSubjects,
-            ).filter((item) => item.startsWith(subjectCode));
-            if (otherSubjectIdsWithSameCode.length === 1) {
-                let subject_div = document.getElementById(subjectCode);
-                if (subject_div) subject_div.classList.add("hidden");
-            }
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.add("hidden");
-
-            selectedSubjects.delete(subjectId);
-        } else {    // If subject is not in the JSON, then add it
-            if (button.classList.contains("c-30786")) {
-                button.classList.add("c-30786-disabled")
-                button.classList.remove("c-30786")
-            } else if (button.classList.contains("c-29932")) {
-                button.classList.add("c-29932-disabled")
-                button.classList.remove("c-29932")
-            } else if (button.classList.contains("c-29923")) {
-                button.classList.add("c-29923-disabled")
-                button.classList.remove("c-29923")
-            }
-
-            button.classList.remove(
-                "bg-gray-50",
-                "dark:bg-gray-900",
-                "dark:text-white",
-            );
-            button.classList.add(
-                "bg-black",
-                "text-white",
-                "dark:bg-white",
-                "dark:text-black",
-                "subjIsSelected"
-            );
-
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode);
-            if (subject_div) subject_div.classList.remove("hidden");
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.remove("hidden");
-
-            selectedSubjects.add(subjectId);
-        }
-
-        localStorage.setItem(
-            "selectedSubjects",
-            JSON.stringify(Array.from(selectedSubjects)),
+    <script>
+        const selectedSubjects = new Set(
+            JSON.parse(localStorage.getItem("selectedSubjects")),
         );
 
-        fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
-    }
+        function toggleSubject(subjectId) {
+            let button = document.getElementById("dialog-" + subjectId);
 
-    addEventListener("DOMContentLoaded", () => {
-        for (const subjectId of selectedSubjects) {
-            const button = document.getElementById("dialog-" + subjectId);
+            if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
+                if (button.classList.contains("c-30786-disabled")) {
+                    button.classList.remove("c-30786-disabled")
+                    button.classList.add("c-30786")
+                } else if (button.classList.contains("c-29932-disabled")) {
+                    button.classList.remove("c-29932-disabled")
+                    button.classList.add("c-29932")
+                } else if (button.classList.contains("c-29923-disabled")) {
+                    button.classList.remove("c-29923-disabled")
+                    button.classList.add("c-29923")
+                }
 
-            if (button.classList.contains("c-30786")) {
-                button.classList.add("c-30786-disabled")
-                button.classList.remove("c-30786")
-            } else if (button.classList.contains("c-29932")) {
-                button.classList.add("c-29932-disabled")
-                button.classList.remove("c-29932")
-            } else if (button.classList.contains("c-29923")) {
-                button.classList.add("c-29923-disabled")
-                button.classList.remove("c-29923")
+                button.classList.remove(
+                    "bg-black",
+                    "text-white",
+                    "dark:bg-white",
+                    "dark:text-black",
+                    "subjIsSelected"
+                );
+                button.classList.add(
+                    "bg-gray-50",
+                    "dark:bg-gray-900",
+                    "dark:text-white",
+                );
+
+                let subjectCode = subjectId.split("-")[0];
+
+                // Hide this subject's timetable div only if the subject was not also added with another channel
+                let otherSubjectIdsWithSameCode = Array.from(
+                    selectedSubjects,
+                ).filter((item) => item.startsWith(subjectCode));
+                if (otherSubjectIdsWithSameCode.length === 1) {
+                    let subject_div = document.getElementById(subjectCode);
+                    if (subject_div) subject_div.classList.add("hidden");
+                }
+
+                let channel_div = document.getElementById(subjectId);
+                if (channel_div) channel_div.classList.add("hidden");
+
+                selectedSubjects.delete(subjectId);
+            } else {    // If subject is not in the JSON, then add it
+                if (button.classList.contains("c-30786")) {
+                    button.classList.add("c-30786-disabled")
+                    button.classList.remove("c-30786")
+                } else if (button.classList.contains("c-29932")) {
+                    button.classList.add("c-29932-disabled")
+                    button.classList.remove("c-29932")
+                } else if (button.classList.contains("c-29923")) {
+                    button.classList.add("c-29923-disabled")
+                    button.classList.remove("c-29923")
+                }
+
+                button.classList.remove(
+                    "bg-gray-50",
+                    "dark:bg-gray-900",
+                    "dark:text-white",
+                );
+                button.classList.add(
+                    "bg-black",
+                    "text-white",
+                    "dark:bg-white",
+                    "dark:text-black",
+                    "subjIsSelected"
+                );
+
+                let subjectCode = subjectId.split("-")[0];
+                let subject_div = document.getElementById(subjectCode);
+                if (subject_div) subject_div.classList.remove("hidden");
+
+                let channel_div = document.getElementById(subjectId);
+                if (channel_div) channel_div.classList.remove("hidden");
+
+                selectedSubjects.add(subjectId);
             }
 
-            button.classList.remove(
-                "bg-gray-50",
-                "dark:bg-gray-900",
-                "dark:text-white",
-            );
-            button.classList.add(
-                "bg-black",
-                "text-white",
-                "dark:bg-white",
-                "dark:text-black",
-                "subjIsSelected"
+            localStorage.setItem(
+                "selectedSubjects",
+                JSON.stringify(Array.from(selectedSubjects)),
             );
 
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode);
-            if (subject_div) subject_div.classList.remove("hidden");
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.remove("hidden");
+            fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
         }
 
-        fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
-    });
+        addEventListener("DOMContentLoaded", () => {
+            for (const subjectId of selectedSubjects) {
+                const button = document.getElementById("dialog-" + subjectId);
 
-    function openSubjectsDialog() {
-        document.getElementById("subjsPopUp").showModal();
-    }
+                if (button.classList.contains("c-30786")) {
+                    button.classList.add("c-30786-disabled")
+                    button.classList.remove("c-30786")
+                } else if (button.classList.contains("c-29932")) {
+                    button.classList.add("c-29932-disabled")
+                    button.classList.remove("c-29932")
+                } else if (button.classList.contains("c-29923")) {
+                    button.classList.add("c-29923-disabled")
+                    button.classList.remove("c-29923")
+                }
 
-    function closeSubjectsDialog() {
-        document.getElementById("subjsPopUp").close();
-    }
-</script>
+                button.classList.remove(
+                    "bg-gray-50",
+                    "dark:bg-gray-900",
+                    "dark:text-white",
+                );
+                button.classList.add(
+                    "bg-black",
+                    "text-white",
+                    "dark:bg-white",
+                    "dark:text-black",
+                    "subjIsSelected"
+                );
 
+                let subjectCode = subjectId.split("-")[0];
+                let subject_div = document.getElementById(subjectCode);
+                if (subject_div) subject_div.classList.remove("hidden");
+
+                let channel_div = document.getElementById(subjectId);
+                if (channel_div) channel_div.classList.remove("hidden");
+            }
+
+            fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
+        });
+
+        function openSubjectsDialog() {
+            document.getElementById("subjsPopUp").showModal();
+        }
+
+        function closeSubjectsDialog() {
+            document.getElementById("subjsPopUp").close();
+        }
+    </script>
 {{ end }}
