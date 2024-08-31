@@ -67,7 +67,7 @@
         let tableHasAlerts = false;
         for (let time = classesStartTime; time < classesEndTime; time++) {
             const timeTd = document.createElement('td');
-            timeTd.classList.add('font-light', 'italic');
+            timeTd.classList.add('schedulesTableCell', 'font-light', 'italic');
             timeTd.innerHTML = `${time} - ${time + 1}`;
 
             const desktopTr = document.createElement('tr');
@@ -82,6 +82,9 @@
 
                 const desktopTd = document.createElement('td');
                 const mobileTd = document.createElement('td');
+
+                desktopTd.classList.add('schedulesTableCell');
+                mobileTd.classList.add('schedulesTableCell');
 
                 const courses = schedule[day]
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);

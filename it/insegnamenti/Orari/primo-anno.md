@@ -8,17 +8,17 @@ timetables:
     - title: Primo Anno A-L
       channel: 1
       courses: 
-        - 101226
-        - 1015883
-        - 1020420
-        - 1015880
+        - '101226'
+        - '1015883'
+        - '1020420'
+        - '1015880'
     - title: Primo Anno M-Z
       channel: 2
       courses: 
-        - 101226
-        - 1015883
-        - 1020420
-        - 1015880
+        - '101226'
+        - '1015883'
+        - '1020420'
+        - '1015880'
 ---
 
 Check layout/page/schedule.html to analyze this page's content

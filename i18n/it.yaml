@@ -17,12 +17,81 @@
 - id: 404_Report
   translation: Segnala un problema
 
+- id: DaysOfTheWeek_Monday
+  translation: Lun
+
+- id: DaysOfTheWeek_Tuesday
+  translation: Mar
+
+- id: DaysOfTheWeek_Wednesday
+  translation: Merc
+
+- id: DaysOfTheWeek_Thursday
+  translation: Gio
+
+- id: DaysOfTheWeek_Friday
+  translation: Ven
+
+- id: DaysOfTheWeek_Saturday
+  translation: Sab
+
+- id: DaysOfTheWeek_Sunday
+  translation: Dom
+
+- id: DaysOfTheWeek_Monday_Full
+  translation: Lunedì
+
+- id: DaysOfTheWeek_Tuesday_Full
+  translation: Martedì
+
+- id: DaysOfTheWeek_Wednesday_Full
+  translation: Mercoledì
+
+- id: DaysOfTheWeek_Thursday_Full
+  translation: Giovedì
+
+- id: DaysOfTheWeek_Friday_Full
+  translation: Venerdì
+
+- id: DaysOfTheWeek_Saturday_Full
+  translation: Sabato
+
+- id: DaysOfTheWeek_Sunday_Full
+  translation: Domenica
+
 #
 #   S U B J E C T S   T I M E T A B L E
 #
 
 - id: Subjs_WorkInProgress
   translation: Questa pagina visualizza provvisoriamente degli orari dell'A.A. 2023/24 (l'Anno Accademico precedente) ai fini di testing, poiché in fase di sviluppo!
+
+- id: Subjs_Schedules_Time
+  translation: Orario
+
+- id: Subjs_SchedulesPerTeaching_Title
+  translation: Orari per singolo insegnamento
+
+- id: Subjs_SchedulesPerTeaching_Day
+  translation: Giorno
+
+- id: Subjs_SchedulesPerTeaching_Time
+  translation: Orario
+
+- id: Subjs_SchedulesPerTeaching_Teacher
+  translation: Docente
+
+- id: Subjs_SchedulesPerTeaching_Classroom
+  translation: Aula
+
+- id: Subjs_SchedulesPerTeaching_Telegram_JoinGroup
+  translation: Unisciti al
+
+- id: Subjs_SchedulesPerTeaching_Telegram_TelegramGroup
+  translation: Gruppo Telegram
+
+- id: Subjs_SchedulesPerTeaching_Telegram_StayUpdated
+  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso.
 
 - id: Subjs_Add
   translation: Aggiungi e rimuovi materie

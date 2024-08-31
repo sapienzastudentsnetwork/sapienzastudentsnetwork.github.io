@@ -7,7 +7,7 @@
     </blockquote>
 
     <div class="channel-1 relative" id="main">
-        {{ $days := slice "Lunedì" "Martedì" "Mercoledì" "Giovedì" "Venerdì" }}
+        {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
         {{ range .Params.timetables }}
             <div id="{{ .title | urlize }}" class="channel-{{ .channel }}">
@@ -15,16 +15,18 @@
                 <table>
                     <thead>
                         <tr>
-                            <th scope="col" class="font-light">Orario</th>
+                            <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
                             {{ range $days }}
-                                <th class="hidden sm:table-cell" scope="col">{{ . }}</th>
-                                <th class="table-cell sm:hidden" scope="col">{{ . }}</th>
-                                <!-- <th class="table-cell sm:hidden" scope="col">{ . | slice: 0 }</th> -->
+                                <!--<th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
+                                <!--<th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
+                                <th class="schedulesTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
                             {{ end }}
                         </tr>
                     </thead>
-                    <tbody class="desktop hidden sm:table-row-group"></tbody>
-                    <tbody class="mobile table-row-group sm:hidden"></tbody>
+                    <!--<tbody class="mobile hidden sm:table-row-group"></tbody>-->
+                    <tbody class="mobile"></tbody>
+                    <!--<tbody class="desktop table-row-group sm:hidden"></tbody>-->
+                    <tbody class="desktop hidden"></tbody>
                 </table>
             </div>
 
@@ -39,126 +41,131 @@
             </script>
         {{ end }}
 
-        <!-- <h2>Orari per insegnamento</h2> -->
+        <h2>{{ T "Subjs_SchedulesPerTeaching_Title" }}</h2>
 
-        <!-- { $courses := .Site.Data.schedules | where: 'degree', page.degree } -->
-        <!-- { $courses := where .Site.Data.schedules "degree" .Params.degree }} -->
-        <!-- { range $courses }} -->
-            <!-- <h3 id="{ .code }}">{ .code }} - { .Site.Data.courses[.code].name }}</h3> -->
+        {{ $allCourses := slice }} <!-- Create an empty list to accumulate all courses -->
+        {{ $uniqueCourses := slice }} <!-- Create an empty list for unique courses -->
+        {{ $seen := dict }} <!-- Create a dictionary to track seen courses -->
+        
+        {{ range .Params.timetables }} <!-- Iterate through all timetables -->
+            {{ range .courses }} <!-- Iterate through all courses in each timetable -->
+                {{ $courseCode := . }} <!-- Convert course code to string -->
+                {{ $allCourses = $allCourses | append $courseCode }} <!-- Add course code to the list -->
+            {{ end }}
+        {{ end }}
+        
+        <!-- Remove duplicates from the course list -->
+        {{ range $allCourses }}
+            {{ $courseCode := . }} <!-- Convert course code to string -->
+            {{ if not (index $seen $courseCode) }} <!-- Check if the course has not been seen -->
+                {{ $uniqueCourses = $uniqueCourses | append $courseCode }} <!-- Add course code to the unique list -->
+                {{ $seen = merge $seen (dict $courseCode true) }} <!-- Mark the course as seen -->
+            {{ end }}
+        {{ end }}        
 
-            <!-- { $telegram_group = .Site.Data.courses[.code].tgGroup }} -->
-            <!-- { if $telegram_group }} -->
-            <!--     ℹ️️ Unisciti al <a href="{ telegram_group }}">gruppo Telegram</a> dedicato per essere sempre aggiornato su -->
-            <!--     eventuali cambiamenti d'orario, risorse ed info del corso -->
-            <!-- { end }} -->
+        {{ $dataCourses := site.Data.courses }}
+        {{ $dataSchedules := site.Data.schedules }}
+        {{ $dataHardcodedSchedules := site.Data.hardcodedSchedules }}
+        {{ $dataTeachers := site.Data.teachers }}
+        {{ $dataClassrooms := site.Data.classrooms }}
 
-    <!--         { for channel in course.channels }} -->
-    <!--             { $channel_id := channel[0] }} -->
-    <!--             { $days := channel[1] }} -->
-    <!---->
-    <!--             { unless site.data.hardcodedSchedules[course.code] -->
-    <!--                 and site.data.hardcodedSchedules[course.code].channels[channel_id] -->
-    <!--             }} -->
-    <!--                 { $days := channel[1] }} -->
-    <!--             { else }} -->
-    <!--                 { $days := site.data.hardcodedSchedules[course.code].channels[channel_id] }} -->
-    <!--             { endunless }} -->
-    <!---->
-    <!--             { $first_day := days | first }} -->
-    <!--             { $first_day_info := first_day[1] }} -->
-    <!---->
-    <!--             <h4> -->
-    <!--                 { if channel_id != '0' }} -->
-    <!--                     Canale { channel_id }} - -->
-    <!--                 { else }} -->
-    <!--                     Canale Unico - -->
-    <!--                 { end }} -->
-    <!---->
-    <!--                 { if site.data.teachers[first_day_info.teacherId] }} -->
-    <!--                     <a href="{ site.data.teachers[first_day_info.teacherId].teacherPageUrl }}"> -->
-    <!--                         {- site.data.teachers[first_day_info.teacherId].teacherName -}} -->
-    <!--                     </a> -->
-    <!--                 { else }} -->
-    <!--                     <span class="not-bold">Docente sconosciuto/a</span> -->
-    <!--                 { end }} -->
-    <!--             </h4> -->
-    <!---->
-    <!--             { $alerts := site.data.courses[course.code].alerts }} -->
-    <!--             { if alerts }} -->
-    <!--                 { if alerts[channel_id] }} -->
-    <!--                     { for alert in alerts[channel_id] }} -->
-    <!--                         { alert }} -->
-    <!--                         <br> -->
-    <!--                     { end }} -->
-    <!--                 { end }} -->
-    <!--             { end }} -->
-    <!---->
-    <!--             <table> -->
-    <!--                 <thead> -->
-    <!--                     <tr> -->
-    <!--                         <th scope="col">Giorno</th> -->
-    <!--                         <th scope="col">Orario</th> -->
-    <!--                         <th scope="col" style="text-align: right">Aula</th> -->
-    <!--                     </tr> -->
-    <!--                 </thead> -->
-    <!--                 <tbody> -->
-    <!--                     { range $day := $days }} -->
-    <!--                         { $name := day[0] }} -->
-    <!--                         { $info := day[1] }} -->
-    <!--                         <tr> -->
-    <!--                             <td> -->
-    <!--                                 { case name }} -->
-    <!--                                     { when 'monday' }} -->
-    <!--                                         Lunedì -->
-    <!--                                     { when 'tuesday' }} -->
-    <!--                                         Martedì -->
-    <!--                                     { when 'wednesday' }} -->
-    <!--                                         Mercoledì -->
-    <!--                                     { when 'thursday' }} -->
-    <!--                                         Giovedì -->
-    <!--                                     { when 'friday' }} -->
-    <!--                                         Venerdì -->
-    <!--                                     { when 'saturday' }} -->
-    <!--                                         Sabato -->
-    <!--                                     { when 'sunday' }} -->
-    <!--                                         Domenica -->
-    <!--                                 { endcase }} -->
-    <!--                             </td> -->
-    <!--                             <td> -->
-    <!--                                 { info.hours | join: ', ' }} -->
-    <!--                             </td> -->
-    <!--                             <td style="text-align: right; width: 100%;"> -->
-    <!--                                 { if info.classrooms }} -->
-    <!--                                     { for classroom in info.classrooms }} -->
-    <!--                                         { $location_id := classroom[0] }} -->
-    <!--                                         { $location := classroom[1] }} -->
-    <!--                                         { $mapsUrl := site.data.classrooms[location_id].mapsUrl }} -->
-    <!---->
-    <!--                                         { if mapsUrl }} -->
-    <!--                                             <a href="{ mapsUrl }}">{ location }}</a> -->
-    <!--                                         { else }} -->
-    <!--                                             { location }} -->
-    <!--                                         { end }} -->
-    <!--                                     { end }} -->
-    <!--                                 { else }} -->
-    <!--                                     { $classroomInfo := info.classroomInfo }} -->
-    <!--                                     { $classroomUrl := info.classroomUrl }} -->
-    <!---->
-    <!--                                     { if classroomUrl }} -->
-    <!--                                         <a href="{ classroomUrl }}">{ classroomInfo }}</a> -->
-    <!--                                     { else }} -->
-    <!--                                         { classroomInfo }} -->
-    <!--                                     { end }} -->
-    <!--                                 { end }} -->
-    <!--                             </td> -->
-    <!--                         </tr> -->
-    <!--                     { end }} -->
-    <!--                 </tbody> -->
-    <!--             </table> -->
-    <!--         { end }} -->
-    <!--     { end }} -->
-    <!-- </div> -->
+        {{ range $uniqueCourses }}
+            {{ $courseSchedules := index $dataSchedules . }}
+            {{ $courseCode := index $courseSchedules "code" }}
+            {{ $courseSubject := index $courseSchedules "subject" }}
+            {{ $courseChannels := index $courseSchedules "channels" }}
 
+            <h3 id="{{ $courseCode }}">{{ $courseCode }} - {{ $courseSubject }}</h3>
+
+            {{ $telegram_group := index $dataCourses . "tgGroup" }}
+            {{ if $telegram_group }}
+                ℹ️️ {{ T "Subjs_SchedulesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_SchedulesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_SchedulesPerTeaching_Telegram_StayUpdated" }}
+            {{ end }}
+
+            {{ range $channel_id, $channel := $courseChannels }}
+                {{ $days := $channel }}
+
+                {{ if and $courseCode (index $dataHardcodedSchedules $courseCode) }}
+                    {{ $hardcodedChannel := index $dataHardcodedSchedules $courseCode }}
+                    {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
+                        {{ $days = index $hardcodedChannel "channels" $channel_id }}
+                    {{ end }}
+                {{ end }}
+
+                {{ if ne $channel_id "0" }}
+                    <h4>
+                        Canale {{ $channel_id }}
+                    </h4>
+                {{ else }}
+                    <br/><br/>
+                {{ end }}
+
+                {{ if and $courseCode (index $dataCourses $courseCode) }}
+                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
+                    {{ if $alerts }}
+                        {{ if index $alerts $channel_id }}
+                            {{ range index $alerts $channel_id }}
+                                {{ . }}
+                                <br>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Day" }}</th>
+                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Time" }}</th>
+                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Teacher" }}</th>
+                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Classroom" }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ range $day, $day_info := $days }}
+                            {{ range $info := $day_info }}
+                                {{ $timeslot := $info.timeslot }}
+
+                                <tr>
+                                    <td class="schedulesTableCell">
+                                        {{ if eq $day "lunedì" }}{{ T "DaysOfTheWeek_Monday" }}{{ end }}
+                                        {{ if eq $day "martedì" }}{{ T "DaysOfTheWeek_Tuesday" }}{{ end }}
+                                        {{ if eq $day "mercoledì" }}{{ T "DaysOfTheWeek_Wednesday" }}{{ end }}
+                                        {{ if eq $day "giovedì" }}{{ T "DaysOfTheWeek_Thursday" }}{{ end }}
+                                        {{ if eq $day "venerdì" }}{{ T "DaysOfTheWeek_Friday" }}{{ end }}
+                                        {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
+                                        {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
+                                    </td>
+                                    <td class="schedulesTableCell">{{ $timeslot }}</td>
+                                    <td class="schedulesTableCell">
+                                        {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
+                                        {{ $teacherId := index $timeslotInDay 0 "teacher" }}
+                                        {{ $teacherName := index $dataTeachers $teacherId "name" }}
+
+                                        <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
+                                            {{ $teacherName }}
+                                        </a>
+                                    </td>
+                                    <td class="schedulesTableCell">
+                                        {{ range $classroom_id, $location := $info.classrooms }}
+                                            {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
+
+                                            {{ if $mapsUrl }}
+                                                <a href="{{ $mapsUrl }}">{{ $location }}</a>
+                                                <br/>
+                                            {{ else }}
+                                                {{ $location }}
+                                                <br/>
+                                            {{ end }}
+                                        {{ end }}
+                                    </td>
+                                </tr>
+                            {{ end }}
+                        {{ end }}
+                    </tbody>
+                </table>
+            {{ end }}
+        {{ end }}
 
     <!-- {{ range .Params.timetables }} -->
     <!--     {{ .title }} -->

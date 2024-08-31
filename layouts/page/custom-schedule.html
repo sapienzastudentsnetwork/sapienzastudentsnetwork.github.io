@@ -11,22 +11,25 @@
         <!-- <span class="material-symbols-outlined">add</span> -->
     </button>
     <!-- { .Content } -->
-    {{ $days := slice "Lunedì" "Martedì" "Mercoledì" "Giovedì" "Venerdì" }}
+    {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+
     <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
-    <table id="customSchedule">
-        <thead>
-            <tr>
-                <th scope="col" class="font-light">Orario</th>
-                {{ range $days }}
-                <th class="hidden sm:table-cell" scope="col">{{ . }}</th>
-                <th class="table-cell sm:hidden" scope="col">{{ . }}</th>
-                <!-- <th class="table-cell sm:hidden" scope="col">{ day | slice: 0 }</th> -->
-                {{ end }}
-            </tr>
-        </thead>
-        <tbody class="desktop hidden sm:table-row-group"></tbody>
-        <tbody class="mobile table-row-group sm:hidden"></tbody>
-    </table>
+    <div>
+        <table id="customSchedule">
+            <thead>
+                <tr>
+                    <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
+                    {{ range $days }}
+                        <th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
+                        <th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>
+                        <!-- <th class="table-cell sm:hidden" scope="col">{ day | slice: 0 }</th> -->
+                    {{ end }}
+                </tr>
+            </thead>
+            <tbody class="desktop hidden sm:table-row-group"></tbody>
+            <tbody class="mobile table-row-group sm:hidden"></tbody>
+        </table>
+    </div>
 </div>
 
 <dialog

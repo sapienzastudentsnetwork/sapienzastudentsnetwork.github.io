@@ -17,12 +17,82 @@
 - id: 404_Report
   translation: Report an issue
 
+- id: DaysOfTheWeek_Monday
+  translation: Mon
+
+- id: DaysOfTheWeek_Tuesday
+  translation: Tue
+
+- id: DaysOfTheWeek_Wednesday
+  translation: Wed
+
+- id: DaysOfTheWeek_Thursday
+  translation: Thu
+
+- id: DaysOfTheWeek_Friday
+  translation: Fri
+
+- id: DaysOfTheWeek_Saturday
+  translation: Sat
+
+- id: DaysOfTheWeek_Sunday
+  translation: Sun
+
+- id: DaysOfTheWeek_Monday_Full
+  translation: Monday
+
+- id: DaysOfTheWeek_Tuesday_Full
+  translation: Tuesday
+
+- id: DaysOfTheWeek_Wednesday_Full
+  translation: Wednesday
+
+- id: DaysOfTheWeek_Thursday_Full
+  translation: Thursday
+
+- id: DaysOfTheWeek_Friday_Full
+  translation: Friday
+
+- id: DaysOfTheWeek_Saturday_Full
+  translation: Saturday
+
+- id: DaysOfTheWeek_Sunday_Full
+  translation: Sunday
+
+
 #
 #   S U B J E C T S   T I M E T A B L E
 #
 
 - id: Subjs_WorkInProgress
   translation: This page temporarily displays schedules for the A.Y. 2023/24 (the previous Academic Year) for testing purposes, as it is still under development!
+
+- id: Subjs_Schedules_Time
+  translation: Orario
+
+- id: Subjs_SchedulesPerTeaching_Title
+  translation: Schedules per teaching
+
+- id: Subjs_SchedulesPerTeaching_Day
+  translation: Day
+
+- id: Subjs_SchedulesPerTeaching_Time
+  translation: Time
+
+- id: Subjs_SchedulesPerTeaching_Teacher
+  translation: Teacher
+
+- id: Subjs_SchedulesPerTeaching_Classroom
+  translation: Classroom
+
+- id: Subjs_SchedulesPerTeaching_Telegram_JoinGroup
+  translation: Join the
+
+- id: Subjs_SchedulesPerTeaching_Telegram_TelegramGroup
+  translation: Telegram Group
+
+- id: Subjs_SchedulesPerTeaching_Telegram_StayUpdated
+  translation: to stay updated on any schedule changes, resources, and course information.
 
 - id: Add_Subjs
   translation: Add and remove subjects

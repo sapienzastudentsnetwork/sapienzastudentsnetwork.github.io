@@ -38,6 +38,20 @@
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
 }
 
+.schedulesTableCell {
+    padding: 1em 1em;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .schedulesTableCell {
+        padding: 0.5em 0.5em;
+        font-size: 0.9em;
+    }
+}
+
 .subjsDial {
     display: flex;
     flex-direction: column;
