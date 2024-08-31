@@ -25,11 +25,11 @@
             <table id="customSchedule">
                 <thead>
                     <tr>
-                        <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
+                        <th scope="col" class="timetableTableCell font-light">{{ T "Subjs_Timetables_Time" }}</th>
                         {{ range $days }}
-                            <!--<th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
-                            <!--<th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
-                            <th class="schedulesTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
+                            <!--<th class="timetableTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
+                            <!--<th class="timetableTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
+                            <th class="timetableTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
                         {{ end }}
                     </tr>
                 </thead>
@@ -49,7 +49,7 @@
             <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
                 <div class="subjsSingCourse">
                     {{ $courses := .Site.Data.courses }}
-                    {{ range $code, $data := .Site.Data.schedules }}
+                    {{ range $code, $data := .Site.Data.timetables }}
                         {{ $subject_info := index $courses $code }}
                         {{ $channels := $data.channels }}
                         {{ range $channel_id, $_ := $data.channels }}
@@ -73,16 +73,16 @@
         </div>
     </dialog>
 
-    {{ $dataSchedules := site.Data.schedules }}
+    {{ $dataTimetables := site.Data.timetables }}
     {{ $allCourses := slice }}
 
-    {{ range $courseCode, $courseData := $dataSchedules }}
+    {{ range $courseCode, $courseData := $dataTimetables }}
         {{ $allCourses = $allCourses | append $courseCode }}
     {{ end }}
 
-    <!-- Add the "Schedules per teaching" part for all courses -->
+    <!-- Add the "Timetables per teaching" part for all courses -->
     {{ with dict "courses" $allCourses "defaultHidden" true }}
-        {{ partial "schedules-per-teaching.html" . }}
+        {{ partial "timetables-per-teaching.html" . }}
     {{ end }}
 
     <script>

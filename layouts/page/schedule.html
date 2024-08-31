@@ -15,11 +15,11 @@
                 <table>
                     <thead>
                         <tr>
-                            <th scope="col" class="schedulesTableCell font-light">{{ T "Subjs_Schedules_Time" }}</th>
+                            <th scope="col" class="timetableTableCell font-light">{{ T "Subjs_Timetables_Time" }}</th>
                             {{ range $days }}
-                                <!--<th class="schedulesTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
-                                <!--<th class="schedulesTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
-                                <th class="schedulesTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
+                                <!--<th class="timetableTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
+                                <!--<th class="timetableTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
+                                <th class="timetableTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
                             {{ end }}
                         </tr>
                     </thead>
@@ -61,9 +61,9 @@
             {{ end }}
         {{ end }}        
 
-        <!-- Add the "Schedules per teaching" part for courses -->
+        <!-- Add the "Timetables per teaching" part for the year's courses -->
         {{ with dict "courses" $uniqueCourses }}
-            {{ partial "schedules-per-teaching.html" . }}
+            {{ partial "timetables-per-teaching.html" . }}
         {{ end }}
 
     <!-- {{ range .Params.timetables }} -->
@@ -71,7 +71,7 @@
     <!--     {{ .channel }} -->
     <!--     {{ .courses }} -->
     <!-- {{ end }} -->
-    <!-- {{ range $key, $value := .Site.Data.schedules }} -->
+    <!-- {{ range $key, $value := .Site.Data.timetables }} -->
     <!--     <p>test!!! {{ $key }}</p> -->
     <!-- {{ end }} -->
     </div>

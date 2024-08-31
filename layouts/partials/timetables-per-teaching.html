@@ -2,19 +2,19 @@
 {{ $defaultHidden := default false .defaultHidden }}
 
 {{ $dataCourses := site.Data.courses }}
-{{ $dataSchedules := site.Data.schedules }}
-{{ $dataHardcodedSchedules := site.Data.hardcodedSchedules }}
+{{ $dataTimetables := site.Data.timetables }}
+{{ $dataHardcodedTimetables := site.Data.hardcodedTimetables }}
 {{ $dataTeachers := site.Data.teachers }}
 {{ $dataClassrooms := site.Data.classrooms }}
 
-<h2>{{ T "Subjs_SchedulesPerTeaching_Title" }}</h2>
+<h2>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h2>
 
 {{ range $courses }}
     {{ $courseCodeWithUnit := . }}
-    {{ $courseSchedules := index $dataSchedules $courseCodeWithUnit }}
-    {{ $courseCode := index $courseSchedules "code" }}
-    {{ $courseSubject := index $courseSchedules "subject" }}
-    {{ $courseChannels := index $courseSchedules "channels" }}
+    {{ $courseTimetables := index $dataTimetables $courseCodeWithUnit }}
+    {{ $courseCode := index $courseTimetables "code" }}
+    {{ $courseSubject := index $courseTimetables "subject" }}
+    {{ $courseChannels := index $courseTimetables "channels" }}
 
     <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
 
@@ -22,15 +22,15 @@
 
         {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
         {{ if $telegram_group }}
-            ℹ️️ {{ T "Subjs_SchedulesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_SchedulesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_SchedulesPerTeaching_Telegram_StayUpdated" }}
+            ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
             <br/>
         {{ end }}
 
         {{ range $channel_id, $channel := $courseChannels }}
             {{ $days := $channel }}
 
-            {{ if and $courseCode (index $dataHardcodedSchedules $courseCode) }}
-                {{ $hardcodedChannel := index $dataHardcodedSchedules $courseCode }}
+            {{ if and $courseCode (index $dataHardcodedTimetables $courseCode) }}
+                {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCode }}
                 {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
                     {{ $days = index $hardcodedChannel "channels" $channel_id }}
                 {{ end }}
@@ -58,10 +58,10 @@
             <table>
                 <thead>
                     <tr>
-                        <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Day" }}</th>
-                        <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Time" }}</th>
-                        <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Teacher" }}</th>
-                        <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Classroom" }}</th>
+                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Day" }}</th>
+                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Time" }}</th>
+                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Teacher" }}</th>
+                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Classroom" }}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -70,7 +70,7 @@
                             {{ $timeslot := $info.timeslot }}
 
                             <tr>
-                                <td class="schedulesTableCell">
+                                <td class="timetableTableCell">
                                     {{ if eq $day "lunedì" }}{{ T "DaysOfTheWeek_Monday" }}{{ end }}
                                     {{ if eq $day "martedì" }}{{ T "DaysOfTheWeek_Tuesday" }}{{ end }}
                                     {{ if eq $day "mercoledì" }}{{ T "DaysOfTheWeek_Wednesday" }}{{ end }}
@@ -79,8 +79,8 @@
                                     {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
                                     {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
                                 </td>
-                                <td class="schedulesTableCell">{{ $timeslot }}</td>
-                                <td class="schedulesTableCell">
+                                <td class="timetableTableCell">{{ $timeslot }}</td>
+                                <td class="timetableTableCell">
                                     {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
                                     {{ $teacherId := index $timeslotInDay 0 "teacher" }}
                                     {{ $teacherName := index $dataTeachers $teacherId "name" }}
@@ -89,7 +89,7 @@
                                         {{ $teacherName }}
                                     </a>
                                 </td>
-                                <td class="schedulesTableCell">
+                                <td class="timetableTableCell">
                                     {{ range $classroom_id, $location := $info.classrooms }}
                                         {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
 

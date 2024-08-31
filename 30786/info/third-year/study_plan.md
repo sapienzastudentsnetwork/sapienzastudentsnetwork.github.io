@@ -159,7 +159,7 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 ---
 
-**Yes**, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping schedules and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
+**Yes**, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping timetables and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
 
 {{< /details >}}
 <br>

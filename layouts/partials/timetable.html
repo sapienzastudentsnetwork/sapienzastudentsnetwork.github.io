@@ -1,19 +1,19 @@
 <script>
     const COURSES = JSON.parse(`{{ .Site.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
-    const SCHEDULES = JSON.parse(`{{ .Site.Data.schedules | jsonify (dict "noHTMLEscape" true) }}`);
-    const HARDCODED_SCHEDULES = JSON.parse(`{{ .Site.Data.hardcodedSchedules | jsonify }}`)
+    const TIMETABLES = JSON.parse(`{{ .Site.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
+    const HARDCODED_TIMETABLES = JSON.parse(`{{ .Site.Data.hardcodedTimetables | jsonify }}`)
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
     const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 
-    for (const courseId in HARDCODED_SCHEDULES) {
-        if (SCHEDULES[courseId]) {
-            const channelsToUpdate = HARDCODED_SCHEDULES[courseId].channels;
+    for (const courseId in HARDCODED_TIMETABLES) {
+        if (TIMETABLES[courseId]) {
+            const channelsToUpdate = HARDCODED_TIMETABLES[courseId].channels;
 
             // Iterate over the channels to be updated
             for (const channelId in channelsToUpdate) {
-                if (SCHEDULES[courseId].channels[channelId]) {
+                if (TIMETABLES[courseId].channels[channelId]) {
                     // Replace the relevant information
-                    SCHEDULES[courseId].channels[channelId] = channelsToUpdate[channelId];
+                    TIMETABLES[courseId].channels[channelId] = channelsToUpdate[channelId];
                 }
             }
         }
@@ -28,9 +28,9 @@
         for (const course of coursesCodes) {
             const [courseCode, _channel] = course.toString().split('-');
 
-            if (!SCHEDULES[courseCode])
+            if (!TIMETABLES[courseCode])
                 continue;
-            const days = SCHEDULES[courseCode]['channels'][_channel || channel] || [];
+            const days = TIMETABLES[courseCode]['channels'][_channel || channel] || [];
             for (let [day, [ hours ]] of Object.entries(days)) {
                 if (!Array.isArray(hours))
                     hours = [hours]
@@ -67,7 +67,7 @@
         let tableHasAlerts = false;
         for (let time = classesStartTime; time < classesEndTime; time++) {
             const timeTd = document.createElement('td');
-            timeTd.classList.add('schedulesTableCell', 'font-light', 'italic');
+            timeTd.classList.add('timetableTableCell', 'font-light', 'italic');
             timeTd.innerHTML = `${time} - ${time + 1}`;
 
             const desktopTr = document.createElement('tr');
@@ -83,8 +83,8 @@
                 const desktopTd = document.createElement('td');
                 const mobileTd = document.createElement('td');
 
-                desktopTd.classList.add('schedulesTableCell');
-                mobileTd.classList.add('schedulesTableCell');
+                desktopTd.classList.add('timetableTableCell');
+                mobileTd.classList.add('timetableTableCell');
 
                 const courses = schedule[day]
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);

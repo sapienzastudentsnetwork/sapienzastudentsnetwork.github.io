@@ -38,7 +38,7 @@
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
 }
 
-.schedulesTableCell {
+.timetableTableCell {
     padding: 1em 1em;
     text-align: left;
     border: 1px solid #ddd;
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 600px) {
-    .schedulesTableCell {
+    .timetableTableCell {
         padding: 0.5em 0.5em;
         font-size: 0.9em;
     }

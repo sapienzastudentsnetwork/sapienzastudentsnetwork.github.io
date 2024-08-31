@@ -6,9 +6,9 @@ from requests import get
 from bs4 import BeautifulSoup
 
 
-def extract_teaching_code(teaching_name):
+def extract_course_code(course_name):
     # Extract the ID that starts with "AAF" followed by numbers or just a numeric ID
-    match = re.match(r"(AAF\d+|\d+)", teaching_name)
+    match = re.match(r"(AAF\d+|\d+)", course_name)
     if not match:
         return None
     id_number = match.group(1)
@@ -16,19 +16,19 @@ def extract_teaching_code(teaching_name):
     # Search for the unit or module number
     roman_to_int = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5}
     unit_number = None
-    if "UNIT" in teaching_name:
-        match = re.search(r"UNIT\s*(\d+)", teaching_name)
+    if "UNIT" in course_name:
+        match = re.search(r"UNIT\s*(\d+)", course_name)
         if match:
             # e.g. "UNIT 1" -> "1"
             unit_number = match.group(1)
         else:
-            match = re.search(r"UNIT\s*\b(\w+)", teaching_name)
+            match = re.search(r"UNIT\s*\b(\w+)", course_name)
             if match:
                 # Convert Roman numerals to Arabic numbers, if necessary
                 # e.g. "UNIT I" -> "1"
                 unit_number = str(roman_to_int.get(match.group(1), match.group(1)))
-    elif "MODULO" in teaching_name:
-        match = re.search(r"\b(\w+)\s*MODULO", teaching_name)
+    elif "MODULO" in course_name:
+        match = re.search(r"\b(\w+)\s*MODULO", course_name)
         if match:
             # Convert Roman numerals to Arabic numbers, if necessary
             # e.g. "I MODULO" -> "1"
@@ -55,7 +55,7 @@ def parse(DOM):
             channel = h3.text.split()[-1] if h3.text.split()[-1] != "Unico" else '0'
 
             # The tables are expected to be organized in the following way:
-            # Teaching and teacher info | Building and classroom info | Schedule
+            # Course and teacher info | Building and classroom info | Schedule
             # e.g.
             #      [0]
             #      101226 CALCOLO DIFFERENZIALE
@@ -70,21 +70,21 @@ def parse(DOM):
             #      venerdì dalle 08:00 alle 10:00
 
             for tr in h3.findNext().find_all('tr')[1:]:
-                (teaching_column, classroom_column, schedule_column) = tuple(tr.find_all('td'))
+                (course_column, classroom_column, schedule_column) = tuple(tr.find_all('td'))
                 
-                # Find the <a> element containing the teaching's code
-                teaching_code_link = teaching_column.find('a')
+                # Find the <a> element containing the course's code
+                course_code_link = course_column.find('a')
 
-                # Extract the teaching code from the teaching name
-                teaching_name = teaching_code_link.text
-                teaching_code = extract_teaching_code(teaching_name)
+                # Extract the course code from the course name
+                course_name = course_code_link.text
+                course_code = extract_course_code(course_name)
 
                 # Prepare to extract teacher data
                 teacher_name     = None
                 teacher_page_url = None
 
                 # Find the <a> element containing the teacher's name
-                teacher_div = teaching_column.find('div', class_='docente')
+                teacher_div = course_column.find('div', class_='docente')
 
                 if teacher_div:
                     teacher_a = teacher_div.find('a')
@@ -145,20 +145,20 @@ def parse(DOM):
                     schedule_end_time   = day_and_time_string_fields[2]
                     schedule_time_slot  = f"{schedule_start_time} - {schedule_end_time}"
 
-                    if teaching_code not in teaching_schedules_dict:
-                        teaching_schedules_dict[teaching_code] = {
-                            "subject": ' '.join(teaching_column.find('a').text.split()[1:]),
+                    if course_code not in course_timetables_dict:
+                        course_timetables_dict[course_code] = {
+                            "subject": ' '.join(course_column.find('a').text.split()[1:]),
                             "degree": degree_programme_code,
                             "channels": {},
-                            "code": teaching_column.find(class_='codiceInsegnamento').text
+                            "code": course_column.find(class_='codiceInsegnamento').text
                         }
 
-                    if f"{channel}" not in teaching_schedules_dict[teaching_code]["channels"]:
-                        teaching_schedules_dict[teaching_code]["channels"][f"{channel}"] = {}
+                    if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
+                        course_timetables_dict[course_code]["channels"][f"{channel}"] = {}
 
-                    if schedule_day_name not in teaching_schedules_dict[teaching_code]["channels"][f"{channel}"]:
+                    if schedule_day_name not in course_timetables_dict[course_code]["channels"][f"{channel}"]:
                         # Create a new dictionary for the day name with class information for the channel
-                        teaching_schedules_dict[teaching_code]["channels"][f"{channel}"][schedule_day_name] = [{
+                        course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name] = [{
                             "teacher": teacher_id,
                             "timeslot": schedule_time_slot,
                             "classrooms": {
@@ -168,21 +168,21 @@ def parse(DOM):
                     else:
                         # If the same schedule is already present, add the location to the list of classrooms
                         #
-                        # Useful for teachings that are held, by the same teacher,
+                        # Useful for courses that are held, by the same teacher,
                         # in more than one classroom at the same time slot (usually
                         # those in laboratories)
                         #
 
                         append_schedule = True
 
-                        for day_schedule_entry_dict in teaching_schedules_dict[teaching_code]["channels"][f"{channel}"][schedule_day_name]:
+                        for day_schedule_entry_dict in course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name]:
                             if (day_schedule_entry_dict["teacher"] == teacher_id) and (day_schedule_entry_dict["timeslot"] == schedule_time_slot):
                                 day_schedule_entry_dict["classrooms"][classroom_id] = location
                                 append_schedule = False
                                 break
                         
                         if append_schedule:
-                            teaching_schedules_dict[teaching_code]["channels"][f"{channel}"][schedule_day_name].append({
+                            course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name].append({
                                 "teacher": teacher_id,
                                 "timeslot": schedule_time_slot,
                                 "classrooms": {
@@ -193,18 +193,18 @@ def parse(DOM):
     # Sort days
     sort_days_order = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì"]
 
-    for teaching_code, teaching_code_data in teaching_schedules_dict.items():
+    for course_code, course_code_data in course_timetables_dict.items():
         sorted_channels = {}
 
-        for channel, day_data in teaching_code_data["channels"].items():
+        for channel, day_data in course_code_data["channels"].items():
             sorted_days = {day: day_data[day] for day in sort_days_order if day in day_data}
             sorted_channels[channel] = sorted_days
 
-        teaching_schedules_dict[teaching_code]["channels"] = sorted_channels
+        course_timetables_dict[course_code]["channels"] = sorted_channels
 
-    # ▀▀█▀▀ ▀█▀ ▒█▀▄▀█ ▒█▀▀▀ ▀▀█▀▀ ░█▀▀█ ▒█▀▀█ ▒█░░░ ▒█▀▀▀ ▒█▀▀▀█ ░ ░░░▒█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▄░▒█
-    # ░▒█░░ ▒█░ ▒█▒█▒█ ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█▀▀▄ ▒█░░░ ▒█▀▀▀ ░▀▀▀▄▄ ▄ ░▄░▒█ ░▀▀▀▄▄ ▒█░░▒█ ▒█▒█▒█
-    # ░▒█░░ ▄█▄ ▒█░░▒█ ▒█▄▄▄ ░▒█░░ ▒█░▒█ ▒█▄▄█ ▒█▄▄█ ▒█▄▄▄ ▒█▄▄▄█ █ ▒█▄▄█ ▒█▄▄▄█ ▒█▄▄▄█ ▒█░░▀█
+    #  ▀▀█▀▀ ▀█▀ ▒█▀▄▀█ ▒█▀▀▀ ▀▀█▀▀ ░█▀▀█ ▒█▀▀█ ▒█░░░ ▒█▀▀▀ ▒█▀▀▀█ ░░ ▒█▀▀█ ░█▀▀█ ▒█░░▒█
+    #  ░▒█░░ ▒█░ ▒█▒█▒█ ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█▀▀▄ ▒█░░░ ▒█▀▀▀ ░▀▀▀▄▄ ▀▀ ▒█▄▄▀ ▒█▄▄█ ▒█▒█▒█
+    #  ░▒█░░ ▄█▄ ▒█░░▒█ ▒█▄▄▄ ░▒█░░ ▒█░▒█ ▒█▄▄█ ▒█▄▄█ ▒█▄▄▄ ▒█▄▄▄█ ░░ ▒█░▒█ ▒█░▒█ ▒█▄▀▄█
 
     data = []
 
@@ -221,14 +221,14 @@ def parse(DOM):
             }
 
             for tr in h3.findNext().find_all('tr')[1:]:
-                (teaching, room, schedule) = tuple(tr.find_all('td'))
+                (course, room, schedule) = tuple(tr.find_all('td'))
 
                 section = {
-                    'course': teaching.find(class_='codiceInsegnamento').text,
-                    'subject': ' '.join(teaching.find('a').text.split()[1:]),
+                    'course': course.find(class_='codiceInsegnamento').text,
+                    'subject': ' '.join(course.find('a').text.split()[1:]),
                     'building': room.find('div').text,
                     'room': room.find('a').text,
-                    'teacher': (teaching.find(class_='docente') or DOM.new_tag('p')).text,
+                    'teacher': (course.find(class_='docente') or DOM.new_tag('p')).text,
                     'schedule': []
                 }
 
@@ -352,7 +352,7 @@ if __name__ == '__main__':
     # ▒█░░▒█ ▒█▄▄█ ░▒█░░ ▒█░ ▒█░░▒█ ▒█▒█▒█ ░▀▀▀▄▄ 
     # ▒█▄▄▄█ ▒█░░░ ░▒█░░ ▄█▄ ▒█▄▄▄█ ▒█░░▀█ ▒█▄▄▄█
 
-    # Semester to scrape teaching schedules for
+    # Semester to scrape lesson timetables for
     semester = os.getenv("SEMESTER", "primo")
 
     # Degree program to scrape data for
@@ -372,8 +372,8 @@ if __name__ == '__main__':
     # File to read and write teacher data to
     teachers_file_name = "../data/teachers.json"
 
-    # File to read and write teaching schedules info to
-    teaching_schedules_file_name = "../data/schedules.json"
+    # File to read and write course timetables info to
+    course_timetables_file_name = "../data/timetables.json"
 
     #
     # ▒█░░░ ▒█▀▀▀█ ░█▀▀█ ▒█▀▀▄ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
@@ -387,8 +387,8 @@ if __name__ == '__main__':
     # Dictionary to store teacher info
     teachers_dict = load_dict_from_json(teachers_file_name)
 
-    # Dictionary to store teaching schedules
-    teaching_schedules_dict = load_dict_from_json(teaching_schedules_file_name)
+    # Dictionary to store course timetables
+    course_timetables_dict = load_dict_from_json(course_timetables_file_name)
 
     #
     # ▒█▀▀▀█ ▒█▀▀█ ▒█▀▀█ ░█▀▀█ ▒█▀▀█ ▒█▀▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
@@ -423,8 +423,8 @@ if __name__ == '__main__':
         return json.loads(input_dict_json_string)
 
     # Save the timetables to a JSON file
-    with open(f"../data/timetables_{degree_programme_code}_{academic_year.replace('/', '-')}.json", 'w') as file:
-        json.dump(parse(DOM), file, indent=2)
+    with open(f"../data/timetables_raw_{degree_programme_code}_{academic_year.replace('/', '-')}.json", 'w') as rawTimetablesFile:
+        json.dump(parse(DOM), rawTimetablesFile, indent=2)
 
     # Save the classroom information to a JSON file
     with open(f"../data/classrooms.json", 'w') as classroomsFile:
@@ -434,6 +434,6 @@ if __name__ == '__main__':
     with open(f"../data/teachers.json", 'w') as teachersFile:
         json.dump(escape_dict_double_quotes(teachers_dict), teachersFile, indent=2)
 
-    # Save the teaching schedules to a JSON file
-    with open(f"../data/schedules.json", 'w') as schedulesFile:
-        json.dump(escape_dict_double_quotes(teaching_schedules_dict), schedulesFile, indent=2)
+    # Save the course timetables to a JSON file
+    with open(f"../data/timetables.json", 'w') as timetablesFile:
+        json.dump(escape_dict_double_quotes(course_timetables_dict), timetablesFile, indent=2)

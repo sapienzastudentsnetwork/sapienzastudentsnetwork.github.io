@@ -1,5 +1,5 @@
 ---
-title: "ACSAI class schedules"
+title: "ACSAI lesson timetables"
 layout: schedule
 permalink: orari/acsai
 redirect_from:
@@ -30,4 +30,4 @@ timetables:
 days: "Monday, Tuesday, Wednesday, Thursday, Friday"
 ---
 
-# ACSAI class schedules
+# ACSAI lesson timetables

@@ -1,4 +1,4 @@
-name: Sync class schedules
+name: Sync lesson timetables
 
 on:
   # Triggers this workflow on pushes to the default branch (main)
@@ -32,11 +32,11 @@ jobs:
       - name: Installing all necessary pip packages
         run: pip install bs4
 
-      - name: Run class schedules update script
+      - name: Run lesson timetables sync script
         run: |
-          chmod +x _scripts/sync-class-schedules.sh
+          chmod +x _scripts/sync-lesson-timetables.sh
           cd _scripts
-          ./sync-class-schedules.sh
+          ./sync-lesson-timetables.sh
         env:
           GOMPPUBLIC_GENERATEORARIO_URL: ${{ secrets.GOMPPUBLIC_GENERATEORARIO_URL }}
         working-directory: ${{ github.workspace }}
@@ -54,5 +54,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git commit -m "Sync class schedules"
+          git commit -m "Sync lesson timetables"
           git push
