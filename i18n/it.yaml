@@ -21,6 +21,9 @@
 #   S U B J E C T S   T I M E T A B L E
 #
 
+- id: Subjs_WorkInProgress
+  translation: Questa pagina visualizza provvisoriamente degli orari dell'A.A. 2023/24 (l'Anno Accademico precedente) ai fini di testing, poiché in fase di sviluppo!
+
 - id: Subjs_Add
   translation: Aggiungi e rimuovi materie
 

@@ -21,6 +21,9 @@
 #   S U B J E C T S   T I M E T A B L E
 #
 
+- id: Subjs_WorkInProgress
+  translation: This page temporarily displays schedules for the A.Y. 2023/24 (the previous Academic Year) for testing purposes, as it is still under development!
+
 - id: Add_Subjs
   translation: Add and remove subjects
 

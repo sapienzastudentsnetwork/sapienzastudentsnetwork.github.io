@@ -26,6 +26,7 @@ $hint-colors: (
   info: #6bf,
   warning: #fd6,
   danger: #f66,
+  wip: #fe9933,
   tip: #238636,
 ) !default;
 
@@ -46,7 +47,8 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
-  --hint-colot-tip: #238636;
+  --hint-color-wip: #fe9933;
+  --hint-color-tip: #238636;
 
   --course-dash-background: #F9F9F9;
   --course-panel-background: #E2E3E7;
@@ -73,7 +75,8 @@ $hint-colors: (
   --hint-color-info: #6bf;
   --hint-color-warning: #fd6;
   --hint-color-danger: #f66;
-  --hint-colot-tip: #238636;
+  --hint-color-wip: #fe9933;
+  --hint-color-tip: #238636;
 
   --course-dash-background: #3E444A;
   --course-panel-background: #454C52;

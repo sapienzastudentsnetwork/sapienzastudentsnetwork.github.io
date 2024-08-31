@@ -1,6 +1,11 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
+    <blockquote class="book-hint wip">
+        <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
+        {{ T "Subjs_WorkInProgress" }}
+    </blockquote>
+
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Lunedì" "Martedì" "Mercoledì" "Giovedì" "Venerdì" }}
 
@@ -163,4 +168,5 @@
     <!-- {{ range $key, $value := .Site.Data.schedules }} -->
     <!--     <p>test!!! {{ $key }}</p> -->
     <!-- {{ end }} -->
+    </div>
 {{ end }}
