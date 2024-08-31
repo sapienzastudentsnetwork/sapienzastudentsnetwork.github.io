@@ -1,6 +1,6 @@
 ---
 title: A.Y. Calendar 2024/25
-weight: 1
+weight: 2
 ---
 
 **Academic Year Calendar 2024/25**
@@ -52,5 +52,5 @@ The calendar can also be viewed on the [official department's page](https://web.
 
 - **(*)** An examination call is planned for January 2025 for courses in the 2nd semester of the 2023/24 academic year.
 - **(\*\*)** For second-year and Third-Year modules of Bachelor’s Degrees _and for second-year modules of master’s degrees_, the first examination date of the session will be scheduled by 19/06 to allow the graduation documents submission by 20/06.  
-- **(§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations).  
-- **(§§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations), and to students who have not completed the exams within the set time period, enrolled for the a.y. 2024-2025 in the Third Year of the Bachelor's Degree _and in the second year of the master's degree_.
+- **(§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/en/content/exams), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations).  
+- **(§§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/en/content/exams), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations), and to students who have not completed the exams within the set time period, enrolled for the a.y. 2024-2025 in the Third Year of the Bachelor's Degree _and in the second year of the master's degree_.

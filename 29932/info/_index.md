@@ -1,5 +1,5 @@
 ---
 title: 📖 Guides
 bookFlatSection: true
-weight: 2
+weight: 3
 ---

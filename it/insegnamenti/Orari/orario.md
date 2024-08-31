@@ -1,10 +1,10 @@
 ---
-title: "Orario Custom"
+title: "Il tuo orario"
 aliases: ["/orari/orario-custom", "/it/orari/orario-custom", "/informatica/orari/orario-custom"]
 weight: 4
-layout: 'custom-schedule'
+layout: 'custom-timetable'
 type: 'page'
 bookToc: false
 ---
 
-Check layout/page/custom-schedule.html to analyze this page's content
+Check layout/page/custom-timetable.html to analyze this page's content

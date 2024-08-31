@@ -2,10 +2,10 @@
 title: "Terzo Anno"
 aliases: ["/orari/terzo-anno", "/it/orari/terzo-anno", "/informatica/orari/terzo-anno"]
 weight: 3
-layout: 'schedule'
+layout: 'timetables'
 type: 'page'
 timetables:
-    - title: Terzo Anno
+    - title: "Terzo Anno"
       courses:
         - '1022264'
         - '1022263'
