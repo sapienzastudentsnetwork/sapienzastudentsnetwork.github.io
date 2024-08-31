@@ -41,8 +41,6 @@
             </script>
         {{ end }}
 
-        <h2>{{ T "Subjs_SchedulesPerTeaching_Title" }}</h2>
-
         {{ $allCourses := slice }} <!-- Create an empty list to accumulate all courses -->
         {{ $uniqueCourses := slice }} <!-- Create an empty list for unique courses -->
         {{ $seen := dict }} <!-- Create a dictionary to track seen courses -->
@@ -63,108 +61,9 @@
             {{ end }}
         {{ end }}        
 
-        {{ $dataCourses := site.Data.courses }}
-        {{ $dataSchedules := site.Data.schedules }}
-        {{ $dataHardcodedSchedules := site.Data.hardcodedSchedules }}
-        {{ $dataTeachers := site.Data.teachers }}
-        {{ $dataClassrooms := site.Data.classrooms }}
-
-        {{ range $uniqueCourses }}
-            {{ $courseSchedules := index $dataSchedules . }}
-            {{ $courseCode := index $courseSchedules "code" }}
-            {{ $courseSubject := index $courseSchedules "subject" }}
-            {{ $courseChannels := index $courseSchedules "channels" }}
-
-            <h3 id="{{ $courseCode }}">{{ $courseCode }} - {{ $courseSubject }}</h3>
-
-            {{ $telegram_group := index $dataCourses . "tgGroup" }}
-            {{ if $telegram_group }}
-                ℹ️️ {{ T "Subjs_SchedulesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_SchedulesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_SchedulesPerTeaching_Telegram_StayUpdated" }}
-            {{ end }}
-
-            {{ range $channel_id, $channel := $courseChannels }}
-                {{ $days := $channel }}
-
-                {{ if and $courseCode (index $dataHardcodedSchedules $courseCode) }}
-                    {{ $hardcodedChannel := index $dataHardcodedSchedules $courseCode }}
-                    {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
-                        {{ $days = index $hardcodedChannel "channels" $channel_id }}
-                    {{ end }}
-                {{ end }}
-
-                {{ if ne $channel_id "0" }}
-                    <h4>
-                        Canale {{ $channel_id }}
-                    </h4>
-                {{ else }}
-                    <br/><br/>
-                {{ end }}
-
-                {{ if and $courseCode (index $dataCourses $courseCode) }}
-                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
-                    {{ if $alerts }}
-                        {{ if index $alerts $channel_id }}
-                            {{ range index $alerts $channel_id }}
-                                {{ . }}
-                                <br>
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-
-                <table>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Day" }}</th>
-                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Time" }}</th>
-                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Teacher" }}</th>
-                            <th scope="col" class="schedulesTableCell">{{ T "Subjs_SchedulesPerTeaching_Classroom" }}</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{ range $day, $day_info := $days }}
-                            {{ range $info := $day_info }}
-                                {{ $timeslot := $info.timeslot }}
-
-                                <tr>
-                                    <td class="schedulesTableCell">
-                                        {{ if eq $day "lunedì" }}{{ T "DaysOfTheWeek_Monday" }}{{ end }}
-                                        {{ if eq $day "martedì" }}{{ T "DaysOfTheWeek_Tuesday" }}{{ end }}
-                                        {{ if eq $day "mercoledì" }}{{ T "DaysOfTheWeek_Wednesday" }}{{ end }}
-                                        {{ if eq $day "giovedì" }}{{ T "DaysOfTheWeek_Thursday" }}{{ end }}
-                                        {{ if eq $day "venerdì" }}{{ T "DaysOfTheWeek_Friday" }}{{ end }}
-                                        {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
-                                        {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
-                                    </td>
-                                    <td class="schedulesTableCell">{{ $timeslot }}</td>
-                                    <td class="schedulesTableCell">
-                                        {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
-                                        {{ $teacherId := index $timeslotInDay 0 "teacher" }}
-                                        {{ $teacherName := index $dataTeachers $teacherId "name" }}
-
-                                        <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
-                                            {{ $teacherName }}
-                                        </a>
-                                    </td>
-                                    <td class="schedulesTableCell">
-                                        {{ range $classroom_id, $location := $info.classrooms }}
-                                            {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
-
-                                            {{ if $mapsUrl }}
-                                                <a href="{{ $mapsUrl }}">{{ $location }}</a>
-                                                <br/>
-                                            {{ else }}
-                                                {{ $location }}
-                                                <br/>
-                                            {{ end }}
-                                        {{ end }}
-                                    </td>
-                                </tr>
-                            {{ end }}
-                        {{ end }}
-                    </tbody>
-                </table>
-            {{ end }}
+        <!-- Add the "Schedules per teaching" part for courses -->
+        {{ with dict "courses" $uniqueCourses }}
+            {{ partial "schedules-per-teaching.html" . }}
         {{ end }}
 
     <!-- {{ range .Params.timetables }} -->

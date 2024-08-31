@@ -66,6 +66,18 @@
     </div>
 </dialog>
 
+{{ $dataSchedules := site.Data.schedules }}
+{{ $allCourses := slice }}
+
+{{ range $courseCode, $courseData := $dataSchedules }}
+    {{ $allCourses = $allCourses | append $courseCode }}
+{{ end }}
+
+<!-- Add the "Schedules per teaching" part for all courses -->
+{{ with dict "courses" $allCourses "defaultHidden" true }}
+    {{ partial "schedules-per-teaching.html" . }}
+{{ end }}
+
 <script>
     const selectedSubjects = new Set(
         JSON.parse(localStorage.getItem("selectedSubjects")),
