@@ -1,6 +1,6 @@
 ---
 title: SapienzaSport
-weight: 6
+weight: 5
 ---
 
 # SapienzaSport
@@ -12,12 +12,12 @@ Sapienza offers access to the Tor di Quinto sport center ([Via delle Fornaci di 
 The sport center offers many courses with qualified instructor, at controlled prizes for Sapienza students. It is possible to register to a course visiting the Segreteria Iscrizione of the sport center, open from monday to friday from 09:30 to 21:00, on saturday from 09:30 to 19:00, on sunday from 09:30 to 13:00.
 Here you find a table of the subscription costs for every activity:
 
-|Activity| Seasonal Cost | Semestral Cost | Trimestral Cost|
-|:---:|:---:|:---:|:---:|
-|Membership Fee| 5€| 5€ | 5€ |
-|Open Pool| 115€ | 75€| 50€|
-|Open Gym | 115€ | 75€| 50€|
-|Single Course (footbal, five-a-side footbal, volleyball, waterpolo, rugby, swimming, tennis, taekwondo, archery)| 115€ | 75€| 50€|
+|                                                     Activity                                                     | Seasonal Cost | Semestral Cost | Trimestral Cost |
+|:----------------------------------------------------------------------------------------------------------------:|:-------------:|:--------------:|:---------------:|
+|                                                  Membership Fee                                                  |      5€       |       5€       |       5€        |
+|                                                    Open Pool                                                     |     115€      |      75€       |       50€       |
+|                                                     Open Gym                                                     |     115€      |      75€       |       50€       |
+| Single Course (footbal, five-a-side footbal, volleyball, waterpolo, rugby, swimming, tennis, taekwondo, archery) |     115€      |      75€       |       50€       |
 
 Students with a disability have access free access to the courses.
 
