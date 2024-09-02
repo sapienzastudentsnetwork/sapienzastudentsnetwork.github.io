@@ -1,5 +1,6 @@
 ---
 title: Come scrivere la relazione di tirocinio
+weight: 3
 ---
 # Come scrivere la relazione di tirocinio
 La relazione di tirocinio è un documento importante che riassume l'esperienza formativa svolta durante il tirocinio. Nonostante non ci siano delle linee guida vere e proprie per la scrittura della relazione, qui troverai alcuni consigli utili per strutturare e scrivere una relazione di tirocinio di qualità.
