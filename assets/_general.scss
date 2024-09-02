@@ -39,3 +39,55 @@ kbd {
 .SiteLogo {
     border-radius: 8px;
 }
+
+.font-bold {
+    font-weight: 700;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+/*
+ * TEMPORARY COLOUR CLASSES
+ */
+
+.red {
+    color: rgb(223, 59, 59);
+}
+
+.yellow {
+    color: rgb(251, 191, 64);
+}
+
+.green {
+    color: rgb(96, 234, 147);
+}
+
+.blue {
+    color: rgb(56, 143, 237);
+}
+
+.purple {
+    color: rgb(155, 66, 236);
+}
+
+.orange {
+    color: rgb(244, 112, 43);
+}
+
+.emerald {
+    color: rgb(101, 250, 204);
+}
+
+.cyan {
+    color: rgb(82, 215, 247);
+}
+
+.teal {
+    color: rgb(105, 242, 230);
+}
+
+.fuchsia {
+    color: rgb(203, 64, 221);
+}

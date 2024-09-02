@@ -97,7 +97,7 @@
                     if (!subjectsColors[courseCode])
                         subjectsColors[courseCode] = COLORS[nextColorIndex++ % COLORS.length];
 
-                    desktopCourseLink.classList.add(subjectsColors[courseCode], 'font-bold');
+                    desktopCourseLink.classList.add(subjectsColors[courseCode], 'font-bold', 'underlined-text');
                     desktopCourseLink.href = `#${courseCode}`
                     desktopCourseLink.textContent = course ?
                         course.shortName || course.name : courseCode;

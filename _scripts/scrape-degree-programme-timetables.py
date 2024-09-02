@@ -49,6 +49,12 @@ def parse(DOM):
         if f"{semester} semestre" not in h2_tag_text:
            continue 
 
+        # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
+        ignore_conditions = [
+            ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
+            ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
+        ]
+
         for h3 in div.find_all('h3'):
             # The h3 elements contain text in this format:
             # Canale <Unico/1/2/...>
@@ -91,6 +97,10 @@ def parse(DOM):
 
                     # Extract the teacher's name
                     teacher_name = teacher_a.text.strip()
+
+                    # Check if the current combination of course_code, channel, and teacher_name should be ignored
+                    if (course_code, channel, teacher_name) in ignore_conditions:
+                        continue  # Skip processing if the condition matches
 
                     # Extract the URL of the teacher's page
                     teacher_page_url = teacher_a['href']
