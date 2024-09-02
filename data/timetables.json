@@ -51,15 +51,6 @@
             }
           }
         ],
-        "marted\u00ec": [
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
-          }
-        ],
         "mercoled\u00ec": [
           {
             "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
@@ -84,13 +75,6 @@
             "timeslot": "10 - 13",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          },
-          {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "15 - 18",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
           }
         ]
@@ -140,13 +124,6 @@
             "classrooms": {
               "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
             }
-          },
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
-            }
           }
         ],
         "gioved\u00ec": [
@@ -155,13 +132,6 @@
             "timeslot": "08 - 10",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          },
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "13 - 15",
-            "classrooms": {
-              "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": "Aula Tullio Levi (Edificio: CU006)"
             }
           }
         ]
