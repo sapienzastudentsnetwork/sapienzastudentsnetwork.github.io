@@ -52,14 +52,12 @@ All'inizio del terzo anno, dovrai compilare il tuo Percorso Formativo scegliendo
 Per tutte le informazioni su come compilare il Percorso Formativo e la lista di esami tra cui scegliere, consulta la [guida al Percorso Formativo](/it/info/terzo-anno/percorso-formativo/).
 
 ## **Una volta raggiunti 129 CFU**: tirocinio
-Il tirocinio è un'esperienza formativa importante che ti permetterà di applicare le tue conoscenze in un contesto lavorativo reale. Puoi svolgere il tirocinio sia internamente, collaborando con un professore o un gruppo di ricerca, sia esternamente, presso un'azienda o un ente.
-
-<!-- Qui dovremmo aggiungere una guida -->
+Il tirocinio è un'esperienza formativa importante che ti permetterà di applicare le tue conoscenze in un contesto lavorativo reale. Puoi svolgere il tirocinio sia internamente, collaborando con un professore o un gruppo di ricerca, sia esternamente, presso un'azienda o un ente. Qui puoi trovare una pagina dedicata con maggiori informazioni sul [tirocinio](/it/info/terzo-anno/tirocinio/).
 
 ## **Verso la fine del tirocinio**: scrivere la relazione di tirocinio
 Il Corso di Laurea in Informatica non prevede una vera e propria tesi, ma la realizzazione di una relazione di tirocinio. Questa relazione è un documento scritto che descrive il lavoro svolto durante il tirocinio e i risultati ottenuti.
 
-Per ottenere tutte le informazioni su come scrivere la relazione di tirocinio, quale template utilizzare e dei consigli utili, consulta la [guida per scrivere la relazione di tirocinio](/it/info/terzo-anno/relazione-tirocinio/).
+Per ottenere tutte le informazioni su come scrivere la relazione di tirocinio, quale template utilizzare e dei consigli utili, consulta la [guida per scrivere la relazione di tirocinio](/it/info/terzo-anno/tirocinio/#come-scrivere-la-relazione-di-tirocinio).
 
 ## **Concluso il tirocinio e completati gli esami**: laurearsi
 Una volta completati tutti gli esami e la relazione di tirocinio, potrai finalmente conseguire la tua laurea in Informatica. Per preparare tutto il necessario bisogna compilare la domanda di laurea, inviare la relazione di tirocinio alla Segreteria Didattica e prenotarsi all'appello su InfoStud.
