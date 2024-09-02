@@ -105,10 +105,23 @@ Prima della consegna finale, chiedi al tuo relatore di rileggere la tua relazion
 Ricorda che la relazione di tirocinio non è solo un requisito per laurearsi, ma un'opportunità per riflettere sul tuo percorso formativo e presentare le tue competenze in modo professionale. Approfitta di questa occasione per mettere in luce il tuo lavoro e le competenze acquisite durante questa importante esperienza formativa.
 
 
+## Relazioni di tirocinio condivise da altri studenti
+Qui troverai una lista di relazioni di tirocinio condivise da altri studenti della Sapienza. Questi documenti possono essere utili per farti un'idea di come strutturare e scrivere la tua relazione di tirocinio.
+
+<!--[Aggiungi la tua relazione alla lista]()-->
+{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Aggiungi la tua relazione alla lista{{< /button >}}
+
+{{< expand "Espandi la lista...">}}
+* [SAPERE: a sequantial recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
+{{< /expand >}}
+
+
+<!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
+<!--
 ## Tirocini e Professori
 {{< expand "Espandi la lista...">}}
 ### Informatica
-<!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
+
 
 | Docente | Argomenti di ricerca |
 |-|-:|
@@ -295,6 +308,7 @@ Ricorda che la relazione di tirocinio non è solo un requisito per laurearsi, ma
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
 {{< /expand >}}
+-->
 
 <!-- ## FAQ  -->
 <!---->
