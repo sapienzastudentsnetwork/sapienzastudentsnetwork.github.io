@@ -93,6 +93,9 @@
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
   translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso.
 
+- id: Subjs_Title
+  translation: Custom timetable
+
 - id: Subjs_Add
   translation: Aggiungi e rimuovi materie
 
