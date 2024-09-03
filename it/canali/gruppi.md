@@ -24,11 +24,11 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 Gruppi per le **matricole dell'A.A. 2024/2025**:
 
-|                        Telegram                        |                      WhatsApp                      |
-|:------------------------------------------------------:|:--------------------------------------------------:|
-|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://minfwa1.sapienzastudents.net) |
-|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://minfwa2.sapienzastudents.net) |
-| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                         -                          |
+|                        Telegram                        |                     WhatsApp                      |
+|:------------------------------------------------------:|:-------------------------------------------------:|
+|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](http://minfwa1.sapienzastudents.net) |
+|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](http://minfwa2.sapienzastudents.net) |
+| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                         -                         |
 
 #### A.A. 2023/2024
 
