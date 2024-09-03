@@ -1,7 +1,113 @@
+#
+#   S I T E   G E N E R A L
+#
+
 - id: EditPage
   translation: Edit this page
 
+- id: 404_Desc_1
+  translation: La pagina che stai cercando potrebbe essere stata rimossa,
 
+- id: 404_Desc_2
+  translation: il suo nome è stato cambiato o è temporaneamente non disponibile.
+
+- id: 404_Homepage
+  translation: Vai alla homepage
+
+- id: 404_Report
+  translation: Segnala un problema
+
+- id: DaysOfTheWeek_Monday
+  translation: Lun
+
+- id: DaysOfTheWeek_Tuesday
+  translation: Mar
+
+- id: DaysOfTheWeek_Wednesday
+  translation: Mer
+
+- id: DaysOfTheWeek_Thursday
+  translation: Gio
+
+- id: DaysOfTheWeek_Friday
+  translation: Ven
+
+- id: DaysOfTheWeek_Saturday
+  translation: Sab
+
+- id: DaysOfTheWeek_Sunday
+  translation: Dom
+
+- id: DaysOfTheWeek_Monday_Full
+  translation: Lunedì
+
+- id: DaysOfTheWeek_Tuesday_Full
+  translation: Martedì
+
+- id: DaysOfTheWeek_Wednesday_Full
+  translation: Mercoledì
+
+- id: DaysOfTheWeek_Thursday_Full
+  translation: Giovedì
+
+- id: DaysOfTheWeek_Friday_Full
+  translation: Venerdì
+
+- id: DaysOfTheWeek_Saturday_Full
+  translation: Sabato
+
+- id: DaysOfTheWeek_Sunday_Full
+  translation: Domenica
+
+#
+#   S U B J E C T S   T I M E T A B L E
+#
+
+- id: Subjs_WorkInProgress
+  translation: Questa pagina visualizza provvisoriamente degli orari dell'A.A. 2023/24 (l'Anno Accademico precedente) ai fini di testing, poiché in fase di sviluppo!
+
+- id: Subjs_Timetables_Time
+  translation: Orario
+
+- id: Subjs_TimetablesPerTeaching_Title
+  translation: Orari per singolo insegnamento
+
+- id: Subjs_TimetablesPerTeaching_Day
+  translation: Giorno
+
+- id: Subjs_TimetablesPerTeaching_Time
+  translation: Orario
+
+- id: Subjs_TimetablesPerTeaching_Teacher
+  translation: Docente
+
+- id: Subjs_TimetablesPerTeaching_Classroom
+  translation: Aula
+
+- id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
+  translation: Unisciti al
+
+- id: Subjs_TimetablesPerTeaching_Telegram_TelegramGroup
+  translation: Gruppo Telegram
+
+- id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
+  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso.
+
+- id: Subjs_CustomTimetable_Title
+  translation: Il tuo orario
+
+- id: Subjs_CustomTimetable_AddButton
+  translation: Aggiungi e rimuovi materie
+
+- id: Subjs_CustomTimetable_CloseMenuButton
+  translation: Chiudi il menu
+
+- id: Subjs_CustomTimetable_SelectMenuTitle
+  translation: Seleziona le materie da inserire o rimuovere
+
+#
+#   C O N T A C T S   P A G E
+#
 
 - id: Contacts_Title
   translation: 🖋 Contatti dei principali curatori della wiki
@@ -20,6 +126,12 @@
 
 - id: B_Tutor_CAD_Desc
   translation: Il curatore collabora ai contenuti delle wiki del sito nell'ambito di un tutoraggio per l'apprendimento complessivo del CAD di Informatica
+
+- id: B_Volunteer
+  translation: Volontario
+
+- id: B_Volunteer_Desc
+  translation: Il collaboratore contribuisce come volontario al progetto
 
 - id: B_SSN
   translation: SSN

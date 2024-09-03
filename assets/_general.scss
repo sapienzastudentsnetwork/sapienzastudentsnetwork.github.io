@@ -3,15 +3,91 @@ h1, h2, h3, h4, h5 {
     font-weight: 900;
 }
 
+.markdown h1, h2, h3, h4, h5 {
+    font-family: "DM Sans";
+    font-weight: 900;
+}
+
 h1 {
     font-size: 40px;
 }
 
-p, li, tr, a, label {
+p, li, tr, a, label, summary, blockquote, button {
     font-family: "DM Sans";
     font-weight: 400;
 }
 
+summary {
+    line-height: 1.2;
+}
+
+code {
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+}
+
+kbd {
+    font-family: "JetBrains Mono";
+    font-weight: 800;
+    background-color: #3c3c3c;
+    border: solid gray 1px;
+    border-radius: 4px;
+    padding: 0 4px 0 4px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 .SiteLogo {
     border-radius: 8px;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+/*
+ * TEMPORARY COLOUR CLASSES
+ */
+
+.red {
+    color: rgb(223, 59, 59);
+}
+
+.yellow {
+    color: rgb(251, 191, 64);
+}
+
+.green {
+    color: rgb(96, 234, 147);
+}
+
+.blue {
+    color: rgb(56, 143, 237);
+}
+
+.purple {
+    color: rgb(155, 66, 236);
+}
+
+.orange {
+    color: rgb(244, 112, 43);
+}
+
+.emerald {
+    color: rgb(101, 250, 204);
+}
+
+.cyan {
+    color: rgb(82, 215, 247);
+}
+
+.teal {
+    color: rgb(105, 242, 230);
+}
+
+.fuchsia {
+    color: rgb(203, 64, 221);
 }

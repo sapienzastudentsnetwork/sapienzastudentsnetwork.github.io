@@ -9,6 +9,7 @@ custom_css = ["css/contributors.css"]
     [languages.homepage]
         BookSearch = false
         contentDir = 'homepage'
+        disabled = false
         languageName = 'Degree Programme Choice'
         title = "Homepage"
         weight = 0
@@ -45,6 +46,13 @@ custom_css = ["css/contributors.css"]
 
         [languages.it.params]
             contentDir = 'it'
+
+    [languages.dev]
+        contentDir = 'dev'
+        disabled = true
+        languageName = 'Developers Wiki'
+        title = 'Developers Wiki'
+        weight = 4
 
 [markup]
     [markup.goldmark]

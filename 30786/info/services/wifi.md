@@ -22,11 +22,11 @@ Keep in mind that Sapienza Wi-Fi requires login every time you try to connect to
 Crediantial for the access are **your personal Sapienza email (surname.id_number@studenti.uniroma1.it)** and **the password you use for Infostud**.
 
 ### Setting Up Eduroam
-{{< tabs "uniqueid" >}}
+{{< tabs "eduroamdevices" >}}
 {{< tab "📱 Smartphone" >}}
 To use Eduroam on your smartphone:
 1. Dowload the app **GetEduroam**:
-    <p><a href="https://play.google.com/store/apps/details?id=app.eduroam.geteduroam" target="_blank" rel="attachment noopener wp-att-35892"><img loading="lazy" decoding="async" src="https://i.imgur.com/lMuV9nw.png" alt="Get It On Google Play" width="200">&nbsp;</a> <a href="https://apps.apple.com/no/app/geteduroam/id1504076137" rel="attachment wp-att-35894"><img loading="lazy" decoding="async" src="https://i.imgur.com/EhmxDtk.png" alt="Download on the App Store" width="200"></a>
+    <p><a href="https://play.google.com/store/apps/details?id=app.eduroam.geteduroam" target="_blank" rel="attachment noopener wp-att-35892"><img loading="lazy" decoding="async" src="https://i.imgur.com/lMuV9nw.png" alt="Get It On Google Play" width="200px">&nbsp;</a> <a href="https://apps.apple.com/no/app/geteduroam/id1504076137" rel="attachment wp-att-35894"><img loading="lazy" decoding="async" src="https://i.imgur.com/EhmxDtk.png" alt="Download on the App Store" width="200px"></a>
 2. Open it and follow the procedure for configuration.
 
 {{< /tab >}}

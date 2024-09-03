@@ -1,0 +1,132 @@
+@media screen and (min-width: 0px) {
+    #subjects {
+        width: 90%;
+    }
+
+    .subjButton {
+        width: 100%;
+        height: 36px;
+        margin: 4px 0 4px 0;
+        border-radius: 18px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #subjects {
+        width: 70%;
+    }
+
+    .subjButton {
+        width: fit-content;
+        height: 28px;
+        margin: 2px;
+        border-radius: 14px;
+    }
+}
+
+.addSubjs {
+    border-radius: 16px;
+    width: 250px;
+    height: 32px;
+    background-color: var(--timetable-add-button-background);
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    font-weight: 600;
+    margin: 8px auto 16px auto;
+    border: solid var(--border-color) 1.75px;
+    box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
+}
+
+.timetableTableCell {
+    padding: 1em 1em;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .timetableTableCell {
+        padding: 0.5em 0.5em;
+        font-size: 0.9em;
+    }
+}
+
+.subjsDial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjsList {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subjsSingCourse {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.subjButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--body-font-color);
+    border: none;
+}
+
+.subjIsSelected {
+    background-color: rgba(168, 172, 185, 0.75);
+    border-radius: 14px;
+    border: none;
+}
+
+.c-30786 {
+    background-color: rgba(186, 89, 89, 0.75);
+}
+
+.c-29932 {
+    background-color: rgba(89, 186, 115, 0.75);
+}
+
+.c-29923 {
+    background-color: rgba(89, 154, 186, 0.75);
+}
+
+#subjsCloseMenu {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 20px 0 0 0;
+    border: solid var(--border-color) 1.75px;
+    box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
+    color: black;
+}
+
+#subjsSelTitle {
+    text-align: center;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    color: #e9ecef;
+}
+
+#subjsPopUp {
+    background: var(--timetable-popup-background);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    border-radius: 16px;
+    box-shadow: 0px 0px var(--timetable-popup-shadow-size) var(--timetable-popup-shadow-color);
+}
+
+
+/* T I M E T A B L E   S T Y L E */
+
+#customSchedule {
+    border: var(--body-font-color) dashed 1px;
+}

@@ -1,7 +1,114 @@
+#
+#   S I T E   G E N E R A L
+#
+
 - id: EditPage
   translation: Edit this page
 
+- id: 404_Desc_1
+  translation: The page that you are trying to reach could have been removed,
 
+- id: 404_Desc_2
+  translation: its name could've been edited or it could be not reachable at the moment.
+
+- id: 404_Homepage
+  translation: Go to the homepage
+
+- id: 404_Report
+  translation: Report an issue
+
+- id: DaysOfTheWeek_Monday
+  translation: Mon
+
+- id: DaysOfTheWeek_Tuesday
+  translation: Tue
+
+- id: DaysOfTheWeek_Wednesday
+  translation: Wed
+
+- id: DaysOfTheWeek_Thursday
+  translation: Thu
+
+- id: DaysOfTheWeek_Friday
+  translation: Fri
+
+- id: DaysOfTheWeek_Saturday
+  translation: Sat
+
+- id: DaysOfTheWeek_Sunday
+  translation: Sun
+
+- id: DaysOfTheWeek_Monday_Full
+  translation: Monday
+
+- id: DaysOfTheWeek_Tuesday_Full
+  translation: Tuesday
+
+- id: DaysOfTheWeek_Wednesday_Full
+  translation: Wednesday
+
+- id: DaysOfTheWeek_Thursday_Full
+  translation: Thursday
+
+- id: DaysOfTheWeek_Friday_Full
+  translation: Friday
+
+- id: DaysOfTheWeek_Saturday_Full
+  translation: Saturday
+
+- id: DaysOfTheWeek_Sunday_Full
+  translation: Sunday
+
+
+#
+#   S U B J E C T S   T I M E T A B L E
+#
+
+- id: Subjs_WorkInProgress
+  translation: This page temporarily displays timetables for the A.Y. 2023/24 (the previous Academic Year) for testing purposes, as it is still under development!
+
+- id: Subjs_Timetables_Time
+  translation: Time
+
+- id: Subjs_TimetablesPerTeaching_Title
+  translation: Timetables per teaching
+
+- id: Subjs_TimetablesPerTeaching_Day
+  translation: Day
+
+- id: Subjs_TimetablesPerTeaching_Time
+  translation: Time
+
+- id: Subjs_TimetablesPerTeaching_Teacher
+  translation: Teacher
+
+- id: Subjs_TimetablesPerTeaching_Classroom
+  translation: Classroom
+
+- id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
+  translation: Join the
+
+- id: Subjs_TimetablesPerTeaching_Telegram_TelegramGroup
+  translation: Telegram Group
+
+- id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
+  translation: to stay updated on any schedule changes, resources, and course information.
+
+- id: Subjs_CustomTimetable_Title
+  translation: Your timetable
+
+- id: Subjs_CustomTimetable_AddButton
+  translation: Add and remove subjects
+
+- id: Subjs_CustomTimetable_CloseMenuButton
+  translation: Close the menu
+
+- id: Subjs_CustomTimetable_SelectMenuTitle
+  translation: Select the subjects you wish to add or remove
+
+#
+#   C O N T A C T S   P A G E
+#
 
 - id: Contacts_Title
   translation: 🖋 Contacts of the wiki's main curators
@@ -20,6 +127,12 @@
 
 - id: B_Tutor_CAD_Desc
   translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+
+- id: B_Volunteer
+  translation: Volunteer
+
+- id: B_Volunteer_Desc
+  translation: The curator collaborates to the project as a volunteer
 
 - id: B_SSN
   translation: SSN

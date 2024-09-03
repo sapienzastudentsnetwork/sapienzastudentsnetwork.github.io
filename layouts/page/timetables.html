@@ -1,0 +1,78 @@
+{{ define "main" }}
+    {{ partial "timetable.html" . }}
+
+    <blockquote class="book-hint wip">
+        <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
+        {{ T "Subjs_WorkInProgress" }}
+    </blockquote>
+
+    <div class="channel-1 relative" id="main">
+        {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+
+        {{ range .Params.timetables }}
+            <div id="{{ .title | urlize }}" class="channel-{{ .channel }}">
+                <h2>{{ .title }}</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col" class="timetableTableCell font-light">{{ T "Subjs_Timetables_Time" }}</th>
+                            {{ range $days }}
+                                <!--<th class="timetableTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
+                                <!--<th class="timetableTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
+                                <th class="timetableTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
+                            {{ end }}
+                        </tr>
+                    </thead>
+                    <!--<tbody class="mobile hidden sm:table-row-group"></tbody>-->
+                    <tbody class="mobile"></tbody>
+                    <!--<tbody class="desktop table-row-group sm:hidden"></tbody>-->
+                    <tbody class="desktop hidden"></tbody>
+                </table>
+            </div>
+
+            <script>
+                addEventListener('DOMContentLoaded', (event) => {
+                    fillTimetable(
+                        `{{ .title | urlize }}`,
+                        JSON.parse(`{{ .courses | jsonify }}`),
+                        `{{ default 0 .channel }}`,
+                    );
+                });
+            </script>
+        {{ end }}
+
+        {{ $allCourses := slice }} <!-- Create an empty list to accumulate all courses -->
+        {{ $uniqueCourses := slice }} <!-- Create an empty list for unique courses -->
+        {{ $seen := dict }} <!-- Create a dictionary to track seen courses -->
+        
+        {{ range .Params.timetables }} <!-- Iterate through all timetables -->
+            {{ range .courses }} <!-- Iterate through all courses in each timetable -->
+                {{ $courseCode := . }} <!-- Convert course code to string -->
+                {{ $allCourses = $allCourses | append $courseCode }} <!-- Add course code to the list -->
+            {{ end }}
+        {{ end }}
+        
+        <!-- Remove duplicates from the course list -->
+        {{ range $allCourses }}
+            {{ $courseCode := . }} <!-- Convert course code to string -->
+            {{ if not (index $seen $courseCode) }} <!-- Check if the course has not been seen -->
+                {{ $uniqueCourses = $uniqueCourses | append $courseCode }} <!-- Add course code to the unique list -->
+                {{ $seen = merge $seen (dict $courseCode true) }} <!-- Mark the course as seen -->
+            {{ end }}
+        {{ end }}        
+
+        <!-- Add the "Timetables per teaching" part for the year's courses -->
+        {{ with dict "courses" $uniqueCourses }}
+            {{ partial "timetables-per-teaching.html" . }}
+        {{ end }}
+
+    <!-- {{ range .Params.timetables }} -->
+    <!--     {{ .title }} -->
+    <!--     {{ .channel }} -->
+    <!--     {{ .courses }} -->
+    <!-- {{ end }} -->
+    <!-- {{ range $key, $value := .Site.Data.timetables }} -->
+    <!--     <p>test!!! {{ $key }}</p> -->
+    <!-- {{ end }} -->
+    </div>
+{{ end }}

@@ -1,0 +1,128 @@
+@media screen and (min-width: 100px) {
+    :root {
+        --dash-height: 1000px;
+        --panels-height: 250px;
+        --pfp-width: 60%;
+    }
+
+    .course_panel_wide {
+        width: calc(100% - 6px);
+    }
+
+    .course_panel {
+        width: calc(50% - 6px);
+    }
+}
+
+@media screen and (min-width: 800px) {
+    :root {
+        --dash-height: 500px;
+        --panels-height: 250px;
+        --pfp-width: 40%;
+    }
+
+    .course_panel_wide {
+        width: calc(50% - 6px);
+    }
+
+    .course_panel {
+        width: calc(25% - 6px);
+    }
+}
+
+.course_dash {
+    width: 100%;
+    height: var(--dash-height);
+    background-color: var(--course-dash-background);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.course_panel_wide, .course_panel {
+    height: calc(var(--panels-height) - 12px);
+    background-color: var(--course-panel-background);
+    border-radius: 8px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.course_panel_title {
+    font-family: "DM Sans";
+    font-weight: 250;
+    font-size: 24px;
+    margin: 0;
+}
+
+.course_gen {
+    width: 99%;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course_badge {
+    width: fit-content;
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+    font-weight: 400;
+    padding: 0 8px 0 8px;
+    margin: 3px;
+}
+
+.course_dept {
+    background-color: #9E3131;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_units {
+    background-color: #427390;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_cfus {
+    background-color: #367341;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_writ_exam {
+    background-color: #95653B;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_oral_exam {
+    background-color: #95653B;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_proj_exam {
+    background-color: #957F3B;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.course_tutor {
+    background-color: #242B53;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.prof_img {
+    width: var(--pfp-width);
+    border-radius: 100%;
+    border: 3.5px solid #dedede;
+    margin: 0 0 3px 0;
+}

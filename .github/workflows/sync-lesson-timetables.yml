@@ -1,0 +1,58 @@
+name: Sync lesson timetables
+
+on:
+  # Triggers this workflow on pushes to the default branch (main)
+  push:
+    branches: ["main"]
+
+  # Schedule this workflow to run every 6 hours
+  schedule:
+    - cron: "0 */6 * * *"
+
+  # Enables manual execution of this workflow from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update package list
+        run: sudo apt update
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+
+      - name: Installing package list
+        run: apt list --installed
+
+      - name: Installing all necessary pip packages
+        run: pip install bs4
+
+      - name: Run lesson timetables sync script
+        run: |
+          chmod +x _scripts/sync-lesson-timetables.sh
+          cd _scripts
+          ./sync-lesson-timetables.sh
+        env:
+          GOMPPUBLIC_GENERATEORARIO_URL: ${{ secrets.GOMPPUBLIC_GENERATEORARIO_URL }}
+        working-directory: ${{ github.workspace }}
+
+      - name: Check if there are any changes
+        id: verify_diff
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Sync lesson timetables"
+          git push

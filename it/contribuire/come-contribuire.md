@@ -37,7 +37,7 @@ Ora hai clonato il fork localmente, il che significa che aprendo un editor di te
 
 Ci sono due modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, l'altro è usando **Docker**. Anche se forniscono le stesse funzioni, Docker potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
 
-{{< tabs "uniqueid" >}}
+{{< tabs "runningsite" >}}
 {{< tab "🌐 Hugo" >}}
 ## Usare Hugo
 
