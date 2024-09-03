@@ -41,15 +41,9 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      # https://tailwindcss.com/blog/standalone-cli, in case you want to use this method
-      # - name: Install TailwindCSS CLI
-      #   run: |
-      #     curl -sLO https://github.com/tailwindlabs/tailwindcss/releases/latest/download/tailwindcss-linux-x64
-      #     chmod +x tailwindcss-macos-arm64
-      #     mv tailwindcss-macos-arm64 tailwindcss
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -60,10 +54,6 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-
-      - name: Build TailwindCSS output
-        run: npm run build
-
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
