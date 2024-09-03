@@ -54,7 +54,7 @@ All earned credits, if related to courses coherent with one of the Master’s De
 Students must select one of the curricula and choose courses accordingly. Completion plans must be approved by the Area Educational Board.
 
 ### NG4.2 Individual Study Plans
-Students who do not adopt a completion plan must submit an individual study plan, which will be evaluated for coherence with the chosen curriculum.
+Students who do not adopt a completion plan must submit an individual study plan which will be evaluated for coherence with the chosen curriculum.
 
 ### NG4.3 Changes to Completion Plans and Individual Study Plans
 Similar to the Bachelor's program, students may change their plans in subsequent years, but exams already recorded cannot be replaced.
@@ -66,27 +66,29 @@ Didactic activities are spread across semesters and include lectures, seminars a
 One ECT corresponds to 25 hours of student commitment. The total workload for the degree is 120 ECTs.
 
 ### NG5.2 Teaching Calendar
-
-The teaching calendar is organized into two teaching periods and three exam periods. Specific schedules are provided for both programs.
+The teaching calendar is organized into two teaching periods and three exam periods. Specific schedules are provided [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione).
 
 ### NG5.3 Exam Tests
-Exams may include written, oral, and autonomous work components, graded on a scale of 30.
+Exams may include written, oral and autonomous work components, graded on a scale of 30.
 
 ## NG6 Attendance Methods, Propaedeutics, Progression to Subsequent Years
 Attendance is recommended but not mandatory. The sequence of courses in the study plan indicates the optimal order for taking exams.
 
 ## NG7 Part-Time Regime
-
-Part-time study options are available in both programs, with specific terms and procedures detailed on the Sapienza website.
+The terms and procedures for requesting the part-time regime as well as the related rules are set out in article 24 of the University study manifesto and can be consulted on the Sapienza website. It is possible to choose a number of CFU/year ranging from 18 to 45.
 
 ## NG8 Students Who Have Not Completed Their Course of Study and Validity of Acquired Credits
-Similar provisions apply, with specific terms for part-time and full-time students who fall behind.
+Pursuant to art. 32 of the University study manifesto, a student is considered to be behind schedule when, having attended all the training activities provided for in this teaching regulation, he or she has not passed all the exams and has not acquired the number of credits necessary to obtain the qualification within 3 years.
+Pursuant to art. 33 of the University study manifesto: a full-time student who is behind schedule must pass the exams missing to complete his or her university career within 9 years of enrollment;
+the part-time student who is behind schedule must pass the remaining tests to complete his/her university career within double the number of years foreseen by the choice of the duration of the part-time regime.
+The CAD establishes that, in the event that the above terms are not respected, the validity of the credits acquired will be assessed on a case-by-case basis, and may be considered acquired only for the basic courses. For reinstatement, students must in any case submit an appropriate application to the Student Administrative Office, within the timeframes and in the manner set out in the University Study Plan.
 
 ## NG9 Tutoring
-Similar tutoring services are available, with details provided by the Educational Affairs Office.
+Students can benefit from the tutoring activity carried out by the professors indicated by the CAD. The professors available as tutors and the tutoring methods will be advertised for each academic year by posting notices at the Teaching Office and on the degree course website.
+The tutoring activity is divided into various individual and collective services and is governed by specific regulations that can be consulted on the degree course website.
 
 ## NG10 Honours Programmes
-Students can participate in Honours Programmes when enrolling in the second year of the Master's program.
+Students can participate in Honours Programmes when enrolling in the second year of the Master's program. More [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione).
 
 ## NG11 Final Exam
 The final exam involves submitting and discussing a written thesis, preferably in English, based on original research. The final grade is based on the student’s entire academic career, thesis, and final exam performance.
