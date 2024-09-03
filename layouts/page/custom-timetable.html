@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
-    <h1>{{ T "Subjs_Title" }}</h1>
+    <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
     <blockquote class="book-hint wip">
         <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
@@ -14,7 +14,7 @@
             class="addSubjs absolute right-0 top-2 flex items-center gap-2"
             onclick="openSubjectsDialog()"
         >
-            {{ T "Subjs_Add" }}
+            {{ T "Subjs_CustomTimetable_AddButton" }}
             <!-- <span class="material-symbols-outlined">add</span> -->
         </button>
         <!-- { .Content } -->
@@ -45,7 +45,7 @@
         onclick="closeSubjectsDialog()"
     >
         <div class="subjsDial flex h-full w-full flex-col items-start">
-            <h2 id="subjsSelTitle">{{ T "Subjs_Select_Title" }}</h2>
+            <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
             <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
                 <div class="subjsSingCourse">
                     {{ $courses := .Site.Data.courses }}
@@ -68,7 +68,7 @@
                 </div>
             </div>
             <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
-                {{ T "Subjs_Close_Menu" }}
+                {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
             </button>
         </div>
     </dialog>

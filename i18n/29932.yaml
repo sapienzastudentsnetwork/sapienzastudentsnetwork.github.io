@@ -94,16 +94,16 @@
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
   translation: to stay updated on any schedule changes, resources, and course information.
 
-- id: Subjs_Title
-  translation: Custom timetable
+- id: Subjs_CustomTimetable_Title
+  translation: Your timetable
 
-- id: Subjs_Add
+- id: Subjs_CustomTimetable_AddButton
   translation: Add and remove subjects
 
-- id: Subjs_Close_Menu
+- id: Subjs_CustomTimetable_CloseMenuButton
   translation: Close the menu
 
-- id: Subjs_Select_Title
+- id: Subjs_CustomTimetable_SelectMenuTitle
   translation: Select the subjects you wish to add or remove
 
 #
