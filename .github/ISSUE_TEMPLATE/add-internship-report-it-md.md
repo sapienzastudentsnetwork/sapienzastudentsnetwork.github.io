@@ -8,7 +8,7 @@ assignees: Lorenzoantonelli
 ---
 
 > [!IMPORTANT]
-> Allega a questa issue il link o il file della relazione di tirocinio.
+> Allega a questa issue il link o il file della relazione di tirocinio. Per caricare la relazione è necessario selezionare le tre caselle qui sotto, aggiungendo una `x` su ognuna.
 
 
 Aggiungendo questa relazione di tirocinio alla pagina dichiaro che:
