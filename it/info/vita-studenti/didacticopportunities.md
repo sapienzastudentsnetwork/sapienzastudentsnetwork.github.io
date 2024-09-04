@@ -1,47 +1,46 @@
 ---
 title: Didactic Opportunities
-weight: 5
+weight: 2
 ---
-# Didactic Opportunities
+# Oppurtinità Didattiche
 
-In addition to frontal lessons, Sapienza offers many opportunities to expand your skills and knowledge in a "non-standard" way.
+In aggiunta alle lezioni frontali, la Sapienza offre anche svariate opportunità per ampliare le proprie conoscenze e competenze in maniera "non-standard".
 
+## Scuola Superiore di Studi Avanzati
 
-## High School of Advanced Studies
+La Scuola Superiore di Studi Avanzati (SSAS) è un percorso formativo di alta formazione parallelo ai percorsi curriculari dei vari corsi di laurea. L'aspetto più interessante è la presenza dei tutor, figure con il ruolo di seguire gli studenti della SSAS per indirizzarli verso aree specifiche di studio e ricerca. L'ammissione alla SASS avviene attraverso una selezione sulla base esclusiva di meriti accademici. Gli studenti ammessi alla SSAS accedono ai corsi di laurea della Sapienza in maniera del tutto gratuita.
 
-[The High School for Advanced Studies](https://web.uniroma1.it/sssas/en) (SSAS) is a didactic path of high formation, parallel to the curricular paths of your degree. The most interesting aspect of the SSAS is the presence of tutors, having the duty of direct students to a specific study and research areas. Admission to SSAS considers only accademic merits. Students admitted to SSAS have free access to any degree in Sapienza University.
+In aggiunta alle lezioni del proprio corso di laurea, uno studente della SSAS deve completare annualmente:
+- un progetto di ricerca sotto la guida di un tutor
+- un percorso interdisciplinare, svolto in gruppi
+- seminari riguardanti la propria macro-area di studio
+- corsi di lingua
 
-In addition to lessons of your degree, you will have to annually complete:
-- a research project with your tutor
-- an interdisciplinary group project
-- seminars of your area of study
-- language courses
+Altri vantaggi offerti dalla SSAS sono:
+- la possibilità di risiedere gratuitamente presso la Residenza Luca Serianni (una sorta di college vicino alla città universitaria)
+- programmi di scambio specifici presso altre scuole superiori, ovvero la Scuola Normale di Pisa, la Scuola Normale di Parigi e la Scuola Internazionale Superiore di Trieste
 
-Other advantages offered by SSAS are:
-- free housing in Residenza Luca Serianni (a college near the university city)
-- mobility programs to other High School of Advanced Studies, that are Scuola Normale di Pisa, Ecole Normale of Paris and International High School of Trieste
+### Ammissione
 
-### Admission
+E' possibile provare l'ingresso alla SSAS al primo anno di Laurea Triennale o al primo anno di Laurea Magistrale. Gli studenti di primo anno della triennale possono accedere alla selezione solo se **hanno conseguito un voto all'esame di stato maggiore o uguale a 90/100**. Gli studenti di primo anno della laurea magistrale possono accedere alla selezione solo se **hanno ottenuto un voto di laurea maggiore o uguale a 107/110**.
 
-It is possible to apply for the SSAS at the first year of a Bachelor Degree or at the first year of a Master Degree. Students of the first year of a Bachelor Degree can apply only if they obtained **an high school final grade of 90/100 (or higher)**. Students of the first year of the Master Degree can apply only if they obtain **a bachelor degree grade of 107/110 (or higher)**.
-
-Application for current accademic year are closed, but we will upload further information when possible.
+Nel corrente anno accademico sono state rese disponibili 7 borse di studio per la classe di lauree triennali di Scienze e Tecnologie, a cui appartiene il corso di Informatica, e 3 posti per la stessa classe per le lauree magistrali. Sfortunatamente il bando di questo anno è scaduto. Pubblicheremo le informazioni per il bando dell'anno prossimo non appena saranno disponibili.
 
 ## Futuro Annunciato
 
-Futuro Annunciato is a summer school organized by professors of the Computer Science Department of Sapienza. The summer school is open to bachelor students of STEM degrees, in order to present career opportunities in computer science. 
+Futuro Annunciato è una summer school organizzata da professori del Dipartimento di Informatica di Sapienza Università di Roma. È rivolta a studenti di lauree triennali STEM, per presentare le straordinarie opportunità di carriera, scientifica e non, che l'informatica offrirà negli anni a venire. 
 
-Futuro Annunciato is structured with:
-- seminars
-- interactive round tables
-- informal discussions with reaserchers, PhD. students and founders of start-ups. 
+Sono inclusi:
+- Seminari
+- Tavole rotonde interattive
+- Discussioni informali con ricercatori informatici dell'accademia, dell'industria avanzata (Google Research & IBM Research), dottorandi e fondatori di startup
 
-This year edition has already taken place, but we will upload more information when possible. 
+L'edizione di questo anno si è già svolta, ma ulteriori informazioni verranno pubblicate per l'edizione dell'anno prossimo quando disponibili.
 
-## Path of Excellence
+## Percorso di Eccellenza
 
-A path of excellence is a didactic path for deserving students, with the aim of adding reaserch activities to curricular lessons. Students admitted to the path must completed **between 100 and 200 hours of activities every year**.
+Un percorso di eccellenza è un percorso formativo integrativo per studenti meritevoli, con l'obiettivo di aggiungere alle lezioni curriculari altre attività riguardo la ricerca e l'integrazione culturale. Lo studente che ottiene l'accesso al percorso d'eccellenza deve svolgere **tra le 100 e 200 ore di attività ogni anno**. 
 
-At the end of the path you will receive a certificate of partecipation and a refound of the tuiton fees. 
+Alla fine del percorso si ottiene un certificato di partecipazione e un rimborso delle tasse universitarie.
 
-The call for this year is not been published yet, but you can regularly check this page or the [Attendance section of the ACSAI course](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione), in the area "Honours programme".
+Il bando per l'anno corrente non è ancora uscito, si controlli con regolarità questa pagina o la [sezione Frequentare del corso di Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione), nell'area "Percorsi di Eccellenza".
