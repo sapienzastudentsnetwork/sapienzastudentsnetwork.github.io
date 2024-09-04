@@ -40,58 +40,151 @@ Requirements will be assessed by a committee appointed by the Area Educational B
 ## NG3 Transitions, Transfers, Degree Course Shortening, Credits Recognition
 
 ### NG3.1 Transitions and Transfers
-Students enrolled in previous academic systems may transfer to the Master’s Degree in Computer Science. Applications are evaluated for credit recognition, and a completion plan is formulated. Transfers from other institutions are also subject to evaluation.
+Transitions from old/former Computer Science academic systems
+Following on from former changes and the establishment of the Masters Degree in Computer Science as provided by decree D.M.270/04 students who have already enrolled in the following Sapienza degree programmes will nevertheless acquire the Specialistica (Masters Degree in the former academic system) in Computer Science.
+Students enrolled in the degree programme mentioned above can move to the Masters degree in Computer Science without paying the costs of transition, as provided by section 8, par. 32 of the Regulations for Sapienza Students. Applications for transitions are assessed by the Area Educational Board as follows:
+- by determining which exams can be validated in the current academic system and their related marks, according to regulations approved by the Area Educational Board and indicated on the web page of the degree programme;
+- by indicating the year in which the student is going to be enrolled;
+- by determining any additional learning requirements;
+- by formulating a completion plan to acquire the degree
+
+Applications to move to the Masters Degree in Computer Science must be handed in by the deadline and as indicated in the Regulations for Sapienza Students and can be accepted only when the year to which the student is admitted is active.
+Applications of students from other Sapienza Masters Degrees or Specialistica (Masters degree in the former academic system) and applications for transfer from other universities, military academies or other higher education military institutions are subject to the Area Educational Board’s approval:
+- by assessing the possibility for a total or partial recognition of the student’s former academic career, thus by validating some or all passed exams, earned credits and related marks; in the case of transitions between former D.M. 270 courses of the same class at least 50% of earned credits in each academic discipline (par. 3 section 9 of the decree pertaining to Masters Degrees) will be recognized;
+- by indicating the year in which the student is going to be enrolled;
+- by determining any additional learning requirements;
+- by formulating a completion plan to acquire the degree
+
+If, on the basis of his/her career, a student can be admitted to a year following all those active in the current academic system, he/she can choose to enrol in the year corresponding to the degree programme of the former academic system or in the year of the most advanced programme of the current academic system active at the time (par. 33, section 5 of the university regulations).
+Applications to move/pass to the Masters Degree in Computer Science must be handed in by the deadline and as indicated in the Regulations for Sapienza Students.
 
 ### NG3.2 Degree Course Shortening
-Students who already possess a degree may apply to enroll in a year following the first in the Master’s program, based on credit recognition.
+Students who already possess a four-year or five-year degree, or a Specialistica (Masters degree) earned according to a former academic system, or a Masters degree earned according to a current academic system and would like to acquire a further degree can apply to the Area Educational Board to enrol in a year following the first one.
+Applications are assessed by the Area Educational Board as follows:
+- by assessing the possibility for a total or partial recognition of the student’s previous career and thus by validating some or all passed exams, any earned credits and their related marks;
+- by indicating the year in which the student is going to be enrolled;
+- by determining any additional learning requirements;
+- by formulating a completion plan to acquire the degree.
+
+If, on the basis of his/her career, a student can be admitted to a year following all those active in the current academic system, he/she can choose to enrol in the year corresponding to the degree programme of the former academic system or in the year of the most advanced programme of the current academic system active at the time (par. 33, section 5 of the university regulations).
+Students cannot enrol in a Masters Degree belonging to the same class of a previously acquired Masters degree.
+
+Applications must be handed in by the deadline and as indicated in the Regulations for Sapienza Students.
 
 ### NG3.3 Criteria for Credits Recognition
-All earned credits, if related to courses coherent with one of the Master’s Degree study plans, can be recognized, provided they are documented by course syllabi. Credits from equivalent courses can be recognized after evaluation by the Area Educational Board.
+All earned credits, if related to courses coherent with one of the Masters Degree study plans can be recognized, as long as documented by courses syllabi. For students moving from degree programmes of the same class, a minimum of 50% credits for each academic discipline are recognized.
+The Area Educational Board can approve the equivalence among academic disciplines to recognize credits on the basis of courses’ syllabi and according to the Masters Degree academic system.
+Those credits earned through courses, which are equivalent to courses offered by the Masters Degree, albeit differently named, can be recognized as relating to those courses named according to the Masters Degree (in which students would like to enrol). In this case the Area Educational Board approves credits as follows:
+- if the number of earned credits corresponds to those of the equivalent course, they are automatically recognized;
+- if the number of earned credits is different the Area Educational Board will assess students’ curricula and recognize credits on the basis of additional interviews; 
+
+The Area Educational Board can approve specific correspondences between groups of courses of the Specialistica (Masters degree in the former Academic system) in Computer Science, as provided by the former Sapienza decree D.M. 509 and groups of courses of the Masters Degree in Computer Science, as provided by the former Sapienza decree D.M. 270, to simplify students’ transition to the new academic system. The list of correspondences is available at the Educational Affairs Office and on the degree programme website.
+The Area Educational Board can recognize as credits certified knowledge and professional skills according to current regulations, as well as other knowledge and skills acquired in post-secondary educational activities planned and organized with the University’s contribution. Such credits will correspond to 6 credits related to complementary activities.
+Activities formerly recognized as credit providing within the degree programme cannot be recognized again for the Masters Degree.
 
 ## NG4 Completion Plans and Individual Study Plans
+Students need to have their complete study plan officially approved by the Area Educational Board before having credits recognized for exams which are not compulsory for all students, failing which credits will be denied.
+Students can obtain such approval in two different ways:
+1. By following one of the completion plans annually prepared by the Area Educational Board; a completion plan for each curriculum is described in paragraph OF5.3;
+2. By presenting an individual study plan. In both cases students need to submit their application online through the Infostud university platform.
+Deadlines and requirements are indicated in detail at [“Completion plans and study plans”](www.studiareinformatica.uniroma1.it)
 
 ### NG4.1 Completion Plans
-Students must select one of the curricula and choose courses accordingly. Completion plans must be approved by the Area Educational Board.
+Following a completion plan involves:
+1. Selecting one of the four curricula;
+2. Selecting 9 courses within the two groups of the curricula’s courses, as required by each curriculum. 
+3. The possibility to choose two supplementary courses among those automatically offered.
+4. The possibility to choose one or more courses related to the 12 elective credits. These courses can be chosen among all those included in the entire Sapienza Course Catalogue.
+The completion plan, once prepared, is submitted by students to make sure that the courses, as specified at point 4, are coherent with their study plan. If this is the case, the completion plan is approved by the Area Educational Board and becomes an integral part of students’ career. If this is not the case, students will be asked to modify the list of courses related to the 12 elective credits.
+From the day following the Area Educational Board’s approval, the student is authorized to register, besides the exams compulsory for all students, those related to elective courses listed in the adopted completion plan.
 
 ### NG4.2 Individual Study Plans
-Students who do not adopt a completion plan must submit an individual study plan which will be evaluated for coherence with the chosen curriculum.
+If a student does not adopt one of the proposed completion plans he/she needs to submit an individual study plan.
+Submitting an individual study plan involves:
+1. Choosing nine courses among core courses in at least one of the four curricula;
+2. Choosing two supplementary courses among those automatically offered;
+3. Choosing one or more courses related to the 12 elective credits. These courses can be chosen among all those included in the entire Sapienza Course Catalogue.
+
+Students should submit their individual study plan, once prepared, to make sure that the chosen courses form a valid study plan. If this is the case, the individual study plan is approved by the Area Educational Board and becomes an integral part of students’ career. If this is not the case, students will be asked to modify it. The validity and coherence of the curriculum will be assessed according to the similarities with at least one of the four curricula.
+
+From the day following the Area Educational Board’s approval, students are authorized to register, besides the exams compulsory for all students, those related to optional courses listed in their individual study plan.
 
 ### NG4.3 Changes to Completion Plans and Individual Study Plans
-Similar to the Bachelor's program, students may change their plans in subsequent years, but exams already recorded cannot be replaced.
+Students who have adopted a completion plan can adopt a different one in the following academic year or submit an individual study plan. Similarly, students whose individual study plan has already been approved can adopt a completion plan in following academic years or submit a different individual study plan. Exams that have already been registered cannot be replaced in any case.
 
 ## NG5 Teaching Methods
-Didactic activities are spread across semesters and include lectures, seminars and laboratory workshops. The minimal duration of the degree program is four semesters (two years).
+Didactic activities are of a traditional type and are spread on a semester basis/throughout semesters.
+Courses are taught through lectures, seminars and laboratory workshops and the timetable allows sufficient time for students’ autonomous study.
+The minimal duration of the degree programme is 4 semesters, equal to two years.
 
 ### NG5.1 ECTs
-One ECT corresponds to 25 hours of student commitment. The total workload for the degree is 120 ECTs.
+ECTs measure the amount of work carried out by students to achieve learning outcomes. Students earn ECTs by passing exams with or without marks, when this is the case.
+According to the credit system adopted by Italian and European universities one credit corresponds to 25 hours of students’ commitment, including group learning activities, such as lectures, workshops, lab activities) and autonomous study.
+In the Masters Degree in Computer Science, as provided by par. 23 of the University Regulations, one credit corresponds to a number of class hours which can vary as follows:
+- one class credit: from 6 to 10 hours
+- one workshop credit: from 9 to 12 hours
+- one laboratory credit: from 20 to 25 hours
+For each course the Area Educational Board determines the number of hours, as indicated above.
+Courses’ individual descriptions, available on the degree programme website, indicate the number of credits and hours of teaching for each activity, together with requirements, learning outcomes and syllabi.
+The total amount of workload to acquire a Masters degree is 120 credits.
+As far as the Masters Degree in Computer science is concerned, the number of hours available to students for autonomous study or other individual educational activities is at least 50% of the total number of hours.
 
 ### NG5.2 Teaching Calendar
-The teaching calendar is organized into two teaching periods and three exam periods. Specific schedules are provided [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione).
+The academic calendar is organized in two periods of teaching and three periods of exams, according to the following approximate schedule:
+- first teaching period: from late September to late December; 
+- second teaching period: from late February to early June; 
+- first exam period: from early January to late February; 
+- second exam period: from early June to late July; 
+- third exam period: September.
+
+- extraordinary exam periods: April and November (only for students outside prescribed years, repeating the year or employed in the Student Affairs Office, or students who want to graduate in the following graduation sessions (respectively, January and July), and apply to do so by submitting a certificate regarding their status as final year students).
+For each course there are:
+- two exam dates in the session immediately following the end of the course (January-February for the courses of the first teaching period, June-July for the courses of the second teaching period).
+- three exam dates in the remaining sessions, one of which in September and two in the other session.
+- Two further exam dates per year in November and April for students outside prescribed years, repeating the year and working students, as indicated on the degree programme website.
+The start and end dates of the teaching and exam periods are available online.
 
 ### NG5.3 Exam Tests
-Exams may include written, oral and autonomous work components, graded on a scale of 30.
+Students’ achievements are expressed, for each course, through marks out of 30 and the minimum mark to pass the exam is 18/30, or a pass in the case of exams without marks.
+The following elements can contribute to the final assessment:
+- a written text, usually divided into several tests during and at the end of the course;
+- an oral exam;
+- students’ autonomous work.
 
 ## NG6 Attendance Methods, Propaedeutics, Progression to Subsequent Years
-Attendance is recommended but not mandatory. The sequence of courses in the study plan indicates the optimal order for taking exams.
+Constant attendance of lectures is highly recommended but not compulsory.
+The Masters Degree in Computer Science does not require a fixed courses sequence; prerequisite knowledge, if any, is specified according to courses’ syllabi. The sequence of courses in the study plan is a clear indication of the ideal order that students should follow in terms of courses to attend and their related exams. In particular, students are advised as follows:
+- sit for the exams of the courses taught in the second teaching period, of each academic year, only after having passed all those of the first period;
+- sit for second year exams only after having passed all first year exams.
+
+There are no specific requirements to move to the second year of the Masters Degree in Computer Science.
 
 ## NG7 Part-Time Regime
 The terms and procedures for requesting the part-time regime as well as the related rules are set out in article 24 of the University study manifesto and can be consulted on the Sapienza website. It is possible to choose a number of CFU/year ranging from 18 to 45.
 
 ## NG8 Students Who Have Not Completed Their Course of Study and Validity of Acquired Credits
-Pursuant to art. 32 of the University study manifesto, a student is considered to be behind schedule when, having attended all the training activities provided for in this teaching regulation, he or she has not passed all the exams and has not acquired the number of credits necessary to obtain the qualification within 3 years.
-Pursuant to art. 33 of the University study manifesto: a full-time student who is behind schedule must pass the exams missing to complete his or her university career within 9 years of enrollment;
-the part-time student who is behind schedule must pass the remaining tests to complete his/her university career within double the number of years foreseen by the choice of the duration of the part-time regime.
-The CAD establishes that, in the event that the above terms are not respected, the validity of the credits acquired will be assessed on a case-by-case basis, and may be considered acquired only for the basic courses. For reinstatement, students must in any case submit an appropriate application to the Student Administrative Office, within the timeframes and in the manner set out in the University Study Plan.
+As provided by par. 32 of the Regulations for Sapienza Students the latter are considered outside prescribed years, when, despite having attended all educational activities according to the current regulations, they have not passed all exams and thus have not earned the number of credits necessary to graduate in two years.
+As provided by par. 33 of the Regulations for Sapienza Students:
+
+- full-time students outside prescribed years need to pass all exams required to complete their academic career within a period which is double the normal duration of the degree programme,
+- part-time students outside prescribed years need to pass all exams required to complete their academic career within a period which is double the agreed duration for part-time study.
+
+When all the above-mentioned requirements are met, the Area Educational Board will assess the validity of the credits earned in each case and authorize them only in relation to foundation courses. Students are required to submit an application to the Student Affairs Office as specified in the Regulations for Sapienza Students.
 
 ## NG9 Tutoring
-Students can benefit from the tutoring activity carried out by the professors indicated by the CAD. The professors available as tutors and the tutoring methods will be advertised for each academic year by posting notices at the Teaching Office and on the degree course website.
-The tutoring activity is divided into various individual and collective services and is governed by specific regulations that can be consulted on the degree course website.
+Tutoring is offered to students of the Masters Degree in Computer Science by academic staff indicated by the Area Educational Board. Academic staff available to act as tutors and tutoring details will be indicated every academic year by the Educational Affairs Office and on the degree programme website. Tutoring includes a variety of services, both individual and collective, and is subject to specific regulations available online.
 
 ## NG10 Honours Programmes
 Students can participate in Honours Programmes when enrolling in the second year of the Master's program. More [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione).
 
 ## NG11 Final Exam
-The final exam involves submitting and discussing a written thesis, preferably in English, based on original research. The final grade is based on the student’s entire academic career, thesis, and final exam performance.
+Before being admitted to the final exam, students need to possess all the credits required by the academic system regarding activities which are different from the final exam and need to have met all administrative requirements as provided by the University Regulations.
+The final exam consists of submitting and discussing a written final thesis, preferably in English, offering the results of an original applied, experimental or research work.
+The committee will assess the thesis’ originality. If such assessment is negative, students will not be admitted to the final exam.
+Students prepare their thesis with the support of a supervisor (he/she can be a member of the academic staff teaching in the Masters Degree or any other Italian degree programmes or Italian or foreign research institute) and they normally do so in their second year by dedicating approximately 50% of their total study time.
+The final mark is based on the assessment of the students’ careers, thesis and final exam, as well as further elements aimed to encourage the completion of exams in the period of time indicated by the academic system. The Dissertation Panel expresses its marks out of 100 and can unanimously attribute the highest marks cum laude.
 
-## NG12 Application of Art. 6 of the Student Regulations
-Students can attend two courses and sit for the respective exams of other faculties to enrich their career. Only students who have earned at least 36 credits in the Master's Degree in Computer Science can apply.
+## NG12 Application of par. 6 of Students’ regulations (R.D. 4.6.1938, N. 1269)
+Students enrolled in the Masters Degree in Computer Science can attend two courses, and sit for the respective exams, of other faculties to enrich their career, as provided by par.6 of the R.D. N.1239 of 4/6/1938, by submitting to the Educational Affairs Office an application form addressed to the Area Educational Board by the end of January of each year.
+
+Given the scientific and cultural significance of this norm, the Area Educational Board has established that only those students who have earned at least 36 credits of the Masters Degree in Computer Science can apply.
