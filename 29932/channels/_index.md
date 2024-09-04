@@ -26,7 +26,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Computational Complexity](https://t.me/+cFO5rxhe0ak3YjFk)
 - [Computer Network Performance](https://t.me/+p0-u-meZ1rE3MGU0)
 - [Computer Vision Course - Prof. Luigi Cinque](https://t.me/+AUr_HfwR3kAxNDA0)
-- [Concurrent Systems] https://t.me/+nDsSnNQMF8kxMjI0)
+- [Concurrent Systems](https://t.me/+nDsSnNQMF8kxMjI0)
 - [Cryptography](https://t.me/+WIS5BygCxm9mZjE0)
 - [Deep Learning & AI](https://t.me/+S914sAzRVG2weEM4)
 - [Distributed Systems](https://t.me/+VKIsENZg1uzB2n1v)
