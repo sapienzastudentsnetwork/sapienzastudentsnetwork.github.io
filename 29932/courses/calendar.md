@@ -6,7 +6,7 @@ weight: 2
 # Academic Year Calendar 2024/25
 The calendar can also be viewed on the [official department's document](https://i3s.web.uniroma1.it/sites/default/files/allegati/Academic_Calendar_2024_2025_ENG.pdf).
 
-## Lesson Calendar
+## Lessons Calendar
 | Semester    | Start Date           | End Date             | 
 | ----------- | -------------------- | -------------------- |
 | I           | 23 September 2024    | 20 December 2024     |

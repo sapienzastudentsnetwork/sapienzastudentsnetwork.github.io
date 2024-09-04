@@ -5,7 +5,7 @@ weight: 1
 
 # Curriculum
 There are many choices within the I3s department. If you choose a custom study plan you can explore many different subjects in Computer Science.
-Technically you must choose at least 2 exams to be categorized as second years courses in order for the plan to be valid.
+Technically you must choose at least 2 exams to be placed in the second year in order for the plan to be valid.
 There's only a practical distinction between first and second semester courses, apart from the AFC and the final exam.
 
 ## First semester
@@ -29,9 +29,6 @@ There's only a practical distinction between first and second semester courses, 
 | 10589558    | METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN         | First            | 6   | INF/01 |
 
 ## Second semester
-
-During the second year, the necessary mathematical preparation is completed and further knowledge of computer science is provided in areas, in particular artificial intelligence, the knowledge of which is essential for a graduate in Applied Computer Science and Artificial Intelligence.
-The second year courses are all compulsory and are:
 
 | Course code | Course                                                | Semester         | CFU | SSD    |
 | ----------- | ----------------------------------------------------- | ---------------- | --- | ------ |
