@@ -42,7 +42,7 @@ The Committee may decide to award honors (110 cum laude) to recognize outstandin
 
 ## Calculation Example
 
-Suppose you have a weighted average of 98/110 and you meet the following criteria for the Bachelor's Degree in Applied Computer Science and Artificial Intelligence:
+Suppose you have a weighted average of 98/110 and you meet the following criteria for the Master's Degree in Computer Science:
 
 - Evaluation of the internship report: 8 points
 - Graduation within 24 months: 1 points
