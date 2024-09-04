@@ -1,6 +1,6 @@
 ---
 title: Didactic Opportunities
-weight: 2
+weight: 5
 ---
 # Didactic Opportunities
 
