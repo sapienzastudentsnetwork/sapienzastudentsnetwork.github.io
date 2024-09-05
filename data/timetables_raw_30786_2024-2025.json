@@ -1,0 +1,201 @@
+[
+  {
+    "year": "Primo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "course": "10595102",
+            "subject": "PROGRAMMING UNIT 2",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 15",
+            "teacher": "SPOGNARDI ANGELO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ]
+          },
+          {
+            "course": "10595102",
+            "subject": "PROGRAMMING UNIT 2",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 16 ",
+            "teacher": "SPOGNARDI ANGELO",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ]
+          },
+          {
+            "course": "10595102",
+            "subject": "PROGRAMMING UNIT 2",
+            "building": "Edificio: RM025",
+            "room": "Aula informatica 17",
+            "teacher": "SPOGNARDI ANGELO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "Secondo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "course": "10595525",
+            "subject": "PROBABILITY",
+            "building": "Edificio: RM005",
+            "room": "Aula 11",
+            "teacher": "BERTINI MALGARINI LORENZO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          },
+          {
+            "course": "10595616",
+            "subject": "SYSTEMS AND NETWORKING UNIT I",
+            "building": "Edificio: RM005",
+            "room": "Aula 11",
+            "teacher": "TOLOMEI GABRIELE",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": "Terzo anno - primo semestre",
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "course": "10595536",
+            "subject": "BUSINESS AND COMPUTER SCIENCE",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "SAVIO RICCARDO",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ]
+          },
+          {
+            "course": "10595532",
+            "subject": "CYBERSECURITY",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "SPOGNARDI ANGELO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
+            "course": "10595531",
+            "subject": "DEEP LEARNING",
+            "building": "Edificio: RM111",
+            "room": "Aula Magna AREA DI CANTIERE",
+            "teacher": "HUYNH TONY CHI THONG",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "10595530",
+            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "GORLA DANIELE",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ]
+          },
+          {
+            "course": "10595534",
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "building": "Edificio: RM018",
+            "room": "Aula 1",
+            "teacher": "PANIZZI EMANUELE",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ]
+          },
+          {
+            "course": "10595534",
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "building": "Edificio: RM111",
+            "room": "Aula Magna AREA DI CANTIERE",
+            "teacher": "PANIZZI EMANUELE",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
