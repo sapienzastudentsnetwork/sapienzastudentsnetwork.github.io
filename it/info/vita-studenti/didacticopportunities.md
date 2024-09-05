@@ -1,5 +1,5 @@
 ---
-title: Opportunità Didattica
+title: Opportunità Didattiche
 weight: 2
 ---
 # Oppurtinità Didattiche
