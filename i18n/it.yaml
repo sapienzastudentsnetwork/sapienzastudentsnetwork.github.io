@@ -64,7 +64,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina visualizza provvisoriamente degli orari dell'A.A. 2023/24 (l'Anno Accademico precedente) ai fini di testing, poiché in fase di sviluppo!
+  translation: Questa pagina è aggiornata automaticamente con il sistema di orari di Sapienza, ma al momento sono ancora provvisori. Per ora, è meglio controllare le pagine Frequentare dei Corsi di Laurea e i gruppi chat per restare aggiornati. Questo avviso sparirà appena ci saranno più certezze.
 
 - id: Subjs_Timetables_Time
   translation: Orario
