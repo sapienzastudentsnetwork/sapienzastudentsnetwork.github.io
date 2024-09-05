@@ -27,7 +27,7 @@ Where:
 
 The maximum increment is 11 points. The Committee can add points to the weighted average according to the following criteria:
 
-1. **Evaluation of the Internship Report**: from 0 to 9 points;
+1. **Evaluation of the Thesis**: from 0 to 9 points;
 2. **Duration of the Study Program**: 1 additional point is assigned if the student graduates within 28 months after the enrolment date;
 3. **Erasmus**: 1 additional point is assigned if the student participated in the Erasmus programme;
 
@@ -44,8 +44,8 @@ The Committee may decide to award honors (110 cum laude) to recognize outstandin
 
 Suppose you have a weighted average of 98/110 and you meet the following criteria for the Master's Degree in Computer Science:
 
-- Evaluation of the internship report: 8 points
-- Graduation within 24 months: 1 points
+- Evaluation of the thesis: 8 points
+- Graduation within 24 months: 1 point
 - Participation in the Erasmus program: 1 point
 
 Your graduation grade will be:
@@ -54,6 +54,6 @@ $$
 98 + 8 + 1 + 1 = 108
 $$
 
-Your final grade will be 108. If you obtain 110 you won't be eligible for honors. In order to get honors you must obtain a score of at least 113.
+Your final grade will be 108.
 
 We hope this information helps you understand how your graduation grade is calculated. Good luck!

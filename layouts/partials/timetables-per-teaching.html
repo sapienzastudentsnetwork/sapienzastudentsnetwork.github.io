@@ -93,11 +93,19 @@
                                 <td class="timetableTableCell">
                                     {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
                                     {{ $teacherId := index $timeslotInDay 0 "teacher" }}
-                                    {{ $teacherName := index $dataTeachers $teacherId "name" }}
+                                    {{ if $teacherId }}
+                                        {{ $teacherName := index $dataTeachers $teacherId "name" }}
 
-                                    <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
-                                        {{ $teacherName }}
-                                    </a>
+                                        {{ if $teacherName }}
+                                            <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
+                                                {{ $teacherName }}
+                                            </a>
+                                        {{ else }}
+                                            Non disponibile
+                                        {{ end }}
+                                    {{ else }}
+                                        Non disponibile
+                                    {{ end }}
                                 </td>
                                 <td class="timetableTableCell">
                                     {{ range $classroom_id, $location := $info.classrooms }}
