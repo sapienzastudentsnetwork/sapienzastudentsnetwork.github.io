@@ -4,12 +4,20 @@ aliases: ["/computerscience/groups", "/29932/groups", "/29932/channels/gruppi", 
 weight: 1
 ---
 
-# Group
+# Groups
 
-[![](https://img.shields.io/badge/-telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/computersciencesapienza)](https://t.me/computersciencesapienza)
+On this page you can find links to the **WhatsApp groups** and the **Telegram groups** for the Master’s Degree in **Computer Science** (29932)
+
+## General groups
+
+General groups on Telegram bring together **all** students **of any year**
+
+[![](https://img.shields.io/badge/-general_cs_telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/computersciencesapienza)](https://t.me/computersciencesapienza)
 
 ## Teaching groups
+
 A dedicated group for each subject is available on Telegram, you can join them through the links below:
+
 - [Advanced Algorithms](https://t.me/+Xb9-VqXQMXk3MGQ0)
 - [Advanced Machine Learning Sapienza - Computer science](https://t.me/+ut8SmYWsoR41MzZl)
 - [Advanced Software Engineering](https://t.me/+SRnmNKaAM3kwYzk8)

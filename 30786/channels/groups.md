@@ -10,6 +10,8 @@ On this page you can find links to the **WhatsApp groups** and the **Telegram gr
 
 ## General groups
 
+General groups on Telegram bring together **all** students **of any year**
+
 [![](https://img.shields.io/badge/-general_acsai_telegram_group-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/appliedCS_AI)](https://t.me/appliedCS_AI)
 
 ## New students
