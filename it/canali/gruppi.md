@@ -5,7 +5,7 @@ weight: 1
 ---
 # Gruppi
 
-In questa pagina puoi trovare i link ai **gruppi** per le Lauree Triennali in **Informatica** (29923) e **Informatica - erogato in modalità prevalentemente a distanza** (29400)
+In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsApp** per le Lauree Triennali in **Informatica** (29923) e **Informatica - erogato in modalità prevalentemente a distanza** (29400)
 
 ## Gruppi generali
 

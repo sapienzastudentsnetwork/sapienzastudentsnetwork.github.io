@@ -1,5 +1,5 @@
 ---
 title: 💪 Contributing
 bookFlatSection: true
-weight: 5
+weight: 6
 ---
