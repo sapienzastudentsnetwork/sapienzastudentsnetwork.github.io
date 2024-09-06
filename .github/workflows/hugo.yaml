@@ -7,9 +7,9 @@ on:
     branches:
       - main
 
-  # Schedule this workflow to run every day at 18:05 UTC (20:05 Europe/Rome time)
+  # Schedule this workflow to run every 3 hours and 5 minutes
   schedule:
-    - cron: "5 18 * * *"
+    - cron: "5 */3 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

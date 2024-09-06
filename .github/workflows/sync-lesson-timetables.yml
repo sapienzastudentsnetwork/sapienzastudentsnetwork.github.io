@@ -5,9 +5,9 @@ on:
   push:
     branches: ["main"]
 
-  # Schedule this workflow to run every 6 hours
+  # Schedule this workflow to run every 3 hours
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */3 * * *"
 
   # Enables manual execution of this workflow from the Actions tab
   workflow_dispatch:
