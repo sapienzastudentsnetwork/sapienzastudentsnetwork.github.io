@@ -3,6 +3,14 @@ title: Come iscriversi
 ---
 
 # Iscrizione al CdL in Informatica
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Proroga scadenze**
+
+Per i vincitori in graduatoria della prima e della seconda selezione la scadenza per il pagamento della prima rata dei contributi di iscrizione è posticipata dal 5 settembre a **mercoledì 11 settembre 2024**.
+
+La pubblicazione dei posti disponibili per le selezioni successive è prorogata a **mercoledì 18 settembre 2024**.
+{{< /hint >}}
+
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
@@ -194,31 +202,37 @@ Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà p
 ## Calendario delle procedure
 ### Prima selezione
 
-| Prima selezione                                           | Periodo/Scadenza                    |
-|-----------------------------------------------------------|-------------------------------------|
-| Iscrizione alla selezione                                 | Dal 20 febbraio all'11 aprile 2024  |
-| Pubblicazione graduatoria di merito                       | 17 aprile 2024                      |
-| Fase della pre-immatricolazione per i candidati vincitori | Dal 17 aprile al 7 maggio 2024      |
-| Fase delle immatricolazioni per i pre-immatricolati       | Dal 2 settembre al 5 settembre 2024 |
+| Prima selezione                                           | Periodo/Scadenza                     |
+|-----------------------------------------------------------|--------------------------------------|
+| Iscrizione alla selezione                                 | Dal 20 febbraio all'11 aprile 2024   |
+| Pubblicazione graduatoria di merito                       | 17 aprile 2024                       |
+| Fase della pre-immatricolazione per i candidati vincitori | Dal 17 aprile al 7 maggio 2024       |
+| Fase delle immatricolazioni per i pre-immatricolati       | Dal 2 settembre al 11 settembre 2024 |
 
 ### Seconda selezione
-| Seconda selezione                                    | Periodo/Scadenza                    |
-|------------------------------------------------------|-------------------------------------|
-| Iscrizione alla selezione                            | Dal 7 maggio al 29 luglio 2024      |
-| Comunicazione numero effettivo di posti disponibili  | 14 maggio 2024                      |
-| Pubblicazione graduatoria                            | 2 agosto 2024                       |
-| Fase delle immatricolazioni per i candiati vincitori | Dal 2 settembre al 5 settembre 2024 |
+| Seconda selezione                                    | Periodo/Scadenza                     |
+|------------------------------------------------------|--------------------------------------|
+| Iscrizione alla selezione                            | Dal 7 maggio al 29 luglio 2024       |
+| Comunicazione numero effettivo di posti disponibili  | 14 maggio 2024                       |
+| Pubblicazione graduatoria                            | 2 agosto 2024                        |
+| Fase delle immatricolazioni per i candiati vincitori | Dal 2 settembre al 11 settembre 2024 |
 
 ### Terza selezione
-| Terza selezione                                                                                | Periodo/Scadenza                      |
-|------------------------------------------------------------------------------------------------|---------------------------------------|
-| Iscrizione alla selezione                                                                      | Dal 2 agosto al 9 settembre 2024      |
-| Comunicazione numero effettivo di posti disponibili                                            | 9 settembre 2024                      |
-| Pubblicazione graduatoria                                                                      | 12 settembre 2024                     |
-| Fase delle immatricolazioni per i candidati vincitori                                          | Dal 12 settembre al 17 settembre 2024 |
-| Pubblicazione primo eleneco di subentri e inizio immatricolazioni per i candidati subentranti  | 20 settembre 2024                     |
-| Scadenza immatricolazione primo elenco di subentrantri                                         | 25 settembre 2024                     |
-| Pubblicazione secondo elenco di subentri e inizio immatricolazioni per i candidati subentranti | 30 settembre 2024                     |
-| Scadenza immatricolazione secondo elenco di subentrantri                                       | 3 ottobre 2024                        |
-| Pubblicazione terzo elenco di subentri e inizio immatricolazione per i candidati subentranti   | 7 ottobre 2024                        |
-| Scadenza immatricolazione terzo elenco di subentranti                                          | 10 ottobre 2024                       |
+{{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
+La pubblicazione dei posti disponibili è stata posticipata a **mercoledì 18 settembre 2024**. Le successive scadenze saranno aggiornate di conseguenza.
+{{< /hint >}}
+
+| Terza selezione                                                                                | Periodo/Scadenza                          |
+|------------------------------------------------------------------------------------------------|-------------------------------------------|
+| Iscrizione alla selezione                                                                      | Dal 2 agosto al 9 settembre 2024          |
+| Comunicazione numero effettivo di posti disponibili                                            | 9 settembre 2024                          |
+| Pubblicazione graduatoria                                                                      | ~~12 settembre 2024~~                     |
+| Fase delle immatricolazioni per i candidati vincitori                                          | ~~Dal 12 settembre al 17 settembre 2024~~ |
+| Pubblicazione primo eleneco di subentri e inizio immatricolazioni per i candidati subentranti  | ~~20 settembre 2024~~                     |
+| Scadenza immatricolazione primo elenco di subentrantri                                         | ~~25 settembre 2024~~                     |
+| Pubblicazione secondo elenco di subentri e inizio immatricolazioni per i candidati subentranti | ~~30 settembre 2024~~                     |
+| Scadenza immatricolazione secondo elenco di subentrantri                                       | ~~3 ottobre 2024~~                        |
+| Pubblicazione terzo elenco di subentri e inizio immatricolazione per i candidati subentranti   | ~~7 ottobre 2024~~                        |
+| Scadenza immatricolazione terzo elenco di subentranti                                          | ~~10 ottobre 2024~~                       |

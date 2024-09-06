@@ -3,6 +3,11 @@ title: How to enroll
 ---
 
 # How to enroll
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Deadlines postponed**
+
+Upon several issues regarding payments and enrolment, Sapienza postponed the deadline to enroll officially to **11th September** for the winners of both the first and second selection.
+{{< /hint >}}
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
