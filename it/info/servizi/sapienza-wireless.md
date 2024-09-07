@@ -3,7 +3,7 @@ title: Wi-Fi di Ateneo
 weight: 2
 ---
 
-# Sapienza Wireless
+# Wi-Fi di Ateneo
 
 Sapienza offre a studenti, dottorandi, assegnisti di ricerca, ricercatori, personale docente e tecnico-amministrativo due reti wireless: **Sapienza** ed **Eduroam**. Entrambe consentono una navigazione veloce utilizzando le credenziali universitarie, ma presentano alcune differenze significative.
 
