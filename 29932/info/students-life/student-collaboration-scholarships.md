@@ -1,6 +1,6 @@
 ---
 title: Student Collaboration Scholarships
-weight: 6
+weight: 4
 bookToc: false
 ---
 

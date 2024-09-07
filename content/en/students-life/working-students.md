@@ -1,10 +1,11 @@
 ---
 title: Self-Certificate for Working Students
 weight: 7
+bookToc: false
 ---
 # Self-Certificate for Working Students
 
-The self-certificate for working students is a document (download at this [link](https://www.uniroma1.it/sites/default/files/field_file_allegati/autocertificazione_lavoratore.pdf)) that certifies the working activity of a students. The self-certificate can be filled oyt by students that have carried out, at least for 60 days (even if not continuous, but in the 6 months before the compilation):
+The self-certificate for working students is a document (download at this [link](https://www.uniroma1.it/sites/default/files/field_file_allegati/autocertificazione_lavoratore.pdf)) that certifies the working activity of a students. The self-certificate can be filled out by students that have carried out, at least for 60 days (even if not continuous, but in the 6 months before the compilation):
 - contractualized activity
 - self-employment
 - universal civil volunteering

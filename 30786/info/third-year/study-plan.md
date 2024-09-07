@@ -3,7 +3,7 @@ title: Study Plan
 aliases: ["/acsai/study-plan", "/30786/study-plan", "/30786/info/third-year/study_plan"]
 ---
 
-# Study Plan
+# ACSAI Study Plan
 
 In the third year of the Bachelor's degree in Applied Computer Science and Artificial Intelligence, students complete their education with one compulsory course: "Foundations of Computer Science"
 

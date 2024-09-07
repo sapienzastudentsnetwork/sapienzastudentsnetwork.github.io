@@ -1,3 +1,8 @@
+---
+title: Study Plan
+weight: 1
+---
+
 # Computer Science Study Plan
 
 {{< hint warning >}}
