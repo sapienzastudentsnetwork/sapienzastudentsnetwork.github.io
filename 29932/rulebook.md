@@ -13,17 +13,17 @@ These rules are copied from the "[Programme Regulations](https://corsidilaurea.u
 
 The following is a list of regulations regarding the course:
 - [NG1 Admission Requirements](#ng1-admission-requirements)
-- [NG2 Assessment of Admission Requirements](#ng2-admission-test)
-- [NG3 Transitions, Transfers, Degree Course Shortening, Credits Recognition](#ng3-course-abbreviations-credit-recognition)
+- [NG2 Assessment of Admission Requirements](#ng2-assessment-of-admission-requirements)
+- [NG3 Transitions, Transfers, Degree Course Shortening, Credits Recognition](#ng3-transitions-transfers-degree-course-shortening-credits-recognition)
 - [NG4 Completion Plans and Individual Study Plans](#ng4-completion-plans-and-individual-study-plans)
-- [NG5 Didactic Activities](#ng5-teaching-methods)
-- [NG6 Attendance, courses sequence, transitions to following years](#ng6-attendance-methods-propaedeutics-progression-to-subsequent-years)
+- [NG5 Didactic Activities](#ng5-didactic-activities)
+- [NG6 Attendance, courses sequence, transitions to following years](#ng6-attendance-courses-sequence-transition-to-following-years)
 - [NG7 Part-time regime](#ng7-part-time-regime)
-- [NG8 Students outside prescribed years and validity of earned credits](#ng8-students-who-have-not-completed-their-course-of-study-and-validity-of-acquired-credits)
+- [NG8 Students outside prescribed years and validity of earned credits](#ng8-students-outside-prescribed-years-and-validity-of-earned-credits)
 - [NG9 Tutoring](#ng9-tutoring)
-- [NG10 Honours Programmes](#ng10-paths-of-excellence)
+- [NG10 Honours Programmes](#ng10-honours-programmes)
 - [NG11 Final exam](#ng11-final-exam)
-- [NG12 Application of par. 6 of students’ regulations (R.D. 4.6.1938, N. 1269)](#ng12-application-of-art-6-of-the-student-regulations-rd-461938-n-1269)
+- [NG12 Application of par. 6 of students’ regulations (R.D. 4.6.1938, N. 1269)](#ng12-application-of-par-6-of-students-regulations-rd-461938-n-1269)
 
 ## NG1 Admission Requirements
 
