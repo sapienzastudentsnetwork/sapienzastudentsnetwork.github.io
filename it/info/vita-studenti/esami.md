@@ -1,3 +1,11 @@
+---
+
+title: Esami
+
+weight: 1
+
+---
+
 # Esami
 
 Come ogni università, la Sapienza richiede ai suoi studenti di partecipare agli esami relativi ai corsi seguiti durante i semestri di lezione. Di solito, gli esami si svolgono durante le sessioni d'esame. (Controllali [qui](../Courses%20&%20Calendar/)).
