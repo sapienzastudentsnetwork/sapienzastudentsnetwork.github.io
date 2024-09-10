@@ -18,7 +18,7 @@ The following is a list of regulations regarding the course:
 - [NG4 Completion Plans and Individual Study Plans](#ng4-completion-plans-and-individual-study-plans)
 - [NG5 Didactic Activities](#ng5-didactic-activities)
 - [NG6 Attendance, courses sequence, transitions to following years](#ng6-attendance-courses-sequence-transition-to-following-years)
-- [NG7 Part-time regime](#ng7-part-time-regime)
+- [NG7 Part-time Regime](#ng7-part-time-regime)
 - [NG8 Students outside prescribed years and validity of earned credits](#ng8-students-outside-prescribed-years-and-validity-of-earned-credits)
 - [NG9 Tutoring](#ng9-tutoring)
 - [NG10 Honours Programmes](#ng10-honours-programmes)
@@ -252,8 +252,7 @@ For each course, there are:
 - two exam dates in the session immediately following the end of the course (January–February for the courses of the first
 teaching period, June-July for the courses of the second teaching period).
 - three exam dates in the remaining sessions, one of which in September and two in the other session.
-- Two further exam dates per year in November and April for students outside prescribed years, repeating the year and
-- working students, as indicated on the degree program website.
+- Two further exam dates per year in November and April for students outside prescribed years, repeating the year and working students, as indicated on the degree program website.
 
 The start and end dates of the teaching and exam periods are available online.
 

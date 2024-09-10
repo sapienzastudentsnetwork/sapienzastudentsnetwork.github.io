@@ -67,7 +67,7 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 3. Fill out the [internship assignment form](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), including the internship topic agreed upon with the professor. The form must also be completed and signed by the professor supervising the internship.
 
-4. Fill out the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf).
+4. Fill out the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/authorisation_for_personal_data_processing.pdf).
 
 5. Complete the [statement acknowledging the plagiarism guidelines](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
 
