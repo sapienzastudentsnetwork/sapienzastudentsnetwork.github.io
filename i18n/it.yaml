@@ -2,6 +2,9 @@
 #   S I T E   G E N E R A L
 #
 
+- id: Search
+  translation: Cerca qualcosa...
+
 - id: EditPage
   translation: Edit this page
 
