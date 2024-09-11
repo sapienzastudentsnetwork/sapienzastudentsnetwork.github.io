@@ -476,10 +476,10 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "luned\u00ec": [
+        "mercoled\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "13 - 15",
+            "timeslot": "08 - 10",
             "classrooms": {
               "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
             }
