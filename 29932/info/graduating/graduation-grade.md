@@ -28,7 +28,7 @@ Where:
 The maximum increment is 11 points. The Committee can add points to the weighted average according to the following criteria:
 
 1. **Evaluation of the Thesis**: from 0 to 9 points;
-2. **Duration of the Study Program**: 1 additional point is assigned if the student graduates within 28 months after the enrolment date;
+2. **Duration of the Study Program**: 1 additional point is assigned if the student graduates within 28 months after the enrollment date;
 3. **Erasmus**: 1 additional point is assigned if the student participated in the Erasmus programme;
 
 The official document can be found [here](https://corsidilaurea.uniroma1.it/sites/default/files/calcolovotodilaurea-calculationfothedegreegrade_-_documenti_google_2_1_1.pdf).

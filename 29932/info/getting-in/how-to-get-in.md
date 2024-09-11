@@ -74,7 +74,7 @@ Further instructions Coming Soon!
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
-Check thoroughly all the deadlines for registering for a selection on the document posted in the download box at [ACSAI and other restricted access degrees](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections)
+Check thoroughly all the deadlines for registering on the document posted in the download box [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/iscriversi)
 {{< /hint >}}
 
 First things first, you have to register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) in order to obtain an ID number. The email address inserted during the procedures will be used for communications, so it is better to chose an address you frequently check.
@@ -88,4 +88,4 @@ Finally, enter the code **29932** and pay the 10€ fee for the assessment of re
 
 ## Enrollment
 
-In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuiton Fees", [image](https://i.imgur.com/zaY3eXy.png)): follow the procedure and, when asked, insert the course code **29932**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment for your selection round.**
+In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuiton Fees", [image](https://i.imgur.com/zaY3eXy.png)): follow the procedure and, when asked, insert the course code **29932**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment.**
