@@ -1,9 +1,9 @@
 ---
-title: Cronoprogramma del Corso di Laurea in Informatica (titolo provvisorio)
-bookHidden: true
+title: Cronoprogramma del Corso di Laurea in Informatica
+bookHidden: false
 ---
 
-# Cronoprogramma del Corso di Laurea in Informatica (titolo provvisorio)
+# Cronoprogramma del Corso di Laurea in Informatica
 
 Anche se all'inizio potresti sentirti un po' disorientato, in realtà ci sono solo alcuni momenti chiave da tenere a mente durante il tuo percorso accademico. Questo cronoprogramma ti aiuterà a navigare attraverso le tappe principali del Corso di Laurea in Informatica.
 
@@ -22,6 +22,14 @@ Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei var
 
 Creare un gruppo di amici con cui studiare e confrontarsi può essere un'ottima strategia per affrontare insieme le sfide del percorso accademico.
 
+## **5 novembre 2024**: scadenza prima rata per gli iscritti al secondo anno e successivi
+La scadenza per il pagamento della prima rata è fissata per il 5 novembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
+
+{{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
+Questa scadenza è valida solamente per gli studenti iscritti al secondo anno e successivi, poiché l'immatricolazione prevede il pagamento della prima rata per gli iscritti al primo anno.
+{{< /hint >}}
+
 ## **Tra fine ottobre e inizio novembre e tra aprile e maggio**: sostenere gli esoneri
 Molti corsi, specialmente durante il primo anno, offrono la possibilità di sostenere degli esoneri durante il semestre. Questi sono dei mini-esami che, se superati, possono alleggerire il carico di studio per l'esame finale. Di solito le informazioni sugli esoneri vengono comunicate direttamente dal docente nel corso delle lezioni, anche per questo motivo è importante frequentare le lezioni. Gli esoneri normalmente si svolgono durante l'orario della lezione quando il docente ha superato metà del programma.
 
@@ -32,6 +40,9 @@ Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permet
 
 Gli esoneri sono a discrezione dei docenti: non saranno quindi previsti per tutti i corsi. Di solito i docenti comunicano durante le prime lezioni la loro volontà di svolgere esoneri e un periodo approssimativo in cui si svolgeranno.
 {{< /hint >}}
+
+## **19 dicembre 2024**: scadenza seconda rata
+La scadenza per il pagamento della seconda rata è fissata per il 19 dicembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
 ## **Da gennaio a febbraio, da giugno a luglio e a settembre**: sostenere gli esami
 Gli esami si svolgono alla fine di ogni semestre. Per conoscere la data e l'aula di ogni esame è possibile consultare la sezione [frequentare](ttps://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) del sito del corso. Durante la sessione invernale e quella estiva sono previsti due appelli per ogni esame, durante la sessione di settembre è previsto un solo appello.
@@ -45,6 +56,9 @@ Per ogni esame è presente una data entro la quale è possibile prenotare l'esam
 {{< /hint >}}
 
 <!-- Qui possiamo linkare la guida di Leonardo tradotta in Italiano -->
+
+## **27 marzo 2025**: scadenza terza rata
+La scadenza per il pagamento della terza rata è fissata per il 27 marzo 2025. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
 ## **All'inizio del terzo anno**: compilare il Percorso Formativo
 All'inizio del terzo anno, dovrai compilare il tuo Percorso Formativo scegliendo gli esami opzionali che vorrai sostenere. Questa è un'opportunità per personalizzare il tuo percorso di studi in base ai tuoi interessi.
