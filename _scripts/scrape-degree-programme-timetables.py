@@ -319,6 +319,8 @@ def parse(DOM):
 
             if map_a_tag:
                 map_link = map_a_tag.get('href')
+            elif "Aule temporanee Via De Lollis" in td_tags[0]:
+                map_link = "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
             else:
                 map_link = None
             
