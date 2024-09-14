@@ -88,6 +88,9 @@
 - id: Subjs_TimetablesPerTeaching_Classroom
   translation: Classroom
 
+- id: Subjs_TimetablesPerTeaching_ConstructionSite
+  translation: Temporary classroom (changes from time to time) due to ongoing work in the assigned classroom, for the current classroom look for an announcement from Sapienza or the professor
+
 - id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
   translation: Join the
 

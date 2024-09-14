@@ -108,7 +108,28 @@
                                     {{ end }}
                                 </td>
                                 <td class="timetableTableCell">
+                                    {{ $replacements := dict
+                                        "(Edificio: RM005)" "Via Scarpa (RM005)"
+                                        "(Edificio: RM018)" "Castro Laurenziano (RM018)"
+                                        "(Edificio: RM025)" "Tiburtina (RM025)"
+                                        "(Edificio: RM062)" "Sociologia (RM062)"
+                                        "(Edificio: RM102)" "Via Ariosto (RM102)"
+                                        "(Edificio: RM103)" "Vetreria Sciarra (RM103)"
+                                        "(Edificio: RM111)" "Regina Elena Ed. C (RM111)"
+                                        "(Edificio: RM113)" "Regina Elena Ed. E (RM113)"
+                                        "(Edificio: RM115)" "Regina Elena Ed. G (RM115)"
+                                        "(Edificio: RM158)" "De Lollis (RM158)"
+                                    }}
+
                                     {{ range $classroom_id, $location := $info.classrooms }}
+                                        {{ range $old, $new := $replacements }}
+                                            {{ $location = replace $location $old $new }}
+                                        {{ end }}
+
+                                        {{ if (strings.Contains $location "AREA DI CANTIERE") }}
+                                            {{ $location = T "Subjs_TimetablesPerTeaching_ConstructionSite" }}
+                                        {{ end }}
+
                                         {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
 
                                         {{ if $mapsUrl }}

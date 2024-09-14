@@ -87,6 +87,9 @@
 - id: Subjs_TimetablesPerTeaching_Classroom
   translation: Aula
 
+- id: Subjs_TimetablesPerTeaching_ConstructionSite
+  translation: Aula temporanea (cambia di volta in volta) per via di lavori in corso nell'aula assegnata, per l'aula corrente cerca un annuncio di Sapienza o del professore
+
 - id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
   translation: Unisciti al
 
