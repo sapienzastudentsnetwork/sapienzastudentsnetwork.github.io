@@ -47,7 +47,46 @@
         <div class="subjsDial flex h-full w-full flex-col items-start">
             <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
             <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-                {{ partial "teachings" . }}
+                {{ $courses := site.Data.courses }}
+                {{ $degrees := dict "Informatica" "29923" "ACSAI" "30786" "Computer Science" "29932" }}
+                {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" }}
+                
+                {{ range $degreeName, $degreeCode := $degrees }}
+                    <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
+                        <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
+                        <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
+                    </h2>
+                
+                    <div class="subjsSingCourse">
+                        {{ range $code, $data := site.Data.timetables }}
+                            {{ if eq $data.degree $degreeCode }}
+                                {{ $subject_info := index $courses $code }}
+                                {{ range $channel_id, $_ := $data.channels }}
+                                    <button
+                                      id="dialog-{{ $code }}-{{ $channel_id }}"
+                                      class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                                      onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
+                                    >
+                                        <span class="w-full truncate text-left">
+                                            {{ $subject_info.name }}
+                                            {{ if ne $channel_id "0" }}
+                                                {{ if eq $channel_id "1" }}
+                                                    (A-L)
+                                                {{ else if eq $channel_id "2" }}
+                                                    (M-Z)
+                                                {{ else }}
+                                                    (Canale {{ $channel_id }})
+                                                {{ end }}
+                                            {{ end }}
+                                        </span>
+                                    </button>
+                                {{ end }}
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                
+                    <div style="width: 99%; height: 1px; background-color: #ddd; margin: 20px auto 0 auto;"></div>
+                {{ end }}                
             </div>
             <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
                 {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
