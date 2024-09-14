@@ -1,5 +1,5 @@
 ---
-title: Student's Opinions (OPIS)
+title: Students' Opinions (OPIS)
 weight: 2
 ---
 
