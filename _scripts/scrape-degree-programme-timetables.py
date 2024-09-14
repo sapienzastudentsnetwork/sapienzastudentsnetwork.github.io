@@ -284,7 +284,8 @@ def parse(DOM):
             
             # Extract the classroom description and address, removing superfluous and/or repeated information
             td_tags = row.find_all('td')
-            description = td_tags[0].text.strip().split(" - Aule - Via")[0].split(" Via")[0]
+            raw_description = td_tags[0].text
+            description = raw_description.strip().split(" - Aule - Via")[0].split(" Via")[0]
 
             address = td_tags[1].text.strip().split(" ROMA ")[0]
             if "presso" in address:
@@ -319,6 +320,8 @@ def parse(DOM):
 
             if map_a_tag:
                 map_link = map_a_tag.get('href')
+            elif "Aule temporanee Via De Lollis" in raw_description:
+                map_link = "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
             else:
                 map_link = None
             

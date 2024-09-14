@@ -1,9 +1,65 @@
 {
+  "101226": {
+    "subject": "CALCOLO DIFFERENZIALE",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "101226"
+  },
   "1015883": {
     "subject": "FONDAMENTI DI PROGRAMMAZIONE",
     "degree": "29923",
     "channels": {
       "1": {
+        "marted\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
@@ -11,6 +67,15 @@
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
             }
           }
         ]
@@ -48,37 +113,30 @@
     },
     "code": "1015883"
   },
-  "101226": {
-    "subject": "CALCOLO DIFFERENZIALE",
+  "1020420": {
+    "subject": "METODI MATEMATICI PER L'INFORMATICA",
     "degree": "29923",
     "channels": {
-      "2": {
-        "luned\u00ec": [
+      "1": {
+        "mercoled\u00ec": [
           {
-            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
             "timeslot": "08 - 11",
             "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
             }
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
             "timeslot": "08 - 10",
             "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
             }
           }
         ]
-      }
-    },
-    "code": "101226"
-  },
-  "1020420": {
-    "subject": "METODI MATEMATICI PER L'INFORMATICA",
-    "degree": "29923",
-    "channels": {
+      },
       "2": {
         "marted\u00ec": [
           {
@@ -106,6 +164,26 @@
     "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
     "degree": "29923",
     "channels": {
+      "1": {
+        "gioved\u00ec": [
+          {
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
       "2": {
         "luned\u00ec": [
           {
@@ -133,7 +211,54 @@
     "subject": "ALGEBRA",
     "degree": "29923",
     "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
       "2": {
+        "marted\u00ec": [
+          {
+            "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
@@ -151,7 +276,36 @@
     "subject": "BASI DI DATI I MODULO",
     "degree": "29923",
     "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
       "2": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
@@ -169,6 +323,35 @@
     "subject": "CALCOLO DELLE PROBABILITA'",
     "degree": "29923",
     "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
       "2": {
         "luned\u00ec": [
           {
@@ -187,6 +370,15 @@
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
             }
           }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
         ]
       }
     },
@@ -196,6 +388,26 @@
     "subject": "SISTEMI OPERATIVI I MODULO",
     "degree": "29923",
     "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ]
+      },
       "2": {
         "marted\u00ec": [
           {
@@ -230,6 +442,15 @@
             "timeslot": "08 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
             }
           }
         ]
@@ -296,6 +517,15 @@
     "degree": "29923",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
@@ -921,6 +1151,114 @@
     },
     "code": "10589558"
   },
+  "10595099_1": {
+    "subject": "CALCULUS UNIT 1",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595099"
+  },
+  "10595546_1": {
+    "subject": "COMPUTER ARCHITECTURE UNIT 1",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595546"
+  },
+  "10595524": {
+    "subject": "LINEAR ALGEBRA",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "08 - 10",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595524"
+  },
+  "10595102_1": {
+    "subject": "PROGRAMMING UNIT 1",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595102"
+  },
   "10595102_2": {
     "subject": "PROGRAMMING UNIT 2",
     "degree": "30786",
@@ -950,11 +1288,74 @@
     },
     "code": "10595102"
   },
+  "10595529": {
+    "subject": "CALCULUS 2",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595529"
+  },
+  "10595617_1": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595617"
+  },
   "10595525": {
     "subject": "PROBABILITY",
     "degree": "30786",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
@@ -973,12 +1374,48 @@
     "degree": "30786",
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "16 - 19",
             "classrooms": {
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  },
+  "10595616_2": {
+    "subject": "SYSTEMS AND NETWORKING UNIT II",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
             }
           }
         ]
@@ -1063,6 +1500,15 @@
     "degree": "30786",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "timeslot": "08 - 11",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",

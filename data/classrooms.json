@@ -14,6 +14,16 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+3)&iwloc=A&hl=it"
   },
+  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+    "description": "Aula 3 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "0423606b-48fc-4638-a851-eab7563981a2": {
+    "description": "Aula 4 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
   "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
     "description": "Aula G50 - Regina Elena - Edificio G",
     "address": "Viale Regina Elena, 295",
