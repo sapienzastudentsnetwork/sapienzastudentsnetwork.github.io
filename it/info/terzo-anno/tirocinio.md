@@ -16,7 +16,7 @@ weight: 2
 {{< hint tip >}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Esempi di relazione di tirocinio**
 
-Nella sezione [Relazioni di tirocinio condivise da altri studenti](#relazioni-di-tirocinio-condivise-da-altri-studenti) è possibile trovare degli esempi di relazioni di tirocinio condivise da altri studenti e studentesse.
+Nella [sezione dedicata](#relazioni-di-tirocinio-condivise-da-altri-studenti) è possibile trovare degli esempi di relazioni di tirocinio condivise da altri studenti e studentesse.
 {{< /hint >}}
 
 ## Come funziona il tirocinio
