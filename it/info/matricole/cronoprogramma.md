@@ -2,8 +2,14 @@
 title: Cronoprogramma del Corso di Laurea in Informatica
 bookHidden: false
 ---
-
 # Cronoprogramma del Corso di Laurea in Informatica
+
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome day il 25 settembre**
+
+Il **25 settembre 2024** alle ore 14 si terrà il welcome day per le nuove matricole di Informatica e di ACSAI, [qui tutte le informazioni](#25-settembre-2024-welcome-day-per-le-matricole).
+{{< /hint >}}
+
 
 Anche se all'inizio potresti sentirti un po' disorientato, in realtà ci sono solo alcuni momenti chiave da tenere a mente durante il tuo percorso accademico. Questo cronoprogramma ti aiuterà a navigare attraverso le tappe principali del Corso di Laurea in Informatica.
 
@@ -16,6 +22,11 @@ Il primo passo fondamentale è iscriversi: per farlo è necessario superare il t
 Prima di iniziare a frequentare le lezioni, è importante consultare la pagina di Informatica nel [Catalogo Dei Corsi di Studio](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/home), in particolare la sezione [frequentare](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) per conoscere la data di inizio delle lezioni, gli orari e le aule delle lezioni ed eventuali lezioni con l'inizio posticipato.
 
 Per conoscere la posizione degli edifici all'interno della città universitaria (tutti quelli con il codice che inizia con **CU**), puoi consultare la [mappa delle aule](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
+
+## **25 settembre 2024**: welcome day per le matricole
+Il **25 settembre 2024**, dalle ore 14, si terrà il welcome day per le matricole del Corso di Laurea in Informatica. Durante l'evento avrai l'opportunità di conoscere i docenti, il personale e i tutor del corso, e di ricevere informazioni utili per iniziare al meglio il tuo percorso accademico.
+
+L'evento si terrà di fronte al Dipartimento di Informatica, in Viale Regina Elena 295, edificio E.
 
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
 Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. Sebbene alcune lezioni possano essere registrate o disponibili online, la partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
