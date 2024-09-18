@@ -16,17 +16,17 @@ bookToc: False
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
         <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
-        <p class="home_box_text">Get into the Computer Science course</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/29932/info/getting-in/how-to-get-in/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <p class="home_box_text">Get into the CS course</p>
+        <button class="explore_more" onclick="window.location.href = 'info/getting-in/how-to-get-in/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_wiki">
-        <p class="home_box_text_title" id="home_wiki_text">Wiki</p>
-        <p class="home_box_text">Find everything you need</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/29932/info/students-life/exams/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_ssn_groups">
+        <p class="home_box_text_title" id="home_wiki_text">Gruppi</p>
+        <p class="home_box_text">Join student chat groups</p>
+        <button class="explore_more" onclick="window.location.href = 'channels/groups/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_study_plan">
         <p class="home_box_text_title" id="home_wiki_text">Study Plan</p>
         <p class="home_box_text">Match your interests</p>
-        <button class="explore_more" onclick="window.location.href = 'https://sapienzastudents.net/29932/info/study-plan/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/study-plan/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
