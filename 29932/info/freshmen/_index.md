@@ -1,5 +1,5 @@
 ---
-title: Getting in CS
+title: Freshmen
 bookCollapseSection: true
 bookHidden: false
 weight: 1

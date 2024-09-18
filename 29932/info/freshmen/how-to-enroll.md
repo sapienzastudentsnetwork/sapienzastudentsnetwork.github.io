@@ -1,6 +1,6 @@
-
 ---
 title: How to enroll
+aliases: ["/29932/info/getting-in/how-to-get-in", "/29932/info/freshmen/how-to-get-in"]
 ---
 
 # How to enroll

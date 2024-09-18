@@ -1,6 +1,6 @@
 # SapienzaStudents.net
 
-🌐 Sito Web ufficiale degli Studenti e le Studentesse dei Corsi di Laurea afferenti al Consiglio di Area Didattica (CAD) in Informatica di Sapienza Università di Roma.
+🌐 Sito Web degli Studenti e le Studentesse dei Corsi di Laurea afferenti al Consiglio di Area Didattica (CAD) in Informatica di Sapienza Università di Roma.
 
 💡 L'idea di questo sito è quella di creare un hub/wiki centrale di contenuti con tutte le informazioni inerenti ai corsi di laurea del CAD di Informatica. I contenuti spaziano su vari topics: come iscriversi ai singoli corsi di laurea, consigli per affrontare al meglio la vita studentesca, guida ad alcune procedure necessarie e ricorrenti, servizi per le matricole e molto altro!
 

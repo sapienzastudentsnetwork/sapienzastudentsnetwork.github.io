@@ -15,7 +15,7 @@ Even if you might feel a bit lost at first, there are only a few key moments to 
 Remember: the goal is not just to reach the end, but to gain the most value from every stage of the journey. Take advantage of every opportunity to grow, learn, and build your future, alongside your classmates and future colleagues.
 
 ## **From April to September**: Register and Enroll
-The first essential step is to register: to do so, you need to pass the TOLC-I entrance test and enroll. You can find all the necessary information and steps in the [registration guide](/30786/info/getting-in/how-to-get-in/).
+The first essential step is to register: to do so, you need to pass the TOLC-I entrance test and enroll. You can find all the necessary information and steps in the [registration guide](/30786/info/freshmen/how-to-enroll/).
 
 ## **Mid-September**: Check the Schedule and Classrooms
 Before starting classes, it's important to check the Applied Computer Science and Artificial Intelligence page in the [Study Program Catalog](https://www.corsidilaurea.uniroma1.it/en/corso/2024/30786/home), especially the [attendance section](https://www.corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione), to know the start date of classes, the schedule, and classrooms, as well as any classes with delayed starts.
@@ -23,7 +23,7 @@ Before starting classes, it's important to check the Applied Computer Science an
 To locate buildings within the university city (those with codes starting with **CU**), you can consult the [classroom map](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
 ## **September 25, 2024**: *Welcome Day* for New Students
-On **September 25, 2024**, from 2:00 PM to 4:00 PM, the Welcome Day for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
+On **September 25, 2024**, from 2:00 PM to 4:00 PM, the *Welcome Day* for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
 
 The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6.
 

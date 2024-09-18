@@ -17,7 +17,7 @@ bookToc: False
     <div class="home_page" id="home_enroll">
         <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
         <p class="home_box_text">Get into the CS course</p>
-        <button class="explore_more" onclick="window.location.href = 'info/getting-in/how-to-get-in/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/freshmen/how-to-enroll/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_ssn_groups">
         <p class="home_box_text_title" id="home_wiki_text">Gruppi</p>

@@ -17,7 +17,7 @@ bookToc: False
 
 ## In evidenza
 <div class="home_evid">
-    <div class="home_page" id="home_cronoprogramma">
+    <div class="home_page" id="home_timeline">
         <p class="home_box_text_title" id="home_wiki_text">Guide</p>
         <p class="home_box_text">Dall'iscrizione alla laurea</p>
         <button class="explore_more" onclick="window.location.href = 'info/matricole/cronoprogramma/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
