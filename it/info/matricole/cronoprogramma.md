@@ -23,10 +23,17 @@ Prima di iniziare a frequentare le lezioni, è importante consultare la pagina d
 
 Per conoscere la posizione degli edifici all'interno della città universitaria (tutti quelli con il codice che inizia con **CU**), puoi consultare la [mappa delle aule](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
-## **25 settembre 2024**: welcome day per le matricole
-Il **25 settembre 2024**, dalle ore 14, si terrà il welcome day per le matricole del Corso di Laurea in Informatica. Durante l'evento avrai l'opportunità di conoscere i docenti, il personale e i tutor del corso, e di ricevere informazioni utili per iniziare al meglio il tuo percorso accademico.
+## **25 settembre 2024**: *Welcome Day* per le matricole
+Il **25 settembre 2024**, dalle ore 14 alle ore 16, si terrà il *Welcome Day* per le matricole dei corsi di Laurea in Informatica (presenza e prevalentemente a distanza) e ACSAI. Durante l'evento avrai l'opportunità di conoscere i docenti, il personale e i tutor del corso, e di ricevere informazioni utili per iniziare al meglio il tuo percorso accademico.
 
-L'evento si terrà di fronte al Dipartimento di Informatica, in Viale Regina Elena 295, edificio E.
+L'evento si terrà nello spiazzale antistante l'edificio E del Dipartimento di Informatica, accessibile dal Viale Regina Elena 295 e dal Viale del Castro Laurenziano 6.
+
+Di seguito il programma di massima:
+- Saluti del presidente dei corsi di laurea, prof.ssa Annalisa Massini
+- Presentazione dei docenti del corso
+- Presentazione del personale amministrativo
+- Presentazione dei tutor con presentazione degli strumenti di supporto allo studio
+- Breve rinfresco con DJ set con DJ Palma
 
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
 Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. Sebbene alcune lezioni possano essere registrate o disponibili online, la partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
