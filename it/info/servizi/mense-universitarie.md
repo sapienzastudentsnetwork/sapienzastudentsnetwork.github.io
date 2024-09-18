@@ -5,21 +5,7 @@ weight: 3
 
 # Mense universitarie
 
-{{< hint info >}}
-Le informazioni qui contenute possono essere trovate con maggior precisione sul sito di [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/)
-{{< /hint >}}
-
-Le mense universitarie sono strutture che permettono di mangiare ad un prezzo agevolato a seconda del proprio ISEE universitario.
-
-Esse consentono l'accesso solo agli studenti iscritti alle Università statali e non statali della Regione Lazio.
-
-|                ISEE                | Costo di una pasto completo |
-|:----------------------------------:|:---------------------------:|
-|        fino a ~19 mila euro        |           2,20 €            |
-|        fino a ~35 mila euro        |             3 €             |
-|        fino a ~60 mila euro        |           4,10 €            |
-|         oltre 60 mila euro         |           5,90 €            |
-|           non dichiarato           |           7,70 €            |
+Le mense universitarie sono strutture che permettono di mangiare ad un prezzo agevolato (i prezzi per fascia ISEE possono essere consultati nella [pagina dedicata sul sito DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/)) a seconda del proprio ISEE universitario.
 
 Gli studenti internazionali possono ottenere l'ISEE soltanto in uno dei CAF convenzionati: l'elenco per l'A.A. 2024/2025 si trova [qui](http://www.laziodisco.it/a-a-a2024-2025-elenco-dei-caf-convenzionati/). La documentazione richiesta per ottenere il calcolo dell'ISEE si trova sul sito di [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) sotto la voce "Documentazione per il primo accredito di studenti internazionali".
 
