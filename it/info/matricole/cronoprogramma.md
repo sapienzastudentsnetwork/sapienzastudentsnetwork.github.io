@@ -16,7 +16,7 @@ Anche se all'inizio potresti sentirti un po' disorientato, in realtà ci sono so
 Ricorda: l'obiettivo non è solo raggiungere la fine del percorso, ma anche trarre il massimo valore da ogni fase del percorso. Approfitta di ogni opportunità per crescere, imparare e costruire il tuo futuro, insieme ai tuoi compagni e futuri colleghi.
 
 ## **Da aprile a settembre**: iscriversi e immatricolarsi
-Il primo passo fondamentale è iscriversi: per farlo è necessario superare il test di ingresso TOLC-I e immatricolarsi. Puoi trovare tutte le informazioni e i passaggi necessari sulla [guida per iscriversi](/it/info/matricole/iscriversi/).
+Il primo passo fondamentale è iscriversi: per farlo è necessario superare il test di ingresso TOLC-I e immatricolarsi. Puoi trovare tutte le informazioni e i passaggi necessari sulla [guida per iscriversi](/it/info/matricole/come-iscriversi/).
 
 ## **Metà settembre**: controllare l'orario e le aule delle lezioni
 Prima di iniziare a frequentare le lezioni, è importante consultare la pagina di Informatica nel [Catalogo Dei Corsi di Studio](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/home), in particolare la sezione [frequentare](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) per conoscere la data di inizio delle lezioni, gli orari e le aule delle lezioni ed eventuali lezioni con l'inizio posticipato.

@@ -21,7 +21,9 @@ Each student must choose **36 ECTS credits** of **elective courses**. For exampl
 
 Of the **36 ECTS credits**:
 
-- **12 ECTS credits** can be chosen from outside the course catalog, including from other faculties.
+- **12 ECTS credits** can be chosen from outside the course catalog, including from other faculties
+
+  - In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Course, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
 
 - **18 ECTS credits** can be chosen from the Applied Computer Science course catalog
 
@@ -58,7 +60,7 @@ In all other cases, students will need to wait for their study plan to be review
 
 ### How to select External Courses
 
-Each student can choose **12 CFU** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
+Each student can choose **12 ECTS** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
@@ -84,7 +86,7 @@ The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angel
 
 ## Courses
 
-| Course code | Course                          | Semester              | CFU | SSD    |
+| Course code | Course                          | Semester              | ECTS | SSD    |
 | ----------- | ------------------------------- |-----------------------| --- | ------ |
 | 10595530    | Foundations of Computer Science | First                 | 6   | INF/01 |
 |             | Applied Computer Science        | See "Optional Groups" | 18  | INF/01 |
@@ -99,7 +101,7 @@ The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angel
 
 The student must acquire 18 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD    |
+| Course code | Course                        | Year  | Semester | ECTS | SSD    |
 | ----------- | ----------------------------- | ----- | -------- | --- | ------ |
 | 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
 | 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
@@ -111,7 +113,7 @@ The student must acquire 18 credits from the exams in the group
 
 The student must acquire 6 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD       |
+| Course code | Course                        | Year  | Semester | ECTS | SSD       |
 | ----------- | ----------------------------- | ----- | -------- | --- | --------- |
 | 10595536    | Business and Computer Science | Third | Second   | 6   | SECS-P/07 |
 | 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |
@@ -124,7 +126,7 @@ Below is a list of some courses that have been recognized for Applied Computer S
 
 Please also refer to the guidelines on [how to select external courses](#how-to-select-external-courses) for more information!
 
-| Insegnamento                                                  | Codice                                                                                                                                                                                                                                                                                                                                               | CdL                                                                                                                                                                                           | CFU | Chat                                           |
+| Insegnamento                                                  | Codice                                                                                                                                                                                                                                                                                                                                               | CdL                                                                                                                                                                                           | ECTS | Chat                                           |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|------------------------------------------------|
 | APPLICAZIONI DELL'AUTOMATICA                                  | [1056052](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/31810/20220331104432/47c0ec84-11c0-4c84-bd7c-fab4d3c00649/9f00cb4b-e41b-4591-b5aa-6b3966592a39/879b488e-e48c-44e7-b2a1-7ab688d57538/af43efda-8aa7-4a76-b59d-de703597c6e9?guid_cv=9f00cb4b-e41b-4591-b5aa-6b3966592a39&current_erogata=47c0ec84-11c0-4c84-bd7c-fab4d3c00649)  | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/en/corso/2024/31810/programmazione)                                                                                              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)     |
 | BIOETHICS                                                     | [1049265](https://corsidilaurea.uniroma1.it/en/view-course-details/2024/30422/20220331104432/07e186fc-65fb-4b47-956a-8c5d87e80bde/c3f71c1c-6299-4a6c-87ff-cc6fce1e13f0/395183db-385f-40b2-b469-b518ac847b79/a11714d6-cb6e-4592-b635-c69beee03e15?guid_cv=c3f71c1c-6299-4a6c-87ff-cc6fce1e13f0&current_erogata=07e186fc-65fb-4b47-956a-8c5d87e80bde)  | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6   | -                                              |

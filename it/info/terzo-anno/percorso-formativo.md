@@ -24,6 +24,8 @@ Ogni studente deve scegliere **30 CFU** di **insegnamenti opzionali**. È possib
 
 **12 CFU** dei **30 CFU** possono essere scelti anche al di fuori del manifesto del corso di studi, incluse altre facoltà.
 
+- In particolare, è possibile scegliere fino a un massimo di **15 CFU** di insegnamenti esterni al Corso di Laurea, che però verranno conteggiati come massimo **12 CFU**. Questo per dare l'eventuale possibilità di scegliere, per puro interesse personale, un insegnamento esterno al CdL da 6 CFU e un altro da 9, ad esempio.
+
 ### Quando presentare il proprio percorso formativo
 
 Gli studenti, una volta raggiunto il Terzo Anno, possono presentare o chiedere di rinnovare il loro percorso formativo una sola volta per ogni anno accademico.
