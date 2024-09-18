@@ -7,7 +7,7 @@ bookHidden: false
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Day on September 25**
 
-On **September 25, 2024**, at 2:00 PM, the welcome day for new Computer Science and ACSAI students will take place. [Find all the information here](#september-25-2024-welcome-day-for-new-students).
+On **September 25, 2024**, at 2:00 PM, the Welcome Day for new Computer Science and ACSAI students will take place. [Find all the information here](#september-25-2024-welcome-day-for-new-students).
 {{< /hint >}}
 
 Even if you might feel a bit lost at first, there are only a few key moments to keep in mind during your academic journey. This timeline will help you navigate the main milestones of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence.
@@ -22,10 +22,17 @@ Before starting classes, it's important to check the Applied Computer Science an
 
 To locate buildings within the university city (those with codes starting with **CU**), you can consult the [classroom map](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
-## **September 25, 2024**: Welcome Day for New Students
-On **September 25, 2024**, starting at 2:00 PM, the welcome day for new students in the Bachelor's Degree in Applied Computer Science and Artificial Intelligence will be held. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best way.
+## **September 25, 2024**: *Welcome Day* for New Students
+On **September 25, 2024**, from 2:00 PM to 4:00 PM, the Welcome Day for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
 
-The event will take place in front of the Department of Computer Science, at Viale Regina Elena 295, Building E.
+The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6.
+
+Below is the outline program:
+- Greetings from the chair of the graduate programs, Prof. Annalisa Massini
+- Introduction of the course professors
+- Introduction of the administrative staff
+- Introduction of the tutors with a presentation of study support tools
+- Brief refreshment with DJ set by DJ Palma
 
 ## **From September to December and from March to May**: Attend Classes
 Attending classes is essential for mastering the concepts of the various courses and passing the exams smoothly. Although some classes may be recorded or available online, active participation in the classroom will help you better understand the concepts and interact with professors and fellow students.
