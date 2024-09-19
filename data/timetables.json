@@ -465,7 +465,7 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": null,
+            "teacher": "1ba2f7b6-acc7-4d42-b346-733d092bf98f",
             "timeslot": "17 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -474,7 +474,7 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": null,
+            "teacher": "1ba2f7b6-acc7-4d42-b346-733d092bf98f",
             "timeslot": "08 - 11",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -1185,7 +1185,7 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": null,
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "08 - 11",
             "classrooms": {
               "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
@@ -1194,7 +1194,7 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": null,
+            "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "08 - 10",
             "classrooms": {
               "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
