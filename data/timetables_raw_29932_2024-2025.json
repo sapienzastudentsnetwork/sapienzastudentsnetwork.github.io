@@ -695,34 +695,6 @@
             ]
           },
           {
-            "course": "1047635",
-            "subject": "MACHINE LEARNING",
-            "building": "Edificio: RM062",
-            "room": "Aula Alfa",
-            "teacher": "",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "10:00",
-                "to": "13:00"
-              }
-            ]
-          },
-          {
-            "course": "1047635",
-            "subject": "MACHINE LEARNING",
-            "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
-            "teacher": "",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "16:00",
-                "to": "18:00"
-              }
-            ]
-          },
-          {
             "course": "10589558",
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
             "building": "Edificio: RM115",

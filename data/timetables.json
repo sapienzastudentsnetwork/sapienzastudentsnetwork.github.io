@@ -1106,33 +1106,6 @@
     },
     "code": "AAF1246"
   },
-  "1047635": {
-    "subject": "MACHINE LEARNING",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047635"
-  },
   "10589558": {
     "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
     "degree": "29932",
