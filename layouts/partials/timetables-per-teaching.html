@@ -133,7 +133,7 @@
                                         {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
 
                                         {{ if $mapsUrl }}
-                                            <a href="{{ $mapsUrl }}">{{ $location }}</a>
+                                            <a href="{{ $mapsUrl }}" target="_blank">{{ $location }}</a>
                                             <br/>
                                         {{ else }}
                                             {{ $location }}
