@@ -11,6 +11,18 @@ Sapienza offre due principali tipi di tutoraggio. Il primo è il **tutoraggio pe
 Il secondo tipo è il **tutoraggio per l'apprendimento complessivo**. Questo servizio offre orientamento generale nel percorso di studi, aiuta nel reperire informazioni e risorse, e fornisce supporto durante tutto il percorso accademico. È particolarmente utile per gli studenti che stanno muovendo i primi passi all'interno dell'Ateneo.
 
 ## Come accedere al servizio di tutoraggio?
+
+### Tutoraggio per i singoli corsi
+
 Il tutoraggio per i singoli corsi viene solitamente comunicato dal docente durante le lezioni o il sito del corso. Le sessioni di tutoraggio vengono svolte al di fuori dell'orario di lezioni e possono partecipare tutti gli studenti interessati. La partecipazione è consigliata, perché permette di alleggerire il carico di studio e di chiarire eventuali dubbi. Spesso gli esercizi svolti sono simili a quelli che verranno proposti durante l'esame, quindi partecipare al tutoraggio può essere un ottimo modo per prepararsi nelle settimane precedenti agli esami.
 
-Per contattare i tutor per l'apprendimento complessivo basterà recarsi nella pagina dei [curatori di questa wiki](/it/contribuire/contatti/) e contattare uno dei tutor di riferimento.
+### Tutoraggio per l'apprendimento complessivo
+
+Di seguito una lista di contatti dei Tutor per l'Apprendimento Complessivo dell'A.A. 2024/25:
+
+| Tutor             | Contatto                                        |
+|-------------------|-------------------------------------------------|
+| Lorenzo Antonelli | [Telegram](https://telegram.me/lorenzosphotos)  |
+| Oriana Deliallisi | [Telegram](https://telegram.me/orianani)        |
+| Marcello Galisai  | [Telegram](https://telegram.me/marcellogalisai) |
+| Michele Palma     | [Telegram](https://telegram.me/flyingmp)        |
