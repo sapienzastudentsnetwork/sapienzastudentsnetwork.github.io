@@ -18,9 +18,9 @@ General groups on Telegram bring together **all** students **of any year**
 
 ### A.Y. 2024/2025
 
-[![](https://img.shields.io/badge/-whatsapp_group_2024--25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
-
 [![](https://img.shields.io/badge/-telegram_group_2024--25-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
+
+[![](https://img.shields.io/badge/-whatsapp_group_2024--25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
 
 ## Students from previous years
 
