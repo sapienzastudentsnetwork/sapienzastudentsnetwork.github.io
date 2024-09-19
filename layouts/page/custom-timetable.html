@@ -201,29 +201,31 @@
             for (const subjectId of selectedSubjects) {
                 const button = document.getElementById("dialog-" + subjectId);
 
-                if (button.classList.contains("c-30786")) {
-                    button.classList.add("c-30786-disabled")
-                    button.classList.remove("c-30786")
-                } else if (button.classList.contains("c-29932")) {
-                    button.classList.add("c-29932-disabled")
-                    button.classList.remove("c-29932")
-                } else if (button.classList.contains("c-29923")) {
-                    button.classList.add("c-29923-disabled")
-                    button.classList.remove("c-29923")
-                }
+                if (button) { // Check if the button exists
+                    if (button.classList.contains("c-30786")) {
+                        button.classList.add("c-30786-disabled");
+                        button.classList.remove("c-30786");
+                    } else if (button.classList.contains("c-29932")) {
+                        button.classList.add("c-29932-disabled");
+                        button.classList.remove("c-29932");
+                    } else if (button.classList.contains("c-29923")) {
+                        button.classList.add("c-29923-disabled");
+                        button.classList.remove("c-29923");
+                    }
 
-                button.classList.remove(
-                    "bg-gray-50",
-                    "dark:bg-gray-900",
-                    "dark:text-white",
-                );
-                button.classList.add(
-                    "bg-black",
-                    "text-white",
-                    "dark:bg-white",
-                    "dark:text-black",
-                    "subjIsSelected"
-                );
+                    button.classList.remove(
+                      "bg-gray-50",
+                      "dark:bg-gray-900",
+                      "dark:text-white",
+                    );
+                    button.classList.add(
+                      "bg-black",
+                      "text-white",
+                      "dark:bg-white",
+                      "dark:text-black",
+                      "subjIsSelected"
+                    );
+                }
 
                 let subjectCode = subjectId.split("-")[0];
                 let subject_div = document.getElementById(subjectCode);
