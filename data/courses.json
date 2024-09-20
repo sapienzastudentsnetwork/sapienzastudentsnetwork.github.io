@@ -220,37 +220,37 @@
     "10595099_1": {
         "name": "Calculus - Unit 1",
         "shortName": "Calculus U1",
-        "abbr": "CU1"
+        "abbr": "CAL(U1)"
     },
     "10595099_2": {
         "name": "Calculus - Unit 2",
         "shortName": "Calculus U2",
-        "abbr": "CU2"
+        "abbr": "CAL(U2)"
     },
     "10595546_1": {
         "name": "Computer Architecture - Unit 1",
         "shortName": "Comp. Arch. U1",
-        "abbr": "CAU1"
+        "abbr": "CA(U1)"
     },
     "10595546_2": {
         "name": "Computer Architecture - Unit 2",
         "shortName": "Comp. Arch. U2",
-        "abbr": "CAU2"
+        "abbr": "CA(U2)"
     },
     "10595524": {
         "name": "Linear Algebra",
         "shortName": "Algebra",
-        "abbr": "ALG"
+        "abbr": "LA"
     },
     "10595102_1": {
         "name": "Programming U1",
         "shortName": "Programming U1",
-        "abbr": "PRU1"
+        "abbr": "PR(U1)"
     },
     "10595102_2": {
         "name": "Programming U2",
         "shortName": "Programming U2",
-        "abbr": "PRU2"
+        "abbr": "PR(U2)"
     },
     "1049269": {
         "name": "Algorithms",
@@ -270,32 +270,32 @@
     "10595529": {
         "name": "Calculus 2",
         "shortName": "Calculus 2",
-        "abbr": "C2"
+        "abbr": "CAL2"
     },
     "10595617_1": {
         "name": "Data Management and Analysis - Unit 1",
         "shortName": "Data U1",
-        "abbr": "DMA1"
+        "abbr": "DMA(U1)"
     },
     "10595617_2": {
         "name": "Data Management and Analysis - Unit 2",
         "shortName": "Data U2",
-        "abbr": "DMA2"
+        "abbr": "DMA(U2)"
     },
     "10595525": {
         "name": "Probability",
         "shortName": "Probability",
-        "abbr": "PR"
+        "abbr": "PROB"
     },
     "10595616_1": {
         "name": "Systems and Networking - Unit 1",
         "shortName": "Systems & Net. U1",
-        "abbr": "SNU1"
+        "abbr": "SN(U1)"
     },
     "10595616_2": {
         "name": "Systems and Networking - Unit 2",
         "shortName": "Systems & Net. U2",
-        "abbr": "SNU2"
+        "abbr": "SN(U2)"
     },
     "10595618_1": {
         "name": "Artificial Intelligence and Machine Learning - Unit 1",
@@ -316,17 +316,17 @@
     "1055043": {
         "name": "Statics",
         "shortName": "Statistics",
-        "abbr": "ST"
+        "abbr": "STAT"
     },
     "10595530": {
         "name": "Foundations of Computer Science",
         "shortName": "Found. of CS",
-        "abbr": "FCS"
+        "abbr": "FOCS"
     },
     "10595532": {
         "name": "Cybersecurity",
         "shortName": "Cybersec",
-        "abbr": "SEC",
+        "abbr": "CSEC",
         "tgGroup": "https://t.me/+ZLceB7Q8cSA2NzA0"
     },
     "10595531": {
