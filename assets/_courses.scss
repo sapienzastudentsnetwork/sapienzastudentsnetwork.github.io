@@ -12,6 +12,10 @@
     .course_panel {
         width: calc(50% - 6px);
     }
+
+    .explore_badges {
+        margin: 10px 0 0 0;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -27,6 +31,10 @@
 
     .course_panel {
         width: calc(25% - 6px);
+    }
+
+    .explore_badges {
+        margin: 30px 0 0 0;
     }
 }
 
@@ -184,4 +192,50 @@
 
 #panel_transp {
     background-color: transparent;
+}
+
+/*      B A D G E S     P O P U P       */
+
+.explore_badges, .course_mat {
+    background-color: #eeeeee;
+    font-family: 'DM Sans';
+    font-weight: 200;
+    font-size: 18px;
+    color: #252d3f;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    border-width: 0;
+}
+
+.explore_badges {
+    width: 120px;
+}
+
+.course_mat {
+    width: 180px;
+    margin: 10px 0 0 0;
+}
+
+#course_moodle {
+    background: linear-gradient(90deg, rgba(226,141,32,1) 14%, rgba(232,175,101,1) 64%);
+}
+
+#course_classroom {
+    background: linear-gradient(90deg, rgba(115,171,55,1) 14%, rgba(171,224,102,1) 64%);
+}
+
+#course_gdrive {
+    background: linear-gradient(90deg, rgba(55,160,171,1) 14%, rgba(102,224,187,1) 64%);
+}
+
+#course_prof_site {
+    background: linear-gradient(90deg, rgba(159,119,196,1) 14%, rgba(143,143,198,1) 64%);
+}
+
+#badges_meaning {
+    box-shadow: 0px 0px 120px rgba(0, 0, 0, 1);
+    border-radius: 32px;
 }
