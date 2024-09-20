@@ -321,23 +321,14 @@
             "teacher": "GORLA DANIELE",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              }
-            ]
-          },
-          {
-            "course": "10595530",
-            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
-            "building": "Edificio: RM158",
-            "room": "Aula 4",
-            "teacher": "GORLA DANIELE",
-            "schedule": [
-              {
                 "day": "luned\u00ec",
                 "from": "08:00",
                 "to": "11:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
               }
             ]
           },

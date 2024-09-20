@@ -593,33 +593,6 @@
     },
     "code": "1022264"
   },
-  "10593234": {
-    "subject": "METODI NUMERICI DELL INFORMATICA",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10593234"
-  },
   "10596283": {
     "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
     "degree": "29923",
@@ -628,9 +601,9 @@
         "luned\u00ec": [
           {
             "teacher": null,
-            "timeslot": "08 - 11",
+            "timeslot": "17 - 20",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
             }
           }
         ],
@@ -754,7 +727,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "14 - 16",
+            "timeslot": "15 - 18",
             "classrooms": {
               "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
             }
@@ -1015,7 +988,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "08 - 10",
+            "timeslot": "13 - 15",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
@@ -1478,7 +1451,7 @@
             "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
             "timeslot": "08 - 11",
             "classrooms": {
-              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ],
