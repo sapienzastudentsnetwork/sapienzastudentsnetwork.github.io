@@ -42,20 +42,6 @@
             "course": "10600495",
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
             "building": "Edificio: RM115",
-            "room": "Aula G0",
-            "teacher": "TRONCI ENRICO",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ]
-          },
-          {
-            "course": "10600495",
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "building": "Edificio: RM115",
             "room": "Aula G50",
             "teacher": "TRONCI ENRICO",
             "schedule": [
@@ -63,6 +49,20 @@
                 "day": "luned\u00ec",
                 "from": "09:00",
                 "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "10600495",
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "building": "Edificio: RM113",
+            "room": "Aula S1 ",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ]
           },
@@ -436,20 +436,6 @@
             "course": "10600495",
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
             "building": "Edificio: RM115",
-            "room": "Aula G0",
-            "teacher": "TRONCI ENRICO",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ]
-          },
-          {
-            "course": "10600495",
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "building": "Edificio: RM115",
             "room": "Aula G50",
             "teacher": "TRONCI ENRICO",
             "schedule": [
@@ -457,6 +443,20 @@
                 "day": "luned\u00ec",
                 "from": "09:00",
                 "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "10600495",
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "building": "Edificio: RM113",
+            "room": "Aula S1 ",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ]
           },
