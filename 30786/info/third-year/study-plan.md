@@ -60,7 +60,7 @@ In all other cases, students will need to wait for their study plan to be review
 
 ### How to select External Courses
 
-Each student can choose **12 ECTS** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
+Each student **can** choose **12 ECTS** of courses outside the course manifesto, and thus from other **Bachelor's** Degree courses (if desired also from other departments or even faculties), but **how to choose these teachings?**
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
