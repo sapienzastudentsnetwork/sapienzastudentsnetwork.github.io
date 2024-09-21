@@ -6,7 +6,7 @@ labels: Internship Report
 assignees: Lorenzoantonelli
 ---
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Allega a questa issue il link o il file della relazione di tirocinio. Per caricare la relazione è necessario selezionare tutte e tre le tre caselle sotto, aggiungendo una `x` su ognuna.
 
 
