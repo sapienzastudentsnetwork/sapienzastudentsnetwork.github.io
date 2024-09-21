@@ -7,14 +7,14 @@ weight: 2
 
 The calendar can also be viewed on the [department's official page](https://i3s.web.uniroma1.it/en/programme-calendar).
 
-## Lessons Calendar
+## Lessons
 
 | Semester | Start Date        | End Date         | 
 |----------|-------------------|------------------|
 | I        | 23 September 2024 | 20 December 2024 |
 | II       | 26 February 2025  | 30 May 2024      |
 
-## Exams Calendar
+## Exams
 
 | Session                | Start Date       | End Date          | 
 |------------------------|------------------|-------------------|
@@ -29,7 +29,7 @@ The calendar can also be viewed on the [department's official page](https://i3s.
 - **(§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/en/content/exams), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations).
 - **(§§)** Reserved for the categories of students indicated in [art. 40](https://www.uniroma1.it/en/content/exams), paragraph 6 of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations), and to students who have not completed the exams within the set time period, enrolled for the A.Y. 2024-2025 in the Third Year of the Bachelor's Degree _and in the second year of the master's degree_.
 
-## Graduation Calendar
+## Graduation (Bachelor's Degrees)
 
 | Graduation Session | Dates                        | Graduation Application Deadline |
 |--------------------|------------------------------|---------------------------------|

@@ -7,14 +7,14 @@ weight: 1
 
 Il calendario può essere consultato anche sulla [pagina ufficiale del dipartimento](https://i3s.web.uniroma1.it/it/calendario-didattico).
 
-## Calendario delle Lezioni
+## Lezioni
 
 | Semestre | Data di Inizio             | Data di Fine             | 
 |----------|----------------------------|--------------------------|
 | I        | Lunedì 23 settembre 2024   | Venerdì 20 dicembre 2024 |
 | II       | Mercoledì 26 febbraio 2025 | Venerdì 30 maggio 2024   |
 
-## Calendario degli Esami
+## Sessioni d'Esame
 
 | Sessione              | Data di Inizio           | Data di Fine              | 
 |-----------------------|--------------------------|---------------------------|
@@ -29,7 +29,7 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
 - **(§)** Riservato alle categorie di studenti indicate nell'[art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), comma 6 del [Regolamento Studenti](https://www.uniroma1.it/it/pagina/regolamento-studenti).
 - **(§§)** Riservato alle categorie di studenti indicate nell'[art. 40](https://www.uniroma1.it/it/content/esami-di-profitto), comma 6 del [Regolamento Studenti](https://www.uniroma1.it/it/pagina/regolamento-studenti), e agli studenti fuori corso, iscritti per l’A.A. 2024-2025 al Terzo Anno della Laurea Triennale _e al secondo anno della laurea magistrale_.
 
-## Calendario delle Lauree
+## Laurea (Triennali)
 
 | Sessione di Laurea | Date                                         | Termine per la Domanda di Laurea |
 |--------------------|----------------------------------------------|----------------------------------|
