@@ -95,7 +95,6 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)
 - [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
