@@ -3,366 +3,460 @@
         "name": "Calcolo Differenziale",
         "shortName": "Calc. Diff.",
         "abbr": "CD",
-        "tgGroup": "https://t.me/+Cw_63BoRvE03YmM0"
+        "tgGroup": "https://t.me/+Cw_63BoRvE03YmM0",
+        "cfu": 6,
+        "department": "MAT"
     },
     "1015883": {
         "name": "Fondamenti di Programmazione",
         "shortName": "Python",
         "abbr": "FDP",
-        "tgGroup": "https://t.me/+NQ8H6iLHOIIwMzM0"
+        "tgGroup": "https://t.me/+NQ8H6iLHOIIwMzM0",
+        "cfu": 9,
+        "department": "INF"
     },
     "1020420": {
         "name": "Metodi Matematici per l'Informatica",
         "shortName": "Metodi Matem.",
         "abbr": "MMI",
-        "tgGroup": "https://t.me/+m_-WkFEmQzdmZDZk"
+        "tgGroup": "https://t.me/+m_-WkFEmQzdmZDZk",
+        "cfu": 6,
+        "department": "MAT"
     },
     "1015880": {
         "name": "Progettazione di Sistemi Digitali",
         "shortName": "Sist. Digit.",
         "abbr": "PSD",
-        "tgGroup": "https://t.me/+hr9OFwWWGCZhODU0"
+        "tgGroup": "https://t.me/+hr9OFwWWGCZhODU0",
+        "cfu": 6,
+        "department": "INF"
     },
     "1015881": {
         "name": "Architettura degli Elaboratori",
         "shortName": "Arch. Elab.",
         "abbr": "AE",
-        "tgGroup": "https://t.me/+2PAqwS4raLY4N2U0"
+        "tgGroup": "https://t.me/+2PAqwS4raLY4N2U0",
+        "cfu": 6,
+        "department": "INF"
     },
     "97796": {
         "name": "Calcolo Integrale",
         "shortName": "Calc. Int.",
         "abbr": "CI",
-        "tgGroup": "https://t.me/+lnnFbmFQNNBjNGRk"
+        "tgGroup": "https://t.me/+lnnFbmFQNNBjNGRk",
+        "cfu": 6,
+        "department": "MAT"
     },
     "1015885": {
         "name": "Introduzione agli Algoritmi",
         "shortName": "Intro. Algo",
         "abbr": "IALG",
-        "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0"
+        "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0",
+        "cfu": 6,
+        "department": "INF"
     },
     "1015884": {
         "name": "Metodologie di Programmazione",
         "shortName": "Java",
         "abbr": "MDP",
-        "tgGroup": "https://t.me/+8iyKxeRgfXtmY2Y0"
+        "tgGroup": "https://t.me/+8iyKxeRgfXtmY2Y0",
+        "cfu": 9,
+        "department": "INF"
     },
     "AAF1101": {
         "name": "Lingua Inglese",
         "shortName": "Inglese",
         "abbr": "ENG",
-        "tgGroup": "https://t.me/+clLwVwTLUHk3YzM0"
+        "tgGroup": "https://t.me/+clLwVwTLUHk3YzM0",
+        "cfu": 3,
+        "department": "N/A"
     },
     "1015886": {
         "name": "Algebra",
         "shortName": "Algebra",
         "abbr": "ALG",
-        "tgGroup": "https://t.me/+798mXLThj_JmYTBk"
+        "tgGroup": "https://t.me/+798mXLThj_JmYTBk",
+        "cfu": 9,
+        "department": "MAT"
     },
     "1015887_1": {
         "name": "Basi di Dati 1",
         "shortName": "Basi di Dati 1",
         "abbr": "BD1",
-        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk"
+        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk",
+        "cfu": 6,
+        "department": "INF"
     },
     "1015887_2": {
         "name": "Basi di Dati 2",
         "shortName": "Basi di Dati 2",
         "abbr": "BD2",
-        "tgGroup": "https://t.me/+xTuUWRfneSwwMjBk"
+        "tgGroup": "https://t.me/+xTuUWRfneSwwMjBk",
+        "cfu": 6,
+        "department": "INF"
     },
     "1020421": {
         "name": "Calcolo delle Probabilit\u00e0",
         "shortName": "Probabilit\u00e0",
         "abbr": "PRB",
-        "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk"
+        "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk",
+        "cfu": 9,
+        "department": "MAT"
     },
     "1020422_1": {
         "name": "Sistemi Operativi 1",
         "shortName": "Sist. Op. 1",
         "abbr": "SO1",
-        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk"
+        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
+        "cfu": 6,
+        "department": "INF"
     },
     "1020422_2": {
         "name": "Sistemi Operativi 2",
         "shortName": "Sist. Op. 2",
         "abbr": "SO2",
-        "tgGroup": "https://t.me/+PzNOzkmwVio4Nzg0"
+        "tgGroup": "https://t.me/+PzNOzkmwVio4Nzg0",
+        "cfu": 6,
+        "department": "INF"
     },
     "1015888": {
         "name": "Progettazione di Algoritmi",
         "shortName": "Prog. Algo",
         "abbr": "PALG",
-        "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk"
+        "tgGroup": "https://t.me/+qtCCTLlBW4pjY2Jk",
+        "cfu": 9,
+        "department": "INF"
     },
     "1015889": {
         "name": "Reti di Elaboratori",
         "shortName": "Reti Elab.",
         "abbr": "RE",
-        "tgGroup": "https://t.me/+vNSkWJUgs9Y1MzFk"
+        "tgGroup": "https://t.me/+vNSkWJUgs9Y1MzFk",
+        "cfu": 9,
+        "department": "INF"
     },
     "1041727": {
         "name": "Automi, Calcolabilit\u00e0 e Complessit\u00e0",
         "shortName": "Automi",
         "abbr": "AUT",
-        "tgGroup": "https://t.me/sapienzainformatica3/9"
+        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "cfu": 6,
+        "department": "INF"
     },
     "1031337": {
         "name": "Biologia Computazionale",
         "shortName": "Biol. Comput.",
         "abbr": "BIO",
-        "tgGroup": "https://t.me/+cBediJPv7GxmZTc8"
+        "tgGroup": "https://t.me/+cBediJPv7GxmZTc8",
+        "cfu": 6,
+        "department": "INF"
     },
     "10606972": {
         "name": "Data Science e Diritto",
         "shortName": "DS e Diritto",
         "abbr": "DSD",
-        "tgGroup": "https://t.me/+bHU0Mc28yjBhZWM0"
+        "tgGroup": "https://t.me/+bHU0Mc28yjBhZWM0",
+        "cfu": 6,
+        "department": "INF"
     },
     "97597": {
         "name": "Fisica",
         "shortName": "Fisica",
         "abbr": "FIS",
-        "tgGroup": "https://t.me/+-ZO2tsF0w8YyNDE8"
+        "tgGroup": "https://t.me/+-ZO2tsF0w8YyNDE8",
+        "cfu": 6,
+        "department": "FIS"
     },
     "1022301": {
         "name": "Ingegneria del Software",
         "shortName": "Ing. del Software",
         "abbr": "ISW",
-        "tgGroup": "https://t.me/sapienzainformatica3/9"
+        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "cfu": 6,
+        "department": "INF"
     },
     "1022263": {
         "name": "Interazione Uomo Macchina",
         "shortName": "Int. Uomo Macchina",
         "abbr": "IUM",
-        "tgGroup": "https://t.me/+HPJydQNfbJRmM2Y8"
+        "tgGroup": "https://t.me/+HPJydQNfbJRmM2Y8",
+        "cfu": 6,
+        "department": "INF"
     },
     "1022262": {
         "name": "Intelligenza Artificiale",
         "shortName": "Int. Artificiale",
         "abbr": "IA",
-        "tgGroup": "https://t.me/+qSkWuJbIauY2ODI0"
+        "tgGroup": "https://t.me/+qSkWuJbIauY2ODI0",
+        "cfu": 6,
+        "department": "INF"
     },
     "1022264": {
         "name": "Linguaggi di Programmazione",
         "shortName": "Ling. di Progr.",
         "abbr": "LDP",
-        "tgGroup": "https://t.me/+YNWScBhdFWE1NWNk"
+        "tgGroup": "https://t.me/+YNWScBhdFWE1NWNk",
+        "cfu": 6,
+        "department": "INF"
     },
     "1041761": {
         "name": "Linguaggi e Compilatori",
         "shortName": "Ling. e Comp.",
         "abbr": "LEC",
-        "tgGroup": "https://t.me/+EOvDZsXSLI0zZGRk"
+        "tgGroup": "https://t.me/+EOvDZsXSLI0zZGRk",
+        "cfu": 6,
+        "department": "INF"
     },
     "1021828": {
         "name": "Matematica Discreta",
         "shortName": "Matem. Discreta",
         "abbr": "DIS",
-        "tgGroup": "https://t.me/+x5k6q2yrsztlOWVk"
+        "tgGroup": "https://t.me/+x5k6q2yrsztlOWVk",
+        "cfu": 6,
+        "department": "MAT"
     },
     "10593234": {
         "name": "Metodi Numerici dell'Informatica",
         "shortName": "Metodi Numerici",
         "abbr": "NUM",
-        "tgGroup": "https://t.me/+Njer81tnaZNkY2M8"
+        "tgGroup": "https://t.me/+Njer81tnaZNkY2M8",
+        "cfu": 6,
+        "department": "INF"
     },
     "1022265": {
         "name": "Modelli e Ottimizzazione",
         "shortName": "Modelli e Ottimiz.",
         "abbr": "OTT",
-        "tgGroup": "https://t.me/+nx7dseifrswzNGU6"
+        "tgGroup": "https://t.me/+nx7dseifrswzNGU6",
+        "cfu": 6,
+        "department": "INF"
     },
     "10596283": {
         "name": "Organizzazione e Gestione per lo Start-Up Aziendale",
         "shortName": "Org. e Gest. Az.",
         "abbr": "OGA",
-        "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8"
+        "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
+        "cfu": 6,
+        "department": "SECS"
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
         "shortName": "Multicore",
         "abbr": "PEM",
-        "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk"
+        "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk",
+        "cfu": 6
     },
     "1022267": {
         "name": "Programmazione per il Web",
         "shortName": "Prog. Web",
         "abbr": "WEB",
-        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
+        "cfu": 6
     },
     "1022266": {
         "name": "Programmazione di Sistema",
         "shortName": "Prog. Sistema",
-        "abbr": "PS"
+        "abbr": "PS",
+        "cfu": 6
     },
     "1022268": {
         "name": "Sicurezza",
         "shortName": "Sicurezza",
         "abbr": "SIC",
-        "tgGroup": "https://t.me/+WfOOX_dUtBJkZmVk"
+        "tgGroup": "https://t.me/+WfOOX_dUtBJkZmVk",
+        "cfu": 6
     },
     "10589652": {
         "name": "Tecniche di Programmazione Funzionale e Imperativa",
         "shortName": "Prog. Funz. e Imp.",
         "abbr": "TPFI",
-        "tgGroup": "https://t.me/+X7XCdT3tfA83OTVk"
+        "tgGroup": "https://t.me/+X7XCdT3tfA83OTVk",
+        "cfu": 6
     },
     "10600494": {
         "name": "Verifica e Validazione di Sistemi Intelligenti",
         "shortName": "Sist. Intelligenti",
         "abbr": "VVSI",
-        "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk"
+        "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk",
+        "cfu": 6
     },
 
 
 
     "10595099_1": {
-        "name": "Calculus - Unit 1",
+        "name": "Calculus (Unit 1)",
         "shortName": "Calculus U1",
-        "abbr": "CAL(U1)"
+        "abbr": "CAL(U1)",
+        "cfu": 12,
     },
     "10595099_2": {
-        "name": "Calculus - Unit 2",
+        "name": "Calculus (Unit 2)",
         "shortName": "Calculus U2",
-        "abbr": "CAL(U2)"
+        "abbr": "CAL(U2)",
+        "cfu": 12,
     },
     "10595546_1": {
-        "name": "Computer Architecture - Unit 1",
+        "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch. U1",
-        "abbr": "CA(U1)"
+        "abbr": "CA(U1)",
+        "cfu": 12,
     },
     "10595546_2": {
-        "name": "Computer Architecture - Unit 2",
+        "name": "Computer Architecture (Unit 2)",
         "shortName": "Comp. Arch. U2",
-        "abbr": "CA(U2)"
+        "abbr": "CA(U2)",
+        "cfu": 12,
     },
     "10595524": {
         "name": "Linear Algebra",
-        "shortName": "Algebra",
-        "abbr": "LA"
+        "shortName": "Lin. Alg.",
+        "abbr": "LA",
+        "cfu": 6,
     },
     "10595102_1": {
-        "name": "Programming U1",
+        "name": "Programming (Unit 1)",
         "shortName": "Programming U1",
-        "abbr": "PR(U1)"
+        "abbr": "PR(U1)",
+        "cfu": 12,
     },
     "10595102_2": {
-        "name": "Programming U2",
+        "name": "Programming (Unit 2)",
         "shortName": "Programming U2",
-        "abbr": "PR(U2)"
+        "abbr": "PR(U2)",
+        "cfu": 12,
     },
     "1049269": {
         "name": "Algorithms",
         "shortName": "Algorithms",
-        "abbr": "ALG"
+        "abbr": "ALG",
+        "cfu": 6
     },
     "10595523": {
         "name": "Physics",
         "shortName": "Physics",
-        "abbr": "PHY"
+        "abbr": "PHY",
+        "cfu": 6
     },
     "10600241": {
         "name": "Programming 2",
         "shortName": "Programming 2",
-        "abbr": "PR2"
+        "abbr": "PR2",
+        "cfu": 6
     },
     "10595529": {
         "name": "Calculus 2",
         "shortName": "Calculus 2",
-        "abbr": "CAL2"
+        "abbr": "CAL2",
+        "cfu": 6
     },
     "10595617_1": {
-        "name": "Data Management and Analysis - Unit 1",
+        "name": "Data Management and Analysis (Unit 1)",
         "shortName": "Data U1",
-        "abbr": "DMA(U1)"
+        "abbr": "DMA(U1)",
+        "cfu": 6
     },
     "10595617_2": {
-        "name": "Data Management and Analysis - Unit 2",
+        "name": "Data Management and Analysis (Unit 2)",
         "shortName": "Data U2",
-        "abbr": "DMA(U2)"
+        "abbr": "DMA(U2)",
+        "cfu": 6
     },
     "10595525": {
         "name": "Probability",
         "shortName": "Probability",
-        "abbr": "PROB"
+        "abbr": "PROB",
+        "cfu": 6
     },
     "10595616_1": {
-        "name": "Systems and Networking - Unit 1",
-        "shortName": "Systems & Net. U1",
-        "abbr": "SN(U1)"
+        "name": "Systems and Networking (Unit 1)",
+        "shortName": "Network (S&N U1)",
+        "abbr": "SN(U1)",
+        "cfu": 6
     },
     "10595616_2": {
-        "name": "Systems and Networking - Unit 2",
-        "shortName": "Systems & Net. U2",
-        "abbr": "SN(U2)"
+        "name": "Systems and Networking (Unit 2)",
+        "shortName": "Systems (S&N U2)",
+        "abbr": "SN(U2)",
+        "cfu": 6
     },
     "10595618_1": {
-        "name": "Artificial Intelligence and Machine Learning - Unit 1",
-        "shortName": "AI (AI & ML - U1)",
-        "abbr": "AI"
+        "name": "Artificial Intelligence and Machine Learning (Unit 1)",
+        "shortName": "AI (AI&ML - U1)",
+        "abbr": "AI",
+        "cfu": 6
     },
     "10595618_2": {
-        "name": "Artificial Intelligence and Machine Learning - Unit 2",
-        "shortName": "ML (AI & ML - U2)",
-        "abbr": "ML"
+        "name": "Artificial Intelligence and Machine Learning (Unit 2)",
+        "shortName": "ML (AI&ML - U2)",
+        "abbr": "ML",
+        "cfu": 6
     },
     "10595610": {
         "name": "AI Lab: Computer Vision and NLP",
         "shortName": "AI Lab",
         "abbr": "AIL",
-        "tgGroup": "https://t.me/+wg42G94fUtJlY2Fk"
+        "tgGroup": "https://t.me/+wg42G94fUtJlY2Fk",
+        "cfu": 6
     },
     "1055043": {
-        "name": "Statics",
-        "shortName": "Statistics",
-        "abbr": "STAT"
+        "name": "Statistics",
+        "shortName": "Stats",
+        "abbr": "STAT",
+        "cfu": 6
     },
     "10595530": {
         "name": "Foundations of Computer Science",
         "shortName": "Found. of CS",
-        "abbr": "FOCS"
+        "abbr": "FOCS",
+        "cfu": 6
     },
     "10595532": {
         "name": "Cybersecurity",
-        "shortName": "Cybersec",
+        "shortName": "CyberSec",
         "abbr": "CSEC",
-        "tgGroup": "https://t.me/+ZLceB7Q8cSA2NzA0"
+        "tgGroup": "https://t.me/+ZLceB7Q8cSA2NzA0",
+        "cfu": 6
     },
     "10595531": {
         "name": "Deep Learning",
         "shortName": "Deep Learn.",
-        "abbr": "DL"
+        "abbr": "DL",
+        "cfu": 6
     },
     "10595534": {
         "name": "Web and Software Architecture",
         "shortName": "Web. & SW. Arch.",
         "abbr": "WASA",
-        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0"
+        "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
+        "cfu": 6
     },
     "10595535": {
         "name": "Human Computer Interaction",
         "shortName": "Human Comp. Int.",
         "abbr": "HCI",
-        "tgGroup": "https://t.me/+vKK_-l_aqoJjMmQ0"
+        "tgGroup": "https://t.me/+vKK_-l_aqoJjMmQ0",
+        "cfu": 6
     },
     "10595533": {
         "name": "Optimization",
         "shortName": "Optimization",
         "abbr": "OPT",
-        "tgGroup": "https://t.me/+nx7dseifrswzNGU6"
+        "tgGroup": "https://t.me/+nx7dseifrswzNGU6",
+        "cfu": 6
     },
     "10595536": {
         "name": "Business and Computer Science",
         "shortName": "Business & CS",
         "abbr": "BCS",
-        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk"
+        "tgGroup": "https://t.me/+Z8YI05oono0yNjFk",
+        "cfu": 6
     },
     "10595537": {
         "name": "Law and Computer Science",
         "shortName": "Law & CS",
         "abbr": "LCS",
-        "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0"
+        "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0",
+        "cfu": 6
     },
 
 

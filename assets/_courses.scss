@@ -1,8 +1,8 @@
 @media screen and (min-width: 100px) {
     :root {
-        --dash-height: 1000px;
+        --dash-height: calc(1000px - 250px);
         --panels-height: 250px;
-        --pfp-width: 110px;
+        --pfp-width: 100px;
     }
 
     .course_panel_wide {
@@ -15,6 +15,15 @@
 
     .explore_badges {
         margin: 10px 0 0 0;
+    }
+
+    .course_mat {
+        font-size: 12.5px;
+    }
+
+    .course_panel_title {
+        text-align: center;
+        line-height: 1.2;
     }
 }
 
@@ -36,6 +45,15 @@
     .explore_badges {
         margin: 30px 0 0 0;
     }
+
+    .course_mat {
+        font-size: 14.25px;
+    }
+
+    .course_panel_title {
+        text-align: center;
+        line-height: 1;
+    }
 }
 
 .course_dash {
@@ -47,7 +65,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 3px;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -200,7 +218,6 @@
     background-color: #eeeeee;
     font-family: 'DM Sans';
     font-weight: 200;
-    font-size: 18px;
     color: #252d3f;
     height: 28px;
     display: flex;
@@ -211,28 +228,30 @@
 }
 
 .explore_badges {
+    font-size: 18px;
     width: 120px;
 }
 
 .course_mat {
-    width: 180px;
+    width: 90%;
     margin: 10px 0 0 0;
+    font-weight: 300;
 }
 
 #course_moodle {
-    background: linear-gradient(90deg, rgba(226,141,32,1) 14%, rgba(232,175,101,1) 64%);
+    border: 2.5px solid rgba(226,141,32,1);
 }
 
 #course_classroom {
-    background: linear-gradient(90deg, rgba(115,171,55,1) 14%, rgba(171,224,102,1) 64%);
+    border: 2.5px solid rgba(115,171,55,1);
 }
 
 #course_gdrive {
-    background: linear-gradient(90deg, rgba(55,160,171,1) 14%, rgba(102,224,187,1) 64%);
+    border: 2.5px solid rgba(55,160,171,1);
 }
 
 #course_prof_site {
-    background: linear-gradient(90deg, rgba(159,119,196,1) 14%, rgba(143,143,198,1) 64%);
+    border: 2.5px solid rgba(159,119,196,1);
 }
 
 #badges_meaning {
