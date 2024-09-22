@@ -19,7 +19,7 @@
     {{ if $courseCode }}
         <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
 
-            <a name="{{ $courseCodeWithUnit }}" style="text-decoration: none !important;"><h3>{{ $courseCode }} - {{ $courseSubject }}</h3></a>
+            <h3>{{ $courseCode }} - {{ $courseSubject }}</h3>
 
             {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
             {{ if $telegram_group }}
