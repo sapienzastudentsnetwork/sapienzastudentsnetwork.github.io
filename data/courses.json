@@ -98,7 +98,7 @@
     "1020421": {
         "name": "Calcolo delle Probabilit\u00e0",
         "shortName": "Probabilit\u00e0",
-        "abbr": "PRB",
+        "abbr": "CDP",
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk",
         "cfu": 9,
         "department": "MAT"
@@ -283,25 +283,25 @@
     "10595099_1": {
         "name": "Calculus (Unit 1)",
         "shortName": "Calculus U1",
-        "abbr": "CAL(U1)",
+        "abbr": "CU1",
         "cfu": 12
     },
     "10595099_2": {
         "name": "Calculus (Unit 2)",
         "shortName": "Calculus U2",
-        "abbr": "CAL(U2)",
+        "abbr": "CU2",
         "cfu": 12
     },
     "10595546_1": {
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch. U1",
-        "abbr": "CA(U1)",
+        "abbr": "CAU1",
         "cfu": 12
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
         "shortName": "Comp. Arch. U2",
-        "abbr": "CA(U2)",
+        "abbr": "CAU2",
         "cfu": 12
     },
     "10595524": {
@@ -313,13 +313,13 @@
     "10595102_1": {
         "name": "Programming (Unit 1)",
         "shortName": "Programming U1",
-        "abbr": "PR(U1)",
+        "abbr": "PRU1",
         "cfu": 12
     },
     "10595102_2": {
         "name": "Programming (Unit 2)",
         "shortName": "Programming U2",
-        "abbr": "PR(U2)",
+        "abbr": "PRU2",
         "cfu": 12
     },
     "1049269": {
@@ -349,31 +349,31 @@
     "10595617_1": {
         "name": "Data Management and Analysis (Unit 1)",
         "shortName": "Data U1",
-        "abbr": "DMA(U1)",
+        "abbr": "DMA1",
         "cfu": 6
     },
     "10595617_2": {
         "name": "Data Management and Analysis (Unit 2)",
         "shortName": "Data U2",
-        "abbr": "DMA(U2)",
+        "abbr": "DMA2",
         "cfu": 6
     },
     "10595525": {
         "name": "Probability",
         "shortName": "Probability",
-        "abbr": "PROB",
+        "abbr": "PRB",
         "cfu": 6
     },
     "10595616_1": {
         "name": "Systems and Networking (Unit 1)",
         "shortName": "Network (S&N U1)",
-        "abbr": "SN(U1)",
+        "abbr": "SNU1",
         "cfu": 6
     },
     "10595616_2": {
         "name": "Systems and Networking (Unit 2)",
         "shortName": "Systems (S&N U2)",
-        "abbr": "SN(U2)",
+        "abbr": "SNU2",
         "cfu": 6
     },
     "10595618_1": {
@@ -410,7 +410,7 @@
     "10595532": {
         "name": "Cybersecurity",
         "shortName": "CyberSec",
-        "abbr": "CSEC",
+        "abbr": "SEC",
         "tgGroup": "https://t.me/+ZLceB7Q8cSA2NzA0",
         "cfu": 6
     },
