@@ -531,6 +531,13 @@ if __name__ == '__main__':
             # Prof. Pontarelli in missione, inizierà il 3 ottobre
             course_timetables_dict["1015880"]["channels"]["1"] = {}
 
+            # 1015883 - FONDAMENTI DI PROGRAMMAZIONE
+            # Le lezioni di Fondamenti di Programmazione - canale AL
+            # iniziano giovedì 26/9 in aula 203 presso l'edificio Marco
+            # Polo Circonvallazione Tiburtina 4.
+            course_timetables_dict["1015883"]["channels"]["1"].pop("martedì")
+            course_timetables_dict["1015883"]["channels"]["1"].pop("mercoledì")
+
             # 1022301 - INGEGNERIA DEL SOFTWARE
             # Start date: Wednesday, October 2nd, 2024
             course_timetables_dict["1022301"]["channels"]["0"] = {}

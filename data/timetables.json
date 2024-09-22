@@ -4,24 +4,6 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "marted\u00ec": [
-          {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-            "timeslot": "11 - 13",
-            "classroomInfo": "Aula 204 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-            }
-          }
-        ],
         "gioved\u00ec": [
           {
             "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
