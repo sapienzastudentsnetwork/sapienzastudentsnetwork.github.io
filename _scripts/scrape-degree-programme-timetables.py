@@ -154,6 +154,7 @@ def parse(DOM):
                     schedule_start_time = day_and_time_string_fields[1]
                     schedule_end_time   = day_and_time_string_fields[2]
                     schedule_time_slot  = f"{schedule_start_time} - {schedule_end_time}"
+                    schedule_time_slot  = re.sub(r'\b0(\d)', r'\1', schedule_time_slot)
 
                     if course_code not in course_timetables_dict:
                         course_timetables_dict[course_code] = {

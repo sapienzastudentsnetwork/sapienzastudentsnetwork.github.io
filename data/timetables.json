@@ -26,7 +26,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
-            "timeslot": "08 - 12",
+            "timeslot": "8 - 12",
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
@@ -82,7 +82,7 @@
         "luned\u00ec": [
           {
             "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
@@ -91,7 +91,7 @@
         "venerd\u00ec": [
           {
             "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
@@ -127,7 +127,7 @@
         "marted\u00ec": [
           {
             "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
@@ -136,7 +136,7 @@
         "gioved\u00ec": [
           {
             "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
@@ -374,7 +374,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
@@ -409,7 +409,7 @@
         "venerd\u00ec": [
           {
             "teacher": "1ba2f7b6-acc7-4d42-b346-733d092bf98f",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
@@ -489,7 +489,7 @@
         "marted\u00ec": [
           {
             "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
@@ -498,7 +498,7 @@
         "gioved\u00ec": [
           {
             "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
@@ -575,7 +575,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
             }
@@ -638,7 +638,7 @@
         "venerd\u00ec": [
           {
             "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {},
             "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
             "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
@@ -692,7 +692,7 @@
         "gioved\u00ec": [
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
@@ -791,7 +791,7 @@
         "marted\u00ec": [
           {
             "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
             }
@@ -800,7 +800,7 @@
         "gioved\u00ec": [
           {
             "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
             }
@@ -818,7 +818,7 @@
         "marted\u00ec": [
           {
             "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {},
             "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
             "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
@@ -926,7 +926,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "3ce2ec52-79a0-4093-8ad8-78b8790882a8",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {},
             "classroomInfo": "Aula V Matematica G. Castelnuovo (CU006)",
             "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
@@ -1015,7 +1015,7 @@
         "marted\u00ec": [
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1023,7 +1023,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1065,7 +1065,7 @@
         "venerd\u00ec": [
           {
             "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1090,7 +1090,7 @@
         "gioved\u00ec": [
           {
             "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1328,7 +1328,7 @@
         "luned\u00ec": [
           {
             "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
-            "timeslot": "08 - 11",
+            "timeslot": "8 - 11",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
@@ -1337,7 +1337,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
-            "timeslot": "08 - 10",
+            "timeslot": "8 - 10",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
