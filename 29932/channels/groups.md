@@ -31,7 +31,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Computer Network Performance](https://t.me/+p0-u-meZ1rE3MGU0)
 - [Computer Vision Course - Prof. Luigi Cinque](https://t.me/+AUr_HfwR3kAxNDA0)
 - [Concurrent Systems](https://t.me/+nDsSnNQMF8kxMjI0)
-- [Cryptography](https://t.me/+WIS5BygCxm9mZjE0)
+- [Cryptography](https://t.me/+y8iiBzH5qTo1N2U8)
 - [Deep Learning & AI](https://t.me/+S914sAzRVG2weEM4)
 - [Distributed Systems](https://t.me/+VKIsENZg1uzB2n1v)
 - [Formal Methods In Software Development](https://t.me/+RarJRCwFq6BhMTQ0)
@@ -48,7 +48,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Multimodal Interaction - Sapienza University of Rome](https://t.me/+RSYya0P9YzDiLP27)
 - [Network Algorithms](https://t.me/+Xdg3QAARmlRjODlk)
 - [Natural Language Processing](https://t.me/+Rijud7jizOpiYzc8)
-- [Security in Software Applications](https://t.me/+R4OoiPgWdB82MjFk)
+- [Security in Software Applications](https://t.me/+uUESHKhMhBUyZGI0)
 - [Topics in Physics](https://t.me/+DbwdPc_jWzsyOThk)
 
 ### External courses
