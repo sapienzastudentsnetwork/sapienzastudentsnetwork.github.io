@@ -76,6 +76,9 @@
 - id: Subjs_TimetablesPerTeaching_Title
   translation: Timetables per teaching
 
+- id: Subjs_TimetablesPerTeaching_NoTimetable
+  translation: No available schedule. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
+
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Day
 
