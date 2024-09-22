@@ -67,7 +67,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina è aggiornata automaticamente con il sistema di orari di Sapienza, ma al momento sono ancora provvisori. Per ora, è meglio controllare le pagine Frequentare dei Corsi di Laurea e i gruppi chat per restare aggiornati. Questo avviso sparirà appena ci saranno più certezze.
+  translation: Questa pagina visualizza attualmente gli orari provvisori per la prima settimana di lezioni (23-27 settembre). Per le settimane successive, gli orari e/o le aule potrebbero cambiare; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_Timetables_Time
   translation: Orario

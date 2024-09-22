@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: This page is automatically updated with the Sapienza timetable system, but these are still provisional at the moment. For now, it is best to check the Degree Course Attendance pages and chat groups to stay up-to-date. This notice will disappear as soon as there is more certainty.
+  translation: This page currently displays the provisional timetable for the first week of classes (23 - 27 September). For the following weeks, the timetable and/or classrooms may change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Timetables_Time
   translation: Time
