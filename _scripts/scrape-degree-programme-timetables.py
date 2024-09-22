@@ -527,6 +527,10 @@ if __name__ == '__main__':
             # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
             course_timetables_dict["10596283"]["channels"] = {}
 
+            # 1015880 - PROGETTAZIONE DI SISTEMI DIGITALI
+            # Prof. Pontarelli in missione, inizierà il 3 ottobre
+            course_timetables_dict["1015880"]["channels"]["1"] = {}
+
             # 101226 - CALCOLO DIFFERENZIALE
             course_timetables_dict["101226"]["channels"]["1"] = {
                 "mercoled\u00ec": [
@@ -549,14 +553,14 @@ if __name__ == '__main__':
 
             # 1020420 - METODI MATEMATICI PER L'INFORMATICA
             course_timetables_dict["1020420"]["channels"]["1"] = {
-                "marted\u00ec": [
-                  {
-                    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-                    "timeslot": "8 - 11",
-                    "classroomInfo": "Aula 204 Marco Polo (RM021)",
-                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                  }
-                ],
+                #"marted\u00ec": [
+                #  {
+                #    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+                #    "timeslot": "8 - 11",
+                #    "classroomInfo": "Aula 204 Marco Polo (RM021)",
+                #    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                #  }
+                #],
                 "mercoled\u00ec": [
                   {
                     "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
@@ -577,6 +581,15 @@ if __name__ == '__main__':
                    }
                  }
             ]
+
+            # 10595524 - LINEAR ALGEBRA
+            # Prof. Sahar Zabad will skip the first lecture on monday 23
+            # and resume normally the second lecture on friday 27
+            course_timetables_dict["10595524"]["channels"]["0"].pop("lunedì")
+
+            # 10595525 - PROBABILITY
+            # Prof. Lorenzo Bertini Malgarini - Vittorio Silvestri, 30/09/2024
+            course_timetables_dict["10595525"]["channels"]["0"] = {}
 
         lettere_magna = "Aula 1 - Magna Ed. Lettere (CU003)"
         lettere_archeologia = "Aula Archeologia Ed. Lettere (CU003)"
