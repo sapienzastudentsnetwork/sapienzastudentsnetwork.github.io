@@ -51,7 +51,16 @@
 
                 {{ if ne $channel_id "0" }}
                 <div id="{{ $courseCodeWithUnit }}-{{ $channel_id }}" class="{{ if $defaultHidden }}hidden{{ end }}">
-                    <h4>Canale {{ $channel_id }}</h4>
+                    {{ $channelTitles := dict "1" "Canale A-L (1)" "2" "Canale M-Z (2)" }}
+
+                    {{ if ne $channel_id "0" }}
+                        {{ $title := index $channelTitles $channel_id }}
+                        {{ if $title }}
+                            <h4>{{ $title }}</h4>
+                        {{ else }}
+                            <h4>Canale {{ $channel_id }}</h4>
+                        {{ end }}
+                    {{ end }}
                 {{ else if $telegram_group }}
                 <br/>
                 {{ end }}
