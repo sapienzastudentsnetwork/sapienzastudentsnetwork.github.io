@@ -23,7 +23,19 @@
 
             {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
             {{ if $telegram_group }}
-                ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
+                {{ $courseSubjectPascalCase := $courseSubject | lower | title }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "a'" "à" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "i'" "ì" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "o'" "ò" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "ù'" "ù" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Delle " " delle " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Di " " di " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " E " " e " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Il " " il " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Lo " " lo " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "L'" "l'" }}
+
+                ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseSubjectPascalCase}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
                 <br/>
             {{ end }}
 

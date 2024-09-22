@@ -31,10 +31,10 @@ The calendar can also be viewed on the [department's official page](https://i3s.
 
 ## Graduation (Bachelor's Degrees)
 
-| Graduation Session | Dates                        | Graduation Application Deadline |
-|--------------------|------------------------------|---------------------------------|
-| I                  | 18 – 28 March 2025           | 14 February 2025                |
-| II                 | 19 – 30 May 2025             | 22 April 2025                   |
-| III                | 18 – 25 July 2025            | 20 June 2025                    |
-| IV                 | 23 October – 6 November 2025 | 24 September 2025               |
-| V                  | 9 – 19 December 2025         | 7 November 2025                 |
+| Session | Dates                        | Application Deadline |
+|---------|------------------------------|----------------------|
+| I       | 18 – 28 March 2025           | 14 February 2025     |
+| II      | 19 – 30 May 2025             | 22 April 2025        |
+| III     | 18 – 25 July 2025            | 20 June 2025         |
+| IV      | 23 October – 6 November 2025 | 24 September 2025    |
+| V       | 9 – 19 December 2025         | 7 November 2025      |
