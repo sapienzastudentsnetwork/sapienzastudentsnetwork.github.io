@@ -101,18 +101,20 @@
       "1": {
         "mercoled\u00ec": [
           {
-            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "teacher": null,
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 203 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
+            "teacherInfo": "AIELLO VALERIANO"
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "teacher": null,
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 203 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
+            "teacherInfo": "AIELLO VALERIANO"
           }
         ]
       }

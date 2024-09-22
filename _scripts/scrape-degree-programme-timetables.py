@@ -611,6 +611,12 @@ if __name__ == '__main__':
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
                     for day_schedule in day_schedules:
+                        # 101226 - CALCOLO DIFFERENZIALE
+                        if (course_code == "101226") and (channel_id == "1"):
+                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                                day_schedule["teacher"] = None
+                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+
                         # 10595531 - DEEP LEARNING
                         if course_code == "10595531":
                             # Prof. Fabio Galasso
