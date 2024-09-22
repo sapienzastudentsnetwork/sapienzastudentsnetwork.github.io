@@ -189,11 +189,12 @@
                             {{ end }}
                         </tbody>
                     </table>
-                    {{ if ne $channel_id "0" }}
-                    </div>
-                    {{ end }}
                 {{ else }}
                     {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
+                {{ end }}
+
+                {{ if ne $channel_id "0" }}
+                </div>
                 {{ end }}
             {{ end }}
         </div>
