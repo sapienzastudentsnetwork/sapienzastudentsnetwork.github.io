@@ -187,7 +187,7 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 <!--[Add your report to the list]()-->
 
-{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Add your report to the list{{< /button >}}
+{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-en-md.md&title=Add+Internship+Report">}}Add your report to the list{{< /button >}}
 
 {{< expand "Expand the list...">}}
 

@@ -51,8 +51,8 @@ def parse(DOM):
 
         # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
         ignore_conditions = [
-            ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
-            ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
+            # ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
+            # ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
         ]
 
         for h3 in div.find_all('h3'):
@@ -372,10 +372,10 @@ if __name__ == '__main__':
     degree_programme_code = os.getenv("DEGREE_PROGRAMME_CODE", "29923")
 
     # Academic Year of the degree program to scrape data for
-    academic_year = os.getenv("ACADEMIC_YEAR", "2023/2024")
+    academic_year = os.getenv("ACADEMIC_YEAR", "2024/2025")
 
     # Url of the gomppublic page containing timetables and classrooms for the specific degree program
-    gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL")\
+    gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL", 'https://gomppublic.uniroma1.it/ScriptService/OffertaFormativa/Ofs.6.0/AuleOrariScriptService/GenerateOrario.aspx?params={"controlID":"","aulaUrl":"","codiceInterno":{codiceInterno},"annoAccademico":"{annoAccademico}","virtuale":false,"timeSlots":null,"displayMode":"Manifesto","showStyles":false,"codiceAulaTagName":"","nomeAulaCssClass":"","navigateUrlInsegnamentoMode":"","navigateUrlInsegnamento":"","navigateUrlDocenteMode":"","navigateUrlDocente":"","repeatTrClass":""}&_=1702740827520')\
         .replace("{codiceInterno}", degree_programme_code)\
         .replace("{annoAccademico}", academic_year)
 
@@ -438,6 +438,220 @@ if __name__ == '__main__':
     # Save the timetables to a JSON file
     with open(f"../data/timetables_raw_{degree_programme_code}_{academic_year.replace('/', '-')}.json", 'w') as rawTimetablesFile:
         json.dump(parse(DOM), rawTimetablesFile, indent=2)
+
+    # ▀▀█▀▀ █▀▀ █▀▄▀█ █▀▀█ █▀▀█ █▀▀█ █▀▀█ █▀▀█ █░░█ 　 ▀▀█▀▀ ░▀░ █▀▄▀█ █▀▀ ▀▀█▀▀ █▀▀█ █▀▀▄ █░░ █▀▀ █▀▀
+    # ░░█░░ █▀▀ █░▀░█ █░░█ █░░█ █▄▄▀ █▄▄█ █▄▄▀ █▄▄█ 　 ░░█░░ ▀█▀ █░▀░█ █▀▀ ░░█░░ █▄▄█ █▀▀▄ █░░ █▀▀ ▀▀█
+    # ░░▀░░ ▀▀▀ ▀░░░▀ █▀▀▀ ▀▀▀▀ ▀░▀▀ ▀░░▀ ▀░▀▀ ▄▄▄█ 　 ░░▀░░ ▀▀▀ ▀░░░▀ ▀▀▀ ░░▀░░ ▀░░▀ ▀▀▀░ ▀▀▀ ▀▀▀ ▀▀▀
+
+    currentDate = datetime.now()
+
+    matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
+    matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
+    matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+
+    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 25)):
+        # 1047622 - CRYPTOGRAPHY
+        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
+        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomUrl"] = matematica_building
+
+        # 10596281 - AUTONOMOUS NETWORKING
+        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classrooms"] = {}
+        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomInfo"] = matematica_aula_iv
+        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomUrl"] = matematica_building
+
+        # 10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
+        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
+        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomUrl"] = matematica_building
+
+        # 1047642 - SECURITY IN SOFTWARE APPLICATIONS
+        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
+        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = matematica_aula_v
+        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classroomUrl"] = matematica_building
+
+        # 1041764 - BIG DATA COMPUTING
+        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
+        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = matematica_aula_v
+        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classroomUrl"] = matematica_building
+
+        # 1047624 - DISTRIBUTED SYSTEMS
+        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classrooms"] = {}
+        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomInfo"] = "Aula B Scienze Biochimiche (CU010)"
+        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomUrl"] = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
+
+        # 10589621 - ADVANCED MACHINE LEARNING
+        course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
+
+        # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
+        course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            }
+          }
+        ]
+
+        # 1047627 - FOUNDATIONS OF DATA SCIENCE
+        course_timetables_dict["1047627"] = {
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "degree": "29932",
+            "channels": {
+              "0": {
+                "luned\u00ec": [
+                  {
+                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                    "timeslot": "16 - 19",
+                    "classroomInfo": "Aula 202 Marco Polo (RM021)",
+                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                  }
+                ],
+                "venerd\u00ec": [
+                  {
+                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                    "timeslot": "10 - 12",
+                    "classrooms": {
+                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 2 (Edificio: RM018)"
+                    }
+                  }
+                ]
+              }
+            },
+            "code": "1047627"
+        }
+
+    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 25)):
+        if degree_programme_code == "29923":
+            # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
+            course_timetables_dict["10596283"]["channels"] = {}
+
+            # 101226 - CALCOLO DIFFERENZIALE
+            course_timetables_dict["101226"]["channels"]["1"] = {
+                "mercoled\u00ec": [
+                  {
+                    "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+                    "timeslot": "8 - 11",
+                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
+                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                  }
+                ],
+                "venerd\u00ec": [
+                  {
+                    "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+                    "timeslot": "8 - 10",
+                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
+                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                  }
+                ]
+            }
+
+            # 1020420 - METODI MATEMATICI PER L'INFORMATICA
+            course_timetables_dict["1020420"]["channels"]["1"] = {
+                "marted\u00ec": [
+                  {
+                    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+                    "timeslot": "8 - 11",
+                    "classroomInfo": "Aula 204 Marco Polo (RM021)",
+                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                  }
+                ],
+                "mercoled\u00ec": [
+                  {
+                    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+                    "timeslot": "11 - 13",
+                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
+                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                  }
+                ]
+            }
+        elif degree_programme_code == "30786":
+            # 10595536 - BUSINESS AND COMPUTER SCIENCE
+            course_timetables_dict["10595536"]["channels"]["0"]["martedì"] = [
+                 {
+                   "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
+                   "timeslot": "13 - 15",
+                   "classrooms": {
+                     "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                   }
+                 }
+            ]
+
+        lettere_magna = "Aula 1 - Magna Ed. Lettere (CU003)"
+        lettere_archeologia = "Aula Archeologia Ed. Lettere (CU003)"
+        lettere_maps = "https://maps.app.goo.gl/zrxYyaAoEsDbqYHe6"
+
+        for course_code, course_data in course_timetables_dict.items():
+            for channel_id, channel_data in course_data["channels"].items():
+                for day_name, day_schedules in channel_data.items():
+                    for day_schedule in day_schedules:
+                        # 10595531 - DEEP LEARNING
+                        if course_code == "10595531":
+                            # Prof. Fabio Galasso
+                            teacher = "c6ebe64b-d218-4bed-9643-8de250010478"
+
+                        if "classrooms" in day_schedule:
+                            for classroom_id, classroom_description in day_schedule["classrooms"].items():
+                                classroom_info = day_schedule.get("classroomInfo", None)
+                                classroom_url  = day_schedule.get("classroomUrl", None)
+
+                                if classroom_description == "Aula 3 (Edificio: RM158)":
+                                    classroom_info = "Aula A Via dei Sabelli, 108 (RM027)"
+                                    classroom_url = "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
+                                elif classroom_description == "Aula 4 (Edificio: RM158)":
+                                    if day_name in ("lunedì", "martedì"):
+                                        classroom_info = "Aula 204 Marco Polo (RM021)"
+                                        classroom_url = "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                                    elif day_name in ("mercoledì", "giovedì", "venerdì"):
+                                        hours = day_schedule["timeslot"].split("-")
+                                        startTime = int(hours[0].strip())
+                                        endTime = int(hours[1].strip())
+
+                                        if endTime <= 13:
+                                            classroom_info = "Aula 203 Marco Polo (RM021)"
+                                            classroom_url = "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+                                        else:
+                                            if channel_id == "1":
+                                                if (day_name == "mercoledì") and (course_code in ("1020422_1", "1020421")):
+                                                    classroom_info = lettere_magna
+                                                    classroom_url = lettere_maps
+                                                elif (day_name == "giovedì"):
+                                                    # 1015887 - BASI DI DATI I MODULO
+                                                    if course_code == "1015887_1":
+                                                        classroom_info = lettere_archeologia
+                                                        classroom_url = lettere_maps
+                                                    elif course_code == "1020421":
+                                                        classroom_info = matematica_aula_v
+                                                        classroom_url = matematica_building
+                                                elif (day_name == "venerdì"):
+                                                    classroom_info = lettere_archeologia
+                                                    classroom_url = lettere_maps
+                                elif classroom_description == "Aula Magna AREA DI CANTIERE (Edificio: RM111)":
+                                    # 10595531 - DEEP LEARNING, 1022267 - PROGRAMMAZIONE PER IL WEB,
+                                    # 10595534 - WEB AND SOFTWARE ARCHITECTURE
+                                    if course_code in ("10595531", "1022267", "10595534"):
+                                        classroom_info = matematica_aula_iv
+                                        classroom_url = matematica_building
+
+                                if classroom_info is not None:
+                                    day_schedule.pop("classrooms")
+
+                                    # print("classroom_info: " + classroom_description + " -> " + classroom_info)
+
+                                    day_schedule["classroomInfo"] = classroom_info
+                                # else:
+                                    # print("classroom_info: " + classroom_description)
+
+                                if classroom_url is not None:
+                                    day_schedule["classroomUrl"] = classroom_url
+
+
+    #
+    # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
+    # ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█░░▒█ ▒█▄▄▀ ░▒█░░ 　 ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▄▄█
+    # ▒█▄▄▄ ▄▀▒▀▄ ▒█░░░ ▒█▄▄▄█ ▒█░▒█ ░▒█░░ 　 ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█░▒█
+    #
 
     # Save the classroom information to a JSON file
     with open(f"../data/classrooms.json", 'w') as classroomsFile:
