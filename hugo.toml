@@ -10,7 +10,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         # BookSearch = false
         contentDir = 'homepage'
         disabled = false
-        languageName = 'Degree Programme Choice'
+        languageName = 'Homepage'
         title = "Homepage"
         weight = 0
 
