@@ -1137,6 +1137,8 @@
           {
             "teacher": null,
             "timeslot": "16 - 18",
+            "teacherInfo": "ALLA ALESSANDRO",
+            "teacherUrl": "https://www.alessandroalla.com/index.html",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1145,6 +1147,8 @@
           {
             "teacher": null,
             "timeslot": "10 - 13",
+            "teacherInfo": "ALLA ALESSANDRO",
+            "teacherUrl": "https://www.alessandroalla.com/index.html",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
@@ -1298,7 +1302,7 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "14 - 17",
             "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
             "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
@@ -1306,7 +1310,7 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "996d00c3-151c-401a-a3d1-89b9add7e0e5",
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "16 - 18",
             "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
             "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"

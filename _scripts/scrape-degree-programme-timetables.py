@@ -613,7 +613,13 @@ if __name__ == '__main__':
                         # 10595531 - DEEP LEARNING
                         if course_code == "10595531":
                             # Prof. Fabio Galasso
-                            teacher = "c6ebe64b-d218-4bed-9643-8de250010478"
+                            day_schedule["teacher"] = "c6ebe64b-d218-4bed-9643-8de250010478"
+
+                        # 10595529 - CALCULUS 2
+                        if course_code == "10595529":
+                            if day_schedule["teacher"] is None:
+                                day_schedule["teacherInfo"] = "ALLA ALESSANDRO"
+                                day_schedule["teacherUrl"]  = "https://www.alessandroalla.com/index.html"
 
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():

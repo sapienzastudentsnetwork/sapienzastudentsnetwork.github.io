@@ -106,15 +106,24 @@
                                     <td class="timetableTableCell">
                                         {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
                                         {{ $teacherId := index $timeslotInDay 0 "teacher" }}
-                                        {{ if $teacherId }}
-                                            {{ $teacherName := index $dataTeachers $teacherId "name" }}
+                                        {{ $teacherUrl := "" }}
+                                        {{ $teacherName := "" }}
 
-                                            {{ if $teacherName }}
-                                                <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
-                                                    {{ $teacherName }}
-                                                </a>
+                                        {{ if $teacherId }}
+                                            {{ $teacherName = index $dataTeachers $teacherId "name" }}
+                                            {{ $teacherUrl = "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=" | printf "%s" $teacherId }}
+                                        {{ else if $info.teacherInfo }}
+                                            {{ $teacherName = $info.teacherInfo }}
+                                            {{ if $info.teacherUrl }}
+                                                {{ $teacherUrl = $info.teacherUrl }}
+                                            {{ end }}
+                                        {{ end }}
+
+                                        {{ if $teacherName }}
+                                            {{ if $teacherUrl }}
+                                                <a href="{{ $teacherUrl }}">{{ $teacherName }}</a>
                                             {{ else }}
-                                                Non disponibile
+                                                {{ $teacherName }}
                                             {{ end }}
                                         {{ else }}
                                             Non disponibile

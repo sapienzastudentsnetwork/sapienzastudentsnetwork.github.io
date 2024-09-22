@@ -67,7 +67,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina visualizza attualmente gli orari provvisori per la prima settimana di lezioni (23-27 settembre). Per le settimane successive, gli orari e/o le aule potrebbero cambiare; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
+  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la prima settimana di lezioni (23-27 settembre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_Timetables_Time
   translation: Orario
@@ -97,7 +97,7 @@
   translation: Gruppo Telegram di
 
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
-  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso.
+  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
 
 - id: Subjs_CustomTimetable_Title
   translation: Il tuo orario

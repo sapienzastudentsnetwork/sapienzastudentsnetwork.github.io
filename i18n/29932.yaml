@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: This page currently displays the provisional timetable for the first week of classes (23 - 27 September). For the following weeks, the timetable and/or classrooms may change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
+  translation: This page displays, for this week, the provisional timetable for the first week of classes (23-27 September). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Timetables_Time
   translation: Time
@@ -98,7 +98,7 @@
   translation: Telegram Group of
 
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
-  translation: to stay updated on any schedule changes, resources, and course information.
+  translation: to stay updated on any schedule changes, resources, and course information
 
 - id: Subjs_CustomTimetable_Title
   translation: Your timetable
