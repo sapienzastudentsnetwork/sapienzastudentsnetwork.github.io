@@ -280,50 +280,47 @@
         "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk",
         "cfu": 6
     },
-
-
-
     "10595099_1": {
         "name": "Calculus (Unit 1)",
         "shortName": "Calculus U1",
         "abbr": "CAL(U1)",
-        "cfu": 12,
+        "cfu": 12
     },
     "10595099_2": {
         "name": "Calculus (Unit 2)",
         "shortName": "Calculus U2",
         "abbr": "CAL(U2)",
-        "cfu": 12,
+        "cfu": 12
     },
     "10595546_1": {
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch. U1",
         "abbr": "CA(U1)",
-        "cfu": 12,
+        "cfu": 12
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
         "shortName": "Comp. Arch. U2",
         "abbr": "CA(U2)",
-        "cfu": 12,
+        "cfu": 12
     },
     "10595524": {
         "name": "Linear Algebra",
         "shortName": "Lin. Alg.",
         "abbr": "LA",
-        "cfu": 6,
+        "cfu": 6
     },
     "10595102_1": {
         "name": "Programming (Unit 1)",
         "shortName": "Programming U1",
         "abbr": "PR(U1)",
-        "cfu": 12,
+        "cfu": 12
     },
     "10595102_2": {
         "name": "Programming (Unit 2)",
         "shortName": "Programming U2",
         "abbr": "PR(U2)",
-        "cfu": 12,
+        "cfu": 12
     },
     "1049269": {
         "name": "Algorithms",
