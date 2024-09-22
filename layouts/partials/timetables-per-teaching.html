@@ -122,23 +122,34 @@
                                             "(Edificio: RM158)" "De Lollis (RM158)"
                                         }}
 
-                                        {{ range $classroom_id, $location := $info.classrooms }}
-                                            {{ range $old, $new := $replacements }}
-                                                {{ $location = replace $location $old $new }}
+                                        {{ if $info.classrooms }}
+                                            {{ range $classroom_id, $location := $info.classrooms }}
+                                                {{ range $old, $new := $replacements }}
+                                                    {{ $location = replace $location $old $new }}
+                                                {{ end }}
+
+                                                {{ if (strings.Contains $location "AREA DI CANTIERE") }}
+                                                    {{ $location = T "Subjs_TimetablesPerTeaching_ConstructionSite" }}
+                                                {{ end }}
+
+                                                {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
+
+                                                {{ if $mapsUrl }}
+                                                    <a href="{{ $mapsUrl }}" target="_blank">{{ $location }}</a>
+                                                    <br/>
+                                                {{ else }}
+                                                    {{ $location }}
+                                                    <br/>
+                                                {{ end }}
                                             {{ end }}
+                                        {{ else }}
+                                            {{ $classroomInfo := $info.classroomInfo }}
+                                            {{ $classroomUrl := $info.classroomUrl }}
 
-                                            {{ if (strings.Contains $location "AREA DI CANTIERE") }}
-                                                {{ $location = T "Subjs_TimetablesPerTeaching_ConstructionSite" }}
-                                            {{ end }}
-
-                                            {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
-
-                                            {{ if $mapsUrl }}
-                                                <a href="{{ $mapsUrl }}" target="_blank">{{ $location }}</a>
-                                                <br/>
+                                            {{ if $classroomUrl }}
+                                                <a href="{{ $classroomUrl }}">{{ $classroomInfo }}</a>
                                             {{ else }}
-                                                {{ $location }}
-                                                <br/>
+                                                {{ $classroomInfo }}
                                             {{ end }}
                                         {{ end }}
                                     </td>
