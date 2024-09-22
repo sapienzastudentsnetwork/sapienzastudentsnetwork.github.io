@@ -531,6 +531,10 @@ if __name__ == '__main__':
             # Prof. Pontarelli in missione, inizierà il 3 ottobre
             course_timetables_dict["1015880"]["channels"]["1"] = {}
 
+            # 1022301 - INGEGNERIA DEL SOFTWARE
+            # Start date: Wednesday, October 2nd, 2024
+            course_timetables_dict["1022301"]["channels"]["0"] = {}
+
             # 101226 - CALCOLO DIFFERENZIALE
             course_timetables_dict["101226"]["channels"]["1"] = {
                 "mercoled\u00ec": [

@@ -468,25 +468,7 @@
     "subject": "INGEGNERIA DEL SOFTWARE",
     "degree": "29923",
     "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "11 - 13",
-            "classroomInfo": "Aula 204 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
+      "0": {}
     },
     "code": "1022301"
   },
