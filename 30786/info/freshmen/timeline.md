@@ -25,7 +25,7 @@ To locate buildings within the university city (those with codes starting with *
 ## **September 25, 2024**: *Welcome Day* for New Students
 On **September 25, 2024**, from 2:00 PM to 4:00 PM, the *Welcome Day* for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
 
-The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6.
+The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6 (**location to be confirmed**, keep up to date with [groups](/30786/channels/groups/)).
 
 Below is the outline program:
 - Greetings from the chair of the graduate programs, Prof. Annalisa Massini

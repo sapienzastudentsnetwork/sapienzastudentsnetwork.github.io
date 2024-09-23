@@ -26,7 +26,7 @@ Per conoscere la posizione degli edifici all'interno della città universitaria 
 ## **25 settembre 2024**: *Welcome Day* per le matricole
 Il **25 settembre 2024**, dalle ore 14 alle ore 16, si terrà il *Welcome Day* per le matricole dei corsi di Laurea in Informatica (presenza e prevalentemente a distanza) e ACSAI. Durante l'evento avrai l'opportunità di conoscere i docenti, il personale e i tutor del corso, e di ricevere informazioni utili per iniziare al meglio il tuo percorso accademico.
 
-L'evento si terrà nello spiazzale antistante l'edificio E del Dipartimento di Informatica, accessibile dal Viale Regina Elena 295 e dal Viale del Castro Laurenziano 6.
+L'evento si terrà nello spiazzale antistante l'edificio E del Dipartimento di Informatica, accessibile dal Viale Regina Elena 295 e dal Viale del Castro Laurenziano 6 (**location da confermare**, tenersi aggiornati con i [gruppi](/it/canali/gruppi/)).
 
 Di seguito il programma di massima:
 - Saluti del presidente dei corsi di laurea, prof.ssa Annalisa Massini

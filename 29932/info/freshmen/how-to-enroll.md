@@ -82,7 +82,7 @@ Once registered, you can access your [private area](https://www.uniroma1.it/en/p
 
 ![Image](https://i.imgur.com/T2VvbNd.png)
 
-Finally, enter the code **29932** and pay the 10€ fee for the assessment of requirements. You will have to wait until an acceptance or rejection email will be sent by infostud o your institutional email.
+Finally, enter the code **29932** and pay the 10€ fee for the assessment of requirements. You will have to wait until an acceptance or rejection email will be sent by infostud on your institutional email.
 
 ![Image](https://i.imgur.com/v84PZyb.png)
 
