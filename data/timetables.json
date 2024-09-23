@@ -1137,20 +1137,16 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": null,
+            "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "16 - 18",
-            "teacherInfo": "ALLA ALESSANDRO",
-            "teacherUrl": "https://www.alessandroalla.com/index.html",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": null,
+            "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "10 - 13",
-            "teacherInfo": "ALLA ALESSANDRO",
-            "teacherUrl": "https://www.alessandroalla.com/index.html",
             "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
             "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
