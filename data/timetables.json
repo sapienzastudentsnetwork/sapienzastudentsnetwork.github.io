@@ -866,6 +866,32 @@
     },
     "code": "1047624"
   },
+  "1047627": {
+    "subject": "FOUNDATIONS OF DATA SCIENCE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "16 - 19",
+            "classroomInfo": "Aula 202 Marco Polo (RM021)",
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047627"
+  },
   "1047638": {
     "subject": "MODELS OF COMPUTATION",
     "degree": "29932",
@@ -982,32 +1008,6 @@
       }
     },
     "code": "10589558"
-  },
-  "1047627": {
-    "subject": "FOUNDATIONS OF DATA SCIENCE",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "16 - 19",
-            "classroomInfo": "Aula 202 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "10 - 12",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047627"
   },
   "10595099_1": {
     "subject": "CALCULUS UNIT 1",
