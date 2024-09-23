@@ -19,15 +19,17 @@
         }
     }
 
-    function fillTimetable(tableId, coursesCodes, channel) {
+    function fillTimetable(tableId, courses, degreeCourseCodes, channel) {
         let classesStartTime = undefined,
             classesEndTime = undefined;
 
         const schedule = Object.fromEntries(DAYS.map(day => [day, []]));
 
-        for (const course of coursesCodes) {
+        for (const course of courses) {
             const [courseCode, _channel] = course.toString().split('-');
 
+            if (!degreeCourseCodes.includes(courseCode))
+                continue;
             if (!TIMETABLES[courseCode])
                 continue;
             const days = TIMETABLES[courseCode]['channels'][_channel || channel] || [];
