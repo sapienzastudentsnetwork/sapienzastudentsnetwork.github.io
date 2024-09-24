@@ -1,6 +1,5 @@
 ---
 title: Sapienza Corse
-bookCollapseSection: true
 bookHidden: true
 weight: 2
 ---
