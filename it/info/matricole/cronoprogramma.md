@@ -7,7 +7,7 @@ bookHidden: false
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome day il 25 settembre**
 
-Il **25 settembre 2024** alle **ore 14** si terrà l'**incontro di benvenuto** per le **nuove matricole** di **Informatica** e di **ACSAI**. [Clicca qui per ulteriori informazioni](#25-settembre-2024-welcome-day-per-le-matricole).
+Il **25 settembre 2024** alle **ore 14** si terrà l'**incontro di benvenuto** per le **nuove matricole** di **Informatica** e di **ACSAI**. [Clicca qui per ulteriori informazioni](#25-settembre-2024-incontro-di-benvenuto-per-le-matricole).
 {{< /hint >}}
 
 
