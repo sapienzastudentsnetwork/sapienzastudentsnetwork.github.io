@@ -1,4 +1,4 @@
-# SASA Sapienza Aerospace Student Association
+# Sapienza Aerospace Student Association
 
 Info Coming Soon!
 
