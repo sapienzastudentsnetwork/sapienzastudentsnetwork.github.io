@@ -1,4 +1,51 @@
 {
+  "101226": {
+    "subject": "CALCOLO DIFFERENZIALE",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 203 Marco Polo (RM021)",
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
+            "teacherInfo": "AIELLO VALERIANO"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": null,
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 203 Marco Polo (RM021)",
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
+            "teacherInfo": "AIELLO VALERIANO"
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "101226"
+  },
   "1015883": {
     "subject": "FONDAMENTI DI PROGRAMMAZIONE",
     "degree": "29923",
@@ -46,6 +93,43 @@
     },
     "code": "1015883"
   },
+  "1020420": {
+    "subject": "METODI MATEMATICI PER L'INFORMATICA",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 203 Marco Polo (RM021)",
+            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
+          }
+        ]
+      },
+      "2": {
+        "marted\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1020420"
+  },
   "1015880": {
     "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
     "degree": "29923",
@@ -73,90 +157,6 @@
       }
     },
     "code": "1015880"
-  },
-  "101226": {
-    "subject": "CALCOLO DIFFERENZIALE",
-    "degree": "29923",
-    "channels": {
-      "2": {
-        "luned\u00ec": [
-          {
-            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "099dad3c-d21f-43f6-b7ca-75bcebd90c7e",
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ]
-      },
-      "1": {
-        "mercoled\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "8 - 11",
-            "classroomInfo": "Aula 203 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
-            "teacherInfo": "AIELLO VALERIANO"
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": null,
-            "timeslot": "8 - 10",
-            "classroomInfo": "Aula 203 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7",
-            "teacherInfo": "AIELLO VALERIANO"
-          }
-        ]
-      }
-    },
-    "code": "101226"
-  },
-  "1020420": {
-    "subject": "METODI MATEMATICI PER L'INFORMATICA",
-    "degree": "29923",
-    "channels": {
-      "2": {
-        "marted\u00ec": [
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "aed597cc-a9b6-4800-ad4d-34e794018592",
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ]
-      },
-      "1": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-            "timeslot": "11 - 13",
-            "classroomInfo": "Aula 203 Marco Polo (RM021)",
-            "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-          }
-        ]
-      }
-    },
-    "code": "1020420"
   },
   "1015886": {
     "subject": "ALGEBRA",
