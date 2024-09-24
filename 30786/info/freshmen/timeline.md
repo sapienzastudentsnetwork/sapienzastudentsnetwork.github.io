@@ -7,7 +7,7 @@ bookHidden: false
 {{< hint info >}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Day on September 25**
 
-On **September 25, 2024**, at 2:00 PM, the Welcome Day for new Computer Science and ACSAI students will take place. [Find all the information here](#september-25-2024-welcome-day-for-new-students).
+On **September 25, 2024**, at **2:00 PM**, the **Welcome Meeting** for new **ACSAI** and **Informatics** students will take place. [Find all the information here](#september-25-2024-welcome-day-for-new-students).
 {{< /hint >}}
 
 Even if you might feel a bit lost at first, there are only a few key moments to keep in mind during your academic journey. This timeline will help you navigate the main milestones of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence.
@@ -22,17 +22,11 @@ Before starting classes, it's important to check the Applied Computer Science an
 
 To locate buildings within the university city (those with codes starting with **CU**), you can consult the [classroom map](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
-## **September 25, 2024**: *Welcome Day* for New Students
-On **September 25, 2024**, from 2:00 PM to 4:00 PM, the *Welcome Day* for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
+## **September 25, 2024**: Welcome Meeting for New Students
 
-The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6 (**location to be confirmed**, keep up to date with [groups](/30786/channels/groups/)).
+On **Wednesday 25 September**, a **welcome meeting** will be held for **A.A. 2024/25 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**, at **2.00 p.m.** in **laboratory rooms 15 and 17** in [**Via Tiburtina, 205**](https://maps.app.goo.gl/pFxu3evWFWutuerz7).
 
-Below is the outline program:
-- Greetings from the chair of the graduate programs, Prof. Annalisa Massini
-- Introduction of the course professors
-- Introduction of the administrative staff
-- Introduction of the tutors with a presentation of study support tools
-- Brief refreshment with DJ set by DJ Palma
+With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we will provide **practical information on the organisation of the Degree Course** and there will be **a light refreshment**
 
 ## **From September to December and from March to May**: Attend Classes
 Attending classes is essential for mastering the concepts of the various courses and passing the exams smoothly. Although some classes may be recorded or available online, active participation in the classroom will help you better understand the concepts and interact with professors and fellow students.
