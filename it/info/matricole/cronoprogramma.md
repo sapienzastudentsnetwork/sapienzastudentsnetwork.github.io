@@ -32,7 +32,7 @@ Con la partecipazione della Presidente del Corso di Laurea, prof.ssa Massini, pr
 [Clicca qui per sfogliare la presentazione](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
 
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
-Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. Sebbene alcune lezioni possano essere registrate o disponibili online, la partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
+Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. La partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
 
 Creare un gruppo di amici con cui studiare e confrontarsi può essere un'ottima strategia per affrontare insieme le sfide del percorso accademico.
 
