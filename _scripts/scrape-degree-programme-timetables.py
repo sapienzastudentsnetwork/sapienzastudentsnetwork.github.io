@@ -450,7 +450,7 @@ if __name__ == '__main__':
     matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
     matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
 
-    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 25)):
+    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 28)):
         # 1047622 - CRYPTOGRAPHY
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
@@ -523,7 +523,7 @@ if __name__ == '__main__':
             "code": "1047627"
         }
 
-    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 25)):
+    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 28)):
         if degree_programme_code == "29923":
             # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
             course_timetables_dict["10596283"]["channels"] = {}
