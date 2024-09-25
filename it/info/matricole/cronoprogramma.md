@@ -29,6 +29,8 @@ Per conoscere la posizione degli edifici all'interno della città universitaria 
 
 Con la partecipazione della Presidente del Corso di Laurea, prof.ssa Massini, professori, Tutor Didattici del Corso di Laurea e Rappresentanti degli Studenti al Consiglio di Area Didattica di Informatica vi daremo **informazioni pratiche sull'organizzazione del Corso di Laurea** e ci sarà un **leggero rinfresco**
 
+[Clicca qui per sfogliare la presentazione](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
+
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
 Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. Sebbene alcune lezioni possano essere registrate o disponibili online, la partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
 

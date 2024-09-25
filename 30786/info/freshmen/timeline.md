@@ -28,6 +28,8 @@ On **Wednesday 25 September**, a **welcome meeting** will be held for **A.A. 202
 
 With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we will provide **practical information on the organisation of the Degree Course** and there will be **a light refreshment**
 
+[Click here to open the slideshow](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf)
+
 ## **From September to December and from March to May**: Attend Classes
 Attending classes is essential for mastering the concepts of the various courses and passing the exams smoothly. Although some classes may be recorded or available online, active participation in the classroom will help you better understand the concepts and interact with professors and fellow students.
 
