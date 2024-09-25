@@ -9,11 +9,11 @@ bookToc: False
 <div style="width: 90%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
 {{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Meeting**
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Meeting (25 September)**
 
-25 September - **Welcome Meeting** for **freshmen A.Y. 2024/25**
+**Welcome Meeting** for **freshmen A.Y. 2024/25**
 
-[[ACSAI - info]](/30786/info/freshmen/timeline/#september-25-2024-welcome-meeting-for-new-students) [[ACSAI - slides]](/content/pdf/Welcome%20Day%20-%20ACSAI.pdf)
+[[ACSAI - info]](/30786/info/freshmen/timeline#september-25-2024-welcome-meeting-for-new-students) [[ACSAI - slides]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf)
 {{< /hint >}}
 
 👋 We welcome you to the wiki of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence (also called ACSAI), maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!

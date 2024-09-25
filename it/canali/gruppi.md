@@ -12,13 +12,13 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Associazioni Studentesche**
 
-Non siete voti, siete persone. Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
+**Non siete voti, siete persone.** Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
 
-- Le associazioni studentesche tipicamente candidate alle elezioni (Sapienza Futura, ...) estromettono i veri Rappresentanti del Corso di Laurea (indipendenti, non appartenenti a nessuna associazione) dalla gestione dei gruppi, a meno che non si “uniscano a loro”
+- **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza Futura, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”
+  
+- **Gestione dei gruppi assente:** entrano spammer impuniti ed è difficile (gli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti
 
-- Gestione dei gruppi assente: entrano spammer impuniti ed è difficile (gli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti
-
-Se un'associazione studentesca ti ha invitato in un loro gruppo (se sei una matricola è molto probabile che tu sia al suo interno senza nemmeno sapere che sia monopolizzato da un'associazione studentesca) assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea, che trovi listati qui
+Se un'associazione studentesca ti ha dato il link per un gruppo delle matricole **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati qui sotto
 {{< /hint >}}
 
 Gruppi per le **matricole dell'A.A. 2024/2025**:

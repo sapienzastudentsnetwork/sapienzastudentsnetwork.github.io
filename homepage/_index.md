@@ -10,13 +10,13 @@ bookToc: False
 <div style="width: 95%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
 {{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Meeting - Incontro di benvenuto**
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Meeting - Incontro di benvenuto (25/09/2024)**
 
-25/09/2024 - Welcome Meeting / Incontro di benvenuto (A.A. 2024/25)
+Welcome Meeting (freshmen A.Y. 2024/25) - Incontro di benvenuto (matricole A.A. 2024/25)
 
-[[ACSAI - info]](/30786/info/freshmen/timeline/#september-25-2024-welcome-meeting-for-new-students) [[Informatica - info]](/it/info/matricole/cronoprogramma/25-settembre-2024-incontro-di-benvenuto-per-le-matricole)
+- **Info:** [[ACSAI]](/30786/info/freshmen/timeline#september-25-2024-welcome-meeting-for-new-students) [[Informatica]](/it/info/matricole/cronoprogramma#25-settembre-2024-incontro-di-benvenuto-per-le-matricole)
 
-[[ACSAI - slides]](/content/pdf/Welcome%20Day%20-%20ACSAI.pdf) [[Informatica - slides]](/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
+- **Slides:** [[ACSAI]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf) [[Informatica]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
 {{< /hint >}}
 
 <div class="home_evid">
