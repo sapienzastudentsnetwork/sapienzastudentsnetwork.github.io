@@ -40,7 +40,7 @@ Durante la creazione della Domanda di Laurea, sarà possibile allegare tre docum
 - Ricevuta compilazione questionario AlmaLaurea __[OBBLIGATORIO]__
 - Diploma di Maturità _[FACOLTATIVO]_
 
-Il Piano di Studio da allegare corrisponde al documento riassumente il [Percorso Formativo](../terzo-anno/percorso-formativo.md), accessibile tramite la sezione __Corsi di Laurea > Percorso Formativo__. Una volta acceduto al piano di studi, il percorso può essere scaricato tramite i pulsanti riportati nella seguente immagine.
+Il Piano di Studio da allegare corrisponde al documento riassumente il [Percorso Formativo](../../terzo-anno/percorso-formativo/), accessibile tramite la sezione __Corsi di Laurea > Percorso Formativo__. Una volta acceduto al piano di studi, il percorso può essere scaricato tramite i pulsanti riportati nella seguente immagine.
 
 <img src="https://i.imgur.com/OGNQC43.png">
 
@@ -49,7 +49,7 @@ Il Piano di Studio da allegare corrisponde al documento riassumente il [Percorso
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 **Attenzione**
 
-Tutti gli esami presenti nel Percorso Formativo devono essere verbalizzati almeno 2-3 giorni prima della scadenza dell'invio della Domanda di Laurea (consultare la tabella delle scadenze previste sul [Calendario](../../insegnamenti/calendario/)). 
+Tutti gli esami presenti nel Percorso Formativo devono essere verbalizzati almeno 2-3 giorni prima della scadenza dell'invio della Domanda di Laurea (consultare la tabella delle scadenze previste sul [Calendario](../../../insegnamenti/calendario/)). 
 {{< /hint >}}
 
 Per quanto riguarda la __Ricevuta compilazione questionario AlmaLaurea__, è necessario registrarsi, accedere e compilare il questionario presente sul sito di [AlmaLaurea](https://www2.uniroma1.it/AiS/alma/almauno.php). Una volta completato il questionario sarà possibile scaricare la ricevuta di compilazione. 
@@ -90,7 +90,7 @@ Una volta che il Relatore avrà accettato la Domanda di Laurea sarà impossibile
 
 {{< hint info>}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
-Il __Titolo della Relazione di Tirocinio__ non è un campo obbligatorio nel form d'invio della domanda, ma lo è per il nostro corso di studio. Se tale campo risulta vuoto nel momento in cui il Relatore accetta la domanda inviata, non sarà più possibile inserire il titolo. Nel caso in cui ci si trovi in tale situazione, sarà necessario contattare al più presto la [Segreteria Amministrativa](segrstudenti.i3s@uniroma1.it).
+Il __Titolo della Relazione di Tirocinio__ non è un campo obbligatorio nel form d'invio della domanda, ma lo è per il nostro corso di studio. Se tale campo risulta vuoto nel momento in cui il Relatore accetta la domanda inviata, non sarà più possibile inserire il titolo. Nel caso in cui ci si trovi in tale situazione, sarà necessario contattare al più presto la [Segreteria Amministrativa](mailto:segrstudenti.i3s@uniroma1.it).
 {{< /hint >}}
 
 Una volta concluso il periodo di invio della Domanda di Laurea per la sessione scelta, tutti i campi della domanda inviata ed accettata diventeranno __immutabili e definitivi__. Successivamente, lo studente dovrà __inviare__ la propria Relazione di Tirocinio tramite le modalità e entro le scadenze previste dalla pagina [Laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/laurearsi). Nell'arco delle due settimane successive allo scadere dell'invio della Domanda di Laurea, la segreteria effettuerà le verifiche necessarie per l'accertamento della correttezza della domanda, confermandola in caso l'esito sia positivo. A tempo debito, verrà inviata un'email contenente le informazioni relative alle successive fasi della procedura di laurea. 
@@ -107,7 +107,7 @@ Nel caso in cui si decida di _cancellare_ la proprio Domanda di Laurea inviata, 
 Per effettuare l'Annullamento della Domanda di Laurea, è necessario contattare la segreteria studenti. Per effettuare la Revoca, invece, è sufficiente utilizzare l'apposito pulsante presente accanto alla domanda di laurea.
 {{< /hint >}}
 
-Nel caso in cui si sia effettuato per errore l'Annullamento o la Revoca della domanda, lo studente può provare a contattare il più rapidamente possibile la [Segreteria Amministrativa](segrstudenti.i3s@uniroma1.it), la quale procederà a contattare gli addetti del servizio Infostud.
+Nel caso in cui si sia effettuato per errore l'Annullamento o la Revoca della domanda, lo studente può provare a contattare il più rapidamente possibile la [Segreteria Amministrativa](mailto:segrstudenti.i3s@uniroma1.it), la quale procederà a contattare gli addetti del servizio Infostud.
 
 
 {{< hint warning >}}
