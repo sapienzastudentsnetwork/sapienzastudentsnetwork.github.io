@@ -7,8 +7,7 @@ aliases: ["/domanda-di-laurea", "/it/domanda-di-laurea", "/it/laurearsi/calcolo-
 # Domanda di Laurea
 
 {{< hint info >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
-
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 Questa pagina è basata sulle indicazioni presenti sul sito ufficiale del [Promemoria Laureandi](https://www.uniroma1.it/it/pagina/promemoria-laureandi) e [Guida alla Domanda di Laurea](https://www.uniroma1.it/it/pagina/domanda-di-laurea-online).
 {{< /hint >}}
 
@@ -21,12 +20,13 @@ Successivamente, è necessario effettuare il pagamento della __Tassa di Esame Fi
 Tuttavia, affinché essa possa essere avviata, è necessario aver prima inserito tutti i __documenti personali essenziali__, i quali possono essere caricati su Infostud nella sezione __Profilo > Documenti Personali e Foto__. Sarà necessario inserire un _documento di riconoscimento_ (carta di identità, passaporto, ...) e il _codice fiscale_ (tessera sanitaria, tessera del codice fiscale, ...).
 
 {{< hint warning >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
+**Attenzione**
 
 Per studenti non-UE è anche necessario inserire il proprio __Permesso di Soggiorno__ prima di poter creare una Domanda di Laurea. Nel caso in cui esso sia scaduto, sarà necessario inserire il kit di rinnovo.
 {{< /hint >}}
 
-Inoltre, sarà necessario aver correttamente effettuata l’__attivazione della propria e-mail istituzionale__, la quale, in teoria, dovrebbe essere già stata effettuata al primo anno. Contattare la [Segreteria Amministrativa](segrstudenti.i3s@uniroma1.it)  altrimenti.
+Inoltre, sarà necessario aver correttamente effettuato l’__attivazione della propria e-mail istituzionale__, la quale, in teoria, dovrebbe essere già stata svolta al primo anno.
 
 Una volta effettuati tutti i passaggi, la parte superiore della sezione __Corsi di Laurea > Esami > Domanda di Laurea__ dovrebbe apparire come segue. Sarà possibile creare una nuova Domanda di Laurea tramite il cliccando sul bottone _Nuova Domanda_ presente nella parte inferiore.
 
@@ -46,7 +46,8 @@ Il Piano di Studio da allegare corrisponde al documento riassumente il [Percorso
 
 
 {{< hint warning >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
+**Attenzione**
 
 Tutti gli esami presenti nel Percorso Formativo devono essere verbalizzati almeno 2-3 giorni prima della scadenza dell'invio della Domanda di Laurea (consultare la tabella delle scadenze previste sul [Calendario](../../insegnamenti/calendario/)). 
 {{< /hint >}}
@@ -54,7 +55,8 @@ Tutti gli esami presenti nel Percorso Formativo devono essere verbalizzati almen
 Per quanto riguarda la __Ricevuta compilazione questionario AlmaLaurea__, è necessario registrarsi, accedere e compilare il questionario presente sul sito di [AlmaLaurea](https://www2.uniroma1.it/AiS/alma/almauno.php). Una volta completato il questionario sarà possibile scaricare la ricevuta di compilazione. 
 
 {{< hint warning >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
+**Attenzione**
 
 Il questionario AlmaLaurea, il quale è obbligatorio, NON corrisponde al Questionario Laureandi mostrato nella parte superiore della schermata della Domanda di Laurea, il quale invece non è neanche previsto.
 {{< /hint >}}
@@ -80,14 +82,18 @@ Gli altri campi del modulo non sono necessari per la Domanda di Laurea. Ogni cam
 
 
 {{< hint warning >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
+**Attenzione**
 
 Una volta che il Relatore avrà accettato la Domanda di Laurea sarà impossibile modificarne i dati, fatta eccezione dei documenti allegati.
 {{< /hint >}}
 
+{{< hint info>}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 Il __Titolo della Relazione di Tirocinio__ non è un campo obbligatorio nel form d'invio della domanda, ma lo è per il nostro corso di studio. Se tale campo risulta vuoto nel momento in cui il Relatore accetta la domanda inviata, non sarà più possibile inserire il titolo. Nel caso in cui ci si trovi in tale situazione, sarà necessario contattare al più presto la [Segreteria Amministrativa](segrstudenti.i3s@uniroma1.it).
+{{< /hint >}}
 
-Una volta concluso il periodo di invio della Domanda di Laurea per la sessione scelta, tutti i campi della domanda inviata ed accettata diventeranno __immutabili e definitivi__. Nell'arco di due settimane, la segreteria effettuerà le verifiche necessarie per l'accertamento della correttezza della domanda, confermandola in caso l'esito sia positivo. A tempo debito, verrà inviata un'email contenente le informazioni relative alle successive fasi della procedura di laurea. 
+Una volta concluso il periodo di invio della Domanda di Laurea per la sessione scelta, tutti i campi della domanda inviata ed accettata diventeranno __immutabili e definitivi__. Successivamente, lo studente dovrà __inviare__ la propria Relazione di Tirocinio tramite le modalità e entro le scadenze previste dalla pagina [Laurearsi](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/laurearsi). Nell'arco delle due settimane successive allo scadere dell'invio della Domanda di Laurea, la segreteria effettuerà le verifiche necessarie per l'accertamento della correttezza della domanda, confermandola in caso l'esito sia positivo. A tempo debito, verrà inviata un'email contenente le informazioni relative alle successive fasi della procedura di laurea. 
 
 
 ## Annullamento e Revoca
@@ -97,8 +103,7 @@ Nel caso in cui si decida di _cancellare_ la proprio Domanda di Laurea inviata, 
 - La procedura di Revoca serve a cancellare una domanda già inviata e __RINUNCIARE__ alla possibilità di effettuarne una nuova nella stessa sessione di laurea. Tale operazione è __IRREVERSIBILE__ e una volta effettuata potrai laurearti solo in una sessione successiva a quella revocata. Né la presidenza né la segreteria studenti potranno modificare la revoca. Anche il docente relatore può effettuare una revoca della domanda di laurea, se lo riterrà opportuno. Per laurearti nella sessione successiva dovrai presentare una nuova domanda su Infostud.
 
 {{< hint info >}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
-
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 Per effettuare l'Annullamento della Domanda di Laurea, è necessario contattare la segreteria studenti. Per effettuare la Revoca, invece, è sufficiente utilizzare l'apposito pulsante presente accanto alla domanda di laurea.
 {{< /hint >}}
 
