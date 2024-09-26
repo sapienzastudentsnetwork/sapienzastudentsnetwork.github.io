@@ -22,11 +22,11 @@ If you encounter any problem during the procedure, please join the [Telegram gro
 {{< /hint >}}
 
 Enrolling in Applied Computer Science requires you to follow the following crucial steps:
-1. Taking an admission test
-2. Signing up for the preselection (mandatory for non-EU applicants)
-3. Applying for a visa (only for non-EU applicants)
-4. Registering with Infostud and paying the fee for a selection round (usually, there are three selection rounds you can apply to)
-5. Pre-enrolling or enrolling
+1. [Taking an admission test](#admission-tests)
+2. [Signing up for the preselection (mandatory for non-EU applicants)](#preselection-mandatory-for-non-eu-applicants)
+3. [Applying for a visa (only for non-EU applicants)](#visa)
+4. [Registering with Infostud and paying the fee for a selection round (usually, there are three selection rounds you can apply to)](#infostud)
+5. [Pre-enrolling or enrolling](#pre-enrollment-or-enrollment)
 
 ## English requirements
 
