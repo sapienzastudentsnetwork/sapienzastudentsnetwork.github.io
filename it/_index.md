@@ -9,6 +9,14 @@ bookToc: False
 
 <div style="width: 90%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Incontro di benvenuto (25 Settembre)**
+
+**Incontro di benvenuto** per le **matricole A.A. 2024/25**
+
+[[Informatica - info]](/it/info/matricole/cronoprogramma#25-settembre-2024-incontro-di-benvenuto-per-le-matricole) [[Informatica - slides]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
+{{< /hint >}}
+
 👋 Ti diamo il benvenuto nella wiki del Corso di Laurea Triennale in Informatica, curata dagli studenti e le studentesse del corso. Che tu sia un aspirante futura matricola o già iscritto/a, qui troverai molte informazioni utili per il tuo percorso!
 
 🔍 Naviga le sezioni e gli articoli disponibili nella barra laterale e non esitare a [contattarci](contribuire/contatti/) in caso di eventuali dubbi o a [contribuire](contribuire/come-contribuire/) anche tu, correggendo eventuali refusi o integrando nuove informazioni e guide 💪

@@ -301,6 +301,39 @@
             ]
           },
           {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
             "course": "1047638",
             "subject": "MODELS OF COMPUTATION",
             "building": "Edificio: RM113",
@@ -695,11 +728,44 @@
             ]
           },
           {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
             "course": "10589558",
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
             "building": "Edificio: RM115",
             "room": "Aula G50",
-            "teacher": "",
+            "teacher": "De vitis Alessandra ",
             "schedule": [
               {
                 "day": "venerd\u00ec",

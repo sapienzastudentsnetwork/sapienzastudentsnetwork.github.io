@@ -6,6 +6,25 @@
         "channel": "Canale 1",
         "timetable": [
           {
+            "course": "101226",
+            "subject": "CALCOLO DIFFERENZIALE",
+            "building": "Edificio: RM158",
+            "room": "Aula 4",
+            "teacher": "GARRONI ADRIANA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ]
+          },
+          {
             "course": "1015883",
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
             "building": "Edificio: RM158",
@@ -49,6 +68,25 @@
                 "day": "mercoled\u00ec",
                 "from": "16:00",
                 "to": "19:00"
+              }
+            ]
+          },
+          {
+            "course": "1020420",
+            "subject": "METODI MATEMATICI PER L'INFORMATICA",
+            "building": "Edificio: RM158",
+            "room": "Aula 4",
+            "teacher": "CARLUCCI LORENZO",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ]
           },

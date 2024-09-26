@@ -7,11 +7,11 @@ type: 'page'
 timetables:
     - title: "Third Year"
       courses:
-        - '10595530'
-        - '10595532'
-        - '10595531'
-        - '10595534'
-        - '10595536'
+        - '10595536' # BUSINESS AND COMPUTER SCIENCE
+        - '10595532' # CYBERSECURITY
+        - '10595531' # DEEP LEARNING
+        - '10595530' # FOUNDATIONS OF COMPUTER SCIENCE
+        - '10595534' # WEB AND SOFTWARE ARCHITECTURE
 ---
 
 Check layout/page/schedule.html to analyze this page's content

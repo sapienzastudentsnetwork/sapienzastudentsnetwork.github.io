@@ -154,6 +154,7 @@ def parse(DOM):
                     schedule_start_time = day_and_time_string_fields[1]
                     schedule_end_time   = day_and_time_string_fields[2]
                     schedule_time_slot  = f"{schedule_start_time} - {schedule_end_time}"
+                    schedule_time_slot  = re.sub(r'\b0(\d)', r'\1', schedule_time_slot)
 
                     if course_code not in course_timetables_dict:
                         course_timetables_dict[course_code] = {
@@ -449,7 +450,7 @@ if __name__ == '__main__':
     matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
     matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
 
-    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 25)):
+    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 28)):
         # 1047622 - CRYPTOGRAPHY
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
@@ -522,7 +523,7 @@ if __name__ == '__main__':
             "code": "1047627"
         }
 
-    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 25)):
+    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 28)):
         if degree_programme_code == "29923":
             # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
             course_timetables_dict["10596283"]["channels"] = {}
@@ -530,6 +531,13 @@ if __name__ == '__main__':
             # 1015880 - PROGETTAZIONE DI SISTEMI DIGITALI
             # Prof. Pontarelli in missione, inizierà il 3 ottobre
             course_timetables_dict["1015880"]["channels"]["1"] = {}
+
+            # 1015883 - FONDAMENTI DI PROGRAMMAZIONE
+            # Le lezioni di Fondamenti di Programmazione - canale AL
+            # iniziano giovedì 26/9 in aula 203 presso l'edificio Marco
+            # Polo Circonvallazione Tiburtina 4.
+            course_timetables_dict["1015883"]["channels"]["1"].pop("martedì")
+            course_timetables_dict["1015883"]["channels"]["1"].pop("mercoledì")
 
             # 1022301 - INGEGNERIA DEL SOFTWARE
             # Start date: Wednesday, October 2nd, 2024
@@ -603,10 +611,22 @@ if __name__ == '__main__':
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
                     for day_schedule in day_schedules:
+                        # 101226 - CALCOLO DIFFERENZIALE
+                        if (course_code == "101226") and (channel_id == "1"):
+                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                                day_schedule["teacher"] = None
+                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+
                         # 10595531 - DEEP LEARNING
                         if course_code == "10595531":
                             # Prof. Fabio Galasso
-                            teacher = "c6ebe64b-d218-4bed-9643-8de250010478"
+                            day_schedule["teacher"] = "c6ebe64b-d218-4bed-9643-8de250010478"
+
+                        # 10595529 - CALCULUS 2
+                        if course_code == "10595529":
+                            if day_schedule["teacher"] is None:
+                                day_schedule["teacherInfo"] = "ALLA ALESSANDRO"
+                                day_schedule["teacherUrl"]  = "https://www.alessandroalla.com/index.html"
 
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
