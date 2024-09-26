@@ -105,7 +105,7 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 - **9038** as the institution code
 {{< /hint >}}
 
-### Preselection (mandatory for non-EU applicants)
+## Preselection (mandatory for non-EU applicants)
 
 The [MoveIN](https://sapienza.gomovein.com/) pre-selection is a required preliminary assessment for non-EU candidates residing abroad and optional for Italian, EU candidates, and non-EU citizens residing in Italy. A positive outcome results in a pre-acceptance letter, inviting the candidate to proceed to the selection process. 
 
@@ -121,7 +121,7 @@ Pre-selection alone **is not sufficient** for enrolment.
 The following admission process depends on passing the selection.
 Candidates from non-EU countries legally residing abroad cannot participate in the selection rounds without receiving the pre-acceptance letter and confirming the invitation it contains. For more details, click [here](https://www.uniroma1.it/en/admissions2024).
 
-### Visa
+## Visa
 
 **Non-EU citizens must apply for a student visa** at the Italian Embassy or Consulate of their jurisdiction. Check if you need a student visa on the [Visa for Italy](https://vistoperitalia.esteri.it/home/en) portal.
 
