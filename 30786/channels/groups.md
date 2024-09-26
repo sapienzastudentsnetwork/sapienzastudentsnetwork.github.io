@@ -6,7 +6,7 @@ weight: 1
 
 # Groups
 
-On this page you can find links to the **WhatsApp groups** and the **Telegram groups** for the Bachelor's Degree in Applied Computer Science and Artificial Intelligence (30786)
+On this page you can find links to the **WhatsApp groups** and **Telegram groups** for the Bachelor's Degree in **Applied Computer Science and Artificial Intelligence** (30786), also abbreviated to **ACSAI**
 
 ## General groups
 
@@ -18,9 +18,9 @@ General groups on Telegram bring together **all** students **of any year**
 
 ### A.Y. 2024/2025
 
-[![](https://img.shields.io/badge/-whatsapp_group_2024--25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
-
 [![](https://img.shields.io/badge/-telegram_group_2024--25-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
+
+[![](https://img.shields.io/badge/-whatsapp_group_2024--25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
 
 ## Students from previous years
 
@@ -48,7 +48,7 @@ General groups on Telegram bring together **all** students **of any year**
 - [Cybersecurity](https://t.me/+ZLceB7Q8cSA2NzA0)
 - [Web and Software Architecture](https://t.me/+TopZxkqZSSo2MzQ0)
 
-For external elective courses in Italian, to be taken from the "Informatica" (29923) Bachelor's Degree Program, click [HERE](../../it/canali/gruppi#primo-semestre-2)
+For external elective courses in Italian, to be taken from the "Informatica" (29923) Bachelor's Degree Program, click [HERE](/it/canali/gruppi#primo-semestre-2)
 
 You may also want to check the list of groups available within the [@SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot) telegram bot for other external course groups you may choose as electives
 
@@ -58,6 +58,6 @@ You may also want to check the list of groups available within the [@SapienzaStu
 - [Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
 - [Optimization](https://t.me/+nx7dseifrswzNGU6)
 
-For external elective courses in Italian, to be taken from the "Informatica" (29923) Bachelor's Degree Program, click [HERE](../../it/canali/gruppi#secondo-semestre-2)
+For external elective courses in Italian, to be taken from the "Informatica" (29923) Bachelor's Degree Program, click [HERE](/it/canali/gruppi#secondo-semestre-2)
 
 You may also want to check the list of groups available within the [@SapienzaStudentsBot](https://telegram.me/SapienzaStudentsBot) telegram bot for other external course groups you may choose as electives

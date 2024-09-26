@@ -18,7 +18,7 @@ Per contribuire è possibile utilizzare **GitHub**, quindi è importante conosce
 
 Puoi trovare maggiori informazioni su come fare una corretta pull request [**qui**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls)
 
-Se non sei familiare con **git** e **GitHub**, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire ai progetti degli altri, o eventualmente chiedere aiuto allo [staff del progetto](/it/contribuire/contatti) o in uno dei [gruppi disponibili](/it/canali/telegram).
+Se non sei familiare con **git** e **GitHub**, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire ai progetti degli altri, o eventualmente chiedere aiuto allo [staff del progetto](/it/contribuire/contatti) o in uno dei [gruppi disponibili](/it/canali/gruppi).
 {{< /hint >}}
 
 ## Clonare il progetto

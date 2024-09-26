@@ -13,6 +13,12 @@ weight: 2
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
 {{< /hint >}}
 
+{{< hint tip >}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Esempi di relazione di tirocinio**
+
+Nella [sezione dedicata](#relazioni-di-tirocinio-condivise-da-altri-studenti) è possibile trovare degli esempi di relazioni di tirocinio condivise da altri studenti e studentesse.
+{{< /hint >}}
+
 ## Come funziona il tirocinio
 Il tirocinio è un passo fondamentale nel percorso di studi, in quanto permette di mettere in pratica le competenze acquisite durante il corso di laurea. Esso può essere svolto presso un'azienda, un ente o un laboratorio di ricerca, e può essere interno o esterno all'Università.
 
@@ -112,6 +118,7 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 {{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Aggiungi la tua relazione alla lista{{< /button >}}
 
 {{< expand "Espandi la lista...">}}
+* [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
 * [SAPERE: a sequantial recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 {{< /expand >}}
 

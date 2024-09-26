@@ -16,118 +16,187 @@
     {{ $courseSubject := index $courseTimetables "subject" }}
     {{ $courseChannels := index $courseTimetables "channels" }}
 
-    <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
+    {{ if $courseCode }}
+        <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
 
-        <h3>{{ $courseCode }} - {{ $courseSubject }}</h3>
+            <h3>{{ $courseCode }} - {{ $courseSubject }}</h3>
 
-        {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
-        {{ if $telegram_group }}
-            ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
-            <br/>
-        {{ end }}
+            {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
+            {{ if $telegram_group }}
+                {{ $courseSubjectPascalCase := $courseSubject | lower | title }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "a'" "à" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "i'" "ì" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "o'" "ò" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "ù'" "ù" }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Delle " " delle " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Di " " di " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " E " " e " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Il " " il " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Lo " " lo " }}
+                {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "L'" "l'" }}
 
-        {{ range $channel_id, $channel := $courseChannels }}
-            {{ $days := $channel }}
+                ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseSubjectPascalCase}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
+                <br/>
+            {{ end }}
 
-            {{ if and $courseCode (index $dataHardcodedTimetables $courseCode) }}
-                {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCode }}
-                {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
-                    {{ $days = index $hardcodedChannel "channels" $channel_id }}
+            {{ range $channel_id, $channel := $courseChannels }}
+                {{ $days := $channel }}
+
+                {{ if and $courseCode (index $dataHardcodedTimetables $courseCode) }}
+                    {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCode }}
+                    {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
+                        {{ $days = index $hardcodedChannel "channels" $channel_id }}
+                    {{ end }}
                 {{ end }}
-            {{ end }}
 
-            {{ if ne $channel_id "0" }}
-            <div id="{{ $courseCodeWithUnit }}-{{ $channel_id }}" class="{{ if $defaultHidden }}hidden{{ end }}">
-                <h4>Canale {{ $channel_id }}</h4>
-            {{ else if $telegram_group }}
-            <br/>
-            {{ end }}
+                {{ if ne $channel_id "0" }}
+                <div id="{{ $courseCodeWithUnit }}-{{ $channel_id }}" class="{{ if $defaultHidden }}hidden{{ end }}">
+                    {{ $channelTitles := dict "1" "Canale A-L (1)" "2" "Canale M-Z (2)" }}
 
-            {{ if and $courseCode (index $dataCourses $courseCode) }}
-                {{ $alerts := index $dataCourses $courseCode "alerts" }}
-                {{ if $alerts }}
-                    {{ if index $alerts $channel_id }}
-                        {{ range index $alerts $channel_id }}
-                            {{ . }}
-                            <br>
+                    {{ if ne $channel_id "0" }}
+                        {{ $title := index $channelTitles $channel_id }}
+                        {{ if $title }}
+                            <h4>{{ $title }}</h4>
+                        {{ else }}
+                            <h4>Canale {{ $channel_id }}</h4>
+                        {{ end }}
+                    {{ end }}
+                {{ else if $telegram_group }}
+                <br/>
+                {{ end }}
+
+                {{ if and $courseCode (index $dataCourses $courseCode) }}
+                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
+                    {{ if $alerts }}
+                        {{ if index $alerts $channel_id }}
+                            {{ range index $alerts $channel_id }}
+                                {{ . }}
+                                <br>
+                            {{ end }}
                         {{ end }}
                     {{ end }}
                 {{ end }}
-            {{ end }}
 
-            <table>
-                <thead>
-                    <tr>
-                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Day" }}</th>
-                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Time" }}</th>
-                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Teacher" }}</th>
-                        <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Classroom" }}</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {{ $dayOrder := slice "lunedì" "martedì" "mercoledì" "giovedì" "venerdì" "sabato" "domenica" }}
-                    {{ $sortedDays := slice }}
-
-                    {{ range $day := $dayOrder }}
-                        {{ if index $days $day }}
-                            {{ $sortedDays = $sortedDays | append $day }}
-                        {{ end }}
-                    {{ end }}
-
-                    {{ range $day := $sortedDays }}
-                        {{ $day_info := index $days $day }}
-                        {{ range $info := $day_info }}
-                            {{ $timeslot := $info.timeslot }}
-
+                {{ if $days }}
+                    <table>
+                        <thead>
                             <tr>
-                                <td class="timetableTableCell">
-                                    {{ if eq $day "lunedì" }}{{ T "DaysOfTheWeek_Monday" }}{{ end }}
-                                    {{ if eq $day "martedì" }}{{ T "DaysOfTheWeek_Tuesday" }}{{ end }}
-                                    {{ if eq $day "mercoledì" }}{{ T "DaysOfTheWeek_Wednesday" }}{{ end }}
-                                    {{ if eq $day "giovedì" }}{{ T "DaysOfTheWeek_Thursday" }}{{ end }}
-                                    {{ if eq $day "venerdì" }}{{ T "DaysOfTheWeek_Friday" }}{{ end }}
-                                    {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
-                                    {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
-                                </td>
-                                <td class="timetableTableCell">{{ $timeslot }}</td>
-                                <td class="timetableTableCell">
-                                    {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
-                                    {{ $teacherId := index $timeslotInDay 0 "teacher" }}
-                                    {{ if $teacherId }}
-                                        {{ $teacherName := index $dataTeachers $teacherId "name" }}
-
-                                        {{ if $teacherName }}
-                                            <a href="https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID={{ $teacherId }}">
-                                                {{ $teacherName }}
-                                            </a>
-                                        {{ else }}
-                                            Non disponibile
-                                        {{ end }}
-                                    {{ else }}
-                                        Non disponibile
-                                    {{ end }}
-                                </td>
-                                <td class="timetableTableCell">
-                                    {{ range $classroom_id, $location := $info.classrooms }}
-                                        {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
-
-                                        {{ if $mapsUrl }}
-                                            <a href="{{ $mapsUrl }}">{{ $location }}</a>
-                                            <br/>
-                                        {{ else }}
-                                            {{ $location }}
-                                            <br/>
-                                        {{ end }}
-                                    {{ end }}
-                                </td>
+                                <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Day" }}</th>
+                                <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Time" }}</th>
+                                <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Teacher" }}</th>
+                                <th scope="col" class="timetableTableCell">{{ T "Subjs_TimetablesPerTeaching_Classroom" }}</th>
                             </tr>
-                        {{ end }}
-                    {{ end }}
-                </tbody>
-            </table>
-            {{ if ne $channel_id "0" }}
-            </div>
+                        </thead>
+                        <tbody>
+                            {{ $dayOrder := slice "lunedì" "martedì" "mercoledì" "giovedì" "venerdì" "sabato" "domenica" }}
+                            {{ $sortedDays := slice }}
+
+                            {{ range $day := $dayOrder }}
+                                {{ if index $days $day }}
+                                    {{ $sortedDays = $sortedDays | append $day }}
+                                {{ end }}
+                            {{ end }}
+
+                            {{ range $day := $sortedDays }}
+                                {{ $day_info := index $days $day }}
+                                {{ range $info := $day_info }}
+                                    {{ $timeslot := $info.timeslot }}
+
+                                    <tr>
+                                        <td class="timetableTableCell">
+                                            {{ if eq $day "lunedì" }}{{ T "DaysOfTheWeek_Monday" }}{{ end }}
+                                            {{ if eq $day "martedì" }}{{ T "DaysOfTheWeek_Tuesday" }}{{ end }}
+                                            {{ if eq $day "mercoledì" }}{{ T "DaysOfTheWeek_Wednesday" }}{{ end }}
+                                            {{ if eq $day "giovedì" }}{{ T "DaysOfTheWeek_Thursday" }}{{ end }}
+                                            {{ if eq $day "venerdì" }}{{ T "DaysOfTheWeek_Friday" }}{{ end }}
+                                            {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
+                                            {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
+                                        </td>
+                                        <td class="timetableTableCell">{{ $timeslot }}</td>
+                                        <td class="timetableTableCell">
+                                            {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
+                                            {{ $teacherId := index $timeslotInDay 0 "teacher" }}
+                                            {{ $teacherUrl := "" }}
+                                            {{ $teacherName := "" }}
+
+                                            {{ if $teacherId }}
+                                                {{ $teacherName = index $dataTeachers $teacherId "name" }}
+                                                {{ $teacherUrl  = printf "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=%s" $teacherId }}
+                                            {{ else if $info.teacherInfo }}
+                                                {{ $teacherName = $info.teacherInfo }}
+                                                {{ if $info.teacherUrl }}
+                                                    {{ $teacherUrl = $info.teacherUrl }}
+                                                {{ end }}
+                                            {{ end }}
+
+                                            {{ if $teacherName }}
+                                                {{ if $teacherUrl }}
+                                                    <a href="{{ $teacherUrl }}">{{ $teacherName }}</a>
+                                                {{ else }}
+                                                    {{ $teacherName }}
+                                                {{ end }}
+                                            {{ else }}
+                                                Non disponibile
+                                            {{ end }}
+                                        </td>
+                                        <td class="timetableTableCell">
+                                            {{ $replacements := dict
+                                                "(Edificio: RM005)" "Via Scarpa (RM005)"
+                                                "(Edificio: RM018)" "Castro Laurenziano (RM018)"
+                                                "(Edificio: RM025)" "Tiburtina (RM025)"
+                                                "(Edificio: RM062)" "Via Salaria (RM062)"
+                                                "(Edificio: RM102)" "Via Ariosto, 25 (RM102)"
+                                                "(Edificio: RM103)" "Via dei Volsci, 122 (RM103)"
+                                                "(Edificio: RM111)" "Regina Elena Ed. C (RM111)"
+                                                "(Edificio: RM113)" "Regina Elena Ed. E (RM113)"
+                                                "(Edificio: RM115)" "Regina Elena Ed. G (RM115)"
+                                                "(Edificio: RM158)" "De Lollis (RM158)"
+                                            }}
+
+                                            {{ if $info.classrooms }}
+                                                {{ range $classroom_id, $location := $info.classrooms }}
+                                                    {{ range $old, $new := $replacements }}
+                                                        {{ $location = replace $location $old $new }}
+                                                    {{ end }}
+
+                                                    {{ if (strings.Contains $location "AREA DI CANTIERE") }}
+                                                        {{ $location = T "Subjs_TimetablesPerTeaching_ConstructionSite" }}
+                                                    {{ end }}
+
+                                                    {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
+
+                                                    {{ if $mapsUrl }}
+                                                        <a href="{{ $mapsUrl }}" target="_blank">{{ $location }}</a>
+                                                        <br/>
+                                                    {{ else }}
+                                                        {{ $location }}
+                                                        <br/>
+                                                    {{ end }}
+                                                {{ end }}
+                                            {{ else }}
+                                                {{ $classroomInfo := $info.classroomInfo }}
+                                                {{ $classroomUrl := $info.classroomUrl }}
+
+                                                {{ if $classroomUrl }}
+                                                    <a href="{{ $classroomUrl }}">{{ $classroomInfo }}</a>
+                                                {{ else }}
+                                                    {{ $classroomInfo }}
+                                                {{ end }}
+                                            {{ end }}
+                                        </td>
+                                    </tr>
+                                {{ end }}
+                            {{ end }}
+                        </tbody>
+                    </table>
+                {{ else }}
+                    {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
+                {{ end }}
+
+                {{ if ne $channel_id "0" }}
+                </div>
+                {{ end }}
             {{ end }}
-        {{ end }}
-    </div>
+        </div>
+    {{ end }}
 {{ end }}

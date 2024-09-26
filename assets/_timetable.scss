@@ -9,6 +9,22 @@
         margin: 4px 0 4px 0;
         border-radius: 18px;
     }
+
+    .subjsGroupTitle {
+        margin: 20px auto 20px auto;
+    }
+
+    #subjsINF {
+        text-shadow: 0px 0px 15px #214E81;
+    }
+
+    #subjsACSAI {
+        text-shadow: 0px 0px 15px #D66464;
+    }
+
+    #subjsCS {
+        text-shadow: 0px 0px 15px #4A9856;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -21,6 +37,15 @@
         height: 28px;
         margin: 2px;
         border-radius: 14px;
+    }
+
+    .subjsGroupTitle {
+        margin: 20px 0 20px 0;
+        text-shadow: 0px 0px 15px transparent;
+    }
+
+    #subjsINF, #subjsACSAI, #subjsCS {
+        text-shadow: 0px 0px 15px transparent;
     }
 }
 
@@ -107,7 +132,7 @@
     margin: 20px 0 0 0;
     border: solid var(--border-color) 1.75px;
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
-    color: black;
+    color: var(--body-font-color);
 }
 
 #subjsSelTitle {

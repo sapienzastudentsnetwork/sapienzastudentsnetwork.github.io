@@ -1,6 +1,6 @@
 ---
-title: Getting in CS
+title: Student Associations
 bookCollapseSection: true
 bookHidden: false
-weight: 1
+weight: 3
 ---

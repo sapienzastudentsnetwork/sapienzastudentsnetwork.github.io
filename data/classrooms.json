@@ -14,6 +14,16 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+3)&iwloc=A&hl=it"
   },
+  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+    "description": "Aula 3 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "0423606b-48fc-4638-a851-eab7563981a2": {
+    "description": "Aula 4 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
   "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
     "description": "Aula G50 - Regina Elena - Edificio G",
     "address": "Viale Regina Elena, 295",
@@ -39,6 +49,16 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },
+  "8c93a07d-b833-4dae-a4ff-302f0f065453": {
+    "description": "Aula 1 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "625390f2-0bbb-4072-b866-50902fa1bad9": {
+    "description": "Aula 2 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
+  },
   "cab0d0ee-1faa-4552-9587-7a559480dde4": {
     "description": "Aula A2 -",
     "address": null,
@@ -48,11 +68,6 @@
     "description": "Aula Alfa - Sociologia",
     "address": "Via Salaria, 113/117",
     "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
-  },
-  "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": {
-    "description": "Aula G0 - Regina Elena - Edificio G",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G0)&iwloc=A&hl=it"
   },
   "3204f38e-7393-4457-a108-c048458d026a": {
     "description": "Aula S1 - Regina Elena - Edificio E",

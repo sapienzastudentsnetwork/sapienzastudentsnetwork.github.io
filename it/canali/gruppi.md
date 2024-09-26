@@ -7,6 +7,30 @@ weight: 1
 
 In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsApp** per le Lauree Triennali in **Informatica** (29923) e **Informatica - erogato in modalità prevalentemente a distanza** (29400)
 
+## Gruppi matricole
+
+{{< hint warning >}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Associazioni Studentesche**
+
+**Non siete voti, siete persone.** Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
+
+- **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”
+  
+- **Gestione dei gruppi assente:** entrano periodicamente spammer impuniti ed è difficile (gli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti
+
+- [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri. **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
+
+Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati qui sotto
+{{< /hint >}}
+
+Gruppi per le **matricole dell'A.A. 2024/2025**:
+
+|                        Telegram                        |                            WhatsApp                            |
+|:------------------------------------------------------:|:--------------------------------------------------------------:|
+|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://chat.whatsapp.com/Hn6ZHgIx9To82ffHW2X2Ek) |
+|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/HwenUPhOPSi65CnWF2kx1Y) |
+| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
+
 ## Gruppi generali
 
 I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse, **di qualsiasi anno e canale**:
@@ -18,30 +42,11 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 - [Discussioni generali sull'ateneo](https://t.me/sapienzadiscussioni)
 - [Sapienza GNU/Linux community](https://t.me/+r-InQzG0ctkwNjNk)
 
-### Gruppi matricole
+## Gruppi dei singoli insegnamenti
 
-#### A.A. 2024/2025
+### Primo Anno
 
-Gruppi per le **matricole dell'A.A. 2024/2025**:
-
-|                        Telegram                        |                     WhatsApp                      |
-|:------------------------------------------------------:|:-------------------------------------------------:|
-|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](http://minfwa1.sapienzastudents.net) |
-|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](http://minfwa2.sapienzastudents.net) |
-| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                         -                         |
-
-#### A.A. 2023/2024
-
-Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
-- [Canale A-L](https://t.me/+d48JCYoNsBVlN2Fk)
-- [Canale M-Z](https://t.me/+XYn7MpH2ja5jZGNk)
-- [Teledidattica](https://t.me/+p_NLeLvBlkowYmI0)
-
-### Gruppi dei singoli insegnamenti
-
-#### Primo Anno
-
-##### Primo Semestre
+#### Primo Semestre
 
 [Entra in tutti](https://t.me/addlist/OS2lMU_4FqMwMTU0)
 
@@ -50,7 +55,7 @@ Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
 - [Metodi Matematici per l'Informatica](https://t.me/+m_-WkFEmQzdmZDZk)
 - [Progettazione di Sistemi Digitali](https://t.me/+hr9OFwWWGCZhODU0)
 
-##### Secondo Semestre
+#### Secondo Semestre
 
 [Entra in tutti](https://t.me/addlist/67z3BS7RlIFlYzM0)
 
@@ -60,9 +65,9 @@ Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
 - [Lingua Inglese](https://t.me/+clLwVwTLUHk3YzM0)
 - [Metodologie di Programmazione](https://t.me/+8iyKxeRgfXtmY2Y0)
 
-#### Secondo Anno
+### Secondo Anno
 
-##### Primo Semestre
+#### Primo Semestre
 
 [Entra in tutti](https://t.me/addlist/yQxr6yhOkLozYTE0)
 
@@ -71,7 +76,7 @@ Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
 - [Calcolo delle Probabilità](https://t.me/+Dq6lPczRbJtmNmVk)
 - [Sistemi Operativi 1](https://t.me/+oF0ppISY8EFmOTZk)
 
-##### Secondo Semestre
+#### Secondo Semestre
 
 [Entra in tutti](https://t.me/addlist/MfjVW8RhBB4xODNk)
 
@@ -80,7 +85,7 @@ Gruppi **Telegram** per le **matricole dell'A.A. 2023/2024**:
 - [Reti di Elaboratori](https://t.me/+vNSkWJUgs9Y1MzFk)
 - [Sistemi Operativi 2](https://t.me/+PzNOzkmwVio4Nzg0)
 
-#### Terzo Anno
+### Terzo Anno
 
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
@@ -88,7 +93,7 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
 **NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/percorso-formativo#come-scegliere-gli-esami-esterni).
 {{< /hint >}}
 
-##### Insegnamenti obbligatori
+#### Insegnamenti obbligatori
 
 - Per il **corso in presenza** (29923) è disponibile un [gruppo unico](https://t.me/+u6hEDMJqXsNhZjk0) per i due insegnamenti obbligatori del Terzo Anno
 
@@ -96,15 +101,14 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
     - [Automi, Calcolabilità e Complessità](https://t.me/+cyF-V6dnurcyNGQ0)
     - [Ingegneria del Software](https://t.me/+ziirbiKQi2g5ZjU0)
 
-##### Insegnamenti a scelta
+#### Insegnamenti a scelta
 
-###### Primo Semestre
+##### Primo Semestre
 
 - [Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)
 - [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
@@ -112,7 +116,7 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
 - [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
 - [[ACSAI] Cybersecurity](https://t.me/+ZLceB7Q8cSA2NzA0)
 
-###### Secondo Semestre
+##### Secondo Semestre
 
 - [Biologia Computazionale](https://t.me/+cBediJPv7GxmZTc8)
 - [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)

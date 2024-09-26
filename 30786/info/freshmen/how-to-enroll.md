@@ -1,13 +1,9 @@
 ---
 title: How to enroll
+aliases: ["/30786/info/getting-in/how-to-get-in", "/30786/info/freshmen/how-to-get-in"]
 ---
 
 # How to enroll
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Deadlines postponed**
-
-Upon several issues regarding payments and enrolment, Sapienza postponed the deadline to enroll officially to **11th September** for the winners of both the first and second selection.
-{{< /hint >}}
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
@@ -100,7 +96,6 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 - **Sapienza University of Rome** as the name of the institution
 - **9038** as the institution code
 {{< /hint >}}
-
 
 ## Preselection (mandatory for non-EU applicants)
 

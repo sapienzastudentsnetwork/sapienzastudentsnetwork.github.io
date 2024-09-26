@@ -23,8 +23,10 @@
     toc = document.createElement('nav');
     toc.id = 'TableOfContents';
 
-    // Collect all headers from the article
-    const headers = article.querySelectorAll("h2, h3");
+    // Collect all headers from the article that are NOT inside a .book-tabs element
+    const headers = Array.from(article.querySelectorAll("h2, h3")).filter(header => {
+      return !header.closest('.book-tabs');
+    });
 
     if (headers.length === 0) {
       toc.innerHTML = "<p>No headers found in the article.</p>";

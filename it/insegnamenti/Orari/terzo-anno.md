@@ -7,14 +7,15 @@ type: 'page'
 timetables:
     - title: "Terzo Anno"
       courses:
-        - '1022264'
-        - '1022263'
-        - '1022301'
+        - '1041727'
+        - '10606972'
         - '97597'
+        - '1022301'
+        - '1022263'
+        - '1022264'
+        - '10596283'
         - '10593235'
         - '1022267'
-        - '10596283'
-        - '1041727'
 ---
 
 Check layout/page/schedule.html to analyze this page's content

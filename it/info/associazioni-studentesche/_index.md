@@ -1,6 +1,6 @@
 ---
-title: Getting in ACSAI
+title: Associazioni Studentesche
 bookCollapseSection: true
 bookHidden: false
-weight: 1
+weight: 3
 ---

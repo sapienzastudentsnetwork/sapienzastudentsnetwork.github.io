@@ -1,21 +1,6 @@
 # Student Canteens
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **More details**
-
-All the information shown here can be found on [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/)'s website, which reports them with more precision
-{{< /hint >}}
-
-Student canteens allow access to meal at a reduced prize depending on the ISEE (Indicator of Equivalent Economic Situation) of the student.
-
-Only students enrolled at a public or private university in Lazio can access the canteens.
-
-| ISEE  | Price of a complite meal |
-|:---:|:---:|
-| up to 19 thousand euro | 2,20 € |
-| up to 35 thousand euro | 3 € |
-| up to 60 thousand euro | 4,10 € |
-| above 60 thousand euro / not declared | 7,70 € |
+University canteens are facilities that allow you to eat at a subsidized price (prices by ISEE bracket can be found on the [dedicated page on the DiSCo Lazio website](http://www.laziodisco.it/servizi/ristorazione/)) depending on your university ISEE  (Indicator of Equivalent Economic Situation).
 
 International students must obtain ISEE only from an affiliated CAF (Fiscal Assistance Center): the full list can be found [here](http://www.laziodisco.it/guide/caf-convenzionati-2022/). Required documentation to obtain the ISEE can be found on the website of [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) under the heading "Documentazione per il primo accredito di studenti interazionali" (Documentation for first accreditation of international student).
 

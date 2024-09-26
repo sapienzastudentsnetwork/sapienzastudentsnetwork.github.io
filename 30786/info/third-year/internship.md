@@ -8,22 +8,24 @@ aliases:
 weight: 2
 ---
 
-  
+
 
 # Internship
 
-  
+
 {{< hint info >}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Telegram Group**
 
-  
-
 There is also a [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by students of the degree course, dedicated to topics related to the thesis and internship.
-
 {{< /hint >}}
 
-  
+{{< hint tip >}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i>
+**Examples of internship reports**
+
+Examples of internship reports shared from other students can be found in the [dedicated section of this page](#internship-reports-shared-by-other-students).
+{{< /hint >}}
 
 ## How the Internship Works
 
@@ -40,12 +42,12 @@ The internship:
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
-  
+
 The internship lasts 105 days, so it is very important to take this duration into account when choosing the graduation session.
 
 {{< /hint >}}
 
-  
+
 
 ## Which Internship is Best for Me?
 
@@ -55,7 +57,7 @@ The choice between an internal and external internship depends on your preferenc
 
 * An **external internship** allows you to immediately enter the workforce, a completely different context from academia, where you can develop practical skills that may be useful in your future career. The external internship also gives you the opportunity to work on significant business projects, which could be a great chance to gain experience and build your career.
 
-  
+
 
 ### How to Apply for an Internal Internship
 
@@ -67,7 +69,7 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 3. Fill out the [internship assignment form](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), including the internship topic agreed upon with the professor. The form must also be completed and signed by the professor supervising the internship.
 
-4. Fill out the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf).
+4. Fill out the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/authorisation_for_personal_data_processing.pdf).
 
 5. Complete the [statement acknowledging the plagiarism guidelines](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
 
@@ -75,7 +77,7 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 7. Submit the completed and signed forms, along with the transcript of records, by filling out the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2).
 
-  
+
 
 <figure style="width: 50%; margin: auto; display: block;">
 
@@ -85,7 +87,7 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 </figure>
 
-  
+
 
 ### How to Apply for an External Internship
 
@@ -115,8 +117,8 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 13. The internship can begin. It is advisable to check with Professor Gorla that all documentation is in order.
 
-  
-  
+
+
 
 ## How to Write an Internship Report
 
@@ -127,24 +129,24 @@ The internship report is an important document that summarizes the educational e
 For drafting your internship report, we strongly recommend using LaTeX. LaTeX is a writing system particularly suited for scientific documents, academic articles, and technical documents. It is widely used in academia for its ability to produce professionally formatted documents, manage complex mathematical formulas, and automate references and bibliography management through [BibTeX](#bibliography-management).
 
 LaTeX will help you produce your report more quickly by allowing you to focus on the content while the system handles the formatting. Additionally, it will provide you with a well-structured and easily modifiable document, resulting in a professional and high-quality output.
-  
+
 
 #### Overleaf and Recommended Template
 
 To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that does not require installation on your computer. For your report, you can use this [template for a bachelor's thesis from Sapienza University](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Although designed for a thesis, it is easily adaptable for an internship report.
-  
+
 
 {{< hint info >}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Learning to Use LaTeX**
 
-  
+
 
 If you've never used LaTeX before, don't worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basic concepts.
 
 {{< /hint >}}
 
-  
+
 
 #### Mathematical Symbols
 
@@ -157,19 +159,19 @@ There is no mandatory length for the internship report. However, we recommend wr
 ### Bibliography Management
 
 To manage the bibliography effectively, we suggest using BibTeX. This tool, integrated with LaTeX, simplifies the insertion and formatting of citations in your document.
-  
+
 
 {{< hint info >}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **BibTeX guide**
 
-  
+
 
 To learn how to use BibTeX, check out the [guide to bibliography management with BibTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) created by Overleaf.
 
 {{< /hint >}}
 
-  
+
 
 ### Final Tips
 
@@ -185,16 +187,17 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 <!--[Add your report to the list]()-->
 
-{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Add your report to the list{{< /button >}}
+{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-en-md.md&title=Add+Internship+Report">}}Add your report to the list{{< /button >}}
 
 {{< expand "Expand the list...">}}
 
+* [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
 * [SAPERE: a sequential recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 
 {{< /expand >}}
 
-  
-  
+
+
 
 <!-- Name Surname | [Professor’s Page Link]() | Teaching Page Link | Research Area -->
 
@@ -206,8 +209,8 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 ### Informatica
 
-  
-  
+
+
 
 | Docente | Argomenti di ricerca |
 |-|-:|
@@ -265,16 +268,16 @@ Here you will find a list of internship reports shared by other Sapienza student
 | Spinelli Indro | - |
 | [Sterbini Andrea](https://corsidilaurea.uniroma1.it/it/users/andreasterbiniuniroma1it) | E-Learning, algoritmi, modellazione bayesiana del peer-assessment |
 
-  
-  
+
+
 
 ### Ingegneria Informatica e Automatica
 
-  
+
 
 You can also request internships from professors in the Department of Ingegneria Informatica e Automatica
 
-  
+
 
 | Professor | Research area |
 |-|-:|
@@ -374,7 +377,7 @@ You can also request internships from professors in the Department of Ingegneria
 | Pereira Ramon Fraga | - |
 | [Petrioli Chiara](https://corsidilaurea.uniroma1.it/it/users/chiarapetrioliuniroma1it) | - |
 | [Petti Manuela](https://corsidilaurea.uniroma1.it/it/users/manuelapettiuniroma1it) | - |
-| [Piccialli Veronica](https://corsidilaurea.uniroma1.it/it/users/veronicapiccialliuniroma1it) | - 
+| [Piccialli Veronica](https://corsidilaurea.uniroma1.it/it/users/veronicapiccialliuniroma1it) | -
 | [Pietrabissa Antonio](https://corsidilaurea.uniroma1.it/it/users/antoniopietrabissauniroma1it) | - |
 | [Poggi Antonella](https://corsidilaurea.uniroma1.it/it/users/antonellapoggiuniroma1it) | - |
 | [Proietti Mattia Gabriele](https://corsidilaurea.uniroma1.it/it/users/gabrieleproiettimattiauniroma1it) | - |
@@ -398,13 +401,13 @@ You can also request internships from professors in the Department of Ingegneria
 | Trappolini Giovanni | - |
 | [Vendittelli Marilena](https://corsidilaurea.uniroma1.it/it/users/marilenavendittelliuniroma1it) | - |
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
-  
+
 
 {{< /expand >}}
 
 -->
 
-  
+
 
 <!-- ## FAQ -->
 

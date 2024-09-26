@@ -35,6 +35,7 @@
                     fillTimetable(
                         `{{ .title | urlize }}`,
                         JSON.parse(`{{ .courses | jsonify }}`),
+                        JSON.parse(`{{ .courses | jsonify }}`),
                         `{{ default 0 .channel }}`,
                     );
                 });
@@ -51,7 +52,7 @@
                 {{ $allCourses = $allCourses | append $courseCode }} <!-- Add course code to the list -->
             {{ end }}
         {{ end }}
-        
+
         <!-- Remove duplicates from the course list -->
         {{ range $allCourses }}
             {{ $courseCode := . }} <!-- Convert course code to string -->

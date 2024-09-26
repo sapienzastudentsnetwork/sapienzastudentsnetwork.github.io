@@ -1,5 +1,6 @@
 ---
 title: Come iscriversi
+aliases: ["/it/info/matricole/iscriversi"]
 ---
 
 # Iscrizione al CdL in Informatica

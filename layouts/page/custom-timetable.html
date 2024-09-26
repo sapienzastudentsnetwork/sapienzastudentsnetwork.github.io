@@ -47,25 +47,57 @@
         <div class="subjsDial flex h-full w-full flex-col items-start">
             <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
             <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-                <div class="subjsSingCourse">
-                    {{ $courses := .Site.Data.courses }}
-                    {{ range $code, $data := .Site.Data.timetables }}
-                        {{ $subject_info := index $courses $code }}
-                        {{ $channels := $data.channels }}
-                        {{ range $channel_id, $_ := $data.channels }}
-                            <button
-                                id="dialog-{{ $code }}-{{ $channel_id }}"
-                                class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
-                                onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
-                            >
-                                <span class="w-full truncate text-left">
-                                    [{{ $data.degree }}] {{ $subject_info.shortName }}
-                                    {{ if ne $channel_id "0" }}(Canale {{ $channel_id }}){{ end }}
-                                </span>
-                            </button>
+                {{ $courses := site.Data.courses }}
+
+                {{ $pageDegreeCode := .Params.degreeCode }}
+
+                {{ $degrees := dict }}
+                {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
+                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
+                {{ else if eq $pageDegreeCode "29932" }}
+                    {{ $degrees = dict "29932" "Computer Science" }}
+                {{ else }}
+                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" }}
+                {{ end }}
+
+                {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" }}
+
+                {{ range $degreeCode, $degreeName := $degrees }}
+                    <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
+                        <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
+                        <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
+                    </h2>
+
+                    <div class="subjsSingCourse">
+                        {{ range $code, $data := site.Data.timetables }}
+                            {{ if eq $data.degree $degreeCode }}
+                                {{ $subject_info := index $courses $code }}
+                                {{ range $channel_id, $_ := $data.channels }}
+                                    <button
+                                      id="dialog-{{ $code }}-{{ $channel_id }}"
+                                      class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
+                                      onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
+                                    >
+                                        <span class="w-full truncate text-left">
+                                            {{ $subject_info.name }}
+                                            {{ if ne $channel_id "0" }}
+                                                {{ if eq $channel_id "1" }}
+                                                    (A-L)
+                                                {{ else if eq $channel_id "2" }}
+                                                    (M-Z)
+                                                {{ else }}
+                                                    (Canale {{ $channel_id }})
+                                                {{ end }}
+                                            {{ end }}
+                                        </span>
+                                    </button>
+                                {{ end }}
+                            {{ end }}
                         {{ end }}
-                    {{ end }}
-                </div>
+                    </div>
+
+                    <div style="width: 99%; height: 1px; background-color: #ddd; margin: 20px auto 0 auto;"></div>
+                {{ end }}
             </div>
             <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
                 {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
@@ -75,17 +107,26 @@
 
     {{ $dataTimetables := site.Data.timetables }}
     {{ $allCourses := slice }}
+    {{ $pageDegreeSubjects := slice }}
 
     {{ range $courseCode, $courseData := $dataTimetables }}
         {{ $allCourses = $allCourses | append $courseCode }}
+
+        {{ if index $degrees $courseData.degree }}
+            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+        {{ end }}
     {{ end }}
 
     <!-- Add the "Timetables per teaching" part for all courses -->
-    {{ with dict "courses" $allCourses "defaultHidden" true }}
+    {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
         {{ partial "timetables-per-teaching.html" . }}
     {{ end }}
 
     <script>
+        const pageDegreeSubjects = new Set(
+            JSON.parse(`{{ $pageDegreeSubjects | jsonify }}`)
+        );
+
         const selectedSubjects = new Set(
             JSON.parse(localStorage.getItem("selectedSubjects")),
         );
@@ -173,36 +214,38 @@
                 JSON.stringify(Array.from(selectedSubjects)),
             );
 
-            fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
+            fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
         }
 
         addEventListener("DOMContentLoaded", () => {
             for (const subjectId of selectedSubjects) {
                 const button = document.getElementById("dialog-" + subjectId);
 
-                if (button.classList.contains("c-30786")) {
-                    button.classList.add("c-30786-disabled")
-                    button.classList.remove("c-30786")
-                } else if (button.classList.contains("c-29932")) {
-                    button.classList.add("c-29932-disabled")
-                    button.classList.remove("c-29932")
-                } else if (button.classList.contains("c-29923")) {
-                    button.classList.add("c-29923-disabled")
-                    button.classList.remove("c-29923")
-                }
+                if (button) { // Check if the button exists
+                    if (button.classList.contains("c-30786")) {
+                        button.classList.add("c-30786-disabled");
+                        button.classList.remove("c-30786");
+                    } else if (button.classList.contains("c-29932")) {
+                        button.classList.add("c-29932-disabled");
+                        button.classList.remove("c-29932");
+                    } else if (button.classList.contains("c-29923")) {
+                        button.classList.add("c-29923-disabled");
+                        button.classList.remove("c-29923");
+                    }
 
-                button.classList.remove(
-                    "bg-gray-50",
-                    "dark:bg-gray-900",
-                    "dark:text-white",
-                );
-                button.classList.add(
-                    "bg-black",
-                    "text-white",
-                    "dark:bg-white",
-                    "dark:text-black",
-                    "subjIsSelected"
-                );
+                    button.classList.remove(
+                      "bg-gray-50",
+                      "dark:bg-gray-900",
+                      "dark:text-white",
+                    );
+                    button.classList.add(
+                      "bg-black",
+                      "text-white",
+                      "dark:bg-white",
+                      "dark:text-black",
+                      "subjIsSelected"
+                    );
+                }
 
                 let subjectCode = subjectId.split("-")[0];
                 let subject_div = document.getElementById(subjectCode);
@@ -212,7 +255,7 @@
                 if (channel_div) channel_div.classList.remove("hidden");
             }
 
-            fillTimetable("customSchedule", Array.from(selectedSubjects), 0);
+            fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
         });
 
         function openSubjectsDialog() {

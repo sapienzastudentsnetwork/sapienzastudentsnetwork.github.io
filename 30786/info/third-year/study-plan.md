@@ -21,9 +21,11 @@ Each student must choose **36 ECTS credits** of **elective courses**. For exampl
 
 Of the **36 ECTS credits**:
 
-- **12 ECTS credits** can be chosen from outside the course catalog, including from other faculties.
+- **12 ECTS credits** can be chosen from outside the course catalog, including from other faculties
 
-- **18 ECTS credits** can be chosen from the Applied Computer Science course catalog
+  - In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Course, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
+
+- **18 ECTS credits** must be chosen from the Applied Computer Science course catalog
 
 - **6 ECTS credits** must be chosen from the Law and Economics course catalog
 
@@ -58,7 +60,7 @@ In all other cases, students will need to wait for their study plan to be review
 
 ### How to select External Courses
 
-Each student can choose **12 CFU** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
+Each student **can** choose **12 ECTS** of courses outside the course manifesto, and thus from other **Bachelor's** Degree courses (if desired also from other departments or even faculties), but **how to choose these teachings?**
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
@@ -84,7 +86,7 @@ The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angel
 
 ## Courses
 
-| Course code | Course                          | Semester              | CFU | SSD    |
+| Course code | Course                          | Semester              | ECTS | SSD    |
 | ----------- | ------------------------------- |-----------------------| --- | ------ |
 | 10595530    | Foundations of Computer Science | First                 | 6   | INF/01 |
 |             | Applied Computer Science        | See "Optional Groups" | 18  | INF/01 |
@@ -99,7 +101,7 @@ The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angel
 
 The student must acquire 18 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD    |
+| Course code | Course                        | Year  | Semester | ECTS | SSD    |
 | ----------- | ----------------------------- | ----- | -------- | --- | ------ |
 | 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
 | 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
@@ -111,7 +113,7 @@ The student must acquire 18 credits from the exams in the group
 
 The student must acquire 6 credits from the exams in the group
 
-| Course code | Course                        | Year  | Semester | CFU | SSD       |
+| Course code | Course                        | Year  | Semester | ECTS | SSD       |
 | ----------- | ----------------------------- | ----- | -------- | --- | --------- |
 | 10595536    | Business and Computer Science | Third | Second   | 6   | SECS-P/07 |
 | 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |
@@ -124,7 +126,7 @@ Below is a list of some courses that have been recognized for Applied Computer S
 
 Please also refer to the guidelines on [how to select external courses](#how-to-select-external-courses) for more information!
 
-| Insegnamento                                                  | Codice                                                                                                                                                                                                                                                                                                                                               | CdL                                                                                                                                                                                           | CFU | Chat                                           |
+| Insegnamento                                                  | Codice                                                                                                                                                                                                                                                                                                                                               | CdL                                                                                                                                                                                           | ECTS | Chat                                           |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|------------------------------------------------|
 | APPLICAZIONI DELL'AUTOMATICA                                  | [1056052](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/31810/20220331104432/47c0ec84-11c0-4c84-bd7c-fab4d3c00649/9f00cb4b-e41b-4591-b5aa-6b3966592a39/879b488e-e48c-44e7-b2a1-7ab688d57538/af43efda-8aa7-4a76-b59d-de703597c6e9?guid_cv=9f00cb4b-e41b-4591-b5aa-6b3966592a39&current_erogata=47c0ec84-11c0-4c84-bd7c-fab4d3c00649)  | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/en/corso/2024/31810/programmazione)                                                                                              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)     |
 | BIOETHICS                                                     | [1049265](https://corsidilaurea.uniroma1.it/en/view-course-details/2024/30422/20220331104432/07e186fc-65fb-4b47-956a-8c5d87e80bde/c3f71c1c-6299-4a6c-87ff-cc6fce1e13f0/395183db-385f-40b2-b469-b518ac847b79/a11714d6-cb6e-4592-b635-c69beee03e15?guid_cv=c3f71c1c-6299-4a6c-87ff-cc6fce1e13f0&current_erogata=07e186fc-65fb-4b47-956a-8c5d87e80bde)  | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6   | -                                              |
@@ -137,7 +139,6 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 | LABORATORIO DI ARCHITETTURE SOFTWARE E SICUREZZA INFORMATICA  | [AAF1569](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/31810/20190322090929/ca3ebb4c-5f81-4b1b-8dee-9e05cca7d15f/61e633be-8cbb-4cc8-85d0-abbe3d51667f/75f17208-795e-4575-b22f-26f76e37fd70/4aad10e1-b3e5-45e5-b9b4-18d4ab9fad2d?guid_cv=61e633be-8cbb-4cc8-85d0-abbe3d51667f&current_erogata=ca3ebb4c-5f81-4b1b-8dee-9e05cca7d15f)  | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/corso/2024/31810/programmazione)                                                                                              | 6   | -                                              |
 | LAW BIOETHICS AND HUMAN RIGHTS                                | [10595495](https://corsidilaurea.uniroma1.it/en/view-course-details/2024/32362/20220331104432/87a67b86-0f33-4b26-9a19-0add1e1ad52d/29189abd-de78-4c63-beb7-9f5060d126f8/d7529ec9-1892-4faa-bca8-7bf7d255904a/8adbbb26-2a18-4575-91df-657087903d75?guid_cv=29189abd-de78-4c63-beb7-9f5060d126f8&current_erogata=87a67b86-0f33-4b26-9a19-0add1e1ad52d) | [[32362] Global Humanities](https://corsidilaurea.uniroma1.it/en/corso/2024/32362/programmazione)                                                                                             | 6   | -                                              |
 | MATEMATICA DISCRETA                                           | [1021828](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a863ee71-ed31-4197-84e8-3406a49964b7?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a)  | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543) | 6   | [Telegram ](https://t.me/+x5k6q2yrsztlOWVk)    |
-| METODI NUMERICI DELL'INFORMATICA                              | [10593234](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/65d828d1-50dd-4ac3-b45f-1b078e21f389?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6   | [Telegram ](https://t.me/+Njer81tnaZNkY2M8)    |
 | NETWORK ANALYTICS                                             | [1055807](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29924/20220331104432/86e7328a-2b58-4b0c-952e-13ed88375425/43ceff89-0e4f-40b7-bfa4-8ecda238294b/9e70cfe8-65fa-47a1-aea7-f89758dfd94e/3a474dc2-938c-4bf3-b50d-03aebd6466db?guid_cv=43ceff89-0e4f-40b7-bfa4-8ecda238294b&current_erogata=86e7328a-2b58-4b0c-952e-13ed88375425)  | [[29924] Statistica Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29924/programmazione)                                                                                         | 9   | -                                              |
 | ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE           | [10596283](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/66077d95-5a41-41bc-a545-5e8c68bea9d5)                                                                                                   | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6   | [Telegram ](https://t.me/+TW9IFCi061Q0Nzk8)    |
 | OTTIMIZZAZIONE SU RETI                                        | [10600549](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29930/20190322090929/10920d7e-7b14-4747-96e7-e9d75840edc7/087b62dd-5e39-4131-9fee-d07de923b215/ded3ed0c-7bb2-4cde-9dc7-08956bc90644/f41bfef9-8773-4e8c-81ba-a532c2bc7ae2?guid_cv=087b62dd-5e39-4131-9fee-d07de923b215&current_erogata=10920d7e-7b14-4747-96e7-e9d75840edc7) | [[29930] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29930/programmazione)                                                                                         | 6   | -                                              |

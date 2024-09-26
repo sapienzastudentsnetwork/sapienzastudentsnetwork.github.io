@@ -11,3 +11,22 @@ bookToc: False
 👋 We welcome you to the wiki of the Master's Degree in Computer Science, maintained by the students of the course. Whether you are an aspiring future freshman or an already enrolled student, you will find a lot of useful information here!
 
 🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪
+
+## Featured pages
+<div class="home_evid">
+    <div class="home_page" id="home_enroll">
+        <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
+        <p class="home_box_text">Get into the CS course</p>
+        <button class="explore_more" onclick="window.location.href = 'info/freshmen/how-to-enroll/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="home_page" id="home_ssn_groups">
+        <p class="home_box_text_title" id="home_wiki_text">Groups</p>
+        <p class="home_box_text">Join student chat groups</p>
+        <button class="explore_more" onclick="window.location.href = 'channels/groups/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="home_page" id="home_study_plan">
+        <p class="home_box_text_title" id="home_wiki_text">Study Plan</p>
+        <p class="home_box_text">Match your interests</p>
+        <button class="explore_more" onclick="window.location.href = 'info/study-plan/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</div>

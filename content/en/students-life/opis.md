@@ -1,6 +1,6 @@
-# Student's Opinions (OPIS)
+# Students' Opinions (OPIS)
 
-The **student's opinions** (**OPIS**) are **anonymous surveys** over the quality of the teaching for each subject. They are **mandatory** for booking exams for a specific subject, and are analysed each year by a board of professors, which will use them for identifying problems and find solutions for them.
+The **students' opinions** (**OPIS**) are **anonymous surveys** over the quality of the teaching for each subject. They are **mandatory** for booking exams for a specific subject, and are analysed each year by a board of professors, which will use them for identifying problems and find solutions for them.
 
 Each OPIS can be completed on InfoStud, by inserting an 8-characters (letters or numbers) string in the format `XXXXXXXX` (for instance, `MPDSXZSH` could be a plausible OPIS code). Mind that the OPIS for a certain subject can be completed **once per academic year**. Until the moment when it's not sent, all the data are saved as draft, and will be sent to Sapienza only when the student finishes the whole questionnaire.
 
@@ -36,4 +36,50 @@ Don't be scared of being honest: remember that OPIS surveys are anonymous, and t
 
 ## How to complete an OPIS survey
 
-to-do
+In order to complete an OPIS survey, you must have the OPIS code. Such code can either be given to you by the professor or it could be automatically be given to you by InfoStud when trying to reserve an exam. We'll assume that the professor gave you the code.
+
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Prompted to complete the OPIS before reserving an exam seat**
+
+In case you are automatically prompted to complete the OPIS, then you can choose whether to complete the OPIS or to do it in another moment. Remember that it's mandatory to first complete the OPIS before reserving for an exam. A similar message will be shown on screen when trying to reserve for an exam whose OPIS survey hasn't been completed yet:
+
+<img src="https://i.imgur.com/uC8V8d8.png">
+
+{{< /hint >}}
+
+{{< tabs "opisdevices" >}}
+{{< tab "🖥 Infostud Desktop" >}}
+
+1. Go to the `Opinioni Studenti`/`Students' Opinions` menu under the `Corsi di Laurea`/`Bachelors and Masters Degree Programmes` section;
+
+<img src="https://i.imgur.com/iqnPE2e.png">
+
+2. Insert the code of the OPIS survey, then click on the `Vai al questionario`/`Go to questionnaire`;
+
+<img src="https://i.imgur.com/qBoqmHZ.png">
+
+3. You will be brought to the OPIS survey page, you can now start answering to the questions.
+
+<img src="https://i.imgur.com/ejzsWUf.png">
+
+{{< /tab >}}
+{{< tab "📱 Infostud Mobile" >}}
+
+1. There are two ways to access to the OPIS questionnaires through the mobile version of InfoStud. One of this is to insert the OPIS code directly in the homepage of InfoStud. If you choose to insert the code this way, then you can skip to step X. Otherwise, if you prefer to insert it in the other way, follow the next steps;
+
+<img src="https://i.imgur.com/eacIu4B.png">
+
+2. The second way for accessing the OPIS form is to go on the dots grid on the bottom right of the home page, and then to click on the `Opis` button on the bottom left of the menu grid;
+
+<img src="https://i.imgur.com/CaCeu7j.png">
+
+3. After clicking on the `Opis` button, a new page will open, with a text form asking for the OPIS code. Insert it, and press the `Procedi/Proceed` button;
+
+<img src="https://i.imgur.com/BeFiSJ8.png">
+
+4. If everything went correctly, you will be brought to the OPIS survey page; you can now start answering to the questions.
+
+<img src="https://i.imgur.com/ejzsWUf.png">
+
+{{< /tab >}}
+{{< /tabs >}}

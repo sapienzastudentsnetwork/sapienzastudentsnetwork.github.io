@@ -13,9 +13,9 @@
             "teacher": "GALASSO FABIO",
             "schedule": [
               {
-                "day": "luned\u00ec",
-                "from": "13:00",
-                "to": "15:00"
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
               },
               {
                 "day": "venerd\u00ec",
@@ -42,20 +42,6 @@
             "course": "10600495",
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
             "building": "Edificio: RM115",
-            "room": "Aula G0",
-            "teacher": "TRONCI ENRICO",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ]
-          },
-          {
-            "course": "10600495",
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "building": "Edificio: RM115",
             "room": "Aula G50",
             "teacher": "TRONCI ENRICO",
             "schedule": [
@@ -63,6 +49,20 @@
                 "day": "luned\u00ec",
                 "from": "09:00",
                 "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "10600495",
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "building": "Edificio: RM113",
+            "room": "Aula S1 ",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
               }
             ]
           },
@@ -75,8 +75,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "11:00",
-                "to": "13:00"
+                "from": "10:00",
+                "to": "12:00"
               }
             ]
           },
@@ -301,6 +301,39 @@
             ]
           },
           {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
             "course": "1047638",
             "subject": "MODELS OF COMPUTATION",
             "building": "Edificio: RM113",
@@ -323,8 +356,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
+                "from": "13:00",
+                "to": "15:00"
               }
             ]
           },
@@ -393,9 +426,9 @@
             "teacher": "GALASSO FABIO",
             "schedule": [
               {
-                "day": "luned\u00ec",
-                "from": "13:00",
-                "to": "15:00"
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
               },
               {
                 "day": "venerd\u00ec",
@@ -436,20 +469,6 @@
             "course": "10600495",
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
             "building": "Edificio: RM115",
-            "room": "Aula G0",
-            "teacher": "TRONCI ENRICO",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ]
-          },
-          {
-            "course": "10600495",
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "building": "Edificio: RM115",
             "room": "Aula G50",
             "teacher": "TRONCI ENRICO",
             "schedule": [
@@ -457,6 +476,20 @@
                 "day": "luned\u00ec",
                 "from": "09:00",
                 "to": "11:00"
+              }
+            ]
+          },
+          {
+            "course": "10600495",
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "building": "Edificio: RM113",
+            "room": "Aula S1 ",
+            "teacher": "TRONCI ENRICO",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
               }
             ]
           },
@@ -469,8 +502,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "11:00",
-                "to": "13:00"
+                "from": "10:00",
+                "to": "12:00"
               }
             ]
           },
@@ -695,30 +728,35 @@
             ]
           },
           {
-            "course": "1047635",
-            "subject": "MACHINE LEARNING",
-            "building": "Edificio: RM062",
-            "room": "Aula Alfa",
-            "teacher": "",
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
             "schedule": [
               {
-                "day": "marted\u00ec",
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
                 "from": "10:00",
-                "to": "13:00"
+                "to": "12:00"
               }
             ]
           },
           {
-            "course": "1047635",
-            "subject": "MACHINE LEARNING",
-            "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
-            "teacher": "",
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
-                "from": "16:00",
-                "to": "18:00"
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               }
             ]
           },
@@ -727,7 +765,7 @@
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
             "building": "Edificio: RM115",
             "room": "Aula G50",
-            "teacher": "",
+            "teacher": "De vitis Alessandra ",
             "schedule": [
               {
                 "day": "venerd\u00ec",
@@ -759,8 +797,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
+                "from": "13:00",
+                "to": "15:00"
               }
             ]
           },

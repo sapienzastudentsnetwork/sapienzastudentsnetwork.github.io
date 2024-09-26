@@ -3,14 +3,14 @@ theme = 'hugo-book'
 defaultContentLanguage = 'homepage'
 defaultContentLanguageInSubdir = false
 enableGitInfo = true
-custom_css = ["css/contributors.css"]
+custom_css = ["css/contributors.css", "assets/*.scss"]
 
 [languages]
     [languages.homepage]
-        BookSearch = false
+        # BookSearch = false
         contentDir = 'homepage'
         disabled = false
-        languageName = 'Degree Programme Choice'
+        languageName = 'Homepage'
         title = "Homepage"
         weight = 0
 

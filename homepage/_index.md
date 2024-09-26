@@ -9,6 +9,16 @@ bookToc: False
 
 <div style="width: 95%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Meeting - Incontro di benvenuto (25/09/2024)**
+
+Welcome Meeting (freshmen A.Y. 2024/25) - Incontro di benvenuto (matricole A.A. 2024/25)
+
+- **Info:** [[ACSAI]](/30786/info/freshmen/timeline#september-25-2024-welcome-meeting-for-new-students) [[Informatica]](/it/info/matricole/cronoprogramma#25-settembre-2024-incontro-di-benvenuto-per-le-matricole)
+
+- **Slides:** [[ACSAI]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf) [[Informatica]](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
+{{< /hint >}}
+
 <div class="home_evid">
     <div class="home_page degree_choice_page" id="degree_choice_acsai" style="align-items: center">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_enroll_text">ACSAI*</p>
