@@ -105,7 +105,7 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 - **9038** as the institution code
 {{< /hint >}}
 
-## Preselection (mandatory for non-EU applicants)
+### Preselection (mandatory for non-EU applicants)
 
 The [MoveIN](https://sapienza.gomovein.com/) pre-selection is a required preliminary assessment for non-EU candidates residing abroad and optional for Italian, EU candidates, and non-EU citizens residing in Italy. A positive outcome results in a pre-acceptance letter, inviting the candidate to proceed to the selection process. 
 
@@ -121,17 +121,17 @@ Pre-selection alone **is not sufficient** for enrolment.
 The following admission process depends on passing the selection.
 Candidates from non-EU countries legally residing abroad cannot participate in the selection rounds without receiving the pre-acceptance letter and confirming the invitation it contains. For more details, click [here](https://www.uniroma1.it/en/admissions2024).
 
-## Visa
+### Visa
 
-Non-EU citizens must apply for a student visa at the Italian Embassy or Consulate of their jurisdiction. Check if you need a student visa on the [Visa for Italy](https://vistoperitalia.esteri.it/home/en) portal. 
+**Non-EU citizens must apply for a student visa** at the Italian Embassy or Consulate of their jurisdiction. Check if you need a student visa on the [Visa for Italy](https://vistoperitalia.esteri.it/home/en) portal.
 
-If your application has been positively evaluated, the chosen institution will be able to issue a “Letter of eligibility for enrolment”. The competent Italian higher education institution will validate online your application with all the evaluation details required by the competent Italian Diplomatic Consular Mission/Embassy to start your visa application.
+If your application has been positively evaluated, the chosen institution will be able to issue a **Letter of eligibility for enrolment**. The competent Italian higher education institution will validate online your application with all the evaluation details required by the competent Italian Diplomatic Consular Mission/Embassy to start your visa application.
 
-Fill in the section “Visa” of the online form: once your request is approved by the Italian Diplomatic Consular Mission/Embassy for the visa, you have to take an appointment and go to the Diplomatic Consular Mission/Embassy to obtain your visa.
+Fill in the section **Visa** of the online form: once your request is approved by the Italian Diplomatic Consular Mission/Embassy for the visa, you have to **take an appointment** and go to the Diplomatic Consular Mission/Embassy to obtain your visa.
 
-The validation procedure done by higher education institutions does not imply any right to obtain the visa: the decision on visa for study purposes is of exclusive jurisdiction of the competent Italian Diplomatic Consular Mission/Embassy.
+The validation procedure done by higher education institutions **does not imply** any right to obtain the visa: the decision on visa for study purposes is of exclusive jurisdiction of the competent **Italian Diplomatic Consular Mission/Embassy**.
 
-If you are an EU citizen or come from EFTA countries (Iceland, Liechtenstein, Norway and Switzerland), you do not need a visa. However, if stay in Italy for more than 3 months, you should register with the Anagrafe (Register office) of your Municipality of residence.
+If you are an EU citizen or come from EFTA countries (Iceland, Liechtenstein, Norway and Switzerland), **you do not need a visa**. However, if stay in Italy for **more than 3 months**, you should **register with the Anagrafe (Register office) of your Municipality of residence**.
 
 ## Infostud
 
