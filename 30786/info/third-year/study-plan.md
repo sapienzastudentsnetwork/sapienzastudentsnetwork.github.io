@@ -25,7 +25,7 @@ Of the **36 ECTS credits**:
 
   - In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Course, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
 
-- **18 ECTS credits** can be chosen from the Applied Computer Science course catalog
+- **18 ECTS credits** must be chosen from the Applied Computer Science course catalog
 
 - **6 ECTS credits** must be chosen from the Law and Economics course catalog
 
