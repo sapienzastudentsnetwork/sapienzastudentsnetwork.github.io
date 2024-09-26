@@ -320,6 +320,20 @@
             ]
           },
           {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
             "course": "1047638",
             "subject": "MODELS OF COMPUTATION",
             "building": "Edificio: RM113",
@@ -729,6 +743,20 @@
                 "day": "venerd\u00ec",
                 "from": "10:00",
                 "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               }
             ]
           },
