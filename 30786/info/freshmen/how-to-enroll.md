@@ -3,7 +3,7 @@ title: How to enroll
 aliases: ["/30786/info/getting-in/how-to-get-in", "/30786/info/freshmen/how-to-get-in"]
 ---
 
-# How to enroll
+## How to enroll
 
 {{< hint warning >}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
@@ -18,6 +18,7 @@ If you encounter any problem during the procedure, please join the [Telegram gro
 {{< /hint >}}
 
 Enrolling in Applied Computer Science requires you to follow the following crucial steps:
+
 1. [Taking an admission test](#admission-tests)
 2. [Signing up for the preselection (mandatory for non-EU applicants)](#preselection-mandatory-for-non-eu-applicants)
 3. [Applying for a visa (only for non-EU applicants)](#visa)
@@ -27,6 +28,7 @@ Enrolling in Applied Computer Science requires you to follow the following cruci
 ## English requirements
 
 In addition to the steps explained below, applicants must meet one of the following requirements in English languague:
+
 1. a Cambridge English Certificate between FCE, CAE or CPE;
 2. a TOEFL with a minumum score of 72 out of 120;
 3. an IELTS Academic with a minimum score of 5.5 out of 9;
@@ -34,15 +36,18 @@ In addition to the steps explained below, applicants must meet one of the follow
 5. a self-declaration of being a English native speaker;
 
 Furthermore, **only for EU applicants or non-EU legally residing in Italy** the requirements in English language can be met if:
+
 - the applicant obtain at least 36 points in the English TOLC-I test
 - the applicant obtain at least 24 points in the English section of the Italian TOLC-I or TOLC-S.
 
 If you are a non-EU applicant not residing in Italy or a EU applicant that has not obtained enough points in TOLC tests, **you must provide one of the certificates explained in the options 1-5**. The certificate must be sent to [acsai@di.uniroma1.it]( acsai@di.uniroma1.it) by the end of the pre-enrollment for the first round winners or by the end of the enrollment for second and third round winners (see the section [Pre-enrollment or enrollment](#pre-enrollment-or-enrollment))
 
 ## Admission Tests
+
 The only offical admission tests to access the selections are: TOLC-I, English TOLC-I, TOLC-S or SAT. Furthermore, the test must be taken **before the deadline of the registration period of the chosen selection round** (see Paying the 10€ fee for the Selection). Both TOLC and SAT are considered to have a **validity starting from January of two years before the academic year you enroll for**: if you apply for the Academic Year 2025/2026, only tests taken as from January 2023 to the registration deadlines are accepted for the selection.
 
 ### TOLC
+
 TOLCs can be booked on the official [CISIA website](https://www.cisiaonline.it/?t=1), where you will have to create a personal account. Then, you can access the personal area: here you can book a test, paying attention to chose **TOLC-I or English TOLC-I or TOLC-S**. Furthermore, you can chose if attend a TOLC@UNI (a test which take place in one of the many CISIA center around Italy) or a TOLC@CASA (an online test, which can be done while you are at home).
 
 {{< hint warning >}}
@@ -52,10 +57,11 @@ The booking period for a test usually **closes a week before the date of the tes
 {{< /hint >}}
 
 TOLC-I, TOLC-S and English TOLC-I include:
- - a Math section with 20 questions (50 minutes)
- - a Logic section with 10 questions (20 minutes)
- - a Science section with 10 questions (20 minutes)
- - a Comprehension section with 10 questions (20 minutes)
+
+- a Math section with 20 questions (50 minutes)
+- a Logic section with 10 questions (20 minutes)
+- a Science section with 10 questions (20 minutes)
+- a Comprehension section with 10 questions (20 minutes)
 
 For more precise information, check the syllabus of ([TOLC-I](https://www.cisiaonline.it/en/area-tematica-tolc-ingegneria/struttura-della-prova-e-syllabus/), [TOLC-S](https://www.cisiaonline.it/area-tematica-tolc-scienze/struttura-della-prova-e-sillabo/) or [English TOLC-I](https://www.cisiaonline.it/area-tematica-english-tolc-ingegneria/structure-and-syllabus/))
 
@@ -77,6 +83,7 @@ Sapienza acquires automatically the results of the test through tax code (or fis
 
 SATs can be booked on the official [College Board website](https://satsuite.collegeboard.org/), where you will have to create a personal account. Then, you can access the personal area: here you can book a SAT, either in presence or at home.
 SAR includes:
+
 - a Reading section with 52 questions (65 minutes)
 - a Writing section with 44 questions (35 minutes)
 - a Math section with 58 questions (70 minutes)
@@ -93,17 +100,38 @@ Reading and Writing are valued from 100 to 400 points each, while Math is valued
 There is only one SAT every month. Check thoroughly [dates and deadlines](https://satsuite.collegeboard.org/sat/dates-deadlines).
 
 SAT scores are **not** acquired automatically by Sapienza. You must send them through the [College Board platform](https://satsuite.collegeboard.org/sat/scores/send-scores-to-colleges/sending-scores), indicating:
+
 - **Sapienza University of Rome** as the name of the institution
 - **9038** as the institution code
 {{< /hint >}}
 
 ## Preselection (mandatory for non-EU applicants)
 
-Further instructions Coming Soon!
+The [MoveIN](https://sapienza.gomovein.com/) pre-selection is a required preliminary assessment for non-EU candidates residing abroad and optional for Italian, EU candidates, and non-EU citizens residing in Italy. A positive outcome results in a pre-acceptance letter, inviting the candidate to proceed to the selection process. 
+
+For non-EU citizens abroad, this allows them to submit a pre-enrolment application on [Universitaly](https://www.universitaly.it/) for a study visa by June 28, 2024. Registration details and timeframes for the MoveIN pre-selections are outlined at [this link](https://www.uniroma1.it/en/admissions2024).
+
+To be pre-selected for the degree programme, the following is required:
+
+- A **high school diploma (or equivalent qualification)** obtained by the school year **2023-2024** and after no less than 12 years of study;
+- Evidence of **adequate knowledge of the English language** according to the parameters indicated in [Annex E](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_acsai_2024_25_en.pdf);
+- **At least one of the admission tests** indicated in [Section 1](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_acsai_2024_25_en.pdf) passed with a result of not less than 36/100.
+
+Pre-selection alone **is not sufficient** for enrolment.
+The following admission process depends on passing the selection.
+Candidates from non-EU countries legally residing abroad cannot participate in the selection rounds without receiving the pre-acceptance letter and confirming the invitation it contains. For more details, click [here](https://www.uniroma1.it/en/admissions2024).
 
 ## Visa
 
-Further instructions Coming Soon!
+Non-EU citizens must apply for a student visa at the Italian Embassy or Consulate of their jurisdiction. Check if you need a student visa on the [Visa for Italy](https://vistoperitalia.esteri.it/home/en) portal. 
+
+If your application has been positively evaluated, the chosen institution will be able to issue a “Letter of eligibility for enrolment”. The competent Italian higher education institution will validate online your application with all the evaluation details required by the competent Italian Diplomatic Consular Mission/Embassy to start your visa application.
+
+Fill in the section “Visa” of the online form: once your request is approved by the Italian Diplomatic Consular Mission/Embassy for the visa, you have to take an appointment and go to the Diplomatic Consular Mission/Embassy to obtain your visa.
+
+The validation procedure done by higher education institutions does not imply any right to obtain the visa: the decision on visa for study purposes is of exclusive jurisdiction of the competent Italian Diplomatic Consular Mission/Embassy.
+
+If you are an EU citizen or come from EFTA countries (Iceland, Liechtenstein, Norway and Switzerland), you do not need a visa. However, if stay in Italy for more than 3 months, you should register with the Anagrafe (Register office) of your Municipality of residence.
 
 ## Infostud
 
