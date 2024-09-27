@@ -4,12 +4,6 @@ bookHidden: false
 ---
 # Timeline of the Bachelor's Degree in ACSAI
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Day on September 25**
-
-On **September 25, 2024**, at **2:00 PM**, the **Welcome Meeting** for new **ACSAI** and **Informatics** students will take place. [Find all the information here](#september-25-2024-welcome-meeting-for-new-students).
-{{< /hint >}}
-
 Even if you might feel a bit lost at first, there are only a few key moments to keep in mind during your academic journey. This timeline will help you navigate the main milestones of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence.
 
 Remember: the goal is not just to reach the end, but to gain the most value from every stage of the journey. Take advantage of every opportunity to grow, learn, and build your future, alongside your classmates and future colleagues.

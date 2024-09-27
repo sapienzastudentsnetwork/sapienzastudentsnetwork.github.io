@@ -4,13 +4,6 @@ bookHidden: false
 ---
 # Cronoprogramma del Corso di Laurea in Informatica
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome day il 25 settembre**
-
-Il **25 settembre 2024** alle **ore 14** si terrà l'**incontro di benvenuto** per le **nuove matricole** di **Informatica** e di **ACSAI**. [Clicca qui per ulteriori informazioni](#25-settembre-2024-incontro-di-benvenuto-per-le-matricole).
-{{< /hint >}}
-
-
 Anche se all'inizio potresti sentirti un po' disorientato, in realtà ci sono solo alcuni momenti chiave da tenere a mente durante il tuo percorso accademico. Questo cronoprogramma ti aiuterà a navigare attraverso le tappe principali del Corso di Laurea in Informatica.
 
 Ricorda: l'obiettivo non è solo raggiungere la fine del percorso, ma anche trarre il massimo valore da ogni fase del percorso. Approfitta di ogni opportunità per crescere, imparare e costruire il tuo futuro, insieme ai tuoi compagni e futuri colleghi.
