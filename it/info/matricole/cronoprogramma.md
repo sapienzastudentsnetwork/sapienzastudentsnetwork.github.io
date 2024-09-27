@@ -18,7 +18,7 @@ Per conoscere la posizione degli edifici all'interno della città universitaria 
 
 ## **25 settembre 2024**: Incontro di benvenuto per le matricole
 
-**Mercoledì 25 settembre** si è tenuto un **incontro di benvenuto** dedicato alle **matricole A.A. 2024/25** di Applied Computer Science and Artificial Intelligence (**ACSAI**) e **Informatica**, alle **ore 14:00** nelle **aule di laboratorio 15 e 17**
+**Mercoledì 25 settembre** si è tenuto un **incontro di benvenuto** dedicato alle **matricole A.A. 2024/25** di Applied Computer Science and Artificial Intelligence (**ACSAI**) e **Informatica**
 
 Con la partecipazione della Presidente del Corso di Laurea, prof.ssa Massini, professori, Tutor Didattici del Corso di Laurea e Rappresentanti degli Studenti al Consiglio di Area Didattica di Informatica vi abbiamo dato **informazioni pratiche sull'organizzazione del Corso di Laurea** e c'è stato un **leggero rinfresco**
 

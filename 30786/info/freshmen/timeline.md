@@ -18,7 +18,7 @@ To locate buildings within the university city (those with codes starting with *
 
 ## **September 25, 2024**: Welcome Meeting for New Students
 
-On **Wednesday 25 September**, a **welcome meeting** was held for **A.A. 2024/25 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**, at **2.00 p.m.** in **laboratory rooms 15 and 17**
+On **Wednesday 25 September**, a **welcome meeting** was held for **A.A. 2024/25 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**
 
 With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we provided **practical information on the organisation of the Degree Course** and there was **a light refreshment**
 
