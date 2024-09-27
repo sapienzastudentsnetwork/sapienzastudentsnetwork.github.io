@@ -1,6 +1,6 @@
 ---
 title: Risorse
-aliases: ["/it/insegnamenti/risorse"]
+aliases: ["/it/insegnamenti/resources"]
 weight: 3
 ---
 
