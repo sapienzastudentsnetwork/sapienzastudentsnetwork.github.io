@@ -1,6 +1,6 @@
 # Sapienza Aerospace Student Association
 
-**SASA - Sapienza Aerospace Student Association** is founded in 2012 as a _Student Branch_ of the _AIAA - American Institute of Aeronautics and Astronautics_ (the first in Italy) later becoming a Cultural Association and Student Association at **La Sapienza University of Rome**.
+**SASA - Sapienza Aerospace Student Association** was founded in 2012 as a _Student Branch_ of the _AIAA - American Institute of Aeronautics and Astronautics_ (the first in Italy) later becoming a Cultural Association and Student Association at **Sapienza University of Rome**.
 
 According to its statute, SASA is a free association of people managed and operated on a voluntary, apolitical, nonpartisan and non-profit basis, and was established with the purpose of **promoting aerospace culture**, and in particular:
 
@@ -12,7 +12,7 @@ To carry out its statutory objectives, the Association, initially formed by a gr
 
 Today SASA **organizes and promotes** scientific conferences, publication of articles, workshops, projects, laboratories, inter-university competitions, social activities and much more.
 
-In addition, through its Teams, it has participated in **international competitions** in the field of aerospace for years and offers highly professionalizing experiences. Through these activities and especially through networking opportunities, SASA positions itself as a link between Universities and the world of Work, building a meeting place and a **ramp** to companies and realities in the Aerospace sector.
+In addition, through its Teams, it has participated in **international competitions** in the field of aerospace for years and offers **highly professionalizing experiences**. Through these activities and especially through networking opportunities, SASA positions itself as a link between Universities and the world of Work, building a meeting place and a **ramp** to companies and realities in the Aerospace sector.
 
 SASA is currently the largest student association by membership in Italy.
 
@@ -21,11 +21,7 @@ SASA is currently the largest student association by membership in Italy.
 The **Sapienza Flight Team** or **SFT** is composed of students from different faculties of the university.
 It brings together young people from Aeronautical, Mechanical, Management and Computer Engineering united by the desire to get involved and accept new fides.
 
-**It was born in 2009** when a group of students, flanked by Prof. Guido De Matteis, set out to
-proposed to create and manage an extracurricular project that could
-give them a way to express their passion for designing and
-realization of radio-controlled aircraft. One of the main intentions
-of this group was and is to develop model aircraft, quadricopters and helicopters in the same way as occurs in any any industry in the field, that is, through a study of the aircraft but also on the feasibility of the project. Over the years, the project has achieved excellent results in the international competitions in which it has participated, results that have contributed to the team's name by leading numerous students, initially from ing. A erospace and Aeronautics but later also from other faculties, to join the team. Precisely because of this enthusiasm and interest shown by all the students of the university, the Department of Mechanical and Aerospace Engineering decided to sponsor the project.
+**It was born in 2009** when a group of students, flanked by Prof. Guido De Matteis, set out to proposed to create and manage an extracurricular project that could give them a way to express their passion for designing and realization of radio-controlled aircraft. One of the main intentions of this group was and is to develop model aircraft, quadricopters and helicopters in the same way as occurs in any any industry in the field, that is, through a study of the aircraft but also on the feasibility of the project. Over the years, the project has achieved excellent results in the international competitions in which it has participated, results that have contributed to the team's name by leading numerous students, initially from ing. A erospace and Aeronautics but later also from other faculties, to join the team. Precisely because of this enthusiasm and interest shown by all the students of the university, the Department of Mechanical and Aerospace Engineering decided to sponsor the project.
 
 **In 2012**, the Sapienza Flight Team joined _SASA (Sapienza Aerospace Student Association)_.
 After many years as a competitor in the **Design Build & Fly competition**, organized by _AIAA(American institute of Aeronautics and Astronautics)_, the team decides to take up a new challenge and enters the _Student Unmanned Aerial Systems (SUAS)_ competition in 2019.
@@ -45,22 +41,25 @@ The **Sapience Rocket Team** was founded in 2018 by three aerospace CAD students
 A key part of the SRT is the **Training Academy**, a course designed for younger members where they will have the opportunity to learn the basics of rocket modeling through the creation of a solid-propellant rocket.
 
 The team consists of 8 departments:
-- **Structures**: deals with CAD design of prototype components, conducting FEM structural analysis and machining composite mateials;
-- **Recovery**: is divided into Re-entry, which deals with the sizing and maniffacture of the re-entry system, and Expulsion, which makes and tests the ejection systems;
+- **Structures**: deals with CAD design of prototype components, conducting FEM structural analysis and machining composite materials;
+- **Recovery**: is divided into Re-entry, which deals with the sizing and manufacture of the re-entry system, and Expulsion, which makes and tests the ejection systems;
 - **Propulsion**: currently conducting the SRT research and development project, which is to build a hybrid propellant endoreactor
 - **Mission Analysis**: develops proprietary pre- and post-launch simulation and analysis scripts and models
 - **Control System**: develops the active control system to preciously follow the desired trajectory by simulating the response of the active control surfaces
 - **Avionics**: Deals with the development of on-board software and electronics that regulate the operation of all components of the rocket-probe during flight.
-- **Aerodynamics**: deals with modeling arodynamic forces and the interaction of our prototypes with the environment during launch through theoretical analysis, CFD simulations, and wind tunnel testing.
+- **Aerodynamics**: deals with modeling aerodynamic forces and the interaction of our prototypes with the environment during launch through theoretical analysis, CFD simulations, and wind tunnel testing.
 
 ## Space Team
 
 The **Sapienza Space Team** is a team of undergraduate students with the main goal of giving students hands-on experience applying theoretical knowledge learned in the classroom to real space engineering projects.
+
 To ensure the best team dynamics, students from different levels of education and different fields of study such as Engineering, Physics and Economics are involved.
-Since 2012, the team has been designing space missions and simulations in their entirety: from writing feasibility studies to producing and testing prototypes, developing software and performing environmental testing.
+
+**Since 2012**, the team has been designing space missions and simulations in their entirety: from writing feasibility studies to producing and testing prototypes, developing software and performing environmental testing.
+
 The team is divided into five departments:
 - **Mechanical SubsystemDesign**: deals with manufacturing, integration and testing of the structural component of prototypes, as well as aerodynamic and orbital analyses;
 - **Flight Software Subsystem**: develops the autonomous flight software and manages communication with the ground station
 - **Ground Software Subsystem**: develops the ground station and the software dedicated to it;
 - **Electrical and Sensor Subsystem**: handles PCB development and they select and configure the sensors, antennas and radio;
-- **Social and Management**:they manage the team's website and social pages, writing and documenting events and organizations.
+- **Social and Management**: they manage the team's website and social pages, writing and documenting events and organizations.
