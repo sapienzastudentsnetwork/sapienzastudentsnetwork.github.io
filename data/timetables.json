@@ -286,7 +286,7 @@
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "15 - 17",
-            "classroomInfo": "Zoom (registrarsi tramite il link)",
+            "classroomInfo": "Zoom (registrarsi tramite questo link)",
             "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZAqde6urDojEtXQAyiwJGAgdSKGHol6-f-L"
           }
         ],
@@ -373,7 +373,7 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "15 - 17",
-            "classroomInfo": "Zoom (registrarsi tramite il link)",
+            "classroomInfo": "Zoom (registrarsi tramite questo link)",
             "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZMpceiqqT4iH9UBeCqtHlU6JThiuv5qYbBR"
           }
         ],
@@ -381,7 +381,7 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "13 - 16",
-            "classroomInfo": "Zoom (registrarsi tramite il link)",
+            "classroomInfo": "Zoom (registrarsi tramite questo link)",
             "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZMpceiqqT4iH9UBeCqtHlU6JThiuv5qYbBR"
           }
         ]
@@ -1059,18 +1059,16 @@
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
             "timeslot": "8 - 10",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (register using this link)",
+            "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZ0lcu6vrjoqH9F0Pr8RvGa-TMrruVjvlC7g"
           }
         ],
         "mercoled\u00ec": [
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
             "timeslot": "8 - 11",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (register using this link)",
+            "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZ0lcu6vrjoqH9F0Pr8RvGa-TMrruVjvlC7g"
           }
         ]
       }
@@ -1082,22 +1080,12 @@
     "degree": "30786",
     "channels": {
       "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
-          }
-        ],
         "gioved\u00ec": [
           {
             "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
             "timeslot": "11 - 13",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/my/desensi"
           }
         ]
       }
@@ -1113,18 +1101,16 @@
           {
             "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "8 - 11",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (monday)",
+            "classroomUrl": "https://us04web.zoom.us/j/73625581520?pwd=16l3Pq9cVjQQizkiYMzIkgBbOPivlO.1"
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "8 - 10",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (friday)",
+            "classroomUrl": "https://us04web.zoom.us/j/73508542218?pwd=GM0Z8b8LEEBLn5cu2DtilP5mUFyIYR.1"
           }
         ]
       }
@@ -1140,18 +1126,16 @@
           {
             "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "11 - 13",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/83935295835?pwd=dfrv1RYMIb4svV41mCTKJ3WNDaX98y.1"
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "8 - 11",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/83935295835?pwd=dfrv1RYMIb4svV41mCTKJ3WNDaX98y.1"
           }
         ]
       }
@@ -1196,18 +1180,16 @@
           {
             "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "16 - 18",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/87650619184?pwd=p3CJTHaBga47OFuLtze6A4Y8GCfPbq.1"
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "10 - 13",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/87650619184?pwd=p3CJTHaBga47OFuLtze6A4Y8GCfPbq.1"
           }
         ]
       }
@@ -1223,18 +1205,16 @@
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "14 - 17",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (login with Sapienza account)",
+            "classroomUrl": "https://uniroma1.zoom.us/j/87151615100"
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "16 - 18",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (login with Sapienza account)",
+            "classroomUrl": "https://uniroma1.zoom.us/j/87151615100"
           }
         ]
       }
@@ -1250,9 +1230,8 @@
           {
             "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
             "timeslot": "13 - 16",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/8842067418?pwd=SFRjdVNheStLbGZMeWdyUWJrSFc0Zz09"
           }
         ],
         "mercoled\u00ec": [
@@ -1277,9 +1256,8 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "17 - 19",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom (register using this link)",
+            "classroomUrl": "https://uniroma1.zoom.us/meeting/register/tZYtduuvrTkiGNxQ_0FUu0ggIflseYCOzafM"
           }
         ],
         "mercoled\u00ec": [
@@ -1304,18 +1282,16 @@
           {
             "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
             "timeslot": "13 - 16",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/81664845095?pwd=WAxUSVRBjt09P3RsuUDna3MmheqG65.1"
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
             "timeslot": "13 - 15",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/81664845095?pwd=WAxUSVRBjt09P3RsuUDna3MmheqG65.1"
           }
         ]
       }
@@ -1385,18 +1361,16 @@
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "14 - 17",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula B Scienze Biochimiche (CU010)",
+            "classroomUrl": "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "16 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ]
       }

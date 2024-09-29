@@ -447,6 +447,18 @@ if __name__ == '__main__':
     currentDate = datetime.now()
 
     if currentDate <= datetime(2024, 10, 5):
+        zoom_register_it = "Zoom (registrarsi tramite questo link)"
+        zoom_register_en = "Zoom (register using this link)"
+
+        zoom_login_it = "Zoom (effettuare l'accesso tramite account Sapienza)"
+        zoom_login_en = "Zoom (login with Sapienza account)"
+
+        scienzebiochimiche_aulab = "Aula B Scienze Biochimiche (CU010)"
+        scienzebiochimiche_building = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
+
+        reginaelena_edificiod_301 = "Aula 301 Regina Elena Ed. D (RM112)"
+        reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+
         if degree_programme_code == "29923":
             # 1022301 - INGEGNERIA DEL SOFTWARE
             # Start date: Wednesday, October 2nd, 2024
@@ -470,6 +482,10 @@ if __name__ == '__main__':
                    }
                  }
             ]
+
+            # 10595546 - COMPUTER ARCHITECTURE
+            # Tuesday class cancelled due to teaching mission.
+            course_timetables_dict["10595546_1"]["channels"]["0"].pop("martedì")
 
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
@@ -524,11 +540,11 @@ if __name__ == '__main__':
                                         classroom_url  = "https://meet.google.com/saf-hhcd-odh"
                                     # SISTEMI OPERATIVI - 1020422 - Gabriele Tolomei
                                     elif ("1020422" in course_code) and (channel_id == "1"):
-                                        classroom_info = "Zoom (registrarsi tramite il link)"
+                                        classroom_info = zoom_register_it
                                         classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZMpceiqqT4iH9UBeCqtHlU6JThiuv5qYbBR"
                                     # BASI DI DATI - 1015887 - Giuseppe Perelli
                                     elif ("1015887" in course_code) and (channel_id == "1"):
-                                        classroom_info = "Zoom (effettuare l'accesso tramite account Sapienza)"
+                                        classroom_info = zoom_login_it
                                         classroom_url  = "https://uniroma1.zoom.us/j/84021213956"
                                     # ALGEBRA - 1015886 - Federico Pellarin
                                     elif (course_code == "1015886") and (channel_id == "2"):
@@ -542,7 +558,7 @@ if __name__ == '__main__':
                                     # BASI DI DATI - 1015887 - Maria De Marsico
                                     elif ("1015887" in course_code) and (channel_id == "2"):
                                         if day_name == "mercoledì":
-                                            classroom_info = "Zoom (registrarsi tramite il link)"
+                                            classroom_info = zoom_register_it
                                             classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZAqde6urDojEtXQAyiwJGAgdSKGHol6-f-L"
                                     # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                     elif course_code == "1041727":
@@ -550,12 +566,74 @@ if __name__ == '__main__':
                                             classroom_info = "Zoom"
                                             classroom_url  = "https://uniroma1.zoom.us/j/86123921107?pwd=YICFZ9rvjNF2eSqU7mN6c8xoJOIndS.1"
 
+
+                                    # ACSAI
+
+
+                                    # CALCULUS - 10595099 - Adriano Pisante
+                                    elif "10595099" in course_code:
+                                        classroom_info = zoom_register_en
+                                        classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZ0lcu6vrjoqH9F0Pr8RvGa-TMrruVjvlC7g"
+
+                                    # COMPUTER ARCHITECTURE - 10595546 - Daniele De Sensi
+                                    elif "10595546" in course_code:
+                                        classroom_info = "Zoom"
+                                        classroom_url  = "https://uniroma1.zoom.us/my/desensi"
+
+                                    # LINEAR ALGEBRA - 10595524 - Sahar Zabad
+                                    elif course_code == "10595524":
+                                        if day_name == "lunedì":
+                                            classroom_info = "Zoom (monday)"
+                                            classroom_url = "https://us04web.zoom.us/j/73625581520?pwd=16l3Pq9cVjQQizkiYMzIkgBbOPivlO.1"
+                                        elif day_name == "venerdì":
+                                            classroom_info = "Zoom (friday)"
+                                            classroom_url = "https://us04web.zoom.us/j/73508542218?pwd=GM0Z8b8LEEBLn5cu2DtilP5mUFyIYR.1"
+
+                                    # PROGRAMMING UNIT 1 - 10595102 - Maurizio Mancini
+                                    elif course_code == "10595102_1":
+                                        classroom_info = "Zoom"
+                                        classroom_url = "https://uniroma1.zoom.us/j/83935295835?pwd=dfrv1RYMIb4svV41mCTKJ3WNDaX98y.1"
+
+                                    # CALCULUS 2 - 10595529 - Alessandro Alla
+                                    elif course_code == "10595529":
+                                        classroom_info = "Zoom"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/87650619184?pwd=p3CJTHaBga47OFuLtze6A4Y8GCfPbq.1"
+
+                                    # DATA MANAGEMENT AND ANALYSIS - 10595617 - Giuseppe Perelli
+                                    elif course_code == "10595617_1":
+                                        classroom_info = zoom_login_en
+                                        classroom_url  = "https://uniroma1.zoom.us/j/87151615100"
+
+                                    # PROBABILITY - 10595525 - Lorenzo Bertini Malgarini, Vittoria Silvestri
+                                    elif course_code == "10595525":
+                                        if day_name == "lunedì":
+                                            classroom_info = "Zoom"
+                                            classroom_url = "https://uniroma1.zoom.us/j/8842067418?pwd=SFRjdVNheStLbGZMeWdyUWJrSFc0Zz09"
+
+                                    # SYSTEMS AND NETWORKING unit 1 - 10595616 - Gabriele Tolomei
+                                    elif course_code == "10595616_1":
+                                        classroom_info = zoom_register_en
+                                        classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZYtduuvrTkiGNxQ_0FUu0ggIflseYCOzafM"
+
+                                    # SYSTEMS AND NETWORKING unit 2 - 10595616 - Novella Bartolini
+                                    elif course_code == "10595616_2":
+                                        classroom_info = "Zoom"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/81664845095?pwd=WAxUSVRBjt09P3RsuUDna3MmheqG65.1"
+
                                 # PROGRAMMAZIONE PER IL WEB - 1022267 - Emanuele Panizzi
                                 # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
                                 if course_code in ("1022267", "10595534"):
                                     if day_name == "giovedì":
-                                        classroom_info = "Aula 301 Regina Elena Ed. D (RM112)"
-                                        classroom_url  = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+                                        classroom_info = reginaelena_edificiod_301
+                                        classroom_url  = reginaelena_edificiod
+                                # DEEP LEARNING - 10595531 - Luigi Cinque, Fabio Galasso
+                                elif course_code == "10595531":
+                                    if day_name == "lunedì":
+                                        classroom_info = scienzebiochimiche_aulab
+                                        classroom_url  = scienzebiochimiche_building
+                                    elif day_name == "giovedì":
+                                        classroom_info = reginaelena_edificiod_301
+                                        classroom_url  = reginaelena_edificiod
 
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
@@ -601,8 +679,8 @@ if __name__ == '__main__':
 
         # 1047624 - DISTRIBUTED SYSTEMS
         course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classrooms"] = {}
-        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomInfo"] = "Aula B Scienze Biochimiche (CU010)"
-        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomUrl"] = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
+        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomInfo"] = scienzebiochimiche_aulab
+        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomUrl"] = scienzebiochimiche_building
 
         # 10589621 - ADVANCED MACHINE LEARNING
         course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
