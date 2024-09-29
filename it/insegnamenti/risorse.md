@@ -1,7 +1,7 @@
 ---
 title: Risorse
 aliases: ["/it/insegnamenti/resources"]
-weight: 3
+weight: 4
 ---
 
 # Risorse
@@ -15,7 +15,7 @@ La seguente pagina è temporanea e verrà sostituita in seguito da una pagina sp
 
 ## SSN | Notes
 
-È disponibile un [Bot Telegram](https://t.me/SSN_Notes_Bot) che funge da navigatore di risorse didattiche condivise tra studenti e studentesse dell'ateneo, comprendente appunti, link utili, gruppi e molto altro! Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse al bot o suggerire link utili attraverso le interfacce dedicate 🚀 
+È disponibile un [Bot Telegram](https://t.me/SSN_Notes_Bot) che funge da navigatore di risorse didattiche condivise tra studenti e studentesse dell'ateneo, comprendente appunti, link utili, gruppi e molto altro! Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse al bot o suggerire link utili attraverso le interfacce dedicate 🚀
 
 ## Repository e Forum dell'organizzazione
 

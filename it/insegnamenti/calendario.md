@@ -1,6 +1,6 @@
 ---
 title: Calendario A.A. 2024/25
-weight: 1
+weight: 2
 ---
 
 # Calendario Anno Accademico 2024/25
@@ -9,14 +9,14 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
 
 ## Lezioni
 
-| Semestre | Data di Inizio             | Data di Fine             | 
+| Semestre | Data di Inizio             | Data di Fine             |
 |----------|----------------------------|--------------------------|
 | I        | Lunedì 23 settembre 2024   | Venerdì 20 dicembre 2024 |
 | II       | Mercoledì 26 febbraio 2025 | Venerdì 30 maggio 2024   |
 
 ## Sessioni d'Esame
 
-| Sessione              | Data di Inizio           | Data di Fine              | 
+| Sessione              | Data di Inizio           | Data di Fine              |
 |-----------------------|--------------------------|---------------------------|
 | I e II <b>(*)</b>     | Martedì 7 gennaio 2025   | Martedì 25 febbraio 2025  |
 | III e IV <b>(**)</b>  | Martedì 3 giugno 2025    | Venerdì 25 luglio 2025    |
