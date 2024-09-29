@@ -456,8 +456,12 @@ if __name__ == '__main__':
         scienzebiochimiche_aulab = "Aula B Scienze Biochimiche (CU010)"
         scienzebiochimiche_building = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
 
+        reginaelena_edificiod_101 = "Aula 101 Regina Elena Ed. D (RM112)"
+        reginaelena_edificiod_201 = "Aula 201 Regina Elena Ed. D (RM112)"
         reginaelena_edificiod_301 = "Aula 301 Regina Elena Ed. D (RM112)"
         reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+
+        tba_classroom = "Classroom To Be Defined"
 
         if degree_programme_code == "29923":
             # 1022301 - INGEGNERIA DEL SOFTWARE
@@ -469,7 +473,105 @@ if __name__ == '__main__':
             course_timetables_dict["10596283"]["channels"] = {}
 
         elif degree_programme_code == "29932":
-            pass
+            # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
+            course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
+              {
+                "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+                "timeslot": "14 - 16",
+                "classrooms": {
+                  "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+                }
+              }
+            ]
+
+            # 10589621 - ADVANCED MACHINE LEARNING
+            course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
+
+            # 10596281 - AUTONOMOUS NETWORKING
+            course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classrooms"] = {}
+            course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomInfo"] = reginaelena_edificiod_101
+            course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomUrl"] = reginaelena_edificiod
+
+            # 1041764 - BIG DATA COMPUTING
+            course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
+            course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = tba_classroom
+
+            # 1041792 - BIOMETRIC SYSTEMS
+            course_timetables_dict["1041792"] = {
+                "subject": "BIOMETRIC SYSTEMS",
+                "degree": "29932",
+                "channels": {
+                  "0": {
+                    "mercoled\u00ec": [
+                      {
+                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                        "timeslot": "13 - 15",
+                        "classrooms": {
+                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                        }
+                      }
+                    ],
+                    "gioved\u00ec": [
+                      {
+                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                        "timeslot": "8 - 11",
+                        "classrooms": {
+                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "code": "1041792"
+            }
+
+            # 10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
+            course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+            course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomInfo"] = reginaelena_edificiod_201
+            course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomUrl"] = reginaelena_edificiod
+
+            # 1047622 - CRYPTOGRAPHY
+            course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+            course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = reginaelena_edificiod_301
+            course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomUrl"] = reginaelena_edificiod
+
+            # 1047624 - DISTRIBUTED SYSTEMS
+            course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classrooms"] = {}
+            course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomInfo"] = reginaelena_edificiod_301
+            course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomUrl"] = reginaelena_edificiod
+
+            # 1047627 - FOUNDATIONS OF DATA SCIENCE
+            course_timetables_dict["1047627"] = {
+                "subject": "FOUNDATIONS OF DATA SCIENCE",
+                "degree": "29932",
+                "channels": {
+                  "0": {
+                    "luned\u00ec": [
+                      {
+                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                        "timeslot": "10 - 13",
+                        "classrooms": {
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                        }
+                      }
+                    ],
+                    "venerd\u00ec": [
+                      {
+                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                        "timeslot": "11 - 13",
+                        "classrooms": {
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "code": "1047627"
+            }
+
+            # 1047642 - SECURITY IN SOFTWARE APPLICATIONS
+            course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
+            course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = tba_classroom
 
         elif degree_programme_code == "30786":
             # 10595536 - BUSINESS AND COMPUTER SCIENCE
@@ -646,83 +748,6 @@ if __name__ == '__main__':
 
                                 if classroom_url is not None:
                                     day_schedule["classroomUrl"] = classroom_url
-
-    matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
-    matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
-    matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
-
-    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 28)):
-        # 1047622 - CRYPTOGRAPHY
-        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
-        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
-        course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomUrl"] = matematica_building
-
-        # 10596281 - AUTONOMOUS NETWORKING
-        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classrooms"] = {}
-        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomInfo"] = matematica_aula_iv
-        course_timetables_dict["10596281"]["channels"]["0"]["venerdì"][0]["classroomUrl"] = matematica_building
-
-        # 10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
-        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
-        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
-        course_timetables_dict["10600490"]["channels"]["0"]["martedì"][0]["classroomUrl"] = matematica_building
-
-        # 1047642 - SECURITY IN SOFTWARE APPLICATIONS
-        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
-        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = matematica_aula_v
-        course_timetables_dict["1047642"]["channels"]["0"]["mercoledì"][0]["classroomUrl"] = matematica_building
-
-        # 1041764 - BIG DATA COMPUTING
-        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classrooms"] = {}
-        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classroomInfo"] = matematica_aula_v
-        course_timetables_dict["1041764"]["channels"]["0"]["mercoledì"][0]["classroomUrl"] = matematica_building
-
-        # 1047624 - DISTRIBUTED SYSTEMS
-        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classrooms"] = {}
-        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomInfo"] = scienzebiochimiche_aulab
-        course_timetables_dict["1047624"]["channels"]["0"]["giovedì"][0]["classroomUrl"] = scienzebiochimiche_building
-
-        # 10589621 - ADVANCED MACHINE LEARNING
-        course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
-
-        # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
-        course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
-          {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
-            }
-          }
-        ]
-
-        # 1047627 - FOUNDATIONS OF DATA SCIENCE
-        course_timetables_dict["1047627"] = {
-            "subject": "FOUNDATIONS OF DATA SCIENCE",
-            "degree": "29932",
-            "channels": {
-              "0": {
-                "luned\u00ec": [
-                  {
-                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-                    "timeslot": "16 - 19",
-                    "classroomInfo": "Aula 202 Marco Polo (RM021)",
-                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                  }
-                ],
-                "venerd\u00ec": [
-                  {
-                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-                    "timeslot": "10 - 12",
-                    "classrooms": {
-                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 2 (Edificio: RM018)"
-                    }
-                  }
-                ]
-              }
-            },
-            "code": "1047627"
-        }
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█

@@ -634,15 +634,6 @@
             }
           }
         ],
-        "gioved\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
@@ -664,9 +655,9 @@
         "luned\u00ec": [
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "9 - 11",
+            "timeslot": "14 - 16",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
             }
           }
         ],
@@ -701,9 +692,9 @@
           {
             "teacher": "35085c26-00da-4721-b7df-cd1d0970f13c",
             "timeslot": "8 - 11",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ]
       }
@@ -719,9 +710,8 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "10 - 12",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Classroom To Be Defined"
           }
         ],
         "gioved\u00ec": [
@@ -746,9 +736,9 @@
           {
             "teacher": "a95c60d3-6f14-4eb3-8867-0c09ea24a150",
             "timeslot": "15 - 18",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Aula 201 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ],
         "mercoled\u00ec": [
@@ -854,9 +844,9 @@
           {
             "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
             "timeslot": "8 - 11",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ],
         "venerd\u00ec": [
@@ -890,9 +880,9 @@
           {
             "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
             "timeslot": "11 - 14",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ]
       }
@@ -907,13 +897,6 @@
         "luned\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "8c93a07d-b833-4dae-a4ff-302f0f065453": "Aula 1 (Edificio: RM158)"
-            }
-          },
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "10 - 13",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -923,9 +906,9 @@
         "venerd\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "10 - 12",
+            "timeslot": "11 - 13",
             "classrooms": {
-              "8c93a07d-b833-4dae-a4ff-302f0f065453": "Aula 1 (Edificio: RM158)"
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ]
@@ -996,9 +979,8 @@
           {
             "teacher": "3ce2ec52-79a0-4093-8ad8-78b8790882a8",
             "timeslot": "8 - 10",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna AREA DI CANTIERE (Edificio: RM111)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Classroom To Be Defined"
           }
         ],
         "venerd\u00ec": [
@@ -1049,6 +1031,33 @@
       }
     },
     "code": "10589558"
+  },
+  "1041792": {
+    "subject": "BIOMETRIC SYSTEMS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041792"
   },
   "10595099_1": {
     "subject": "CALCULUS UNIT 1",
