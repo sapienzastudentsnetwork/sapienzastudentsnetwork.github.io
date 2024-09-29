@@ -446,11 +446,134 @@ if __name__ == '__main__':
 
     currentDate = datetime.now()
 
+    if currentDate <= datetime(2024, 10, 5):
+        if degree_programme_code == "29923":
+            # 1022301 - INGEGNERIA DEL SOFTWARE
+            # Start date: Wednesday, October 2nd, 2024
+            course_timetables_dict["1022301"]["channels"]["0"].pop("lunedì")
+
+            # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
+            # Bando: il corso inizierà appena sarà individuato il docente.
+            course_timetables_dict["10596283"]["channels"] = {}
+
+        elif degree_programme_code == "29932":
+            pass
+
+        elif degree_programme_code == "30786":
+            # 10595536 - BUSINESS AND COMPUTER SCIENCE
+            course_timetables_dict["10595536"]["channels"]["0"]["martedì"] = [
+                 {
+                   "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
+                   "timeslot": "13 - 15",
+                   "classrooms": {
+                     "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                   }
+                 }
+            ]
+
+        for course_code, course_data in course_timetables_dict.items():
+            for channel_id, channel_data in course_data["channels"].items():
+                for day_name, day_schedules in channel_data.items():
+                    for day_schedule in day_schedules:
+                        # 101226 - CALCOLO DIFFERENZIALE
+                        # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
+                        # non più, alla professoressa Garroni, diventata direttrice a Matematica.
+                        if (course_code == "101226") and (channel_id == "1"):
+                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                                day_schedule["teacher"] = None
+                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+
+                        if "classrooms" in day_schedule:
+                            for classroom_id, classroom_description in day_schedule["classrooms"].items():
+                                classroom_info = day_schedule.get("classroomInfo", None)
+                                classroom_url  = day_schedule.get("classroomUrl", None)
+
+                                if "(Edificio: RM158)" in classroom_description:
+                                    # CALCOLO DIFFERENZIALE - 101226 - Valeriano Aiello
+                                    if (course_code == "101226") and (channel_id == "1"):
+                                        classroom_info = "Zoom (passcode: calcolo)"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/88466867222?pwd=6EF4OsvAuLSn7jFlUakRbLNVUnwIIP.1"
+                                    # FONDAMENTI DI PROGRAMMAZIONE - 1015883 - Andrea Sterbini, Daniele Friolo
+                                    elif (course_code == "1015883") and (channel_id == "1"):
+                                        if day_name == "martedì":
+                                            classroom_info = "Zoom (martedì, passcode: Python)"
+                                            classroom_url = "https://uniroma1.zoom.us/j/87054111782?pwd=nsTI9aqovtLbaGefCerbbcCh6zmIDC.1"
+
+                                        elif day_name == "giovedì":
+                                            classroom_info = "Zoom (giovedì, passcode: Python)"
+                                            classroom_url = "https://uniroma1.zoom.us/j/88273989794?pwd=qrJ2LHVcvilCVdSHWZmo5x1oQ7xbBc.1"
+                                    # METODI MATEMATICI PER L'INFORMATICA - 1020420 - Lorenzo Carlucci
+                                    elif (course_code == "1020420") and (channel_id == "1"):
+                                        if day_name == "martedì":
+                                            classroom_info = "Zoom (martedì)"
+                                            classroom_url  = "https://uniroma1.zoom.us/j/86508273035?pwd=u2Hti0cPt8bFmOtvQzOx6EalSfrA9R.1"
+
+                                        elif day_name == "mercoledì":
+                                            classroom_info = "Zoom (mercoledì)"
+                                            classroom_url  = "https://uniroma1.zoom.us/j/81579067494?pwd=D1gMJxvBKdpVKIKQJtK6abN4yBxVza.1"
+                                    # PROGETTAZIONE DI SISTEMI DIGITALI - 1015880 - Salvatore Pontarelli
+                                    elif (course_code == "1015880") and (channel_id == "1"):
+                                        classroom_info = "Zoom (link ancora da annunciare)"
+                                    # ALGEBRA - 1015886 - Viaggi e Cherubini
+                                    elif (course_code == "1015886") and (channel_id == "1"):
+                                        classroom_info = "Meet"
+                                        classroom_url  = "https://meet.google.com/wwi-vnmh-nof"
+                                    # CALCOLO DELLE PROBABILITA' - 1020421 - Giovanna Nappo
+                                    elif (course_code == "1020421") and (channel_id == "1"):
+                                        classroom_info = "Meet"
+                                        classroom_url  = "https://meet.google.com/saf-hhcd-odh"
+                                    # SISTEMI OPERATIVI - 1020422 - Gabriele Tolomei
+                                    elif ("1020422" in course_code) and (channel_id == "1"):
+                                        classroom_info = "Zoom (registrarsi tramite il link)"
+                                        classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZMpceiqqT4iH9UBeCqtHlU6JThiuv5qYbBR"
+                                    # BASI DI DATI - 1015887 - Giuseppe Perelli
+                                    elif ("1015887" in course_code) and (channel_id == "1"):
+                                        classroom_info = "Zoom (effettuare l'accesso tramite account Sapienza)"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/84021213956"
+                                    # ALGEBRA - 1015886 - Federico Pellarin
+                                    elif (course_code == "1015886") and (channel_id == "2"):
+                                        if day_name in ("martedì", "mercoledì"):
+                                            classroom_info = "Meet"
+                                            classroom_url  = "https://meet.google.com/jcm-mnfz-nqn"
+                                    # CALCOLO DELLE PROBABILITÀ - 1020421 - Alessandra Faggionato
+                                    elif (course_code == "1020421") and (channel_id == "2"):
+                                        classroom_info = "Zoom"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/81062850219"
+                                    # BASI DI DATI - 1015887 - Maria De Marsico
+                                    elif ("1015887" in course_code) and (channel_id == "2"):
+                                        if day_name == "mercoledì":
+                                            classroom_info = "Zoom (registrarsi tramite il link)"
+                                            classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZAqde6urDojEtXQAyiwJGAgdSKGHol6-f-L"
+                                    # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
+                                    elif course_code == "1041727":
+                                        if day_name == "venerdì":
+                                            classroom_info = "Zoom"
+                                            classroom_url  = "https://uniroma1.zoom.us/j/86123921107?pwd=YICFZ9rvjNF2eSqU7mN6c8xoJOIndS.1"
+
+                                # PROGRAMMAZIONE PER IL WEB - 1022267 - Emanuele Panizzi
+                                # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
+                                if course_code in ("1022267", "10595534"):
+                                    if day_name == "giovedì":
+                                        classroom_info = "Aula 301 Regina Elena Ed. D (RM112)"
+                                        classroom_url  = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+
+                                if classroom_info is not None:
+                                    day_schedule.pop("classrooms")
+
+                                    print("classroom_info: " + classroom_description + " -> " + classroom_info)
+
+                                    day_schedule["classroomInfo"] = classroom_info
+                                else:
+                                    print("classroom_info: " + classroom_description)
+
+                                if classroom_url is not None:
+                                    day_schedule["classroomUrl"] = classroom_url
+
     matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
     matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
     matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
 
-    if (degree_programme_code == "29932") and (currentDate <= datetime(2024, 9, 28)):
+    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 28)):
         # 1047622 - CRYPTOGRAPHY
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
         course_timetables_dict["1047622"]["channels"]["0"]["martedì"][0]["classroomInfo"] = matematica_aula_iv
@@ -522,167 +645,6 @@ if __name__ == '__main__':
             },
             "code": "1047627"
         }
-
-    if (degree_programme_code in ("29923", "30786")) and (currentDate <= datetime(2024, 9, 28)):
-        if degree_programme_code == "29923":
-            # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
-            course_timetables_dict["10596283"]["channels"] = {}
-
-            # 1015880 - PROGETTAZIONE DI SISTEMI DIGITALI
-            # Prof. Pontarelli in missione, inizierà il 3 ottobre
-            course_timetables_dict["1015880"]["channels"]["1"] = {}
-
-            # 1015883 - FONDAMENTI DI PROGRAMMAZIONE
-            # Le lezioni di Fondamenti di Programmazione - canale AL
-            # iniziano giovedì 26/9 in aula 203 presso l'edificio Marco
-            # Polo Circonvallazione Tiburtina 4.
-            course_timetables_dict["1015883"]["channels"]["1"].pop("martedì")
-            course_timetables_dict["1015883"]["channels"]["1"].pop("mercoledì")
-
-            # 1022301 - INGEGNERIA DEL SOFTWARE
-            # Start date: Wednesday, October 2nd, 2024
-            course_timetables_dict["1022301"]["channels"]["0"] = {}
-
-            # 101226 - CALCOLO DIFFERENZIALE
-            course_timetables_dict["101226"]["channels"]["1"] = {
-                "mercoled\u00ec": [
-                  {
-                    "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
-                    "timeslot": "8 - 11",
-                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
-                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                  }
-                ],
-                "venerd\u00ec": [
-                  {
-                    "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
-                    "timeslot": "8 - 10",
-                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
-                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                  }
-                ]
-            }
-
-            # 1020420 - METODI MATEMATICI PER L'INFORMATICA
-            course_timetables_dict["1020420"]["channels"]["1"] = {
-                #"marted\u00ec": [
-                #  {
-                #    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-                #    "timeslot": "8 - 11",
-                #    "classroomInfo": "Aula 204 Marco Polo (RM021)",
-                #    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                #  }
-                #],
-                "mercoled\u00ec": [
-                  {
-                    "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
-                    "timeslot": "11 - 13",
-                    "classroomInfo": "Aula 203 Marco Polo (RM021)",
-                    "classroomUrl": "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                  }
-                ]
-            }
-        elif degree_programme_code == "30786":
-            # 10595536 - BUSINESS AND COMPUTER SCIENCE
-            course_timetables_dict["10595536"]["channels"]["0"]["martedì"] = [
-                 {
-                   "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
-                   "timeslot": "13 - 15",
-                   "classrooms": {
-                     "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                   }
-                 }
-            ]
-
-            # 10595524 - LINEAR ALGEBRA
-            # Prof. Sahar Zabad will skip the first lecture on monday 23
-            # and resume normally the second lecture on friday 27
-            course_timetables_dict["10595524"]["channels"]["0"].pop("lunedì")
-
-            # 10595525 - PROBABILITY
-            # Prof. Lorenzo Bertini Malgarini - Vittorio Silvestri, 30/09/2024
-            course_timetables_dict["10595525"]["channels"]["0"] = {}
-
-        lettere_magna = "Aula 1 - Magna Ed. Lettere (CU003)"
-        lettere_archeologia = "Aula Archeologia Ed. Lettere (CU003)"
-        lettere_maps = "https://maps.app.goo.gl/zrxYyaAoEsDbqYHe6"
-
-        for course_code, course_data in course_timetables_dict.items():
-            for channel_id, channel_data in course_data["channels"].items():
-                for day_name, day_schedules in channel_data.items():
-                    for day_schedule in day_schedules:
-                        # 101226 - CALCOLO DIFFERENZIALE
-                        if (course_code == "101226") and (channel_id == "1"):
-                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
-                                day_schedule["teacher"] = None
-                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
-
-                        # 10595531 - DEEP LEARNING
-                        if course_code == "10595531":
-                            # Prof. Fabio Galasso
-                            day_schedule["teacher"] = "c6ebe64b-d218-4bed-9643-8de250010478"
-
-                        # 10595529 - CALCULUS 2
-                        if course_code == "10595529":
-                            if day_schedule["teacher"] is None:
-                                day_schedule["teacherInfo"] = "ALLA ALESSANDRO"
-                                day_schedule["teacherUrl"]  = "https://www.alessandroalla.com/index.html"
-
-                        if "classrooms" in day_schedule:
-                            for classroom_id, classroom_description in day_schedule["classrooms"].items():
-                                classroom_info = day_schedule.get("classroomInfo", None)
-                                classroom_url  = day_schedule.get("classroomUrl", None)
-
-                                if classroom_description == "Aula 3 (Edificio: RM158)":
-                                    classroom_info = "Aula A Via dei Sabelli, 108 (RM027)"
-                                    classroom_url = "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
-                                elif classroom_description == "Aula 4 (Edificio: RM158)":
-                                    if day_name in ("lunedì", "martedì"):
-                                        classroom_info = "Aula 204 Marco Polo (RM021)"
-                                        classroom_url = "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                                    elif day_name in ("mercoledì", "giovedì", "venerdì"):
-                                        hours = day_schedule["timeslot"].split("-")
-                                        startTime = int(hours[0].strip())
-                                        endTime = int(hours[1].strip())
-
-                                        if endTime <= 13:
-                                            classroom_info = "Aula 203 Marco Polo (RM021)"
-                                            classroom_url = "https://maps.app.goo.gl/sLaCKDv3xDLTGDWc7"
-                                        else:
-                                            if channel_id == "1":
-                                                if (day_name == "mercoledì") and (course_code in ("1020422_1", "1020421")):
-                                                    classroom_info = lettere_magna
-                                                    classroom_url = lettere_maps
-                                                elif (day_name == "giovedì"):
-                                                    # 1015887 - BASI DI DATI I MODULO
-                                                    if course_code == "1015887_1":
-                                                        classroom_info = lettere_archeologia
-                                                        classroom_url = lettere_maps
-                                                    elif course_code == "1020421":
-                                                        classroom_info = matematica_aula_v
-                                                        classroom_url = matematica_building
-                                                elif (day_name == "venerdì"):
-                                                    classroom_info = lettere_archeologia
-                                                    classroom_url = lettere_maps
-                                elif classroom_description == "Aula Magna AREA DI CANTIERE (Edificio: RM111)":
-                                    # 10595531 - DEEP LEARNING, 1022267 - PROGRAMMAZIONE PER IL WEB,
-                                    # 10595534 - WEB AND SOFTWARE ARCHITECTURE
-                                    if course_code in ("10595531", "1022267", "10595534"):
-                                        classroom_info = matematica_aula_iv
-                                        classroom_url = matematica_building
-
-                                if classroom_info is not None:
-                                    day_schedule.pop("classrooms")
-
-                                    # print("classroom_info: " + classroom_description + " -> " + classroom_info)
-
-                                    day_schedule["classroomInfo"] = classroom_info
-                                # else:
-                                    # print("classroom_info: " + classroom_description)
-
-                                if classroom_url is not None:
-                                    day_schedule["classroomUrl"] = classroom_url
-
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
