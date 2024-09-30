@@ -165,14 +165,16 @@
           {
             "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
             "timeslot": "8 - 10",
-            "classroomInfo": "Zoom (link ancora da annunciare)"
+            "classroomInfo": "Zoom (gioved\u00ec)",
+            "classroomUrl": "https://uniroma1.zoom.us/j/86840079511?pwd=rradHdWBKL4G8IN6plEaC2bxDnQRVz.1"
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
             "timeslot": "10 - 13",
-            "classroomInfo": "Zoom (link ancora da annunciare)"
+            "classroomInfo": "Zoom (venerd\u00ec)",
+            "classroomUrl": "https://uniroma1.zoom.us/j/82982266089?pwd=eBBbypp8b8AFt1JoaxdGUxnnrJNGmo.1"
           }
         ]
       },
