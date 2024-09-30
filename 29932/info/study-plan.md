@@ -42,8 +42,7 @@ There are **two types** of study plans for the 2024/2025 academic year (you can 
      - Software Engineering
      - Systems
    - Select a combination of **9 core courses (54 CFUs)** from two PCCs of the afore mentioned.
-   - Add **2 related courses (12 CFUs)** from the common list (Appendix 2).
-   - Include **2 free-choice courses (12 CFUs)** from any faculty.
+   - Add **2 related courses (12 CFUs)** and the **2 free-choice courses (12 CFUs) from the Appendix 2.
    - Specify the selected PCCs in the study plan notes as: `"Recommended Plan: PCC1, PCC2"`.
 
 2. **Custom Study Plan (Piano di Studio Individuale)**  
