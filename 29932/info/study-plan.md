@@ -21,15 +21,47 @@ Students of the Master's Degree in Computer Science must have a valid study plan
 
 As for 2024/2025 A.Y. a total of 120 CFUs must be obtained, divided in:
 - 12 CFUs of exams coming from any faculty within Sapienza (must be justified in order to be approved, you can't simply insert Philosofy 3)
-- 6 CFUs of AFC (supplementary educational activities) which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub))
-- 66 CFUs of exams within the Computer Science degree
+- 6 CFUs of AFC (supplementary educational activities) which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub)
+- 66 CFUs of exams within the Computer Science degree (with some restrictions, see below)
 - 36 CFUs for the thesis
+
+### Study Plan Options
+
+There are **two types** of study plans for the 2024/2025 academic year (you can check [here](https://docs.google.com/document/d/1kasq5efzmuVXt2SlMfGnvn1gUD5bD877/edit) for the appendices and PCCs combinations):
+
+1. **Recommended Study Plan (Based on PCC)**  
+   Automatically approved if correctly compiled:
+   - Choose **two specialization areas** (PCCs) from the following list:
+     - Algorithms
+     - Artificial Intelligence
+     - Computational Models for Systems Design
+     - Data Science
+     - Multimedia Computing and Interaction
+     - Networks
+     - Security
+     - Software Engineering
+     - Systems
+   - Select a combination of **9 core courses (54 CFUs)** from two PCCs of the afore mentioned.
+   - Add **2 related courses (12 CFUs)** from the common list (Appendix 2).
+   - Include **2 free-choice courses (12 CFUs)** from any faculty.
+   - Specify the selected PCCs in the study plan notes as: `"Recommended Plan: PCC1, PCC2"`.
+
+2. **Custom Study Plan (Piano di Studio Individuale)**  
+   Must be reviewed by the Academic Committee:
+   - Choose **54 CFUs** from **any core courses** in the PCC list (Appendix 1).
+   - Add **12 CFUs** of related courses from Appendix 2 and 12 CFUs of free-choice courses.
+   - Include **justifications** in the study plan notes for not following the recommended structure.
+
+### Important Details
+
+- Each plan must also include **6 CFUs** of AFC (Supplementary Educational Activities).
+- The remaining **36 CFUs** are dedicated to the thesis project.
+- A recommended plan is highly encouraged as it guarantees automatic approval. Custom plans may require additional evaluation and are not guaranteed to be accepted.
+
+
 
 ### What's a study plan?
 The study plan defines the courses that the student intends to attend and for which will take the related exams during the first and second year. Students can book or take an exam only if they have an approved study plan.
-
-### How can I submit it?
-Study plans must be submitted using the online study plan submission system called "Percorsi Formativi," accessible from [Infostud](https://www.studenti.uniroma1.it/phoenix/index.html#/corsiLaurea/percorso_formativo).
 
 ### Submission and Revision Dates
 Students can submit their study plan once a year during the following timeframe:
@@ -47,6 +79,9 @@ We recommend to follow the courses for at least a month before making any final 
 {{< /hint >}}
 
 An already valid study plan can be revised in the following A.Y. by submitting a new plan that includes all previously approved courses.
+
+### How can I submit it?
+Study plans must be submitted using the online study plan submission system called "Percorsi Formativi," accessible from [Infostud](https://www.studenti.uniroma1.it/phoenix/index.html#/corsiLaurea/percorso_formativo).
 
 #### Late Enrollement (>November 30th)
 
@@ -70,7 +105,7 @@ Exam sessions held from September to December belong to the previous academic ye
 Yes, you will have to submit a new plan until it gets approved. There's not a plain rejection, usually an email explaining the reason why the plan was rejected is sent.
 
 ### How to avoid rejection?
-As for 2024/25 A.Y. you can decide to follow some recommended study plans which will be automatically approved (find them [here](https://docs.google.com/document/d/1dZo8qgXtprAkwmmSn82mMbQoxv5GGR_P/edit)), although they might not reflect your full interests.
+As for 2024/25 A.Y. you can decide to follow some recommended study plans which will be automatically approved (find them [here](https://docs.google.com/document/d/1kasq5efzmuVXt2SlMfGnvn1gUD5bD877/edit), although they might not reflect your full interests.
 Alternatively, you can opt for an individual study plan which you might have to adjust, which will give you the freedom to build a very unique and diversified plan.
 
 ## Exams Ahead of Schedule
