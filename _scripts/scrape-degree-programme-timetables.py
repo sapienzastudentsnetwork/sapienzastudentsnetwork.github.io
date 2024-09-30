@@ -631,7 +631,13 @@ if __name__ == '__main__':
                                             classroom_url  = "https://uniroma1.zoom.us/j/81579067494?pwd=D1gMJxvBKdpVKIKQJtK6abN4yBxVza.1"
                                     # PROGETTAZIONE DI SISTEMI DIGITALI - 1015880 - Salvatore Pontarelli
                                     elif (course_code == "1015880") and (channel_id == "1"):
-                                        classroom_info = "Zoom (link ancora da annunciare)"
+                                        if day_name == "giovedì":
+                                            classroom_info = "Zoom (giovedì)"
+                                            classroom_url = "https://uniroma1.zoom.us/j/86840079511?pwd=rradHdWBKL4G8IN6plEaC2bxDnQRVz.1"
+
+                                        elif day_name == "venerdì":
+                                            classroom_info = "Zoom (venerdì)"
+                                            classroom_url = "https://uniroma1.zoom.us/j/82982266089?pwd=eBBbypp8b8AFt1JoaxdGUxnnrJNGmo.1"
                                     # ALGEBRA - 1015886 - Viaggi e Cherubini
                                     elif (course_code == "1015886") and (channel_id == "1"):
                                         classroom_info = "Meet"
