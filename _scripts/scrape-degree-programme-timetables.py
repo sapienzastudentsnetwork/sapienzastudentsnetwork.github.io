@@ -728,6 +728,22 @@ if __name__ == '__main__':
                                         classroom_info = "Zoom"
                                         classroom_url  = "https://uniroma1.zoom.us/j/81664845095?pwd=WAxUSVRBjt09P3RsuUDna3MmheqG65.1"
 
+                                # CALCOLO DELLE PROBABILITÀ - 1020421 - Alessandra Faggionato
+                                if (course_code == "1020421") and (channel_id == "2"):
+                                    if day_name == "martedì":
+                                        classroom_info = "Zoom"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/81062850219"
+                                # SISTEMI OPERATIVI - 1020422 - Fabio De Gaspari
+                                elif ("1020422" in course_code) and (channel_id == "2"):
+                                    if day_name == "martedì":
+                                        classroom_info = "Aula 11 Via Scarpa (RM005), Zoom (ID: 825 5571 4391, Passcode: 294024)"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/82555714391?pwd=TgalvSEztIFE4KPSCcX7Mvfo4oqiu1.1"
+                                # ALGEBRA - 1015886 - Federico Pellarin
+                                elif (course_code == "1015886") and (channel_id == "2"):
+                                    if day_name == "martedì":
+                                        classroom_info = "Zoom (ID: 871 2679 4596, Passcode: 770470)"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/87126794596?pwd=gvZypf25d2fnEtZa1lsGp0s3rbrTLj.1"
+
                                 # PROGRAMMAZIONE PER IL WEB - 1022267 - Emanuele Panizzi
                                 # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
                                 if course_code in ("1022267", "10595534"):
