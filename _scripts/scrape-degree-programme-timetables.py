@@ -666,7 +666,7 @@ if __name__ == '__main__':
                                     # BASI DI DATI - 1015887 - Maria De Marsico
                                     elif ("1015887" in course_code) and (channel_id == "2"):
                                         if day_name == "mercoledì":
-                                            classroom_info = zoom_register_it
+                                            classroom_info = zoom_register_it.replace(")", ", passcode: relazione)")
                                             classroom_url  = "https://uniroma1.zoom.us/meeting/register/tZAqde6urDojEtXQAyiwJGAgdSKGHol6-f-L"
                                     # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                     elif course_code == "1041727":
@@ -743,6 +743,9 @@ if __name__ == '__main__':
                                     if day_name == "martedì":
                                         classroom_info = "Zoom (ID: 871 2679 4596, Passcode: 770470)"
                                         classroom_url  = "https://uniroma1.zoom.us/j/87126794596?pwd=gvZypf25d2fnEtZa1lsGp0s3rbrTLj.1"
+                                    elif day_name == "mercoledì":
+                                        classroom_info = "Zoom (ID: 823 0543 0040, Passcode: 374669)"
+                                        classroom_url = "https://uniroma1.zoom.us/j/82305430040?pwd=6cYAARqyONP1KVhxzAbqqQVouuYAwu.1"
 
                                 # PROGRAMMAZIONE PER IL WEB - 1022267 - Emanuele Panizzi
                                 # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
