@@ -1,0 +1,17 @@
+services:
+  sapienzastudents:
+    build: .
+    container_name: sapienzastudents
+    volumes:
+      # Mount the current directory to the container
+      # This is useful for updating the website without rebuilding the container
+      - ".:/app"
+
+    ports:
+      # Map the container's port 1313 to the host's port 1313
+      # If you need to use a reverse proxy, comment this line
+      - "1313:1313"
+
+    # Will restart the container if it crashes
+    # Even after a reboot
+    restart: unless-stopped

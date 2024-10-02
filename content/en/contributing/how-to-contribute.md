@@ -28,7 +28,7 @@ Now you cloned the fork locally, meaning that by opening up a text editor you ca
 
 ## Start the site locally
 
-There are two ways to run the site locally. One is by using the **Hugo binaries**, the other is by using **Docker**. Although they provide the same functions, Docker might be a hard tool if you're using it for the first time. We encourage you to try it, but if you don't feel like it you can just use the Hugo binary:
+There are currently three ways to run the site locally. One is by using the **Hugo binaries**, one by using **Docker**, and another is by using **Docker Compose**. Although they provide the same functions, Docker/Docker Compose might be a hard tool if you're using it for the first time. We encourage you to try it, but if you don't feel like it you can just use the Hugo binary:
 
 {{< tabs "runningsite" >}}
 {{< tab "🌐 Hugo" >}}
@@ -83,9 +83,33 @@ sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Everytime that you 
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
 6. If you want to stop the server, just press `Ctrl+C` in the terminal.
-   {{< /tab >}}
-   {{< /tabs >}}
+{{< /tab >}}
 
+{{< tab "🐋 Docker Compose" >}}
+## Using Docker Compose
+
+Before starting, check if you have [**Docker**](https://www.docker.com/) and [**Docker Compose**](https://docs.docker.com/compose/install/) installed.
+
+4. In order to run the site locally and test your code, run the following commands:
+```bash
+docker compose up -d --build
+```
+
+5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
+
+6. If you want to stop the server, run the command:
+```bash
+docker compose down
+```
+
+{{< hint info >}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Note**
+If you want to see the logs of the server, you can run the command `docker compose logs -f`.
+{{< /hint >}}
+
+{{< /tab >}}
+
+{{< /tabs >}}
 
 
 ## Proposals / Bugs

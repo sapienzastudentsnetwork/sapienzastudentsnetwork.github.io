@@ -117,16 +117,16 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 <!--[Aggiungi la tua relazione alla lista]()-->
 {{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Aggiungi la tua relazione alla lista{{< /button >}}
 
-{{< expand "Espandi la lista...">}}
+{{< details "Espandi la lista...">}}
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
 * [SAPERE: a sequantial recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
-{{< /expand >}}
+{{< /details >}}
 
 
 <!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
 <!--
 ## Tirocini e Professori
-{{< expand "Espandi la lista...">}}
+{{< details "Espandi la lista...">}}
 ### Informatica
 
 
@@ -314,7 +314,7 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 | [Vendittelli Marilena](https://corsidilaurea.uniroma1.it/it/users/marilenavendittelliuniroma1it) | - |
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
-{{< /expand >}}
+{{< /details >}}
 -->
 
 <!-- ## FAQ  -->
