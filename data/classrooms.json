@@ -4,6 +4,51 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+1)&iwloc=A&hl=it"
   },
+  "1e079880-d2d2-49ef-8058-c58ab0baa4b4": {
+    "description": "Aula 11 - Aule 11-12-13",
+    "address": "Via Antonio Scarpa, 12",
+    "mapsUrl": "https://maps.google.com/maps?q=41.906988,+12.518312+(Aula+11)&iwloc=A&hl=it"
+  },
+  "27a4966a-0abc-418d-aa04-ea3973e3cdef": {
+    "description": "Aula 3 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+3)&iwloc=A&hl=it"
+  },
+  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+    "description": "Aula 3 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "0423606b-48fc-4638-a851-eab7563981a2": {
+    "description": "Aula 4 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
+    "description": "Aula G50 - Regina Elena - Edificio G",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
+  },
+  "50369700-02c9-46b7-a8f6-cd0171322dee": {
+    "description": "Aula informatica 15",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+  },
+  "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
+    "description": "Aula informatica 17",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+17)&iwloc=A&hl=it"
+  },
+  "74a8a956-ade6-4883-b10f-416c38c9d93d": {
+    "description": "Aula Magna AREA DI CANTIERE - Regina Elena - Edificio C",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
+  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
+    "description": "Aula T1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
   "8c93a07d-b833-4dae-a4ff-302f0f065453": {
     "description": "Aula 1 - Aule temporanee",
     "address": null,
@@ -24,21 +69,6 @@
     "address": "Via Salaria, 113/117",
     "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
   },
-  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
-    "description": "Aula G50 - Regina Elena - Edificio G",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
-  },
-  "50369700-02c9-46b7-a8f6-cd0171322dee": {
-    "description": "Aula informatica 15",
-    "address": "Via Tiburtina, 205",
-    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
-  },
-  "74a8a956-ade6-4883-b10f-416c38c9d93d": {
-    "description": "Aula Magna AREA DI CANTIERE - Regina Elena - Edificio C",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": null
-  },
   "3204f38e-7393-4457-a108-c048458d026a": {
     "description": "Aula S1 - Regina Elena - Edificio E",
     "address": "Viale Regina Elena, 295",
@@ -49,29 +79,9 @@
     "address": "Via dei Volsci, 122",
     "mapsUrl": null
   },
-  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
-    "description": "Aula T1 - Regina Elena - Edificio E",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": null
-  },
-  "1e079880-d2d2-49ef-8058-c58ab0baa4b4": {
-    "description": "Aula 11 - Aule 11-12-13",
-    "address": "Via Antonio Scarpa, 12",
-    "mapsUrl": "https://maps.google.com/maps?q=41.906988,+12.518312+(Aula+11)&iwloc=A&hl=it"
-  },
-  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
-    "description": "Aula 3 - Aule temporanee",
-    "address": null,
-    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
-  },
   "deffa19a-65db-4abe-be55-4178b791dc1b": {
     "description": "Aula informatica 16",
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
-  },
-  "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
-    "description": "Aula informatica 17",
-    "address": "Via Tiburtina, 205",
-    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+17)&iwloc=A&hl=it"
   }
 }

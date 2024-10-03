@@ -60,6 +60,11 @@
             "teacher": "TRONCI ENRICO",
             "schedule": [
               {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
                 "day": "mercoled\u00ec",
                 "from": "15:00",
                 "to": "18:00"
@@ -472,6 +477,11 @@
             "room": "Aula S1 ",
             "teacher": "TRONCI ENRICO",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
               {
                 "day": "mercoled\u00ec",
                 "from": "15:00",
