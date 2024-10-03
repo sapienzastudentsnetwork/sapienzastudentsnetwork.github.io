@@ -755,8 +755,8 @@ if __name__ == '__main__':
                                 # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
                                 if course_code in ("1022267", "10595534"):
                                     if day_name == "giovedì":
-                                        classroom_info = matematica_building
-                                        classroom_url  = matematica_aula_iv
+                                        classroom_info = matematica_aula_iv
+                                        classroom_url  = matematica_building
                                 # DEEP LEARNING - 10595531 - Luigi Cinque, Fabio Galasso
                                 elif course_code == "10595531":
                                     if day_name == "lunedì":
