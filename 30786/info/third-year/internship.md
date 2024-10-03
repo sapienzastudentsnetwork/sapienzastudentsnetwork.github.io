@@ -189,12 +189,12 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 {{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-en-md.md&title=Add+Internship+Report">}}Add your report to the list{{< /button >}}
 
-{{< expand "Expand the list...">}}
+{{< details "Expand the list...">}}
 
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
 * [SAPERE: a sequential recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 
-{{< /expand >}}
+{{< /details >}}
 
 
 
@@ -205,7 +205,7 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 ## Internships and Professors
 
-{{< expand "Expand the list...">}}
+{{< details "Expand the list...">}}
 
 ### Informatica
 
@@ -403,7 +403,7 @@ You can also request internships from professors in the Department of Ingegneria
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
 
-{{< /expand >}}
+{{< /details >}}
 
 -->
 
