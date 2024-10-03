@@ -461,6 +461,10 @@ if __name__ == '__main__':
         reginaelena_edificiod_301 = "Aula 301 Regina Elena Ed. D (RM112)"
         reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
 
+        matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
+        matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
+        matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+
         tba_classroom = "Classroom To Be Defined"
 
         if degree_programme_code == "29923":
@@ -751,8 +755,8 @@ if __name__ == '__main__':
                                 # WEB AND SOFTWARE ARCHITECTURE - 10595534 - Emanuele Panizzi
                                 if course_code in ("1022267", "10595534"):
                                     if day_name == "giovedì":
-                                        classroom_info = reginaelena_edificiod_301
-                                        classroom_url  = reginaelena_edificiod
+                                        classroom_info = matematica_building
+                                        classroom_url  = matematica_aula_iv
                                 # DEEP LEARNING - 10595531 - Luigi Cinque, Fabio Galasso
                                 elif course_code == "10595531":
                                     if day_name == "lunedì":
