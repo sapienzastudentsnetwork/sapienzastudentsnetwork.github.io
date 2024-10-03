@@ -612,8 +612,8 @@
           {
             "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
             "timeslot": "14 - 16",
-            "classroomInfo": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7",
-            "classroomUrl": "Aula IV Matematica G. Castelnuovo (CU006)"
+            "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
+            "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
           }
         ]
       }
@@ -881,8 +881,8 @@
             "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
             "timeslot": "11 - 14",
             "classrooms": {},
-            "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
-            "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ]
       }
@@ -1378,8 +1378,8 @@
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "16 - 18",
-            "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
-            "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ]
       }
@@ -1431,8 +1431,8 @@
           {
             "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
             "timeslot": "14 - 16",
-            "classroomInfo": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7",
-            "classroomUrl": "Aula IV Matematica G. Castelnuovo (CU006)"
+            "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
+            "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
           }
         ]
       }
