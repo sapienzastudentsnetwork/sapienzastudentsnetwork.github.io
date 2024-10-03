@@ -106,4 +106,4 @@ docker compose down
 
 ## Proposte / Bug
 
-Se hai suggerimenti per migliorare il sito, o vuoi segnalare un bug, puoi aprire un [issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) sul repository GitHub (**NON** sul tuo fork!). Grazie in anticipo per qualsiasi aiuto tu possa darci!
+Se hai suggerimenti per migliorare il sito, o vuoi segnalare un bug, puoi aprire un'[issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) sul repository GitHub (**NON** sul tuo fork!). Grazie in anticipo per qualsiasi aiuto tu possa darci!
