@@ -595,6 +595,7 @@ if __name__ == '__main__':
                             if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
                                 day_schedule["teacher"] = None
                                 day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+                                day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
 
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
