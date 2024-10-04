@@ -237,7 +237,12 @@
         "abbr": "OGA",
         "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
         "cfu": 6,
-        "department": "SECS"
+        "department": "SECS",
+        "alerts": {
+            "0": [
+                "⚠\uFE0F Il corso inizierà appena (e se) sarà individuato un docente."
+            ]
+        }
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
@@ -251,7 +256,12 @@
         "shortName": "Prog. Web",
         "abbr": "WEB",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6
+        "cfu": 6,
+        "alerts": {
+            "0": [
+                "⚠\uFE0F Non ci saranno lezioni l'8 e il 10 ottobre perché il prof. Panizzi sarà alla summer school BUCA organizzata a Venezia. La prossima lezione di Programmazione per il Web sarà martedì 15 ottobre."
+            ]
+        }
     },
     "1022266": {
         "name": "Programmazione di Sistema",
@@ -280,6 +290,9 @@
         "tgGroup": "https://t.me/+D1TVbwQqf8kxZjRk",
         "cfu": 6
     },
+
+
+
     "10595099_1": {
         "name": "Calculus (Unit 1)",
         "shortName": "Calculus U1",
@@ -425,7 +438,12 @@
         "shortName": "Web. & SW. Arch.",
         "abbr": "WASA",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6
+        "cfu": 6,
+        "alerts": {
+            "0": [
+                "⚠\uFE0F There will be no lectures on 8 and 10 October because Prof. Panizzi will be at the BUCA summer school organised in Venice. The next Web and Software Architecture lecture will be on Tuesday 15 October."
+            ]
+        }
     },
     "10595535": {
         "name": "Human Computer Interaction",

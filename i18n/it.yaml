@@ -67,7 +67,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la seconda settimana di lezioni (30 Settembre - 4 Ottobre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
+  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la terza settimana di lezioni (dal 7 all'11 Ottobre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_Timetables_Time
   translation: Orario
@@ -76,7 +76,7 @@
   translation: Orari per singolo insegnamento
 
 - id: Subjs_TimetablesPerTeaching_NoTimetable
-  translation: Nessun orario disponibile. Potrebbe trattarsi di un insegnamento il cui inizio delle lezioni è stato posticipato o le cui lezioni si sono già concluse. Si consiglia di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
+  translation: Nessun orario disponibile per questa settimana. Potrebbe trattarsi di un insegnamento il cui inizio delle lezioni è stato posticipato o le cui lezioni si sono già concluse. Si consiglia di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Giorno

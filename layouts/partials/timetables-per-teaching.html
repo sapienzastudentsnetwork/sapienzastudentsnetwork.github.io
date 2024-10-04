@@ -73,6 +73,7 @@
                                 {{ . }}
                                 <br>
                             {{ end }}
+                            <br>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -190,7 +191,10 @@
                         </tbody>
                     </table>
                 {{ else }}
-                    {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
+                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
+                    {{ if or (not $alerts) (not (index $alerts $channel_id)) }}
+                        {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
+                    {{ end }}
                 {{ end }}
 
                 {{ if ne $channel_id "0" }}

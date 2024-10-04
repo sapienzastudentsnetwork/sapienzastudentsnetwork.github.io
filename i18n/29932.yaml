@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: This page displays, for this week, the provisional timetable for the second week of classes (30 September - 4 October). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
+  translation: This page displays, for this week, the provisional timetable for the third week of classes (7 - 11 October). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Timetables_Time
   translation: Time
@@ -77,7 +77,7 @@
   translation: Timetables per teaching
 
 - id: Subjs_TimetablesPerTeaching_NoTimetable
-  translation: No available schedule. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
+  translation: No timetable available for this week. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
 
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Day
