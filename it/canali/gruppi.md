@@ -93,9 +93,6 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
-{{% hint info %}}
-**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/percorso-formativo#come-scegliere-gli-esami-esterni).
-{{% /hint %}}
 
 #### Insegnamenti obbligatori
 
@@ -106,6 +103,12 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
     - [Ingegneria del Software](https://t.me/+ziirbiKQi2g5ZjU0)
 
 #### Insegnamenti a scelta
+
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **ACSAI e Teledidattica?**
+
+Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Questo perché al Terzo Anno si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
+{{% /hint %}}
 
 ##### Primo Semestre
 

@@ -131,11 +131,19 @@ Tecnologico:
 
 ### Insegnamenti a scelta esterni
 
-Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di Informatica, in anni accademici precedenti, come insegnamenti esterni
+{{% hint warning %}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Importante premessa**
 
-- **N.B.:** alcuni di questi insegnamenti potrebbero essere stati convalidati a studenti che si trasferivano da altri corsi anziché essere stati direttamente scelti come parte del percorso formativo per il Terzo Anno di Informatica
+Alcuni di questi insegnamenti potrebbero essere stati convalidati a studenti che si trasferivano da altri corsi anziché essere stati direttamente scelti come parte del percorso formativo per il Terzo Anno di Informatica.
+{{% /hint %}}
 
-Consulta anche le indicazioni su [come scegliere gli insegnamenti esterni](#come-scegliere-gli-insegnamenti-esterni) per ulteriori informazioni in merito!
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Linee guida generali per gli insegnamenti esterni**
+
+Assicurati di consultare anche le indicazioni su [come scegliere gli insegnamenti esterni](#come-scegliere-gli-insegnamenti-esterni) per ulteriori informazioni in merito!
+{{% /hint %}}
+
+Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di Informatica, in anni accademici precedenti, come insegnamenti esterni:
 
 | Insegnamento                                                 | Codice                                                                                                                                                                                                                                                                                                                                               | CdL                                                                                                            | CFU | Chat                                                 |
 |--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----|------------------------------------------------------|
