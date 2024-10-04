@@ -1,6 +1,6 @@
 # Studying at the university and searching for texts
 
-Sapienza offers more than 40 libraries (with almost 3 milion available texts), numerous study halls and free access to 170 online databases.
+Sapienza offers more than 40 libraries (with almost 3 milion available texts), many study halls and free access to 170 online databases.
 
 ## Studying at the university
 

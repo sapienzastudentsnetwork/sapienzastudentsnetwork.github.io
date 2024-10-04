@@ -5,10 +5,10 @@ Sapienza offers a free service of psychological counseling for its students, div
 * difficulties in fitting within the social context of the university;
 * being separated for a support network (friends and family);
 * disorders caused by the COVID-19 pandemic;
-* discrimination on the basis of sex, sexual orientation, etno-culutral origins, religion, political beliefs, social background;
-* harassments or other kinds of physical and psychological aggression.
+* discrimination on the basis of sex, sexual orientation, sociocultural origins, religion, political beliefs, social background;
+* harassment or other kinds of physical and psychological aggression.
 
-After the first meeting, the service can suggest specific paths to follow or prescribe the psychological interviews offered by the **Center for Psychological Counceling** ([centrocounselling.psicologico@uniroma1.it](mailtocentrocounselling.psicologico@uniroma1.it)). The center offers **up to 4 interviews** followed by a follow up interview after three months.
+After the first meeting, the service can suggest specific paths to follow or prescribe the psychological interviews offered by the **Center for Psychological Counseling** ([centrocounselling.psicologico@uniroma1.it](mailtocentrocounselling.psicologico@uniroma1.it)). The center offers **up to 4 interviews** followed by a follow up interview after three months.
 
 All the interviews must be done in presence, except for Erasmus students or students attending courses in buildings outside of Rome.
 

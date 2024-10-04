@@ -1,6 +1,6 @@
 # SapienzaSport
 
-Sapienza offers access to the Tor di Quinto sport center ([Via delle Fornaci di Tor di Quinto](https://maps.app.goo.gl/Dxws6xTjdsWMqPUS7)). The facility can be easily reached by taking Metro B to the stop Jonio and then taking the bus 69 to the stop Tor di Quinto/Fornaci. The facility is open from monday to friday from  8:00 to 23:00, on saturday from 8:00 to 20:00, on sunday from 9:00 to 18:00. 
+Sapienza offers access to the Tor di Quinto sport center ([Via delle Fornaci di Tor di Quinto](https://maps.app.goo.gl/Dxws6xTjdsWMqPUS7)). The facility can be easily reached by taking Metro B to the stop Jonio and then taking the bus 69 to the stop Tor di Quinto/Fornaci. The facility is open from monday to friday from 8:00 to 23:00, on saturday from 8:00 to 20:00, on sunday from 9:00 to 18:00. 
 
 ## Registration to Courses
 
@@ -18,4 +18,4 @@ Students with a disability have access free access to the courses.
 
 ## Booking a field/court
 
-The sport center allows to book temporarily the fields/courts at controller prizes for Sapienza students. It is necessary to register on [this website](https://sapienzasport.uniroma1.it/Web/?), clicking on "Prima Registrazione". Then, you can book the field/courts from the same webiste, clicking on "Accesso Prenotazioni". The prize of the booking can be viewed [here](https://sapienzasport.web.uniroma1.it/it/prenotazione-strutture). 
+The sport center allows you to book temporarily the fields/courts at reduced prizes for Sapienza students. It is necessary to register on [this website](https://sapienzasport.uniroma1.it/Web/?), clicking on "Prima Registrazione". Then, you can book the field/courts from the same webiste, clicking on "Accesso Prenotazioni". The prize of the booking can be viewed [here](https://sapienzasport.web.uniroma1.it/it/prenotazione-strutture). 

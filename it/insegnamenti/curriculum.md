@@ -3,7 +3,9 @@ title: Curriculum
 weight: 1
 ---
 
-## Primo anno
+# Curriculum
+
+## Primo Anno
 
 Nel primo anno (i cui insegnamenti sono tutti obbligatori) viene fornita la preparazione matematica di base e vengono fornite le prime conoscenze fondamentali di Informatica; inoltre è previsto un insegnamento relativo alla lingua inglese.
 
@@ -19,7 +21,7 @@ Nel primo anno (i cui insegnamenti sono tutti obbligatori) viene fornita la prep
 | 1015884      | Metodologie di Programmazione       | Secondo  | 9   | INF/01 |
 | AAF1101      | Lingua Inglese                      | Secondo  | 3   |        |
 
-## Secondo anno
+## Secondo Anno
 
 Nel secondo anno (i cui insegnamenti sono tutti obbligatori) viene completata la necessaria preparazione matematica e vengono fornite ulteriori conoscenze di Informatica su aree la cui conoscenza è irrinunciabile per l'odierno informatico.
 
@@ -34,10 +36,10 @@ Nel secondo anno (i cui insegnamenti sono tutti obbligatori) viene completata la
 | 1015889      | Reti di Elaboratori          | Secondo  | 9   | INF/01 |
 | 1020422      | Sistemi Operativi - Modulo 2 | Secondo  | 6   | INF/01 |
 
-## Terzo anno
+## Terzo Anno
 
 Nel terzo anno si completa la formazione informatica con due insegnamenti obbligatori nell'area dell'ingegneria del software e degli automi, calcolabilità e complessità, e si offre allo studente la possibilità di scegliere in quale direzione approfondire la propria preparazione: potrà quindi orientarsi verso insegnamenti a carattere più teorico o più applicativo, sempre offrendo una visione delle metodologie necessarie nei relativi campi. Completano il terzo anno i crediti a scelta dello studente, un tirocinio formativo obbligatorio e l'esame di laurea.
 
-Per avere più dettagli su come compilare il percorso formativo e una lista di corsi che è possibile scegliere, consultare la pagina sul [Percorso Formativo](/it/info/terzo-anno/percorso-formativo/).
+Per avere più dettagli su come compilare il percorso formativo e una lista di corsi che è possibile scegliere, consulta la pagina sul [Percorso Formativo](/it/info/terzo-anno/percorso-formativo/).
 
-Per avere più dettagli su come svolgere il tirocinio formativo, consultare la pagina sul [Tirocinio Formativo](/it/info/terzo-anno/tirocinio/).
+Per avere più dettagli su come svolgere il tirocinio formativo, consulta la pagina sul [Tirocinio Formativo](/it/info/terzo-anno/tirocinio/).

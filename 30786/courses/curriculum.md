@@ -5,9 +5,10 @@ weight: 1
 
 # Curriculum
 
-## First year
+## First Year
 
 During the first year, basic mathematical preparation is provided and the first fundamental knowledge of computer science is provided.
+
 The first year courses are all compulsory and are:
 
 | Course code | Course                        | Semester | CFU | SSD    |
@@ -24,9 +25,10 @@ The first year courses are all compulsory and are:
 | 10600241    | Programming 2                 | Second   | 6   | INF/01 |
 
 
-## Second year
+## Second Year
 
 During the second year, the necessary mathematical preparation is completed and further knowledge of computer science is provided in areas, in particular artificial intelligence, the knowledge of which is essential for a graduate in Applied Computer Science and Artificial Intelligence.
+
 The second year courses are all compulsory and are:
 
 | Course code | Course                                               | Semester | CFU | SSD       |
@@ -43,9 +45,9 @@ The second year courses are all compulsory and are:
 | 1055043     | Statistics                                           | Second   | 6   | SECS-S/01 |
 
 
-## Third year
+## Third Year
 
-During the third year there is a compulsory course that allows you to complete computer training (Foundations of Computer Science).
+During the third year, there is a compulsory course that allows you to complete computer training (Foundations of Computer Science).
 
 Students then have the opportunity to choose in which direction to deepen their preparation, choosing three courses out of the Applied Computer Science group and one course out of the Law and Economics group.
 
@@ -83,8 +85,8 @@ The student must acquire 18 credits from the exams in the group
 | 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
 | 10595533    | Optimization                  | Third | Second   | 6   | INF/01 |
 
-
 #### Law and Economics
+
 The student must acquire 6 credits from the exams in the group
 
 | Course code | Course                        | Year  | Semester | CFU | SSD       |
