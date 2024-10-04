@@ -9,20 +9,6 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 
 ## Gruppi matricole
 
-{{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Associazioni Studentesche**
-
-**Non siete voti, siete persone.** Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
-
-- **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”
-  
-- **Gestione dei gruppi assente:** entrano periodicamente spammer impuniti ed è difficile (gli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti
-
-- [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri. **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
-
-Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati qui sotto
-{{% /hint %}}
-
 Gruppi per le **matricole dell'A.A. 2024/2025**:
 
 |                        Telegram                        |                            WhatsApp                            |
@@ -30,6 +16,24 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
 |  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://chat.whatsapp.com/Hn6ZHgIx9To82ffHW2X2Ek) |
 |  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/HwenUPhOPSi65CnWF2kx1Y) |
 | [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
+
+{{% details "Altri gruppi matricole (Associazioni Studentesche)" %}}
+  {{% hint warning %}}
+  <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Siete studenti ancora prima che voti!**
+  
+  Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
+  
+  1. **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”;
+
+  2. **Gestione dei gruppi assente:** entrano periodicamente spammer impuniti ed è difficile (la maggior parte degli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti;
+
+  3. [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri.
+
+     **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
+  
+  Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
+  {{% /hint %}}
+{{% /details %}}
 
 ## Gruppi generali
 
