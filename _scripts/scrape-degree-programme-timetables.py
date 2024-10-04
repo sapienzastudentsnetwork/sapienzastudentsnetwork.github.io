@@ -588,6 +588,14 @@ if __name__ == '__main__':
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
                     for day_schedule in day_schedules:
+                        # 101226 - CALCOLO DIFFERENZIALE
+                        # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
+                        # non più, alla professoressa Garroni, diventata direttrice a Matematica.
+                        if (course_code == "101226") and (channel_id == "1"):
+                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                                day_schedule["teacher"] = None
+                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
                                 classroom_info = day_schedule.get("classroomInfo", None)

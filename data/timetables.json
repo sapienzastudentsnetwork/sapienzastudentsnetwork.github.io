@@ -6,16 +6,18 @@
       "1": {
         "mercoled\u00ec": [
           {
-            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "teacher": null,
             "timeslot": "8 - 11",
+            "teacherInfo": "AIELLO VALERIANO",
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "teacher": null,
             "timeslot": "8 - 10",
+            "teacherInfo": "AIELLO VALERIANO",
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
