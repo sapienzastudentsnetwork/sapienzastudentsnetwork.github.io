@@ -16,17 +16,17 @@ Here is a complete showcase of all the text elements that are used in the site, 
 
 ---
 
-{{< columns >}}
+{{% columns %}}
 # Header 1
 <--->
 ## Header 2
 <--->
 ### Header 3
-{{< /columns >}}
+{{% /columns %}}
 
 ---
 
-{{< columns >}}
+{{% columns %}}
 
 Instantiated with:
  - `# <header_name>`
@@ -49,21 +49,21 @@ Instantiated with:
  - `<h3>header_name</h3>`
 
 Shows in ToC
-{{< /columns >}}
+{{% /columns %}}
 
 ---
 
-{{< columns >}}
+{{% columns %}}
 #### Header 4
 <--->
 ##### Header 5
 <--->
 <p style="font-family: 'DM Sans'">Paragraph text</p>
-{{< /columns >}}
+{{% /columns %}}
 
 ---
 
-{{< columns >}}
+{{% columns %}}
 
 Instantiated with:
  - `#### <header_name>`
@@ -85,7 +85,7 @@ Instantiated with:
  - No need for Markdown instantiation
  - `<p>paragraph_text</p>`
 
-{{< /columns >}}
+{{% /columns %}}
 
 ---
 

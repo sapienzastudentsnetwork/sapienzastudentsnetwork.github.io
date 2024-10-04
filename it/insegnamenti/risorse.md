@@ -6,12 +6,12 @@ weight: 4
 
 # Risorse
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 **Attenzione**
 
 La seguente pagina è temporanea e verrà sostituita in seguito da una pagina specifica per ogni insegnamento.
-{{< /hint >}}
+{{% /hint %}}
 
 ## SSN | Notes
 

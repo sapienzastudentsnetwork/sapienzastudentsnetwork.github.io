@@ -5,17 +5,17 @@ aliases: ["/voto-di-laurea", "/it/voto-di-laurea", "/it/laurearsi/calcolo-voto-d
 
 # Calcolo del Voto di Laurea
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Questa pagina è basata sulle indicazioni in vigore come da verbale del CAD del 22/06/2016.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
 
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
-{{< /hint >}}
+{{% /hint %}}
 
 Il voto di laurea viene deciso dalla Commissione di Laurea sulla base della prova finale, del giudizio dei relatori e del curriculum del candidato. Il voto è espresso in centodecimi (110) e si calcola come segue:
 

@@ -6,13 +6,13 @@ This project is immense, and not everytime the working staff can work on it. It'
 
 Contributing can be done via **GitHub**, so you might want to know a bit of the basics of it (mainly what's **Git**, how to **fork** and **clone** a repo, what are **commits** and **pull requests**). If you don't feel like doing it from the **CLI** (Command Line Interface), you can do it via VSCode or any editor that you may prefer. Here, we'll tell you how to do it via a CLI, so that at the end you'll also have some take-home knowledge of how **Git** works.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Pull Request's Rules & Help Contributing**
 
 You can find more info about how to do a correct pull request [**here**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls)
 
 If you're not familiar with **git** and **GitHub**, you can follow [GitHub's guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) on how to contribute to other's projects, or eventually ask help to the [project's staff](../contacts) or in one of the [available groups](../../channels/groups).
-{{< /hint >}}
+{{% /hint %}}
 
 ## Clone the project
 
@@ -30,8 +30,8 @@ Now you cloned the fork locally, meaning that by opening up a text editor you ca
 
 There are currently three ways to run the site locally. One is by using the **Hugo binaries**, one by using **Docker**, and another is by using **Docker Compose**. Although they provide the same functions, Docker/Docker Compose might be a hard tool if you're using it for the first time. We encourage you to try it, but if you don't feel like it you can just use the Hugo binary:
 
-{{< tabs "runningsite" >}}
-{{< tab "🌐 Hugo" >}}
+{{% tabs "runningsite" %}}
+{{% tab "🌐 Hugo" %}}
 ## Using Hugo
 
 Before starting, check if you have the [Hugo binaries](https://gohugo.io/installation/) installed.
@@ -40,7 +40,7 @@ Before starting, check if you have the [Hugo binaries](https://gohugo.io/install
 ```bash
 hugo server
 ```
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 If you received an error like the following
@@ -63,14 +63,14 @@ then it means that the theme of the site wasn't cloned succesfully. In order to 
 git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 ```
 Now the problem should have disappeared, and you should be able to build without problems the site.
-{{< /hint>}}
+{{% /hint%}}
 
 5. Open [`localhost:1313`](http://localhost:1313/) on your browser and there you go! You can now live preview the site. Since Hugo supports hot reloading, everytime a file changes, the site will too.
 
 6. If you want to stop the server, just press `Ctrl + C` in the terminal.
 
-{{< /tab >}}
-{{< tab "🐋 Docker" >}}
+{{% /tab %}}
+{{% tab "🐋 Docker" %}}
 ## Using Docker
 
 Before starting, check if you have [**Docker**](https://www.docker.com/) installed.
@@ -83,9 +83,9 @@ sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Everytime that you 
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
 6. If you want to stop the server, just press `Ctrl+C` in the terminal.
-{{< /tab >}}
+{{% /tab %}}
 
-{{< tab "🐋 Docker Compose" >}}
+{{% tab "🐋 Docker Compose" %}}
 ## Using Docker Compose
 
 Before starting, check if you have [**Docker**](https://www.docker.com/) and [**Docker Compose**](https://docs.docker.com/compose/install/) installed.
@@ -102,14 +102,14 @@ docker compose up -d --build
 docker compose down
 ```
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Note**
 If you want to see the logs of the server, you can run the command `docker compose logs -f`.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< /tab >}}
+{{% /tab %}}
 
-{{< /tabs >}}
+{{% /tabs %}}
 
 
 ## Proposals / Bugs

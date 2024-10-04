@@ -5,15 +5,15 @@ weight: 1
 
 # Computer Science Study Plan
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024/25 academic year when the recommended curriculums were added.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
 In the [Computer Science Study Plan Telegram section](https://t.me/computersciencesapienza/9766I) you can discuss, compare and ask for advices regarding your plan.
-{{< /hint >}}
+{{% /hint %}}
 
 ## Study Plan Basics
 
@@ -72,10 +72,10 @@ The committee will evaluate the submitted study plans periodically as follows:
 
 Study plans, once approved for an academic year, cannot be modified within the same academic year.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
 We recommend to follow the courses for at least a month before making any final choice in order to avoid having to wait an entire academic year before making some changes. It's very frequent that students change ideas and might try other courses before making a definitive plan.
-{{< /hint >}}
+{{% /hint %}}
 
 An already valid study plan can be revised in the following A.Y. by submitting a new plan that includes all previously approved courses.
 
@@ -95,10 +95,10 @@ Late-submitted study plans will be evaluated as follows:
 Study plans come into effect starting from the academic year in which they were submitted and remain in effect until a new substitute study plan is submitted and approved.
 This means that if you are enrolled in the 24/25 A.Y in December 2025 you won't be able to take exams of the new study plan submitted in September 2025. You'll have to wait January 2026 to take the exams of the new study plan!
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
 Exam sessions held from September to December belong to the previous academic year! Those can be used by students only to pass exams for courses that are part of their previously approved study plans for the past academic year!
-{{< /hint >}}
+{{% /hint %}}
 
 ## Can a study plan be rejected?
 Yes, you will have to submit a new plan until it gets approved. There's not a plain rejection, usually an email explaining the reason why the plan was rejected is sent.

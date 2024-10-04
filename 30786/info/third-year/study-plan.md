@@ -78,9 +78,9 @@ Some courses that have been previously approved as external courses for ACSAI st
 
 The **"Commission for the Evaluation and Approval of Study Plans"** is responsible for assessing and approving study plans within a few weeks.
 
-{{< hint warning >}}
+{{% hint warning %}}
 Students are advised not to write before two weeks if it is not strictly necessary. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the study plan compliant with the study plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval.
-{{< /hint >}}
+{{% /hint %}}
 
 The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angelo Spognardi](https://www.di.uniroma1.it/en/docenti/spognardi-angelo), to whom you can write for further information and/or urgent approval requests (e.g., learning agreement for the Erasmus program).
 
@@ -148,26 +148,26 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 ## FAQ
 
-{{< details "**Can I choose only internal courses?**">}}
+{{% details "**Can I choose only internal courses?**"%}}
 
 ---
 
 **Yes**, you can choose to take only courses within the Applied Computer Science and Artificial Intelligence degree program (30786). However, you also have the option to include up to 12 ECTS credits from courses offered by other degree programs and faculties, if you prefer. This is not mandatory, but it is available as an option.
 
-{{< /details >}}
+{{% /details %}}
 <br>
-{{< details "**Can I choose all courses offered in the First Semester?**">}}
+{{% details "**Can I choose all courses offered in the First Semester?**"%}}
 
 ---
 
 **Yes**, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping timetables and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
 
-{{< /details >}}
+{{% /details %}}
 <br>
-{{< details "**What should I do if I choose a course that I don't like?**">}}
+{{% details "**What should I do if I choose a course that I don't like?**"%}}
 
 ---
 
 If **you have not yet submitted your study plan**, you can still modify your course choices. If you have already submitted your plan, you will need to wait until the next Academic Year to make any changes. In some cases, you may request an early modification to the <a href="#academic-advisor">academic advisor for the study plans</a>, subject to approval.
 
-{{< /details >}}
+{{% /details %}}

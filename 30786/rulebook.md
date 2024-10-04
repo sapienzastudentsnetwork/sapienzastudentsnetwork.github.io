@@ -5,11 +5,11 @@ weight: 2
 
 # ACSAI Rulebook
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Source**
 
 These rules are copied from the "[Programme Regulations](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/cds#bootstrap-fieldgroup-nav-item-programme-regulations)" page within the "[Study plan](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/cds)" section of the [Degree Course](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/home) in the [Course Catalog](https://corsidilaurea.uniroma1.it/).
-{{< /hint >}}
+{{% /hint %}}
 
 The following is a list of regulations regarding the course:
 - [NG1 Admission requirements](#ng1-admission-requirements)

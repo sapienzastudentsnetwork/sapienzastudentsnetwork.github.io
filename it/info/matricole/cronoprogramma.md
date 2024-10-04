@@ -32,21 +32,21 @@ Creare un gruppo di amici con cui studiare e confrontarsi può essere un'ottima 
 ## **5 novembre 2024**: scadenza prima rata per gli iscritti al secondo anno e successivi
 La scadenza per il pagamento della prima rata è fissata per il 5 novembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 Questa scadenza è valida solamente per gli studenti iscritti al secondo anno e successivi, poiché l'immatricolazione prevede il pagamento della prima rata per gli iscritti al primo anno.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **Tra fine ottobre e inizio novembre e tra aprile e maggio**: sostenere gli esoneri
 Molti corsi, specialmente durante il primo anno, offrono la possibilità di sostenere degli esoneri durante il semestre. Questi sono dei mini-esami che, se superati, possono alleggerire il carico di studio per l'esame finale. Di solito le informazioni sugli esoneri vengono comunicate direttamente dal docente nel corso delle lezioni, anche per questo motivo è importante frequentare le lezioni. Gli esoneri normalmente si svolgono durante l'orario della lezione quando il docente ha superato metà del programma.
 
 Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permette di ottenere il voto finale del corso. Gli esoneri sono facoltativi, ma sono un ottimo modo per poter allegerire il carico di studio durante la sessione di esami, che può essere molto impegnativa.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Gli esoneri sono a discrezione dei docenti: non saranno quindi previsti per tutti i corsi. Di solito i docenti comunicano durante le prime lezioni la loro volontà di svolgere esoneri e un periodo approssimativo in cui si svolgeranno.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **19 dicembre 2024**: scadenza seconda rata
 La scadenza per il pagamento della seconda rata è fissata per il 19 dicembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
@@ -56,11 +56,11 @@ Gli esami si svolgono alla fine di ogni semestre. Per conoscere la data e l'aula
 
 Per poter sostenere un esame è necessario prenotarsi tramite [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) e prenotare l'esame nella sezione **Ricerca Appelli**.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Per ogni esame è presente una data entro la quale è possibile prenotare l'esame. Assicurati di prenotare l'esame entro la data limite, altrimenti non potrai sostenere l'esame.
-{{< /hint >}}
+{{% /hint %}}
 
 <!-- Qui possiamo linkare la guida di Leonardo tradotta in Italiano -->
 

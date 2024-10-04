@@ -28,10 +28,10 @@ Let’s do an example to show how it works. Suppose you have to search for "Lear
 3. If you want to read it online, click on **"Verifica la disponibilità in formato elettronico"** (Verify online availability) or "**Accedi alla Risorsa**" (Access to the resource): if available online, you will be shown where you can download it;
 4. If the text is available on paper in the Sapienza libraries and you want to read it in that format, click on "**Vai al Catalogo**" (Go to catalogue): you will be redirected to [OPAC](https://opac.uniroma1.it/SebinaOpacRMS/.do), the catalogue of texts that can be found in Sapienza libraries. Here, you can see in which of library it is available: in our example, "Learning Python" is only in the library ‘Ricerca sociale, informatica e comunicazione’; if the text is available is more than one library, one can chose the one you prefer; remember to make a note of **’codice inventario’ ** (inventory code) and    **’codice collocazione’** (collocation code). Lastly, go to one of the library in which the text is available, request a consultation or loan module and fill it with the previous codes.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Remember that it is possible to request a text **ONLY AND EXCLUSIVELY in the libraries where it is available**! If you go to another library of Sapienza the request will be denied.
-{{< /hint >}}
+{{% /hint %}}
 
 ![ciao](https://i.imgur.com/FWZb6K6.png)

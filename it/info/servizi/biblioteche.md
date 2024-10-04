@@ -34,10 +34,10 @@ Supponiamo che io debba cercare il libro "Learning Python":
 3. Se vuoi consultarlo digitalmente, clicca **"Verifica la disponibilità in formato elettronico"** o "**Accedi alla Risorsa**": se disponibile online, ti verrà indicato dove trovarlo o verrai direttamente reindirizzato al sito dove si trova
 4. Se il testo è disponibile in formato cartaceo nelle biblioteche Sapienza e vuoi consultarlo fisicamente (o la versione digitale non è disponibile), clicca su "**Vai al Catalogo**": verrai indirizzato alla pagina del testo sul sito [OPAC](https://opac.uniroma1.it/SebinaOpacRMS/.do), il catalogo dei testi presenti nelle biblioteche Sapienza. Qui potrai vedere in che biblioteche è disponibile: nel nostro esempio, "Learning Python" si trova nella biblioteca di Ricerca sociale, informatica e comunicazione; se dovesse essere disponibile in più biblioteche, seleziona quella che preferisci. Inoltre, **segnati sia il codice inventario sia il codice collocazione**. Infine, vai alla biblioteca scelta, richiedi un modulo di consultazione o prestito e inserisci i codici.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Ripetiamo per chiarezza che **è possibile fare richiesta di un testo SOLO ED ESCLUSIVAMENTE nelle biblioteche in cui esso è disponibile!**
-{{< /hint >}}
+{{% /hint %}}
 
 ![ciao](https://i.imgur.com/FWZb6K6.png)

@@ -42,14 +42,14 @@ You'll be able to use the app in the following canteens:
 - [Mensa Via della Vasca Navale](http://www.laziodisco.it/luoghi/mensa-via-della-vasca-navale/), Via della Vasca navale 79
 - [Mensa Via delle Sette Sale](http://www.laziodisco.it/luoghi/mensa-via-delle-sette-sale/), Via delle Sette Sale 29
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gluten intollerant and celiac meals**
 
 In some canteens it is necessary to call to reserve a celiac meal. If so, the phone number to make the reservation can be found on the website of the canteen itself.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Remember heck opening days and schedule of the canteens on their respective sites: they may change from year to year or during the year.
-{{< /hint >}}
+{{% /hint %}}

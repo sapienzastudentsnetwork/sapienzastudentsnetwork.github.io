@@ -46,14 +46,14 @@ Potrai usare l'app nei seguenti punti di ristoro:
 - [Mensa Via della Vasca Navale](http://www.laziodisco.it/luoghi/mensa-via-della-vasca-navale/), Via della Vasca navale 79
 - [Mensa Via delle Sette Sale](http://www.laziodisco.it/luoghi/mensa-via-delle-sette-sale/), Via delle Sette Sale 29
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Pasti per celiaci e intolleranti al glutine**
 
 In alcune mense è necessario chiamare per prenotare un pasto celiaco. In caso, il numero da chiamare si trova sul sito della mensa stessa.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 È importante controllare giorni e orari di apertura delle mense sui rispettivi siti, siccome potrebbero variare non solo da anno ad anno, ma anche durante l'anno stesso
-{{< /hint >}}
+{{% /hint %}}

@@ -5,17 +5,17 @@ aliases: ["/30786/info/getting-in/how-to-get-in", "/30786/info/freshmen/how-to-g
 
 ## How to enroll
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 All the information given here can be found on the official webpage dedicated to [ACSAI and other restricted access degrees](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections). It is **mandatory** to check this webpage before starting the procedure: deadlines change every year. In particular, carefully read the documents in the Downloads box.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **If you encounter problems...**
 
 If you encounter any problem during the procedure, please join the [Telegram group chat](https://t.me/appliedCS_AI): you can ask for help to your fellow collegues!
-{{< /hint >}}
+{{% /hint %}}
 
 Enrolling in Applied Computer Science requires you to follow the following crucial steps:
 
@@ -50,11 +50,11 @@ The only offical admission tests to access the selections are: TOLC-I, English T
 
 TOLCs can be booked on the official [CISIA website](https://www.cisiaonline.it/?t=1), where you will have to create a personal account. Then, you can access the personal area: here you can book a test, paying attention to chose **TOLC-I or English TOLC-I or TOLC-S**. Furthermore, you can chose if attend a TOLC@UNI (a test which take place in one of the many CISIA center around Italy) or a TOLC@CASA (an online test, which can be done while you are at home).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 The booking period for a test usually **closes a week before the date of the test itself**!
-{{< /hint >}}
+{{% /hint %}}
 
 TOLC-I, TOLC-S and English TOLC-I include:
 
@@ -65,19 +65,19 @@ TOLC-I, TOLC-S and English TOLC-I include:
 
 For more precise information, check the syllabus of ([TOLC-I](https://www.cisiaonline.it/en/area-tematica-tolc-ingegneria/struttura-della-prova-e-syllabus/), [TOLC-S](https://www.cisiaonline.it/area-tematica-tolc-scienze/struttura-della-prova-e-sillabo/) or [English TOLC-I](https://www.cisiaonline.it/area-tematica-english-tolc-ingegneria/structure-and-syllabus/))
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **TOLC scores**
 
 The highest score is 50 points. Each correct answer gives 1 point and each wrong answer subtracts 0.25 point. Not given answer count as 0.
-{{< /hint >}}
+{{% /hint %}}
 
 Furthermore, TOLC-I and TOLC-S include 30 question of basic english grammar (15 minutes): **this section does not contribute to the score relevant to the selections**.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Important**
 
 Sapienza acquires automatically the results of the test through tax code (or fiscal code). Therefore, you **must** use the same code when creating the personal area in CISIA and registering to Infostud. If you take more than one TOLC, Sapienza will automatically acquire the one with the highest score.
-{{< /hint >}}
+{{% /hint %}}
 
 ### SAT
 
@@ -88,13 +88,13 @@ SAR includes:
 - a Writing section with 44 questions (35 minutes)
 - a Math section with 58 questions (70 minutes)
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **SAT scores**
 
 Reading and Writing are valued from 100 to 400 points each, while Math is valued 200 to 800 points, for a total of 1600 points maximum.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 There is only one SAT every month. Check thoroughly [dates and deadlines](https://satsuite.collegeboard.org/sat/dates-deadlines).
@@ -103,7 +103,7 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 
 - **Sapienza University of Rome** as the name of the institution
 - **9038** as the institution code
-{{< /hint >}}
+{{% /hint %}}
 
 ## Preselection (mandatory for non-EU applicants)
 
@@ -135,11 +135,11 @@ If you are an EU citizen or come from EFTA countries (Iceland, Liechtenstein, No
 
 ## Infostud
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Check thoroughly all the deadlines for registering for a selection on the document posted in the download box at [ACSAI and other restricted access degrees](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections)
-{{< /hint >}}
+{{% /hint %}}
 
 First things first, you have to register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) in order to obtain an ID number. The email address inserted during the procedures will be used for communications, so it is better to chose an address you frequently check.
 Once registered, you can access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students): here click on "Bachelor and Master Degree Programmes" and then 'Admission to Programmes":
@@ -152,22 +152,22 @@ Finally, enter the code **14824** and pay the 10€ fee. The fee must be payed w
 
 ## Pre-enrollment or enrollment
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Check thoroughly all the deadlines for enrollment and pre-enrollment on the document posted in the download box at [ACSAI and other restricted access degrees](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections)
-{{< /hint >}}
+{{% /hint %}}
 
 If you registered correctly to a selection round, your ID number will show up on the rankings uploaded on the [Sapienza website](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections).
 
 If you partecipated to the first selection and you passed it, you must **pre-enroll**: pre-enrollment requires to pay a fee of 200€ (which will be subtracted by the enrollment fee). **If you do not pre-enroll during the pre-enrollment period or if you do not provide the English requirement as explained above, Sapienza will consider your application as dropped-out.**
 In order to pre-enroll, you have to log-in on Infostud as before and go to "Bachelor and Master Degree Programmes"; then, click on "Pre-enrollment TOLC-I" ([image](https://i.imgur.com/x0k4zGC.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Print" and pay the fee through PagoPA (further information on the payment method on [Sapienza website](https://www.uniroma1.it/en/pagina/payment)).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Important**
 
 If you partecipated in selection rounds after the first **you do not need to pre-enroll**! Follow the procedure for enrollment below.
-{{< /hint >}}
+{{% /hint %}}
 
 Every applicant (**first, second and third rounders**) must **enroll in the period indicated on the document mentioned above**. Usually first and second rounders have the same period of enrollment.
 

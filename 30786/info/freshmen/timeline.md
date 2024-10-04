@@ -32,21 +32,21 @@ Forming a study group with friends can be a great strategy for tackling the acad
 ## **November 5, 2024**: First Installment Deadline for Second-Year and Later Students
 The deadline for paying the first installment is set for November 5, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 This deadline is only valid for students enrolled in the second year and beyond, as first-year enrollment includes the payment of the first installment for first-year students.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **Late October to Early November and April to May**: Take the Midterms
 Many courses, especially during the first year, offer the opportunity to take midterms during the semester. These are mini-exams that, if passed, can reduce the study load for the final exam. Typically, information about midterms is provided directly by the professor during classes, which is another reason why attending classes is important. Midterms usually take place during class time when the professor has covered half of the course material.
 
 Midterms are generally supplemented by a final written exam, which determines the final course grade. Midterms are optional, but they are a great way to reduce the study load during the exam period, which can be very demanding.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 
 Midterms are at the discretion of the professors: they will not be available for all courses. Usually, professors announce during the first classes whether they will hold midterms and an approximate period when they will take place.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **December 19, 2024**: Second Installment Deadline
 The deadline for paying the second installment is set for December 19, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
@@ -56,11 +56,11 @@ Exams take place at the end of each semester. To know the date and classroom for
 
 To take an exam, you need to register via [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) by selecting the exam under **Search Exam Sessions**.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 
 Each exam has a deadline by which you must register. Be sure to register by the deadline, or you won't be able to take the exam.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **March 27, 2025**: Third Installment Deadline
 The deadline for paying the third installment is set for March 27, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).

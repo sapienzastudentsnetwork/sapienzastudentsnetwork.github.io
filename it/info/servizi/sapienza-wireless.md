@@ -26,31 +26,31 @@ Eduroam (education roaming) è un servizio internazionale di roaming wireless pr
 - Utilizza le stesse credenziali fornite dall'ateneo Sapienza.
 - Una volta configurata, la connessione avviene automaticamente senza necessità di login ripetuti.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 A differenza della rete Sapienza, le credenziali per la rete Eduroam richiedono l'**email istituzionale** e la password di ateneo. L'email istituzionale è composta da COGNOME.MATRICOLA@studenti.uniroma1.it.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint tip >}}
+{{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Sapevi che...**
 
 La rete network di Eduroam è disponibile in tante università internazionali! Questo significa che, se tu volessi, potresti andare in un'altra università associata ad Eduroam e connetterti al suddetto network usando le stesse credenziali che useresti presso la Sapienza!
-{{< /hint >}}
+{{% /hint %}}
 
 ### Configurazione di Eduroam
 
-{{< tabs "eduroamdevices" >}}
-{{< tab "📱 Smartphone" >}}
+{{% tabs "eduroamdevices" %}}
+{{% tab "📱 Smartphone" %}}
 Per accedere alla rete Eduroam tramite smartphone iOS e Android:
 
 1. Scarica l'applicazione ufficiale **GetEduroam**:
    * [Download Android](https://play.google.com/store/apps/details?id=app.eduroam.geteduroam)
    * [Download iOS](https://apps.apple.com/no/app/geteduroam/id1504076137)
 2. Apri l'app e segui la procedura guidata per configurare la rete.
-{{< /tab >}}
+{{% /tab %}}
 
-{{< tab "💻 Laptop" >}}
+{{% tab "💻 Laptop" %}}
 Per accedere alla rete Eduroam tramite PC o Mac:
 
 1. Visita il [sito ufficiale di Eduroam](https://cat.eduroam.org).
@@ -62,8 +62,8 @@ Su **Mac**, dopo il download:
 2. Scorri fino in fondo e clicca su **Profili**.
 3. Fai doppio click sul certificato **Eduroam**.
 4. Premi su **Installa...** per completare la procedura.
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% /tabs %}}
 
 ## Quale rete scegliere?
 

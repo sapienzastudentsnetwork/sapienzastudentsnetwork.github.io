@@ -17,15 +17,15 @@ Keep in mind that Sapienza Wi-Fi requires login every time you try to connect to
 Crediantial for the access are **your personal Sapienza email (surname.id_number@studenti.uniroma1.it)** and **the password you use for Infostud**.
 
 ### Setting Up Eduroam
-{{< tabs "eduroamdevices" >}}
-{{< tab "📱 Smartphone" >}}
+{{% tabs "eduroamdevices" %}}
+{{% tab "📱 Smartphone" %}}
 To use Eduroam on your smartphone:
 1. Dowload the app **GetEduroam**:
     <p><a href="https://play.google.com/store/apps/details?id=app.eduroam.geteduroam" target="_blank" rel="attachment noopener wp-att-35892"><img loading="lazy" decoding="async" src="https://i.imgur.com/lMuV9nw.png" alt="Get It On Google Play" width="200px">&nbsp;</a> <a href="https://apps.apple.com/no/app/geteduroam/id1504076137" rel="attachment wp-att-35894"><img loading="lazy" decoding="async" src="https://i.imgur.com/EhmxDtk.png" alt="Download on the App Store" width="200px"></a>
 2. Open it and follow the procedure for configuration.
 
-{{< /tab >}}
-{{< tab "💻 Laptop" >}}
+{{% /tab %}}
+{{% tab "💻 Laptop" %}}
 To use Eduroam on you computer:
 1. Visit the [official Eduroam website](https://cat.eduroam.org);
 2. Download the install for your operating system;
@@ -36,14 +36,14 @@ On **Mac**, after downloading:
 2. Go to **Profiles** (at the end of the page);
 3. Double click the certificate **Eduroam**;
 4. Click on **Download...**
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% /tabs %}}
 
-{{< hint tip >}}
+{{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Did you know that...**
 
 The Eduroam network is available in thousands of international universities! This means that, if you wanted to, you could go to another associated university and could connect to the Eduroam network using the same credentials of Sapienza!
-{{< /hint >}}
+{{% /hint %}}
 
 ## Which Wi-Fi should I use?
 If you use Wi-Fi occasionally or you cannot configure Eduroam, it is better to use Sapienza Wi-Fi. Otherwise, Eduroam is the best option!

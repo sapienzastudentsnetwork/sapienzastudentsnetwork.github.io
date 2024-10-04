@@ -14,11 +14,11 @@ Every scholarship covers **a maximum of 150 hours of activity** for a compensati
 
 The students can decide to abandon the scholarship before it ends if he/she notifies the referent in time. The compensation will work in the same way: if he/she abandons before completing 75 hours he/she won't receive anything, otherwise he/she will receive a compensation proportional to the number of hours completed.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 **Every student can take part in only one student collaboration scholarship per academic year**. Nonetheless, it is possible to apply for many scholarship and then chose one of them.
-{{< /hint >}}
+{{% /hint %}}
 
 To take part in a student collaboration scholarship you have to apply on the portal [Borse di Collaborazione](https://borsecollaborazione.uniroma1.it/),
 where you can access with Infostud credentials. Once you logged in, look the section "Partecipa ad un bando": here the departments upload the call for the scholarship and the terms of application (in the chart under "Inizio" and "Fine"). **It is mandatory to read the call for the scholarship**: you can click on the name of the scholarship (in the chart under "Bando"). There you will find:
@@ -28,11 +28,11 @@ where you can access with Infostud credentials. Once you logged in, look the sec
 - admission requirements;
 - publication dates of the ranking.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 It is not mandatory to apply for a scholarship of your department or faculty! Generally, calls for a scholarship require you to have taken a particular exam and, if you have, you can apply for the call even if it is from another degree. For example, if a call of the Economy Department is searching for tutor in mathematics asking for students who took any analysis exam, you can apply if you took Calculus 1.
-{{< /hint >}}
+{{% /hint %}}
 
 Once you choose the call you want to apply for, click on "Candidatura" and follow the procedure. If you encounter any difficulties, check the [guide](https://www.uniroma1.it/sites/default/files/field_file_allegati/manuale_studente_0.pdf).
 

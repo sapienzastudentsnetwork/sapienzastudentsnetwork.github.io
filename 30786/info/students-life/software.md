@@ -8,13 +8,13 @@ bgimg: https://i.imgur.com/aJ9NVsb.png
 
 Throughout the course, it will be common to use some software for teaching and interactive purpouses (after all, it's a computer science course). If you are not very used to tweaking your computer, then it might be hard sometimes to understand what to do. This page tries to make a comprehensive list of all the needed software for following easily the course.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Different OSs and Software Versions**
 
 This guide will differ in some points depending on the operating system that you might have. When that will be the case, you'll see different tabs depending on the OS that you use. Rest assured that each software treated here will be compatible with your OS.
 
 Since this guide can't be updated every time a new version of a particular piece of software comes out (unless a major release with ground-breaking features gets published), we are trying to provide a version-agnostic guide that should work for every version. If you notice some mismatches between the screenshots, that is because this guide was written in more than one day, so some programs got updated in the meanwhile, but you don't have to worry about that
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
@@ -33,13 +33,13 @@ For the Programming course you'll mainly need 2 things:
 
 In this guide we won't focus on the text editors, but only on how to install Python and the necessary stuff. The professors will suggest you to download Python through [**Anaconda**](https://www.anaconda.com/), which offers in a single installation a GUI application for managing Python and its packages, Conda's virtual environments (which will be useful later), the [Spyder](https://www.spyder-ide.org/) text editor and a lot of other tools.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Difference between Anaconda and Conda**
 
 In this guide, you'll often find the terms of "Anaconda" and "Conda", which represent two different things:
  - "Anaconda" represents the full package provided by [anaconda.org](https://www.anaconda.com), which comprehends the Conda package manager and other programs;
  - "Conda" is the package manager, which will be, in some cases throughout this guide, an alternative to the package managers of some programming languages (in most of the cases, it will replace Python's PyPi package manager, also known as `pip`).
-{{< /hint >}}
+{{% /hint %}}
 
 Now, before installing Conda, you have different roads ahead: since the whole package provided from Conda contains a lot of softwares, you may not want to install all of it (for example if you have an old computer or not a lot of space on your hardisk); perhaps you already have installed Python for other projects, and you don't want to redo everything just for Conda. By itself, Conda is necessary for some packages, so here we'll explain how to install Python in 2 different ways:
  1. **with the full version of Anaconda**<br>If you have enough space on your computer, and you don't mind downloading some extra stuff, opt for this option;<br><br>
@@ -54,7 +54,7 @@ Now, before installing Conda, you have different roads ahead: since the whole pa
     - if you have a Macbook that came with an **Intel CPU**, then download the "64-Bit (**Intel chip**) Graphical Installer";
 2. **Execute the installer** (as an administrator on Windows and as super user through `sudo` on Linux) and follow the procedures. If everything went smoothly, Anaconda will be installed on your computer;
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Windows: Add to `PATH` variable**
 
 On Windows, the installer will ask you, before the end of the installation, if you want to add Conda to the `PATH` environment variable.
@@ -65,12 +65,12 @@ This is done in order to have a separate console just for Conda, in order not to
 
 TLDR: if you want to be able to use Conda from anywhere in your PC, add it to the `PATH` variable.
 
-{{< /hint >}}
+{{% /hint %}}
 
 3. Check that Conda is installed:
 
-{{< tabs "condacheck" >}}
-{{< tab "Windows" >}}
+{{% tabs "condacheck" %}}
+{{% tab "Windows" %}}
 
 Open the menu, and scroll down on the installed applications until you find a folder called "Anaconda3 (`XX`-bit)" (where `XX` stands for either 32 or 64, depending if your operating system is a 32 or 64 bit one): open the folder and click on the `Anaconda Prompt` application. After it opens, execute the following command to test that everything is working fine:
 
@@ -82,8 +82,8 @@ If everything goes well, you should see the following output, so the name `conda
 
 TODO: insert screen of Anaconda prompt
 
-{{< /tab >}}
-{{< tab "Linux / macOS" >}}
+{{% /tab %}}
+{{% tab "Linux / macOS" %}}
 
 Open the terminal, and type the following command to test that everything is working fine:
 
@@ -95,8 +95,8 @@ You should see the following output, so the name `conda` and the currently insta
 
 <img width="90%" style="margin-left: 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75)" src="https://i.imgur.com/6afvZ7w.png">
 
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% /tabs %}}
 
 4. And that's it! If you managed to arrive this far, this means that you installed without problems Anaconda and Conda. You can proceed to the [next section](#installing-the-required-packages).
 
@@ -106,13 +106,13 @@ You should see the following output, so the name `conda` and the currently insta
 
 1. Head over to the [Miniconda download page](https://docs.anaconda.com/miniconda/#latest-miniconda-installer-links) and download the installation file;
 
-{{< tabs "minicondainstall" >}}
-{{< tab "Windows" >}}
+{{% tabs "minicondainstall" %}}
+{{% tab "Windows" %}}
 
 no
 
-{{< /tab >}}
-{{< tab "macOS" >}}
+{{% /tab %}}
+{{% tab "macOS" %}}
 
 2. Depending on your CPU, choose your installer (either in the `.pkg` or `.sh` format):
     - if you have a Macbook that came out after 2020 with an **M*** CPU (like M1, M2, etc...), then download the "Miniconda3 macOS Apple M1 64-Bit pkg/bash";
@@ -122,7 +122,7 @@ no
 
 3. Once you downloaded the installer, run it and go through it:
 
-{{< columns >}}
+{{% columns %}}
 
 <small>1) First page of the installer</small>
 <img src="https://i.imgur.com/vk6OmK6.png">
@@ -138,7 +138,7 @@ no
 <small>4) You're done! Go forth to the next step</small>
 <img src="https://i.imgur.com/GW9Oelq.png">
 
-{{< /columns >}}
+{{% /columns %}}
 
 4. Open the terminal, and type the following command to test that everything is working fine:
 
@@ -150,8 +150,8 @@ You should see the following output, so the name `conda` and the currently insta
 
 <img width="90%" style="margin-left: 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75)" src="https://i.imgur.com/6afvZ7w.png">
 
-{{< /tab >}}
-{{< tab "Linux" >}}
+{{% /tab %}}
+{{% tab "Linux" %}}
 
 2. Open a terminal, and `cd` to the Downloads folder (or where you downlaoded the install script). In our case, it will be under `~/Download`:
 
@@ -178,8 +178,8 @@ You should see the following output, so the name `conda` and the currently insta
 
 <img width="90%" style="margin-left: 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75)" src="https://i.imgur.com/6afvZ7w.png">
 
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% /tabs %}}
 
 ---
 
@@ -210,7 +210,7 @@ You can update all the packages installed with Conda in one go by executing the 
 conda update --all
 ```
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Regarding Spyder**
 
 While we said that we won't cover a section over which coding editor is preferrable for the Programming course, we will go over how to install the Spyder IDE (Integrated Development Environment) because it will be the editor used by the professors during the lectures and it will also be the editor that **you'll have to use at the exam**!
@@ -221,7 +221,7 @@ conda install -c conda-forge spyder
 ```
 
 In order to update it, you can use the same command for updating all the packages installed through Conda
-{{< /hint >}}
+{{% /hint %}}
 
 ---
 
@@ -251,13 +251,13 @@ The professor will suggest you to also download [IntelliJ IDEA](https://www.jetb
 
 Used in the Computer Architecture Unit 2 course, RARS is a RISC-V processor emulator, which allows you to write and run Assembly code for the RISC architecture. It's possible to download the program at [this link](https://github.com/TheThirdOne/rars?tab=readme-ov-file#download). Since it's a Java application, you'll need Java installed on your computer.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 On RARS, whenever you want to save or open a file, the program will always open the file explorer on the location where RARS is saved. So for instance, if I saved RARS under `~/Applications/RARS.jar` and my file is at `~/Documents/RISCV/my-file.asm`, then when I open RARS and try to open `my-file.asm`, the explorer pop-up will be on `~/Applications`.
 
 In order to avoid this, the best strategy is to put RARS in a parent folder of the folder where you keep your Assembly files. So for instance, it could be put inside `~/Documents/RISCV`
-{{< /hint >}}
+{{% /hint %}}
 
 There are two available versions of RARS, a light themed one and a dark themed one. They are both working fine, and have the same capabilities. If you want to download the dark themed RARS, remember to **download also the `theme.properties` file and place it in the same folder where you will place RARS** (this is not required for the normal version of RARS). Here are the download links for both versions:
 
@@ -294,16 +294,16 @@ If you don't want to take advantage of Conda's virtual environments, just go to 
     conda install python pip -y
     ```
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Selecting the environment and default environment**
 
 The above command must be executed each time that you open up a terminal (if you run your scripts on the Terminal). By itself, Conda will start on the `base` environment, hence why you have to change it everytime. If you want to change it by default everytime, then you will need ot [tweak up a bit with your terminal](https://stackoverflow.com/questions/28436769/how-to-change-default-anaconda-python-environment).
 
 On code editors like Visual Studio Code, you can easily select via a menu which environment you want to use, and it will be remembered after closing the application. Even better, if you use Jupyter notebooks, they will ask you at the very beginning which kernel (or environment) you want to use, and also in that case your choice will be remembered by the editor.
 
-{{< /hint >}}
+{{% /hint %}}
 
-{{< details title="**Select the environment on Visual Studio Code**" open=false >}}
+{{% details title="**Select the environment on Visual Studio Code**" open=false %}}
 
 On single **Python scripts**, you can select your environment by doing the following:
 1. Open a Python file, and go on the bottom right corner. There, you'll find next to the `Python` button another button with a version of Python. Click that button;
@@ -333,7 +333,7 @@ On **Jupyter notebooks**, you can select your environment by doing the following
 
 <img src="https://i.imgur.com/LTrAVDg.png">
 
-{{< /details >}}
+{{% /details %}}
 
 
 ### Installing the required packages

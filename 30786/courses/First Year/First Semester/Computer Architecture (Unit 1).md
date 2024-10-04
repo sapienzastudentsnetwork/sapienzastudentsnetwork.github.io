@@ -29,7 +29,7 @@ Harris, S., & Harris, D. (2015). *Digital Design and Computer Architecture: ARM 
     - **Written part**: lasts for 2:00h, for a maximum of 30 points. Is a practical exam with exercises over the whole program. **Must be passed with at least 18** in order to access to the oral;
     - **Oral part**: an oral exam over the theory explained in the course. It can increase or decrease the grade, depending on the performance. **Must be passed with at least 18** as final grade.
 
-{{< hint info >}}
+{{% hint info %}}
 This exam **won't be registered** immediately on InfoStud. In order to be registered, you will have to pass also [Computer Architecture Unit 2](../../second-semester/comparch_u2/). Once you'll pass both exams, the final grade will be computed. Such grade is computed as follows:
 $$
 \text{Final Grade} = \Bigg\lceil \frac{\text{Grade Unit 1} + \text{Grade Unit 2}}{2} \Bigg\rceil
@@ -37,7 +37,7 @@ $$
 <br>
 <br>
 Here follow two examples:
-{{< columns >}}
+{{% columns %}}
 If you got 28 for Unit 1 and 30 for Unit 2, the final grade will be
 $$
 \Bigg\lceil \frac{28 + 30}{2} \Bigg\rceil = 29
@@ -50,12 +50,12 @@ $$
 \Bigg\lceil \frac{27 + 30}{2} \Bigg\rceil = \lceil 28.5 \rceil = 29
 $$
 
-{{< /columns >}}
+{{% /columns %}}
 
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint warning >}}
+{{% hint warning %}}
 **Warning**
 
 The exam dates will be here published as soon as the department will comunicate the new dates. We expect to see the new dates around October/November 2024
-{{< /hint >}}
+{{% /hint %}}

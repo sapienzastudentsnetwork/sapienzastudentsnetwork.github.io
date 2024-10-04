@@ -5,11 +5,11 @@ weight: 2
 
 # Regolamento del Corso di Laurea in Informatica
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Fonte**
 
 Queste norme sono tratte dalla pagina "[Regolamento didattico](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/cds#bootstrap-fieldgroup-nav-item-regolamento-didattico)" della sezione "[Percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/cds)" del [Corso di Laurea](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/home) nel [Catalogo dei Corsi di studio](https://corsidilaurea.uniroma1.it/).
-{{< /hint >}}
+{{% /hint %}}
 
 Di seguito sono elencate le normative riguardanti il corso:
 - [NG1 Requisiti di accesso](#ng1-requisiti-di-accesso)

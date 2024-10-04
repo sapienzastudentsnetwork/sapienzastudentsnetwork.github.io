@@ -9,7 +9,7 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 
 ## Gruppi matricole
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Associazioni Studentesche**
 
 **Non siete voti, siete persone.** Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
@@ -21,7 +21,7 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 - [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri. **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
 
 Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati qui sotto
-{{< /hint >}}
+{{% /hint %}}
 
 Gruppi per le **matricole dell'A.A. 2024/2025**:
 
@@ -89,9 +89,9 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
-{{< hint info >}}
+{{% hint info %}}
 **NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/percorso-formativo#come-scegliere-gli-esami-esterni).
-{{< /hint >}}
+{{% /hint %}}
 
 #### Insegnamenti obbligatori
 
