@@ -807,9 +807,9 @@
           {
             "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
             "timeslot": "8 - 10",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
+            "classrooms": {},
+            "classroomInfo": "Aula A Via dei Sabelli, 108 (RM027)",
+            "classroomUrl": "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
           }
         ],
         "gioved\u00ec": [

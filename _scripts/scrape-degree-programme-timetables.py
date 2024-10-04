@@ -550,6 +550,11 @@ if __name__ == '__main__':
                 "code": "1041792"
             }
 
+            # 1047618 - COMPUTER VISION
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomInfo"] = "Aula A Via dei Sabelli, 108 (RM027)"
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomUrl"] = "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
+
             # 1047627 - FOUNDATIONS OF DATA SCIENCE
             course_timetables_dict["1047627"] = {
                 "subject": "FOUNDATIONS OF DATA SCIENCE",
