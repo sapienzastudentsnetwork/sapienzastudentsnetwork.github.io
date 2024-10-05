@@ -60,7 +60,7 @@
         {{ end }}        
 
         <!-- Add the "Timetables per teaching" part for the year's courses -->
-        {{ with dict "courses" $uniqueCourses }}
+        {{ with dict "courses" $uniqueCourses "channel" .Params.channel }}
             {{ partial "timetables-per-teaching.html" . }}
         {{ end }}
 

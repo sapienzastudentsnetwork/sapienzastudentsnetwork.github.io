@@ -2,6 +2,7 @@
 title: "Secondo Anno"
 aliases: ["/orari/secondo-anno", "/it/orari/secondo-anno", "/informatica/orari/secondo-anno"]
 weight: 2
+bookCollapseSection: true
 layout: 'timetables'
 type: 'page'
 timetables:

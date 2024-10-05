@@ -1,3 +1,4 @@
+{{ $pageChannel := .channel }}
 {{ $courses := .courses }}
 {{ $defaultHidden := default false .defaultHidden }}
 
@@ -41,6 +42,10 @@
 
             {{ range $channel_id, $channel := $courseChannels }}
                 {{ $days := $channel }}
+
+                {{ if (and ($pageChannel) (ne (string $pageChannel) (string $channel_id))) }}
+                    {{ continue }}
+                {{ end }}
 
                 {{ if and $courseCode (index $dataHardcodedTimetables $courseCode) }}
                     {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCode }}
