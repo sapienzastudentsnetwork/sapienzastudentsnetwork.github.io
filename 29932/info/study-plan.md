@@ -7,11 +7,16 @@ weight: 1
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
-All the information given here can be found on the official webpage dedicated to[ Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happend in the 2024/25 academic year when the recommended curriculums were added.
+Students are warmly advised to carefully read the [Study plans section](https://mastercs.teaching.di.uniroma1.it/master-programme-in-computer-science/study-plans) of the guidelines and recommendations website managed by the course programme council.
 {{% /hint %}}
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
+All the information given here can be found on the official webpage dedicated to [Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happened in the 2024/25 academic year when the recommended curriculums were added.
+{{% /hint %}}
+
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i>
 In the [Computer Science Study Plan Telegram section](https://t.me/computersciencesapienza/9766I) you can discuss, compare and ask for advices regarding your plan.
 {{% /hint %}}
 
@@ -19,50 +24,48 @@ In the [Computer Science Study Plan Telegram section](https://t.me/computerscien
 
 Students of the Master's Degree in Computer Science must have a valid study plan ("percorso formativo") to be able to book and take exams.
 
-As for 2024/2025 A.Y. a total of 120 CFUs must be obtained, divided in:
-- 12 CFUs of exams coming from any faculty within Sapienza (must be justified in order to be approved, you can't simply insert Philosofy 3)
-- 6 CFUs of AFC (supplementary educational activities) which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub)
-- 66 CFUs of exams within the Computer Science degree (with some restrictions, see below)
-- 36 CFUs for the thesis
+A study plan for the Master Programme in Computer Science must comprise 120–123 credits, split as follows:
+- 66 credits chosen from those offered within the course programme (with some restrictions, see below);
+- 12–15 credits of elective teachings, chosen (in principle) from the entire Sapienza catalogue (must be justified to be approved, you can't simply insert Philosofy 3);
+- 6 credits of a supplementary educational activity (in Italian: "Attività Formativa Complementare", in short "AFC"), which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub);
+- 36 credits of Master thesis work and defense.
 
 ### Study Plan Options
 
 There are **two types** of study plans for the 2024/2025 academic year (you can check [here](https://docs.google.com/document/d/1kasq5efzmuVXt2SlMfGnvn1gUD5bD877/edit) for the appendices and PCCs combinations):
 
-1. **Recommended Study Plan (Based on PCC)**  
+1. **Recommended Study Plan ("`PERCORSO FORMATIVO CONSIGLIATO`", Based on PCCs)**  
    Automatically approved if correctly compiled:
-   - Choose **two specialization areas** (PCCs) from the following list:
-     - Algorithms
-     - Artificial Intelligence
-     - Computational Models for Systems Design
-     - Data Science
-     - Multimedia Computing and Interaction
-     - Networks
-     - Security
-     - Software Engineering
-     - Systems
-   - Select a combination of **9 core courses (54 CFUs)** from two PCCs of the afore mentioned.
-   - Add **2 related courses (12 CFUs)** and the **2 free-choice courses (12 CFUs) from the Appendix 2.
-   - Specify the selected PCCs in the study plan notes as: `"Recommended Plan: PCC1, PCC2"`.
+    - Choose **two specialization areas** (PCCs) according to your interests from the following list:
+        - Algorithms
+        - Artificial Intelligence
+        - Computational Models for Systems Design
+        - Data Science
+        - Multimedia Computing and Interaction
+        - Networks
+        - Security
+        - Software Engineering
+        - Systems
+    - Select all courses from the two chosen PCCs, as they're specified in "`ALLEGATO 3`";
+    - Include related courses ("`Insegnamenti Affini`") taken exclusively from "`ALLEGATO 2`" until all CFUs (including free-choice ones) are completed;
+    - Include an **AFC**;
+    - In the study plan notes, include the phrase: "`PERCORSO CONSIGLIATO`", specifying the names of the two selected PCCs.
 
-2. **Custom Study Plan (Piano di Studio Individuale)**  
+2. **Custom Study Plan ("`PERCORSO FORMATIVO INDIVIDUALE`")**  
    Must be reviewed by the Academic Committee:
-   - Choose **54 CFUs** from **any core courses** in the PCC list (Appendix 1).
-   - Add **12 CFUs** of related courses from Appendix 2 and 12 CFUs of free-choice courses.
-   - Include **justifications** in the study plan notes for not following the recommended structure.
+    - Choose **54 CFUs** from **any core courses** listed in the PCCs ("`ALLEGATO 1`");
+    - Add **12 CFUs** of related courses from ANNEX 2 and **12 CFUs** of free-choice courses, ensuring that all required CFUs are completed.
+    - Include an **AFC**;
+    - Include **justifications** in the study plan notes for deviating from the recommended PCC-based structure, adding the phrase: "`PERCORSO INDIVIDUALE`".
 
 ### Important Details
 
-- Each plan must also include **6 CFUs** of AFC (Supplementary Educational Activities).
-- The remaining **36 CFUs** are dedicated to the thesis project.
+- Each plan must also include **6 CFUs** of AFC ("Attività Formativa Complementare"—Supplementary Educational Activity);
+- The remaining **36 CFUs** are dedicated to the thesis project;
 - A recommended plan is highly encouraged as it guarantees automatic approval. Custom plans may require additional evaluation and are not guaranteed to be accepted.
 
-
-
-### What's a study plan?
-The study plan defines the courses that the student intends to attend and for which will take the related exams during the first and second year. Students can book or take an exam only if they have an approved study plan.
-
 ### Submission and Revision Dates
+
 Students can submit their study plan once a year during the following timeframe:
 - From October 1st to November 30th of each year.
 
@@ -113,10 +116,12 @@ This is not written anywhere explicitly so be careful.
 If you want to anticipate an exam you might ask the professor to freeze the grade until you can "legally" book it and register the grade.
 
 ## Special Cases
+
 Erasmus students who will spend a period abroad can seek the assistance of the study plan evaluation committee to immediately modify their study plan if they encounter serious administrative problems at the host institution.
 Moreover, students who cannot attend courses provided in their study plan due to class overlaps or unforeseen changes in their schedule can seek the assistance of the study plan evaluation committee to make immediate changes to resolve such conflicts.
 
 ## Contacts
-The study plan evaluation committee can open a support ticket by writing an email to: mastercs_studyplans@di.uniroma1.it. The committee invites students not to ask questions whose answers are already present in the text above.
+
+The study plan evaluation committee can open a support ticket on the [dedicated support page for the Master programme](https://support.mastercs.teaching.di.uniroma1.it/index.php) or by writing an e-mail to: mastercs_studyplans@di.uniroma1.it. The committee invites students not to ask questions whose answers are already present in the text above.
 
 You will receive a response within about 30 days. Typically, the committee responds much faster when the study plan submission deadline approaches.
