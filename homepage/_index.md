@@ -5,7 +5,7 @@ bookToc: False
 
 <h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>
 
-<p align="center" style="margin-top: -15px">Official student website of the Computer Science Didactic Area Council ("CAD") Degree Programmes</p>
+<p align="center" style="margin-top: -15px">Students' website of the Degree Courses of Computer Science Didactic Area Council ("CAD")</p>
 
 <div style="width: 95%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
@@ -30,3 +30,9 @@ bookToc: False
 <div style="width: 95%; height: 1px; background-color: #606060; margin-left: auto; margin-right: auto"></div>
 
 _\* **A**pplied **C**omputer **S**cience and **A**rtificial **I**ntelligence_
+
+{{% hint warning %}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
+
+The only legally-binding source of information about your course programme is the [institutional Sapienza site](https://corsidilaurea.uniroma1.it/).
+{{% /hint %}}
