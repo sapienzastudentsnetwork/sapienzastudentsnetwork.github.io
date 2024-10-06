@@ -79,6 +79,6 @@ Il team è suddiviso in 5 dipartimenti:
 - **Electrical and Sensor Subsystem**: si occupa dello sviluppo della PCB e selezionano e configurano i sensori, le antenne e la radio;
 - **Social and Management**: gestiscono il sito web e le pagine social del team, scrivendo e documentando eventi e organizzazioni.
 
-## Entra a far parte dell'Assocazione
+## Entra a far parte dell'Associazione
 
 🚀 Quello che hai letto ti ha interessato e ti piacerebbe sapere come è possibile entrare a farne parte? Per ulteriori dettagli come le opportunità aperte nell'amministrazione o nei team di SASA puoi visitare la [pagina dedicata](https://www.sasa-aerospace.it/opportunities/) 😉

@@ -119,7 +119,7 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 
 {{% details "Espandi la lista..."%}}
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
-* [SAPERE: a sequantial recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
+* [SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 {{% /details %}}
 
 

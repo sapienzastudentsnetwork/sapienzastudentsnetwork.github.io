@@ -9,7 +9,7 @@ La Sapienza offre oltre 40 biblioteche (con quasi 3 milioni di testi disponibili
 
 ## Studio in Università
 
-Tutte le biblioteche offrono un certo numeri di posti a sedere per poter leggere e studiare: è possibile trovare una mappa [qui](https://opac.uniroma1.it/SebinaOpacRMS/article/biblioteche-sapienza/biblioteche). Segnialiamo la biblioteca di Ingegneria dell'Informazione, Elettronica e Telecomunicazioni, che si trova in Via Eudossiana 18 nell'Edificio RM032 al Piano 3, ma ogni studente Sapienza ha accesso a **tutte le biblioteche in tutte le sedi dell'università**. L'accesso richiede soltanto di **mostrare un documento di identità.**
+Tutte le biblioteche offrono un certo numeri di posti a sedere per poter leggere e studiare: è possibile trovare una mappa [qui](https://opac.uniroma1.it/SebinaOpacRMS/article/biblioteche-sapienza/biblioteche). Segnaliamo la biblioteca di Ingegneria dell'Informazione, Elettronica e Telecomunicazioni, che si trova in Via Eudossiana 18 nell'Edificio RM032 al Piano 3, ma ogni studente Sapienza ha accesso a **tutte le biblioteche in tutte le sedi dell'università**. L'accesso richiede soltanto di **mostrare un documento di identità**.
 
 Non esiste, invece, un elenco preciso delle aule studio, ma anche esse si trovano in quasi ogni edificio dell'università. Indichiamo qui le aule studio più usate dagli studenti del Dipartimento di Informatica:
 * Viale Regina Elena 295:

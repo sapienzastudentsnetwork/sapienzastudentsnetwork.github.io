@@ -192,7 +192,7 @@ Here you will find a list of internship reports shared by other Sapienza student
 {{% details "Expand the list..."%}}
 
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
-* [SAPERE: a sequential recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
+* [SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 
 {{% /details %}}
 

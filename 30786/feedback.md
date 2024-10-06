@@ -9,5 +9,5 @@ If you noticed an issue with some pages, had a positive or negative experience a
 
 <blockquote class="book-hint wip">
     <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
-    A feedback questionnaire will soon appear. Keep thight!
+    A feedback questionnaire will soon appear. Keep tight!
 </blockquote>

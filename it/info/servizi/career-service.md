@@ -26,11 +26,11 @@ Consultare la [guida a Jobteaser](https://www.uniroma1.it/sites/default/files/fi
 
 ## TSP Sapienza
 
-TSP è una piattaforma pensata per tirocini curriculari ed extracurriculari. Si può accedere al servizio da [qui](https://uniroma1.tsp.esse3.cineca.it/pub/main-page). E' possibile candidarsi per un'offerta pubblicata (sezione "**Ricerca offerte**") oppure inviare una canditatura spontanea ad un'organizzazione partner (sezione "**Ricerca ente ospitante**").
+TSP è una piattaforma pensata per tirocini curriculari ed extracurriculari. Si può accedere al servizio da [qui](https://uniroma1.tsp.esse3.cineca.it/pub/main-page). E' possibile candidarsi per un'offerta pubblicata (sezione "**Ricerca offerte**") oppure inviare una candidatura spontanea a un'organizzazione partner (sezione "**Ricerca ente ospitante**").
 
 Per ulteriori informazioni sul tirocinio curriculare consultare la [pagina dedicata](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io.git) in questo sito.
 
 ## Eventi di Recruiting
 
 La Sapienza organizza con frequenza eventi di recruiting. Vi sono incontri specifici di aziende singole e open days con più aziende: trovate un elenco degli eventi con relative date sul [sito di Ateneo](https://www.uniroma1.it/it/pagina/eventi-di-recruiting-e-placement).
-In particolare, segnaliamo Career Days STEM, un evento annuale specifico per gli studenti di ingegneria e scienza, a cui partecipano un gran numero di aziende. Negli scorsi anni hanno partecipato aziende del calibro di Huawei, PWC e Tim. Ulteriori informazioni sull'edizione di Career Days STEM per l'anno attuale verranno caricate su questo sito non appena disponibili. Ad ogni modo, consultare periodicamente il sito di Ateneo precedemente linkato.
+In particolare, segnaliamo Career Days STEM, un evento annuale specifico per gli studenti di ingegneria e scienza, a cui partecipano un gran numero di aziende. Negli scorsi anni hanno partecipato aziende del calibro di Huawei, PWC e Tim. Ulteriori informazioni sull'edizione di Career Days STEM per l'anno attuale verranno caricate su questo sito non appena disponibili. Ad ogni modo, consultare periodicamente il sito di Ateneo precedentemente linkato.

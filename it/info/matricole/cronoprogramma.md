@@ -40,7 +40,7 @@ Questa scadenza è valida solamente per gli studenti iscritti al secondo anno e 
 ## **Tra fine ottobre e inizio novembre e tra aprile e maggio**: sostenere gli esoneri
 Molti corsi, specialmente durante il primo anno, offrono la possibilità di sostenere degli esoneri durante il semestre. Questi sono dei mini-esami che, se superati, possono alleggerire il carico di studio per l'esame finale. Di solito le informazioni sugli esoneri vengono comunicate direttamente dal docente nel corso delle lezioni, anche per questo motivo è importante frequentare le lezioni. Gli esoneri normalmente si svolgono durante l'orario della lezione quando il docente ha superato metà del programma.
 
-Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permette di ottenere il voto finale del corso. Gli esoneri sono facoltativi, ma sono un ottimo modo per poter allegerire il carico di studio durante la sessione di esami, che può essere molto impegnativa.
+Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permette di ottenere il voto finale del corso. Gli esoneri sono facoltativi, ma sono un ottimo modo per poter alleggerire il carico di studio durante la sessione di esami, che può essere molto impegnativa.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**

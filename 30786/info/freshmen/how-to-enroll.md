@@ -27,10 +27,10 @@ Enrolling in Applied Computer Science requires you to follow the following cruci
 
 ## English requirements
 
-In addition to the steps explained below, applicants must meet one of the following requirements in English languague:
+In addition to the steps explained below, applicants must meet one of the following requirements in English language:
 
 1. a Cambridge English Certificate between FCE, CAE or CPE;
-2. a TOEFL with a minumum score of 72 out of 120;
+2. a TOEFL with a minimum score of 72 out of 120;
 3. an IELTS Academic with a minimum score of 5.5 out of 9;
 4. a High School Diploma awarded in english;
 5. a self-declaration of being a English native speaker;
@@ -44,7 +44,7 @@ If you are a non-EU applicant not residing in Italy or a EU applicant that has n
 
 ## Admission Tests
 
-The only offical admission tests to access the selections are: TOLC-I, English TOLC-I, TOLC-S or SAT. Furthermore, the test must be taken **before the deadline of the registration period of the chosen selection round** (see Paying the 10€ fee for the Selection). Both TOLC and SAT are considered to have a **validity starting from January of two years before the academic year you enroll for**: if you apply for the Academic Year 2025/2026, only tests taken as from January 2023 to the registration deadlines are accepted for the selection.
+The only official admission tests to access the selections are: TOLC-I, English TOLC-I, TOLC-S or SAT. Furthermore, the test must be taken **before the deadline of the registration period of the chosen selection round** (see Paying the 10€ fee for the Selection). Both TOLC and SAT are considered to have a **validity starting from January of two years before the academic year you enroll for**: if you apply for the Academic Year 2025/2026, only tests taken as from January 2023 to the registration deadlines are accepted for the selection.
 
 ### TOLC
 
@@ -160,15 +160,15 @@ Check thoroughly all the deadlines for enrollment and pre-enrollment on the docu
 
 If you registered correctly to a selection round, your ID number will show up on the rankings uploaded on the [Sapienza website](https://www.uniroma1.it/en/pagina/restricted-access-degree-programmes-tolc-i-and-selections).
 
-If you partecipated to the first selection and you passed it, you must **pre-enroll**: pre-enrollment requires to pay a fee of 200€ (which will be subtracted by the enrollment fee). **If you do not pre-enroll during the pre-enrollment period or if you do not provide the English requirement as explained above, Sapienza will consider your application as dropped-out.**
+If you participated to the first selection and you passed it, you must **pre-enroll**: pre-enrollment requires to pay a fee of 200€ (which will be subtracted by the enrollment fee). **If you do not pre-enroll during the pre-enrollment period or if you do not provide the English requirement as explained above, Sapienza will consider your application as dropped-out.**
 In order to pre-enroll, you have to log-in on Infostud as before and go to "Bachelor and Master Degree Programmes"; then, click on "Pre-enrollment TOLC-I" ([image](https://i.imgur.com/x0k4zGC.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Print" and pay the fee through PagoPA (further information on the payment method on [Sapienza website](https://www.uniroma1.it/en/pagina/payment)).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Important**
 
-If you partecipated in selection rounds after the first **you do not need to pre-enroll**! Follow the procedure for enrollment below.
+If you participated in selection rounds after the first **you do not need to pre-enroll**! Follow the procedure for enrollment below.
 {{% /hint %}}
 
 Every applicant (**first, second and third rounders**) must **enroll in the period indicated on the document mentioned above**. Usually first and second rounders have the same period of enrollment.
 
-In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuiton Fees", [image](https://i.imgur.com/zaY3eXy.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment for your selection round.**
+In order to enroll you have to log-in on Infostud and go to "Bachelor and Master Degree Programmes"; then, click on "Year One" (under the section "Tuition Fees", [image](https://i.imgur.com/zaY3eXy.png)): follow the procedure and, when asked, insert the course code **30786**. At the end, click on "Generate Payment Slips": two slips will be generated (one with the first instalment only, the other with all three instalments) and you can choose which one you would like to pay. Anyhow, you **must pay with PagoPA one of them before the deadline of enrollment for your selection round.**
