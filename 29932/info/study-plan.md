@@ -27,7 +27,7 @@ Students of the Master's Degree in Computer Science must submit a valid study pl
 A study plan for the Master Programme in Computer Science must comprise 120–123 credits, split as follows:
 - 66 credits chosen from those offered within the course programme (with some restrictions, see below);
 - 12–15 credits of elective teachings, chosen (in principle) from the entire Sapienza catalogue (must be justified to be approved, you can't simply insert Philosophy 3);
-- 6 credits of a supplementary educational activity (in Italian: "Attività Formativa Complementare", in short "AFC"), which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub);
+- 6 credits of a supplementary educational activity (in Italian: "Attività Formativa Complementare", in short "AFC"), which might be a seminary, a side project with a professor or a recognized work activity related to Computer Science (check [here](https://docs.google.com/document/d/e/2PACX-1vRMVE88DZffehZflMrOBiBL2YV40IZ5ZA-naM3d5cZm1Sws1NS9mXGXdrRw0L4a9yObgHgnlwHNQTG8/pub) for further information);
 - 36 credits of Master thesis work and defense.
 
 A study plan already in force can be revised by submitting for approval a new plan which includes all teachings whose exams have already been cleared.

@@ -1,6 +1,12 @@
 # Sapienza Aerospace Student Association
 
-**SASA - Sapienza Aerospace Student Association** was founded in 2012 as a _Student Branch_ of the _AIAA - American Institute of Aeronautics and Astronautics_ (the first in Italy) later becoming a Cultural Association and Student Association at **Sapienza University of Rome**.
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **About this page**
+
+For the content of this page, we have directly involved the association discussed, which corresponds to their presentation of it.
+{{% /hint %}}
+
+[**SASA - Sapienza Aerospace Student Association**](https://www.sasa-aerospace.it/) was founded in 2012 as a _Student Branch_ of the _AIAA - American Institute of Aeronautics and Astronautics_ (the first in Italy) later becoming a Cultural Association and Student Association at **Sapienza University of Rome**.
 
 According to its statute, SASA is a free association of people managed and operated on a voluntary, apolitical, nonpartisan and non-profit basis, and was established with the purpose of **promoting aerospace culture**, and in particular:
 
@@ -21,10 +27,10 @@ SASA is currently the largest student association by membership in Italy.
 The **Sapienza Flight Team** or **SFT** is composed of students from different faculties of the university.
 It brings together young people from Aeronautical, Mechanical, Management and Computer Engineering united by the desire to get involved and accept new fides.
 
-**It was born in 2009** when a group of students, flanked by Prof. Guido De Matteis, set out to proposed to create and manage an extracurricular project that could give them a way to express their passion for designing and realization of radio-controlled aircraft. One of the main intentions of this group was and is to develop model aircraft, quadricopters and helicopters in the same way as occurs in any any industry in the field, that is, through a study of the aircraft but also on the feasibility of the project. Over the years, the project has achieved excellent results in the international competitions in which it has participated, results that have contributed to the team's name by leading numerous students, initially from ing. A erospace and Aeronautics but later also from other faculties, to join the team. Precisely because of this enthusiasm and interest shown by all the students of the university, the Department of Mechanical and Aerospace Engineering decided to sponsor the project.
+**It was born in 2009** when a group of students, flanked by Prof. Guido De Matteis, set out to proposed to create and manage an extracurricular project that could give them a way to express their passion for designing and realization of radio-controlled aircraft. One of the main intentions of this group was and is to develop model aircraft, quadricopters and helicopters in the same way as occurs in any any industry in the field, that is, through a study of the aircraft but also on the feasibility of the project. Over the years, the project has achieved excellent results in the international competitions in which it has participated, results that have contributed to the team's name by leading numerous students, initially from Aerospace and Aeronautics but later also from other faculties, to join the team. Precisely because of this enthusiasm and interest shown by all the students of the university, the Department of Mechanical and Aerospace Engineering decided to sponsor the project.
 
 **In 2012**, the Sapienza Flight Team joined _SASA (Sapienza Aerospace Student Association)_.
-After many years as a competitor in the **Design Build & Fly competition**, organized by _AIAA(American institute of Aeronautics and Astronautics)_, the team decides to take up a new challenge and enters the _Student Unmanned Aerial Systems (SUAS)_ competition in 2019.
+After many years as a competitor in the [Design Build & Fly competition](https://www.aiaa.org/dbf), organized by _**AIAA** (American Institute of Aeronautics and Astronautics)_, the team decides to take up a new challenge and enters the [Student Unmanned Aerial Systems (SUAS) competition](https://suas-competition.org/competitions) in 2019.
 
 The team consists of six departments. Each one deals with a specific mission and plays a key role in achieving the goals.
 
@@ -43,10 +49,10 @@ A key part of the SRT is the **Training Academy**, a course designed for younger
 The team consists of 8 departments:
 - **Structures**: deals with CAD design of prototype components, conducting FEM structural analysis and machining composite materials;
 - **Recovery**: is divided into Re-entry, which deals with the sizing and manufacture of the re-entry system, and Expulsion, which makes and tests the ejection systems;
-- **Propulsion**: currently conducting the SRT research and development project, which is to build a hybrid propellant endoreactor
-- **Mission Analysis**: develops proprietary pre- and post-launch simulation and analysis scripts and models
-- **Control System**: develops the active control system to preciously follow the desired trajectory by simulating the response of the active control surfaces
-- **Avionics**: Deals with the development of on-board software and electronics that regulate the operation of all components of the rocket-probe during flight.
+- **Propulsion**: currently conducting the SRT research and development project, which is to build a hybrid propellant endoreactor;
+- **Mission Analysis**: develops proprietary pre- and post-launch simulation and analysis scripts and models;
+- **Control System**: develops the active control system to preciously follow the desired trajectory by simulating the response of the active control surfaces;
+- **Avionics**: Deals with the development of on-board software and electronics that regulate the operation of all components of the rocket-probe during flight;
 - **Aerodynamics**: deals with modeling aerodynamic forces and the interaction of our prototypes with the environment during launch through theoretical analysis, CFD simulations, and wind tunnel testing.
 
 ## Space Team
@@ -63,3 +69,7 @@ The team is divided into five departments:
 - **Ground Software Subsystem**: develops the ground station and the software dedicated to it;
 - **Electrical and Sensor Subsystem**: handles PCB development and they select and configure the sensors, antennas and radio;
 - **Social and Management**: they manage the team's website and social pages, writing and documenting events and organizations.
+
+## Join the Association
+
+🚀 What you have read interested you and would like to know how you can join? For further details such as open opportunities in SASA's administration or teams you can visit the [dedicated page](https://www.sasa-aerospace.it/opportunities/) 😉

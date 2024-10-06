@@ -1,6 +1,12 @@
 # Sapienza Gladiators Racing Team
 
-Founded in 2016, SGRT is the official team of the University of Rome La Sapienza, competing in Moto Student, an international engineering competition involving universities from five continents, which requires the design, production, and development of a PreMoto3 prototype.
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **About this page**
+
+For the content of this page, we have directly involved the team discussed, which corresponds to their presentation of it.
+{{% /hint %}}
+
+Founded in 2016, [Sapienza Gladiators Racing Team](https://sapienzagladiators.it/) (SGRT) is the official team of Sapienza University of Rome competing in Moto Student, an international engineering competition involving universities from five continents, which requires the design, production, and development of a PreMoto3 prototype.
 
 The championship is divided into the submission of several papers and concludes with a final event at the Aragón circuit. In the last edition, 80 teams from 19 countries around the world participated, split into the Petrol and Electric categories.
 

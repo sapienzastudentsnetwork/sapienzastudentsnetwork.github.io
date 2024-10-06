@@ -6,7 +6,13 @@ weight: 1
 
 # Sapienza Aerospace Student Association
 
-**SASA – Sapienza Aerospace Student Association** viene fondata nel 2012 come _Student Branch_ dell’_AIAA – American Institute of Aeronautics and Astronautics_ (prima in Italia) diventando in seguito Associazione Culturale e Associazione Studentesca presso **Sapienza Università di Roma**.
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Riguardo questa pagina**
+
+Per il contenuto di questa pagina abbiamo coinvolto direttamente l'associazione trattata, il che corrisponde, quindi, ad una loro presentazione della stessa.
+{{% /hint %}}
+
+[**SASA – Sapienza Aerospace Student Association**](https://www.sasa-aerospace.it/) viene fondata nel 2012 come _Student Branch_ dell’_AIAA – American Institute of Aeronautics and Astronautics_ (prima in Italia) diventando in seguito Associazione Culturale e Associazione Studentesca presso **Sapienza Università di Roma**.
 
 Secondo il proprio statuto, SASA è una libera associazione di persone gestita e operata su base volontaria, apolitica, apartitica e senza scopo di lucro, e nasce con lo scopo di **promuovere la cultura aerospaziale**, ed in particolare:
 
@@ -25,7 +31,7 @@ Attualmente SASA è la più grande associazione studentesca per numero di iscrit
 ## Flight Team
 
 Il **Sapienza Flight Team** o **SFT** è composto da studenti provenienti da diverse facoltà dell’ateneo. 
-Raggruppa ragazzi di Ingegneria Aeronautica, Meccanica, Gestionale e  Informatica uniti dalla voglia di mettersi in gioco e accettare nuove fide.
+Raggruppa ragazzi di Ingegneria Aeronautica, Meccanica, Gestionale e Informatica uniti dalla voglia di mettersi in gioco e accettare nuove fide.
 
 **Nasce nel 2009** quando un gruppo di studenti, affiancati dal prof. Guido De Matteis, si propose di creare e gestire una progetto extracurriculare che potesse dar loro modo di esprimere la propria passione per la progettazione e la realizzazione di velivoli radiocomandati. Uno degli intenti principali di questo gruppo era ed è quello di sviluppare aeromodelli, quadricotteri ed elicotteri nello stesso modo in cui si verifica in una qualsiasi industria del settore, ovvero attraverso uno studio del velivolo ma anche sulla fattibilità del progetto.
 
@@ -33,7 +39,7 @@ Durante gli anni il progetto ha ottenuto ottimi risultati nelle competizioni int
 
 Nel 2012 il Sapienza Flight Team entra a far parte di SASA (Sapienza Aerospace Student Association).
 
-Dopo molti anni come concorrente della competizione [Design Build & Fly](https://www.aiaa.org/dbf), organizzata da AIAA(American institute of Aeronautics and Astronautics), la squadra decide di accettare una nuova sfida e si iscrive nel 2019 alla competizione [SUAS](https://suas-competition.org/competitions) (Student Unmanned Aerial Systems).
+Dopo molti anni come concorrente della [competizione Design Build & Fly](https://www.aiaa.org/dbf), organizzata da AIAA(American institute of Aeronautics and Astronautics), la squadra decide di accettare una nuova sfida e si iscrive nel 2019 alla [competizione SUAS](https://suas-competition.org/competitions) (Student Unmanned Aerial Systems).
 
 La squadra è composta da 6 reparti. Ognuno si occupa di una specifica missione e ha un ruolo fondamentale per il conseguimento degli obiettivi.
 
@@ -52,10 +58,10 @@ Parte fondamentale del SRT è la Training Academy, un percorso studiato per i me
 Il team è composto da 8 dipartimenti:
 - **Strutture**: si occupa della progettazione CAD delle componenti dei prototipi, conducendo analisi strutturali FEM e lavorando materiali in composito;
 - **Recovery**: si divide in Rientro, che si occupa del dimensionamento e la manifattura del sistema di rientro, e Espulsione, che realizza e testa i sistemi di espulsione;
-- **Propulsione**: al momento conducono il progetto di ricerca e sviluppo del SRT, che consiste nella realizzazione di un endoreattore a propellente ibrido
-- **Mission Analysis**: sviluppa script e modelli proprietari di simulazione ed analisi pre e post lancio
-- **Control System**: sviluppa il sistema di controllo attivo per seguire con precisione la traiettoria desiderata, simulando la risposta delle superfici di controllo attive
-- **Avionics**: Si occupa dello sviluppo dei software di bordo e dell'elettronica che regolano il funzionamento di tutte le componenti del razzo-sonda durante il volo.
+- **Propulsione**: al momento conducono il progetto di ricerca e sviluppo del SRT, che consiste nella realizzazione di un endoreattore a propellente ibrido;
+- **Mission Analysis**: sviluppa script e modelli proprietari di simulazione ed analisi pre e post lancio;
+- **Control System**: sviluppa il sistema di controllo attivo per seguire con precisione la traiettoria desiderata, simulando la risposta delle superfici di controllo attive;
+- **Avionics**: Si occupa dello sviluppo dei software di bordo e dell'elettronica che regolano il funzionamento di tutte le componenti del razzo-sonda durante il volo;
 - **Aerodynamics**: si occupa di modellare le forze aerodinamiche e l'interazione dei nostri prototipi con l'ambiente durante il lancio attraverso analisi teoriche, simulazioni CFD e test in galleria del vento.
 
 ## Space Team
@@ -72,3 +78,7 @@ Il team è suddiviso in 5 dipartimenti:
 - **Ground Software Subsystem**: sviluppa la ground station e il software ad essa dedicato;
 - **Electrical and Sensor Subsystem**: si occupa dello sviluppo della PCB e selezionano e configurano i sensori, le antenne e la radio;
 - **Social and Management**: gestiscono il sito web e le pagine social del team, scrivendo e documentando eventi e organizzazioni.
+
+## Entra a far parte dell'Assocazione
+
+🚀 Quello che hai letto ti ha interessato e ti piacerebbe sapere come è possibile entrare a farne parte? Per ulteriori dettagli come le opportunità aperte nell'amministrazione o nei team di SASA puoi visitare la [pagina dedicata](https://www.sasa-aerospace.it/opportunities/) 😉
