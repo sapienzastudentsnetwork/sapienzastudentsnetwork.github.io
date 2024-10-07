@@ -5,7 +5,7 @@ weight: 7
 # Tutoraggio
 
 {{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Sono ora disponibili gli [orari](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) per le attività di tutoraggio dei singoli insegnamenti
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Sono ora disponibili gli [orari](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=578937235&single=true) per le attività di tutoraggio dei singoli insegnamenti
 {{% /hint %}}
 
 Il tutoraggio è una risorsa preziosa offerta da Sapienza per supportare gli studenti nel loro percorso accademico. Che tu sia uno studente del primo anno che cerca di orientarsi all'interno dell'Ateneo o uno studente che ha bisogno di supporto per determinati corsi, il tutoraggio può aiutarti a superare le difficoltà e a raggiungere i tuoi obiettivi.
@@ -24,7 +24,7 @@ Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docent
 
 #### Orari
 
-È possibile consultare l'[attuale orario settimanale](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) per le attività di tutoraggio dei singoli insegnamenti
+È possibile consultare l'[attuale orario settimanale](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=578937235&single=true) per le attività di tutoraggio dei singoli insegnamenti
 
 ### Tutoraggio per l'apprendimento complessivo
 
