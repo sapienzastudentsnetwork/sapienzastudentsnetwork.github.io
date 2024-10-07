@@ -27,7 +27,7 @@ Tutoring for individual courses is usually announced by the instructor during cl
 
 #### Schedule
 
-You can check the current tutoring schedule for individual courses [HERE](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true).
+There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) for individual courses.
 
 ### Comprehensive Learning Support Tutoring
 

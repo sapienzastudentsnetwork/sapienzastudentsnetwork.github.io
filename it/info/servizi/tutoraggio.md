@@ -24,7 +24,7 @@ Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docent
 
 #### Orari
 
-È possibile consultare [QUI](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) l'attuale orario settimanale per le attività di tutoraggio dei singoli insegnamenti
+È possibile consultare l'[attuale orario settimanale](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) per le attività di tutoraggio dei singoli insegnamenti
 
 ### Tutoraggio per l'apprendimento complessivo
 
