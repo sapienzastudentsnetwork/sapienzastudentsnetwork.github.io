@@ -89,7 +89,7 @@
             "course": "10596281",
             "subject": "AUTONOMOUS NETWORKING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MASELLI GAIA",
             "schedule": [
               {
@@ -117,7 +117,7 @@
             "course": "1041764",
             "subject": "BIG DATA COMPUTING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
@@ -145,7 +145,7 @@
             "course": "10600490",
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "LA MORGIA MASSIMO",
             "schedule": [
               {
@@ -248,7 +248,7 @@
             "course": "1047622",
             "subject": "CRYPTOGRAPHY",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "VENTURI DANIELE",
             "schedule": [
               {
@@ -276,7 +276,7 @@
             "course": "1047624",
             "subject": "DISTRIBUTED SYSTEMS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MEI ALESSANDRO",
             "schedule": [
               {
@@ -389,7 +389,7 @@
             "course": "1047642",
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "FRIOLO DANIELE",
             "schedule": [
               {
@@ -507,7 +507,7 @@
             "course": "10596281",
             "subject": "AUTONOMOUS NETWORKING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MASELLI GAIA",
             "schedule": [
               {
@@ -535,7 +535,7 @@
             "course": "1041764",
             "subject": "BIG DATA COMPUTING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
@@ -563,7 +563,7 @@
             "course": "10600490",
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "LA MORGIA MASSIMO",
             "schedule": [
               {
@@ -666,7 +666,7 @@
             "course": "1047622",
             "subject": "CRYPTOGRAPHY",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "VENTURI DANIELE",
             "schedule": [
               {
@@ -694,7 +694,7 @@
             "course": "1047624",
             "subject": "DISTRIBUTED SYSTEMS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MEI ALESSANDRO",
             "schedule": [
               {
@@ -821,7 +821,7 @@
             "course": "1047642",
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "FRIOLO DANIELE",
             "schedule": [
               {

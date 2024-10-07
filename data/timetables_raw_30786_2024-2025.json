@@ -298,7 +298,7 @@
             "course": "10595531",
             "subject": "DEEP LEARNING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "GALASSO FABIO",
             "schedule": [
               {
@@ -350,7 +350,7 @@
             "course": "10595534",
             "subject": "WEB AND SOFTWARE ARCHITECTURE",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "PANIZZI EMANUELE",
             "schedule": [
               {
