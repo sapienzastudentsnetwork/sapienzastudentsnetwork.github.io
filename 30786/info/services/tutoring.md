@@ -6,9 +6,7 @@ weight: 7
 # Tutoring
 
 {{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
-
-The [schedules](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) for tutoring activities for each course are now available.
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> The [schedules](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1882216112&single=true) for tutoring activities for each course are now available.
 {{% /hint %}}
 
 Tutoring is a valuable resource offered by Sapienza to support students in their academic journey. Whether you are a first-year student trying to find your way within the university or a student needing assistance with specific courses, tutoring can help you overcome challenges and achieve your goals.
