@@ -32,7 +32,6 @@ type: custom
 
 _\* **A**pplied **C**omputer **S**cience and **A**rtificial **I**ntelligence_
 
-{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 The only legally-binding source of information about your course programme is the [institutional Sapienza site](https://corsidilaurea.uniroma1.it/).
