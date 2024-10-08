@@ -15,6 +15,8 @@ bookToc: False
 
 👥 Assicurati di visitare anche i [gruppi Telegram](canali/gruppi) per poter ricevere ulteriori risposte in merito a eventuali temi non ancora trattati nelle pagine di questo sito 😉
 
+<!-- cursor-pointer flex flex-col items-start gap-0.5 border border-offgray2-200/60 rounded p-2.5 bg-white/60 dark:border-offgray2-300/20 dark:bg-gray-500/10 hover:shadow-alt hover:bg-white hover:border-blue-400 dark:hover:bg-offgray2-400/20 dark:hover:border-blue-400/50 fv-style focus-visible:outline-offset-[-4px] transition-colors duration-100 ease-in-out -->
+
 ## In evidenza
 <div class="home_evid">
     <div class="home_page" id="home_timeline">

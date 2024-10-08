@@ -1,6 +1,7 @@
 ---
 title: sapienzastudents.net
 bookToc: False
+type: custom
 ---
 
 <h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>

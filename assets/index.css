@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sapienza-1 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fmain-entrance-university-city-studies-la-sapienza-roma-ital-italy-90047500.jpg&f=1&nofb=1&ipt=3ef1bb17eb72a538f7c7586a7e45e11cff3b6acfd83bb27975920b70b95632ae&ipo=images');
+    @apply bg-cover opacity-5;
+}
+
+
+.sapienza-2 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc2.staticflickr.com%2F6%2F5106%2F5562273833_3f0ce81f73_b.jpg&f=1&nofb=1&ipt=01e4668ad3f73c8372034ccfb8db9334d770ebf67a461382675d766f41d28603&ipo=images');
+    @apply bg-cover opacity-5;
+}
+
+.sapienza-3 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.casilinanews.it%2Fwp-content%2Fuploads%2F2016%2F07%2Fsapienza.jpg&f=1&nofb=1&ipt=32d5a57a1a68af621d870b7325ccfd96291e090d5a9f5a3690808eb63559405d&ipo=images');
+    @apply bg-cover opacity-5;
+}
+
+nav  > a {
+    @apply no-underline;
+}
+
+a {
+    @apply !cursor-pointer;
+}
+
+* {
+    @apply transition-colors;
+}
+     
+
+.diamond {
+    @apply bg-primary border-accent absolute z-10 h-2 w-2 rotate-45 rounded-[1px] border;
+}
+
+.diamond.top-left {
+    @apply left-[-4.5px] top-[-4.5px];
+}
+
+.diamond.top-right {
+    @apply right-[-4.5px] top-[-4.5px];
+}
+
+.diamond.bottom-left {
+    @apply left-[-4.5px] bottom-[-4.5px];
+}
+
+.diamond.bottom-right {
+    @apply right-[-4.5px] bottom-[-4.5px];
+}
+
+*:has(> .diamond) {
+    @apply relative;
+}

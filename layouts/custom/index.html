@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="{{ default .Site.Language.Lang .Site.LanguageCode }}" dir="{{ default " ltr"
+    .Site.Language.LanguageDirection }}">
+
+<head>
+    {{ partial "docs/html-head" . }}
+
+    {{ $css := resources.Get "tailwindcss.css" }}
+    <link rel="stylesheet" href="/tailwindcss.css" />
+
+    {{ if .Param "math" }}
+    {{ partialCached "math.html" . }}
+    {{ end }}
+</head>
+
+<body
+    class="bg-primary prose prose-invert flex min-h-screen max-w-none flex-col lg:prose-base xl:prose-lg 2xl:prose-xl">
+    <div class="border-accent h-14 border-b border-dashed">
+        <div class="border-accent mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
+    </div>
+
+    <div class="border-accent mx-3 flex flex-grow flex-col border-l border-r border-dashed sm:mx-14">
+        <div
+            class="border-accent relative grid place-items-center border-b border-dashed bg-gradient-to-r from-transparent via-gray-800/80 to-transparent p-4">
+            <span class="text-center">
+                <h1 class="!mb-2">Sapienza Students Network</h1>
+                <strong>CAD</strong> students' website
+                <i>(Computer Science Didactic Area Council)</i>
+                <!-- <br /> -->
+                <!-- &lt/ made with ❤️ by students for students &gt -->
+            </span>
+            <span class="flex flex-col sm:flex-row sm:gap-6">
+                <a href="https://telegram.me/SapienzaStudentsBot " class="flex items-center gap-2">
+                    Groups
+                    <img class="w-8 !m-0" src="/groups.svg" alt="Gruppi Telegram">
+                </a>
+                <a href="https://telegram.me/SapienzaStudentsNetwork" class="flex items-center gap-2">
+                    Channel
+                    <img class="w-8 !m-0" src="/communication.svg" alt="">
+                </a>
+                <a href="https://discord.sapienzastudents.net/" class="flex items-center gap-2">
+                    Discord
+                    <img class="w-6 !m-0" src="/headset_mic.svg" alt="">
+                </a>
+                <a href="https://github.com/SapienzaStudentsNetwork" class="flex items-center gap-2">
+                    Network
+                    <img class="w-6 !m-0" src="/hub.svg" alt="">
+                </a>
+            </span>
+
+            <div class="diamond top-left"></div>
+            <div class="diamond top-right"></div>
+            <div class="diamond bottom-left"></div>
+            <div class="diamond bottom-right"></div>
+        </div>
+
+        <div class="relative grid w-full flex-grow grid-rows-3 md:grid-cols-3 md:grid-rows-none border-dashed border-b">
+            <a href="/30786" class="no-underline">
+                <div
+                    class="border-accent relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-red-800/20 hover:bg-red-500/20 md:border-none">
+                    <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
+                        class="w-24 invert lg:w-36 2xl:w-48" />
+                    <h2 class="!m-0">ACSAI</h2>
+                    <p><strong>30786</strong> Bachelor's Degree</p>
+                    <div class="sapienza-1 absolute left-0 top-0 z-[-10] h-full w-full"></div>
+                </div>
+            </a>
+
+            <a href="/29932" class="no-underline">
+                <div
+                    class="border-accent relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-green-800/20 hover:bg-green-500/20 md:border-b-0 md:border-l md:border-r">
+                    <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
+                        class="w-24 invert lg:w-36 2xl:w-48" />
+                    <h2 class="!m-0 text-center">Computer Science</h2>
+                    <p><strong>29932</strong> Master's Degree</p>
+                    <div class="sapienza-2 absolute left-0 top-0 z-[-10] h-full w-full"></div>
+                </div>
+            </a>
+
+            <a href="/it" class="no-underline">
+                <div
+                    class="relative flex h-full max-w-none flex-col items-center justify-center bg-gradient-to-t from-blue-800/20 hover:bg-blue-500/20">
+                    <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
+                        class="w-24 invert lg:w-36 2xl:w-48" />
+                    <h2 class="!m-0">Informatica</h2>
+                    <p><strong>29923</strong> Bachelor's Degree</p>
+                    <div class="sapienza-3 absolute left-0 top-0 z-[-10] h-full w-full"></div>
+                </div>
+            </a>
+
+            <svg aria-hidden="true"
+                class="fill-accent/50 stroke-accent/50 pointer-events-none absolute inset-0 h-full w-full opacity-[.30] [mask-image:linear-gradient(to_top,_#ffffffad,_transparent)] [z-index:-1]"
+                style="visibility: visible;">
+                <defs>
+                    <pattern id=":r9:" width="20" height="20" patternUnits="userSpaceOnUse" x="-1" y="-1">
+                        <path d="M.5 20V.5H20" fill="none" stroke-dasharray="0"></path>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" stroke-width="0" fill="url(#:r9:)"></rect>
+            </svg>
+
+            <div class="diamond bottom-left"></div>
+            <div class="diamond bottom-right"></div>
+        </div>
+        <div class="p-2">
+            <div class="p-2 border-amber-400 border-4">
+                ⚠️ <b class="text-amber-400">Warning!</b>
+
+                <span class="ml-4">
+                    The only legally-binding source of information about your course programme is the
+                    <a href="https://corsidilaurea.uniroma1.it/"> institutional Sapienza site </a>
+                </span>
+            </div>
+            <div class="diamond bottom-left"></div>
+            <div class="diamond bottom-right"></div>
+        </div>
+    </div>
+
+    <div class="border-accent h-14 border-t border-dashed">
+        <div class="border-accent mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
+    </div>
+</body>
+
+</html>

@@ -1,36 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ .Site.Language.Lang }}">
-
   <head>
     {{ partial "docs/html-head" . }}
     {{ partial "docs/inject/head" . }}
 
-    <style>
-        .not-found {
-            text-align: center;
-        }
 
-        .not-found h1 {
-            margin: .25em 0 0 0;
-            opacity: .25;
-            font-size: 40vmin;
-        }
+    <style>
+      .not-found {
+        text-align: center;
+      }
+
+      .not-found h1 {
+        margin: 0.25em 0 0 0;
+        opacity: 0.25;
+        font-size: 40vmin;
+      }
     </style>
   </head>
 
-  <body>
-    <main class="flex justify-center not-found">
+  <body class="prose max-w-none">
+    <main class="not-found flex justify-center">
       <div>
         <h1>404</h1>
         <h2>Page Not Found</h2>
         <h3>
-          <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a> • <a
-              href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?title=[BUG]%20Per%20favore%20scegli%20un%20titolo%20per%20la%20tua%20segnalazione&body=Per%20favore%20descrivi%20il%20problema%20nel%20dettaglio%20qui.%20Grazie%20in%20anticipo%20:)">Report an issue</a>
+          <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a> •
+          <a
+            href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?title=[BUG]%20Per%20favore%20scegli%20un%20titolo%20per%20la%20tua%20segnalazione&body=Per%20favore%20descrivi%20il%20problema%20nel%20dettaglio%20qui.%20Grazie%20in%20anticipo%20:)"
+            >Report an issue</a
+          >
         </h3>
       </div>
     </main>
 
     {{ partial "docs/inject/body" . }}
   </body>
-
-  </html>
+</html>
