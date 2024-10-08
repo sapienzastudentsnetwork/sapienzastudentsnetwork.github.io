@@ -19,7 +19,7 @@ Una sessione d'esame è un periodo di 7/8 settimane in cui i professori consento
 Puoi sostenere un esame quante volte vuoi, e non c'è alcuna penalità per questo, **finché non hai accettato il tuo voto**.
   
 
-{{< hint info >}}
+{{% hint info %}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Q&A: Quando posso sostenere un esame?**
 
@@ -30,7 +30,7 @@ Supponi di voler sostenere l'esame di Algebra Lineare. Hai appena iniziato il co
 
 Supponi che, per qualsiasi motivo, tu non possa sostenere l'esame nella prima sessione d'esame (quindi in quella invernale): potrai sostenere quell'esame in **qualsiasi altra** sessione d'esame a cui ti è permesso partecipare (quindi o nella sessione estiva o in quella di settembre, a meno che tu non abbia fatto richiesta per le sessioni straordinarie. Maggiori informazioni su di esse possono essere trovate qui sotto) **fino a quando non supererai l'esame**.
 
-{{< /hint >}}
+{{% /hint %}}
 
   
 
@@ -96,7 +96,7 @@ Per prenotare un esame, devi farlo tramite **Infostud**, la piattaforma ufficial
 
   
 
-{{< hint warning >}}
+{{% hint warning %}}
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
@@ -108,7 +108,7 @@ Se sei italiano o hai una CIE italiana, **devi effettuare il login** con lo **SP
 
 La CIE italiana non è la stessa del "Permesso di Soggiorno" (**PdS**): se hai il PdS, puoi accedere tramite la tua matricola.
 
-{{< /hint >}}
+{{% /hint %}}
 
   
 
@@ -116,9 +116,9 @@ Ora, a seconda della piattaforma che hai scelto al passo 2, la procedura può va
 
   
 
-{{< tabs "infostudversion" >}}
+{{% tabs "infostudversion" %}}
 
-{{< tab "🖥 Infostud Desktop" >}}
+{{% tab "🖥 Infostud Desktop" %}}
 
   
 
@@ -162,7 +162,7 @@ Ora, a seconda della piattaforma che hai scelto al passo 2, la procedura può va
 
   
 
-{{< hint warning >}}
+{{% hint warning %}}
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
@@ -170,13 +170,13 @@ Ora, a seconda della piattaforma che hai scelto al passo 2, la procedura può va
 
 Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenotazione è già aperto. Puoi controllarlo nella colonna `Inizio prenotazione`/`Opening date for booking`.
 
-{{< /hint>}}
+{{% /hint%}}
 
   
 
-{{< /tab >}}
+{{% /tab %}}
 
-{{< tab "📱 Infostud Mobile" >}}
+{{% tab "📱 Infostud Mobile" %}}
 
   
 
@@ -194,7 +194,7 @@ Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenot
 
   
 
-{{< columns >}}
+{{% columns %}}
 
   
 
@@ -210,7 +210,7 @@ Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenot
 
   
 
-{{< /columns >}}
+{{% /columns %}}
 
 <p style="font-size: 8pt">Step 5: Seleziona l'esame che desideri prenotare tramite il segno di spunta, e poi clicca su <code>Mostra appelli</code>/<code>Show Exam Sessions</code></p>
 
@@ -226,7 +226,7 @@ Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenot
 
   
 
-{{< hint warning >}}
+{{% hint warning %}}
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
@@ -234,17 +234,17 @@ Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenot
 
 Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenotazione è già aperto. Puoi controllarlo espandendo le note dell'esame: nella penultima riga troverai la riga `Prenotazioni da DD/MM/YYYY a DD/MM/YYYY`/`Bookings from DD/MM/YYYY to DD/MM/YYYY`.
 
-{{< /hint>}}
+{{% /hint%}}
 
   
 
-{{< /tab >}}
+{{% /tab %}}
 
-{{< /tabs >}}
+{{% /tabs %}}
 
   
 
-{{< hint info >}}
+{{% hint info %}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Q&A: InfoStud mi dice che devo completare prima l'OPIS. Cosa devo fare?**
 
@@ -252,7 +252,7 @@ Se non riesci a prenotare una data per l'esame, verifica se il periodo di prenot
 
 Se non hai completato l'OPIS precedentemente tramite un codice che il tuo professore ha condiviso in classe, ti verrà chiesto di farlo. Una volta completato l'OPIS, ripeti le procedure per prenotare l'esame. Maggiori informazioni sull'OPIS possono essere trovate [qui](../opis).
 
-{{< /hint >}}
+{{% /hint %}}
 
   
 
@@ -260,7 +260,7 @@ Se non hai completato l'OPIS precedentemente tramite un codice che il tuo profes
 
   
 
-{{< details "**Dove posso vedere tutti gli esami a cui sono registrato?**">}}
+{{% details "**Dove posso vedere tutti gli esami a cui sono registrato?**"%}}
 
   
 
@@ -285,11 +285,11 @@ Puoi vedere gli esami a cui ti sei iscritto all'interno di InfoStud.
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Come posso cancellare una prenotazione per un esame?**">}}
+{{% details "**Come posso cancellare una prenotazione per un esame?**"%}}
 
   
 
@@ -316,11 +316,11 @@ Puoi vedere gli esami a cui ti sei iscritto all'interno di InfoStud.
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Dopo che un esame è terminato, dove e quando posso vedere il punteggio ottenuto?**">}}
+{{% details "**Dopo che un esame è terminato, dove e quando posso vedere il punteggio ottenuto?**"%}}
 
   
 
@@ -344,11 +344,11 @@ Se non vedi subito il tuo voto su InfoStud, va bene. I professori potrebbero imp
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Dove posso vedere i miei voti?**">}}
+{{% details "**Dove posso vedere i miei voti?**"%}}
 
   
 
@@ -387,11 +387,11 @@ Nella **versione mobile** di InfoStud, basta fare clic sul pulsante dove puoi ve
   
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Come faccio ad accettare o rifiutare un voto?**">}}
+{{% details "**Come faccio ad accettare o rifiutare un voto?**"%}}
 
   
 
@@ -403,11 +403,11 @@ Dipende da come il professore ha organizzato l'esame: potrebbe essere tramite un
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**C'è qualche penalità per rifiutare un voto?**">}}
+{{% details "**C'è qualche penalità per rifiutare un voto?**"%}}
 
   
 
@@ -419,11 +419,11 @@ No, non c'è nessuna penalità per rifiutare un voto. Puoi rifiutare qualsiasi v
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Ho superato con successo un esame, ma non vedo il mio voto su InfoStud. Perché?**">}}
+{{% details "**Ho superato con successo un esame, ma non vedo il mio voto su InfoStud. Perché?**"%}}
 
   
 
@@ -438,19 +438,19 @@ Ricorda che, per gli esami composti da solo una delle due unità (ad esempio, pe
 Ogni volta che completerai entrambe le unità di una materia, il voto sarà registrato da uno dei due professori. Questo potrebbe richiedere del tempo, poiché i due professori devono scambiarsi i voti che hai ottenuto per entrambe le unità.
   
 
-{{< hint warning >}}
+{{% hint warning %}}
 
 **Non stressare i professori se hai superato solo una unità e non vedi il voto su InfoStud**. Spesso è capitato che alcuni studenti chiedessero ai professori perché avevano ricevuto una mail di "rifiuto" o perché non riuscivano a vedere i loro voti online, e molte volte sono state date le stesse spiegazioni. Chiedi prima ai tuoi compagni di corso se hai bisogno di informazioni.
 
-{{< /hint >}}
+{{% /hint %}}
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Qual è la differenza tra un voto registrato e un voto non registrato?**">}}
+{{% details "**Qual è la differenza tra un voto registrato e un voto non registrato?**"%}}
 
   
 
@@ -462,11 +462,11 @@ I voti registrati e i voti non registrati sono, rispetto alla carriera accademic
 
   
 
-{{< /details >}}
+{{% /details %}}
 
 <br>
 
-{{< details "**Ho ottenuto 30 cum laude in un esame, ma non vedo il laude su InfoStud. Perché?**">}}
+{{% details "**Ho ottenuto 30 cum laude in un esame, ma non vedo il laude su InfoStud. Perché?**"%}}
 
   
 
@@ -478,7 +478,7 @@ Se hai ottenuto 30 cum laude in un esame, noterai che il laude non viene mostrat
 
   
 
-{{< /details >}}
+{{% /details %}}
 
   
 

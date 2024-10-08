@@ -143,7 +143,7 @@
             "subject": "CALCULUS 2",
             "building": "Edificio: RM158",
             "room": "Aula 3",
-            "teacher": "",
+            "teacher": "ALLA ALESSANDRO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -298,8 +298,8 @@
             "course": "10595531",
             "subject": "DEEP LEARNING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
-            "teacher": "HUYNH TONY CHI THONG",
+            "room": "Aula Magna",
+            "teacher": "GALASSO FABIO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -321,23 +321,14 @@
             "teacher": "GORLA DANIELE",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              }
-            ]
-          },
-          {
-            "course": "10595530",
-            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
-            "building": "Edificio: RM158",
-            "room": "Aula 4",
-            "teacher": "GORLA DANIELE",
-            "schedule": [
-              {
                 "day": "luned\u00ec",
                 "from": "08:00",
                 "to": "11:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
               }
             ]
           },
@@ -359,7 +350,7 @@
             "course": "10595534",
             "subject": "WEB AND SOFTWARE ARCHITECTURE",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "PANIZZI EMANUELE",
             "schedule": [
               {

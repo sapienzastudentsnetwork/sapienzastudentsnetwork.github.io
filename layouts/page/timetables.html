@@ -1,10 +1,7 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
-    <blockquote class="book-hint wip">
-        <i class="fa-solid fa-screwdriver-wrench" style="color: #FF9F48;"></i>
-        {{ T "Subjs_WorkInProgress" }}
-    </blockquote>
+    ⚠️ {{ T "Subjs_WorkInProgress" }}
 
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
@@ -35,6 +32,7 @@
                     fillTimetable(
                         `{{ .title | urlize }}`,
                         JSON.parse(`{{ .courses | jsonify }}`),
+                        JSON.parse(`{{ .courses | jsonify }}`),
                         `{{ default 0 .channel }}`,
                     );
                 });
@@ -51,7 +49,7 @@
                 {{ $allCourses = $allCourses | append $courseCode }} <!-- Add course code to the list -->
             {{ end }}
         {{ end }}
-        
+
         <!-- Remove duplicates from the course list -->
         {{ range $allCourses }}
             {{ $courseCode := . }} <!-- Convert course code to string -->
@@ -62,7 +60,7 @@
         {{ end }}        
 
         <!-- Add the "Timetables per teaching" part for the year's courses -->
-        {{ with dict "courses" $uniqueCourses }}
+        {{ with dict "courses" $uniqueCourses "channel" .Params.channel }}
             {{ partial "timetables-per-teaching.html" . }}
         {{ end }}
 

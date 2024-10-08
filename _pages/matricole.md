@@ -85,7 +85,7 @@ In genere sconsigliamo Windows, però, se lo volete usare, ci potete installare 
 
 <!-- #### Altri consigli (molto biased)  -->
 <!---->
-<!-- [Imparate ad usare una tastiera](https://www.typingclub.com/) (ci spenderete tanto tempo, tanto vale la pena imparare ad usarla come si deve). Per *"usarala come si deve"* intendo che non avete bisognio di guardare la tastiera / pensare quando la usate), la velocità non conta tantissimo, anche se è un bel bonus. -->
+<!-- [Imparate ad usare una tastiera](https://www.typingclub.com/) (ci spenderete tanto tempo, tanto vale la pena imparare ad usarla come si deve). Per *"usarla come si deve"* intendo che non avete bisogno di guardare la tastiera / pensare quando la usate), la velocità non conta tantissimo, anche se è un bel bonus. -->
 <!---->
 <!-- Usate una tastiera con [layout americano](https://miamioh.edu/cas/centers-institutes/interactive-language-resource-center/tech-support/_images/us-intl-keyboard-1.png) -->
 <!-- - Ci sono simboli che vi servono quando programmate, ma sul layout italiano non ci sono (\` e ~) -->

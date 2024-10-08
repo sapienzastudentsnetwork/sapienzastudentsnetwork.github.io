@@ -5,18 +5,18 @@ aliases: ["/29932/info/getting-in/how-to-get-in", "/29932/info/freshmen/how-to-g
 
 # How to enroll
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 All the information given here can be found on the official webpage dedicated to [Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/iscriversi). It is **mandatory** to check this webpage before starting the procedure: deadlines change every year. In particular, carefully read the documents in the Downloads box.
 There's also an official and precise guide at this [link](https://corsidilaurea.uniroma1.it/sites/default/files/documenti_ufficiali/2024/169/29932_en.pdf)
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **If you encounter problems...**
 
 If you encounter any problem during the procedure, please join the [Telegram group chat](https://t.me/computersciencesapienza): you can ask for help to your fellow collegues!
-{{< /hint >}}
+{{% /hint %}}
 
 Enrolling in Computer Science requires you to follow these steps:
 1. Register on Infostud to obtain your matricula code
@@ -71,18 +71,18 @@ Further instructions Coming Soon!
 
 ## Infostud
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Check thoroughly all the deadlines for registering on the document posted in the download box [here](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/iscriversi)
-{{< /hint >}}
+{{% /hint %}}
 
 First things first, you have to register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) in order to obtain an ID number. The email address inserted during the procedures will be used for communications, so it is better to chose an address you frequently check.
 Once registered, you can access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students): here click on "Bachelor and Master Degree Programmes" and then 'Admission to Programmes":
 
 ![Image](https://i.imgur.com/T2VvbNd.png)
 
-Finally, enter the code **29932** and pay the 10€ fee for the assessment of requirements. You will have to wait until an acceptance or rejection email will be sent by infostud o your institutional email.
+Finally, enter the code **29932** and pay the 10€ fee for the assessment of requirements. You will have to wait until an acceptance or rejection email will be sent by infostud on your institutional email.
 
 ![Image](https://i.imgur.com/v84PZyb.png)
 

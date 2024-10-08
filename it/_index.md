@@ -29,9 +29,9 @@ bookToc: False
         <p class="home_box_text">Gruppi chat tra studenti</p>
         <button class="explore_more" onclick="window.location.href = 'canali/gruppi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_questionnaire">
-        <p class="home_box_text_title" id="home_enroll_text">Questionario</p>
-        <p class="home_box_text">Aiutaci a migliorare il corso</p>
-        <button class="explore_more" onclick="window.location.href = 'contribuire/questionario/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_tutoring">
+        <p class="home_box_text_title" id="home_enroll_text">Tutoraggio</p>
+        <p class="home_box_text">Info e orari del tutoraggio</p>
+        <button class="explore_more" onclick="window.location.href = 'info/servizi/tutoraggio/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>

@@ -25,7 +25,7 @@ Of the **36 ECTS credits**:
 
   - In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Course, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
 
-- **18 ECTS credits** can be chosen from the Applied Computer Science course catalog
+- **18 ECTS credits** must be chosen from the Applied Computer Science course catalog
 
 - **6 ECTS credits** must be chosen from the Law and Economics course catalog
 
@@ -60,7 +60,7 @@ In all other cases, students will need to wait for their study plan to be review
 
 ### How to select External Courses
 
-Each student can choose **12 ECTS** of courses even outside the study program (including other degree programs or faculties), but **how should these courses be selected?**
+Each student **can** choose **12 ECTS** of courses outside the course manifesto, and thus from other **Bachelor's** Degree courses (if desired also from other departments or even faculties), but **how to choose these teachings?**
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
@@ -78,9 +78,9 @@ Some courses that have been previously approved as external courses for ACSAI st
 
 The **"Commission for the Evaluation and Approval of Study Plans"** is responsible for assessing and approving study plans within a few weeks.
 
-{{< hint warning >}}
+{{% hint warning %}}
 Students are advised not to write before two weeks if it is not strictly necessary. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the study plan compliant with the study plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval.
-{{< /hint >}}
+{{% /hint %}}
 
 The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angelo Spognardi](https://www.di.uniroma1.it/en/docenti/spognardi-angelo), to whom you can write for further information and/or urgent approval requests (e.g., learning agreement for the Erasmus program).
 
@@ -139,7 +139,6 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 | LABORATORIO DI ARCHITETTURE SOFTWARE E SICUREZZA INFORMATICA  | [AAF1569](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/31810/20190322090929/ca3ebb4c-5f81-4b1b-8dee-9e05cca7d15f/61e633be-8cbb-4cc8-85d0-abbe3d51667f/75f17208-795e-4575-b22f-26f76e37fd70/4aad10e1-b3e5-45e5-b9b4-18d4ab9fad2d?guid_cv=61e633be-8cbb-4cc8-85d0-abbe3d51667f&current_erogata=ca3ebb4c-5f81-4b1b-8dee-9e05cca7d15f)  | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/corso/2024/31810/programmazione)                                                                                              | 6   | -                                              |
 | LAW BIOETHICS AND HUMAN RIGHTS                                | [10595495](https://corsidilaurea.uniroma1.it/en/view-course-details/2024/32362/20220331104432/87a67b86-0f33-4b26-9a19-0add1e1ad52d/29189abd-de78-4c63-beb7-9f5060d126f8/d7529ec9-1892-4faa-bca8-7bf7d255904a/8adbbb26-2a18-4575-91df-657087903d75?guid_cv=29189abd-de78-4c63-beb7-9f5060d126f8&current_erogata=87a67b86-0f33-4b26-9a19-0add1e1ad52d) | [[32362] Global Humanities](https://corsidilaurea.uniroma1.it/en/corso/2024/32362/programmazione)                                                                                             | 6   | -                                              |
 | MATEMATICA DISCRETA                                           | [1021828](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/6c7d1cd5-54ee-48cb-aa6b-8e356efe7543/19e02234-31a0-4a36-b7ca-d00a5f3278a9/a863ee71-ed31-4197-84e8-3406a49964b7?guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a)  | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543) | 6   | [Telegram ](https://t.me/+x5k6q2yrsztlOWVk)    |
-| METODI NUMERICI DELL'INFORMATICA                              | [10593234](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/65d828d1-50dd-4ac3-b45f-1b078e21f389?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a) | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6   | [Telegram ](https://t.me/+Njer81tnaZNkY2M8)    |
 | NETWORK ANALYTICS                                             | [1055807](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29924/20220331104432/86e7328a-2b58-4b0c-952e-13ed88375425/43ceff89-0e4f-40b7-bfa4-8ecda238294b/9e70cfe8-65fa-47a1-aea7-f89758dfd94e/3a474dc2-938c-4bf3-b50d-03aebd6466db?guid_cv=43ceff89-0e4f-40b7-bfa4-8ecda238294b&current_erogata=86e7328a-2b58-4b0c-952e-13ed88375425)  | [[29924] Statistica Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29924/programmazione)                                                                                         | 9   | -                                              |
 | ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE           | [10596283](https://corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/1c0d2a0e-d989-463c-a09a-00b823557edd/8e637351-4a3a-47a1-ab11-dfe4ad47e446/4f7bd2b2-2f8e-4c38-b15f-7f3c310550b6/66077d95-5a41-41bc-a545-5e8c68bea9d5)                                                                                                   | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6   | [Telegram ](https://t.me/+TW9IFCi061Q0Nzk8)    |
 | OTTIMIZZAZIONE SU RETI                                        | [10600549](https://corsidilaurea.uniroma1.it/it/view-course-details/2023/29930/20190322090929/10920d7e-7b14-4747-96e7-e9d75840edc7/087b62dd-5e39-4131-9fee-d07de923b215/ded3ed0c-7bb2-4cde-9dc7-08956bc90644/f41bfef9-8773-4e8c-81ba-a532c2bc7ae2?guid_cv=087b62dd-5e39-4131-9fee-d07de923b215&current_erogata=10920d7e-7b14-4747-96e7-e9d75840edc7) | [[29930] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29930/programmazione)                                                                                         | 6   | -                                              |
@@ -149,26 +148,26 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 ## FAQ
 
-{{< details "**Can I choose only internal courses?**">}}
+{{% details "**Can I choose only internal courses?**"%}}
 
 ---
 
 **Yes**, you can choose to take only courses within the Applied Computer Science and Artificial Intelligence degree program (30786). However, you also have the option to include up to 12 ECTS credits from courses offered by other degree programs and faculties, if you prefer. This is not mandatory, but it is available as an option.
 
-{{< /details >}}
+{{% /details %}}
 <br>
-{{< details "**Can I choose all courses offered in the First Semester?**">}}
+{{% details "**Can I choose all courses offered in the First Semester?**"%}}
 
 ---
 
 **Yes**, you are allowed to choose all courses offered in the First Semester. If you select two courses with overlapping timetables and plan to attend both, you will need to manage your time accordingly. There are no issues with regard to exams. You can freely choose to enroll in all courses from either the First Semester or the Second Semester.
 
-{{< /details >}}
+{{% /details %}}
 <br>
-{{< details "**What should I do if I choose a course that I don't like?**">}}
+{{% details "**What should I do if I choose a course that I don't like?**"%}}
 
 ---
 
 If **you have not yet submitted your study plan**, you can still modify your course choices. If you have already submitted your plan, you will need to wait until the next Academic Year to make any changes. In some cases, you may request an early modification to the <a href="#academic-advisor">academic advisor for the study plans</a>, subject to approval.
 
-{{< /details >}}
+{{% /details %}}

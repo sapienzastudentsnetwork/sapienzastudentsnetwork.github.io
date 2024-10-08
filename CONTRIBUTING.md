@@ -28,7 +28,7 @@ Ora hai clonato il fork localmente, il che significa che aprendo un editor di te
 
 ## Avviare il sito localmente
 
-Ci sono due modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, l'altro è usando **Docker**. Anche se forniscono le stesse funzioni, Docker potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
+Ci sono tre modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, uno usando **Docker**, e l'altro è usando **Docker Compose**. Anche se forniscono le stesse funzioni, Docker/Docker Compose potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
 
 ### Usare Hugo
 
@@ -81,6 +81,29 @@ sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavo
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
 6. Se vuoi fermare il server, premi semplicemente `Ctrl+C` nel terminale.
 
+### Usare Docker Compose
+
+Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/) e [**Docker Compose**](https://docs.docker.com/compose/install/).
+
+4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
+```bash
+docker compose up -d --build
+```
+
+5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
+
+6. Se vuoi fermare il server, esegui il comando:
+```bash
+docker compose down
+```
+
+> [!NOTE] Se vuoi osservare i log del server, esegui il comando:
+> ```bash
+> docker compose logs -f
+> ```
+> Per fermare il log, premi `Ctrl + C`: ciò non fermerà il server.
+
+
 ## Proposte / Bug
 
-Se hai suggerimenti per migliorare il sito, o vuoi segnalare un bug, puoi aprire un [issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) sul repository GitHub (**NON** sul tuo fork!). Grazie in anticipo per qualsiasi aiuto tu possa darci!
+Se hai suggerimenti per migliorare il sito, o vuoi segnalare un bug, puoi aprire un'[issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) sul repository GitHub (**NON** sul tuo fork!). Grazie in anticipo per qualsiasi aiuto tu possa darci!

@@ -51,8 +51,8 @@ def parse(DOM):
 
         # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
         ignore_conditions = [
-            ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
-            ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
+            # ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
+            # ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
         ]
 
         for h3 in div.find_all('h3'):
@@ -154,6 +154,7 @@ def parse(DOM):
                     schedule_start_time = day_and_time_string_fields[1]
                     schedule_end_time   = day_and_time_string_fields[2]
                     schedule_time_slot  = f"{schedule_start_time} - {schedule_end_time}"
+                    schedule_time_slot  = re.sub(r'\b0(\d)', r'\1', schedule_time_slot)
 
                     if course_code not in course_timetables_dict:
                         course_timetables_dict[course_code] = {
@@ -372,10 +373,10 @@ if __name__ == '__main__':
     degree_programme_code = os.getenv("DEGREE_PROGRAMME_CODE", "29923")
 
     # Academic Year of the degree program to scrape data for
-    academic_year = os.getenv("ACADEMIC_YEAR", "2023/2024")
+    academic_year = os.getenv("ACADEMIC_YEAR", "2024/2025")
 
     # Url of the gomppublic page containing timetables and classrooms for the specific degree program
-    gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL")\
+    gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL", 'https://gomppublic.uniroma1.it/ScriptService/OffertaFormativa/Ofs.6.0/AuleOrariScriptService/GenerateOrario.aspx?params={"controlID":"","aulaUrl":"","codiceInterno":{codiceInterno},"annoAccademico":"{annoAccademico}","virtuale":false,"timeSlots":null,"displayMode":"Manifesto","showStyles":false,"codiceAulaTagName":"","nomeAulaCssClass":"","navigateUrlInsegnamentoMode":"","navigateUrlInsegnamento":"","navigateUrlDocenteMode":"","navigateUrlDocente":"","repeatTrClass":""}&_=1702740827520')\
         .replace("{codiceInterno}", degree_programme_code)\
         .replace("{annoAccademico}", academic_year)
 
@@ -438,6 +439,237 @@ if __name__ == '__main__':
     # Save the timetables to a JSON file
     with open(f"../data/timetables_raw_{degree_programme_code}_{academic_year.replace('/', '-')}.json", 'w') as rawTimetablesFile:
         json.dump(parse(DOM), rawTimetablesFile, indent=2)
+
+    # ▀▀█▀▀ █▀▀ █▀▄▀█ █▀▀█ █▀▀█ █▀▀█ █▀▀█ █▀▀█ █░░█ 　 ▀▀█▀▀ ░▀░ █▀▄▀█ █▀▀ ▀▀█▀▀ █▀▀█ █▀▀▄ █░░ █▀▀ █▀▀
+    # ░░█░░ █▀▀ █░▀░█ █░░█ █░░█ █▄▄▀ █▄▄█ █▄▄▀ █▄▄█ 　 ░░█░░ ▀█▀ █░▀░█ █▀▀ ░░█░░ █▄▄█ █▀▀▄ █░░ █▀▀ ▀▀█
+    # ░░▀░░ ▀▀▀ ▀░░░▀ █▀▀▀ ▀▀▀▀ ▀░▀▀ ▀░░▀ ▀░▀▀ ▄▄▄█ 　 ░░▀░░ ▀▀▀ ▀░░░▀ ▀▀▀ ░░▀░░ ▀░░▀ ▀▀▀░ ▀▀▀ ▀▀▀ ▀▀▀
+
+    currentDate = datetime.now()
+
+    zoom_register_it = "Zoom (registrarsi tramite questo link)"
+    zoom_register_en = "Zoom (register using this link)"
+
+    zoom_login_it = "Zoom (effettuare l'accesso tramite account Sapienza)"
+    zoom_login_en = "Zoom (login with Sapienza account)"
+
+    scienzebiochimiche_aulaA = "Aula A Scienze Biochimiche (CU010)"
+    scienzebiochimiche = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
+
+    reginaelena_edificiod_aula_101 = "Aula 101 Regina Elena Ed. D (RM112)"
+    reginaelena_edificiod_aula_201 = "Aula 201 Regina Elena Ed. D (RM112)"
+    reginaelena_edificiod_aula_301 = "Aula 301 Regina Elena Ed. D (RM112)"
+    reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+
+    matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
+    matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
+    matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+
+    clinica_odontoiatrica_aula_a1  = 'Aula A1 Luigi Capozzi Via Caserta, 6'
+    clinica_odontoiatrica = "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+
+    first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
+    second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
+    first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
+
+    first_year_acsai_teachings = set(["10595099_1", "10595546_1", "10595524", "10595102_1", "10595102_2"])
+    second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
+    first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
+
+    if currentDate <= datetime(2024, 10, 12):
+        if degree_programme_code == "29923":
+            # 1022267 - PROGRAMMAZIONE PER IL WEB
+            # There will be no classes on October 8 and 10 as Prof. Panizzi
+            # will be at the BUCA summer school they’ve organized in Venice
+            course_timetables_dict["1022267"]["channels"].pop("0")
+            course_timetables_dict["1022267"]["channels"]["0"] = {}
+
+            # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
+            # Bando: il corso inizierà appena sarà individuato il docente.
+            course_timetables_dict["10596283"]["channels"].pop("0")
+            course_timetables_dict["10596283"]["channels"]["0"] = {}
+
+        elif degree_programme_code == "30786":
+            # 10595534 - WEB AND SOFTWARE ARCHITECTURE
+            # There will be no classes on October 8 and 10 as Prof. Panizzi
+            # will be at the BUCA summer school they’ve organized in Venice
+            course_timetables_dict["10595534"]["channels"].pop("0")
+            course_timetables_dict["10595534"]["channels"]["0"] = {}
+
+            # 10595536 - BUSINESS AND COMPUTER SCIENCE
+            course_timetables_dict["10595536"]["channels"]["0"]["martedì"] = [
+                 {
+                   "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
+                   "timeslot": "13 - 15",
+                   "classrooms": {
+                     "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                   }
+                 }
+            ]
+
+        elif degree_programme_code == "29932":
+            # 10589621 - ADVANCED MACHINE LEARNING
+            course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
+
+            # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
+            course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
+              {
+                "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+                "timeslot": "14 - 16",
+                "classrooms": {
+                  "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+                }
+              }
+            ]
+
+            # 1041792 - BIOMETRIC SYSTEMS
+            course_timetables_dict["1041792"] = {
+                "subject": "BIOMETRIC SYSTEMS",
+                "degree": "29932",
+                "channels": {
+                  "0": {
+                    "mercoled\u00ec": [
+                      {
+                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                        "timeslot": "13 - 15",
+                        "classrooms": {
+                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                        }
+                      }
+                    ],
+                    "gioved\u00ec": [
+                      {
+                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                        "timeslot": "8 - 11",
+                        "classrooms": {
+                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "code": "1041792"
+            }
+
+            # 1047618 - COMPUTER VISION
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomInfo"] = "Aula A Via dei Sabelli, 108 (RM027)"
+            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomUrl"] = "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
+
+            # 1047627 - FOUNDATIONS OF DATA SCIENCE
+            course_timetables_dict["1047627"] = {
+                "subject": "FOUNDATIONS OF DATA SCIENCE",
+                "degree": "29932",
+                "channels": {
+                  "0": {
+                    "luned\u00ec": [
+                      {
+                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                        "timeslot": "10 - 13",
+                        "classrooms": {
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                        }
+                      }
+                    ],
+                    "venerd\u00ec": [
+                      {
+                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                        "timeslot": "11 - 13",
+                        "classrooms": {
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                        }
+                      }
+                    ]
+                  }
+                },
+                "code": "1047627"
+            }
+
+        for course_code, course_data in course_timetables_dict.items():
+            for channel_id, channel_data in course_data["channels"].items():
+                for day_name, day_schedules in channel_data.items():
+                    for day_schedule in day_schedules:
+                        # 101226 - CALCOLO DIFFERENZIALE
+                        # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
+                        # non più, alla professoressa Garroni, diventata direttrice a Matematica.
+                        if (course_code == "101226") and (channel_id == "1"):
+                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                                day_schedule["teacher"] = None
+                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+                                day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
+
+                        if "classrooms" in day_schedule:
+                            for classroom_id, classroom_description in day_schedule["classrooms"].items():
+                                classroom_info = day_schedule.get("classroomInfo", None)
+                                classroom_url  = day_schedule.get("classroomUrl", None)
+
+                                if "(Edificio: RM158)" in classroom_description:
+                                    if channel_id == "1":
+                                        if course_code in first_and_second_year_informatica_teachings:
+                                            classroom_info = clinica_odontoiatrica_aula_a1
+                                            classroom_url  = clinica_odontoiatrica
+
+                                    elif channel_id == "2":
+                                        if day_name == "martedì":
+                                            classroom_info = clinica_odontoiatrica_aula_a1
+                                            classroom_url  = clinica_odontoiatrica
+
+                                        elif day_name == "mercoledì":
+                                            if course_code in second_year_informatica_teachings:
+                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_url  = reginaelena_edificiod
+                                    
+                                    elif channel_id == "0":
+                                        if course_code in first_and_second_year_acsai_teachings:
+                                            classroom_info = reginaelena_edificiod_aula_101
+                                            classroom_url  = reginaelena_edificiod
+
+                                        # BIG DATA COMPUTING - 1041764 - Gabriele Tolomei, Daniele De Sensi
+                                        elif course_code == "1041764":
+                                            if day_name == "mercoledì":
+                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_url  = reginaelena_edificiod
+
+                                        # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
+                                        elif course_code == "1022301":
+                                            if day_name == "lunedì":
+                                                classroom_info = clinica_odontoiatrica_aula_a1
+                                                classroom_url  = clinica_odontoiatrica
+
+                                        # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
+                                        elif course_code == "1041727":
+                                            if day_name == "venerdì":
+                                                classroom_info = scienzebiochimiche_aulaA
+                                                classroom_url  = scienzebiochimiche
+
+                                if "(Edificio: RM111)" in classroom_description:
+                                    # AUTONOMOUS NETWORKING - 10596281 - Gaia Maselli
+                                    # BIG DATA COMPUTING - 1041764 - Gabriele Tolomei
+                                    # BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES - 10600490 - Massimo La Morgia
+                                    # CRYPTOGRAPHY - 1047622 - Daniele Venturi
+                                    # DEEP LEARNING - 10595531 - Luigi Cinque, Fabio Galasso
+                                    # DISTRIBUTED SYSTEMS - 1047624 - Alessandro Mei
+                                    # SECURITY IN SOFTWARE APPLICATIONS - 1047642 - Daniele Friolo
+                                    if course_code in ("10596281", "1041764", "10600490", "1047622", "10595531", "1047624", "1047642"):
+                                        classroom_info = reginaelena_edificiod_aula_301
+                                        classroom_url  = reginaelena_edificiod
+                                
+                                if classroom_info is not None:
+                                    day_schedule.pop("classrooms")
+
+                                    print("classroom_info: " + classroom_description + " -> " + classroom_info)
+
+                                    day_schedule["classroomInfo"] = classroom_info
+                                else:
+                                    print("classroom_info: " + classroom_description)
+
+                                if classroom_url is not None:
+                                    day_schedule["classroomUrl"] = classroom_url
+
+    #
+    # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
+    # ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█░░▒█ ▒█▄▄▀ ░▒█░░ 　 ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▄▄█
+    # ▒█▄▄▄ ▄▀▒▀▄ ▒█░░░ ▒█▄▄▄█ ▒█░▒█ ░▒█░░ 　 ▒█▄▄▀ ▒█░▒█ ░▒█░░ ▒█░▒█
+    #
 
     # Save the classroom information to a JSON file
     with open(f"../data/classrooms.json", 'w') as classroomsFile:

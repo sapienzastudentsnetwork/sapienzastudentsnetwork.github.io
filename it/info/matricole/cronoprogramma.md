@@ -4,13 +4,6 @@ bookHidden: false
 ---
 # Cronoprogramma del Corso di Laurea in Informatica
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome day il 25 settembre**
-
-Il **25 settembre 2024** alle ore 14 si terrà il welcome day per le nuove matricole di Informatica e di ACSAI, [qui tutte le informazioni](#25-settembre-2024-welcome-day-per-le-matricole).
-{{< /hint >}}
-
-
 Anche se all'inizio potresti sentirti un po' disorientato, in realtà ci sono solo alcuni momenti chiave da tenere a mente durante il tuo percorso accademico. Questo cronoprogramma ti aiuterà a navigare attraverso le tappe principali del Corso di Laurea in Informatica.
 
 Ricorda: l'obiettivo non è solo raggiungere la fine del percorso, ma anche trarre il massimo valore da ogni fase del percorso. Approfitta di ogni opportunità per crescere, imparare e costruire il tuo futuro, insieme ai tuoi compagni e futuri colleghi.
@@ -23,41 +16,37 @@ Prima di iniziare a frequentare le lezioni, è importante consultare la pagina d
 
 Per conoscere la posizione degli edifici all'interno della città universitaria (tutti quelli con il codice che inizia con **CU**), puoi consultare la [mappa delle aule](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
-## **25 settembre 2024**: *Welcome Day* per le matricole
-Il **25 settembre 2024**, dalle ore 14 alle ore 16, si terrà il *Welcome Day* per le matricole dei corsi di Laurea in Informatica (presenza e prevalentemente a distanza) e ACSAI. Durante l'evento avrai l'opportunità di conoscere i docenti, il personale e i tutor del corso, e di ricevere informazioni utili per iniziare al meglio il tuo percorso accademico.
+## **25 settembre 2024**: Incontro di benvenuto per le matricole
 
-L'evento si terrà nello spiazzale antistante l'edificio E del Dipartimento di Informatica, accessibile dal Viale Regina Elena 295 e dal Viale del Castro Laurenziano 6.
+**Mercoledì 25 settembre** si è tenuto un **incontro di benvenuto** dedicato alle **matricole A.A. 2024/25** di Applied Computer Science and Artificial Intelligence (**ACSAI**) e **Informatica**
 
-Di seguito il programma di massima:
-- Saluti del presidente dei corsi di laurea, prof.ssa Annalisa Massini
-- Presentazione dei docenti del corso
-- Presentazione del personale amministrativo
-- Presentazione dei tutor con presentazione degli strumenti di supporto allo studio
-- Breve rinfresco con DJ set con DJ Palma
+Con la partecipazione della Presidente del Corso di Laurea, prof.ssa Massini, professori, Tutor Didattici del Corso di Laurea e Rappresentanti degli Studenti al Consiglio di Area Didattica di Informatica vi abbiamo dato **informazioni pratiche sull'organizzazione del Corso di Laurea** e c'è stato un **leggero rinfresco**
+
+[Clicca qui per sfogliare la presentazione](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
 
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
-Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. Sebbene alcune lezioni possano essere registrate o disponibili online, la partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
+Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. La partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
 
 Creare un gruppo di amici con cui studiare e confrontarsi può essere un'ottima strategia per affrontare insieme le sfide del percorso accademico.
 
 ## **5 novembre 2024**: scadenza prima rata per gli iscritti al secondo anno e successivi
 La scadenza per il pagamento della prima rata è fissata per il 5 novembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 Questa scadenza è valida solamente per gli studenti iscritti al secondo anno e successivi, poiché l'immatricolazione prevede il pagamento della prima rata per gli iscritti al primo anno.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **Tra fine ottobre e inizio novembre e tra aprile e maggio**: sostenere gli esoneri
 Molti corsi, specialmente durante il primo anno, offrono la possibilità di sostenere degli esoneri durante il semestre. Questi sono dei mini-esami che, se superati, possono alleggerire il carico di studio per l'esame finale. Di solito le informazioni sugli esoneri vengono comunicate direttamente dal docente nel corso delle lezioni, anche per questo motivo è importante frequentare le lezioni. Gli esoneri normalmente si svolgono durante l'orario della lezione quando il docente ha superato metà del programma.
 
-Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permette di ottenere il voto finale del corso. Gli esoneri sono facoltativi, ma sono un ottimo modo per poter allegerire il carico di studio durante la sessione di esami, che può essere molto impegnativa.
+Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permette di ottenere il voto finale del corso. Gli esoneri sono facoltativi, ma sono un ottimo modo per poter alleggerire il carico di studio durante la sessione di esami, che può essere molto impegnativa.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Gli esoneri sono a discrezione dei docenti: non saranno quindi previsti per tutti i corsi. Di solito i docenti comunicano durante le prime lezioni la loro volontà di svolgere esoneri e un periodo approssimativo in cui si svolgeranno.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **19 dicembre 2024**: scadenza seconda rata
 La scadenza per il pagamento della seconda rata è fissata per il 19 dicembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
@@ -67,11 +56,11 @@ Gli esami si svolgono alla fine di ogni semestre. Per conoscere la data e l'aula
 
 Per poter sostenere un esame è necessario prenotarsi tramite [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) e prenotare l'esame nella sezione **Ricerca Appelli**.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Per ogni esame è presente una data entro la quale è possibile prenotare l'esame. Assicurati di prenotare l'esame entro la data limite, altrimenti non potrai sostenere l'esame.
-{{< /hint >}}
+{{% /hint %}}
 
 <!-- Qui possiamo linkare la guida di Leonardo tradotta in Italiano -->
 

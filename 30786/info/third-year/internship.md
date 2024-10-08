@@ -13,19 +13,19 @@ weight: 2
 # Internship
 
 
-{{< hint info >}}
+{{% hint info %}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Telegram Group**
 
 There is also a [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by students of the degree course, dedicated to topics related to the thesis and internship.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint tip >}}
+{{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i>
 **Examples of internship reports**
 
 Examples of internship reports shared from other students can be found in the [dedicated section of this page](#internship-reports-shared-by-other-students).
-{{< /hint >}}
+{{% /hint %}}
 
 ## How the Internship Works
 
@@ -38,14 +38,14 @@ The internship:
 * **External**: It is carried out at a company or an external organization, under the supervision of a company tutor (External Supervisor) and a professor from the University (Internal Supervisor). During the external internship, the student will have the opportunity to apply the skills acquired during the degree program by working on real projects and tackling typical challenges of the professional world.
 
 
-{{< hint warning >}}
+{{% hint warning %}}
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 
 The internship lasts 105 days, so it is very important to take this duration into account when choosing the graduation session.
 
-{{< /hint >}}
+{{% /hint %}}
 
 
 
@@ -136,7 +136,7 @@ LaTeX will help you produce your report more quickly by allowing you to focus on
 To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that does not require installation on your computer. For your report, you can use this [template for a bachelor's thesis from Sapienza University](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Although designed for a thesis, it is easily adaptable for an internship report.
 
 
-{{< hint info >}}
+{{% hint info %}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Learning to Use LaTeX**
 
@@ -144,7 +144,7 @@ To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com)
 
 If you've never used LaTeX before, don't worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basic concepts.
 
-{{< /hint >}}
+{{% /hint %}}
 
 
 
@@ -161,7 +161,7 @@ There is no mandatory length for the internship report. However, we recommend wr
 To manage the bibliography effectively, we suggest using BibTeX. This tool, integrated with LaTeX, simplifies the insertion and formatting of citations in your document.
 
 
-{{< hint info >}}
+{{% hint info %}}
 
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **BibTeX guide**
 
@@ -169,7 +169,7 @@ To manage the bibliography effectively, we suggest using BibTeX. This tool, inte
 
 To learn how to use BibTeX, check out the [guide to bibliography management with BibTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) created by Overleaf.
 
-{{< /hint >}}
+{{% /hint %}}
 
 
 
@@ -187,14 +187,14 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 <!--[Add your report to the list]()-->
 
-{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Add your report to the list{{< /button >}}
+{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-en-md.md&title=Add+Internship+Report"%}}Add your report to the list{{% /button %}}
 
-{{< expand "Expand the list...">}}
+{{% details "Expand the list..."%}}
 
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
-* [SAPERE: a sequential recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
+* [SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
 
-{{< /expand >}}
+{{% /details %}}
 
 
 
@@ -205,7 +205,7 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 ## Internships and Professors
 
-{{< expand "Expand the list...">}}
+{{% details "Expand the list..."%}}
 
 ### Informatica
 
@@ -403,7 +403,7 @@ You can also request internships from professors in the Department of Ingegneria
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
 
-{{< /expand >}}
+{{% /details %}}
 
 -->
 

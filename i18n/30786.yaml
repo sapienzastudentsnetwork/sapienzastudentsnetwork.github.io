@@ -68,13 +68,16 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: This page is automatically updated with the Sapienza timetable system, but these are still provisional at the moment. For now, it is best to check the Degree Course Attendance pages and chat groups to stay up-to-date. This notice will disappear as soon as there is more certainty.
+  translation: This page displays, for this week, the provisional timetable for the third week of classes (7 - 11 October). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Timetables_Time
   translation: Time
 
 - id: Subjs_TimetablesPerTeaching_Title
   translation: Timetables per teaching
+
+- id: Subjs_TimetablesPerTeaching_NoTimetable
+  translation: No timetable available for this week. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
 
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Day
@@ -95,10 +98,10 @@
   translation: Join the
 
 - id: Subjs_TimetablesPerTeaching_Telegram_TelegramGroup
-  translation: Telegram Group
+  translation: Telegram Group of
 
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
-  translation: to stay updated on any schedule changes, resources, and course information.
+  translation: to stay updated on any schedule changes, resources, and course information
 
 - id: Subjs_CustomTimetable_Title
   translation: Your timetable

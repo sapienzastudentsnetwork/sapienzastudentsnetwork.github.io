@@ -7,17 +7,17 @@ weight: 2
 
 # Tirocinio
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
 
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint tip >}}
+{{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Esempi di relazione di tirocinio**
 
 Nella [sezione dedicata](#relazioni-di-tirocinio-condivise-da-altri-studenti) è possibile trovare degli esempi di relazioni di tirocinio condivise da altri studenti e studentesse.
-{{< /hint >}}
+{{% /hint %}}
 
 ## Come funziona il tirocinio
 Il tirocinio è un passo fondamentale nel percorso di studi, in quanto permette di mettere in pratica le competenze acquisite durante il corso di laurea. Esso può essere svolto presso un'azienda, un ente o un laboratorio di ricerca, e può essere interno o esterno all'Università.
@@ -26,11 +26,11 @@ Il tirocinio:
 * **Interno**: viene svolto nell'ambito dell'Università, con la supervisione di un docente o del suo laboratorio di ricerca. Durante il tirocinio interno, lo studente può svolgere attività di ricerca, progettazione, sviluppo, test e valutazione di sistemi informatici in diverse aree tematiche.
 * **Esterno**: viene svolto presso un'azienda o un ente esterno, con la supervisione di un tutor aziendale (Responsabile Esterno) e di un docente dell'Università (Responsabile Interno). Durante il tirocinio esterno lo studente avrà modo di mettere in pratica le competenze acquisite durante il corso di laurea, lavorando a progetti reali e affrontando le problematiche tipiche del mondo del lavoro.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Il tirocinio ha una durata di 105 giorni, è molto importante quindi tenere in considerazione questa durata per scegliere la sessione di laurea.
-{{< /hint >}}
+{{% /hint %}}
 
 ## Quale tirocinio fa più per me?
 La scelta tra tirocinio interno ed esterno dipende dalle tue preferenze e dal tuo percorso di studi. Ecco alcune considerazioni che potrebbero aiutarti a fare la scelta giusta:
@@ -82,11 +82,11 @@ LaTeX ti permetterà di realizzare la tua relazione più velocemente, concentran
 #### Overleaf e template consigliato
 Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overleaf.com), un editor LaTeX online che non richiede installazioni sul tuo computer. Per la tua relazione, puoi partire da questo [template per la tesi di laurea triennale della Sapienza](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Anche se pensato per una tesi, è facilmente utilizzabile per una relazione di tirocinio.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Imparare ad utilizzare LaTeX**
 
 Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida rapida di 30 minuti](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) per familiarizzare con i concetti di base.
-{{< /hint >}}
+{{% /hint %}}
 
 #### Simboli matematici
 Se durante la stesura della tua relazione dovessi utilizzare simboli matematici, LaTeX ti permette di inserirli facilmente. Ad esempio, per scrivere l'insieme dei numeri reali, puoi utilizzare il comando `\mathbb{R}`. Se hai bisogno di un simbolo specifico, puoi consultare questa [lista di simboli matematici in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) per trovare il codice corrispondente.
@@ -97,11 +97,11 @@ Non esiste una lunghezza obbligatoria per la relazione di tirocinio. Tuttavia, t
 ### Gestione della bibliografia
 Per gestire efficacemente la bibliografia, ti suggeriamo di utilizzare BibTeX. Questo strumento, integrato con LaTeX, semplifica l'inserimento e la formattazione delle citazioni nel tuo documento.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Guida per BibTeX**
 
 Per imparare ad utilizzare BibTeX, dai un'occhiata alla [guida alla gestione della bibliografia con BibTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) realizzata da Overleaf.
-{{< /hint >}}
+{{% /hint %}}
 
 ### Consigli finali
 Mentre scrivi la tua relazione, mantieni uno stile di scrittura chiaro e professionale. Non esitare a usare immagini, diagrammi o snippet di codice per illustrare il tuo lavoro, quando lo ritieni appropriato.
@@ -115,18 +115,18 @@ Ricorda che la relazione di tirocinio non è solo un requisito per laurearsi, ma
 Qui troverai una lista di relazioni di tirocinio condivise da altri studenti della Sapienza. Questi documenti possono essere utili per farti un'idea di come strutturare e scrivere la tua relazione di tirocinio.
 
 <!--[Aggiungi la tua relazione alla lista]()-->
-{{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio">}}Aggiungi la tua relazione alla lista{{< /button >}}
+{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio"%}}Aggiungi la tua relazione alla lista{{% /button %}}
 
-{{< expand "Espandi la lista...">}}
+{{% details "Espandi la lista..."%}}
 * [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
-* [SAPERE: a sequantial recommender system for suggesting exams to Sapienza students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
-{{< /expand >}}
+* [SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
+{{% /details %}}
 
 
 <!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
 <!--
 ## Tirocini e Professori
-{{< expand "Espandi la lista...">}}
+{{% details "Espandi la lista..."%}}
 ### Informatica
 
 
@@ -314,7 +314,7 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 | [Vendittelli Marilena](https://corsidilaurea.uniroma1.it/it/users/marilenavendittelliuniroma1it) | - |
 | [Vitaletti Andrea](https://corsidilaurea.uniroma1.it/it/users/andreavitalettiuniroma1it) | - |
 
-{{< /expand >}}
+{{% /details %}}
 -->
 
 <!-- ## FAQ  -->

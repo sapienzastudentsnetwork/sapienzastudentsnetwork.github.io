@@ -1,8 +1,8 @@
 # Student Canteens
 
-University canteens are facilities that allow you to eat at a subsidized price (prices by ISEE bracket can be found on the [dedicated page on the DiSCo Lazio website](http://www.laziodisco.it/servizi/ristorazione/)) depending on your university ISEE  (Indicator of Equivalent Economic Situation).
+University canteens are facilities that allow you to eat at a subsidized price (prices by ISEE bracket can be found on the [dedicated page on the DiSCo Lazio website](http://www.laziodisco.it/servizi/ristorazione/)) depending on your university ISEE (Indicator of Equivalent Economic Situation).
 
-International students must obtain ISEE only from an affiliated CAF (Fiscal Assistance Center): the full list can be found [here](http://www.laziodisco.it/guide/caf-convenzionati-2022/). Required documentation to obtain the ISEE can be found on the website of [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) under the heading "Documentazione per il primo accredito di studenti interazionali" (Documentation for first accreditation of international student).
+International students must get ISEE only from an affiliated CAF (Fiscal Assistance Center): the full list can be found [here](http://www.laziodisco.it/guide/caf-convenzionati-2022/). Required documentation to obtain the ISEE can be found on the website of [DiSCo Lazio](http://www.laziodisco.it/servizi/ristorazione/) under the heading "Documentazione per il primo accredito di studenti interazionali" (Documentation for first accreditation of international student).
 
 ## Registration
 
@@ -12,7 +12,7 @@ Once you access to your restricted area, click on "Servizio Mensa" (Canteen Serv
 
 <img src="https://i.imgur.com/g1oXxfz.png">
 
-Then, accreditate yourself for the chosen academic year; if you can't see it among the options, try again after some time: it means that DiSCo LAzio hasn't published the call yet.
+Then, accreditate yourself for the chosen academic year; if you can't see it among the options, try again after some time: it means that DiSCo Lazio hasn't published the call yet.
 
 Otherwise, click on "Accreditamento Mensa" (Canteen Accreditation) for the chosen academic year:
 
@@ -42,14 +42,14 @@ You'll be able to use the app in the following canteens:
 - [Mensa Via della Vasca Navale](http://www.laziodisco.it/luoghi/mensa-via-della-vasca-navale/), Via della Vasca navale 79
 - [Mensa Via delle Sette Sale](http://www.laziodisco.it/luoghi/mensa-via-delle-sette-sale/), Via delle Sette Sale 29
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gluten intollerant and celiac meals**
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gluten intolerant and celiac meals**
 
 In some canteens it is necessary to call to reserve a celiac meal. If so, the phone number to make the reservation can be found on the website of the canteen itself.
-{{< /hint >}}
+{{% /hint %}}
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 Remember heck opening days and schedule of the canteens on their respective sites: they may change from year to year or during the year.
-{{< /hint >}}
+{{% /hint %}}

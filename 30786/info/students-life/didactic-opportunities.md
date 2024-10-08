@@ -39,8 +39,8 @@ This year edition has already taken place, but we will upload more information w
 
 ## Path of Excellence
 
-A path of excellence is a didactic path for deserving students, with the aim of adding reaserch activities to curricular lessons. Students admitted to the path must completed **between 100 and 200 hours of activities every year**.
+A path of excellence is a didactic path for deserving students, with the aim of adding research activities to curricular lessons. Students admitted to the path must completed **between 100 and 200 hours of activities every year**.
 
-At the end of the path you will receive a certificate of partecipation and a refound of the tuiton fees. 
+At the end of the path you will receive a certificate of participation and a refund of the tuition fees. 
 
 The call for this year is not been published yet, but you can regularly check this page or the ["Attendance" page of the ACSAI course](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione), in the "[Honours programme](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione#bootstrap-fieldgroup-nav-item-honours-programme)" section.

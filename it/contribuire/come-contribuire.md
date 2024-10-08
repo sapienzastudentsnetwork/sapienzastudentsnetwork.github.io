@@ -13,13 +13,13 @@ Questo progetto è immenso, e non sempre lo staff che ci lavora può occuparsene
 
 Per contribuire è possibile utilizzare **GitHub**, quindi è importante conoscere un po' le basi (principalmente cos'è **git**, come eseguire **fork** e **clone** di una repo, cosa sono i **commits** e le **pull requests**). Se non te la senti di farlo tramite la **CLI** (Command Line Interface), puoi farlo tramite VSCode o il tuo editor preferito. In questa guida vedrai come farlo tramite CLI, in modo da imparare qualcosa su come funziona **git**.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Regole per contribuire e per le Pull Requests**
 
 Puoi trovare maggiori informazioni su come fare una corretta pull request [**qui**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls)
 
 Se non sei familiare con **git** e **GitHub**, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire ai progetti degli altri, o eventualmente chiedere aiuto allo [staff del progetto](/it/contribuire/contatti) o in uno dei [gruppi disponibili](/it/canali/gruppi).
-{{< /hint >}}
+{{% /hint %}}
 
 ## Clonare il progetto
 
@@ -35,10 +35,10 @@ Ora hai clonato il fork localmente, il che significa che aprendo un editor di te
 
 ## Avviare il sito localmente
 
-Ci sono due modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, l'altro è usando **Docker**. Anche se forniscono le stesse funzioni, Docker potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
+Ci sono tre modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, uno usando **Docker**, e l'altro è usando **Docker Compose**. Anche se forniscono le stesse funzioni, Docker/Docker Compose potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
 
-{{< tabs "runningsite" >}}
-{{< tab "🌐 Hugo" >}}
+{{% tabs "runningsite" %}}
+{{% tab "🌐 Hugo" %}}
 ## Usare Hugo
 
 Prima di iniziare, verifica se hai installato i [binaries di Hugo](https://gohugo.io/installation/).
@@ -47,7 +47,7 @@ Prima di iniziare, verifica se hai installato i [binaries di Hugo](https://gohug
 ```bash
 hugo server
 ```
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Se hai ricevuto un errore come il seguente
@@ -70,14 +70,14 @@ significa che il tema del sito non è stato clonato correttamente. Per risolvere
 git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
 ```
 Ora il problema dovrebbe essere scomparso e dovresti essere in grado di buildare il sito senza problemi.
-{{< /hint>}}
+{{% /hint%}}
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel tuo browser ed ecco fatto! Ora puoi visualizzare il sito in tempo reale. Poiché Hugo supporta il ricaricamento automatico, ogni volta che un file cambia, cambierà anche il sito.
 
 6. Se vuoi fermare il server, premi semplicemente `Ctrl + C` nel terminale.
 
-{{< /tab >}}
-{{< tab "🐋 Docker" >}}
+{{% /tab %}}
+{{% tab "🐋 Docker" %}}
 ## Usare Docker
 
 Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/).
@@ -90,8 +90,35 @@ sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavo
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
 6. Se vuoi fermare il server, premi semplicemente `Ctrl+C` nel terminale.
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% tab "🐋 Docker Compose" %}}
+## Usare Docker Compose
+
+Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/) e [**Docker Compose**](https://docs.docker.com/compose/install/).
+
+4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
+```bash
+docker compose up -d --build
+```
+
+5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
+
+6. Se vuoi fermare il server, esegui il comando:
+```bash
+docker compose down
+```
+
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Nota**
+Se vuoi osservare i log del server, esegui il comando:
+```bash
+docker compose logs -f
+```
+Per fermare il log, premi `Ctrl + C`: ciò non fermerà il server.
+{{% /hint %}}
+
+{{% /tab %}}
+{{% /tabs %}}
 
 ## Proposte / Bug
 

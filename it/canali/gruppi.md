@@ -17,6 +17,24 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
 |  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/HwenUPhOPSi65CnWF2kx1Y) |
 | [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
 
+{{% details "Altri gruppi matricole (Associazioni Studentesche)" %}}
+  {{% hint warning %}}
+  <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Siete studenti ancora prima che voti!**
+  
+  Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
+  
+  1. **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”;
+
+  2. **Gestione dei gruppi assente:** entrano periodicamente spammer impuniti ed è difficile (la maggior parte degli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti;
+
+  3. [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri.
+
+     **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
+  
+  Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
+  {{% /hint %}}
+{{% /details %}}
+
 ## Gruppi generali
 
 I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse, **di qualsiasi anno e canale**:
@@ -75,9 +93,6 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
-{{< hint info >}}
-**NOTA**: Sono presenti link anche di materie esterne al corso di laurea in Informatica. Questo perché si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/percorso-formativo#come-scegliere-gli-esami-esterni).
-{{< /hint >}}
 
 #### Insegnamenti obbligatori
 
@@ -89,13 +104,18 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali.
 
 #### Insegnamenti a scelta
 
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **ACSAI e Teledidattica?**
+
+Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Questo perché al Terzo Anno si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
+{{% /hint %}}
+
 ##### Primo Semestre
 
 - [Data Science e Diritto](https://t.me/+bHU0Mc28yjBhZWM0)
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Metodi Numerici dell'Informatica](https://t.me/+Njer81tnaZNkY2M8)
 - [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)

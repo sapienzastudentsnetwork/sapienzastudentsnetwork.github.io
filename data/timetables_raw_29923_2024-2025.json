@@ -13,14 +13,14 @@
             "teacher": "GARRONI ADRIANA",
             "schedule": [
               {
-                "day": "marted\u00ec",
+                "day": "mercoled\u00ec",
                 "from": "08:00",
                 "to": "11:00"
               },
               {
-                "day": "mercoled\u00ec",
-                "from": "11:00",
-                "to": "13:00"
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
               }
             ]
           },
@@ -79,14 +79,14 @@
             "teacher": "CARLUCCI LORENZO",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
+                "day": "marted\u00ec",
                 "from": "08:00",
                 "to": "11:00"
               },
               {
-                "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "10:00"
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ]
           },
@@ -584,44 +584,16 @@
             ]
           },
           {
-            "course": "10593234",
-            "subject": "METODI NUMERICI DELL INFORMATICA",
-            "building": "Edificio: RM018",
-            "room": "Aula 1",
-            "teacher": "",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ]
-          },
-          {
-            "course": "10593234",
-            "subject": "METODI NUMERICI DELL INFORMATICA",
-            "building": "Edificio: RM115",
-            "room": "Aula G50",
+            "course": "10596283",
+            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "building": "Edificio: RM111",
+            "room": "Aula Magna",
             "teacher": "",
             "schedule": [
               {
                 "day": "luned\u00ec",
                 "from": "17:00",
-                "to": "19:00"
-              }
-            ]
-          },
-          {
-            "course": "10596283",
-            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
-            "building": "Edificio: RM018",
-            "room": "Aula 1",
-            "teacher": "",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "08:00",
-                "to": "11:00"
+                "to": "20:00"
               }
             ]
           },
@@ -676,7 +648,7 @@
             "course": "1022267",
             "subject": "PROGRAMMAZIONE PER IL WEB",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "PANIZZI EMANUELE",
             "schedule": [
               {

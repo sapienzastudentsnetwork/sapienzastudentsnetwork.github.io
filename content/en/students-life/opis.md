@@ -26,29 +26,29 @@ An OPIS survey is made of 7 sections, 6 of which are made of questions with mult
 
 The last section contains two text sections for leaving any comment that you may have, for a maximum of 300 characters.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 It is very important to compile the OPIS surveys with the uttermost honesty: if the professor held a good course, it's important to state it; if there were some issues along the way, it's important to state them as well. Comments are the most effective way for a student to communicate its thoughts regarding a course. Remember to take your time while doing your OPIS survey: your words are heard and have a great impact on the courses that you follow/followed.
 
 Don't be scared of being honest: remember that OPIS surveys are anonymous, and the professors can't see who made each single submission!
-{{< /hint >}}
+{{% /hint %}}
 
 ## How to complete an OPIS survey
 
 In order to complete an OPIS survey, you must have the OPIS code. Such code can either be given to you by the professor or it could be automatically be given to you by InfoStud when trying to reserve an exam. We'll assume that the professor gave you the code.
 
-{{< hint info >}}
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Prompted to complete the OPIS before reserving an exam seat**
 
 In case you are automatically prompted to complete the OPIS, then you can choose whether to complete the OPIS or to do it in another moment. Remember that it's mandatory to first complete the OPIS before reserving for an exam. A similar message will be shown on screen when trying to reserve for an exam whose OPIS survey hasn't been completed yet:
 
 <img src="https://i.imgur.com/uC8V8d8.png">
 
-{{< /hint >}}
+{{% /hint %}}
 
-{{< tabs "opisdevices" >}}
-{{< tab "🖥 Infostud Desktop" >}}
+{{% tabs "opisdevices" %}}
+{{% tab "🖥 Infostud Desktop" %}}
 
 1. Go to the `Opinioni Studenti`/`Students' Opinions` menu under the `Corsi di Laurea`/`Bachelors and Masters Degree Programmes` section;
 
@@ -62,8 +62,8 @@ In case you are automatically prompted to complete the OPIS, then you can choose
 
 <img src="https://i.imgur.com/ejzsWUf.png">
 
-{{< /tab >}}
-{{< tab "📱 Infostud Mobile" >}}
+{{% /tab %}}
+{{% tab "📱 Infostud Mobile" %}}
 
 1. There are two ways to access to the OPIS questionnaires through the mobile version of InfoStud. One of this is to insert the OPIS code directly in the homepage of InfoStud. If you choose to insert the code this way, then you can skip to step X. Otherwise, if you prefer to insert it in the other way, follow the next steps;
 
@@ -81,5 +81,5 @@ In case you are automatically prompted to complete the OPIS, then you can choose
 
 <img src="https://i.imgur.com/ejzsWUf.png">
 
-{{< /tab >}}
-{{< /tabs >}}
+{{% /tab %}}
+{{% /tabs %}}

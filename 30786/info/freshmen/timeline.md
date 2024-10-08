@@ -4,12 +4,6 @@ bookHidden: false
 ---
 # Timeline of the Bachelor's Degree in ACSAI
 
-{{< hint info >}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Welcome Day on September 25**
-
-On **September 25, 2024**, at 2:00 PM, the Welcome Day for new Computer Science and ACSAI students will take place. [Find all the information here](#september-25-2024-welcome-day-for-new-students).
-{{< /hint >}}
-
 Even if you might feel a bit lost at first, there are only a few key moments to keep in mind during your academic journey. This timeline will help you navigate the main milestones of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence.
 
 Remember: the goal is not just to reach the end, but to gain the most value from every stage of the journey. Take advantage of every opportunity to grow, learn, and build your future, alongside your classmates and future colleagues.
@@ -22,17 +16,13 @@ Before starting classes, it's important to check the Applied Computer Science an
 
 To locate buildings within the university city (those with codes starting with **CU**), you can consult the [classroom map](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
 
-## **September 25, 2024**: *Welcome Day* for New Students
-On **September 25, 2024**, from 2:00 PM to 4:00 PM, the *Welcome Day* for freshmen of the Bachelor’s Degree courses in Informatics (in-person and primarily online) and ACSAI will take place. During the event, you will have the opportunity to meet the professors, staff, and tutors of the course, and receive useful information to start your academic journey in the best possible way.
+## **September 25, 2024**: Welcome Meeting for New Students
 
-The event will be held in the square in front of Building E of the Department of Computer Science, accessible from Viale Regina Elena 295 and Viale del Castro Laurenziano 6.
+On **Wednesday 25 September**, a **welcome meeting** was held for **A.A. 2024/25 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**
 
-Below is the outline program:
-- Greetings from the chair of the graduate programs, Prof. Annalisa Massini
-- Introduction of the course professors
-- Introduction of the administrative staff
-- Introduction of the tutors with a presentation of study support tools
-- Brief refreshment with DJ set by DJ Palma
+With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we provided **practical information on the organisation of the Degree Course** and there was **a light refreshment**
+
+[Click here to open the slideshow](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf)
 
 ## **From September to December and from March to May**: Attend Classes
 Attending classes is essential for mastering the concepts of the various courses and passing the exams smoothly. Although some classes may be recorded or available online, active participation in the classroom will help you better understand the concepts and interact with professors and fellow students.
@@ -42,21 +32,21 @@ Forming a study group with friends can be a great strategy for tackling the acad
 ## **November 5, 2024**: First Installment Deadline for Second-Year and Later Students
 The deadline for paying the first installment is set for November 5, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 This deadline is only valid for students enrolled in the second year and beyond, as first-year enrollment includes the payment of the first installment for first-year students.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **Late October to Early November and April to May**: Take the Midterms
 Many courses, especially during the first year, offer the opportunity to take midterms during the semester. These are mini-exams that, if passed, can reduce the study load for the final exam. Typically, information about midterms is provided directly by the professor during classes, which is another reason why attending classes is important. Midterms usually take place during class time when the professor has covered half of the course material.
 
 Midterms are generally supplemented by a final written exam, which determines the final course grade. Midterms are optional, but they are a great way to reduce the study load during the exam period, which can be very demanding.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 
 Midterms are at the discretion of the professors: they will not be available for all courses. Usually, professors announce during the first classes whether they will hold midterms and an approximate period when they will take place.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **December 19, 2024**: Second Installment Deadline
 The deadline for paying the second installment is set for December 19, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
@@ -66,11 +56,11 @@ Exams take place at the end of each semester. To know the date and classroom for
 
 To take an exam, you need to register via [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) by selecting the exam under **Search Exam Sessions**.
 
-{{< hint warning >}}
+{{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
 
 Each exam has a deadline by which you must register. Be sure to register by the deadline, or you won't be able to take the exam.
-{{< /hint >}}
+{{% /hint %}}
 
 ## **March 27, 2025**: Third Installment Deadline
 The deadline for paying the third installment is set for March 27, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).

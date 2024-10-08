@@ -67,13 +67,16 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina è aggiornata automaticamente con il sistema di orari di Sapienza, ma al momento sono ancora provvisori. Per ora, è meglio controllare le pagine Frequentare dei Corsi di Laurea e i gruppi chat per restare aggiornati. Questo avviso sparirà appena ci saranno più certezze.
+  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la terza settimana di lezioni (dal 7 all'11 Ottobre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_Timetables_Time
   translation: Orario
 
 - id: Subjs_TimetablesPerTeaching_Title
   translation: Orari per singolo insegnamento
+
+- id: Subjs_TimetablesPerTeaching_NoTimetable
+  translation: Nessun orario disponibile per questa settimana. Potrebbe trattarsi di un insegnamento il cui inizio delle lezioni è stato posticipato o le cui lezioni si sono già concluse. Si consiglia di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Giorno
@@ -94,10 +97,10 @@
   translation: Unisciti al
 
 - id: Subjs_TimetablesPerTeaching_Telegram_TelegramGroup
-  translation: Gruppo Telegram
+  translation: Gruppo Telegram di
 
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
-  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso.
+  translation: per essere sempre aggiornato su eventuali cambiamenti d'orario, risorse ed info del corso
 
 - id: Subjs_CustomTimetable_Title
   translation: Il tuo orario

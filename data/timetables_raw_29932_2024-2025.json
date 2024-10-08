@@ -60,9 +60,14 @@
             "teacher": "TRONCI ENRICO",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
+                "day": "luned\u00ec",
                 "from": "14:00",
                 "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
               }
             ]
           },
@@ -84,7 +89,7 @@
             "course": "10596281",
             "subject": "AUTONOMOUS NETWORKING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MASELLI GAIA",
             "schedule": [
               {
@@ -112,32 +117,13 @@
             "course": "1041764",
             "subject": "BIG DATA COMPUTING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "10:00",
                 "to": "12:00"
-              }
-            ]
-          },
-          {
-            "course": "1041792",
-            "subject": "BIOMETRIC SYSTEMS",
-            "building": "Edificio: RM115",
-            "room": "Aula G50",
-            "teacher": "DE MARSICO MARIA",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "11:00"
               }
             ]
           },
@@ -159,7 +145,7 @@
             "course": "10600490",
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "LA MORGIA MASSIMO",
             "schedule": [
               {
@@ -262,7 +248,7 @@
             "course": "1047622",
             "subject": "CRYPTOGRAPHY",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "VENTURI DANIELE",
             "schedule": [
               {
@@ -290,13 +276,51 @@
             "course": "1047624",
             "subject": "DISTRIBUTED SYSTEMS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MEI ALESSANDRO",
             "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "11:00",
                 "to": "14:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ]
           },
@@ -323,8 +347,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
+                "from": "13:00",
+                "to": "15:00"
               }
             ]
           },
@@ -365,7 +389,7 @@
             "course": "1047642",
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "FRIOLO DANIELE",
             "schedule": [
               {
@@ -454,9 +478,14 @@
             "teacher": "TRONCI ENRICO",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
+                "day": "luned\u00ec",
                 "from": "14:00",
                 "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
               }
             ]
           },
@@ -478,7 +507,7 @@
             "course": "10596281",
             "subject": "AUTONOMOUS NETWORKING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MASELLI GAIA",
             "schedule": [
               {
@@ -506,32 +535,13 @@
             "course": "1041764",
             "subject": "BIG DATA COMPUTING",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "10:00",
                 "to": "12:00"
-              }
-            ]
-          },
-          {
-            "course": "1041792",
-            "subject": "BIOMETRIC SYSTEMS",
-            "building": "Edificio: RM115",
-            "room": "Aula G50",
-            "teacher": "DE MARSICO MARIA",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "11:00"
               }
             ]
           },
@@ -553,7 +563,7 @@
             "course": "10600490",
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "LA MORGIA MASSIMO",
             "schedule": [
               {
@@ -656,7 +666,7 @@
             "course": "1047622",
             "subject": "CRYPTOGRAPHY",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "VENTURI DANIELE",
             "schedule": [
               {
@@ -684,7 +694,7 @@
             "course": "1047624",
             "subject": "DISTRIBUTED SYSTEMS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "MEI ALESSANDRO",
             "schedule": [
               {
@@ -695,11 +705,49 @@
             ]
           },
           {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM158",
+            "room": "Aula 1",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1047627",
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "building": "Edificio: RM018",
+            "room": "Aula 2",
+            "teacher": "GALASSO FABIO",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ]
+          },
+          {
             "course": "10589558",
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
             "building": "Edificio: RM115",
             "room": "Aula G50",
-            "teacher": "",
+            "teacher": "De vitis Alessandra ",
             "schedule": [
               {
                 "day": "venerd\u00ec",
@@ -731,8 +779,8 @@
             "schedule": [
               {
                 "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
+                "from": "13:00",
+                "to": "15:00"
               }
             ]
           },
@@ -773,7 +821,7 @@
             "course": "1047642",
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "building": "Edificio: RM111",
-            "room": "Aula Magna AREA DI CANTIERE",
+            "room": "Aula Magna",
             "teacher": "FRIOLO DANIELE",
             "schedule": [
               {

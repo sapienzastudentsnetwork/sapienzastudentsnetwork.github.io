@@ -1,6 +1,6 @@
 ---
 title: "Server Discord"
-aliases: ["/discord", "/it/discord"]
+aliases: ["/discord", "/it/discord", "/it/canali/server-discord"]
 weight: 2
 ---
 # Server Discord
