@@ -1312,19 +1312,19 @@
     "degree": "30786",
     "channels": {
       "0": {
-        "gioved\u00ec": [
+        "marted\u00ec": [
           {
             "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
-            "timeslot": "11 - 14",
+            "timeslot": "13 - 15",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ],
-        "marted\u00ec": [
+        "gioved\u00ec": [
           {
             "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
-            "timeslot": "13 - 15",
+            "timeslot": "11 - 14",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
