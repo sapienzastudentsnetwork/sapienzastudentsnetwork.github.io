@@ -1,0 +1,48 @@
+name: "Add Internship Report - English"
+description: "Add an internship report to the 'internship' pages, English version"
+title: "Add Internship Report"  
+labels: Internship Report  
+assignees: Lorenzoantonelli,Exyss
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: "Report Title"
+      placeholder: "es: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      value: 
+    validations:
+      required: true
+  - type: author
+    id: title
+    attributes:
+      label: "Report Author"
+      placeholder: "John Doe"
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: "Report Topic (Keep it short!)"
+      placeholder: "es: Machine Learning"
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: "Report Link"
+      placeholder: "es: Github, Google Drive, ..."
+      value: 
+    validations:
+      required: true
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: By adding this internship report to the page, I declare that:
+      description: You must select all of them.
+      options:
+        - label: I am the author of the internship report or I have received authorization from the author to share it
+          required: true
+        - label: I wish the internship report to be shared with students on the dedicated pages of sapienzastudents.net
+          required: true
+        - label: I can request the removal of the internship report at any time by opening a new issue on GitHub  
+          required: true
