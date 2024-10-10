@@ -4,16 +4,8 @@ title: "Add Internship Report"
 labels: Internship Report  
 assignees: Lorenzoantonelli,Exyss
 body:
-  - type: textarea
-    id: desc
-    attributes:
-      label: "Report Title"
-      placeholder: "es: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      value: 
-    validations:
-      required: true
-  - type: author
-    id: title
+  - type: input
+    id: author
     attributes:
       label: "Report Author"
       placeholder: "John Doe"
@@ -24,6 +16,14 @@ body:
     attributes:
       label: "Report Topic (Keep it short!)"
       placeholder: "es: Machine Learning"
+    validations:
+      required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: "Report Title"
+      placeholder: "es: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      value: 
     validations:
       required: true
   - type: input
