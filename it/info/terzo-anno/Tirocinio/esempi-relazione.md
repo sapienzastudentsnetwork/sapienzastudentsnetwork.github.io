@@ -20,7 +20,7 @@ Qui troverai una lista di relazioni di tirocinio condivise da altri studenti del
 | Efficient Parity Decision Trees and Their Connections to Logical Proofs and Total Search Problems in NP | Simone Bianco | Computational Complexity | 🇬🇧 | [Link](https://raw.githubusercontent.com/exyss/bsc-thesis/main/src/Thesis.pdf) |
 | Achieving Max Flow in Strongly Polynomial Time for Sparse Networks: Beyond the Edmonds-Karp Algorithm | Armando Coppola | Graph Algorithms | 🇬🇧 | [Link](https://raw.githubusercontent.com/LavoroPulito/MaxFlow_Algorithms/main/src/Thesis.pdf) |
 | Machine Learning for Human Movement Classification Based on Kinect Skeleton Data | Lucian D. Crainic | Machine Learning | 🇮🇹 | [Link](https://github.com/user-attachments/files/17007434/full-version.pdf) |
-| Sviluppo di un Modello di Machine Learning per l’Applicazione di Smart Parking ’GeneroCity’: Creazione di Dati Sintetici e Analisi Preliminare | Francesco D'Aprile | Machine Learning | 🇮🇹 | [Link](https://raw.githubusercontent.com/fraadap/BachelorThesis/main/src/Thesis.pdf) |
+| Sviluppo di un Modello di Machine Learning per l’Applicazione di Smart Parking ’GeneroCity’: Creazione di Dati Sintetici e Analisi Preliminare | Francesco D'Aprile | Machine Learning | 🇮🇹 | [Link](https://raw.githubusercontent.com/fraadap/BachelorThesis/main/Bachelor%20Degree%20Thesis.pdf) |
 
 <!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
 <!--
