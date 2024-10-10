@@ -8,7 +8,7 @@ body:
     id: author
     attributes:
       label: "Report Author"
-      placeholder: "John Doe"
+      placeholder: "es: John Doe"
     validations:
       required: true
   - type: input
@@ -38,7 +38,7 @@ body:
     id: declarations
     attributes:
       label: By adding this internship report to the page, I declare that
-      description: You must select all of them.
+      description: You must select all the options.
       options:
         - label: I am the author of the internship report or I have received authorization from the author to share it
           required: true
