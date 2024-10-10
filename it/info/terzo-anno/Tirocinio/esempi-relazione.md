@@ -1,127 +1,26 @@
 ---
-title: "Tirocinio"
+title: "Esempi di Relazione"
 bookHidden: false
-aliases: ["/tirocinio", "/it/tirocinio", "/informatica/tirocinio"]
-weight: 2
+aliases: ["/esempi-relazione", "/it/esempi-relazione", "/informatica/esempi-relazione"]
+weight: 3
 ---
 
-# Tirocinio
+# Relazioni di tirocinio condivise da altri studenti
 
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
+Qui troverai una lista di relazioni di tirocinio condivise da altri studenti della Sapienza, che hanno già concluso la loro esperienza formativa in diverse realtà accademiche e aziendali. Questi documenti offrono un valido punto di riferimento per comprendere come organizzare i contenuti, quali sezioni includere, e quali aspetti del tirocinio evidenziare, traendo ispirazione su come impostare la tua relazione, rispettando gli standard accademici e integrando al meglio l’esperienza pratica con le conoscenze teoriche acquisite durante il percorso di studi.
 
-È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
-{{% /hint %}}
+{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli%2CExyss&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio"%}}Aggiungi la tua relazione alla lista{{% /button %}}
 
-{{% hint tip %}}
-<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Esempi di relazione di tirocinio**
+<!-- Sort the table by Surname and keep the Topic short! -->
 
-Nella [sezione dedicata](#relazioni-di-tirocinio-condivise-da-altri-studenti) è possibile trovare degli esempi di relazioni di tirocinio condivise da altri studenti e studentesse.
-{{% /hint %}}
-
-## Come funziona il tirocinio
-Il tirocinio è un passo fondamentale nel percorso di studi, in quanto permette di mettere in pratica le competenze acquisite durante il corso di laurea. Esso può essere svolto presso un'azienda, un ente o un laboratorio di ricerca, e può essere interno o esterno all'Università.
-
-Il tirocinio:
-* **Interno**: viene svolto nell'ambito dell'Università, con la supervisione di un docente o del suo laboratorio di ricerca. Durante il tirocinio interno, lo studente può svolgere attività di ricerca, progettazione, sviluppo, test e valutazione di sistemi informatici in diverse aree tematiche.
-* **Esterno**: viene svolto presso un'azienda o un ente esterno, con la supervisione di un tutor aziendale (Responsabile Esterno) e di un docente dell'Università (Responsabile Interno). Durante il tirocinio esterno lo studente avrà modo di mettere in pratica le competenze acquisite durante il corso di laurea, lavorando a progetti reali e affrontando le problematiche tipiche del mondo del lavoro.
-
-{{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
-
-Il tirocinio ha una durata di 105 giorni, è molto importante quindi tenere in considerazione questa durata per scegliere la sessione di laurea.
-{{% /hint %}}
-
-## Quale tirocinio fa più per me?
-La scelta tra tirocinio interno ed esterno dipende dalle tue preferenze e dal tuo percorso di studi. Ecco alcune considerazioni che potrebbero aiutarti a fare la scelta giusta:
-
-* Il **tirocinio interno** ti permette di entrare nel mondo della ricerca, lavorando a progetti innovativi e affrontando tematiche riguardanti tutti gli ambiti dell'informatica. Se sei interessato a proseguire gli studi o a svolgere un dottorato di ricerca, il tirocinio interno potrebbe essere la scelta migliore per te. Il contesto accademico, inoltre, ti permette maggiore flessibilità, soprattutto nella gestione del tempo e dello studio.
-* Il **tirocinio esterno** ti permette di entrare subito nel mondo del lavoro, un contesto completamente diverso da quello accademico e che ti permette di sviluppare competenze pratiche che potrebbero essere utili nel mondo del lavoro in futuro. Il tirocinio esterno ti permette inoltre di lavorare a progetti aziendali di grande rilevanza, che potrebbero essere un'ottima occasione per fare esperienza e costruire la tua carriera.
-
-### Come richiedere il tirocinio (interno)
-Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede pochi passaggi:
-
-1. Consultare il sito web del docente per conoscere l'ambito di ricerca ed eventuali progetti di tirocinio/tesi disponibili. Nel caso in cui non fossero disponibili indicazioni sul sito o nel caso tu abbia già un'idea di progetto, contattare direttamente il docente per chiedere informazioni.
-2. Contattare il docente esprimendo la propria intenzione di svolgere il tirocinio con lui/lei. In caso di risposta positiva, concordare insieme il progetto e i dettagli del tirocinio.
-3. Compilare il [modulo di assegnazione di tirocinio](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), inserendo l'argomento del tirocinio concordato insieme al docente. Il modulo deve essere compilato e firmato anche dal docente responsabile del tirocinio.
-4. Compilare il [modulo di autorizzazione al trattamento dei dati personali](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf).
-5. Compilare la [dichiarazione di presa visione delle linee guida sul plagio](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
-6. Scaricare da Infostud il certificato degli esami sostenuti. Per farlo è necessario accedere ad Infostud, selezionare il pulsante "Certificati" e scaricare il certificato degli esami sostenuti.
-7. Consegnare i moduli compilati e firmati, insieme al certificato degli esami sostenuti, compilando il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2).
-
-<figure style="width: 50%; margin: auto; display: block;">
-  <img src="https://i.imgur.com/zudeTeL.png">
-  <figcaption>Il pulsante Certificati di Infostud.</figcaption>
-</figure>
-
-### Come richiedere il tirocinio (esterno)
-
-1. L'azienda pubblica l'annuncio di tirocinio su [TSP Sapienza](https://uniroma1.tsp.esse3.cineca.it/pub/main-page) e attende l'approvazione.
-2. Se esistono già accordi tra lo studente e l'azienda, ma il corso di laurea non è indicato come target nell'annuncio, è possibile chiedere al Professor Gorla di aggiungerlo, fornendo le necessarie spiegazioni.
-3. Ci si candida all'annuncio su [TSP Sapienza](https://uniroma1.tsp.esse3.cineca.it/pub/main-page).
-4. L'azienda valuta la candidatura e, in caso di esito positivo, la accetta.
-5. Il Professor Gorla chiederà se è stato già individuato un relatore o se si preferisce utilizzare lui come relatore. È possibile scegliere un docente che tratti argomenti simili a quelli del tirocinio.
-6. Il Professor Gorla approva il progetto formativo.
-7. L'azienda stampa il progetto formativo da [TSP Sapienza](https://uniroma1.tsp.esse3.cineca.it/pub/main-page) e lo invia via email già firmato. In caso di mancato invio, è necessario contattare l'azienda.
-8. Il progetto viene firmato dallo studente e inviato al prof. Gorla per ottenere la terza e ultima firma da parte dell'Università.
-9. Si scarica il [modulo di assegnazione tirocinio](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), analogo a quello utilizzato per il tirocinio interno, e lo si fa firmare dal relatore scelto.
-10. Il modulo firmato viene inviato al Professor Gorla, se non è già stato firmato da lui.
-11. Il progetto formativo, completo di tutte le firme, viene restituito allo studente.
-12. Tutta la documentazione deve essere inviata alla segreteria tramite il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), insieme agli altri moduli richiesti: il [modulo di autorizzazione al trattamento dei dati personali](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf) e la [dichiarazione di presa visione delle linee guida sul plagio](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
-13. È possibile iniziare il tirocinio. È consigliabile verificare con il Professor Gorla che tutta la documentazione sia in ordine.
-
-
-## Come scrivere la relazione di tirocinio?
-La relazione di tirocinio è un documento importante che riassume l'esperienza formativa svolta durante il tirocinio. Nonostante non ci siano delle linee guida vere e proprie per la scrittura della relazione, qui troverai alcuni consigli utili per strutturare e scrivere una relazione di tirocinio di qualità.
-
-### Perché utilizzare LaTeX?
-Per la stesura della relazione di tirocinio, ti consigliamo fortemente l'utilizzo di LaTeX. LaTeX è un sistema di scrittura particolarmente adatto per documenti scientifici, articoli accademici e documenti tecnici. È ampiamente utilizzato in ambito accademico per la sua capacità di produrre documenti dall'aspetto professionale, gestire formule matematiche complesse e automatizzare la gestione di riferimenti e bibliografia tramite [BibTeX](#gestione-della-bibliografia).
-
-LaTeX ti permetterà di realizzare la tua relazione più velocemente, concentrandoti sul contenuto e lasciando che il sistema si occupi della formattazione. Inoltre, ti fornirà un documento ben strutturato e facilmente modificabile, che risulterà professionale e di alta qualità.
-
-#### Overleaf e template consigliato
-Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overleaf.com), un editor LaTeX online che non richiede installazioni sul tuo computer. Per la tua relazione, puoi partire da questo [template per la tesi di laurea triennale della Sapienza](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Anche se pensato per una tesi, è facilmente utilizzabile per una relazione di tirocinio.
-
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Imparare ad utilizzare LaTeX**
-
-Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida rapida di 30 minuti](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) per familiarizzare con i concetti di base.
-{{% /hint %}}
-
-#### Simboli matematici
-Se durante la stesura della tua relazione dovessi utilizzare simboli matematici, LaTeX ti permette di inserirli facilmente. Ad esempio, per scrivere l'insieme dei numeri reali, puoi utilizzare il comando `\mathbb{R}`. Se hai bisogno di un simbolo specifico, puoi consultare questa [lista di simboli matematici in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) per trovare il codice corrispondente.
-
-### Lunghezza della relazione
-Non esiste una lunghezza obbligatoria per la relazione di tirocinio. Tuttavia, ti consigliamo di scrivere una relazione di almeno 30 pagine. Ricorda che la qualità del contenuto è più importante della quantità di pagine, quindi concentrati sulla chiarezza e completezza delle informazioni fornite.
-
-### Gestione della bibliografia
-Per gestire efficacemente la bibliografia, ti suggeriamo di utilizzare BibTeX. Questo strumento, integrato con LaTeX, semplifica l'inserimento e la formattazione delle citazioni nel tuo documento.
-
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Guida per BibTeX**
-
-Per imparare ad utilizzare BibTeX, dai un'occhiata alla [guida alla gestione della bibliografia con BibTeX](https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex) realizzata da Overleaf.
-{{% /hint %}}
-
-### Consigli finali
-Mentre scrivi la tua relazione, mantieni uno stile di scrittura chiaro e professionale. Non esitare a usare immagini, diagrammi o snippet di codice per illustrare il tuo lavoro, quando lo ritieni appropriato.
-
-Prima della consegna finale, chiedi al tuo relatore di rileggere la tua relazione, potrebbe fornirti preziosi feedback per migliorarla e segnalarti errori da correggere.
-
-Ricorda che la relazione di tirocinio non è solo un requisito per laurearsi, ma un'opportunità per riflettere sul tuo percorso formativo e presentare le tue competenze in modo professionale. Approfitta di questa occasione per mettere in luce il tuo lavoro e le competenze acquisite durante questa importante esperienza formativa.
-
-
-## Relazioni di tirocinio condivise da altri studenti
-Qui troverai una lista di relazioni di tirocinio condivise da altri studenti della Sapienza. Questi documenti possono essere utili per farti un'idea di come strutturare e scrivere la tua relazione di tirocinio.
-
-<!--[Aggiungi la tua relazione alla lista]()-->
-{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio"%}}Aggiungi la tua relazione alla lista{{% /button %}}
-
-{{% details "Espandi la lista..."%}}
-* [Machine Learning for Human Movement Classification Based on Kinect Skeleton Data - Lucian D. Crainic](https://github.com/user-attachments/files/17007434/full-version.pdf)
-* [SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students - Lorenzo Antonelli](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing)
-{{% /details %}}
-
+| Titolo | Autore | Topic | Lingua | Link |
+| :----: | :----: | :---: | :----: | :--: |
+| SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students | Lorenzo Antonelli | Machine Learning | 🇮🇹 | [Link](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing) |
+| A Comparative Analysis of Algorithms for Identifying Cancer Driver Pathways | Alessio Bandiera | Bioinformatics | 🇬🇧 | [Link](https://raw.githubusercontent.com/aflaag/bsc-thesis/main/src/Thesis.pdf) |
+| Efficient Parity Decision Trees and Their Connections to Logical Proofs and Total Search Problems in NP | Simone Bianco | Computational Complexity | 🇬🇧 | [Link](https://raw.githubusercontent.com/exyss/bsc-thesis/main/src/Thesis.pdf) |
+| Achieving Max Flow in Strongly Polynomial Time for Sparse Networks: Beyond the Edmonds-Karp Algorithm | Armando Coppola | Graph Algorithms | 🇬🇧 | [Link](https://raw.githubusercontent.com/LavoroPulito/MaxFlow_Algorithms/main/src/Thesis.pdf) |
+| Machine Learning for Human Movement Classification Based on Kinect Skeleton Data | Lucian D. Crainic | Machine Learning | 🇮🇹 | [Link](https://github.com/user-attachments/files/17007434/full-version.pdf) |
+| Sviluppo di un Modello di Machine Learning per l’Applicazione di Smart Parking ’GeneroCity’: Creazione di Dati Sintetici e Analisi Preliminare | Francesco D'Aprile | Machine Learning | 🇮🇹 | [Link](https://raw.githubusercontent.com/fraadap/BachelorThesis/main/src/Thesis.pdf) |
 
 <!-- Nome Cognome | [Link Pagina professore sapienza]() | Link pagina docente | Ambito di ricerca -->
 <!--
