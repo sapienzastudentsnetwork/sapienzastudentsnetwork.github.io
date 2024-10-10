@@ -14,7 +14,7 @@ Prima di tutto, dovrai registrarti all'[Area Riservata di DiSCo Lazio](https://l
 
 Una volta fatto l'accesso, dovrai cliccare su "Servizio Mensa":
 
-<img src="https://i.imgur.com/g1oXxfz.png">
+<img src="https://i.imgur.com/xacN3p6.png">
 
 Dopodiché, dovrai accreditarti per l'anno accademico che ti interessa; se non è disponibile, riprova più avanti: vuol dire che DiSCo Lazio non ha ancora pubblicato il bando.
 
