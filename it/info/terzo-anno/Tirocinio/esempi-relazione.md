@@ -9,7 +9,7 @@ weight: 3
 
 Qui troverai una lista di relazioni di tirocinio condivise da altri studenti della Sapienza, che hanno già concluso la loro esperienza formativa in diverse realtà accademiche e aziendali. Questi documenti offrono un valido punto di riferimento per comprendere come organizzare i contenuti, quali sezioni includere, e quali aspetti del tirocinio evidenziare, traendo ispirazione su come impostare la tua relazione, rispettando gli standard accademici e integrando al meglio l’esperienza pratica con le conoscenze teoriche acquisite durante il percorso di studi.
 
-{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli%2CExyss&labels=Internship+Report&projects=&template=add-internship-report-it-md.md&title=Aggiunta+relazione+di+tirocinio"%}}Aggiungi la tua relazione alla lista{{% /button %}}
+{{% button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli%2CExyss&labels=Internship+Report&projects=&template=add-internship-report-en+copy.yml&title=Aggiunta+relazione+di+tirocinio"%}}Aggiungi la tua relazione alla lista{{% /button %}}
 
 <!-- Sort the table by Surname and keep the Topic short! -->
 
