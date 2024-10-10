@@ -37,7 +37,7 @@ body:
   - type: checkboxes
     id: declarations
     attributes:
-      label: By adding this internship report to the page, I declare that:
+      label: By adding this internship report to the page, I declare that
       description: You must select all of them.
       options:
         - label: I am the author of the internship report or I have received authorization from the author to share it
