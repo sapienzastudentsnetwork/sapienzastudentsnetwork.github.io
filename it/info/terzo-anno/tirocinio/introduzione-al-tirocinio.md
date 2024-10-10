@@ -1,11 +1,11 @@
 ---
-title: "Richiesta di Tirocinio"
+title: "Introduzione al Tirocinio"
 bookHidden: false
-aliases: ["/richiesta-tirocinio", "/it/richiesta-tirocinio", "/informatica/richiesta-tirocinio"]
+aliases: ["/tirocinio", "/it/tirocinio", "/informatica/tirocinio"]
 weight: 1
 ---
 
-# Richiesta di Tirocinio
+# Introduzione al Tirocinio
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
@@ -13,8 +13,8 @@ weight: 1
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
 {{% /hint %}}
 
-
 ## Come funziona il tirocinio
+
 Il tirocinio è un passo fondamentale nel percorso di studi, in quanto permette di mettere in pratica le competenze acquisite durante il corso di laurea. Esso può essere svolto presso un'azienda, un ente o un laboratorio di ricerca, e può essere interno o esterno all'Università.
 
 Il tirocinio:
@@ -28,12 +28,14 @@ Il tirocinio ha una durata di 105 giorni, è molto importante quindi tenere in c
 {{% /hint %}}
 
 ## Quale tirocinio fa più per me?
+
 La scelta tra tirocinio interno ed esterno dipende dalle tue preferenze e dal tuo percorso di studi. Ecco alcune considerazioni che potrebbero aiutarti a fare la scelta giusta:
 
 * Il **tirocinio interno** ti permette di entrare nel mondo della ricerca, lavorando a progetti innovativi e affrontando tematiche riguardanti tutti gli ambiti dell'informatica. Se sei interessato a proseguire gli studi o a svolgere un dottorato di ricerca, il tirocinio interno potrebbe essere la scelta migliore per te. Il contesto accademico, inoltre, ti permette maggiore flessibilità, soprattutto nella gestione del tempo e dello studio.
 * Il **tirocinio esterno** ti permette di entrare subito nel mondo del lavoro, un contesto completamente diverso da quello accademico e che ti permette di sviluppare competenze pratiche che potrebbero essere utili nel mondo del lavoro in futuro. Il tirocinio esterno ti permette inoltre di lavorare a progetti aziendali di grande rilevanza, che potrebbero essere un'ottima occasione per fare esperienza e costruire la tua carriera.
 
 ### Come richiedere il tirocinio (interno)
+
 Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede pochi passaggi:
 
 1. Consultare il sito web del docente per conoscere l'ambito di ricerca ed eventuali progetti di tirocinio/tesi disponibili. Nel caso in cui non fossero disponibili indicazioni sul sito o nel caso tu abbia già un'idea di progetto, contattare direttamente il docente per chiedere informazioni.
@@ -64,4 +66,3 @@ Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede
 11. Il progetto formativo, completo di tutte le firme, viene restituito allo studente.
 12. Tutta la documentazione deve essere inviata alla segreteria tramite il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), insieme agli altri moduli richiesti: il [modulo di autorizzazione al trattamento dei dati personali](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf) e la [dichiarazione di presa visione delle linee guida sul plagio](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
 13. È possibile iniziare il tirocinio. È consigliabile verificare con il Professor Gorla che tutta la documentazione sia in ordine.
-
