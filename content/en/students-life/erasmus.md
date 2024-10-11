@@ -6,5 +6,7 @@ Sapienza offers two types of Erasmus:
 - Erasmus+, that allows to attend a period of mobility of 2-12 months choosing between 500 universities in the European Union; among these universities you can find the 10 universities of the CIVIS project ([here](https://www.uniroma1.it/it/pagina/civis-universita-civica-europea) the list): due to specific agreements, mobility to these universities is integrated to make the conversion of exams easier; further information o the [Faculty site](https://i3s.web.uniroma1.it/en/erasmus-program)
 - Erasmus Extra-UE, that allows to attend the mobility in universities outside the European Union; further information on the [Sapienza site](https://www.uniroma1.it/en/pagina/bilateral-agreement-scholarships-non-eu-mobility)
 
+Furthermore, Sapienza offers the website [http://aris.me/erasmus/erasmus-tool.html](http://aris.me/erasmus/erasmus-tool.html), where you can find which universities offers similar courses to Sapienza: this is very useful in choosing the hosting university, since the convertibility of exams is one of the aspects with which the Erasmus application is valued!
+
 At the moment no information is available on the call for the current year Erasmus project, but we intend to upload a guide for presenting the application when it will be possible.
 
