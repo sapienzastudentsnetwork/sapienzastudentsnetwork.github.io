@@ -45,3 +45,4 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 ### Primo Semestre
 
 - Automi, Calcolabilità e Complessità [[Venturi]](https://github.com/sapienzastudentsnetwork/acc2324)
+- [Programmazione di Sistemi Embedded e Multicore](https://github.com/sapienzastudentsnetwork/programmazione-di-sistemi-embedded-e-multicore)
