@@ -19,6 +19,7 @@ commits_list = json.loads(commits)
 # Hard-coded conversion table: Full Name -> GitHub Username
 author_conversion_table = {
     "Lorenzo Antonelli": "Lorenzoantonelli",
+    "Simone Bianco": "Exyss",
     "Leonardo Biason": "ElBi21",
     "Ionut Cicio": "CuriousCI",
     "Matteo Collica": "matypist",
