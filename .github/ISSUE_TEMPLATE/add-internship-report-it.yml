@@ -1,27 +1,27 @@
-name: "Add Internship Report - English"
-description: "Add an internship report to the 'internship' pages, English version"
-title: "Add Internship Report"  
+name: "Aggiunta relazione di tirocinio - Italian"
+description: "Aggiungi una relazione di tirocinio alle pagine 'tirocinio', versione Italiana"
+title: "Aggiunta relazione di tirocinio"  
 labels: Internship Report  
 assignees: Lorenzoantonelli,Exyss
 body:
   - type: input
     id: author
     attributes:
-      label: "Report Author"
-      placeholder: "es: John Doe"
+      label: "Autore Relazione"
+      placeholder: "es: Mario Rossi"
     validations:
       required: true
   - type: input
     id: topic
     attributes:
-      label: "Report Topic (Keep it short!)"
+      label: "Topic Relazione (Deve essere breve!)"
       placeholder: "es: Machine Learning"
     validations:
       required: true
   - type: textarea
     id: desc
     attributes:
-      label: "Report Title"
+      label: "Titolo Relazione"
       placeholder: "es: Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       value: 
     validations:
@@ -29,7 +29,7 @@ body:
   - type: input
     id: link
     attributes:
-      label: "Report Link"
+      label: "Link Relazione"
       placeholder: "es: Github, Google Drive, ..."
       value: 
     validations:
@@ -37,12 +37,12 @@ body:
   - type: checkboxes
     id: declarations
     attributes:
-      label: By adding this internship report to the page, I declare that
-      description: You must select all the options.
+      label: Aggiungendo questa relazione di tirocinio alla pagina dichiaro che
+      description: Devi selezionare tutte le opzioni.
       options:
-        - label: I am the author of the internship report or I have received authorization from the author to share it
+        - label: Sono l'autore della relazione di tirocinio o ho ricevuto l'autorizzazione per condividerla dall'autore
           required: true
-        - label: I wish the internship report to be shared with students on the dedicated pages of sapienzastudents.net
+        - label: Desidero che la relazione di tirocinio sia condivisa con gli studenti nelle pagine dedicate di sapienzastudents.net
           required: true
-        - label: I can request the removal of the internship report at any time by opening a new issue on GitHub  
+        - label: Posso richiedere la rimozione della relazione di tirocinio in qualsiasi momento aprendo una nuova issue su GitHub
           required: true
