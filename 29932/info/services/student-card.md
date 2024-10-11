@@ -1,7 +1,7 @@
 ---
 title: Student Card
 bookToc: False
-weight: 8
+weight: 7
 ---
 
 {{% include "content/en/services/student-card.md" %}}
