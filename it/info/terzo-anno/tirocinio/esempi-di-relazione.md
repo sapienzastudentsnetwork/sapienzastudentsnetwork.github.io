@@ -4,7 +4,7 @@ bookHidden: false
 weight: 3
 ---
 
-# Esempi di Relazione
+# Esempi di Relazione di Tirocinio
 
 Qui troverai una lista di **relazioni di tirocinio condivise da altri studenti** del Corso di Laurea (o affini), che hanno già concluso la propria esperienza formativa in diverse realtà accademiche e aziendali. Questi documenti offrono un valido punto di riferimento per comprendere come organizzare i contenuti, quali sezioni includere, e quali aspetti del tirocinio evidenziare, traendo ispirazione su come impostare la tua relazione, rispettando gli standard accademici e integrando al meglio l’esperienza pratica con le conoscenze teoriche acquisite durante il percorso di studi.
 
