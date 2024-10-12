@@ -6,7 +6,7 @@ weight: 3
 
 # Forum Esercizi e Soluzioni
 
-Uno dei focus dell'[organizzazione GitHub](http://github.sapienzastudents.net) di Sapienza Students Network è la realizzazione, attraverso repository GitHub, di forum _(realizzati tramite un README.md guida e l'utilizzo degli "issues" o delle "discussions")_ per lo scambio e il confronto di soluzioni ad esercizi, anche tratti da tracce di esame passate, di corsi universitari per cui non sono pubblicamente disponibili delle soluzioni ufficiali (ad opera dei professori del corso)
+Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](http://github.sapienzastudents.net) è la realizzazione, attraverso repository GitHub, di forum _(realizzati tramite un README.md guida e l'utilizzo degli "issues" o delle "discussions")_ per lo scambio e il confronto di soluzioni ad esercizi, anche tratti da tracce di esame passate, di corsi universitari per cui non sono pubblicamente disponibili delle soluzioni ufficiali (ad opera dei professori del corso)
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Posso contribuire creando o gestendo dei repository?**
@@ -24,7 +24,6 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 ### Secondo Semestre
 
 - [Architettura degli Elaboratori](https://github.com/sapienzastudentsnetwork/architettura-degli-elaboratori)
-- Metodologie di Programmazione [[Quattrociocchi]](https://github.com/sapienzastudentsnetwork/mdp2223)
 
 ## Secondo Anno
 
@@ -44,4 +43,5 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 
 ### Primo Semestre
 
-- Automi, Calcolabilità e Complessità [[Venturi]](https://github.com/sapienzastudentsnetwork/acc2324)
+- [Automi, Calcolabilità e Complessità](https://github.com/sapienzastudentsnetwork/acc2324)
+- [Programmazione di Sistemi Embedded e Multicore](https://github.com/sapienzastudentsnetwork/programmazione-di-sistemi-embedded-e-multicore)
