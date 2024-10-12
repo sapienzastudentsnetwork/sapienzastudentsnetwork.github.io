@@ -123,7 +123,7 @@ There are **two types** of study plans for the 2024/2025 academic year (you can 
 2. **Custom Study Plan ("`PERCORSO FORMATIVO INDIVIDUALE`")**  
    Must be reviewed by the Academic Committee:
    - Choose **54 CFUs** from **any core courses** listed in the PCCs ("`ALLEGATO 1`");
-   - Add **12 CFUs** of related courses from ANNEX 2 and **12 CFUs** of free-choice courses, ensuring that all required CFUs are completed.
+   - Add **12 CFUs** of related courses ("`Insegnamenti Affini`") taken exclusively from "`ALLEGATO 2`" and **12 CFUs** of free-choice courses, ensuring that all required CFUs are completed.
    - Include an **AFC**;
    - Include **justifications** in the study plan notes for deviating from the recommended PCC-based structure, adding the phrase: "`PERCORSO INDIVIDUALE`".
 
