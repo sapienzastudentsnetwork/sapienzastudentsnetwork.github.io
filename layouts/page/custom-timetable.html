@@ -1,9 +1,13 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
+{{ $pageDegreeCode := .Params.degreeCode }}
+
     <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
-    ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ if not (eq $pageDegreeCode "29932") }}
+        ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ end }}
 
     <div class="relative" id="main">
         <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
@@ -45,8 +49,6 @@
             <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
             <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
                 {{ $courses := site.Data.courses }}
-
-                {{ $pageDegreeCode := .Params.degreeCode }}
 
                 {{ $degrees := dict }}
                 {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}

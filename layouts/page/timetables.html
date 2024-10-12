@@ -1,7 +1,9 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
-    ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ if not (in .Permalink "/29932") }}
+        ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ end }}
 
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
