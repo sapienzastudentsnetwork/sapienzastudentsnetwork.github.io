@@ -169,6 +169,10 @@
                                                         {{ $location = T "Subjs_TimetablesPerTeaching_ConstructionSite" }}
                                                     {{ end }}
 
+                                                    {{ if (strings.Contains $location "TBA") }}
+                                                        {{ $location = T "Subjs_TimetablesPerTeaching_TBA" }}
+                                                    {{ end }}
+
                                                     {{ $mapsUrl := index $dataClassrooms $classroom_id "mapsUrl" }}
 
                                                     {{ if $mapsUrl }}

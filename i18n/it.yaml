@@ -67,7 +67,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la terza settimana di lezioni (dal 7 all'11 Ottobre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
+  translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la quarta settimana di lezioni (dal 14 al 18 Ottobre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
 - id: Subjs_Timetables_Time
   translation: Orario
@@ -92,6 +92,9 @@
 
 - id: Subjs_TimetablesPerTeaching_ConstructionSite
   translation: Aula temporanea (cambia di volta in volta) per via di lavori in corso nell'aula assegnata, per l'aula corrente cerca un annuncio di Sapienza o del professore
+
+- id: Subjs_TimetablesPerTeaching_TBA
+  translation: Aula che dev'essere ancora annunciata, puoi provare a cercare un annuncio di Sapienza o del professore (o a cliccare su questo link e vedere se è stata aggiornata nell'orario pubblicato dalla Segreteria)
 
 - id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
   translation: Unisciti al

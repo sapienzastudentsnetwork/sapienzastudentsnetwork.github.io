@@ -240,7 +240,7 @@
         "department": "SECS",
         "alerts": {
             "0": [
-                "⚠\uFE0F Il corso inizierà appena (e se) sarà individuato un docente."
+                "⚠\uFE0F Docente individuato ma orari non ancora resi disponibili."
             ]
         }
     },

@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_WorkInProgress
-  translation: This page displays, for this week, the provisional timetable for the third week of classes (7 - 11 October). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
+  translation: This page displays, for this week, the provisional timetable for the fourth week of classes (14 - 18 October). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Timetables_Time
   translation: Time
@@ -93,6 +93,9 @@
 
 - id: Subjs_TimetablesPerTeaching_ConstructionSite
   translation: Temporary classroom (changes from time to time) due to ongoing work in the assigned classroom, for the current classroom look for an announcement from Sapienza or the professor
+
+- id: Subjs_TimetablesPerTeaching_TBA
+  translation: Classroom still to be announced, you can try searching for an announcement from Sapienza or the professor (or click on this link and see if it has been updated in the timetable published by the Secretariat)
 
 - id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
   translation: Join the

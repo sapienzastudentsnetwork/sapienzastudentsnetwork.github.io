@@ -467,6 +467,9 @@ if __name__ == '__main__':
     clinica_odontoiatrica_aula_a1  = 'Aula A1 Luigi Capozzi Via Caserta, 6'
     clinica_odontoiatrica = "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
 
+    viascarpa_classroom_id   = "1e079880-d2d2-49ef-8058-c58ab0baa4b4"
+    viascarpa_classroom_desc = "Aula 11 (Edificio: RM005)"
+
     first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
     second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
@@ -475,36 +478,12 @@ if __name__ == '__main__':
     second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
     first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
-    if currentDate <= datetime(2024, 10, 12):
+    if currentDate <= datetime(2024, 10, 19):
         if degree_programme_code == "29923":
-            # 1022267 - PROGRAMMAZIONE PER IL WEB
-            # There will be no classes on October 8 and 10 as Prof. Panizzi
-            # will be at the BUCA summer school they’ve organized in Venice
-            course_timetables_dict["1022267"]["channels"].pop("0")
-            course_timetables_dict["1022267"]["channels"]["0"] = {}
-
             # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
-            # Bando: il corso inizierà appena sarà individuato il docente.
+            # Docente individuato ma orari non ancora resi disponibili
             course_timetables_dict["10596283"]["channels"].pop("0")
             course_timetables_dict["10596283"]["channels"]["0"] = {}
-
-        elif degree_programme_code == "30786":
-            # 10595534 - WEB AND SOFTWARE ARCHITECTURE
-            # There will be no classes on October 8 and 10 as Prof. Panizzi
-            # will be at the BUCA summer school they’ve organized in Venice
-            course_timetables_dict["10595534"]["channels"].pop("0")
-            course_timetables_dict["10595534"]["channels"]["0"] = {}
-
-            # 10595536 - BUSINESS AND COMPUTER SCIENCE
-            course_timetables_dict["10595536"]["channels"]["0"]["martedì"] = [
-                 {
-                   "teacher": "e6fe77e5-c77c-440c-a952-b674f6f30471",
-                   "timeslot": "13 - 15",
-                   "classrooms": {
-                     "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                   }
-                 }
-            ]
 
         elif degree_programme_code == "29932":
             # 10589621 - ADVANCED MACHINE LEARNING
@@ -549,11 +528,6 @@ if __name__ == '__main__':
                 },
                 "code": "1041792"
             }
-
-            # 1047618 - COMPUTER VISION
-            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classrooms"] = {}
-            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomInfo"] = "Aula A Via dei Sabelli, 108 (RM027)"
-            course_timetables_dict["1047618"]["channels"]["0"]["martedì"][0]["classroomUrl"] = "https://maps.app.goo.gl/MxPEoeJDAm84EpjW7"
 
             # 1047627 - FOUNDATIONS OF DATA SCIENCE
             course_timetables_dict["1047627"] = {
@@ -605,8 +579,19 @@ if __name__ == '__main__':
                                 if "(Edificio: RM158)" in classroom_description:
                                     if channel_id == "1":
                                         if course_code in first_and_second_year_informatica_teachings:
-                                            classroom_info = clinica_odontoiatrica_aula_a1
-                                            classroom_url  = clinica_odontoiatrica
+                                            if day_name in ("lunedì", "martedì"):
+                                                classroom_info = clinica_odontoiatrica_aula_a1
+                                                classroom_url  = clinica_odontoiatrica
+
+                                            else:
+                                                classroom_info = "TBA"
+
+                                                if degree_programme_code == "29923":
+                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1933374392&single=true"
+                                                elif degree_programme_code == "30786":
+                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1093460107&single=true"
+                                                elif degree_programme_code == "29932":
+                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
 
                                     elif channel_id == "2":
                                         if day_name == "martedì":
@@ -615,19 +600,13 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
                                     
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
                                             classroom_info = reginaelena_edificiod_aula_101
                                             classroom_url  = reginaelena_edificiod
-
-                                        # BIG DATA COMPUTING - 1041764 - Gabriele Tolomei, Daniele De Sensi
-                                        elif course_code == "1041764":
-                                            if day_name == "mercoledì":
-                                                classroom_info = reginaelena_edificiod_aula_301
-                                                classroom_url  = reginaelena_edificiod
 
                                         # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
                                         elif course_code == "1022301":
@@ -638,21 +617,9 @@ if __name__ == '__main__':
                                         # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                         elif course_code == "1041727":
                                             if day_name == "venerdì":
-                                                classroom_info = scienzebiochimiche_aulaA
-                                                classroom_url  = scienzebiochimiche
+                                                classroom_info = reginaelena_edificiod_aula_101
+                                                classroom_url  = reginaelena_edificiod
 
-                                if "(Edificio: RM111)" in classroom_description:
-                                    # AUTONOMOUS NETWORKING - 10596281 - Gaia Maselli
-                                    # BIG DATA COMPUTING - 1041764 - Gabriele Tolomei
-                                    # BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES - 10600490 - Massimo La Morgia
-                                    # CRYPTOGRAPHY - 1047622 - Daniele Venturi
-                                    # DEEP LEARNING - 10595531 - Luigi Cinque, Fabio Galasso
-                                    # DISTRIBUTED SYSTEMS - 1047624 - Alessandro Mei
-                                    # SECURITY IN SOFTWARE APPLICATIONS - 1047642 - Daniele Friolo
-                                    if course_code in ("10596281", "1041764", "10600490", "1047622", "10595531", "1047624", "1047642"):
-                                        classroom_info = reginaelena_edificiod_aula_301
-                                        classroom_url  = reginaelena_edificiod
-                                
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
 
