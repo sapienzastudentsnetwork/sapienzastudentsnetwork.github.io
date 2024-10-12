@@ -256,12 +256,7 @@
         "shortName": "Prog. Web",
         "abbr": "WEB",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6,
-        "alerts": {
-            "0": [
-                "⚠\uFE0F Non ci saranno lezioni l'8 e il 10 ottobre perché il prof. Panizzi sarà alla summer school BUCA organizzata a Venezia. La prossima lezione di Programmazione per il Web sarà martedì 15 ottobre."
-            ]
-        }
+        "cfu": 6
     },
     "1022266": {
         "name": "Programmazione di Sistema",
@@ -438,12 +433,7 @@
         "shortName": "Web. & SW. Arch.",
         "abbr": "WASA",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6,
-        "alerts": {
-            "0": [
-                "⚠\uFE0F There will be no lectures on 8 and 10 October because Prof. Panizzi will be at the BUCA summer school organised in Venice. The next Web and Software Architecture lecture will be on Tuesday 15 October."
-            ]
-        }
+        "cfu": 6
     },
     "10595535": {
         "name": "Human Computer Interaction",
