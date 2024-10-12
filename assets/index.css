@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Minecraft';
+    src: url('minecraft.woff') format('woff');
+}
+
 .sapienza-1 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fmain-entrance-university-city-studies-la-sapienza-roma-ital-italy-90047500.jpg&f=1&nofb=1&ipt=3ef1bb17eb72a538f7c7586a7e45e11cff3b6acfd83bb27975920b70b95632ae&ipo=images');
     @apply bg-cover opacity-5;
@@ -29,10 +34,28 @@ a {
 * {
     @apply transition-colors;
 }
+
+@keyframes pulse {
+  0% {
+    @apply scale-100;
+  }
+  50% {
+    @apply scale-[1.02];
+  }
+  100% {
+    @apply scale-100;
+  }
+}
      
+.minecraft {
+    font-family: 'Minecraft' !important;
+    text-shadow: 2px 2px black;
+    animation: pulse 1s infinite ease-in-out;
+    @apply text-amber-400 ;
+}
 
 .diamond {
-    @apply bg-primary border-accent absolute z-10 h-2 w-2 rotate-45 rounded-[1px] border;
+    @apply bg-primary border-diamond absolute z-10 h-2 w-2 rotate-45 rounded-[1px] border;
 }
 
 .diamond.top-left {

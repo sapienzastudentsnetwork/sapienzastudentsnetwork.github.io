@@ -12,7 +12,10 @@ module.exports = {
         colors: {
             'primary': '#132441',
             'primary-dark': '#021330',
-            'accent': '#ffffff'
+            'accent': '#ffffff',
+            'diamond': '#2d58b5',
+            'faint': '#264281',
+            // 'faint': '#2d58b5'
         }
     },
   },
