@@ -1,10 +1,10 @@
 ---
-title: RPC Assistant
+title: RCP Assistant
 weight: 2
 bookToc: false
 ---
 
-# RPC Assistant
+# RCP Assistant
 
 <style>
     :root {
@@ -249,7 +249,7 @@ bookToc: false
 <script>
     const data = [
         [
-            "RPC in Algorithms",
+            "RCP in Algorithms",
             [
                 "Advanced Algorithms",
                 "Computational Complexity",
@@ -259,7 +259,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Artificial Intelligence",
+            "RCP in Artificial Intelligence",
             [
                 "Advanced Machine Learning",
                 "Big Data Computing",
@@ -270,7 +270,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Computational Models for Systems Design",
+            "RCP in Computational Models for Systems Design",
             [
                 "Automatic Verification of Intelligent Systems",
                 "Concurrent Systems",
@@ -280,7 +280,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Data Science",
+            "RCP in Data Science",
             [
                 "Advanced Machine Learning",
                 "Big Data Computing",
@@ -290,7 +290,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Multimedia Computing and Interaction",
+            "RCP in Multimedia Computing and Interaction",
             [
                 "Advanced Machine Learning",
                 "Advanced Software Engineering",
@@ -303,7 +303,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Networks",
+            "RCP in Networks",
             [
                 "Autonomous Networking",
                 "Computer Network Performance",
@@ -312,7 +312,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Security",
+            "RCP in Security",
             [
                 "Biometric Systems",
                 "Blockchain and Distributed Ledger Technologies",
@@ -323,7 +323,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Software Engineering",
+            "RCP in Software Engineering",
             [
                 "Advanced Algorithms",
                 "Advanced Software Engineering",
@@ -336,7 +336,7 @@ bookToc: false
             ],
         ],
         [
-            "RPC in Systems",
+            "RCP in Systems",
             [
                 "Advanced Architectures",
                 "Cloud Computing",
