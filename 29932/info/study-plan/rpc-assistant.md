@@ -465,6 +465,8 @@ bookToc: false
         const searchInput = document.getElementById("searchInput");
         searchInput.value = "";
         searchCourses();
+
+        window.scrollTo(0, 0);
     }
 
     function editSelection() {
