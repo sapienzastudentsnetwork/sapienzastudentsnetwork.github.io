@@ -7,8 +7,24 @@ bookToc: false
 # RPC Assistant
 
 <style>
+    :root {
+        --text-color: #333333;
+        --item-bg-color: #f0f0f0;
+        --result-bg-color: #f9f9f9;
+        --result-border-color: #e0e0e0;
+        --coverage-bg-color: #ddeffe;
+    }
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --text-color: #e0e0e0;
+            --item-bg-color: #1e1e1e;
+            --result-bg-color: #1e1e1e;
+            --result-border-color: #333333;
+            --coverage-bg-color: #555555;
+        }
+    }
     #courseSelection {
-      max-width: 1000px;
+        max-width: 1000px;
     }
     #description {
         margin-bottom: 20px;
@@ -23,7 +39,7 @@ bookToc: false
         margin-bottom: 20px;
     }
     #courseList li {
-        background-color: #f0f0f0;
+        background-color: var(--item-bg-color);
         border-radius: 4px;
         padding: 10px;
         height: auto;
@@ -39,6 +55,7 @@ bookToc: false
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        color: var(--text-color);
     }
     #courseList li input[type="checkbox"] {
         margin-right: 10px;
@@ -54,7 +71,7 @@ bookToc: false
     button {
         padding: 10px 15px;
         border: none;
-        border-radius: 4px;j
+        border-radius: 4px;
         cursor: pointer;
         font-size: 16px;
     }
@@ -87,8 +104,8 @@ bookToc: false
         margin-top: 20px;
     }
     .result-item {
-        background-color: #f9f9f9;
-        border: 1px solid #e0e0e0;
+        background-color: var(--result-bg-color);
+        border: 1px solid var(--result-border-color);
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         padding: 20px;
         margin-bottom: 20px;
@@ -102,15 +119,15 @@ bookToc: false
     }
     .coverage-info {
         font-size: 16px;
-        color: #555555;
-        background-color: #ddeffe;
+        color: var(--text-color);
+        background-color: var(--coverage-bg-color);
         padding: 5px 10px;
         border-radius: 4px;
         margin-bottom: 10px;
     }
     .covered-courses {
         font-style: italic;
-        color: #333333;
+        color: var(--text-color);
         margin-top: 10px;
         padding: 5px 0;
     }
@@ -139,9 +156,16 @@ bookToc: false
         border: 1px solid #ddd;
         border-radius: 4px;
         box-sizing: border-box;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+    @media (prefers-color-scheme: dark) {
+        .exam-list li.covered {
+            color: #81c784;
+        }
     }
     @media (max-width: 600px) {
-        .body {
+        body {
             padding: 5px;
         }
         #courseList {
