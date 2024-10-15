@@ -72,4 +72,4 @@ The team is divided into five departments:
 
 ## Join the Association
 
-🚀 What you have read interested you and would like to know how you can join? For further details such as open opportunities in SASA's administration or teams you can visit the [dedicated page](https://www.sasa-aerospace.it/opportunities/) 😉
+🚀 What you have read interested you and would like to know how you can join? For further details, such as open opportunities in SASA's administration or teams, you can visit the [dedicated page](https://www.sasa-aerospace.it/opportunities/) 😉

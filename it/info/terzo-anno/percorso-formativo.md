@@ -89,7 +89,7 @@ Il docente di riferimento nella Commissione competente per la laurea triennale Ã
 
 #### Legenda curriculum
 
-I due curriculum (metodologico e tecnologico) prevedono dei gruppi di insegnamenti interni al corso di Informatica e un minimo di CFU che devono essere scelti da ciascun gruppo
+I due curriculum (metodologico e tecnologico) prevedono dei gruppi di insegnamenti interni al Corso di Laurea in Informatica e un minimo di CFU che devono essere scelti da ciascun gruppo
 
 Metodologico:
 - Metodologici caratterizzanti (**mc**) - 12 CFU

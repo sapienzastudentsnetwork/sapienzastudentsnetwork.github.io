@@ -41,8 +41,8 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 - [Affitti](https://t.me/SapienzaAffittiGroup) (❕non gestito da studenti)
 - [Birra e politica](https://t.me/sapienzapolitica) (OffTopic group)
-- [Corso di Informatica in presenza (29923)](https://t.me/+zj6QEcHwZU82M2Y0)
-- [Corso di Informatica in teledidattica (29400)](https://t.me/+ly5tVN1h3yZmNDdk)
+- [CdL in Informatica in presenza (29923)](https://t.me/+zj6QEcHwZU82M2Y0)
+- [CdL in Informatica in teledidattica (29400)](https://t.me/+ly5tVN1h3yZmNDdk)
 - [Discussioni generali sull'ateneo](https://t.me/sapienzadiscussioni)
 - [Sapienza GNU/Linux community](https://t.me/+r-InQzG0ctkwNjNk)
 

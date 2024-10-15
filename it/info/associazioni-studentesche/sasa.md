@@ -81,4 +81,4 @@ Il team è suddiviso in 5 dipartimenti:
 
 ## Entra a far parte dell'Associazione
 
-🚀 Quello che hai letto ti ha interessato e ti piacerebbe sapere come è possibile entrare a farne parte? Per ulteriori dettagli come le opportunità aperte nell'amministrazione o nei team di SASA puoi visitare la [pagina dedicata](https://www.sasa-aerospace.it/opportunities/) 😉
+🚀 Quello che hai letto ti ha interessato e ti piacerebbe sapere come è possibile entrare a farne parte? Per ulteriori dettagli, come le opportunità aperte nell'amministrazione o nei team di SASA, puoi visitare la [pagina dedicata](https://www.sasa-aerospace.it/opportunities/) 😉
