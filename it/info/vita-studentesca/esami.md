@@ -1,9 +1,7 @@
 ---
-
 title: Esami
-
+aliases: ["/it/info/vita-studenti/esami"]
 weight: 1
-
 ---
 
 # Esami

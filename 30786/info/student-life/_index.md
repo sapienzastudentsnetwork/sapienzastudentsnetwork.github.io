@@ -1,5 +1,5 @@
 ---
-title: Students' Life
+title: Student Life
 bookCollapseSection: true
 weight: 2
 ---

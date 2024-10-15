@@ -1,5 +1,6 @@
 ---
 title: Borse di Collaborazione
+aliases: ["/it/info/vita-studenti/borse-di-collaborazione"]
 weight: 3
 ---
 

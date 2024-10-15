@@ -1,8 +1,10 @@
 ---
 title: Opportunità Didattiche
+aliases: ["/it/info/vita-studenti/opportunita-didattiche"]
 weight: 2
 ---
-# Oppurtinità Didattiche
+
+# Opportunità Didattiche
 
 In aggiunta alle lezioni frontali, la Sapienza offre anche svariate opportunità per ampliare le proprie conoscenze e competenze in maniera "non-standard".
 
@@ -43,4 +45,4 @@ Un percorso di eccellenza è un percorso formativo integrativo per studenti meri
 
 Alla fine del percorso si ottiene un certificato di partecipazione e un rimborso delle tasse universitarie.
 
-Il bando per l'anno corrente non è ancora uscito, si controlli con regolarità questa pagina o la [sezione Frequentare del corso di Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione), nell'area "Percorsi di Eccellenza".
+Il bando per l'anno corrente non è ancora uscito, si controlli con regolarità questa pagina o la [pagina "Frequentare" del corso di Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione), sezione "Percorsi di Eccellenza".

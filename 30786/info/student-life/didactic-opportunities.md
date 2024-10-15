@@ -1,7 +1,9 @@
 ---
 title: Didactic Opportunities
+aliases: ["/30786/info/students-life/didactic-opportunities"]
 weight: 5
 ---
+
 # Didactic Opportunities
 
 In addition to frontal lessons, Sapienza offers many opportunities to expand your skills and knowledge in a "non-standard" way.

@@ -1,8 +1,3 @@
----
-title: Exams
-weight: 1
----
-
 # Exams
 
 As every university, Sapienza asks its students to partake to the exams related to the courses that the students followed during the lecture semesters. Usually, exams are held during the exam sessions (check them [here](../Courses%20&%20Calendar/)).
