@@ -30,7 +30,7 @@ jobs:
         run: apt list --installed
 
       - name: Installing all necessary pip packages
-        run: pip install bs4 --break-system-packages
+        run: pip install bs4
 
       - name: Run lesson timetables sync script
         run: |
