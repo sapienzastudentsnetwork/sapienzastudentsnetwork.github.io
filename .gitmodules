@@ -1,3 +1,12 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "content/ssn-website-sapienza"]
+	path = content/ssn-website-sapienza
+	url = https://github.com/sapienzastudentsnetwork/ssn-website-sapienza.git
+[submodule "31774"]
+	path = 31774
+	url = https://github.com/sapienzastudentsnetwork/ssn-website-31774.git
+[submodule "31299"]
+	path = 31299
+	url = https://github.com/sapienzastudentsnetwork/ssn-website-31299.git
