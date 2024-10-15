@@ -1,5 +1,3 @@
-<script src="https://kit.fontawesome.com/6fd9d2b408.js" crossorigin="anonymous"></script>
-
 # Contributing
 
 This project is immense, and not everytime the working staff can work on it. It's a project born for the students by the students, so every possible help is appreciated. Do you feel like helping out? Just follow this guide in order to know how you can contribute!

@@ -1,8 +1,3 @@
----
-title: Student Collaboration Scholarships
-weight: 6
----
-
 # Student Collaboration Scholarships
 
 A student collaboration scholarship is a scholarship assigned to students that take part in various activity of support for Sapienza.

@@ -5,4 +5,4 @@ weight: 4
 bookToc: false
 ---
 
-{{% include "content/en/student-life/student-collaboration-scholarships.md" %}}
+{{% include "content/sapienza/en/student-life/student-collaboration-scholarships.md" %}}

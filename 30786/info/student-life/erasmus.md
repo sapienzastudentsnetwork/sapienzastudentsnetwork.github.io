@@ -5,4 +5,4 @@ weight: 4
 bookToc: false
 ---
 
-{{% include "content/en/student-life/erasmus.md" %}}
+{{% include "content/sapienza/en/student-life/erasmus.md" %}}

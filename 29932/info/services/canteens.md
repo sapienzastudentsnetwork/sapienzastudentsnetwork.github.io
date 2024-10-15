@@ -3,4 +3,4 @@ title: Canteens
 weight: 3
 ---
 
-{{% include "content/en/services/canteens.md" %}}
+{{% include "content/sapienza/en/services/canteens.md" %}}

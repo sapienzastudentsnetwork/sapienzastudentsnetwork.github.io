@@ -5,4 +5,4 @@ weight: 7
 bookToc: false
 ---
 
-{{% include "content/en/student-life/working-students.md" %}}
+{{% include "content/i3s/en/student-life/working-students.md" %}}

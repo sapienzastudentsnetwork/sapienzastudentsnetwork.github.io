@@ -4,4 +4,4 @@ bookHidden: true
 weight: 2
 ---
 
-{{% include "content/en/student-associations/sapienza-corse.md" %}}
+{{% include "content/i3s/en/student-associations/sapienza-corse.md" %}}

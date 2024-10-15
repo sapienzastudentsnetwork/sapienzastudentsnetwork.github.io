@@ -5,8 +5,6 @@ bookToC: true
 weight: 1
 ---
 
-<script src="https://kit.fontawesome.com/6fd9d2b408.js" crossorigin="anonymous"></script>
-
 # Contribuire
 
 Questo progetto è immenso, e non sempre lo staff che ci lavora può occuparsene. È un progetto nato dagli studenti per gli studenti, quindi ogni possibile aiuto è apprezzato. Vuoi dare una mano? Segui questa guida per sapere come puoi contribuire!

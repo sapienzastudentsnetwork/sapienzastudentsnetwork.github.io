@@ -3,6 +3,7 @@ title: Erasmus
 aliases: ["/it/info/vita-studenti/erasmus"]
 weight: 1
 ---
+
 # Erasmus
 
 Il progetto Erasmus permette agli studenti della Sapienza di svolgere un periodo di mobilità, cioè di frequentare parte del proprio percorso di studio presso un'altra università. Durante tale periodo si possono fare esami compatibili con quelli presenti nel proprio percorso di studi o portare avanti un progetto di ricerca per la tesi. Ogni corso di laurea permette di svolgere **al massimo un anno di mobilità**; tale anno può essere sfruttato anche in più di un'università - ad esempio, svolgendo 6 mesi presso un'ateneo durante un anno accademico e altri 6 mesi presso un'altro ateneo l'anno dopo.

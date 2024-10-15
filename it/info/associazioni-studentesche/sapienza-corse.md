@@ -4,6 +4,4 @@ bookHidden: true
 weight: 2
 ---
 
-# Associazione Giovanile Sapienza Corse
-
-Info Coming Soon!
+{{% include "content/i3s/it/associazioni-studentesche/sapienza-corse.md" %}}

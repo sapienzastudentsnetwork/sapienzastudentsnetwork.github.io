@@ -1,9 +1,7 @@
 ---
 title: Sapienza Fast Charge
-bookHidden: false
+bookHidden: true
 weight: 3
 ---
 
-# Sapienza Fast Charge
-
-Info Coming Soon!
+{{% include "content/i3s/it/associazioni-studentesche/sapienza-fast-charge.md" %}}

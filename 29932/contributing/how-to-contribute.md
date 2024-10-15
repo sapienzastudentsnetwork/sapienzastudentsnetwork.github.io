@@ -5,4 +5,4 @@ bookToC: true
 weight: 1
 ---
 
-{{% include "content/en/contributing/how-to-contribute.md" %}}
+{{% include "content/cad/en/contributing/how-to-contribute.md" %}}

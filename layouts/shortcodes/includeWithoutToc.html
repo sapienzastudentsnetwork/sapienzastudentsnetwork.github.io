@@ -1,0 +1,4 @@
+{{ $file := .Get 0 }}
+{{ $content := $file | readFile | replaceRE "^---[\\s\\S]+?---" "" }}
+{{ $renderedContent := $content | markdownify }}
+{{ $renderedContent | safeHTML }}

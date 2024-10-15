@@ -148,7 +148,7 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 ## FAQ
 
-{{% details "**Can I choose only internal courses?**"%}}
+{{% details "Can I choose only internal courses?" %}}
 
 ---
 
@@ -156,7 +156,7 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 {{% /details %}}
 <br>
-{{% details "**Can I choose all courses offered in the First Semester?**"%}}
+{{% details "Can I choose all courses offered in the First Semester?" %}}
 
 ---
 
@@ -164,7 +164,7 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 {{% /details %}}
 <br>
-{{% details "**What should I do if I choose a course that I don't like?**"%}}
+{{% details "What should I do if I choose a course that I don't like?" %}}
 
 ---
 
