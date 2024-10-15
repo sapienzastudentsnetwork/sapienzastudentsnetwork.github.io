@@ -47,12 +47,32 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.it.params]
             contentDir = 'it'
 
+    [languages.31299]
+        contentDir = '31299'
+        disabled = false
+        languageName = 'Filosofia'
+        title = 'Filosofia'
+        weight = 4
+
+        [languages.31299.params]
+            contentDir = '31299'
+
+    [languages.31774]
+        contentDir = '31774'
+        disabled = false
+        languageName = 'Filosofia e IA'
+        title = 'Filosofia e IA'
+        weight = 5
+
+        [languages.31774.params]
+            contentDir = '31774'
+
     [languages.dev]
         contentDir = 'dev'
         disabled = true
         languageName = 'Developers Wiki'
         title = 'Developers Wiki'
-        weight = 4
+        weight = 6
 
 [markup]
     [markup.goldmark]

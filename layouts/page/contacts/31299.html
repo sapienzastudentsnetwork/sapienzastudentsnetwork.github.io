@@ -1,0 +1,33 @@
+{{ define "main" }}
+    <article class="markdown book-article"><h1 id="-project-curators">
+        {{ T "Contacts_Title" }}
+
+        <a class="anchor" href="#-project-curators">#</a>
+    </h1>
+        <div class="curatorList">
+            {{ partial "contributors/marcellogalisai-filosofia" . }}
+
+            {{ partial "contributors/sapienzastudentsnetwork" . }}
+        </div>
+        <h2 id="what-do-the-badges-mean">
+            {{ T "Contacts_BadgeMeaning" }}
+            <a class="anchor" href="#what-do-the-badges-mean">#</a>
+        </h2>
+        <table>
+            <tr>
+                <td align="center"><div class="curBadge curCourse" id="anch_curBadge_Course"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> {{ T "B_Course" }}</div></td>
+                <td>{{ T "B_Course_Desc" }}</td>
+            </tr>
+            <tr>
+                <td align="center"><div class="curBadge curCADRepr" id="anch_curBadge_CADRepr"><i class="fa-solid fa-bolt"></i> {{ T "B_Stud_Repr_CAD" }}</div></td>
+                <td> {{ T "B_Stud_Repr_CAD_Desc"}}</td>
+            </tr>
+            <!--
+            <tr>
+                <td align="center"><div class="curBadge curDIPRepr" id="anch_curBadge_DIPRepr"><i class="fa-solid fa-bolt-lightning"></i> {{ T "B_Stud_Repr_DIP" }}</div></td>
+                <td> {{ T "B_Stud_Repr_DIP_Desc"}}</td>
+            </tr>
+            -->
+        </table>
+    </article>
+{{ end }}
