@@ -27,4 +27,4 @@ bookHidden: false
 
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-L'unica fonte di informazioni legalmente vincolante sul programma del corso è il [sito istituzionale di Sapienza](https://corsidilaurea.uniroma1.it/).
+L'unica fonte di informazioni sui Corsi di Laurea legalmente vincolante è il [sito istituzionale di Sapienza](https://corsidilaurea.uniroma1.it/).
