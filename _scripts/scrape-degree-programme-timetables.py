@@ -470,6 +470,9 @@ if __name__ == '__main__':
     viascarpa_classroom_id   = "1e079880-d2d2-49ef-8058-c58ab0baa4b4"
     viascarpa_classroom_desc = "Aula 11 (Edificio: RM005)"
 
+    aula_1l_classroom_id   = "3247d3bb-417e-4bba-8e7e-829bbb3863de"
+    aula_1l_classroom_desc = "Aula 1 (Edificio: RM018)"
+
     first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
     second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
@@ -477,6 +480,95 @@ if __name__ == '__main__':
     first_year_acsai_teachings = set(["10595099_1", "10595546_1", "10595524", "10595102_1", "10595102_2"])
     second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
     first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
+
+    if degree_programme_code == "29923":
+        # 1022267 - PROGRAMMAZIONE PER IL WEB
+        # Nuovo assetto orario in "vigore dalla data
+        # odierna, 15/10/2024, fino a fine semestre"
+        #
+        # La lezione del martedì di PROGRAMMAZIONE PER IL WEB è stata
+        # spostata in Aula 11, Via Scarpa; L'orario resta invariato.
+        if "martedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
+            course_timetables_dict["1022267"]["channels"]["0"]["martedì"] = [
+              {
+                "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                "timeslot": "15 - 18",
+                "classrooms": {
+                  viascarpa_classroom_id: viascarpa_classroom_desc
+                }
+              }
+            ]
+
+        # 1020421 - CALCOLO DELLE PROBABILITÀ - Prof.ssa Faggionato
+        # Nuovo assetto orario in "vigore dalla data
+        # odierna, 15/10/2024, fino a fine semestre"
+        #
+        # La lezione del martedì di CALCOLO DELLE PROBABILITA' è stata spostata
+        # al venerdì, in Aula 11, Via Scarpa, dalle ore 12.00 alle ore 14.00.
+        if "martedì" in course_timetables_dict["1020421"]["channels"]["2"]:
+            course_timetables_dict["1020421"]["channels"]["2"].pop("martedì")
+
+        if "venerdì" not in course_timetables_dict["1020421"]["channels"]["2"]:
+            course_timetables_dict["1020421"]["channels"]["2"]["venerdì"] = [
+                {
+                    "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
+                    "timeslot": "12 - 14",
+                    "classrooms": {
+                      "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+                    }
+                }
+            ]
+
+        # 1020422_1 - SISTEMI OPERATIVI I - Prof. De Gaspari
+        # Nuovo assetto orario in "vigore dalla data
+        # odierna, 15/10/2024, fino a fine semestre"
+        #
+        # La lezione del martedì di SISTEMI OPERATIVI è stata
+        # spostata in Aula 1L. L'orario resta invariato.
+        if "2" not in course_timetables_dict["1020422_1"]["channels"]:
+            course_timetables_dict["1020422_1"]["channels"]["2"] = {}
+
+        if "martedì" not in course_timetables_dict["1020422_1"]["channels"]["2"]:
+            course_timetables_dict["1020422_1"]["channels"]["2"]["martedì"] = [
+              {
+                "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+                "timeslot": "15 - 17",
+                "classrooms": {
+                  aula_1l_classroom_id: aula_1l_classroom_desc
+                }
+              }
+            ]
+
+        # La lezione del venerdì di SISTEMI OPERATIVI è stata
+        # posticipata di un'ora: dalle 14.00 alle 17.00.
+        if "venerdì" not in course_timetables_dict["1020422_1"]["channels"]["2"]:
+            course_timetables_dict["1020422_1"]["channels"]["2"]["venerdì"] =[
+              {
+                "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+                "timeslot": "14 - 17",
+                "classrooms": {
+                  "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+                }
+              }
+            ]
+
+    elif degree_programme_code == "30786":
+        # 10595534 - WEB AND SOFTWARE ARCHITECTURE
+        # Nuovo assetto orario in "vigore dalla data
+        # odierna, 15/10/2024, fino a fine semestre"
+        #
+        # La lezione del martedì di WEB AND SOFTWARE ARCHITECTURE è stata
+        # spostata in Aula 11, Via Scarpa; L'orario resta invariato.
+        if "martedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
+            course_timetables_dict["10595534"]["channels"]["0"]["martedì"] = [
+              {
+                "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+                "timeslot": "15 - 18",
+                "classrooms": {
+                  viascarpa_classroom_id: viascarpa_classroom_desc
+                }
+              }
+            ]
 
     if currentDate <= datetime(2024, 10, 19):
         if degree_programme_code == "29923":
@@ -594,7 +686,7 @@ if __name__ == '__main__':
                                                     classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
 
                                     elif channel_id == "2":
-                                        if day_name == "martedì":
+                                        if day_name == "martedì" and course_code == "1015886":
                                             classroom_info = clinica_odontoiatrica_aula_a1
                                             classroom_url  = clinica_odontoiatrica
 
