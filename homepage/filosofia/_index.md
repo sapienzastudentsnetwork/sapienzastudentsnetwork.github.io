@@ -1,7 +1,7 @@
 ---
 title: Filosofia
 bookToc: False
-bookHidden: false
+bookHidden: true
 ---
 
 <h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>

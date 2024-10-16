@@ -1,28 +1,66 @@
 <script src="https://kit.fontawesome.com/6fd9d2b408.js" crossorigin="anonymous"></script>
 
 <!-- Merge home and current page translations -->
-{{ $bookTranslatedOnly := default false .Site.Params.BookTranslatedOnly }} {{
-$translations := dict }} {{ if (eq $bookTranslatedOnly false ) }} {{ range
-.Site.Home.Translations }} {{ $translations = merge $translations (dict
-.Language.Lang .) }} {{ end }} {{ end }} {{ range .Translations }} {{
-$translations = merge $translations (dict .Language.Lang .) }} {{ end }}
+{{ $bookTranslatedOnly := default false .Site.Params.BookTranslatedOnly }}
+{{ $translations := dict }}
+{{ if (eq $bookTranslatedOnly false) }}
+    {{ range .Site.Home.Translations }}
+        {{ $translations = merge $translations (dict .Language.Lang .) }}
+    {{ end }}
+{{ end }}
+{{ range .Translations }}
+    {{ $translations = merge $translations (dict .Language.Lang .) }}
+{{ end }}
 
 <ul class="book-languages">
     <li>
         <input type="checkbox" id="languages" class="toggle" />
         <label for="languages" class="flex justify-between">
             <a role="button" class="flex align-center">
-                <i class="fa-solid fa-graduation-cap"></i>&nbsp{{
-                $.Site.Language.LanguageName }}
+                <i class="fa-solid fa-graduation-cap"></i>&nbsp;{{ $.Site.Language.LanguageName }}
             </a>
         </label>
 
         <ul>
-            {{ range .Site.Languages }}{{ with index $translations .Lang }}
-            <li>
-                <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
-            </li>
-            {{ end }}{{ end }}
+            {{ if or (eq $.Site.Language.Lang "31774") (eq $.Site.Language.Lang "31299") }}
+                <li>
+                    <a href="/filosofia"> Homepage </a>
+                </li>
+
+                <!-- If the current language is 31299 (Filosofia) or 31774 (Filosofia e IA), show the other one -->
+                {{ $otherLang := cond (eq $.Site.Language.Lang "31774") "31299" "31774" }}
+                {{ with index $translations $otherLang }}
+                <li>
+                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                </li>
+                {{ end }}
+
+            <!-- Special case for '/filosofia' page -->
+            {{ else if eq $.Page.RelPermalink "/filosofia/" }}
+                <!-- Show both 31299 and 31774 languages on '/filosofia' -->
+                {{ with index $translations "31299" }}
+                <li>
+                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                </li>
+                {{ end }}
+                {{ with index $translations "31774" }}
+                <li>
+                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                </li>
+                {{ end }}
+
+            {{ else }}
+                <!-- Otherwise, show all other languages (Computer Science Department) -->
+                {{ range .Site.Languages }}
+                    {{ if and (ne .Lang "31299") (ne .Lang "31774") }}
+                        {{ with index $translations .Lang }}
+                        <li>
+                            <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                        </li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
         </ul>
     </li>
 </ul>
