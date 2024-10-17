@@ -464,7 +464,8 @@ if __name__ == '__main__':
     matematica_aula_v  = "Aula V Matematica G. Castelnuovo (CU006)"
     matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
 
-    clinica_odontoiatrica_aula_a1  = 'Aula A1 Luigi Capozzi Via Caserta, 6'
+    clinica_odontoiatrica_aula_a1 = 'Aula A1 Luigi Capozzi Via Caserta, 6'
+    clinica_odontoiatrica_aula_a2 = 'Aula A2 Luigi Capozzi Via Caserta, 6'
     clinica_odontoiatrica = "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
 
     viascarpa_classroom_id   = "1e079880-d2d2-49ef-8058-c58ab0baa4b4"
@@ -483,19 +484,15 @@ if __name__ == '__main__':
 
     if degree_programme_code == "29923":
         # 1022267 - PROGRAMMAZIONE PER IL WEB
-        # Nuovo assetto orario in "vigore dalla data
-        # odierna, 15/10/2024, fino a fine semestre"
         #
-        # La lezione del martedì di PROGRAMMAZIONE PER IL WEB è stata
-        # spostata in Aula 11, Via Scarpa; L'orario resta invariato.
-        if "martedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
-            course_timetables_dict["1022267"]["channels"]["0"]["martedì"] = [
+        # Giovedì in Aula A2 Luigi Capozzi
+        if "giovedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
+            course_timetables_dict["1022267"]["channels"]["0"]["giovedì"] = [
               {
                 "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-                "timeslot": "15 - 18",
-                "classrooms": {
-                  viascarpa_classroom_id: viascarpa_classroom_desc
-                }
+                "timeslot": "14 - 16",
+                "classroomInfo": clinica_odontoiatrica_aula_a2,
+                "classroomUrl": clinica_odontoiatrica
               }
             ]
 
@@ -554,19 +551,15 @@ if __name__ == '__main__':
 
     elif degree_programme_code == "30786":
         # 10595534 - WEB AND SOFTWARE ARCHITECTURE
-        # Nuovo assetto orario in "vigore dalla data
-        # odierna, 15/10/2024, fino a fine semestre"
         #
-        # La lezione del martedì di WEB AND SOFTWARE ARCHITECTURE è stata
-        # spostata in Aula 11, Via Scarpa; L'orario resta invariato.
-        if "martedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
-            course_timetables_dict["10595534"]["channels"]["0"]["martedì"] = [
+        # Giovedì in Aula A2 Luigi Capozzi
+        if "giovedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
+            course_timetables_dict["10595534"]["channels"]["0"]["giovedì"] = [
               {
                 "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-                "timeslot": "15 - 18",
-                "classrooms": {
-                  viascarpa_classroom_id: viascarpa_classroom_desc
-                }
+                "timeslot": "14 - 16",
+                "classroomInfo": clinica_odontoiatrica_aula_a2,
+                "classroomUrl": clinica_odontoiatrica
               }
             ]
 
@@ -705,6 +698,11 @@ if __name__ == '__main__':
                                             if day_name == "venerdì":
                                                 classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
+
+                                elif course_code in ("1022267", "10595534"):
+                                    if day_name == "giovedì":
+                                        classroom_info = clinica_odontoiatrica_aula_a2
+                                        classroom_url  = clinica_odontoiatrica
 
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
