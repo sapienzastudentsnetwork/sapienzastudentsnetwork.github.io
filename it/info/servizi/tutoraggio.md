@@ -1,5 +1,5 @@
 ---
-title: Tutoraggio didattico
+title: Tutoraggio
 weight: 7
 ---
 
