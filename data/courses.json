@@ -237,12 +237,7 @@
         "abbr": "OGA",
         "tgGroup": "https://t.me/+TW9IFCi061Q0Nzk8",
         "cfu": 6,
-        "department": "SECS",
-        "alerts": {
-            "0": [
-                "⚠\uFE0F Docente individuato ma orari non ancora resi disponibili."
-            ]
-        }
+        "department": "SECS"
     },
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",

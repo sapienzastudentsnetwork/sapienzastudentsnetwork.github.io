@@ -577,7 +577,26 @@
     "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
     "degree": "29923",
     "channels": {
-      "0": {}
+      "0": {
+        "luned\u00ec": [
+          {
+            "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
+            "timeslot": "17 - 20",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
     },
     "code": "10596283"
   },

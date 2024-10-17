@@ -571,13 +571,7 @@ if __name__ == '__main__':
             ]
 
     if currentDate <= datetime(2024, 10, 19):
-        if degree_programme_code == "29923":
-            # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
-            # Docente individuato ma orari non ancora resi disponibili
-            course_timetables_dict["10596283"]["channels"].pop("0")
-            course_timetables_dict["10596283"]["channels"]["0"] = {}
-
-        elif degree_programme_code == "29932":
+        if degree_programme_code == "29932":
             # 10589621 - ADVANCED MACHINE LEARNING
             course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
 
@@ -715,11 +709,11 @@ if __name__ == '__main__':
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
 
-                                    print("classroom_info: " + classroom_description + " -> " + classroom_info)
+                                    #print("classroom_info: " + classroom_description + " -> " + classroom_info)
 
                                     day_schedule["classroomInfo"] = classroom_info
-                                else:
-                                    print("classroom_info: " + classroom_description)
+                                #else:
+                                #    print("classroom_info: " + classroom_description)
 
                                 if classroom_url is not None:
                                     day_schedule["classroomUrl"] = classroom_url
