@@ -658,19 +658,19 @@ if __name__ == '__main__':
                                 if "(Edificio: RM158)" in classroom_description:
                                     if channel_id == "1":
                                         if course_code in first_and_second_year_informatica_teachings:
-                                            if day_name in ("lunedì", "martedì"):
-                                                classroom_info = clinica_odontoiatrica_aula_a1
-                                                classroom_url  = clinica_odontoiatrica
+                                            #if day_name in ("lunedì", "martedì"):
+                                            classroom_info = clinica_odontoiatrica_aula_a1
+                                            classroom_url  = clinica_odontoiatrica
 
-                                            else:
-                                                classroom_info = "TBA"
-
-                                                if degree_programme_code == "29923":
-                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1933374392&single=true"
-                                                elif degree_programme_code == "30786":
-                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1093460107&single=true"
-                                                elif degree_programme_code == "29932":
-                                                    classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
+                                            #else:
+                                            #    classroom_info = "TBA"
+                                            #
+                                            #    if degree_programme_code == "29923":
+                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1933374392&single=true"
+                                            #    elif degree_programme_code == "30786":
+                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1093460107&single=true"
+                                            #    elif degree_programme_code == "29932":
+                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
 
                                     elif channel_id == "2":
                                         if day_name == "martedì" and course_code == "1015886":
