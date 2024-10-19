@@ -486,15 +486,15 @@ if __name__ == '__main__':
         # 1022267 - PROGRAMMAZIONE PER IL WEB
         #
         # Giovedì in Aula A2 Luigi Capozzi
-        if "giovedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
-            course_timetables_dict["1022267"]["channels"]["0"]["giovedì"] = [
-              {
-                "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-                "timeslot": "14 - 16",
-                "classroomInfo": clinica_odontoiatrica_aula_a2,
-                "classroomUrl": clinica_odontoiatrica
-              }
-            ]
+        #if "giovedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
+        #    course_timetables_dict["1022267"]["channels"]["0"]["giovedì"] = [
+        #      {
+        #        "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+        #        "timeslot": "14 - 16",
+        #        "classroomInfo": clinica_odontoiatrica_aula_a2,
+        #        "classroomUrl": clinica_odontoiatrica
+        #      }
+        #    ]
 
         # 1020421 - CALCOLO DELLE PROBABILITÀ - Prof.ssa Faggionato
         # Nuovo assetto orario in "vigore dalla data
@@ -622,21 +622,21 @@ if __name__ == '__main__':
             "code": "1047627"
         }
 
-    elif degree_programme_code == "30786":
+    #elif degree_programme_code == "30786":
         # 10595534 - WEB AND SOFTWARE ARCHITECTURE
         #
         # Giovedì in Aula A2 Luigi Capozzi
-        if "giovedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
-            course_timetables_dict["10595534"]["channels"]["0"]["giovedì"] = [
-              {
-                "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-                "timeslot": "14 - 16",
-                "classroomInfo": clinica_odontoiatrica_aula_a2,
-                "classroomUrl": clinica_odontoiatrica
-              }
-            ]
+        #if "giovedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
+        #    course_timetables_dict["10595534"]["channels"]["0"]["giovedì"] = [
+        #      {
+        #        "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+        #        "timeslot": "14 - 16",
+        #        "classroomInfo": clinica_odontoiatrica_aula_a2,
+        #        "classroomUrl": clinica_odontoiatrica
+        #      }
+        #    ]
 
-    if currentDate <= datetime(2024, 10, 19):
+    if currentDate <= datetime(2024, 10, 26):
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
@@ -658,34 +658,73 @@ if __name__ == '__main__':
                                 if "(Edificio: RM158)" in classroom_description:
                                     if channel_id == "1":
                                         if course_code in first_and_second_year_informatica_teachings:
-                                            #if day_name in ("lunedì", "martedì"):
-                                            classroom_info = clinica_odontoiatrica_aula_a1
-                                            classroom_url  = clinica_odontoiatrica
+                                            if day_name in ("lunedì", "martedì", "giovedì", "venerdì"):
+                                                classroom_info = clinica_odontoiatrica_aula_a1
+                                                classroom_url  = clinica_odontoiatrica
 
-                                            #else:
-                                            #    classroom_info = "TBA"
-                                            #
-                                            #    if degree_programme_code == "29923":
-                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1933374392&single=true"
-                                            #    elif degree_programme_code == "30786":
-                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1093460107&single=true"
-                                            #    elif degree_programme_code == "29932":
-                                            #        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
+                                            elif day_name == "mercoledì":
+                                                if course_code in first_year_informatica_teachings:
+                                                    # 101226 - CALCOLO DIFFERENZIALE
+                                                    if course_code == "101226":
+                                                        classroom_info = clinica_odontoiatrica_aula_a2
+                                                        classroom_url  = clinica_odontoiatrica
+
+                                                    # 1020420 - METODI MATEMATICI PER L'INFORMATICA
+                                                    elif course_code == "1020420":
+                                                        classroom_info = reginaelena_edificiod_aula_301
+                                                        classroom_url  = reginaelena_edificiod
+                                                else:
+                                                    classroom_info = reginaelena_edificiod_aula_301
+                                                    classroom_url  = reginaelena_edificiod
 
                                     elif channel_id == "2":
-                                        if day_name == "martedì" and course_code == "1015886":
+                                        if day_name == "martedì":
                                             classroom_info = clinica_odontoiatrica_aula_a1
                                             classroom_url  = clinica_odontoiatrica
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                classroom_info = reginaelena_edificiod_aula_101
-                                                classroom_url  = reginaelena_edificiod
+                                                if course_code in ("1020421", "1015887"):
+                                                    classroom_info = "TBA"
+                                                # 1015886 - ALGEBRA
+                                                elif course_code == "1015886":
+                                                    classroom_info = clinica_odontoiatrica_aula_a1
+                                                    classroom_url  = clinica_odontoiatrica
                                     
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
-                                            classroom_info = reginaelena_edificiod_aula_101
-                                            classroom_url  = reginaelena_edificiod
+                                            if day_name in ("mercoledì", "giovedì", "venerdì"):
+                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_url  = reginaelena_edificiod
+
+                                        if course_code in first_year_acsai_teachings:
+                                            if day_name == "lunedì":
+                                                # 10595524 - LINEAR ALGEBRA
+                                                if course_code == "10595524":
+                                                    classroom_info = "Aula Federigo Enriques"
+                                                    classroom_url  = matematica_building
+                                                # 10595102 - PROGRAMMING UNIT 1
+                                                elif course_code == "10595102_1":
+                                                    classroom_info = "Aula RE1 Regina Elena Ed. A (RM109)"
+                                                    classroom_url = "https://maps.app.goo.gl/K3JzmCra9afbGHzV9"
+
+                                            elif day_name == "martedì":
+                                                classroom_info = "TBA"
+
+                                        elif course_code in second_year_acsai_teachings:
+                                            if day_name == "lunedì":
+                                                # 10595525 - PROBABILITY
+                                                if course_code == "10595525":
+                                                    classroom_info = ""
+                                                    classroom_url = "https://maps.app.goo.gl/zmRSyHkNCAC9ws769"
+                                                # 10595529 - CALCULUS 2
+                                                elif course_code == "10595529":
+                                                    classroom_info = matematica_aula_iv
+                                                    classroom_info = matematica_building
+
+                                            elif day_name == "martedì":
+                                                classroom_info = clinica_odontoiatrica_aula_a2
+                                                classroom_url  = clinica_odontoiatrica
 
                                         # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
                                         elif course_code == "1022301":
@@ -696,7 +735,7 @@ if __name__ == '__main__':
                                         # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                         elif course_code == "1041727":
                                             if day_name == "venerdì":
-                                                classroom_info = reginaelena_edificiod_aula_101
+                                                classroom_info = reginaelena_edificiod_aula_301
                                                 classroom_url  = reginaelena_edificiod
 
                                 elif course_code in ("1022267", "10595534"):
@@ -712,6 +751,14 @@ if __name__ == '__main__':
                                     day_schedule["classroomInfo"] = classroom_info
                                 #else:
                                 #    print("classroom_info: " + classroom_description)
+
+                                if classroom_info == "TBA" and classroom_url is None:
+                                    if degree_programme_code == "29923":
+                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1994192526&single=true"
+                                    elif degree_programme_code == "30786":
+                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=2076434169&single=true"
+                                    elif degree_programme_code == "29932":
+                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
 
                                 if classroom_url is not None:
                                     day_schedule["classroomUrl"] = classroom_url
