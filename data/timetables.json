@@ -290,9 +290,8 @@
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "15 - 17",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
+            "classroomInfo": "TBA",
+            "classroomUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1994192526&single=true"
           }
         ],
         "gioved\u00ec": [

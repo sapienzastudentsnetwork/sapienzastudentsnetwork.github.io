@@ -684,7 +684,7 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                if course_code in ("1020421", "1015887"):
+                                                if course_code in ("1020421", "1015887_1"):
                                                     classroom_info = "TBA"
                                                 # 1015886 - ALGEBRA
                                                 elif course_code == "1015886":
