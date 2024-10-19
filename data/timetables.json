@@ -688,15 +688,6 @@
             }
           }
         ],
-        "gioved\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
@@ -716,13 +707,6 @@
     "channels": {
       "0": {
         "luned\u00ec": [
-          {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-            "timeslot": "9 - 11",
-            "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            }
-          },
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
             "timeslot": "14 - 16",
@@ -968,13 +952,6 @@
         "luned\u00ec": [
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "8c93a07d-b833-4dae-a4ff-302f0f065453": "Aula 1 (Edificio: RM158)"
-            }
-          },
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "10 - 13",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -982,13 +959,6 @@
           }
         ],
         "venerd\u00ec": [
-          {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-            "timeslot": "10 - 12",
-            "classrooms": {
-              "8c93a07d-b833-4dae-a4ff-302f0f065453": "Aula 1 (Edificio: RM158)"
-            }
-          },
           {
             "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
             "timeslot": "11 - 13",
@@ -1117,6 +1087,33 @@
       }
     },
     "code": "10589558"
+  },
+  "1041792": {
+    "subject": "BIOMETRIC SYSTEMS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041792"
   },
   "10595099_1": {
     "subject": "CALCULUS UNIT 1",

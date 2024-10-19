@@ -549,6 +549,79 @@ if __name__ == '__main__':
               }
             ]
 
+    elif degree_programme_code == "29932":
+        # 10589621 - ADVANCED MACHINE LEARNING
+        course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
+
+        # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
+        course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
+          {
+            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
+            }
+          }
+        ]
+
+        # 1041792 - BIOMETRIC SYSTEMS
+        course_timetables_dict["1041792"] = {
+            "subject": "BIOMETRIC SYSTEMS",
+            "degree": "29932",
+            "channels": {
+              "0": {
+                "mercoled\u00ec": [
+                  {
+                    "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                    "timeslot": "13 - 15",
+                    "classrooms": {
+                      "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                    }
+                  }
+                ],
+                "gioved\u00ec": [
+                  {
+                    "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
+                    "timeslot": "8 - 11",
+                    "classrooms": {
+                      "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                    }
+                  }
+                ]
+              }
+            },
+            "code": "1041792"
+        }
+
+        # 1047627 - FOUNDATIONS OF DATA SCIENCE
+        course_timetables_dict["1047627"] = {
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "degree": "29932",
+            "channels": {
+              "0": {
+                "luned\u00ec": [
+                  {
+                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                    "timeslot": "10 - 13",
+                    "classrooms": {
+                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                  }
+                ],
+                "venerd\u00ec": [
+                  {
+                    "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+                    "timeslot": "11 - 13",
+                    "classrooms": {
+                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                  }
+                ]
+              }
+            },
+            "code": "1047627"
+        }
+
     elif degree_programme_code == "30786":
         # 10595534 - WEB AND SOFTWARE ARCHITECTURE
         #
@@ -564,79 +637,6 @@ if __name__ == '__main__':
             ]
 
     if currentDate <= datetime(2024, 10, 19):
-        if degree_programme_code == "29932":
-            # 10589621 - ADVANCED MACHINE LEARNING
-            course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
-
-            # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
-            course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
-              {
-                "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
-                "timeslot": "14 - 16",
-                "classrooms": {
-                  "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
-                }
-              }
-            ]
-
-            # 1041792 - BIOMETRIC SYSTEMS
-            course_timetables_dict["1041792"] = {
-                "subject": "BIOMETRIC SYSTEMS",
-                "degree": "29932",
-                "channels": {
-                  "0": {
-                    "mercoled\u00ec": [
-                      {
-                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-                        "timeslot": "13 - 15",
-                        "classrooms": {
-                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                        }
-                      }
-                    ],
-                    "gioved\u00ec": [
-                      {
-                        "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-                        "timeslot": "8 - 11",
-                        "classrooms": {
-                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                        }
-                      }
-                    ]
-                  }
-                },
-                "code": "1041792"
-            }
-
-            # 1047627 - FOUNDATIONS OF DATA SCIENCE
-            course_timetables_dict["1047627"] = {
-                "subject": "FOUNDATIONS OF DATA SCIENCE",
-                "degree": "29932",
-                "channels": {
-                  "0": {
-                    "luned\u00ec": [
-                      {
-                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-                        "timeslot": "10 - 13",
-                        "classrooms": {
-                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                        }
-                      }
-                    ],
-                    "venerd\u00ec": [
-                      {
-                        "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
-                        "timeslot": "11 - 13",
-                        "classrooms": {
-                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                        }
-                      }
-                    ]
-                  }
-                },
-                "code": "1047627"
-            }
-
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
