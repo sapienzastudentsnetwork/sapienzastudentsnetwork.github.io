@@ -612,12 +612,12 @@ if __name__ == '__main__':
     if currentDate <= datetime(2024, 10, 26):
         # 1022267  - PROGRAMMAZIONE PER IL WEB
         # No lesson next Thursday 24 October
-        if "1022267" in course_timetables_dict and "giovedì" in course_timetables_dict["1022267"]["channels"]["0"]:
+        if ("1022267" in course_timetables_dict) and ("giovedì" in course_timetables_dict["1022267"]["channels"]["0"]):
             course_timetables_dict["1022267"]["channels"]["0"].pop("giovedì")
 
         # 10595534 - WEB AND SOFTWARE ARCHITECTURE
         # No lesson next Thursday 24 October
-        if "10595534" in course_timetables_dict and "giovedì" in course_timetables_dict["10595534"]["channels"]["0"]:
+        if ("10595534" in course_timetables_dict) and ("giovedì" in course_timetables_dict["10595534"]["channels"]["0"]):
             course_timetables_dict["10595534"]["channels"]["0"].pop("giovedì")
 
         for course_code, course_data in course_timetables_dict.items():
@@ -632,6 +632,9 @@ if __name__ == '__main__':
                                 day_schedule["teacher"] = None
                                 day_schedule["teacherInfo"] = "AIELLO VALERIANO"
                                 day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
+
+                        if (course_code == "10595102_1") and (day_name == "lunedì"):
+                            day_schedule["timeslot"] = "12 - 14"
 
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
