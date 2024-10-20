@@ -43,7 +43,18 @@ jobs:
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
       - name: Install Dart Sass
-        run: sudo snap install dart-sass
+        run: |
+          # Fetch the latest release tag from GitHub API
+          LATEST_SASS_VERSION=$(curl --silent "https://api.github.com/repos/sass/dart-sass/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+          # Download the latest Dart Sass version
+          wget https://github.com/sass/dart-sass/releases/download/${LATEST_SASS_VERSION}/dart-sass-${LATEST_SASS_VERSION}-linux-x64.tar.gz \
+          -O ${{ runner.temp }}/dart-sass.tar.gz
+          # Extract Dart Sass
+          tar -xzf ${{ runner.temp }}/dart-sass.tar.gz -C ${{ runner.temp }}
+          # Move Dart Sass to a directory in the PATH
+          sudo mv ${{ runner.temp }}/dart-sass /usr/local/bin/dart-sass
+          # Create a symbolic link to make sass command available globally
+          sudo ln -s /usr/local/bin/dart-sass/sass /usr/local/bin/sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
