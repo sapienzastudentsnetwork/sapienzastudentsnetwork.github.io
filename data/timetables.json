@@ -640,14 +640,6 @@
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
             }
           }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "14 - 16",
-            "classroomInfo": "Aula A2 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-          }
         ]
       }
     },
@@ -1469,14 +1461,6 @@
             "classrooms": {
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
             }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-            "timeslot": "14 - 16",
-            "classroomInfo": "Aula A2 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
         ]
       }

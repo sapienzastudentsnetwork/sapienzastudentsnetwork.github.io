@@ -251,7 +251,12 @@
         "shortName": "Prog. Web",
         "abbr": "WEB",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6
+        "cfu": 6,
+        "alerts": {
+            "0": [
+                "⚠\uFE0F Giovedì 24 ottobre non si terrà lezione di WASA"
+            ]
+        }
     },
     "1022266": {
         "name": "Programmazione di Sistema",
@@ -428,7 +433,12 @@
         "shortName": "Web. & SW. Arch.",
         "abbr": "WASA",
         "tgGroup": "https://t.me/+TopZxkqZSSo2MzQ0",
-        "cfu": 6
+        "cfu": 6,
+        "alerts": {
+            "0": [
+                "⚠\uFE0F No WASA lesson next Thursday 24 October"
+            ]
+        }
     },
     "10595535": {
         "name": "Human Computer Interaction",

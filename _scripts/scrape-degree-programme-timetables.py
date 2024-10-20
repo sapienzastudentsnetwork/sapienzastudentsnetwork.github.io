@@ -483,19 +483,6 @@ if __name__ == '__main__':
     first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "29923":
-        # 1022267 - PROGRAMMAZIONE PER IL WEB
-        #
-        # Giovedì in Aula A2 Luigi Capozzi
-        #if "giovedì" not in course_timetables_dict["1022267"]["channels"]["0"]:
-        #    course_timetables_dict["1022267"]["channels"]["0"]["giovedì"] = [
-        #      {
-        #        "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-        #        "timeslot": "14 - 16",
-        #        "classroomInfo": clinica_odontoiatrica_aula_a2,
-        #        "classroomUrl": clinica_odontoiatrica
-        #      }
-        #    ]
-
         # 1020421 - CALCOLO DELLE PROBABILITÀ - Prof.ssa Faggionato
         # Nuovo assetto orario in "vigore dalla data
         # odierna, 15/10/2024, fino a fine semestre"
@@ -622,21 +609,17 @@ if __name__ == '__main__':
             "code": "1047627"
         }
 
-    #elif degree_programme_code == "30786":
-        # 10595534 - WEB AND SOFTWARE ARCHITECTURE
-        #
-        # Giovedì in Aula A2 Luigi Capozzi
-        #if "giovedì" not in course_timetables_dict["10595534"]["channels"]["0"]:
-        #    course_timetables_dict["10595534"]["channels"]["0"]["giovedì"] = [
-        #      {
-        #        "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
-        #        "timeslot": "14 - 16",
-        #        "classroomInfo": clinica_odontoiatrica_aula_a2,
-        #        "classroomUrl": clinica_odontoiatrica
-        #      }
-        #    ]
-
     if currentDate <= datetime(2024, 10, 26):
+        # 1022267  - PROGRAMMAZIONE PER IL WEB
+        # No lesson next Thursday 24 October
+        if "1022267" in course_timetables_dict and "giovedì" in course_timetables_dict["1022267"]["channels"]["0"]:
+            course_timetables_dict["1022267"]["channels"]["0"].pop("giovedì")
+
+        # 10595534 - WEB AND SOFTWARE ARCHITECTURE
+        # No lesson next Thursday 24 October
+        if "10595534" in course_timetables_dict and "giovedì" in course_timetables_dict["10595534"]["channels"]["0"]:
+            course_timetables_dict["10595534"]["channels"]["0"].pop("giovedì")
+
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
