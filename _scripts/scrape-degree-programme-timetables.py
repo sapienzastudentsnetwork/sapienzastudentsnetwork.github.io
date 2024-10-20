@@ -701,12 +701,12 @@ if __name__ == '__main__':
                                             if day_name == "lunedì":
                                                 # 10595525 - PROBABILITY
                                                 if course_code == "10595525":
-                                                    classroom_info = ""
+                                                    classroom_info = "Aula 10 Castro Laurenziano (RM018)"
                                                     classroom_url = "https://maps.app.goo.gl/zmRSyHkNCAC9ws769"
                                                 # 10595529 - CALCULUS 2
                                                 elif course_code == "10595529":
                                                     classroom_info = matematica_aula_iv
-                                                    classroom_info = matematica_building
+                                                    classroom_url  = matematica_building
 
                                             elif day_name == "martedì":
                                                 classroom_info = clinica_odontoiatrica_aula_a2

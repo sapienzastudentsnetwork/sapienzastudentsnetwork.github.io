@@ -1224,7 +1224,8 @@
           {
             "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "16 - 18",
-            "classroomInfo": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
+            "classroomInfo": "Aula IV Matematica G. Castelnuovo (CU006)",
+            "classroomUrl": "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
           }
         ],
         "venerd\u00ec": [
@@ -1273,7 +1274,7 @@
           {
             "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
             "timeslot": "13 - 16",
-            "classroomInfo": "",
+            "classroomInfo": "Aula 10 Castro Laurenziano (RM018)",
             "classroomUrl": "https://maps.app.goo.gl/zmRSyHkNCAC9ws769"
           }
         ],
