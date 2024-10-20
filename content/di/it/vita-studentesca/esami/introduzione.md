@@ -1,4 +1,4 @@
-Come ogni università, la Sapienza richiede ai suoi studenti di partecipare agli esami relativi ai corsi seguiti durante i semestri di lezione. Di solito, gli esami si svolgono durante le sessioni d'esame. (Controllali [qui](../Courses%20&%20Calendar/)).
+Come ogni università, la Sapienza richiede ai suoi studenti di partecipare agli esami relativi ai corsi seguiti durante i semestri di lezione. Di solito, gli esami si svolgono durante le [Sessioni d'Esame](/it/insegnamenti/calendario/#sessioni-desame).
 
 Una sessione d'esame è un periodo di 7/8 settimane in cui i professori consentono agli studenti di sostenere gli esami relativi alla loro materia. Fatta eccezione per la sessione d'esame di settembre e le sessioni straordinarie (scopri di più [qui](https://www.uniroma1.it/it/content/esami-di-profitto)), tutte le sessioni permettono agli studenti di sostenere l'esame fino a due volte.
 
@@ -9,7 +9,7 @@ Puoi sostenere un esame quante volte vuoi, e non c'è alcuna penalità per quest
 
 Supponi di voler sostenere l'esame di Calcolo Differenziale. Sei una matricola dell'A.A. 2024/2025. Il professore comunicherà due date in cui potrai sostenere l'esame, (ad esempio il 10/01/2025 e il 03/02/2025). Puoi sostenere l'esame nella prima e/o nella seconda data.
 
-Supponi che, per qualsiasi motivo, tu non possa sostenere l'esame nella prima sessione d'esame (quindi in quella invernale): potrai sostenere quell'esame in **qualsiasi altra** sessione d'esame a cui ti è permesso partecipare (quindi o nella sessione estiva o in quella di settembre, a meno che tu non abbia fatto richiesta per le sessioni straordinarie. Maggiori informazioni su di esse possono essere trovate qui sotto) **fino a quando non supererai l'esame**.
+Supponi che, per qualsiasi motivo, tu non possa sostenere l'esame nella prima sessione d'esame (quindi in quella invernale): potrai sostenere quell'esame in **qualsiasi altra** sessione d'esame a cui ti è permesso partecipare **fino a quando non supererai l'esame**.
 {{% /hint %}}
 
 ## Tipi di esame
