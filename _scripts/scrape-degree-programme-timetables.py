@@ -695,7 +695,14 @@ if __name__ == '__main__':
                                                     classroom_url = "https://maps.app.goo.gl/K3JzmCra9afbGHzV9"
 
                                             elif day_name == "martedì":
-                                                classroom_info = "TBA"
+                                                # 10595099 - CALCULUS UNIT 1
+                                                if course_code == "10595099_1":
+                                                    classroom_info = "Aula 3 Blu Ed. Botanica (CU028)"
+                                                # 10595546 - COMPUTER ARCHITECTURE UNIT 1
+                                                elif course_code == "10595546_1":
+                                                    classroom_info = "Aula 1 Blu Ed. Botanica (CU028)"
+
+                                                classroom_url = "https://maps.app.goo.gl/TT5F66W5Z9Fo3Tae8"
 
                                         elif course_code in second_year_acsai_teachings:
                                             if day_name == "lunedì":
