@@ -1,0 +1,33 @@
+{{ define "main" }}
+    <article class="markdown book-article"><h1 id="-project-curators">
+        {{ T "Contacts_Title" }}
+
+        <a class="anchor" href="#-project-curators">#</a>
+    </h1>
+        <div class="curatorList">
+            {{ partial "contributors/SangueSpada" . }}
+
+            {{ partial "contributors/Eleonora99-cybersecurity" . }}
+
+            {{ partial "contributors/matypist-cybersecurity" . }}
+        </div>
+        <h2 id="what-do-the-badges-mean">
+            {{ T "Contacts_BadgeMeaning" }}
+            <a class="anchor" href="#what-do-the-badges-mean">#</a>
+        </h2>
+        <table>
+            <tr>
+                <td align="center"><div class="curBadge curCourse" id="anch_curBadge_Course"><i class="fa-solid fa-graduation-cap" style="color: #feffff;"></i> {{ T "B_Course" }}</div></td>
+                <td>{{ T "B_Course_Desc" }}</td>
+            </tr>
+            <tr>
+                <td align="center"><div class="curBadge curCyberSecRepr" id="anch_curBadge_CyberSecRepr"><i class="fa-solid fa-bolt-lightning" style="color: #feffff;"></i> {{ T "B_CyberSecRepr" }}</div></td>
+                <td>{{ T "B_CyberSecRepr_Desc" }}</td>
+            </tr>
+            <tr>
+                <td align="center"><div class="curBadge curCSRepr" id="anch_curBadge_CSRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> {{ T "B_CSRepr" }}</div></td>
+                <td>{{ T "B_CSRepr_Desc" }}</td>
+            </tr>
+        </table>
+    </article>
+{{ end }}

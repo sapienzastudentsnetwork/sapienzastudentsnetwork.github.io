@@ -1,6 +1,5 @@
 ---
-title: Team Studenteschi
+title: Services
 bookCollapseSection: true
-bookHidden: false
 weight: 3
 ---

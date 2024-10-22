@@ -37,12 +37,22 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.29932.params]
             contentDir = '29932'
 
+    [languages.29389]
+        contentDir = '29389'
+        disabled = false
+        languageName = 'Cybersecurity'
+        title = 'Cybersecurity'
+        weight = 3
+
+        [languages.29389.params]
+        contentDir = '29389'
+
     [languages.it]
         contentDir = 'it'
         disabled = false
         languageName = 'Informatica'
         title = 'Informatica'
-        weight = 3
+        weight = 4
 
         [languages.it.params]
             contentDir = 'it'
@@ -52,7 +62,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = false
         languageName = 'Filosofia'
         title = 'Filosofia'
-        weight = 4
+        weight = 5
 
         [languages.31299.params]
             contentDir = '31299'
@@ -62,7 +72,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = false
         languageName = 'Filosofia e IA'
         title = 'Filosofia e IA'
-        weight = 5
+        weight = 6
 
         [languages.31774.params]
             contentDir = '31774'
@@ -72,7 +82,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         disabled = true
         languageName = 'Developers Wiki'
         title = 'Developers Wiki'
-        weight = 6
+        weight = 7
 
 [markup]
     [markup.goldmark]

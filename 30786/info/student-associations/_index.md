@@ -1,5 +1,5 @@
 ---
-title: Student Associations
+title: Student Teams
 bookCollapseSection: true
 bookHidden: false
 weight: 3

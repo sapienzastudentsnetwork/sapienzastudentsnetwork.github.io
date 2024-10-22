@@ -1,4 +1,5 @@
 :root {
+    --cybersec-curator-height: 300px;
     --curator-height: 430px;
     --border-color: #dedede;
 }
@@ -22,6 +23,10 @@
         align-items: center;
         padding: 5px;
     }
+
+    .cyberSecCurator {
+        height: var(--cybersec-curator-height);
+    }
 }
 
 @media screen and (min-width: 520px) {
@@ -41,6 +46,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .cyberSecCurator {
+        height: var(--cybersec-curator-height);
     }
 
     .curBadges {
@@ -69,6 +78,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .cyberSecCurator {
+        height: var(--cybersec-curator-height);
     }
 }
 
@@ -140,6 +153,14 @@
 
 .curDIPRepr {
     background-color: #5b2393;
+}
+
+.curCSRepr {
+    background-color: #356f54;
+}
+
+.curCyberSecRepr {
+    background-color: #C39C1F;
 }
 
 .curBadges {

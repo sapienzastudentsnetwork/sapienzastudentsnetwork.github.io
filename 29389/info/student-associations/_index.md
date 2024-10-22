@@ -2,5 +2,5 @@
 title: Student Teams
 bookCollapseSection: true
 bookHidden: false
-weight: 4
+weight: 2
 ---
