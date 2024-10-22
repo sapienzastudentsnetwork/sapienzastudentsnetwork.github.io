@@ -180,7 +180,7 @@
                                                     {{ end }}
                                                 {{ end }}
                                             {{ else }}
-                                                {{ $classroomInfo := $info.classroomInfo }}
+                                                {{ $classroomInfo := replace $info.classroomInfo "\\" "" }}
                                                 {{ $classroomUrl := $info.classroomUrl }}
 
                                                 {{ if (strings.Contains $classroomInfo "TBA") }}

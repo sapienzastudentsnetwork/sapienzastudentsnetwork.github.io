@@ -670,12 +670,11 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                if course_code in ("1020421", "1015887_1"):
-                                                    classroom_info = "TBA"
-                                                # 1015886 - ALGEBRA
-                                                elif course_code == "1015886":
-                                                    classroom_info = clinica_odontoiatrica_aula_a1
-                                                    classroom_url  = clinica_odontoiatrica
+                                                classroom_info = "Aula I - Chimica \"Vincenzo Caglioti\" (CU032)"
+                                                classroom_url  = "https://virtualtour.uniroma1.it/?building=CU032&c=1"
+
+                                                if course_code == "1020421":
+                                                    day_schedule["timeslot"] = "14 - 15"
                                     
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:

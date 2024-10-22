@@ -246,8 +246,8 @@
           {
             "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
             "timeslot": "17 - 19",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classroomInfo": "Aula I - Chimica \\\"Vincenzo Caglioti\\\" (CU032)",
+            "classroomUrl": "https://virtualtour.uniroma1.it/?building=CU032&c=1"
           }
         ],
         "gioved\u00ec": [
@@ -290,8 +290,8 @@
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "15 - 17",
-            "classroomInfo": "TBA",
-            "classroomUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1994192526&single=true"
+            "classroomInfo": "Aula I - Chimica \\\"Vincenzo Caglioti\\\" (CU032)",
+            "classroomUrl": "https://virtualtour.uniroma1.it/?building=CU032&c=1"
           }
         ],
         "gioved\u00ec": [
@@ -350,9 +350,9 @@
         "mercoled\u00ec": [
           {
             "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
-            "timeslot": "13 - 15",
-            "classroomInfo": "TBA",
-            "classroomUrl": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1994192526&single=true"
+            "timeslot": "14 - 15",
+            "classroomInfo": "Aula I - Chimica \\\"Vincenzo Caglioti\\\" (CU032)",
+            "classroomUrl": "https://virtualtour.uniroma1.it/?building=CU032&c=1"
           }
         ],
         "venerd\u00ec": [
