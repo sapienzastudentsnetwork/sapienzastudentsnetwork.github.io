@@ -12,6 +12,7 @@ bookToc: False
 
 🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪
 
+<!--
 ## Featured pages
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
@@ -30,3 +31,4 @@ bookToc: False
         <button class="explore_more" onclick="window.location.href = 'info/study-plan/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
+-->
