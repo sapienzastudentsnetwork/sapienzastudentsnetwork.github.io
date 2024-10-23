@@ -607,20 +607,6 @@
             ]
           },
           {
-            "course": "10596283",
-            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
-            "building": "Edificio: RM113",
-            "room": "Aula T1 ",
-            "teacher": "Smeriglio Michelangelo",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              }
-            ]
-          },
-          {
             "course": "10593235",
             "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
             "building": "Edificio: RM018",
