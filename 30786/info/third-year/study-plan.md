@@ -23,7 +23,7 @@ Of the **36 ECTS credits**:
 
 - **6 ECTS credits** (**1** course) must be chosen from the [Law and Economics course catalog](#law-and-economics);
 
-- **12-15 ECTS credits** can be chosen from [outside the ACSAI course catalog](#external-elective-courses), including from other departments (and faculties).
+- **12-15 ECTS credits** can be chosen from [outside the ACSAI course catalog](#how-to-select-external-courses), including from other departments (and faculties).
 
 ## When to Submit Your Study Plan
 
