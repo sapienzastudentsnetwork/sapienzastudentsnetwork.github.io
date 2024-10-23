@@ -6,7 +6,7 @@ aliases: ["/acsai/study-plan", "/30786/study-plan", "/30786/info/third-year/stud
 # ACSAI Study Plan
 
 {{% hint info %}}
-Most of the information on this page has been taken from the Attend section of the Bachelor's degree in Applied Computer Science and Artificial Intelligence page dedicated to [completing the Study Plan](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme).
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Most of the information on this page has been taken from the Attendance page of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence page dedicated to [completing the Study Plan](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme).
 {{% /hint %}}
 
 ## What is the Study Plan?
