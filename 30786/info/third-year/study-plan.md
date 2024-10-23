@@ -19,13 +19,11 @@ Each student must choose **36 ECTS credits ("CFU")** of **elective courses**. Fo
 
 Of the **36 ECTS credits**:
 
-- **12 ECTS credits** can be chosen from outside the ACSAI course catalog, including from other departments (and faculties)
+- **18 ECTS credits** (**3** courses) must be chosen from the [Applied Computer Science course catalog](#applied-computer-science);
 
-  - In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Program, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
+- **6 ECTS credits** (**1** course) must be chosen from the [Law and Economics course catalog](#law-and-economics);
 
-- **18 ECTS credits** (**3** courses) must be chosen from the Applied Computer Science course catalog
-
-- **6 ECTS credits** (**1** course) must be chosen from the Law and Economics course catalog
+- **12-15 ECTS credits** can be chosen from [outside the ACSAI course catalog](#external-elective-courses), including from other departments (and faculties).
 
 ## When to Submit Your Study Plan
 
@@ -58,17 +56,19 @@ In all other cases, students will need to wait for their Study Plan to be review
 
 ## How to select External Courses
 
-Each student **can** choose **12 ECTS** of courses outside the course manifesto, and thus from other **Bachelor's** Degree Programs (if desired also from other departments or even faculties), but **how to choose these teachings?**
+**12 ECTS credits** of the Study Plan can be of courses outside the course manifesto, and thus from other **Bachelor's** Degree Programs (if desired also from other departments or even faculties), but **how to choose these teachings?**
 
-- In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Program, which will however be counted as a maximum of **12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **12-15 ECTS credits**
+
+In particular, it is possible to choose up to a maximum of **15 ECTS** of courses outside the Degree Program, which **will however be counted as a maximum of 12 ECTS**. This is to give you the possibility of choosing, for purely personal interest, one course outside the degree of 6 ECTS and another of 9, for example.
+{{% /hint %}}
 
 The choice of an external course must still be relevant to the Applied Computer Science and Artificial Intelligence Degree Program, meaning it must be a **course that can be useful for Applied Computer Science and Artificial Intelligence training**.
 
 - _For example, a Mathematics course might be useful for Applied Computer Science and Artificial Intelligence training, but a Literature course is unlikely to be considered useful._
 
-For assurance, students can ask the relevant [Academic Advisor](#academic-advisor) in the Competent Commission for the evaluation and approval of Study Plans whether the chosen course is relevant to the degree program.
-
-This can be done, for example, by sending an email with the course name, Degree Program, and Faculty where it is offered, explaining the choice of the course, and asking for confirmation about whether it can be included in their Study Plan.
+For assurance, students can ask the relevant [Academic Advisor](#academic-advisor) in the Competent Commission for the evaluation and approval of Study Plans whether the chosen course is relevant to the degree program. This can be done, for example, by sending an email with the course name, Degree Program, and Faculty where it is offered, explaining the choice of the course, and asking for confirmation about whether it can be included in their Study Plan.
 
 - Keep in mind that **external courses chosen** are not always accepted; they are **often rejected** because they are similar to courses already included as mandatory in the degree program, or because they are not relevant.
 
@@ -77,13 +77,13 @@ Some courses that have been previously approved as external courses for ACSAI st
 ## Courses
 
 | Course code | Course                          | Semester            | ECTS | SSD    |
-| ----------- | ------------------------------- |---------------------| --- | ------ |
-| 10595530    | Foundations of Computer Science | First               | 6   | INF/01 |
-|             | Applied Computer Science        | See "Course groups" | 18  | INF/01 |
-|             | Law and Economics               | See "Course groups" | 6   |        |
-|             | Elective courses                | -                   | 12  |        |
-| AAF1466     | Internship                      | Second              | 12  |        |
-| AAF2011     | Final exam                      | Second              | 6   |        |
+|-------------|---------------------------------|---------------------|------|--------|
+| 10595530    | Foundations of Computer Science | First               | 6    | INF/01 |
+|             | Applied Computer Science        | See "Course groups" | 18   | INF/01 |
+|             | Law and Economics               | See "Course groups" | 6    |        |
+|             | Elective courses                | -                   | 12   |        |
+| AAF1466     | Internship                      | Second              | 12   |        |
+| AAF2011     | Final exam                      | Second              | 6    |        |
 
 ## Course groups
 
@@ -91,22 +91,22 @@ Some courses that have been previously approved as external courses for ACSAI st
 
 The student must choose **at least 3 courses**, acquiring at least 18 ECTS, **from this group**
 
-| Course code | Course                        | Year  | Semester | ECTS | SSD    |
-| ----------- |-------------------------------| ----- | -------- | --- | ------ |
-| 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
-| 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
-| 10595534    | Web and Software Architecture | Third | First    | 6   | INF/01 |
-| 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
-| 10595533    | Optimization                  | Third | Second   | 6   | INF/01 |
+| Course code | Course                        | Year  | Semester | ECTS | SSD    | Chat                                       |
+|-------------|-------------------------------|-------|----------|------|--------|--------------------------------------------|
+| 10595532    | Cybersecurity                 | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0) |
+| 10595531    | Deep Learning                 | Third | First    | 6    | INF/01 | -                                          |
+| 10595534    | Web and Software Architecture | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) |
+| 10595535    | Human Computer Interaction    | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0) |
+| 10595533    | Optimization                  | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+nx7dseifrswzNGU6) |
 
 ### Law and Economics
 
 The student must choose **at least 1 course**, acquiring at least 6 ECTS, **from this group**
 
-| Course code | Course                        | Year  | Semester | ECTS | SSD       | Chat |
-|-------------|-------------------------------|-------|----------|------|-----------| 
-| 10595536    | Business and Computer Science | Third | Second   | 6    | SECS-P/07 |
-| 10595537    | Law and Computer Science      | Third | Second   | 6    | IUS/20    |
+| Course code | Course                        | Year  | Semester | ECTS | SSD       | Chat                                       |
+|-------------|-------------------------------|-------|----------|------|-----------|--------------------------------------------|
+| 10595536    | Business and Computer Science | Third | Second   | 6    | SECS-P/07 | [Telegram](https://t.me/+Z8YI05oono0yNjFk) |
+| 10595537    | Law and Computer Science      | Third | Second   | 6    | IUS/20    | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
 
 ### External Elective Courses
 
@@ -143,7 +143,7 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 The **"Commission for the Evaluation and Approval of Study Plans"** is responsible for assessing and approving Study Plans within a few weeks.
 
 {{% hint warning %}}
-Students are advised not to write before two weeks if it is not strictly necessary. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the Study Plan compliant with the Study Plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval.
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Students are advised not to write before two weeks after having submitted a Study Plan if it is not strictly necessary**. In the event of non-approval, students will receive appropriate communication regarding the changes needed to make the Study Plan compliant with the Study Plan regulations. A student may resubmit a new plan with the necessary corrections immediately after receiving the notification of non-approval.
 {{% /hint %}}
 
 The academic advisor on the Commission for the Bachelor's Degree is [Prof. Angelo Spognardi](https://www.di.uniroma1.it/en/docenti/spognardi-angelo), to whom you can write for further information and/or urgent approval requests (e.g., learning agreement for the Erasmus program).
