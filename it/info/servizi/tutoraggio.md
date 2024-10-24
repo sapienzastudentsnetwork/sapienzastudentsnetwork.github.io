@@ -4,6 +4,18 @@ weight: 7
 ---
 
 # Tutoraggio
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Il tutoraggio per l'apprendimento complessivo è attivo!**
+
+Potrete trovare i tutor nell'aula G06, Edificio G in via Regina Elena 295, nei seguenti orari:
+{{% /hint %}}
+| Giorno       | 10:00 - 12:00                                      | 13:00 - 18:00                                      |
+|-----------|----------------------------------------------------|----------------------------------------------------|
+| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
+| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani)   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) |
+| Mercoledì | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
+| Giovedì  | [Oriana Deliallisi](https://telegram.me/orianani)   | [Michele Palma](https://telegram.me/flyingmp)      |
+| Venerdì    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)  |
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Sono ora disponibili gli [orari](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=578937235&single=true) per le attività di tutoraggio dei singoli insegnamenti
