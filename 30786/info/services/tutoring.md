@@ -1,24 +1,12 @@
 ---
-title: Didactic Tutoring
+title: Tutoring
 weight: 7
 ---
 
 # Tutoring
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **The Comprehensive Learning Support is now Active!**
-
-You can find the tutors in Via Regina Elena 295, G Building, Room G06. The schedules are the following:
-{{% /hint %}}
-| Day       | 10:00 - 12:00                                      | 13:00 - 18:00                                      |
-|-----------|----------------------------------------------------|----------------------------------------------------|
-| Monday    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
-| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani)   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) |
-| Wednesday | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
-| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani)   | [Michele Palma](https://telegram.me/flyingmp)      |
-| Friday    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)  |
 
 {{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> The [schedules](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1260174614&single=true) for tutoring activities for each course are now available.
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> The [tutoring schedule for comprehensive learning](#comprehensive-learning-support-tutoring) is now also available.
 {{% /hint %}}
 
 Tutoring is a valuable resource offered by Sapienza to support students in their academic journey. Whether you are a first-year student trying to find your way within the university or a student needing assistance with specific courses, tutoring can help you overcome challenges and achieve your goals.
@@ -41,11 +29,20 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 ### Comprehensive Learning Support Tutoring
 
-Below is a list of contacts for the Comprehensive Learning Support Tutors for the 2024/25 Academic Year:
+You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, during the following hours:
 
-| Tutor             | Contact                                        |
-|-------------------|------------------------------------------------|
-| Lorenzo Antonelli | [Telegram](https://telegram.me/lorenzosphotos)  |
-| Oriana Deliallisi | [Telegram](https://telegram.me/orianani)        |
-| Marcello Galisai  | [Telegram](https://telegram.me/marcellogalisai) |
-| Michele Palma     | [Telegram](https://telegram.me/flyingmp)        |
+| Day        | 10:00 - 12:00                                     | 13:00 - 18:00                                                   |
+|------------|---------------------------------------------------|-----------------------------------------------------------------|
+| Monday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)               |
+| Tuesday    | [Oriana Deliallisi](https://telegram.me/orianani) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)         |
+| Wednesday  | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)               |
+| Thursday   | [Oriana Deliallisi](https://telegram.me/orianani) | [Michele Palma](https://telegram.me/flyingmp)                   |
+| Friday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19) |
+
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
+
+The tutors will be available in person to listen to you and answer any questions you may have about your academic journey, or to help you find useful information and resources.
+
+This is especially useful for students taking their first steps within the University. It is, therefore, a practical general orientation service, from students to students.
+{{% /hint %}}
