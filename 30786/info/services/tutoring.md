@@ -4,6 +4,18 @@ weight: 7
 ---
 
 # Tutoring
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **The Comprehensive Learning Support is now Active!**
+
+You can find the tutors in Via Regina Elena 295, G Building, Room G06. The schedules are the following:
+{{% /hint %}}
+| Day       | 10:00 - 12:00                                      | 13:00 - 18:00                                      |
+|-----------|----------------------------------------------------|----------------------------------------------------|
+| Monday    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
+| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani)   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) |
+| Wednesday | [Oriana Deliallisi](https://telegram.me/orianani)   | [Oriana Deliallisi](https://telegram.me/orianani)  |
+| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani)   | [Michele Palma](https://telegram.me/flyingmp)      |
+| Friday    | [Oriana Deliallisi](https://telegram.me/orianani)   | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)  |
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> The [schedules](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1260174614&single=true) for tutoring activities for each course are now available.
