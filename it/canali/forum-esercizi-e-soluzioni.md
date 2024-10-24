@@ -6,7 +6,7 @@ weight: 3
 
 # Forum Esercizi e Soluzioni
 
-Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](http://github.sapienzastudents.net) è la realizzazione, attraverso repository GitHub, di forum _(realizzati tramite un README.md guida e l'utilizzo degli "issues" o delle "discussions")_ per lo scambio e il confronto di soluzioni ad esercizi, anche tratti da tracce di esame passate, di corsi universitari per cui non sono pubblicamente disponibili delle soluzioni ufficiali (ad opera dei professori del corso)
+Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](https://github.sapienzastudents.net) è la realizzazione, attraverso repository GitHub, di forum _(realizzati tramite un README.md guida e l'utilizzo degli "issues" o delle "discussions")_ per lo scambio e il confronto di soluzioni ad esercizi, anche tratti da tracce di esame passate, di corsi universitari per cui non sono pubblicamente disponibili delle soluzioni ufficiali (ad opera dei professori del corso)
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Posso contribuire creando o gestendo dei repository?**
