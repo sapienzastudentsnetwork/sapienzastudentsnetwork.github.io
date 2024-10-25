@@ -40,6 +40,31 @@
                 for (const time of hours) {
                     const [startTime, endTime] = time.timeslot.split('-').map(time => parseInt(time))
                     const alerts = COURSES[courseCode].alerts;
+
+                    const classroomPattern = /\b(I{1,3}|IV|V{1,3}|IX|X|XI)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
+
+                    let classrooms = time.classrooms
+                        ? Object.values(time.classrooms).map(room => {
+                            const match = room.match(classroomPattern);
+                            if (match) {
+                                console.log(room);
+                                let roomNumber = match[0];
+                                return room.includes("RM018") ? roomNumber + "L" : roomNumber;
+                            }
+                            return null;
+                        }).filter(Boolean).join(', ')
+                        : time.classroomInfo
+                            ? (() => {
+                                const match = time.classroomInfo.match(classroomPattern);
+                                if (match) {
+                                    let roomNumber = match[0]; // Cattura la stanza
+                                    // Aggiunge una "L" dopo il numero se "Castro" è presente
+                                    return time.classroomInfo.includes("RM018") ? roomNumber + "L" : roomNumber;
+                                }
+                                return null;
+                            })()
+                            : null;
+
                     let en_day = {
                         'lunedì': 'monday',
                         'martedì': 'tuesday',
@@ -50,7 +75,7 @@
                         'domenica': 'sunday',
                     }[day]
 
-                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] });
+                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel], classroomDesc: classrooms || null });
 
                     classesStartTime = Math.min(classesStartTime, startTime) || startTime;
                     classesEndTime = Math.max(classesEndTime, endTime) || endTime;
@@ -92,7 +117,7 @@
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
                 let hasMoreThanACourse = false;
-                for (const { courseCode, alerts } of courses) {
+                for (const { courseCode, alerts, classroomDesc } of courses) {
                     const course = COURSES[courseCode];
 
                     desktopCourseLink = document.createElement('a');
@@ -124,6 +149,15 @@
 
                     desktopTd.append(desktopCourseLink);
                     mobileTd.append(mobileCourseLink);
+
+                    if (classroomDesc != null) {
+                        const classroomDescElem = document.createElement('div');
+                        classroomDescElem.classList.add('font-italic');
+                        classroomDescElem.textContent = "(" + classroomDesc + ")";
+
+                        desktopTd.append(classroomDescElem);
+                        mobileTd.append(classroomDescElem);
+                    }
                 }
 
                 desktopTr.append(desktopTd);
