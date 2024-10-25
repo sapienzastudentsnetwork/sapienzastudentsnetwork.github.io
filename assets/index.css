@@ -19,6 +19,11 @@
 }
 
 .sapienza-3 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F65535%2F52899945700_be1f8b6bae_b.jpg&f=1&nofb=1&ipt=e02870b6e647ed88eb80b73e1b77ff24c84d3adf6106064bd52a085cd61a56d3&ipo=images');
+    @apply bg-cover opacity-5;
+}
+
+.sapienza-4 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.casilinanews.it%2Fwp-content%2Fuploads%2F2016%2F07%2Fsapienza.jpg&f=1&nofb=1&ipt=32d5a57a1a68af621d870b7325ccfd96291e090d5a9f5a3690808eb63559405d&ipo=images');
     @apply bg-cover opacity-5;
 }
