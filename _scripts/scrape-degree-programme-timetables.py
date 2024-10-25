@@ -526,12 +526,31 @@ if __name__ == '__main__':
         # La lezione del venerdì di SISTEMI OPERATIVI è stata
         # posticipata di un'ora: dalle 14.00 alle 17.00.
         if "venerdì" not in course_timetables_dict["1020422_1"]["channels"]["2"]:
-            course_timetables_dict["1020422_1"]["channels"]["2"]["venerdì"] =[
+            course_timetables_dict["1020422_1"]["channels"]["2"]["venerdì"] = [
               {
                 "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
                 "timeslot": "14 - 17",
                 "classrooms": {
                   "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+                }
+              }
+            ]
+
+        # 10596283 - ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE
+        # Prof. Michelangelo Smeriglio:
+        # "
+        # Visto che l'aula T1 è un po' piccola (venerdì scorso era tutta piena)
+        # sono riuscito ad ottenere l'utilizzo dell'aula magna anche per la lezione
+        # del venerdì. Pertanto a partire dal 25/10/2024 il corso si terrà nell'aula
+        # magna per entrambi i nostri appuntamenti
+        # "
+        if "venerdì" not in course_timetables_dict["10596283"]["channels"]["0"]:
+            course_timetables_dict["10596283"]["channels"]["0"]["venerdì"] = [
+              {
+                "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
+                "timeslot": "13 - 15",
+                "classrooms": {
+                  "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
                 }
               }
             ]
