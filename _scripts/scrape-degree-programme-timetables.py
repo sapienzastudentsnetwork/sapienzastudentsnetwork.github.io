@@ -690,7 +690,11 @@ if __name__ == '__main__':
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
                                                 classroom_info = "Aula I - Chimica \"Vincenzo Caglioti\" (CU032)"
-                                                classroom_url  = "https://virtualtour.uniroma1.it/?building=CU032&c=1"
+                                                classroom_url  = "https://maps.google.com/maps?q=41.901572,+12.516295+(aula+I)&iwloc=A&hl=it"
+
+                                                #day_schedule["classrooms"] = {
+                                                #    "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I - Chimica \"Vincenzo Caglioti\" (CU032)"
+                                                #}
 
                                                 if course_code == "1020421":
                                                     day_schedule["timeslot"] = "14 - 15"
