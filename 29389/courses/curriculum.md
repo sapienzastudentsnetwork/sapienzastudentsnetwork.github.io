@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+bookHidden: true
 weight: 1
 ---
 

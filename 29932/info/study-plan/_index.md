@@ -2,5 +2,5 @@
 title: Study Plan
 bookCollapseSection: true
 bookHidden: false
-weight: 1
+weight: 2
 ---
