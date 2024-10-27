@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
-    {{ if not (in .Permalink "/29932") }}
+    {{ if not (or (in .Permalink "/29932") (in .Permalink "/29389")) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}
 

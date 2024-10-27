@@ -40,7 +40,6 @@ def extract_course_code(course_name):
     else:
         return id_number
 
-
 def parse(DOM):
     # Iterate through the tables and extract class timetables
     for div in DOM.find_all(class_='sommario'):
@@ -156,6 +155,10 @@ def parse(DOM):
                     schedule_time_slot  = f"{schedule_start_time} - {schedule_end_time}"
                     schedule_time_slot  = re.sub(r'\b0(\d)', r'\1', schedule_time_slot)
 
+                    # 1055043 - STATISTICS is offered in both ACSAI and Cybersecurity, but with different professors and schedules
+                    if course_code == "1055043" and os.getenv("DEGREE_PROGRAMME_CODE", "29923") == "29389":
+                        course_code = "1055043_2"
+
                     if course_code not in course_timetables_dict:
                         course_timetables_dict[course_code] = {
                             "subject": ' '.join(course_column.find('a').text.split()[1:]),
@@ -163,6 +166,11 @@ def parse(DOM):
                             "channels": {},
                             "code": course_column.find(class_='codiceInsegnamento').text
                         }
+
+                        # 1047622 - Cryptography
+                        # 10589555 - Practical Network Defense
+                        if course_code in ("1047622", "10589555"):
+                            course_timetables_dict[course_code]["degree"] = "29389"
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
                         course_timetables_dict[course_code]["channels"][f"{channel}"] = {}
@@ -474,6 +482,9 @@ if __name__ == '__main__':
     aula_1l_classroom_id   = "3247d3bb-417e-4bba-8e7e-829bbb3863de"
     aula_1l_classroom_desc = "Aula 1 (Edificio: RM018)"
 
+    aula_2l_classroom_id   = "625390f2-0bbb-4072-b866-50902fa1bad9"
+    aula_2l_classroom_desc = "Aula 2 (Edificio: RM018)"
+
     first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
     second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
@@ -570,35 +581,6 @@ if __name__ == '__main__':
           }
         ]
 
-        # 1041792 - BIOMETRIC SYSTEMS
-        course_timetables_dict["1041792"] = {
-            "subject": "BIOMETRIC SYSTEMS",
-            "degree": "29932",
-            "channels": {
-              "0": {
-                "mercoled\u00ec": [
-                  {
-                    "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-                    "timeslot": "13 - 15",
-                    "classrooms": {
-                      "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                    }
-                  }
-                ],
-                "gioved\u00ec": [
-                  {
-                    "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
-                    "timeslot": "8 - 11",
-                    "classrooms": {
-                      "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                    }
-                  }
-                ]
-              }
-            },
-            "code": "1041792"
-        }
-
         # 1047627 - FOUNDATIONS OF DATA SCIENCE
         course_timetables_dict["1047627"] = {
             "subject": "FOUNDATIONS OF DATA SCIENCE",
@@ -610,7 +592,7 @@ if __name__ == '__main__':
                     "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
                     "timeslot": "10 - 13",
                     "classrooms": {
-                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                      aula_2l_classroom_id : aula_2l_classroom_desc
                     }
                   }
                 ],
@@ -619,7 +601,7 @@ if __name__ == '__main__':
                     "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
                     "timeslot": "11 - 13",
                     "classrooms": {
-                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                      aula_2l_classroom_id : aula_2l_classroom_desc
                     }
                   }
                 ]
@@ -628,10 +610,29 @@ if __name__ == '__main__':
             "code": "1047627"
         }
 
+    elif degree_programme_code == "29389":
+        # 1047622 - CRYPTOGRAPHY
+        if "1047622" in course_timetables_dict and "venerdì" not in course_timetables_dict["1047622"]["channels"]["0"]:
+            course_timetables_dict["1047622"]["channels"]["0"]["venerdì"] = [
+              {
+                "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
+                "timeslot": "11 - 13",
+                "classrooms": {
+                  aula_1l_classroom_id : aula_1l_classroom_desc
+                }
+              }
+            ]
+
+        # 1055043_2 - STATISTICS
+        if "1055043_2" in course_timetables_dict and "giovedì" in course_timetables_dict["1055043_2"]["channels"]["0"]:
+            course_timetables_dict["1055043_2"]["channels"]["0"]["giovedì"][0]["classrooms"] = {
+              aula_2l_classroom_id : aula_2l_classroom_desc
+            }
+
     if currentDate <= datetime(2024, 11, 3):
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
-                if (course_data["degree"] != "29932") and ("venerdì" in channel_data):
+                if (course_data["degree"] not in ("29932", "29389")) and ("venerdì" in channel_data):
                     channel_data.pop("venerdì")
 
                 for day_name, day_schedules in channel_data.items():

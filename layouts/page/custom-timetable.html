@@ -5,7 +5,8 @@
 
     <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
-    {{ if not (eq $pageDegreeCode "29932") }}
+    {{ $excludedCodes := slice "29932" "29389" }}
+    {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}
 
@@ -53,13 +54,13 @@
                 {{ $degrees := dict }}
                 {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
                     {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
-                {{ else if eq $pageDegreeCode "29932" }}
-                    {{ $degrees = dict "29932" "Computer Science" }}
+                {{ else if or (eq $pageDegreeCode "29932") (eq $pageDegreeCode "29389") }}
+                    {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
                 {{ else }}
-                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" }}
+                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity" }}
                 {{ end }}
 
-                {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" }}
+                {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" "29389" "#FCC005" }}
 
                 {{ range $degreeCode, $degreeName := $degrees }}
                     <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
@@ -140,6 +141,9 @@
                 } else if (button.classList.contains("c-29932-disabled")) {
                     button.classList.remove("c-29932-disabled")
                     button.classList.add("c-29932")
+                } else if (button.classList.contains("c-29389-disabled")) {
+                    button.classList.remove("c-29389-disabled")
+                    button.classList.add("c-29389")
                 } else if (button.classList.contains("c-29923-disabled")) {
                     button.classList.remove("c-29923-disabled")
                     button.classList.add("c-29923")
@@ -180,6 +184,9 @@
                 } else if (button.classList.contains("c-29932")) {
                     button.classList.add("c-29932-disabled")
                     button.classList.remove("c-29932")
+                } else if (button.classList.contains("c-29389")) {
+                    button.classList.add("c-29389-disabled")
+                    button.classList.remove("c-29389")
                 } else if (button.classList.contains("c-29923")) {
                     button.classList.add("c-29923-disabled")
                     button.classList.remove("c-29923")
@@ -227,6 +234,9 @@
                     } else if (button.classList.contains("c-29932")) {
                         button.classList.add("c-29932-disabled");
                         button.classList.remove("c-29932");
+                    } else if (button.classList.contains("c-29389")) {
+                        button.classList.add("c-29389-disabled");
+                        button.classList.remove("c-29389");
                     } else if (button.classList.contains("c-29923")) {
                         button.classList.add("c-29923-disabled");
                         button.classList.remove("c-29923");

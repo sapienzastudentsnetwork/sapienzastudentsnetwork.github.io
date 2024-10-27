@@ -458,9 +458,6 @@
         "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0",
         "cfu": 6
     },
-
-
-
     "10596281": {
         "name": "Autonomous Networking",
         "shortName": "Autonomous Net",
@@ -492,7 +489,7 @@
         "tgGroup": "https://t.me/+y8iiBzH5qTo1N2U8"
     },
     "1047624": {
-        "name": "Distributed Systems",
+        "name": "Distributed Systems (INF/01)",
         "shortName": "Distributed Sys.",
         "abbr": "DS",
         "tgGroup": "https://t.me/+VKIsENZg1uzB2n1v"
@@ -673,5 +670,53 @@
         "name": "Attività Formativa Complementare",
         "shortName": "Attività Form. Compl.",
         "abbr": "AFC"
+    },
+    "1054960": {
+        "name": "Computer Systems and Programming",
+        "shortName": "Computer Systems & Prog.",
+        "abbr": "CSP",
+        "tgGroup": "https://t.me/+WeMUQBv-PJsxODY8"
+    },
+    "1022807": {
+        "name": "Distributed Systems (ING-INF/05)",
+        "shortName": "Distributed Sys.",
+        "abbr": "DS",
+        "tgGroup": "https://t.me/+GGxdP61DHeY4Yzg0"
+    },
+    "1027171": {
+        "name": "Network Infrastructures",
+        "shortName": "Network Infra.",
+        "abbr": "NI",
+        "tgGroup": "https://t.me/joinchat/CfmfQ0jQaxvUpWib9qKM2Q"
+    },
+    "1055043_2": {
+        "name": "Statistics",
+        "shortName": "Stats",
+        "abbr": "STAT",
+        "tgGroup": "https://t.me/joinchat/TF9FYvEFNJOmUjeW"
+    },
+    "1055681": {
+        "name": "Malware Analysis and Incident Forensics",
+        "shortName": "Malware Analysis",
+        "abbr": "MA",
+        "tgGroup": "https://t.me/joinchat/Szo8TuKBLaN4QGsW"
+    },
+    "1044415": {
+        "name": "Mobile Applications and Cloud Computing",
+        "shortName": "Mobile Apps and Cloud Comp.",
+        "abbr": "MAC",
+        "tgGroup": "https://t.me/joinchat/CfmfQ0wDb1i3PsVS_itHpg"
+    },
+    "1055050": {
+        "name": "Risk Management",
+        "shortName": "Risk Management",
+        "abbr": "RM",
+        "tgGroup": "https://t.me/+zh4i3_eJYw02ZjM0"
+    },
+    "1055061": {
+        "name": "Security Governance",
+        "shortName": "Security Governance",
+        "abbr": "GOV",
+        "tgGroup": "https://t.me/joinchat/CfmfQ0lV3bjfytnH47gEaw"
     }
 }
