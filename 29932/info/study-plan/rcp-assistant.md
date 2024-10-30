@@ -7,3 +7,5 @@ bookToc: false
 ---
 
 # RCP Assistant
+
+Check layout/page/rcp-assistant.html to analyze this page's content
