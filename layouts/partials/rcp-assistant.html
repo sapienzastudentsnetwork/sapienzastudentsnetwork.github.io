@@ -37,17 +37,24 @@
         height: auto;
         display: flex;
         align-items: center;
+        justify-content: center;
+        text-align: left;
+        min-height: 100px;
+        max-height: 100px;
+        white-space: normal;
+        word-wrap: break-word;
     }
     #courseList li label {
         display: flex;
         align-items: center;
-        cursor: pointer;
-        height: 100%;
+        justify-content: flex-start;
         width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
+        height: 100%;
+        white-space: normal;
+        overflow: visible;
         text-overflow: ellipsis;
         color: var(--text-color);
+        text-align: left;
     }
     #courseList li input[type="checkbox"] {
         margin-right: 10px;
@@ -195,14 +202,17 @@
             min-height: 60px;
             width: calc(100% - 20px);
             max-width: 300px;
+            max-height: none;
         }
         #courseList li label {
             display: flex;
-            flex-wrap: nowrap;
             align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            height: auto;
+            text-align: left;
             white-space: normal;
             overflow: visible;
-            text-overflow: clip;
         }
         #courseList li input[type="checkbox"] {
             margin-right: 10px;
