@@ -217,9 +217,7 @@
     }
 </style>
 <body>
-    <p id="description">
-        Please select all the "characterising" courses you are interested in:
-    </p>
+    <p id="description">Please select all the courses you are interested in:</p>
     <div id="searchContainer">
         <input
             type="text"
@@ -359,8 +357,48 @@
             ],
         ];
 
+        const relatedCourses = [
+            "Advanced Algorithms",
+            "Advanced Architectures",
+            "Advanced Machine Learning",
+            "Advanced Software Engineering",
+            "Automatic Verification of Intelligent Systems",
+            "Autonomous Networking",
+            "Big Data Computing",
+            "Biometric Systems",
+            "Blockchain and Distributed Ledger Technologies",
+            "Cloud Computing",
+            "Computational Complexity",
+            "Computer Network Performance",
+            "Computer Vision",
+            "Concurrent Systems",
+            "Cryptography",
+            "Data and Network Security",
+            "Data-Driven Modeling of Complex Systems",
+            "Deep Learning and Applied Artificial Intelligence",
+            "Distributed Systems",
+            "Ethical Hacking",
+            "Formal Methods for AI-Based Systems Engineering",
+            "Foundations of Data Science",
+            "Graph Theory",
+            "Human-Computer Interaction on The Web",
+            "Internet of Things",
+            "Mathematical Logic for Computer Science",
+            "Methods in Computer Science Education: Analysis",
+            "Methods in Computer Science Education: Design",
+            "Models of Computation",
+            "Multimodal Interaction",
+            "Natural Language Processing",
+            "Network Algorithms",
+            "Practical Network Defense",
+            "Security in Software Applications",
+            "Topics in Physics",
+        ];
+
         const allCourses = [
-            ...new Set(data.flatMap(([, courses]) => courses)),
+            ...new Set(data.flatMap(([, courses]) => courses)).union(
+                new Set(relatedCourses),
+            ),
         ].sort();
 
         let results = [];
