@@ -47,8 +47,8 @@
                     {{ continue }}
                 {{ end }}
 
-                {{ if and $courseCode (index $dataHardcodedTimetables $courseCode) }}
-                    {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCode }}
+                {{ if and $courseCodeWithUnit (index $dataHardcodedTimetables $courseCodeWithUnit) }}
+                    {{ $hardcodedChannel := index $dataHardcodedTimetables $courseCodeWithUnit }}
                     {{ if and $hardcodedChannel (index $hardcodedChannel "channels") (index $hardcodedChannel "channels" $channel_id) }}
                         {{ $days = index $hardcodedChannel "channels" $channel_id }}
                     {{ end }}
@@ -70,8 +70,8 @@
                 <br/>
                 {{ end }}
 
-                {{ if and $courseCode (index $dataCourses $courseCode) }}
-                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
+                {{ if and $courseCodeWithUnit (index $dataCourses $courseCodeWithUnit) }}
+                    {{ $alerts := index $dataCourses $courseCodeWithUnit "alerts" }}
                     {{ if $alerts }}
                         {{ if index $alerts $channel_id }}
                             {{ range index $alerts $channel_id }}
@@ -200,7 +200,7 @@
                         </tbody>
                     </table>
                 {{ else }}
-                    {{ $alerts := index $dataCourses $courseCode "alerts" }}
+                    {{ $alerts := index $dataCourses $courseCodeWithUnit "alerts" }}
                     {{ if or (not $alerts) (not (index $alerts $channel_id)) }}
                         {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
                     {{ end }}
