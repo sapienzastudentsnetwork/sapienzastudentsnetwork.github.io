@@ -485,6 +485,9 @@ if __name__ == '__main__':
     aula_2l_classroom_id   = "625390f2-0bbb-4072-b866-50902fa1bad9"
     aula_2l_classroom_desc = "Aula 2 (Edificio: RM018)"
 
+    aula_magna_rm111_id   = "74a8a956-ade6-4883-b10f-416c38c9d93d"
+    aula_magna_rm111_desc = "Aula Magna (Edificio: RM111)"
+
     first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
     second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
@@ -561,7 +564,7 @@ if __name__ == '__main__':
                 "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
                 "timeslot": "13 - 15",
                 "classrooms": {
-                  "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                  aula_magna_rm111_id: aula_magna_rm111_desc
                 }
               }
             ]
@@ -629,12 +632,9 @@ if __name__ == '__main__':
               aula_2l_classroom_id : aula_2l_classroom_desc
             }
 
-    if currentDate <= datetime(2024, 11, 3):
+    if currentDate <= datetime(2024, 11, 10):
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
-                if (course_data["degree"] not in ("29932", "29389")) and ("venerdì" in channel_data):
-                    channel_data.pop("venerdì")
-
                 for day_name, day_schedules in channel_data.items():
                     for day_schedule in day_schedules:
                         # 101226 - CALCOLO DIFFERENZIALE
@@ -663,41 +663,40 @@ if __name__ == '__main__':
                                             classroom_url  = clinica_odontoiatrica
 
                                         elif day_name == "mercoledì":
-                                            if course_code == "1020421":
-                                                classroom_info = reginaelena_edificiod_aula_301 + " + a distanza (clicca per il link)"
-                                                classroom_url  = "https://uniroma1.zoom.us/j/81062850219"
-
-                                                day_schedule["timeslot"] = "11 - 13"
-
-                                            elif course_code in second_year_informatica_teachings:
-                                                classroom_info = "Aula I - Chimica \"Vincenzo Caglioti\" (CU032)"
-                                                classroom_url  = "https://maps.google.com/maps?q=41.901572,+12.516295+(aula+I)&iwloc=A&hl=it"
-
-                                                #day_schedule["classrooms"] = {
-                                                #    "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I - Chimica \"Vincenzo Caglioti\" (CU032)"
-                                                #}
-
-                                                if course_code == "1020421":
-                                                    day_schedule["timeslot"] = "14 - 15"
+                                            if course_code in second_year_informatica_teachings:
+                                                classroom_info = reginaelena_edificiod_aula_101
+                                                classroom_url  = reginaelena_edificiod
 
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
-                                            if day_name in ("lunedì", "giovedì"):
-                                                classroom_info = reginaelena_edificiod_aula_301
+                                            if day_name in ("lunedì", "martedì", "mercoledì"):
+                                                classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
 
                                         if course_code in first_year_acsai_teachings:
-                                            classroom_info = reginaelena_edificiod_aula_301
-                                            classroom_url  = reginaelena_edificiod
+                                            if day_name in ("giovedì", "venerdì"):
+                                                # 10595102 - PROGRAMMING UNIT 1
+                                                if course_code == "10595102_1":
+                                                    day_schedule["classrooms"] = {
+                                                        aula_magna_rm111_id: aula_magna_rm111_desc
+                                                    }
+                                                else:
+                                                    classroom_info = reginaelena_edificiod_aula_101
+                                                    classroom_url  = reginaelena_edificiod
 
                                         elif course_code in second_year_acsai_teachings:
-                                            if day_name in ("lunedì", "giovedì"):
-                                                classroom_info = reginaelena_edificiod_aula_301
+                                            if day_name in ("lunedì", "martedì", "giovedì"):
+                                                classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
 
-                                            elif day_name == "martedì":
-                                                classroom_info = clinica_odontoiatrica_aula_a2
-                                                classroom_url  = clinica_odontoiatrica
+                                            elif day_name == "venerdì":
+                                                # 10595616 - SYSTEMS AND NETWORKING UNIT II
+                                                if course_code == "10595616_2":
+                                                    classroom_info = reginaelena_edificiod_aula_301
+                                                    classroom_url  = reginaelena_edificiod
+                                                else:
+                                                    classroom_info = reginaelena_edificiod_aula_101
+                                                    classroom_url  = reginaelena_edificiod
 
                                         # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
                                         elif course_code == "1022301":
@@ -706,10 +705,10 @@ if __name__ == '__main__':
                                                 classroom_url  = clinica_odontoiatrica
 
                                         # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
-                                        #elif course_code == "1041727":
-                                        #    if day_name == "venerdì":
-                                        #        classroom_info = reginaelena_edificiod_aula_301
-                                        #        classroom_url  = reginaelena_edificiod
+                                        elif course_code == "1041727":
+                                            if day_name == "venerdì":
+                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_url  = reginaelena_edificiod
 
                                 #elif course_code in ("1022267", "10595534"):
                                 #    if day_name == "giovedì":

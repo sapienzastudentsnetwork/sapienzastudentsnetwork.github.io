@@ -299,7 +299,12 @@
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch. U1",
         "abbr": "CAU1",
-        "cfu": 12
+        "cfu": 12,
+        "alerts": {
+            "0": [
+                "• ⚠\uFE0F Thursday's Computer Architecture Unit 1 lecture will begin at 11:30 a.m. and end regularly at 1:00 p.m."
+            ]
+        }
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
