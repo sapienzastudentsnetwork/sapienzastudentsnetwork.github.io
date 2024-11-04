@@ -29,6 +29,6 @@ bookToc: False
     <div class="home_page" id="home_tutoring">
         <p class="home_box_text_title" id="home_enroll_text">Tutoring</p>
         <p class="home_box_text">Tutoring info and schedules</p>
-        <button class="explore_more" onclick="window.location.href = 'info/services/tutoring/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/services/tutoring/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
