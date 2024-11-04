@@ -81,7 +81,7 @@
                         'domenica': 'sunday',
                     }[day]
 
-                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel], classroomDesc: classrooms || null });
+                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] && alerts[channel][day], canceled: canceled || false, classroomDesc: classrooms || null });
 
                     classesStartTime = Math.min(classesStartTime, startTime) || startTime;
                     classesEndTime = Math.max(classesEndTime, endTime) || endTime;

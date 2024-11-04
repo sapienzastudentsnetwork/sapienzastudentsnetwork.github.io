@@ -74,11 +74,13 @@
                     {{ $alerts := index $dataCourses $courseCodeWithUnit "alerts" }}
                     {{ if $alerts }}
                         {{ if index $alerts $channel_id }}
-                            {{ range index $alerts $channel_id }}
-                                {{ . }}
+                            {{ range $day, $dayAlerts := index $alerts $channel_id }}
+                                {{ range $dayAlerts }}
+                                    {{ . }}
+                                    <br>
+                                {{ end }}
                                 <br>
                             {{ end }}
-                            <br>
                         {{ end }}
                     {{ end }}
                 {{ end }}
