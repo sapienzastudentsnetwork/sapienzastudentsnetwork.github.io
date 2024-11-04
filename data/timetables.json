@@ -4,24 +4,23 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "mercoled\u00ec": [
+        "gioved\u00ec": [
           {
             "teacher": null,
-            "timeslot": "8 - 11",
-            "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it",
+            "timeslot": "10 - 13",
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-          }
-        ],
-        "venerd\u00ec": [
+            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA",
+            "teacherInfo": "AIELLO VALERIANO",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
+          },
           {
             "teacher": null,
-            "timeslot": "8 - 10",
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            },
             "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
           }
         ]
       },
@@ -69,14 +68,6 @@
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
             }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
-            "timeslot": "10 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
         ]
       },
@@ -163,6 +154,14 @@
     "degree": "29923",
     "channels": {
       "1": {
+        "mercoled\u00ec": [
+          {
+            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
+            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+          }
+        ],
         "gioved\u00ec": [
           {
             "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",

@@ -633,6 +633,46 @@ if __name__ == '__main__':
             }
 
     if currentDate <= datetime(2024, 11, 10):
+        # Per questa settimana, il Mercoledì, al posto di Calcolo Differenziale con il
+        # prof. Aiello, ci sarà Progettazione di Sistemi Digitali con il prof. Pontarelli
+        if "101226" in course_timetables_dict:
+            course_timetables_dict["101226"]["channels"]["1"] = {
+                "giovedì": [
+                    {
+                        "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+                        "timeslot": "10 - 13",
+                        "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
+                        "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+                    },
+                    {
+                        "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+                        "timeslot": "15 - 17",
+                        "classrooms": {
+                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+                        }
+                    }
+                ]
+            }
+
+        # 1015883 - FONDAMENTI DI PROGRAMMAZIONE - Andrea Sterbini
+        # Il prof. Sterbini farà lezione solo martedì per via di un congresso a cui deve partecipare
+        if "1015883" in course_timetables_dict:
+            if "giovedì" in course_timetables_dict["1015883"]["channels"]["1"]:
+                course_timetables_dict["1015883"]["channels"]["1"].pop("giovedì")
+
+        # 1015880 - PROGETTAZIONE DI SISTEMI DIGITALI - Salvatore Pontarelli
+        # Il prof. Pontarelli farà lezione il Mercoledì al posto del prof. Valeriano Aiello
+        if "1015880" in course_timetables_dict:
+            if "mercoledì" not in course_timetables_dict["1015880"]["channels"]["1"]:
+                course_timetables_dict["1015880"]["channels"]["1"]["mercoledì"] = [
+                    {
+                        "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
+                        "timeslot": "8 - 11",
+                        "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
+                        "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+                    }
+                ]
+
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
