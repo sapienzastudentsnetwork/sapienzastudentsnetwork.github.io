@@ -1529,6 +1529,7 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "17 - 19",
+            "cancelled": true,
             "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
             "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
@@ -1539,7 +1540,8 @@
             "timeslot": "16 - 19",
             "classrooms": {
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            },
+            "cancelled": true
           }
         ]
       }
