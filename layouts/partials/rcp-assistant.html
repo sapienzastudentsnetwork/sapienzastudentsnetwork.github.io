@@ -502,26 +502,6 @@
             document.getElementById("searchContainer").style.display = "block";
         }
 
-        function populateCourseList() {
-            const courseList = document.getElementById("courseList");
-            allCourses.forEach((course) => {
-                const li = document.createElement("li");
-                const checkbox = document.createElement("input");
-                checkbox.type = "checkbox";
-                checkbox.id = course;
-                checkbox.name = course;
-                checkbox.value = course;
-
-                const label = document.createElement("label");
-                label.htmlFor = course;
-                label.appendChild(checkbox);
-                label.appendChild(document.createTextNode(course));
-
-                li.appendChild(label);
-                courseList.appendChild(li);
-            });
-        }
-
         function searchCourses() {
             const searchInput = document.getElementById("searchInput");
             const filter = searchInput.value.toLowerCase();
