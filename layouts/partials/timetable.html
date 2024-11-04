@@ -186,7 +186,7 @@
             if (!alertsLegend) {
                 alertsLegend = document.createElement("div");
                 alertsLegend.id = "alertsLegend";
-                alertsLegend.textContent = "* ⚠️ Check the available warnings by clicking on the subject names followed by asterisks";
+                alertsLegend.textContent = '* ⚠️ {{ T "Subjs_Timetables_AlertsLegend" }}';
 
                 document.getElementById(tableId).insertAdjacentElement('afterend', alertsLegend);
             }

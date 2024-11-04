@@ -73,6 +73,9 @@
 - id: Subjs_Timetables_Time
   translation: Time
 
+- id: Subjs_Timetables_AlertsLegend
+  translation: Check the available warnings by clicking on the subject names followed by asterisks
+
 - id: Subjs_TimetablesPerTeaching_Title
   translation: Timetables per teaching
 

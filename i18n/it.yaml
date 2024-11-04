@@ -72,6 +72,9 @@
 - id: Subjs_Timetables_Time
   translation: Orario
 
+- id: Subjs_Timetables_AlertsLegend
+  translation: Controllare gli avvisi disponibili facendo clic sui nomi degli insegnamenti seguiti da asterischi
+
 - id: Subjs_TimetablesPerTeaching_Title
   translation: Orari per singolo insegnamento
 
