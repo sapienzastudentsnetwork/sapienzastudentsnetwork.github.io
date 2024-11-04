@@ -33,7 +33,7 @@
             if (!TIMETABLES[courseCode])
                 continue;
             const days = TIMETABLES[courseCode]['channels'][_channel || channel] || [];
-            for (let [day, [ hours ]] of Object.entries(days)) {
+            for (let [day, hours] of Object.entries(days)) {
                 if (!Array.isArray(hours))
                     hours = [hours]
 
