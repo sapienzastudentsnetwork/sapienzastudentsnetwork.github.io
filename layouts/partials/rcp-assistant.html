@@ -273,11 +273,12 @@
             "{{ .Site.Data.rcpData.relatedCourses | jsonify }}",
         );
 
-        const allCourses = [
-            ...new Set(RCP.flatMap(([, courses]) => courses)).union(
-                new Set(relatedCourses),
-            ),
-        ].sort();
+        const rcpCoursesSet = new Set(RCP.flatMap(([, courses]) => courses));
+        const relatedCoursesSet = new Set(relatedCourses);
+
+        const allCourses = [...rcpCoursesSet.union(relatedCoursesSet)].sort();
+
+        const notInRCP = relatedCoursesSet.difference(rcpCoursesSet);
 
         let results = [];
 
@@ -319,8 +320,27 @@
             );
         }
 
+        function limitNotInRcpCourses(selectedCourses, maxNotInRcp = 4) {
+            const notInRcpSelected = selectedCourses.filter((course) =>
+                notInRCP.has(course),
+            );
+            const rcpSelected = selectedCourses.filter(
+                (course) => !notInRCP.has(course),
+            );
+
+            const limitedNotInRcpSelected = notInRcpSelected.slice(
+                0,
+                maxNotInRcp,
+            );
+
+            return [...rcpSelected, ...limitedNotInRcpSelected];
+        }
+
         function calculateResults() {
             const selectedCourses = getSelectedCourses();
+            const limitedSelectedCourses =
+                limitNotInRcpCourses(selectedCourses);
+
             const groupCombinations = combinations(RCP, 2);
 
             results = groupCombinations.map(([group1, group2]) => {
@@ -329,10 +349,10 @@
                 const unionSet = new Set([...set1, ...set2]);
                 const allAvailableCourses = [...unionSet];
 
-                const coveredCourses = selectedCourses.filter((course) =>
+                const coveredCourses = limitedSelectedCourses.filter((course) =>
                     unionSet.has(course),
                 );
-                const excludedSelectedCourses = selectedCourses.filter(
+                const excludedSelectedCourses = limitedSelectedCourses.filter(
                     (course) => !unionSet.has(course),
                 );
 
