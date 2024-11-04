@@ -4,13 +4,6 @@ aliases: ["/it/info/matricole/iscriversi"]
 ---
 
 # Iscrizione al CdL in Informatica
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Proroga scadenze**
-
-Per i vincitori in graduatoria della prima e della seconda selezione la scadenza per il pagamento della prima rata dei contributi di iscrizione è posticipata dal 5 settembre a **mercoledì 11 settembre 2024**.
-
-La pubblicazione dei posti disponibili per le selezioni successive è prorogata a **mercoledì 18 settembre 2024**.
-{{% /hint %}}
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -219,6 +212,7 @@ Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà p
 | Fase delle immatricolazioni per i candiati vincitori | Dal 2 settembre al 11 settembre 2024 |
 
 ### Terza selezione
+
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
