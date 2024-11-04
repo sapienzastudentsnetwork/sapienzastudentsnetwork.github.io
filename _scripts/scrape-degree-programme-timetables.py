@@ -646,6 +646,13 @@ if __name__ == '__main__':
                                 day_schedule["teacherInfo"] = "AIELLO VALERIANO"
                                 day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
 
+                        # 1020422 - SISTEMI OPERATIVI I
+                        # Il prof. Tolomei causa salute ha dovuto annullare le lezioni di
+                        # Sistemi Operativi I (Canale A-L) sia per domani sia per dopodomani
+                        # (5 e 6 novembre 2024)
+                        if (course_code == "1020422_1") and (channel_id == "1"):
+                            day_schedule["cancelled"] = True
+
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
                                 classroom_info = day_schedule.get("classroomInfo", None)

@@ -109,7 +109,17 @@
         "abbr": "SO1",
         "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
         "cfu": 6,
-        "department": "INF"
+        "department": "INF",
+        "alerts": {
+            "1": {
+                "martedì": [
+                    "• ⚠\uFE0F La lezione di Martedì 5 novembre del Canale A-L di Sistemi Operativi I è annullata per motivi di salute del prof. Tolomei"
+                ],
+                "mercoledì": [
+                    "• ⚠\uFE0F La lezione di Mercoledì 6 novembre del Canale A-L di Sistemi Operativi I è annullata per motivi di salute del prof. Tolomei"
+                ]
+            }
+        }
     },
     "1020422_2": {
         "name": "Sistemi Operativi 2",

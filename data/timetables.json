@@ -377,6 +377,7 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "15 - 17",
+            "cancelled": true,
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
@@ -385,6 +386,7 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "13 - 16",
+            "cancelled": true,
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
