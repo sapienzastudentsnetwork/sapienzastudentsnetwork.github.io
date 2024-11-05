@@ -101,7 +101,14 @@
         "abbr": "CDP",
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk",
         "cfu": 9,
-        "department": "MAT"
+        "department": "MAT",
+        "alerts": {
+            "1": {
+                "mercoledì": [
+                    "• ⚠\uFE0F La lezione di Mercoledì 6 novembre del Canale A-L di Calcolo delle Probabilità si terrà dalle ore 14:30 alle ore 17:30. In contemporanea, è predisposta anche una riunione Google Meet all'indirizzo https://meet.google.com/saf-hhcd-odh"
+                ]
+            }
+        }
     },
     "1020422_1": {
         "name": "Sistemi Operativi 1",

@@ -314,7 +314,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
-            "timeslot": "16 - 19",
+            "timeslot": "14 - 18",
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
           }
@@ -384,7 +384,7 @@
         "mercoled\u00ec": [
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
-            "timeslot": "13 - 16",
+            "timeslot": "13 - 14",
             "cancelled": true,
             "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
             "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"

@@ -691,7 +691,21 @@ if __name__ == '__main__':
                         # Sistemi Operativi I (Canale A-L) sia per domani sia per dopodomani
                         # (5 e 6 novembre 2024)
                         if (course_code == "1020422_1") and (channel_id == "1"):
+                            if day_name == "mercoledì":
+                                day_schedule["timeslot"] = "13 - 14"
                             day_schedule["cancelled"] = True
+
+                        # 1020421 - CALCOLO DELLE PROBABILITÀ
+                        #
+                        # Alcuni studenti hanno informato la prof.ssa Nappo che anche mercoledì 6 novembre 2024 le lezioni
+                        # del corso 1020422 - SISTEMI OPERATIVI I MODULO (Tolomei) ore 13-16 non si terranno e le hanno
+                        # chiesto di anticipare la lezione.
+                        #
+                        # Conferma quindi il cambio di orario ore 14:30 - 17:30 per la lezione di mercoledì 6 novembre 2024
+                        # (invece delle usuali 16:00-19:00)
+                        if (course_code == "1020421") and (channel_id == "1"):
+                            if day_name == "mercoledì":
+                                day_schedule["timeslot"] = "14 - 18"
 
                         # 10595616_1 - SYSTEMS AND NETWORKING UNIT 1
                         # Il prof. Tolomei causa salute ha dovuto annullare le lezioni di
