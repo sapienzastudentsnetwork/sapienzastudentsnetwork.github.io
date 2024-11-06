@@ -5,23 +5,44 @@
         --result-bg-color: #f9f9f9;
         --result-border-color: #e0e0e0;
         --coverage-bg-color: #ddeffe;
+        --primary-color: #2196f3;
+        --primary-hover: #1e88e5;
+        --secondary-color: #555555;
+        --secondary-hover: #444444;
+        --tertiary-color: #ff9800;
+        --tertiary-hover: #fb8c00;
+        --success-color: #388e3c;
+        --success-light: #81c784;
+        --border-radius: 4px;
+        --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --transition: all 0.2s ease-in-out;
+        --selected-bg-color: #e3f2fd;
+        --selected-border-color: #90caf9;
     }
+
     @media (prefers-color-scheme: dark) {
         :root {
             --text-color: #e0e0e0;
             --item-bg-color: #1e1e1e;
             --result-bg-color: #1e1e1e;
             --result-border-color: #333333;
-            --coverage-bg-color: #555555;
+            --coverage-bg-color: #2c2c2c;
+            --selected-bg-color: #1a3f5f;
+            --selected-border-color: #235d8f;
         }
     }
+
     #courseSelection {
         max-width: 1000px;
+        margin: 0 auto;
     }
+
     #description {
         margin-bottom: 20px;
         font-style: italic;
+        color: var(--text-color);
     }
+
     #courseList {
         list-style-type: none;
         padding: 0;
@@ -30,36 +51,40 @@
         gap: 10px;
         margin-bottom: 20px;
     }
+
     #courseList li {
         background-color: var(--item-bg-color);
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         padding: 10px;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
         min-height: 100px;
         max-height: 100px;
-        white-space: normal;
-        word-wrap: break-word;
+        transition: var(--transition);
     }
+
+    #courseList li:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow);
+    }
+
     #courseList li label {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         width: 100%;
         height: 100%;
-        white-space: normal;
-        overflow: visible;
-        text-overflow: ellipsis;
         color: var(--text-color);
-        text-align: left;
+        cursor: pointer;
     }
+
     #courseList li input[type="checkbox"] {
         margin-right: 10px;
         flex-shrink: 0;
     }
+
+    #courseList li:has(input[type="checkbox"]:checked) {
+        background-color: var(--selected-bg-color);
+        border-color: var(--selected-border-color);
+    }
+
     .button-container {
         display: flex;
         justify-content: flex-end;
@@ -67,162 +92,171 @@
         margin-top: 20px;
         max-width: 1000px;
     }
+
     button {
         padding: 10px 15px;
         border: none;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         cursor: pointer;
         font-size: 16px;
+        transition: var(--transition);
     }
+
     .primary-button {
-        background-color: #2196f3;
+        background-color: var(--primary-color);
         color: white;
     }
+
     .primary-button:hover {
-        background-color: #1e88e5;
+        background-color: var(--primary-hover);
     }
+
     .secondary-button {
-        background-color: #555555;
+        background-color: var(--secondary-color);
         color: white;
     }
+
     .secondary-button:hover {
-        background-color: #444444;
+        background-color: var(--secondary-hover);
     }
+
     .tertiary-button {
-        background-color: #ff9800;
+        background-color: var(--tertiary-color);
         color: white;
         padding: 8px 12px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
     }
+
     .tertiary-button:hover {
-        background-color: #fb8c00;
+        background-color: var(--tertiary-hover);
     }
+
     #results {
         margin-top: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
     }
+
     .result-item {
         background-color: var(--result-bg-color);
         border: 1px solid var(--result-border-color);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow);
         padding: 20px;
         margin-bottom: 20px;
-        border-radius: 8px;
+        border-radius: var(--border-radius);
+        transition: var(--transition);
     }
+
+    .result-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
     .result-title {
         font-size: 20px;
         font-weight: bold;
-        color: #2196f3;
+        color: var(--primary-color);
         margin-bottom: 10px;
     }
+
     .coverage-info {
         font-size: 16px;
         color: var(--text-color);
         background-color: var(--coverage-bg-color);
         padding: 5px 10px;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         margin-bottom: 10px;
     }
+
     .covered-courses {
         font-style: italic;
         color: var(--text-color);
         margin-top: 10px;
         padding: 5px 0;
     }
+
     .exam-list {
-        display: none;
         list-style-type: decimal;
         margin-top: 10px;
         padding-left: 20px;
     }
+
     .exam-list li {
         margin-bottom: 5px;
         word-wrap: break-word;
         overflow-wrap: anywhere;
     }
+
     .exam-list li.covered {
         font-weight: bold;
-        color: #388e3c;
+        color: var(--success-color);
     }
+
     .exam-list li.free-choice {
-        color: #2196f3;
-        font-style: italic;
-    }
-    .excluded-exams {
-        margin-top: 15px;
-        color: #666;
+        color: var(--primary-color);
         font-style: italic;
     }
 
     .free-choice-notice {
-        margin-top: 10px;
-        color: #2196f3;
+        margin: 10px 0 15px;
+        color: var(--primary-color);
         font-weight: bold;
-        margin-bottom: 15px;
     }
 
-    .free-choice-details {
-        font-weight: normal;
-        margin-top: 5px;
-        line-height: 1.4;
-    }
     #searchContainer {
         margin-bottom: 20px;
     }
+
     #searchInput {
         width: 100%;
         max-width: 1000px;
         padding: 10px;
         font-size: 16px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        background-color: var(--bg-color);
+        border: 1px solid var(--result-border-color);
+        border-radius: var(--border-radius);
+        background-color: var(--item-bg-color);
         color: var(--text-color);
+        transition: var(--transition);
     }
+
+    #searchInput:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    }
+
     @media (prefers-color-scheme: dark) {
         .exam-list li.covered {
-            color: #81c784;
+            color: var(--success-light);
         }
     }
+
     @media (max-width: 600px) {
         body {
-            padding: 5px;
+            padding: 10px;
         }
+
         #courseList {
             grid-template-columns: 1fr;
-            justify-items: center;
-            padding: 0 10px;
         }
+
         #courseList li {
-            font-size: 16px;
-            padding: 10px;
-            height: auto;
+            width: 100%;
+            max-width: none;
             min-height: 60px;
-            width: calc(100% - 20px);
-            max-width: 300px;
             max-height: none;
         }
-        #courseList li label {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            width: 100%;
-            height: auto;
-            text-align: left;
-            white-space: normal;
-            overflow: visible;
-        }
-        #courseList li input[type="checkbox"] {
-            margin-right: 10px;
-            flex-shrink: 0;
-        }
+
         .button-container {
             flex-direction: column;
+            align-items: stretch;
         }
+
         .button-container button {
             margin-bottom: 10px;
+        }
+
+        .result-item {
+            padding: 15px;
         }
     }
 </style>
