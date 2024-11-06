@@ -5,23 +5,44 @@
         --result-bg-color: #f9f9f9;
         --result-border-color: #e0e0e0;
         --coverage-bg-color: #ddeffe;
+        --primary-color: #2196f3;
+        --primary-hover: #1e88e5;
+        --secondary-color: #555555;
+        --secondary-hover: #444444;
+        --tertiary-color: #ff9800;
+        --tertiary-hover: #fb8c00;
+        --success-color: #388e3c;
+        --success-light: #81c784;
+        --border-radius: 4px;
+        --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --transition: all 0.2s ease-in-out;
+        --selected-bg-color: #e3f2fd;
+        --selected-border-color: #90caf9;
     }
+
     @media (prefers-color-scheme: dark) {
         :root {
             --text-color: #e0e0e0;
             --item-bg-color: #1e1e1e;
             --result-bg-color: #1e1e1e;
             --result-border-color: #333333;
-            --coverage-bg-color: #555555;
+            --coverage-bg-color: #2c2c2c;
+            --selected-bg-color: #1a3f5f;
+            --selected-border-color: #235d8f;
         }
     }
+
     #courseSelection {
         max-width: 1000px;
+        margin: 0 auto;
     }
+
     #description {
         margin-bottom: 20px;
         font-style: italic;
+        color: var(--text-color);
     }
+
     #courseList {
         list-style-type: none;
         padding: 0;
@@ -30,36 +51,40 @@
         gap: 10px;
         margin-bottom: 20px;
     }
+
     #courseList li {
         background-color: var(--item-bg-color);
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         padding: 10px;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: left;
         min-height: 100px;
         max-height: 100px;
-        white-space: normal;
-        word-wrap: break-word;
+        transition: var(--transition);
     }
+
+    #courseList li:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow);
+    }
+
     #courseList li label {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         width: 100%;
         height: 100%;
-        white-space: normal;
-        overflow: visible;
-        text-overflow: ellipsis;
         color: var(--text-color);
-        text-align: left;
+        cursor: pointer;
     }
+
     #courseList li input[type="checkbox"] {
         margin-right: 10px;
         flex-shrink: 0;
     }
+
+    #courseList li:has(input[type="checkbox"]:checked) {
+        background-color: var(--selected-bg-color);
+        border-color: var(--selected-border-color);
+    }
+
     .button-container {
         display: flex;
         justify-content: flex-end;
@@ -67,162 +92,171 @@
         margin-top: 20px;
         max-width: 1000px;
     }
+
     button {
         padding: 10px 15px;
         border: none;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         cursor: pointer;
         font-size: 16px;
+        transition: var(--transition);
     }
+
     .primary-button {
-        background-color: #2196f3;
+        background-color: var(--primary-color);
         color: white;
     }
+
     .primary-button:hover {
-        background-color: #1e88e5;
+        background-color: var(--primary-hover);
     }
+
     .secondary-button {
-        background-color: #555555;
+        background-color: var(--secondary-color);
         color: white;
     }
+
     .secondary-button:hover {
-        background-color: #444444;
+        background-color: var(--secondary-hover);
     }
+
     .tertiary-button {
-        background-color: #ff9800;
+        background-color: var(--tertiary-color);
         color: white;
         padding: 8px 12px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
     }
+
     .tertiary-button:hover {
-        background-color: #fb8c00;
+        background-color: var(--tertiary-hover);
     }
+
     #results {
         margin-top: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
     }
+
     .result-item {
         background-color: var(--result-bg-color);
         border: 1px solid var(--result-border-color);
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: var(--shadow);
         padding: 20px;
         margin-bottom: 20px;
-        border-radius: 8px;
+        border-radius: var(--border-radius);
+        transition: var(--transition);
     }
+
+    .result-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
     .result-title {
         font-size: 20px;
         font-weight: bold;
-        color: #2196f3;
+        color: var(--primary-color);
         margin-bottom: 10px;
     }
+
     .coverage-info {
         font-size: 16px;
         color: var(--text-color);
         background-color: var(--coverage-bg-color);
         padding: 5px 10px;
-        border-radius: 4px;
+        border-radius: var(--border-radius);
         margin-bottom: 10px;
     }
+
     .covered-courses {
         font-style: italic;
         color: var(--text-color);
         margin-top: 10px;
         padding: 5px 0;
     }
+
     .exam-list {
-        display: none;
         list-style-type: decimal;
         margin-top: 10px;
         padding-left: 20px;
     }
+
     .exam-list li {
         margin-bottom: 5px;
         word-wrap: break-word;
         overflow-wrap: anywhere;
     }
+
     .exam-list li.covered {
         font-weight: bold;
-        color: #388e3c;
+        color: var(--success-color);
     }
+
     .exam-list li.free-choice {
-        color: #2196f3;
-        font-style: italic;
-    }
-    .excluded-exams {
-        margin-top: 15px;
-        color: #666;
+        color: var(--primary-color);
         font-style: italic;
     }
 
     .free-choice-notice {
-        margin-top: 10px;
-        color: #2196f3;
+        margin: 10px 0 15px;
+        color: var(--primary-color);
         font-weight: bold;
-        margin-bottom: 15px;
     }
 
-    .free-choice-details {
-        font-weight: normal;
-        margin-top: 5px;
-        line-height: 1.4;
-    }
     #searchContainer {
         margin-bottom: 20px;
     }
+
     #searchInput {
         width: 100%;
         max-width: 1000px;
         padding: 10px;
         font-size: 16px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-sizing: border-box;
-        background-color: var(--bg-color);
+        border: 1px solid var(--result-border-color);
+        border-radius: var(--border-radius);
+        background-color: var(--item-bg-color);
         color: var(--text-color);
+        transition: var(--transition);
     }
+
+    #searchInput:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    }
+
     @media (prefers-color-scheme: dark) {
         .exam-list li.covered {
-            color: #81c784;
+            color: var(--success-light);
         }
     }
+
     @media (max-width: 600px) {
         body {
-            padding: 5px;
+            padding: 10px;
         }
+
         #courseList {
             grid-template-columns: 1fr;
-            justify-items: center;
-            padding: 0 10px;
         }
+
         #courseList li {
-            font-size: 16px;
-            padding: 10px;
-            height: auto;
+            width: 100%;
+            max-width: none;
             min-height: 60px;
-            width: calc(100% - 20px);
-            max-width: 300px;
             max-height: none;
         }
-        #courseList li label {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            width: 100%;
-            height: auto;
-            text-align: left;
-            white-space: normal;
-            overflow: visible;
-        }
-        #courseList li input[type="checkbox"] {
-            margin-right: 10px;
-            flex-shrink: 0;
-        }
+
         .button-container {
             flex-direction: column;
+            align-items: stretch;
         }
+
         .button-container button {
             margin-bottom: 10px;
+        }
+
+        .result-item {
+            padding: 15px;
         }
     }
 </style>
@@ -268,114 +302,147 @@
     </div>
     <script>
         const RCP = JSON.parse("{{ .Site.Data.rcpData.RCP | jsonify }}");
-
         const relatedCourses = JSON.parse(
             "{{ .Site.Data.rcpData.relatedCourses | jsonify }}",
         );
-
-        const allCourses = [
-            ...new Set(RCP.flatMap(([, courses]) => courses)).union(
-                new Set(relatedCourses),
-            ),
-        ].sort();
+        const rcpCoursesSet = new Set(RCP.flatMap(([, courses]) => courses));
+        const relatedCoursesSet = new Set(relatedCourses);
+        const allCourses = [...rcpCoursesSet.union(relatedCoursesSet)].sort();
+        const notInRCP = relatedCoursesSet.difference(rcpCoursesSet);
 
         let results = [];
 
         function populateCourseList() {
             const courseList = document.getElementById("courseList");
+            const fragment = document.createDocumentFragment();
+
             allCourses.forEach((course) => {
                 const li = document.createElement("li");
                 const checkbox = document.createElement("input");
-                checkbox.type = "checkbox";
-                checkbox.id = course;
-                checkbox.name = course;
-                checkbox.value = course;
-
                 const label = document.createElement("label");
+
+                Object.assign(checkbox, {
+                    type: "checkbox",
+                    id: course,
+                    name: course,
+                    value: course,
+                });
+
                 label.htmlFor = course;
                 label.appendChild(checkbox);
                 label.appendChild(document.createTextNode(course));
-
                 li.appendChild(label);
-                courseList.appendChild(li);
+                fragment.appendChild(li);
             });
+
+            courseList.appendChild(fragment);
         }
 
-        function getSelectedCourses() {
-            return Array.from(
+        const getSelectedCourses = () =>
+            Array.from(
                 document.querySelectorAll(
                     '#courseList input[type="checkbox"]:checked',
                 ),
             ).map((cb) => cb.value);
+
+        const combinations = (arr, r) =>
+            r === 1
+                ? arr.map((el) => [el])
+                : arr.flatMap((el, i) =>
+                      combinations(arr.slice(i + 1), r - 1).map((combo) => [
+                          el,
+                          ...combo,
+                      ]),
+                  );
+
+        function limitNotInRcpCourses(selectedCourses, maxNotInRcp = 4) {
+            const [notInRcpSelected, rcpSelected] = [
+                selectedCourses.filter((course) => notInRCP.has(course)),
+                selectedCourses.filter((course) => !notInRCP.has(course)),
+            ];
+            return [...rcpSelected, ...notInRcpSelected.slice(0, maxNotInRcp)];
         }
 
-        function combinations(arr, r) {
-            if (r === 1) return arr.map((el) => [el]);
-            return arr.flatMap((el, i) =>
-                combinations(arr.slice(i + 1), r - 1).map((combo) => [
-                    el,
-                    ...combo,
-                ]),
+        function showResults() {
+            ["description", "searchContainer"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
             );
+            ["courseSelection", "calculateButton", "resetButton"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
+            );
+            ["results", "editButton"].forEach(
+                (id) => (document.getElementById(id).style.display = "block"),
+            );
+            window.scrollTo(0, 0);
+        }
+
+        function showSelection() {
+            ["results"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
+            );
+            [
+                "courseSelection",
+                "calculateButton",
+                "resetButton",
+                "description",
+                "searchContainer",
+            ].forEach(
+                (id) => (document.getElementById(id).style.display = "block"),
+            );
+            document.getElementById("editButton").style.display = "none";
+            window.scrollTo(0, 0);
         }
 
         function calculateResults() {
             const selectedCourses = getSelectedCourses();
-            const groupCombinations = combinations(RCP, 2);
+            const limitedSelectedCourses =
+                limitNotInRcpCourses(selectedCourses);
 
-            results = groupCombinations.map(([group1, group2]) => {
-                const set1 = new Set(group1[1]);
-                const set2 = new Set(group2[1]);
-                const unionSet = new Set([...set1, ...set2]);
+            results = combinations(RCP, 2).map(([group1, group2]) => {
+                const unionSet = new Set([
+                    ...new Set(group1[1]),
+                    ...new Set(group2[1]),
+                ]);
                 const allAvailableCourses = [...unionSet];
-
-                const coveredCourses = selectedCourses.filter((course) =>
+                const coveredCourses = limitedSelectedCourses.filter((course) =>
                     unionSet.has(course),
                 );
-                const excludedSelectedCourses = selectedCourses.filter(
+                const excludedSelectedCourses = limitedSelectedCourses.filter(
                     (course) => !unionSet.has(course),
                 );
-
-                const freeChoiceSlots =
-                    allAvailableCourses.length < 13
-                        ? 13 - allAvailableCourses.length
-                        : 0;
-
+                const freeChoiceSlots = Math.max(
+                    0,
+                    13 - allAvailableCourses.length,
+                );
                 const additionalCoverage = Math.min(
                     freeChoiceSlots,
                     excludedSelectedCourses.length,
                 );
-                const totalCoverage =
-                    coveredCourses.length + additionalCoverage;
-
-                const coverableByFreeChoice = excludedSelectedCourses.slice(
-                    0,
-                    freeChoiceSlots,
-                );
 
                 return {
                     groups: [group1, group2],
-                    coverage: totalCoverage,
+                    coverage: coveredCourses.length + additionalCoverage,
                     baseCoverage: coveredCourses.length,
-                    coveredCourses: coveredCourses,
+                    coveredCourses,
                     allCourses: allAvailableCourses,
-                    excludedSelectedCourses: excludedSelectedCourses,
-                    freeChoiceSlots: freeChoiceSlots,
-                    coverableByFreeChoice: coverableByFreeChoice,
+                    excludedSelectedCourses,
+                    freeChoiceSlots,
+                    coverableByFreeChoice: excludedSelectedCourses.slice(
+                        0,
+                        freeChoiceSlots,
+                    ),
                 };
             });
 
-            results.sort((a, b) => {
-                if (b.coverage !== a.coverage) {
-                    return b.coverage - a.coverage;
-                }
-                return b.baseCoverage - a.baseCoverage;
-            });
-            displayResults(results.slice(0, 5), selectedCourses.length);
+            results.sort((a, b) =>
+                b.coverage !== a.coverage
+                    ? b.coverage - a.coverage
+                    : b.baseCoverage - a.baseCoverage,
+            );
 
-            document.getElementById("description").style.display = "none";
-            document.getElementById("searchContainer").style.display = "none";
-            window.scrollTo(0, 0);
+            displayResults(results.slice(0, 5), selectedCourses.length);
+            history.pushState({ page: "results" }, "", "#results");
+            showResults();
         }
 
         function displayResults(results, totalSelected) {
@@ -389,71 +456,44 @@
 
                 const totalCoverageText = `${result.coverage}/${totalSelected}`;
                 const coverageBreakdown = `(${result.baseCoverage} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
-
                 const freeChoiceText =
                     result.freeChoiceSlots > 0
-                        ? `<div class="free-choice-notice">
-                            This combination allows for ${
-                                result.freeChoiceSlots
-                            } free choice course${
-                                result.freeChoiceSlots > 1 ? "s" : ""
-                            }.
-                           </div>`
+                        ? `<div class="free-choice-notice">This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.</div>`
                         : "";
 
                 resultItem.innerHTML = `
-                        <div class="result-title">${result.groups[0][0]} + ${
-                            result.groups[1][0]
-                        }</div>
-                        <div class="coverage-info">Selected courses covered: ${totalCoverageText} ${coverageBreakdown}</div>
-                        <p class="covered-courses">Covered courses: ${result.coveredCourses.join(
-                            ", ",
-                        )}</p>
-                        ${freeChoiceText}
-                        <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
-                        <ol class="exam-list" id="examList${index}" style="display: none">
-                            ${result.allCourses
-                                .sort()
-                                .map(
-                                    (course) => `
-                                    <li class="${
-                                        result.coveredCourses.includes(course)
-                                            ? "covered"
-                                            : ""
-                                    }">${course}</li>
-                                `,
-                                )
-                                .join("")}
-                            ${result.coverableByFreeChoice
-                                .map(
-                                    (course) => `
-                                    <li class="free-choice">${course} (free choice)</li>
-                                `,
-                                )
-                                .join("")}
-                        </ol>
-                    `;
+                <div class="result-title">${result.groups[0][0]} + ${result.groups[1][0]}</div>
+                <div class="coverage-info">Selected courses covered: ${totalCoverageText} ${coverageBreakdown}</div>
+                <p class="covered-courses">Covered courses: ${result.coveredCourses.join(", ")}</p>
+                ${freeChoiceText}
+                <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
+                <ol class="exam-list" id="examList${index}" style="display: none">
+                    ${result.allCourses
+                        .sort()
+                        .map(
+                            (course) =>
+                                `<li class="${result.coveredCourses.includes(course) ? "covered" : ""}">${course}</li>`,
+                        )
+                        .join("")}
+                    ${result.coverableByFreeChoice
+                        .map(
+                            (course) =>
+                                `<li class="free-choice">${course} (free choice)</li>`,
+                        )
+                        .join("")}
+                </ol>`;
+
                 resultsList.appendChild(resultItem);
             });
-
-            document.getElementById("courseSelection").style.display = "none";
-            resultsDiv.style.display = "block";
-            document.getElementById("calculateButton").style.display = "none";
-            document.getElementById("resetButton").style.display = "none";
-            document.getElementById("editButton").style.display =
-                "inline-block";
         }
 
         function toggleExamList(index) {
             const examList = document.getElementById(`examList${index}`);
             const button = examList.previousElementSibling;
-
-            const isCurrentlyHidden =
-                examList.style.display === "none" ||
-                examList.style.display === "";
-
-            examList.style.display = isCurrentlyHidden ? "block" : "none";
-            button.textContent = isCurrentlyHidden
+            const isHidden =
+                examList.style.display === "none" || !examList.style.display;
+            examList.style.display = isHidden ? "block" : "none";
+            button.textContent = isHidden
                 ? "Hide All Courses"
                 : "Show All Courses";
         }
@@ -462,66 +502,48 @@
             document
                 .querySelectorAll('#courseList input[type="checkbox"]')
                 .forEach((checkbox) => (checkbox.checked = false));
-
             const searchInput = document.getElementById("searchInput");
             searchInput.value = "";
             searchCourses();
-
             window.scrollTo(0, 0);
         }
 
         function editSelection() {
-            document.getElementById("results").style.display = "none";
-            document.getElementById("courseSelection").style.display = "block";
-            document.getElementById("calculateButton").style.display =
-                "inline-block";
-            document.getElementById("resetButton").style.display =
-                "inline-block";
-            document.getElementById("editButton").style.display = "none";
-            document.getElementById("description").style.display = "block";
-            document.getElementById("searchContainer").style.display = "block";
-        }
-
-        function populateCourseList() {
-            const courseList = document.getElementById("courseList");
-            allCourses.forEach((course) => {
-                const li = document.createElement("li");
-                const checkbox = document.createElement("input");
-                checkbox.type = "checkbox";
-                checkbox.id = course;
-                checkbox.name = course;
-                checkbox.value = course;
-
-                const label = document.createElement("label");
-                label.htmlFor = course;
-                label.appendChild(checkbox);
-                label.appendChild(document.createTextNode(course));
-
-                li.appendChild(label);
-                courseList.appendChild(li);
-            });
+            history.pushState({ page: "selection" }, "", "#selection");
+            showSelection();
         }
 
         function searchCourses() {
-            const searchInput = document.getElementById("searchInput");
-            const filter = searchInput.value.toLowerCase();
-            const courseItems = document.querySelectorAll("#courseList li");
-
-            courseItems.forEach((item) => {
-                const text = item.textContent || item.innerText;
-                if (text.toLowerCase().indexOf(filter) > -1) {
-                    item.style.display = "";
-                } else {
-                    item.style.display = "none";
-                }
+            const filter = document
+                .getElementById("searchInput")
+                .value.toLowerCase();
+            document.querySelectorAll("#courseList li").forEach((item) => {
+                item.style.display = (item.textContent || item.innerText)
+                    .toLowerCase()
+                    .includes(filter)
+                    ? ""
+                    : "none";
             });
         }
 
-        window.onload = function () {
+        window.addEventListener("popstate", function (event) {
+            if (event.state) {
+                if (event.state.page === "selection") {
+                    showSelection();
+                } else if (event.state.page === "results") {
+                    showResults();
+                }
+            } else {
+                showSelection();
+            }
+        });
+
+        window.onload = () => {
             populateCourseList();
             document
                 .getElementById("searchInput")
                 .addEventListener("keyup", searchCourses);
+            history.replaceState({ page: "selection" }, "", "#selection");
         };
     </script>
 </body>
