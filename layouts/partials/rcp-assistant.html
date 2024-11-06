@@ -363,6 +363,36 @@
             return [...rcpSelected, ...notInRcpSelected.slice(0, maxNotInRcp)];
         }
 
+        function showResults() {
+            ["description", "searchContainer"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
+            );
+            ["courseSelection", "calculateButton", "resetButton"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
+            );
+            ["results", "editButton"].forEach(
+                (id) => (document.getElementById(id).style.display = "block"),
+            );
+            window.scrollTo(0, 0);
+        }
+
+        function showSelection() {
+            ["results"].forEach(
+                (id) => (document.getElementById(id).style.display = "none"),
+            );
+            [
+                "courseSelection",
+                "calculateButton",
+                "resetButton",
+                "description",
+                "searchContainer",
+            ].forEach(
+                (id) => (document.getElementById(id).style.display = "block"),
+            );
+            document.getElementById("editButton").style.display = "none";
+            window.scrollTo(0, 0);
+        }
+
         function calculateResults() {
             const selectedCourses = getSelectedCourses();
             const limitedSelectedCourses =
@@ -411,11 +441,8 @@
             );
 
             displayResults(results.slice(0, 5), selectedCourses.length);
-
-            ["description", "searchContainer"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            window.scrollTo(0, 0);
+            history.pushState({ page: "results" }, "", "#results");
+            showResults();
         }
 
         function displayResults(results, totalSelected) {
@@ -431,9 +458,7 @@
                 const coverageBreakdown = `(${result.baseCoverage} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
                 const freeChoiceText =
                     result.freeChoiceSlots > 0
-                        ? `<div class="free-choice-notice">
-                    This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.
-                   </div>`
+                        ? `<div class="free-choice-notice">This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.</div>`
                         : "";
 
                 resultItem.innerHTML = `
@@ -460,13 +485,6 @@
 
                 resultsList.appendChild(resultItem);
             });
-
-            ["courseSelection", "calculateButton", "resetButton"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            ["results", "editButton"].forEach(
-                (id) => (document.getElementById(id).style.display = "block"),
-            );
         }
 
         function toggleExamList(index) {
@@ -474,7 +492,6 @@
             const button = examList.previousElementSibling;
             const isHidden =
                 examList.style.display === "none" || !examList.style.display;
-
             examList.style.display = isHidden ? "block" : "none";
             button.textContent = isHidden
                 ? "Hide All Courses"
@@ -485,7 +502,6 @@
             document
                 .querySelectorAll('#courseList input[type="checkbox"]')
                 .forEach((checkbox) => (checkbox.checked = false));
-
             const searchInput = document.getElementById("searchInput");
             searchInput.value = "";
             searchCourses();
@@ -493,19 +509,8 @@
         }
 
         function editSelection() {
-            ["results"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            [
-                "courseSelection",
-                "calculateButton",
-                "resetButton",
-                "description",
-                "searchContainer",
-            ].forEach(
-                (id) => (document.getElementById(id).style.display = "block"),
-            );
-            document.getElementById("editButton").style.display = "none";
+            history.pushState({ page: "selection" }, "", "#selection");
+            showSelection();
         }
 
         function searchCourses() {
@@ -521,11 +526,24 @@
             });
         }
 
+        window.addEventListener("popstate", function (event) {
+            if (event.state) {
+                if (event.state.page === "selection") {
+                    showSelection();
+                } else if (event.state.page === "results") {
+                    showResults();
+                }
+            } else {
+                showSelection();
+            }
+        });
+
         window.onload = () => {
             populateCourseList();
             document
                 .getElementById("searchInput")
                 .addEventListener("keyup", searchCourses);
+            history.replaceState({ page: "selection" }, "", "#selection");
         };
     </script>
 </body>
