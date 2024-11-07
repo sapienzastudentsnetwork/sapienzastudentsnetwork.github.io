@@ -223,10 +223,6 @@
     ]
   },
   {
-    "year": "Primo anno - secondo semestre",
-    "channels": []
-  },
-  {
     "year": "Secondo anno - primo semestre",
     "channels": [
       {
@@ -459,30 +455,6 @@
     ]
   },
   {
-    "year": "Secondo anno - secondo semestre",
-    "channels": [
-      {
-        "channel": "Canale 1",
-        "timetable": [
-          {
-            "course": "1015887",
-            "subject": "BASI DI DATI II MODULO",
-            "building": "Edificio: RM018",
-            "room": "Aula 1",
-            "teacher": "MANCINI TONI",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "14:00"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "year": "Terzo anno - primo semestre",
     "channels": [
       {
@@ -684,9 +656,5 @@
         ]
       }
     ]
-  },
-  {
-    "year": "Terzo anno - secondo semestre",
-    "channels": []
   }
 ]
