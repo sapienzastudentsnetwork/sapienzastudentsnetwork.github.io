@@ -783,6 +783,36 @@ if __name__ == '__main__':
                                 #        classroom_info = clinica_odontoiatrica_aula_a2
                                 #        classroom_url  = clinica_odontoiatrica
 
+                                # 8 novembre 2024 - sciopero nazionale
+                                # «senza rispetto delle fasce di garanzia
+                                # e con manifestazione nazionale»
+                                if day_name == "venerdì":
+                                    # Informatica - Secondo Anno
+                                    if (course_code == "1020421"):
+                                        if channel_id == "1":
+                                            classroom_info = "Zoom"
+                                            classroom_url = "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
+                                        elif channel_id == "2":
+                                            classroom_info = "Zoom"
+                                            classroom_url = "https://uniroma1.zoom.us/j/81062850219"
+
+                                    elif (course_code == "1015886") and (channel_id == "1"):
+                                        classroom_info = "Meet"
+                                        classroom_url = "http://meet.google.com/wwi-vnmh-nof"
+
+                                    elif course_code == "1020422_1" and (channel_id == "2"):
+                                        classroom_info = "Zoom (ID: 830 9280 6700, Passcode: 466865) + Aula 11 Via Scarpa (RM005)"
+                                        classroom_url  = "https://uniroma1.zoom.us/j/83092806700?pwd=I7z0viiFKaQ09Jurp03GDx7qxqSalC.1"
+
+                                    # Informatica - Terzo Anno
+                                    elif course_code == "10596283":
+                                        classroom_info = "Meet"
+                                        classroom_url = "https://meet.google.com/ynz-fvgi-kbp"
+
+                                    elif course_code == "1041727":
+                                        classroom_info = "Zoom"
+                                        classroom_url = "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
+
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
 
@@ -802,6 +832,7 @@ if __name__ == '__main__':
 
                                 if classroom_url is not None:
                                     day_schedule["classroomUrl"] = classroom_url
+
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█

@@ -227,8 +227,8 @@
           {
             "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
             "timeslot": "13 - 15",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classroomInfo": "Meet",
+            "classroomUrl": "http://meet.google.com/wwi-vnmh-nof"
           }
         ]
       },
@@ -331,8 +331,8 @@
           {
             "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
             "timeslot": "15 - 17",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
           }
         ]
       },
@@ -358,9 +358,8 @@
           {
             "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
             "timeslot": "12 - 14",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/81062850219"
           }
         ]
       }
@@ -405,9 +404,8 @@
           {
             "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
             "timeslot": "14 - 17",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Zoom (ID: 830 9280 6700, Passcode: 466865) + Aula 11 Via Scarpa (RM005)",
+            "classroomUrl": "https://uniroma1.zoom.us/j/83092806700?pwd=I7z0viiFKaQ09Jurp03GDx7qxqSalC.1"
           }
         ]
       }
@@ -432,8 +430,8 @@
           {
             "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
             "timeslot": "15 - 17",
-            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classroomInfo": "Zoom",
+            "classroomUrl": "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
           }
         ]
       }
@@ -592,9 +590,8 @@
           {
             "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
             "timeslot": "13 - 15",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "classroomInfo": "Meet",
+            "classroomUrl": "https://meet.google.com/ynz-fvgi-kbp"
           }
         ]
       }
