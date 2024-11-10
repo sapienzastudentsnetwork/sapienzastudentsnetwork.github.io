@@ -66,8 +66,11 @@
 #   S U B J E C T S   T I M E T A B L E
 #
 
-- id: Subjs_WorkInProgress
+- id: Subjs_ThisWeekOnly
   translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la settima settimana di lezioni (dal 4 all'8 Novembre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
+
+- id: Subjs_WorkInProgress
+  translation: Orari in fase di aggiornamento. Ti preghiamo di non farci affidamento per il momento e riprovare più tardi!
 
 - id: Subjs_Timetables_Time
   translation: Orario
