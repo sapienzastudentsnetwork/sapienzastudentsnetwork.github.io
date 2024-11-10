@@ -7,7 +7,7 @@
 
     {{ $excludedCodes := slice "29932" "29389" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
-        ⚠️ {{ T "Subjs_WorkInProgress" }}
+        ⚠️ {{ T "Subjs_ThisWeekOnly" }}
     {{ end }}
 
     <div class="relative" id="main">

@@ -2,7 +2,7 @@
     {{ partial "timetable.html" . }}
 
     {{ if not (or (in .Permalink "/29932") (in .Permalink "/29389")) }}
-        ⚠️ {{ T "Subjs_WorkInProgress" }}
+        ⚠️ {{ T "Subjs_ThisWeekOnly" }}
     {{ end }}
 
     <div class="channel-1 relative" id="main">

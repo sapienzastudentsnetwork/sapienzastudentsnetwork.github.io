@@ -632,47 +632,7 @@ if __name__ == '__main__':
               aula_2l_classroom_id : aula_2l_classroom_desc
             }
 
-    if currentDate <= datetime(2024, 11, 10):
-        # Per questa settimana, il Mercoledì, al posto di Calcolo Differenziale con il
-        # prof. Aiello, ci sarà Progettazione di Sistemi Digitali con il prof. Pontarelli
-        if "101226" in course_timetables_dict:
-            course_timetables_dict["101226"]["channels"]["1"] = {
-                "giovedì": [
-                    {
-                        "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
-                        "timeslot": "10 - 13",
-                        "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-                        "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-                    },
-                    {
-                        "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
-                        "timeslot": "15 - 17",
-                        "classrooms": {
-                          "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-                        }
-                    }
-                ]
-            }
-
-        # 1015883 - FONDAMENTI DI PROGRAMMAZIONE - Andrea Sterbini
-        # Il prof. Sterbini farà lezione solo martedì per via di un congresso a cui deve partecipare
-        if "1015883" in course_timetables_dict:
-            if "giovedì" in course_timetables_dict["1015883"]["channels"]["1"]:
-                course_timetables_dict["1015883"]["channels"]["1"].pop("giovedì")
-
-        # 1015880 - PROGETTAZIONE DI SISTEMI DIGITALI - Salvatore Pontarelli
-        # Il prof. Pontarelli farà lezione il Mercoledì al posto del prof. Valeriano Aiello
-        if "1015880" in course_timetables_dict:
-            if "mercoledì" not in course_timetables_dict["1015880"]["channels"]["1"]:
-                course_timetables_dict["1015880"]["channels"]["1"]["mercoledì"] = [
-                    {
-                        "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
-                        "timeslot": "8 - 11",
-                        "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-                        "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-                    }
-                ]
-
+    if currentDate <= datetime(2024, 11, 16):
         for course_code, course_data in course_timetables_dict.items():
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
@@ -686,34 +646,6 @@ if __name__ == '__main__':
                                 day_schedule["teacherInfo"] = "AIELLO VALERIANO"
                                 day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
 
-                        # 1020422_1 - SISTEMI OPERATIVI I
-                        # Il prof. Tolomei causa salute ha dovuto annullare le lezioni di
-                        # Sistemi Operativi I (Canale A-L) sia per domani sia per dopodomani
-                        # (5 e 6 novembre 2024)
-                        if (course_code == "1020422_1") and (channel_id == "1"):
-                            if day_name == "mercoledì":
-                                day_schedule["timeslot"] = "13 - 14"
-                            day_schedule["cancelled"] = True
-
-                        # 1020421 - CALCOLO DELLE PROBABILITÀ
-                        #
-                        # Alcuni studenti hanno informato la prof.ssa Nappo che anche mercoledì 6 novembre 2024 le lezioni
-                        # del corso 1020422 - SISTEMI OPERATIVI I MODULO (Tolomei) ore 13-16 non si terranno e le hanno
-                        # chiesto di anticipare la lezione.
-                        #
-                        # Conferma quindi il cambio di orario ore 14:30 - 17:30 per la lezione di mercoledì 6 novembre 2024
-                        # (invece delle usuali 16:00-19:00)
-                        if (course_code == "1020421") and (channel_id == "1"):
-                            if day_name == "mercoledì":
-                                day_schedule["timeslot"] = "14 - 18"
-
-                        # 10595616_1 - SYSTEMS AND NETWORKING UNIT 1
-                        # Il prof. Tolomei causa salute ha dovuto annullare le lezioni di
-                        # Systems and Networking Unit 1 (ACSAI) sia per domani sia per
-                        # dopodomani (5 e 6 novembre 2024)
-                        if (course_code == "10595616_1") and (channel_id == "0"):
-                            day_schedule["cancelled"] = True
-
                         if "classrooms" in day_schedule:
                             for classroom_id, classroom_description in day_schedule["classrooms"].items():
                                 classroom_info = day_schedule.get("classroomInfo", None)
@@ -722,8 +654,11 @@ if __name__ == '__main__':
                                 if "(Edificio: RM158)" in classroom_description:
                                     if channel_id == "1":
                                         if course_code in first_and_second_year_informatica_teachings:
-                                            classroom_info = clinica_odontoiatrica_aula_a1
-                                            classroom_url  = clinica_odontoiatrica
+                                            if day_name in ("lunedì", "martedì"):
+                                                classroom_info = clinica_odontoiatrica_aula_a1
+                                                classroom_url  = clinica_odontoiatrica
+                                            else:
+                                                classroom_info = "TBA"
 
                                     elif channel_id == "2":
                                         if day_name == "martedì":
@@ -732,39 +667,35 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                classroom_info = reginaelena_edificiod_aula_101
-                                                classroom_url  = reginaelena_edificiod
+                                                classroom_info = "TBA"
 
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
-                                            if day_name in ("lunedì", "martedì", "mercoledì"):
+                                            if day_name in ("lunedì", "martedì"):
                                                 classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
 
                                         if course_code in first_year_acsai_teachings:
-                                            if day_name in ("giovedì", "venerdì"):
+                                            if day_name in ("mercoledì", "giovedì", "venerdì"):
                                                 # 10595102 - PROGRAMMING UNIT 1
                                                 if course_code == "10595102_1":
                                                     day_schedule["classrooms"] = {
                                                         aula_magna_rm111_id: aula_magna_rm111_desc
                                                     }
                                                 else:
-                                                    classroom_info = reginaelena_edificiod_aula_101
-                                                    classroom_url  = reginaelena_edificiod
+                                                    classroom_info = "TBA"
 
                                         elif course_code in second_year_acsai_teachings:
-                                            if day_name in ("lunedì", "martedì", "giovedì"):
+                                            if day_name in ("lunedì", "martedì"):
                                                 classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
 
-                                            elif day_name == "venerdì":
-                                                # 10595616 - SYSTEMS AND NETWORKING UNIT II
-                                                if course_code == "10595616_2":
-                                                    classroom_info = reginaelena_edificiod_aula_301
-                                                    classroom_url  = reginaelena_edificiod
-                                                else:
-                                                    classroom_info = reginaelena_edificiod_aula_101
-                                                    classroom_url  = reginaelena_edificiod
+                                            elif day_name == "mercoledì":
+                                                classroom_info = viascarpa_classroom_desc
+                                                classroom_url  = viascarpa_classroom_id
+
+                                            else:
+                                                classroom_info = "TBA"
 
                                         # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
                                         elif course_code == "1022301":
@@ -775,43 +706,12 @@ if __name__ == '__main__':
                                         # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                         elif course_code == "1041727":
                                             if day_name == "venerdì":
-                                                classroom_info = reginaelena_edificiod_aula_301
-                                                classroom_url  = reginaelena_edificiod
+                                                classroom_info = "TBA"
 
                                 #elif course_code in ("1022267", "10595534"):
                                 #    if day_name == "giovedì":
                                 #        classroom_info = clinica_odontoiatrica_aula_a2
                                 #        classroom_url  = clinica_odontoiatrica
-
-                                # 8 novembre 2024 - sciopero nazionale
-                                # «senza rispetto delle fasce di garanzia
-                                # e con manifestazione nazionale»
-                                if day_name == "venerdì":
-                                    # Informatica - Secondo Anno
-                                    if (course_code == "1020421"):
-                                        if channel_id == "1":
-                                            classroom_info = "Zoom"
-                                            classroom_url = "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
-                                        elif channel_id == "2":
-                                            classroom_info = "Zoom"
-                                            classroom_url = "https://uniroma1.zoom.us/j/81062850219"
-
-                                    elif (course_code == "1015886") and (channel_id == "1"):
-                                        classroom_info = "Meet"
-                                        classroom_url = "http://meet.google.com/wwi-vnmh-nof"
-
-                                    elif course_code == "1020422_1" and (channel_id == "2"):
-                                        classroom_info = "Zoom (ID: 830 9280 6700, Passcode: 466865) + Aula 11 Via Scarpa (RM005)"
-                                        classroom_url  = "https://uniroma1.zoom.us/j/83092806700?pwd=I7z0viiFKaQ09Jurp03GDx7qxqSalC.1"
-
-                                    # Informatica - Terzo Anno
-                                    elif course_code == "10596283":
-                                        classroom_info = "Meet"
-                                        classroom_url = "https://meet.google.com/ynz-fvgi-kbp"
-
-                                    elif course_code == "1041727":
-                                        classroom_info = "Zoom"
-                                        classroom_url = "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
 
                                 if classroom_info is not None:
                                     day_schedule.pop("classrooms")
@@ -824,11 +724,9 @@ if __name__ == '__main__':
 
                                 if classroom_info == "TBA" and classroom_url is None:
                                     if degree_programme_code == "29923":
-                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1994192526&single=true"
+                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1775652133&single=true"
                                     elif degree_programme_code == "30786":
-                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=2076434169&single=true"
-                                    elif degree_programme_code == "29932":
-                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=649156826&single=true"
+                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1151745624&single=true"
 
                                 if classroom_url is not None:
                                     day_schedule["classroomUrl"] = classroom_url
