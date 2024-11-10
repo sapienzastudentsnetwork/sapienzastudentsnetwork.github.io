@@ -4,23 +4,22 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "gioved\u00ec": [
+        "mercoled\u00ec": [
           {
-            "teacher": null,
-            "timeslot": "10 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA",
-            "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
-          },
-          {
-            "teacher": null,
-            "timeslot": "15 - 17",
+            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "timeslot": "8 - 11",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-            },
-            "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teacher": "5374367e-49df-4ff1-985b-ab4b4612e702",
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -56,8 +55,9 @@
           {
             "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
             "timeslot": "11 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
@@ -67,6 +67,15 @@
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
             }
           }
         ]
@@ -113,16 +122,18 @@
           {
             "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
             "timeslot": "8 - 11",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
           {
             "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
             "timeslot": "11 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -154,28 +165,22 @@
     "degree": "29923",
     "channels": {
       "1": {
-        "mercoled\u00ec": [
-          {
-            "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
-            "timeslot": "8 - 11",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-          }
-        ],
         "gioved\u00ec": [
           {
             "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
             "timeslot": "8 - 10",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "1138287c-ed09-4d3e-be57-d50b8f12e7a2",
             "timeslot": "10 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -211,24 +216,27 @@
           {
             "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
             "timeslot": "15 - 18",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "marted\u00ec": [
           {
             "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
             "timeslot": "17 - 19",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "0e212ecd-54c1-4933-9991-e1ceb54175fc",
             "timeslot": "13 - 15",
-            "classroomInfo": "Meet",
-            "classroomUrl": "http://meet.google.com/wwi-vnmh-nof"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -237,16 +245,18 @@
           {
             "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
             "timeslot": "13 - 15",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
           {
             "teacher": "d2d55785-da72-49d5-a091-fb5c72884201",
             "timeslot": "17 - 19",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
@@ -271,16 +281,18 @@
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "13 - 15",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "13 - 16",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -289,8 +301,9 @@
           {
             "teacher": "58c84b39-9448-4ec2-8d83-e89268086aef",
             "timeslot": "15 - 17",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
@@ -314,25 +327,28 @@
         "mercoled\u00ec": [
           {
             "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
-            "timeslot": "14 - 18",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
             "timeslot": "16 - 18",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "606eb63d-0d7b-45cc-8cb9-3ccdabf2ec0d",
             "timeslot": "15 - 17",
-            "classroomInfo": "Zoom",
-            "classroomUrl": "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -350,16 +366,18 @@
           {
             "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
             "timeslot": "13 - 15",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784",
             "timeslot": "12 - 14",
-            "classroomInfo": "Zoom",
-            "classroomUrl": "https://uniroma1.zoom.us/j/81062850219"
+            "classrooms": {
+              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+            }
           }
         ]
       }
@@ -375,18 +393,18 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "15 - 17",
-            "cancelled": true,
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
-            "timeslot": "13 - 14",
-            "cancelled": true,
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ]
       },
@@ -404,8 +422,9 @@
           {
             "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
             "timeslot": "14 - 17",
-            "classroomInfo": "Zoom (ID: 830 9280 6700, Passcode: 466865) + Aula 11 Via Scarpa (RM005)",
-            "classroomUrl": "https://uniroma1.zoom.us/j/83092806700?pwd=I7z0viiFKaQ09Jurp03GDx7qxqSalC.1"
+            "classrooms": {
+              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+            }
           }
         ]
       }
@@ -430,8 +449,9 @@
           {
             "teacher": "0dfd0deb-ac72-429b-8258-3a34436a560c",
             "timeslot": "15 - 17",
-            "classroomInfo": "Zoom",
-            "classroomUrl": "https://uniroma1.zoom.us/j/81229907754?pwd=EZK66yAlBNbtC8NDMubGoZA3MJtGs3.1"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -501,8 +521,9 @@
           {
             "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
             "timeslot": "11 - 13",
-            "classroomInfo": "Aula A1 Luigi Capozzi Via Caserta, 6",
-            "classroomUrl": "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
+            "classrooms": {
+              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
@@ -590,8 +611,9 @@
           {
             "teacher": "17631fe6-2af6-407a-a425-cbdc7c9f3bdd",
             "timeslot": "13 - 15",
-            "classroomInfo": "Meet",
-            "classroomUrl": "https://meet.google.com/ynz-fvgi-kbp"
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
           }
         ]
       }
@@ -1320,16 +1342,18 @@
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
             "timeslot": "8 - 10",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
           {
             "teacher": "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf",
             "timeslot": "8 - 11",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -1345,16 +1369,18 @@
           {
             "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
             "timeslot": "10 - 13",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "f29c0c45-a387-4dbb-a4a6-04a1345da481",
             "timeslot": "11 - 13",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -1370,16 +1396,18 @@
           {
             "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "8 - 11",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "fef5b4b5-da33-46f4-bcc7-4b3a66b4e033",
             "timeslot": "8 - 10",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -1395,8 +1423,9 @@
           {
             "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "11 - 13",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
@@ -1404,7 +1433,7 @@
             "teacher": "f738330a-ffb2-4dc3-b40e-205299ff9ad1",
             "timeslot": "8 - 11",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
             }
           }
         ]
@@ -1450,16 +1479,18 @@
           {
             "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "16 - 18",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "8b64b500-7dbd-4683-8510-945a0d5cbfe6",
             "timeslot": "10 - 13",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -1475,16 +1506,18 @@
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "14 - 17",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "gioved\u00ec": [
           {
             "teacher": "7353baa2-b69d-499a-b7f4-a59f02bdac25",
             "timeslot": "16 - 18",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
@@ -1500,8 +1533,9 @@
           {
             "teacher": "4952daed-d004-49b4-9525-5d6707254b25",
             "timeslot": "13 - 16",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
@@ -1526,9 +1560,9 @@
           {
             "teacher": "8f36766a-6eae-491c-9412-e437f4e904cd",
             "timeslot": "17 - 19",
-            "cancelled": true,
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "mercoled\u00ec": [
@@ -1537,8 +1571,7 @@
             "timeslot": "16 - 19",
             "classrooms": {
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            },
-            "cancelled": true
+            }
           }
         ]
       }
@@ -1554,16 +1587,18 @@
           {
             "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
             "timeslot": "13 - 16",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ],
         "venerd\u00ec": [
           {
             "teacher": "af262e9a-41ee-4fd1-a36f-de5f003d100e",
             "timeslot": "13 - 15",
-            "classroomInfo": "Aula 301 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
           }
         ]
       }
