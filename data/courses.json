@@ -101,14 +101,7 @@
         "abbr": "CDP",
         "tgGroup": "https://t.me/+Dq6lPczRbJtmNmVk",
         "cfu": 9,
-        "department": "MAT",
-        "alerts": {
-            "1": {
-                "mercoledì": [
-                    "• ⚠\uFE0F La lezione di Mercoledì 6 novembre del Canale A-L di Calcolo delle Probabilità si terrà dalle ore 14:30 alle ore 17:30. In contemporanea, è predisposta anche una riunione Google Meet all'indirizzo https://meet.google.com/saf-hhcd-odh"
-                ]
-            }
-        }
+        "department": "MAT"
     },
     "1020422_1": {
         "name": "Sistemi Operativi 1",
@@ -116,17 +109,7 @@
         "abbr": "SO1",
         "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
         "cfu": 6,
-        "department": "INF",
-        "alerts": {
-            "1": {
-                "martedì": [
-                    "• ⚠\uFE0F La lezione di Martedì 5 novembre del Canale A-L di Sistemi Operativi I è annullata per motivi di salute del prof. Tolomei"
-                ],
-                "mercoledì": [
-                    "• ⚠\uFE0F La lezione di Mercoledì 6 novembre del Canale A-L di Sistemi Operativi I è annullata per motivi di salute del prof. Tolomei"
-                ]
-            }
-        }
+        "department": "INF"
     },
     "1020422_2": {
         "name": "Sistemi Operativi 2",
@@ -316,14 +299,7 @@
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch. U1",
         "abbr": "CAU1",
-        "cfu": 12,
-        "alerts": {
-            "0": {
-                "giovedì": [
-                    "• ⚠\uFE0F Thursday's Computer Architecture Unit 1 lecture will begin at 11:30 a.m. and end regularly at 1:00 p.m."
-                ]
-            }
-        }
+        "cfu": 12
     },
     "10595546_2": {
         "name": "Computer Architecture (Unit 2)",
@@ -395,17 +371,7 @@
         "name": "Systems and Networking (Unit 1)",
         "shortName": "Network (S&N U1)",
         "abbr": "SNU1",
-        "cfu": 6,
-        "alerts": {
-            "0": {
-                "martedì": [
-                    "• ⚠\uFE0F Tuesday 5 November's Systems and Networking Unit 1 lecture is cancelled due to Prof. Tolomei's health reasons"
-                ],
-                "mercoledì": [
-                    "• ⚠\uFE0F Wednesday 6 November's Systems and Networking Unit 1 lecture is cancelled due to Prof. Tolomei's health reasons"
-                ]
-            }
-        }
+        "cfu": 6
     },
     "10595616_2": {
         "name": "Systems and Networking (Unit 2)",
