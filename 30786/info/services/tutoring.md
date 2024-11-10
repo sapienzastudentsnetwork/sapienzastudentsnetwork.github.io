@@ -31,13 +31,13 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, during the following hours:
 
-| Day        | 10:00 - 12:00                                     | 13:00 - 18:00                                                   |
-|------------|---------------------------------------------------|-----------------------------------------------------------------|
-| Monday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)               |
-| Tuesday    | [Oriana Deliallisi](https://telegram.me/orianani) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)         |
-| Wednesday  | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)               |
-| Thursday   | [Oriana Deliallisi](https://telegram.me/orianani) | [Michele Palma](https://telegram.me/flyingmp)                   |
-| Friday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19) |
+| Day        | 10:00 - 12:00                                     | 13:00 - 18:00                                                     |
+|------------|---------------------------------------------------|-------------------------------------------------------------------|
+| Monday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani) (unavailable 16:00 - 17:00) |
+| Tuesday    | [Oriana Deliallisi](https://telegram.me/orianani) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
+| Wednesday  | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)                 |
+| Thursday   | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Michele Palma](https://telegram.me/flyingmp)                       |
+| Friday     | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13:00 - 19:00)
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
@@ -45,4 +45,6 @@ You can find the tutors for the "Student Help Desk" activity in Department of St
 The tutors will be available in person to listen to you and answer any questions you may have about your academic journey, or to help you find useful information and resources.
 
 This is especially useful for students taking their first steps within the University. It is, therefore, a practical general orientation service, from students to students.
+
+The online option is available on request, please contact us for setting up a call!
 {{% /hint %}}
