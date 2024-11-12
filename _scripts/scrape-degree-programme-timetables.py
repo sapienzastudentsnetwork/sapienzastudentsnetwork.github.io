@@ -654,11 +654,8 @@ if __name__ == '__main__':
                                 if "(Edificio: RM158)" in classroom_description:
                                     if channel_id == "1":
                                         if course_code in first_and_second_year_informatica_teachings:
-                                            if day_name in ("lunedì", "martedì"):
-                                                classroom_info = clinica_odontoiatrica_aula_a1
-                                                classroom_url  = clinica_odontoiatrica
-                                            else:
-                                                classroom_info = "TBA"
+                                            classroom_info = clinica_odontoiatrica_aula_a1
+                                            classroom_url  = clinica_odontoiatrica
 
                                     elif channel_id == "2":
                                         if day_name == "martedì":
@@ -667,7 +664,8 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                classroom_info = "TBA"
+                                                classroom_info = reginaelena_edificiod_aula_301
+                                                classroom_url  = reginaelena_edificiod
 
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
@@ -683,10 +681,11 @@ if __name__ == '__main__':
                                                         aula_magna_rm111_id: aula_magna_rm111_desc
                                                     }
                                                 else:
-                                                    classroom_info = "TBA"
+                                                    classroom_info = reginaelena_edificiod_aula_101
+                                                    classroom_url  = reginaelena_edificiod
 
                                         elif course_code in second_year_acsai_teachings:
-                                            if day_name in ("lunedì", "martedì"):
+                                            if day_name in ("lunedì", "martedì", "giovedì"):
                                                 classroom_info = reginaelena_edificiod_aula_101
                                                 classroom_url  = reginaelena_edificiod
 
@@ -694,8 +693,13 @@ if __name__ == '__main__':
                                                 classroom_info = viascarpa_classroom_desc
                                                 classroom_url  = viascarpa_classroom_id
 
-                                            else:
-                                                classroom_info = "TBA"
+                                            elif day_name == "venerdì":
+                                                if course_code == "10595529":
+                                                    classroom_info = reginaelena_edificiod_aula_101
+                                                    classroom_url  = reginaelena_edificiod
+                                                else:
+                                                    classroom_info = reginaelena_edificiod_aula_301
+                                                    classroom_url  = reginaelena_edificiod
 
                                         # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
                                         elif course_code == "1022301":
@@ -706,7 +710,8 @@ if __name__ == '__main__':
                                         # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
                                         elif course_code == "1041727":
                                             if day_name == "venerdì":
-                                                classroom_info = "TBA"
+                                                classroom_info = reginaelena_edificiod_aula_201
+                                                classroom_url  = reginaelena_edificiod
 
                                 #elif course_code in ("1022267", "10595534"):
                                 #    if day_name == "giovedì":
