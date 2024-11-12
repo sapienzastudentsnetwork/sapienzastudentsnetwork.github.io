@@ -29,7 +29,7 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 ### Comprehensive Learning Support Tutoring
 
-You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, during the following hours:
+You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, or contact them to schedule a call with them, during the following hours (check back week to week for changes):
 
 | Day        | 10:00 - 12:00                                     | 13:00 - 18:00                                                     |
 |------------|---------------------------------------------------|-------------------------------------------------------------------|
@@ -45,7 +45,4 @@ You can find the tutors for the "Student Help Desk" activity in Department of St
 The tutors will be available in person to listen to you and answer any questions you may have about your academic journey, or to help you find useful information and resources.
 
 This is especially useful for students taking their first steps within the University. It is, therefore, a practical general orientation service, from students to students.
-
-The online option is available on request, please contact us for setting up a call!
-
 {{% /hint %}}
