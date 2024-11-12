@@ -664,8 +664,12 @@ if __name__ == '__main__':
 
                                         elif day_name == "mercoledì":
                                             if course_code in second_year_informatica_teachings:
-                                                classroom_info = reginaelena_edificiod_aula_301
-                                                classroom_url  = reginaelena_edificiod
+                                                if course_code != "1015886":
+                                                    classroom_info = reginaelena_edificiod_aula_301
+                                                    classroom_url  = reginaelena_edificiod
+                                                else:
+                                                    classroom_info = reginaelena_edificiod_aula_201
+                                                    classroom_url  = reginaelena_edificiod
 
                                     elif channel_id == "0":
                                         if course_code in first_and_second_year_acsai_teachings:
