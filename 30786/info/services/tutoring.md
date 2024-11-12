@@ -33,7 +33,7 @@ You can find the tutors for the "Student Help Desk" activity in Department of St
 
 | Day        | 10:00 - 12:00                                     | 13:00 - 18:00                                                     |
 |------------|---------------------------------------------------|-------------------------------------------------------------------|
-| Monday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani) (unavailable 16:00 - 17:00) |
+| Monday     | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani) |
 | Tuesday    | [Oriana Deliallisi](https://telegram.me/orianani) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
 | Wednesday  | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)                 |
 | Thursday   | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Michele Palma](https://telegram.me/flyingmp)                       |
