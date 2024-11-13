@@ -128,6 +128,25 @@
             ]
           },
           {
+            "course": "1041792",
+            "subject": "BIOMETRIC SYSTEMS",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "DE MARSICO MARIA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ]
+          },
+          {
             "course": "10600490",
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "building": "Edificio: RM018",
@@ -542,6 +561,25 @@
                 "day": "mercoled\u00ec",
                 "from": "10:00",
                 "to": "12:00"
+              }
+            ]
+          },
+          {
+            "course": "1041792",
+            "subject": "BIOMETRIC SYSTEMS",
+            "building": "Edificio: RM115",
+            "room": "Aula G50",
+            "teacher": "DE MARSICO MARIA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ]
           },
