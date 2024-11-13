@@ -620,7 +620,8 @@
             "timeslot": "14 - 17",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
+            },
+            "cancelled": true
           }
         ]
       }
@@ -764,7 +765,7 @@
   },
   "1041792": {
     "subject": "BIOMETRIC SYSTEMS",
-    "degree": "29932",
+    "degree": "29389",
     "channels": {
       "0": {
         "mercoled\u00ec": [

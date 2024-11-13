@@ -167,9 +167,10 @@ def parse(DOM):
                             "code": course_column.find(class_='codiceInsegnamento').text
                         }
 
+                        # 1041792 - Biometric Systems
                         # 1047622 - Cryptography
                         # 10589555 - Practical Network Defense
-                        if course_code in ("1047622", "10589555"):
+                        if course_code in ("1041792", "1047622", "10589555"):
                             course_timetables_dict[course_code]["degree"] = "29389"
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
@@ -637,6 +638,10 @@ if __name__ == '__main__':
             for channel_id, channel_data in course_data["channels"].items():
                 for day_name, day_schedules in channel_data.items():
                     for day_schedule in day_schedules:
+                        # No Multicore lesson on November 13th due to personal issues of prof. De Sensi
+                        if (course_code == "10593235") and (day_name == "mercoledì"):
+                            day_schedule["cancelled"] = True
+
                         # 101226 - CALCOLO DIFFERENZIALE
                         # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
                         # non più, alla professoressa Garroni, diventata direttrice a Matematica.
