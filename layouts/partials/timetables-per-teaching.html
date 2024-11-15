@@ -185,6 +185,10 @@
                                                 {{ $classroomInfo := replace $info.classroomInfo "\\" "" }}
                                                 {{ $classroomUrl := $info.classroomUrl }}
 
+                                                {{ range $old, $new := $replacements }}
+                                                    {{ $classroomInfo = replace $classroomInfo $old $new }}
+                                                {{ end }}
+
                                                 {{ if (strings.Contains $classroomInfo "TBA") }}
                                                     {{ $classroomInfo = T "Subjs_TimetablesPerTeaching_TBA" }}
                                                 {{ end }}

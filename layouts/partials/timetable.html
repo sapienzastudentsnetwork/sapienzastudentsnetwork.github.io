@@ -44,33 +44,33 @@
                     let cancelled = time.cancelled === true;
 
                     // Regex pattern to match Roman numerals (I, II, III, IV, V, IX, X, XI) or alphanumeric room identifiers (e.g., A1, B2, RM018)
-                    const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|IX|X|XI|Alfa|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
+                    const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|IX|X|XI|Alfa|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
 
                     // Determine the source of classroom information
-                    let classrooms = time.classrooms
-                        ? // If time.classrooms is present, map through its values
-                        Object.values(time.classrooms).map(room => {
-                            // Match the room string against the classroom pattern
-                            const match = room.match(classroomPattern);
+                    let classrooms = time.classroomInfo
+                        ? // If time.classroomInfo is present, use an IIFE (Immediately Invoked Function Expression) for scoping
+                        (() => {
+                            // Match the classroom information against the pattern
+                            const match = time.classroomInfo.match(classroomPattern);
                             if (match) {
                                 let roomNumber = match[0]; // Extract the matched room number
-                                // If the room string contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
-                                return room.includes("RM018") ? roomNumber + "L" : roomNumber;
+                                // If the classroom information contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
+                                return time.classroomInfo.includes("RM018") ? roomNumber + "L" : roomNumber;
                             }
                             return null; // Return null if no match is found
-                        }).filter(Boolean).join(', ') // Filter out null values and join the results into a single string
-                        : time.classroomInfo
-                            ? // If time.classroomInfo is present, use an IIFE (Immediately Invoked Function Expression) for scoping
-                            (() => {
-                                // Match the classroom information against the pattern
-                                const match = time.classroomInfo.match(classroomPattern);
+                        })()
+                        : time.classrooms
+                            ? // If time.classrooms is present, map through its values
+                            Object.values(time.classrooms).map(room => {
+                                // Match the room string against the classroom pattern
+                                const match = room.match(classroomPattern);
                                 if (match) {
                                     let roomNumber = match[0]; // Extract the matched room number
-                                    // If the classroom information contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
-                                    return time.classroomInfo.includes("RM018") ? roomNumber + "L" : roomNumber;
+                                    // If the room string contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
+                                    return room.includes("RM018") ? roomNumber + "L" : roomNumber;
                                 }
                                 return null; // Return null if no match is found
-                            })()
+                            }).filter(Boolean).join(', ') // Filter out null values and join the results into a single string
                             : null; // Return null if neither classrooms nor classroomInfo are present
 
                     let en_day = {
