@@ -1,6 +1,6 @@
 ---
 title: Sapienza Fast Charge
-bookHidden: true
+bookHidden: false
 weight: 3
 ---
 
