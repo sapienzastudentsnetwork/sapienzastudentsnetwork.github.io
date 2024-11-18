@@ -33,11 +33,11 @@ Puoi trovare i tutor per l'attività di "Sportello dello Studente" nella Sala Le
 
 | Giorno    | 10:00 - 12:00                                                       | 13:00 - 18:00                                                             |
 |-----------|---------------------------------------------------------------------|---------------------------------------------------------------------------|
-| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Oriana Deliallisi](https://telegram.me/orianani)                         |
-| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) (soltanto online) |
+| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online)       |
+| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) (soltanto online) |
 | Mercoledì | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Oriana Deliallisi](https://telegram.me/orianani)                         |
-| Giovedì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Michele Palma](https://telegram.me/flyingmp)                             |
-| Venerdì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)           |
+| Giovedì   | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Michele Palma](https://telegram.me/flyingmp)                             |
+| Venerdì   | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)           |
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **In cosa consiste?**

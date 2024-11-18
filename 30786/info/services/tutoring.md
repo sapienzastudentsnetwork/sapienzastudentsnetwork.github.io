@@ -33,11 +33,11 @@ You can find the tutors for the "Student Help Desk" activity in Department of St
 
 | Day       | 10:00 - 12:00                                                   | 13:00 - 18:00                                                           |
 |-----------|-----------------------------------------------------------------|-------------------------------------------------------------------------|
-| Monday    | [Oriana Deliallisi](https://telegram.me/orianani)               | [Oriana Deliallisi](https://telegram.me/orianani)                       |
-| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani)               | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) (online only)   |
+| Monday    | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Oriana Deliallisi](https://telegram.me/orianani) (online only)         |
+| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) (online only)   |
 | Wednesday | [Oriana Deliallisi](https://telegram.me/orianani)               | [Oriana Deliallisi](https://telegram.me/orianani)                       |
-| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Michele Palma](https://telegram.me/flyingmp)                           |
-| Friday    | [Oriana Deliallisi](https://telegram.me/orianani) (online only) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13:00 - 19:00) |
+| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani)               | [Michele Palma](https://telegram.me/flyingmp)                           |
+| Friday    | [Oriana Deliallisi](https://telegram.me/orianani)               | [Marcello Galisai](https://telegram.me/marcellogalisai) (13:00 - 19:00) |
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
