@@ -31,13 +31,13 @@ Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docent
 
 Puoi trovare i tutor per l'attività di "Sportello dello Studente" nella Sala Lettura del Dipartimento di Scienze Statistiche, Aula G06, Edificio G in via Regina Elena 295, o contattarli per fissare una chiamata con loro, nei seguenti orari (ricontrollare di settimana in settimana per eventuali variazioni):
 
-| Giorno    | 10:00 - 12:00                                     | 13:00 - 18:00                                                   |
-|-----------|---------------------------------------------------|-----------------------------------------------------------------|
-| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani) |
-| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani) | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)         |
-| Mercoledì | [Oriana Deliallisi](https://telegram.me/orianani) | [Oriana Deliallisi](https://telegram.me/orianani)               |
-| Giovedì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Michele Palma](https://telegram.me/flyingmp)                   |
-| Venerdì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19) |
+| Giorno    | 10:00 - 12:00                                                       | 13:00 - 18:00                                                             |
+|-----------|---------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Oriana Deliallisi](https://telegram.me/orianani)                         |
+| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos) (soltanto online) |
+| Mercoledì | [Oriana Deliallisi](https://telegram.me/orianani)                   | [Oriana Deliallisi](https://telegram.me/orianani)                         |
+| Giovedì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Michele Palma](https://telegram.me/flyingmp)                             |
+| Venerdì   | [Oriana Deliallisi](https://telegram.me/orianani) (soltanto online) | [Marcello Galisai](https://telegram.me/marcellogalisai) (13-19)           |
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **In cosa consiste?**
