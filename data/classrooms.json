@@ -49,6 +49,11 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },
+  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
+    "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
+    "address": null,
+    "mapsUrl": null
+  },
   "8c93a07d-b833-4dae-a4ff-302f0f065453": {
     "description": "Aula 1 - Aule temporanee",
     "address": null,
@@ -103,11 +108,6 @@
     "description": "Aula informatica 16",
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
-  },
-  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
-    "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
-    "address": null,
-    "mapsUrl": null
   },
   "7074643f-5bed-49b9-85e9-c646c0b06009": {
     "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",

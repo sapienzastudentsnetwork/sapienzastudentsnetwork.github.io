@@ -296,6 +296,20 @@
             ]
           },
           {
+            "course": "1020421",
+            "subject": "CALCOLO DELLE PROBABILITA'",
+            "building": "Edificio: CU006",
+            "room": "Aula Tullio Levi-Civita",
+            "teacher": "NAPPO GIOVANNA",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:30",
+                "to": "19:00"
+              }
+            ]
+          },
+          {
             "course": "1020422",
             "subject": "SISTEMI OPERATIVI I MODULO",
             "building": "Edificio: RM158",
