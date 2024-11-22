@@ -243,6 +243,11 @@
             "teacher": "CINQUE LUIGI",
             "schedule": [
               {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
                 "day": "marted\u00ec",
                 "from": "08:00",
                 "to": "10:00"
@@ -684,6 +689,11 @@
             "room": "Aula Alfa",
             "teacher": "CINQUE LUIGI",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
               {
                 "day": "marted\u00ec",
                 "from": "08:00",
