@@ -583,6 +583,9 @@ if __name__ == '__main__':
 
     elif degree_programme_code == "29932":
         # 10589621 - ADVANCED MACHINE LEARNING
+        if "lunedì" in course_timetables_dict["10589621"]["channels"]["0"]:
+            course_timetables_dict["10589621"]["channels"]["0"].pop("lunedì")
+
         if "giovedì" in course_timetables_dict["10589621"]["channels"]["0"]:
             course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
 
