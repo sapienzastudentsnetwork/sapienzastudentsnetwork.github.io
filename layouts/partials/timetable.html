@@ -11,10 +11,7 @@
 
             // Iterate over the channels to be updated
             for (const channelId in channelsToUpdate) {
-                if (TIMETABLES[courseId].channels[channelId]) {
-                    // Replace the relevant information
-                    TIMETABLES[courseId].channels[channelId] = channelsToUpdate[channelId];
-                }
+                TIMETABLES[courseId].channels[channelId] = channelsToUpdate[channelId];
             }
         }
     }
@@ -44,7 +41,7 @@
                     let cancelled = time.cancelled === true;
 
                     // Regex pattern to match Roman numerals (I, II, III, IV, V, IX, X, XI) or alphanumeric room identifiers (e.g., A1, B2, RM018)
-                    const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|IX|X|XI|Alfa|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
+                    const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|IX|X|XI|Alfa|Magna|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
 
                     // Determine the source of classroom information
                     let classrooms = time.classroomInfo
