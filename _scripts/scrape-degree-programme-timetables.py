@@ -583,7 +583,8 @@ if __name__ == '__main__':
 
     elif degree_programme_code == "29932":
         # 10589621 - ADVANCED MACHINE LEARNING
-        course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
+        if "giovedì" in course_timetables_dict["10589621"]["channels"]["0"]:
+            course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
 
         # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
         course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
@@ -644,161 +645,18 @@ if __name__ == '__main__':
               aula_2l_classroom_id : aula_2l_classroom_desc
             }
 
-    if currentDate <= datetime(2024, 11, 23):
-        for course_code, course_data in course_timetables_dict.items():
-            for channel_id, channel_data in course_data["channels"].items():
-                for day_name, day_schedules in channel_data.items():
-                    for day_schedule in day_schedules:
-                        # 101226 - CALCOLO DIFFERENZIALE
-                        # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
-                        # non più, alla professoressa Garroni, diventata direttrice a Matematica.
-                        if (course_code == "101226") and (channel_id == "1"):
-                            if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
-                                day_schedule["teacher"] = None
-                                day_schedule["teacherInfo"] = "AIELLO VALERIANO"
-                                day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
-
-                        if channel_id  == "2":
-                            if (course_code == "1020421") and (day_name == "mercoledì"):
-                                day_schedule["timeslot"] = "14 - 15"
-
-                            if (course_code == "1020421") and (day_name == "venerdì"):
-                                day_schedule["timeslot"] = "12 - 15"
-
-                            if (course_code == "1020422_1") and (day_name == "venerdì"):
-                                day_schedule["timeslot"] = "15 - 18"
-
-                        if "classrooms" in day_schedule:
-                            for classroom_id, classroom_description in day_schedule["classrooms"].items():
-                                classroom_info = day_schedule.get("classroomInfo", None)
-                                classroom_url  = day_schedule.get("classroomUrl", None)
-
-                                if "(Edificio: RM158)" in classroom_description:
-                                    if channel_id == "1":
-                                        if course_code in first_and_second_year_informatica_teachings:
-                                            if day_name == "martedì":
-                                                classroom_info = clinica_odontoiatrica_aula_g
-                                                classroom_url  = clinica_odontoiatrica
-                                            else:
-                                                classroom_info = clinica_odontoiatrica_aula_a1
-                                                classroom_url  = clinica_odontoiatrica
-
-                                    elif channel_id == "2":
-                                        if day_name == "martedì":
-                                            # 1015886 - ALGEBRA (Pellarin)
-                                            # [Aula G - Clinica Odontoiatrica - Polo Didattico - Via Caserta 6]
-                                            if course_code == "1015886":
-                                                classroom_info = clinica_odontoiatrica_aula_g
-                                                classroom_url  = clinica_odontoiatrica
-
-                                            # 1020422 - SISTEMI OPERATIVI I MODULO (De Gaspari)
-                                            # [Aula 1 L Castro Laurenziano]
-                                            elif course_code == "1020422_1":
-                                                classroom_info = clinica_odontoiatrica_aula_a1
-                                                classroom_url  = clinica_odontoiatrica
-
-                                        elif day_name == "mercoledì":
-                                            # Aula I Caglioti
-                                            if course_code in second_year_informatica_teachings:
-                                                classroom_info = chimica_aula_1
-                                                classroom_url  = chimica_caglioti
-
-                                    elif channel_id == "0":
-                                        if course_code in first_and_second_year_acsai_teachings:
-                                            if day_name == "martedì":
-                                                # 10595617 - DATA MANAGEMENT AND ANALYSIS
-                                                if course_code != "10595617_1":
-                                                    classroom_info = reginaelena_edificiod_aula_101
-                                                    classroom_url  = reginaelena_edificiod
-                                                else:
-                                                    classroom_info = "TBA"
-
-                                            elif day_name == "giovedì":
-                                                # 10595102 - PROGRAMMING UNIT 1
-                                                if course_code == "10595102_1":
-                                                    day_schedule["classrooms"] = {
-                                                        aula_magna_rm111_id: aula_magna_rm111_desc
-                                                    }
-                                                else:
-                                                    classroom_info = reginaelena_edificiod_aula_101
-                                                    classroom_url  = reginaelena_edificiod
-
-                                        if course_code in first_year_acsai_teachings:
-                                            if day_name == "lunedì":
-                                                # 10595524 - LINEAR ALGEBRA
-                                                if course_code == "10595524":
-                                                    classroom_info = clinica_odontoiatrica_aula_a1
-                                                    classroom_url  = clinica_odontoiatrica
-
-                                                else:
-                                                    classroom_info = aula_8l_classroom_desc
-                                                    classroom_url  = aula_8l_classroom_url
-
-                                            elif day_name == "mercoledì":
-                                                classroom_info = "Aula 3 Nella Mortara (Fisica - Fermi)"
-                                                classroom_url  = "https://maps.app.goo.gl/146N3AUHh9VMuWp39"
-
-                                            elif day_name == "venerdì":
-                                                classroom_info = reginaelena_edificiod_aula_101
-                                                classroom_url  = reginaelena_edificiod
-
-                                        elif course_code in second_year_acsai_teachings:
-                                            if day_name == "lunedì":
-                                                # 10595529 - CALCULUS 2
-                                                if course_code != "10595529":
-                                                    classroom_info = "TBA"
-                                                else:
-                                                    classroom_info = reginaelena_edificioa_aula_re1
-                                                    classroom_url  = reginaelena_edificioa
-
-                                            elif day_name == "mercoledì":
-                                                classroom_info = viascarpa_classroom_desc
-                                                classroom_url  = viascarpa_classroom_id
-
-                                            elif day_name == "venerdì":
-                                                # 10595529 - CALCULUS 2
-                                                if course_code == "10595529":
-                                                    classroom_info = reginaelena_edificiod_aula_101
-                                                    classroom_url  = reginaelena_edificiod
-                                                else:
-                                                    classroom_info = reginaelena_edificioa_aula_re2
-                                                    classroom_url  = reginaelena_edificioa
-
-                                        # INGEGNERIA DEL SOFTWARE - 1022301 - Enrico Tronci
-                                        elif course_code == "1022301":
-                                            if day_name == "lunedì":
-                                                classroom_info = clinica_odontoiatrica_aula_a1
-                                                classroom_url  = clinica_odontoiatrica
-
-                                        # AUTOMI CALCOLABILITA' E COMPLESSITA' - 1041727 - Daniele Venturi
-                                        elif course_code == "1041727":
-                                            if day_name == "venerdì":
-                                                classroom_info = reginaelena_edificiod_aula_201
-                                                classroom_url  = reginaelena_edificiod
-
-                                #elif course_code in ("1022267", "10595534"):
-                                #    if day_name == "giovedì":
-                                #        classroom_info = clinica_odontoiatrica_aula_a2
-                                #        classroom_url  = clinica_odontoiatrica
-
-                                if classroom_info is not None:
-                                    day_schedule.pop("classrooms")
-
-                                    #print("classroom_info: " + classroom_description + " -> " + classroom_info)
-
-                                    day_schedule["classroomInfo"] = classroom_info
-                                #else:
-                                #    print("classroom_info: " + classroom_description)
-
-                                if classroom_info == "TBA" and classroom_url is None:
-                                    if degree_programme_code == "29923":
-                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=1597453559&single=true"
-                                    elif degree_programme_code == "30786":
-                                        classroom_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZOo9l-8p4dZZzSSjE3S3jV2nEawAlF_fDx4U36ps06ebJseGYnFrTClKs2hLLDuLMzblqm7mLryg1/pubhtml?gid=557113853&single=true"
-
-                                if classroom_url is not None:
-                                    day_schedule["classroomUrl"] = classroom_url
-
+    for course_code, course_data in course_timetables_dict.items():
+        for channel_id, channel_data in course_data["channels"].items():
+            for day_name, day_schedules in channel_data.items():
+                for day_schedule in day_schedules:
+                    # 101226 - CALCOLO DIFFERENZIALE
+                    # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
+                    # non più, alla professoressa Garroni, diventata direttrice a Matematica.
+                    if (course_code == "101226") and (channel_id == "1"):
+                        if day_schedule["teacher"] == "5374367e-49df-4ff1-985b-ab4b4612e702":
+                            day_schedule["teacher"] = None
+                            day_schedule["teacherInfo"] = "AIELLO VALERIANO"
+                            day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█

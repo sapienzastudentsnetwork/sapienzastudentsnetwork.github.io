@@ -5,13 +5,15 @@
 
     <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
+    <!--
     {{ $excludedCodes := slice "29932" "29389" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_ThisWeekOnly" }}
     {{ end }}
+    -->
 
-    <div class="relative" id="main">
-        <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
+<div class="relative" id="main">
+    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
         <button
             class="addSubjs absolute right-0 top-2 flex items-center gap-2"
             onclick="openSubjectsDialog()"
