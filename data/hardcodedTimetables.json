@@ -329,33 +329,6 @@
     },
     "code": "1041727"
   },
-  "97597": {
-    "subject": "FISICA",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teacher": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teacher": "3a840165-ed3c-4865-bd68-51cc12fef8f6",
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "97597"
-  },
   "1022301": {
     "subject": "INGEGNERIA DEL SOFTWARE",
     "degree": "29923",
