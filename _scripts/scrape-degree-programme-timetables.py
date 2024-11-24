@@ -589,6 +589,10 @@ if __name__ == '__main__':
         if "giovedì" in course_timetables_dict["10589621"]["channels"]["0"]:
             course_timetables_dict["10589621"]["channels"]["0"].pop("giovedì")
 
+        # 1047618 - COMPUTER VISION
+        if "lunedì" in course_timetables_dict["1047618"]["channels"]["0"]:
+            course_timetables_dict["1047618"]["channels"]["0"].pop("lunedì")
+
         # 10600495 - AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
         course_timetables_dict["10600495"]["channels"]["0"]["lunedì"] = [
           {

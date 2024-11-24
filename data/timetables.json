@@ -676,15 +676,6 @@
     "degree": "29932",
     "channels": {
       "0": {
-        "luned\u00ec": [
-          {
-            "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
-            }
-          }
-        ],
         "marted\u00ec": [
           {
             "teacher": "e5002e0d-d762-4e0f-ad2f-63897be58ca4",
