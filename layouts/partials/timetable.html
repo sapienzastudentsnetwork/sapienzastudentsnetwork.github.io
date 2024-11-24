@@ -13,6 +13,8 @@
             for (const channelId in channelsToUpdate) {
                 TIMETABLES[courseId].channels[channelId] = channelsToUpdate[channelId];
             }
+        } else if (HARDCODED_TIMETABLES[courseId]) {
+            TIMETABLES[courseId] = HARDCODED_TIMETABLES[courseId];
         }
     }
 
