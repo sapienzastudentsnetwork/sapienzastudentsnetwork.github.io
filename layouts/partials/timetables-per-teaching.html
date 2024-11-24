@@ -17,12 +17,11 @@
     {{ $courseHardcodedTimetables := index $dataHardcodedTimetables $courseCodeWithUnit }}
 
     {{ if or $courseTimetables $courseHardcodedTimetables }}
-        {{ $courseCode := index $courseTimetables "code" }}
-        {{ $courseSubject := index $courseTimetables "subject" }}
-
         {{ $timetableChannels := index $courseTimetables "channels" }}
         {{ $hardcodedTimetableChannels := index $courseHardcodedTimetables "channels" }}
 
+        {{ $courseSubject := index $courseTimetables "subject" }}
+        {{ $courseCode := index $courseTimetables "code" }}
         {{ $courseChannels := dict }}
 
         {{ if $timetableChannels }}
@@ -32,6 +31,9 @@
                 {{ $courseChannels = $timetableChannels }}
             {{ end }}
         {{ else }}
+            {{ $courseSubject = index $courseHardcodedTimetables "subject" }}
+            {{ $courseCode = index $courseHardcodedTimetables "code" }}
+
             {{ $courseChannels = $hardcodedTimetableChannels }}
         {{ end }}
 
