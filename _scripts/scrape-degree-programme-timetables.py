@@ -659,6 +659,9 @@ if __name__ == '__main__':
         for channel_id, channel_data in course_data["channels"].items():
             for day_name, day_schedules in channel_data.items():
                 for day_schedule in day_schedules:
+                    classroomInfo = None
+                    classroomUrl  = None
+
                     # 101226 - CALCOLO DIFFERENZIALE
                     # L'incarico docenza per il Canale A-L è assegnato al prof. Valeriano Aiello,
                     # non più, alla professoressa Garroni, diventata direttrice a Matematica.
@@ -671,9 +674,25 @@ if __name__ == '__main__':
                     # 1022267 - PROGRAMMAZIONE PER IL WEB
                     # 10595534 - WEB AND SOFTWARE ARCHITETURE
                     if (course_code in ("1022267", "10595534")) and day_name == "giovedì":
+                        classroomInfo = reginaelena_edificiod_aula_101
+                        classroomUrl  = reginaelena_edificiod
+
+                    if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
+                        classroomInfo = "Aula 3 De Lollis (RM158)"
+                        classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+
+                    if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
+                        classroomInfo = "Aula 4 De Lollis (RM158)"
+                        classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+
+                    if classroomInfo is not None:
                         day_schedule.pop("classrooms")
-                        day_schedule["classroomInfo"] = reginaelena_edificiod_aula_101
-                        day_schedule["classroomUrl"]  = reginaelena_edificiod
+
+                        day_schedule["classroomInfo"] = classroomInfo
+
+                        if classroomUrl is not None:
+                            day_schedule["classroomUrl"] = classroomUrl
+
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
