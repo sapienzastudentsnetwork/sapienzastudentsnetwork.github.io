@@ -653,6 +653,9 @@ if __name__ == '__main__':
             }
 
     for course_code, course_data in course_timetables_dict.items():
+        if "degree" in course_data and course_data["degree"] != degree_programme_code:
+            continue
+
         for channel_id, channel_data in course_data["channels"].items():
             for day_name, day_schedules in channel_data.items():
                 for day_schedule in day_schedules:
@@ -664,6 +667,13 @@ if __name__ == '__main__':
                             day_schedule["teacher"] = None
                             day_schedule["teacherInfo"] = "AIELLO VALERIANO"
                             day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
+
+                    # 1022267 - PROGRAMMAZIONE PER IL WEB
+                    # 10595534 - WEB AND SOFTWARE ARCHITETURE
+                    if (course_code in ("1022267", "10595534")) and day_name == "giovedì":
+                        day_schedule.pop("classrooms")
+                        day_schedule["classroomInfo"] = reginaelena_edificiod_aula_101
+                        day_schedule["classroomUrl"]  = reginaelena_edificiod
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
