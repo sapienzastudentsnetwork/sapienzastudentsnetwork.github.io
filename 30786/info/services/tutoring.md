@@ -31,13 +31,13 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, or contact them to schedule a call with them, during the following hours (check back week to week for changes):
 
-| Day       | 10:00 - 12:00                                               | 13:00 - 18:00                                                     |
-|-----------|-------------------------------------------------------------|-------------------------------------------------------------------|
-| Monday    | [Oriana Deliallisi](https://telegram.me/orianani) (10 - 13) | [Oriana Deliallisi](https://telegram.me/orianani) (15 - 18)       |
-| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani)           | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
-| Wednesday | [Oriana Deliallisi](https://telegram.me/orianani)           | [Oriana Deliallisi](https://telegram.me/orianani)                 |
-| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani)           | [Michele Palma](https://telegram.me/flyingmp)                     |
-| Friday    | [Oriana Deliallisi](https://telegram.me/orianani)           | [Marcello Galisai](https://telegram.me/marcellogalisai) (13 - 19) |
+| Day       | 10:00 - 12:00                                                  | 13:00 - 18:00                                                     |
+|-----------|----------------------------------------------------------------|-------------------------------------------------------------------|
+| Monday    | [Oriana Deliallisi](https://telegram.me/orianani) (10 - 13)    | [Oriana Deliallisi](https://telegram.me/orianani) (15 - 18)       |
+| Tuesday   | [Oriana Deliallisi](https://telegram.me/orianani)              | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
+| Wednesday | [Oriana Deliallisi](https://telegram.me/orianani)              | [Oriana Deliallisi](https://telegram.me/orianani)                 |
+| Thursday  | [Oriana Deliallisi](https://telegram.me/orianani) (online only)| [Michele Palma](https://telegram.me/flyingmp)                     |
+| Friday    | [Oriana Deliallisi](https://telegram.me/orianani)              | [Marcello Galisai](https://telegram.me/marcellogalisai) (13 - 19) |
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
