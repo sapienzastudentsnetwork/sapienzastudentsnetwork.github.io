@@ -652,8 +652,9 @@
           {
             "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
             "timeslot": "14 - 16",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
           }
         ]
       }
@@ -1701,8 +1702,9 @@
           {
             "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
             "timeslot": "14 - 16",
-            "classroomInfo": "Aula 101 Regina Elena Ed. D (RM112)",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
           }
         ]
       }

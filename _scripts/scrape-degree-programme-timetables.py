@@ -671,12 +671,6 @@ if __name__ == '__main__':
                             day_schedule["teacherInfo"] = "AIELLO VALERIANO"
                             day_schedule["teacherUrl"] = "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it"
 
-                    # 1022267 - PROGRAMMAZIONE PER IL WEB
-                    # 10595534 - WEB AND SOFTWARE ARCHITETURE
-                    if (course_code in ("1022267", "10595534")) and day_name == "giovedì":
-                        classroomInfo = reginaelena_edificiod_aula_101
-                        classroomUrl  = reginaelena_edificiod
-
                     if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
                         classroomInfo = "Aula 3 De Lollis (RM158)"
                         classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
