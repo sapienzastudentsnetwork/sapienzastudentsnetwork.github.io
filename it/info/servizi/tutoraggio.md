@@ -33,10 +33,9 @@ Puoi trovare i tutor per l'attività di "Sportello dello Studente" nella Sala Le
 
 | Giorno    | 13:00 - 18:00                                                     |
 |-----------|-------------------------------------------------------------------|
-| Martedì   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
 | Giovedì   | [Michele Palma](https://telegram.me/flyingmp)                     |
 
-**Disponibile su appuntamento**: [Oriana Deliallisi](https://telegram.me/orianani)
+**Disponibile su appuntamento**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **In cosa consiste?**
