@@ -31,13 +31,12 @@ Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docent
 
 Puoi trovare i tutor per l'attività di "Sportello dello Studente" nella Sala Lettura del Dipartimento di Scienze Statistiche, Aula G06, Edificio G in via Regina Elena 295, o contattarli per fissare una chiamata con loro, nei seguenti orari (ricontrollare di settimana in settimana per eventuali variazioni):
 
-| Giorno    | 10:00 - 12:00                                                  | 13:00 - 18:00                                                     |
-|-----------|----------------------------------------------------------------|-------------------------------------------------------------------|
-| Lunedì    | [Oriana Deliallisi](https://telegram.me/orianani) (10 - 13)    | [Oriana Deliallisi](https://telegram.me/orianani) (15 - 18)       |
-| Martedì   | [Oriana Deliallisi](https://telegram.me/orianani)              | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
-| Mercoledì | [Oriana Deliallisi](https://telegram.me/orianani)              | [Oriana Deliallisi](https://telegram.me/orianani)                 |
-| Giovedì   | [Oriana Deliallisi](https://telegram.me/orianani) (solo online)| [Michele Palma](https://telegram.me/flyingmp)                     |
-| Venerdì   | [Oriana Deliallisi](https://telegram.me/orianani)              | [Marcello Galisai](https://telegram.me/marcellogalisai) (13 - 19) |
+| Giorno    | 13:00 - 18:00                                                     |
+|-----------|-------------------------------------------------------------------|
+| Martedì   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
+| Giovedì   | [Michele Palma](https://telegram.me/flyingmp)                     |
+
+**Disponibile su appuntamento**: [Oriana Deliallisi](https://telegram.me/orianani)
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **In cosa consiste?**
