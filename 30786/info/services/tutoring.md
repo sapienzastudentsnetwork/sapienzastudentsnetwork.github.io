@@ -33,10 +33,9 @@ You can find the tutors for the "Student Help Desk" activity in Department of St
 
 | Day       | 13:00 - 18:00                                                     |
 |-----------|-------------------------------------------------------------------|
-| Tuesday   | [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)           |
 | Thursday  | [Michele Palma](https://telegram.me/flyingmp)                     |
 
-**Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani)
+**Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
