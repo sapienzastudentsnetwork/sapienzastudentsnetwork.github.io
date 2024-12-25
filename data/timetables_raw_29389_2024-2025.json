@@ -341,9 +341,9 @@
             "teacher": "BERALDI ROBERTO",
             "schedule": [
               {
-                "day": "venerd\u00ec",
+                "day": "luned\u00ec",
                 "from": "12:00",
-                "to": "14:00"
+                "to": "16:00"
               }
             ]
           },
@@ -355,9 +355,9 @@
             "teacher": "BERALDI ROBERTO",
             "schedule": [
               {
-                "day": "luned\u00ec",
+                "day": "venerd\u00ec",
                 "from": "12:00",
-                "to": "16:00"
+                "to": "14:00"
               }
             ]
           },
