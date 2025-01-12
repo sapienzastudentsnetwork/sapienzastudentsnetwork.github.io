@@ -31,9 +31,9 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, or contact them to schedule a call with them, during the following hours (check back week to week for changes):
 
-| Day       | 13:00 - 18:00                                                     |
-|-----------|-------------------------------------------------------------------|
-| Thursday  | [Michele Palma](https://telegram.me/flyingmp)                     |
+| Day                        | 13:00 - 18:00                                                     |
+|----------------------------|-------------------------------------------------------------------|
+| Monday to Friday (Online)  | [Michele Palma](https://telegram.me/flyingmp)                     |
 
 **Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)
 
