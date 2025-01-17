@@ -29,13 +29,9 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 ### Comprehensive Learning Support Tutoring
 
-You can find the tutors for the "Student Help Desk" activity in Department of Statistical Sciences Reading Room, Room G06, Building G, via Regina Elena 295, or contact them to schedule a call with them, during the following hours (check back week to week for changes):
+Contact the tutors to schedule a call with them.
 
-| Day                        | 13:00 - 18:00                                                     |
-|----------------------------|-------------------------------------------------------------------|
-| Monday to Friday (Online)  | [Michele Palma](https://telegram.me/flyingmp)                     |
-
-**Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)
+**Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp)  
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
