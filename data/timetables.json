@@ -6,20 +6,16 @@
       "1": {
         "mercoled\u00ec": [
           {
-            "teacher": null,
+            "teacher": "2933c5a1-f1b1-4ecf-9b70-a990780c704e",
             "timeslot": "8 - 11",
-            "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
           {
-            "teacher": null,
+            "teacher": "2933c5a1-f1b1-4ecf-9b70-a990780c704e",
             "timeslot": "8 - 10",
-            "teacherInfo": "AIELLO VALERIANO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/valerianoaiellouniroma1it",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
           }
