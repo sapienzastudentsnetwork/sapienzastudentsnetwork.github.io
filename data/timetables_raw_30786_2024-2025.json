@@ -1,16 +1,13 @@
 [
   {
-    "year": "Primo anno - primo semestre",
     "channels": [
       {
         "channel": "Canale Unico",
         "timetable": [
           {
-            "course": "10595099",
-            "subject": "CALCULUS UNIT 1",
             "building": "Edificio: RM158",
+            "course": "10595099",
             "room": "Aula 4",
-            "teacher": "PISANTE ADRIANO",
             "schedule": [
               {
                 "day": "marted\u00ec",
@@ -22,14 +19,14 @@
                 "from": "08:00",
                 "to": "11:00"
               }
-            ]
+            ],
+            "subject": "CALCULUS UNIT 1",
+            "teacher": "PISANTE ADRIANO"
           },
           {
-            "course": "10595546",
-            "subject": "COMPUTER ARCHITECTURE UNIT 1",
             "building": "Edificio: RM158",
+            "course": "10595546",
             "room": "Aula 4",
-            "teacher": "DE SENSI DANIELE",
             "schedule": [
               {
                 "day": "marted\u00ec",
@@ -41,14 +38,14 @@
                 "from": "11:00",
                 "to": "13:00"
               }
-            ]
+            ],
+            "subject": "COMPUTER ARCHITECTURE UNIT 1",
+            "teacher": "DE SENSI DANIELE"
           },
           {
-            "course": "10595524",
-            "subject": "LINEAR ALGEBRA",
             "building": "Edificio: RM158",
+            "course": "10595524",
             "room": "Aula 4",
-            "teacher": "Zabad Sahar",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -60,14 +57,14 @@
                 "from": "08:00",
                 "to": "10:00"
               }
-            ]
+            ],
+            "subject": "LINEAR ALGEBRA",
+            "teacher": "Zabad Sahar"
           },
           {
-            "course": "10595102",
-            "subject": "PROGRAMMING UNIT 1",
             "building": "Edificio: RM158",
+            "course": "10595102",
             "room": "Aula 4",
-            "teacher": "MANCINI MAURIZIO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -79,14 +76,14 @@
                 "from": "08:00",
                 "to": "11:00"
               }
-            ]
+            ],
+            "subject": "PROGRAMMING UNIT 1",
+            "teacher": "MANCINI MAURIZIO"
           },
           {
-            "course": "10595102",
-            "subject": "PROGRAMMING UNIT 2",
             "building": "Edificio: RM025",
+            "course": "10595102",
             "room": "Aula informatica 15",
-            "teacher": "SPOGNARDI ANGELO",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -98,52 +95,52 @@
                 "from": "11:00",
                 "to": "14:00"
               }
-            ]
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teacher": "SPOGNARDI ANGELO"
           },
           {
-            "course": "10595102",
-            "subject": "PROGRAMMING UNIT 2",
             "building": "Edificio: RM025",
+            "course": "10595102",
             "room": "Aula informatica 16 ",
-            "teacher": "SPOGNARDI ANGELO",
             "schedule": [
               {
                 "day": "venerd\u00ec",
                 "from": "11:00",
                 "to": "14:00"
               }
-            ]
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teacher": "SPOGNARDI ANGELO"
           },
           {
-            "course": "10595102",
-            "subject": "PROGRAMMING UNIT 2",
             "building": "Edificio: RM025",
+            "course": "10595102",
             "room": "Aula informatica 17",
-            "teacher": "SPOGNARDI ANGELO",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "14:00",
                 "to": "16:00"
               }
-            ]
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teacher": "SPOGNARDI ANGELO"
           }
         ]
       }
-    ]
+    ],
+    "year": "Primo anno - primo semestre"
   },
   {
-    "year": "Secondo anno - primo semestre",
     "channels": [
       {
         "channel": "Canale Unico",
         "timetable": [
           {
-            "course": "10595529",
-            "subject": "CALCULUS 2",
             "building": "Edificio: RM158",
+            "course": "10595529",
             "room": "Aula 4",
-            "teacher": "ALLA ALESSANDRO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -155,14 +152,14 @@
                 "from": "10:00",
                 "to": "13:00"
               }
-            ]
+            ],
+            "subject": "CALCULUS 2",
+            "teacher": "ALLA ALESSANDRO"
           },
           {
-            "course": "10595617",
-            "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
             "building": "Edificio: RM158",
+            "course": "10595617",
             "room": "Aula 4",
-            "teacher": "PERELLI GIUSEPPE",
             "schedule": [
               {
                 "day": "marted\u00ec",
@@ -174,70 +171,70 @@
                 "from": "16:00",
                 "to": "18:00"
               }
-            ]
+            ],
+            "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
+            "teacher": "PERELLI GIUSEPPE"
           },
           {
-            "course": "10595525",
-            "subject": "PROBABILITY",
             "building": "Edificio: RM005",
+            "course": "10595525",
             "room": "Aula 11",
-            "teacher": "BERTINI MALGARINI LORENZO",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "14:00",
                 "to": "16:00"
               }
-            ]
+            ],
+            "subject": "PROBABILITY",
+            "teacher": "BERTINI MALGARINI LORENZO"
           },
           {
-            "course": "10595525",
-            "subject": "PROBABILITY",
             "building": "Edificio: RM158",
+            "course": "10595525",
             "room": "Aula 4",
-            "teacher": "BERTINI MALGARINI LORENZO",
             "schedule": [
               {
                 "day": "luned\u00ec",
                 "from": "13:00",
                 "to": "16:00"
               }
-            ]
+            ],
+            "subject": "PROBABILITY",
+            "teacher": "BERTINI MALGARINI LORENZO"
           },
           {
-            "course": "10595616",
-            "subject": "SYSTEMS AND NETWORKING UNIT I",
             "building": "Edificio: RM005",
+            "course": "10595616",
             "room": "Aula 11",
-            "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "16:00",
                 "to": "19:00"
               }
-            ]
+            ],
+            "subject": "SYSTEMS AND NETWORKING UNIT I",
+            "teacher": "TOLOMEI GABRIELE"
           },
           {
-            "course": "10595616",
-            "subject": "SYSTEMS AND NETWORKING UNIT I",
             "building": "Edificio: RM158",
+            "course": "10595616",
             "room": "Aula 4",
-            "teacher": "TOLOMEI GABRIELE",
             "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "17:00",
                 "to": "19:00"
               }
-            ]
+            ],
+            "subject": "SYSTEMS AND NETWORKING UNIT I",
+            "teacher": "TOLOMEI GABRIELE"
           },
           {
-            "course": "10595616",
-            "subject": "SYSTEMS AND NETWORKING UNIT II",
             "building": "Edificio: RM158",
+            "course": "10595616",
             "room": "Aula 4",
-            "teacher": "BARTOLINI NOVELLA",
             "schedule": [
               {
                 "day": "gioved\u00ec",
@@ -249,24 +246,24 @@
                 "from": "13:00",
                 "to": "15:00"
               }
-            ]
+            ],
+            "subject": "SYSTEMS AND NETWORKING UNIT II",
+            "teacher": "BARTOLINI NOVELLA"
           }
         ]
       }
-    ]
+    ],
+    "year": "Secondo anno - primo semestre"
   },
   {
-    "year": "Terzo anno - primo semestre",
     "channels": [
       {
         "channel": "Canale Unico",
         "timetable": [
           {
-            "course": "10595536",
-            "subject": "BUSINESS AND COMPUTER SCIENCE",
             "building": "Edificio: RM115",
+            "course": "10595536",
             "room": "Aula G50",
-            "teacher": "SAVIO RICCARDO",
             "schedule": [
               {
                 "day": "marted\u00ec",
@@ -278,14 +275,14 @@
                 "from": "11:00",
                 "to": "14:00"
               }
-            ]
+            ],
+            "subject": "BUSINESS AND COMPUTER SCIENCE",
+            "teacher": "SAVIO RICCARDO"
           },
           {
-            "course": "10595532",
-            "subject": "CYBERSECURITY",
             "building": "Edificio: RM018",
+            "course": "10595532",
             "room": "Aula 1",
-            "teacher": "SPOGNARDI ANGELO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -297,14 +294,14 @@
                 "from": "10:00",
                 "to": "13:00"
               }
-            ]
+            ],
+            "subject": "CYBERSECURITY",
+            "teacher": "SPOGNARDI ANGELO"
           },
           {
-            "course": "10595531",
-            "subject": "DEEP LEARNING",
             "building": "Edificio: RM111",
+            "course": "10595531",
             "room": "Aula Magna",
-            "teacher": "GALASSO FABIO",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -316,14 +313,14 @@
                 "from": "16:00",
                 "to": "18:00"
               }
-            ]
+            ],
+            "subject": "DEEP LEARNING",
+            "teacher": "GALASSO FABIO"
           },
           {
-            "course": "10595530",
-            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
             "building": "Edificio: RM018",
+            "course": "10595530",
             "room": "Aula 1",
-            "teacher": "GORLA DANIELE",
             "schedule": [
               {
                 "day": "luned\u00ec",
@@ -335,38 +332,41 @@
                 "from": "08:00",
                 "to": "10:00"
               }
-            ]
+            ],
+            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
+            "teacher": "GORLA DANIELE"
           },
           {
-            "course": "10595534",
-            "subject": "WEB AND SOFTWARE ARCHITECTURE",
             "building": "Edificio: RM005",
+            "course": "10595534",
             "room": "Aula 11",
-            "teacher": "PANIZZI EMANUELE",
             "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "15:00",
                 "to": "18:00"
               }
-            ]
+            ],
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "teacher": "PANIZZI EMANUELE"
           },
           {
-            "course": "10595534",
-            "subject": "WEB AND SOFTWARE ARCHITECTURE",
             "building": "Edificio: RM111",
+            "course": "10595534",
             "room": "Aula Magna",
-            "teacher": "PANIZZI EMANUELE",
             "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "14:00",
                 "to": "16:00"
               }
-            ]
+            ],
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "teacher": "PANIZZI EMANUELE"
           }
         ]
       }
-    ]
+    ],
+    "year": "Terzo anno - primo semestre"
   }
 ]
