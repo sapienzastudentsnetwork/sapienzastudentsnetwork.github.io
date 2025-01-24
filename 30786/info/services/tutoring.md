@@ -23,10 +23,6 @@ The second type is **comprehensive learning support tutoring**. This service off
 
 Tutoring for individual courses is usually announced by the instructor during class or on the platform (Moodle, Classroom, etc.) used for the course. Tutoring sessions are held outside of regular class hours, and all interested students can participate. Participation is encouraged, as it helps lighten the study load and clarify any doubts. The exercises done during tutoring sessions are often similar to those that will appear on the exam, or the tutors may be students who have already passed the exam. Therefore, attending tutoring is one of the best ways to be well-prepared for the exam.
 
-#### Schedule
-
-There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=1260174614&single=true) for individual courses.
-
 ### Comprehensive Learning Support Tutoring
 
 You can contact a tutor to make an appointment with him/her: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp).

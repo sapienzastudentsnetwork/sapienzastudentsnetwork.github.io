@@ -23,10 +23,6 @@ Il secondo tipo è il **tutoraggio per l'apprendimento complessivo**. Questo ser
 
 Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docente durante le lezioni o nella piattaforma (Moodle, Classroom, ...) usata per l'insegnamento. Le sessioni di tutoraggio vengono svolte al di fuori dell'orario di lezioni e possono partecipare tutti gli studenti interessati. La partecipazione è consigliata, perché permette di alleggerire il carico di studio e di chiarire eventuali dubbi. Spesso gli esercizi svolti sono simili a quelli che verranno proposti durante l'esame, o i tutor sono studenti che hanno già superato l'esame in questione, quindi partecipare al tutoraggio è uno dei migliori modi per arrivare pronti all'esame.
 
-#### Orari
-
-È possibile consultare l'[attuale orario settimanale](https://docs.google.com/spreadsheets/d/e/2PACX-1vSAHSW9T4w_J9bEN9lQy6sl4y15zvoD7Gs5-o0Q4IYNM4p-5dEfrK1ipz7sDiEyrhgVFo9jDop7ckHP/pubhtml?gid=578937235&single=true) per le attività di tutoraggio dei singoli insegnamenti
-
 ### Tutoraggio per l'apprendimento complessivo
 
 Puoi contattare un tutor per fissare un appuntamento con lui/lei: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp).
