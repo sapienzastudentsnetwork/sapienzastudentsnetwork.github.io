@@ -25,6 +25,25 @@
           },
           {
             "building": "Edificio: RM158",
+            "course": "1015880",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
+            "teacher": "PONTARELLI SALVATORE"
+          },
+          {
+            "building": "Edificio: RM158",
             "course": "1015883",
             "room": "Aula 3",
             "schedule": [
@@ -88,25 +107,6 @@
             ],
             "subject": "METODI MATEMATICI PER L'INFORMATICA",
             "teacher": "CARLUCCI LORENZO"
-          },
-          {
-            "building": "Edificio: RM158",
-            "course": "1015880",
-            "room": "Aula 3",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "10:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
-            "teacher": "PONTARELLI SALVATORE"
           }
         ]
       },
@@ -131,6 +131,25 @@
             ],
             "subject": "CALCOLO DIFFERENZIALE",
             "teacher": "ORSINA LUIGI"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015880",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
+            "teacher": "MASSINI ANNALISA"
           },
           {
             "building": "Edificio: RM018",
@@ -197,25 +216,6 @@
             ],
             "subject": "METODI MATEMATICI PER L'INFORMATICA",
             "teacher": "PIPERNO ADOLFO"
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "1015880",
-            "room": "Aula 3",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "11:00",
-                "to": "14:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "10:00",
-                "to": "12:00"
-              }
-            ],
-            "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
-            "teacher": "MASSINI ANNALISA"
           }
         ]
       }

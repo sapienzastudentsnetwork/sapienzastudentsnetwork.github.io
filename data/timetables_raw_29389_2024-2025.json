@@ -5,109 +5,6 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM115",
-            "course": "1041792",
-            "room": "Aula G50",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "BIOMETRIC SYSTEMS",
-            "teacher": "DE MARSICO MARIA"
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "10600490",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "17:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "10600490",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "15:00",
-                "to": "18:00"
-              }
-            ],
-            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
-          },
-          {
-            "building": "Edificio: RM062",
-            "course": "1054960",
-            "room": "Aula Alfa",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ],
-            "subject": "Computer systems and programming",
-            "teacher": "RICHELLI GIORGIO"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "1054960",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              }
-            ],
-            "subject": "Computer systems and programming",
-            "teacher": "RICHELLI GIORGIO"
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "1047622",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "11:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "1047622",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
-          },
-          {
             "building": "Edificio: RM062",
             "course": "1022807",
             "room": "Aula Alfa",
@@ -136,6 +33,20 @@
             "teacher": "DI LUNA GIUSEPPE ANTONIO"
           },
           {
+            "building": "Edificio: RM111",
+            "course": "1027171",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "NETWORK INFRASTRUCTURES",
+            "teacher": "POLVERINI MARCO"
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1027171",
             "room": "Aula 1",
@@ -150,18 +61,65 @@
             "teacher": "POLVERINI MARCO"
           },
           {
+            "building": "Edificio: RM115",
+            "course": "1041792",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIOMETRIC SYSTEMS",
+            "teacher": "DE MARSICO MARIA"
+          },
+          {
             "building": "Edificio: RM111",
-            "course": "1027171",
+            "course": "1047622",
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "luned\u00ec",
-                "from": "10:00",
-                "to": "12:00"
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ],
-            "subject": "NETWORK INFRASTRUCTURES",
-            "teacher": "POLVERINI MARCO"
+            "subject": "CRYPTOGRAPHY",
+            "teacher": "VENTURI DANIELE"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047622",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teacher": "VENTURI DANIELE"
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1047642",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teacher": "FRIOLO DANIELE"
           },
           {
             "building": "Edificio: RM018",
@@ -179,17 +137,31 @@
           },
           {
             "building": "Edificio: RM111",
-            "course": "1047642",
+            "course": "1054960",
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
+                "day": "luned\u00ec",
                 "from": "08:00",
                 "to": "10:00"
               }
             ],
-            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "subject": "Computer systems and programming",
+            "teacher": "RICHELLI GIORGIO"
+          },
+          {
+            "building": "Edificio: RM062",
+            "course": "1054960",
+            "room": "Aula Alfa",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "Computer systems and programming",
+            "teacher": "RICHELLI GIORGIO"
           },
           {
             "building": "Edificio: CU002",
@@ -204,6 +176,34 @@
             ],
             "subject": "STATISTICS",
             "teacher": "GASTALDI TOMMASO"
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10600490",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teacher": "LA MORGIA MASSIMO"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10600490",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teacher": "LA MORGIA MASSIMO"
           }
         ]
       }
@@ -338,9 +338,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "venerd\u00ec",
+                "day": "luned\u00ec",
                 "from": "12:00",
-                "to": "14:00"
+                "to": "16:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
@@ -352,9 +352,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "luned\u00ec",
+                "day": "venerd\u00ec",
                 "from": "12:00",
-                "to": "16:00"
+                "to": "14:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",

@@ -5,80 +5,9 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM102",
-            "course": "10589621",
-            "room": "Aula A2",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
-          },
-          {
-            "building": "Edificio: RM025",
-            "course": "10589621",
-            "room": "Aula informatica 15",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
-          },
-          {
-            "building": "Edificio: RM115",
-            "course": "10600495",
-            "room": "Aula G50",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "09:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
-          },
-          {
-            "building": "Edificio: RM113",
-            "course": "10600495",
-            "room": "Aula S1 ",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "14:00",
-                "to": "16:00"
-              },
-              {
-                "day": "mercoled\u00ec",
-                "from": "15:00",
-                "to": "18:00"
-              }
-            ],
-            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
-          },
-          {
-            "building": "Edificio: RM115",
-            "course": "10596281",
-            "room": "Aula G50",
+            "building": "Edificio: RM111",
+            "course": "1041764",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -86,22 +15,8 @@
                 "to": "12:00"
               }
             ],
-            "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "10596281",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
+            "subject": "BIG DATA COMPUTING",
+            "teacher": "TOLOMEI GABRIELE"
           },
           {
             "building": "Edificio: RM018",
@@ -112,20 +27,6 @@
                 "day": "gioved\u00ec",
                 "from": "13:00",
                 "to": "16:00"
-              }
-            ],
-            "subject": "BIG DATA COMPUTING",
-            "teacher": "TOLOMEI GABRIELE"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "1041764",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "10:00",
-                "to": "12:00"
               }
             ],
             "subject": "BIG DATA COMPUTING",
@@ -149,34 +50,6 @@
             ],
             "subject": "BIOMETRIC SYSTEMS",
             "teacher": "DE MARSICO MARIA"
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "10600490",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "17:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "10600490",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "15:00",
-                "to": "18:00"
-              }
-            ],
-            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
           },
           {
             "building": "Edificio: RM115",
@@ -259,20 +132,6 @@
             "teacher": "CINQUE LUIGI"
           },
           {
-            "building": "Edificio: RM018",
-            "course": "1047622",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "11:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
-          },
-          {
             "building": "Edificio: RM111",
             "course": "1047622",
             "room": "Aula Magna",
@@ -281,6 +140,20 @@
                 "day": "marted\u00ec",
                 "from": "08:00",
                 "to": "11:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teacher": "VENTURI DANIELE"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047622",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ],
             "subject": "CRYPTOGRAPHY",
@@ -336,12 +209,12 @@
           {
             "building": "Edificio: RM113",
             "course": "1047638",
-            "room": "Aula S1 ",
+            "room": "Aula T1 ",
             "schedule": [
               {
-                "day": "gioved\u00ec",
-                "from": "16:00",
-                "to": "19:00"
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "15:00"
               }
             ],
             "subject": "MODELS OF COMPUTATION",
@@ -350,12 +223,12 @@
           {
             "building": "Edificio: RM113",
             "course": "1047638",
-            "room": "Aula T1 ",
+            "room": "Aula S1 ",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
               }
             ],
             "subject": "MODELS OF COMPUTATION",
@@ -381,6 +254,20 @@
             "teacher": "CALAMONERI TIZIANA"
           },
           {
+            "building": "Edificio: RM111",
+            "course": "1047642",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teacher": "FRIOLO DANIELE"
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047642",
             "room": "Aula 1",
@@ -395,18 +282,131 @@
             "teacher": "FRIOLO DANIELE"
           },
           {
-            "building": "Edificio: RM111",
-            "course": "1047642",
-            "room": "Aula Magna",
+            "building": "Edificio: RM102",
+            "course": "10589621",
+            "room": "Aula A2",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
               {
                 "day": "mercoled\u00ec",
                 "from": "08:00",
                 "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
               }
             ],
-            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "subject": "ADVANCED MACHINE LEARNING",
+            "teacher": "GALASSO FABIO"
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10589621",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ADVANCED MACHINE LEARNING",
+            "teacher": "GALASSO FABIO"
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10596281",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teacher": "MASELLI GAIA"
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10596281",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teacher": "MASELLI GAIA"
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10600490",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teacher": "LA MORGIA MASSIMO"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10600490",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teacher": "LA MORGIA MASSIMO"
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10600495",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teacher": "TRONCI ENRICO"
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10600495",
+            "room": "Aula S1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teacher": "TRONCI ENRICO"
           }
         ]
       }
