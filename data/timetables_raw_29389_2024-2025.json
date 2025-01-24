@@ -338,9 +338,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "luned\u00ec",
+                "day": "venerd\u00ec",
                 "from": "12:00",
-                "to": "16:00"
+                "to": "14:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
@@ -352,9 +352,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "venerd\u00ec",
+                "day": "luned\u00ec",
                 "from": "12:00",
-                "to": "14:00"
+                "to": "16:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
