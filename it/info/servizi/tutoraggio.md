@@ -29,18 +29,10 @@ Il tutoraggio per i singoli insegnamenti viene solitamente comunicato dal docent
 
 ### Tutoraggio per l'apprendimento complessivo
 
-Puoi trovare i tutor per l'attività di "Sportello dello Studente" nella Sala Lettura del Dipartimento di Scienze Statistiche, Aula G06, Edificio G in via Regina Elena 295, o contattarli per fissare una chiamata con loro, nei seguenti orari (ricontrollare di settimana in settimana per eventuali variazioni):
-
-| Giorno    | 13:00 - 18:00                                                     |
-|-----------|-------------------------------------------------------------------|
-| Giovedì   | [Michele Palma](https://telegram.me/flyingmp)                     |
-
-**Disponibile su appuntamento**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos)
+Puoi contattare un tutor per fissare un appuntamento con lui/lei: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp).
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **In cosa consiste?**
 
-I tutor saranno disponibili fisicamente per ascoltarvi e rispondere a eventuali dubbi che doveste avere sul vostro percorso accademico, oppure per aiutarvi a trovare informazioni e risorse utili.
-
-Particolarmente utile anche per gli studenti che stanno muovendo i primi passi all'interno dell'Ateneo, si tratta quindi di un pratico servizio di orientamento generale, dagli studenti per gli studenti.
+I tutor si rendono disponibili per ascoltarti e rispondere a eventuali dubbi sul tuo percorso accademico, oppure per aiutarti a trovare informazioni e risorse utili.
 {{% /hint %}}

@@ -29,14 +29,10 @@ There is a [current tutoring schedule](https://docs.google.com/spreadsheets/d/e/
 
 ### Comprehensive Learning Support Tutoring
 
-Contact the tutors to schedule a call with them.
-
-**Available on appointment**: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp)  
+You can contact a tutor to make an appointment with him/her: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp).
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **What does it consist of?**
 
-The tutors will be available in person to listen to you and answer any questions you may have about your academic journey, or to help you find useful information and resources.
-
-This is especially useful for students taking their first steps within the University. It is, therefore, a practical general orientation service, from students to students.
+Tutors are available to listen to you and address any questions about your academic journey or to help you find useful information and resources.
 {{% /hint %}}
