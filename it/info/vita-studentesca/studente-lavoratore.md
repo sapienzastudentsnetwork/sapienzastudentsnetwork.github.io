@@ -1,12 +1,12 @@
 ---
-title: Appelli straordinari studenti lavoratori
+title: Studente lavoratore
 aliases: ["/it/info/vita-studenti/studente-lavoratore"]
 weight: 4
 ---
 
-# Appelli straordinari aperti agli studenti lavoratori
+# Studente lavoratore
 
-## Autocertificazione status studente lavoratore
+## Appelli d'esame straordinari
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Studenti del Corso di Laurea in Teledidattica**
