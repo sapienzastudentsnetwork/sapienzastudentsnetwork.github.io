@@ -5,25 +5,25 @@ weight: 7
 
 # Tutoring
 
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> The [tutoring schedule for comprehensive learning](#comprehensive-learning-support-tutoring) is now also available.
-{{% /hint %}}
-
-Tutoring is a valuable resource offered by Sapienza to support students in their academic journey. Whether you are a first-year student trying to find your way within the university or a student needing assistance with specific courses, tutoring can help you overcome challenges and achieve your goals.
+Tutoring is a valuable resource offered by Sapienza to support students in their academic journey. Whether you are a first-year student trying to find your way within the university or a student who would benefit from support with specific courses, tutoring can help you overcome challenges and achieve your goals.
 
 ## Types of Tutoring
 
-Sapienza offers two main types of tutoring. The first is **tutoring for individual courses**, which provides targeted support to help you understand course content and assist with exercises. This type of tutoring is conducted by senior students, professors, or researchers, depending on the course's requirements.
-
-The second type is **comprehensive learning support tutoring**. This service offers general guidance on the academic path, helps you find information and resources, and provides support throughout your academic career. It is particularly useful for students who are taking their first steps within the university.
-
-## How to Access the Tutoring Service?
+Sapienza offers two main types of tutoring.
 
 ### Tutoring for individual courses
 
-Tutoring for individual courses is usually announced by the instructor during class or on the platform (Moodle, Classroom, etc.) used for the course. Tutoring sessions are held outside of regular class hours, and all interested students can participate. Participation is encouraged, as it helps lighten the study load and clarify any doubts. The exercises done during tutoring sessions are often similar to those that will appear on the exam, or the tutors may be students who have already passed the exam. Therefore, attending tutoring is one of the best ways to be well-prepared for the exam.
+Provides targeted support to help you understand course content and assist with exercises. The exercises done during tutoring sessions are often similar to those that will appear on the exam, or the tutors may be students who have already passed the exam. Therefore, **attending tutoring is one of the best ways to be well-prepared for the exam**.
+
+#### How to benefit
+
+Tutoring for individual courses is usually announced by the instructor during class or on the e-learning platform (Moodle, Classroom, etc.) used for the course. Tutoring sessions are held **outside of regular class hours**, and **all interested students can participate**.
 
 ### Comprehensive Learning Support Tutoring
+
+Tutoring of general guidance on the academic path, **helps you find information and resources, and provides support throughout your academic career**. It is particularly useful for students who are taking their first steps within the university.
+
+#### How to benefit 
 
 You can contact a tutor to make an appointment with him/her: [Oriana Deliallisi](https://telegram.me/orianani), [Lorenzo Antonelli](https://telegram.me/lorenzosphotos), [Michele Palma](https://telegram.me/flyingmp).
 
