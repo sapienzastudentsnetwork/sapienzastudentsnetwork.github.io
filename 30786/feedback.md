@@ -1,5 +1,6 @@
 ---
 title: 🔄 Feedback
+bookHidden: true
 weight: 2
 ---
 
