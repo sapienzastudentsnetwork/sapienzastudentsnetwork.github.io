@@ -10,7 +10,7 @@ aliases: ["/it/info/matricole/iscriversi"]
 
 Le informazioni qui riportate sono basate sul [**D.R. n. 380**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14617_l31_ing._informatica_i3s_2024-2025.pdf). Si consiglia di controllare la pagina dedicata ai [corsi ad accesso programmato](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni) per verificare la presenza di un bando L-31 più recente.
 
-La guida che segue è stata elaborata in vista dei bandi d'accesso per l'Anno Accademico 2024/25 e dovrà essere aggiornata in concomitanza con i bandi d'accesso per l'Anno Accademico 2025/26.
+La guida che segue è stata elaborata in vista dei bandi di accesso per l'Anno Accademico 2024/25 e dovrà essere aggiornata in concomitanza con i bandi di accesso per l'Anno Accademico 2025/26.
 {{% /hint %}}
 
 {{% hint info %}}
