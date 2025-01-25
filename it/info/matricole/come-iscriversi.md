@@ -9,6 +9,8 @@ aliases: ["/it/info/matricole/iscriversi"]
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
 Le informazioni qui riportate sono basate sul [**D.R. n. 380**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14617_l31_ing._informatica_i3s_2024-2025.pdf). Si consiglia di controllare la pagina dedicata ai [corsi ad accesso programmato](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni) per verificare la presenza di un bando L-31 più recente.
+
+La guida che segue è stata elaborata in vista dei bandi d'accesso per l'Anno Accademico 2024/25 e dovrà essere aggiornata in concomitanza con i bandi d'accesso per l'Anno Accademico 2025/26.
 {{% /hint %}}
 
 {{% hint info %}}
@@ -40,9 +42,9 @@ Per partecipare alle selezioni, il primo passo è registrarsi sul sito CISIA e s
 
 | Selezione             | Data limite per sostenere il TOLC | Chiusura iscrizioni       |
 |-----------------------|-----------------------------------|---------------------------|
-| **Prima selezione**   | 11 aprile 2024                    | Circa una settimana prima |
-| **Seconda selezione** | 29 luglio 2024                    | Circa una settimana prima |
-| **Terza selezione**   | 9 settembre 2024                  | Circa una settimana prima |
+| **Prima selezione**   | ~~11 aprile 2024~~                | Circa una settimana prima |
+| **Seconda selezione** | ~~29 luglio 2024~~                | Circa una settimana prima |
+| **Terza selezione**   | ~~9 settembre 2024~~              | Circa una settimana prima |
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
@@ -56,9 +58,9 @@ In base alla selezione è necessario registrarsi a Infostud e pagare il contribu
 
 | Selezione             | Periodo per la registrazione ad Infostud e pagamento dei €10 |
 |-----------------------|--------------------------------------------------------------|
-| **Prima selezione**   | Dal 20 febbraio all'11 aprile 2024                           |
-| **Seconda selezione** | Dal 7 maggio al 29 luglio 2024                               |
-| **Terza selezione**   | Dal 2 agosto al 9 settembre 2024                             |
+| **Prima selezione**   | ~~Dal 20 febbraio all'11 aprile 2024~~                       |
+| **Seconda selezione** | ~~Dal 7 maggio al 29 luglio 2024~~                           |
+| **Terza selezione**   | ~~Dal 2 agosto al 9 settembre 2024~~                         |
 
 
 ## Registrarsi ad Infostud
@@ -98,9 +100,9 @@ Le date di pubblicazione delle graduatorie sono indicate nel [Calendario delle p
 
 | Selezione             | Pubblicazione Graduatorie |
 |-----------------------|---------------------------|
-| **Prima selezione**   | 17 aprile 2024            |
-| **Seconda selezione** | 2 agosto 2024             |
-| **Terza selezione**   | 12 settembre 2024         |
+| **Prima selezione**   | ~~17 aprile 2024~~        |
+| **Seconda selezione** | ~~2 agosto 2024~~         |
+| **Terza selezione**   | ~~12 settembre 2024~~     |
 
 Le graduatorie vengono pubblicate nella pagina [Graduatorie](https://www.uniroma1.it/it/node/40540).
 
@@ -117,7 +119,7 @@ La pre-immatricolazione è riservata ai soli vincitori della prima selezione che
 
 Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le istruzioni riportate alla [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce “Pre-immatricolazione”. Il codice corso da inserire è: ```29923```.
 
-La pre-immatricolazione prevede il versamento di un contributo pari a €200,00 a partire dal 17 aprile ed entro il 7 maggio 2024, salvo eventuali riduzioni o esenzioni commisurate all’Isee 2024 per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
+La pre-immatricolazione prevede il versamento di un contributo pari a €200,00 ~~a partire dal 17 aprile ed entro il 7 maggio 2024~~, salvo eventuali riduzioni o esenzioni commisurate all’Isee ~~2024~~ per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -141,7 +143,7 @@ Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, 
 
 ### Vincitori della seconda selezione
 
-I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il **2 agosto 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
+I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il ~~**2 agosto 2024**~~, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -151,7 +153,7 @@ Lo studente che, pur vincitore della seconda selezione, non effettua l’immatri
 
 ### Vincitori della terza selezione
 
-I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il **12 settembre 2024**, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
+I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il ~~**12 settembre 2024**~~, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -161,7 +163,7 @@ Lo studente che, pur vincitore della terza selezione, non effettua l’immatrico
 
 ### Come immatricolarsi?
 
-L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’anno accademico 2024/2025 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
+L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’Anno Accademico ~~2024/2025~~ a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Esenzione dai contributi**
@@ -172,9 +174,8 @@ Durante la procedura di immatricolazione è possibile inserire eventuali condizi
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee 2024 per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
+È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee ~~2024~~ per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
 {{% /hint %}}
-
 
 Le informazioni sugli importi e le agevolazioni per gli studenti con residenza fiscale in Italia sono riportate al seguente [link](https://www.uniroma1.it/it/node/24520). Le informazioni sugli importi per gli studenti con residenza fiscale estera sono riportate al seguente [link](https://www.uniroma1.it/en/pagina/tuition-fees-and-grants#fees-for-students-with-foreign-citizenship-and-or-foreign-income).
 
@@ -190,39 +191,36 @@ Gli OFA si assolvono superando l’esame curriculare [Metodi matematici per l'In
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Fino al superamento dell'esame curriculare entro il 31 ottobre 2025, non sarà possibile sostenere gli esami di anni successivi al primo.
+Fino al superamento dell'esame curriculare entro il ~~31 ottobre 2025~~, non sarà possibile sostenere gli esami di anni successivi al primo.
 {{% /hint %}}
 
 ## Calendario delle procedure
+
 ### Prima selezione
 
-| Prima selezione                                           | Periodo/Scadenza                     |
-|-----------------------------------------------------------|--------------------------------------|
-| Iscrizione alla selezione                                 | Dal 20 febbraio all'11 aprile 2024   |
-| Pubblicazione graduatoria di merito                       | 17 aprile 2024                       |
-| Fase della pre-immatricolazione per i candidati vincitori | Dal 17 aprile al 7 maggio 2024       |
-| Fase delle immatricolazioni per i pre-immatricolati       | Dal 2 settembre al 11 settembre 2024 |
+| Prima selezione                                           | Periodo/Scadenza                         |
+|-----------------------------------------------------------|------------------------------------------|
+| Iscrizione alla selezione                                 | ~~Dal 20 febbraio all'11 aprile 2024~~   |
+| Pubblicazione graduatoria di merito                       | ~~17 aprile 2024~~                       |
+| Fase della pre-immatricolazione per i candidati vincitori | ~~Dal 17 aprile al 7 maggio 2024~~       |
+| Fase delle immatricolazioni per i pre-immatricolati       | ~~Dal 2 settembre al 11 settembre 2024~~ |
 
 ### Seconda selezione
-| Seconda selezione                                    | Periodo/Scadenza                     |
-|------------------------------------------------------|--------------------------------------|
-| Iscrizione alla selezione                            | Dal 7 maggio al 29 luglio 2024       |
-| Comunicazione numero effettivo di posti disponibili  | 14 maggio 2024                       |
-| Pubblicazione graduatoria                            | 2 agosto 2024                        |
-| Fase delle immatricolazioni per i candiati vincitori | Dal 2 settembre al 11 settembre 2024 |
+
+| Seconda selezione                                    | Periodo/Scadenza                         |
+|------------------------------------------------------|------------------------------------------|
+| Iscrizione alla selezione                            | ~~Dal 7 maggio al 29 luglio 2024~~       |
+| Comunicazione numero effettivo di posti disponibili  | ~~14 maggio 2024~~                       |
+| Pubblicazione graduatoria                            | ~~2 agosto 2024~~                        |
+| Fase delle immatricolazioni per i candiati vincitori | ~~Dal 2 settembre al 11 settembre 2024~~ |
 
 ### Terza selezione
 
-{{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
-
-La pubblicazione dei posti disponibili è stata posticipata a **mercoledì 18 settembre 2024**. Le successive scadenze saranno aggiornate di conseguenza.
-{{% /hint %}}
 
 | Terza selezione                                                                                | Periodo/Scadenza                          |
 |------------------------------------------------------------------------------------------------|-------------------------------------------|
-| Iscrizione alla selezione                                                                      | Dal 2 agosto al 9 settembre 2024          |
-| Comunicazione numero effettivo di posti disponibili                                            | 9 settembre 2024                          |
+| Iscrizione alla selezione                                                                      | ~~Dal 2 agosto al 9 settembre 2024~~      |
+| Comunicazione numero effettivo di posti disponibili                                            | ~~9 settembre 2024~~                      |
 | Pubblicazione graduatoria                                                                      | ~~12 settembre 2024~~                     |
 | Fase delle immatricolazioni per i candidati vincitori                                          | ~~Dal 12 settembre al 17 settembre 2024~~ |
 | Pubblicazione primo eleneco di subentri e inizio immatricolazioni per i candidati subentranti  | ~~20 settembre 2024~~                     |
