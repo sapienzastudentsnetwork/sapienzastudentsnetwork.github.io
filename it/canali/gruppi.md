@@ -23,14 +23,14 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
   
   Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
   
-  1. **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono i veri Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”;
+  1. **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono molti Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”;
 
-  2. **Gestione dei gruppi assente:** entrano periodicamente spammer impuniti ed è difficile (la maggior parte degli admin sono tremendamente inattivi, anche in quanto non facenti nemmeno parte del Corso di Laurea) aggiornare la descrizione o l’immagine del gruppo quando necessario, così come mettere in evidenza eventuali comunicazioni importanti;
+  2. **Impossibilità di autogestione:** bisogna dipendere dagli amministratori dei gruppi, molti dei quali non sono nemmeno studenti del Corso di Laurea, per bandire eventuali spammer, aggiornare la descrizione e l’immagine del gruppo quando necessario o mettere in evidenza eventuali comunicazioni importanti;
 
-  3. [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri.
+  3. [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato senza preavviso dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri.
 
-     **L'eliminazione ha causato la perdita di importante materiale per lo studio inviato negli anni**, che altrimenti sarebbe stato tutt'oggi consultabile grazie al fatto che Telegram mantiene la cronologia della chat per i nuovi membri.
-  
+     **L'eliminazione ha causato la perdita di importante materiale per lo studio e risorse utili inviate negli anni**, che altrimenti sarebbero state tutt'oggi consultabili grazie al fatto che su Telegram la cronologia della chat dei gruppi è accessibile anche ai nuovi membri.
+
   Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
   {{% /hint %}}
 {{% /details %}}
@@ -91,8 +91,7 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 ### Terzo Anno
 
-Il terzo anno è a **canale unificato** anziché diviso in due canali.
-
+Il terzo anno è a **canale unificato** anziché diviso in due canali e molti insegnamenti sono a scelta (vedi la [pagina sul percorso formativo](/it/info/terzo-anno/percorso-formativo) per ulteriori informazioni).
 
 #### Insegnamenti obbligatori
 
@@ -116,7 +115,9 @@ Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Q
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Organizzazione e Gestione per lo Start-Up Aziendale](https://t.me/+TW9IFCi061Q0Nzk8)
+- Organizzazione e Gestione per lo Start-Up Aziendale (OGA)
+  - [Prof. Smeriglio, Corso di Laurea in presenza](https://t.me/+TW9IFCi061Q0Nzk8)
+  - [Prof. Corteselli, Corso di Laurea in Teledidattica](https://t.me/+h26LuLyZ0qg3MzU0)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
     - [ACSAI] Web and Software Architecture
