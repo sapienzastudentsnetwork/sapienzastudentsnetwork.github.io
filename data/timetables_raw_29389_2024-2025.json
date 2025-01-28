@@ -211,6 +211,10 @@
     "year": "Primo anno - primo semestre"
   },
   {
+    "channels": [],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
     "channels": [
       {
         "channel": "Canale Unico",
@@ -338,9 +342,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "venerd\u00ec",
+                "day": "luned\u00ec",
                 "from": "12:00",
-                "to": "14:00"
+                "to": "16:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
@@ -352,9 +356,9 @@
             "room": "Aula A6",
             "schedule": [
               {
-                "day": "luned\u00ec",
+                "day": "venerd\u00ec",
                 "from": "12:00",
-                "to": "16:00"
+                "to": "14:00"
               }
             ],
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
@@ -448,5 +452,43 @@
       }
     ],
     "year": "Secondo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM102",
+            "course": "10600449",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+            "teacher": "VITALETTI ANDREA"
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10600449",
+            "room": "Aula A7",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+            "teacher": "VITALETTI ANDREA"
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - secondo semestre"
   }
 ]
