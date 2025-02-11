@@ -276,8 +276,9 @@ def parse(DOM):
             return sort_days_order_dict[timetable["schedule"][0]["day"]]
         return float("inf")
 
-    for channel in data[0]["channels"]:
-        channel["timetable"].sort(key=lambda x: (x["course"], sort_timetable_by_schedule_day(x)))
+    for entry in data:
+        for channel in entry["channels"]:
+            channel["timetable"].sort(key=lambda x: (x["course"], sort_timetable_by_schedule_day(x)))
 
     # ▒█▀▀█ ▒█░░░ ░█▀▀█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▀▄▀█ ▒█▀▀▀█ ░ ░░░▒█ ▒█▀▀▀█ ▒█▀▀▀█ ▒█▄░▒█
     # ▒█░░░ ▒█░░░ ▒█▄▄█ ░▀▀▀▄▄ ░▀▀▀▄▄ ▒█▄▄▀ ▒█░░▒█ ▒█░░▒█ ▒█▒█▒█ ░▀▀▀▄▄ ▄ ░▄░▒█ ░▀▀▀▄▄ ▒█░░▒█ ▒█▒█▒█
