@@ -1,5 +1,5 @@
 ---
-title: Self-Certificate for Working Students
+title: Working Student
 aliases: ["/29389/info/students-life/working-students", "/29389/info/student-life/working-students"]
 weight: 5
 bookToc: false
