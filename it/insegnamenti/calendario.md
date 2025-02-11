@@ -32,9 +32,9 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
 ## Laurea (Triennali)
 
 | Sessione di Laurea | Date                                         | Termine per la Domanda di Laurea |
-|--------------------|----------------------------------------------|----------------------------------|
-| I                  | Martedì 18 – Venerdì 28 marzo 2025           | Venerdì 14 febbraio 2025         |
-| II                 | Lunedì 19 – Venerdì 30 maggio 2025           | Martedì 22 aprile 2025           |
-| III                | Venerdì 18 – Venerdì 25 luglio 2025          | Venerdì 20 giugno 2025           |
-| IV                 | Giovedì 23 ottobre – Giovedì 6 novembre 2025 | Mercoledì 24 settembre 2025      |
-| V                  | Martedì 9 – Venerdì 19 dicembre 2025         | Venerdì 7 novembre 2025          |
+|--------------------|----------------------------------------------|---------------------------------|
+| I                  | Martedì 18 – Venerdì 28 marzo 2025           | Mercoledì 19 febbraio 2025      |
+| II                 | Lunedì 19 – Venerdì 30 maggio 2025           | Martedì 22 aprile 2025          |
+| III                | Venerdì 18 – Venerdì 25 luglio 2025          | Venerdì 20 giugno 2025          |
+| IV                 | Giovedì 23 ottobre – Giovedì 6 novembre 2025 | Mercoledì 24 settembre 2025     |
+| V                  | Martedì 9 – Venerdì 19 dicembre 2025         | Venerdì 7 novembre 2025         |
