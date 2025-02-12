@@ -485,6 +485,20 @@
             ],
             "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
             "teacher": "VITALETTI ANDREA"
+          },
+          {
+            "building": "Edificio: CU032",
+            "course": "AAF1803",
+            "room": "aula I",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "20:00"
+              }
+            ],
+            "subject": "CYBER SECURITY SEMINARS",
+            "teacher": "DE GASPARI FABIO"
           }
         ]
       }
