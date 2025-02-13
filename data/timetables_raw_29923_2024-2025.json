@@ -244,8 +244,65 @@
         ]
       },
       {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015881",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ARCHITETTURA DEGLI ELABORATORI",
+            "teacher": "Polese Davide"
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015884",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teacher": "SAMORY MATTIA"
+          }
+        ]
+      },
+      {
         "channel": "Canale 2",
         "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1015881",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ARCHITETTURA DEGLI ELABORATORI",
+            "teacher": "CHECCO ALESSANDRO"
+          },
           {
             "building": "Edificio: RM111",
             "course": "1015881",
@@ -259,6 +316,20 @@
             ],
             "subject": "ARCHITETTURA DEGLI ELABORATORI",
             "teacher": "CHECCO ALESSANDRO"
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015884",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teacher": "FARALLI STEFANO"
           },
           {
             "building": "Edificio: RM111",
@@ -737,6 +808,25 @@
       {
         "channel": "Canale Unico",
         "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1021828",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "MATEMATICA DISCRETA",
+            "teacher": "CAPPARELLI STEFANO"
+          },
           {
             "building": "Edificio: RM111",
             "course": "1022262",

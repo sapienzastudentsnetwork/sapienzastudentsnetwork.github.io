@@ -9,6 +9,11 @@
     "address": "Via Antonio Scarpa, 12",
     "mapsUrl": "https://maps.google.com/maps?q=41.906988,+12.518312+(Aula+11)&iwloc=A&hl=it"
   },
+  "625390f2-0bbb-4072-b866-50902fa1bad9": {
+    "description": "Aula 2 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
+  },
   "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
     "description": "Aula 3 - Aule temporanee",
     "address": null,
@@ -63,11 +68,6 @@
     "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
     "address": null,
     "mapsUrl": null
-  },
-  "625390f2-0bbb-4072-b866-50902fa1bad9": {
-    "description": "Aula 2 - Aule L",
-    "address": "Via del Castro Laurenziano, 7a",
-    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
   },
   "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
     "description": "AULA 201 - Regina Elena - Edificio D",
