@@ -49,6 +49,11 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },
+  "3204f38e-7393-4457-a108-c048458d026a": {
+    "description": "Aula S1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
   "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
     "description": "Aula T1 - Regina Elena - Edificio E",
     "address": "Viale Regina Elena, 295",
@@ -78,11 +83,6 @@
     "description": "Aula Alfa - Sociologia",
     "address": "Via Salaria, 113/117",
     "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
-  },
-  "3204f38e-7393-4457-a108-c048458d026a": {
-    "description": "Aula S1 - Regina Elena - Edificio E",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": null
   },
   "09ed7b4c-8a68-4d79-826b-5c928e529eb4": {
     "description": "Aula T - seminari e tesi - Vetreria Sciarra",

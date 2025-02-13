@@ -216,6 +216,20 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM115",
+            "course": "1054962",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SECURE COMPUTATION",
+            "teacher": "DE GASPARI FABIO"
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1054963",
             "room": "Aula Magna",
@@ -228,6 +242,34 @@
             ],
             "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
             "teacher": "LIBERATI FRANCESCO"
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1054963",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
+            "teacher": "LIBERATI FRANCESCO"
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1055047",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ECONOMICS OF TECHNOLOGY AND MANAGEMENT",
+            "teacher": "D'ADAMO IDIANO"
           }
         ]
       }
@@ -487,6 +529,20 @@
                 "day": "luned\u00ec",
                 "from": "14:00",
                 "to": "17:00"
+              }
+            ],
+            "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
+            "teacher": "LIBERATI FRANCESCO"
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1054963",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
               }
             ],
             "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
