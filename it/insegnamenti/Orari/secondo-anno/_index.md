@@ -30,4 +30,4 @@ timetables:
         - '1020422_2' # SISTEMI OPERATIVI I MODULO
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content

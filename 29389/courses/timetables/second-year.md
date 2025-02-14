@@ -14,4 +14,4 @@ timetables:
         - '1055061' # SECURITY GOVERNANCE
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content

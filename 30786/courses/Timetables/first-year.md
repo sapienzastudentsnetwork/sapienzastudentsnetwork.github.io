@@ -19,4 +19,4 @@ timetables:
         - '10600241'    # PROGRAMMING 2
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content

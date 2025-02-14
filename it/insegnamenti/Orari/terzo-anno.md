@@ -28,4 +28,4 @@ timetables:
         - '10600494' # VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content

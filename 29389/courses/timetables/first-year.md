@@ -16,4 +16,4 @@ timetables:
         - '1055043_2' # STATISTICS
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content
