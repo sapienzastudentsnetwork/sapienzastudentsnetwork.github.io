@@ -105,7 +105,7 @@ The student must choose **at least 1 course**, acquiring at least 6 ECTS, **from
 
 | Course code | Course                        | Year  | Semester | ECTS | SSD       | Chat                                       |
 |-------------|-------------------------------|-------|----------|------|-----------|--------------------------------------------|
-| 10595536    | Business and Computer Science | Third | Second   | 6    | SECS-P/07 | [Telegram](https://t.me/+Z8YI05oono0yNjFk) |
+| 10595536    | Business and Computer Science | Third | First    | 6    | SECS-P/07 | [Telegram](https://t.me/+Z8YI05oono0yNjFk) |
 | 10595537    | Law and Computer Science      | Third | Second   | 6    | IUS/20    | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
 
 ### External Elective Courses

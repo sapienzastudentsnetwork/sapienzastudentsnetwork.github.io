@@ -78,10 +78,10 @@ The verification of the overall preparation acquired during the course of studie
 The student must acquire 18 credits from the exams in the group
 
 | Course code | Course                        | Year  | Semester | CFU | SSD    |
-| ----------- | ----------------------------- | ----- | -------- | --- | ------ |
+| ----------- |-------------------------------| ----- | -------- | --- | ------ |
 | 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
 | 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
-| 10595534    | Web and software Architecture | Third | First    | 6   | INF/01 |
+| 10595534    | Web and Software Architecture | Third | First    | 6   | INF/01 |
 | 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
 | 10595533    | Optimization                  | Third | Second   | 6   | INF/01 |
 
@@ -90,6 +90,6 @@ The student must acquire 18 credits from the exams in the group
 The student must acquire 6 credits from the exams in the group
 
 | Course code | Course                        | Year  | Semester | CFU | SSD       |
-| ----------- | ----------------------------- | ----- | -------- | --- | --------- |
-| 10595536    | Business and Computer Science | Third | Second   | 6   | SECS-P/07 |
+| ----------- | ----------------------------- | ----- |----------| --- | --------- |
+| 10595536    | Business and Computer Science | Third | First    | 6   | SECS-P/07 |
 | 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |
