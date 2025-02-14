@@ -24,6 +24,7 @@ timetables:
       - '1047624'  # DISTRIBUTED SYSTEMS
       - '1047640'  # NETWORK ALGORITHMS
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
+bookHidden: true
 ---
 
-Check layout/page/schedule.html to analyze this page's content
+Check layout/page/timetables.html to analyze this page's content
