@@ -16,7 +16,9 @@
               }
             ],
             "subject": "BIG DATA COMPUTING",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -30,7 +32,9 @@
               }
             ],
             "subject": "BIG DATA COMPUTING",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -49,7 +53,9 @@
               }
             ],
             "subject": "BIOMETRIC SYSTEMS",
-            "teacher": "DE MARSICO MARIA"
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -63,7 +69,9 @@
               }
             ],
             "subject": "COMPUTATIONAL COMPLEXITY",
-            "teacher": "LAURIA MASSIMO"
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -77,7 +85,9 @@
               }
             ],
             "subject": "COMPUTATIONAL COMPLEXITY",
-            "teacher": "LAURIA MASSIMO"
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -91,7 +101,9 @@
               }
             ],
             "subject": "COMPUTER NETWORK PERFORMANCE",
-            "teacher": "BARTOLINI NOVELLA"
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -105,7 +117,9 @@
               }
             ],
             "subject": "COMPUTER NETWORK PERFORMANCE",
-            "teacher": "BARTOLINI NOVELLA"
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
           },
           {
             "building": "Edificio: RM062",
@@ -129,7 +143,9 @@
               }
             ],
             "subject": "COMPUTER VISION",
-            "teacher": "CINQUE LUIGI"
+            "teachers": [
+              "CINQUE LUIGI"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -143,7 +159,9 @@
               }
             ],
             "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -157,7 +175,9 @@
               }
             ],
             "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -171,7 +191,9 @@
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -185,7 +207,9 @@
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -204,7 +228,10 @@
               }
             ],
             "subject": "FOUNDATIONS OF DATA SCIENCE",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO",
+              "SPINELLI INDRO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -218,7 +245,9 @@
               }
             ],
             "subject": "MODELS OF COMPUTATION",
-            "teacher": "PIPERNO ADOLFO"
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -232,7 +261,9 @@
               }
             ],
             "subject": "MODELS OF COMPUTATION",
-            "teacher": "PIPERNO ADOLFO"
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -251,7 +282,9 @@
               }
             ],
             "subject": "NETWORK ALGORITHMS",
-            "teacher": "CALAMONERI TIZIANA"
+            "teachers": [
+              "CALAMONERI TIZIANA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -265,7 +298,9 @@
               }
             ],
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -279,7 +314,9 @@
               }
             ],
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM102",
@@ -303,7 +340,9 @@
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -317,7 +356,9 @@
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -331,7 +372,9 @@
               }
             ],
             "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
+            "teachers": [
+              "MASELLI GAIA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -345,7 +388,9 @@
               }
             ],
             "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
+            "teachers": [
+              "MASELLI GAIA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -359,7 +404,9 @@
               }
             ],
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -373,7 +420,9 @@
               }
             ],
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -387,7 +436,9 @@
               }
             ],
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -406,7 +457,9 @@
               }
             ],
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           }
         ]
       }
@@ -430,7 +483,9 @@
               }
             ],
             "subject": "CLOUD COMPUTING",
-            "teacher": "CASALICCHIO EMILIANO"
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -444,7 +499,9 @@
               }
             ],
             "subject": "CLOUD COMPUTING",
-            "teacher": "CASALICCHIO EMILIANO"
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -458,7 +515,9 @@
               }
             ],
             "subject": "ADVANCED ALGORITHMS",
-            "teacher": "CHIERICHETTI FLAVIO"
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -472,7 +531,9 @@
               }
             ],
             "subject": "ADVANCED ALGORITHMS",
-            "teacher": "CHIERICHETTI FLAVIO"
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -491,7 +552,9 @@
               }
             ],
             "subject": "ADVANCED SOFTWARE ENGINEERING",
-            "teacher": "BOTTONI PAOLO GASPARE"
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -510,7 +573,9 @@
               }
             ],
             "subject": "CONCURRENT SYSTEMS",
-            "teacher": "GORLA DANIELE"
+            "teachers": [
+              "GORLA DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -529,7 +594,9 @@
               }
             ],
             "subject": "GRAPH THEORY",
-            "teacher": "WOLLAN PAUL JOSEPH"
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -543,7 +610,9 @@
               }
             ],
             "subject": "MULTIMODAL INTERACTION",
-            "teacher": "AVOLA DANILO"
+            "teachers": [
+              "AVOLA DANILO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -562,7 +631,9 @@
               }
             ],
             "subject": "TOPICS IN PHYSICS",
-            "teacher": "Rapagnani Piero"
+            "teachers": [
+              "Rapagnani Piero"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -581,7 +652,9 @@
               }
             ],
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
-            "teacher": "STERBINI ANDREA"
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -600,7 +673,9 @@
               }
             ],
             "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
-            "teacher": "MANCINI TONI"
+            "teachers": [
+              "MANCINI TONI"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -619,7 +694,9 @@
               }
             ],
             "subject": "ADVANCED ARCHITECTURES",
-            "teacher": "MASSINI ANNALISA"
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
           }
         ]
       }
@@ -643,7 +720,9 @@
               }
             ],
             "subject": "BIG DATA COMPUTING",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -657,7 +736,9 @@
               }
             ],
             "subject": "BIG DATA COMPUTING",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -676,7 +757,9 @@
               }
             ],
             "subject": "BIOMETRIC SYSTEMS",
-            "teacher": "DE MARSICO MARIA"
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -690,7 +773,9 @@
               }
             ],
             "subject": "COMPUTATIONAL COMPLEXITY",
-            "teacher": "LAURIA MASSIMO"
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -704,7 +789,9 @@
               }
             ],
             "subject": "COMPUTATIONAL COMPLEXITY",
-            "teacher": "LAURIA MASSIMO"
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -718,7 +805,9 @@
               }
             ],
             "subject": "COMPUTER NETWORK PERFORMANCE",
-            "teacher": "BARTOLINI NOVELLA"
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -732,7 +821,9 @@
               }
             ],
             "subject": "COMPUTER NETWORK PERFORMANCE",
-            "teacher": "BARTOLINI NOVELLA"
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
           },
           {
             "building": "Edificio: RM062",
@@ -756,7 +847,9 @@
               }
             ],
             "subject": "COMPUTER VISION",
-            "teacher": "CINQUE LUIGI"
+            "teachers": [
+              "CINQUE LUIGI"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -770,7 +863,9 @@
               }
             ],
             "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -784,7 +879,9 @@
               }
             ],
             "subject": "CRYPTOGRAPHY",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -798,7 +895,9 @@
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -812,7 +911,9 @@
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -831,7 +932,10 @@
               }
             ],
             "subject": "FOUNDATIONS OF DATA SCIENCE",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO",
+              "SPINELLI INDRO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -845,7 +949,9 @@
               }
             ],
             "subject": "MODELS OF COMPUTATION",
-            "teacher": "PIPERNO ADOLFO"
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -859,7 +965,9 @@
               }
             ],
             "subject": "MODELS OF COMPUTATION",
-            "teacher": "PIPERNO ADOLFO"
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -878,7 +986,9 @@
               }
             ],
             "subject": "NETWORK ALGORITHMS",
-            "teacher": "CALAMONERI TIZIANA"
+            "teachers": [
+              "CALAMONERI TIZIANA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -892,7 +1002,9 @@
               }
             ],
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -906,7 +1018,9 @@
               }
             ],
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-            "teacher": "FRIOLO DANIELE"
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -920,7 +1034,9 @@
               }
             ],
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
-            "teacher": "De vitis Alessandra "
+            "teachers": [
+              "De vitis Alessandra "
+            ]
           },
           {
             "building": "Edificio: RM102",
@@ -944,7 +1060,9 @@
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -958,7 +1076,9 @@
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -972,7 +1092,9 @@
               }
             ],
             "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
+            "teachers": [
+              "MASELLI GAIA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -986,7 +1108,9 @@
               }
             ],
             "subject": "AUTONOMOUS NETWORKING",
-            "teacher": "MASELLI GAIA"
+            "teachers": [
+              "MASELLI GAIA"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -1000,7 +1124,9 @@
               }
             ],
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -1014,7 +1140,9 @@
               }
             ],
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-            "teacher": "LA MORGIA MASSIMO"
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1028,7 +1156,9 @@
               }
             ],
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -1047,7 +1177,9 @@
               }
             ],
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM103",
@@ -1061,7 +1193,9 @@
               }
             ],
             "subject": "ATTIVITA' FORMATIVA COMPLEMENTARE",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           }
         ]
       }
@@ -1085,7 +1219,9 @@
               }
             ],
             "subject": "CLOUD COMPUTING",
-            "teacher": "CASALICCHIO EMILIANO"
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -1099,7 +1235,9 @@
               }
             ],
             "subject": "CLOUD COMPUTING",
-            "teacher": "CASALICCHIO EMILIANO"
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1113,7 +1251,9 @@
               }
             ],
             "subject": "ADVANCED ALGORITHMS",
-            "teacher": "CHIERICHETTI FLAVIO"
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -1127,7 +1267,9 @@
               }
             ],
             "subject": "ADVANCED ALGORITHMS",
-            "teacher": "CHIERICHETTI FLAVIO"
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -1146,7 +1288,9 @@
               }
             ],
             "subject": "ADVANCED SOFTWARE ENGINEERING",
-            "teacher": "BOTTONI PAOLO GASPARE"
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1165,7 +1309,9 @@
               }
             ],
             "subject": "CONCURRENT SYSTEMS",
-            "teacher": "GORLA DANIELE"
+            "teachers": [
+              "GORLA DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1184,7 +1330,9 @@
               }
             ],
             "subject": "GRAPH THEORY",
-            "teacher": "WOLLAN PAUL JOSEPH"
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1203,7 +1351,9 @@
               }
             ],
             "subject": "MATHEMATICAL LOGIC FOR COMPUTER SCIENCE",
-            "teacher": "CARLUCCI LORENZO"
+            "teachers": [
+              "CARLUCCI LORENZO"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1217,7 +1367,9 @@
               }
             ],
             "subject": "MULTIMODAL INTERACTION",
-            "teacher": "AVOLA DANILO"
+            "teachers": [
+              "AVOLA DANILO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -1236,7 +1388,9 @@
               }
             ],
             "subject": "TOPICS IN PHYSICS",
-            "teacher": "Rapagnani Piero"
+            "teachers": [
+              "Rapagnani Piero"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1255,7 +1409,9 @@
               }
             ],
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
-            "teacher": "STERBINI ANDREA"
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -1274,7 +1430,9 @@
               }
             ],
             "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
-            "teacher": "MANCINI TONI"
+            "teachers": [
+              "MANCINI TONI"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -1293,7 +1451,9 @@
               }
             ],
             "subject": "ADVANCED ARCHITECTURES",
-            "teacher": "MASSINI ANNALISA"
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
           }
         ]
       }

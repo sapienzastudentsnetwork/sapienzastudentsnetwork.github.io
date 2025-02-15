@@ -21,7 +21,9 @@
               }
             ],
             "subject": "CALCOLO DIFFERENZIALE",
-            "teacher": "AIELLO VALERIANO"
+            "teachers": [
+              "AIELLO VALERIANO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -40,7 +42,9 @@
               }
             ],
             "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
-            "teacher": "PONTARELLI SALVATORE"
+            "teachers": [
+              "PONTARELLI SALVATORE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -59,7 +63,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "STERBINI ANDREA"
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -73,7 +79,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "STERBINI ANDREA"
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -87,7 +95,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "STERBINI ANDREA"
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -106,7 +116,9 @@
               }
             ],
             "subject": "METODI MATEMATICI PER L'INFORMATICA",
-            "teacher": "CARLUCCI LORENZO"
+            "teachers": [
+              "CARLUCCI LORENZO"
+            ]
           }
         ]
       },
@@ -130,7 +142,9 @@
               }
             ],
             "subject": "CALCOLO DIFFERENZIALE",
-            "teacher": "ORSINA LUIGI"
+            "teachers": [
+              "ORSINA LUIGI"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -149,7 +163,9 @@
               }
             ],
             "subject": "PROGETTAZIONE DI SISTEMI DIGITALI",
-            "teacher": "MASSINI ANNALISA"
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -168,7 +184,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "MASI IACOPO"
+            "teachers": [
+              "MASI IACOPO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -182,7 +200,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "MASI IACOPO"
+            "teachers": [
+              "MASI IACOPO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -196,7 +216,9 @@
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teacher": "MASI IACOPO"
+            "teachers": [
+              "MASI IACOPO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -215,7 +237,9 @@
               }
             ],
             "subject": "METODI MATEMATICI PER L'INFORMATICA",
-            "teacher": "PIPERNO ADOLFO"
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
           }
         ]
       }
@@ -239,7 +263,9 @@
               }
             ],
             "subject": "LINGUA INGLESE",
-            "teacher": "Ciuffetelli Annalisa"
+            "teachers": [
+              "Ciuffetelli Annalisa"
+            ]
           }
         ]
       },
@@ -263,7 +289,9 @@
               }
             ],
             "subject": "ARCHITETTURA DEGLI ELABORATORI",
-            "teacher": "Polese Davide"
+            "teachers": [
+              "Polese Davide"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -282,7 +310,9 @@
               }
             ],
             "subject": "METODOLOGIE DI PROGRAMMAZIONE",
-            "teacher": "SAMORY MATTIA"
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
           }
         ]
       },
@@ -301,7 +331,9 @@
               }
             ],
             "subject": "ARCHITETTURA DEGLI ELABORATORI",
-            "teacher": "CHECCO ALESSANDRO"
+            "teachers": [
+              "CHECCO ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -315,7 +347,9 @@
               }
             ],
             "subject": "ARCHITETTURA DEGLI ELABORATORI",
-            "teacher": "CHECCO ALESSANDRO"
+            "teachers": [
+              "CHECCO ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -329,7 +363,9 @@
               }
             ],
             "subject": "METODOLOGIE DI PROGRAMMAZIONE",
-            "teacher": "FARALLI STEFANO"
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -343,7 +379,9 @@
               }
             ],
             "subject": "METODOLOGIE DI PROGRAMMAZIONE",
-            "teacher": "FARALLI STEFANO"
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
           }
         ]
       }
@@ -377,7 +415,9 @@
               }
             ],
             "subject": "ALGEBRA",
-            "teacher": "VIAGGI GABRIELE"
+            "teachers": [
+              "VIAGGI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -396,7 +436,9 @@
               }
             ],
             "subject": "BASI DI DATI I MODULO",
-            "teacher": "PERELLI GIUSEPPE"
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -420,7 +462,9 @@
               }
             ],
             "subject": "CALCOLO DELLE PROBABILITA'",
-            "teacher": "NAPPO GIOVANNA"
+            "teachers": [
+              "NAPPO GIOVANNA"
+            ]
           },
           {
             "building": "Edificio: CU006",
@@ -434,7 +478,9 @@
               }
             ],
             "subject": "CALCOLO DELLE PROBABILITA'",
-            "teacher": "NAPPO GIOVANNA"
+            "teachers": [
+              "NAPPO GIOVANNA"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -453,7 +499,9 @@
               }
             ],
             "subject": "SISTEMI OPERATIVI I MODULO",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           }
         ]
       },
@@ -472,7 +520,9 @@
               }
             ],
             "subject": "ALGEBRA",
-            "teacher": "PELLARIN FEDERICO"
+            "teachers": [
+              "PELLARIN FEDERICO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -486,7 +536,9 @@
               }
             ],
             "subject": "ALGEBRA",
-            "teacher": "PELLARIN FEDERICO"
+            "teachers": [
+              "PELLARIN FEDERICO"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -500,7 +552,9 @@
               }
             ],
             "subject": "ALGEBRA",
-            "teacher": "PELLARIN FEDERICO"
+            "teachers": [
+              "PELLARIN FEDERICO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -514,7 +568,9 @@
               }
             ],
             "subject": "BASI DI DATI I MODULO",
-            "teacher": "DE MARSICO MARIA"
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -528,7 +584,9 @@
               }
             ],
             "subject": "BASI DI DATI I MODULO",
-            "teacher": "DE MARSICO MARIA"
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -547,7 +605,9 @@
               }
             ],
             "subject": "CALCOLO DELLE PROBABILITA'",
-            "teacher": "FAGGIONATO ALESSANDRA"
+            "teachers": [
+              "FAGGIONATO ALESSANDRA"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -561,7 +621,9 @@
               }
             ],
             "subject": "CALCOLO DELLE PROBABILITA'",
-            "teacher": "FAGGIONATO ALESSANDRA"
+            "teachers": [
+              "FAGGIONATO ALESSANDRA"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -575,7 +637,9 @@
               }
             ],
             "subject": "SISTEMI OPERATIVI I MODULO",
-            "teacher": "DE GASPARI FABIO"
+            "teachers": [
+              "DE GASPARI FABIO"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -589,7 +653,9 @@
               }
             ],
             "subject": "SISTEMI OPERATIVI I MODULO",
-            "teacher": "DE GASPARI FABIO"
+            "teachers": [
+              "DE GASPARI FABIO"
+            ]
           }
         ]
       }
@@ -622,7 +688,9 @@
               }
             ],
             "subject": "INTERAZIONE UOMO MACCHINA",
-            "teacher": "MANCINI MAURIZIO"
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -641,7 +709,9 @@
               }
             ],
             "subject": "LINGUAGGI DI PROGRAMMAZIONE",
-            "teacher": "CENCIARELLI PIETRO"
+            "teachers": [
+              "CENCIARELLI PIETRO"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -655,7 +725,9 @@
               }
             ],
             "subject": "PROGRAMMAZIONE PER IL WEB",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -669,7 +741,9 @@
               }
             ],
             "subject": "PROGRAMMAZIONE PER IL WEB",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -683,7 +757,9 @@
               }
             ],
             "subject": "INGEGNERIA DEL SOFTWARE",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -697,7 +773,9 @@
               }
             ],
             "subject": "INGEGNERIA DEL SOFTWARE",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -711,7 +789,9 @@
               }
             ],
             "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -725,7 +805,9 @@
               }
             ],
             "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
-            "teacher": "VENTURI DANIELE"
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -744,7 +826,9 @@
               }
             ],
             "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
-            "teacher": "DE SENSI DANIELE"
+            "teachers": [
+              "DE SENSI DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -758,7 +842,9 @@
               }
             ],
             "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
-            "teacher": "Smeriglio Michelangelo"
+            "teachers": [
+              "Smeriglio Michelangelo"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -777,7 +863,9 @@
               }
             ],
             "subject": "DATA SCIENCE E DIRITTO",
-            "teacher": "ASARO CARMELO"
+            "teachers": [
+              "ASARO CARMELO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -796,7 +884,9 @@
               }
             ],
             "subject": "FISICA",
-            "teacher": "GERMANO MASSIMO"
+            "teachers": [
+              "GERMANO MASSIMO"
+            ]
           }
         ]
       }
@@ -825,7 +915,9 @@
               }
             ],
             "subject": "MATEMATICA DISCRETA",
-            "teacher": "CAPPARELLI STEFANO"
+            "teachers": [
+              "CAPPARELLI STEFANO"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -844,7 +936,9 @@
               }
             ],
             "subject": "INTELLIGENZA ARTIFICIALE",
-            "teacher": "MANCINI TONI"
+            "teachers": [
+              "MANCINI TONI"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -863,7 +957,9 @@
               }
             ],
             "subject": "MODELLI E OTTIMIZZAZIONE",
-            "teacher": "WOLLAN PAUL JOSEPH"
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -877,7 +973,9 @@
               }
             ],
             "subject": "SICUREZZA",
-            "teacher": "CASALICCHIO EMILIANO"
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -891,7 +989,9 @@
               }
             ],
             "subject": "BIOLOGIA COMPUTAZIONALE",
-            "teacher": "CASTRIGNANO' TIZIANA"
+            "teachers": [
+              "CASTRIGNANO' TIZIANA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -905,7 +1005,9 @@
               }
             ],
             "subject": "BIOLOGIA COMPUTAZIONALE",
-            "teacher": "CASTRIGNANO' TIZIANA"
+            "teachers": [
+              "CASTRIGNANO' TIZIANA"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -924,7 +1026,9 @@
               }
             ],
             "subject": "LINGUAGGI E COMPILATORI",
-            "teacher": "FRANCESCHINI GIANNI"
+            "teachers": [
+              "FRANCESCHINI GIANNI"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -938,7 +1042,9 @@
               }
             ],
             "subject": "TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA",
-            "teacher": "SALVO IVANO"
+            "teachers": [
+              "SALVO IVANO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -952,7 +1058,9 @@
               }
             ],
             "subject": "VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           },
           {
             "building": "Edificio: RM113",
@@ -966,7 +1074,9 @@
               }
             ],
             "subject": "VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI",
-            "teacher": "TRONCI ENRICO"
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
           }
         ]
       }

@@ -21,7 +21,9 @@
               }
             ],
             "subject": "CALCULUS UNIT 1",
-            "teacher": "PISANTE ADRIANO"
+            "teachers": [
+              "PISANTE ADRIANO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -40,7 +42,9 @@
               }
             ],
             "subject": "PROGRAMMING UNIT 1",
-            "teacher": "MANCINI MAURIZIO"
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -59,7 +63,9 @@
               }
             ],
             "subject": "PROGRAMMING UNIT 2",
-            "teacher": "SPOGNARDI ANGELO"
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -73,7 +79,9 @@
               }
             ],
             "subject": "PROGRAMMING UNIT 2",
-            "teacher": "SPOGNARDI ANGELO"
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           },
           {
             "building": "Edificio: RM025",
@@ -87,7 +95,9 @@
               }
             ],
             "subject": "PROGRAMMING UNIT 2",
-            "teacher": "SPOGNARDI ANGELO"
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -106,7 +116,9 @@
               }
             ],
             "subject": "LINEAR ALGEBRA",
-            "teacher": "Zabad Sahar"
+            "teachers": [
+              "Zabad Sahar"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -125,7 +137,9 @@
               }
             ],
             "subject": "COMPUTER ARCHITECTURE UNIT 1",
-            "teacher": "DE SENSI DANIELE"
+            "teachers": [
+              "DE SENSI DANIELE"
+            ]
           }
         ]
       }
@@ -154,7 +168,9 @@
               }
             ],
             "subject": "ALGORITHMS",
-            "teacher": "CHIERICHETTI FLAVIO"
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -173,7 +189,9 @@
               }
             ],
             "subject": "CALCULUS UNIT 2",
-            "teacher": "AIELLO VALERIANO"
+            "teachers": [
+              "AIELLO VALERIANO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -192,7 +210,9 @@
               }
             ],
             "subject": "PHYSICS",
-            "teacher": "CUNQUEIRO MENDEZ LETICIA"
+            "teachers": [
+              "CUNQUEIRO MENDEZ LETICIA"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -211,7 +231,9 @@
               }
             ],
             "subject": "COMPUTER ARCHITECTURE UNIT 2",
-            "teacher": "MEI ALESSANDRO"
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -230,7 +252,9 @@
               }
             ],
             "subject": "PROGRAMMING 2",
-            "teacher": "CENCIARELLI PIETRO"
+            "teachers": [
+              "CENCIARELLI PIETRO"
+            ]
           }
         ]
       }
@@ -254,7 +278,9 @@
               }
             ],
             "subject": "PROBABILITY",
-            "teacher": "BERTINI MALGARINI LORENZO"
+            "teachers": [
+              "BERTINI MALGARINI LORENZO"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -268,7 +294,9 @@
               }
             ],
             "subject": "PROBABILITY",
-            "teacher": "BERTINI MALGARINI LORENZO"
+            "teachers": [
+              "BERTINI MALGARINI LORENZO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -287,7 +315,9 @@
               }
             ],
             "subject": "CALCULUS 2",
-            "teacher": "ALLA ALESSANDRO"
+            "teachers": [
+              "ALLA ALESSANDRO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -301,7 +331,9 @@
               }
             ],
             "subject": "SYSTEMS AND NETWORKING UNIT I",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -315,7 +347,9 @@
               }
             ],
             "subject": "SYSTEMS AND NETWORKING UNIT I",
-            "teacher": "TOLOMEI GABRIELE"
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -334,7 +368,9 @@
               }
             ],
             "subject": "SYSTEMS AND NETWORKING UNIT II",
-            "teacher": "BARTOLINI NOVELLA"
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -353,7 +389,9 @@
               }
             ],
             "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
-            "teacher": "PERELLI GIUSEPPE"
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
           }
         ]
       }
@@ -382,7 +420,9 @@
               }
             ],
             "subject": "AI LAB: COMPUTER VISION AND NLP",
-            "teacher": "PANNONE DANIELE"
+            "teachers": [
+              "PANNONE DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -401,7 +441,9 @@
               }
             ],
             "subject": "DATA MANAGEMENT AND ANALYSIS UNIT II",
-            "teacher": "QUATTROCIOCCHI WALTER"
+            "teachers": [
+              "QUATTROCIOCCHI WALTER"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -420,7 +462,9 @@
               }
             ],
             "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT I",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM158",
@@ -439,7 +483,9 @@
               }
             ],
             "subject": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING UNIT II",
-            "teacher": "MASI IACOPO"
+            "teachers": [
+              "MASI IACOPO"
+            ]
           }
         ]
       }
@@ -468,7 +514,9 @@
               }
             ],
             "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
-            "teacher": "GORLA DANIELE"
+            "teachers": [
+              "GORLA DANIELE"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -487,7 +535,9 @@
               }
             ],
             "subject": "DEEP LEARNING",
-            "teacher": "GALASSO FABIO"
+            "teachers": [
+              "GALASSO FABIO"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -506,7 +556,9 @@
               }
             ],
             "subject": "CYBERSECURITY",
-            "teacher": "SPOGNARDI ANGELO"
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           },
           {
             "building": "Edificio: RM005",
@@ -520,7 +572,9 @@
               }
             ],
             "subject": "WEB AND SOFTWARE ARCHITECTURE",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -534,7 +588,9 @@
               }
             ],
             "subject": "WEB AND SOFTWARE ARCHITECTURE",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: RM115",
@@ -553,7 +609,9 @@
               }
             ],
             "subject": "BUSINESS AND COMPUTER SCIENCE",
-            "teacher": "SAVIO RICCARDO"
+            "teachers": [
+              "SAVIO RICCARDO"
+            ]
           }
         ]
       }
@@ -582,7 +640,9 @@
               }
             ],
             "subject": "OPTIMIZATION",
-            "teacher": "WOLLAN PAUL JOSEPH"
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
           },
           {
             "building": "Edificio: RM018",
@@ -601,7 +661,9 @@
               }
             ],
             "subject": "HUMAN COMPUTER INTERACTION",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: CU033",
@@ -615,7 +677,9 @@
               }
             ],
             "subject": "HUMAN COMPUTER INTERACTION",
-            "teacher": "PANIZZI EMANUELE"
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
           },
           {
             "building": "Edificio: RM111",
@@ -629,7 +693,9 @@
               }
             ],
             "subject": "LAW AND COMPUTER SCIENCE",
-            "teacher": "Sigismondi Irene"
+            "teachers": [
+              "Sigismondi Irene"
+            ]
           },
           {
             "building": "Edificio: CU033",
@@ -643,7 +709,9 @@
               }
             ],
             "subject": "LAW AND COMPUTER SCIENCE",
-            "teacher": "Sigismondi Irene"
+            "teachers": [
+              "Sigismondi Irene"
+            ]
           }
         ]
       }

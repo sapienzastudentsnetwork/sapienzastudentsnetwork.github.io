@@ -65,6 +65,7 @@ def parse(DOM):
             #      [0]
             #      101226 CALCOLO DIFFERENZIALE
             #         MARIO ROSSI
+            #         LUIGI BIANCHI
             #
             #      [1]
             #      Edificio: CU006
@@ -84,37 +85,40 @@ def parse(DOM):
                 course_name = course_code_link.text
                 course_code = extract_course_code(course_name)
 
-                # Prepare to extract teacher data
-                teacher_name     = None
-                teacher_page_url = None
-
                 # Find the <a> element containing the teacher's name
-                teacher_div = course_column.find('div', class_='docente')
+                teacher_divs = course_column.find_all('div', class_='docente')
 
-                if teacher_div:
-                    teacher_a = teacher_div.find('a')
+                course_teachers_dict = {}
 
-                    # Extract the teacher's name
-                    teacher_name = teacher_a.text.strip()
+                if teacher_divs:
+                    for teacher_div in teacher_divs:
+                        # Prepare to extract teacher data
+                        teacher_name     = None
+                        teacher_page_url = None
 
-                    # Check if the current combination of course_code, channel, and teacher_name should be ignored
-                    if (course_code, channel, teacher_name) in ignore_conditions:
-                        continue  # Skip processing if the condition matches
+                        teacher_a = teacher_div.find('a')
 
-                    # Extract the URL of the teacher's page
-                    teacher_page_url = teacher_a['href']
+                        # Extract the teacher's name
+                        teacher_name = teacher_a.text.strip()
 
-                    # Extract the teacher's UID from the URL of the teacher's page
-                    teacher_id = teacher_page_url.split('=')[-1]
+                        # Check if the current combination of course_code, channel, and teacher_name should be ignored
+                        if (course_code, channel, teacher_name) in ignore_conditions:
+                            continue  # Skip processing if the condition matches
 
-                    if teacher_id not in teachers_dict:
-                        teachers_dict[teacher_id] = {
-                            "name": teacher_name,
-                        }
-                    else:
-                        teachers_dict[teacher_id]["name"] = teacher_name
-                else:
-                    teacher_id = None
+                        # Extract the URL of the teacher's page
+                        teacher_page_url = teacher_a['href']
+
+                        # Extract the teacher's UID from the URL of the teacher's page
+                        teacher_id = teacher_page_url.split('=')[-1]
+
+                        if teacher_id not in teachers_dict:
+                            teachers_dict[teacher_id] = {
+                                "name": teacher_name,
+                            }
+                        else:
+                            teachers_dict[teacher_id]["name"] = teacher_name
+
+                        course_teachers_dict[teacher_id] = teacher_name
 
                 # Extract location information from column 1 of the table
                 location = classroom_column
@@ -179,7 +183,7 @@ def parse(DOM):
                     if schedule_day_name not in course_timetables_dict[course_code]["channels"][f"{channel}"]:
                         # Create a new dictionary for the day name with class information for the channel
                         course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name] = [{
-                            "teacher": teacher_id,
+                            "teachers": course_teachers_dict,
                             "timeslot": schedule_time_slot,
                             "classrooms": {
                                 classroom_id: location
@@ -196,14 +200,14 @@ def parse(DOM):
                         append_schedule = True
 
                         for day_schedule_entry_dict in course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name]:
-                            if (day_schedule_entry_dict["teacher"] == teacher_id) and (day_schedule_entry_dict["timeslot"] == schedule_time_slot):
+                            if (day_schedule_entry_dict["teachers"] == course_teachers_dict) and (day_schedule_entry_dict["timeslot"] == schedule_time_slot):
                                 day_schedule_entry_dict["classrooms"][classroom_id] = location
                                 append_schedule = False
                                 break
                         
                         if append_schedule:
                             course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name].append({
-                                "teacher": teacher_id,
+                                "teachers": course_teachers_dict,
                                 "timeslot": schedule_time_slot,
                                 "classrooms": {
                                     classroom_id: location
@@ -248,7 +252,7 @@ def parse(DOM):
                     'subject': ' '.join(course.find('a').text.split()[1:]),
                     'building': room.find('div').text,
                     'room': room.find('a').text,
-                    'teacher': (course.find(class_='docente') or DOM.new_tag('p')).text,
+                    'teachers': [teacher.text for teacher in course.find_all(class_='docente')] or [DOM.new_tag('p').text],
                     'schedule': []
                 }
 

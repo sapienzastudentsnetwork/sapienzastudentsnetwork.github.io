@@ -136,28 +136,27 @@
                                             <td class="timetableTableCell">{{ $timeslot }}</td>
                                             <td class="timetableTableCell">
                                                 {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
-                                                {{ $teacherId := index $timeslotInDay 0 "teacher" }}
-                                                {{ $teacherUrl := "" }}
-                                                {{ $teacherName := "" }}
 
-                                                {{ if $teacherId }}
-                                                    {{ $teacherName = index $dataTeachers $teacherId "name" }}
-                                                    {{ $teacherUrl  = printf "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=%s" $teacherId }}
-                                                {{ else if $info.teacherInfo }}
-                                                    {{ $teacherName = $info.teacherInfo }}
-                                                    {{ if $info.teacherUrl }}
-                                                        {{ $teacherUrl = $info.teacherUrl }}
-                                                    {{ end }}
+                                                {{ $teachers := index $timeslotInDay 0 "teachers" }}
+                                                {{ $teacherLinks := slice }}
+
+                                                {{ range $teacherId, $teacherName := $teachers }}
+                                                    {{ $formattedName := $teacherName | lower | title }}
+                                                    {{ $teacherUrl := printf "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=%s" $teacherId }}
+                                                    {{ $teacherLinks = $teacherLinks | append (printf "<a href='%s'>%s</a>" $teacherUrl $formattedName) }}
                                                 {{ end }}
 
-                                                {{ if $teacherName }}
-                                                    {{ if $teacherUrl }}
-                                                        <a href="{{ $teacherUrl }}">{{ $teacherName }}</a>
+                                                {{ if $teacherLinks }}
+                                                    {{ delimit $teacherLinks "<br>" | safeHTML }}
+                                                {{ else if $info.teacherInfo }}
+                                                    {{ $formattedInfo := $info.teacherInfo | lower | title }}
+                                                    {{ if $info.teacherUrl }}
+                                                        <a href="{{ $info.teacherUrl }}">{{ $formattedInfo }}</a>
                                                     {{ else }}
-                                                        {{ $teacherName }}
+                                                        {{ $formattedInfo }}
                                                     {{ end }}
                                                 {{ else }}
-                                                    Non disponibile
+                                                    N/A
                                                 {{ end }}
                                             </td>
                                             <td class="timetableTableCell">

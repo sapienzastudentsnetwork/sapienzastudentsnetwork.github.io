@@ -6,7 +6,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "f77bfb4c-dd02-4161-8b24-aa3ded1c0b5e",
+            "teachers": {
+              "f77bfb4c-dd02-4161-8b24-aa3ded1c0b5e": "Ciuffetelli Annalisa"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
@@ -24,7 +26,9 @@
       "1": {
         "marted\u00ec": [
           {
-            "teacher": "58144cf9-9436-4d12-82ce-cb9050f05546",
+            "teachers": {
+              "58144cf9-9436-4d12-82ce-cb9050f05546": "Polese Davide"
+            },
             "timeslot": "11 - 14",
             "classroomInfo": "Aula 4 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -32,7 +36,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "58144cf9-9436-4d12-82ce-cb9050f05546",
+            "teachers": {
+              "58144cf9-9436-4d12-82ce-cb9050f05546": "Polese Davide"
+            },
             "timeslot": "12 - 14",
             "classroomInfo": "Aula 4 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -42,7 +48,9 @@
       "2": {
         "marted\u00ec": [
           {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
+            "teachers": {
+              "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a": "CHECCO ALESSANDRO"
+            },
             "timeslot": "12 - 14",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -51,7 +59,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a",
+            "teachers": {
+              "ed46fb32-ef69-45cd-b24e-6fe2f3394c4a": "CHECCO ALESSANDRO"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -69,7 +79,9 @@
       "1": {
         "marted\u00ec": [
           {
-            "teacher": "7b5918bd-f0bf-44f0-b509-43c31a489184",
+            "teachers": {
+              "7b5918bd-f0bf-44f0-b509-43c31a489184": "SAMORY MATTIA"
+            },
             "timeslot": "9 - 11",
             "classroomInfo": "Aula 4 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -77,7 +89,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "7b5918bd-f0bf-44f0-b509-43c31a489184",
+            "teachers": {
+              "7b5918bd-f0bf-44f0-b509-43c31a489184": "SAMORY MATTIA"
+            },
             "timeslot": "9 - 12",
             "classroomInfo": "Aula 4 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -87,7 +101,9 @@
       "2": {
         "marted\u00ec": [
           {
-            "teacher": "1986beaa-9a9b-493a-932c-82a3ff97b6f9",
+            "teachers": {
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
+            },
             "timeslot": "9 - 12",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -96,7 +112,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "1986beaa-9a9b-493a-932c-82a3ff97b6f9",
+            "teachers": {
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
+            },
             "timeslot": "13 - 15",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -114,7 +132,9 @@
       "0": {
         "gioved\u00ec": [
           {
-            "teacher": "84c9cab2-1d0f-4bfb-8500-c83c82480e2d",
+            "teachers": {
+              "84c9cab2-1d0f-4bfb-8500-c83c82480e2d": "CASTRIGNANO' TIZIANA"
+            },
             "timeslot": "13 - 16",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -123,7 +143,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "84c9cab2-1d0f-4bfb-8500-c83c82480e2d",
+            "teachers": {
+              "84c9cab2-1d0f-4bfb-8500-c83c82480e2d": "CASTRIGNANO' TIZIANA"
+            },
             "timeslot": "15 - 17",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -141,7 +163,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teachers": {
+              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -150,7 +174,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teachers": {
+              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
+            },
             "timeslot": "10 - 12",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -168,7 +194,9 @@
       "0": {
         "gioved\u00ec": [
           {
-            "teacher": "cc84cdf2-5bea-4784-9272-524bed69e674",
+            "teachers": {
+              "cc84cdf2-5bea-4784-9272-524bed69e674": "FRANCESCHINI GIANNI"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -177,7 +205,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "cc84cdf2-5bea-4784-9272-524bed69e674",
+            "teachers": {
+              "cc84cdf2-5bea-4784-9272-524bed69e674": "FRANCESCHINI GIANNI"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -195,7 +225,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "57f392fe-2884-449b-8935-d209a2f0700b",
+            "teachers": {
+              "57f392fe-2884-449b-8935-d209a2f0700b": "CAPPARELLI STEFANO"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
@@ -204,7 +236,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "57f392fe-2884-449b-8935-d209a2f0700b",
+            "teachers": {
+              "57f392fe-2884-449b-8935-d209a2f0700b": "CAPPARELLI STEFANO"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
@@ -222,7 +256,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -231,7 +267,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -249,7 +287,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -267,7 +307,9 @@
       "0": {
         "venerd\u00ec": [
           {
-            "teacher": "f071e391-82a8-41b0-9532-df545c55ddbb",
+            "teachers": {
+              "f071e391-82a8-41b0-9532-df545c55ddbb": "SALVO IVANO"
+            },
             "timeslot": "12 - 15",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -285,7 +327,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -294,7 +338,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "2bf66397-ce7b-43e0-b640-ca1e45805df4",
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
             "timeslot": "11 - 13",
             "classrooms": {
               "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
@@ -312,7 +358,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
+            "teachers": {
+              "82bb2c63-2204-467b-87e3-f86046d91a26": "CHIERICHETTI FLAVIO"
+            },
             "timeslot": "16 - 18",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -321,7 +369,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
+            "teachers": {
+              "82bb2c63-2204-467b-87e3-f86046d91a26": "CHIERICHETTI FLAVIO"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "3204f38e-7393-4457-a108-c048458d026a": "Aula S1 (Edificio: RM113)"
@@ -339,7 +389,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+            "teachers": {
+              "4952f5b2-23ec-4e93-a525-ab3a8445c628": "MASSINI ANNALISA"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -348,7 +400,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "4952f5b2-23ec-4e93-a525-ab3a8445c628",
+            "teachers": {
+              "4952f5b2-23ec-4e93-a525-ab3a8445c628": "MASSINI ANNALISA"
+            },
             "timeslot": "11 - 13",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -366,7 +420,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a",
+            "teachers": {
+              "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a": "BOTTONI PAOLO GASPARE"
+            },
             "timeslot": "14 - 16",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -375,7 +431,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a",
+            "teachers": {
+              "7e47ef0c-e2fb-41d2-a1bc-f0ef6ef6463a": "BOTTONI PAOLO GASPARE"
+            },
             "timeslot": "13 - 16",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -393,7 +451,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
             "timeslot": "12 - 14",
             "classrooms": {
               "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
@@ -402,7 +462,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "aca42953-c2c6-40e7-939b-de68f20065e8",
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
             "timeslot": "15 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -420,7 +482,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "teachers": {
+              "317e1573-2929-41f9-b215-adc3b3a3115a": "GORLA DANIELE"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -429,7 +493,9 @@
         ],
         "marted\u00ec": [
           {
-            "teacher": "317e1573-2929-41f9-b215-adc3b3a3115a",
+            "teachers": {
+              "317e1573-2929-41f9-b215-adc3b3a3115a": "GORLA DANIELE"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -447,7 +513,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teachers": {
+              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -456,7 +524,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "5526ad39-a5e2-4854-a79b-5cb7477545fd",
+            "teachers": {
+              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
+            },
             "timeslot": "13 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -474,7 +544,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -483,7 +555,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -501,7 +575,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "teachers": {
+              "ba591ba4-54ca-43a6-a90c-e22161b08302": "STERBINI ANDREA"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -510,7 +586,9 @@
         ],
         "marted\u00ec": [
           {
-            "teacher": "ba591ba4-54ca-43a6-a90c-e22161b08302",
+            "teachers": {
+              "ba591ba4-54ca-43a6-a90c-e22161b08302": "STERBINI ANDREA"
+            },
             "timeslot": "10 - 12",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -528,7 +606,9 @@
       "0": {
         "gioved\u00ec": [
           {
-            "teacher": "c53030c6-d4db-4301-8180-1f9d95164cfc",
+            "teachers": {
+              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO"
+            },
             "timeslot": "10 - 12",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -546,7 +626,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "d303cbc3-0018-4ccc-8e5b-a7277109c0e2",
+            "teachers": {
+              "d303cbc3-0018-4ccc-8e5b-a7277109c0e2": "Rapagnani Piero"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -555,7 +637,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "d303cbc3-0018-4ccc-8e5b-a7277109c0e2",
+            "teachers": {
+              "d303cbc3-0018-4ccc-8e5b-a7277109c0e2": "Rapagnani Piero"
+            },
             "timeslot": "16 - 18",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -573,7 +657,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "teachers": {
+              "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
+            },
             "timeslot": "11 - 13",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -582,7 +668,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942",
+            "teachers": {
+              "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -600,7 +688,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "3080a6c4-17b9-4e47-a52d-dbb9b6d4fb3e",
+            "teachers": {
+              "3080a6c4-17b9-4e47-a52d-dbb9b6d4fb3e": "D'ADAMO IDIANO"
+            },
             "timeslot": "13 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -618,7 +708,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+            "teachers": {
+              "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -636,7 +728,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "4d47edaf-0256-4657-b451-42f52820dabf",
+            "teachers": {
+              "4d47edaf-0256-4657-b451-42f52820dabf": "LIBERATI FRANCESCO"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -645,7 +739,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "4d47edaf-0256-4657-b451-42f52820dabf",
+            "teachers": {
+              "4d47edaf-0256-4657-b451-42f52820dabf": "LIBERATI FRANCESCO"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -663,7 +759,10 @@
       "0": {
         "gioved\u00ec": [
           {
-            "teacher": "0030a717-230c-4c8c-8ffb-c5b3c5f45277",
+            "teachers": {
+              "0030a717-230c-4c8c-8ffb-c5b3c5f45277": "VITALETTI ANDREA",
+              "8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"
+            },
             "timeslot": "15 - 17",
             "classrooms": {
               "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
@@ -672,7 +771,10 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "0030a717-230c-4c8c-8ffb-c5b3c5f45277",
+            "teachers": {
+              "0030a717-230c-4c8c-8ffb-c5b3c5f45277": "VITALETTI ANDREA",
+              "8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 (Edificio: RM102)"
@@ -690,7 +792,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66",
+            "teachers": {
+              "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
+            },
             "timeslot": "16 - 20",
             "classrooms": {
               "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
@@ -708,7 +812,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
+            "teachers": {
+              "82bb2c63-2204-467b-87e3-f86046d91a26": "CHIERICHETTI FLAVIO"
+            },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -716,7 +822,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "82bb2c63-2204-467b-87e3-f86046d91a26",
+            "teachers": {
+              "82bb2c63-2204-467b-87e3-f86046d91a26": "CHIERICHETTI FLAVIO"
+            },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -733,7 +841,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "2933c5a1-f1b1-4ecf-9b70-a990780c704e",
+            "teachers": {
+              "2933c5a1-f1b1-4ecf-9b70-a990780c704e": "AIELLO VALERIANO"
+            },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -741,7 +851,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "2933c5a1-f1b1-4ecf-9b70-a990780c704e",
+            "teachers": {
+              "2933c5a1-f1b1-4ecf-9b70-a990780c704e": "AIELLO VALERIANO"
+            },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -758,7 +870,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -766,7 +880,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "b74754c9-9029-4830-8118-952c1851c0a4",
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -783,7 +899,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "fa316055-67a3-4018-99b9-14a56d0abe9c",
+            "teachers": {
+              "fa316055-67a3-4018-99b9-14a56d0abe9c": "CUNQUEIRO MENDEZ LETICIA"
+            },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -791,7 +909,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "fa316055-67a3-4018-99b9-14a56d0abe9c",
+            "teachers": {
+              "fa316055-67a3-4018-99b9-14a56d0abe9c": "CUNQUEIRO MENDEZ LETICIA"
+            },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -808,7 +928,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
+            "teachers": {
+              "69deb155-d23e-44ab-a771-8c58952368c1": "CENCIARELLI PIETRO"
+            },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -816,7 +938,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "69deb155-d23e-44ab-a771-8c58952368c1",
+            "teachers": {
+              "69deb155-d23e-44ab-a771-8c58952368c1": "CENCIARELLI PIETRO"
+            },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -833,7 +957,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
+            "teachers": {
+              "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745": "PANNONE DANIELE"
+            },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -841,7 +967,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745",
+            "teachers": {
+              "d63c245c-c4a7-4cfb-b683-1b9d4cf2d745": "PANNONE DANIELE"
+            },
             "timeslot": "15 - 17",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -858,7 +986,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "teachers": {
+              "c6ebe64b-d218-4bed-9643-8de250010478": "GALASSO FABIO"
+            },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -866,7 +996,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teacher": "c6ebe64b-d218-4bed-9643-8de250010478",
+            "teachers": {
+              "c6ebe64b-d218-4bed-9643-8de250010478": "GALASSO FABIO"
+            },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -883,7 +1015,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "teachers": {
+              "a1deb1cd-55ba-49d0-a93c-a0377269b71f": "MASI IACOPO"
+            },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -891,7 +1025,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "a1deb1cd-55ba-49d0-a93c-a0377269b71f",
+            "teachers": {
+              "a1deb1cd-55ba-49d0-a93c-a0377269b71f": "MASI IACOPO"
+            },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -908,7 +1044,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
+            "teachers": {
+              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
+            },
             "timeslot": "15 - 18",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -916,7 +1054,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "ca122c9f-ce1c-4c3d-a4a6-32f0af690864",
+            "teachers": {
+              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
+            },
             "timeslot": "16 - 18",
             "classroomInfo": "Aula 3 De Lollis (RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
@@ -933,7 +1073,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "teachers": {
+              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
@@ -942,14 +1084,18 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "teachers": {
+              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+            },
             "timeslot": "15 - 17",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           },
           {
-            "teacher": "544c3def-98c6-4285-b6e9-16d2b5b1dc07",
+            "teachers": {
+              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
@@ -967,7 +1113,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "d487b5a4-5e48-44c8-9130-f12bfda39f2b",
+            "teachers": {
+              "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "Sigismondi Irene"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -976,7 +1124,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teacher": "d487b5a4-5e48-44c8-9130-f12bfda39f2b",
+            "teachers": {
+              "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "Sigismondi Irene"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
@@ -994,7 +1144,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -1003,7 +1155,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teacher": "1e6c894f-10a8-434c-bde1-97a6aad091c3",
+            "teachers": {
+              "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
