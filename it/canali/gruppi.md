@@ -19,7 +19,7 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
 
 {{% details "Altri gruppi matricole (Associazioni Studentesche)" %}}
   {{% hint warning %}}
-  <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Siete studenti ancora prima che voti!**
+  <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Neutralità dei gruppi**
   
   Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
   
@@ -31,7 +31,7 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
 
      **L'eliminazione ha causato la perdita di importante materiale per lo studio e risorse utili inviate negli anni**, che altrimenti sarebbero state tutt'oggi consultabili grazie al fatto che su Telegram la cronologia della chat dei gruppi è accessibile anche ai nuovi membri.
 
-  Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai veri Studenti e Rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
+  Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti dai studenti, studentesse e rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
   {{% /hint %}}
 {{% /details %}}
 
