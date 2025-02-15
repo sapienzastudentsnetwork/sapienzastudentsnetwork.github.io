@@ -161,7 +161,7 @@
                                                 {{ end }}
                                             </td>
                                             <td class="timetableTableCell">
-                                                {{ $replacements := dict
+                                                <!--{{ $replacements := dict
                                                     "(Edificio: RM005)" "Via Scarpa (RM005)"
                                                     "(Edificio: RM018)" "Castro Laurenziano (RM018)"
                                                     "(Edificio: RM025)" "Tiburtina (RM025)"
@@ -169,9 +169,24 @@
                                                     "(Edificio: RM102)" "Via Ariosto, 25 (RM102)"
                                                     "(Edificio: RM103)" "Via dei Volsci, 122 (RM103)"
                                                     "(Edificio: RM111)" "Regina Elena Ed. C (RM111)"
+                                                    "(Edificio: RM112)" "Regina Elena Ed. D (RM112)"
                                                     "(Edificio: RM113)" "Regina Elena Ed. E (RM113)"
                                                     "(Edificio: RM115)" "Regina Elena Ed. G (RM115)"
                                                     "(Edificio: RM158)" "De Lollis (RM158)"
+                                                }}-->
+
+                                                {{ $replacements := dict
+                                                    "(Edificio: RM005)" "Via Scarpa"
+                                                    "(Edificio: RM018)" "Castro Laurenziano"
+                                                    "(Edificio: RM025)" "Tiburtina, 205"
+                                                    "(Edificio: RM062)" "Via Salaria, 113/117"
+                                                    "(Edificio: RM102)" "Via Ariosto, 25"
+                                                    "(Edificio: RM103)" "Via dei Volsci, 122"
+                                                    "(Edificio: RM111)" "Regina Elena Ed. C"
+                                                    "(Edificio: RM112)" "Regina Elena Ed. D"
+                                                    "(Edificio: RM113)" "Regina Elena Ed. E"
+                                                    "(Edificio: RM115)" "Regina Elena Ed. G"
+                                                    "(Edificio: RM158)" "De Lollis"
                                                 }}
 
                                                 {{ if $info.classrooms }}
