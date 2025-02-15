@@ -718,5 +718,47 @@
         "shortName": "Security Governance",
         "abbr": "GOV",
         "tgGroup": "https://t.me/joinchat/CfmfQ0lV3bjfytnH47gEaw"
+    },
+    "1055055": {
+        "name": "Cyber and Computer Law",
+        "shortName": "Cyber and Comp. Law",
+        "abbr": "CCL",
+        "tgGroup": "https://t.me/joinchat/CfmfQxjQSWgoik4DMuDhsA"
+    },
+    "1055682": {
+        "name": "Ethical Hacking",
+        "shortName": "Ethical Hacking",
+        "abbr": "ETH",
+        "tgGroup": "https://t.me/joinchat/CfmfQ1Hmwtu6I31Y90ArnA"
+    },
+    "1055047": {
+        "name": "Economics and Technology and Management",
+        "shortName": "Economics, Tech. and Man.",
+        "abbr": "ETM",
+        "tgGroup": "https://t.me/+U6AILrPjylWeY523"
+    },
+    "10600449": {
+        "name": "Advanced Information Systems Security and Blockchain",
+        "shortName": "Adv. Info. Sys. Sec. and B.c.",
+        "abbr": "AISB",
+        "tgGroup": "https://t.me/QtRSiqhwyL"
+    },
+    "1054963": {
+        "name": "Systems and Control Methods for Cyber-physical Security",
+        "shortName": "Sys. & Con. Meth. Cyber-phy. Sec.",
+        "abbr": "CPHY",
+        "tgGroup": "https://t.me/joinchat/CfmfQxqqqp9koNg-RXnAPg"
+    },
+    "1054962": {
+        "name": "Secure Computation",
+        "shortName": "Secure Computation",
+        "abbr": "SCMP",
+        "tgGroup": "https://t.me/+5HJXedepINZiMDI0"
+    },
+    "AAF1803": {
+        "name": "Cyber Security Seminars",
+        "shortName": "Cyber Sec. Seminars",
+        "abbr": "CSEM",
+        "tgGroup": "https://t.me/joinchat/CfmfQxXteHLLf1DR6K_SXg"
     }
 }
