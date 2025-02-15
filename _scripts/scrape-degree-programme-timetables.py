@@ -536,11 +536,11 @@ if __name__ == '__main__':
                     classroomUrl  = None
 
                     if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
-                        classroomInfo = "Aula 3 De Lollis (RM158)"
+                        classroomInfo = "Aula 3 (Edificio: RM158)"
                         classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
 
                     if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
-                        classroomInfo = "Aula 4 De Lollis (RM158)"
+                        classroomInfo = "Aula 4 (Edificio: RM158)"
                         classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
 
                     if classroomInfo is not None:
