@@ -1,6 +1,7 @@
 ---
 title: "Clarks-Turing"
 weight: 1
+bookCollapseSection: true
 layout: 'timetables'
 type: 'page'
 timetables:
