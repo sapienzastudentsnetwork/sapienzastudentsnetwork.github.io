@@ -8,7 +8,7 @@ weight: 4
 
 ## Attestazione di esame sostenuto
 
-Il [modulo di attestazione esame sostenuto](https://corsidilaurea.uniroma1.it/sites/default/files/attestazione_esame_0.pdf) è disponibile anche nella pagina dedicata alla [modulistica studenti](https://www.uniroma1.it/it/pagina/modulistica-studenti). 
+Il [modulo di attestazione esame sostenuto](https://corsidilaurea.uniroma1.it/sites/default/files/attestazione_esame_0.pdf) è disponibile nella pagina dedicata alla [modulistica studenti](https://www.uniroma1.it/it/pagina/modulistica-studenti). 
 
 Il **timbro** viene **posto dalla Segreteria Didattica**, via e-mail (segr.didattica@di.uniroma1.it), su richiesta dello studente **e solo se è presente la firma del docente**.
 
