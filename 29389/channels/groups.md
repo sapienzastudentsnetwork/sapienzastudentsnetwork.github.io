@@ -18,6 +18,7 @@ General groups on Telegram bring together **all** students **of any year**
 
 A dedicated group for each subject is available on Telegram, you can join them through the links below:
 
+- [Advanced Information Systems Security and Blockchain](https://t.me/+elPZF0tnJ-xkYzJk)
 - [Advanced Operating Systems](https://t.me/joinchat/JFDprRPo356iKWaUWmUBcA)
 - [Biometrics](https://t.me/+cTqgWjub2OtiYTRk)
 - [Blockchain & DIS. Ledger Technologies group](https://t.me/joinchat/x45vqQjj-YA0MWM8)
