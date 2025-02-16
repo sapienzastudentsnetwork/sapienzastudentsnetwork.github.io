@@ -481,13 +481,13 @@ if __name__ == '__main__':
     scienzebiochimiche_aulaA = "Aula A Scienze Biochimiche (CU010)"
     scienzebiochimiche = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
 
-    reginaelena_edificioa_aula_re1 = "Aula RE1 Regina Elena Ed. A (RM109)"
-    reginaelena_edificioa_aula_re2 = "Aula RE2 Regina Elena Ed. A (RM109)"
+    reginaelena_edificioa_aula_re1 = "Aula RE1 Regina Elena Ed. A"
+    reginaelena_edificioa_aula_re2 = "Aula RE2 Regina Elena Ed. A"
     reginaelena_edificioa = "https://maps.app.goo.gl/A8FX2uvXFKc5Km3PA"
 
-    reginaelena_edificiod_aula_101 = "Aula 101 Regina Elena Ed. D (RM112)"
-    reginaelena_edificiod_aula_201 = "Aula 201 Regina Elena Ed. D (RM112)"
-    reginaelena_edificiod_aula_301 = "Aula 301 Regina Elena Ed. D (RM112)"
+    reginaelena_edificiod_aula_101 = "Aula 101 Regina Elena Ed. D"
+    reginaelena_edificiod_aula_201 = "Aula 201 Regina Elena Ed. D"
+    reginaelena_edificiod_aula_301 = "Aula 301 Regina Elena Ed. D"
     reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
 
     chimica_aula_1   = "Aula I Caglioti"
@@ -517,13 +517,96 @@ if __name__ == '__main__':
     aula_magna_rm111_id   = "74a8a956-ade6-4883-b10f-416c38c9d93d"
     aula_magna_rm111_desc = "Aula Magna (Edificio: RM111)"
 
-    first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
-    second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
-    first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
+    #first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
+    #second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
+    #first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
 
-    first_year_acsai_teachings = set(["10595099_1", "10595546_1", "10595524", "10595102_1", "10595102_2"])
-    second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
-    first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
+    #first_year_acsai_teachings = set(["10595099_1", "10595546_1", "10595524", "10595102_1", "10595102_2"])
+    #second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
+    #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
+
+    if degree_programme_code == "29923":
+        if "1022268" in course_timetables_dict:
+            # 1022268 - SICUREZZA
+
+            if "lunedì" not in course_timetables_dict["1022268"]["channels"]["0"]:
+                course_timetables_dict["1022268"]["channels"]["0"]["lunedì"] = [
+                      {
+                        "teachers": {
+                          "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+                        },
+                        "timeslot": "14 - 16",
+                        "classroomInfo": reginaelena_edificiod_aula_201,
+                        "classroomUrl": reginaelena_edificiod
+                      }
+                ]
+
+        if "10589652" in course_timetables_dict:
+            # 10589652 - TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA
+
+            if "giovedì" not in course_timetables_dict["10589652"]["channels"]["0"]:
+                course_timetables_dict["10589652"]["channels"]["0"]["giovedì"] = [
+                      {
+                        "teachers": {
+                          "f071e391-82a8-41b0-9532-df545c55ddbb": "SALVO IVANO"
+                        },
+                        "timeslot": "11 - 13",
+                        "classrooms": {
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                        }
+                      }
+                ]
+
+        if "1015884" in course_timetables_dict:
+            # 1015884 - METODOLOGIE DI PROGRAMMAZIONE
+
+            if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["1"]:
+                course_timetables_dict["1015884"]["channels"]["1"]["mercoledì"] = [
+                  {
+                    "teachers": {
+                      "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+                    },
+                    "timeslot": "16 - 19",
+                    "classrooms": {
+                      "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                      "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+                    }
+                  }
+                ]
+
+            if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["2"]:
+                course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"] = [
+                  {
+                    "teachers": {
+                      "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+                    },
+                    "timeslot": "12 - 16",
+                    "classrooms": {
+                      "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                    }
+                  }
+                ]
+
+    elif degree_programme_code == "30786":
+        if "10595535" in course_timetables_dict:
+            # 10595535 - HUMAN COMPUTER INTERACTION
+
+            if "mercoledì" in course_timetables_dict["10595535"]["channels"]["0"]:
+                if course_timetables_dict["10595535"]["channels"]["0"]["mercoledì"][0]["timeslot"] == "16 - 19":
+                    course_timetables_dict["10595535"]["channels"]["0"]["mercoledì"] = [
+                          {
+                            "teachers": {
+                              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+                            },
+                            "timeslot": "13 - 16",
+                            "classroomInfo": reginaelena_edificiod_aula_201,
+                            "classroomUrl": reginaelena_edificiod
+                          }
+                    ]
+
+            if "giovedì" in course_timetables_dict["10595535"]["channels"]["0"]:
+                if course_timetables_dict["10595535"]["channels"]["0"]["giovedì"][0]["timeslot"] == "15 - 17":
+                    course_timetables_dict["10595535"]["channels"]["0"]["giovedì"].pop(0)
 
     for course_code, course_data in course_timetables_dict.items():
         if "degree" in course_data and course_data["degree"] != degree_programme_code:
@@ -535,13 +618,14 @@ if __name__ == '__main__':
                     classroomInfo = None
                     classroomUrl  = None
 
-                    if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
-                        classroomInfo = "Aula 3 (Edificio: RM158)"
-                        classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+                    if "classrooms" in day_schedule:
+                        if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
+                            classroomInfo = "Aula 3 (Edificio: RM158)"
+                            classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
 
-                    if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
-                        classroomInfo = "Aula 4 (Edificio: RM158)"
-                        classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+                        if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
+                            classroomInfo = "Aula 4 (Edificio: RM158)"
+                            classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
 
                     if classroomInfo is not None:
                         day_schedule.pop("classrooms")

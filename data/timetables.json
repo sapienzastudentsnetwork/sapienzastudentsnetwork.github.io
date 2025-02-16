@@ -31,7 +31,7 @@
             },
             "timeslot": "11 - 14",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -41,7 +41,7 @@
             },
             "timeslot": "12 - 14",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       },
@@ -84,7 +84,19 @@
             },
             "timeslot": "9 - 11",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
           }
         ],
         "venerd\u00ec": [
@@ -94,7 +106,7 @@
             },
             "timeslot": "9 - 12",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       },
@@ -107,6 +119,17 @@
             "timeslot": "9 - 12",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+            },
+            "timeslot": "12 - 16",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
             }
           }
         ],
@@ -285,6 +308,16 @@
     "degree": "29923",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "14 - 16",
+            "classroomInfo": "Aula 201 Regina Elena Ed. D",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {
@@ -305,6 +338,17 @@
     "degree": "29923",
     "channels": {
       "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "f071e391-82a8-41b0-9532-df545c55ddbb": "SALVO IVANO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -817,7 +861,7 @@
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -827,7 +871,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -846,7 +890,7 @@
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "gioved\u00ec": [
@@ -856,7 +900,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -875,7 +919,7 @@
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "mercoled\u00ec": [
@@ -885,7 +929,7 @@
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -904,7 +948,7 @@
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -914,7 +958,7 @@
             },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -933,7 +977,7 @@
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "gioved\u00ec": [
@@ -943,7 +987,7 @@
             },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -962,7 +1006,7 @@
             },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -972,7 +1016,7 @@
             },
             "timeslot": "15 - 17",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -991,7 +1035,7 @@
             },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -1001,7 +1045,7 @@
             },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -1020,7 +1064,7 @@
             },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "gioved\u00ec": [
@@ -1030,7 +1074,7 @@
             },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -1049,7 +1093,7 @@
             },
             "timeslot": "15 - 18",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "mercoled\u00ec": [
@@ -1059,7 +1103,7 @@
             },
             "timeslot": "16 - 18",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -1076,22 +1120,12 @@
             "teachers": {
               "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
             },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 201 Regina Elena Ed. D",
+            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
           }
         ],
         "gioved\u00ec": [
-          {
-            "teachers": {
-              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
-            },
-            "timeslot": "15 - 17",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          },
           {
             "teachers": {
               "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
