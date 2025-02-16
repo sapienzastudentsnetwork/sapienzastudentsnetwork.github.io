@@ -83,6 +83,4 @@ Per ottenere tutte le informazioni su come scrivere la relazione di tirocinio, q
 ## **Concluso il tirocinio e completati gli esami**: laurearsi
 Una volta completati tutti gli esami e la relazione di tirocinio, potrai finalmente conseguire la tua laurea in Informatica. Per preparare tutto il necessario bisogna compilare la domanda di laurea, inviare la relazione di tirocinio alla Segreteria Didattica e prenotarsi all'appello su InfoStud.
 
-Per tutte le informazioni su come funziona la seduta di laurea, come calcolare il voto di laurea e come compilare la domanda di laurea, consulta la [guida per laurearsi].
-
-<!-- Qui dovremmo aggiungere una guida -->
+Per tutte le informazioni su come funziona la seduta di laurea, come calcolare il voto di laurea e come compilare la domanda di laurea, consulta la [guida per compilare la domanda di laurea](https://sapienzastudents.net/it/info/laurearsi/domanda-di-laurea/) e la [guida per calcolare il voto di laurea](https://sapienzastudents.net/it/info/laurearsi/voto-di-laurea/).
