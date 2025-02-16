@@ -81,4 +81,4 @@ For all the information on how to write the internship report, what template to 
 ## **After Completing the Internship and Exams**: Graduation
 Once you have completed all the exams and the internship report, you can finally graduate with a degree in Applied Computer Science and Artificial Intelligence. To prepare everything, you will need to fill out the graduation application, submit the internship report to the Academic Office, and register for the graduation session via InfoStud.
 
-For all the information on how the graduation session works, how to calculate the graduation grade, and how to complete the graduation application, consult the [graduation guide].
+For all the information on how the graduation session works, how to calculate the graduation grade, and how to complete the graduation application, see the [graduation grade calculation guide](https://sapienzastudents.net/30786/info/graduating/graduation-grade/).
