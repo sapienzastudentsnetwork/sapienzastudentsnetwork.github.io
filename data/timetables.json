@@ -72,6 +72,38 @@
     },
     "code": "1015881"
   },
+  "1015885": {
+    "subject": "INTRODUZIONE AGLI ALGORITMI",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "9 - 11",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
+      "2": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015885"
+  },
   "1015884": {
     "subject": "METODOLOGIE DI PROGRAMMAZIONE",
     "degree": "29923",
