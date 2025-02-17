@@ -636,6 +636,22 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "10589555",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10589557",
             "room": "Aula G50",
@@ -1390,6 +1406,22 @@
             "subject": "TOPICS IN PHYSICS",
             "teachers": [
               "Rapagnani Piero"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10589555",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
             ]
           },
           {

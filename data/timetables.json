@@ -122,7 +122,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+              "7b5918bd-f0bf-44f0-b509-43c31a489184": "SAMORY MATTIA"
             },
             "timeslot": "16 - 19",
             "classrooms": {
@@ -157,11 +157,12 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
             },
             "timeslot": "12 - 16",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
             }
           }
         ],
@@ -179,6 +180,61 @@
       }
     },
     "code": "1015884"
+  },
+  "1020422_2": {
+    "subject": "SISTEMI OPERATIVI II MODULO",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1020422"
   },
   "1031337": {
     "subject": "BIOLOGIA COMPUTAZIONALE",
@@ -695,6 +751,26 @@
     },
     "code": "1047639"
   },
+  "10589555": {
+    "subject": "PRACTICAL NETWORK DEFENSE",
+    "degree": "29389",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589555"
+  },
   "1047643": {
     "subject": "TOPICS IN PHYSICS",
     "degree": "29932",
@@ -776,6 +852,26 @@
       }
     },
     "code": "1055047"
+  },
+  "1055682": {
+    "subject": "ETHICAL HACKING",
+    "degree": "29389",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055682"
   },
   "1054962": {
     "subject": "SECURE COMPUTATION",

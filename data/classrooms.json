@@ -44,6 +44,11 @@
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
   },
+  "deffa19a-65db-4abe-be55-4178b791dc1b": {
+    "description": "Aula informatica 16",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
+  },
   "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
     "description": "Aula informatica 17",
     "address": "Via Tiburtina, 205",
@@ -103,11 +108,6 @@
     "description": "Aula A7 -",
     "address": "Via Ariosto, 25",
     "mapsUrl": null
-  },
-  "deffa19a-65db-4abe-be55-4178b791dc1b": {
-    "description": "Aula informatica 16",
-    "address": "Via Tiburtina, 205",
-    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
   },
   "7074643f-5bed-49b9-85e9-c646c0b06009": {
     "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",

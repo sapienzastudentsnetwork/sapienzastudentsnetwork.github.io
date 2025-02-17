@@ -306,6 +306,38 @@
             "teachers": [
               "D'ADAMO IDIANO"
             ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1055682",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ETHICAL HACKING",
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10589555",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           }
         ]
       }

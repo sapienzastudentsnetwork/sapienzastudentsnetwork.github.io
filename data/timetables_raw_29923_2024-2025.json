@@ -315,6 +315,38 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
             "building": "Edificio: RM158",
             "course": "1015885",
             "room": "Aula 4",
@@ -376,6 +408,38 @@
                 "day": "marted\u00ec",
                 "from": "09:00",
                 "to": "12:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015884",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "16:00"
               }
             ],
             "subject": "METODOLOGIE DI PROGRAMMAZIONE",
@@ -695,7 +759,82 @@
     "year": "Secondo anno - primo semestre"
   },
   {
-    "channels": [],
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1020422",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          }
+        ]
+      }
+    ],
     "year": "Secondo anno - secondo semestre"
   },
   {
