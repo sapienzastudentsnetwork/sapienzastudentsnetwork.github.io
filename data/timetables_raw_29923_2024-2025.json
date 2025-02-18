@@ -1133,6 +1133,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1022268",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SICUREZZA",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1022268",
             "room": "Aula Magna",

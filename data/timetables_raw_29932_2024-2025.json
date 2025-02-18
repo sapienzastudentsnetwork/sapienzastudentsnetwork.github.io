@@ -578,6 +578,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1047623",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1047629",
             "room": "Aula G50",
@@ -1327,6 +1343,22 @@
             "subject": "CONCURRENT SYSTEMS",
             "teachers": [
               "GORLA DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047623",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
             ]
           },
           {

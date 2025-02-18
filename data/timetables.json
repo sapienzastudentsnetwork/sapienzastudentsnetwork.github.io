@@ -402,8 +402,9 @@
               "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
             },
             "timeslot": "14 - 16",
-            "classroomInfo": "Aula 201 Regina Elena Ed. D",
-            "classroomUrl": "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
           }
         ],
         "mercoled\u00ec": [
@@ -637,6 +638,26 @@
       }
     },
     "code": "1047619"
+  },
+  "1047623": {
+    "subject": "DATA AND NETWORK SECURITY",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "5457d8e3-6352-4c7b-ab90-a3b8a3db1968": "HITAJ DORJAN"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047623"
   },
   "10607006": {
     "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",

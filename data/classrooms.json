@@ -14,6 +14,11 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
   },
+  "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
+    "description": "AULA 201 - Regina Elena - Edificio D",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
   "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
     "description": "Aula 3 - Aule temporanee",
     "address": null,
@@ -72,11 +77,6 @@
   "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
     "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
     "address": null,
-    "mapsUrl": null
-  },
-  "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
-    "description": "AULA 201 - Regina Elena - Edificio D",
-    "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },
   "cab0d0ee-1faa-4552-9587-7a559480dde4": {

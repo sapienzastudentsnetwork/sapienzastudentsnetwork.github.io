@@ -244,6 +244,22 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM112",
+            "course": "1047623",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1054962",
             "room": "Aula G50",
@@ -620,6 +636,22 @@
       {
         "channel": "Canale Unico",
         "timetable": [
+          {
+            "building": "Edificio: RM112",
+            "course": "1047623",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
           {
             "building": "Edificio: RM111",
             "course": "1054963",

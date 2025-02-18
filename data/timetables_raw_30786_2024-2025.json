@@ -666,6 +666,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "10595535",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "HUMAN COMPUTER INTERACTION",
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
+          },
+          {
             "building": "Edificio: CU033",
             "course": "10595535",
             "room": "Aula 7",
