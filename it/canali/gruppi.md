@@ -17,24 +17,6 @@ Gruppi per le **matricole dell'A.A. 2024/2025**:
 |  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/HwenUPhOPSi65CnWF2kx1Y) |
 | [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
 
-{{% details "Altri gruppi matricole (Associazioni Studentesche)" %}}
-  {{% hint warning %}}
-  <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Neutralità dei gruppi**
-  
-  Gli studenti non dovrebbero essere bombardati di propaganda elettorale unilaterale e spam delle associazioni studentesche nei gruppi del proprio Corso di Laurea!
-  
-  1. **Le associazioni studentesche** tipicamente candidate alle elezioni (Sapienza F...ra, ...) **estromettono molti Rappresentanti del Corso di Laurea** (indipendenti, non appartenenti a nessuna associazione) **dalla gestione dei gruppi**, a meno che non si “uniscano a loro”;
-
-  2. **Impossibilità di autogestione:** bisogna dipendere dagli amministratori dei gruppi, molti dei quali non sono nemmeno studenti del Corso di Laurea, per bandire eventuali spammer, aggiornare la descrizione e l’immagine del gruppo quando necessario o mettere in evidenza eventuali comunicazioni importanti;
-
-  3. [**7 settembre 2023:**](https://t.me/sapienzapolitica/8524) l'ex **gruppo di Matematica (triennale)** è stato **eliminato senza preavviso dall'esponente di un associazione studentesca che lo gestiva** in seguito alle proteste dei suoi membri per la non neutralità del gruppo. Creato nel lontano 2020 e stato neutrale fino a prima di quel momento, contava più di 300 membri.
-
-     **L'eliminazione ha causato la perdita di importante materiale per lo studio e risorse utili inviate negli anni**, che altrimenti sarebbero state tutt'oggi consultabili grazie al fatto che su Telegram la cronologia della chat dei gruppi è accessibile anche ai nuovi membri.
-
-  Se un'associazione studentesca ti ha dato il link o ti ha inserito in un proprio gruppo delle matricole, il che è molto probabile, **assicurati di essere quantomeno anche all'interno dei gruppi gestiti da studenti, studentesse e rappresentanti indipendenti del Corso di Laurea**, che trovi listati in questo sito.
-  {{% /hint %}}
-{{% /details %}}
-
 ## Gruppi generali
 
 I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse, **di qualsiasi anno e canale**:
