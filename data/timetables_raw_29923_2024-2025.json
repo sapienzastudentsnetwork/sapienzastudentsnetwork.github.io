@@ -474,6 +474,11 @@
             "room": "Aula 2",
             "schedule": [
               {
+                "day": "luned\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              },
+              {
                 "day": "venerd\u00ec",
                 "from": "11:00",
                 "to": "14:00"
