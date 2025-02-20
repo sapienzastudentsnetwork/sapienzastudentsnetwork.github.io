@@ -33,7 +33,7 @@ The maximum increment is 11 points. The Committee can add points to the weighted
 
 The official document can be found [here](https://corsidilaurea.uniroma1.it/sites/default/files/calcolovotodilaurea-calculationfothedegreegrade_-_documenti_google_2_1_1.pdf).
 
-## Graduation Grade
+<!-- ## Graduation Grade
 
 {{< graduationCalculator 
     id="englishCalculator"
@@ -46,7 +46,7 @@ The official document can be found [here](https://corsidilaurea.uniroma1.it/site
         {"label": "Graduation within 28 months", "bonus": 1},
         {"label": "Graduation beyond 28 months", "bonus": 0}
     ]`
->}}
+>}} -->
 
 ## Part-Time Students
 
