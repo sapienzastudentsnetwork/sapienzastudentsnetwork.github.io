@@ -5,14 +5,10 @@
 
     <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
-    <!--
-    {{ $excludedCodes := slice "29932" "29389" }}
+    {{ $excludedCodes := slice "29923" "30786" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
-        ⚠️ {{ T "Subjs_ThisWeekOnly" }}
+        ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}
-    -->
-
-    ⚠️ {{ T "Subjs_WorkInProgress" }}
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
@@ -66,6 +62,27 @@
 
                 {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" "29389" "#FCC005" }}
 
+                {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
+                {{ $dataTimetables := site.Data.timetables }}
+                {{ $allCourses := dict }}
+                {{ $pageDegreeSubjects := slice }}
+
+                {{ range $courseCode, $courseData := $dataTimetables }}
+                    {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+
+                    {{ if index $degrees $courseData.degree }}
+                        {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                    {{ end }}
+                {{ end }}
+
+                {{ range $courseCode, $courseData := $hardcodedDataTimetables }}
+                    {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+
+                    {{ if index $degrees $courseData.degree }}
+                        {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                    {{ end }}
+                {{ end }}
+
                 {{ range $degreeCode, $degreeName := $degrees }}
                     <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
                         <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
@@ -73,7 +90,7 @@
                     </h2>
 
                     <div class="subjsSingCourse">
-                        {{ range $code, $data := site.Data.timetables }}
+                        {{ range $code, $data := $allCourses }}
                             {{ if eq $data.degree $degreeCode }}
                                 {{ $subject_info := index $courses $code }}
                                 {{ range $channel_id, $_ := $data.channels }}
@@ -108,18 +125,6 @@
             </button>
         </div>
     </dialog>
-
-    {{ $dataTimetables := site.Data.timetables }}
-    {{ $allCourses := slice }}
-    {{ $pageDegreeSubjects := slice }}
-
-    {{ range $courseCode, $courseData := $dataTimetables }}
-        {{ $allCourses = $allCourses | append $courseCode }}
-
-        {{ if index $degrees $courseData.degree }}
-            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
-        {{ end }}
-    {{ end }}
 
     <!-- Add the "Timetables per teaching" part for all courses -->
     {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
