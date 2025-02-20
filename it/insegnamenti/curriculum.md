@@ -1,6 +1,7 @@
 ---
-title: Curriculum
+title: Curriculum A.A. 2024/25
 weight: 1
+bookHidden: true
 ---
 
 # Curriculum
