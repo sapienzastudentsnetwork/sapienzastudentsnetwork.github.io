@@ -43,13 +43,9 @@ L'incremento massimo è di 13 punti. La Commissione può aggiungere punti alla m
 3. **Media degli Esami**: 1 punto se la tua media è di almeno 27/30
 4. **Lodi o Erasmus**: 1 punto se hai ottenuto almeno 3 lodi o hai partecipato a un programma Erasmus
 
-## Incremento per la Laurea Magistrale in Informatica
+## Voto di presentazione
 
-L'incremento massimo è di 11 punti. La Commissione può aggiungere punti alla media ponderata secondo i seguenti criteri:
-
-1. **Valutazione della Tesi**: da 0 a 9 punti
-2. **Durata del Corso di Studi**: 1 punto se ti laurei entro 28 mesi dall'iscrizione
-3. **Erasmus**: 1 punto se hai partecipato a un programma Erasmus
+{{< graduationCalculator >}}
 
 ## Studenti Part-Time
 
@@ -66,12 +62,11 @@ Supponiamo che tu abbia una media ponderata di 102/110 e che tu soddisfi i segue
 - Valutazione della relazione di tirocinio: 8 punti
 - Laurea entro la durata legale del corso: 3 punti
 - Media esami di almeno 27/30: 1 punto
-- Partecipazione al programma Erasmus: 1 punto
 
 Il tuo voto di laurea sarà:
 
 $$
-102 + 8 + 3 + 1 + 1 = 115
+102 + 8 + 3 + 1 = 114
 $$
 
 Poiché il voto massimo è 110, il tuo voto finale sarà 110 e la Commissione può decidere di assegnarti la lode.

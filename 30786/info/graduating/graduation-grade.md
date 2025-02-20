@@ -35,13 +35,22 @@ The maximum increment is 13 points. The Committee can add points to the weighted
 3. **Exam Average**: 1 point if your weighted average is at least 27/30;
 4. **Honors or Erasmus**: 1 point if you have obtained at least 3 honors or participated in an Erasmus program;
 
-## Increment for the Master's Degree in Computer Science
+## Graduation Grade
 
-The maximum increment is 11 points. The Committee can add points to the weighted average according to the following criteria:
-
-1. **Evaluation of the Thesis**: from 0 to 9 points
-2. **Duration of the Study Program**: 1 point if you graduate within 28 months from enrollment
-3. **Erasmus**: 1 point if you have participated in an Erasmus program
+{{< graduationCalculator 
+    id="englishCalculator"
+    title="Weighted Average"
+    placeholder="Enter your average (max 30)"
+    checkboxLabel="I have obtained at least three honors (30L) or participated in Erasmus"
+    durationLabel="Study Duration"
+    resultLabel="Presentation Score"
+    durations=`[
+        {"label": "Graduation within regular duration (3 years)", "bonus": 3},
+        {"label": "Graduation by March after regular duration", "bonus": 2},
+        {"label": "Graduation within first year after regular duration", "bonus": 1},
+        {"label": "Graduation beyond first extra year", "bonus": 0}
+    ]`
+>}}
 
 ## Part-Time Students
 
@@ -58,12 +67,11 @@ Suppose you have a weighted average of 102/110 and you meet the following criter
 - Evaluation of the internship report: 8 points
 - Graduation within the legal duration of the program: 3 points
 - Exam average of at least 27/30: 1 point
-- Participation in the Erasmus program: 1 point
 
 Your graduation grade will be:
 
 $$
-102 + 8 + 3 + 1 + 1 = 115
+102 + 8 + 3 + 1 = 114
 $$
 
 Since the maximum grade is 110, your final grade will be 110, and the Committee may decide to award you honors.
