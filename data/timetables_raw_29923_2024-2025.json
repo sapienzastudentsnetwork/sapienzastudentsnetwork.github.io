@@ -355,6 +355,11 @@
                 "day": "luned\u00ec",
                 "from": "09:00",
                 "to": "11:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
               }
             ],
             "subject": "INTRODUZIONE AGLI ALGORITMI",

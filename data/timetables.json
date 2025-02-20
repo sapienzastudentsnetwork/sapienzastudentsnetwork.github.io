@@ -86,6 +86,16 @@
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "11 - 14",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
         ]
       },
       "2": {
