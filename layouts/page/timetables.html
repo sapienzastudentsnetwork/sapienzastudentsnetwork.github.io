@@ -8,7 +8,7 @@
     -->
 
     {{ $excludedCodes := slice "29923" }}
-    {{ if not (or (in .Permalink "/it/")) }}
+    {{ if not (or (in .Permalink "/it/") (in .Permalink "/30786")) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}
 

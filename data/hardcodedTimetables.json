@@ -171,7 +171,7 @@
       "2": {
         "martedì": [
           {
-            "teacherInfo": "MARCO ESPOSITO",
+            "teacherInfo": "ESPOSITO MARCO",
             "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/marcoespositouniroma1it",
             "timeslot": "17 - 19",
             "classrooms": {
@@ -181,7 +181,7 @@
         ],
         "mercoledì": [
           {
-            "teacherInfo": "MARCO ESPOSITO",
+            "teacherInfo": "ESPOSITO MARCO",
             "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/marcoespositouniroma1it",
             "timeslot": "14 - 17",
             "classrooms": {
@@ -343,5 +343,59 @@
       }
     },
     "code": "1015889"
+  },
+  "1055043": {
+    "subject": "STATISTICS",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "lunedì": [
+          {
+            "teacherInfo": "RANALLI MONIA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/moniaranalliuniroma1it",
+            "timeslot": "17 - 19",
+            "classroomInfo": "Zoom (link T.B.A.)"
+          }
+        ],
+        "giovedì": [
+          {
+            "teacherInfo": "RANALLI MONIA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/moniaranalliuniroma1it",
+            "timeslot": "17 - 20",
+            "classroomInfo": "Zoom (link T.B.A.)"
+          }
+        ]
+      }
+    },
+    "code": "1055043"
+  },
+  "10595617_2": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS",
+    "degree": "30786",
+    "channels": {
+      "0": {
+        "martedì": [
+          {
+            "teachers": {
+              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
+            },
+            "timeslot": "15 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoledì": [
+          {
+            "teachers": {
+              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595617"
   }
 }
