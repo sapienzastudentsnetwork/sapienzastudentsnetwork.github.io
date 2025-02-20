@@ -586,6 +586,10 @@ if __name__ == '__main__':
                     }
                   }
                 ]
+            else:
+                course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"][0]["classrooms"] = {
+                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                }
 
     elif degree_programme_code == "30786":
         if "10595535" in course_timetables_dict:
@@ -617,6 +621,11 @@ if __name__ == '__main__':
                 for day_schedule in day_schedules:
                     classroomInfo = None
                     classroomUrl  = None
+
+                    if course_code == "1015884" and day_name == "mercoledì":
+                        day_schedule["teachers"] = {
+                            "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+                        }
 
                     if "classrooms" in day_schedule:
                         if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:

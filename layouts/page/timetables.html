@@ -7,7 +7,10 @@
     {{ end }}
     -->
 
-    ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ $excludedCodes := slice "29923" }}
+    {{ if not (or (in .Permalink "/it/")) }}
+        ⚠️ {{ T "Subjs_WorkInProgress" }}
+    {{ end }}
 
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
