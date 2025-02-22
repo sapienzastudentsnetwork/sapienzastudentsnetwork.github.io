@@ -1,9 +1,9 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
-    {{ if not (or (in .Permalink "/it/") (in .Permalink "/29932") (in .Permalink "/30786")) }}
+    <!--{{ if not (or (in .Permalink "/it/") (in .Permalink "/29932") (in .Permalink "/30786")) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
-    {{ end }}
+    {{ end }}-->
 
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}

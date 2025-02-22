@@ -675,6 +675,60 @@ if __name__ == '__main__':
                 }
             ]
 
+        if "1055047" in course_timetables_dict and "mercoledì" not in course_timetables_dict["1055047"]["channels"]["0"]:
+            # 1055047 - ECONOMICS OF TECHNOLOGY AND MANAGEMENT
+
+            course_timetables_dict["1055047"]["channels"]["0"]["mercoledì"] = [
+                {
+                    "teachers": {
+                      "3080a6c4-17b9-4e47-a52d-dbb9b6d4fb3e": "D'ADAMO IDIANO"
+                    },
+                    "timeslot": "10 - 12",
+                    "classrooms": {
+                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            ]
+
+        if "1054962" in course_timetables_dict:
+            # 1054962 - SECURE COMPUTATION
+
+            if "martedì" in course_timetables_dict["1054962"]["channels"]["0"]:
+                course_timetables_dict["1054962"]["channels"]["0"]["martedì"][0]["teachers"] = {
+                    "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
+                    "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
+                }
+
+            if "mercoledì" not in course_timetables_dict["1054962"]["channels"]["0"]:
+                course_timetables_dict["1054962"]["channels"]["0"]["mercoledì"] = [
+                    {
+                        "teachers": {
+                          "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
+                          "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
+                        },
+                        "timeslot": "14 - 16",
+                        "classrooms": {
+                          "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                        }
+                    }
+                ]
+
+        if "AAF1803" in course_timetables_dict:
+            # AAF1803 - CYBER SECURITY SEMINARS
+
+            if "mercoledì" in course_timetables_dict["AAF1803"]["channels"]["0"]:
+                if course_timetables_dict["AAF1803"]["channels"]["0"]["mercoledì"][0]["timeslot"] == "16 - 20":
+                    course_timetables_dict["AAF1803"]["channels"]["0"]["mercoledì"][0]["timeslot"] = "16 - 19"
+
+        if "10600449" in course_timetables_dict:
+            # 10600449 - ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN
+
+            if "giovedì" in course_timetables_dict["10600449"]["channels"]["0"]:
+                if "cab0d0ee-1faa-4552-9587-7a559480dde4" in course_timetables_dict["10600449"]["channels"]["0"]["giovedì"][0]["classrooms"]:
+                    course_timetables_dict["10600449"]["channels"]["0"]["giovedì"][0]["classrooms"] = {
+                        "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+                    }
+
     for course_code, course_data in course_timetables_dict.items():
         if "degree" in course_data and course_data["degree"] != degree_programme_code:
             continue

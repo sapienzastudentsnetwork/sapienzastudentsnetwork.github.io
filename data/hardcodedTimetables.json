@@ -521,5 +521,74 @@
       }
     },
     "code": "1047630"
+  },
+  "1055055": {
+    "subject": "CYBER AND COMPUTER LAW",
+    "degree": "29389",
+    "channels": {
+      "0": {
+        "lunedì": [
+          {
+            "teacherInfo": "AVITABILE LUISA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/luisaavitabileuniroma1it",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerdì": [
+          {
+            "teacherInfo": "AVITABILE LUISA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/luisaavitabileuniroma1it",
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055055"
+  },
+  "1055682": {
+    "subject": "ETHICAL HACKING",
+    "degree": "29389",
+    "channels": {
+      "0": {
+        "martedì": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoledì": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerdì": [
+          {
+            "teacherInfo": "Davide Guerri",
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055682"
   }
 }

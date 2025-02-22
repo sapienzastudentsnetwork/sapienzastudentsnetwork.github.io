@@ -924,6 +924,17 @@
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3080a6c4-17b9-4e47-a52d-dbb9b6d4fb3e": "D'ADAMO IDIANO"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
         ]
       }
     },
@@ -957,11 +968,24 @@
         "marted\u00ec": [
           {
             "teachers": {
+              "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
               "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
             },
             "timeslot": "16 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
+              "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
@@ -1013,7 +1037,7 @@
             },
             "timeslot": "15 - 17",
             "classrooms": {
-              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
             }
           }
         ],
@@ -1043,7 +1067,7 @@
             "teachers": {
               "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
             },
-            "timeslot": "16 - 20",
+            "timeslot": "16 - 19",
             "classrooms": {
               "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
             }
