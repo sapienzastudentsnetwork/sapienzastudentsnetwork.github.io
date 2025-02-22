@@ -612,6 +612,69 @@ if __name__ == '__main__':
                 if course_timetables_dict["10595535"]["channels"]["0"]["giovedì"][0]["timeslot"] == "15 - 17":
                     course_timetables_dict["10595535"]["channels"]["0"]["giovedì"].pop(0)
 
+    elif degree_programme_code == "29932":
+        if "1047623" in course_timetables_dict and "giovedì" not in course_timetables_dict["1047623"]["channels"]["0"]:
+            # 1047623 - DATA AND NETWORK SECURITY
+
+            course_timetables_dict["1047623"]["channels"]["0"]["giovedì"] = [
+                {
+                    "teachers": {
+                      "5457d8e3-6352-4c7b-ab90-a3b8a3db1968": "HITAJ DORJAN"
+                    },
+                    "timeslot": "8 - 11",
+                    "classrooms": {
+                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            ]
+
+        if "1047205" in course_timetables_dict and "martedì" in course_timetables_dict["1047205"]["channels"]["0"]:
+            # 1047205 - CLOUD COMPUTING
+
+            if course_timetables_dict["1047205"]["channels"]["0"]["martedì"]:
+                course_timetables_dict["1047205"]["channels"]["0"]["martedì"][0]["classrooms"] = {
+                    "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
+                }
+
+        if "1047639" in course_timetables_dict:
+            # 1047639 - MULTIMODAL INTERACTION
+
+            if "giovedì" in course_timetables_dict["1047639"]["channels"]["0"]:
+                course_timetables_dict["1047639"]["channels"]["0"]["giovedì"][0]["teachers"] = {
+                    "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+                    "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+                }
+
+            if "venerdì" not in course_timetables_dict["1047639"]["channels"]["0"]:
+                course_timetables_dict["1047639"]["channels"]["0"]["venerdì"] = [
+                    {
+                        "teachers": {
+                          "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+                          "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+                        },
+                        "timeslot": "8 - 11",
+                        "classrooms": {
+                          "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                        }
+                    }
+                ]
+
+    elif degree_programme_code == "29389":
+        if "10589555" in course_timetables_dict and "venerdì" not in course_timetables_dict["10589555"]["channels"]["0"]:
+            # 10589555 - PRACTICAL NETWORK DEFENSE
+
+            course_timetables_dict["10589555"]["channels"]["0"]["venerdì"] = [
+                {
+                    "teachers": {
+                      "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
+                    },
+                    "timeslot": "11 - 13",
+                    "classrooms": {
+                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+                    }
+                }
+            ]
+
     for course_code, course_data in course_timetables_dict.items():
         if "degree" in course_data and course_data["degree"] != degree_programme_code:
             continue

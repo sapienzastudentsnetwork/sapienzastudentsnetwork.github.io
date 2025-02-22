@@ -397,5 +397,129 @@
       }
     },
     "code": "10595617"
+  },
+  "10593236": {
+    "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "lunedì": [
+          {
+            "teachers": {
+              "1114aab0-aebf-46cf-8893-29cdf376c654": "RODOLA' EMANUELE"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "martedì": [
+          {
+            "teachers": {
+              "1114aab0-aebf-46cf-8893-29cdf376c654": "RODOLA' EMANUELE"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10593236"
+  },
+  "1047634": {
+    "subject": "INTERNET OF THINGS",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "lunedì": [
+          {
+            "teacherInfo": "ARRIGONI VIVIANA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/vivianaarrigoniuniroma1it",
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "martedì": [
+          {
+            "teacherInfo": "ARRIGONI VIVIANA",
+            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/vivianaarrigoniuniroma1it",
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047634"
+  },
+  "1038141": {
+    "subject": "NATURAL LANGUAGE PROCESSING",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "martedì": [
+          {
+            "teachers": {
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO",
+              "a1deb1cd-55ba-49d0-a93c-a0377269b71f": "MASI IACOPO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "giovedì": [
+          {
+            "teachers": {
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO",
+              "a1deb1cd-55ba-49d0-a93c-a0377269b71f": "MASI IACOPO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1038141"
+  },
+  "1047630": {
+    "subject": "HUMAN COMPUTER INTERACTION ON THE WEB",
+    "degree": "29932",
+    "channels": {
+      "0": {
+        "mercoledì": [
+          {
+            "teachers": {
+              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "giovedì": [
+          {
+            "teachers": {
+              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047630"
   }
 }

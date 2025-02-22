@@ -609,7 +609,7 @@
             },
             "timeslot": "12 - 14",
             "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+              "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
             }
           }
         ],
@@ -672,6 +672,17 @@
             "timeslot": "11 - 13",
             "classrooms": {
               "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "5457d8e3-6352-4c7b-ab90-a3b8a3db1968": "HITAJ DORJAN"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
@@ -780,11 +791,24 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO"
+              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
             },
             "timeslot": "10 - 12",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
@@ -805,6 +829,17 @@
             "timeslot": "12 - 15",
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]

@@ -328,7 +328,7 @@
     "1049269": {
         "name": "Algorithms",
         "shortName": "Algorithms",
-        "abbr": "ALG",
+        "abbr": "ALGO",
         "cfu": 6
     },
     "10595523": {
@@ -610,13 +610,13 @@
     "1047613": {
         "name": "Advanced Algorithms",
         "shortName": "Adv. Algorithms",
-        "abbr": "ALGO",
+        "abbr": "AALG",
         "tgGroup": "https://t.me/+Xb9-VqXQMXk3MGQ0"
     },
     "10612318": {
         "name": "Advanced Architectures",
         "shortName": "Adv. Architectures",
-        "abbr": "ARCH"
+        "abbr": "AARC"
     },
     "1047619": {
         "name": "Concurrent Systems",
