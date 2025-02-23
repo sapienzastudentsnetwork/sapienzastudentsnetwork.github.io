@@ -11,6 +11,7 @@
   {"label": "Laurea entro 28 mesi dall'iscrizione", "bonus": 1},
   {"label": "Laurea oltre i 28 mesi", "bonus": 0}
 ]` }}
+{{ $errorMessage := "La media dovrebbe essere compresa tra 18 e 30" }}
 
 {{/* If lang is "en", override with English labels */}}
 {{ if eq $lang "en" }}
@@ -23,6 +24,7 @@
     {"label": "Graduated within 28 months of enrollment", "bonus": 1},
     {"label": "Graduated after 28 months", "bonus": 0}
   ]` }}
+  {{ $errorMessage = "The average must be between 18 and 30" }}
 {{ end }}
 
 <style>
@@ -66,15 +68,23 @@
 (function() {
   const id = "{{ $id }}";
   const bonusPoints = {{ $bonusPoints }};
+  const errorMessage = "{{ $errorMessage }}";
 
   function updateResult() {
     const media = parseFloat(document.getElementById(id + 'Media').value) || 0;
+    const resultEl = document.getElementById(id + 'Result');
+    if (media < 18 || media > 30) {
+      resultEl.textContent = errorMessage;
+      resultEl.style.color = "#d32f2f";
+      return;
+    }
+    resultEl.style.color = "";
     const convertedMedia = media * (110 / 30);
     const bonusErasmus = document.getElementById(id + 'Bonus').checked ? bonusPoints : 0;
     const durationBonus = parseFloat(document.getElementById(id + 'Duration').value);
     let vote = convertedMedia + bonusErasmus + durationBonus;
 
-    document.getElementById(id + 'Result').textContent = vote.toFixed(1);
+    resultEl.textContent = vote.toFixed(1);
   }
 
   document.getElementById(id + 'Media').addEventListener('input', updateResult);
