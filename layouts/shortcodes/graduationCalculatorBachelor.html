@@ -1,21 +1,35 @@
-{{- $id := .Get "id" | default "laureaCalculator" -}}
-{{- $title := .Get "title" | default "Media Ponderata" -}}
-{{- $placeholder := .Get "placeholder" | default "Inserisci la media" -}}
-{{- $checkboxLabel := .Get "checkboxLabel" | default "Ho ottenuto almeno tre lodi o partecipato a Erasmus" -}}
-{{- $durationLabel := .Get "durationLabel" | default "Durata del corso di studi" -}}
-{{- $resultLabel := .Get "resultLabel" | default "Voto di presentazione" -}}
-{{- $bonusPoints := .Get "bonusPoints" | default 1 -}}
-{{- $mediaThreshold := .Get "mediaThreshold" | default 27 -}}
-{{- $mediaBonus := .Get "mediaBonus" | default 1 -}}
+{{ $lang := .Get "lang" | default "it" }}
+{{ $id := "laureaCalculator" }}
 
-{{/* Duration options - expects a JSON array of objects with label and bonus fields */}}
-{{- $defaultDurations := `[
+{{ $title := "Media Ponderata" }}
+{{ $placeholder := "Inserisci la media" }}
+{{ $checkboxLabel := "Ho ottenuto almeno tre lodi o partecipato a Erasmus" }}
+{{ $durationLabel := "Durata del corso di studi" }}
+{{ $resultLabel := "Voto di presentazione" }}
+{{ $bonusPoints := 1 }}
+{{ $mediaThreshold := 27 }}
+{{ $mediaBonus := 1 }}
+{{ $defaultDurations := `[
   {"label": "Laurea entro la durata legale (3 anni)", "bonus": 3},
   {"label": "Laurea entro marzo dopo la durata legale", "bonus": 2},
   {"label": "Laurea entro il primo anno fuori corso", "bonus": 1},
   {"label": "Laurea dal secondo anno fuori corso in poi", "bonus": 0}
-]` -}}
-{{- $durationOptions := .Get "durations" | default $defaultDurations -}}
+]` }}
+
+{{/* If lang is "en", override with English labels */}}
+{{ if eq $lang "en" }}
+  {{ $title = "Weighted Average" }}
+  {{ $placeholder = "Enter the average" }}
+  {{ $checkboxLabel = "I have achieved at least three honors or participated in Erasmus" }}
+  {{ $durationLabel = "Course Duration" }}
+  {{ $resultLabel = "Presentation Grade" }}
+  {{ $defaultDurations = `[
+    {"label": "Graduated within legal duration (3 years)", "bonus": 3},
+    {"label": "Graduated by March after legal duration", "bonus": 2},
+    {"label": "Graduated in the first year out of program", "bonus": 1},
+    {"label": "Graduated from second year off schedule onwards", "bonus": 0}
+  ]` }}
+{{ end }}
 
 <style>
 @media (prefers-color-scheme: dark) {
@@ -46,7 +60,7 @@
   </label>
   <label style="display:block; margin-bottom:0.5rem;">{{ $durationLabel }}:
     <select id="{{ $id }}Duration" style="width:100%; padding:0.5rem; margin-top:0.25rem;">
-      {{ range $duration := $durationOptions | unmarshal }}
+      {{ range $duration := $defaultDurations | unmarshal }}
         <option value="{{ $duration.bonus }}">{{ $duration.label }}</option>
       {{ end }}
     </select>
@@ -65,9 +79,10 @@
     const media = parseFloat(document.getElementById(id + 'Media').value) || 0;
     const convertedMedia = media * (110 / 30);
     const bonusMedia = media >= mediaThreshold ? mediaBonus : 0;
-    const bonusLodi = document.getElementById(id + 'Bonus').checked ? bonusPoints : 0;
+    const bonusHonors = document.getElementById(id + 'Bonus').checked ? bonusPoints : 0;
     const durationBonus = parseFloat(document.getElementById(id + 'Duration').value);
-    const vote = convertedMedia + bonusMedia + bonusLodi + durationBonus;
+    let vote = convertedMedia + bonusMedia + bonusHonors + durationBonus;
+
     document.getElementById(id + 'Result').textContent = vote.toFixed(1);
   }
 

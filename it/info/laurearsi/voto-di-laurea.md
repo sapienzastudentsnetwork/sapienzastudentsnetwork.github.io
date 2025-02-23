@@ -45,7 +45,7 @@ L'incremento massimo è di 13 punti. La Commissione può aggiungere punti alla m
 
 ## Voto di presentazione
 
-{{< graduationCalculator >}}
+{{< graduationCalculatorBachelor >}}
 
 ## Studenti Part-Time
 

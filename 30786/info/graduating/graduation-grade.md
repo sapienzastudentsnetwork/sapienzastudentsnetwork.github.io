@@ -37,19 +37,8 @@ The maximum increment is 13 points. The Committee can add points to the weighted
 
 ## Graduation Grade
 
-{{< graduationCalculator 
-    id="englishCalculator"
-    title="Weighted Average"
-    placeholder="Enter your average (max 30)"
-    checkboxLabel="I have obtained at least three honors (30L) or participated in Erasmus"
-    durationLabel="Study Duration"
-    resultLabel="Presentation Score"
-    durations=`[
-        {"label": "Graduation within regular duration (3 years)", "bonus": 3},
-        {"label": "Graduation by March after regular duration", "bonus": 2},
-        {"label": "Graduation within first year after regular duration", "bonus": 1},
-        {"label": "Graduation beyond first extra year", "bonus": 0}
-    ]`
+{{< graduationCalculatorBachelor 
+lang="en"
 >}}
 
 ## Part-Time Students

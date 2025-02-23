@@ -33,20 +33,11 @@ The maximum increment is 11 points. The Committee can add points to the weighted
 
 The official document can be found [here](https://corsidilaurea.uniroma1.it/sites/default/files/calcolovotodilaurea-calculationfothedegreegrade_-_documenti_google_2_1_1.pdf).
 
-<!-- ## Graduation Grade
+## Graduation Grade
 
-{{< graduationCalculator 
-    id="englishCalculator"
-    title="Weighted Average"
-    placeholder="Enter your average (max 30)"
-    checkboxLabel="I have participated in the Erasmus program"
-    durationLabel="Study Duration"
-    resultLabel="Presentation Score"
-    durations=`[
-        {"label": "Graduation within 28 months", "bonus": 1},
-        {"label": "Graduation beyond 28 months", "bonus": 0}
-    ]`
->}} -->
+{{< graduationCalculatorMaster
+lang="en"
+>}}
 
 ## Part-Time Students
 

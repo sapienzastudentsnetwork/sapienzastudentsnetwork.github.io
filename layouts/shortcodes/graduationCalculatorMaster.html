@@ -1,0 +1,84 @@
+{{ $lang := .Get "lang" | default "it" }}
+{{ $id := "masterCalculator" }}
+
+{{ $title := "Media Ponderata" }}
+{{ $placeholder := "Inserisci la media" }}
+{{ $checkboxLabel := "Ho partecipato all'Erasmus" }}
+{{ $durationLabel := "Durata del programma di studi" }}
+{{ $resultLabel := "Voto di presentazione" }}
+{{ $bonusPoints := 1 }}
+{{ $defaultDurations := `[
+  {"label": "Laurea entro 28 mesi dall'iscrizione", "bonus": 1},
+  {"label": "Laurea oltre i 28 mesi", "bonus": 0}
+]` }}
+
+{{/* If lang is "en", override with English labels */}}
+{{ if eq $lang "en" }}
+  {{ $title = "Weighted Average" }}
+  {{ $placeholder = "Enter the average" }}
+  {{ $checkboxLabel = "I have participated in the Erasmus programme" }}
+  {{ $durationLabel = "Duration of the Study Program" }}
+  {{ $resultLabel = "Presentation Grade" }}
+  {{ $defaultDurations = `[
+    {"label": "Graduated within 28 months of enrollment", "bonus": 1},
+    {"label": "Graduated after 28 months", "bonus": 0}
+  ]` }}
+{{ end }}
+
+<style>
+@media (prefers-color-scheme: dark) {
+  #{{ $id }} {
+    background: var(--result-bg-color) !important;
+    border-color: var(--result-border-color) !important;
+    color: var(--text-color) !important;
+  }
+  #{{ $id }} input,
+  #{{ $id }} select {
+    background: var(--item-bg-color) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--result-border-color) !important;
+  }
+  #{{ $id }} label {
+    color: var(--text-color) !important;
+  }
+}
+</style>
+
+<div id="{{ $id }}" style="padding:1rem; border:1px solid #ccc; border-radius:8px; background:#f9f9f9; max-width:400px; font-family: sans-serif; margin:1rem auto;">
+  <label style="display:block; margin-bottom:0.5rem;">{{ $title }}:
+    <input id="{{ $id }}Media" type="number" step="0.1" placeholder="{{ $placeholder }}" style="width:100%; padding:0.5rem; margin-top:0.25rem;"/>
+  </label>
+  <label style="display:block; margin-bottom:0.5rem;">
+    <input id="{{ $id }}Bonus" type="checkbox" style="margin-right:0.5rem;">
+    {{ $checkboxLabel }}
+  </label>
+  <label style="display:block; margin-bottom:0.5rem;">{{ $durationLabel }}:
+    <select id="{{ $id }}Duration" style="width:100%; padding:0.5rem; margin-top:0.25rem;">
+      {{ range $duration := $defaultDurations | unmarshal }}
+        <option value="{{ $duration.bonus }}">{{ $duration.label }}</option>
+      {{ end }}
+    </select>
+  </label>
+  <div style="font-weight:bold; margin-top:1rem;">{{ $resultLabel }}: <span id="{{ $id }}Result">0</span></div>
+</div>
+
+<script>
+(function() {
+  const id = "{{ $id }}";
+  const bonusPoints = {{ $bonusPoints }};
+
+  function updateResult() {
+    const media = parseFloat(document.getElementById(id + 'Media').value) || 0;
+    const convertedMedia = media * (110 / 30);
+    const bonusErasmus = document.getElementById(id + 'Bonus').checked ? bonusPoints : 0;
+    const durationBonus = parseFloat(document.getElementById(id + 'Duration').value);
+    let vote = convertedMedia + bonusErasmus + durationBonus;
+
+    document.getElementById(id + 'Result').textContent = vote.toFixed(1);
+  }
+
+  document.getElementById(id + 'Media').addEventListener('input', updateResult);
+  document.getElementById(id + 'Bonus').addEventListener('change', updateResult);
+  document.getElementById(id + 'Duration').addEventListener('change', updateResult);
+})();
+</script>
