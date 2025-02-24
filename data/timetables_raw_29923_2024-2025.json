@@ -488,6 +488,22 @@
             "teachers": [
               "MONTI ANGELO"
             ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "97796",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "CALCOLO INTEGRALE",
+            "teachers": [
+              "PONSIGLIONE MARCELLO"
+            ]
           }
         ]
       }

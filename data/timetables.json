@@ -201,6 +201,26 @@
     },
     "code": "1015884"
   },
+  "97796": {
+    "subject": "CALCOLO INTEGRALE",
+    "degree": "29923",
+    "channels": {
+      "2": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3d876cc6-a31b-4a8f-a1bc-28d3b38549c6": "PONSIGLIONE MARCELLO"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "97796"
+  },
   "1015889": {
     "subject": "RETI DI ELABORATORI",
     "degree": "29923",
