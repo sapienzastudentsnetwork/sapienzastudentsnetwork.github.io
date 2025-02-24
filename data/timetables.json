@@ -201,6 +201,83 @@
     },
     "code": "1015884"
   },
+  "1015889": {
+    "subject": "RETI DI ELABORATORI",
+    "degree": "29923",
+    "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015889"
+  },
   "1020422_2": {
     "subject": "SISTEMI OPERATIVI II MODULO",
     "degree": "29923",
@@ -255,6 +332,79 @@
       }
     },
     "code": "1020422"
+  },
+  "1015887_2": {
+    "subject": "BASI DI DATI II MODULO",
+    "degree": "29923",
+    "channels": {
+      "2": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "168ebdb9-c68e-4715-9eca-124a7a78df08": "Esposito Marco"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "168ebdb9-c68e-4715-9eca-124a7a78df08": "Esposito Marco"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015887"
+  },
+  "1015888": {
+    "subject": "PROGETTAZIONE DI ALGORITMI",
+    "degree": "29923",
+    "channels": {
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
+            },
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1015888"
   },
   "1031337": {
     "subject": "BIOLOGIA COMPUTAZIONALE",
