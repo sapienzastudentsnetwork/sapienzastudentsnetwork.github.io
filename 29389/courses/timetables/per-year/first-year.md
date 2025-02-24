@@ -1,6 +1,6 @@
 ---
 title: "First Year"
-aliases: ["29389/timetables/first-year", "/cybersecurity/timetables/first-year", "29389/courses/timetables/first-year"]
+aliases: ["/29389/timetables/first-year", "/cybersecurity/timetables/first-year", "/29389/courses/timetables/first-year"]
 weight: 1
 layout: 'timetables'
 type: 'page'
