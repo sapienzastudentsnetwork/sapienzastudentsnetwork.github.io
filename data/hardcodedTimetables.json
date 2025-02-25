@@ -89,57 +89,6 @@
     },
     "code": "AAF1101"
   },
-  "1015887_2": {
-    "subject": "BASI DI DATI II MODULO",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "lunedì": [
-          {
-            "teachers": {
-              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
-            },
-            "timeslot": "14 - 16",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ],
-        "venerdì": [
-          {
-            "teachers": {
-              "5526ad39-a5e2-4854-a79b-5cb7477545fd": "MANCINI TONI"
-            },
-            "timeslot": "14 - 17",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ]
-      },
-      "2": {
-        "martedì": [
-          {
-            "teacherInfo": "ESPOSITO MARCO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/marcoespositouniroma1it",
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "mercoledì": [
-          {
-            "teacherInfo": "ESPOSITO MARCO",
-            "teacherUrl": "https://corsidilaurea.uniroma1.it/it/users/marcoespositouniroma1it",
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015887"
-  },
   "1015888": {
     "subject": "PROGETTAZIONE DI ALGORITMI",
     "degree": "29923",
