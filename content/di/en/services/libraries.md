@@ -34,4 +34,4 @@ Let’s do an example to show how it works. Suppose you have to search for "Lear
 Remember that it is possible to request a text **ONLY AND EXCLUSIVELY in the libraries where it is available**! If you go to another library of Sapienza the request will be denied.
 {{% /hint %}}
 
-![ciao](https://i.imgur.com/FWZb6K6.png)
+![ciao](https://i.imgur.com/Rbwdziu.png)
