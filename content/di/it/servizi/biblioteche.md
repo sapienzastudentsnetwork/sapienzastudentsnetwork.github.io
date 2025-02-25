@@ -35,4 +35,4 @@ Supponiamo che io debba cercare il libro "Learning Python":
 Ripetiamo per chiarezza che **è possibile fare richiesta di un testo SOLO ED ESCLUSIVAMENTE nelle biblioteche in cui esso è disponibile!**
 {{% /hint %}}
 
-![ciao](https://i.imgur.com/FWZb6K6.png)
+![ciao](https://i.imgur.com/Rbwdziu)
