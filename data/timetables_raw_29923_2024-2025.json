@@ -366,6 +366,27 @@
             "teachers": [
               "CALAMONERI TIZIANA"
             ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "97796",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "CALCOLO INTEGRALE",
+            "teachers": [
+              "TERRACINA ANDREA"
+            ]
           }
         ]
       },
@@ -494,6 +515,11 @@
             "course": "97796",
             "room": "Aula 2",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
               {
                 "day": "venerd\u00ec",
                 "from": "09:00",
@@ -789,6 +815,79 @@
       {
         "channel": "Canale 1",
         "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015887",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "BASI DI DATI II MODULO",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015888",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "PROGETTAZIONE DI ALGORITMI",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015889",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "RETI DI ELABORATORI",
+            "teachers": [
+              "CHECCO ALESSANDRO"
+            ]
+          },
           {
             "building": "Edificio: RM018",
             "course": "1015889",

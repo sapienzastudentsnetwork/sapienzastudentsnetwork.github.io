@@ -594,6 +594,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047623",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1047629",
             "room": "Aula G50",
@@ -623,6 +639,22 @@
                 "day": "gioved\u00ec",
                 "from": "10:00",
                 "to": "12:00"
+              }
+            ],
+            "subject": "MULTIMODAL INTERACTION",
+            "teachers": [
+              "AVOLA DANILO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047639",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ],
             "subject": "MULTIMODAL INTERACTION",
@@ -668,6 +700,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10589557",
             "room": "Aula G50",
@@ -686,6 +734,27 @@
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
             "teachers": [
               "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
             ]
           },
           {
@@ -1240,6 +1309,27 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "1038141",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "NATURAL LANGUAGE PROCESSING",
+            "teachers": [
+              "MASI IACOPO"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "1047205",
             "room": "AULA 201",
@@ -1362,6 +1452,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047623",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1047629",
             "room": "Aula G50",
@@ -1380,6 +1486,27 @@
             "subject": "GRAPH THEORY",
             "teachers": [
               "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047634",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              "ARRIGONI VIVIANA"
             ]
           },
           {
@@ -1412,6 +1539,22 @@
                 "day": "gioved\u00ec",
                 "from": "10:00",
                 "to": "12:00"
+              }
+            ],
+            "subject": "MULTIMODAL INTERACTION",
+            "teachers": [
+              "AVOLA DANILO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047639",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ],
             "subject": "MULTIMODAL INTERACTION",
@@ -1457,6 +1600,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10589557",
             "room": "Aula G50",
@@ -1475,6 +1634,27 @@
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
             "teachers": [
               "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
             ]
           },
           {

@@ -260,6 +260,43 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047623",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047634",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              "ARRIGONI VIVIANA"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1054962",
             "room": "Aula G50",
@@ -268,6 +305,22 @@
                 "day": "marted\u00ec",
                 "from": "16:00",
                 "to": "19:00"
+              }
+            ],
+            "subject": "SECURE COMPUTATION",
+            "teachers": [
+              "DE GASPARI FABIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1054962",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ],
             "subject": "SECURE COMPUTATION",
@@ -324,6 +377,64 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1055047",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "ECONOMICS OF TECHNOLOGY AND MANAGEMENT",
+            "teachers": [
+              "D'ADAMO IDIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055055",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "CYBER AND COMPUTER LAW",
+            "teachers": [
+              "AVITABILE LUISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055682",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "ETHICAL HACKING",
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
+          },
+          {
             "building": "Edificio: RM025",
             "course": "1055682",
             "room": "Aula informatica 15",
@@ -348,6 +459,22 @@
                 "day": "gioved\u00ec",
                 "from": "12:00",
                 "to": "15:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ],
             "subject": "PRACTICAL NETWORK DEFENSE",
@@ -645,6 +772,22 @@
                 "day": "luned\u00ec",
                 "from": "11:00",
                 "to": "13:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047623",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ],
             "subject": "DATA AND NETWORK SECURITY",
