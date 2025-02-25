@@ -645,7 +645,10 @@ if __name__ == '__main__':
                     "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
                 }
 
-            if "venerdì" not in course_timetables_dict["1047639"]["channels"]["0"]:
+            if "venerdì" in course_timetables_dict["1047639"]["channels"]["0"]:
+                if "f738330a-ffb2-4dc3-b40e-205299ff9ad1" not in course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]:
+                    course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]["f738330a-ffb2-4dc3-b40e-205299ff9ad1"] = "MANCINI MAURIZIO"
+
                 course_timetables_dict["1047639"]["channels"]["0"]["venerdì"] = [
                     {
                         "teachers": {
