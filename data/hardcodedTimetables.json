@@ -1,57 +1,4 @@
 {
-  "1015885": {
-    "subject": "INTRODUZIONE AGLI ALGORITMI",
-    "degree": "29923",
-    "channels": {
-      "1": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
-            },
-            "timeslot": "9 - 11",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teachers": {
-              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
-            },
-            "timeslot": "11 - 14",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ]
-      },
-      "2": {
-        "lunedì": [
-          {
-            "teachers": {
-              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
-            },
-            "timeslot": "9 - 11",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerdì": [
-          {
-            "teachers": {
-              "72e2bc49-938f-42bf-a2e3-63bb8f578379": "MONTI ANGELO"
-            },
-            "timeslot": "11 - 14",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1015885"
-  },
   "97796": {
     "subject": "CALCOLO INTEGRALE",
     "degree": "29923",
@@ -397,37 +344,6 @@
       }
     },
     "code": "10595617"
-  },
-  "10593236": {
-    "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
-    "degree": "29932",
-    "channels": {
-      "0": {
-        "lunedì": [
-          {
-            "teachers": {
-              "1114aab0-aebf-46cf-8893-29cdf376c654": "RODOLA' EMANUELE"
-            },
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ],
-        "martedì": [
-          {
-            "teachers": {
-              "1114aab0-aebf-46cf-8893-29cdf376c654": "RODOLA' EMANUELE"
-            },
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "10593236"
   },
   "1047634": {
     "subject": "INTERNET OF THINGS",
