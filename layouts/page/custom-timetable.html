@@ -22,14 +22,14 @@
     {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
     <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
-    <div class="my-8 w-full max-w-full overflow-x-auto">
+    <div class="my-8 w-full max-w-5xl mx-auto overflow-x-auto">
         <table id="customSchedule" class="w-full border-collapse shadow-lg">
             <thead>
                 <tr>
-                    <th scope="col" class="timetableTableCell font-light bg-gray-800 text-white p-3 sticky left-0 z-10">
+                    <th scope="col" class="timetableTableCell font-light bg-gray-800 text-white p-2 sticky left-0 z-10">
                         {{ T "Subjs_Timetables_Time" }}</th>
                     {{ range $days }}
-                    <th class="timetableTableCell bg-gray-800 text-white p-3" scope="col">{{ T (printf
+                    <th class="timetableTableCell bg-gray-800 text-white p-2" scope="col">{{ T (printf
                         "DaysOfTheWeek_%s" .) }}</th>
                     {{ end }}
                 </tr>
@@ -141,13 +141,14 @@
         border-radius: 4px;
         overflow: hidden;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        font-size: 0.95rem;
     }
 
     #customSchedule th,
     #customSchedule td,
     table th,
     table td {
-        padding: 12px;
+        padding: 8px 10px;
         text-align: center;
         transition: background-color 0.2s;
     }
@@ -208,8 +209,8 @@
 
     /* Responsive containers */
     #main {
-        width: 95%;
-        max-width: 1400px;
+        width: 90%;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 20px 0;
     }
@@ -255,34 +256,34 @@
 
         #customSchedule,
         table {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         #customSchedule th,
         #customSchedule td,
         table th,
         table td {
-            padding: 8px;
+            padding: 6px 8px;
         }
     }
 
     /* Styling for the timetable-per-teaching */
     h2 {
         margin: 2rem 0 1rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 600;
     }
 
     h3 {
         margin: 1.5rem 0 0.75rem;
-        font-size: 1.25rem;
+        font-size: 1.2rem;
         font-weight: 500;
         color: #e2e8f0;
     }
 
     h4 {
         margin: 1rem 0 0.5rem;
-        font-size: 1.1rem;
+        font-size: 1.05rem;
         font-weight: 400;
         color: #cbd5e0;
     }
@@ -304,6 +305,9 @@
         overflow-x: auto;
         display: block;
         width: 100%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Fixed width table */
