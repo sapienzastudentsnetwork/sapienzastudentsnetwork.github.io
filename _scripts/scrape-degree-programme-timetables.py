@@ -526,6 +526,16 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "29923":
+        if "1015889" in course_timetables_dict:
+            # 1015889 - RETI DI ELABORATORI
+
+            if "venerdì" in course_timetables_dict["1015889"]["channels"]["1"]:
+                if "35085c26-00da-4721-b7df-cd1d0970f13c" in course_timetables_dict["1015889"]["channels"]["1"]["venerdì"][0]["teachers"]:
+                    course_timetables_dict["1015889"]["channels"]["1"]["venerdì"].pop(0)
+
+                    if len(course_timetables_dict["1015889"]["channels"]["1"]["venerdì"]) == 0:
+                        course_timetables_dict["1015889"]["channels"]["1"].pop("venerdì")
+
         if "1022268" in course_timetables_dict:
             # 1022268 - SICUREZZA
 
@@ -649,6 +659,7 @@ if __name__ == '__main__':
                 if "f738330a-ffb2-4dc3-b40e-205299ff9ad1" not in course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]:
                     course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]["f738330a-ffb2-4dc3-b40e-205299ff9ad1"] = "MANCINI MAURIZIO"
 
+            else:
                 course_timetables_dict["1047639"]["channels"]["0"]["venerdì"] = [
                     {
                         "teachers": {

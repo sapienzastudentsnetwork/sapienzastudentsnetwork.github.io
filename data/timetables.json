@@ -433,17 +433,6 @@
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
-            },
-            "timeslot": "14 - 16",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
         ]
       },
       "2": {
