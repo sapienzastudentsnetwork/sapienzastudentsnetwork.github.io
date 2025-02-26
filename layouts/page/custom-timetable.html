@@ -1,287 +1,469 @@
 {{ define "main" }}
-    {{ partial "timetable.html" . }}
+{{ partial "timetable.html" . }}
 
 {{ $pageDegreeCode := .Params.degreeCode }}
 
-    <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
+<h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
-    <!--{{ $excludedCodes := slice "29923" "30786" }}
+<!--{{ $excludedCodes := slice "29923" "30786" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}-->
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-        <button
-            class="addSubjs absolute right-0 top-2 flex items-center gap-2"
-            onclick="openSubjectsDialog()"
-        >
-            {{ T "Subjs_CustomTimetable_AddButton" }}
-            <!-- <span class="material-symbols-outlined">add</span> -->
-        </button>
-        <!-- { .Content } -->
-        {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+    <button
+        class="addSubjs absolute right-0 top-2 flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md transition-colors duration-200"
+        onclick="openSubjectsDialog()">
+        {{ T "Subjs_CustomTimetable_AddButton" }}
+        <!-- <span class="material-symbols-outlined">add</span> -->
+    </button>
+    <!-- { .Content } -->
+    {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
-        <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
-        <div>
-            <table id="customSchedule">
-                <thead>
-                    <tr>
-                        <th scope="col" class="timetableTableCell font-light">{{ T "Subjs_Timetables_Time" }}</th>
-                        {{ range $days }}
-                            <!--<th class="timetableTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
-                            <!--<th class="timetableTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
-                            <th class="timetableTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
-                        {{ end }}
-                    </tr>
-                </thead>
-                <tbody class="desktop hidden sm:table-row-group"></tbody>
-                <tbody class="mobile table-row-group sm:hidden"></tbody>
-            </table>
-        </div>
+    <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
+    <div class="my-8 w-full max-w-full overflow-x-auto">
+        <table id="customSchedule" class="w-full border-collapse shadow-lg">
+            <thead>
+                <tr>
+                    <th scope="col" class="timetableTableCell font-light bg-gray-800 text-white p-3 sticky left-0 z-10">
+                        {{ T "Subjs_Timetables_Time" }}</th>
+                    {{ range $days }}
+                    <th class="timetableTableCell bg-gray-800 text-white p-3" scope="col">{{ T (printf
+                        "DaysOfTheWeek_%s" .) }}</th>
+                    {{ end }}
+                </tr>
+            </thead>
+            <tbody class="desktop hidden sm:table-row-group"></tbody>
+            <tbody class="mobile table-row-group sm:hidden"></tbody>
+        </table>
     </div>
+</div>
 
-    <dialog
-        class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
-        id="subjsPopUp"
-        onclick="closeSubjectsDialog()"
-    >
-        <div class="subjsDial flex h-full w-full flex-col items-start">
-            <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
-            <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
-                {{ $courses := site.Data.courses }}
+<dialog
+    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
+    id="subjsPopUp" onclick="closeSubjectsDialog()">
+    <div class="subjsDial flex h-full w-full flex-col items-start">
+        <h2 id="subjsSelTitle" class="text-xl font-bold mb-4">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
+        <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
+            {{ $courses := site.Data.courses }}
 
-                {{ $degrees := dict }}
-                {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
-                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
-                {{ else if or (eq $pageDegreeCode "29932") (eq $pageDegreeCode "29389") }}
-                    {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
-                {{ else }}
-                    {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity" }}
-                {{ end }}
+            {{ $degrees := dict }}
+            {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
+            {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
+            {{ else if or (eq $pageDegreeCode "29932") (eq $pageDegreeCode "29389") }}
+            {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
+            {{ else }}
+            {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity"
+            }}
+            {{ end }}
 
-                {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" "29389" "#FCC005" }}
+            {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" "29389" "#FCC005" }}
 
-                {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
-                {{ $dataTimetables := site.Data.timetables }}
-                {{ $allCourses := dict }}
-                {{ $pageDegreeSubjects := slice }}
+            {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
+            {{ $dataTimetables := site.Data.timetables }}
+            {{ $allCourses := dict }}
+            {{ $pageDegreeSubjects := slice }}
 
-                {{ range $courseCode, $courseData := $dataTimetables }}
-                    {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+            {{ range $courseCode, $courseData := $dataTimetables }}
+            {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-                    {{ if index $degrees $courseData.degree }}
-                        {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
-                    {{ end }}
-                {{ end }}
+            {{ if index $degrees $courseData.degree }}
+            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+            {{ end }}
+            {{ end }}
 
-                {{ range $courseCode, $courseData := $hardcodedDataTimetables }}
-                    {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+            {{ range $courseCode, $courseData := $hardcodedDataTimetables }}
+            {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-                    {{ if index $degrees $courseData.degree }}
-                        {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
-                    {{ end }}
-                {{ end }}
+            {{ if index $degrees $courseData.degree }}
+            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+            {{ end }}
+            {{ end }}
 
-                {{ range $degreeCode, $degreeName := $degrees }}
-                    <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
-                        <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
-                        <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
-                    </h2>
+            {{ range $degreeCode, $degreeName := $degrees }}
+            <h2 class="subjsGroupTitle text-lg font-semibold mt-6 mb-3" id="subjs{{ $degreeName }}">
+                <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
+                <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
+            </h2>
 
-                    <div class="subjsSingCourse">
-                        {{ range $code, $data := $allCourses }}
-                            {{ if eq $data.degree $degreeCode }}
-                                {{ $subject_info := index $courses $code }}
-                                {{ range $channel_id, $_ := $data.channels }}
-                                    <button
-                                      id="dialog-{{ $code }}-{{ $channel_id }}"
-                                      class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center bg-gray-50 px-4 py-1 text-black dark:bg-gray-900 dark:text-white"
-                                      onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)"
-                                    >
-                                        <span class="w-full truncate text-left">
-                                            {{ $subject_info.name }}
-                                            {{ if ne $channel_id "0" }}
-                                                {{ if eq $channel_id "1" }}
-                                                    (A-L)
-                                                {{ else if eq $channel_id "2" }}
-                                                    (M-Z)
-                                                {{ else }}
-                                                    (Canale {{ $channel_id }})
-                                                {{ end }}
-                                            {{ end }}
-                                        </span>
-                                    </button>
-                                {{ end }}
-                            {{ end }}
+            <div class="subjsSingCourse">
+                {{ range $code, $data := $allCourses }}
+                {{ if eq $data.degree $degreeCode }}
+                {{ $subject_info := index $courses $code }}
+                {{ range $channel_id, $_ := $data.channels }}
+                <button id="dialog-{{ $code }}-{{ $channel_id }}"
+                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center rounded-md bg-gray-50 px-4 py-1 text-black transition-colors duration-200 hover:bg-gray-200 dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
+                    onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                    <span class="w-full truncate text-left">
+                        {{ $subject_info.name }}
+                        {{ if ne $channel_id "0" }}
+                        {{ if eq $channel_id "1" }}
+                        (A-L)
+                        {{ else if eq $channel_id "2" }}
+                        (M-Z)
+                        {{ else }}
+                        (Canale {{ $channel_id }})
                         {{ end }}
-                    </div>
-
-                    <div style="width: 99%; height: 1px; background-color: #ddd; margin: 20px auto 0 auto;"></div>
+                        {{ end }}
+                    </span>
+                </button>
+                {{ end }}
+                {{ end }}
                 {{ end }}
             </div>
-            <button id="subjsCloseMenu" class="hover:bg-gray-100" onclick="closeSubjectsDialog()">
-                {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
-            </button>
+
+            <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
+            {{ end }}
         </div>
-    </dialog>
+        <button id="subjsCloseMenu"
+            class="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-md transition-colors duration-200"
+            onclick="closeSubjectsDialog()">
+            {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
+        </button>
+    </div>
+</dialog>
 
-    <!-- Add the "Timetables per teaching" part for all courses -->
-    {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
-        {{ partial "timetables-per-teaching.html" . }}
-    {{ end }}
+<!-- Add the "Timetables per teaching" part for all courses -->
+{{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
+{{ partial "timetables-per-teaching.html" . }}
+{{ end }}
 
-    <script>
-        const pageDegreeSubjects = new Set(
-            JSON.parse(`{{ $pageDegreeSubjects | jsonify }}`)
-        );
+<style>
+    /* Modern table styling - common for both tables */
+    #customSchedule,
+    table {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 2rem;
+        border-collapse: separate;
+        border-spacing: 0;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
 
-        const selectedSubjects = new Set(
-            JSON.parse(localStorage.getItem("selectedSubjects")),
-        );
+    #customSchedule th,
+    #customSchedule td,
+    table th,
+    table td {
+        padding: 12px;
+        text-align: center;
+        transition: background-color 0.2s;
+    }
 
-        function toggleSubject(subjectId) {
-            let button = document.getElementById("dialog-" + subjectId);
+    #customSchedule tbody tr,
+    table tbody tr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
 
-            if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
-                if (button.classList.contains("c-30786-disabled")) {
-                    button.classList.remove("c-30786-disabled")
-                    button.classList.add("c-30786")
-                } else if (button.classList.contains("c-29932-disabled")) {
-                    button.classList.remove("c-29932-disabled")
-                    button.classList.add("c-29932")
-                } else if (button.classList.contains("c-29389-disabled")) {
-                    button.classList.remove("c-29389-disabled")
-                    button.classList.add("c-29389")
-                } else if (button.classList.contains("c-29923-disabled")) {
-                    button.classList.remove("c-29923-disabled")
-                    button.classList.add("c-29923")
-                }
+    #customSchedule tbody tr:last-child,
+    table tbody tr:last-child {
+        border-bottom: none;
+    }
 
-                button.classList.remove(
-                    "bg-black",
-                    "text-white",
-                    "dark:bg-white",
-                    "dark:text-black",
-                    "subjIsSelected"
-                );
-                button.classList.add(
-                    "bg-gray-50",
-                    "dark:bg-gray-900",
-                    "dark:text-white",
-                );
+    #customSchedule tbody tr:nth-child(odd),
+    table tbody tr:nth-child(odd) {
+        background-color: rgba(30, 30, 30, 0.6);
+    }
 
-                let subjectCode = subjectId.split("-")[0];
+    #customSchedule tbody tr:nth-child(even),
+    table tbody tr:nth-child(even) {
+        background-color: rgba(40, 40, 40, 0.6);
+    }
 
-                // Hide this subject's timetable div only if the subject was not also added with another channel
-                let otherSubjectIdsWithSameCode = Array.from(
-                    selectedSubjects,
-                ).filter((item) => item.startsWith(subjectCode));
-                if (otherSubjectIdsWithSameCode.length === 1) {
-                    let subject_div = document.getElementById(subjectCode);
-                    if (subject_div) subject_div.classList.add("hidden");
-                }
+    #customSchedule tbody tr:hover,
+    table tbody tr:hover {
+        background-color: rgba(60, 60, 60, 0.8);
+    }
 
-                let channel_div = document.getElementById(subjectId);
-                if (channel_div) channel_div.classList.add("hidden");
+    #customSchedule td:first-child,
+    table td:first-child {
+        font-weight: 500;
+        background-color: rgba(50, 50, 50, 0.9);
+        position: sticky;
+        left: 0;
+        z-index: 1;
+    }
 
-                selectedSubjects.delete(subjectId);
-            } else {    // If subject is not in the JSON, then add it
-                if (button.classList.contains("c-30786")) {
-                    button.classList.add("c-30786-disabled")
-                    button.classList.remove("c-30786")
-                } else if (button.classList.contains("c-29932")) {
-                    button.classList.add("c-29932-disabled")
-                    button.classList.remove("c-29932")
-                } else if (button.classList.contains("c-29389")) {
-                    button.classList.add("c-29389-disabled")
-                    button.classList.remove("c-29389")
-                } else if (button.classList.contains("c-29923")) {
-                    button.classList.add("c-29923-disabled")
-                    button.classList.remove("c-29923")
-                }
+    #customSchedule th,
+    table th {
+        background-color: #2d3748;
+        color: white;
+        font-weight: 500;
+    }
 
-                button.classList.remove(
-                    "bg-gray-50",
-                    "dark:bg-gray-900",
-                    "dark:text-white",
-                );
-                button.classList.add(
-                    "bg-black",
-                    "text-white",
-                    "dark:bg-white",
-                    "dark:text-black",
-                    "subjIsSelected"
-                );
+    /* Course cell styling */
+    #customSchedule td[class*="course-"] {
+        border-radius: 3px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        transition: transform 0.2s, box-shadow 0.2s;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
 
-                let subjectCode = subjectId.split("-")[0];
-                let subject_div = document.getElementById(subjectCode);
-                if (subject_div) subject_div.classList.remove("hidden");
+    #customSchedule td[class*="course-"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
 
-                let channel_div = document.getElementById(subjectId);
-                if (channel_div) channel_div.classList.remove("hidden");
+    /* Responsive containers */
+    #main {
+        width: 95%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
 
-                selectedSubjects.add(subjectId);
+    /* Dialog styling improvements */
+    #subjsPopUp {
+        border: none;
+        border-radius: 8px;
+        background-color: #222;
+    }
+
+    .subjsDial {
+        padding: 10px;
+    }
+
+    /* Color styling for courses */
+    .c-30786-disabled,
+    .c-29932-disabled,
+    .c-29389-disabled,
+    .c-29923-disabled {
+        position: relative;
+    }
+
+    /* Border colors using left edge instead of bottom */
+    .c-30786-disabled {
+        border-left: 3px solid #B15252;
+    }
+
+    .c-29932-disabled {
+        border-left: 3px solid #49C15B;
+    }
+
+    .c-29389-disabled {
+        border-left: 3px solid #FCC005;
+    }
+
+    .c-29923-disabled {
+        border-left: 3px solid #709DD1;
+    }
+
+    /* Make sure we have consistent styling for mobile */
+    @media (max-width: 640px) {
+
+        #customSchedule,
+        table {
+            font-size: 0.9rem;
+        }
+
+        #customSchedule th,
+        #customSchedule td,
+        table th,
+        table td {
+            padding: 8px;
+        }
+    }
+
+    /* Styling for the timetable-per-teaching */
+    h2 {
+        margin: 2rem 0 1rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        margin: 1.5rem 0 0.75rem;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #e2e8f0;
+    }
+
+    h4 {
+        margin: 1rem 0 0.5rem;
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #cbd5e0;
+    }
+
+    a {
+        color: #63b3ed;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    a:hover {
+        color: #90cdf4;
+        text-decoration: underline;
+    }
+
+    /* Table container for per-teaching tables */
+    div>table {
+        margin-bottom: 2rem;
+        overflow-x: auto;
+        display: block;
+        width: 100%;
+    }
+
+    /* Fixed width table */
+    div>table {
+        display: table;
+        width: 100%;
+    }
+</style>
+
+<script>
+    const pageDegreeSubjects = new Set(
+        JSON.parse(`{{ $pageDegreeSubjects | jsonify }}`)
+    );
+
+    const selectedSubjects = new Set(
+        JSON.parse(localStorage.getItem("selectedSubjects")),
+    );
+
+    function toggleSubject(subjectId) {
+        let button = document.getElementById("dialog-" + subjectId);
+
+        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
+            if (button.classList.contains("c-30786-disabled")) {
+                button.classList.remove("c-30786-disabled")
+                button.classList.add("c-30786")
+            } else if (button.classList.contains("c-29932-disabled")) {
+                button.classList.remove("c-29932-disabled")
+                button.classList.add("c-29932")
+            } else if (button.classList.contains("c-29389-disabled")) {
+                button.classList.remove("c-29389-disabled")
+                button.classList.add("c-29389")
+            } else if (button.classList.contains("c-29923-disabled")) {
+                button.classList.remove("c-29923-disabled")
+                button.classList.add("c-29923")
             }
 
-            localStorage.setItem(
-                "selectedSubjects",
-                JSON.stringify(Array.from(selectedSubjects)),
+            button.classList.remove(
+                "bg-black",
+                "text-white",
+                "dark:bg-white",
+                "dark:text-black",
+                "subjIsSelected"
+            );
+            button.classList.add(
+                "bg-gray-50",
+                "dark:bg-gray-900",
+                "dark:text-white",
             );
 
-            fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
-        }
+            let subjectCode = subjectId.split("-")[0];
 
-        addEventListener("DOMContentLoaded", () => {
-            for (const subjectId of selectedSubjects) {
-                const button = document.getElementById("dialog-" + subjectId);
-
-                if (button) { // Check if the button exists
-                    if (button.classList.contains("c-30786")) {
-                        button.classList.add("c-30786-disabled");
-                        button.classList.remove("c-30786");
-                    } else if (button.classList.contains("c-29932")) {
-                        button.classList.add("c-29932-disabled");
-                        button.classList.remove("c-29932");
-                    } else if (button.classList.contains("c-29389")) {
-                        button.classList.add("c-29389-disabled");
-                        button.classList.remove("c-29389");
-                    } else if (button.classList.contains("c-29923")) {
-                        button.classList.add("c-29923-disabled");
-                        button.classList.remove("c-29923");
-                    }
-
-                    button.classList.remove(
-                      "bg-gray-50",
-                      "dark:bg-gray-900",
-                      "dark:text-white",
-                    );
-                    button.classList.add(
-                      "bg-black",
-                      "text-white",
-                      "dark:bg-white",
-                      "dark:text-black",
-                      "subjIsSelected"
-                    );
-                }
-
-                let subjectCode = subjectId.split("-")[0];
+            // Hide this subject's timetable div only if the subject was not also added with another channel
+            let otherSubjectIdsWithSameCode = Array.from(
+                selectedSubjects,
+            ).filter((item) => item.startsWith(subjectCode));
+            if (otherSubjectIdsWithSameCode.length === 1) {
                 let subject_div = document.getElementById(subjectCode);
-                if (subject_div) subject_div.classList.remove("hidden");
-
-                let channel_div = document.getElementById(subjectId);
-                if (channel_div) channel_div.classList.remove("hidden");
+                if (subject_div) subject_div.classList.add("hidden");
             }
 
-            fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
-        });
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div) channel_div.classList.add("hidden");
 
-        function openSubjectsDialog() {
-            document.getElementById("subjsPopUp").showModal();
+            selectedSubjects.delete(subjectId);
+        } else {    // If subject is not in the JSON, then add it
+            if (button.classList.contains("c-30786")) {
+                button.classList.add("c-30786-disabled")
+                button.classList.remove("c-30786")
+            } else if (button.classList.contains("c-29932")) {
+                button.classList.add("c-29932-disabled")
+                button.classList.remove("c-29932")
+            } else if (button.classList.contains("c-29389")) {
+                button.classList.add("c-29389-disabled")
+                button.classList.remove("c-29389")
+            } else if (button.classList.contains("c-29923")) {
+                button.classList.add("c-29923-disabled")
+                button.classList.remove("c-29923")
+            }
+
+            button.classList.remove(
+                "bg-gray-50",
+                "dark:bg-gray-900",
+                "dark:text-white",
+            );
+            button.classList.add(
+                "bg-black",
+                "text-white",
+                "dark:bg-white",
+                "dark:text-black",
+                "subjIsSelected"
+            );
+
+            let subjectCode = subjectId.split("-")[0];
+            let subject_div = document.getElementById(subjectCode);
+            if (subject_div) subject_div.classList.remove("hidden");
+
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div) channel_div.classList.remove("hidden");
+
+            selectedSubjects.add(subjectId);
         }
 
-        function closeSubjectsDialog() {
-            document.getElementById("subjsPopUp").close();
+        localStorage.setItem(
+            "selectedSubjects",
+            JSON.stringify(Array.from(selectedSubjects)),
+        );
+
+        fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+    }
+
+    addEventListener("DOMContentLoaded", () => {
+        for (const subjectId of selectedSubjects) {
+            const button = document.getElementById("dialog-" + subjectId);
+
+            if (button) { // Check if the button exists
+                if (button.classList.contains("c-30786")) {
+                    button.classList.add("c-30786-disabled");
+                    button.classList.remove("c-30786");
+                } else if (button.classList.contains("c-29932")) {
+                    button.classList.add("c-29932-disabled");
+                    button.classList.remove("c-29932");
+                } else if (button.classList.contains("c-29389")) {
+                    button.classList.add("c-29389-disabled");
+                    button.classList.remove("c-29389");
+                } else if (button.classList.contains("c-29923")) {
+                    button.classList.add("c-29923-disabled");
+                    button.classList.remove("c-29923");
+                }
+
+                button.classList.remove(
+                    "bg-gray-50",
+                    "dark:bg-gray-900",
+                    "dark:text-white",
+                );
+                button.classList.add(
+                    "bg-black",
+                    "text-white",
+                    "dark:bg-white",
+                    "dark:text-black",
+                    "subjIsSelected"
+                );
+            }
+
+            let subjectCode = subjectId.split("-")[0];
+            let subject_div = document.getElementById(subjectCode);
+            if (subject_div) subject_div.classList.remove("hidden");
+
+            let channel_div = document.getElementById(subjectId);
+            if (channel_div) channel_div.classList.remove("hidden");
         }
-    </script>
+
+        fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+    });
+
+    function openSubjectsDialog() {
+        document.getElementById("subjsPopUp").showModal();
+    }
+
+    function closeSubjectsDialog() {
+        document.getElementById("subjsPopUp").close();
+    }
+</script>
 {{ end }}
