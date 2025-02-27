@@ -84,6 +84,13 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         title = 'Developers Wiki'
         weight = 7
 
+    [languages.rooms]
+        contentDir = 'rooms'
+        disabled = false
+        languageName = 'Rooms'
+        title = 'Rooms'
+        weight = 8
+
 [markup]
     [markup.goldmark]
         [markup.goldmark.extensions]
