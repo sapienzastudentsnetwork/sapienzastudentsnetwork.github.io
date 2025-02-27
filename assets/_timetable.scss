@@ -54,19 +54,27 @@
 .addSubjs {
     border-radius: 8px;
     width: 250px;
-    height: 32px;
+    height: 36px;
     background-color: var(--timetable-add-button-background);
+    color: var(--timetable-add-button-color);
     justify-content: center;
     align-items: center;
     font-family: "DM Sans";
     font-weight: 600;
     margin: 8px auto 16px auto;
-    border: solid var(--border-color) 1.75px;
-    box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
-    transition: background-color 0.2s;
+    border: solid var(--timetable-add-button-border) 1.5px;
+    box-shadow: 0 4px 8px var(--timetable-add-button-shadow);
+    transition: all 0.2s ease;
 
     &:hover {
         background-color: var(--timetable-add-button-hover);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 12px var(--timetable-add-button-shadow);
+    }
+
+    &:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 4px var(--timetable-add-button-shadow);
     }
 }
 
