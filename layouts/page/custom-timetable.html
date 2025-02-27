@@ -12,9 +12,7 @@
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button
-        class="addSubjs absolute right-0 top-2 flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded-md transition-colors duration-200"
-        onclick="openSubjectsDialog()">
+    <button class="addSubjs absolute right-0 top-2 flex items-center gap-2" onclick="openSubjectsDialog()">
         {{ T "Subjs_CustomTimetable_AddButton" }}
         <!-- <span class="material-symbols-outlined">add</span> -->
     </button>
@@ -26,10 +24,10 @@
         <table id="customSchedule" class="w-full border-collapse shadow-lg">
             <thead>
                 <tr>
-                    <th scope="col" class="timetableTableCell font-light bg-gray-800 text-white p-2 sticky left-0 z-10">
+                    <th scope="col" class="timetableTableCell font-light sticky left-0 z-10">
                         {{ T "Subjs_Timetables_Time" }}</th>
                     {{ range $days }}
-                    <th class="timetableTableCell bg-gray-800 text-white p-2" scope="col">{{ T (printf
+                    <th class="timetableTableCell" scope="col">{{ T (printf
                         "DaysOfTheWeek_%s" .) }}</th>
                     {{ end }}
                 </tr>
@@ -40,11 +38,10 @@
     </div>
 </div>
 
-<dialog
-    class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm dark:bg-black dark:text-white dark:shadow-2xl dark:shadow-black"
-    id="subjsPopUp" onclick="closeSubjectsDialog()">
+<dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
+    onclick="closeSubjectsDialog()">
     <div class="subjsDial flex h-full w-full flex-col items-start">
-        <h2 id="subjsSelTitle" class="text-xl font-bold mb-4">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
+        <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
             {{ $courses := site.Data.courses }}
 
@@ -82,7 +79,7 @@
             {{ end }}
 
             {{ range $degreeCode, $degreeName := $degrees }}
-            <h2 class="subjsGroupTitle text-lg font-semibold mt-6 mb-3" id="subjs{{ $degreeName }}">
+            <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
                 <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
                 <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
             </h2>
@@ -93,7 +90,7 @@
                 {{ $subject_info := index $courses $code }}
                 {{ range $channel_id, $_ := $data.channels }}
                 <button id="dialog-{{ $code }}-{{ $channel_id }}"
-                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center rounded-md bg-gray-50 px-4 py-1 text-black transition-colors duration-200 hover:bg-gray-200 dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800"
+                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
                     onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
                     <span class="w-full truncate text-left">
                         {{ $subject_info.name }}
@@ -116,9 +113,7 @@
             <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
             {{ end }}
         </div>
-        <button id="subjsCloseMenu"
-            class="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-md transition-colors duration-200"
-            onclick="closeSubjectsDialog()">
+        <button id="subjsCloseMenu" onclick="closeSubjectsDialog()">
             {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
         </button>
     </div>
@@ -128,194 +123,6 @@
 {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
 {{ partial "timetables-per-teaching.html" . }}
 {{ end }}
-
-<style>
-    /* Modern table styling - common for both tables */
-    #customSchedule,
-    table {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto 2rem;
-        border-collapse: separate;
-        border-spacing: 0;
-        border-radius: 4px;
-        overflow: hidden;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        font-size: 0.95rem;
-    }
-
-    #customSchedule th,
-    #customSchedule td,
-    table th,
-    table td {
-        padding: 8px 10px;
-        text-align: center;
-        transition: background-color 0.2s;
-    }
-
-    #customSchedule tbody tr,
-    table tbody tr {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    #customSchedule tbody tr:last-child,
-    table tbody tr:last-child {
-        border-bottom: none;
-    }
-
-    #customSchedule tbody tr:nth-child(odd),
-    table tbody tr:nth-child(odd) {
-        background-color: rgba(30, 30, 30, 0.6);
-    }
-
-    #customSchedule tbody tr:nth-child(even),
-    table tbody tr:nth-child(even) {
-        background-color: rgba(40, 40, 40, 0.6);
-    }
-
-    #customSchedule tbody tr:hover,
-    table tbody tr:hover {
-        background-color: rgba(60, 60, 60, 0.8);
-    }
-
-    #customSchedule td:first-child,
-    table td:first-child {
-        font-weight: 500;
-        background-color: rgba(50, 50, 50, 0.9);
-        position: sticky;
-        left: 0;
-        z-index: 1;
-    }
-
-    #customSchedule th,
-    table th {
-        background-color: #2d3748;
-        color: white;
-        font-weight: 500;
-    }
-
-    /* Course cell styling */
-    #customSchedule td[class*="course-"] {
-        border-radius: 3px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        transition: transform 0.2s, box-shadow 0.2s;
-        border: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    #customSchedule td[class*="course-"]:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-
-    /* Responsive containers */
-    #main {
-        width: 90%;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px 0;
-    }
-
-    /* Dialog styling improvements */
-    #subjsPopUp {
-        border: none;
-        border-radius: 8px;
-        background-color: #222;
-    }
-
-    .subjsDial {
-        padding: 10px;
-    }
-
-    /* Color styling for courses */
-    .c-30786-disabled,
-    .c-29932-disabled,
-    .c-29389-disabled,
-    .c-29923-disabled {
-        position: relative;
-    }
-
-    /* Border colors using left edge instead of bottom */
-    .c-30786-disabled {
-        border-left: 3px solid #B15252;
-    }
-
-    .c-29932-disabled {
-        border-left: 3px solid #49C15B;
-    }
-
-    .c-29389-disabled {
-        border-left: 3px solid #FCC005;
-    }
-
-    .c-29923-disabled {
-        border-left: 3px solid #709DD1;
-    }
-
-    /* Make sure we have consistent styling for mobile */
-    @media (max-width: 640px) {
-
-        #customSchedule,
-        table {
-            font-size: 0.85rem;
-        }
-
-        #customSchedule th,
-        #customSchedule td,
-        table th,
-        table td {
-            padding: 6px 8px;
-        }
-    }
-
-    /* Styling for the timetable-per-teaching */
-    h2 {
-        margin: 2rem 0 1rem;
-        font-size: 1.4rem;
-        font-weight: 600;
-    }
-
-    h3 {
-        margin: 1.5rem 0 0.75rem;
-        font-size: 1.2rem;
-        font-weight: 500;
-        color: #e2e8f0;
-    }
-
-    h4 {
-        margin: 1rem 0 0.5rem;
-        font-size: 1.05rem;
-        font-weight: 400;
-        color: #cbd5e0;
-    }
-
-    a {
-        color: #63b3ed;
-        text-decoration: none;
-        transition: color 0.2s;
-    }
-
-    a:hover {
-        color: #90cdf4;
-        text-decoration: underline;
-    }
-
-    /* Table container for per-teaching tables */
-    div>table {
-        margin-bottom: 2rem;
-        overflow-x: auto;
-        display: block;
-        width: 100%;
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* Fixed width table */
-    div>table {
-        display: table;
-        width: 100%;
-    }
-</style>
 
 <script>
     const pageDegreeSubjects = new Set(

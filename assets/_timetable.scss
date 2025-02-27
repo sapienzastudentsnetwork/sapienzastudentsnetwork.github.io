@@ -44,13 +44,15 @@
         text-shadow: 0px 0px 15px transparent;
     }
 
-    #subjsINF, #subjsACSAI, #subjsCS {
+    #subjsINF,
+    #subjsACSAI,
+    #subjsCS {
         text-shadow: 0px 0px 15px transparent;
     }
 }
 
 .addSubjs {
-    border-radius: 16px;
+    border-radius: 8px;
     width: 250px;
     height: 32px;
     background-color: var(--timetable-add-button-background);
@@ -61,6 +63,11 @@
     margin: 8px auto 16px auto;
     border: solid var(--border-color) 1.75px;
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: var(--timetable-add-button-hover);
+    }
 }
 
 .cancelledSchedule {
@@ -78,18 +85,96 @@
     transform: rotate(45deg);
 }
 
-.timetableTableCell {
-    padding: 1em 1em;
+/* Modern table styling - common for both timetable types */
+#customSchedule,
+table {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 2rem;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px var(--table-shadow-color);
+    font-size: 0.95rem;
+}
+
+#customSchedule th,
+#customSchedule td,
+table th,
+table td {
+    padding: 8px 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    transition: background-color 0.2s;
+}
+
+.timetableTableCell {
+    padding: 8px 10px;
+    text-align: center;
+    border: 1px solid var(--table-border-color);
     box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
-    .timetableTableCell {
-        padding: 0.5em 0.5em;
-        font-size: 0.9em;
-    }
+#customSchedule tbody tr,
+table tbody tr {
+    border-bottom: 1px solid var(--table-row-border);
+}
+
+#customSchedule tbody tr:last-child,
+table tbody tr:last-child {
+    border-bottom: none;
+}
+
+#customSchedule tbody tr:nth-child(odd),
+table tbody tr:nth-child(odd) {
+    background-color: var(--table-row-odd);
+}
+
+#customSchedule tbody tr:nth-child(even),
+table tbody tr:nth-child(even) {
+    background-color: var(--table-row-even);
+}
+
+#customSchedule tbody tr:hover,
+table tbody tr:hover {
+    background-color: var(--table-row-hover);
+}
+
+#customSchedule td:first-child,
+table td:first-child {
+    font-weight: 500;
+    background-color: var(--table-first-col-bg);
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+
+#customSchedule th,
+table th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+    font-weight: 500;
+}
+
+/* Course cell styling */
+#customSchedule td[class*="course-"] {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px var(--table-cell-shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--table-cell-border);
+}
+
+#customSchedule td[class*="course-"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--table-cell-hover-shadow);
+}
+
+/* Responsive container for tables */
+#main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .subjsDial {
@@ -97,12 +182,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 .subjsList {
     width: 90%;
     display: flex;
     flex-direction: column;
+    margin-bottom: 4px;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
 }
 
 .subjsSingCourse {
@@ -120,11 +210,16 @@
     align-items: center;
     color: var(--body-font-color);
     border: none;
+    border-radius: 4px;
+    transition: background-color 0.2s, transform 0.2s;
+
+    &:hover {
+        background-color: var(--subjbutton-hover-bg);
+    }
 }
 
 .subjIsSelected {
     background-color: rgba(168, 172, 185, 0.75);
-    border-radius: 14px;
     border: none;
 }
 
@@ -144,33 +239,108 @@
     background-color: rgba(195, 156, 31, 0.75);
 }
 
+/* Left border indicators for selected subjects */
+.c-30786-disabled {
+    border-left: 3px solid #B15252;
+}
+
+.c-29932-disabled {
+    border-left: 3px solid #49C15B;
+}
+
+.c-29389-disabled {
+    border-left: 3px solid #FCC005;
+}
+
+.c-29923-disabled {
+    border-left: 3px solid #709DD1;
+}
+
 #subjsCloseMenu {
     width: 150px;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 8px;
     margin: 20px 0 0 0;
     border: solid var(--border-color) 1.75px;
     box-shadow: 1.5px 1.5px 15px rgba(0, 0, 0, 0.75);
     color: var(--body-font-color);
+    background-color: var(--timetable-close-button-bg);
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: var(--timetable-close-button-hover);
+    }
 }
 
 #subjsSelTitle {
     text-align: center;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-    color: #e9ecef;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--body-font-color);
+}
+
+.subjsGroupTitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 #subjsPopUp {
     background: var(--timetable-popup-background);
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
-    border-radius: 16px;
+    border: none;
+    border-radius: 8px;
     box-shadow: 0px 0px var(--timetable-popup-shadow-size) var(--timetable-popup-shadow-color);
 }
 
+/* Course detail sections styling */
+h2 {
+    margin: 2rem 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
 
-/* T I M E T A B L E   S T Y L E */
+h3 {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--h3-color);
+}
 
-#customSchedule {
-    border: var(--body-font-color) dashed 1px;
+h4 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: var(--h4-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+        color: var(--link-hover-color);
+        text-decoration: underline;
+    }
+}
+
+/* Table in narrower viewports */
+@media (max-width: 640px) {
+
+    #customSchedule,
+    table {
+        font-size: 0.85rem;
+    }
+
+    #customSchedule th,
+    #customSchedule td,
+    table th,
+    table td,
+    .timetableTableCell {
+        padding: 6px 8px;
+    }
 }
