@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ $timetable := index site.Data (printf "timetables_classrooms_%s" .Params.classroom) }}
 
-    <h2>Classroom {{ .Params.classroom }} • Weekly Timetable</h2>
+    <h2>Classroom {{ .Params.classroom }}</h2>
 
     <blockquote class="book-hint info" style="border-color: #6bf; background-color: rgba(102, 187, 255, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #6bf; border-radius: .25rem;">
         <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
@@ -13,20 +13,22 @@
 
     <blockquote class="book-hint warning" style="border-color: #fd6; background-color: rgba(253, 214, 102, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #fd6; border-radius: .25rem;">
         <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> <strong>Warning</strong>
-        <p>The classroom is available as a study room <strong>when not in use for lectures or other academic events</strong>. Please <strong>check this page weekly</strong> to see when the room is known to be occupied for academic activities and when it should be free. Note that <strong>some lectures or events may not appear on this page</strong>, as it syncs automatically with the <a href="https://www2.uniroma1.it/servizi/aule/default.php">Sapienza GOMP system</a>, where <strong>not all scheduled classes or events are always uploaded</strong>.</p>
+        <p>The classroom is available as a study room <strong>when not in use for lectures or other academic events</strong>. Please <strong>check this page daily</strong> to see when the room is known to be occupied for academic activities and when it should be free. Note that <strong>some lectures or events may not appear on this page</strong>, as it syncs automatically with the <a href="https://www2.uniroma1.it/servizi/aule/default.php">Sapienza GOMP system</a>, where <strong>not all scheduled classes or events are always uploaded</strong>.</p>
     </blockquote>
 
-    <h3>{{ $timetable.date_range }}</h3>
+    <h3>Weekly Timetable</h3>
+
+    <h4>{{ $timetable.date_range }}</h4>
 
     <table>
         <thead>
         <tr>
-            <th class="timetableTableCell font-light">Time Slot</th>
-            <th class="timetableTableCell font-light">Monday</th>
-            <th class="timetableTableCell font-light">Tuesday</th>
-            <th class="timetableTableCell font-light">Wednesday</th>
-            <th class="timetableTableCell font-light">Thursday</th>
-            <th class="timetableTableCell font-light">Friday</th>
+            <th class="timetableTableCell font-light">Time</th>
+            <th class="timetableTableCell font-light">Mon</th>
+            <th class="timetableTableCell font-light">Tue</th>
+            <th class="timetableTableCell font-light">Wed</th>
+            <th class="timetableTableCell font-light">Thu</th>
+            <th class="timetableTableCell font-light">Fri</th>
         </tr>
         </thead>
         <tbody>
