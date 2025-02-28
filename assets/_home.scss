@@ -56,8 +56,15 @@
     }
 }
 
-.degree_choice_page {
+.darken_overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    background-blend-mode: darken;
+}
+
+.centered_content_page {
     align-items: center;
+    background-position: center;
+    background-size: cover;
 }
 
 .home_box_text_title {
