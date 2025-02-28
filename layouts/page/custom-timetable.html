@@ -47,11 +47,11 @@
 
             {{ $degrees := dict }}
             {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
-            {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
+                {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
             {{ else if or (eq $pageDegreeCode "29932") (eq $pageDegreeCode "29389") }}
-            {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
+                {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
             {{ else }}
-            {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity"
+                {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity"
             }}
             {{ end }}
 
@@ -63,19 +63,19 @@
             {{ $pageDegreeSubjects := slice }}
 
             {{ range $courseCode, $courseData := $dataTimetables }}
-            {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+                {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-            {{ if index $degrees $courseData.degree }}
-            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
-            {{ end }}
+                {{ if index $degrees $courseData.degree }}
+                    {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                {{ end }}
             {{ end }}
 
             {{ range $courseCode, $courseData := $hardcodedDataTimetables }}
-            {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
+                {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-            {{ if index $degrees $courseData.degree }}
-            {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
-            {{ end }}
+                {{ if index $degrees $courseData.degree }}
+                    {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                {{ end }}
             {{ end }}
 
             {{ range $degreeCode, $degreeName := $degrees }}
@@ -86,27 +86,27 @@
 
             <div class="subjsSingCourse">
                 {{ range $code, $data := $allCourses }}
-                {{ if eq $data.degree $degreeCode }}
-                {{ $subject_info := index $courses $code }}
-                {{ range $channel_id, $_ := $data.channels }}
-                <button id="dialog-{{ $code }}-{{ $channel_id }}"
-                    class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
-                    onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
-                    <span class="w-full truncate text-left">
-                        {{ $subject_info.name }}
-                        {{ if ne $channel_id "0" }}
-                        {{ if eq $channel_id "1" }}
-                        (A-L)
-                        {{ else if eq $channel_id "2" }}
-                        (M-Z)
-                        {{ else }}
-                        (Canale {{ $channel_id }})
+                    {{ if eq $data.degree $degreeCode }}
+                        {{ $subject_info := index $courses $code }}
+                        {{ range $channel_id, $_ := $data.channels }}
+                        <button id="dialog-{{ $code }}-{{ $channel_id }}"
+                            class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                            onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                            <span class="w-full truncate text-left">
+                                {{ $subject_info.name }}
+                                {{ if ne $channel_id "0" }}
+                                    {{ if eq $channel_id "1" }}
+                                        (A-L)
+                                    {{ else if eq $channel_id "2" }}
+                                        (M-Z)
+                                    {{ else }}
+                                        (Canale {{ $channel_id }})
+                                    {{ end }}
+                                {{ end }}
+                            </span>
+                        </button>
                         {{ end }}
-                        {{ end }}
-                    </span>
-                </button>
-                {{ end }}
-                {{ end }}
+                    {{ end }}
                 {{ end }}
             </div>
 
@@ -121,7 +121,7 @@
 
 <!-- Add the "Timetables per teaching" part for all courses -->
 {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
-{{ partial "timetables-per-teaching.html" . }}
+    {{ partial "timetables-per-teaching.html" . }}
 {{ end }}
 
 <script>
