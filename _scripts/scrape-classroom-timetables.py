@@ -177,7 +177,7 @@ def get_classroom_schedule():
             output_data = {"date_range": date_range, "timetables": final_schedule}
 
             # Save the result in a JSON file
-            with open(f"../data/timetables_classrooms_{room_name}.json", "w", encoding="utf-8") as f:
+            with open(f"data/timetables_classrooms_{room_name}.json", "w", encoding="utf-8") as f:
                 json.dump(output_data, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
