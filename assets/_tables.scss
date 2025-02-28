@@ -1,0 +1,43 @@
+
+.markdown table,
+.markdown.book-article table,
+.book-article table,
+.book table,
+article table,
+.markdown>table,
+body .markdown table {
+  display: table !important;
+  width: 100% !important;
+  max-width: none !important;
+  table-layout: auto !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  overflow: visible !important;
+}
+
+.markdown,
+.book-article,
+.book-article>div,
+.book-article>section {
+  overflow: visible !important;
+  max-width: none !important;
+}
+
+.markdown table th,
+.markdown table td,
+.book-article table th,
+.book-article table td {
+  display: table-cell !important;
+}
+
+.markdown table tr,
+.book-article table tr {
+  display: table-row !important;
+}
+
+.markdown table thead,
+.markdown table tbody,
+.book-article table thead,
+.book-article table tbody {
+  display: table-row-group !important;
+}
