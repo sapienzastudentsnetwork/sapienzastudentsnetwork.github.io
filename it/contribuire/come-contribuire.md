@@ -83,7 +83,7 @@ Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.co
 4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
 docker build -t hugo-site . # Solo la prima volta che cloni il fork
-sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavori sul progetto
+docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavori sul progetto
 ```
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
