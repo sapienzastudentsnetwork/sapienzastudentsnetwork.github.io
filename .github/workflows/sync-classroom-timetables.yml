@@ -1,4 +1,4 @@
-name: Sync lesson timetables
+name: Sync classroom timetables
 
 on:
   # Triggers this workflow on pushes to the default branch (main)
