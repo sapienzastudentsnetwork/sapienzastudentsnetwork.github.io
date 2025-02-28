@@ -185,6 +185,28 @@ table th {
     padding: 20px 0;
 }
 
+.classroomTimetableText {
+    font-size: 0.8em;
+}
+
+@media (max-width: 450px) {
+    .classroomTimetableText {
+        font-size: 0.7em;
+    }
+}
+
+@media (min-width: 500px) {
+    .classroomTimetableText {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 650px) {
+    .classroomTimetableText {
+        font-size: 1em;
+    }
+}
+
 .subjsDial {
     display: flex;
     flex-direction: column;
@@ -352,4 +374,3 @@ a {
         padding: 6px 8px;
     }
 }
-

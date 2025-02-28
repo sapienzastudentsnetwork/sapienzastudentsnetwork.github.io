@@ -1,0 +1,77 @@
+{{ define "main" }}
+    {{ $timetable := index site.Data (printf "timetables_classrooms_%s" .Params.classroom) }}
+
+    <h2>Classroom {{ .Params.classroom }}</h2>
+
+    <blockquote class="book-hint info" style="border-color: #6bf; background-color: rgba(102, 187, 255, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #6bf; border-radius: .25rem;">
+        <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
+        <p>The classroom is on the <strong>{{ .Params.floor }}</strong> of <strong>Building E</strong> in the Viale Regina Elena complex, accessible from <a href="https://www.google.com/maps/place/Viale+Regina+Elena,+295,+00161+Roma+RM">Viale Regina Elena, 295</a>, or <a href="https://www.google.com/maps/place/Via+del+Castro+Laurenziano,+6,+00161+Roma+RM">Via del Castro Laurenziano, 6</a>.</p>
+        <br/>
+        <i class="fa-solid fa-chair" style="color: #74C0FC;"></i> <strong>Capacity</strong>
+        <p>The classroom has a stated capacity of <strong>{{ .Params.seats }}</strong> seats.</p>
+    </blockquote>
+
+    <blockquote class="book-hint warning" style="border-color: #fd6; background-color: rgba(253, 214, 102, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #fd6; border-radius: .25rem;">
+        <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> <strong>Warning</strong>
+        <p>The classroom is available as a study room <strong>when not in use for lectures or other academic events</strong>. Please <strong>check this page daily</strong> to see when the room is known to be occupied for academic activities and when it should be free. Note that <strong>some lectures or events may not appear on this page</strong>, as it syncs automatically with the <a href="https://www2.uniroma1.it/servizi/aule/default.php">Sapienza GOMP system</a>, where <strong>not all scheduled classes or events are always uploaded</strong>.</p>
+    </blockquote>
+
+    <h3>Weekly Timetable</h3>
+
+    {{- $parts := split $timetable.date_range " - " -}}
+    {{- $start_parts := split (index $parts 0) " " -}}
+    {{- $end_parts := split (index $parts 1) " " -}}
+
+    {{- $start_day := index $start_parts 1 -}}
+    {{- $start_month := index $start_parts 2 -}}
+    {{- $start_year := index $start_parts 3 -}}
+
+    {{- $end_day := index $end_parts 1 -}}
+    {{- $end_month := index $end_parts 2 -}}
+    {{- $end_year := index $end_parts 3 -}}
+
+    {{- $month_map := dict "January" "Jan" "February" "Feb" "March" "Mar" "April" "Apr" "May" "May" "June" "Jun" "July" "Jul" "August" "Aug" "September" "Sep" "October" "Oct" "November" "Nov" "December" "Dec" -}}
+
+    <h4>{{ printf "%s %s %s - %s %s %s %s"
+        (index $start_parts 0) $start_day (index $month_map $start_month)
+        (index $end_parts 0) $end_day (index $month_map $end_month)
+        $end_year }}</h4>
+
+    <table>
+        <thead>
+        <tr>
+            <th class="timetableTableCell font-light classroomTimetableText">Time</th>
+            <th class="timetableTableCell font-light classroomTimetableText">Mon</th>
+            <th class="timetableTableCell font-light classroomTimetableText">Tue</th>
+            <th class="timetableTableCell font-light classroomTimetableText">Wed</th>
+            <th class="timetableTableCell font-light classroomTimetableText">Thu</th>
+            <th class="timetableTableCell font-light classroomTimetableText">Fri</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{- range $time, $_ := $timetable.timetables.monday }}
+        <tr>
+            <td class="timetableTableCell font-light classroomTimetableText">{{ $time }}</td>
+            {{- range $day := slice "monday" "tuesday" "wednesday" "thursday" "friday" }}
+            <td class="timetableTableCell font-light classroomTimetableText">
+                {{- with index $timetable.timetables $day $time }}
+                    {{- if or (findRE "^(Computer Science|Informatica|Applied Computer Science|Cybersecurity)" .) (findRE "\\d{5,7}" .) (findRE "AAF\\d{4}" .) }}Lesson
+                    {{- else if findRE "(?i)\\b(Appello|Esame|Esami|Exam|Exams|Orale|Orali)\\b" . }}Exam
+                    {{- else if findRE "(?i)\\b(Seminario|Seminar)\\b" . }}Seminar
+                    {{- else if findRE "(?i)\\b(Congresso|Evento|Event)\\b" . }}Event
+                    {{- else if findRE "(?i)\\b(Tutoraggio)\\b" . }}Tutoring
+                    {{- else if findRE "(?i)\\b(Laurea)\\b" . }}Graduation
+                    {{- else if . }}Activity
+                    {{- end }}
+                {{- end }}
+            </td>
+            {{- end }}
+        </tr>
+        {{- end }}
+        </tbody>
+    </table>
+
+    <!--<h3>Photos</h3>
+
+    Coming Soon!-->
+{{ end }}
