@@ -4,7 +4,7 @@ bookToc: False
 bookHidden: true
 ---
 
-<h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>
+<h1 align="center" class="title_grad" style="font-weight: 900">Rooms</h1>
 
 <p align="center" style="margin-top: -15px">Information about study spaces for students of the Department of Computer Science: opening hours, availability, and location.</p>
 
