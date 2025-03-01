@@ -55,6 +55,7 @@ for commit in commits_list:
     url = f'https://api.telegram.org/bot{os.getenv("TELEGRAM_BOT_TOKEN")}/sendMessage'
     data = {
         'chat_id': os.getenv('TELEGRAM_CHAT_ID'),
+        'message_thread_id': os.getenv("TELEGRAM_THREAD_ID"),
         'text': message,
         'parse_mode': 'HTML'
     }
