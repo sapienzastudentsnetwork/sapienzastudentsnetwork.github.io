@@ -12,6 +12,10 @@ bookToc: False
 
 🔍 Browse the sections and articles available in the sidebar and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to [contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides 💪
 
+🙌 Join the [sapienzastudents.net Telegram group](https://t.me/+g9Jl3OXMIaM5ODFk) to follow or participate in the site's development
+
+👥 Make sure you also visit the [Telegram groups of the degree course](channels/groups) in order to receive further answers on any topics not yet covered on the pages of this site 😉
+
 ## Featured pages
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
