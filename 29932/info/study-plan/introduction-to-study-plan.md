@@ -1,5 +1,6 @@
 ---
-title: Study Plan
+title: Introduction to Study Plan
+aliases: ["/29932/info/study-plan/study-plan"]
 weight: 1
 ---
 

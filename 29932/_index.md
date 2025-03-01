@@ -27,6 +27,6 @@ bookToc: False
     <div class="home_page" id="home_study_plan">
         <p class="home_box_text_title" id="home_wiki_text">Study Plan</p>
         <p class="home_box_text">Match your interests</p>
-        <button class="explore_more" onclick="window.location.href = 'info/study-plan/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'info/study-plan/introduction-to-study-plan'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
