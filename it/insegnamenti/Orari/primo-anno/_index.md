@@ -32,4 +32,4 @@ timetables:
         - '1015884' # METODOLOGIE DI PROGRAMMAZIONE
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Consulta l'orario delle lezioni del Primo Anno di Informatica

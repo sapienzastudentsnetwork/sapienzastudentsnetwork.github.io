@@ -16,4 +16,4 @@ timetables:
       - '1047643'  # TOPICS IN PHYSICS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out "Turing" lesson timetable for the master's degree in Computer Science

@@ -19,4 +19,4 @@ timetables:
 channel: 1
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Consulta l'orario delle lezioni del Primo Anno di Informatica per il canale A-L

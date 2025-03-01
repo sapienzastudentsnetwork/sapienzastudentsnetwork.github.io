@@ -17,4 +17,4 @@ timetables:
         - '10595533'  # OPTIMIZATION
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the third year of ACSAI

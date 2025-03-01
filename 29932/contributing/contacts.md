@@ -7,4 +7,4 @@ layout: 'contacts/29932'
 type: 'page'
 ---
 
-Check layout/page/contacts/29932.html for this page's content
+Contacts of the Computer Science wiki curators

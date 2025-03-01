@@ -6,4 +6,5 @@ weight: 2
 layout: 'contacts/30786'
 type: 'page'
 ---
-Check layout/page/contacts/30786.html for this page's content
+
+Contacts of the ACSAI wiki curators

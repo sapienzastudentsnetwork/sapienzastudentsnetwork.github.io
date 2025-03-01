@@ -19,4 +19,4 @@ timetables:
         - '1055043'    # STATISTICS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the second year of ACSAI

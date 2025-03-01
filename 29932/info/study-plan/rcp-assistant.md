@@ -8,4 +8,4 @@ bookToc: false
 
 # RCP Assistant
 
-Check layout/page/rcp-assistant.html to analyze this page's content
+A tool to help you choose the two RCPs for your study plan

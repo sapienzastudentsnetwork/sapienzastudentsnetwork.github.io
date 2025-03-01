@@ -24,4 +24,4 @@ timetables:
         - '1054962' # SECURE COMPUTATION
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the first year of Cybersecurity

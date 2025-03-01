@@ -8,4 +8,4 @@ bookToc: false
 degreeCode: '29932'
 ---
 
-Check layout/page/custom-timetable.html to analyze this page's content
+Build your own timetable for the master's degree

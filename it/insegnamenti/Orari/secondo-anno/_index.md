@@ -30,4 +30,4 @@ timetables:
         - '1020422_2' # SISTEMI OPERATIVI I MODULO
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Consulta l'orario delle lezioni del Secondo Anno di Informatica

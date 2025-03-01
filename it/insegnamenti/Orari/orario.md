@@ -8,4 +8,4 @@ bookToc: false
 degreeCode: '29923'
 ---
 
-Check layout/page/custom-timetable.html to analyze this page's content
+Costruisci il tuo orario delle lezioni personalizzato per la triennale

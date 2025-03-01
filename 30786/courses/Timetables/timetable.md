@@ -8,4 +8,4 @@ bookToc: false
 degreeCode: '30786'
 ---
 
-Check layout/page/custom-timetable.html to analyze this page's content
+Build your own timetable for the bachelor's degree

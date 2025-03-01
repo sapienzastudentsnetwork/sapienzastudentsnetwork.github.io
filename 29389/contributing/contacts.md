@@ -7,4 +7,4 @@ layout: 'contacts/29389'
 type: 'page'
 ---
 
-Check layout/page/contacts/29389.html for this page's content
+Contacts of the Cybersecurity wiki curators

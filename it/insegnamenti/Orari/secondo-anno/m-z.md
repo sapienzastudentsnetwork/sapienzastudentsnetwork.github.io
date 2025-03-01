@@ -18,4 +18,4 @@ timetables:
 channel: 2
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Consulta l'orario delle lezioni del Secondo Anno di Informatica per il canale M-Z

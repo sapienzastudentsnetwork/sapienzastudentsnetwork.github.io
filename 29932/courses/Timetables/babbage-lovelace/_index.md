@@ -28,4 +28,4 @@ timetables:
 bookHidden: true
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the first semester of Computer Science

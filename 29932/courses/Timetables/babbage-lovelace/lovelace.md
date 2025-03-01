@@ -18,4 +18,4 @@ timetables:
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out "Lovelace" lesson timetable for the master's degree in Computer Science

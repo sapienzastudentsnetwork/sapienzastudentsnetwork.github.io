@@ -17,4 +17,4 @@ timetables:
       - '10589557' # METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out "Babbage" lesson timetable for the master's degree in Computer Science

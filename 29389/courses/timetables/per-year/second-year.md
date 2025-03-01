@@ -26,4 +26,4 @@ timetables:
         - 'AAF1803' # CYBER SECURITY SEMINARS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the second year of Cybersecurity

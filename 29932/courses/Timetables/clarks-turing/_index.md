@@ -28,4 +28,4 @@ timetables:
       - '1047643'  # TOPICS IN PHYSICS
 ---
 
-Check layout/page/timetables.html to analyze this page's content
+Check out the lesson timetable for the second semester of Computer Science
