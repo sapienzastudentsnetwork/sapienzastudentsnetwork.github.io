@@ -1,7 +1,7 @@
 ---
 title: "Introduzione al Tirocinio"
 bookHidden: false
-aliases: ["/tirocinio", "/it/tirocinio", "/it/info/terzo-anno/tirocinio/", "/informatica/tirocinio"]
+aliases: ["/tirocinio", "/it/tirocinio", "/it/info/terzo-anno/tirocinio", "/informatica/tirocinio"]
 weight: 1
 ---
 
