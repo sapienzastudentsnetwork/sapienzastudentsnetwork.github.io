@@ -43,4 +43,4 @@ Nel terzo anno si completa la formazione informatica con due insegnamenti obblig
 
 Per avere più dettagli su come compilare il percorso formativo e una lista di corsi che è possibile scegliere, consulta la pagina sul [Percorso Formativo](/it/info/terzo-anno/percorso-formativo/).
 
-Per avere più dettagli su come svolgere il tirocinio formativo, consulta la pagina sul [Tirocinio Formativo](/it/info/terzo-anno/tirocinio/).
+Per avere più dettagli su come svolgere il tirocinio formativo, consulta la pagina sul [Tirocinio Formativo](/it/info/terzo-anno/tirocinio/introduzione-al-tirocinio/).
