@@ -1,0 +1,35 @@
+{{ define "main" }}
+    <h1>
+        {{ if .Title }}
+            {{ .Title }}
+        {{ else }}
+            {{ index (split .File.Path "/") 1 }}
+        {{ end }}
+    </h1>
+
+    {{- $allPages := slice -}}
+
+    {{- range .Pages }}
+        {{- if not .Params.bookHidden }}
+            {{- $allPages = $allPages | append . -}}
+        {{- end }}
+    {{- end }}
+
+    {{- $sortedPages := sort $allPages "Weight" -}}
+
+    <ul>
+        {{ range $page := $sortedPages }}
+            <li><a href="{{ .RelPermalink }}">
+                {{ if .Title }}
+                    {{ .Title }}
+                {{ else }}
+                    {{ if .IsSection }}
+                        {{ .File.ContentBaseName }}
+                    {{ else }}
+                        {{ .File }}
+                    {{ end }}
+                {{ end }}
+            </a></li>
+        {{ end }}
+    </ul>
+{{ end }}

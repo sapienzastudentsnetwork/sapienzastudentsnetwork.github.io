@@ -2,4 +2,6 @@
 title: Student Life
 bookCollapseSection: true
 weight: 3
+layout: 'index-page'
+type: 'page'
 ---
