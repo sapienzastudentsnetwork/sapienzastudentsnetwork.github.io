@@ -73,7 +73,7 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 ### Terzo Anno
 
-Il terzo anno è a **canale unificato** anziché diviso in due canali e molti insegnamenti sono a scelta (vedi la [pagina sul percorso formativo](/it/info/terzo-anno/percorso-formativo) per ulteriori informazioni).
+Il terzo anno è a **canale unificato** anziché diviso in due canali e molti insegnamenti sono a scelta (vedi la [pagina sul percorso formativo](/it/info/terzo-anno/percorso-formativo) per ulteriori informazioni in merito).
 
 #### Insegnamenti obbligatori
 
@@ -88,7 +88,7 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali e molti in
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **ACSAI e Teledidattica?**
 
-Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Questo perché al Terzo Anno si ha la possibilità di scegliere materie di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
+Sono presenti link di insegnamenti anche esterni al Corso di Laurea in Informatica: questo perché al Terzo Anno si ha la possibilità di scegliere insegnamenti di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
 {{% /hint %}}
 
 ##### Primo Semestre
@@ -101,8 +101,7 @@ Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Q
   - [Prof. Smeriglio, Corso di Laurea in presenza](https://t.me/+TW9IFCi061Q0Nzk8)
   - [Prof. Corteselli, Corso di Laurea in Teledidattica](https://t.me/+h26LuLyZ0qg3MzU0)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
-- [Programmazione per il Web](https://t.me/+TopZxkqZSSo2MzQ0)
-    - [ACSAI] Web and Software Architecture
+- [Programmazione per il Web / [ACSAI] WASA](https://t.me/+TopZxkqZSSo2MzQ0)
 - [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
 - [[ACSAI] Cybersecurity](https://t.me/+ZLceB7Q8cSA2NzA0)
 
@@ -112,8 +111,7 @@ Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Q
 - [Intelligenza Artificiale](https://t.me/+qSkWuJbIauY2ODI0)
 - [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
 - [Matematica Discreta](https://t.me/+9gj83CXWj6MxZTM8)
-- [Modelli e Ottimizzazione](https://t.me/+nx7dseifrswzNGU6)
-  - [ACSAI] Optimization
+- [Modelli e Ottimizzazione / [ACSAI] Optimization](https://t.me/+nx7dseifrswzNGU6)
 - [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
 - [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
 - [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)
@@ -122,4 +120,8 @@ Sono presenti link anche di materie esterne al Corso di Laurea in Informatica. Q
 - [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
 - [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
 
-Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot), all'interno del quale è anche possibile per chiunque sia amministratore di un gruppo Telegram, o voglia creare un gruppo Telegram di una qualche altra materia non presente in lista, indicizzarlo autonomamente.
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Altri gruppi**
+
+Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot). All'interno del bot è anche possibile, per chiunque sia amministratore di un gruppo Telegram o voglia creare un gruppo Telegram di un qualche altro insegnamento non presente in lista, indicizzarlo autonomamente.
+{{% /hint %}}
