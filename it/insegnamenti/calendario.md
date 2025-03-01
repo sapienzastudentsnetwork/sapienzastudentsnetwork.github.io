@@ -12,7 +12,7 @@ Il calendario può essere consultato anche sulla [pagina ufficiale del dipartime
 | Semestre | Data di Inizio             | Data di Fine             |
 |----------|----------------------------|--------------------------|
 | I        | Lunedì 23 settembre 2024   | Venerdì 20 dicembre 2024 |
-| II       | Mercoledì 26 febbraio 2025 | Venerdì 30 maggio 2024   |
+| II       | Mercoledì 26 febbraio 2025 | Venerdì 30 maggio 2025   |
 
 ## Sessioni d'Esame
 

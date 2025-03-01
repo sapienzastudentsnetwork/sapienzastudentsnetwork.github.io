@@ -12,7 +12,7 @@ The calendar can also be viewed on the [department's official page](https://i3s.
 | Semester | Start Date        | End Date         | 
 |----------|-------------------|------------------|
 | I        | 23 September 2024 | 20 December 2024 |
-| II       | 26 February 2025  | 30 May 2024      |
+| II       | 26 February 2025  | 30 May 2025      |
 
 ## Exams
 
