@@ -526,6 +526,12 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "29923":
+        if "1020422_2" in course_timetables_dict:
+            # 1020422_2 - SISTEMI OPERATIVI II
+
+            if "mercoledì" in course_timetables_dict["1020422_2"]["channels"]["2"]:
+                course_timetables_dict["1020422_2"]["channels"]["2"]["mercoledì"][0]["timeslot"] = "9 - 12"
+
         if "1015889" in course_timetables_dict:
             # 1015889 - RETI DI ELABORATORI
 
