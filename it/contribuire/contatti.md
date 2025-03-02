@@ -6,4 +6,5 @@ weight: 2
 layout: 'contacts/it'
 type: 'page'
 ---
-Apri layout/page/contacts/it.html per il contenuto di questa pagina
+
+Contatti dei principali curatori del progetto sapienzastudents.net

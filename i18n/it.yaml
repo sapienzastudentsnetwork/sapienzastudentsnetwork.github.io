@@ -128,7 +128,10 @@
 #
 
 - id: Contacts_Title
-  translation: 🖋 Contatti dei principali curatori della wiki
+  translation: 👨‍🔧 Curatori sapienzastudents.net
+
+- id: Contributors_Title
+  translation: 🖋 Collaboratori wiki
 
 - id: Contacts_BadgeMeaning
   translation: Cosa significano i badges?
@@ -149,28 +152,40 @@
   translation: Volontario
 
 - id: B_Volunteer_Desc
-  translation: Il collaboratore contribuisce come volontario al progetto
+  translation: Contribuisce come volontario al progetto
 
 - id: B_SSN
   translation: SSN
 
 - id: B_SSN_Desc
-  translation: Il curatore è un membro dell'organizzazione GitHub di Sapienza Students Network
+  translation: Membro dell'organizzazione GitHub di Sapienza Students Network
 
 - id: B_Cont_Cur
   translation: Content Curator
 
 - id: B_Cont_Cur_Desc
-  translation: Il curatore compone/ha composto contenuti per il sito
+  translation: Compone/ha composto contenuti per il sito
 
 - id: B_Code_Dev
   translation: Code Developer
 
 - id: B_Code_Dev_Desc
-  translation: Il curatore sviluppa/ha sviluppato codice per il sito
+  translation: Sviluppa/ha sviluppato codice per il sito
 
 - id: B_Stud_Repr
-  translation: Rappresentante @ CAD
+  translation: Rappresentante
 
 - id: B_Stud_Repr_Desc
-  translation: Il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica ("CAD") di Informatica (dei quattro corsi di laurea trattati nel sito)
+  translation: Rappresentante degli Studenti
+
+- id: B_Stud_CADRepr
+  translation: Rappresentante @ CAD
+
+- id: B_Stud_CADRepr_Desc
+  translation: Rappresentante degli Studenti al Consiglio di Area Didattica (CAD) di Informatica
+
+- id: B_Stud_DIRepr
+  translation: Rappresentante @ DI
+
+- id: B_Stud_DIRepr_Desc
+  translation: Rappresentante degli Studenti al Consiglio di Dipartimento di Informatica

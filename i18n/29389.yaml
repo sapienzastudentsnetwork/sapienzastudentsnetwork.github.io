@@ -129,7 +129,10 @@
 #
 
 - id: Contacts_Title
-  translation: 🖋 Contacts of the wiki's main curators
+  translation: 👨‍🔧 sapienzastudents.net curators
+
+- id: Contributors_Title
+  translation: 🖋 Wiki contributors
 
 - id: Contacts_BadgeMeaning
   translation: What do the badges mean?
@@ -140,14 +143,44 @@
 - id: B_Course_Desc
   translation: Course of study in which the curator studies/studied during their period of studies at Sapienza
 
-- id: B_CyberSecRepr
+- id: B_SSN
+  translation: SSN
+
+- id: B_SSN_Desc
+  translation: Member of the GitHub organization Sapienza Students Network
+
+- id: B_Cont_Cur
+  translation: Content Curator
+
+- id: B_Cont_Cur_Desc
+  translation: Composes/has composed content for the site
+
+- id: B_Code_Dev
+  translation: Code Developer
+
+- id: B_Code_Dev_Desc
+  translation: Develops/has developed code for the site
+
+- id: B_Stud_CyberSecRepr
   translation: Representative @ CyberSec
 
-- id: B_CyberSecRepr_Desc
-  translation: The curator is a Cybersecurity Student Representative
+- id: B_Stud_CyberSecRepr_Desc
+  translation: Cybersecurity Student Representative
 
-- id: B_CSRepr
+- id: B_Stud_Repr
+  translation: Student Representative
+
+- id: B_Stud_Repr_Desc
+  translation: Student Representative
+
+- id: B_Stud_CSRepr
   translation: Representative @ CS
 
-- id: B_CSRepr_Desc
-  translation: The curator is a Computer Science Student Representative
+- id: B_Stud_CSRepr_Desc
+  translation: Computer Science Student Representative
+
+- id: B_Stud_DIRepr
+  translation: Representative @ DI
+
+- id: B_Stud_DIRepr_Desc
+  translation: Student Representative on the Department Council of Computer Science

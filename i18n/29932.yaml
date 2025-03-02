@@ -129,7 +129,10 @@
 #
 
 - id: Contacts_Title
-  translation: 🖋 Contacts of the wiki's main curators
+  translation: 👨‍🔧 sapienzastudents.net curators
+
+- id: Contributors_Title
+  translation: 🖋 Wiki contributors
 
 - id: Contacts_BadgeMeaning
   translation: What do the badges mean?
@@ -144,34 +147,46 @@
   translation: Tutor
 
 - id: B_Tutor_CAD_Desc
-  translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+  translation: Collaborated on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
 
 - id: B_Volunteer
   translation: Volunteer
 
 - id: B_Volunteer_Desc
-  translation: The curator collaborates to the project as a volunteer
+  translation: Collaborates to the project as a volunteer
 
 - id: B_SSN
   translation: SSN
 
 - id: B_SSN_Desc
-  translation: The curator is a member of the GitHub organization Sapienza Students Network
+  translation: Member of the GitHub organization Sapienza Students Network
 
 - id: B_Cont_Cur
   translation: Content Curator
 
 - id: B_Cont_Cur_Desc
-  translation: The curator composes/has composed content for the site
+  translation: Composes/has composed content for the site
 
 - id: B_Code_Dev
   translation: Code Developer
 
 - id: B_Code_Dev_Desc
-  translation: The curator develops/has developed code for the site
+  translation: Develops/has developed code for the site
 
 - id: B_Stud_Repr
-  translation: Representative @ CAD
+  translation: Student Representative
 
 - id: B_Stud_Repr_Desc
-  translation: The curator is a Student Representative at the Didactic Area Council ("CAD") of Computer Science (of the four degree programmes featured on the website)
+  translation: The curator is a Student Representative
+
+- id: B_Stud_CADRepr
+  translation: Representative @ CAD
+
+- id: B_Stud_CADRepr_Desc
+  translation: Student Representative on the Didactic Area Council ("CAD") of Computer Science
+
+- id: B_Stud_DIRepr
+  translation: Representative @ DI
+
+- id: B_Stud_DIRepr_Desc
+  translation: Student Representative on the Department Council of Computer Science
