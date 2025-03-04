@@ -537,7 +537,7 @@ if __name__ == '__main__':
                         },
                         "timeslot": "17 - 19",
                         "classrooms": {
-                          "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
                         }
                     }
                 ]
@@ -635,7 +635,7 @@ if __name__ == '__main__':
                         },
                         "timeslot": "17 - 19",
                         "classrooms": {
-                          "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
                         }
                     }
                 ]
