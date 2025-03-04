@@ -526,6 +526,22 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "29923":
+        if "1022265" in course_timetables_dict:
+            # 1022265 - MODELLI E OTTIMIZZAZIONE
+
+            if "mercoledì" not in course_timetables_dict["1022265"]["channels"]["0"]:
+                course_timetables_dict["1022265"]["channels"]["0"]["mercoledì"] = [
+                    {
+                        "teachers": {
+                          "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+                        },
+                        "timeslot": "17 - 19",
+                        "classrooms": {
+                          "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                        }
+                    }
+                ]
+
         if "1020422_2" in course_timetables_dict:
             # 1020422_2 - SISTEMI OPERATIVI II
 
@@ -608,6 +624,22 @@ if __name__ == '__main__':
                 }
 
     elif degree_programme_code == "30786":
+        if "10595533" in course_timetables_dict:
+            # 10595533 - OPTIMIZATION
+
+            if "mercoledì" not in course_timetables_dict["10595533"]["channels"]["0"]:
+                course_timetables_dict["10595533"]["channels"]["0"]["mercoledì"] = [
+                    {
+                        "teachers": {
+                          "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
+                        },
+                        "timeslot": "17 - 19",
+                        "classrooms": {
+                          "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                        }
+                    }
+                ]
+
         if "10595535" in course_timetables_dict:
             # 10595535 - HUMAN COMPUTER INTERACTION
 
