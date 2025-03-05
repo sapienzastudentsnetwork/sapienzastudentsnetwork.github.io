@@ -1352,6 +1352,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1022265",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "MODELLI E OTTIMIZZAZIONE",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "1022268",
             "room": "AULA 201",

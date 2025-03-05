@@ -641,6 +641,22 @@
           },
           {
             "building": "Edificio: RM018",
+            "course": "10595533",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "OPTIMIZATION",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
             "course": "10595535",
             "room": "Aula 1",
             "schedule": [
