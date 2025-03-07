@@ -1,5 +1,5 @@
 ---
-title: "Contatti di riferimento"
+title: "Curatori progetto"
 aliases: ["/it/contribuire/contatti-di-riferimento", "/it/contribuire/curatori-del-progetto"]
 bookToC: false
 weight: 2

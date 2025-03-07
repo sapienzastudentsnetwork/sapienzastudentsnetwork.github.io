@@ -128,10 +128,10 @@
 #
 
 - id: Contacts_Title
-  translation: 🛠 Curatori progetto
+  translation: Curatori progetto
 
 - id: Contributors_Title
-  translation: 🖋 Collaboratori wiki
+  translation: Collaboratori wiki
 
 - id: Contacts_BadgeMeaning
   translation: Cosa significano i badges?

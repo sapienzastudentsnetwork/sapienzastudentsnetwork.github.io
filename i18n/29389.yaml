@@ -129,10 +129,10 @@
 #
 
 - id: Contacts_Title
-  translation: 🛠 Project curators
+  translation: Project curators
 
 - id: Contributors_Title
-  translation: 🖋 Wiki contributors
+  translation: Wiki contributors
 
 - id: Contacts_BadgeMeaning
   translation: What do the badges mean?
