@@ -162,26 +162,28 @@ weight: 4
 
 ## Appunti della comunità studentesca
 
-Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno collaborato alla stesura di appunti relativi al corso di studi, creando un insieme di materiale utile per il ripasso e l'approfondimento. Gli appunti di ogni studente seguono una struttura propria: alcuni sono più dettagliati e prolissi, spiegando l'intero ragionamento, mentre altri sono più rapidi e concisi 🧙‍♂️
+Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno condiviso i propri appunti di insegnamenti del corso di laurea, creando un insieme di materiale utile per il ripasso e l'approfondimento. Gli appunti di ogni studente o studentessa seguono una struttura propria: alcuni sono più dettagliati e prolissi, spiegando l'intero ragionamento, mentre altri sono più rapidi e concisi 🧙‍♂️
 
 ### Anno di immatricolazione 2024/25
 
-- Sii il primo a contribuire! 🙂
+- Sii il primo o la prima a dare il tuo contributo! 🙂
 
 ### Anno di immatricolazione 2023/24
 
-- [Appunti ajhxia _(Alessia Cassetta)_](https://github.com/ajhxia/UNI)
+- [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
+- [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
+- [Aglaia Norza](https://github.com/AglaiaNorza/notes-ig)
 
 ### Anno di immatricolazione 2022/23
 
-- [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/University_notes)
-- [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
-- [Appunti SimLid _(Simone Lidonnici)_](https://github.com/SimoneLid/Notes-Informatica)
+- [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
+- [Ionut Cicio (CuriousCI)](https://curiousci.github.io/university/)
+- [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
 
 ### Anno di immatricolazione 2021/22
 
-- [Appunti aflaag _(Alessio Bandiera)_](https://github.com/aflaag-notes)
-- [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
+- [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
+- [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
 
 ## SSN | Notes
 
