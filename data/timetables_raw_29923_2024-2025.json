@@ -952,15 +952,26 @@
         "channel": "Canale 2",
         "timetable": [
           {
-            "building": "Edificio: RM018",
+            "building": "Edificio: RM158",
             "course": "1015887",
-            "room": "Aula 2",
+            "room": "Aula 3",
             "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "17:00",
                 "to": "19:00"
-              },
+              }
+            ],
+            "subject": "BASI DI DATI II MODULO",
+            "teachers": [
+              "Esposito Marco"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015887",
+            "room": "Aula 2",
+            "schedule": [
               {
                 "day": "mercoled\u00ec",
                 "from": "14:00",

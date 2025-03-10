@@ -287,9 +287,8 @@
               "168ebdb9-c68e-4715-9eca-124a7a78df08": "Esposito Marco"
             },
             "timeslot": "17 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "mercoled\u00ec": [
@@ -1736,7 +1735,7 @@
             "teachers": {
               "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
             },
-            "timeslot": "15 - 18",
+            "timeslot": "15 - 17",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
@@ -1746,7 +1745,7 @@
             "teachers": {
               "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
             },
-            "timeslot": "16 - 18",
+            "timeslot": "16 - 19",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
