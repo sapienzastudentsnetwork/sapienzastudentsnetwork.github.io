@@ -265,35 +265,6 @@
     },
     "code": "1055043"
   },
-  "10595617_2": {
-    "subject": "DATA MANAGEMENT AND ANALYSIS",
-    "degree": "30786",
-    "channels": {
-      "0": {
-        "martedì": [
-          {
-            "teachers": {
-              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
-            },
-            "timeslot": "15 - 18",
-            "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ],
-        "mercoledì": [
-          {
-            "teachers": {
-              "ca122c9f-ce1c-4c3d-a4a6-32f0af690864": "QUATTROCIOCCHI WALTER"
-            },
-            "timeslot": "16 - 18",
-            "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-          }
-        ]
-      }
-    },
-    "code": "10595617"
-  },
   "1047634": {
     "subject": "INTERNET OF THINGS",
     "degree": "29932",
