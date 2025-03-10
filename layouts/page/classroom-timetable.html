@@ -74,4 +74,59 @@
     <!--<h3>Photos</h3>
 
     Coming Soon!-->
+    
+    <script>
+
+    // this entire script highlights the current day and time in the timetable
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const now = new Date();
+        const dayIndex = now.getDay(); // 0 is Sunday, 1 is Monday, etc.
+        const currentHour = now.getHours();
+        const currentMinute = now.getMinutes();
+        
+        // Skip weekends
+        if (dayIndex > 0 && dayIndex < 6) {
+            // Map day index to column index (add 1 because first column is time)
+            const dayColIndex = dayIndex;
+            
+            const headers = document.querySelectorAll('table thead th');
+            if (headers.length > dayColIndex) {
+                headers[dayColIndex].style.fontWeight = 'bold';
+                headers[dayColIndex].style.backgroundColor = 'rgba(102, 187, 255, 0.1)';
+            }
+            
+            const timeRows = document.querySelectorAll('table tbody tr');
+            timeRows.forEach(row => {
+                const timeCell = row.cells[0];
+                if (timeCell) {
+                    const timeText = timeCell.textContent.trim();
+                    const timeParts = timeText.split('-').map(t => t.trim());
+                    
+                    if (timeParts.length === 2) {
+                        const [startTime, endTime] = timeParts;
+                        const [startHour, startMinute] = startTime.split(':').map(Number);
+                        const [endHour, endMinute] = endTime.split(':').map(Number);
+                        
+                        const currentTotalMinutes = currentHour * 60 + currentMinute;
+                        const startTotalMinutes = startHour * 60 + startMinute;
+                        const endTotalMinutes = endHour * 60 + endMinute;
+                        
+                        if (currentTotalMinutes >= startTotalMinutes && currentTotalMinutes < endTotalMinutes) {
+                            timeCell.style.fontWeight = 'bold';
+                            timeCell.style.backgroundColor = 'rgba(102, 187, 255, 0.1)';
+                            
+                            if (row.cells.length > dayColIndex) {
+                                const currentCell = row.cells[dayColIndex];
+                                currentCell.style.fontWeight = 'bold';
+                                currentCell.style.backgroundColor = 'rgba(102, 187, 255, 0.2)';
+                                currentCell.style.boxShadow = '0 0 4px rgba(102, 187, 255, 0.5)';
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    });
+    </script>
 {{ end }}
