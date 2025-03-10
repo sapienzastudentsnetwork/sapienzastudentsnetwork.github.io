@@ -50,7 +50,11 @@
             {{- range $day := slice "monday" "tuesday" "wednesday" "thursday" "friday" }}
             <td class="timetableTableCell font-light classroomTimetableText">
                 {{- with index $timetable.timetables $day $time }}
-                    {{- if or (findRE "^(Computer Science|Informatica|Applied Computer Science|Cybersecurity)" .) (findRE "\\d{5,7}" .) (findRE "AAF\\d{4}" .) }}Lesson
+                    {{- if findRE "(?i)\\b(Cybersecurity PhD Course - Post-Quantum Cryptography)\\b" . }}Lesson?
+                    {{- else if or
+                        (findRE "^(Computer Science|Informatica|Applied Computer Science|Cybersecurity|Lezione|Lesson)" .)
+                        (findRE "\\d{5,7}" .)
+                        (findRE "AAF\\d{4}" .) }}Lesson
                     {{- else if findRE "(?i)\\b(Appello|Esame|Esami|Exam|Exams|Orale|Orali)\\b" . }}Exam
                     {{- else if findRE "(?i)\\b(Seminario|Seminar)\\b" . }}Seminar
                     {{- else if findRE "(?i)\\b(Congresso|Evento|Event)\\b" . }}Event

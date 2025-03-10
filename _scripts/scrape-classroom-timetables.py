@@ -158,6 +158,13 @@ def get_classroom_schedule():
 
             # Initialize the schedule dictionary
             schedule = {days_mapping[day]: {} for day in days if day in days_mapping}
+
+            # Hard-code a possible schedule for T1 on Friday
+            # Cybersecurity PhD Course - Post-Quantum Cryptography
+            if room_name == "T1":
+                schedule["friday"]["11:00-12:00"] = "Cybersecurity PhD Course - Post-Quantum Cryptography"
+                schedule["friday"]["12:00-13:00"] = "Cybersecurity PhD Course - Post-Quantum Cryptography"
+
             for row in soup.find_all('tr'):
                 timeslot_cell = row.find('td', class_='orario')
                 if timeslot_cell:
