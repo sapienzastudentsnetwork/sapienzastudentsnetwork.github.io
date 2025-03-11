@@ -113,5 +113,10 @@
     "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
     "address": null,
     "mapsUrl": null
+  },
+  "db890f28-5b24-475c-9a54-c9ee2f29c091": {
+    "description": "Aula 7 - Fisica \\\"Enrico Fermi\\\" - Scienze matematiche fisiche e naturali",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": "https://maps.google.com/maps?q=41.901678,+12.515825+(Aula+7)&iwloc=A&hl=it"
   }
 }
