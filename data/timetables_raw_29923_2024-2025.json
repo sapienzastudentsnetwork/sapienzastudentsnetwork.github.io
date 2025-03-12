@@ -968,6 +968,22 @@
             ]
           },
           {
+            "building": "Edificio: CU032",
+            "course": "1015887",
+            "room": "aula I",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "BASI DI DATI II MODULO",
+            "teachers": [
+              "Esposito Marco"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1015888",
             "room": "Aula 2",

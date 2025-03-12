@@ -290,6 +290,17 @@
             "classroomInfo": "Aula 3 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "168ebdb9-c68e-4715-9eca-124a7a78df08": "Esposito Marco"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
+            }
+          }
         ]
       }
     },
