@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 10 March 2025 - Friday 14 March 2025",
+    "date_range": "Monday 17 March 2025 - Friday 21 March 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -48,9 +48,9 @@
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
-            "15:00-16:00": "Lezione prof. Casalicchio",
-            "16:00-17:00": "Lezione prof. Casalicchio",
-            "17:00-18:00": "Lezione prof. Casalicchio",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "",
             "18:00-19:00": ""
         },
         "friday": {
