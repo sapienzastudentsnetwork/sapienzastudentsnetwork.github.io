@@ -624,9 +624,9 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM111",
+            "building": "Edificio: RM158",
             "course": "10595533",
-            "room": "Aula Magna",
+            "room": "Aula 1",
             "schedule": [
               {
                 "day": "marted\u00ec",
@@ -709,9 +709,9 @@
             ]
           },
           {
-            "building": "Edificio: RM111",
+            "building": "Edificio: RM158",
             "course": "10595537",
-            "room": "Aula Magna",
+            "room": "Aula 1",
             "schedule": [
               {
                 "day": "marted\u00ec",

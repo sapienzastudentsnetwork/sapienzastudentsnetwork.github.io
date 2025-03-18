@@ -4,6 +4,11 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+1)&iwloc=A&hl=it"
   },
+  "8c93a07d-b833-4dae-a4ff-302f0f065453": {
+    "description": "Aula 1 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
   "1e079880-d2d2-49ef-8058-c58ab0baa4b4": {
     "description": "Aula 11 - Aule 11-12-13",
     "address": "Via Antonio Scarpa, 12",
