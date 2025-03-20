@@ -21,7 +21,7 @@ bookHidden: true
         <p class="home_box_text degree_choice_box_text">Regina Elena, Building E</p>
         <button class="explore_more" onclick="window.location.href = 'regina-elena/e/s1/'">Info&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page centered_content_page" id="degree_choice_acsai">
+    <div class="home_page centered_content_page darken_overlay" style="background-image: url('https://i.imgur.com/Jelr641.png')">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_enroll_text">T1 (Floor 0)</p>
         <p class="home_box_text degree_choice_box_text">Regina Elena, Building E</p>
         <button class="explore_more" onclick="window.location.href = 'regina-elena/e/t1/'">Info&nbsp<i class="fa-solid fa-arrow-right"></i></button>
