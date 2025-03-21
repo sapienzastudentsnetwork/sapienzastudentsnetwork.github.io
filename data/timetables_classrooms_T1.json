@@ -1,18 +1,18 @@
 {
-    "date_range": "Monday 17 March 2025 - Friday 21 March 2025",
+    "date_range": "Monday 24 March 2025 - Friday 28 March 2025",
     "timetables": {
         "monday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": ""
+            "08:00-09:00": "Seduta di laurea DI",
+            "09:00-10:00": "Seduta di laurea DI",
+            "10:00-11:00": "Seduta di laurea DI",
+            "11:00-12:00": "Seduta di laurea DI",
+            "12:00-13:00": "Seduta di laurea DI",
+            "13:00-14:00": "Seduta di laurea DI",
+            "14:00-15:00": "Seduta di laurea DI",
+            "15:00-16:00": "Seduta di laurea DI",
+            "16:00-17:00": "Seduta di laurea DI",
+            "17:00-18:00": "Seduta di laurea DI",
+            "18:00-19:00": "Seduta di laurea DI"
         },
         "tuesday": {
             "08:00-09:00": "",
@@ -28,8 +28,8 @@
             "18:00-19:00": ""
         },
         "wednesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
+            "08:00-09:00": "Seduta di laurea",
+            "09:00-10:00": "Seduta di laurea",
             "10:00-11:00": "Computer Science - Informatica LM-18 1047643 TOPICS IN PHYSICS Rapagnani P.",
             "11:00-12:00": "Computer Science - Informatica LM-18 1047643 TOPICS IN PHYSICS Rapagnani P.",
             "12:00-13:00": "Computer Science - Informatica LM-18 1047643 TOPICS IN PHYSICS Rapagnani P.",
@@ -37,8 +37,8 @@
             "14:00-15:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "16:00-17:00": "",
-            "17:00-18:00": "Prove tecniche per la seduta di laurea di marzo a cura del sig. Paolo Fontana",
-            "18:00-19:00": "Prove tecniche per la seduta di laurea di marzo a cura del sig. Paolo Fontana"
+            "17:00-18:00": "",
+            "18:00-19:00": ""
         },
         "thursday": {
             "08:00-09:00": "",
@@ -55,10 +55,10 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
-            "12:00-13:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
+            "09:00-10:00": "Seduta di laurea",
+            "10:00-11:00": "Seduta di laurea",
+            "11:00-12:00": "Seduta di laurea Cybersecurity PhD Course - Post-Quantum Cryptography",
+            "12:00-13:00": "Seduta di laurea Cybersecurity PhD Course - Post-Quantum Cryptography",
             "13:00-14:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
