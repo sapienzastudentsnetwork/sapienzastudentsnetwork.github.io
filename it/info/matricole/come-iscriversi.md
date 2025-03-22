@@ -8,9 +8,7 @@ aliases: ["/it/info/matricole/iscriversi"]
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Le informazioni qui riportate sono basate sul [**D.R. n. 380**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14617_l31_ing._informatica_i3s_2024-2025.pdf). Si consiglia di controllare la pagina dedicata ai [corsi ad accesso programmato](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni) per verificare la presenza di un bando L-31 più recente.
-
-La guida che segue è stata elaborata in vista dei bandi di accesso per l'Anno Accademico 2024/25 e dovrà essere aggiornata in concomitanza con i bandi di accesso per l'Anno Accademico 2025/26.
+Le informazioni qui riportate sono basate sul [**D.R. n. 811/2025**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14617_i.pdf). Si consiglia di controllare la pagina dedicata ai [corsi ad accesso programmato](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni) per verificare la presenza di un bando L-31 più recente.
 {{% /hint %}}
 
 {{% hint info %}}
@@ -42,9 +40,9 @@ Per partecipare alle selezioni, il primo passo è registrarsi sul sito CISIA e s
 
 | Selezione             | Data limite per sostenere il TOLC | Chiusura iscrizioni       |
 |-----------------------|-----------------------------------|---------------------------|
-| **Prima selezione**   | ~~11 aprile 2024~~                | Circa una settimana prima |
-| **Seconda selezione** | ~~29 luglio 2024~~                | Circa una settimana prima |
-| **Terza selezione**   | ~~9 settembre 2024~~              | Circa una settimana prima |
+| **Prima selezione**   | 14 aprile 2025                | Circa una settimana prima |
+| **Seconda selezione** | 21 luglio 2025                | Circa una settimana prima |
+| **Terza selezione**   | 8 settembre 2024              | Circa una settimana prima |
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
@@ -58,9 +56,9 @@ In base alla selezione è necessario registrarsi a Infostud e pagare il contribu
 
 | Selezione             | Periodo per la registrazione ad Infostud e pagamento dei €10 |
 |-----------------------|--------------------------------------------------------------|
-| **Prima selezione**   | ~~Dal 20 febbraio all'11 aprile 2024~~                       |
-| **Seconda selezione** | ~~Dal 7 maggio al 29 luglio 2024~~                           |
-| **Terza selezione**   | ~~Dal 2 agosto al 9 settembre 2024~~                         |
+| **Prima selezione**   | Dal 13 marzo al 14 aprile 2025                       |
+| **Seconda selezione** | Dall'8 Maggio al 21 Luglio 2025                           |
+| **Terza selezione**   | Dal 31 Luglio all'8 Settembre 2025                         |
 
 
 ## Registrarsi ad Infostud
@@ -100,9 +98,9 @@ Le date di pubblicazione delle graduatorie sono indicate nel [Calendario delle p
 
 | Selezione             | Pubblicazione Graduatorie |
 |-----------------------|---------------------------|
-| **Prima selezione**   | ~~17 aprile 2024~~        |
-| **Seconda selezione** | ~~2 agosto 2024~~         |
-| **Terza selezione**   | ~~12 settembre 2024~~     |
+| **Prima selezione**   | 29 aprile 2025        |
+| **Seconda selezione** | 31 luglio 2025         |
+| **Terza selezione**   | 17 settembre 2025     |
 
 Le graduatorie vengono pubblicate nella pagina [Graduatorie](https://www.uniroma1.it/it/node/40540).
 
@@ -117,9 +115,9 @@ La pre-immatricolazione è riservata ai soli vincitori della prima selezione che
 - Hanno ottenuto nel TOLC-I un punteggio maggiore o uguale a 18/50;
 - Risultano posizionati in graduatoria entro il limite dei posti disponibili.
 
-Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le istruzioni riportate alla [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce “Pre-immatricolazione”. Il codice corso da inserire è: ```29923```.
+Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le istruzioni riportate alla [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce “Pre-immatricolazione”. Il codice corso da inserire è: ```33503```.
 
-La pre-immatricolazione prevede il versamento di un contributo pari a €200,00 ~~a partire dal 17 aprile ed entro il 7 maggio 2024~~, salvo eventuali riduzioni o esenzioni commisurate all’Isee ~~2024~~ per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
+La pre-immatricolazione prevede il versamento di un contributo pari a €200,00, salvo eventuali riduzioni o esenzioni commisurate all’Isee 2025 per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -129,7 +127,7 @@ Coloro che non effettueranno la pre-immatricolazione entro la data prescritta **
 
 ## Immatricolazione
 
-La procedura di immatricolazione è necessaria per perfezionare l’iscrizione al corso di studio per tutti i vincitori in graduatoria della prima, della seconda e della terza selezione. Il codice corso da inserire è: ```29923```.
+La procedura di immatricolazione è necessaria per perfezionare l’iscrizione al corso di studio per tutti i vincitori in graduatoria della prima, della seconda e della terza selezione. Il codice corso da inserire è: ```33503```.
 
 ### Pre-immatricolati
 
@@ -143,7 +141,7 @@ Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, 
 
 ### Vincitori della seconda selezione
 
-I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il ~~**2 agosto 2024**~~, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
+I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblicata il 31 Luglio 2025, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#seconda-selezione).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -153,7 +151,7 @@ Lo studente che, pur vincitore della seconda selezione, non effettua l’immatri
 
 ### Vincitori della terza selezione
 
-I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il ~~**12 settembre 2024**~~, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
+I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicata il 17 Settembre 2025, devono immatricolarsi entro le scadenze indicate nel [Calendario delle procedure](#terza-selezione).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -163,7 +161,7 @@ Lo studente che, pur vincitore della terza selezione, non effettua l’immatrico
 
 ### Come immatricolarsi?
 
-L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’Anno Accademico ~~2024/2025~~ a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
+L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’Anno Accademico 2025/2026 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Esenzione dai contributi**
@@ -174,7 +172,7 @@ Durante la procedura di immatricolazione è possibile inserire eventuali condizi
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee ~~2024~~ per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
+È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee 2025 per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
 {{% /hint %}}
 
 Le informazioni sugli importi e le agevolazioni per gli studenti con residenza fiscale in Italia sono riportate al seguente [link](https://www.uniroma1.it/it/node/24520). Le informazioni sugli importi per gli studenti con residenza fiscale estera sono riportate al seguente [link](https://www.uniroma1.it/en/pagina/tuition-fees-and-grants#fees-for-students-with-foreign-citizenship-and-or-foreign-income).
@@ -186,12 +184,12 @@ Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica sono assegnati a:
 - Chi si è iscritto alla terza selezione e risulta vincitore, ma non ha ottenuto un punteggio di almeno 18/50 nel TOLC-I.
 - Chi si è immatricolato coprendo eventuali posti liberi dopo il completo scorrimento della graduatoria dell’ultima selezione, e ha ottenuto un punteggio inferiore a 18/50 nel TOLC-I.
 
-Gli OFA si assolvono superando l’esame curriculare [Metodi matematici per l'Informatica (6 CFU)](https://www.corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/234eae2d-5a31-4233-b38a-aa8ce26aed31/d623530a-d41c-444b-8cb0-9db90bcbfed3?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857&current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
+Gli OFA si assolvono superando l’esame curriculare [Metodi matematici per l'Informatica (6 CFU)](https://www.corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/234eae2d-5a31-4233-b38a-aa8ce26aed31/d623530a-d41c-444b-8cb0-9db90bcbfed3?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857¤t_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Fino al superamento dell'esame curriculare entro il ~~31 ottobre 2025~~, non sarà possibile sostenere gli esami di anni successivi al primo.
+Fino al superamento dell'esame curriculare entro il 31 ottobre 2026, non sarà possibile sostenere gli esami di anni successivi al primo.
 {{% /hint %}}
 
 ## Calendario delle procedure
@@ -200,32 +198,38 @@ Fino al superamento dell'esame curriculare entro il ~~31 ottobre 2025~~, non sar
 
 | Prima selezione                                           | Periodo/Scadenza                         |
 |-----------------------------------------------------------|------------------------------------------|
-| Iscrizione alla selezione                                 | ~~Dal 20 febbraio all'11 aprile 2024~~   |
-| Pubblicazione graduatoria di merito                       | ~~17 aprile 2024~~                       |
-| Fase della pre-immatricolazione per i candidati vincitori | ~~Dal 17 aprile al 7 maggio 2024~~       |
-| Fase delle immatricolazioni per i pre-immatricolati       | ~~Dal 2 settembre al 11 settembre 2024~~ |
+| Iscrizione alla selezione                                 | Dal 13 Marzo al 14 Aprile 2025   |
+| Pubblicazione elenco partecipanti con relativo punteggio                       | 17 Aprile 2025                       |
+|Scadenza segnalazioni per eventuali incongruenze|22 Aprile 2025|
+| Pubblicazione graduatoria di merito                       | 29 Aprile 2025                       |
+| Fase della pre-immatricolazione per i candidati vincitori | Dal 29 Aprile all' 8 Maggio 2025       |
+| Fase delle immatricolazioni per i pre-immatricolati       | Dal 1° Settembre al 4 Settembre 2025 |
 
 ### Seconda selezione
 
 | Seconda selezione                                    | Periodo/Scadenza                         |
 |------------------------------------------------------|------------------------------------------|
-| Iscrizione alla selezione                            | ~~Dal 7 maggio al 29 luglio 2024~~       |
-| Comunicazione numero effettivo di posti disponibili  | ~~14 maggio 2024~~                       |
-| Pubblicazione graduatoria                            | ~~2 agosto 2024~~                        |
-| Fase delle immatricolazioni per i candiati vincitori | ~~Dal 2 settembre al 11 settembre 2024~~ |
+| Iscrizione alla selezione                            | Dall'8 Maggio al 21 Luglio 2025       |
+| Comunicazione numero effettivo di posti disponibili  | 15 Maggio 2025                       |
+| Pubblicazione elenco partecipanti con relativo punteggio                            | 23 Luglio 2025                        |
+|Scadenza segnalazioni per eventuali incongruenze|28 Luglio 2025|
+| Pubblicazione graduatoria                            | 31 Luglio 2025                        |
+| Fase delle immatricolazioni per i candiati vincitori | Dal 1° Settembre al 4 Settembre 2025 |
 
 ### Terza selezione
 
 
 | Terza selezione                                                                                | Periodo/Scadenza                          |
 |------------------------------------------------------------------------------------------------|-------------------------------------------|
-| Iscrizione alla selezione                                                                      | ~~Dal 2 agosto al 9 settembre 2024~~      |
-| Comunicazione numero effettivo di posti disponibili                                            | ~~9 settembre 2024~~                      |
-| Pubblicazione graduatoria                                                                      | ~~12 settembre 2024~~                     |
-| Fase delle immatricolazioni per i candidati vincitori                                          | ~~Dal 12 settembre al 17 settembre 2024~~ |
-| Pubblicazione primo eleneco di subentri e inizio immatricolazioni per i candidati subentranti  | ~~20 settembre 2024~~                     |
-| Scadenza immatricolazione primo elenco di subentrantri                                         | ~~25 settembre 2024~~                     |
-| Pubblicazione secondo elenco di subentri e inizio immatricolazioni per i candidati subentranti | ~~30 settembre 2024~~                     |
-| Scadenza immatricolazione secondo elenco di subentrantri                                       | ~~3 ottobre 2024~~                        |
-| Pubblicazione terzo elenco di subentri e inizio immatricolazione per i candidati subentranti   | ~~7 ottobre 2024~~                        |
-| Scadenza immatricolazione terzo elenco di subentranti                                          | ~~10 ottobre 2024~~                       |
+| Iscrizione alla selezione                                                                      | Dal 31 Luglio all'8 Settembre 2025      |
+| Comunicazione numero effettivo di posti disponibili                                            | 8 Settembre 2025                      |
+| Pubblicazione elenco partecipanti con relativo punteggio                                                                      | 11 Settembre 2025                     |
+|Scadenza segnalazioni per eventuali incongruenze|14 Settembre 2025|
+| Pubblicazione graduatoria                                                                      | 17 Settembre 2025                     |
+| Fase delle immatricolazioni per i candidati vincitori                                          | Dal 17 Settembre al 22 Settembre 2025 |
+| Pubblicazione primo eleneco di subentri e inizio immatricolazioni per i candidati subentranti  | 24 Settembre 2025                     |
+| Scadenza immatricolazione primo elenco di subentrantri                                         | 29 Settembre 2025                     |
+| Pubblicazione secondo elenco di subentri e inizio immatricolazioni per i candidati subentranti | 1° Ottobre 2025                     |
+| Scadenza immatricolazione secondo elenco di subentrantri                                       | 6 Ottobre 2025                        |
+| Pubblicazione terzo elenco di subentri e inizio immatricolazione per i candidati subentranti   | 8 Ottobre 2025                        |
+| Scadenza immatricolazione terzo elenco di subentranti                                          | 13 Ottobre 2025                       |
