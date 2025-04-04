@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 31 March 2025 - Friday 04 April 2025",
+    "date_range": "Monday 07 April 2025 - Friday 11 April 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -12,8 +12,7 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         },
         "tuesday": {
             "08:00-09:00": "",
@@ -26,8 +25,7 @@
             "15:00-16:00": "Computer Science - Informatica LM-18 10612318 ADVANCED ARCHITECTURES MASSINI A.",
             "16:00-17:00": "Computer Science - Informatica LM-18 10612318 ADVANCED ARCHITECTURES MASSINI A.",
             "17:00-18:00": "",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         },
         "wednesday": {
             "08:00-09:00": "",
@@ -38,15 +36,14 @@
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
-            "16:00-17:00": "Appello straordinario Metodi Matematici per l'Informatica",
-            "17:00-18:00": "Appello straordinario Metodi Matematici per l'Informatica",
-            "18:00-18:30": "Appello straordinario Metodi Matematici per l'Informatica",
-            "18:30-19:00": ""
+            "16:00-17:00": "",
+            "17:00-18:00": "",
+            "18:00-19:00": ""
         },
         "thursday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Appello straordinario Reti Elaboratori e Autonomous Networking (Prof.ssa Maselli)",
-            "10:00-11:00": "Appello straordinario Reti Elaboratori e Autonomous Networking (Prof.ssa Maselli)",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
             "11:00-12:00": "Computer Science - Informatica LM-18 10612318 ADVANCED ARCHITECTURES MASSINI A.",
             "12:00-13:00": "Computer Science - Informatica LM-18 10612318 ADVANCED ARCHITECTURES MASSINI A.",
             "13:00-14:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
@@ -54,8 +51,7 @@
             "15:00-16:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
             "16:00-17:00": "",
             "17:00-18:00": "Cybersecurity LM-66 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
-            "18:00-18:30": "Cybersecurity LM-66 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
-            "18:30-19:00": "Cybersecurity LM-66 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F."
+            "18:00-19:00": "Cybersecurity LM-66 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F."
         },
         "friday": {
             "08:00-09:00": "",
@@ -68,8 +64,7 @@
             "15:00-16:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "16:00-17:00": "Computer Science - Informatica LM-18 1047643 TOPICS IN PHYSICS Rapagnani P.",
             "17:00-18:00": "Computer Science - Informatica LM-18 1047643 TOPICS IN PHYSICS Rapagnani P.",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         }
     }
 }

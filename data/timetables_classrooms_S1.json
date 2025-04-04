@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 31 March 2025 - Friday 04 April 2025",
+    "date_range": "Monday 07 April 2025 - Friday 11 April 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -48,17 +48,17 @@
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
+            "15:00-16:00": "Lezione prof. Casalicchio",
+            "16:00-17:00": "Lezione prof. Casalicchio",
+            "17:00-18:00": "Lezione prof. Casalicchio",
             "18:00-19:00": ""
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Appello straordinario prof. Richelli",
-            "10:00-11:00": "Appello straordinario prof. Richelli",
-            "11:00-12:00": "Appello straordinario prof. Richelli",
-            "12:00-13:00": "Appello straordinario prof. Richelli",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047613 ADVANCED ALGORITHMS CHIERICHETTI F.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047613 ADVANCED ALGORITHMS CHIERICHETTI F.",
