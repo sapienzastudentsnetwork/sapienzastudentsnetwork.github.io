@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 07 April 2025 - Friday 11 April 2025",
+    "date_range": "Monday 14 April 2025 - Friday 18 April 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -10,9 +10,9 @@
             "13:00-14:00": "",
             "14:00-15:00": "",
             "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": ""
+            "16:00-17:00": "Appello straordinario Blockchain and Distributed Ledger - Massimo La Morgia",
+            "17:00-18:00": "Appello straordinario Blockchain and Distributed Ledger - Massimo La Morgia",
+            "18:00-19:00": "Appello straordinario Blockchain and Distributed Ledger - Massimo La Morgia"
         },
         "tuesday": {
             "08:00-09:00": "",
