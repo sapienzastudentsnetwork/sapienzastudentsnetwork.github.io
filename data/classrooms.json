@@ -89,16 +89,6 @@
     "address": null,
     "mapsUrl": null
   },
-  "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": {
-    "description": "Aula Alfa - Sociologia",
-    "address": "Via Salaria, 113/117",
-    "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
-  },
-  "09ed7b4c-8a68-4d79-826b-5c928e529eb4": {
-    "description": "Aula T - seminari e tesi - Vetreria Sciarra",
-    "address": "Via dei Volsci, 122",
-    "mapsUrl": null
-  },
   "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
     "description": "Aula A5 -",
     "address": "Via Ariosto, 25",
@@ -113,6 +103,11 @@
     "description": "Aula A7 -",
     "address": "Via Ariosto, 25",
     "mapsUrl": null
+  },
+  "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": {
+    "description": "Aula Alfa - Sociologia",
+    "address": "Via Salaria, 113/117",
+    "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
   },
   "7074643f-5bed-49b9-85e9-c646c0b06009": {
     "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
