@@ -38,27 +38,6 @@
           },
           {
             "building": "Edificio: RM115",
-            "course": "1041792",
-            "room": "Aula G50",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "BIOMETRIC SYSTEMS",
-            "teachers": [
-              "DE MARSICO MARIA"
-            ]
-          },
-          {
-            "building": "Edificio: RM115",
             "course": "1047616",
             "room": "Aula G50",
             "schedule": [
@@ -684,38 +663,6 @@
             ]
           },
           {
-            "building": "Edificio: RM025",
-            "course": "10589555",
-            "room": "Aula informatica 15",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "12:00",
-                "to": "15:00"
-              }
-            ],
-            "subject": "PRACTICAL NETWORK DEFENSE",
-            "teachers": [
-              "SPOGNARDI ANGELO"
-            ]
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "10589555",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "11:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "PRACTICAL NETWORK DEFENSE",
-            "teachers": [
-              "SPOGNARDI ANGELO"
-            ]
-          },
-          {
             "building": "Edificio: RM115",
             "course": "10589557",
             "room": "Aula G50",
@@ -839,27 +786,6 @@
             "subject": "BIG DATA COMPUTING",
             "teachers": [
               "TOLOMEI GABRIELE"
-            ]
-          },
-          {
-            "building": "Edificio: RM115",
-            "course": "1041792",
-            "room": "Aula G50",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              }
-            ],
-            "subject": "BIOMETRIC SYSTEMS",
-            "teachers": [
-              "DE MARSICO MARIA"
             ]
           },
           {
@@ -1581,38 +1507,6 @@
             "subject": "TOPICS IN PHYSICS",
             "teachers": [
               "Rapagnani Piero"
-            ]
-          },
-          {
-            "building": "Edificio: RM025",
-            "course": "10589555",
-            "room": "Aula informatica 15",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "12:00",
-                "to": "15:00"
-              }
-            ],
-            "subject": "PRACTICAL NETWORK DEFENSE",
-            "teachers": [
-              "SPOGNARDI ANGELO"
-            ]
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "10589555",
-            "room": "Aula 1",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "11:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "PRACTICAL NETWORK DEFENSE",
-            "teachers": [
-              "SPOGNARDI ANGELO"
             ]
           },
           {
