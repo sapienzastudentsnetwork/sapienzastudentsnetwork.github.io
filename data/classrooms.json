@@ -29,25 +29,20 @@
     "address": null,
     "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
-  "27a4966a-0abc-418d-aa04-ea3973e3cdef": {
-    "description": "Aula 3 - Aule L",
-    "address": "Via del Castro Laurenziano, 7a",
-    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+3)&iwloc=A&hl=it"
-  },
   "0423606b-48fc-4638-a851-eab7563981a2": {
     "description": "Aula 4 - Aule temporanee",
     "address": null,
     "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
+  "db890f28-5b24-475c-9a54-c9ee2f29c091": {
+    "description": "Aula 7 - Fisica \\\"Enrico Fermi\\\" - Scienze matematiche fisiche e naturali",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": "https://maps.google.com/maps?q=41.901678,+12.515825+(Aula+7)&iwloc=A&hl=it"
+  },
   "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
     "description": "Aula G50 - Regina Elena - Edificio G",
     "address": "Viale Regina Elena, 295",
     "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
-  },
-  "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": {
-    "description": "aula I - Chimica \\\"Vincenzo Caglioti\\\" - Scienze Matematiche Fisiche e Naturali",
-    "address": "Piazzale Aldo Moro, 5",
-    "mapsUrl": "https://maps.google.com/maps?q=41.901572,+12.516295+(aula+I)&iwloc=A&hl=it"
   },
   "50369700-02c9-46b7-a8f6-cd0171322dee": {
     "description": "Aula informatica 15",
@@ -68,60 +63,5 @@
     "description": "Aula Magna - Regina Elena - Edificio C",
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
-  },
-  "3204f38e-7393-4457-a108-c048458d026a": {
-    "description": "Aula S1 - Regina Elena - Edificio E",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": null
-  },
-  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
-    "description": "Aula T1 - Regina Elena - Edificio E",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": null
-  },
-  "1dc4ff8b-cbba-420b-bdd8-0128d5937cae": {
-    "description": "Aula Tullio Levi-Civita - Matematica \\\"Guido Castelnuovo\\\" - Scienze matematiche fisiche e naturali",
-    "address": null,
-    "mapsUrl": null
-  },
-  "cab0d0ee-1faa-4552-9587-7a559480dde4": {
-    "description": "Aula A2 -",
-    "address": null,
-    "mapsUrl": null
-  },
-  "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": {
-    "description": "Aula Alfa - Sociologia",
-    "address": "Via Salaria, 113/117",
-    "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
-  },
-  "09ed7b4c-8a68-4d79-826b-5c928e529eb4": {
-    "description": "Aula T - seminari e tesi - Vetreria Sciarra",
-    "address": "Via dei Volsci, 122",
-    "mapsUrl": null
-  },
-  "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
-    "description": "Aula A5 -",
-    "address": "Via Ariosto, 25",
-    "mapsUrl": null
-  },
-  "c6bd11c5-df38-488f-90e2-5109c377eb5d": {
-    "description": "Aula A6 -",
-    "address": "Via Ariosto, 25",
-    "mapsUrl": null
-  },
-  "bdefdb67-cc5f-4031-a58d-858f26e3d33d": {
-    "description": "Aula A7 -",
-    "address": "Via Ariosto, 25",
-    "mapsUrl": null
-  },
-  "7074643f-5bed-49b9-85e9-c646c0b06009": {
-    "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
-    "address": null,
-    "mapsUrl": null
-  },
-  "db890f28-5b24-475c-9a54-c9ee2f29c091": {
-    "description": "Aula 7 - Fisica \\\"Enrico Fermi\\\" - Scienze matematiche fisiche e naturali",
-    "address": "Piazzale Aldo Moro, 5",
-    "mapsUrl": "https://maps.google.com/maps?q=41.901678,+12.515825+(Aula+7)&iwloc=A&hl=it"
   }
 }
