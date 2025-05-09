@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 05 May 2025 - Friday 09 May 2025",
+    "date_range": "Monday 12 May 2025 - Friday 16 May 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -55,8 +55,8 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
+            "09:00-10:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices.",
+            "10:00-11:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices.",
             "11:00-12:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
             "12:00-13:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
             "13:00-14:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",

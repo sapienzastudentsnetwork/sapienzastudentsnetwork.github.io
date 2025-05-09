@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 05 May 2025 - Friday 09 May 2025",
+    "date_range": "Monday 12 May 2025 - Friday 16 May 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -35,8 +35,8 @@
             "12:00-13:00": "Informatica L-31 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "13:00-14:00": "",
             "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
+            "15:00-16:00": "Seminario prof. Enrico Tronci",
+            "16:00-17:00": "Seminario prof. Enrico Tronci",
             "17:00-18:00": "",
             "18:00-19:00": ""
         },
