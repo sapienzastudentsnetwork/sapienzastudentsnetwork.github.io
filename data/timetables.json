@@ -1,24 +1,4 @@
 {
-  "AAF1101": {
-    "subject": "LINGUA INGLESE",
-    "degree": "29923",
-    "channels": {
-      "0": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "f77bfb4c-dd02-4161-8b24-aa3ded1c0b5e": "Ciuffetelli Annalisa"
-            },
-            "timeslot": "14 - 17",
-            "classrooms": {
-              "44f829c8-fa6f-4c51-8e6d-6631432d4ab0": "Aula I (Edificio: CU032)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "AAF1101"
-  },
   "1015881": {
     "subject": "ARCHITETTURA DEGLI ELABORATORI",
     "degree": "29923",
