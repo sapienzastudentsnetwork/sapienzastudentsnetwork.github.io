@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 12 May 2025 - Friday 16 May 2025",
+    "date_range": "Monday 19 May 2025 - Friday 23 May 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -8,8 +8,8 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
+            "14:00-15:00": "PhD Course - Post-Quantum Cryptography",
+            "15:00-16:00": "PhD Course - Post-Quantum Cryptography",
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": ""
@@ -36,8 +36,8 @@
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
+            "16:00-17:00": "Incontro delegazione Pakistan - Rappresentativa CUN-ANVUR",
+            "17:00-18:00": "Incontro delegazione Pakistan - Rappresentativa CUN-ANVUR",
             "18:00-19:00": ""
         },
         "thursday": {
@@ -55,9 +55,9 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices.",
-            "10:00-11:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices.",
-            "11:00-12:00": "Cybersecurity PhD Course - Post-Quantum Cryptography PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices.",
+            "09:00-10:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices",
+            "10:00-11:00": "PhD course - Cybersecurity - Cybersecurity meets Machine Learning: Emerging Trends and Practices",
+            "11:00-12:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
             "12:00-13:00": "Cybersecurity PhD Course - Post-Quantum Cryptography",
             "13:00-14:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047614 ADVANCED SOFTWARE ENGINEERING BOTTONI P.",
