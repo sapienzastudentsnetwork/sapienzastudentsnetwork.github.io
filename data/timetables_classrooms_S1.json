@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 26 May 2025 - Friday 30 May 2025",
+    "date_range": "Monday 02 June 2025 - Friday 06 June 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -12,35 +12,10 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-18:30": "",
+            "18:30-19:00": ""
         },
         "tuesday": {
-            "08:00-09:00": "Seduta di laurea DI",
-            "09:00-10:00": "Seduta di laurea DI",
-            "10:00-11:00": "Seduta di laurea DI",
-            "11:00-12:00": "Seduta di laurea DI",
-            "12:00-13:00": "Seduta di laurea DI",
-            "13:00-14:00": "Seduta di laurea DI",
-            "14:00-15:00": "Seduta di laurea DI",
-            "15:00-16:00": "Seduta di laurea DI",
-            "16:00-17:00": "Seduta di laurea DI",
-            "17:00-18:00": "Seduta di laurea DI",
-            "18:00-19:00": "Seduta di laurea DI"
-        },
-        "wednesday": {
-            "08:00-09:00": "Seduta di laurea DI",
-            "09:00-10:00": "Seduta di laurea DI",
-            "10:00-11:00": "Seduta di laurea DI",
-            "11:00-12:00": "Informatica L-31 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
-            "12:00-13:00": "Informatica L-31 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
-            "13:00-14:00": "Seduta di laurea",
-            "14:00-15:00": "Seduta di laurea",
-            "15:00-16:00": "Seduta di laurea",
-            "16:00-17:00": "Seduta di laurea",
-            "17:00-18:00": "Seduta di laurea",
-            "18:00-19:00": "Seduta di laurea"
-        },
-        "thursday": {
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
@@ -51,7 +26,36 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-18:30": "",
+            "18:30-19:00": ""
+        },
+        "wednesday": {
+            "08:00-09:00": "",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
+            "13:00-14:00": "",
+            "14:00-15:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
+            "15:00-16:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
+            "16:00-17:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
+            "17:00-18:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
+            "18:00-18:30": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
+            "18:30-19:00": ""
+        },
+        "thursday": {
+            "08:00-09:00": "",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
+            "13:00-14:00": "",
+            "14:00-15:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "15:00-16:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "16:00-17:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "17:00-18:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "18:00-18:30": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "18:30-19:00": ""
         },
         "friday": {
             "08:00-09:00": "",
@@ -60,11 +64,12 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "Computer Science - Informatica LM-18 1047613 ADVANCED ALGORITHMS CHIERICHETTI F.",
-            "15:00-16:00": "Computer Science - Informatica LM-18 1047613 ADVANCED ALGORITHMS CHIERICHETTI F.",
-            "16:00-17:00": "Computer Science - Informatica LM-18 1047613 ADVANCED ALGORITHMS CHIERICHETTI F.",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-18:30": "",
+            "18:30-19:00": ""
         }
     }
 }
