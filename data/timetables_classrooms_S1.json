@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 02 June 2025 - Friday 06 June 2025",
+    "date_range": "Monday 09 June 2025 - Friday 13 June 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -12,8 +12,7 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         },
         "tuesday": {
             "08:00-09:00": "",
@@ -26,36 +25,33 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         },
         "wednesday": {
+            "08:00-09:00": "",
+            "09:00-10:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "10:00-11:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "11:00-12:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "12:00-13:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "13:00-14:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "14:00-15:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "15:00-16:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "16:00-17:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "17:00-18:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
+            "18:00-19:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio"
+        },
+        "thursday": {
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
-            "15:00-16:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
-            "16:00-17:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
-            "17:00-18:00": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
-            "18:00-18:30": "BIOLOGIA COMPUTAZIONALE - Esame - Tiziana Castrignanò",
-            "18:30-19:00": ""
-        },
-        "thursday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "Esame scritto di Advanced Architectures",
-            "11:00-12:00": "Esame scritto di Advanced Architectures",
-            "12:00-13:00": "Esame scritto di Advanced Architectures",
-            "13:00-14:00": "",
-            "14:00-15:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "15:00-16:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "16:00-17:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "17:00-18:00": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "18:00-18:30": "Informatica L-31 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "18:30-19:00": ""
+            "14:00-15:00": "",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "",
+            "18:00-19:00": ""
         },
         "friday": {
             "08:00-09:00": "",
@@ -68,8 +64,7 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-18:30": "",
-            "18:30-19:00": ""
+            "18:00-19:00": ""
         }
     }
 }
