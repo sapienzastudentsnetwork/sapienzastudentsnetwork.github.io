@@ -45,8 +45,8 @@ Questo reparto è responsabile di tutta la comunicazione del team e della gestio
 
 ## Come unirti al team
 
-L’edizione 2024 del Motostudent è appena iniziata e si concluderà a fine 2025 sul circuito di Aragón, dove porteremo un nuovo prototipo con degli aggiornamenti importanti per quanto riguarda l’aerodinamica e l’erogazione.
+L’edizione attuale del Motostudent si concluderà a ottobre 2025 sul circuito di Aragón, dove porteremo un nuovo prototipo con degli aggiornamenti importanti per quanto riguarda l’aerodinamica e l’erogazione.
 
 Chiunque, studenti e studentesse, aziende, privati che condividono il nostro sogno e la voglia di crescere insieme possono correre al nostro fianco. L’obiettivo è di portare il Sapienza Gladiators Racing Team alla vittoria!
 
-Apriamo il recruiting una volta l'anno, ti invitiamo a tenere d'occhio i nostri social e il [nostro sito web](https://sapienzagladiators.it) per aggiornamenti, ci vediamo in pista!
+Apriremo il recruiting dopo la fine dell'edizione attuale, ti invitiamo a tenere d'occhio i nostri social e il [nostro sito web](https://sapienzagladiators.it) per aggiornamenti, ci vediamo in pista!
