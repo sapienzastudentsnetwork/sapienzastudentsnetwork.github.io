@@ -44,8 +44,8 @@ This department is responsible for all the team's communication and managing the
 
 ## How to Join the Team
 
-The 2024 edition of MotoStudent has just begun and will conclude at the end of 2025 at the Aragón circuit, where we will present a new prototype with significant updates in terms of aerodynamics and power delivery.
+The current edition of MotoStudent will conclude in October 2025 at the Aragón circuit, where we will present a new prototype with significant updates in terms of aerodynamics and power delivery.
 
 Anyone (students, companies, individuals) who shares our dream and desire to grow together can race alongside us. The goal is to lead the Sapienza Gladiators Racing Team to victory!
 
-We open recruiting once a year, so we invite you to keep an eye on our social media and [our website](https://sapienzagladiators.it) for updates. See you on the track!
+Recruiting will begin after the conclusion of this edition, so we invite you to keep an eye on our social media and [our website](https://sapienzagladiators.it) for updates. See you on the track!
