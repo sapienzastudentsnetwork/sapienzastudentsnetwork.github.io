@@ -55,16 +55,16 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": ""
+            "09:00-10:00": "Sicurezza - III Appello Sessione Estiva",
+            "10:00-11:00": "Sicurezza - III Appello Sessione Estiva",
+            "11:00-12:00": "Sicurezza - III Appello Sessione Estiva",
+            "12:00-13:00": "Sicurezza - III Appello Sessione Estiva",
+            "13:00-14:00": "Sicurezza - III Appello Sessione Estiva",
+            "14:00-15:00": "Sicurezza - III Appello Sessione Estiva",
+            "15:00-16:00": "Sicurezza - III Appello Sessione Estiva",
+            "16:00-17:00": "Sicurezza - III Appello Sessione Estiva",
+            "17:00-18:00": "Sicurezza - III Appello Sessione Estiva",
+            "18:00-19:00": "Sicurezza - III Appello Sessione Estiva"
         }
     }
 }
