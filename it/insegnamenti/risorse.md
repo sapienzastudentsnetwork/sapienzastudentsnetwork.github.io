@@ -172,7 +172,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 
 - [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
 - [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
-- [Aglaia Norza](https://github.com/AglaiaNorza/notes-ig)
+- [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/notes-ig)
 
 ### Anno di immatricolazione 2022/23
 
