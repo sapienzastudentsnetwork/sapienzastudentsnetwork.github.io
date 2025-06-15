@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 09 June 2025 - Friday 13 June 2025",
+    "date_range": "Monday 16 June 2025 - Friday 20 June 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -12,7 +12,8 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         },
         "tuesday": {
             "08:00-09:00": "",
@@ -25,22 +26,10 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         },
         "wednesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "10:00-11:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "11:00-12:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "12:00-13:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "13:00-14:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "14:00-15:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "15:00-16:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "16:00-17:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "17:00-18:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio",
-            "18:00-19:00": "Sicurezza; III Appello Sessione Estiva; Emiliano Casalicchio"
-        },
-        "thursday": {
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
@@ -51,20 +40,36 @@
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
-            "18:00-19:00": ""
+            "18:00-19:00": "",
+            "19:00-19:30": ""
+        },
+        "thursday": {
+            "08:00-09:00": "",
+            "09:00-10:00": "",
+            "10:00-11:00": "\"Game-Theoretic Approach to Synthesis\"\nProf Giuseppe Perelli",
+            "11:00-12:00": "\"Game-Theoretic Approach to Synthesis\"\nProf Giuseppe Perelli",
+            "12:00-13:00": "",
+            "13:00-14:00": "",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "",
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Sicurezza - III Appello Sessione Estiva",
-            "10:00-11:00": "Sicurezza - III Appello Sessione Estiva",
-            "11:00-12:00": "Sicurezza - III Appello Sessione Estiva",
-            "12:00-13:00": "Sicurezza - III Appello Sessione Estiva",
-            "13:00-14:00": "Sicurezza - III Appello Sessione Estiva",
-            "14:00-15:00": "Sicurezza - III Appello Sessione Estiva",
-            "15:00-16:00": "Sicurezza - III Appello Sessione Estiva",
-            "16:00-17:00": "Sicurezza - III Appello Sessione Estiva",
-            "17:00-18:00": "Sicurezza - III Appello Sessione Estiva",
-            "18:00-19:00": "Sicurezza - III Appello Sessione Estiva"
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
+            "13:00-14:00": "",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "",
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         }
     }
 }
