@@ -7,11 +7,11 @@ import pytz
 
 def generate_time_slots():
     """
-    Generates 30-minute slots from 08:00 to 19:00.
+    Generates 30-minute slots from 08:00 to 19:30.
     """
     slots = []
     start_time = datetime.strptime("08:00", "%H:%M")
-    end_time = datetime.strptime("19:00", "%H:%M")
+    end_time = datetime.strptime("19:30", "%H:%M")
     while start_time < end_time:
         next_time = start_time + timedelta(minutes=30)
         slots.append(f"{start_time.strftime('%H:%M')}-{next_time.strftime('%H:%M')}")
