@@ -2,8 +2,8 @@
 title: "Wiki contributors"
 bookToC: false
 weight: 3
-layout: 'contributors/29932'
-type: 'page'
+layout: '29932'
+type: 'page/contributors'
 ---
 
 Computer Science wiki contributors

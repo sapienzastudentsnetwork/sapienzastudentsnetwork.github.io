@@ -2,8 +2,8 @@
 title: "Wiki contributors"
 bookToC: false
 weight: 3
-layout: 'contributors/29389'
-type: 'page'
+layout: '29389'
+type: 'page/contributors'
 ---
 
 Cybersecurity wiki contributors

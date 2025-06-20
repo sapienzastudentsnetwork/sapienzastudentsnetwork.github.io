@@ -2,8 +2,8 @@
 title: "Collaboratori wiki"
 bookToC: false
 weight: 3
-layout: 'contributors/it'
-type: 'page'
+layout: 'it'
+type: 'page/contributors'
 ---
 
 Collaboratori wiki di Informatica
