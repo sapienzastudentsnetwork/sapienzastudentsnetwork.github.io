@@ -2,7 +2,7 @@
 
 ## Exam Certification
 
-The [exam certification form](https://corsidilaurea.uniroma1.it/sites/default/files/attestazione_esame_0.pdf) is also available on the dedicated [student forms](https://www.uniroma1.it/en/pagina/student-forms) page.
+The [exam certification form](https://www.uniroma1.it/sites/default/files/field_file_allegati/attestazione_esame.pdf) is also available on the dedicated [student forms](https://www.uniroma1.it/en/pagina/student-forms) page.
 
 The **stamp** is **placed by the Teaching Secretariat** via email (segr.didattica@di.uniroma1.it) upon the student's request **and only if the professor's signature is present**.
 

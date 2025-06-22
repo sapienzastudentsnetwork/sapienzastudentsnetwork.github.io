@@ -67,17 +67,15 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 2. Reach out to the professor, expressing your intention to complete the internship with them. If they respond positively, agree on the project and internship details together.
 
-3. Fill out the [internship assignment form](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), including the internship topic agreed upon with the professor. The form must also be completed and signed by the professor supervising the internship.
+3. Fill out the [internship assignment form](https://drive.google.com/file/d/1y7nmsKWZpcw4MiMPf_Z6FDN3MMijxLjg/view?usp=sharing), including the internship topic agreed upon with the professor. The form must also be completed and signed by the professor supervising the internship.
 
-4. Fill out the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/authorisation_for_personal_data_processing.pdf).
+4. Fill out the [authorisation form for the transfer of personal data to companies and institutions for placement purposes](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing).
 
-5. Complete the [statement acknowledging the plagiarism guidelines](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
+5. Complete the [declaration of acknowledgement of the guidelines on anti-plagiarism control](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view?usp=sharing).
 
 6. Download your transcript of records from Infostud. To do this, log into Infostud, select the "Certificates" button, and download the transcript of exams taken.
 
 7. Submit the completed and signed forms, along with the transcript of records, by filling out the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2).
-
-
 
 <figure style="width: 50%; margin: auto; display: block;">
 
@@ -107,13 +105,13 @@ Applying for an internal internship is a fairly simple process that requires a f
 
 8. The student signs the project and sends it to Professor Gorla for the final signature from the University.
 
-9. Download the [internship assignment form](https://corsidilaurea.uniroma1.it/sites/default/files/assegnazione_di_tirocinio_-_internship_assignment_1_1_1_0.pdf), similar to the one used for internal internships, and have it signed by the chosen supervisor.
+9. Download the [internship assignment form](https://drive.google.com/file/d/1y7nmsKWZpcw4MiMPf_Z6FDN3MMijxLjg/view?usp=sharing), similar to the one used for internal internships, and have it signed by the chosen supervisor.
 
 10. The signed form is sent to Professor Gorla if it has not already been signed by him.
 
 11. The training project, with all signatures, is returned to the student.
 
-12. All documentation must be submitted to the administration via the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), along with the other required forms: the [authorization form for personal data processing](https://corsidilaurea.uniroma1.it/sites/default/files/autorizzazione_al_trattamento_dei_dati_personali_ita_0.pdf) and the [statement acknowledging the plagiarism guidelines](https://corsidilaurea.uniroma1.it/sites/default/files/-controllo-rilevazione-plagio-elaborati-tesi-laurea-tramite-servizio-turnitin.docx_1_0_0.pdf).
+12. All documentation must be submitted to the administration via the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), along with the other required forms: the [authorisation form for the transfer of personal data to companies and institutions for placement purposes](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing) (optional) and the [declaration of acknowledgement of the guidelines on anti-plagiarism control](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view?usp=sharing).
 
 13. The internship can begin. It is advisable to check with Professor Gorla that all documentation is in order.
 
