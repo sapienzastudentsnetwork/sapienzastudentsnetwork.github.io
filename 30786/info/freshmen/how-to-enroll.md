@@ -100,7 +100,7 @@ If you are a non-EU applicant not residing in Italy or a EU applicant that has n
 
 ## Admission Tests
 
-The only official admission tests to access the selections are: TOLC-I, English TOLC-I, TOLC-S or SAT. Furthermore, the test must be taken **before the deadline of the registration period of the chosen selection round** (see Paying the 10€ fee for the Selection). Both TOLC and SAT are considered to have a **validity starting from January of two years before the academic year you enroll for**: if you apply for the Academic Year 2025/2026, only tests taken as from January 2023 to the registration deadlines are accepted for the selection.5
+The only official admission tests to access the selections are: TOLC-I, English TOLC-I, TOLC-S or SAT. Furthermore, the test must be taken **before the deadline of the registration period of the chosen selection round** (see Paying the 10€ fee for the Selection). Both TOLC and SAT are considered to have a **validity starting from January of two years before the academic year you enroll for**: if you apply for the Academic Year 2025/2026, only tests taken as from January 2023 to the registration deadlines are accepted for the selection.
 
 ### TOLC
 
