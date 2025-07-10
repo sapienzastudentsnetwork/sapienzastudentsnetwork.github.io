@@ -40,7 +40,7 @@ The second year courses are all compulsory and are:
 | 10595616    | Systems and networking, Unit 2                       | First    | 6   | INF/01    |
 | 10595618    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    |
 | 10595618    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    |
-| 10595546    | Computer Architecture, Unit 2                        | Second   | 6   | INF/01    |
+| 10595546    | AI Lab: Computer Vision and NLP                      | Second   | 6   | INF/01    |
 | 10595617    | Data management and analysis, Unit 1                 | Second   | 6   | FIS/01    |
 | 1055043     | Statistics                                           | Second   | 6   | SECS-S/01 |
 
