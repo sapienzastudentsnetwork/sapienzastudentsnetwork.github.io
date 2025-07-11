@@ -22,9 +22,17 @@ def split_schedule(schedule):
     """
     Normalizes the schedule by splitting larger intervals into 30-minute segments.
     For each day, we take the original keys and "expand" them into 30-minute segments.
+    Dynamically includes any slots (like 19:30-20:00) if they are actually used.
     """
-    normalized_schedule = {day: {slot: "" for slot in generate_time_slots()} for day in schedule.keys()}
+    # Base slots 08:00-19:30
+    base_slots = generate_time_slots()
+    # To collect any additional slots (like '19:30-20:00') that appear in the data
+    extra_slots = set()
+
+    # First pass to find all time ranges actually used (including potential overflow)
+    expanded_times = {}
     for day, times in schedule.items():
+        expanded_times[day] = {}
         for time_range, activity in times.items():
             if activity:
                 start, end = time_range.split("-")
@@ -33,8 +41,20 @@ def split_schedule(schedule):
                 while current_time < end_time:
                     next_time = current_time + timedelta(minutes=30)
                     slot = f"{current_time.strftime('%H:%M')}-{next_time.strftime('%H:%M')}"
-                    normalized_schedule[day][slot] = activity
+                    expanded_times[day][slot] = activity
+                    if slot not in base_slots:
+                        extra_slots.add(slot)
                     current_time = next_time
+
+    # Now build the full list of slots for normalization
+    all_slots = base_slots + sorted(extra_slots)
+
+    # Build normalized schedule
+    normalized_schedule = {day: {slot: "" for slot in all_slots} for day in schedule.keys()}
+    for day in expanded_times:
+        for slot, activity in expanded_times[day].items():
+            normalized_schedule[day][slot] = activity
+
     return normalized_schedule
 
 def merge_time_slots(normalized_schedule):
