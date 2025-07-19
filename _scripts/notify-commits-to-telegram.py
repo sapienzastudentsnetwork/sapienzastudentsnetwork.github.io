@@ -21,18 +21,28 @@ with open(event_path) as f:
 
 # Hard-coded conversion table: Full Name -> GitHub Username
 author_conversion_table = {
+    "Lorenzo Antonelli": "Lorenzoantonelli",
+    "Simone Bianco": "Exyss",
+    "Leonardo Biason": "ElBi21",
+    "Ionut Cicio": "CuriousCI",
+    "Matteo Collica": "matypist",
+    "Oriana Deliallisi": "orianani311",
+    "Rokshana Diya": "RoxyDiya",
+    "Marcello Galisai": "marcellogalisai",
+    "Michele Palma": "palmaaaa"
 }
 
 # Iterate over each commit in the push
 for commit in event_data.get('commits', []):
     commit_sha = commit['id']
     commit_url = f'https://github.com/{repo}/commit/{commit_sha}'
-    author_name = commit['author']['name']
     commit_message = commit['message']
     commit_timestamp = datetime.strptime(commit['timestamp'], '%Y-%m-%dT%H:%M:%S%z')
 
     # Map the author's full name to their GitHub username
-    author_username = author_conversion_table.get(author_name, author_name)
+    author_info = commit.get('author', {})
+    author_username = author_info.get('username') or author_info.get('name')
+    author_username = author_conversion_table.get(author_username, author_username)
     author_profile_url = f'https://github.com/{author_username}'
 
     # Format the commit date
