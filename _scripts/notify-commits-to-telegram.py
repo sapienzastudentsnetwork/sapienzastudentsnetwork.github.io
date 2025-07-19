@@ -2,6 +2,7 @@ import requests
 from datetime import datetime
 import os
 import json
+import re
 
 # Get repository and branch information from environment variables
 repo = os.getenv('GITHUB_REPOSITORY')
@@ -13,24 +14,17 @@ if branch != 'main':
     print("Not on the main branch. No notifications will be sent.")
     exit(0)
 
-# Convert the JSON-like string to a Python list using json.loads
-commits_list = json.loads(commits)
+# Get full GitHub event from the event path to access real file lists
+event_path = os.getenv('GITHUB_EVENT_PATH')
+with open(event_path) as f:
+    event_data = json.load(f)
 
 # Hard-coded conversion table: Full Name -> GitHub Username
 author_conversion_table = {
-    "Lorenzo Antonelli": "Lorenzoantonelli",
-    "Simone Bianco": "Exyss",
-    "Leonardo Biason": "ElBi21",
-    "Ionut Cicio": "CuriousCI",
-    "Matteo Collica": "matypist",
-    "Oriana Deliallisi": "orianani311",
-    "Rokshana Diya": "RoxyDiya",
-    "Marcello Galisai": "marcellogalisai",
-    "Michele Palma": "palmaaaa"
 }
 
 # Iterate over each commit in the push
-for commit in commits_list:
+for commit in event_data.get('commits', []):
     commit_sha = commit['id']
     commit_url = f'https://github.com/{repo}/commit/{commit_sha}'
     author_name = commit['author']['name']
@@ -44,11 +38,34 @@ for commit in commits_list:
     # Format the commit date
     formatted_date = commit_timestamp.strftime('%Y-%m-%d %H:%M:%S')
 
+    # Collect all files touched by the commit
+    # (added, modified, or removed)
+    all_files = commit.get('added', []) + commit.get('modified', []) + commit.get('removed', [])
+
+    # Build a mapping of filename -> HTML link
+    file_link_map = {
+        file_path: f'<a href="https://github.com/{repo}/blob/{branch}/{file_path}">{file_path}</a>'
+        for file_path in all_files
+    }
+
+    # Generate a regex that matches only real file paths in the commit message
+    if file_link_map:
+        escaped_paths = [re.escape(path) for path in file_link_map]
+        pattern = r'\b(' + '|'.join(escaped_paths) + r')\b'
+
+        # Replace file names in the commit message with their HTML links
+        def replacer(match):
+            return file_link_map.get(match.group(0), match.group(0))
+
+        linked_commit_message = re.sub(pattern, replacer, commit_message)
+    else:
+        linked_commit_message = commit_message
+
     # Prepare the message to send
     message = (
         f'<b><u>New Commit</u></b> <a href="{commit_url}">[🌐]</a>'
         f'\n\n👤 <a href="{author_profile_url}">{author_username}</a> • <code>{formatted_date}</code>'
-        f'\n\n{commit_message}'
+        f'\n\n{linked_commit_message}'
     )
 
     # Send the message to Telegram
