@@ -86,9 +86,13 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali e molti in
 #### Insegnamenti a scelta
 
 {{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **ACSAI e Teledidattica?**
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Insegnamenti a scelta esterni**
 
-Sono presenti link di insegnamenti anche esterni al Corso di Laurea in Informatica: questo perché al Terzo Anno si ha la possibilità di scegliere insegnamenti di **altri corsi di laurea,** purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
+Al terzo anno è possibile scegliere insegnamenti di **altri corsi di laurea**, purché siano coerenti con il piano di studi e vengano [approvati di conseguenza](/it/info/terzo-anno/percorso-formativo/#come-scegliere-gli-insegnamenti-esterni).
+
+Nella lista che segue sono indicati i gruppi di alcuni insegnamenti del corso di laurea in Applied Computer Science and Artificial Intelligence (**ACSAI**), tipicamente scelti anche da studenti di Informatica.
+
+Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot). _All'interno del bot, chiunque sia amministratore di un gruppo Telegram o voglia crearne uno relativo a un insegnamento non presente in lista può indicizzarlo autonomamente._
 {{% /hint %}}
 
 ##### Primo Semestre
@@ -119,9 +123,3 @@ Sono presenti link di insegnamenti anche esterni al Corso di Laurea in Informati
 - [[ACSAI] Human Computer Interaction](https://t.me/+vKK_-l_aqoJjMmQ0)
 - [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
 - [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
-
-{{% hint tip %}}
-<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Altri gruppi**
-
-Diversi altri gruppi degli insegnamenti a scelta sono disponibili nel Bot Telegram [SapienzaStudentsBot](https://t.me/SapienzaStudentsBot). All'interno del bot è anche possibile, per chiunque sia amministratore di un gruppo Telegram o voglia creare un gruppo Telegram di un qualche altro insegnamento non presente in lista, indicizzarlo autonomamente.
-{{% /hint %}}
