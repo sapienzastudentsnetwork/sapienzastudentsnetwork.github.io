@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 21 July 2025 - Friday 25 July 2025",
+    "date_range": "Monday 28 July 2025 - Friday 01 August 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -8,8 +8,8 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "Orali Internet of Things",
-            "15:00-16:00": "Orali Internet of Things",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
