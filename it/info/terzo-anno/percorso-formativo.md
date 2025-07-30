@@ -37,7 +37,7 @@ Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabel
 | Antecedente al 2020/21   | dal 1 settembre al 31 dicembre e dal 1 marzo al 31 marzo |
 | 2020/21                  | dal 1 al 31 dicembre                                     |
 | 2021/22                  | dal 1 al 31 dicembre                                     |
-| 2022/23                  | dal 1 al 31 dicembre 2024                                |
+| 2022/23                  | dal 1 al 31 dicembre                                     |
 | 2023/24                  | dal 1 al 31 dicembre 2025                                |
 | 2024/25                  | dal 15 settembre al 30 novembre 2026                     |
 | 2025/26 e successivi     | dal 15 settembre al 30 novembre                          |
