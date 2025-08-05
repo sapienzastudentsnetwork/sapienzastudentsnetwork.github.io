@@ -25,7 +25,7 @@ timetables:
       - '1047624'  # DISTRIBUTED SYSTEMS
       - '1047640'  # NETWORK ALGORITHMS
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
-bookHidden: true
+bookHidden: false
 ---
 
 Check out the lesson timetable for the first semester of Computer Science

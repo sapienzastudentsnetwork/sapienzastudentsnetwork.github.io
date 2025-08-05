@@ -1,4 +1,20 @@
 {
+    "10621549_1": {
+        "name": "Analisi Matematica 1",
+        "shortName": "Analisi 1",
+        "abbr": "AM1",
+        "tgGroup": "https://t.me/+Cw_63BoRvE03YmM0",
+        "cfu": 6,
+        "department": "MAT"
+    },
+    "AAF2511": {
+        "name": "Inglese Livello B2",
+        "shortName": "Inglese B2",
+        "abbr": "ENB2",
+        "tgGroup": "https://t.me/+clLwVwTLUHk3YzM0",
+        "cfu": 3,
+        "department": "N/A"
+    },
     "101226": {
         "name": "Calcolo Differenziale",
         "shortName": "Calc. Diff.",
@@ -28,6 +44,30 @@
         "shortName": "Sist. Digit.",
         "abbr": "PSD",
         "tgGroup": "https://t.me/+hr9OFwWWGCZhODU0",
+        "cfu": 6,
+        "department": "INF"
+    },
+    "10621549_2": {
+        "name": "Analisi Matematica 2",
+        "shortName": "Analisi 2",
+        "abbr": "AM2",
+        "tgGroup": "https://t.me/+lnnFbmFQNNBjNGRk",
+        "cfu": 6,
+        "department": "MAT"
+    },
+    "1015886": {
+        "name": "Algebra Lineare e Geometria",
+        "shortName": "Algebra e Geom.",
+        "abbr": "ALG",
+        "tgGroup": "https://t.me/+798mXLThj_JmYTBk",
+        "cfu": 9,
+        "department": "MAT"
+    },
+    "10620599": {
+        "name": "Algoritmi 1",
+        "shortName": "Algoritmi 1",
+        "abbr": "ALG1",
+        "tgGroup": "https://t.me/+wJY633Yc1pUxMjk0",
         "cfu": 6,
         "department": "INF"
     },
@@ -66,7 +106,7 @@
     "AAF1101": {
         "name": "Lingua Inglese",
         "shortName": "Inglese",
-        "abbr": "ENG",
+        "abbr": "ENB1",
         "tgGroup": "https://t.me/+clLwVwTLUHk3YzM0",
         "cfu": 3,
         "department": "N/A"

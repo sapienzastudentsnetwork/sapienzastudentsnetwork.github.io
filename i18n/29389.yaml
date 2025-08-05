@@ -73,6 +73,9 @@
 - id: Subjs_WorkInProgress
   translation: Timetable currently being updated. Please do not rely on it for now and try again later!
 
+- id: Subjs_NotAvailable
+  translation: Timetables not yet available. Please do not rely on this page for the moment and try again in a few days!
+
 - id: Subjs_Timetables_Time
   translation: Time
 

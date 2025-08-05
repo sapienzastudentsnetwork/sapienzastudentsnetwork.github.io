@@ -72,6 +72,9 @@
 - id: Subjs_WorkInProgress
   translation: Orari in fase di aggiornamento. Ti preghiamo di non farci affidamento per il momento e riprovare più tardi!
 
+- id: Subjs_NotAvailable
+  translation: Orari non ancora disponibili. Ti preghiamo di non fare affidamento su questa pagina per il momento e riprovare tra qualche giorno!
+
 - id: Subjs_Timetables_Time
   translation: Orario
 

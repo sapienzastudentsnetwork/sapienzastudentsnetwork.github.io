@@ -26,6 +26,7 @@ timetables:
       - '1038141'  # NATURAL LANGUAGE PROCESSING
       - '10589555' # PRACTICAL NETWORK DEFENSE
       - '1047643'  # TOPICS IN PHYSICS
+bookHidden: true
 ---
 
 Check out the lesson timetable for the second semester of Computer Science
