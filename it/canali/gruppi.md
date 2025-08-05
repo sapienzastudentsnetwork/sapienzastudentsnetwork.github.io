@@ -9,7 +9,7 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 
 ## Gruppi matricole
 
-Gruppi per le **matricole del Primo Anno** (A.A. 2025/2026):
+Gruppi **del Primo Anno** (matricole A.A. 2025/2026):
 
 |                        Telegram                        |                            WhatsApp                            |
 |:------------------------------------------------------:|:--------------------------------------------------------------:|
