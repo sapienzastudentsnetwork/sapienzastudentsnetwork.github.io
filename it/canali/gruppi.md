@@ -13,9 +13,9 @@ Gruppi **del Primo Anno** (matricole A.A. 2025/2026):
 
 |                        Telegram                        |                            WhatsApp                            |
 |:------------------------------------------------------:|:--------------------------------------------------------------:|
-|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://chat.whatsapp.com/KS2J9kiURoH250s2JPnZbM) |
-|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/DFhEH3F2KR4DZI5yYZKpPN) |
-| [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
+|  [Canale A-L](https://t.me/addlist/ndfNiRzIyQ85MmNk)   | [Canale A-L](https://chat.whatsapp.com/KS2J9kiURoH250s2JPnZbM) |
+|  [Canale M-Z](https://t.me/addlist/SRYO6cWOAIcwOGY0)   | [Canale M-Z](https://chat.whatsapp.com/DFhEH3F2KR4DZI5yYZKpPN) |
+| [Teledidattica](https://t.me/addlist/NXcZMBVx1BNkODVk) |                               -                                |
 
 ## Gruppi generali
 
@@ -34,11 +34,14 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 #### Primo Semestre
 
-[Entra in tutti](https://t.me/addlist/OS2lMU_4FqMwMTU0)
+[Entra in tutti](https://t.me/addlist/1Ob1i2bEz2NmNDU0)
 
-- [Calcolo Differenziale](https://t.me/+Cw_63BoRvE03YmM0)
+- [Analisi Matematica I Modulo](https://t.me/+Cw_63BoRvE03YmM0)
 - [Fondamenti di Programmazione](https://t.me/+NQ8H6iLHOIIwMzM0)
+- [Inglese Livello B2](https://t.me/+clLwVwTLUHk3YzM0)
 - [Metodi Matematici per l'Informatica](https://t.me/+m_-WkFEmQzdmZDZk)
+
+[Vecchio ordinamento](https://t.me/addlist/OS2lMU_4FqMwMTU0)
 - [Progettazione di Sistemi Digitali](https://t.me/+hr9OFwWWGCZhODU0)
 
 #### Secondo Semestre
