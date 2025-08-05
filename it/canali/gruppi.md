@@ -9,12 +9,12 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 
 ## Gruppi matricole
 
-Gruppi per le **matricole dell'A.A. 2024/2025**:
+Gruppi per le **matricole del Primo Anno** (A.A. 2025/2026):
 
 |                        Telegram                        |                            WhatsApp                            |
 |:------------------------------------------------------:|:--------------------------------------------------------------:|
-|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://chat.whatsapp.com/Hn6ZHgIx9To82ffHW2X2Ek) |
-|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/HwenUPhOPSi65CnWF2kx1Y) |
+|  [Canale A-L](https://t.me/addlist/10sQnIhXeJ84ZWY0)   | [Canale A-L](https://chat.whatsapp.com/KS2J9kiURoH250s2JPnZbM) |
+|  [Canale M-Z](https://t.me/addlist/4mgg0jzRSgUzNTZk)   | [Canale M-Z](https://chat.whatsapp.com/DFhEH3F2KR4DZI5yYZKpPN) |
 | [Teledidattica](https://t.me/addlist/i3KUGH7P84kyOTNk) |                               -                                |
 
 ## Gruppi generali
