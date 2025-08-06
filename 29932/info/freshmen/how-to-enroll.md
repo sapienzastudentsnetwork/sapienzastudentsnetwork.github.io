@@ -18,43 +18,15 @@ Should you run into any issues during the procedure, feel free to drop by the [T
 
 To enroll in the Master’s Degree in Computer Science, you must complete the following steps:
 
-1. [Register on Infostud](#infostud) to obtain your student ID (matricola)
-2. [Pay the €10 fee and apply for assessment](#assessment-of-requirements-dates)
-3. [Wait for the official outcome](#assessment-of-academic-knowledge)
-4. [Proceed to enrollment](#enrollment) if accepted
+1. Check that you meet the [entry requirements](#entry-requirements)
+2. Review the [assessment procedure and deadlines](#assessment-of-requirements-and-deadlines)
+3. If applicable, follow the steps for [international candidates](#candidates-with-a-non-italian-qualification)
+4. [Register on Infostud and apply](#infostud)
+5. [Proceed to enrollment](#enrollment) if accepted
 
 {{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Candidates with a qualification obtained in a non-Italian education system**
-
-If you hold a foreign qualification or are a non-Italian citizen, make sure to carefully read [this section](#candidates-with-a-qualification-obtained-in-a-non-italian-education-system) as **additional steps and specific procedures apply** depending on your status.
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> A B2-level knowledge of English is mandatory. See [English requirements](#english-requirements).
 {{% /hint %}}
-
-## Assessment of requirements dates
-
-For the 2025/2026 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
-
-- September 16, 2025 (only date available for non-EU candidates who request a student visa)
-- October 16, 2025
-- November 18, 2025
-- December 16, 2025
-- January 15, 2026 (reserved for students graduating at Sapienza)
-
-Payment must be made via PagoPA using course code **33508**.
-
-### Candidates from other Italian universities
-
-If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) including:
-
-- A self-certification of your degree
-- A list of exams with their scientific-disciplinary sectors (SSD)
-- A copy of the €10 payment receipt
-
-### Candidates who have not graduated yet
-
-You may still apply for assessment, but you must obtain your degree by:
-
-- December 20, 2025 if you are from another university
-- January 24, 2026 if you are graduating from Sapienza
 
 ## Entry requirements
 
@@ -96,7 +68,34 @@ A knowledge of English at **B2 level or higher** is mandatory.
 
 You must either provide valid certification or attend an **interview**, as determined by the Committee in the outcome of your assessment.
 
-## Candidates with a qualification obtained in a non-Italian education system
+## Assessment of requirements and deadlines
+
+For the 2025/2026 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
+
+- September 16, 2025 (only date available for non-EU candidates who request a student visa)
+- October 16, 2025
+- November 18, 2025
+- December 16, 2025
+- January 15, 2026 (reserved for students graduating at Sapienza)
+
+Payment must be made via PagoPA using course code **33508**.
+
+### Candidates from other Italian universities
+
+If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) including:
+
+- A self-certification of your degree
+- A list of exams with their scientific-disciplinary sectors (SSD)
+- A copy of the €10 payment receipt
+
+### Candidates who have not graduated yet
+
+You may still apply for assessment, but you must obtain your degree by:
+
+- December 20, 2025 if you are from another university
+- January 24, 2026 if you are graduating from Sapienza
+
+## Candidates with a non-Italian qualification
 
 Depending on your nationality, residency, and visa status, different procedures apply:
 
@@ -123,7 +122,7 @@ If you have passed the entry requirement assessment or received a pre-acceptance
 
 ## Infostud
 
-Start by registering on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) to obtain your **student ID** (matricola). Use a valid email address — it will be used for all communications.
+Once you have verified that you meet the entry requirements, reviewed deadlines, and—if applicable—followed international procedures, register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) to obtain your **student ID** (matricola). Use a valid email address — it will be used for all communications.
 
 Then access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students) → "Bachelor and Master Degree Programmes" → "Admission to Programmes":
 
@@ -143,3 +142,4 @@ You will be able to generate two payment slips:
 - One for all three installments
 
 You **must** pay one of them via **PagoPA** before the enrollment deadline.
+]()
