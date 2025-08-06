@@ -1,6 +1,5 @@
 ---
 title: Sapienza Gladiators
-aliases: ["/29389/info/student-associations/sapienza-gladiators"]
 bookHidden: false
 weight: 4
 ---

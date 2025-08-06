@@ -7,7 +7,7 @@ aliases: ['/acsai/study-plan', '/30786/info/third-year/study-plan']
 
 {{% hint info %}}
 
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Most of the information on this page are sourced from the ["Study plan instructions" subpage](https://corsidilaurea.uniroma1.it/en/course/33502/attendance/instructions) of the [ACSAI course attendance page in the Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33502/attendance).
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Most of the information on this page has been sourced from the ["Study plan instructions" subpage](https://corsidilaurea.uniroma1.it/en/course/33502/attendance/instructions) of the [ACSAI course "Attendance" page in the Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33502/attendance).
 {{% /hint %}}
 
 ## What is the Study Plan?

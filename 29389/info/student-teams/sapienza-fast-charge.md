@@ -1,6 +1,5 @@
 ---
 title: Sapienza Fast Charge
-aliases: ["/29389/info/student-associations/sapienza-fast-charge"]
 bookHidden: false
 weight: 3
 ---

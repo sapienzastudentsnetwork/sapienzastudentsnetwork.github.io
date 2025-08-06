@@ -37,15 +37,15 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.29932.params]
             contentDir = '29932'
 
-    [languages.29389]
-        contentDir = '29389'
+    [languages.cybersec]
+        contentDir = 'cybersec'
         disabled = false
         languageName = 'Cybersecurity'
         title = 'Cybersecurity'
         weight = 3
 
-        [languages.29389.params]
-        contentDir = '29389'
+        [languages.cybersec.params]
+        contentDir = 'cybersec'
 
     [languages.it]
         contentDir = 'it'

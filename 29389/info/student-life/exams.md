@@ -1,6 +1,5 @@
 ---
 title: Exams
-aliases: ["/29389/info/students-life/exams"]
 weight: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Sapienza Corse
-aliases: ["/29932/info/student-associations/sapienza-corse"]
 bookHidden: true
 weight: 2
 ---

@@ -1,8 +1,9 @@
 ---
 title: "Wiki contributors"
+aliases: ["/cybersec/contributing/wiki-contributors"]
 bookToC: false
 weight: 3
-layout: '29389'
+layout: 'cybersec'
 type: 'page/contributors'
 ---
 

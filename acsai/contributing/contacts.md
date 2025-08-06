@@ -1,6 +1,6 @@
 ---
 title: "Project curators"
-aliases: ["/30786/contributing/contacts"]
+aliases: ["/acsai/contributing/project-curators", "/30786/contributing/contacts"]
 bookToC: false
 weight: 2
 layout: 'acsai'

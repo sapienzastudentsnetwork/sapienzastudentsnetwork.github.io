@@ -1,5 +1,6 @@
 ---
 title: "Wiki contributors"
+aliases: ["/compsci/contributing/wiki-contributors"]
 bookToC: false
 weight: 3
 layout: '29932'

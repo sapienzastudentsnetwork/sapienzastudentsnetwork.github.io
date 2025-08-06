@@ -1,6 +1,6 @@
 ---
 title: "Groups"
-aliases: ["/cybersecurity/groups", "/29389/groups", "/29389/channels/gruppi", "/cybersecurity/whatsapp", "/29389/whatsapp", "/29389/channels/whatsapp", "/29389/channels/telegram"]
+aliases: ["/cybersec/groups", "/cybersec/channels/gruppi", "/cybersec/whatsapp", "/cybersec/channels/whatsapp", "/cybersec/channels/telegram"]
 weight: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Student's Opinions (OPIS)
-aliases: ["/29932/info/students-life/opis"]
 weight: 2
 ---
 

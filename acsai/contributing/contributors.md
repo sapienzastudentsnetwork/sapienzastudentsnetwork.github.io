@@ -1,6 +1,6 @@
 ---
 title: "Wiki contributors"
-aliases: ["/30786/contributing/contributors"]
+aliases: ["/acsai/contributing/wiki-contributors", "/30786/contributing/contributors"]
 bookToC: false
 weight: 3
 layout: 'acsai'

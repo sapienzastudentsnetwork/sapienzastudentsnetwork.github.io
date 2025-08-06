@@ -1,6 +1,6 @@
 ---
 title: "Curatori progetto"
-aliases: ["/it/contribuire/contatti-di-riferimento", "/it/contribuire/curatori-del-progetto"]
+aliases: ["/it/contribuire/curatori-progetto"]
 bookToC: false
 weight: 2
 layout: 'it'

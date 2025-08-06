@@ -1,6 +1,5 @@
 ---
 title: Student Collaboration Scholarships
-aliases: ["/29389/info/students-life/student-collaboration-scholarships"]
 weight: 4
 bookToc: false
 ---
