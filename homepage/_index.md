@@ -19,7 +19,7 @@ type: custom
     <div class="home_page centered_content_page" id="degree_choice_computer_science">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_wiki_text">Computer Science</p>
         <p class="home_box_text degree_choice_box_text">Master's Degree</p>
-        <button class="explore_more" onclick="window.location.href = '29932/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <button class="explore_more" onclick="window.location.href = 'compsci/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page centered_content_page" id="degree_choice_computer_science">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_wiki_text">Cybersecurity</p>

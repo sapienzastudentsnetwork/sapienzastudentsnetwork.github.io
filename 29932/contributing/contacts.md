@@ -3,7 +3,7 @@ title: "Project curators"
 aliases: ["/compsci/contributing/project-curators"]
 bookToC: false
 weight: 2
-layout: '29932'
+layout: 'compsci'
 type: 'page/contacts/'
 ---
 

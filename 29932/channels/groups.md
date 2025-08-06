@@ -1,6 +1,6 @@
 ---
 title: "Groups"
-aliases: ["/computerscience/groups", "/29932/groups", "/29932/channels/gruppi", "/computerscience/whatsapp", "/29932/whatsapp", "/29932/channels/whatsapp", "/29932/channels/telegram"]
+aliases: ["/computerscience/groups", "/compsci/groups", "/compsci/channels/gruppi", "/computerscience/whatsapp", "/compsci/whatsapp", "/compsci/channels/whatsapp", "/compsci/channels/telegram"]
 weight: 1
 ---
 

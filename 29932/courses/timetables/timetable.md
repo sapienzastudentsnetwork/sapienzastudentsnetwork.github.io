@@ -1,6 +1,6 @@
 ---
 title: "Your timetable"
-aliases: ["/29932/your-timetable", "/29932/custom-timetable", "/29932/courses/your-timetable", "/29932/courses/custom-timetable", "/29932/courses/Timetables/timetables", "/29932/courses/Timetables/timetables"]
+aliases: ["/compsci/your-timetable", "/compsci/custom-timetable", "/compsci/courses/your-timetable", "/compsci/courses/custom-timetable"]
 weight: 2
 layout: 'custom-timetable'
 type: 'page'

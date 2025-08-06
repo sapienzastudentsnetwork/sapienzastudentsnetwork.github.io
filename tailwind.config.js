@@ -3,7 +3,8 @@ module.exports = {
   darkMode: 'selector',
   content: [
     "layouts/**/*.{html,js}",
-    "29932/**/*.md",
+    "cybersec/**/*.md",
+    "compsci/**/*.md",
     "acsai/**/*.md",
     "it/**/*.md",
   ],

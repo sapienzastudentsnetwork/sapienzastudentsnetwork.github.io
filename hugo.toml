@@ -27,15 +27,15 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.acsai.params]
             contentDir = 'acsai'
 
-    [languages.29932]
-        contentDir = '29932'
+    [languages.compsci]
+        contentDir = 'compsci'
         disabled = false
         languageName = 'Computer Science'
         title = 'Computer Science'
         weight = 2
 
-        [languages.29932.params]
-            contentDir = '29932'
+        [languages.compsci.params]
+            contentDir = 'compsci'
 
     [languages.cybersec]
         contentDir = 'cybersec'

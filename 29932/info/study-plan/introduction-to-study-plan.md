@@ -13,7 +13,7 @@ Students are warmly advised to carefully read the [Study plans section](https://
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i>
-All the information given here can be found on the official webpage dedicated to [Computer Science](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme) (if it seems outdated modify the year in the link to the current one). You might have to check the webpage in case rules change, as it happened in the 2024/25 academic year when the recommended curriculums were added.
+Most of the information on this page has been sourced from the ["Study plan instructions" subpage](https://corsidilaurea.uniroma1.it/en/course/33508/attendance/instructions) of the [Computer Science course "Attendance" page in the Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33508/attendance). You might have to check the webpage in case rules change, as it happened in the 2024/25 academic year when the recommended curriculums were added.
 {{% /hint %}}
 
 {{% hint tip %}}
