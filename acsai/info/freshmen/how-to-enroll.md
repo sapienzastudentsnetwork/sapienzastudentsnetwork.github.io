@@ -73,8 +73,8 @@ For non-EU citizens abroad, this allows them to submit a pre-enrolment applicati
 To be pre-selected for the degree programme, the following is required:
 
  - A **high school diploma (or equivalent qualification)** obtained by the school year **2024/2025** and after no less than 12 years of study;
- - Evidence of **adequate knowledge of the English language** according to the parameters indicated in [Annex E](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_acsai_2024_25_en.pdf);
- - **At least one of the admission tests** indicated in [Section 1](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_acsai_2024_25_en.pdf) passed with a result of not less than 36/100.
+ - Evidence of **adequate knowledge of the English language** according to the parameters indicated in [Annex 2](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf);
+ - **At least one of the admission tests** indicated in [Section 1](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf) passed with a result of not less than 36/100.
 
 Mind that **pre-selection alone is not sufficient** for enrolment. The following admission process depends on passing the selection. Candidates from non-EU countries legally residing abroad cannot participate in the selection rounds without receiving the pre-acceptance letter and confirming the invitation it contains. For more details, click [here](https://www.uniroma1.it/en/admissions2024).
 
