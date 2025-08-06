@@ -25,20 +25,31 @@ Of the **36 ECTS credits**:
 
 - **12-15 ECTS credits** can be chosen from [outside the ACSAI course catalog](#how-to-select-external-courses), including from other departments (and faculties).
 
+{{% hint warning %}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
+
+- It is not allowed to select, as elective courses, exams that have already been passed within the same degree program, even if the course content was different;
+- It is not permitted to choose courses from **Master’s degree programs**, unless they are part of the **first three years** of a **single-cycle Master’s program** (D.M. 270/04).
+{{% /hint %}}
+
 ## When to Submit Your Study Plan
 
 Students, once they reach the Third Year, can submit or request to renew their Study Plan only once per academic year.
 
-The time frames within which this can be done are described in the following table, categorized by your year of enrollment in the First Year (due to regulatory changes over the years):
+The study plan can be submitted from **1 October each year until 30 September of the following year**.
 
-| **Year of Enrollment** | **Study Plan Submission Period**  |
-| ---------------------- | --------------------------------- |
-| 2020/21                | December 1 to December 31         |
-| 2021/22                | December 1 to December 31         |
-| 2022/23                | December 1 to December 31, 2024   |
-| 2023/24                | December 1 to December 31, 2025   |
-| 2024/25                | September 15 to November 30, 2026 |
-| 2025/26 and later      | September 15 to November 30       |
+The Committee will evaluate submitted study plans as follows:
+
+| **Submission Period**       | **Evaluation Deadline** |
+| --------------------------- | ----------------------- |
+| October 1 – October 10      | By October 30           |
+| October 11 – November 30    | By December 31          |
+| December 1 – January 15     | By January 31           |
+| January 16 – February 28    | By March 31             |
+| March 1 – April 30          | By May 31               |
+| May 1 – June 30             | By July 31              |
+| July 1 – September 14       | **No evaluations**      |
+| September 15 – September 30 | By October 31           |
 
 ## How to Submit or Renew Your Study Plan
 

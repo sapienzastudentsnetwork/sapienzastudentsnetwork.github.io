@@ -26,21 +26,31 @@ Ogni studente deve scegliere **30 CFU** di **insegnamenti opzionali**. È possib
 
 - In particolare, è possibile scegliere fino a un massimo di **15 CFU** di insegnamenti esterni al Corso di Laurea, che però verranno conteggiati come massimo **12 CFU**. Questo per dare l'eventuale possibilità di scegliere, per puro interesse personale, un insegnamento esterno al CdL da 6 CFU e un altro da 9, ad esempio.
 
+{{% hint warning %}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
+- Non è possibile scegliere, tra gli opzionali, esami già superati in precedenza nello stesso corso di studi, anche se con un programma diverso;
+- Non si possono scegliere insegnamenti da corsi di **laurea magistrale**, a meno che non facciano parte dei **primi tre anni** di un corso magistrale a **ciclo unico** (D.M. 270/04).
+{{% /hint %}}
+
 ### Quando presentare il proprio percorso formativo
 
 Gli studenti, una volta raggiunto il Terzo Anno, possono presentare o chiedere di rinnovare il loro percorso formativo una sola volta per ogni anno accademico.
 
-Le finestre temporali entro cui poterlo fare sono descritte nella seguente tabella, distinte in base al tuo anno di immatricolazione al Primo Anno (e ciò per via di modifiche regolamentari che si sono susseguite negli anni):
+Il percorso formativo può essere presentato dal **1 Ottobre di ogni anno fino al successivo 30 Settembre**.
 
-| Anno di immatricolazione | Finestra di presentazione del percorso formativo         |
-|--------------------------|----------------------------------------------------------|
-| Antecedente al 2020/21   | dal 1 settembre al 31 dicembre e dal 1 marzo al 31 marzo |
-| 2020/21                  | dal 1 al 31 dicembre                                     |
-| 2021/22                  | dal 1 al 31 dicembre                                     |
-| 2022/23                  | dal 1 al 31 dicembre                                     |
-| 2023/24                  | dal 1 al 31 dicembre 2025                                |
-| 2024/25                  | dal 15 settembre al 30 novembre 2026                     |
-| 2025/26 e successivi     | dal 15 settembre al 30 novembre                          |
+La Commissione valuterà i percorsi pervenuti secondo il seguente schema:
+
+| **Periodo di presentazione del piano di studi** | **Scadenza per la valutazione**   |
+|-------------------------------------------------|-----------------------------------|
+| Dal 1 ottobre al 10 ottobre                     | Entro il 30 ottobre               |
+| Dall’11 ottobre al 30 novembre                  | Entro il 31 dicembre              |
+| Dal 1 dicembre al 15 gennaio                    | Entro il 31 gennaio               |
+| Dal 16 gennaio al 28 febbraio                   | Entro il 31 marzo                 |
+| Dal 1 marzo al 30 aprile                        | Entro il 31 maggio                |
+| Dal 1 maggio al 30 giugno                       | Entro il 31 luglio                |
+| Dal 1 luglio al 14 settembre                    | **Non si effettuano valutazioni** |
+| Dal 15 settembre al 30 settembre                | Entro il 31 ottobre               |
 
 ### Come presentare o rinnovare il proprio percorso formativo
 
