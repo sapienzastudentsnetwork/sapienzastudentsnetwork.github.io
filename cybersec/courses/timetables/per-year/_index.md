@@ -1,5 +1,6 @@
 ---
 title: "Per-year"
+aliases: ["/29389/courses/timetables/per-year"]
 weight: 1
 bookCollapseSection: true
 layout: 'timetables'

@@ -1,6 +1,6 @@
 ---
 title: "Second Year"
-aliases: ["/cybersec/timetables/second-year", "/cybersec/courses/timetables/second-year"]
+aliases: ['/cybersec/timetables/second-year', '/cybersec/courses/timetables/second-year', '/29389/courses/timetables/per-year/second-year']
 weight: 2
 layout: 'timetables'
 type: 'page'

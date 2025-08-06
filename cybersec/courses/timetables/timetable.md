@@ -1,6 +1,6 @@
 ---
 title: "Your timetable"
-aliases: ["/cybersec/your-timetable", "/cybersec/custom-timetable", "/cybersec/courses/your-timetable", "/cybersec/courses/custom-timetable"]
+aliases: ['/cybersec/your-timetable', '/cybersec/custom-timetable', '/cybersec/courses/your-timetable', '/cybersec/courses/custom-timetable', '/29389/courses/timetables/timetable']
 weight: 2
 layout: 'custom-timetable'
 type: 'page'

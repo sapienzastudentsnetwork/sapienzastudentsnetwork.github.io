@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+aliases: ["/29389/courses/curriculum"]
 bookHidden: true
 weight: 1
 ---

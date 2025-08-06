@@ -1,6 +1,6 @@
 ---
 title: Calendars
-aliases: ["/29389/courses/calendar/"]
+aliases: ['/29389/courses/calendar/', '/29389/courses/calendars']
 bookCollapseSection: true
 weight: 1
 bookHidden: false

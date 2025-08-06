@@ -1,5 +1,6 @@
 ---
 title: Erasmus
+aliases: ["/29389/info/student-life/erasmus"]
 weight: 3
 bookToc: false
 ---

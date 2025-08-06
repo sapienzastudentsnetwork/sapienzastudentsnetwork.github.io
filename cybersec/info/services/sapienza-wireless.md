@@ -1,5 +1,6 @@
 ---
 title: University's WiFi
+aliases: ["/29389/info/services/sapienza-wireless"]
 weight: 2
 ---
 

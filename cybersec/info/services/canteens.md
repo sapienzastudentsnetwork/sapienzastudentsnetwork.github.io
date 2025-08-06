@@ -1,5 +1,6 @@
 ---
 title: Canteens
+aliases: ["/29389/info/services/canteens"]
 weight: 3
 ---
 

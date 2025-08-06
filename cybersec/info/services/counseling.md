@@ -1,5 +1,6 @@
 ---
 title: Counseling
+aliases: ["/29389/info/services/counseling"]
 weight: 4
 ---
 
