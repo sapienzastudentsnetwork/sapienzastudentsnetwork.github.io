@@ -5,7 +5,7 @@ weight: 2
 layout: 'custom-timetable'
 type: 'page'
 bookToc: false
-degreeCode: '29932'
+degreeCode: '33508'
 ---
 
 Build your own timetable for the master's degree

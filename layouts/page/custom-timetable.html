@@ -5,7 +5,7 @@
 
 <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
-<!--{{ $excludedCodes := slice "29923" "30786" }}
+<!--{{ $excludedCodes := slice "33503" "33502" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}-->
@@ -47,16 +47,16 @@
             {{ $courses := site.Data.courses }}
 
             {{ $degrees := dict }}
-            {{ if or (eq $pageDegreeCode "29923") (eq $pageDegreeCode "30786") }}
-                {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" }}
-            {{ else if or (eq $pageDegreeCode "29932") (eq $pageDegreeCode "29389") }}
-                {{ $degrees = dict "29932" "Computer Science" "29389" "Cybersecurity" }}
+            {{ if or (eq $pageDegreeCode "33503") (eq $pageDegreeCode "33502") }}
+                {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" }}
+            {{ else if or (eq $pageDegreeCode "33508") (eq $pageDegreeCode "33516") }}
+                {{ $degrees = dict "33508" "Computer Science" "33516" "Cybersecurity" }}
             {{ else }}
-                {{ $degrees = dict "29923" "Informatica" "30786" "ACSAI" "29932" "Computer Science" "29389" "Cybersecurity"
+                {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" "33508" "Computer Science" "33516" "Cybersecurity"
             }}
             {{ end }}
 
-            {{ $colors := dict "29923" "#709DD1" "30786" "#B15252" "29932" "#49C15B" "29389" "#FCC005" }}
+            {{ $colors := dict "33503" "#709DD1" "33502" "#B15252" "33508" "#49C15B" "33516" "#FCC005" }}
 
             {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
             {{ $dataTimetables := site.Data.timetables }}
@@ -138,18 +138,18 @@
         let button = document.getElementById("dialog-" + subjectId);
 
         if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
-            if (button.classList.contains("c-30786-disabled")) {
-                button.classList.remove("c-30786-disabled")
-                button.classList.add("c-30786")
-            } else if (button.classList.contains("c-29932-disabled")) {
-                button.classList.remove("c-29932-disabled")
-                button.classList.add("c-29932")
-            } else if (button.classList.contains("c-29389-disabled")) {
-                button.classList.remove("c-29389-disabled")
-                button.classList.add("c-29389")
-            } else if (button.classList.contains("c-29923-disabled")) {
-                button.classList.remove("c-29923-disabled")
-                button.classList.add("c-29923")
+            if (button.classList.contains("c-33502-disabled")) {
+                button.classList.remove("c-33502-disabled")
+                button.classList.add("c-33502")
+            } else if (button.classList.contains("c-33508-disabled")) {
+                button.classList.remove("c-33508-disabled")
+                button.classList.add("c-33508")
+            } else if (button.classList.contains("c-33516-disabled")) {
+                button.classList.remove("c-33516-disabled")
+                button.classList.add("c-33516")
+            } else if (button.classList.contains("c-33503-disabled")) {
+                button.classList.remove("c-33503-disabled")
+                button.classList.add("c-33503")
             }
 
             button.classList.remove(
@@ -181,18 +181,18 @@
 
             selectedSubjects.delete(subjectId);
         } else {    // If subject is not in the JSON, then add it
-            if (button.classList.contains("c-30786")) {
-                button.classList.add("c-30786-disabled")
-                button.classList.remove("c-30786")
-            } else if (button.classList.contains("c-29932")) {
-                button.classList.add("c-29932-disabled")
-                button.classList.remove("c-29932")
-            } else if (button.classList.contains("c-29389")) {
-                button.classList.add("c-29389-disabled")
-                button.classList.remove("c-29389")
-            } else if (button.classList.contains("c-29923")) {
-                button.classList.add("c-29923-disabled")
-                button.classList.remove("c-29923")
+            if (button.classList.contains("c-33502")) {
+                button.classList.add("c-33502-disabled")
+                button.classList.remove("c-33502")
+            } else if (button.classList.contains("c-33508")) {
+                button.classList.add("c-33508-disabled")
+                button.classList.remove("c-33508")
+            } else if (button.classList.contains("c-33516")) {
+                button.classList.add("c-33516-disabled")
+                button.classList.remove("c-33516")
+            } else if (button.classList.contains("c-33503")) {
+                button.classList.add("c-33503-disabled")
+                button.classList.remove("c-33503")
             }
 
             button.classList.remove(
@@ -231,18 +231,18 @@
             const button = document.getElementById("dialog-" + subjectId);
 
             if (button) { // Check if the button exists
-                if (button.classList.contains("c-30786")) {
-                    button.classList.add("c-30786-disabled");
-                    button.classList.remove("c-30786");
-                } else if (button.classList.contains("c-29932")) {
-                    button.classList.add("c-29932-disabled");
-                    button.classList.remove("c-29932");
-                } else if (button.classList.contains("c-29389")) {
-                    button.classList.add("c-29389-disabled");
-                    button.classList.remove("c-29389");
-                } else if (button.classList.contains("c-29923")) {
-                    button.classList.add("c-29923-disabled");
-                    button.classList.remove("c-29923");
+                if (button.classList.contains("c-33502")) {
+                    button.classList.add("c-33502-disabled");
+                    button.classList.remove("c-33502");
+                } else if (button.classList.contains("c-33508")) {
+                    button.classList.add("c-33508-disabled");
+                    button.classList.remove("c-33508");
+                } else if (button.classList.contains("c-33516")) {
+                    button.classList.add("c-33516-disabled");
+                    button.classList.remove("c-33516");
+                } else if (button.classList.contains("c-33503")) {
+                    button.classList.add("c-33503-disabled");
+                    button.classList.remove("c-33503");
                 }
 
                 button.classList.remove(

@@ -5,7 +5,7 @@ weight: 4
 layout: 'custom-timetable'
 type: 'page'
 bookToc: false
-degreeCode: '29923'
+degreeCode: '33503'
 ---
 
 Costruisci il tuo orario delle lezioni personalizzato per la triennale

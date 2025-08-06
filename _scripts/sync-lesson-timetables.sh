@@ -3,7 +3,7 @@
 rm ../data/classrooms.json
 rm ../data/timetables.json
 
-declare -a degree_programme_codes=("29923" "29932" "29389" "30786")
+declare -a degree_programme_codes=("33503" "33508" "33516" "33502")
 academic_year="2025/2026"
 semester="primo"
 

@@ -160,7 +160,7 @@ def parse(DOM):
                     schedule_time_slot  = re.sub(r'\b0(\d)', r'\1', schedule_time_slot)
 
                     # 1055043 - STATISTICS is offered in both ACSAI and Cybersecurity, but with different professors and schedules
-                    if course_code == "1055043" and os.getenv("DEGREE_PROGRAMME_CODE", "29923") == "29389":
+                    if course_code == "1055043" and os.getenv("DEGREE_PROGRAMME_CODE", "33503") == "33516":
                         course_code = "1055043_2"
 
                     if course_code not in course_timetables_dict:
@@ -175,7 +175,7 @@ def parse(DOM):
                         # 1047622 - Cryptography
                         # 10589555 - Practical Network Defense
                         if course_code in ("1041792", "1047622", "10589555"):
-                            course_timetables_dict[course_code]["degree"] = "29389"
+                            course_timetables_dict[course_code]["degree"] = "33516"
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
                         course_timetables_dict[course_code]["channels"][f"{channel}"] = {}
@@ -396,10 +396,10 @@ if __name__ == '__main__':
     semester = os.getenv("SEMESTER", "primo")
 
     # Degree program to scrape data for
-    degree_programme_code = os.getenv("DEGREE_PROGRAMME_CODE", "29923")
+    degree_programme_code = os.getenv("DEGREE_PROGRAMME_CODE", "33503")
 
     # Academic Year of the degree program to scrape data for
-    academic_year = os.getenv("ACADEMIC_YEAR", "2024/2025")
+    academic_year = os.getenv("ACADEMIC_YEAR", "2025/2026")
 
     # Url of the gomppublic page containing timetables and classrooms for the specific degree program
     gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL", 'https://gomppublic.uniroma1.it/ScriptService/OffertaFormativa/Ofs.6.0/AuleOrariScriptService/GenerateOrario.aspx?params={"controlID":"","aulaUrl":"","codiceInterno":{codiceInterno},"annoAccademico":"{annoAccademico}","virtuale":false,"timeSlots":null,"displayMode":"Manifesto","showStyles":false,"codiceAulaTagName":"","nomeAulaCssClass":"","navigateUrlInsegnamentoMode":"","navigateUrlInsegnamento":"","navigateUrlDocenteMode":"","navigateUrlDocente":"","repeatTrClass":""}&_=1702740827520')\
@@ -525,261 +525,17 @@ if __name__ == '__main__':
     #second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
-    if degree_programme_code == "29923":
-        if "1022265" in course_timetables_dict:
-            # 1022265 - MODELLI E OTTIMIZZAZIONE
+    if degree_programme_code == "33503": # Informatica
+        pass
 
-            if "mercoledì" not in course_timetables_dict["1022265"]["channels"]["0"]:
-                course_timetables_dict["1022265"]["channels"]["0"]["mercoledì"] = [
-                    {
-                        "teachers": {
-                          "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
-                        },
-                        "timeslot": "17 - 19",
-                        "classrooms": {
-                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                        }
-                    }
-                ]
+    elif degree_programme_code == "33502": # ACSAI
+        pass
 
-        if "1020422_2" in course_timetables_dict:
-            # 1020422_2 - SISTEMI OPERATIVI II
+    elif degree_programme_code == "33508": # Computer Science
+        pass
 
-            if "mercoledì" in course_timetables_dict["1020422_2"]["channels"]["2"]:
-                course_timetables_dict["1020422_2"]["channels"]["2"]["mercoledì"][0]["timeslot"] = "9 - 12"
-
-        if "1015889" in course_timetables_dict:
-            # 1015889 - RETI DI ELABORATORI
-
-            if "venerdì" in course_timetables_dict["1015889"]["channels"]["1"]:
-                if "35085c26-00da-4721-b7df-cd1d0970f13c" in course_timetables_dict["1015889"]["channels"]["1"]["venerdì"][0]["teachers"]:
-                    course_timetables_dict["1015889"]["channels"]["1"]["venerdì"].pop(0)
-
-                    if len(course_timetables_dict["1015889"]["channels"]["1"]["venerdì"]) == 0:
-                        course_timetables_dict["1015889"]["channels"]["1"].pop("venerdì")
-
-        if "1022268" in course_timetables_dict:
-            # 1022268 - SICUREZZA
-
-            if "lunedì" not in course_timetables_dict["1022268"]["channels"]["0"]:
-                course_timetables_dict["1022268"]["channels"]["0"]["lunedì"] = [
-                      {
-                        "teachers": {
-                          "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
-                        },
-                        "timeslot": "14 - 16",
-                        "classroomInfo": reginaelena_edificiod_aula_201,
-                        "classroomUrl": reginaelena_edificiod
-                      }
-                ]
-
-        if "10589652" in course_timetables_dict:
-            # 10589652 - TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA
-
-            if "giovedì" not in course_timetables_dict["10589652"]["channels"]["0"]:
-                course_timetables_dict["10589652"]["channels"]["0"]["giovedì"] = [
-                      {
-                        "teachers": {
-                          "f071e391-82a8-41b0-9532-df545c55ddbb": "SALVO IVANO"
-                        },
-                        "timeslot": "11 - 13",
-                        "classrooms": {
-                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                        }
-                      }
-                ]
-
-        if "1015884" in course_timetables_dict:
-            # 1015884 - METODOLOGIE DI PROGRAMMAZIONE
-
-            if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["1"]:
-                course_timetables_dict["1015884"]["channels"]["1"]["mercoledì"] = [
-                  {
-                    "teachers": {
-                      "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
-                    },
-                    "timeslot": "16 - 19",
-                    "classrooms": {
-                      "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-                      "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-                    }
-                  }
-                ]
-
-            if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["2"]:
-                course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"] = [
-                  {
-                    "teachers": {
-                      "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
-                    },
-                    "timeslot": "12 - 16",
-                    "classrooms": {
-                      "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                    }
-                  }
-                ]
-            else:
-                course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"][0]["classrooms"] = {
-                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                }
-
-    elif degree_programme_code == "30786":
-        if "10595533" in course_timetables_dict:
-            # 10595533 - OPTIMIZATION
-
-            if "mercoledì" not in course_timetables_dict["10595533"]["channels"]["0"]:
-                course_timetables_dict["10595533"]["channels"]["0"]["mercoledì"] = [
-                    {
-                        "teachers": {
-                          "1e6c894f-10a8-434c-bde1-97a6aad091c3": "WOLLAN PAUL JOSEPH"
-                        },
-                        "timeslot": "17 - 19",
-                        "classrooms": {
-                          "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                        }
-                    }
-                ]
-
-        if "10595535" in course_timetables_dict:
-            # 10595535 - HUMAN COMPUTER INTERACTION
-
-            if "mercoledì" in course_timetables_dict["10595535"]["channels"]["0"]:
-                if course_timetables_dict["10595535"]["channels"]["0"]["mercoledì"][0]["timeslot"] == "16 - 19":
-                    course_timetables_dict["10595535"]["channels"]["0"]["mercoledì"] = [
-                          {
-                            "teachers": {
-                              "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
-                            },
-                            "timeslot": "13 - 16",
-                            "classroomInfo": reginaelena_edificiod_aula_201,
-                            "classroomUrl": reginaelena_edificiod
-                          }
-                    ]
-
-            if "giovedì" in course_timetables_dict["10595535"]["channels"]["0"]:
-                if course_timetables_dict["10595535"]["channels"]["0"]["giovedì"][0]["timeslot"] == "15 - 17":
-                    course_timetables_dict["10595535"]["channels"]["0"]["giovedì"].pop(0)
-
-    elif degree_programme_code == "29932":
-        if "1047623" in course_timetables_dict and "giovedì" not in course_timetables_dict["1047623"]["channels"]["0"]:
-            # 1047623 - DATA AND NETWORK SECURITY
-
-            course_timetables_dict["1047623"]["channels"]["0"]["giovedì"] = [
-                {
-                    "teachers": {
-                      "5457d8e3-6352-4c7b-ab90-a3b8a3db1968": "HITAJ DORJAN"
-                    },
-                    "timeslot": "8 - 11",
-                    "classrooms": {
-                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                    }
-                }
-            ]
-
-        if "1047205" in course_timetables_dict and "martedì" in course_timetables_dict["1047205"]["channels"]["0"]:
-            # 1047205 - CLOUD COMPUTING
-
-            if course_timetables_dict["1047205"]["channels"]["0"]["martedì"]:
-                course_timetables_dict["1047205"]["channels"]["0"]["martedì"][0]["classrooms"] = {
-                    "db890f28-5b24-475c-9a54-c9ee2f29c091": "Aula 7 (Edificio: CU033)"
-                }
-
-        if "1047639" in course_timetables_dict:
-            # 1047639 - MULTIMODAL INTERACTION
-
-            if "giovedì" in course_timetables_dict["1047639"]["channels"]["0"]:
-                course_timetables_dict["1047639"]["channels"]["0"]["giovedì"][0]["teachers"] = {
-                    "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
-                    "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
-                }
-
-            if "venerdì" in course_timetables_dict["1047639"]["channels"]["0"]:
-                if "f738330a-ffb2-4dc3-b40e-205299ff9ad1" not in course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]:
-                    course_timetables_dict["1047639"]["channels"]["0"]["venerdì"][0]["teachers"]["f738330a-ffb2-4dc3-b40e-205299ff9ad1"] = "MANCINI MAURIZIO"
-
-            else:
-                course_timetables_dict["1047639"]["channels"]["0"]["venerdì"] = [
-                    {
-                        "teachers": {
-                          "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
-                          "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
-                        },
-                        "timeslot": "8 - 11",
-                        "classrooms": {
-                          "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                        }
-                    }
-                ]
-
-    elif degree_programme_code == "29389":
-        if "10589555" in course_timetables_dict and "venerdì" not in course_timetables_dict["10589555"]["channels"]["0"]:
-            # 10589555 - PRACTICAL NETWORK DEFENSE
-
-            course_timetables_dict["10589555"]["channels"]["0"]["venerdì"] = [
-                {
-                    "teachers": {
-                      "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
-                    },
-                    "timeslot": "11 - 13",
-                    "classrooms": {
-                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                    }
-                }
-            ]
-
-        if "1055047" in course_timetables_dict and "mercoledì" not in course_timetables_dict["1055047"]["channels"]["0"]:
-            # 1055047 - ECONOMICS OF TECHNOLOGY AND MANAGEMENT
-
-            course_timetables_dict["1055047"]["channels"]["0"]["mercoledì"] = [
-                {
-                    "teachers": {
-                      "3080a6c4-17b9-4e47-a52d-dbb9b6d4fb3e": "D'ADAMO IDIANO"
-                    },
-                    "timeslot": "10 - 12",
-                    "classrooms": {
-                      "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                    }
-                }
-            ]
-
-        if "1054962" in course_timetables_dict:
-            # 1054962 - SECURE COMPUTATION
-
-            if "martedì" in course_timetables_dict["1054962"]["channels"]["0"]:
-                course_timetables_dict["1054962"]["channels"]["0"]["martedì"][0]["teachers"] = {
-                    "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
-                    "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
-                }
-
-            if "mercoledì" not in course_timetables_dict["1054962"]["channels"]["0"]:
-                course_timetables_dict["1054962"]["channels"]["0"]["mercoledì"] = [
-                    {
-                        "teachers": {
-                          "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN",
-                          "e9de79a3-2dfd-4d7c-a56e-426fb60f5a66": "DE GASPARI FABIO"
-                        },
-                        "timeslot": "14 - 16",
-                        "classrooms": {
-                          "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                        }
-                    }
-                ]
-
-        if "AAF1803" in course_timetables_dict:
-            # AAF1803 - CYBER SECURITY SEMINARS
-
-            if "mercoledì" in course_timetables_dict["AAF1803"]["channels"]["0"]:
-                if course_timetables_dict["AAF1803"]["channels"]["0"]["mercoledì"][0]["timeslot"] == "16 - 20":
-                    course_timetables_dict["AAF1803"]["channels"]["0"]["mercoledì"][0]["timeslot"] = "16 - 19"
-
-        if "10600449" in course_timetables_dict:
-            # 10600449 - ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN
-
-            if "giovedì" in course_timetables_dict["10600449"]["channels"]["0"]:
-                if "cab0d0ee-1faa-4552-9587-7a559480dde4" in course_timetables_dict["10600449"]["channels"]["0"]["giovedì"][0]["classrooms"]:
-                    course_timetables_dict["10600449"]["channels"]["0"]["giovedì"][0]["classrooms"] = {
-                        "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
-                    }
+    elif degree_programme_code == "33516": # Cybersecurity
+        pass
 
     for course_code, course_data in course_timetables_dict.items():
         if "degree" in course_data and course_data["degree"] != degree_programme_code:
@@ -790,11 +546,6 @@ if __name__ == '__main__':
                 for day_schedule in day_schedules:
                     classroomInfo = None
                     classroomUrl  = None
-
-                    if course_code == "1015884" and day_name == "mercoledì":
-                        day_schedule["teachers"] = {
-                            "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
-                        }
 
                     if "classrooms" in day_schedule:
                         if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
