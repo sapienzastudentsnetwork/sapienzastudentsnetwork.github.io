@@ -16,16 +16,22 @@ bookHidden: true
 Should you run into any issues during the procedure, feel free to drop by the [Telegram group chat](https://t.me/ComputerScienceSapienza); it's a great place to connect with fellow students and get help if you need it.
 {{% /hint %}}
 
-Enrolling in Computer Science requires you to follow these steps:
+To enroll in the Master’s Degree in Computer Science, you must complete the following steps:
 
-1. Register on Infostud to obtain your matricola code
-2. Pay the €10 fee for the assessment of requirements
-3. Wait for the official response to the assessment via your email
-4. If accepted, enroll through Infostud
+1. [Register on Infostud](#infostud) to obtain your student ID (matricola)
+2. [Pay the €10 fee and apply for assessment](#assessment-of-requirements-dates)
+3. [Wait for the official outcome](#assessment-of-academic-knowledge)
+4. [Proceed to enrollment](#enrollment) if accepted
+
+{{% hint warning %}}
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Candidates with a qualification obtained in a non-Italian education system**
+
+If you hold a foreign qualification or are a non-Italian citizen, make sure to carefully read [this section](#candidates-with-a-qualification-obtained-in-a-non-italian-education-system) as **additional steps and specific procedures apply** depending on your status.
+{{% /hint %}}
 
 ## Assessment of requirements dates
 
-For the **2025/2026** academic year, these are the dates. Always check the Computer Science page for updates since they may change:
+For the 2025/2026 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
 
 - September 16, 2025 (only date available for non-EU candidates who request a student visa)
 - October 16, 2025
@@ -33,21 +39,26 @@ For the **2025/2026** academic year, these are the dates. Always check the Compu
 - December 16, 2025
 - January 15, 2026 (reserved for students graduating at Sapienza)
 
-Payment must be made via PagoPA on Infostud using course code **33508**.
+Payment must be made via PagoPA using course code **33508**.
 
 ### Candidates from other Italian universities
 
-Non-Sapienza students must email: [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) with self-certification of their qualification, list of exams and sectors (SSD), and the payment receipt.
+If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) including:
+
+- A self-certification of your degree
+- A list of exams with their scientific-disciplinary sectors (SSD)
+- A copy of the €10 payment receipt
 
 ### Candidates who have not graduated yet
 
-Students who haven’t yet graduated may still apply but must obtain their degree by:
-- **December 20, 2025** for non-Sapienza students
-- **January 24, 2026** for Sapienza students
+You may still apply for assessment, but you must obtain your degree by:
+
+- December 20, 2025 if you are from another university
+- January 24, 2026 if you are graduating from Sapienza
 
 ## Entry requirements
 
-You must have a university degree (or equivalent foreign qualification) and at least **90 ECTS** in the following scientific-disciplinary sectors (or equivalent):
+To be admitted, you must hold a degree (or equivalent foreign qualification) and have obtained **at least 90 ECTS** in the following scientific-disciplinary sectors (or international equivalents):
 
 - INF/01
 - ING-INF/01, ING-INF/02, ING-INF/03, ING-INF/04, ING-INF/05
@@ -55,9 +66,10 @@ You must have a university degree (or equivalent foreign qualification) and at l
 - MAT/01, MAT/02, MAT/03, MAT/05, MAT/06, MAT/07, MAT/08, MAT/09
 - SECS-S/01, SECS-S/06
 
-Among the 90 ECTS, **72** must relate to core disciplines in mathematics, physics, computer science, ICT, data science, and information engineering.
+Among these 90 ECTS, at least **72** must be in core subjects in mathematics, physics, computer science, ICT, data science, or information engineering.
 
-In addition, knowledge of:
+You are also required to have knowledge of:
+
 - Programming languages
 - Algorithms and data structures
 - Computer architectures
@@ -66,65 +78,68 @@ In addition, knowledge of:
 - Operating systems
 - Computability and complexity theory
 
-is required.
-
 ## Assessment of academic knowledge
 
-Your academic background will be evaluated based on:
-- Degree class (L-31 or L-8)
-- Final grade
-- Exam performance in computer science SSDs
+Your preparation will be evaluated based on:
 
-If you have an L-31 or L-8 degree and graduated with at least **100/110**, you will likely be accepted automatically.
+- Your degree class (L-31 or L-8)
+- Your final grade
+- Your exam performance in relevant SSDs
 
-Otherwise, an **interview** may be required to assess your preparation.
+If you hold an L-31 or L-8 degree and graduated with at least **100/110**, you are generally admitted without an interview.
+
+Otherwise, an **interview** may be required to assess your knowledge in the fundamental areas of computer science.
 
 ## English requirements
 
-A **B2 level** or higher in English is mandatory. You can prove this with a certificate or attend an **interview**, depending on the Committee's decision.
+A knowledge of English at **B2 level or higher** is mandatory.
+
+You must either provide valid certification or attend an **interview**, as determined by the Committee in the outcome of your assessment.
 
 ## Candidates with a qualification obtained in a non-Italian education system
 
-There are **three distinct categories** with **different procedures**:
+Depending on your nationality, residency, and visa status, different procedures apply:
 
-### 1. **Non-EU citizens residing abroad** (including Chinese students in the **Marco Polo project**)
+### 1. Non-EU citizens residing abroad (including Chinese students in the Marco Polo project)
 
-If you are a non-EU citizen residing outside Italy and require a **study visa**, you **must obtain a pre-acceptance letter** to enroll.
+If you are a non-EU citizen residing outside Italy and require a study visa, you must obtain a **pre-acceptance letter** to enroll.
 
-* Follow the steps indicated in **Section 7** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#7-master-s-degree-courses-with-requirements-and-personal-knowledge-assessment-and-mandatory-pre-acceptance-letter-enrolment-procedures-for-non-eu-students-requiring-visa-and-chinese-students-in-marco-polo-project)
+→ Follow the steps in **Section 7** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#7-master-s-degree-courses-with-requirements-and-personal-knowledge-assessment-and-mandatory-pre-acceptance-letter-enrolment-procedures-for-non-eu-students-requiring-visa-and-chinese-students-in-marco-polo-project)
 
-### 2. **EU citizens (regardless of residence)** and **non-EU citizens with residence permit in Italy**
+### 2. EU citizens (any residence) and non-EU citizens with residence permit in Italy
 
 This includes:
 
-* EU citizens living anywhere
+- EU citizens, regardless of residence
+- Non-EU citizens with a residence permit in Italy
 
-* Non-EU citizens who already live in Italy legally (e.g. with a residence permit)
+→ Follow the steps in **Section 8** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#8-master-s-degree-courses-with-requirements-and-personal-knowledge-assessment-and-pre-acceptance-letter-enrolment-procedures-for-eu-citizens-wherever-resident-and-non-eu-citizens-residing-in-italy)
 
-* Follow the procedures listed in **Section 8** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#8-master-s-degree-courses-with-requirements-and-personal-knowledge-assessment-and-pre-acceptance-letter-enrolment-procedures-for-eu-citizens-wherever-resident-and-non-eu-citizens-residing-in-italy)
+### 3. All foreign degree holders after requirement approval or pre-acceptance
 
-### 3. **All foreign degree holders after pre-acceptance or positive requirement assessment**
+If you have passed the entry requirement assessment or received a pre-acceptance letter, follow the general enrollment instructions:
 
-Once you have passed the **entry requirement assessment**, or received a **pre-acceptance letter**, you must follow the general enrollment instructions:
-
-* See **Section 4** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#4-mandatory-documents-for-enrolment-master-s-degree-courses)
+→ See **Section 4** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#4-mandatory-documents-for-enrolment-master-s-degree-courses)
 
 ## Infostud
 
-Register on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) to obtain your student ID. Use an email you check frequently.
+Start by registering on [Infostud](https://www.studenti.uniroma1.it/phoenixreg/index.html) to obtain your **student ID** (matricola). Use a valid email address — it will be used for all communications.
 
-Then, access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students) → "Bachelor and Master Degree Programmes" → "Admission to Programmes":
+Then access your [private area](https://www.uniroma1.it/en/pagina-strutturale/students) → "Bachelor and Master Degree Programmes" → "Admission to Programmes":
 
-![Image](https://i.imgur.com/T2VvbNd.png)
+![Infostud Step 1](https://i.imgur.com/T2VvbNd.png)
 
-Enter the course code **33508** and pay the €10 fee for the assessment of requirements. Wait for the acceptance or rejection email on your institutional or declared email.
+Enter the course code **33508**, pay the €10 assessment fee via PagoPA, and wait for the result by email.
 
-![Image](https://i.imgur.com/v84PZyb.png)
+![Infostud Step 2](https://i.imgur.com/v84PZyb.png)
 
 ## Enrollment
 
-Once accepted, go to Infostud → "Bachelor and Master Degree Programmes" → "Year One" (under "Tuition Fees", [image](https://i.imgur.com/zaY3eXy.png)) and insert **33508**. Click “Generate Payment Slips”. You will get two slips:
+If you are accepted, go to Infostud → "Bachelor and Master Degree Programmes" → "Year One" under the "Tuition Fees" section ([see image](https://i.imgur.com/zaY3eXy.png)) and insert **33508**.
+
+You will be able to generate two payment slips:
+
 - One for the first installment only
 - One for all three installments
 
-You **must** pay **via PagoPA** before the enrollment deadline.
+You **must** pay one of them via **PagoPA** before the enrollment deadline.
