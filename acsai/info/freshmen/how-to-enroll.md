@@ -1,5 +1,6 @@
 ---
 title: How to enroll
+aliases: ["/30786/info/freshmen/how-to-enroll"]
 ---
 
 # How to enroll

@@ -1,5 +1,6 @@
 ---
 title: 📜 ACSAI Rulebook
+aliases: ["/30786/rulebook"]
 weight: 2
 ---
 

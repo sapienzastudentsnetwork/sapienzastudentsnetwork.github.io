@@ -1,5 +1,6 @@
 ---
 title: Student Card
+aliases: ["/30786/info/services/student-card"]
 bookToc: False
 weight: 8
 ---

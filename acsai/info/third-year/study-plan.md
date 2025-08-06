@@ -1,6 +1,6 @@
 ---
 title: Study Plan
-aliases: ["/acsai/study-plan"]
+aliases: ['/acsai/study-plan', '/30786/info/third-year/study-plan']
 ---
 
 # ACSAI Study Plan

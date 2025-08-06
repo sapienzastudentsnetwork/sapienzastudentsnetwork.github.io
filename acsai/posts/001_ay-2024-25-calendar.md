@@ -1,5 +1,6 @@
 ---
 author: "Leonardo Biason"
+aliases: ["/30786/posts/001ay-2024-25-calendar"]
 date: "2024-07-08"
 title: "New Calendar for the Academic Year 2024/25"
 categories:

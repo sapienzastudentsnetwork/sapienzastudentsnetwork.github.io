@@ -1,5 +1,6 @@
 ---
 title: SapienzaSport
+aliases: ["/30786/info/services/sapienzasport"]
 weight: 6
 ---
 

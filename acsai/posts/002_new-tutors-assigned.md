@@ -1,5 +1,6 @@
 ---
 author: "Leonardo Biason"
+aliases: ["/30786/posts/002new-tutors-assigned"]
 date: "2024-07-08"
 title: "New tutors assigned"
 categories:

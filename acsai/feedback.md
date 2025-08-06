@@ -1,5 +1,6 @@
 ---
 title: 🔄 Feedback
+aliases: ["/30786/feedback"]
 bookHidden: true
 weight: 2
 ---

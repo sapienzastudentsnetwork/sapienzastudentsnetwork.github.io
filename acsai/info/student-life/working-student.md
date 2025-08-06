@@ -1,5 +1,6 @@
 ---
 title: Working Student
+aliases: ["/30786/info/student-life/working-student"]
 weight: 7
 bookToc: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Your timetable"
-aliases: ["/acsai/your-timetable", "/acsai/custom-timetable"]
+aliases: ['/acsai/your-timetable', '/acsai/custom-timetable', '/30786/courses/timetables/timetable']
 weight: 4
 layout: 'custom-timetable'
 type: 'page'

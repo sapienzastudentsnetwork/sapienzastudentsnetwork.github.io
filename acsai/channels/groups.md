@@ -1,6 +1,6 @@
 ---
 title: "Groups"
-aliases: ["/acsai/groups", "/acsai/channels/gruppi", "/acsai/whatsapp", "/acsai/channels/whatsapp", "/acsai/channels/telegram"]
+aliases: ['/acsai/groups', '/acsai/channels/gruppi', '/acsai/whatsapp', '/acsai/channels/whatsapp', '/acsai/channels/telegram', '/30786/channels/groups']
 weight: 1
 ---
 

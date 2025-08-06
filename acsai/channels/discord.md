@@ -1,6 +1,6 @@
 ---
 title: "Discord"
-aliases: ["/discord", "/acsai/discord"]
+aliases: ['/discord', '/acsai/discord', '/30786/channels/discord']
 weight: 2
 ---
 # Discord Servers

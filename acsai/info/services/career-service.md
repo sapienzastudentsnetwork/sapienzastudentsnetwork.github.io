@@ -1,5 +1,6 @@
 ---
 title: Career Service
+aliases: ["/30786/info/services/career-service"]
 weight: 5
 ---
 

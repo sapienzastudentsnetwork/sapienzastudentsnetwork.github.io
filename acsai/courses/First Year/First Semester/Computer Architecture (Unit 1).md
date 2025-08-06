@@ -1,5 +1,6 @@
 ---
 title: Computer Architecture (Unit 1)
+aliases: ["/30786/courses/first-year/first-semester/computer-architecture-unit-1"]
 ---
 
 # Computer Architecture (Unit 1)

@@ -1,6 +1,6 @@
 ---
 title: "Questionnaire"
-aliases: ["/questionnaire", "/acsai/questionnaire"]
+aliases: ['/questionnaire', '/acsai/questionnaire', '/30786/contributing/questionnaire']
 bookToC: true
 weight: 4
 ---

@@ -1,7 +1,7 @@
 ---
 title: Graduation Application
 
-aliases: ["/graduation-application", "/en/graduation-application", "/en/graduating/calculating-graduation-application", "/en/graduating/calculate-graduation-application"]
+aliases: ['/graduation-application', '/en/graduation-application', '/en/graduating/calculating-graduation-application', '/en/graduating/calculate-graduation-application', '/30786/info/graduating/graduation-application']
 ---
 
 # Graduation Application

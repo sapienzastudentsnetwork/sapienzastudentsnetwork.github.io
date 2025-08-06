@@ -1,5 +1,6 @@
 ---
 title: Timeline of the Bachelor's Degree in ACSAI
+aliases: ["/30786/info/freshmen/timeline"]
 bookHidden: false
 ---
 # Timeline of the Bachelor's Degree in ACSAI

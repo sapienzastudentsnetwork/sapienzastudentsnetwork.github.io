@@ -1,6 +1,6 @@
 ---
 title: "Second Year"
-aliases: ["/timetables/second-year", "/acsai/timetables/second-year"]
+aliases: ['/timetables/second-year', '/acsai/timetables/second-year', '/30786/courses/timetables/second-year']
 weight: 2
 layout: 'timetables'
 type: 'page'

@@ -1,5 +1,6 @@
 ---
 title: Didactic Opportunities
+aliases: ["/30786/info/student-life/didactic-opportunities"]
 weight: 5
 ---
 

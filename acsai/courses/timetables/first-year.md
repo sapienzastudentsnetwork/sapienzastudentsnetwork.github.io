@@ -1,6 +1,6 @@
 ---
 title: "First Year"
-aliases: ["/timetables/first-year", "/acsai/timetables/first-year"]
+aliases: ['/timetables/first-year', '/acsai/timetables/first-year', '/30786/courses/timetables/first-year']
 weight: 1
 layout: 'timetables'
 type: 'page'

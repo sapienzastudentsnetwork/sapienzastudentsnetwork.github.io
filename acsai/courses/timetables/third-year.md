@@ -1,6 +1,6 @@
 ---
 title: "Third Year"
-aliases: ["/timetables/third-year", "/acsai/timetables/third-year"]
+aliases: ['/timetables/third-year', '/acsai/timetables/third-year', '/30786/courses/timetables/third-year']
 weight: 3
 layout: 'timetables'
 type: 'page'

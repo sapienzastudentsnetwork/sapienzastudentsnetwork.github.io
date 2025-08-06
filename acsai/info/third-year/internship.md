@@ -4,6 +4,7 @@ bookHidden: false
 aliases:
   - /internship
   - /acsai/internship
+  - /30786/info/third-year/internship
 weight: 2
 ---
 

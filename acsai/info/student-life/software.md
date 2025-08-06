@@ -1,5 +1,6 @@
 ---
 title: Software needed
+aliases: ["/30786/info/student-life/software"]
 weight: 3
 bgimg: https://i.imgur.com/aJ9NVsb.png
 ---
