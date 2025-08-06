@@ -142,4 +142,3 @@ You will be able to generate two payment slips:
 - One for all three installments
 
 You **must** pay one of them via **PagoPA** before the enrollment deadline.
-]()
