@@ -8,9 +8,9 @@ weight: 5
 
 In addition to frontal lessons, Sapienza offers many opportunities to expand your skills and knowledge in a "non-standard" way.
 
-## High School of Advanced Studies
+## Sapienza School for Advanced Studies (SSAS)
 
-[The High School for Advanced Studies](https://web.uniroma1.it/sssas/en) (SSAS) is a didactic path of high formation, parallel to the curricular paths of your degree. The most interesting aspect of the SSAS is the presence of tutors, having the duty of direct students to a specific study and research areas. Admission to SSAS considers only accademic merits. Students admitted to SSAS have free access to any degree in Sapienza University.
+[The Sapienza School for Advanced Studies (SSAS)](https://web.uniroma1.it/sssas/en) (SSAS) is a didactic path of high formation, parallel to the curricular paths of your degree. The most interesting aspect of the SSAS is the presence of tutors, having the duty of direct students to a specific study and research areas. Admission to SSAS considers only accademic merits. Students admitted to SSAS have free access to any degree in Sapienza University.
 
 In addition to lessons of your degree, you will have to annually complete:
 - a research project with your tutor
@@ -20,13 +20,13 @@ In addition to lessons of your degree, you will have to annually complete:
 
 Other advantages offered by SSAS are:
 - free housing in Residenza Luca Serianni (a college near the university city)
-- mobility programs to other High School of Advanced Studies, that are Scuola Normale di Pisa, Ecole Normale of Paris and International High School of Trieste
+- mobility programs to [other schools for advanced studies](https://ssas.web.uniroma1.it/en/node/6735)
 
 ### Admission
 
 It is possible to apply for the SSAS at the first year of a Bachelor Degree or at the first year of a Master Degree. Students of the first year of a Bachelor Degree can apply only if they obtained **an high school final grade of 90/100 (or higher)**. Students of the first year of the Master Degree can apply only if they obtain **a bachelor degree grade of 107/110 (or higher)**.
 
-Application for current accademic year are closed, but we will upload further information when possible.
+For the current academic year's call, regularly check the [school website](https://ssas.web.uniroma1.it/).
 
 ## Futuro Annunciato
 
@@ -45,4 +45,4 @@ A path of excellence is a didactic path for deserving students, with the aim of 
 
 At the end of the path you will receive a certificate of participation and a refund of the tuition fees. 
 
-The call for this year is not been published yet, but you can regularly check this page or the ["Attendance" page of the ACSAI course](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione), in the "[Honours programme](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione#bootstrap-fieldgroup-nav-item-honours-programme)" section.
+For the current academic year's call, regularly check the ["Attendance" page of the ACSAI course](https://corsidilaurea.uniroma1.it/en/course/33502).

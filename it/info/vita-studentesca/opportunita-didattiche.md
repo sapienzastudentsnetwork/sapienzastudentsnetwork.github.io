@@ -20,13 +20,13 @@ In aggiunta alle lezioni del proprio corso di laurea, uno studente della SSAS de
 
 Altri vantaggi offerti dalla SSAS sono:
 - la possibilità di risiedere gratuitamente presso la Residenza Luca Serianni (una sorta di college vicino alla città universitaria)
-- programmi di scambio specifici presso altre scuole superiori, ovvero la Scuola Normale di Pisa, la Scuola Normale di Parigi e la Scuola Internazionale Superiore di Trieste
+- programmi di scambio specifici presso [altre scuole di studi avanzati](https://ssas.web.uniroma1.it/it/quali-dove-scuole-superiori-ateneo)
 
 ### Ammissione
 
-E' possibile provare l'ingresso alla SSAS al primo anno di Laurea Triennale o al primo anno di Laurea Magistrale. Gli studenti di primo anno della triennale possono accedere alla selezione solo se **hanno conseguito un voto all'esame di stato maggiore o uguale a 90/100**. Gli studenti di primo anno della laurea magistrale possono accedere alla selezione solo se **hanno ottenuto un voto di laurea maggiore o uguale a 107/110**.
+È possibile provare l'ingresso alla SSAS al primo anno di Laurea Triennale o al primo anno di Laurea Magistrale. Gli studenti di primo anno della triennale possono accedere alla selezione solo se **hanno conseguito un voto all'esame di stato maggiore o uguale a 90/100**. Gli studenti di primo anno della laurea magistrale possono accedere alla selezione solo se **hanno ottenuto un voto di laurea maggiore o uguale a 107/110**.
 
-Nel corrente anno accademico sono state rese disponibili 7 borse di studio per la classe di lauree triennali di Scienze e Tecnologie, a cui appartiene il Corso di Laurea in Informatica, e 3 posti per la stessa classe per le lauree magistrali. Sfortunatamente il bando di questo anno è scaduto. Pubblicheremo le informazioni per il bando dell'anno prossimo non appena saranno disponibili.
+Per il bando dell'anno accademico corrente, si controlli con regolarità il [sito della scuola](https://ssas.web.uniroma1.it/).
 
 ## Futuro Annunciato
 
@@ -45,4 +45,4 @@ Un percorso di eccellenza è un percorso formativo integrativo per studenti meri
 
 Alla fine del percorso si ottiene un certificato di partecipazione e un rimborso delle tasse universitarie.
 
-Il bando per l'anno corrente non è ancora uscito, si controlli con regolarità questa pagina o la [pagina "Frequentare" del Corso di Laurea in Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione), sezione "Percorsi di Eccellenza".
+Per il bando dell'anno accademico corrente, si controlli con regolarità la [pagina "Frequentare" del Corso di Laurea in Informatica](https://corsidilaurea.uniroma1.it/it/course/33503).
