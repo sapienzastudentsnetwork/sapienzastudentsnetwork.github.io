@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_ThisWeekOnly
-  translation: This page displays, for this week, the provisional timetable for the current week of classes. For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course "Attendance" page or the Telegram and WhatsApp groups.
+  translation: This page displays, for this week, the provisional timetable for the ninth week of classes (18 - 22 November). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course "Attendance" page or the Telegram and WhatsApp groups.
 
 - id: Subjs_WorkInProgress
   translation: Timetable currently being updated. Please do not rely on it for now and try again later!
@@ -141,10 +141,22 @@
   translation: What do the badges mean?
 
 - id: B_Course
-  translation: Course
+  translation: Degree
 
 - id: B_Course_Desc
-  translation: Course of study in which the curator studies/studied during their period of studies at Sapienza
+  translation: Degree Programme in which the curator studies/studied during their period of studies at Sapienza
+
+- id: B_Tutor_CAD
+  translation: Tutor
+
+- id: B_Tutor_CAD_Desc
+  translation: The curator collaborates on the content of the site's wikis as part of a tutoring program for overall learning of Computer Science Didactic Area Council ("CAD")
+
+- id: B_Volunteer
+  translation: Volunteer
+
+- id: B_Volunteer_Desc
+  translation: Collaborates to the project as a volunteer
 
 - id: B_SSN
   translation: SSN
@@ -164,23 +176,17 @@
 - id: B_Code_Dev_Desc
   translation: Develops/has developed code for the site
 
-- id: B_Stud_CyberSecRepr
-  translation: Representative @ CyberSec
-
-- id: B_Stud_CyberSecRepr_Desc
-  translation: Cybersecurity Student Representative
-
 - id: B_Stud_Repr
   translation: Student Representative
 
 - id: B_Stud_Repr_Desc
   translation: Student Representative
 
-- id: B_Stud_CSRepr
-  translation: Representative @ CS
+- id: B_Stud_CADRepr
+  translation: Representative @ CAD
 
-- id: B_Stud_CSRepr_Desc
-  translation: Computer Science Student Representative
+- id: B_Stud_CADRepr_Desc
+  translation: Student Representative on the Didactic Area Council ("CAD") of Computer Science
 
 - id: B_Stud_DIRepr
   translation: Representative @ DI

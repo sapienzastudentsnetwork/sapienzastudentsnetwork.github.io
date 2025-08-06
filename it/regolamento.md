@@ -8,7 +8,7 @@ weight: 2
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Fonte**
 
-Queste norme sono tratte dalla pagina "[Regolamento didattico](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/cds#bootstrap-fieldgroup-nav-item-regolamento-didattico)" della sezione "[Percorso formativo](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/cds)" del [Corso di Laurea](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/home) nel [Catalogo dei Corsi di studio](https://corsidilaurea.uniroma1.it/).
+Queste norme sono tratte dalla sezione "**Regolamento del corso**" nella [sottopagina "Organizzazione e contatti"](https://corsidilaurea.uniroma1.it/it/course/33503/organization) della [pagina nel Catalogo dedicata al corso di studi](https://corsidilaurea.uniroma1.it/it/course/33503).
 {{% /hint %}}
 
 Di seguito sono elencate le normative riguardanti il corso:

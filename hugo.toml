@@ -17,15 +17,15 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.homepage.params]
             contentDir = 'homepage'
 
-    [languages.30786]
-        contentDir = '30786'
+    [languages.acsai]
+        contentDir = 'acsai'
         disabled = false
         languageName = 'ACSAI'
         title = 'ACSAI'
         weight = 1
 
-        [languages.30786.params]
-            contentDir = '30786'
+        [languages.acsai.params]
+            contentDir = 'acsai'
 
     [languages.29932]
         contentDir = '29932'

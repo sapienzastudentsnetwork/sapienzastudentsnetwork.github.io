@@ -6,7 +6,7 @@ weight: 1
 # Cybersecurity Study Plan
 
 {{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Most of the information on this page has been taken from the Attendance page of the Master's Degree in Cybersecurity page dedicated to [Custom-tailoring Your Programme](https://corsidilaurea.uniroma1.it/en/corso/2024/29389/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme).
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> Most of the information on this page has been sourced from the "Attendance" page of the Master's Degree in Cybersecurity page dedicated to [Custom-tailoring Your Programme](https://corsidilaurea.uniroma1.it/en/corso/2024/29389/programmazione#bootstrap-fieldgroup-nav-item-custom-tailoring-your-programme).
 {{% /hint %}}
 
 {{% hint tip %}}

@@ -4,7 +4,7 @@ module.exports = {
   content: [
     "layouts/**/*.{html,js}",
     "29932/**/*.md",
-    "30786/**/*.md",
+    "acsai/**/*.md",
     "it/**/*.md",
   ],
   theme: {

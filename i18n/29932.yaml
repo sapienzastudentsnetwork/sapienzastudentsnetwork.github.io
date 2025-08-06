@@ -68,7 +68,7 @@
 #
 
 - id: Subjs_ThisWeekOnly
-  translation: This page displays, for this week, the provisional timetable for the current week of classes. For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
+  translation: This page displays, for this week, the provisional timetable for the current week of classes. For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course "Attendance" page or the Telegram and WhatsApp groups.
 
 - id: Subjs_WorkInProgress
   translation: Timetable currently being updated. Please do not rely on it for now and try again later!
@@ -86,7 +86,7 @@
   translation: Timetables per teaching
 
 - id: Subjs_TimetablesPerTeaching_NoTimetable
-  translation: No timetable available for this week. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
+  translation: No timetable available for this week. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the "Attendance" page of the Degree Program or via Telegram and WhatsApp groups.
 
 - id: Subjs_TimetablesPerTeaching_Day
   translation: Day

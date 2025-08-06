@@ -6,7 +6,7 @@ redirect_from:
   - /orari-acsai
   - /informatica/orari-acsai
   - /informatica/orari/acsai
-degree: 30786
+degree: 33502
 timetables:
     - title: "First Year"
       courses:

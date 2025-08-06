@@ -8,7 +8,7 @@ weight: 2
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Source**
 
-These rules are copied from the "[Programme Regulations](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/cds#bootstrap-fieldgroup-nav-item-programme-regulations)" page within the "[Study plan](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/cds)" section of the [Degree Course](https://corsidilaurea.uniroma1.it/en/corso/2024/29932/home) in the [Course Catalog](https://corsidilaurea.uniroma1.it/).
+These rules are sourced from the "**Course regulations**" section of the ["Organisation and contacts" subpage](https://corsidilaurea.uniroma1.it/en/course/33508/organization) on the [Computer Science course page in the Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33508).
 {{% /hint %}}
 
 The following is a list of regulations regarding the course:
