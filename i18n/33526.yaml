@@ -5,8 +5,14 @@
 - id: Search
   translation: Cerca qualcosa...
 
-- id: EditThisPage
-  translation: Edit this page
+- id: Edit this page
+  translation: Modifica questa pagina
+
+- id: Last modified by
+  translation: Ultima modifica di
+
+- id: Expand
+  translation: Espandi
 
 - id: 404_Desc_1
   translation: La pagina che stai cercando potrebbe essere stata rimossa,

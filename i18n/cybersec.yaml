@@ -5,8 +5,14 @@
 - id: Search
   translation: Search something...
 
-- id: EditThisPage
+- id: Edit this page
   translation: Edit this page
+
+- id: Last modified by
+  translation: Last modified by
+
+- id: Expand
+  translation: Expand
 
 - id: 404_Desc_1
   translation: The page that you are trying to reach could have been removed,

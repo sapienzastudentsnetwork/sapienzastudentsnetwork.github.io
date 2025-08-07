@@ -109,11 +109,12 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     BookTheme = 'auto'
     BookToC = true
     BookLogo = 'logo.png'
-    #BookSection = '*'
     BookSection = '*'
 
     # GitHub Stuff
     BookRepo = 'https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io'
+    BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
+    BookEditLink = '{{ .Site.Params.BookRepo }}/edit/main/{{ .Path }}'
     BookCommitPath = 'commit'
     BookEditPath = 'edit/main'
     BookDateFormat = '2 January 2006'
