@@ -5,8 +5,8 @@
 - id: Search
   translation: Cerca qualcosa...
 
-- id: EditPage
-  translation: Edit this page
+- id: EditThisPage
+  translation: Modifica la pagina
 
 - id: 404_Desc_1
   translation: La pagina che stai cercando potrebbe essere stata rimossa,

@@ -5,7 +5,7 @@
 - id: Search
   translation: Search something...
 
-- id: EditPage
+- id: EditThisPage
   translation: Edit this page
 
 - id: 404_Desc_1
