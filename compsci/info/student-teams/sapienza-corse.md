@@ -1,5 +1,6 @@
 ---
 title: Sapienza Corse
+aliases: ["/29932/info/student-teams/sapienza-corse"]
 bookHidden: true
 weight: 2
 ---

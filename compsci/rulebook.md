@@ -1,5 +1,6 @@
 ---
 title: 📜 CS Rulebook
+aliases: ["/29932/rulebook"]
 weight: 2
 ---
 

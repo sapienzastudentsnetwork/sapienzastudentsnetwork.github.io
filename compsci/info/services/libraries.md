@@ -1,5 +1,6 @@
 ---
 title: Libraries and Study Rooms
+aliases: ["/29932/info/services/libraries"]
 weight: 1
 ---
 

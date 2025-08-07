@@ -1,5 +1,6 @@
 ---
 title: How to enroll
+aliases: ["/29932/info/freshmen/how-to-enroll"]
 bookHidden: true
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Curriculum
+aliases: ["/29932/courses/curriculum"]
 weight: 1
 ---
 

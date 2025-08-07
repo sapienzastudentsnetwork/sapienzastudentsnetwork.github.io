@@ -1,5 +1,6 @@
 ---
 title: Graduation Grade
+aliases: ["/29932/info/graduating/graduation-grade"]
 ---
 # Calculation of Graduation Grade
 

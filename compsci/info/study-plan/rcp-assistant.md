@@ -1,5 +1,6 @@
 ---
 title: RCP Assistant
+aliases: ["/29932/info/study-plan/rcp-assistant"]
 weight: 2
 layout: 'rcp-assistant'
 type: 'page'

@@ -1,6 +1,6 @@
 ---
 title: "Project curators"
-aliases: ["/compsci/contributing/project-curators"]
+aliases: ['/compsci/contributing/project-curators', '/29932/contributing/contacts']
 bookToC: false
 weight: 2
 layout: 'compsci'

@@ -1,5 +1,6 @@
 ---
 title: "Lovelace"
+aliases: ["/29932/courses/timetables/babbage-lovelace/lovelace"]
 weight: 2
 bookCollapseSection: true
 layout: 'timetables'

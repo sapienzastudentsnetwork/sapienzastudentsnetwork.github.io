@@ -1,5 +1,6 @@
 ---
 title: "Clarks-Turing"
+aliases: ["/29932/courses/timetables/clarks-turing"]
 weight: 1
 bookCollapseSection: true
 layout: 'timetables'

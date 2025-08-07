@@ -1,5 +1,6 @@
 ---
 title: "Clarks"
+aliases: ["/29932/courses/timetables/clarks-turing/clarks"]
 weight: 1
 layout: 'timetables'
 type: 'page'
