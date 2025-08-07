@@ -18,11 +18,11 @@ Should you run into any issues during the procedure, feel free to drop by the [T
 
 To enroll in the Master’s Degree in Computer Science, you must complete the following steps:
 
-1. Check that you meet the [entry requirements](#entry-requirements)
-2. Review the [assessment procedure and deadlines](#assessment-of-requirements-and-deadlines)
-3. If applicable, follow the steps for [international candidates](#candidates-with-a-non-italian-qualification)
-4. [Register on Infostud and apply](#infostud)
-5. [Proceed to enrollment](#enrollment) if accepted
+1. Check that you meet the [entry requirements](#entry-requirements);
+2. Review the [assessment procedure and deadlines](#assessment-of-requirements-and-deadlines);
+3. If applicable, follow the steps for [international candidates](#candidates-with-a-non-italian-qualification);
+4. [Register on Infostud and apply](#infostud);
+5. [Proceed to enrollment](#enrollment) if accepted.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> A B2-level knowledge of English is mandatory. See [English requirements](#english-requirements).
@@ -32,31 +32,31 @@ To enroll in the Master’s Degree in Computer Science, you must complete the fo
 
 To be admitted, you must hold a degree (or equivalent foreign qualification) and have obtained **at least 90 ECTS** in the following scientific-disciplinary sectors (or international equivalents):
 
-- INF/01
-- ING-INF/01, ING-INF/02, ING-INF/03, ING-INF/04, ING-INF/05
-- FIS/01, FIS/02, FIS/07
-- MAT/01, MAT/02, MAT/03, MAT/05, MAT/06, MAT/07, MAT/08, MAT/09
-- SECS-S/01, SECS-S/06
+- INF/01;
+- ING-INF/01, ING-INF/02, ING-INF/03, ING-INF/04, ING-INF/05;
+- FIS/01, FIS/02, FIS/07;
+- MAT/01, MAT/02, MAT/03, MAT/05, MAT/06, MAT/07, MAT/08, MAT/09;
+- SECS-S/01, SECS-S/06.
 
 Among these 90 ECTS, at least **72** must be in core subjects in mathematics, physics, computer science, ICT, data science, or information engineering.
 
 You are also required to have knowledge of:
 
-- Programming languages
-- Algorithms and data structures
-- Computer architectures
-- Databases
-- Computer networks
-- Operating systems
-- Computability and complexity theory
+- Programming languages;
+- Algorithms and data structures;
+- Computer architectures;
+- Databases;
+- Computer networks;
+- Operating systems;
+- Computability and complexity theory.
 
 ## Assessment of academic knowledge
 
 Your preparation will be evaluated based on:
 
-- Your degree class (L-31 or L-8)
-- Your final grade
-- Your exam performance in relevant SSDs
+- Your degree class (L-31 or L-8);
+- Your final grade;
+- Your exam performance in relevant SSDs.
 
 If you hold an L-31 or L-8 degree and graduated with at least **100/110**, you are generally admitted without an interview.
 
@@ -72,28 +72,28 @@ You must either provide valid certification or attend an **interview**, as deter
 
 For the 2025/2026 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
 
-- September 16, 2025 (only date available for non-EU candidates who request a student visa)
-- October 16, 2025
-- November 18, 2025
-- December 16, 2025
-- January 15, 2026 (reserved for students graduating at Sapienza)
+- September 16, 2025 (only date available for non-EU candidates who request a student visa);
+- October 16, 2025;
+- November 18, 2025;
+- December 16, 2025;
+- January 15, 2026 (reserved for students graduating at Sapienza).
 
-Payment must be made via PagoPA using course code **33508**.
+Payment must be made via PagoPA using course code **33508**. More info regarding the enrolling payments are available at the [Infostud section](#infostud).
 
 ### Candidates from other Italian universities
 
 If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) including:
 
-- A self-certification of your degree
-- A list of exams with their scientific-disciplinary sectors (SSD)
-- A copy of the €10 payment receipt
+- A self-certification of your degree;
+- A list of exams with their scientific-disciplinary sectors (SSD);
+- A copy of the €10 payment receipt.
 
 ### Candidates who have not graduated yet
 
 You may still apply for assessment, but you must obtain your degree by:
 
-- December 20, 2025 if you are from another university
-- January 24, 2026 if you are graduating from Sapienza
+- December 20, 2025 if you are from another university;
+- January 24, 2026 if you are graduating from Sapienza.
 
 ## Candidates with a non-Italian qualification
 
@@ -109,8 +109,8 @@ If you are a non-EU citizen residing outside Italy and require a study visa, you
 
 This includes:
 
-- EU citizens, regardless of residence
-- Non-EU citizens with a residence permit in Italy
+- EU citizens, regardless of residence;
+- Non-EU citizens with a residence permit in Italy.
 
 → Follow the steps in **Section 8** of the [International Student Office page](https://www.uniroma1.it/en/pagina/international-student-office#8-master-s-degree-courses-with-requirements-and-personal-knowledge-assessment-and-pre-acceptance-letter-enrolment-procedures-for-eu-citizens-wherever-resident-and-non-eu-citizens-residing-in-italy)
 
@@ -138,7 +138,7 @@ If you are accepted, go to Infostud → "Bachelor and Master Degree Programmes" 
 
 You will be able to generate two payment slips:
 
-- One for the first installment only
-- One for all three installments
+- One for the first installment only;
+- One for all three installments.
 
 You **must** pay one of them via **PagoPA** before the enrollment deadline.
