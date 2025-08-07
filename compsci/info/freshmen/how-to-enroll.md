@@ -1,7 +1,7 @@
 ---
 title: How to enroll
 aliases: ["/29932/info/freshmen/how-to-enroll"]
-bookHidden: true
+bookHidden: false
 ---
 
 # How to enroll
@@ -39,6 +39,10 @@ To be admitted, you must hold a degree (or equivalent foreign qualification) and
 - SECS-S/01, SECS-S/06.
 
 Among these 90 ECTS, at least **72** must be in core subjects in mathematics, physics, computer science, ICT, data science, or information engineering.
+
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> If the requirements are not met, it is possible to acquire the missing credits by passing single exams. The methods and costs are set out in [Article 41](https://www.uniroma1.it/en/content/single-courses) of the [Student Regulations](https://www.uniroma1.it/en/pagina/student-regulations).
+{{% /hint %}}
 
 You are also required to have knowledge of:
 
@@ -82,7 +86,8 @@ Payment must be made via PagoPA using course code **33508**. More info regarding
 
 ### Candidates from other Italian universities
 
-If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) including:
+If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) by the same dates as those envisaged for the application
+for the assessment of entry requirements, including:
 
 - A self-certification of your degree;
 - A list of exams with their scientific-disciplinary sectors (SSD);
