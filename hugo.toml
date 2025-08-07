@@ -57,25 +57,25 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         [languages.it.params]
             contentDir = 'it'
 
-    [languages.31299]
-        contentDir = '31299'
+    [languages.33525]
+        contentDir = '33525'
         disabled = false
         languageName = 'Filosofia'
         title = 'Filosofia'
         weight = 5
 
-        [languages.31299.params]
-            contentDir = '31299'
+        [languages.33525.params]
+            contentDir = '33525'
 
-    [languages.31774]
-        contentDir = '31774'
+    [languages.33526]
+        contentDir = '33526'
         disabled = false
         languageName = 'Filosofia e IA'
         title = 'Filosofia e IA'
         weight = 6
 
-        [languages.31774.params]
-            contentDir = '31774'
+        [languages.33526.params]
+            contentDir = '33526'
 
     [languages.dev]
         contentDir = 'dev'

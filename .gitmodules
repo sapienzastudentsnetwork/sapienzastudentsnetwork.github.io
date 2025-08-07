@@ -4,9 +4,9 @@
 [submodule "content/sapienza"]
 	path = content/sapienza
 	url = https://github.com/sapienzastudentsnetwork/ssn-website-sapienza
-[submodule "31774"]
-	path = 31774
-	url = https://github.com/sapienzastudentsnetwork/ssn-website-31774.git
-[submodule "31299"]
-	path = 31299
-	url = https://github.com/sapienzastudentsnetwork/ssn-website-31299.git
+[submodule "33525"]
+	path = 33525
+	url = https://github.com/sapienzastudentsnetwork/ssn-website-33525.git
+[submodule "33526"]
+	path = 33526
+	url = https://github.com/sapienzastudentsnetwork/ssn-website-33526.git

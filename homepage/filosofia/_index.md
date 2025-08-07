@@ -13,13 +13,13 @@ bookHidden: true
 <div class="home_evid">
     <div class="home_page centered_content_page" id="degree_choice_informatica">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_enroll_text">Filosofia</p>
-        <p class="home_box_text degree_choice_box_text">[31299] Triennale</p>
-        <button class="explore_more" onclick="window.location.href = '/31299/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <p class="home_box_text degree_choice_box_text">[33525] Triennale</p>
+        <button class="explore_more" onclick="window.location.href = '../../33525/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page centered_content_page" id="degree_choice_computer_science">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_wiki_text">Filosofia e IA</p>
-        <p class="home_box_text degree_choice_box_text">[31774] Triennale</p>
-        <button class="explore_more" onclick="window.location.href = '/31774/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+        <p class="home_box_text degree_choice_box_text">[33526] Triennale</p>
+        <button class="explore_more" onclick="window.location.href = '../../33526/'">Wiki&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
 

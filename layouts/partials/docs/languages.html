@@ -22,13 +22,13 @@
         </label>
 
         <ul>
-            {{ if or (eq $.Site.Language.Lang "31774") (eq $.Site.Language.Lang "31299") }}
+            {{ if or (eq $.Site.Language.Lang "33526") (eq $.Site.Language.Lang "33525") }}
                 <li>
                     <a href="/filosofia"> Homepage </a>
                 </li>
 
-                <!-- If the current language is 31299 (Filosofia) or 31774 (Filosofia e IA), show the other one -->
-                {{ $otherLang := cond (eq $.Site.Language.Lang "31774") "31299" "31774" }}
+                <!-- If the current language is 33525 (Filosofia) or 33526 (Filosofia e IA), show the other one -->
+                {{ $otherLang := cond (eq $.Site.Language.Lang "33526") "33525" "33526" }}
                 {{ with index $translations $otherLang }}
                 <li>
                     <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
@@ -37,13 +37,13 @@
 
             <!-- Special case for '/filosofia' page -->
             {{ else if eq $.Page.RelPermalink "/filosofia/" }}
-                <!-- Show both 31299 and 31774 languages on '/filosofia' -->
-                {{ with index $translations "31299" }}
+                <!-- Show both 33525 and 33526 languages on '/filosofia' -->
+                {{ with index $translations "33525" }}
                 <li>
                     <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
                 </li>
                 {{ end }}
-                {{ with index $translations "31774" }}
+                {{ with index $translations "33526" }}
                 <li>
                     <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
                 </li>
@@ -52,7 +52,7 @@
             {{ else }}
                 <!-- Otherwise, show all other languages (Computer Science Department) -->
                 {{ range .Site.Languages }}
-                    {{ if and (ne .Lang "31299") (ne .Lang "31774") }}
+                    {{ if and (ne .Lang "33525") (ne .Lang "33526") }}
                         {{ with index $translations .Lang }}
                         <li>
                             <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
