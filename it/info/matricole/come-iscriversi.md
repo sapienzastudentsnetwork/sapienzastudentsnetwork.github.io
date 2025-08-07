@@ -184,7 +184,7 @@ Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica sono assegnati a:
 - Chi si è iscritto alla terza selezione e risulta vincitore, ma non ha ottenuto un punteggio di almeno 18/50 nel TOLC-I.
 - Chi si è immatricolato coprendo eventuali posti liberi dopo il completo scorrimento della graduatoria dell’ultima selezione, e ha ottenuto un punteggio inferiore a 18/50 nel TOLC-I.
 
-Gli OFA si assolvono superando l’esame curriculare [Metodi matematici per l'Informatica (6 CFU)](https://www.corsidilaurea.uniroma1.it/it/view-course-details/2024/29923/20220331104432/7d03a2aa-683c-494a-9cb3-19239734f45a/ab7433f6-c593-4fda-a05d-da6d197b5857/234eae2d-5a31-4233-b38a-aa8ce26aed31/d623530a-d41c-444b-8cb0-9db90bcbfed3?guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857¤t_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
+Gli OFA si assolvono superando l’esame curriculare **Metodi Matematici per l'Informatica** (6 CFU). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**

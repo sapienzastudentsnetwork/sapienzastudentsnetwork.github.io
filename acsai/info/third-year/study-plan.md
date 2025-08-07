@@ -105,11 +105,11 @@ The student must choose **at least 3 courses**, acquiring at least 18 ECTS, **fr
 
 | Course code | Course                        | Year  | Semester | ECTS | SSD    | Chat                                       |
 |-------------|-------------------------------|-------|----------|------|--------|--------------------------------------------|
-| 10595532    | Cybersecurity                 | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0) |
-| 10595531    | Deep Learning                 | Third | First    | 6    | INF/01 | -                                          |
-| 10595534    | Web and Software Architecture | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) |
-| 10595535    | Human Computer Interaction    | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0) |
-| 10595533    | Optimization                  | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+nx7dseifrswzNGU6) |
+| `10595532`    | Cybersecurity                 | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0) |
+| `10595531`    | Deep Learning                 | Third | First    | 6    | INF/01 | -                                          |
+| `10595534`    | Web and Software Architecture | Third | First    | 6    | INF/01 | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) |
+| `10595535`    | Human Computer Interaction    | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0) |
+| `10595533`    | Optimization                  | Third | Second   | 6    | INF/01 | [Telegram](https://t.me/+nx7dseifrswzNGU6) |
 
 ### Law and Economics
 
@@ -117,8 +117,8 @@ The student must choose **at least 1 course**, acquiring at least 6 ECTS, **from
 
 | Course code | Course                        | Year  | Semester | ECTS | SSD       | Chat                                       |
 |-------------|-------------------------------|-------|----------|------|-----------|--------------------------------------------|
-| 10595536    | Business and Computer Science | Third | First    | 6    | SECS-P/07 | [Telegram](https://t.me/+Z8YI05oono0yNjFk) |
-| 10595537    | Law and Computer Science      | Third | Second   | 6    | IUS/20    | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
+| `10595536`    | Business and Computer Science | Third | First    | 6    | SECS-P/07 | [Telegram](https://t.me/+Z8YI05oono0yNjFk) |
+| `10595537`    | Law and Computer Science      | Third | Second   | 6    | IUS/20    | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
 
 ### External Elective Courses
 
@@ -132,23 +132,23 @@ Please also refer to the guidelines on [how to select external courses](#how-to-
 
 | Course                                                       | Course code | Degree Program                                                                                                                                                                                | ECTS | Chat                                           |
 |--------------------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|------------------------------------------------|
-| APPLICAZIONI DELL'AUTOMATICA                                 | `1056052`     | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/en/corso/2024/31810/programmazione)                                                                                              | 6    | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)     |
-| BIOETHICS                                                    | `1049265`     | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6    | -                                              |
-| BIOINFORMATICS I                                             | `10592707`    | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6    | -                                              |
-| COMPUTATIONAL SYSTEMS BIOLOGY                                | `10592651`    | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6    | -                                              |
-| FILOSOFIA DELL'INTELLIGENZA ARTIFICIALE                      | `10605966`    | [[31774] Filosofia e Intelligenza Artificiale](https://corsidilaurea.uniroma1.it/it/corso/2024/31774/programmazione)                                                                          | 6    | -                                              |
-| GESTIONE AZIENDALE                                           | `1041430`     | [[29930] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29930/programmazione)                                                                                         | 12   | -                                              |
+| APPLICAZIONI DELL'AUTOMATICA                                 | `1056052`     | [[33501] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)                                                                                              | 6    | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)     |
+| BIOETHICS                                                    | `1049265`     | [[33455] Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                                                                                                | 6    | -                                              |
+| BIOINFORMATICS I                                             | `10592707`    | [[33455] Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                                                                                                | 6    | -                                              |
+| COMPUTATIONAL SYSTEMS BIOLOGY                                | `10592651`    | [[33455] Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                                                                                                | 6    | -                                              |
+| FILOSOFIA DELL'INTELLIGENZA ARTIFICIALE                      | `10605966`    | [[33526] Filosofia e Intelligenza Artificiale](https://corsidilaurea.uniroma1.it/it/course/33526)                                                                                             | 6    | -                                              |
+| GESTIONE AZIENDALE                                           | `1041430`     | [[33500] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/course/33500)                                                                                         | 12   | -                                              |
 | INGEGNERIA DEL SOFTWARE                                      | `1022301`     | [[29400] Informatica - erogato in modalità prevalentemente a distanza](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)                                                  | 6    | -                                              |
 | INTERAZIONE UOMO MACCHINA                                    | `1022263`     | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6    | [Telegram](https://t.me/+HPJydQNfbJRmM2Y8<br>) |
-| LABORATORIO DI ARCHITETTURE SOFTWARE E SICUREZZA INFORMATICA | `AAF1569`     | [[31810] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/corso/2024/31810/programmazione)                                                                                              | 6    | -                                              |
-| LAW BIOETHICS AND HUMAN RIGHTS                               | `10595495`    | [[32362] Global Humanities](https://corsidilaurea.uniroma1.it/en/corso/2024/32362/programmazione)                                                                                             | 6    | -                                              |
+| LABORATORIO DI ARCHITETTURE SOFTWARE E SICUREZZA INFORMATICA | `AAF1569`     | [[33501] Ing. Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)                                                                                              | 6    | -                                              |
+| LAW BIOETHICS AND HUMAN RIGHTS                               | `10595495`    | [[33537] Global Humanities](https://corsidilaurea.uniroma1.it/en/course/33537)                                                                                             | 6    | -                                              |
 | MATEMATICA DISCRETA                                          | `1021828`     | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=6c7d1cd5-54ee-48cb-aa6b-8e356efe7543) | 6    | [Telegram ](https://t.me/+x5k6q2yrsztlOWVk)    |
-| NETWORK ANALYTICS                                            | `1055807`     | [[29924] Statistica Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29924/programmazione)                                                                                         | 9    | -                                              |
+| NETWORK ANALYTICS                                            | `1055807`     | [[33507] Statistica Gestionale](https://corsidilaurea.uniroma1.it/it/course/33507)                                                                                         | 9    | -                                              |
 | ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE          | `10596283`    | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6    | [Telegram ](https://t.me/+TW9IFCi061Q0Nzk8)    |
-| OTTIMIZZAZIONE SU RETI                                       | `10600549`    | [[29930] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/corso/2024/29930/programmazione)                                                                                         | 6    | -                                              |
+| OTTIMIZZAZIONE SU RETI                                       | `10600549`    | [[33500] Ingegneria Gestionale](https://corsidilaurea.uniroma1.it/it/course/33500)                                                                                         | 6    | -                                              |
 | PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE               | `10593235`    | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6    | [Telegram ](https://t.me/+vrv-7-gEDINhMzZk)    |
 | SICUREZZA                                                    | `1022268`     | [[29923] Informatica](https://corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione?current_erogata=7d03a2aa-683c-494a-9cb3-19239734f45a&guid_cv=ab7433f6-c593-4fda-a05d-da6d197b5857) | 6    | [Telegram ](https://t.me/+WfOOX_dUtBJkZmVk)    |
-| SIGNAL PROCESSING AND INFORMATION THEORY                     | `1049268`     | [[30422] Bioinformatics](https://corsidilaurea.uniroma1.it/en/corso/2024/30422/programmazione)                                                                                                | 6    | -                                              |
+| SIGNAL PROCESSING AND INFORMATION THEORY                     | `1049268`     | [[33455] Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                                                                                                | 6    | -                                              |
 
 ## Academic Advisor
 
