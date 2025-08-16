@@ -18,23 +18,25 @@ General groups on Telegram bring together **all** students **of any year**
 
 ### A.Y. 2025/2026
 
-Coming Soon!
+[![](https://img.shields.io/badge/-telegram_group_2025%2F26-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
+
+[![](https://img.shields.io/badge/-whatsapp_group_2025%2F26-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/IhqztEkK7z6KlgNpGb9G3H)](https://chat.whatsapp.com/IhqztEkK7z6KlgNpGb9G3H)
 
 ## Students from previous years
 
 ### A.Y. 2024/2025
 
-[![](https://img.shields.io/badge/-telegram_group_2024--25-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
+[![](https://img.shields.io/badge/-telegram_group_2024%2F25-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://t.me/+dSkOFM61kFtlMDdk)](https://t.me/+dSkOFM61kFtlMDdk)
 
-[![](https://img.shields.io/badge/-whatsapp_group_2024--25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
+[![](https://img.shields.io/badge/-whatsapp_group_2024%2F25-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
 
 ### A.Y. 2023/2024
 
-[![](https://img.shields.io/badge/-whatsapp_group_2023--24-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
+[![](https://img.shields.io/badge/-whatsapp_group_2023%2F24-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
 
 ### A.Y. 2022/2023
 
-[![](https://img.shields.io/badge/-whatsapp_group_2022--23-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)](https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)
+[![](https://img.shields.io/badge/-whatsapp_group_2022%2F23-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)](https://chat.whatsapp.com/KDh7aOwFoshGyUAGzw8NFO)
 
 ## Teaching groups
 
