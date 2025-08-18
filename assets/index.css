@@ -2,9 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face { */
+/*     font-family: 'Minecraft'; */
+/*     src: url('minecraft.woff') format('woff'); */
+/* } */
+
 @font-face {
-    font-family: 'Minecraft';
-    src: url('minecraft.woff') format('woff');
+    font-family: 'OpenDyslexic';
+    src: url('opendyslexic/OpenDyslexic-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('opendyslexic/OpenDyslexic-Bold.woff2') format('woff2');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('opendyslexic/OpenDyslexic-Italic.woff2') format('woff2');
+    font-style: italic;
+}
+
+
+/* * { */
+/*     font-family: 'OpenDyslexic' !important; */
+/* } */
+
+.dyslexic * {
+    font-family: 'OpenDyslexic' !important;
+    font-size-adjust: .45;
 }
 
 .sapienza-1 {

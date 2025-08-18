@@ -1,0 +1,30 @@
+<!-- style="margin-top: 20px; margin-bottom: 10px;" -->
+
+<div>
+    <label for="font">
+        Font DSA
+    </label>
+    <input type="checkbox" name="font" id="font">
+</div>
+
+<script>
+    addEventListener("DOMContentLoaded", (event) => { 
+    let fontElement = document.getElementById('font');
+
+    let isFontDSA = localStorage.getItem("isFontDSA");
+    if (isFontDSA) {
+        fontElement.checked = true; 
+        document.body.classList.add('dyslexic');
+    }
+
+    fontElement.addEventListener('click', function(e) {
+        if (this.checked) {
+            document.body.classList.add('dyslexic');
+            localStorage.setItem("isFontDSA", true);
+        } else {
+            document.body.classList.remove('dyslexic');
+            localStorage.removeItem("isFontDSA");
+        }
+    })
+    })
+</script>
