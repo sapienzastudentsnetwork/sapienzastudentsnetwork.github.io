@@ -2,6 +2,8 @@
 title: Filosofia
 bookToc: False
 bookHidden: true
+layout: index-filosofia
+type: custom
 ---
 
 <h1 align="center" class="title_grad" style="font-weight: 900">Homepage</h1>

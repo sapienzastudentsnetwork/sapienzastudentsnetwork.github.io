@@ -56,6 +56,16 @@
     @apply bg-cover opacity-5;
 }
 
+.sapienza-5 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Froma.metropolitanmagazine.it%2Fwp-content%2Fuploads%2F2021%2F05%2FVilla-Mirafiori.jpg&f=1&nofb=1&ipt=da973e2ebf807f0f3b1f5d40dddd23e02ae43e9133c7c4f9a20a30cdc7cafa9a');
+    @apply bg-cover opacity-5;
+}
+
+.sapienza-6 {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.meer.com%2Fattachments%2Fd98e16519c30d08cfb11b738773e7346466fdd6c%2Fstore%2Ffill%2F690%2F388%2F3959f1792f03229f1f990b55f6edc923b958bd154945e6a4d032044e6217%2FVilla-Mirafiori-veduta-generale-foto-Roberto-Luciani.jpg&f=1&nofb=1&ipt=9377fc1a19606da3161020958e218c94b25d8e94697d7ad85fc054d9bd93dea7');
+    @apply bg-cover opacity-5;
+}
+
 nav  > a {
     @apply no-underline;
 }
