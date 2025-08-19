@@ -14,16 +14,16 @@ The first year courses are all compulsory and are:
 
 | Course code | Course                        | Semester | CFU | SSD    |
 | ----------- | ----------------------------- | -------- | --- | ------ |
-| 10595099    | Calculus 1, Unit 1            | First    | 6   | MAT/05 |
-| 10595546    | Computer Architecture, Unit 1 | First    | 6   | INF/01 |
-| 10595524    | Linear Algebra                | First    | 6   | MAT/02 |
-| 10595102    | Programming, Unit 1           | First    | 6   | INF/01 |
-| 10595102    | Programming, Unit 2           | First    | 6   | INF/01 |
-| 1049269     | Algorithms                    | Second   | 6   | INF/01 |
-| 10595099    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 |
-| 10595546    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 |
-| 10595523    | Physics                       | Second   | 6   | FIS/01 |
-| 10600241    | Programming 2                 | Second   | 6   | INF/01 |
+| `10595099`    | Calculus 1, Unit 1            | First    | 6   | MAT/05 |
+| `10595546`    | Computer Architecture, Unit 1 | First    | 6   | INF/01 |
+| `10595524`    | Linear Algebra                | First    | 6   | MAT/02 |
+| `10595102`    | Programming, Unit 1           | First    | 6   | INF/01 |
+| `10595102`    | Programming, Unit 2           | First    | 6   | INF/01 |
+| `1049269`     | Algorithms                    | Second   | 6   | INF/01 |
+| `10595099`    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 |
+| `10595546`    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 |
+| `10595523`    | Physics                       | Second   | 6   | FIS/01 |
+| `10600241`    | Programming 2                 | Second   | 6   | INF/01 |
 
 
 ## Second Year
@@ -34,16 +34,16 @@ The second year courses are all compulsory and are:
 
 | Course code | Course                                               | Semester | CFU | SSD       |
 | ----------- | ---------------------------------------------------- | -------- | --- | --------- |
-| 10595529    | Calculus 2                                           | First    | 6   | MAT/05    |
-| 10595617    | Data management and analysis, Unit 1                 | First    | 6   | INF/01    |
-| 10595525    | Probability                                          | First    | 6   | MAT/06    |
-| 10595616    | Systems and networking, Unit 1                       | First    | 6   | INF/01    |
-| 10595616    | Systems and networking, Unit 2                       | First    | 6   | INF/01    |
-| 10595618    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    |
-| 10595618    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    |
-| 10595546    | AI Lab: Computer Vision and NLP                      | Second   | 6   | INF/01    |
-| 10595617    | Data management and analysis, Unit 1                 | Second   | 6   | FIS/01    |
-| 1055043     | Statistics                                           | Second   | 6   | SECS-S/01 |
+| `10595529`    | Calculus 2                                           | First    | 6   | MAT/05    |
+| `10595617`    | Data management and analysis, Unit 1                 | First    | 6   | INF/01    |
+| `10595525`    | Probability                                          | First    | 6   | MAT/06    |
+| `10595616`    | Systems and networking, Unit 1                       | First    | 6   | INF/01    |
+| `10595616`    | Systems and networking, Unit 2                       | First    | 6   | INF/01    |
+| `10595618`    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    |
+| `10595618`    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    |
+| `10595546`    | AI Lab: Computer Vision and NLP                      | Second   | 6   | INF/01    |
+| `10595617`    | Data management and analysis, Unit 1                 | Second   | 6   | FIS/01    |
+| `1055043`     | Statistics                                           | Second   | 6   | SECS-S/01 |
 
 
 ## Third Year
@@ -64,12 +64,12 @@ The verification of the overall preparation acquired during the course of studie
 
 | Course code | Course                          | Semester              | CFU | SSD    |
 | ----------- |---------------------------------|-----------------------| --- | ------ |
-| 10595530    | Foundations of Computer Science | First                 | 6   | INF/01 |
+| `10595530`    | Foundations of Computer Science | First                 | 6   | INF/01 |
 |             | Applied Computer Science        | See "Optional Groups" | 18  | INF/01 |
 |             | Law and Economics               | See "Optional Groups" | 6   |        |
 |             | Elective courses                | -                     | 12  |        |
-| AAF1466     | Internship                      | Second                | 12  |        |
-| AAF2011     | Final exam                      | Second                | 6   |        |
+| `AAF1466`     | Internship                      | Second                | 12  |        |
+| `AAF2011`     | Final exam                      | Second                | 6   |        |
 
 
 ### Optional groups
@@ -80,11 +80,11 @@ The student must acquire 18 credits from the exams in the group
 
 | Course code | Course                        | Year  | Semester | CFU | SSD    |
 | ----------- |-------------------------------| ----- | -------- | --- | ------ |
-| 10595532    | Cybersecurity                 | Third | First    | 6   | INF/01 |
-| 10595531    | Deep Learning                 | Third | First    | 6   | INF/01 |
-| 10595534    | Web and Software Architecture | Third | First    | 6   | INF/01 |
-| 10595535    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
-| 10595533    | Optimization                  | Third | Second   | 6   | INF/01 |
+| `10595532`    | Cybersecurity                 | Third | First    | 6   | INF/01 |
+| `10595531`    | Deep Learning                 | Third | First    | 6   | INF/01 |
+| `10595534`    | Web and Software Architecture | Third | First    | 6   | INF/01 |
+| `10595535`    | Human Computer Interaction    | Third | Second   | 6   | INF/01 |
+| `10595533`    | Optimization                  | Third | Second   | 6   | INF/01 |
 
 #### Law and Economics
 
@@ -92,5 +92,5 @@ The student must acquire 6 credits from the exams in the group
 
 | Course code | Course                        | Year  | Semester | CFU | SSD       |
 | ----------- | ----------------------------- | ----- |----------| --- | --------- |
-| 10595536    | Business and Computer Science | Third | First    | 6   | SECS-P/07 |
-| 10595537    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |
+| `10595536`    | Business and Computer Science | Third | First    | 6   | SECS-P/07 |
+| `10595537`    | Law and Computer Science      | Third | Second   | 6   | IUS/20    |
