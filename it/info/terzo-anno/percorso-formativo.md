@@ -173,7 +173,6 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 | FISICA TECNICA                                | `1001987`  | [Ingegneria Clinica](https://corsidilaurea.uniroma1.it/it/course/33476)             | 6   | -                                                    |
 | FONDAMENTI DI AUTOMATICA                      | `1022157`  | [Ing. delle Telecomunicazioni](https://corsidilaurea.uniroma1.it/it/course/33497) | 6   | -                                                    |
 | FONDAMENTI DI INTELLIGENZA ARTIFICIALE        | `10599901` | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           |
-<!--| GAMIFICATION E GAME DESIGN                    | `1047674`  | [Inf. in Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)                  | 6   | [Telegram](https://t.me/+CnCSKOzEdU05ODE0)           |-->
 | HUMAN COMPUTER INTERACTION                    | `10595535` | [ACSAI](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione)                          | 6   | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0)           |
 | INTELLIGENZA ARTIFICIALE I                    | `10603309` | [Filosofia e IA](https://corsidilaurea.uniroma1.it/it/course/33526)                 | 9   | -                                                    |
 | LABORATORIO DI CALCOLO                        | `1035105`  | [Fisica](https://corsidilaurea.uniroma1.it/it/course/33588)                                            | 6   | [Telegram](https://t.me/fisicasapienza)              |
@@ -183,6 +182,8 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 | STATISTICA ECONOMICA                          | `98457`    | [Statistica gestionale](https://corsidilaurea.uniroma1.it/it/course/33507)          | 9   | -                                                    |
 | SYSTEMS AND NETWORKING                        | `10595616` | [ACSAI](https://corsidilaurea.uniroma1.it/en/corso/2024/30786/programmazione)                          | 12  | [Telegram](https://t.me/appliedCS_AI)                |
 | TEORIA DEI SEGNALI                            | `1041892`  | [Ing. dell'Inf. (Latina)](https://corsidilaurea.uniroma1.it/it/course/33498)        | 3   | -                                                    |
+
+<!--| GAMIFICATION E GAME DESIGN                    | `1047674`  | [Inf. in Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)                  | 6   | [Telegram](https://t.me/+CnCSKOzEdU05ODE0)           |-->
 
 ## FAQ
 
