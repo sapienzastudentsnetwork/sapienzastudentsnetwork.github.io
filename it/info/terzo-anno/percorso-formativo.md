@@ -104,22 +104,22 @@ Il docente di riferimento nella Commissione competente per la laurea triennale �
 
 #### Legenda curriculum
 
-I due curriculum (**metodologico** e **tecnologico**) prevedono dei gruppi di insegnamenti interni al Corso di Laurea in Informatica e un requisito minimo di CFU che devono essere scelti da ciascun gruppo.
+I due curriculum (**metodologico** e **tecnologico**) prevedono dei gruppi di insegnamenti interni al Corso di Laurea in Informatica e un requisito minimo di CFU che devono essere scelti da ciascun gruppo, in base al curriculum scelto.
 
-**Metodologico**:
+**Metodologico** • nome gruppo (abbr.) - requisito minimo di CFU:
 - Metodologici caratterizzanti (**mc**) - 12 CFU
 - Metodologici affini (**ma**) - 6 CFU
 
-**Tecnologico**:
+**Tecnologico** • nome gruppo (abbr.) - requisito minimo di CFU:
 - Metodologici di completamento (**tmc**) - 6 CFU
-    - _**N.B.:** come scelte sembrerebbe coincidere con il gruppo **mc**_
+    - _**N.B.:** comprende gli stessi insegnamenti del gruppo **mc**_
 - Tecnologici affini (**ta**) - 6 CFU
 - Tecnologici di completamento (**tc**) - 6 CFU
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Le abbreviazioni **mc**, **ma**, **tmc**, **ta** e **tc** sono state adottate in questa guida per le tabelle con gli insegnamenti che seguono, ma non esistono ufficialmente. Si consiglia quindi di indicare i nomi dei gruppi per esteso nel caso in cui si vogliano citare singoli gruppi in una mail al [docente di riferimento](#docente-di-riferimento).
+Le abbreviazioni **mc**, **ma**, **tmc**, **ta** e **tc** sono state adottate in questa guida per gli esempi e le tabelle con gli insegnamenti che seguiranno, ma non esistono ufficialmente. Si consiglia quindi di indicare i nomi dei gruppi per esteso nel caso in cui si vogliano citare singoli gruppi in una mail al [docente di riferimento](#docente-di-riferimento).
 {{% /hint %}}
 
 {{% hint tip %}}
