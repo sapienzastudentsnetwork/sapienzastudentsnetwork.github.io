@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 25 August 2025 - Friday 29 August 2025",
+    "date_range": "Monday 01 September 2025 - Friday 05 September 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -17,16 +17,16 @@
         },
         "tuesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": "",
+            "09:00-10:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "10:00-11:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "11:00-12:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "12:00-13:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "13:00-14:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "14:00-15:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "15:00-16:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "16:00-17:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "17:00-18:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
+            "18:00-19:00": "Computer Science - Informatica LM-18 1047639 MULTIMODAL INTERACTION MANCINI M.",
             "19:00-19:30": ""
         },
         "wednesday": {
@@ -60,9 +60,9 @@
         "friday": {
             "08:00-09:00": "",
             "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
+            "10:00-11:00": "Esame Advanced Architecture - prof.ssa Massini",
+            "11:00-12:00": "Esame Advanced Architecture - prof.ssa Massini",
+            "12:00-13:00": "Esame Advanced Architecture - prof.ssa Massini",
             "13:00-14:00": "",
             "14:00-15:00": "",
             "15:00-16:00": "",
