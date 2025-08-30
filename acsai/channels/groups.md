@@ -20,7 +20,7 @@ General groups on Telegram bring together **all** students **of any year**
 
 [![](https://img.shields.io/badge/-telegram_group_2025%2F26-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white&link=https://telegram.me/SapienzaACSAI)](https://telegram.me/SapienzaACSAI)
 
-[![](https://img.shields.io/badge/-whatsapp_group_2025%2F26-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/IhqztEkK7z6KlgNpGb9G3H)](https://chat.whatsapp.com/IhqztEkK7z6KlgNpGb9G3H)
+[![](https://img.shields.io/badge/-whatsapp_group_2025%2F26-128C7E?style=for-the-badge&logo=WhatsApp&link=https://chat.whatsapp.com/El5sFyWPJEKEnsR2J33eez)](https://chat.whatsapp.com/El5sFyWPJEKEnsR2J33eez)
 
 ## Students from previous years
 
