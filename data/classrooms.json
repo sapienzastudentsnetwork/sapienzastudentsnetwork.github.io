@@ -4,6 +4,16 @@
     "address": null,
     "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
+  "50369700-02c9-46b7-a8f6-cd0171322dee": {
+    "description": "Aula informatica 15",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+  },
+  "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
+    "description": "Aula informatica 17",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+17)&iwloc=A&hl=it"
+  },
   "74a8a956-ade6-4883-b10f-416c38c9d93d": {
     "description": "Aula Magna - Regina Elena - Edificio C",
     "address": "Viale Regina Elena, 295",
@@ -19,11 +29,6 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
   },
-  "50369700-02c9-46b7-a8f6-cd0171322dee": {
-    "description": "Aula informatica 15",
-    "address": "Via Tiburtina, 205",
-    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
-  },
   "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
     "description": "Aula T1 - Regina Elena - Edificio E",
     "address": "Viale Regina Elena, 295",
@@ -38,6 +43,16 @@
     "description": "Aula A6 -",
     "address": "Via Ariosto, 25",
     "mapsUrl": null
+  },
+  "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": {
+    "description": "Aula Alfa - Sociologia",
+    "address": "Via Salaria, 113/117",
+    "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
+  },
+  "deffa19a-65db-4abe-be55-4178b791dc1b": {
+    "description": "Aula informatica 16",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
   },
   "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
     "description": "Aula 3 - Aule temporanee",

@@ -47,6 +47,59 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "10595102",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10595102",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10595102",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "PROGRAMMING UNIT 2",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
             "building": "Edificio: RM158",
             "course": "10595524",
             "room": "Aula 3",

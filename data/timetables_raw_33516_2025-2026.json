@@ -126,6 +126,59 @@
             ]
           },
           {
+            "building": "Edificio: RM062",
+            "course": "1055050",
+            "room": "Aula Alfa",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "RISK MANAGEMENT",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM062",
+            "course": "1055061",
+            "room": "Aula Alfa",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SECURITY GOVERNANCE",
+            "teachers": [
+              "BONOMI SILVIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1055681",
+            "room": "Aula informatica 16 ",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "MALWARE ANALYSIS AND INCIDENT FORENSICS",
+            "teachers": [
+              "D'ELIA DANIELE CONO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "10600490",
             "room": "Aula Magna",
