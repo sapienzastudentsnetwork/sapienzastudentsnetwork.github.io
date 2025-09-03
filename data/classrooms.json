@@ -1,1 +1,32 @@
-{}
+{
+  "0423606b-48fc-4638-a851-eab7563981a2": {
+    "description": "Aula 4 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "625390f2-0bbb-4072-b866-50902fa1bad9": {
+    "description": "Aula 2 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
+  },
+  "50369700-02c9-46b7-a8f6-cd0171322dee": {
+    "description": "Aula informatica 15",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+  },
+  "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
+    "description": "Aula A5 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": null
+  },
+  "c6bd11c5-df38-488f-90e2-5109c377eb5d": {
+    "description": "Aula A6 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": null
+  },
+  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+    "description": "Aula 3 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  }
+}

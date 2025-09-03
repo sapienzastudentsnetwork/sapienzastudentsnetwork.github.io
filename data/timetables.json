@@ -1,1 +1,442 @@
-{}
+{
+  "1015883": {
+    "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+    "degree": "33503",
+    "channels": {
+      "2": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "7b5918bd-f0bf-44f0-b509-43c31a489184": "SAMORY MATTIA"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "7b5918bd-f0bf-44f0-b509-43c31a489184": "SAMORY MATTIA"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1015883"
+  },
+  "10621297": {
+    "subject": "METODI MATEMATICI PER L'INFORMATICA",
+    "degree": "33503",
+    "channels": {
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aed597cc-a9b6-4800-ad4d-34e794018592": "PIPERNO ADOLFO"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10621297"
+  },
+  "1015886": {
+    "subject": "ALGEBRA",
+    "degree": "33503",
+    "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "ddb4901b-6555-4e6b-a5a6-90ce859c706b": "D'ALESSANDRO FLAVIO"
+            },
+            "timeslot": "15 - 17",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1015886"
+  },
+  "1041764": {
+    "subject": "BIG DATA COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1041764"
+  },
+  "1047627": {
+    "subject": "FOUNDATIONS OF DATA SCIENCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+              "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+              "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+              "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047627"
+  },
+  "1022807": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a9a57be4-094e-475a-a964-b7d1c3870fa7": "DI LUNA GIUSEPPE ANTONIO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1022807"
+  },
+  "1044415": {
+    "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a437fd64-c097-4960-9dfb-3ea66c0d6d50": "BERALDI ROBERTO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "a437fd64-c097-4960-9dfb-3ea66c0d6d50": "BERALDI ROBERTO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1044415"
+  },
+  "10595099_1": {
+    "subject": "CALCULUS UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf": "PISANTE ADRIANO"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "630143f5-3ef9-4adb-9a75-ba1b3e42d0cf": "PISANTE ADRIANO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595099"
+  },
+  "10595546_1": {
+    "subject": "COMPUTER ARCHITECTURE UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "f29c0c45-a387-4dbb-a4a6-04a1345da481": "DE SENSI DANIELE"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "f29c0c45-a387-4dbb-a4a6-04a1345da481": "DE SENSI DANIELE"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595546"
+  },
+  "10595524": {
+    "subject": "LINEAR ALGEBRA",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "9 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595524"
+  },
+  "10595102_1": {
+    "subject": "PROGRAMMING UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595102"
+  },
+  "10595529": {
+    "subject": "CALCULUS 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8b64b500-7dbd-4683-8510-945a0d5cbfe6": "ALLA ALESSANDRO"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8b64b500-7dbd-4683-8510-945a0d5cbfe6": "ALLA ALESSANDRO"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595529"
+  },
+  "10595617_1": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE"
+            },
+            "timeslot": "15 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595617"
+  },
+  "10595525": {
+    "subject": "PROBABILITY",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784": "FAGGIONATO ALESSANDRA"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "ba1d4b3b-ce47-411a-9bf9-af7ecf4be784": "FAGGIONATO ALESSANDRA"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595525"
+  },
+  "10595616_1": {
+    "subject": "SYSTEMS AND NETWORKING UNIT I",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "16 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "15 - 17",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  },
+  "10595616_2": {
+    "subject": "SYSTEMS AND NETWORKING UNIT II",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  }
+}

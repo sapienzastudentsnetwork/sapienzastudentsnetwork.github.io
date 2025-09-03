@@ -1,1 +1,132 @@
-[]
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1041764",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047627",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1047627",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1041764",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047627",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1047627",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
+  }
+]
