@@ -19,6 +19,59 @@
             "teachers": [
               "DI LUNA GIUSEPPE ANTONIO"
             ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1041792",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIOMETRIC SYSTEMS",
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1054960",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "Computer systems and programming",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10600490",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
           }
         ]
       }
@@ -70,6 +123,22 @@
             "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
             "teachers": [
               "BERALDI ROBERTO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10600490",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
             ]
           }
         ]

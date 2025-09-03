@@ -4,15 +4,30 @@
     "address": null,
     "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
+  "74a8a956-ade6-4883-b10f-416c38c9d93d": {
+    "description": "Aula Magna - Regina Elena - Edificio C",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
   "625390f2-0bbb-4072-b866-50902fa1bad9": {
     "description": "Aula 2 - Aule L",
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
   },
+  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
+    "description": "Aula G50 - Regina Elena - Edificio G",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
+  },
   "50369700-02c9-46b7-a8f6-cd0171322dee": {
     "description": "Aula informatica 15",
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
+  },
+  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
+    "description": "Aula T1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
   },
   "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
     "description": "Aula A5 -",
