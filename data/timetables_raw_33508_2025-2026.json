@@ -21,6 +21,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1041764",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1041792",
             "room": "Aula G50",
@@ -81,6 +97,43 @@
             "subject": "COMPUTER NETWORK PERFORMANCE",
             "teachers": [
               "BARTOLINI NOVELLA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047618",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047622",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teachers": [
+              "VENTURI DANIELE"
             ]
           },
           {
@@ -162,6 +215,27 @@
             "subject": "NETWORK ALGORITHMS",
             "teachers": [
               "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047642",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              "FRIOLO DANIELE"
             ]
           },
           {
@@ -270,6 +344,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1041764",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1041792",
             "room": "Aula G50",
@@ -330,6 +420,43 @@
             "subject": "COMPUTER NETWORK PERFORMANCE",
             "teachers": [
               "BARTOLINI NOVELLA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047618",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047622",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teachers": [
+              "VENTURI DANIELE"
             ]
           },
           {
@@ -411,6 +538,27 @@
             "subject": "NETWORK ALGORITHMS",
             "teachers": [
               "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047642",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              "FRIOLO DANIELE"
             ]
           },
           {
