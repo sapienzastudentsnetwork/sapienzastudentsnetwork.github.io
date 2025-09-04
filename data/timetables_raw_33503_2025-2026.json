@@ -500,7 +500,7 @@
               {
                 "day": "luned\u00ec",
                 "from": "08:00",
-                "to": "11:00"
+                "to": "10:00"
               },
               {
                 "day": "gioved\u00ec",
@@ -541,7 +541,7 @@
             "schedule": [
               {
                 "day": "luned\u00ec",
-                "from": "11:00",
+                "from": "10:00",
                 "to": "13:00"
               },
               {
