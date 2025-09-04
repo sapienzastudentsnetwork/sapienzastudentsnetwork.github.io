@@ -75,6 +75,9 @@
 - id: Subjs_ThisWeekOnly
   translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la nona settimana di lezioni (dal 18 al 22 Novembre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 
+- id: Subjs_Provisional
+  translation: Orari provvisori. Si tratta di una bozza e gli orari definitivi potrebbero subire delle variazioni!
+
 - id: Subjs_WorkInProgress
   translation: Orari in fase di aggiornamento. Ti preghiamo di non farci affidamento per il momento e riprovare più tardi!
 
