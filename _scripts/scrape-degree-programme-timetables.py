@@ -51,7 +51,7 @@ def parse(DOM):
         # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
         ignore_conditions = [
             # ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
-            # ("1020420", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
+            # ("10621297", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
         ]
 
         for h3 in div.find_all('h3'):
@@ -517,7 +517,7 @@ if __name__ == '__main__':
     aula_magna_rm111_id   = "74a8a956-ade6-4883-b10f-416c38c9d93d"
     aula_magna_rm111_desc = "Aula Magna (Edificio: RM111)"
 
-    #first_year_informatica_teachings = set(["101226", "1015883", "1020420", "1015880"])
+    #first_year_informatica_teachings = set(["101226", "1015883", "10621297", "1015880"])
     #second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     #first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
 
