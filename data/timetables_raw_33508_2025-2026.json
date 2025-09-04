@@ -316,6 +316,22 @@
             "teachers": [
               "ZULIANI PAOLO"
             ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10620566",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "HIGH-PERFORMANCE COMPUTING",
+            "teachers": [
+              "PONTARELLI SALVATORE"
+            ]
           }
         ]
       }

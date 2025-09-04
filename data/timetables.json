@@ -1005,6 +1005,26 @@
     },
     "code": "1047627"
   },
+  "10620566": {
+    "subject": "HIGH-PERFORMANCE COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10620566"
+  },
   "1047638": {
     "subject": "MODELS OF COMPUTATION",
     "degree": "33508",
