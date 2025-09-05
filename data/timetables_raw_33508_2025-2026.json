@@ -137,6 +137,22 @@
             ]
           },
           {
+            "building": "Edificio: CU002",
+            "course": "1047624",
+            "room": "Aula 2 - Sc. Stat.",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047627",
             "room": "Aula 2",
@@ -236,6 +252,27 @@
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "teachers": [
               "FRIOLO DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10589621",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ADVANCED MACHINE LEARNING",
+            "teachers": [
+              "GALASSO FABIO"
             ]
           },
           {
@@ -476,6 +513,22 @@
             ]
           },
           {
+            "building": "Edificio: CU002",
+            "course": "1047624",
+            "room": "Aula 2 - Sc. Stat.",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047627",
             "room": "Aula 2",
@@ -591,6 +644,27 @@
             "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
             "teachers": [
               ""
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10589621",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ADVANCED MACHINE LEARNING",
+            "teachers": [
+              "GALASSO FABIO"
             ]
           },
           {

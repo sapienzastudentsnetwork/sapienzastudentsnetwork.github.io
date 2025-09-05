@@ -704,6 +704,37 @@
     },
     "code": "1022267"
   },
+  "10589621": {
+    "subject": "ADVANCED MACHINE LEARNING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589621"
+  },
   "10600495": {
     "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
     "degree": "33508",
@@ -959,6 +990,26 @@
       }
     },
     "code": "1047622"
+  },
+  "1047624": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": "Aula 2 (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047624"
   },
   "1047627": {
     "subject": "FOUNDATIONS OF DATA SCIENCE",
@@ -1223,6 +1274,26 @@
       }
     },
     "code": "1027171"
+  },
+  "1055043_2": {
+    "subject": "STATISTICS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "cf8c2b73-3d41-4f3b-8d94-3e7022e54fe3": "GASTALDI TOMMASO"
+            },
+            "timeslot": "14 - 20",
+            "classrooms": {
+              "7074643f-5bed-49b9-85e9-c646c0b06009": "Aula XI bis (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055043"
   },
   "1055681": {
     "subject": "MALWARE ANALYSIS AND INCIDENT FORENSICS",

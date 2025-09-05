@@ -116,6 +116,22 @@
             ]
           },
           {
+            "building": "Edificio: CU002",
+            "course": "1055043",
+            "room": "AULA XI bis",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "20:00"
+              }
+            ],
+            "subject": "STATISTICS",
+            "teachers": [
+              "GASTALDI TOMMASO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "10600490",
             "room": "Aula Magna",
