@@ -46,7 +46,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Methods in Computer Science: Design](https://t.me/+j9L6adNepTUzMmM0)
 - [Methods in Computer Science Education: Analysis](https://t.me/+_FCryPyBYGY2NDFk)
 - [Models of Computation](https://t.me/+WCzSlKOyfy42ZGJk)
-- [Multimodal Interaction - Sapienza University of Rome](https://t.me/+RSYya0P9YzDiLP27)
+- [Multimodal Interaction](https://t.me/+RSYya0P9YzDiLP27)
 - [Network Algorithms](https://t.me/+Xdg3QAARmlRjODlk)
 - [Natural Language Processing](https://t.me/+Rijud7jizOpiYzc8)
 - [Quantum Computing](https://t.me/+WWATl-2I1udlMTY0)
