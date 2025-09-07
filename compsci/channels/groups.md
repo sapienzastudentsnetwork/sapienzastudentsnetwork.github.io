@@ -38,6 +38,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Formal Methods In Software Development](https://t.me/+RarJRCwFq6BhMTQ0)
 - [Foundations of Data Science](https://t.me/+zIFUj3d_Puk3ZjBk)
 - [Graph Theory](https://t.me/+SGioclc0MRIcxera)
+- [High-Performance Computing](https://t.me/+-ECRVNH9w9ZjN2Rk)
 - [Human-Computer Interaction on the Web](https://t.me/+B_S4NnD6VPE1OGNk)
 - [Information systems](https://t.me/+V_63ayZjOUA0NGRk)
 - [Internet of Things](https://t.me/+-iMx8soyQyNmYTk8)
@@ -48,6 +49,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Multimodal Interaction - Sapienza University of Rome](https://t.me/+RSYya0P9YzDiLP27)
 - [Network Algorithms](https://t.me/+Xdg3QAARmlRjODlk)
 - [Natural Language Processing](https://t.me/+Rijud7jizOpiYzc8)
+- [Quantum Computing](https://t.me/+WWATl-2I1udlMTY0)
 - [Security in Software Applications](https://t.me/+uUESHKhMhBUyZGI0)
 - [Topics in Physics](https://t.me/+DbwdPc_jWzsyOThk)
 
