@@ -7,17 +7,17 @@
         "Computational Complexity",
         "Cryptography",
         "Graph Theory",
-        "Network Algorithms",
-        "Quantum Computing"
+        "Network Algorithms"
       ]
     ],
     [
       "RCP in Artificial Intelligence",
       [
-        "Advanced Machine Learning and Computer Vision",
+        "Advanced Machine Learning",
         "Big Data Computing",
         "Computer Vision",
         "Deep Learning and Applied Artificial Intelligence",
+        "Formal Methods for AI-Based Systems Engineering",
         "Natural Language Processing"
       ]
     ],
@@ -27,14 +27,14 @@
         "Automatic Verification of Intelligent Systems",
         "Concurrent Systems",
         "Formal Methods for AI-Based Systems Engineering",
-        "Logics and Reasoning",
+        "Mathematical Logic for Computer Science",
         "Models of Computation"
       ]
     ],
     [
       "RCP in Data Science",
       [
-        "Advanced Machine Learning and Computer Vision",
+        "Advanced Machine Learning",
         "Big Data Computing",
         "Cloud Computing",
         "Data and Network Security",
@@ -44,6 +44,8 @@
     [
       "RCP in Multimedia Computing and Interaction",
       [
+        "Advanced Machine Learning",
+        "Advanced Software Engineering",
         "Biometric Systems",
         "Computer Vision",
         "Deep Learning and Applied Artificial Intelligence",
@@ -53,15 +55,12 @@
       ]
     ],
     [
-      "RCP in Networks and Systems",
+      "RCP in Networks",
       [
-        "Advanced Architectures",
         "Autonomous Networking",
-        "Cloud Computing",
         "Computer Network Performance",
-        "Distributed Systems",
-        "High Performance Computing",
-        "Internet of Things"
+        "Internet of Things",
+        "Network Algorithms"
       ]
     ],
     [
@@ -82,15 +81,26 @@
         "Advanced Software Engineering",
         "Automatic Verification of Intelligent Systems",
         "Blockchain and Distributed Ledger Technologies",
+        "Concurrent Systems",
+        "Distributed Systems",
         "Formal Methods for AI-Based Systems Engineering",
         "Security in Software Applications"
+      ]
+    ],
+    [
+      "RCP in Systems",
+      [
+        "Advanced Architectures",
+        "Cloud Computing",
+        "Concurrent Systems",
+        "Distributed Systems"
       ]
     ]
   ],
   "relatedCourses": [
     "Advanced Algorithms",
     "Advanced Architectures",
-    "Advanced Machine Learning and Computer Vision",
+    "Advanced Machine Learning",
     "Advanced Software Engineering",
     "Automatic Verification of Intelligent Systems",
     "Autonomous Networking",
@@ -111,17 +121,17 @@
     "Formal Methods for AI-Based Systems Engineering",
     "Foundations of Data Science",
     "Graph Theory",
-    "High Performance Computing",
     "Human-Computer Interaction on The Web",
     "Internet of Things",
-    "Logics and Reasoning",
-    "Methods in Computer Science Education",
+    "Mathematical Logic for Computer Science",
+    "Methods in Computer Science Education: Analysis",
+    "Methods in Computer Science Education: Design",
     "Models of Computation",
     "Multimodal Interaction",
     "Natural Language Processing",
     "Network Algorithms",
     "Practical Network Defense",
-    "Quantum Computing",
-    "Security in Software Applications"
+    "Security in Software Applications",
+    "Topics in Physics"
   ]
 }
