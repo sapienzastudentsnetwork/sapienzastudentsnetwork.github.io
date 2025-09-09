@@ -800,5 +800,17 @@
         "shortName": "Cyber Sec. Seminars",
         "abbr": "CSEM",
         "tgGroup": "https://t.me/joinchat/CfmfQxXteHLLf1DR6K_SXg"
+    },
+    "10620566": {
+        "name": "High-Performance Computing",
+        "shortName": "High-Perf. Computing",
+        "abbr": "HPC",
+        "tgGroup": "https://t.me/+-ECRVNH9w9ZjN2Rk"
+    },
+    "10620565": {
+        "name": "Quantum Computing",
+        "shortName": "Quantum Computing",
+        "abbr": "QC",
+        "tgGroup": "https://t.me/+WWATl-2I1udlMTY0"
     }
 }
