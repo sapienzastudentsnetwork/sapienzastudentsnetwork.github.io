@@ -1006,6 +1006,17 @@
               "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": "Aula 2 (Edificio: CU002)"
             }
           }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+            }
+          }
         ]
       }
     },

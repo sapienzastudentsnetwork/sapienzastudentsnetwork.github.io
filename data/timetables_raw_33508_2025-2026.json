@@ -169,6 +169,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1047624",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047627",
             "room": "Aula 2",
@@ -543,6 +559,22 @@
                 "day": "marted\u00ec",
                 "from": "16:00",
                 "to": "19:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047624",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
