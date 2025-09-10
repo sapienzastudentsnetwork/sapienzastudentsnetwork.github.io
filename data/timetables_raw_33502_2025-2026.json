@@ -299,6 +299,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "10595531",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "DEEP LEARNING",
+            "teachers": [
+              "GALASSO FABIO"
+            ]
+          },
+          {
             "building": "Edificio: RM005",
             "course": "10595531",
             "room": "Aula 11",

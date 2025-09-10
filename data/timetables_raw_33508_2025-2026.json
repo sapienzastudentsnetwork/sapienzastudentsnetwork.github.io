@@ -100,6 +100,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1047618",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047618",
             "room": "Aula 1",
@@ -254,11 +270,6 @@
             "course": "10589621",
             "room": "Aula A2",
             "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              },
               {
                 "day": "mercoled\u00ec",
                 "from": "12:00",
@@ -471,6 +482,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1047618",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047618",
             "room": "Aula 1",
@@ -641,11 +668,6 @@
             "course": "10589621",
             "room": "Aula A2",
             "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              },
               {
                 "day": "mercoled\u00ec",
                 "from": "12:00",

@@ -39,6 +39,11 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },
+  "398537f5-1be4-4287-be7b-eb76298c4a8f": {
+    "description": "AULA 101 - Regina Elena - Edificio D",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
   "625390f2-0bbb-4072-b866-50902fa1bad9": {
     "description": "Aula 2 - Aule L",
     "address": "Via del Castro Laurenziano, 7a",
@@ -61,6 +66,11 @@
   },
   "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
     "description": "Aula T1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": null
+  },
+  "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
+    "description": "AULA 201 - Regina Elena - Edificio D",
     "address": "Viale Regina Elena, 295",
     "mapsUrl": null
   },

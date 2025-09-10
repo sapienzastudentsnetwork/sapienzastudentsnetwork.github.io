@@ -21,6 +21,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "1027171",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "NETWORK INFRASTRUCTURES",
+            "teachers": [
+              "POLVERINI MARCO"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1027171",
             "room": "Aula 1",
@@ -92,6 +108,22 @@
             "subject": "SECURITY IN SOFTWARE APPLICATIONS",
             "teachers": [
               "FRIOLO DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1054960",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "Computer systems and programming",
+            "teachers": [
+              ""
             ]
           },
           {
