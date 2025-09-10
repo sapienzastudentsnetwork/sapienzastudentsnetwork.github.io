@@ -812,5 +812,17 @@
         "shortName": "Quantum Computing",
         "abbr": "QC",
         "tgGroup": "https://t.me/+WWATl-2I1udlMTY0"
+    },
+    "10616636": {
+        "name": "Machine Learning Security",
+        "shortName": "ML Security",
+        "abbr": "MLS",
+        "tgGroup": "https://t.me/+3HuZ0lN2M_pkYzk0"
+    },
+    "10616549": {
+        "name": "Advanced Cryptography",
+        "shortName": "Adv. Cryptography",
+        "abbr": "AC",
+        "tgGroup": "https://t.me/+vSa1AG8hmGs2YmJk"
     }
 }
