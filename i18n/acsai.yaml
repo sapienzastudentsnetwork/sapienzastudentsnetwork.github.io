@@ -77,7 +77,7 @@
   translation: This page displays, for this week, the provisional timetable for the ninth week of classes (18 - 22 November). For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course "Attendance" page or the Telegram and WhatsApp groups.
 
 - id: Subjs_Provisional
-  translation: Provisional timetable. This is a draft and the final timetable may be subject to change!
+  translation: The timetables on this page are automatically synchronized with an official API, which for the moment, however, only returns partial or provisional times.
 
 - id: Subjs_WorkInProgress
   translation: Timetable currently being updated. Please do not rely on it for now and try again later!
