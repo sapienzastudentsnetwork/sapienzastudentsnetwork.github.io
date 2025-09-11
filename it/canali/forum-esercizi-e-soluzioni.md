@@ -44,4 +44,5 @@ Se desideri contribuire, avviando nuovi repository per altri corsi oppure gesten
 ### Primo Semestre
 
 - [Automi, Calcolabilità e Complessità](https://github.com/sapienzastudentsnetwork/automi-calcolabilita-complessita)
+- [Modelli e Ottimizzazione (Optimization)](https://github.com/sapienzastudentsnetwork/modelli-e-ottimizzazione)
 - [Programmazione di Sistemi Embedded e Multicore](https://github.com/sapienzastudentsnetwork/programmazione-di-sistemi-embedded-e-multicore)
