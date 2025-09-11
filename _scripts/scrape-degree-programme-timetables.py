@@ -517,6 +517,9 @@ if __name__ == '__main__':
     aula_magna_rm111_id   = "74a8a956-ade6-4883-b10f-416c38c9d93d"
     aula_magna_rm111_desc = "Aula Magna (Edificio: RM111)"
 
+    marcopolo_aula_203 = 'Aula 203 (Edificio: RM021)'
+    marcopolo_edificio = 'https://maps.app.goo.gl/ptkUVyxzr74eiBmHA'
+
     #first_year_informatica_teachings = set(["101226", "1015883", "10621297", "1015880"])
     #second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
     #first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
@@ -548,6 +551,10 @@ if __name__ == '__main__':
                     classroomUrl  = None
 
                     if "classrooms" in day_schedule:
+                        if "1e079880-d2d2-49ef-8058-c58ab0baa4b4" in day_schedule["classrooms"]:
+                            classroomInfo = marcopolo_aula_203
+                            classroomUrl  = marcopolo_edificio
+
                         if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
                             classroomInfo = "Aula 3 (Edificio: RM158)"
                             classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"

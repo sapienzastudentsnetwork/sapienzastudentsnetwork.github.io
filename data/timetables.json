@@ -271,9 +271,8 @@
               "d2d55785-da72-49d5-a091-fb5c72884201": "PELLARIN FEDERICO"
             },
             "timeslot": "15 - 17",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ]
       }
@@ -398,9 +397,8 @@
               "d883dc2e-ca2f-43f8-a913-b227fa371b20": "SILVESTRI VITTORIA"
             },
             "timeslot": "13 - 15",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ]
       }
@@ -664,9 +662,8 @@
               "f29c0c45-a387-4dbb-a4a6-04a1345da481": "DE SENSI DANIELE"
             },
             "timeslot": "14 - 17",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ]
       }
@@ -1760,9 +1757,8 @@
               "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
             },
             "timeslot": "13 - 16",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ]
       }
@@ -1811,9 +1807,8 @@
               "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
             },
             "timeslot": "15 - 18",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ],
         "gioved\u00ec": [
@@ -1822,9 +1817,8 @@
               "544c3def-98c6-4285-b6e9-16d2b5b1dc07": "PANIZZI EMANUELE"
             },
             "timeslot": "16 - 18",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
+            "classroomInfo": "Aula 203 Marco Polo",
+            "classroomUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
           }
         ]
       }
