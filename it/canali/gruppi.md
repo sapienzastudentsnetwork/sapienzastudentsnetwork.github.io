@@ -105,6 +105,7 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
 - [Organizzazione e Gestione per lo Start-Up Aziendale (OGA)](https://t.me/+TW9IFCi061Q0Nzk8)
+  - _Nell'A.A. 2025/26, per il corso di laurea erogato in modalità prevalentemente a distanza ("Teledidattica") verrà erogato al primo semestre._
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web / [ACSAI] WASA](https://t.me/+TopZxkqZSSo2MzQ0)
 - [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
@@ -117,6 +118,8 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
 - [Matematica Discreta](https://t.me/+9gj83CXWj6MxZTM8)
 - [Modelli e Ottimizzazione / [ACSAI] Optimization](https://t.me/+nx7dseifrswzNGU6)
+- [Organizzazione e Gestione per lo Start-Up Aziendale (OGA)](https://t.me/+TW9IFCi061Q0Nzk8)
+  - _Nell'A.A. 2025/26, per il corso di laurea in presenza verrà erogato al secondo semestre._
 - [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
 - [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
 - [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)

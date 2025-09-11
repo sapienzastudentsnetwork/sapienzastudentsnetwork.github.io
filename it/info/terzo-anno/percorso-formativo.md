@@ -151,24 +151,26 @@ Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio d
 | Fisica                                              | `97597`    | ma          | [Chat](https://t.me/+-ZO2tsF0w8YyNDE8) |
 | Interazione Uomo Macchina                           | `1022263`  | ta, tc      | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
 | Linguaggi di Programmazione                         | `1022264`  | mc, ma, tmc | [Chat](https://t.me/+YNWScBhdFWE1NWNk) |
-| Organizzazione e Gestione per lo Start-Up Aziendale | `10596283` | ta          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
 | Programmazione di Sistemi Embedded e Multicore      | `10593235` | mc, ma, tmc | [Chat](https://t.me/+vrv-7-gEDINhMzZk) |
 | Programmazione per il Web                           | `1022267`  | ta, tc      | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
 
 #### Secondo Semestre
 
-| Insegnamento                                       | Codice     | Curriculum  |                Telegram                |
-|----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Biologia Computazionale                            | `1031337`  | ta, tc      | [Chat](https://t.me/+cBediJPv7GxmZTc8) |
-| Intelligenza Artificiale                           | `1022262`  | mc, ma, tmc | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-| Linguaggi e Compilatori                            | `1041761`  | ta, tc      | [Chat](https://t.me/+EOvDZsXSLI0zZGRk) |
-| Matematica Discreta                                | `1021828`  | ma          | [Chat](https://t.me/+x5k6q2yrsztlOWVk) |
-| Modelli e Ottimizzazione                           | `1022265`  | mc, ma, tmc | [Chat](https://t.me/+TyMj4NBvh8pVeId9) |
-| Sicurezza                                          | `1022268`  | mc, ma, tmc | [Chat](https://t.me/+WfOOX_dUtBJkZmVk) |
-| Tecniche di Programmazione Funzionale e Imperativa | `10589652` | mc, ma, tmc | [Chat](https://t.me/+X7XCdT3tfA83OTVk) |
-| Verifica e Validazione di Sistemi Intelligenti     | `10600494` | ta, tc      | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
+| Insegnamento                                         | Codice     | Curriculum  |                Telegram                |
+|------------------------------------------------------|------------|-------------|:--------------------------------------:|
+| Biologia Computazionale                              | `1031337`  | ta, tc      | [Chat](https://t.me/+cBediJPv7GxmZTc8) |
+| Intelligenza Artificiale                             | `1022262`  | mc, ma, tmc | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+| Linguaggi e Compilatori                              | `1041761`  | ta, tc      | [Chat](https://t.me/+EOvDZsXSLI0zZGRk) |
+| Matematica Discreta                                  | `1021828`  | ma          | [Chat](https://t.me/+x5k6q2yrsztlOWVk) |
+| Modelli e Ottimizzazione                             | `1022265`  | mc, ma, tmc | [Chat](https://t.me/+TyMj4NBvh8pVeId9) |
+| Organizzazione e Gestione per lo Start-Up Aziendale* | `10596283` | ta          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
+| Sicurezza                                            | `1022268`  | mc, ma, tmc | [Chat](https://t.me/+WfOOX_dUtBJkZmVk) |
+| Tecniche di Programmazione Funzionale e Imperativa   | `10589652` | mc, ma, tmc | [Chat](https://t.me/+X7XCdT3tfA83OTVk) |
+| Verifica e Validazione di Sistemi Intelligenti       | `10600494` | ta, tc      | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
 
 <!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
+
+\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
 
 ### Insegnamenti a scelta esterni
 
