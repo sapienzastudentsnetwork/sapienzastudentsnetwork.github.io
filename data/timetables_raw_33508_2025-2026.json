@@ -266,6 +266,22 @@
             ]
           },
           {
+            "building": "Edificio: RM158",
+            "course": "1047642",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              "FRIOLO DANIELE"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047642",
             "room": "Aula 1",
@@ -384,6 +400,22 @@
               {
                 "day": "luned\u00ec",
                 "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "HIGH-PERFORMANCE COMPUTING",
+            "teachers": [
+              "PONTARELLI SALVATORE"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10620566",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
                 "to": "19:00"
               }
             ],
@@ -661,6 +693,22 @@
             "subject": "NETWORK ALGORITHMS",
             "teachers": [
               "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1047642",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              "FRIOLO DANIELE"
             ]
           },
           {
