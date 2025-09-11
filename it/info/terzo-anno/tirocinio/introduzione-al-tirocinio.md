@@ -40,7 +40,7 @@ Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede
 
 1. Consultare il sito web del docente per conoscere l'ambito di ricerca ed eventuali progetti di tirocinio/tesi disponibili. Nel caso in cui non fossero disponibili indicazioni sul sito o nel caso tu abbia già un'idea di progetto, contattare direttamente il docente per chiedere informazioni.
 2. Contattare il docente esprimendo la propria intenzione di svolgere il tirocinio con lui/lei. In caso di risposta positiva, concordare insieme il progetto e i dettagli del tirocinio.
-3. Compilare il [modulo di assegnazione di tirocinio](https://drive.google.com/file/d/1y7nmsKWZpcw4MiMPf_Z6FDN3MMijxLjg/view?usp=sharing), inserendo l'argomento del tirocinio concordato insieme al docente. Il modulo deve essere compilato e firmato anche dal docente responsabile del tirocinio.
+3. Compilare il [modulo di assegnazione di tirocinio](https://drive.google.com/file/d/1pnCczF1MbtBDcJwEDtl1-RDry7SpLLmi/view?usp=drive_link), inserendo l'argomento del tirocinio concordato insieme al docente. Il modulo deve essere compilato e firmato anche dal docente responsabile del tirocinio.
 4. Compilare il [modulo di autorizzazione al trasferimento dei dati personali ad aziende ed enti per fini di placement](https://drive.google.com/file/d/1np8AtIhxw54oKr00Wh5B6Wx6XP0QRNkB/view?usp=sharing) (opzionale).
 5. Compilare la [dichiarazione di presa visione delle linee guida sul plagio](https://drive.google.com/file/d/1OBbTUEXgUl1zAaP1YL_nhXpIU7mxh5CQ/view?usp=sharing).
 6. Scaricare da Infostud il certificato degli esami sostenuti. Per farlo è necessario accedere ad Infostud, selezionare il pulsante "Certificati" e scaricare il certificato degli esami sostenuti.
@@ -61,7 +61,7 @@ Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede
 6. Il Professor Gorla approva il progetto formativo.
 7. L'azienda stampa il progetto formativo da [TSP Sapienza](https://uniroma1.tsp.esse3.cineca.it/pub/main-page) e lo invia via email già firmato. In caso di mancato invio, è necessario contattare l'azienda.
 8. Il progetto viene firmato dallo studente e inviato al prof. Gorla per ottenere la terza e ultima firma da parte dell'Università.
-9. Si scarica il [modulo di assegnazione tirocinio](https://drive.google.com/file/d/1y7nmsKWZpcw4MiMPf_Z6FDN3MMijxLjg/view?usp=sharing), analogo a quello utilizzato per il tirocinio interno, e lo si fa firmare dal relatore scelto.
+9. Si scarica il [modulo di assegnazione tirocinio](https://drive.google.com/file/d/1pnCczF1MbtBDcJwEDtl1-RDry7SpLLmi/view?usp=drive_link), analogo a quello utilizzato per il tirocinio interno, e lo si fa firmare dal relatore scelto.
 10. Il modulo firmato viene inviato al Professor Gorla, se non è già stato firmato da lui.
 11. Il progetto formativo, completo di tutte le firme, viene restituito allo studente.
 12. Tutta la documentazione deve essere inviata alla segreteria tramite il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), insieme agli altri moduli richiesti: il [modulo di autorizzazione al trattamento dei dati personali ad aziende ed enti per fini di placement](https://drive.google.com/file/d/1np8AtIhxw54oKr00Wh5B6Wx6XP0QRNkB/view?usp=sharing) (opzionale) e la [dichiarazione di presa visione delle linee guida sul plagio](https://drive.google.com/file/d/1OBbTUEXgUl1zAaP1YL_nhXpIU7mxh5CQ/view?usp=sharing).
