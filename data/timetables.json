@@ -849,6 +849,17 @@
     "degree": "33508",
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "820bbf2a-ad14-4e73-a692-3350746a6ced": "LA MORGIA MASSIMO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "d82db7ad-2fae-463a-b8b9-0f05a6463120": "Aula 14 (Edificio: CU007)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {

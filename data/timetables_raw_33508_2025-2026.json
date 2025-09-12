@@ -335,6 +335,22 @@
             ]
           },
           {
+            "building": "Edificio: CU007",
+            "course": "10600490",
+            "room": "Aula 14 ",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "10600490",
             "room": "Aula Magna",
@@ -778,6 +794,22 @@
             "subject": "AUTONOMOUS NETWORKING",
             "teachers": [
               "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: CU007",
+            "course": "10600490",
+            "room": "Aula 14 ",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
             ]
           },
           {
