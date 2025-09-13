@@ -6,6 +6,31 @@ weight: 4
 
 # Risorse
 
+## Appunti della comunità studentesca
+
+Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno condiviso i propri appunti di insegnamenti del corso di laurea, creando un insieme di materiale utile per il ripasso e l'approfondimento. Gli appunti di ogni studente o studentessa seguono una struttura propria: alcuni sono più dettagliati e prolissi, spiegando l'intero ragionamento, mentre altri sono più rapidi e concisi 🧙‍♂️
+
+### Anno di immatricolazione 2024/25
+
+- [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
+
+### Anno di immatricolazione 2023/24
+
+- [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
+- [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
+- [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/notes-ig)
+
+### Anno di immatricolazione 2022/23
+
+- [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
+- [Ionut Cicio (CuriousCI)](https://curiousci.github.io/university/)
+- [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
+
+### Anno di immatricolazione 2021/22
+
+- [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
+- [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
+
 ## Risorse per insegnamento (A.A. 2024/25)
 
 ### Primo Anno
@@ -159,31 +184,6 @@ weight: 4
 | [ACSAI] Law and Computer Science  |      [Classroom](https://classroom.google.com/c/MjMxNTAxOTM1NDNa?cjc=52vdzxx)       |                                              -                                              |   -   | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0) |
 | [Tele] Gamification e Game Design |                                          -                                          |                                              -                                              |   -   | [Telegram](https://t.me/+CnCSKOzEdU05ODE0) |
 </details>
-
-## Appunti della comunità studentesca
-
-Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno condiviso i propri appunti di insegnamenti del corso di laurea, creando un insieme di materiale utile per il ripasso e l'approfondimento. Gli appunti di ogni studente o studentessa seguono una struttura propria: alcuni sono più dettagliati e prolissi, spiegando l'intero ragionamento, mentre altri sono più rapidi e concisi 🧙‍♂️
-
-### Anno di immatricolazione 2024/25
-
-- Sii il primo o la prima a dare il tuo contributo! 🙂
-
-### Anno di immatricolazione 2023/24
-
-- [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
-- [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
-- [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/notes-ig)
-
-### Anno di immatricolazione 2022/23
-
-- [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
-- [Ionut Cicio (CuriousCI)](https://curiousci.github.io/university/)
-- [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
-
-### Anno di immatricolazione 2021/22
-
-- [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
-- [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
 
 ## SSN | Notes
 
