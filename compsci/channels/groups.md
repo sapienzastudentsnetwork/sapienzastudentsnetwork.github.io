@@ -42,7 +42,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Human-Computer Interaction on the Web](https://t.me/+B_S4NnD6VPE1OGNk)
 - [Information systems](https://t.me/+V_63ayZjOUA0NGRk)
 - [Internet of Things](https://t.me/+-iMx8soyQyNmYTk8)
-- [Mathematical Logic for Computer Science](https://t.me/+o5P3c6dDULM2YmE0)
+- [Logics and Reasoning (ex "Mathematical Logic for Computer Science")](https://t.me/+o5P3c6dDULM2YmE0)
 - [Methods in Computer Science: Design](https://t.me/+j9L6adNepTUzMmM0)
 - [Methods in Computer Science Education: Analysis](https://t.me/+_FCryPyBYGY2NDFk)
 - [Models of Computation](https://t.me/+WCzSlKOyfy42ZGJk)
