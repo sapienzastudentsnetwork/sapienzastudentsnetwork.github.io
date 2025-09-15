@@ -556,9 +556,9 @@
             ]
           },
           {
-            "building": "Edificio: RM111",
+            "building": "Edificio: RM158",
             "course": "1041727",
-            "room": "Aula Magna",
+            "room": "Aula 4",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -567,8 +567,8 @@
               },
               {
                 "day": "venerd\u00ec",
-                "from": "15:00",
-                "to": "17:00"
+                "from": "08:00",
+                "to": "10:00"
               }
             ],
             "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
@@ -617,11 +617,22 @@
                 "day": "mercoled\u00ec",
                 "from": "11:00",
                 "to": "13:00"
-              },
+              }
+            ],
+            "subject": "DATA SCIENCE E DIRITTO",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10606972",
+            "room": "Aula 1",
+            "schedule": [
               {
                 "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "11:00"
+                "from": "14:00",
+                "to": "17:00"
               }
             ],
             "subject": "DATA SCIENCE E DIRITTO",

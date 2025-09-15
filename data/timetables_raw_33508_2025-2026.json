@@ -5,9 +5,9 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM158",
+            "building": "Edificio: RM111",
             "course": "1041764",
-            "room": "Aula 4",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -282,9 +282,9 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
+            "building": "Edificio: RM111",
             "course": "1047642",
-            "room": "Aula 1",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "venerd\u00ec",
@@ -451,9 +451,9 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM158",
+            "building": "Edificio: RM111",
             "course": "1041764",
-            "room": "Aula 4",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -728,9 +728,9 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
+            "building": "Edificio: RM111",
             "course": "1047642",
-            "room": "Aula 1",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "venerd\u00ec",

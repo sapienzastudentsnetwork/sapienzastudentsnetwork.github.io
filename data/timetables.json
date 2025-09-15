@@ -469,9 +469,8 @@
               "0dfd0deb-ac72-429b-8258-3a34436a560c": "VENTURI DANIELE"
             },
             "timeslot": "8 - 11",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
@@ -479,10 +478,9 @@
             "teachers": {
               "0dfd0deb-ac72-429b-8258-3a34436a560c": "VENTURI DANIELE"
             },
-            "timeslot": "15 - 17",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }
@@ -506,9 +504,9 @@
         "venerd\u00ec": [
           {
             "teachers": {},
-            "timeslot": "8 - 11",
+            "timeslot": "14 - 17",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
           }
         ]
@@ -794,8 +792,9 @@
               "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
             },
             "timeslot": "8 - 11",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
           }
         ],
         "gioved\u00ec": [
@@ -1220,7 +1219,7 @@
             },
             "timeslot": "13 - 16",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
           }
         ]
