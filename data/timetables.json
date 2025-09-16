@@ -1247,6 +1247,280 @@
     },
     "code": "10589558"
   },
+  "1054960": {
+    "subject": "Computer systems and programming",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1054960"
+  },
+  "1022807": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a9a57be4-094e-475a-a964-b7d1c3870fa7": "DI LUNA GIUSEPPE ANTONIO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)",
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a9a57be4-094e-475a-a964-b7d1c3870fa7": "DI LUNA GIUSEPPE ANTONIO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1022807"
+  },
+  "1027171": {
+    "subject": "NETWORK INFRASTRUCTURES",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "9c6cb999-a799-4b96-8400-e5509d56a8ab": "POLVERINI MARCO"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "9c6cb999-a799-4b96-8400-e5509d56a8ab": "POLVERINI MARCO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1027171"
+  },
+  "1055043_2": {
+    "subject": "STATISTICS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "cf8c2b73-3d41-4f3b-8d94-3e7022e54fe3": "GASTALDI TOMMASO"
+            },
+            "timeslot": "14 - 20",
+            "classrooms": {
+              "7074643f-5bed-49b9-85e9-c646c0b06009": "Aula XI bis (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055043"
+  },
+  "10616636": {
+    "subject": "MACHINE LEARNING SECURITY",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "0f846d14-9d78-46f2-b273-c77a0b73f10a": "DE GASPARI FABIO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "0f846d14-9d78-46f2-b273-c77a0b73f10a": "DE GASPARI FABIO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": "Aula 2 (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616636"
+  },
+  "1055681": {
+    "subject": "MALWARE ANALYSIS AND INCIDENT FORENSICS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "e7cb0957-3ee0-43e9-99e4-2532e376deb8": "D'ELIA DANIELE CONO"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "e7cb0957-3ee0-43e9-99e4-2532e376deb8": "D'ELIA DANIELE CONO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)",
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "e7cb0957-3ee0-43e9-99e4-2532e376deb8": "D'ELIA DANIELE CONO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055681"
+  },
+  "1044415": {
+    "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a437fd64-c097-4960-9dfb-3ea66c0d6d50": "BERALDI ROBERTO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "a437fd64-c097-4960-9dfb-3ea66c0d6d50": "BERALDI ROBERTO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1044415"
+  },
+  "1055050": {
+    "subject": "RISK MANAGEMENT",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055050"
+  },
+  "1055061": {
+    "subject": "SECURITY GOVERNANCE",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "2870d5f5-7ef2-4577-bc66-b91cab83c984": "BONOMI SILVIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "2870d5f5-7ef2-4577-bc66-b91cab83c984": "BONOMI SILVIA"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055061"
+  },
   "10595099_1": {
     "subject": "CALCULUS UNIT 1",
     "degree": "33502",

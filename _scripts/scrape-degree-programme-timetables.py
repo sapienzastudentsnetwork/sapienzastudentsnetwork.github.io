@@ -201,7 +201,8 @@ def parse(DOM):
 
                         for day_schedule_entry_dict in course_timetables_dict[course_code]["channels"][f"{channel}"][schedule_day_name]:
                             if (day_schedule_entry_dict["teachers"] == course_teachers_dict) and (day_schedule_entry_dict["timeslot"] == schedule_time_slot):
-                                day_schedule_entry_dict["classrooms"][classroom_id] = location
+                                if "classrooms" in day_schedule_entry_dict:
+                                    day_schedule_entry_dict["classrooms"][classroom_id] = location
                                 append_schedule = False
                                 break
                         
