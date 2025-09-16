@@ -40,15 +40,6 @@
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
-          },
-          {
-            "teachers": {
-              "cf89475b-264d-41e9-85ee-cda45e2a38c4": "LANZARA FLAVIA"
-            },
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
           }
         ],
         "venerd\u00ec": [
@@ -92,6 +83,17 @@
     "degree": "33503",
     "channels": {
       "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "ba591ba4-54ca-43a6-a90c-e22161b08302": "STERBINI ANDREA"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {

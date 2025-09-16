@@ -529,7 +529,26 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "33503": # Informatica
-        pass
+        tmp_schedules = []
+
+        # HARD-CODE 1015883 - FONDAMENTI DI PROGRAMMAZIONE
+        # INSTEAD OF 10621549_1 - ANALISI MATEMATICA ANALISI MATEMATICA I MODULO
+        # FOR THE "11 - 13" TIMESLOT OF TUESDAY (A-L CHANNEL)
+        for tmp_schedule in course_timetables_dict["10621549_1"]["channels"]["1"]["martedì"]:
+            if tmp_schedule["timeslot"] == "11 - 13":
+                if "martedì" not in course_timetables_dict["1015883"]["channels"]["1"]:
+                    tmp_schedule["teachers"] = {
+                        "ba591ba4-54ca-43a6-a90c-e22161b08302": "STERBINI ANDREA"
+                    }
+                    course_timetables_dict["1015883"]["channels"]["1"]["martedì"] = [tmp_schedule]
+                else:
+                    tmp_schedules.append(tmp_schedule)
+            else:
+                tmp_schedules.append(tmp_schedule)
+
+            course_timetables_dict["10621549_1"]["channels"]["1"]["martedì"] = tmp_schedules
+
+        #pass
 
     elif degree_programme_code == "33502": # ACSAI
         pass
