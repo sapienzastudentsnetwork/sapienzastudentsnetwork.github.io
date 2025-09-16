@@ -1310,7 +1310,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "7c5250e0-4902-41e9-960d-94aa20aff42c": "TSCHAIKOWSKI MAX"
+            },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
@@ -1318,7 +1320,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "7c5250e0-4902-41e9-960d-94aa20aff42c": "TSCHAIKOWSKI MAX"
+            },
             "timeslot": "9 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
