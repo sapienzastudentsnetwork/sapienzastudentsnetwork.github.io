@@ -31,7 +31,26 @@
                 continue;
             if (!TIMETABLES[courseCode])
                 continue;
-            const days = TIMETABLES[courseCode]['channels'][_channel || channel] || [];
+
+            let requestedChannel = _channel || channel;
+
+            // Get requested channel timetable
+            let channelDays = TIMETABLES[courseCode]['channels'][requestedChannel] || {};
+
+            // Always include channel 0 timetable, unless the requested channel is already 0
+            let channel0Days = (requestedChannel !== "0")
+                ? (TIMETABLES[courseCode]['channels']['0'] || {})
+                : {};
+
+            // Merge requested channel with channel 0
+            let days = {};
+            for (let [day, hours] of Object.entries(channelDays)) {
+                days[day] = (days[day] || []).concat(hours);
+            }
+            for (let [day, hours] of Object.entries(channel0Days)) {
+                days[day] = (days[day] || []).concat(hours);
+            }
+
             for (let [day, hours] of Object.entries(days)) {
                 if (!Array.isArray(hours))
                     hours = [hours]
