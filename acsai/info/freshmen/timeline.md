@@ -13,25 +13,25 @@ Remember: the goal is not just to reach the end, but to gain the most value from
 The first essential step is to register: to do so, you need to pass the TOLC-I entrance test and enroll. You can find all the necessary information and steps in the [registration guide](/acsai/info/freshmen/how-to-enroll/).
 
 ## **Mid-September**: Check the Schedule and Classrooms
-Before starting classes, it's important to check the Applied Computer Science and Artificial Intelligence page in the [Study Program Catalog](https://corsidilaurea.uniroma1.it/en/course/33502), especially the [announcements section](https://corsidilaurea.uniroma1.it/en/course/33502/announcements), to know the start date of classes, the schedule, and classrooms, as well as any classes with delayed starts.
+Before starting classes, it's important to check the Applied Computer Science and Artificial Intelligence page in the [Study Program Catalog](https://corsidilaurea.uniroma1.it/en/course/33502), especially the [attendance section](https://corsidilaurea.uniroma1.it/en/course/33502/attendance), to know the start date of classes, the schedule, and classrooms, as well as any classes with delayed starts.
 
-To locate buildings within the university city (those with codes starting with **CU**), you can consult the [classroom map](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
+To locate buildings within the university city (those with codes starting with **CU**), you can consult the [building map](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf) and the [classroom list](https://web.uniroma1.it/gareappalti/sites/default/files/Allegato_Elenco_Aule.pdf?).
 
-## **September 25, 2024**: Welcome Meeting for New Students
+<!-- ## **September 25, 2025**: Welcome Meeting for New Students
 
-On **Wednesday 25 September**, a **welcome meeting** was held for **A.A. 2024/25 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**
+On **Wednesday 25 September**, a **welcome meeting** was held for **A.A. 2025/26 freshmen** in Applied Computer Science and Artificial Intelligence (**ACSAI**) and **Informatics**
 
-With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we provided **practical information on the organisation of the Degree Course** and there was **a light refreshment**
+With the participation of the President of the Degree Course, Prof. Massini, professors, Degree Course Tutors and Student Representatives to the Didactic Area Council, we provided **practical information on the organization of the Degree Course** and there was **a light refreshment**
 
-[Click here to open the slideshow](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf)
+[Click here to open the slideshow](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20ACSAI.pdf) -->
 
 ## **From September to December and from March to May**: Attend Classes
 Attending classes is essential for mastering the concepts of the various courses and passing the exams smoothly. Although some classes may be recorded or available online, active participation in the classroom will help you better understand the concepts and interact with professors and fellow students.
 
 Forming a study group with friends can be a great strategy for tackling the academic challenges together.
 
-## **November 5, 2024**: First Installment Deadline for Second-Year and Later Students
-The deadline for paying the first installment is set for November 5, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
+## **November 6, 2025**: First Installment Deadline for Second-Year and Later Students
+The deadline for paying the first installment is set for November 6, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attention**
@@ -49,8 +49,8 @@ Midterms are generally supplemented by a final written exam, which determines th
 Midterms are at the discretion of the professors: they will not be available for all courses. Usually, professors announce during the first classes whether they will hold midterms and an approximate period when they will take place.
 {{% /hint %}}
 
-## **December 19, 2024**: Second Installment Deadline
-The deadline for paying the second installment is set for December 19, 2024. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
+## **December 18, 2025**: Second Installment Deadline
+The deadline for paying the second installment is set for December 18, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
 
 ## **From January to February, June to July, and in September**: Take the Exams
 Exams take place at the end of each semester. To know the date and classroom for each exam, you can check the ["Attendance" subpage](https://corsidilaurea.uniroma1.it/en/course/33502/attendance) on the [ACSAI course page in the Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33502). During the winter and summer sessions, there are two exam dates for each exam, while in the September session, there is only one date.
@@ -63,8 +63,8 @@ To take an exam, you need to register via [InfoStud](https://www.studenti.unirom
 Each exam has a deadline by which you must register. Be sure to register by the deadline, or you won't be able to take the exam.
 {{% /hint %}}
 
-## **March 27, 2025**: Third Installment Deadline
-The deadline for paying the third installment is set for March 27, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
+## **March 26, 2025**: Third Installment Deadline
+The deadline for paying the third installment is set for March 26, 2025. For more information on payments and deadlines, check the [dedicated page](https://www.uniroma1.it/en/pagina/tuition-fees-and-benefits).
 
 ## **At the Start of the Third Year**: Fill Out the Study Plan
 At the beginning of the third year, you will need to fill out your Study Plan by selecting the elective courses you want to take. This is an opportunity to customize your academic path according to your interests.

@@ -12,25 +12,25 @@ Ricorda: l'obiettivo non è solo raggiungere la fine del percorso, ma anche trar
 Il primo passo fondamentale è iscriversi: per farlo è necessario superare il test di ingresso TOLC-I e immatricolarsi. Puoi trovare tutte le informazioni e i passaggi necessari sulla [guida per iscriversi](/it/info/matricole/come-iscriversi/).
 
 ## **Metà settembre**: controllare l'orario e le aule delle lezioni
-Prima di iniziare a frequentare le lezioni, è importante consultare la pagina di Informatica nel [Catalogo Dei Corsi di Studio](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/home), in particolare la sezione [frequentare](https://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) per conoscere la data di inizio delle lezioni, gli orari e le aule delle lezioni ed eventuali lezioni con l'inizio posticipato.
+Prima di iniziare a frequentare le lezioni, è importante consultare la pagina di Informatica nel [Catalogo Dei Corsi di Studio](https://www.corsidilaurea.uniroma1.it/it/course/33503), in particolare la sezione [frequentare](https://www.corsidilaurea.uniroma1.it/it/course/33503/attendance) per conoscere la data di inizio delle lezioni, gli orari e le aule delle lezioni ed eventuali lezioni con l'inizio posticipato.
 
-Per conoscere la posizione degli edifici all'interno della città universitaria (tutti quelli con il codice che inizia con **CU**), puoi consultare la [mappa delle aule](https://www.corsidilaurea.uniroma1.it/sites/default/files/mappa_aule_ateneo.pdf_0.pdf).
+Per conoscere la posizione degli edifici e delle aule all'interno della città universitaria (tutti quelli con il codice che inizia con **CU**), puoi consultare la [mappa degli edifici](https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf) e l'[elenco delle aule](https://web.uniroma1.it/gareappalti/sites/default/files/Allegato_Elenco_Aule.pdf).
 
-## **25 settembre 2024**: Incontro di benvenuto per le matricole
+<!-- ## **25 settembre 2025**: Incontro di benvenuto per le matricole
 
-**Mercoledì 25 settembre** si è tenuto un **incontro di benvenuto** dedicato alle **matricole A.A. 2024/25** di Applied Computer Science and Artificial Intelligence (**ACSAI**) e **Informatica**
+**Mercoledì 25 settembre** si è tenuto un **incontro di benvenuto** dedicato alle **matricole A.A. 2025/26** di Applied Computer Science and Artificial Intelligence (**ACSAI**) e **Informatica**
 
 Con la partecipazione della Presidente del Corso di Laurea, prof.ssa Massini, professori, Tutor Didattici del Corso di Laurea e Rappresentanti degli Studenti al Consiglio di Area Didattica di Informatica vi abbiamo dato **informazioni pratiche sull'organizzazione del Corso di Laurea** e c'è stato un **leggero rinfresco**
 
-[Clicca qui per sfogliare la presentazione](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf)
+[Clicca qui per sfogliare la presentazione](https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Welcome%20Day%20-%20Informatica.pdf) -->
 
 ## **Da settembre a dicembre e da marzo a maggio**: frequentare le lezioni
 Frequentare le lezioni è fondamentale per imparare al meglio i concetti dei vari corsi e per superare agevolmente gli esami. La partecipazione attiva in aula ti aiuterà a comprendere meglio i concetti e a interagire con docenti e compagni di corso.
 
 Creare un gruppo di amici con cui studiare e confrontarsi può essere un'ottima strategia per affrontare insieme le sfide del percorso accademico.
 
-## **5 novembre 2024**: scadenza prima rata per gli iscritti al secondo anno e successivi
-La scadenza per il pagamento della prima rata è fissata per il 5 novembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
+## **6 novembre 2025**: scadenza prima rata per gli iscritti al secondo anno e successivi
+La scadenza per il pagamento della prima rata è fissata per il 6 novembre 2025. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
@@ -48,24 +48,24 @@ Normalmente gli esoneri vengono poi integrati con uno scritto finale, che permet
 Gli esoneri sono a discrezione dei docenti: non saranno quindi previsti per tutti i corsi. Di solito i docenti comunicano durante le prime lezioni la loro volontà di svolgere esoneri e un periodo approssimativo in cui si svolgeranno.
 {{% /hint %}}
 
-## **19 dicembre 2024**: scadenza seconda rata
-La scadenza per il pagamento della seconda rata è fissata per il 19 dicembre 2024. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
+## **18 dicembre 2025**: scadenza seconda rata
+La scadenza per il pagamento della seconda rata è fissata per il 18 dicembre 2025. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
 ## **Da gennaio a febbraio, da giugno a luglio e a settembre**: sostenere gli esami
-Gli esami si svolgono alla fine di ogni semestre. Per conoscere la data e l'aula di ogni esame è possibile consultare la sezione [frequentare](ttps://www.corsidilaurea.uniroma1.it/it/corso/2024/29923/programmazione) del sito del corso. Durante la sessione invernale e quella estiva sono previsti due appelli per ogni esame, durante la sessione di settembre è previsto un solo appello.
+Gli esami si svolgono alla fine di ogni semestre. Per conoscere la data e l'aula di ogni esame è possibile consultare la sezione [frequentare](https://www.corsidilaurea.uniroma1.it/it/course/33503/attendance/exams) del sito del corso. Durante la sessione invernale e quella estiva sono previsti due appelli per ogni esame, durante la sessione di settembre è previsto un solo appello.
 
-Per poter sostenere un esame è necessario prenotarsi tramite [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) e prenotare l'esame nella sezione **Ricerca Appelli**.
+Per poter sostenere un esame è necessario prenotarsi tramite [InfoStud](https://www.studenti.uniroma1.it/phoenix/index.html#/) tramite la sezione **Ricerca Appelli**.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
-Per ogni esame è presente una data entro la quale è possibile prenotare l'esame. Assicurati di prenotare l'esame entro la data limite, altrimenti non potrai sostenere l'esame.
+Per ogni esame è presente una data entro la quale è possibile prenotarsi. Assicurati di effettuare la prenotazione entro la data limite, altrimenti non potrai sostenere l'esame.
 {{% /hint %}}
 
 <!-- Qui possiamo linkare la guida di Leonardo tradotta in Italiano -->
 
-## **27 marzo 2025**: scadenza terza rata
-La scadenza per il pagamento della terza rata è fissata per il 27 marzo 2025. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
+## **26 marzo 2025**: scadenza terza rata
+La scadenza per il pagamento della terza rata è fissata per il 26 marzo 2025. Per maggiori informazioni sui pagamenti e le scadenze, consulta la [pagina dedicata](https://www.uniroma1.it/it/pagina/contributi-e-agevolazioni).
 
 ## **All'inizio del terzo anno**: compilare il Percorso Formativo
 All'inizio del terzo anno, dovrai compilare il tuo Percorso Formativo scegliendo gli esami opzionali che vorrai sostenere. Questa è un'opportunità per personalizzare il tuo percorso di studi in base ai tuoi interessi.
