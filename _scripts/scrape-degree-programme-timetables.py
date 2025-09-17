@@ -624,7 +624,7 @@ if __name__ == '__main__':
                             and "398537f5-1be4-4287-be7b-eb76298c4a8f" in day_schedule["classrooms"]
                             and currentDate < datetime(currentDate.year, 10, 1)
                         ):
-                            classroomInfo = "Aula 5 Aule Blu (Edificio: CU028)"
+                            classroomInfo = "Aula 5 (Edificio: CU028)"
                             classroomUrl  = "https://www.uniroma1.it/sites/default/files/ACU028.pdf"
 
                     if classroomInfo is not None:
