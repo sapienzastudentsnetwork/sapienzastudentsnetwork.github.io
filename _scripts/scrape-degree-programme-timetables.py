@@ -598,6 +598,18 @@ if __name__ == '__main__':
                             day_schedule["teachers"] = {
                                 "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
                             }
+                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
+                    elif course_code == "1055681":
+                        day_schedule["teachers"]["6c3bba26-eefd-4122-8fec-d79f670c521b"] = "QUERZONI LEONARDO"
+                    # 10616636 - MACHINE LEARNING SECURITY
+                    elif course_code == "10616636":
+                        day_schedule["teachers"]["5457d8e3-6352-4c7b-ab90-a3b8a3db1968"] = "HITAJ DORJAN"
+                    # 1055061 - SECURITY GOVERNANCE
+                    elif course_code == "1055061":
+                        day_schedule["teachers"]["c7077354-e19e-49c5-a528-9a6094a07b76"] = "FABRIZIO D'AMORE"
+                    # 1027171 - NETWORK INFRASTRUCTURES
+                    elif course_code == "1027171":
+                        day_schedule["teachers"]["61eac323-9fc2-4e48-b469-957e446ddaff"] = "FRANCESCA CUOMO"
 
                     classroomInfo = None
                     classroomUrl  = None
