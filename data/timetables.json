@@ -706,6 +706,17 @@
     "degree": "33508",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {

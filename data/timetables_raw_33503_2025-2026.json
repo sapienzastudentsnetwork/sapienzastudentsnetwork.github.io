@@ -31,6 +31,27 @@
         "channel": "Canale 1",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "1015883",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
             "building": "Edificio: RM025",
             "course": "1015883",
             "room": "Aula informatica 15",
@@ -55,22 +76,6 @@
                 "day": "mercoled\u00ec",
                 "from": "16:00",
                 "to": "19:00"
-              }
-            ],
-            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
-            "teachers": [
-              "STERBINI ANDREA"
-            ]
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "1015883",
-            "room": "Aula 3",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "10:00",
-                "to": "13:00"
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",
@@ -108,11 +113,6 @@
                 "day": "marted\u00ec",
                 "from": "08:00",
                 "to": "11:00"
-              },
-              {
-                "day": "marted\u00ec",
-                "from": "11:00",
-                "to": "13:00"
               }
             ],
             "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",

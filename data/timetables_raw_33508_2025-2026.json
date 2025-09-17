@@ -303,6 +303,11 @@
             "room": "Aula A2",
             "schedule": [
               {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
                 "day": "mercoled\u00ec",
                 "from": "12:00",
                 "to": "14:00"
@@ -764,6 +769,11 @@
             "course": "10589621",
             "room": "Aula A2",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
               {
                 "day": "mercoled\u00ec",
                 "from": "12:00",
