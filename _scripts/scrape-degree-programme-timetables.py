@@ -541,8 +541,12 @@ if __name__ == '__main__':
     elif degree_programme_code == "33516": # Cybersecurity
         pass
 
+    master_degrees = ("33508", "33516")
+
     for course_code, course_data in course_timetables_dict.items():
-        if "degree" in course_data and course_data["degree"] != degree_programme_code:
+        course_degree = course_data["degree"]
+
+        if "degree" in course_data and course_degree != degree_programme_code and (degree_programme_code not in master_degrees or course_degree not in master_degrees):
             continue
 
         for channel_id, channel_data in course_data["channels"].items():
@@ -553,6 +557,11 @@ if __name__ == '__main__':
                         if "teachers" in day_schedule:
                             day_schedule["teachers"]["2933c5a1-f1b1-4ecf-9b70-a990780c704e"] = "AIELLO VALERIANO"
                         if day_name == "venerdì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
+                            day_schedule["classrooms"].pop("41f8d660-fcfd-4b27-9dc6-8da0e075088b")
+                            day_schedule["classrooms"]["27a4966a-0abc-418d-aa04-ea3973e3cdef"] = "Aula 3 (Edificio: RM018)"
+                    # 1047642 - SECURITY IN SOFTWARE APPLICATIONS
+                    elif course_code == "1047642":
+                        if day_name == "mercoledì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
                             day_schedule["classrooms"].pop("41f8d660-fcfd-4b27-9dc6-8da0e075088b")
                             day_schedule["classrooms"]["27a4966a-0abc-418d-aa04-ea3973e3cdef"] = "Aula 3 (Edificio: RM018)"
                     # 1015886 - ALGEBRA
