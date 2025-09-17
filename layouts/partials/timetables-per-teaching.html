@@ -195,8 +195,12 @@
                                                         {{ if $mapsUrl }}
                                                             <a href="{{ $mapsUrl }}" target="_blank">{{ $location }}</a>
                                                             <br/>
+                                                        {{ else if (strings.Contains $location "CU028") }}
+                                                            <a href="https://www.uniroma1.it/sites/default/files/ACU028.pdf" target="_blank">{{ $location }}</a>
+                                                            <br/>
                                                         {{ else if (findRE "CU0[0-9]{2}" $location) }}
-                                                            <a href="https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf" target="_blank">{{ $location }}</a><br/>
+                                                            <a href="https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf" target="_blank">{{ $location }}</a>
+                                                            <br/>
                                                         {{ else }}
                                                             {{ $location }}
                                                             <br/>
@@ -216,10 +220,16 @@
 
                                                     {{ if $classroomUrl }}
                                                         <a href="{{ $classroomUrl }}">{{ $classroomInfo }}</a>
+                                                        <br/>
+                                                    {{ else if (strings.Contains $classroomInfo "CU028") }}
+                                                        <a href="https://www.uniroma1.it/sites/default/files/ACU028.pdf" target="_blank">{{ $classroomInfo }}</a>
+                                                        <br/>
                                                     {{ else if (findRE "CU0[0-9]{2}" $classroomInfo) }}
-                                                        <a href="https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf">{{ $classroomInfo }}</a>
+                                                        <a href="https://www.uniroma1.it/sites/default/files/PIANTA_LEGENDA_DEF_AGG_040414_1.pdf" target="_blank">{{ $classroomInfo }}</a>
+                                                        <br/>
                                                     {{ else }}
                                                         {{ $classroomInfo }}
+                                                        <br/>
                                                     {{ end }}
                                                 {{ end }}
                                             </td>
