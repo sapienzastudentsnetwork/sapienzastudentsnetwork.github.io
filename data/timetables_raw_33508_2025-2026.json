@@ -116,6 +116,22 @@
             ]
           },
           {
+            "building": "Edificio: CU028",
+            "course": "1047618",
+            "room": "Aula 5",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1047618",
             "room": "Aula 1",
@@ -554,6 +570,22 @@
             "building": "Edificio: RM112",
             "course": "1047618",
             "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              "MARINI MARCO RAOUL"
+            ]
+          },
+          {
+            "building": "Edificio: CU028",
+            "course": "1047618",
+            "room": "Aula 5",
             "schedule": [
               {
                 "day": "marted\u00ec",
