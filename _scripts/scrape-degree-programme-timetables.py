@@ -610,6 +610,10 @@ if __name__ == '__main__':
                     # 1027171 - NETWORK INFRASTRUCTURES
                     elif course_code == "1027171":
                         day_schedule["teachers"]["61eac323-9fc2-4e48-b469-957e446ddaff"] = "FRANCESCA CUOMO"
+                    # AAF2511 - INGLESE LIVELLO B2
+                    elif course_code == "AAF2511":
+                        if "teachers" not in day_schedule or not day_schedule["teachers"]:
+                            day_schedule["teacherInfo"] = "BIGLINO LAURA"
                     # 1022807 - DISTRIBUTED SYSTEMS
                     # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
                     if course_code in ("1022807", "1055681"):
