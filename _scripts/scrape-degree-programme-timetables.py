@@ -530,26 +530,7 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "33503": # Informatica
-        tmp_schedules = []
-
-        # HARD-CODE 1015883 - FONDAMENTI DI PROGRAMMAZIONE
-        # INSTEAD OF 10621549_1 - ANALISI MATEMATICA ANALISI MATEMATICA I MODULO
-        # FOR THE "11 - 13" TIMESLOT OF TUESDAY (A-L CHANNEL)
-        for tmp_schedule in course_timetables_dict["10621549_1"]["channels"]["1"]["martedì"]:
-            if tmp_schedule["timeslot"] == "11 - 13":
-                if "martedì" not in course_timetables_dict["1015883"]["channels"]["1"]:
-                    tmp_schedule["teachers"] = {
-                        "ba591ba4-54ca-43a6-a90c-e22161b08302": "STERBINI ANDREA"
-                    }
-                    course_timetables_dict["1015883"]["channels"]["1"]["martedì"] = [tmp_schedule]
-                else:
-                    tmp_schedules.append(tmp_schedule)
-            else:
-                tmp_schedules.append(tmp_schedule)
-
-            course_timetables_dict["10621549_1"]["channels"]["1"]["martedì"] = tmp_schedules
-
-        #pass
+        pass
 
     elif degree_programme_code == "33502": # ACSAI
         pass
@@ -567,6 +548,24 @@ if __name__ == '__main__':
         for channel_id, channel_data in course_data["channels"].items():
             for day_name, day_schedules in channel_data.items():
                 for day_schedule in day_schedules:
+                    # 10621549_1 - ANALISI MATEMATICA I MODULO
+                    if course_code == "10621549_1" and channel_id == "1" and "teachers" in day_schedule:
+                        day_schedule["teachers"]["2933c5a1-f1b1-4ecf-9b70-a990780c704e"] = "AIELLO VALERIANO"
+                    # 1015886 - ALGEBRA
+                    elif course_code == "1015886" and channel_id == "1" and "teachers" in day_schedule:
+                        day_schedule["teachers"]["c9a7e4f6-798f-4f17-a5a3-93e09d0b1817"] = "DE SOLE ALBERTO"
+                    # 1015883 - FONDAMENTI DI PROGRAMMAZIONE
+                    # Wednesday laboratory classes
+                    elif course_code == "1015883" and day_name == "mercoledì" and "teachers" in day_schedule:
+                        if channel_id == "1":
+                            day_schedule["teachers"] = {
+                                "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+                            }
+                        elif channel_id == "2":
+                            day_schedule["teachers"] = {
+                                "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
+                            }
+
                     classroomInfo = None
                     classroomUrl  = None
 
