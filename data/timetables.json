@@ -6,22 +6,24 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            },
-            "teacherInfo": "BIGLINO LAURA"
+            }
           }
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            },
-            "teacherInfo": "BIGLINO LAURA"
+            }
           }
         ]
       }
@@ -504,7 +506,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1ba2f7b6-acc7-4d42-b346-733d092bf98f": "ASARO CARMELO"
+            },
             "timeslot": "11 - 13",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -513,7 +517,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "1ba2f7b6-acc7-4d42-b346-733d092bf98f": "ASARO CARMELO"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
@@ -1243,7 +1249,9 @@
       "0": {
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "a40b28df-4a34-40ad-bbbf-ebfaf44148d0": "De vitis Alessandra"
+            },
             "timeslot": "14 - 19",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -1482,7 +1490,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "002b9d4f-9c84-4f5c-a317-cd5d1327f4dd": "ZATTI STEFANO"
+            },
             "timeslot": "9 - 12",
             "classrooms": {
               "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": "Aula Alfa (Edificio: RM062)"
@@ -1491,7 +1501,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "002b9d4f-9c84-4f5c-a317-cd5d1327f4dd": "ZATTI STEFANO"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
