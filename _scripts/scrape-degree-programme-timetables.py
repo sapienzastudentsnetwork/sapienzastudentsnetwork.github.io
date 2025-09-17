@@ -610,6 +610,24 @@ if __name__ == '__main__':
                     # 1027171 - NETWORK INFRASTRUCTURES
                     elif course_code == "1027171":
                         day_schedule["teachers"]["61eac323-9fc2-4e48-b469-957e446ddaff"] = "FRANCESCA CUOMO"
+                    # 1022807 - DISTRIBUTED SYSTEMS
+                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
+                    if course_code in ("1022807", "1055681"):
+                        if (
+                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"] # AULA 201 - Regina Elena - Edificio D
+                            and "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232" in day_schedule["classrooms"] # Aula Alfa
+                        ):
+                            if course_code == "1022807":
+                                if currentDate < datetime(currentDate.year, 10, 11):
+                                    day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
+                                else:
+                                    if currentDate < datetime(currentDate.year, 11, 8):
+                                        day_schedule["classrooms"].pop("8e92b19a-4c17-4a44-973e-5e1adbb804df")
+                                    else:
+                                        day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
+                            elif course_code == "1055681":
+                                day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
+
 
                     classroomInfo = None
                     classroomUrl  = None
