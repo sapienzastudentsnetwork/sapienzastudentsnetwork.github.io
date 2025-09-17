@@ -546,7 +546,17 @@ if __name__ == '__main__':
         pass
 
     elif degree_programme_code == "33508": # Computer Science
-        pass
+        # Remove the specific schedules of "FUNDAMENTALS OF DATA SCIENCE" (1047224)
+        # from those of "FOUNDATIONS OF DATA SCIENCE" (1047627)
+        if (
+            "1047627" in course_timetables_dict
+            and "channels" in course_timetables_dict["1047627"]
+            and "0" in course_timetables_dict["1047627"]["channels"]
+            and "giovedì" in course_timetables_dict["1047627"]["channels"]["0"]
+        ):
+           course_timetables_dict["1047627"]["channels"]["0"].pop("giovedì")
+
+        #pass
 
     elif degree_programme_code == "33516": # Cybersecurity
         pass
