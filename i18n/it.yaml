@@ -72,6 +72,24 @@
 #   S U B J E C T S   T I M E T A B L E
 #
 
+- id: Subjs_Info_Title
+  translation: ℹ️ Informazioni utili per un'appropriata consultazione
+
+- id: Subjs_Info_Tip
+  translation: Fai clic sull'acronimo del nome di un insegnamento per ulteriori dettagli su aule e professori
+
+- id: Subjs_Info_Text_1
+  translation: Le informazioni contenute in questa pagina si sincronizzano automaticamente, ogni ora, con un'API di Sapienza;
+
+- id: Subjs_Info_Text_2
+  translation: Talvolta le informazioni presenti nell'API di Sapienza – sebbene ufficiale – possono risultare imprecise. Solo in alcuni casi il nostro staff interviene con correzioni manuali, ma resta fondamentale sottolineare che hanno sempre priorità le comunicazioni fornite dai docenti attraverso i loro canali ufficiali (Classroom, bacheche docenti, siti web, ecc.), soprattutto per cambiamenti provvisori di orario o di aula;
+
+- id: Subjs_Info_Text_3
+  translation: Si raccomanda quindi di utilizzare al meglio lo strumento offerto da questa pagina e di scrivere a
+
+- id: Subjs_Info_Text_4
+  translation: per eventuali dubbi o per segnalare incongruenze o cambiamenti provvisori di orario, così da agevolarne la correzione manuale anche su questa pagina.
+
 - id: Subjs_ThisWeekOnly
   translation: Questa pagina visualizza, per questa settimana, gli orari provvisori per la nona settimana di lezioni (dal 18 al 22 Novembre). Per le settimane successive, gli orari e/o le aule cambieranno; si consiglia, quindi, di tenersi aggiornati tramite la pagina "Frequentare" del Corso di Laurea o i gruppi Telegram e WhatsApp.
 

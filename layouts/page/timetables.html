@@ -4,7 +4,21 @@
     <!--{{ if not (or (in .Permalink "/it/") (in .Permalink "/33508") (in .Permalink "/33502")) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}-->
-    ⚠️ {{ T "Subjs_Provisional" }}
+
+    <article class="markdown book-article">
+        <details>
+            <summary>{{ T "Subjs_Info_Title" }}</summary>
+            <ul>
+                <li>{{ T "Subjs_Info_Text_1" }}</li>
+                <li>{{ T "Subjs_Info_Text_2" }}</li>
+                <li>{{ T "Subjs_Info_Text_3" }} Matteo <b>Collica</b> (<a href="https://telegram.me/Matypist">Telegram</a> | <a href="mailto:collica.2004949@studenti.uniroma1.it">Email</a>) {{ T "Subjs_Info_Text_4" }}</li>
+            </ul>
+        </details>
+
+        <blockquote class="book-hint tip">
+            <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> {{ T "Subjs_Info_Tip" }}
+        </blockquote>
+    </article>
 
     <div class="channel-1 relative" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}

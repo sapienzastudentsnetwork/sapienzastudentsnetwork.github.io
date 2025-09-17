@@ -18,7 +18,7 @@ Provides targeted support to help you understand course content and assist with 
 
 #### How to benefit
 
-Tutoring for individual courses is usually announced by the instructor during class or on the e-learning platform (Moodle, Classroom, etc.) used for the course. Tutoring sessions are held **outside of regular class hours**, and **all interested students can participate**.
+Tutoring for individual courses is usually announced by the professor during class or on the e-learning platform (Moodle, Classroom, etc.) used for the course. Tutoring sessions are held **outside of regular class hours**, and **all interested students can participate**.
 
 ### Comprehensive Learning Support Tutoring
 

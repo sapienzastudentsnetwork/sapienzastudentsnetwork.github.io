@@ -73,6 +73,24 @@
 #   S U B J E C T S   T I M E T A B L E
 #
 
+- id: Subjs_Info_Title
+  translation: ℹ️ Useful information for appropriate consultation
+
+- id: Subjs_Info_Tip
+  translation: Click the acronym of a course name for more details about classrooms and professors
+
+- id: Subjs_Info_Text_1
+  translation: The information on this page is automatically synchronized every hour with a Sapienza API;
+
+- id: Subjs_Info_Text_2
+  translation: Sometimes the information provided by the Sapienza API – although official – may be inaccurate. Only in certain cases does our staff apply manual corrections, but it is essential to emphasize that the communications issued by professors through their official channels (Classroom, notice boards, websites, etc.) always take priority, especially for temporary changes of schedule or classroom;
+
+- id: Subjs_Info_Text_3
+  translation: You are therefore advised to make the best use of the tool provided on this page and to write to
+
+- id: Subjs_Info_Text_4
+  translation: for any questions or to report discrepancies or temporary timetable changes, in order to facilitate their manual correction on this page as well.
+
 - id: Subjs_ThisWeekOnly
   translation: This page displays, for this week, the provisional timetable for the current week of classes. For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course "Attendance" page or the Telegram and WhatsApp groups.
 
@@ -122,7 +140,7 @@
   translation: Telegram Group of
 
 - id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
-  translation: to stay updated on any schedule changes, resources, and course information
+  translation: to stay updated on any timetable changes, resources, and course information
 
 - id: Subjs_CustomTimetable_Title
   translation: Your timetable

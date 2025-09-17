@@ -9,7 +9,21 @@
     {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}-->
-⚠️ {{ T "Subjs_Provisional" }}
+
+<article class="markdown book-article">
+    <details>
+        <summary>{{ T "Subjs_Info_Title" }}</summary>
+        <ul>
+            <li>{{ T "Subjs_Info_Text_1" }}</li>
+            <li>{{ T "Subjs_Info_Text_2" }}</li>
+            <li>{{ T "Subjs_Info_Text_3" }} Matteo <b>Collica</b> (<a href="https://telegram.me/Matypist">Telegram</a> | <a href="mailto:collica.2004949@studenti.uniroma1.it">Email</a>) {{ T "Subjs_Info_Text_4" }}</li>
+        </ul>
+    </details>
+
+    <blockquote class="book-hint tip">
+        <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> {{ T "Subjs_Info_Tip" }}
+    </blockquote>
+</article>
 
 <div class="relative" id="main">
     <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
