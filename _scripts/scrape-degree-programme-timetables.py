@@ -614,11 +614,10 @@ if __name__ == '__main__':
                     elif course_code == "AAF2511":
                         if "teachers" not in day_schedule or not day_schedule["teachers"]:
                             day_schedule["teacherInfo"] = "BIGLINO LAURA"
-                    # 1022807 - DISTRIBUTED SYSTEMS
-                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
-                    if course_code in ("1022807", "1055681"):
+                    # 1022807 - DISTRIBUTED SYSTEMS (COMPUTER SCIENCE)
+                    if course_code == "1022807":
                         if (
-                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"] # AULA 201 - Regina Elena - Edificio D
+                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
                             and "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232" in day_schedule["classrooms"] # Aula Alfa
                         ):
                             if course_code == "1022807":
@@ -629,9 +628,18 @@ if __name__ == '__main__':
                                         day_schedule["classrooms"].pop("8e92b19a-4c17-4a44-973e-5e1adbb804df")
                                     else:
                                         day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
-                            elif course_code == "1055681":
-                                day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
-
+                        elif (
+                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
+                            and "c3c3ddad-bb6e-4e83-a9a1-211ce885f591" in day_schedule["classrooms"] # Aula Sala Studio (CU017)
+                        ):
+                            day_schedule["classrooms"].pop("c3c3ddad-bb6e-4e83-a9a1-211ce885f591")
+                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
+                    elif course_code == "1055681":
+                        if (
+                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
+                            and "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232" in day_schedule["classrooms"] # Aula Alfa
+                        ):
+                            day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
 
                     classroomInfo = None
                     classroomUrl  = None
