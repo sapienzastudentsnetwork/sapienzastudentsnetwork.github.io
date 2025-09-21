@@ -63,7 +63,7 @@
                 {{ range $channel_id, $channel := $courseChannels }}
                     {{ $days := $channel }}
 
-                    {{ if (and ($pageChannel) (ne (string $pageChannel) (string $channel_id))) }}
+                    {{ if (and ($pageChannel) (ne (string $pageChannel) (string $channel_id)) (ne (string $channel_id) "0")) }}
                         {{ continue }}
                     {{ end }}
 
