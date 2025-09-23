@@ -58,6 +58,48 @@
             ]
           },
           {
+            "building": "Edificio: RM115",
+            "course": "1047616",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "COMPUTATIONAL COMPLEXITY",
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047617",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "COMPUTER NETWORK PERFORMANCE",
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "1047618",
             "room": "AULA 101",
@@ -227,6 +269,11 @@
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "13:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ],
             "subject": "NETWORK ALGORITHMS",
@@ -288,6 +335,27 @@
             ]
           },
           {
+            "building": "Edificio: RM115",
+            "course": "10596281",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
             "building": "Edificio: CU007",
             "course": "10600490",
             "room": "Aula 14 ",
@@ -317,6 +385,27 @@
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "teachers": [
               "LA MORGIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10600495",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teachers": [
+              "TRONCI ENRICO"
             ]
           },
           {
@@ -436,6 +525,48 @@
             ]
           },
           {
+            "building": "Edificio: RM115",
+            "course": "1047616",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "COMPUTATIONAL COMPLEXITY",
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047617",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "COMPUTER NETWORK PERFORMANCE",
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "1047618",
             "room": "AULA 101",
@@ -605,6 +736,11 @@
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "13:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ],
             "subject": "NETWORK ALGORITHMS",
@@ -682,6 +818,27 @@
             ]
           },
           {
+            "building": "Edificio: RM115",
+            "course": "10596281",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
             "building": "Edificio: CU007",
             "course": "10600490",
             "room": "Aula 14 ",
@@ -711,6 +868,27 @@
             "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
             "teachers": [
               "LA MORGIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10600495",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teachers": [
+              "TRONCI ENRICO"
             ]
           }
         ]

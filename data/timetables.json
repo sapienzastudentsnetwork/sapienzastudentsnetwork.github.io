@@ -746,6 +746,68 @@
     },
     "code": "10589621"
   },
+  "10600495": {
+    "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600495"
+  },
+  "10596281": {
+    "subject": "AUTONOMOUS NETWORKING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10596281"
+  },
   "1041764": {
     "subject": "BIG DATA COMPUTING",
     "degree": "33508",
@@ -838,6 +900,68 @@
       }
     },
     "code": "10600490"
+  },
+  "1047616": {
+    "subject": "COMPUTATIONAL COMPLEXITY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "ff573185-4666-4567-bec0-20faadb35886": "LAURIA MASSIMO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "ff573185-4666-4567-bec0-20faadb35886": "LAURIA MASSIMO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047616"
+  },
+  "1047617": {
+    "subject": "COMPUTER NETWORK PERFORMANCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047617"
   },
   "1047618": {
     "subject": "COMPUTER VISION",
@@ -1036,6 +1160,17 @@
               "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
             },
             "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "14 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
