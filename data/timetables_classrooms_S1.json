@@ -60,11 +60,11 @@
         },
         "thursday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-10:30": "",
-            "10:30-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
+            "09:00-10:00": "riunione Sapienza/Tor Vergata (Pontarelli)",
+            "10:00-10:30": "riunione Sapienza/Tor Vergata (Pontarelli)",
+            "10:30-11:00": "riunione Sapienza/Tor Vergata (Pontarelli)",
+            "11:00-12:00": "riunione Sapienza/Tor Vergata (Pontarelli)",
+            "12:00-13:00": "riunione Sapienza/Tor Vergata (Pontarelli)",
             "13:00-13:30": "",
             "13:30-14:00": "",
             "14:00-14:30": "",
@@ -75,7 +75,7 @@
             "18:00-18:30": "",
             "18:30-19:00": "",
             "19:00-19:30": "",
-            "11:45-12:15": ""
+            "11:45-12:15": "riunione Sapienza/Tor Vergata (Pontarelli)"
         },
         "friday": {
             "08:00-09:00": "",
