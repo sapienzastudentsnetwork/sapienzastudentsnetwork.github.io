@@ -191,14 +191,14 @@
             ]
           },
           {
-            "building": "Edificio: CU002",
+            "building": "Edificio: RM018",
             "course": "1055043",
-            "room": "AULA XI bis",
+            "room": "Aula 7",
             "schedule": [
               {
                 "day": "gioved\u00ec",
-                "from": "14:00",
-                "to": "20:00"
+                "from": "13:00",
+                "to": "19:00"
               }
             ],
             "subject": "STATISTICS",

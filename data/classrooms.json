@@ -84,6 +84,11 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
   },
+  "6fa78f3a-940f-420e-a972-c7bacd283a52": {
+    "description": "Aula 7 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+7)&iwloc=A&hl=it"
+  },
   "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
     "description": "Aula A5 -",
     "address": "Via Ariosto, 25",
@@ -106,11 +111,6 @@
   },
   "c3c3ddad-bb6e-4e83-a9a1-211ce885f591": {
     "description": "Aula Sala Studio - Centro teatro ateneo, Dopolavoro, Bar",
-    "address": null,
-    "mapsUrl": null
-  },
-  "7074643f-5bed-49b9-85e9-c646c0b06009": {
-    "description": "AULA XI bis - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
     "address": null,
     "mapsUrl": null
   }
