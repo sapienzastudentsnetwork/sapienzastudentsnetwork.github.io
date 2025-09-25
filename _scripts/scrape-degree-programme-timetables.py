@@ -576,9 +576,9 @@ if __name__ == '__main__':
                     if course_code == "10621549_1" and channel_id == "1":
                         if "teachers" in day_schedule:
                             day_schedule["teachers"]["2933c5a1-f1b1-4ecf-9b70-a990780c704e"] = "AIELLO VALERIANO"
-                        if day_name == "venerdì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
-                            day_schedule["classrooms"].pop("41f8d660-fcfd-4b27-9dc6-8da0e075088b")
-                            day_schedule["classrooms"]["27a4966a-0abc-418d-aa04-ea3973e3cdef"] = "Aula 3 (Edificio: RM018)"
+                        #if day_name == "venerdì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
+                        #    day_schedule["classrooms"].pop("41f8d660-fcfd-4b27-9dc6-8da0e075088b")
+                        #    day_schedule["classrooms"]["27a4966a-0abc-418d-aa04-ea3973e3cdef"] = "Aula 3 (Edificio: RM018)"
                     # 1047642 - SECURITY IN SOFTWARE APPLICATIONS
                     elif course_code == "1047642":
                         if day_name == "mercoledì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
