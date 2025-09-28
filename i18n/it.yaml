@@ -147,24 +147,6 @@
 - id: Subjs_CustomTimetable_AddButton
   translation: Aggiungi e rimuovi materie
 
-- id: Subjs_ExportIcsButton
-  translation: Esporta in calendario
-
-- id: Subjs_ExportIcs_Title
-  translation: Scegli un semestre
-
-- id: Subjs_ExportIcs_Description
-  translation: Scegli il semestre delle materie che desideri esportare nel tuo calendario.
-
-- id: Subjs_ExportIcs_FirstSemester
-  translation: Primo Semestre
-
-- id: Subjs_ExportIcs_SecondSemester
-  translation: Secondo Semestre
-
-- id: Subjs_ExportIcs_NoSubjectsSelected
-  translation: Non hai selezionato alcuna materia da esportare. Seleziona almeno una materia.
-
 - id: Subjs_CustomTimetable_CloseMenuButton
   translation: Chiudi il menu
 
