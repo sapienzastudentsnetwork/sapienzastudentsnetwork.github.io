@@ -33,6 +33,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Internet of Things](https://t.me/joinchat/Ij0ughS_5Xg-YdTvfvKZ0A)
 - [Laboratory of Network Design and Configuration](https://t.me/BDIpaE1riB)
 - [Machine Learning (1047635)](https://t.me/joinchat/CfmfQxxDgqJ5XlaYr353zQ)
+- [Machine Learning Security](https://t.me/+3HuZ0lN2M_pkYzk0)
 - [Malware Analysis and Incident Forensics](https://t.me/joinchat/Szo8TuKBLaN4QGsW)
 - [Mobile Applications and Cloud Computing](https://t.me/joinchat/CfmfQ0wDb1i3PsVS_itHpg)
 - [Network Infrastructures](https://t.me/joinchat/CfmfQ0jQaxvUpWib9qKM2Q)
