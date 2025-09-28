@@ -148,6 +148,24 @@
 - id: Subjs_CustomTimetable_AddButton
   translation: Add and remove subjects
 
+- id: Subjs_ExportIcsButton
+  translation: Export to calendar
+
+- id: Subjs_ExportIcs_Title
+  translation: Choose a semester
+
+- id: Subjs_ExportIcs_Description
+  translation: Choose the semester of the subjects you want to export to your calendar.
+
+- id: Subjs_ExportIcs_FirstSemester
+  translation: First Semester
+
+- id: Subjs_ExportIcs_SecondSemester
+  translation: Second Semester
+
+- id: Subjs_ExportIcs_NoSubjectsSelected
+  translation: Please select at least one subject to export.
+
 - id: Subjs_CustomTimetable_CloseMenuButton
   translation: Close the menu
 
