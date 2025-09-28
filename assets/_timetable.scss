@@ -286,7 +286,7 @@ table th {
     border-left: 3px solid #709DD1;
 }
 
-#subjsCloseMenu {
+#subjsCloseMenu, .exportIcsButton {
     width: 150px;
     height: 40px;
     border-radius: 8px;
@@ -300,6 +300,15 @@ table th {
     &:hover {
         background-color: var(--timetable-close-button-hover);
     }
+}
+
+.exportIcsButton {
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+#exportChoiceContainer > button:first-child {
+    margin-right: 20px;
 }
 
 #subjsSelTitle {
@@ -317,7 +326,7 @@ table th {
     margin-bottom: 0.75rem;
 }
 
-#subjsPopUp {
+#subjsPopUp, #exportIcsDialog {
     background: var(--timetable-popup-background);
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
