@@ -51,29 +51,7 @@
             <tbody class="mobile table-row-group sm:hidden"></tbody>
         </table>
     </div>
-
-    <button class="addSubjs mb-8 flex items-center gap-2" onclick="openIcsDialog()">
-        {{ T "Subjs_ExportIcsButton" }}
-        <!-- <span class="material-symbols-outlined">add</span> -->
-    </button>
 </div>
-
-<dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="exportIcsDialog" 
-    onclick="closeIcsDialog()">
-    <div class="subjsDial flex h-full w-full flex-col items-start">
-        <h2 id="subjsSelTitle">{{ T "Subjs_ExportIcs_Title" }}</h2>
-        <p>{{ T "Subjs_ExportIcs_Description" }}</p>
-
-        <div id="exportChoiceContainer">
-            <button onclick="exportIcsForSemester(1)" class="exportIcsButton">{{ T "Subjs_ExportIcs_FirstSemester" }}</button>
-            <button onclick="exportIcsForSemester(2)" class="exportIcsButton">{{ T "Subjs_ExportIcs_SecondSemester" }}</button>
-        </div>
-        
-        <button id="subjsCloseMenu" onclick="closeIcsDialog()">
-            {{ T "Subjs_CustomTimetable_CloseMenuButton" }}
-        </button>
-    </div>
-</dialog>
 
 <dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
     onclick="closeSubjectsDialog()">
@@ -170,28 +148,6 @@
         JSON.parse(localStorage.getItem("selectedSubjects")),
     );
 
-    const tzid = "Europe/Rome";
-
-    const weekdayMap = {
-        monday: 1,
-        tuesday: 2,
-        wednesday: 3,
-        thursday: 4,
-        friday: 5,
-        saturday: 6,
-        sunday: 0,
-    };
-
-    const dayToIcs = {
-        sunday: "SU",
-        monday: "MO",
-        tuesday: "TU",
-        wednesday: "WE",
-        thursday: "TH",
-        friday: "FR",
-        saturday: "SA",
-    };
-
     function toggleSubject(subjectId) {
         let button = document.getElementById("dialog-" + subjectId);
 
@@ -284,122 +240,6 @@
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
     }
 
-    function pad(num) {
-        return num.toString().padStart(2, "0");
-    }
-
-    // Format datetime in ICS style (UTC)
-    function formatDateTime(date, hour) {
-        const d = new Date(date);
-        return (
-            d.getUTCFullYear() +
-            pad(d.getUTCMonth() + 1) +
-            pad(d.getUTCDate()) +
-            "T" +
-            pad(hour) + "0000"
-        );
-    }
-
-    function generateICS(schedule, semester) {
-        const year = new Date().getFullYear();
-
-        // Decide the start/end dates based on semester
-        let startDate, endDate;
-        if (semester === 1) {
-            startDate = new Date(`${year}-09-15`);
-            endDate = new Date(`${year + 1}-02-25`);
-        } else if (semester === 2) {
-            startDate = new Date(`${year}-02-25`);
-            endDate = new Date(`${year}-06-15`);
-        } else {
-            throw new Error("Semester must be 1 or 2");
-        }
-
-        let events = "";
-
-        for (const [day, lectures] of Object.entries(schedule)) {
-            for (const lecture of lectures) {
-            if (lecture.cancelled) continue;
-
-            // Find the first occurrence of this weekday on or after startDate
-            const first = new Date(startDate);
-            while (first.getDay() !== weekdayMap[day]) {
-                first.setDate(first.getDate() + 1);
-            }
-
-            const dtStart = formatDateTime(first, lecture.startTime);
-            const dtEnd = formatDateTime(first, lecture.endTime);
-
-            events += `BEGIN:VEVENT
-SUMMARY:[${COURSES[lecture.courseCode].abbr}] ${COURSES[lecture.courseCode].name}
-DESCRIPTION:Classroom ${lecture.classroomName || "N/A"}`
-
-            if (COURSES[lecture.courseCode].tgGroup) {
-                events += `\\nTelegram group: ${COURSES[lecture.courseCode].tgGroup}`;
-            }
-
-            events += `
-LOCATION:${lecture.classroomName}
-DTSTART;TZID=${tzid}:${dtStart}
-DTEND;TZID=${tzid}:${dtEnd}
-RRULE:FREQ=WEEKLY;BYDAY=${dayToIcs[day]};UNTIL=${endDate.getUTCFullYear()}${pad(endDate.getUTCMonth() + 1)}${pad(endDate.getUTCDate())}T235959Z
-END:VEVENT
-`;
-            }
-        }
-
-        const icsContent = `BEGIN:VCALENDAR
-VERSION:2.0
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-BEGIN:VTIMEZONE
-TZID:${tzid}
-X-LIC-LOCATION:${tzid}
-BEGIN:STANDARD
-TZOFFSETFROM:+0200
-TZOFFSETTO:+0100
-TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
-END:STANDARD
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
-END:VTIMEZONE
-${events}END:VCALENDAR`;
-
-        return icsContent;
-    }
-
-    function scheduleIsEmpty(schedule) {
-        return Object.values(schedule).every(lectures => lectures.length === 0);
-    }
-
-    function exportIcsForSemester(semester) {
-        var [ schedule, _, _ ] = parseSchedule(Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
-
-        if (scheduleIsEmpty(schedule)) {
-            alert("{{ T "Subjs_ExportIcs_NoSubjectsSelected" }}");
-            return;
-        }
-
-        icsContent = generateICS(schedule, semester);
-
-        const blob = new Blob([icsContent], { type: "text/calendar" });
-        const url = URL.createObjectURL(blob);
-
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = "schedule.ics";
-        a.click();
-
-        URL.revokeObjectURL(url);
-    }
-
     addEventListener("DOMContentLoaded", () => {
         for (const subjectId of selectedSubjects) {
             const button = document.getElementById("dialog-" + subjectId);
@@ -450,14 +290,6 @@ ${events}END:VCALENDAR`;
 
     function closeSubjectsDialog() {
         document.getElementById("subjsPopUp").close();
-    }
-
-    function openIcsDialog() {
-        document.getElementById("exportIcsDialog").showModal();
-    }
-
-    function closeIcsDialog() {
-        document.getElementById("exportIcsDialog").close();
     }
 </script>
 {{ end }}
