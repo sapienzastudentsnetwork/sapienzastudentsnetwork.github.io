@@ -645,12 +645,12 @@ if __name__ == '__main__':
                     classroomUrl  = None
 
                     if "classrooms" in day_schedule:
-                        if (
-                            "1e079880-d2d2-49ef-8058-c58ab0baa4b4" in day_schedule["classrooms"]
-                            and currentDate < datetime(currentDate.year, 10, 1)
-                        ):
-                            classroomInfo = marcopolo_aula_203
-                            classroomUrl  = marcopolo_edificio
+                        #if (
+                        #    "1e079880-d2d2-49ef-8058-c58ab0baa4b4" in day_schedule["classrooms"]
+                        #    and currentDate < datetime(currentDate.year, 10, 1)
+                        #):
+                        #    classroomInfo = marcopolo_aula_203
+                        #    classroomUrl  = marcopolo_edificio
 
                         if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
                             classroomInfo = "Aula 3 (Edificio: RM158)"
