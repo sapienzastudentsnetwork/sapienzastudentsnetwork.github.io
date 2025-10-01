@@ -717,6 +717,130 @@
     },
     "code": "1022267"
   },
+  "10589621": {
+    "subject": "ADVANCED MACHINE LEARNING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "df7a7470-9c8f-4107-b264-e4b1f94b36bd": "GALASSO FABIO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589621"
+  },
+  "10600495": {
+    "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "2bf66397-ce7b-43e0-b640-ca1e45805df4": "TRONCI ENRICO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600495"
+  },
+  "10596281": {
+    "subject": "AUTONOMOUS NETWORKING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10596281"
+  },
+  "1041764": {
+    "subject": "BIG DATA COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8f36766a-6eae-491c-9412-e437f4e904cd": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041764"
+  },
   "1041792": {
     "subject": "BIOMETRIC SYSTEMS",
     "degree": "33516",
@@ -750,7 +874,7 @@
   },
   "10600490": {
     "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
-    "degree": "33516",
+    "degree": "33508",
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -779,36 +903,99 @@
     },
     "code": "10600490"
   },
-  "1054960": {
-    "subject": "Computer systems and programming",
-    "degree": "33516",
+  "1047616": {
+    "subject": "COMPUTATIONAL COMPLEXITY",
+    "degree": "33508",
     "channels": {
       "0": {
-        "luned\u00ec": [
+        "marted\u00ec": [
           {
             "teachers": {
-              "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+              "ff573185-4666-4567-bec0-20faadb35886": "LAURIA MASSIMO"
             },
-            "timeslot": "8 - 10",
+            "timeslot": "11 - 13",
             "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ],
-        "mercoled\u00ec": [
+        "gioved\u00ec": [
           {
             "teachers": {
-              "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+              "ff573185-4666-4567-bec0-20faadb35886": "LAURIA MASSIMO"
             },
-            "timeslot": "13 - 16",
+            "timeslot": "16 - 19",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
       }
     },
-    "code": "1054960"
+    "code": "1047616"
+  },
+  "1047617": {
+    "subject": "COMPUTER NETWORK PERFORMANCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "af262e9a-41ee-4fd1-a36f-de5f003d100e": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047617"
+  },
+  "1047618": {
+    "subject": "COMPUTER VISION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "26fdcc76-58e5-464b-8d54-f28db3c44ddd": "MARINI MARCO RAOUL"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)",
+              "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a": "Aula 5 (Edificio: CU028)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "26fdcc76-58e5-464b-8d54-f28db3c44ddd": "MARINI MARCO RAOUL"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047618"
   },
   "1047622": {
     "subject": "CRYPTOGRAPHY",
@@ -840,6 +1027,275 @@
       }
     },
     "code": "1047622"
+  },
+  "1047624": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": "Aula 2 (Edificio: CU002)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "b74754c9-9029-4830-8118-952c1851c0a4": "MEI ALESSANDRO"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047624"
+  },
+  "1047627": {
+    "subject": "FOUNDATIONS OF DATA SCIENCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+              "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+              "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047627"
+  },
+  "10620566": {
+    "subject": "HIGH-PERFORMANCE COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
+            },
+            "timeslot": "17 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10620566"
+  },
+  "1047638": {
+    "subject": "MODELS OF COMPUTATION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aed597cc-a9b6-4800-ad4d-34e794018592": "PIPERNO ADOLFO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "aed597cc-a9b6-4800-ad4d-34e794018592": "PIPERNO ADOLFO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047638"
+  },
+  "1047640": {
+    "subject": "NETWORK ALGORITHMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "2e5108b5-5967-4c7f-a1fc-8283b04bcef5": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047640"
+  },
+  "10620565": {
+    "subject": "QUANTUM COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10620565"
+  },
+  "1047642": {
+    "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047642"
+  },
+  "10589558": {
+    "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "a40b28df-4a34-40ad-bbbf-ebfaf44148d0": "De vitis Alessandra"
+            },
+            "timeslot": "14 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10589558"
+  },
+  "1054960": {
+    "subject": "Computer systems and programming",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1054960"
   },
   "1022807": {
     "subject": "DISTRIBUTED SYSTEMS",
@@ -903,37 +1359,6 @@
       }
     },
     "code": "1027171"
-  },
-  "1047642": {
-    "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-    "degree": "33516",
-    "channels": {
-      "0": {
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
-            },
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
-            },
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047642"
   },
   "1055043_2": {
     "subject": "STATISTICS",
