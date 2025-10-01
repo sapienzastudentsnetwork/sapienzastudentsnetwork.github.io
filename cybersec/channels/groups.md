@@ -40,6 +40,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Practical Network Defense](https://t.me/joinchat/CfmfQ0Qzgm4pAlKUmX5yzw)
 - [Programmable Networks](https://t.me/+6GecsNztjXZhYzg0)
 - [Risk Management](https://t.me/+zh4i3_eJYw02ZjM0)
+- [Security and Privacy of Smart Environments](https://t.me/+Z24vUDjf6k8xYWY8)
 - [Secure Computation](https://t.me/+5HJXedepINZiMDI0)
 - [Security Governance](https://t.me/joinchat/CfmfQ0lV3bjfytnH47gEaw)
 - [Security in Software Applications](https://t.me/+wV3s2yUPAsE0YWNk)
