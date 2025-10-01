@@ -976,8 +976,10 @@
               "26fdcc76-58e5-464b-8d54-f28db3c44ddd": "MARINI MARCO RAOUL"
             },
             "timeslot": "9 - 12",
-            "classroomInfo": "Aula 5 (Edificio: CU028)",
-            "classroomUrl": "https://www.uniroma1.it/sites/default/files/ACU028.pdf"
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)",
+              "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a": "Aula 5 (Edificio: CU028)"
+            }
           }
         ],
         "gioved\u00ec": [
