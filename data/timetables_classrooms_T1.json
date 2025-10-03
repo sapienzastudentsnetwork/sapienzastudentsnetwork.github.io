@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 29 September 2025 - Friday 03 October 2025",
+    "date_range": "Monday 06 October 2025 - Friday 10 October 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -8,9 +8,10 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
+            "14:00-15:00": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability",
+            "15:00-16:00": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability",
+            "16:00-16:30": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability",
+            "16:30-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
             "19:00-19:30": ""
@@ -19,12 +20,13 @@
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
+            "11:00-12:00": "Incontro con le aziende - Laurea Magistrale in Cybersecurity",
+            "12:00-13:00": "Incontro con le aziende - Laurea Magistrale in Cybersecurity",
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
-            "16:00-17:00": "",
+            "16:00-16:30": "",
+            "16:30-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
             "19:00-19:30": ""
@@ -38,7 +40,8 @@
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
-            "16:00-17:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
+            "16:00-16:30": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
+            "16:30-17:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "17:00-18:00": "",
             "18:00-19:00": "",
             "19:00-19:30": ""
@@ -52,10 +55,11 @@
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
-            "16:00-17:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
+            "16:00-16:30": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
+            "16:30-17:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "17:00-18:00": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability",
             "18:00-19:00": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability",
-            "19:00-19:30": ""
+            "19:00-19:30": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability"
         },
         "friday": {
             "08:00-09:00": "",
@@ -66,7 +70,8 @@
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "16:00-17:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
+            "16:00-16:30": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
+            "16:30-17:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "17:00-18:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "18:00-19:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "19:00-19:30": ""
