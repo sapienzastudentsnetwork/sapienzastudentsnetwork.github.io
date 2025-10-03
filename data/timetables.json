@@ -1213,9 +1213,8 @@
               "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
             },
             "timeslot": "8 - 10",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ],
         "venerd\u00ec": [
