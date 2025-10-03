@@ -622,21 +622,9 @@ if __name__ == '__main__':
                     elif course_code == "AAF2511":
                         if "teachers" not in day_schedule or not day_schedule["teachers"]:
                             day_schedule["teacherInfo"] = "BIGLINO LAURA"
-                    # 1022807 - DISTRIBUTED SYSTEMS (COMPUTER SCIENCE)
+                    # 1022807 - DISTRIBUTED SYSTEMS (CYBERSECURITY)
                     if course_code == "1022807":
                         if (
-                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
-                            and "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232" in day_schedule["classrooms"] # Aula Alfa
-                        ):
-                            if course_code == "1022807":
-                                if currentDate < datetime(currentDate.year, 10, 11):
-                                    day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
-                                else:
-                                    if currentDate < datetime(currentDate.year, 11, 8):
-                                        day_schedule["classrooms"].pop("8e92b19a-4c17-4a44-973e-5e1adbb804df")
-                                    else:
-                                        day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
-                        elif (
                             "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
                             and "c3c3ddad-bb6e-4e83-a9a1-211ce885f591" in day_schedule["classrooms"] # Aula Sala Studio (CU017)
                         ):
