@@ -552,9 +552,22 @@ if __name__ == '__main__':
             "1047627" in course_timetables_dict
             and "channels" in course_timetables_dict["1047627"]
             and "0" in course_timetables_dict["1047627"]["channels"]
-            and "giovedì" in course_timetables_dict["1047627"]["channels"]["0"]
         ):
-           course_timetables_dict["1047627"]["channels"]["0"].pop("giovedì")
+           if "giovedì" in course_timetables_dict["1047627"]["channels"]["0"]:
+               course_timetables_dict["1047627"]["channels"]["0"].pop("giovedì")
+           if "venerdì" not in course_timetables_dict["1047627"]["channels"]["0"]:
+                course_timetables_dict["1047627"]["channels"]["0"]["venerdì"] = [
+                  {
+                    "teachers": {
+                      "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
+                      "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
+                    },
+                    "timeslot": "11 - 13",
+                    "classrooms": {
+                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                    }
+                  }
+                ]
 
         #pass
 
