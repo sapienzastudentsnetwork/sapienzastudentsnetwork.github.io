@@ -660,6 +660,14 @@ if __name__ == '__main__':
                             classroomInfo = "Aula 4 (Edificio: RM158)"
                             classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
 
+                        if (
+                            course_code == "1047618"
+                            and day_name == "martedì"
+                            and "398537f5-1be4-4287-be7b-eb76298c4a8f" in day_schedule["classrooms"] # AULA 101 - Regina Elena - Edificio D
+                            and "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a" in day_schedule["classrooms"] # Aula 5 - Aule di Botanica - Aule blu
+                        ):
+                            day_schedule["classrooms"].pop("7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a")
+
                     if classroomInfo is not None:
                         day_schedule.pop("classrooms")
 
