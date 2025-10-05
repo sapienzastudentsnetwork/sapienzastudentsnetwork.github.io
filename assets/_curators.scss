@@ -33,6 +33,25 @@
     }
 }
 
+@media screen and (min-width: 400px) {
+    .staffCurator {
+        height: 220px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .staffCurator {
+        height: 240px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .staffCurator {
+        height: 260px;
+    }
+}
+
+
 @media screen and (min-width: 520px) {
     .curatorList {
         display: flex;
