@@ -1,0 +1,104 @@
+{{ define "main" }}
+<article class="markdown book-article">
+    <h1  class="text-center">
+        Sapienza Students Network
+
+        <a class="anchor" href="#-project-curators">#</a>
+    </h1>
+    <h2 class="text-center">
+        {{ T "SSN_Introduction_Title" }}
+
+        <a class="anchor" href="#-introduction">#</a>
+    </h2>
+    <div class="text-center">
+        {{ T "SSN_Introduction_Text" }}
+        <br/><br/>
+        <a href="https://github.com/SapienzaStudentsNetwork">
+            <img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)">
+        </a>
+        <a href="https://telegram.me/SapienzaStudentsNetwork">
+            <img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?&logo=Telegram&logoColor=white">
+        </a>
+        <a href="https://instagram.com/SapienzaStudentsNetwork">
+            <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white">
+        </a>
+        <a href="https://www.linkedin.com/company/sapienzastudentsnetwork/">
+            <img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff">
+        </a>
+        <br/><br/>
+        {{ T "SSN_Introduction_Contact_1" }}
+        <br/>
+        {{ T "SSN_Introduction_Contact_2" }} <a href="https://telegram.me/SapienzaStudentsNetworkBot">[Telegram]</a> <a href="mailto:info@sapienzastudents.net">[Email]</a> 💬
+    </div>
+    <h2 class="text-center">
+        {{ T "SSN_Executive_Board" }}
+
+        <a class="anchor" href="#-executive-board">#</a>
+    </h2>
+    <div class="curatorList">
+        {{ partial "staff/matypist" . }}
+        {{ partial "staff/Lorenzoantonelli" . }}
+        {{ partial "staff/ElBi21" . }}
+        {{ partial "staff/dag7dev" . }}
+        {{ partial "staff/Exyss" . }}
+        {{ partial "staff/neoSnakex34" . }}
+    </div>
+    <h2 class="text-center">
+        sapienzastudents.net
+
+        <a class="anchor" href="#-github-forums">#</a>
+    </h2>
+    <div class="curatorList">
+        {{ partial "staff/matypist" . }}
+        {{ partial "staff/Lorenzoantonelli" . }}
+        {{ partial "staff/ElBi21" . }}
+        {{ partial "staff/Exyss" . }}
+        {{ partial "staff/CuriousCI" (dict "context" . "nobold" .) }}
+    </div>
+    <h2 class="text-center">
+        GitHub • {{ T "SSN_Forums" }}
+
+        <a class="anchor" href="#-github-forums">#</a>
+    </h2>
+    <div class="curatorList">
+        {{ partial "staff/FeddyLix17" . }}
+        {{ partial "staff/aglaianorza" . }}
+        {{ partial "staff/alem1105" . }}
+        {{ partial "staff/rimaout" . }}
+        {{ partial "staff/luckignolo32" . }}
+    </div>
+    <h2 class="text-center">
+        Telegram • {{ T "SSN_Groups" }}
+
+        <a class="anchor" href="#-telegram">#</a>
+    </h2>
+    <div class="curatorList">
+        {{ partial "staff/matypist" . }}
+        {{ partial "staff/dag7dev" . }}
+        {{ partial "staff/Lorenzoantonelli" . }}
+        {{ partial "staff/Exyss" . }}
+        {{ partial "staff/CuriousCI" (dict "context" .) }}
+        {{ partial "staff/dario-loi" . }}
+        {{ partial "staff/ElBi21" . }}
+        {{ partial "staff/ciao986" . }}
+    </div>
+    <h2 class="text-center">
+        Telegram • SapienzaStudentsBot
+
+        <a class="anchor" href="#-github-forums">#</a>
+    </h2>
+    <div class="curatorList justify-center">
+        {{ partial "staff/matypist" . }}
+        {{ partial "staff/dag7dev" . }}
+    </div>
+    <h2 class="text-center">
+        Social Media Manager • Meta
+
+        <a class="anchor" href="#-social-media-manager">#</a>
+    </h2>
+    <div class="curatorList justify-center">
+        {{ partial "staff/Gio0203c" . }}
+    </div>
+</article>
+{{ partial "generateToc" . }}
+{{ end }}

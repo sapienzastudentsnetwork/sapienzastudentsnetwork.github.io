@@ -2,7 +2,8 @@
 title: "Questionnaire"
 aliases: ['/questionnaire', '/acsai/questionnaire', '/30786/contributing/questionnaire']
 bookToC: true
-weight: 4
+bookHidden: true
+weight: 5
 ---
 
 # Help Us Improve the Degree Program

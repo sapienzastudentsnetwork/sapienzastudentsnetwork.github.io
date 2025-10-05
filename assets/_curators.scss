@@ -27,6 +27,10 @@
     .cyberSecCurator {
         height: var(--cybersec-curator-height);
     }
+
+    .staffCurator {
+        height: 280px;
+    }
 }
 
 @media screen and (min-width: 520px) {
@@ -50,6 +54,10 @@
 
     .cyberSecCurator {
         height: var(--cybersec-curator-height);
+    }
+
+    .staffCurator {
+        height: 210px;
     }
 
     .curBadges {
@@ -83,6 +91,10 @@
     .cyberSecCurator {
         height: var(--cybersec-curator-height);
     }
+
+    .staffCurator {
+        height: 170px;
+    }
 }
 
 .curSocials {
@@ -107,6 +119,11 @@
 .curTitle {
     font-size: 1.5em;
     margin-top: 2px;
+}
+
+.staffTitle {
+    font-size: 1.2em;
+    margin-top: 2.2px;
 }
 
 .curSubtitle {

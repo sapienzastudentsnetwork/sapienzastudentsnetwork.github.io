@@ -2,7 +2,8 @@
 title: "Questionario"
 aliases: ["/questionario", "/it/questionario"]
 bookToC: true
-weight: 4
+bookHidden: true
+weight: 5
 ---
 
 # Aiutaci a migliorare il Corso di Laurea
