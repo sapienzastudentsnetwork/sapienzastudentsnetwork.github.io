@@ -209,6 +209,11 @@
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
               }
             ],
             "subject": "FOUNDATIONS OF DATA SCIENCE",
@@ -670,6 +675,11 @@
               {
                 "day": "luned\u00ec",
                 "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
                 "to": "13:00"
               }
             ],
