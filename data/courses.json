@@ -178,8 +178,8 @@
     "1041727": {
         "name": "Automi, Calcolabilit\u00e0 e Complessit\u00e0",
         "shortName": "Automi",
-        "abbr": "AUT",
-        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "abbr": "ACC",
+        "tgGroup": "https://t.me/SapienzaInformatica3/9",
         "cfu": 6,
         "department": "INF"
     },
@@ -211,7 +211,7 @@
         "name": "Ingegneria del Software",
         "shortName": "Ing. del Software",
         "abbr": "ISW",
-        "tgGroup": "https://t.me/sapienzainformatica3/9",
+        "tgGroup": "https://t.me/SapienzaInformatica3/9",
         "cfu": 6,
         "department": "INF"
     },
