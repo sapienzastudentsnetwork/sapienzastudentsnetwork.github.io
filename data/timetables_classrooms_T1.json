@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 06 October 2025 - Friday 10 October 2025",
+    "date_range": "Monday 13 October 2025 - Friday 17 October 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -20,8 +20,8 @@
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
-            "11:00-12:00": "Incontro con le aziende - Laurea Magistrale in Cybersecurity",
-            "12:00-13:00": "Incontro con le aziende - Laurea Magistrale in Cybersecurity",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
@@ -63,9 +63,9 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
+            "09:00-10:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
+            "10:00-11:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
+            "11:00-12:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",

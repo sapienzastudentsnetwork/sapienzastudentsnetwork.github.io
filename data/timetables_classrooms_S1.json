@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 06 October 2025 - Friday 10 October 2025",
+    "date_range": "Monday 13 October 2025 - Friday 17 October 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -19,10 +19,10 @@
         },
         "tuesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Corso per i dottorandi \"Domain Specific Hardware Architectures for Artificial Intelligence\" Prof Maurizio Mancini",
-            "10:00-10:30": "Corso per i dottorandi \"Domain Specific Hardware Architectures for Artificial Intelligence\" Prof Maurizio Mancini",
-            "10:30-11:00": "Corso per i dottorandi \"Domain Specific Hardware Architectures for Artificial Intelligence\" Prof Maurizio Mancini",
-            "11:00-12:00": "Corso per i dottorandi \"Domain Specific Hardware Architectures for Artificial Intelligence\" Prof Maurizio Mancini",
+            "09:00-10:00": "",
+            "10:00-10:30": "Tutoraggio DI",
+            "10:30-11:00": "Tutoraggio DI",
+            "11:00-12:00": "Tutoraggio DI",
             "12:00-13:00": "",
             "13:00-13:30": "",
             "13:30-14:00": "",
