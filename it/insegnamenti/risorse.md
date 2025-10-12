@@ -31,11 +31,11 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 - [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
 - [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
 
-## Risorse per insegnamento (A.A. 2024/25)
+## Risorse per insegnamento
 
 ### Primo Anno
 
-#### Primo Semestre
+#### Primo Semestre (A.A. 2025/26)
 
 <details>
 <summary>Canale A-L</summary>
@@ -60,7 +60,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 
 </details>
 
-#### Secondo Semestre
+#### Secondo Semestre (A.A. 2024/25)
 
 <details>
 <summary>Canale A-L</summary>
@@ -94,7 +94,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 
 ### Secondo Anno
 
-#### Primo Semestre
+#### Primo Semestre (A.A. 2025/26)
 
 <details>
 <summary>Canale A-L</summary>
@@ -118,7 +118,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 |    Sistemi Operativi 1    |     -      |  -   |                                                                   -                                                                   | [Telegram](https://t.me/+oF0ppISY8EFmOTZk) |
 </details>
 
-#### Secondo Semestre
+#### Secondo Semestre (A.A. 2024/25)
 
 <details>
 <summary>Canale A-L</summary>
@@ -144,27 +144,27 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 
 ### Terzo Anno
 
-#### Primo Semestre
+#### Primo Semestre (A.A. 2025/26)
 
 <details>
 <summary>Canale Unico</summary>
 
-|               Nome               | E-learning |                          Sito                           |                                        Forum                                         |                                              Chat                                              |
-|:--------------------------------:|:----------:|:-------------------------------------------------------:|:------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-|  Automi, Calcolabilità e Compl.  |     -      | [Venturi](https://dventuri83.github.io/projects/3_acc/) | [GitHub](http://github.com/sapienzastudentsnetwork/automi-calcolabilita-complessita) | [[Presenza]](https://t.me/+u6hEDMJqXsNhZjk0) [[Teledidattica]](https://t.me/+cyF-V6dnurcyNGQ0) |
-|      Data Science e Diritto      |     -      |                            -                            |                                          -                                           |                           [[Telegram]](https://t.me/+bHU0Mc28yjBhZWM0) [[Whatsapp con prof.]](https://chat.whatsapp.com/KdMmbDSvNOhKbYzTJsOtxj)                           |
-|              Fisica              |     -      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+-ZO2tsF0w8YyNDE8)                           |
-|     Ingegneria del Software      |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=11834)      |                            -                            |                                          -                                           | [[Presenza]](https://t.me/+u6hEDMJqXsNhZjk0) [[Teledidattica]](https://t.me/+ziirbiKQi2g5ZjU0) |
-|    Interazione Uomo Macchina     |     [Classroom](https://classroom.google.com/c/ODA3Mzk3MTk4Mjgx?cjc=ul3ycqkk)      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+HPJydQNfbJRmM2Y8)                           |
-|   Linguaggi di Programmazione    |     -      |                            [Cenciarelli](http://wwwusers.di.uniroma1.it/~lpara/index.html)                            |                                          -                                           |                           [Telegram](https://t.me/+YNWScBhdFWE1NWNk)                           |
-| Org. e Gest. Start-Up Az. (OGA)  |     -      |                            -                            |                                          -                                           |  [[Smeriglio]](https://t.me/+TW9IFCi061Q0Nzk8) [[Corteselli]](https://t.me/+h26LuLyZ0qg3MzU0)  |
-|   Prog. Sist. Emb. e Multicore   |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=19949)      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+vrv-7-gEDINhMzZk)                           |
-| Programmazione per il Web (WASA) |     [Classroom](https://classroom.google.com/c/MjM1MzA4NTMzNjJa)      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+TopZxkqZSSo2MzQ0)                           |
-|     [ACSAI] Business and CS      |     -      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+Z8YI05oono0yNjFk)                           |
-|      [ACSAI] Cybersecurity       |     [Classroom](https://classroom.google.com/c/ODE0ODIxMTU5Mjk0?cjc=uj4odl5g)      |                            -                            |                                          -                                           |                           [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0)                           |
+|               Nome               |                                E-learning                                 |                              Sito                               |                                        Forum                                         |                                                         Chat                                                          |
+|:--------------------------------:|:-------------------------------------------------------------------------:|:---------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
+|  Automi, Calcolabilità e Compl.  |                                     -                                     |     [Venturi](https://dventuri83.github.io/projects/3_acc/)     | [GitHub](http://github.com/sapienzastudentsnetwork/automi-calcolabilita-complessita) |            [[Presenza]](https://t.me/+u6hEDMJqXsNhZjk0) [[Teledidattica]](https://t.me/+cyF-V6dnurcyNGQ0)             |
+|      Data Science e Diritto      |                                     -                                     |                                -                                |                                          -                                           | [[Telegram]](https://t.me/+bHU0Mc28yjBhZWM0) [[WhatsApp con prof.]](https://chat.whatsapp.com/KdMmbDSvNOhKbYzTJsOtxj) |
+|              Fisica              |                                     -                                     |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+-ZO2tsF0w8YyNDE8)                                       |
+|     Ingegneria del Software      |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=11834)      |                                -                                |                                          -                                           |            [[Presenza]](https://t.me/+u6hEDMJqXsNhZjk0) [[Teledidattica]](https://t.me/+ziirbiKQi2g5ZjU0)             |
+|    Interazione Uomo Macchina     | [Classroom](https://classroom.google.com/c/ODA3Mzk3MTk4Mjgx?cjc=ul3ycqkk) |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+HPJydQNfbJRmM2Y8)                                       |
+|   Linguaggi di Programmazione    |                                     -                                     | [Cenciarelli](http://wwwusers.di.uniroma1.it/~lpara/index.html) |                                          -                                           |                                      [Telegram](https://t.me/+YNWScBhdFWE1NWNk)                                       |
+| Org. e Gest. Start-Up Az. (OGA)  |                                     -                                     |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+TW9IFCi061Q0Nzk8)                                       |
+|   Prog. Sist. Emb. e Multicore   |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=19949)      |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+vrv-7-gEDINhMzZk)                                       |
+| Programmazione per il Web (WASA) | [Classroom](https://classroom.google.com/c/MjM1MzA4NTMzNjJa?cjc=22waqp7y) |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+TopZxkqZSSo2MzQ0)                                       |
+|     [ACSAI] Business and CS      |                                     -                                     |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+Z8YI05oono0yNjFk)                                       |
+|      [ACSAI] Cybersecurity       | [Classroom](https://classroom.google.com/c/ODE0ODIxMTU5Mjk0?cjc=uj4odl5g) |                                -                                |                                          -                                           |                                      [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0)                                       |
 </details>
 
-#### Secondo Semestre
+#### Secondo Semestre (A.A. 2024/25)
 
 <details>
 <summary>Canale Unico</summary>
