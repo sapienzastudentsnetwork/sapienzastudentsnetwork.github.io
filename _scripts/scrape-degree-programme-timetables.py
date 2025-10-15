@@ -448,7 +448,7 @@ if __name__ == '__main__':
     #
 
     DOM = BeautifulSoup(
-        ' '.join(get(gomppublic_generateorario_url).content[13:-3].decode('unicode-escape').split()),
+        ' '.join(get(gomppublic_generateorario_url, verify=False).content[13:-3].decode('unicode-escape').split()),
         'html.parser'
     )
 

@@ -161,7 +161,7 @@ def get_classroom_schedule():
         params = {"controlID": "schedule", "codiceInterno": codice_interno}
         params.update(common_params)
         query_params = {"params": json.dumps(params), "_": "1740587354948"}
-        response = requests.get(url, params=query_params)
+        response = requests.get(url, params=query_params, verify=False)
 
         if response.status_code == 200:
             # Extract HTML content from the response
