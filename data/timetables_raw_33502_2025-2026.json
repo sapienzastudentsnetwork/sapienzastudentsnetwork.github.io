@@ -363,15 +363,26 @@
             ]
           },
           {
-            "building": "Edificio: RM005",
+            "building": "Edificio: RM018",
             "course": "10595534",
-            "room": "Aula 11",
+            "room": "Aula 7",
             "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "15:00",
                 "to": "18:00"
-              },
+              }
+            ],
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "10595534",
+            "room": "Aula 11",
+            "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "16:00",
