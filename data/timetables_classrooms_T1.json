@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 13 October 2025 - Friday 17 October 2025",
+    "date_range": "Monday 20 October 2025 - Friday 24 October 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -17,12 +17,12 @@
             "19:00-19:30": ""
         },
         "tuesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "Tutoraggio di Systems and Netwotking 2 - Tutor Pietro Piccolo",
-            "11:00-12:00": "Tutoraggio di Systems and Netwotking 2 - Tutor Pietro Piccolo",
-            "12:00-13:00": "Tutoraggio di Systems and Netwotking 2 - Tutor Pietro Piccolo",
-            "13:00-14:00": "",
+            "08:00-09:00": "Seduta laurea DI",
+            "09:00-10:00": "Seduta laurea DI",
+            "10:00-11:00": "Seduta laurea DI",
+            "11:00-12:00": "Seduta laurea DI",
+            "12:00-13:00": "Seduta laurea DI",
+            "13:00-14:00": "Seduta laurea DI",
             "14:00-15:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
             "16:00-16:30": "",
@@ -32,9 +32,9 @@
             "19:00-19:30": ""
         },
         "wednesday": {
-            "08:00-09:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
-            "09:00-10:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
-            "10:00-11:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "08:00-09:00": "Tutoraggio Aiello - Analisi matematica modulo 1 Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "09:00-10:00": "Tutoraggio Aiello - Analisi matematica modulo 1 Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "10:00-11:00": "Tutoraggio - Aiello - Analisi matematica modulo 1 Tutoraggio sistemi operativi modulo 1",
             "11:00-12:00": "SERICS Academy",
             "12:00-13:00": "SERICS Academy",
             "13:00-14:00": "",
@@ -47,12 +47,12 @@
             "19:00-19:30": ""
         },
         "thursday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
+            "08:00-09:00": "Seduta laurea DI",
+            "09:00-10:00": "Seduta laurea DI",
+            "10:00-11:00": "Seduta laurea DI",
+            "11:00-12:00": "Seduta laurea DI",
+            "12:00-13:00": "Seduta laurea DI",
+            "13:00-14:00": "Seduta laurea DI",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "16:00-16:30": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -62,12 +62,12 @@
             "19:00-19:30": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability"
         },
         "friday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
-            "10:00-11:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
-            "11:00-12:00": "Appello straordinario  insegnamento1054963 | Systems and Control Methods for Cyber-Physical Security [ING-INF/04] [ENG]\nDocente Francesco Liberati\nMaster in Cybersecurity (https://corsidilaurea.uniroma1.it/en/course/33516)",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
+            "08:00-09:00": "Seduta laurea DI",
+            "09:00-10:00": "Seduta laurea DI",
+            "10:00-11:00": "Seduta laurea DI",
+            "11:00-12:00": "Seduta laurea DI",
+            "12:00-13:00": "Seduta laurea DI",
+            "13:00-14:00": "Seduta laurea DI",
             "14:00-15:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
             "16:00-16:30": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
