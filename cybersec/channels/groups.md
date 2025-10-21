@@ -6,7 +6,7 @@ weight: 1
 
 # Groups
 
-On this page you can find links to the **WhatsApp groups** and **Telegram groups** for the Master’s Degree in **Cybersecurity** (33516 / 29389)
+On this page you can find links to the **WhatsApp groups** and **Telegram groups** for the Master's Degree in **Cybersecurity** (33516 / 29389)
 
 ## General groups
 

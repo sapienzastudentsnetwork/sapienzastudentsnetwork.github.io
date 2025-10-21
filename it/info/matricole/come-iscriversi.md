@@ -115,9 +115,9 @@ La pre-immatricolazione è riservata ai soli vincitori della prima selezione che
 - Hanno ottenuto nel TOLC-I un punteggio maggiore o uguale a 18/50;
 - Risultano posizionati in graduatoria entro il limite dei posti disponibili.
 
-Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le istruzioni riportate alla [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce “Pre-immatricolazione”. Il codice corso da inserire è: ```33503```.
+Per effettuare la pre-immatricolazione occorre accedere a Infostud e seguire le istruzioni riportate alla [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce "Pre-immatricolazione". Il codice corso da inserire è: ```33503```.
 
-La pre-immatricolazione prevede il versamento di un contributo pari a €200,00, salvo eventuali riduzioni o esenzioni commisurate all’Isee 2025 per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall’importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
+La pre-immatricolazione prevede il versamento di un contributo pari a €200,00, salvo eventuali riduzioni o esenzioni commisurate all'Isee 2025 per il diritto allo studio universitario. Il contributo di pre-immatricolazione, quando versato, sarà detratto dall'importo del contributo di immatricolazione. Il contributo di pre-immatricolazione non può essere rimborsato per nessun motivo.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -127,16 +127,16 @@ Coloro che non effettueranno la pre-immatricolazione entro la data prescritta **
 
 ## Immatricolazione
 
-La procedura di immatricolazione è necessaria per perfezionare l’iscrizione al corso di studio per tutti i vincitori in graduatoria della prima, della seconda e della terza selezione. Il codice corso da inserire è: ```33503```.
+La procedura di immatricolazione è necessaria per perfezionare l'iscrizione al corso di studio per tutti i vincitori in graduatoria della prima, della seconda e della terza selezione. Il codice corso da inserire è: ```33503```.
 
 ### Pre-immatricolati
 
-I vincitori della prima selezione pre-immatricolati devono perfezionare l’immatricolazione entro le scadenze indicate nel [Calendario delle procedure](#prima-selezione).
+I vincitori della prima selezione pre-immatricolati devono perfezionare l'immatricolazione entro le scadenze indicate nel [Calendario delle procedure](#prima-selezione).
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, non effettua l’immatricolazione entro le scadenze prescritte, **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
+Lo studente che, pur essendo pre-immatricolato a seguito della prima selezione, non effettua l'immatricolazione entro le scadenze prescritte, **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
 {{% /hint %}}
 
 ### Vincitori della seconda selezione
@@ -146,7 +146,7 @@ I vincitori della seconda selezione, la cui graduatoria di merito verrà pubblic
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Lo studente che, pur vincitore della seconda selezione, non effettua l’immatricolazione entro le scadenze prescritte **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
+Lo studente che, pur vincitore della seconda selezione, non effettua l'immatricolazione entro le scadenze prescritte **sarà considerato rinunciatario** e il posto non coperto sarà reso disponibile per la terza selezione. In quanto rinunciatario, tale studente può iscriversi alla terza selezione di uno qualunque dei corsi di laurea del bando.
 {{% /hint %}}
 
 ### Vincitori della terza selezione
@@ -156,23 +156,23 @@ I vincitori della terza selezione, la cui graduatoria di merito verrà pubblicat
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Lo studente che, pur vincitore della terza selezione, non effettua l’immatricolazione entro le scadenze prescritte sarà considerato rinunciatario ed il posto non coperto sarà attribuito per subentro ai successivi candidati secondo la graduatoria di merito, come da [Calendario delle procedure](#terza-selezione).
+Lo studente che, pur vincitore della terza selezione, non effettua l'immatricolazione entro le scadenze prescritte sarà considerato rinunciatario ed il posto non coperto sarà attribuito per subentro ai successivi candidati secondo la graduatoria di merito, come da [Calendario delle procedure](#terza-selezione).
 {{% /hint %}}
 
 ### Come immatricolarsi?
 
-L’immatricolazione si effettua pagando la prima rata del contributo di iscrizione all’università per l’Anno Accademico 2025/2026 a cui vanno sommate l’imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
+L'immatricolazione si effettua pagando la prima rata del contributo di iscrizione all'università per l'Anno Accademico 2025/2026 a cui vanno sommate l'imposta di bollo di €16,00 e la tassa regionale. Le istruzioni da seguire sono riportate nella [pagina dedicata](https://www.uniroma1.it/it/node/40540) alla voce **Immatricolazione**.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Esenzione dai contributi**
 
-Durante la procedura di immatricolazione è possibile inserire eventuali condizioni per l’esenzione dai contributi di iscrizione e dalla tassa regionale. Coloro che non sono tenuti a versare alcun contributo di iscrizione all’università, procedono all’immatricolazione pagando la sola imposta di bollo da €16,00.
+Durante la procedura di immatricolazione è possibile inserire eventuali condizioni per l'esenzione dai contributi di iscrizione e dalla tassa regionale. Coloro che non sono tenuti a versare alcun contributo di iscrizione all'università, procedono all'immatricolazione pagando la sola imposta di bollo da €16,00.
 {{% /hint %}}
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-È estremamente importante in questa fase aver ottenuto il calcolo dell’Isee 2025 per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
+È estremamente importante in questa fase aver ottenuto il calcolo dell'Isee 2025 per il diritto allo studio universitario per usufruire delle esenzioni e delle agevolazioni previste in base a tale indicatore.
 {{% /hint %}}
 
 Le informazioni sugli importi e le agevolazioni per gli studenti con residenza fiscale in Italia sono riportate al seguente [link](https://www.uniroma1.it/it/node/24520). Le informazioni sugli importi per gli studenti con residenza fiscale estera sono riportate al seguente [link](https://www.uniroma1.it/en/pagina/tuition-fees-and-grants#fees-for-students-with-foreign-citizenship-and-or-foreign-income).
@@ -182,9 +182,9 @@ Il versamento dei contributi va effettuato tramite pagamento diretto. Per ulteri
 ## Obblighi Formativi Aggiuntivi (OFA)
 Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica sono assegnati a:
 - Chi si è iscritto alla terza selezione e risulta vincitore, ma non ha ottenuto un punteggio di almeno 18/50 nel TOLC-I.
-- Chi si è immatricolato coprendo eventuali posti liberi dopo il completo scorrimento della graduatoria dell’ultima selezione, e ha ottenuto un punteggio inferiore a 18/50 nel TOLC-I.
+- Chi si è immatricolato coprendo eventuali posti liberi dopo il completo scorrimento della graduatoria dell'ultima selezione, e ha ottenuto un punteggio inferiore a 18/50 nel TOLC-I.
 
-Gli OFA si assolvono superando l’esame curriculare **Metodi Matematici per l'Informatica** (6 CFU). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell’Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
+Gli OFA si assolvono superando l'esame curriculare **Metodi Matematici per l'Informatica** (6 CFU). Per aiutare a superare gli OFA, la Facoltà di Ingegneria dell'Informazione, Informatica e Statistica offre pre-corsi di matematica disponibili nella pagina e-learning "Pre-corsi di matematica per ingegneria" raggiungibile al seguente link: [Pre-corsi di matematica per ingegneria](https://elearning.uniroma1.it/course/view.php?id=11798), oltre al supporto di tutor dedicati.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**

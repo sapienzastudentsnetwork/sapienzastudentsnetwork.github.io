@@ -26,7 +26,7 @@ Tuttavia, affinché essa possa essere avviata, è necessario aver prima inserito
 Per studenti non-UE è anche necessario inserire il proprio __Permesso di Soggiorno__ prima di poter creare una Domanda di Laurea. Nel caso in cui esso sia scaduto, sarà necessario inserire il kit di rinnovo.
 {{% /hint %}}
 
-Inoltre, sarà necessario aver correttamente effettuato l’__attivazione della propria e-mail istituzionale__, la quale, in teoria, dovrebbe essere già stata svolta al primo anno.
+Inoltre, sarà necessario aver correttamente effettuato l'__attivazione della propria e-mail istituzionale__, la quale, in teoria, dovrebbe essere già stata svolta al primo anno.
 
 Una volta effettuati tutti i passaggi, la parte superiore della sezione __Corsi di Laurea > Esami > Domanda di Laurea__ dovrebbe apparire come segue. Sarà possibile creare una nuova Domanda di Laurea tramite il cliccando sul bottone _Nuova Domanda_ presente nella parte inferiore.
 
@@ -99,7 +99,7 @@ Una volta concluso il periodo di invio della Domanda di Laurea per la sessione s
 ## Annullamento e Revoca
 
 Nel caso in cui si decida di _cancellare_ la proprio Domanda di Laurea inviata, è necessario distinguere tra __Annullamento e Revoca__ della domanda:
-- La procedura di Annullamento serve a cancellare una domanda già inviata e a presentarne una nuova per la stessa sessione. Tale operazione puoi farla solo prima della scadenza prevista per l’invio della domanda di laurea.
+- La procedura di Annullamento serve a cancellare una domanda già inviata e a presentarne una nuova per la stessa sessione. Tale operazione puoi farla solo prima della scadenza prevista per l'invio della domanda di laurea.
 - La procedura di Revoca serve a cancellare una domanda già inviata e __RINUNCIARE__ alla possibilità di effettuarne una nuova nella stessa sessione di laurea. Tale operazione è __IRREVERSIBILE__ e una volta effettuata potrai laurearti solo in una sessione successiva a quella revocata. Né la presidenza né la segreteria studenti potranno modificare la revoca. Anche il docente relatore può effettuare una revoca della domanda di laurea, se lo riterrà opportuno. Per laurearti nella sessione successiva dovrai presentare una nuova domanda su Infostud.
 
 {{% hint info %}}

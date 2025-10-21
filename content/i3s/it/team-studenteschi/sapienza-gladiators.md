@@ -6,7 +6,7 @@
 Per il contenuto di questa pagina abbiamo coinvolto direttamente il team trattato, il che corrisponde, quindi, ad una loro presentazione dello stesso.
 {{% /hint %}}
 
-Nato nel 2016, [Sapienza Gladiators Racing Team](https://sapienzagladiators.it/) (SGRT) è il Team ufficiale dell’Università "La Sapienza" di Roma che compete nel Moto Student, una competizione ingegneristica internazionale che coinvolge gli atenei dei cinque continenti e che prevede la progettazione, produzione e sviluppo di un prototipo categoria PreMoto3.
+Nato nel 2016, [Sapienza Gladiators Racing Team](https://sapienzagladiators.it/) (SGRT) è il Team ufficiale dell'Università "La Sapienza" di Roma che compete nel Moto Student, una competizione ingegneristica internazionale che coinvolge gli atenei dei cinque continenti e che prevede la progettazione, produzione e sviluppo di un prototipo categoria PreMoto3.
 
 Il campionato si suddivide in consegne di alcuni paper e si conclude con un evento finale sul circuito di Aragón. Alla scorsa edizione hanno preso parte 80 team provenienti da 19 paesi di tutto il mondo, suddivisi nelle categorie Petrol ed Eletric.
 
@@ -25,11 +25,11 @@ Il reparto di aerodinamica si occupa di studiare soluzioni per migliorare la sta
 
 ### Motore
 
-Il reparto si occupa di progettare e ottimizzare i sistemi di aspirazione e scarico, con l’obiettivo di massimizzare le prestazioni del motore nel pieno rispetto del regolamento. Ogni dettaglio è studiato con precisione per ottenere il massimo dalla potenza disponibile e garantire al prototipo un’affidabilità straordinaria in pista.
+Il reparto si occupa di progettare e ottimizzare i sistemi di aspirazione e scarico, con l'obiettivo di massimizzare le prestazioni del motore nel pieno rispetto del regolamento. Ogni dettaglio è studiato con precisione per ottenere il massimo dalla potenza disponibile e garantire al prototipo un'affidabilità straordinaria in pista.
 
 ### Elettronica
 
-Questo reparto è responsabile della progettazione e dell’integrazione di tutti i sistemi elettronici e di controllo della moto, dalle centraline al cablaggio, garantendo che ogni componente sia perfettamente sincronizzata per migliorare la guidabilità e le prestazioni del prototipo.
+Questo reparto è responsabile della progettazione e dell'integrazione di tutti i sistemi elettronici e di controllo della moto, dalle centraline al cablaggio, garantendo che ogni componente sia perfettamente sincronizzata per migliorare la guidabilità e le prestazioni del prototipo.
 
 ### Ciclistica
 
@@ -37,16 +37,16 @@ Il reparto si occupa di progettare e ottimizzare il telaio del prototipo, assicu
 
 ### Operations
 
-Il reparto operations si occupa della gestione logistica, organizzativa e amministrativa, assicurando che ogni reparto possa lavorare in sinergia e rispettare le scadenze. Dalla ricerca degli sponsor alla gestione del budget e degli acquisti, il team operations si assicura che nulla venga lasciato al caso e che tutto funzioni come un orologio. Il loro lavoro è fondamentale per mantenere alta l’efficienza e consentire agli altri reparti di concentrarsi sull’innovazione e lo sviluppo tecnico del prototipo.
+Il reparto operations si occupa della gestione logistica, organizzativa e amministrativa, assicurando che ogni reparto possa lavorare in sinergia e rispettare le scadenze. Dalla ricerca degli sponsor alla gestione del budget e degli acquisti, il team operations si assicura che nulla venga lasciato al caso e che tutto funzioni come un orologio. Il loro lavoro è fondamentale per mantenere alta l'efficienza e consentire agli altri reparti di concentrarsi sull'innovazione e lo sviluppo tecnico del prototipo.
 
 ### Marketing & Design
 
-Questo reparto è responsabile di tutta la comunicazione del team e della gestione dell’immagine per l’edizione del MotoStudent 2025. Si occupa di curare il branding, creare contenuti grafici e promuovere il progetto sui social, coinvolgendo sponsor e appassionati. Non solo estetica e comunicazione: il team lavora anche sulla parte di design del prototipo, assicurandosi che la moto non solo sia funzionale e performante, ma anche visivamente accattivante, riflettendo lo spirito di #SGRT. Ogni dettaglio, dai colori alle forme, è studiato per raccontare la nostra identità.
+Questo reparto è responsabile di tutta la comunicazione del team e della gestione dell'immagine per l'edizione del MotoStudent 2025. Si occupa di curare il branding, creare contenuti grafici e promuovere il progetto sui social, coinvolgendo sponsor e appassionati. Non solo estetica e comunicazione: il team lavora anche sulla parte di design del prototipo, assicurandosi che la moto non solo sia funzionale e performante, ma anche visivamente accattivante, riflettendo lo spirito di #SGRT. Ogni dettaglio, dai colori alle forme, è studiato per raccontare la nostra identità.
 
 ## Come unirti al team
 
-L’edizione attuale del Motostudent si concluderà a ottobre 2025 sul circuito di Aragón, dove porteremo un nuovo prototipo con degli aggiornamenti importanti per quanto riguarda l’aerodinamica e l’erogazione.
+L'edizione attuale del Motostudent si concluderà a ottobre 2025 sul circuito di Aragón, dove porteremo un nuovo prototipo con degli aggiornamenti importanti per quanto riguarda l'aerodinamica e l'erogazione.
 
-Chiunque, studenti e studentesse, aziende, privati che condividono il nostro sogno e la voglia di crescere insieme possono correre al nostro fianco. L’obiettivo è di portare il Sapienza Gladiators Racing Team alla vittoria!
+Chiunque, studenti e studentesse, aziende, privati che condividono il nostro sogno e la voglia di crescere insieme possono correre al nostro fianco. L'obiettivo è di portare il Sapienza Gladiators Racing Team alla vittoria!
 
 Apriremo il recruiting dopo la fine dell'edizione attuale, ti invitiamo a tenere d'occhio i nostri social e il [nostro sito web](https://sapienzagladiators.it) per aggiornamenti, ci vediamo in pista!

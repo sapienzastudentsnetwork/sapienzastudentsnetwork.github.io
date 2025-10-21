@@ -6,7 +6,7 @@ weight: 1
 
 # Groups
 
-On this page you can find links to the **WhatsApp groups** and **Telegram groups** for the Master’s Degree in **Computer Science** (33508 / 29932)
+On this page you can find links to the **WhatsApp groups** and **Telegram groups** for the Master's Degree in **Computer Science** (33508 / 29932)
 
 ## General groups
 

@@ -11,7 +11,7 @@ Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](https://
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Posso contribuire creando o gestendo dei repository?**
 
-Se desideri contribuire, avviando nuovi repository per altri corsi oppure gestendo o aggiornando (ad esempio per un altro canale di insegnamento) uno dei repository Forum Esercizi e Soluzioni già esistenti nell'organizzazione GitHub, con o senza entrare a farne integralmente parte, puoi contattare Matteo Collica ([@Matypist](https://telegram.me/Matypist)) su Telegram o scrivere una mail all'indirizzo e-mail sapienzastudentsnetwork@gmail.com, indicando l'username (o indirizzo e-mail) del tuo account GitHub e (preferibilmente) l'username del tuo account Telegram, da poter indicare come tuo contatto di riferimento per chi frequenterà il repository 🙂
+Se desideri contribuire, avviando nuovi repository per altri corsi oppure gestendo o aggiornando (ad esempio per un altro canale di insegnamento) uno dei repository Forum Esercizi e Soluzioni già esistenti nell'organizzazione GitHub, con o senza entrare a farne integralmente parte, puoi contattare Matteo Collica ([@Matypist](https://telegram.me/Matypist)) su Telegram o scrivere una mail all'indirizzo e-mail [github@sapienzastudents.net](mailto:github@sapienzastudents.net), indicando l'username (o indirizzo e-mail) del tuo account GitHub e (preferibilmente) l'username del tuo account Telegram, da poter indicare come tuo contatto di riferimento per chi frequenterà il repository 🙂
 {{% /hint %}}
 
 ## Primo Anno

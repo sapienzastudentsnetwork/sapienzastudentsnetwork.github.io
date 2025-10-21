@@ -16,7 +16,7 @@ bookHidden: false
 Should you run into any issues during the procedure, feel free to drop by the [Telegram group chat](https://t.me/ComputerScienceSapienza); it's a great place to connect with fellow students and get help if you need it.
 {{% /hint %}}
 
-To enroll in the Master’s Degree in Computer Science, you must complete the following steps:
+To enroll in the Master's Degree in Computer Science, you must complete the following steps:
 
 1. Check that you meet the [entry requirements](#entry-requirements);
 2. Review the [assessment procedure and deadlines](#assessment-of-requirements-and-deadlines);

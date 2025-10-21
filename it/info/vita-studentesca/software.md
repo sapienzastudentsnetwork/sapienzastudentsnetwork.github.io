@@ -219,8 +219,8 @@ Le librerie necessarie sono:
 | Pacchetto          | Descrizione                                                                                                                            |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | `ddt`              | Permette di eseguire test descritti in un file JSON                                                                                    |
-| `pytest-timeout`   | Permette di applicare un timeout all’esecuzione di ogni test                                                                           |
-| `stopit`           | Permette di applicare un timeout all’esecuzione di una singola funzione                                                                |
+| `pytest-timeout`   | Permette di applicare un timeout all'esecuzione di ogni test                                                                           |
+| `stopit`           | Permette di applicare un timeout all'esecuzione di una singola funzione                                                                |
 | `pytest-profiling` | Permette di calcolare il tempo necessario per eseguire ogni funzione                                                                   |
 | `radon`            | Permette di calcolare la [complessità ciclomatica](https://radon.readthedocs.io/en/latest/intro.html#cyclomatic-complexity) del codice |
 | `typeguard`        | Permette di verificare che i tipi dei parametri e dei valori di ritorno di una funzione siano rispettati                               |

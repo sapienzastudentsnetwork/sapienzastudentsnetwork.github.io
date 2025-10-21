@@ -12,7 +12,7 @@ aliases: ['/acsai/study-plan', '/30786/info/third-year/study-plan']
 
 ## What is the Study Plan?
 
-**In the third year** of the Bachelor of Applied Computer Science and Artificial Intelligence (ACSAI), students complete their education with only one compulsory course ‘Foundations of Computer Science’ and others of their choice, according to certain rules. The set of examinations that a student intends to take during his or her degree is called a **Study Plan**, and on this page you will find some **instructions** and **advice** on how to complete yours and how to submit it to the committee for approval. **Without this procedure, within the prescribed timeframe, you would otherwise not be able to take the examinations of elective courses, only those mandatory for all.**
+**In the third year** of the Bachelor of Applied Computer Science and Artificial Intelligence (ACSAI), students complete their education with only one compulsory course ‘Foundations of Computer Science' and others of their choice, according to certain rules. The set of examinations that a student intends to take during his or her degree is called a **Study Plan**, and on this page you will find some **instructions** and **advice** on how to complete yours and how to submit it to the committee for approval. **Without this procedure, within the prescribed timeframe, you would otherwise not be able to take the examinations of elective courses, only those mandatory for all.**
 
 ## How many Elective Courses should I choose?
 
@@ -30,7 +30,7 @@ Of the **36 ECTS credits**:
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
 - It is not allowed to select, as elective courses, exams that have already been passed within the same degree program, even if the course content was different;
-- It is not permitted to choose courses from **Master’s degree programs**, unless they are part of the **first three years** of a **single-cycle Master’s program** (D.M. 270/04).
+- It is not permitted to choose courses from **Master's degree programs**, unless they are part of the **first three years** of a **single-cycle Master's program** (D.M. 270/04).
 {{% /hint %}}
 
 ## When to Submit Your Study Plan

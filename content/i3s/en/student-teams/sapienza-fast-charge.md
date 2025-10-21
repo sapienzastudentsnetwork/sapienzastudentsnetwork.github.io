@@ -34,7 +34,7 @@ Our software is structured using a **microservices-based architecture**, where e
 2. **Sensor Fusion & SLAM (Simultaneous Localization and Mapping)**:  
    This system integrates data from multiple sensors—accelerometer, gyroscope, magnetometer, GPS, and Lidar—for precise navigation. SLAM performs two main tasks:
    - **Mapping**: Constructs a map using sensor data and cone positions identified by computer vision
-   - **Localization**: Determines the car’s current position on the map, allowing for real-time trajectory planning
+   - **Localization**: Determines the car's current position on the map, allowing for real-time trajectory planning
 
 3. **Path Planning**:  
    This component uses cone data from computer vision to calculate a safe, efficient path for the car, minimizing lap time. It incorporates techniques such as triangulations and interpolations to optimize the path.

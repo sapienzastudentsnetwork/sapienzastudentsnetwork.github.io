@@ -40,7 +40,7 @@ The operations department handles logistics, organization, and administration, e
 
 ### Marketing & Design
 
-This department is responsible for all the team's communication and managing the image for the 2025 MotoStudent edition. It handles branding, creates graphic content, and promotes the project on social media, engaging sponsors and enthusiasts. It’s not just about aesthetics and communication: the team also works on the prototype’s design, ensuring that the motorcycle is not only functional and high-performing but also visually appealing, reflecting the spirit of #SGRT. Every detail, from colors to shapes, is designed to tell our story.
+This department is responsible for all the team's communication and managing the image for the 2025 MotoStudent edition. It handles branding, creates graphic content, and promotes the project on social media, engaging sponsors and enthusiasts. It's not just about aesthetics and communication: the team also works on the prototype's design, ensuring that the motorcycle is not only functional and high-performing but also visually appealing, reflecting the spirit of #SGRT. Every detail, from colors to shapes, is designed to tell our story.
 
 ## How to Join the Team
 

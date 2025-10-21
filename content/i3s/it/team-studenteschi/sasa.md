@@ -6,30 +6,30 @@
 Per il contenuto di questa pagina abbiamo coinvolto direttamente l'associazione trattata, il che corrisponde, quindi, ad una loro presentazione della stessa.
 {{% /hint %}}
 
-[**SASA – Sapienza Aerospace Student Association**](https://www.sasa-aerospace.it/) viene fondata nel 2012 come _Student Branch_ dell’_AIAA – American Institute of Aeronautics and Astronautics_ (prima in Italia) diventando in seguito Associazione Culturale e Associazione Studentesca presso **Sapienza Università di Roma**.
+[**SASA – Sapienza Aerospace Student Association**](https://www.sasa-aerospace.it/) viene fondata nel 2012 come _Student Branch_ dell'_AIAA – American Institute of Aeronautics and Astronautics_ (prima in Italia) diventando in seguito Associazione Culturale e Associazione Studentesca presso **Sapienza Università di Roma**.
 
 Secondo il proprio statuto, SASA è una libera associazione di persone gestita e operata su base volontaria, apolitica, apartitica e senza scopo di lucro, e nasce con lo scopo di **promuovere la cultura aerospaziale**, ed in particolare:
 
 - Creare un luogo di discussione su tematiche scientifiche, ingegneristiche e tecnologiche;
-- Rendere l’offerta didattica più coinvolgente;
-- Facilitare e promuovere l’ingresso nel mondo del lavoro;
+- Rendere l'offerta didattica più coinvolgente;
+- Facilitare e promuovere l'ingresso nel mondo del lavoro;
 
-Per portare avanti i suoi obbiettivi statutari l’Associazione, formata inizialmente da un gruppo di studenti e professori dei corsi aerospaziali, si è aperta a tutto il pubblico, anche extrauniversitario, iniziando a coinvolgerealtri settori come l’economia aziendale, il marketing e il settore giuridico. In questo modo SASA è diventata rapidamente un punto di riferiemnto nell’ambiente universitario e nella filiera aerospaziale della città di Roma, aumentando sempre di più il valore didattico delle sue attività.
+Per portare avanti i suoi obbiettivi statutari l'Associazione, formata inizialmente da un gruppo di studenti e professori dei corsi aerospaziali, si è aperta a tutto il pubblico, anche extrauniversitario, iniziando a coinvolgerealtri settori come l'economia aziendale, il marketing e il settore giuridico. In questo modo SASA è diventata rapidamente un punto di riferiemnto nell'ambiente universitario e nella filiera aerospaziale della città di Roma, aumentando sempre di più il valore didattico delle sue attività.
 
 Oggi SASA **organizza e promuove** conferenze scientifiche, pubblicazioni di articoli, workshop, progetti, laboratori, competizioni interuniversitarie, attività sociali e molto altro.
 
-Inoltre, tramite i suoi Team, partecipa da anni a **competizioni internazionali** nel settore dell’aerospazio ed offre **esperienze altamente professionalizzanti**. Grazie a queste attività e soprattutto grazie alle occasioni di networking, SASA si posiziona come anello di congiunzione tra Univerità e mondo del Lavoro,  costruendo un luogo di incontro ed una **rampa di lancio verso aziende e realtà del settore Aerospaziale**.
+Inoltre, tramite i suoi Team, partecipa da anni a **competizioni internazionali** nel settore dell'aerospazio ed offre **esperienze altamente professionalizzanti**. Grazie a queste attività e soprattutto grazie alle occasioni di networking, SASA si posiziona come anello di congiunzione tra Univerità e mondo del Lavoro,  costruendo un luogo di incontro ed una **rampa di lancio verso aziende e realtà del settore Aerospaziale**.
 
 Attualmente SASA è la più grande associazione studentesca per numero di iscritti in Italia.
 
 ## Flight Team
 
-Il **Sapienza Flight Team** o **SFT** è composto da studenti provenienti da diverse facoltà dell’ateneo. 
+Il **Sapienza Flight Team** o **SFT** è composto da studenti provenienti da diverse facoltà dell'ateneo. 
 Raggruppa ragazzi di Ingegneria Aeronautica, Meccanica, Gestionale e Informatica uniti dalla voglia di mettersi in gioco e accettare nuove fide.
 
 **Nasce nel 2009** quando un gruppo di studenti, affiancati dal prof. Guido De Matteis, si propose di creare e gestire una progetto extracurriculare che potesse dar loro modo di esprimere la propria passione per la progettazione e la realizzazione di velivoli radiocomandati. Uno degli intenti principali di questo gruppo era ed è quello di sviluppare aeromodelli, quadricotteri ed elicotteri nello stesso modo in cui si verifica in una qualsiasi industria del settore, ovvero attraverso uno studio del velivolo ma anche sulla fattibilità del progetto.
 
-Durante gli anni il progetto ha ottenuto ottimi risultati nelle competizioni internazionali a cui ha partecipato, risultati che hanno contribuito al nome del team portando numerosi studenti, inizialmente di ing. A erospaziale ed Aeronautica ma poi anche di altre facoltà, ad entrare nel team. Proprio per questo entusiasmo ed interesse dimostrato da tutti gli studenti dell’ateneo il Dipartimento di Ingegneria Meccanica e Aerospaziale ha deciso di patrocinare il progetto.
+Durante gli anni il progetto ha ottenuto ottimi risultati nelle competizioni internazionali a cui ha partecipato, risultati che hanno contribuito al nome del team portando numerosi studenti, inizialmente di ing. A erospaziale ed Aeronautica ma poi anche di altre facoltà, ad entrare nel team. Proprio per questo entusiasmo ed interesse dimostrato da tutti gli studenti dell'ateneo il Dipartimento di Ingegneria Meccanica e Aerospaziale ha deciso di patrocinare il progetto.
 
 Nel 2012 il Sapienza Flight Team entra a far parte di SASA (Sapienza Aerospace Student Association).
 
@@ -39,9 +39,9 @@ La squadra è composta da 6 reparti. Ognuno si occupa di una specifica missione 
 
 ## Tech Team
 
-Il **Sapienza Technology Team** si occupa di progettazione e costruzione di prototipi di Rover. I progetti vengono interamente sviluppati nel team, sia per quanto concerne la programmazione del software sia la realizzazione fisica attraverso l’interazione tra vari sottogruppi, ognuno dei quali con competenze specifiche. Il team infatti è composto da studenti di diversi settori (ingegneria aerospaziale,intelligenza artificiale e robotica, ingegneria elettronica…) sia di lauree triennali che magistrali. Ciò permette di sfruttare al meglio le competenze possedute e di svilupparne altre attraverso la collaborazione tra diversi sottogruppi.
+Il **Sapienza Technology Team** si occupa di progettazione e costruzione di prototipi di Rover. I progetti vengono interamente sviluppati nel team, sia per quanto concerne la programmazione del software sia la realizzazione fisica attraverso l'interazione tra vari sottogruppi, ognuno dei quali con competenze specifiche. Il team infatti è composto da studenti di diversi settori (ingegneria aerospaziale,intelligenza artificiale e robotica, ingegneria elettronica…) sia di lauree triennali che magistrali. Ciò permette di sfruttare al meglio le competenze possedute e di svilupparne altre attraverso la collaborazione tra diversi sottogruppi.
 
-Il team prevede anche un percorso, l’academy hardware e software, in cui i nuovi membri meno esperti possono acquisire le competenze necessarie a lavorare su un primo rover e negli anni successivi potranno continuare il percorso nel team entrando a far parte dei gruppi che si occupano della realizzazione del rover principale.
+Il team prevede anche un percorso, l'academy hardware e software, in cui i nuovi membri meno esperti possono acquisire le competenze necessarie a lavorare su un primo rover e negli anni successivi potranno continuare il percorso nel team entrando a far parte dei gruppi che si occupano della realizzazione del rover principale.
 
 ## Rocket Team
 

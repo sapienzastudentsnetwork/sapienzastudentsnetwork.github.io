@@ -34,7 +34,7 @@ La Commissione valuterà i percorsi pervenuti secondo il seguente schema:
 | **Periodo di presentazione** | **Scadenza per la valutazione**   |
 |-------------------------------------------------|-----------------------------------|
 | Dal 1 ottobre al 10 ottobre                     | Entro il 30 ottobre               |
-| Dall’11 ottobre al 30 novembre                  | Entro il 31 dicembre              |
+| Dall'11 ottobre al 30 novembre                  | Entro il 31 dicembre              |
 | Dal 1 dicembre al 15 gennaio                    | Entro il 31 gennaio               |
 | Dal 16 gennaio al 28 febbraio                   | Entro il 31 marzo                 |
 | Dal 1 marzo al 30 aprile                        | Entro il 31 maggio                |
@@ -140,7 +140,7 @@ Se nemmeno le possibilità offerte dal rispetto dei requisiti di un curriculum e
 
 Questo tipo di percorso formativo non rispetta i vincoli di nessuno dei due curriculum previsti, ma **deve comunque includere almeno 18 CFU di insegnamenti interni** al Manifesto del Corso di Laurea in Informatica.
 
-Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio di Area Didattica (CAD) di Informatica prima di un’eventuale approvazione** (non garantita).
+Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio di Area Didattica (CAD) di Informatica prima di un'eventuale approvazione** (non garantita).
 {{% /hint %}}
 
 #### Primo Semestre

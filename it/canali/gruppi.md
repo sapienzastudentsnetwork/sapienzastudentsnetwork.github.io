@@ -126,4 +126,4 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
 - [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
 
-\* _Nell’A.A. 2025/26, l’insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza (“Teledidattica”) e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
+\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._

@@ -197,7 +197,7 @@ Here you will find a list of internship reports shared by other Sapienza student
 
 
 
-<!-- Name Surname | [Professor’s Page Link]() | Teaching Page Link | Research Area -->
+<!-- Name Surname | [Professor's Page Link]() | Teaching Page Link | Research Area -->
 
 <!--
 
