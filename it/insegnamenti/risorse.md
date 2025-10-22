@@ -25,6 +25,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 - [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
 - [Ionut Cicio (CuriousCI)](https://curiousci.github.io/university/)
 - [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
+- [Lorenzo Sabatino (loresaba)](https://github.com/loresaba/scritti-di-informatica)
 
 ### Anno di immatricolazione 2021/22
 
