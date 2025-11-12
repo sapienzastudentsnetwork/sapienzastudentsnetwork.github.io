@@ -521,9 +521,9 @@
             "teachers": {
               "1ba2f7b6-acc7-4d42-b346-733d092bf98f": "ASARO CARMELO"
             },
-            "timeslot": "14 - 17",
+            "timeslot": "10 - 13",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
           }
         ]
@@ -554,7 +554,7 @@
             },
             "timeslot": "11 - 13",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]

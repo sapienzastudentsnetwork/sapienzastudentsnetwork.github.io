@@ -24,6 +24,11 @@
     "address": null,
     "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
+  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
+    "description": "Aula G50 - Regina Elena - Edificio G",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
+  },
   "50369700-02c9-46b7-a8f6-cd0171322dee": {
     "description": "Aula informatica 15",
     "address": "Via Tiburtina, 205",
@@ -68,11 +73,6 @@
     "description": "Aula A2 -",
     "address": "Via Ariosto, 25",
     "mapsUrl": "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
-  },
-  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
-    "description": "Aula G50 - Regina Elena - Edificio G",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
   },
   "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
     "description": "Aula T1 - Regina Elena - Edificio E",
