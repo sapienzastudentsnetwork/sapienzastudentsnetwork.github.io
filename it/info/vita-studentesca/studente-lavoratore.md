@@ -10,7 +10,7 @@ weight: 4
 
 È disponibile un [modulo di assenza dal lavoro per motivi di studio](https://drive.google.com/file/d/1etM2r6Of8Bh7KBR3n9KZ3gsmqoDHkNkB/view?usp=sharing). 
 
-Il **timbro** viene **posto dalla Segreteria Didattica**, via e-mail (segr.didattica@di.uniroma1.it), su richiesta dello studente **e solo se è presente la firma del docente**.
+Il **timbro** viene **posto dalla Segreteria Didattica**, via e-mail ([segr.didattica@di.uniroma1.it](mailto:segr.didattica@di.uniroma1.it)), su richiesta dello studente **e solo se è presente la firma del docente**.
 
 ## Appelli d'Esame Straordinari
 
