@@ -1,7 +1,12 @@
 <!-- style="margin-top: 20px; margin-bottom: 10px;" -->
 
 <div>
-    <label for="font">
+    <!--
+        Overriding the theme's rule (in _defaults.scss).
+        Without display: initial, the label defaults to display: flex,
+        causing the checkbox to wrap to a new line.
+    -->
+    <label for="font" style="display: initial;">
         Font DSA
     </label>
     <input type="checkbox" name="font" id="font">
