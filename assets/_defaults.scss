@@ -22,6 +22,19 @@ $toc-width: 16rem !default;
 
 $mobile-breakpoint: $menu-width + $body-min-width * 1.2 + $toc-width !default;
 
+:root {
+  --font-size: 16px;
+  --font-size-smaller: 0.875rem;
+  --font-size-smallest: 0.75rem;
+
+  --body-font-weight: 400;
+  --body-background: white;
+  --body-background-tint: transparent;
+  --body-font-color: black;
+
+  --border-radius: 0.25rem;
+}
+
 $hint-colors: (
   info: #6bf,
   warning: #fd6,
@@ -40,15 +53,23 @@ $hint-colors: (
   --color-visited-link: #8440f1;
 
   --body-background: white;
+  --body-background-tint: none;
   --body-font-color: black;
 
   --icon-filter: none;
 
-  --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
-  --hint-color-danger: #f66;
-  --hint-color-wip: #fe9933;
-  --hint-color-tip: #238636;
+  @include accent("default", #64748b);
+  @include accent("note", #4486dd);
+  @include accent("tip", #238636);
+  @include accent("important", #8144dd);
+  @include accent("warning", #fd6);
+  @include accent("wip", #fe9933);
+  @include accent("caution", #d84747);
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", #6bf);
+  @include accent("success", #3bad3b);
+  @include accent("danger", #f66);
 
   --course-dash-background: #F9F9F9;
   --course-panel-background: #E2E3E7;
@@ -95,48 +116,70 @@ $hint-colors: (
   --color-visited-link: #b88dff;
 
   --body-background: #343a40;
+  --body-background-tint: none;
   --body-font-color: #e9ecef;
 
   --icon-filter: brightness(0) invert(1);
 
-  --hint-color-info: #6bf;
-  --hint-color-warning: #fd6;
-  --hint-color-danger: #f66;
-  --hint-color-wip: #fe9933;
-  --hint-color-tip: #238636;
+  @include accent("default", #64748b);
+  @include accent("note", #4486dd);
+  @include accent("tip", #238636);
+  @include accent("important", #8144dd);
+  @include accent("warning", #fd6);
+  @include accent("wip", #fe9933);
+  @include accent("caution", #d84747);
+
+  // Fallback for {{< hint >}} shortcodes
+  @include accent("info", #6bf);
+  @include accent("success", #3bad3b);
+  @include accent("danger", #f66);
 
   --course-dash-background: #3E444A;
   --course-panel-background: #454C52;
 
   --timetable-add-button-background: #3182ce;
-    --timetable-add-button-color: white;
-    --timetable-add-button-hover: #2c5282;
-    --timetable-add-button-border: #2b6cb0;
-    --timetable-add-button-shadow: rgba(49, 130, 206, 0.4);
-    --timetable-popup-background: linear-gradient(147deg, rgba(160, 103, 223, 0.2) 20%, rgba(98, 127, 208, 0.2) 85%);
-    --timetable-popup-shadow-size: 2000px;
-    --timetable-popup-shadow-color: rgba(0, 0, 0, 1);
-  
-    // Table styling variables
-    --table-shadow-color: rgba(0, 0, 0, 0.3);
-    --table-border-color: #333;
-    --table-row-border: rgba(255, 255, 255, 0.1);
-    --table-row-odd: rgba(30, 30, 30, 0.6);
-    --table-row-even: rgba(40, 40, 40, 0.6);
-    --table-row-hover: rgba(60, 60, 60, 0.8);
-    --table-first-col-bg: rgba(50, 50, 50, 0.9);
-    --table-header-bg: #2d3748;
-    --table-header-color: #fff;
-    --table-cell-shadow: rgba(0, 0, 0, 0.3);
-    --table-cell-border: rgba(255, 255, 255, 0.05);
-    --table-cell-hover-shadow: rgba(0, 0, 0, 0.4);
-  
-    // UI Components
-    --subjbutton-hover-bg: #3a3a3a;
-    --h3-color: #e2e8f0;
-    --h4-color: #cbd5e0;
-    --link-color: #63b3ed;
-    --link-hover-color: #90cdf4;
-    --timetable-close-button-bg: #333;
-    --timetable-close-button-hover: #444;
+  --timetable-add-button-color: white;
+  --timetable-add-button-hover: #2c5282;
+  --timetable-add-button-border: #2b6cb0;
+  --timetable-add-button-shadow: rgba(49, 130, 206, 0.4);
+  --timetable-popup-background: linear-gradient(147deg, rgba(160, 103, 223, 0.2) 20%, rgba(98, 127, 208, 0.2) 85%);
+  --timetable-popup-shadow-size: 2000px;
+  --timetable-popup-shadow-color: rgba(0, 0, 0, 1);
+
+  // Table styling variables
+  --table-shadow-color: rgba(0, 0, 0, 0.3);
+  --table-border-color: #333;
+  --table-row-border: rgba(255, 255, 255, 0.1);
+  --table-row-odd: rgba(30, 30, 30, 0.6);
+  --table-row-even: rgba(40, 40, 40, 0.6);
+  --table-row-hover: rgba(60, 60, 60, 0.8);
+  --table-first-col-bg: rgba(50, 50, 50, 0.9);
+  --table-header-bg: #2d3748;
+  --table-header-color: #fff;
+  --table-cell-shadow: rgba(0, 0, 0, 0.3);
+  --table-cell-border: rgba(255, 255, 255, 0.05);
+  --table-cell-hover-shadow: rgba(0, 0, 0, 0.4);
+
+  // UI Components
+  --subjbutton-hover-bg: #3a3a3a;
+  --h3-color: #e2e8f0;
+  --h4-color: #cbd5e0;
+  --link-color: #63b3ed;
+  --link-hover-color: #90cdf4;
+  --timetable-close-button-bg: #333;
+  --timetable-close-button-hover: #444;
+}
+
+@mixin theme-auto {
+  @include theme-light;
+
+  @media (prefers-color-scheme: dark) {
+    @include theme-dark;
+  }
+}
+
+// Convenience mixing to declare a color and a transparent tint
+@mixin accent($name, $color, $tint: 0.1) {
+  --color-accent-#{$name}: #{$color};
+  --color-accent-#{$name}-tint: #{rgba($color, $tint)};
 }
