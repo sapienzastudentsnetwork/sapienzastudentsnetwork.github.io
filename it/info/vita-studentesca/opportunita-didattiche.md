@@ -1,7 +1,7 @@
 ---
 title: Opportunità Didattiche
 aliases: ["/it/info/vita-studenti/opportunita-didattiche"]
-weight: 2
+weight: 3
 ---
 
 # Opportunità Didattiche

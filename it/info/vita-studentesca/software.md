@@ -1,6 +1,6 @@
 ---
 title: Software Necessario
-weight: 5
+weight: 7
 ---
 
 # Software Necessario

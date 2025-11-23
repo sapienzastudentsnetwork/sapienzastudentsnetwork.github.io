@@ -1,7 +1,7 @@
 ---
 title: Studente Lavoratore
 aliases: ["/it/info/vita-studenti/studente-lavoratore"]
-weight: 4
+weight: 6
 ---
 
 # Studente Lavoratore
