@@ -1,4 +1,4 @@
-FROM hugomods/hugo:dart-sass-git-0.147.8
+FROM hugomods/hugo:dart-sass-git-0.152.2
 
 RUN git config --global --add safe.directory /app
 
