@@ -206,6 +206,20 @@
     flex-wrap: wrap;
 }
 
+.curBadges a {
+    flex: none;
+    align-items: normal;
+    gap: normal;
+
+    text-decoration: none;
+    cursor: default;
+
+    &[href], &[role=button] {
+        color: var(--color-link);
+        cursor: pointer;
+    }
+}
+
 .curSeparator {
     width: 98%;
     height: 1.5px;
