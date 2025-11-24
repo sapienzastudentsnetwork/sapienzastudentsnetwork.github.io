@@ -12,3 +12,9 @@
 .book-header {
   display: none;
 }
+
+@media screen and (max-width: $mobile-breakpoint) {
+  .book-header {
+    display: block;
+  }
+}
