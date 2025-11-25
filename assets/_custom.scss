@@ -18,3 +18,16 @@
     display: block;
   }
 }
+
+a {
+  flex: none !important;
+  align-items: center;
+  gap: .5em;
+
+  text-decoration: none;
+  cursor: default;
+
+  &[href], &[role=button] {
+    cursor: pointer;
+  }
+}
