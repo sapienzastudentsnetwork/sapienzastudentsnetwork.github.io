@@ -1707,6 +1707,16 @@
     "degree": "33502",
     "channels": {
       "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8b64b500-7dbd-4683-8510-945a0d5cbfe6": "ALLA ALESSANDRO"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {

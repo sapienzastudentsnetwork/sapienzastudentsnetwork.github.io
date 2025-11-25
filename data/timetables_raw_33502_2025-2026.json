@@ -178,6 +178,11 @@
             "room": "Aula 3",
             "schedule": [
               {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
                 "day": "gioved\u00ec",
                 "from": "13:00",
                 "to": "15:00"
