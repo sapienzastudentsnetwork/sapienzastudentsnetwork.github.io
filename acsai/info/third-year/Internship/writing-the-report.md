@@ -11,22 +11,22 @@ The internship report is an important document that summarizes the training expe
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Telegram Group**
 
-A dedicated [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by students of the degree program, is available for topics related to the thesis and internship.
+There is also a [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by students of the degree course, dedicated to topics related to the thesis and internship.
 {{% /hint %}}
 
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Internship Report Examples**
 
-In the [dedicated page](../esempi-di-relazione), you can find examples of internship reports shared by other students.
+In the [dedicated page](../report-examples), you can find examples of internship reports shared by other students.
 {{% /hint %}}
 
 ## Why Use LaTeX?
 
-For writing your internship report, we strongly recommend using LaTeX. LaTeX is a writing system particularly suitable for scientific documents, academic papers, and technical documents. It is widely used in academic settings for its ability to produce professional-looking documents, handle complex mathematical formulas, and automate the management of references and bibliography through [BibTeX](#gestione-della-bibliografia).
+For writing your internship report, we strongly recommend using LaTeX. LaTeX is a writing system particularly suitable for scientific documents, academic papers, and technical documents. It is widely used in academic settings for its ability to produce professional-looking documents, handle complex mathematical formulas, and automate the management of references and bibliography through [BibTeX](#bibliography-management).
 
 LaTeX allows you to create your report more efficiently, letting you focus on the content while the system handles the formatting. It also provides a well-structured and easily modifiable document that will look professional and high quality.
 
-### Overleaf and Recommended Template
+### Overleaf and recommended template
 
 To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that requires no installation on your computer. For your report, you can begin with this [template for the Sapienza bachelor’s thesis](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Although designed for a thesis, it can easily be used for an internship report.
 
@@ -36,15 +36,15 @@ To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com)
 If you have never used LaTeX before, don’t worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basics.
 {{% /hint %}}
 
-#### Mathematical Symbols
+#### Mathematical symbols
 
 If you need to use mathematical symbols in your report, LaTeX allows you to insert them easily. For example, to write the set of real numbers, you can use the command `\mathbb{R}`. If you need a specific symbol, you can check this [list of mathematical symbols in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) to find the corresponding code.
 
-### Length of the Report
+### Length of the report
 
 There is no mandatory length for the internship report. However, we recommend writing at least 30 pages. Remember that the quality of the content is more important than the number of pages, so focus on clarity and completeness.
 
-### Bibliography Management
+### Bibliography management
 
 To efficiently manage the bibliography, we suggest using BibTeX. This tool, integrated with LaTeX, simplifies the insertion and formatting of citations in your document.
 
