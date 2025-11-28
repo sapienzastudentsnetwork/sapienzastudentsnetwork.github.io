@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 24 November 2025 - Friday 28 November 2025",
+    "date_range": "Monday 01 December 2025 - Friday 05 December 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -35,8 +35,8 @@
             "10:00-11:00": "",
             "11:00-12:00": "",
             "12:00-13:00": "",
-            "13:00-14:00": "",
-            "14:00-15:00": "",
+            "13:00-14:00": "Prove tecniche seduta di laurea - Paolo Fontana",
+            "14:00-15:00": "Prove tecniche seduta di laurea - Paolo Fontana",
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
