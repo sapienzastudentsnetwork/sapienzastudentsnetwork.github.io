@@ -170,6 +170,9 @@
 - id: SSN_Introduction_Contact_2
   translation: "Contact us:"
 
+- id: SSN_Founder
+  translation: Founder
+
 - id: SSN_Executive_Board
   translation: Executive Board
 

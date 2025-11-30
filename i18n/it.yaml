@@ -169,6 +169,9 @@
 - id: SSN_Introduction_Contact_2
   translation: "Contattaci:"
 
+- id: SSN_Founder
+  translation: Fondatore
+
 - id: SSN_Executive_Board
   translation: Consiglio Direttivo
 
