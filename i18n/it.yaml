@@ -184,6 +184,9 @@
 - id: SSN_Institutional_Relations
   translation: Relazioni Istituzionali
 
+- id: SSN_Repo_Managers
+  translation: Gestori Repo
+
 #
 #   C O N T A C T S   P A G E
 #

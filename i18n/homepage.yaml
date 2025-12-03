@@ -28,3 +28,6 @@
 
 - id: SSN_Institutional_Relations
   translation: Institutional Relations
+
+- id: SSN_Repo_Managers
+  translation: Repo Managers

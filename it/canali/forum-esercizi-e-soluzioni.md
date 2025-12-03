@@ -6,12 +6,24 @@ weight: 3
 
 # Forum Esercizi e Soluzioni
 
-Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](https://github.sapienzastudents.net) è la realizzazione, attraverso repository GitHub, di forum _(realizzati tramite un README.md guida e l'utilizzo degli "issues" o delle "discussions")_ per lo scambio e il confronto di soluzioni ad esercizi, anche tratti da tracce di esame passate, di corsi universitari per cui non sono pubblicamente disponibili delle soluzioni ufficiali (ad opera dei professori del corso)
+Uno dei focus dell'[organizzazione GitHub di Sapienza Students Network](https://github.sapienzastudents.net)
+è la creazione di repository che fungano da forum per lo scambio di soluzioni.
 
-{{% hint info %}}
-<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Posso contribuire creando o gestendo dei repository?**
+Sfruttando i README, le issues o le discussions, questi spazi permettono di confrontarsi su esercizi e tracce d'esame
+passate, colmando la mancanza di soluzioni ufficiali da parte dei docenti.
 
-Se desideri contribuire, avviando nuovi repository per altri corsi oppure gestendo o aggiornando (ad esempio per un altro canale di insegnamento) uno dei repository Forum Esercizi e Soluzioni già esistenti nell'organizzazione GitHub, con o senza entrare a farne integralmente parte, puoi contattare Matteo Collica ([@Matypist](https://telegram.me/Matypist)) su Telegram o scrivere una mail all'indirizzo e-mail [github@sapienzastudents.net](mailto:github@sapienzastudents.net), indicando l'username (o indirizzo e-mail) del tuo account GitHub e (preferibilmente) l'username del tuo account Telegram, da poter indicare come tuo contatto di riferimento per chi frequenterà il repository 🙂
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Posso contribuire creando o gestendo dei repository?**
+
+I Forum di Esercizi e Soluzioni sono aperti a nuovi collaboratori — ogni contributo, come l'aggiunta di nuove tracce
+d'esame o esercizi, è prezioso per mantenere aggiornati singoli forum (anche in vista di alcuni cambi docente per gli
+insegnamenti di quest'anno).
+
+Se desideri renderti ulteriormente protagonista della loro gestione, puoi proporti ai
+[relativi gestori attuali]((https://github.com/sapienzastudentsnetwork#-gestori-repository-dellorganizzazione)),
+a Valerio **Fontana** ([@FeddyLix17](https://github.com/FeddyLix17)) [[Telegram](https://telegram.me/FeddyLix17)]
+o a un [membro del Consiglio Direttivo di Sapienza Students Network](/it/contribuire/sapienza-students-network/#-executive-board) —
+anche attraverso l'apposito [bot Telegram di contatto](https://telegram.me/SapienzaStudentsNetworkBot).
 {{% /hint %}}
 
 ## Primo Anno
