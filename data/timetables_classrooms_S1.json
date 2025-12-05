@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 01 December 2025 - Friday 05 December 2025",
+    "date_range": "Monday 08 December 2025 - Friday 12 December 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -11,8 +11,7 @@
             "14:00-15:00": "",
             "15:00-16:00": "",
             "16:00-17:00": "",
-            "17:00-17:30": "",
-            "17:30-18:00": "",
+            "17:00-18:00": "",
             "18:00-19:00": "",
             "19:00-19:30": ""
         },
@@ -26,24 +25,22 @@
             "14:00-15:00": "Tutoraggio OLIVIERI",
             "15:00-16:00": "Tutoraggio OLIVIERI",
             "16:00-17:00": "Tutoraggio OLIVIERI",
-            "17:00-17:30": "Tutoraggio OLIVIERI",
-            "17:30-18:00": "Tutoraggio OLIVIERI",
+            "17:00-18:00": "Tutoraggio OLIVIERI",
             "18:00-19:00": "",
             "19:00-19:30": ""
         },
         "wednesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "Prove tecniche seduta di laurea - Paolo Fontana",
-            "14:00-15:00": "Prove tecniche seduta di laurea - Paolo Fontana",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-17:30": "",
-            "17:30-18:00": "",
-            "18:00-19:00": "",
+            "08:00-09:00": "SEDUTA LAUREA",
+            "09:00-10:00": "SEDUTA LAUREA",
+            "10:00-11:00": "SEDUTA LAUREA",
+            "11:00-12:00": "SEDUTA LAUREA",
+            "12:00-13:00": "SEDUTA LAUREA",
+            "13:00-14:00": "SEDUTA LAUREA",
+            "14:00-15:00": "SEDUTA LAUREA",
+            "15:00-16:00": "SEDUTA LAUREA",
+            "16:00-17:00": "SEDUTA LAUREA",
+            "17:00-18:00": "SEDUTA LAUREA",
+            "18:00-19:00": "SEDUTA LAUREA",
             "19:00-19:30": ""
         },
         "thursday": {
@@ -55,10 +52,9 @@
             "13:00-14:00": "",
             "14:00-15:00": "Tutoraggio Max Tschaikowski",
             "15:00-16:00": "Tutoraggio Max Tschaikowski",
-            "16:00-17:00": "Presentazione",
-            "17:00-17:30": "Presentazione",
-            "17:30-18:00": "",
-            "18:00-19:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "HPC De Sensi",
+            "18:00-19:00": "HPC De Sensi",
             "19:00-19:30": ""
         },
         "friday": {
@@ -69,10 +65,9 @@
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-17:30": "",
-            "17:30-18:00": "",
+            "15:00-16:00": "Lezione recupero HPC",
+            "16:00-17:00": "Lezione recupero HPC",
+            "17:00-18:00": "Lezione recupero HPC",
             "18:00-19:00": "",
             "19:00-19:30": ""
         }
