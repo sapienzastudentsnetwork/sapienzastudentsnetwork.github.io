@@ -36,6 +36,18 @@ Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overl
 Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida rapida di 30 minuti](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) per familiarizzare con i concetti di base.
 {{% /hint %}}
 
+
+{{% hint tip %}}
+<i class="fa-solid fa-video" style="color: #238636;"></i> **Video tutorial**
+
+<!-- È disponibile un video tutorial che guida passo dopo passo nella stesura della relazione di tirocinio: -->
+È disponibile un video tutorial dedicato all’utilizzo del template SapThesis per la relazione di tirocinio:
+
+
+{{< youtube aBsTexeejkc >}}
+{{% /hint %}}
+
+
 #### Simboli matematici
 
 Se durante la stesura della tua relazione dovessi utilizzare simboli matematici, LaTeX ti permette di inserirli facilmente. Ad esempio, per scrivere l'insieme dei numeri reali, puoi utilizzare il comando `\mathbb{R}`. Se hai bisogno di un simbolo specifico, puoi consultare questa [lista di simboli matematici in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) per trovare il codice corrispondente.
