@@ -40,8 +40,7 @@ Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida ra
 {{% hint tip %}}
 <i class="fa-solid fa-video" style="color: #238636;"></i> **Video tutorial**
 
-<!-- È disponibile un video tutorial che guida passo dopo passo nella stesura della relazione di tirocinio: -->
-È disponibile un video tutorial dedicato all’utilizzo del template SapThesis per la relazione di tirocinio:
+È disponibile un video tutorial dedicato all’utilizzo del template sapthesis per la relazione di tirocinio:
 
 
 {{< youtube aBsTexeejkc >}}
