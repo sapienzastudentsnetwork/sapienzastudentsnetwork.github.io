@@ -44,15 +44,40 @@
     "address": "Viale Regina Elena, 295",
     "mapsUrl": "https://maps.app.goo.gl/6LEoK2i3SZqcW2gD6"
   },
+  "398537f5-1be4-4287-be7b-eb76298c4a8f": {
+    "description": "AULA 101 - Regina Elena - Edificio D",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
+  },
   "d82db7ad-2fae-463a-b8b9-0f05a6463120": {
     "description": "Aula 14 - ex tipografia Tumminelli",
     "address": "Piazzale Aldo Moro, 5",
     "mapsUrl": null
   },
+  "625390f2-0bbb-4072-b866-50902fa1bad9": {
+    "description": "Aula 2 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
+  },
   "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": {
     "description": "Aula 2 - Sc. Stat. - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
     "address": "Piazzale Aldo Moro, 5",
     "mapsUrl": null
+  },
+  "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a": {
+    "description": "Aula 5 - Aule di Botanica - Aule blu",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": null
+  },
+  "cab0d0ee-1faa-4552-9587-7a559480dde4": {
+    "description": "Aula A2 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
+  },
+  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
+    "description": "Aula T1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/vbt5p3VWWn8dWYka6"
   },
   "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
     "description": "AULA 201 - Regina Elena - Edificio D",
@@ -88,10 +113,5 @@
     "description": "Aula Sala Studio - Centro teatro ateneo, Dopolavoro, Bar",
     "address": null,
     "mapsUrl": null
-  },
-  "398537f5-1be4-4287-be7b-eb76298c4a8f": {
-    "description": "AULA 101 - Regina Elena - Edificio D",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
   }
 }
