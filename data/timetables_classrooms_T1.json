@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 08 December 2025 - Friday 12 December 2025",
+    "date_range": "Monday 15 December 2025 - Friday 19 December 2025",
     "timetables": {
         "monday": {
             "08:00-09:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -17,8 +17,8 @@
             "19:00-19:30": ""
         },
         "tuesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
+            "08:00-09:00": "discussione tesi SMIA (Prof. Pontarelli)",
+            "09:00-10:00": "discussione tesi SMIA (Prof. Pontarelli)",
             "10:00-11:00": "Tutoraggio Systems and Networking 2 - Tutor Pietro Piccolo",
             "11:00-12:00": "Tutoraggio Systems and Networking 2 - Tutor Pietro Piccolo",
             "12:00-13:00": "Tutoraggio Systems and Networking 2 - Tutor Pietro Piccolo",
@@ -32,10 +32,10 @@
             "19:00-19:30": ""
         },
         "wednesday": {
-            "08:00-09:00": "Seduta di Laurea DI Tutoraggio - Aiello - Analisi matematica modulo 1",
-            "09:00-10:00": "Seduta di Laurea DI Tutoraggio - Aiello - Analisi matematica modulo 1",
-            "10:00-11:00": "Seduta di Laurea DI Tutoraggio - Aiello - Analisi matematica modulo 1",
-            "11:00-12:00": "Seduta di Laurea DI",
+            "08:00-09:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "09:00-10:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "10:00-11:00": "Tutoraggio - Aiello - Analisi matematica modulo 1",
+            "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 10620565 QUANTUM COMPUTING ZULIANI P.",
@@ -47,12 +47,12 @@
             "19:00-19:30": ""
         },
         "thursday": {
-            "08:00-09:00": "SEDUTA LAUREA DI",
-            "09:00-10:00": "SEDUTA LAUREA DI",
-            "10:00-11:00": "SEDUTA LAUREA DI",
-            "11:00-12:00": "SEDUTA LAUREA DI",
-            "12:00-13:00": "SEDUTA LAUREA DI",
-            "13:00-14:00": "SEDUTA LAUREA DI",
+            "08:00-09:00": "",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
+            "13:00-14:00": "",
             "14:00-15:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "15:00-16:00": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
             "16:00-16:30": "Computer Science - Informatica LM-18 1047638 MODELS OF COMPUTATION PIPERNO A.",
@@ -62,18 +62,18 @@
             "19:00-19:30": "Tutoraggio: Egnald Cela - Calculus Unit 1 e Probability"
         },
         "friday": {
-            "08:00-09:00": "SEDUTA LAUREA DI",
-            "09:00-10:00": "SEDUTA LAUREA DI",
-            "10:00-11:00": "SEDUTA LAUREA DI",
-            "11:00-12:00": "SEDUTA LAUREA DI",
-            "12:00-13:00": "SEDUTA LAUREA DI",
+            "08:00-09:00": "",
+            "09:00-10:00": "",
+            "10:00-11:00": "Invited Talk - Prof. Friolo",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
             "13:00-14:00": "SEDUTA LAUREA DI",
-            "14:00-15:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "15:00-16:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "16:00-16:30": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "16:30-17:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "17:00-18:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
-            "18:00-19:00": "Computer Science - Informatica LM-18 10589558 METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN De vitis A.",
+            "14:00-15:00": "SEDUTA LAUREA DI",
+            "15:00-16:00": "SEDUTA LAUREA DI",
+            "16:00-16:30": "SEDUTA LAUREA DI",
+            "16:30-17:00": "SEDUTA LAUREA DI",
+            "17:00-18:00": "SEDUTA LAUREA DI",
+            "18:00-19:00": "SEDUTA LAUREA DI",
             "19:00-19:30": ""
         }
     }

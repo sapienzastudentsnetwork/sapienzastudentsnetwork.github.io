@@ -36,6 +36,15 @@ To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com)
 If you have never used LaTeX before, don’t worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basics.
 {{% /hint %}}
 
+{{% hint tip %}}
+<i class="fa-solid fa-video" style="color: #238636;"></i> **Video tutorial**
+
+A video tutorial dedicated to the use of the sapthesis template for the internship report is available (in Italian):
+
+
+{{< youtube aBsTexeejkc >}}
+{{% /hint %}}
+
 #### Mathematical symbols
 
 If you need to use mathematical symbols in your report, LaTeX allows you to insert them easily. For example, to write the set of real numbers, you can use the command `\mathbb{R}`. If you need a specific symbol, you can check this [list of mathematical symbols in LaTeX](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) to find the corresponding code.
