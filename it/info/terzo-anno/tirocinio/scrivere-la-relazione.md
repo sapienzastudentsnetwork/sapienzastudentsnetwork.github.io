@@ -28,7 +28,7 @@ LaTeX ti permetterà di realizzare la tua relazione più velocemente, concentran
 
 ### Overleaf e template consigliato
 
-Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overleaf.com), un editor LaTeX online che non richiede installazioni sul tuo computer. Per la tua relazione, puoi partire da questo [template per la tesi di laurea triennale della Sapienza](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Anche se pensato per una tesi, è facilmente utilizzabile per una relazione di tirocinio.
+Per iniziare con LaTeX, ti suggeriamo di utilizzare [Overleaf](https://www.overleaf.com), un editor LaTeX online che non richiede installazioni sul tuo computer. Per la tua relazione, puoi partire da questo [template per la tesi di laurea triennale della Sapienza](https://ctan.org/pkg/sapthesis). Anche se pensato per una tesi, è facilmente utilizzabile per una relazione di tirocinio. Il template deve essere importato manualmente. Per farlo, scarica il file zip, poi da Overleaf clicca su **Nuovo Progetto** e seleziona **Carica Progetto**. Carica il file zip scaricato e dopo basterà solo creare un nuovo file .tex.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Imparare ad utilizzare LaTeX**

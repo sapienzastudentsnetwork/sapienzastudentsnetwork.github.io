@@ -28,7 +28,7 @@ LaTeX allows you to create your report more efficiently, letting you focus on th
 
 ### Overleaf and recommended template
 
-To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that requires no installation on your computer. For your report, you can begin with this [template for the Sapienza bachelor’s thesis](https://www.overleaf.com/latex/templates/a-sample-bachelors-thesis-for-sapienza-universita-di-roma/hknzgzrzbwwh). Although designed for a thesis, it can easily be used for an internship report.
+To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that requires no installation on your computer. For your report, you can begin with this [template for the Sapienza bachelor’s thesis](https://ctan.org/pkg/sapthesis). Although designed for a thesis, it can easily be used for an internship report. The template needs to be imported manually. To do so, download the zip file, then in Overleaf click on **New Project** and select **Upload Project**. Upload the zip file you downloaded and afterwards you will only need to create a new .tex file.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Learning LaTeX**
