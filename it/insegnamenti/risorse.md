@@ -41,22 +41,22 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 <details>
 <summary>Canale A-L</summary>
 
-|                 Nome                |                                 E-learning                                |                                       Sito                                       |                                                                     Forum                                                                    |                    Chat                    |
+|                Nome                 |                                 E-learning                                |                                       Sito                                       |                                                                    Forum                                                                     |                    Chat                    |
 |:-----------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
-|              Analisi 1              |      [Moodle](https://elearning.uniroma1.it/course/view.php?id=19797)     |                                         -                                        |                                                                       -                                                                      | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) |
-|     Fondamenti di Programmazione    | [Classroom](https://classroom.google.com/c/MjM1MjY1NTI1MzJa?cjc=w2hdev56) | [Twiki](https://twiki.di.uniroma1.it/twiki/view/Programmazione1/AA25_26/WebHome) |                                                                       -                                                                      | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
-| Metodi Matematici per l'Informatica | [Classroom](https://classroom.google.com/c/MjM1NDk4NTExNjRa?cjc=3wlgxm2q) |                                         -                                        | [GitHub](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica/blob/main/carlucci/README.md#aa-202425-carlucci-a-l) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
+|              Analisi 1              |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=19797)      |                                        -                                         |                                                                      -                                                                       | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) |
+|    Fondamenti di Programmazione     | [Classroom](https://classroom.google.com/c/MjM1MjY1NTI1MzJa?cjc=w2hdev56) | [Twiki](https://twiki.di.uniroma1.it/twiki/view/Programmazione1/AA25_26/WebHome) |                                                                      -                                                                       | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
+| Metodi Matematici per l'Informatica | [Classroom](https://classroom.google.com/c/MjM1NDk4NTExNjRa?cjc=3wlgxm2q) |                                        -                                         | [GitHub](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica/blob/main/carlucci/README.md#aa-202425-carlucci-a-l) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
 
 </details>
 
 <details>
 <summary>Canale M-Z</summary>
 
-|                 Nome                |                                 E-learning                                |                                       Sito                                       |                                                                    Forum                                                                   |                    Chat                    |
+|                Nome                 |                                E-learning                                 |                                       Sito                                       |                                                                   Forum                                                                    |                    Chat                    |
 |:-----------------------------------:|:-------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------:|
-|              Analisi 1              |                     [Moodle](https://elearning.uniroma1.it/course/view.php?id=19797)                     |                                         -                                        |                                                                      -                                                                     | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) |
-|     Fondamenti di Programmazione    | [Classroom](https://classroom.google.com/c/ODA3NjQ2OTQ5NTA0?cjc=mv2tfhzi) | [Twiki](https://twiki.di.uniroma1.it/twiki/view/Programmazione1/AA25_26/WebHome) |                                                                      -                                                                     | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
-| Metodi Matematici per l'Informatica | [Classroom](https://classroom.google.com/c/MjM1MTM0MTYxOTNa?cjc=naepwkag) |                                         -                                        | [GitHub](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica/blob/main/piperno/README.md#aa-202425-piperno-m-z) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
+|              Analisi 1              |     [Moodle](https://elearning.uniroma1.it/course/view.php?id=19797)      |                                        -                                         |                                                                     -                                                                      | [Telegram](https://t.me/+Cw_63BoRvE03YmM0) |
+|    Fondamenti di Programmazione     | [Classroom](https://classroom.google.com/c/ODA3NjQ2OTQ5NTA0?cjc=mv2tfhzi) | [Twiki](https://twiki.di.uniroma1.it/twiki/view/Programmazione1/AA25_26/WebHome) |                                                                     -                                                                      | [Telegram](https://t.me/+NQ8H6iLHOIIwMzM0) |
+| Metodi Matematici per l'Informatica | [Classroom](https://classroom.google.com/c/MjM1MTM0MTYxOTNa?cjc=naepwkag) |                                        -                                         | [GitHub](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica/blob/main/piperno/README.md#aa-202425-piperno-m-z) | [Telegram](https://t.me/+m_-WkFEmQzdmZDZk) |
 
 </details>
 
@@ -64,9 +64,9 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 
 <summary>Canale Unico</summary>
 
-|      Nome      |      E-learning     | Sito | Forum |                    Chat                    |
-|:--------------:|:-------------------:|:----:|:-----:|:------------------------------------------:|
-| Lingua Inglese | Classroom: bbyw2xsu |   -  |   -   | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) |
+|        Nome        |                                E-learning                                 | Sito | Forum |                    Chat                    |
+|:------------------:|:-------------------------------------------------------------------------:|:----:|:-----:|:------------------------------------------:|
+| Inglese Livello B2 | [Classroom](https://classroom.google.com/c/ODA4NTkyODEyNTk1?cjc=bbyw2xsu) |  -   |   -   | [Telegram](https://t.me/+clLwVwTLUHk3YzM0) |
 
 </details>
 
