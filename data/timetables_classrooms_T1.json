@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 29 December 2025 - Friday 02 January 2026",
+    "date_range": "Monday 05 January 2026 - Friday 09 January 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -59,9 +59,9 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
+            "09:00-10:00": "Tutoraggio Gubinelli",
+            "10:00-11:00": "Tutoraggio Gubinelli",
+            "11:00-12:00": "Tutoraggio Gubinelli",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
