@@ -60,6 +60,8 @@ Now, before installing Conda, you have different roads ahead: since the whole pa
 
 On Windows, the installer will ask you, before the end of the installation, if you want to add Conda to the `PATH` environment variable.
 
+<img src="/imgs/anaconda_win_PATH.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
 What does it mean and what does it do? The `PATH` environment variable is a Windows variable which stores some locations on your disk where the applications are usually saved. This helps the OS to know where to find the binaries of each application. This is not only used on Windows, but also on UNIX systems (so macOS and Linux). Anaconda by default recommends you to not add it to the path.
 
 This is done in order to have a separate console just for Conda, in order not to mix it with the standard terminal. However, this might create more confusion, as you would always need to open the Conda console each time that you'll need it. By adding Conda to the `PATH` variable, Windows will be able to use Conda also from the Command Prompt and from the Powershell.
@@ -79,9 +81,10 @@ Open the menu, and scroll down on the installed applications until you find a fo
 conda --version
 ```
 
-If everything goes well, you should see the following output, so the name `conda` and the currently installed version (in this case, `conda 24.1.2`)
+If everything goes well, you should see the following output, so the name `conda` and the currently installed version (in this case, `conda 25.11.1`)
 
-TODO: insert screen of Anaconda prompt
+<img src="/imgs/anaconda_check_version.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
 
 {{% /tab %}}
 {{% tab "Linux / macOS" %}}
@@ -92,7 +95,7 @@ Open the terminal, and type the following command to test that everything is wor
 conda --version
 ```
 
-You should see the following output, so the name `conda` and the currently installed version (in this case, `conda 24.1.2`);
+You should see the following output, so the name `conda` and the currently installed version (in this case, `conda 25.11.1`);
 
 <img width="90%" style="margin-left: 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75)" src="https://i.imgur.com/6afvZ7w.png">
 
@@ -110,7 +113,29 @@ You should see the following output, so the name `conda` and the currently insta
 {{% tabs "minicondainstall" %}}
 {{% tab "Windows" %}}
 
-no
+2. Once you downloaded the installer, start it and go through the first welcoming steps. Accept the license and chhose whether you want to install Conda just for you or all the users in the PC. The choice here is not relevant, so pick what suits you best;
+
+<img src="/imgs/anaconda_win_1.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
+3. Choose a path for installing Conda. You can also leave the standard path;
+
+<img src="/imgs/anaconda_win_2.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
+4. Here you will have the possibility of adding Conda to the `PATH` system variable. Although the installer does not recommend doing it, **we strongly recommend doing so**. If you want more info about what the `PATH` variable is and how it works, refer to the callout we made [at the beginning of the section](#1-install-through-anaconda). After deciding whether you want to add Conda to `PATH` or not, click on Next and install Conda;
+
+<img src="/imgs/anaconda_win_PATH.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
+5. Wait for the installer to finish;
+
+<img src="/imgs/anaconda_win_3.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
+6. Once the installer ends, click on `Finish`. You've now installed Conda!
+
+<img src="/imgs/anaconda_win_4.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
+
+7. You can try that everything got installed by typing `conda --version` in the Terminal (either PowerShell or Command Prompt will do). You should see an output like the following:
+
+<img src="/imgs/anaconda_check_version.png" style="width: 70%; margin: 0 5% 0 5%; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55); border-radius: 8px;">
 
 {{% /tab %}}
 {{% tab "macOS" %}}
@@ -123,23 +148,17 @@ no
 
 3. Once you downloaded the installer, run it and go through it:
 
-{{% columns %}}
-
 <small>1) First page of the installer</small>
 <img src="https://i.imgur.com/vk6OmK6.png">
-
-<small>3) Wait until it finishes installing</small>
-<img src="https://i.imgur.com/29RpAdO.png">
-
-<--->
 
 <small>2) Choose where to install Miniconda</small>
 <img src="https://i.imgur.com/1Amx3ni.png">
 
+<small>3) Wait until it finishes installing</small>
+<img src="https://i.imgur.com/29RpAdO.png">
+
 <small>4) You're done! Go forth to the next step</small>
 <img src="https://i.imgur.com/GW9Oelq.png">
-
-{{% /columns %}}
 
 4. Open the terminal, and type the following command to test that everything is working fine:
 
