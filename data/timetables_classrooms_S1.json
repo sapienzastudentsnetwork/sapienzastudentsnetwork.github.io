@@ -1,12 +1,12 @@
 {
-    "date_range": "Monday 05 January 2026 - Friday 09 January 2026",
+    "date_range": "Monday 12 January 2026 - Friday 16 January 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
+            "09:00-10:00": "Esame multimodal interfaces Prof Maurizio Mancini",
+            "10:00-11:00": "Esame multimodal interfaces Prof Maurizio Mancini",
+            "11:00-12:00": "Esame multimodal interfaces Prof Maurizio Mancini",
+            "12:00-13:00": "Esame multimodal interfaces Prof Maurizio Mancini",
             "13:00-14:00": "",
             "14:00-15:00": "",
             "15:00-16:00": "",
@@ -16,10 +16,10 @@
             "19:00-19:30": ""
         },
         "tuesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
+            "08:00-09:00": "Esami orali per il corso di Equazioni differenziali.",
+            "09:00-10:00": "Esami orali per il corso di Equazioni differenziali.",
+            "10:00-11:00": "Esami orali per il corso di Equazioni differenziali.",
+            "11:00-12:00": "Esami orali per il corso di Equazioni differenziali.",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
@@ -45,9 +45,9 @@
         },
         "thursday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
+            "09:00-10:00": "Appello di SYSTEMS AND CONTROL METHODS FOR CPS Prof. Liberati Francesco",
+            "10:00-11:00": "Appello di SYSTEMS AND CONTROL METHODS FOR CPS Prof. Liberati Francesco",
+            "11:00-12:00": "Appello di SYSTEMS AND CONTROL METHODS FOR CPS Prof. Liberati Francesco",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
