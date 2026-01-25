@@ -4,44 +4,114 @@
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+1)&iwloc=A&hl=it"
   },
-  "398537f5-1be4-4287-be7b-eb76298c4a8f": {
-    "description": "AULA 101 - Regina Elena - Edificio D",
-    "address": "Viale Regina Elena, 295",
-    "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
-  },
   "1e079880-d2d2-49ef-8058-c58ab0baa4b4": {
     "description": "Aula 11 - Aule 11-12-13",
     "address": "Via Antonio Scarpa, 12",
     "mapsUrl": "https://maps.google.com/maps?q=41.906988,+12.518312+(Aula+11)&iwloc=A&hl=it"
-  },
-  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
-    "description": "Aula 3 - Aule temporanee",
-    "address": null,
-    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
   },
   "27a4966a-0abc-418d-aa04-ea3973e3cdef": {
     "description": "Aula 3 - Aule L",
     "address": "Via del Castro Laurenziano, 7a",
     "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+3)&iwloc=A&hl=it"
   },
-  "6fa78f3a-940f-420e-a972-c7bacd283a52": {
-    "description": "Aula 7 - Aule L",
-    "address": "Via del Castro Laurenziano, 7a",
-    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+7)&iwloc=A&hl=it"
+  "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+    "description": "Aula 3 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "0423606b-48fc-4638-a851-eab7563981a2": {
+    "description": "Aula 4 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "b368dabe-4b63-4129-94bd-2c97ea916fd0": {
+    "description": "Aula G50 - Regina Elena - Edificio G",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.google.com/maps?q=41.904967,+12.517443+(Aula+G50)&iwloc=A&hl=it"
   },
   "50369700-02c9-46b7-a8f6-cd0171322dee": {
     "description": "Aula informatica 15",
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+15)&iwloc=A&hl=it"
   },
+  "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
+    "description": "Aula informatica 17",
+    "address": "Via Tiburtina, 205",
+    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+17)&iwloc=A&hl=it"
+  },
+  "74a8a956-ade6-4883-b10f-416c38c9d93d": {
+    "description": "Aula Magna - Regina Elena - Edificio C",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/6LEoK2i3SZqcW2gD6"
+  },
+  "398537f5-1be4-4287-be7b-eb76298c4a8f": {
+    "description": "AULA 101 - Regina Elena - Edificio D",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
+  },
+  "d82db7ad-2fae-463a-b8b9-0f05a6463120": {
+    "description": "Aula 14 - ex tipografia Tumminelli",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": null
+  },
+  "625390f2-0bbb-4072-b866-50902fa1bad9": {
+    "description": "Aula 2 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+2)&iwloc=A&hl=it"
+  },
+  "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": {
+    "description": "Aula 2 - Sc. Stat. - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": null
+  },
+  "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a": {
+    "description": "Aula 5 - Aule di Botanica - Aule blu",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": null
+  },
+  "cab0d0ee-1faa-4552-9587-7a559480dde4": {
+    "description": "Aula A2 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
+  },
+  "70000b7b-daf3-4315-839c-3f4b0ab0e131": {
+    "description": "Aula T1 - Regina Elena - Edificio E",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/vbt5p3VWWn8dWYka6"
+  },
+  "8e92b19a-4c17-4a44-973e-5e1adbb804df": {
+    "description": "AULA 201 - Regina Elena - Edificio D",
+    "address": "Viale Regina Elena, 295",
+    "mapsUrl": "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
+  },
+  "6fa78f3a-940f-420e-a972-c7bacd283a52": {
+    "description": "Aula 7 - Aule L",
+    "address": "Via del Castro Laurenziano, 7a",
+    "mapsUrl": "https://maps.google.com/maps?q=41.905531,+12.517693+(Aula+7)&iwloc=A&hl=it"
+  },
+  "d40b6920-9b3a-4599-ac79-ad8975bf0325": {
+    "description": "Aula A5 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
+  },
+  "c6bd11c5-df38-488f-90e2-5109c377eb5d": {
+    "description": "Aula A6 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
+  },
+  "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232": {
+    "description": "Aula Alfa - Sociologia",
+    "address": "Via Salaria, 113/117",
+    "mapsUrl": "https://maps.google.com/maps?q=41.914105,+12.497326+(Aula+Alfa)&iwloc=A&hl=it"
+  },
   "deffa19a-65db-4abe-be55-4178b791dc1b": {
     "description": "Aula informatica 16",
     "address": "Via Tiburtina, 205",
     "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+16++)&iwloc=A&hl=it"
   },
-  "4af56786-2ca8-4ce1-8034-23fd243c90c1": {
-    "description": "Aula informatica 17",
-    "address": "Via Tiburtina, 205",
-    "mapsUrl": "https://maps.google.com/maps?q=41.899921,+12.5167+(Aula+informatica+17)&iwloc=A&hl=it"
+  "c3c3ddad-bb6e-4e83-a9a1-211ce885f591": {
+    "description": "Aula Sala Studio - Centro teatro ateneo, Dopolavoro, Bar",
+    "address": null,
+    "mapsUrl": null
   }
 }
