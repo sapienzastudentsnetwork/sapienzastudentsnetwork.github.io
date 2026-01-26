@@ -289,6 +289,144 @@
             "teachers": [
               " "
             ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1054962",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "SECURE COMPUTATION",
+            "teachers": [
+              "VISCONTI IVAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1054962",
+            "room": "Aula G0",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SECURE COMPUTATION",
+            "teachers": [
+              "VISCONTI IVAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1054963",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY",
+            "teachers": [
+              "LIBERATI FRANCESCO"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1055047",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ECONOMICS OF TECHNOLOGY AND MANAGEMENT",
+            "teachers": [
+              "D'ADAMO IDIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055047",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "ECONOMICS OF TECHNOLOGY AND MANAGEMENT",
+            "teachers": [
+              "D'ADAMO IDIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1055055",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CYBER AND COMPUTER LAW",
+            "teachers": [
+              "AVITABILE LUISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055682",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "ETHICAL HACKING",
+            "teachers": [
+              "MANCINI LUIGI VINCENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
           }
         ]
       }
@@ -615,6 +753,22 @@
             "subject": "INTERNET OF THINGS",
             "teachers": [
               " "
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "AAF1803",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "20:00"
+              }
+            ],
+            "subject": "CYBER SECURITY SEMINARS",
+            "teachers": [
+              "MANCINI LUIGI VINCENZO"
             ]
           }
         ]

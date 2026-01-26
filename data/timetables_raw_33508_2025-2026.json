@@ -493,6 +493,64 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047205",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "CLOUD COMPUTING",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047613",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ADVANCED ALGORITHMS",
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047614",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ADVANCED SOFTWARE ENGINEERING",
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1047614",
             "room": "Aula Magna",
@@ -506,6 +564,27 @@
             "subject": "ADVANCED SOFTWARE ENGINEERING",
             "teachers": [
               "BOTTONI PAOLO GASPARE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047619",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "CONCURRENT SYSTEMS",
+            "teachers": [
+              "GORLA DANIELE"
             ]
           },
           {
@@ -527,6 +606,43 @@
             "subject": "DATA AND NETWORK SECURITY",
             "teachers": [
               "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047629",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "GRAPH THEORY",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047630",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "HUMAN COMPUTER INTERACTION ON THE WEB",
+            "teachers": [
+              "PANIZZI EMANUELE"
             ]
           },
           {
@@ -567,6 +683,22 @@
             ]
           },
           {
+            "building": "Edificio: RM115",
+            "course": "1047639",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "MULTIMODAL INTERACTION",
+            "teachers": [
+              "AVOLA DANILO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1047639",
             "room": "Aula Magna",
@@ -580,6 +712,171 @@
             "subject": "MULTIMODAL INTERACTION",
             "teachers": [
               "AVOLA DANILO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10607006",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10607006",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10612318",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ADVANCED ARCHITECTURES",
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10612318",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "ADVANCED ARCHITECTURES",
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10620665",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "LOGICS AND REASONING",
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10620666",
+            "room": "Aula G0",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "METHODS IN COMPUTER SCIENCE EDUCATION",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10620666",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "METHODS IN COMPUTER SCIENCE EDUCATION",
+            "teachers": [
+              "STERBINI ANDREA"
             ]
           }
         ]
@@ -1044,6 +1341,64 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047205",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "CLOUD COMPUTING",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047613",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ADVANCED ALGORITHMS",
+            "teachers": [
+              "CHIERICHETTI FLAVIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047614",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ADVANCED SOFTWARE ENGINEERING",
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1047614",
             "room": "Aula Magna",
@@ -1057,6 +1412,27 @@
             "subject": "ADVANCED SOFTWARE ENGINEERING",
             "teachers": [
               "BOTTONI PAOLO GASPARE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047619",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "CONCURRENT SYSTEMS",
+            "teachers": [
+              "GORLA DANIELE"
             ]
           },
           {
@@ -1078,6 +1454,43 @@
             "subject": "DATA AND NETWORK SECURITY",
             "teachers": [
               "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047629",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "GRAPH THEORY",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047630",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "HUMAN COMPUTER INTERACTION ON THE WEB",
+            "teachers": [
+              "PANIZZI EMANUELE"
             ]
           },
           {
@@ -1118,6 +1531,44 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047636",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "MATHEMATICAL LOGIC FOR COMPUTER SCIENCE",
+            "teachers": [
+              "PERELLI GIUSEPPE",
+              "CARLUCCI LORENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047639",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "MULTIMODAL INTERACTION",
+            "teachers": [
+              "AVOLA DANILO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1047639",
             "room": "Aula Magna",
@@ -1131,6 +1582,150 @@
             "subject": "MULTIMODAL INTERACTION",
             "teachers": [
               "AVOLA DANILO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10589555",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "PRACTICAL NETWORK DEFENSE",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10589557",
+            "room": "Aula G0",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10589557",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "METHODS IN COMPUTER SCIENCE EDUCATION: ANALYSIS",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10593236",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "DEEP LEARNING AND APPLIED ARTIFICIAL INTELLIGENCE",
+            "teachers": [
+              "RODOLA' EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10607006",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10607006",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10612318",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ADVANCED ARCHITECTURES",
+            "teachers": [
+              "MASSINI ANNALISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10612318",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "ADVANCED ARCHITECTURES",
+            "teachers": [
+              "MASSINI ANNALISA"
             ]
           }
         ]

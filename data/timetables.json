@@ -471,6 +471,25 @@
     },
     "code": "1020422"
   },
+  "1015889": {
+    "subject": "RETI DI ELABORATORI",
+    "degree": "33503",
+    "channels": {
+      "2": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 17",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "1015889"
+  },
   "1041727": {
     "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
     "degree": "33503",
