@@ -147,6 +147,10 @@
     "year": "Primo anno - primo semestre"
   },
   {
+    "channels": [],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
     "channels": [
       {
         "channel": "Canale Unico",
@@ -260,6 +264,10 @@
       }
     ],
     "year": "Secondo anno - primo semestre"
+  },
+  {
+    "channels": [],
+    "year": "Secondo anno - secondo semestre"
   },
   {
     "channels": [
@@ -398,5 +406,63 @@
       }
     ],
     "year": "Terzo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM111",
+            "course": "10595533",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "OPTIMIZATION",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10595535",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "HUMAN COMPUTER INTERACTION",
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10595537",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "LAW AND COMPUTER SCIENCE",
+            "teachers": [
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Terzo anno - secondo semestre"
   }
 ]

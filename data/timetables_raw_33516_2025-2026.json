@@ -249,6 +249,58 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM111",
+            "course": "1047623",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1047634",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              " "
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
             "building": "Edificio: RM102",
             "course": "1044415",
             "room": "Aula A5",
@@ -517,5 +569,57 @@
       }
     ],
     "year": "Secondo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM111",
+            "course": "1047623",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DATA AND NETWORK SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1047634",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              " "
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - secondo semestre"
   }
 ]
