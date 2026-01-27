@@ -1,12 +1,12 @@
 ---
-title: "Percorso Formativo"
-weight: 1
+title: "Informatica - teledidattica"
+weight: 3
 aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percorso-formativo"]
 ---
 
 # Percorso Formativo
 
-Le studentesse e gli studenti, una volta raggiunto il Terzo Anno, devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
+Le studentesse e gli studenti **iscritti al primo anno** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -17,15 +17,19 @@ Gli insegnamenti opzionali potranno infatti essere prenotati e verbalizzati solt
 ## Come funziona il percorso formativo
 
 ### Quanti insegnamenti scegliere
+Al Primo Anno, è prevista la scelta di un insegnamento all'interno del Gruppo opzionale "Inglese", tra le seguenti alternative:
+ 
+- AAF2512 – Inglese ESP (livello B1)
+- AAF1902 – Lingua Inglese (livello B2)
 
-Ogni studente deve acquisire **30 CFU** tramite **insegnamenti opzionali**.
+Durante il Terzo Anno, ogni studente deve acquisire **30 CFU** tramite **insegnamenti opzionali**.
 - La scelta può avvenire con qualsiasi combinazione che porti al totale di 30 CFU: ad esempio 5 insegnamenti da 6 CFU, oppure 3 insegnamenti da 6 CFU e 1 da 12 CFU, ecc.
 
-Di questi 30 CFU, fino a **12 CFU** possono provenire da insegnamenti esterni al Manifesto del Corso di Laurea in Informatica, anche appartenenti ad altre facoltà, secondo le modalità descritte nella [sezione apposita di questa pagina](#come-scegliere-gli-insegnamenti-esterni).
+Di questi 30 CFU, fino a **12 CFU** possono provenire da insegnamenti esterni al Manifesto del Corso di Laurea in Informatica (erogato in modalità prevalentemente a distanza), anche appartenenti ad altre facoltà, secondo le modalità descritte nella [sezione apposita di questa pagina](#come-scegliere-gli-insegnamenti-esterni).
 
 ### Quando presentare il proprio percorso formativo
 
-Gli studenti, **una volta raggiunto il Terzo Anno**, possono presentare o chiedere di rinnovare il loro percorso formativo **una sola volta per ogni anno accademico**.
+Gli studenti **iscritti al Primo Anno** possono presentare o chiedere di rinnovare il loro percorso formativo **una sola volta per ogni anno accademico**.
 
 Il percorso formativo può essere presentato dal **1 Ottobre di ogni anno fino al successivo 30 Settembre**.
 
@@ -50,9 +54,7 @@ La presentazione di un percorso formativo avviene online, tramite il sistema Inf
 
 - Non è necessario presentare un nuovo percorso se non si vogliono apportare modifiche.
 
-Qualora lo studente scelga [uno dei due curriculum previsti](#legenda-curriculum) e tra gli "Insegnamenti a scelta dello studente" indichi due insegnamenti inclusi nel Manifesto del Corso di Laurea in Informatica, otterrà l'approvazione automatica del percorso formativo. Lo studente riconosce tale situazione dal messaggio di validazione, che diviene il seguente: "Il percorso formativo proposto è corretto e può essere approvato automaticamente."
-
-In tutti gli altri casi, gli studenti dovranno attendere la verifica del loro percorso formativo da parte del [docente incaricato della validazione](#docente-di-riferimento); verifica che avverrà entro alcune settimane.
+Gli studenti dovranno attendere la verifica del loro percorso formativo da parte del [docente incaricato della validazione](#docente-di-riferimento); verifica che avverrà entro alcune settimane.
 
 ### Come scegliere gli insegnamenti esterni
 
@@ -93,84 +95,61 @@ Il docente di riferimento nella Commissione competente per la laurea triennale �
 
 ## Insegnamenti
 
-### Insegnamenti obbligatori
+### Primo Anno - Insegnamenti di completamento
+
+Per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necassario scegliere uno tra i due corsi:
+
+| Insegnamento                        |  Codice   | CFU |
+|-------------------------------------|:---------:|:---:|
+| Inglese ESP Livello B1 [ENG]        | `AAF2512 `|  3  |
+| Lingua Inglese Livello B2 [ITA]     | `AAF1902 `|  3  |
+
+### Terzo Anno - Insegnamenti obbligatori
 
 | Insegnamento                        |  Codice   | CFU |
 |-------------------------------------|:---------:|:---:|
 | Automi, Calcolabilità e Complessità | `1041727` |  6  |
-| Ingegneria Del Software             | `1022301` |  6  |
+| Ingegneria Del Software             | `10620617`|  6  |
 
-### Insegnamenti a scelta interni
+### Terzo Anno - Insegnamenti a scelta interni
 
 #### Legenda curriculum
-
-I due curriculum (**metodologico** e **tecnologico**) prevedono dei gruppi di insegnamenti interni al Corso di Laurea in Informatica e un requisito minimo di CFU che devono essere scelti da ciascun gruppo, in base al curriculum scelto.
-
-**Metodologico** • nome gruppo (abbr.) - requisito minimo di CFU:
-- Metodologici caratterizzanti (**mc**) - 12 CFU
-- Metodologici affini (**ma**) - 6 CFU
-
-**Tecnologico** • nome gruppo (abbr.) - requisito minimo di CFU:
-- Metodologici di completamento (**tmc**) - 6 CFU
-    - _**N.B.:** comprende gli stessi insegnamenti del gruppo **mc**_
-- Tecnologici affini (**ta**) - 6 CFU
-- Tecnologici di completamento (**tc**) - 6 CFU
-
-{{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
-
-Le abbreviazioni **mc**, **ma**, **tmc**, **ta** e **tc** sono state adottate in questa guida per gli esempi e le tabelle con gli insegnamenti che seguiranno, ma non esistono ufficialmente. Si consiglia quindi di indicare i nomi dei gruppi per esteso nel caso in cui si vogliano citare singoli gruppi in una mail al [docente di riferimento](#docente-di-riferimento).
-{{% /hint %}}
-
-{{% hint tip %}}
-<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Esempio**
-
-Scegliendo i tre seguenti insegnamenti:
-- Programmazione di Sistemi Embedded e Multicore, come **tmc**
-- Organizzazione e Gestione per lo Start-Up Aziendale, come **ta**
-- Programmazione per il Web, come **tc**
-
-Si soddisfano i requisiti del curriculum **tecnologico** e si possono utilizzare liberamente i restanti **12 CFU** per altri insegnamenti a scelta, interni o [esterni](#come-scegliere-gli-insegnamenti-esterni) al Manifesto del Corso di Laurea in Informatica.
-{{% /hint %}}
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Percorso Formativo Individuale**
 
-Se nemmeno le possibilità offerte dal rispetto dei requisiti di un curriculum e dal libero utilizzo dei 12 CFU a scelta dovessero risultare soddisfacenti, è possibile proporre un Percorso Formativo Individuale.
+Se le possibilità offerte dal libero utilizzo dei 12 CFU a scelta dovessero risultare soddisfacenti, è possibile proporre un Percorso Formativo Individuale.
 
 Questo tipo di percorso formativo non rispetta i vincoli di nessuno dei due curriculum previsti, ma **deve comunque includere almeno 18 CFU di insegnamenti interni** al Manifesto del Corso di Laurea in Informatica.
 
 Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio di Area Didattica (CAD) di Informatica prima di un'eventuale approvazione** (non garantita).
 {{% /hint %}}
 
-#### Primo Semestre
+Per quanto riguarda i corsi opzionali interni è necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti affini di completamento"** e **6 CFU** dal secondo gruppo **"Ambiti specialistici"**, elencati di seguito.
 
-| Insegnamento                                        | Codice     | Curriculum  |                Telegram                |
+#### Gruppo: Insegnamenti affini di completamento
+
+| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
 |-----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Data Science e Diritto                              | `10606972` | ma, ta      | [Chat](https://t.me/+bHU0Mc28yjBhZWM0) |
-| Fisica                                              | `97597`    | ma          | [Chat](https://t.me/+-ZO2tsF0w8YyNDE8) |
-| Interazione Uomo Macchina                           | `1022263`  | ta, tc      | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Linguaggi di Programmazione                         | `1022264`  | mc, ma, tmc | [Chat](https://t.me/+YNWScBhdFWE1NWNk) |
-| Programmazione di Sistemi Embedded e Multicore      | `10593235` | mc, ma, tmc | [Chat](https://t.me/+vrv-7-gEDINhMzZk) |
-| Programmazione per il Web                           | `1022267`  | ta, tc      | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
-
-#### Secondo Semestre
-
-| Insegnamento                                         | Codice     | Curriculum  |                Telegram                |
-|------------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Biologia Computazionale                              | `1031337`  | ta, tc      | [Chat](https://t.me/+cBediJPv7GxmZTc8) |
-| Intelligenza Artificiale                             | `1022262`  | mc, ma, tmc | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-| Linguaggi e Compilatori                              | `1041761`  | ta, tc      | [Chat](https://t.me/+EOvDZsXSLI0zZGRk) |
-| Matematica Discreta                                  | `1021828`  | ma          | [Chat](https://t.me/+x5k6q2yrsztlOWVk) |
-| Modelli e Ottimizzazione                             | `1022265`  | mc, ma, tmc | [Chat](https://t.me/+TyMj4NBvh8pVeId9) |
-| Organizzazione e Gestione per lo Start-Up Aziendale* | `10596283` | ta          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
-| Sicurezza                                            | `1022268`  | mc, ma, tmc | [Chat](https://t.me/+WfOOX_dUtBJkZmVk) |
-| Tecniche di Programmazione Funzionale e Imperativa   | `10589652` | mc, ma, tmc | [Chat](https://t.me/+X7XCdT3tfA83OTVk) |
-| Verifica e Validazione di Sistemi Intelligenti       | `10600494` | ta, tc      | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-
-<!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
+| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
+| Organizzazione e Gestione per lo Start-Up Aziendale*| `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
+| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
+| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
+| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
+| Sicurezza Informatica                               | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
 
 \* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
+
+#### Gruppo: Ambiti specialistici
+
+| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
+|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
+| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
+| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+| Sicurezza Informatica                               | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+
+<!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
 
 ### Insegnamenti a scelta esterni
 
