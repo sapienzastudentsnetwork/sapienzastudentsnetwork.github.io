@@ -1,12 +1,11 @@
 ---
 title: "Informatica - teledidattica"
 weight: 3
-aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percorso-formativo"]
 ---
 
 # Percorso Formativo
 
-Le studentesse e gli studenti **iscritti al primo anno** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
+Le studentesse e gli studenti **iscritti al primo anno** del Corso di Laurea in **Informatica (erogato in modalità prevalentemente a distanza)** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -17,7 +16,7 @@ Gli insegnamenti opzionali potranno infatti essere prenotati e verbalizzati solt
 ## Come funziona il percorso formativo
 
 ### Quanti insegnamenti scegliere
-Al Primo Anno, è prevista la scelta di un insegnamento all'interno del Gruppo opzionale "Inglese", tra le seguenti alternative:
+**Con il nuovo ordinamento (immatricolati dall'A.A. 2025/26 in poi)**, al Primo Anno è prevista la scelta di un insegnamento all'interno del Gruppo opzionale "Inglese", tra le seguenti alternative:
  
 - AAF2512 – Inglese ESP (livello B1)
 - AAF1902 – Lingua Inglese (livello B2)
@@ -29,7 +28,7 @@ Di questi 30 CFU, fino a **12 CFU** possono provenire da insegnamenti esterni al
 
 ### Quando presentare il proprio percorso formativo
 
-Gli studenti **iscritti al Primo Anno** possono presentare o chiedere di rinnovare il loro percorso formativo **una sola volta per ogni anno accademico**.
+Gli studenti possono presentare o chiedere di rinnovare il loro percorso formativo **una sola volta per ogni anno accademico**.
 
 Il percorso formativo può essere presentato dal **1 Ottobre di ogni anno fino al successivo 30 Settembre**.
 
@@ -97,7 +96,7 @@ Il docente di riferimento nella Commissione competente per la laurea triennale �
 
 ### Primo Anno - Insegnamenti di completamento
 
-Per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necassario scegliere uno tra i due corsi:
+Per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necessario scegliere uno tra i due corsi:
 
 | Insegnamento                        |  Codice   | CFU |
 |-------------------------------------|:---------:|:---:|
@@ -196,13 +195,11 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 | SYSTEMS AND NETWORKING                        | `10595616` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 12  | [Telegram](https://t.me/appliedCS_AI)                |
 | TEORIA DEI SEGNALI                            | `1041892`  | [Ing. dell'Inf. (Latina)](https://corsidilaurea.uniroma1.it/it/course/33498)        | 3   | -                                                    |
 
-<!--| GAMIFICATION E GAME DESIGN                    | `1047674`  | [Inf. in Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)                  | 6   | [Telegram](https://t.me/+CnCSKOzEdU05ODE0)           |-->
-
 ## FAQ
 
 <details>
     <summary>Posso scegliere tutti insegnamenti interni?</summary>
-    <b>Sì</b>, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (29923). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
+    <b>Sì</b>, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (33504). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
 </details>
 
 <details>
