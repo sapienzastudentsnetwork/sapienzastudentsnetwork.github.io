@@ -1,7 +1,6 @@
 ---
 title: "Informatica - in presenza"
-weight: 3
-aliases: ["/percorso-formativo", "/it/percorso-formativo", "/informatica/percorso-formativo"]
+weight: 2
 ---
 
 # Percorso Formativo
