@@ -827,15 +827,26 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
+            "building": "Edificio: RM111",
             "course": "10620665",
-            "room": "Aula 2",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "13:00"
-              },
+              }
+            ],
+            "subject": "LOGICS AND REASONING",
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10620665",
+            "room": "Aula 2",
+            "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "11:00",
@@ -1531,15 +1542,27 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
+            "building": "Edificio: RM111",
             "course": "1047636",
-            "room": "Aula 2",
+            "room": "Aula Magna",
             "schedule": [
               {
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "13:00"
-              },
+              }
+            ],
+            "subject": "MATHEMATICAL LOGIC FOR COMPUTER SCIENCE",
+            "teachers": [
+              "PERELLI GIUSEPPE",
+              "CARLUCCI LORENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047636",
+            "room": "Aula 2",
+            "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "11:00",
