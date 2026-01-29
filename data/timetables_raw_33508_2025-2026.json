@@ -832,6 +832,11 @@
             "room": "Aula 2",
             "schedule": [
               {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
                 "day": "gioved\u00ec",
                 "from": "11:00",
                 "to": "13:00"
@@ -1530,6 +1535,11 @@
             "course": "1047636",
             "room": "Aula 2",
             "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
               {
                 "day": "gioved\u00ec",
                 "from": "11:00",

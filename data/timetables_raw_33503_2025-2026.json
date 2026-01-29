@@ -1043,6 +1043,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1021828",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "MATEMATICA DISCRETA",
+            "teachers": [
+              "CAPPARELLI STEFANO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1022262",
             "room": "Aula G50",
