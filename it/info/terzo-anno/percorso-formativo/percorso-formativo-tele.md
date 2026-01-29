@@ -96,7 +96,7 @@ Il docente di riferimento nella Commissione competente per la laurea triennale �
 
 ### Primo Anno - Insegnamenti di completamento
 
-Per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necessario scegliere uno tra i due corsi:
+Con l'introduzione del **nuovo ordinamento (A.A. 2025/26)**, per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necessario scegliere uno tra i due corsi:
 
 | Insegnamento                        |  Codice   | CFU |
 |-------------------------------------|:---------:|:---:|
@@ -124,7 +124,11 @@ Questo tipo di percorso formativo non rispetta i vincoli di nessuno dei due curr
 Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio di Area Didattica (CAD) di Informatica prima di un'eventuale approvazione** (non garantita).
 {{% /hint %}}
 
-Per quanto riguarda i corsi opzionali interni è necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti affini di completamento"** e **6 CFU** dal secondo gruppo **"Ambiti specialistici"**, elencati di seguito.
+Per quanto riguarda i corsi opzionali interni, la loro divisione e scelta cambia tra il **vecchio ordinamento** *(immatricolati fino all'A.A. 2024/25)* e il **nuovo ordinamento** *(immatricolati dall'A.A. 2025/26 in poi)*:
+
+{{% tabs "runningsite" %}}
+{{% tab "✨ Nuovo Ordinamento" %}}
+È necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti affini di completamento"** e **6 CFU** dal secondo gruppo **"Ambiti specialistici"**, elencati di seguito.
 
 #### Gruppo: Insegnamenti affini di completamento
 
@@ -135,7 +139,7 @@ Per quanto riguarda i corsi opzionali interni è necessario ottenere **12 CFU** 
 | Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
 | Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
 | Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-| Sicurezza Informatica                               | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Sicurezza                                           | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
 | Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
 
 \* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
@@ -146,9 +150,41 @@ Per quanto riguarda i corsi opzionali interni è necessario ottenere **12 CFU** 
 |-----------------------------------------------------|------------|-------------|:--------------------------------------:|
 | Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
 | Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-| Sicurezza Informatica                               | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Sicurezza                                           | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
 
 <!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
+{{% /tab %}}
+{{% tab "🕰️ Vecchio Ordinamento" %}}
+
+È necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti caratterizzanti di completamento"** e **6 CFU** dal secondo gruppo **"Insegnamenti affini di completamento"**, elencati di seguito.
+
+#### Gruppo: Insegnamenti caratterizzanti di completamento
+
+| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
+|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
+| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
+| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
+| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
+| Sicurezza                                           | `1022268`  | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
+| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+
+#### Gruppo: Insegnamenti affini di completamento
+
+| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
+|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
+| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
+| Organizzazione e Gestione per lo Start-Up Aziendale*| `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
+| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
+| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
+| Sicurezza                                           | `1022268`  | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
+| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+
+\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
+
+{{% /tab %}}
+{{% /tabs %}}
 
 ### Insegnamenti a scelta esterni
 
@@ -204,7 +240,7 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 
 <details>
     <summary>Posso scegliere tutti insegnamenti erogati al Primo Semestre?</summary>
-    <b>Sì</b>, se hai scelto due insegnamenti con orari delle lezioni che si sovrappongono, e intendi frequentare, dovrai riuscire a organizzarti in qualche modo, ma non ci sono problemi per quanto riguarda gli esami. La scelta degli insegnamenti è libera, puoi scegliere tutti insegnamenti erogati al Primo Semestre oppure tutti insegnamenti erogati al Secondo Semestre.
+    <b>Sì</b>, se, nella scelta dei corsi esterni, in due insegnamenti gli orari delle lezioni si sovrappongono, e intendi frequentare, dovrai riuscire a organizzarti in qualche modo, ma non ci sono problemi per quanto riguarda gli esami. La scelta degli insegnamenti è libera, puoi scegliere tutti insegnamenti erogati al Primo Semestre oppure tutti insegnamenti erogati al Secondo Semestre.
 </details>
 
 <details>
