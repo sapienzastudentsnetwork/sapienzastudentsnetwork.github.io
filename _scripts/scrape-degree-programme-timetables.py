@@ -540,7 +540,23 @@ if __name__ == '__main__':
     #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
 
     if degree_programme_code == "33503": # Informatica
-        pass
+        # 1015889 - RETI DI ELABORATORI
+        if (
+            "1015889" in course_timetables_dict
+            and "2" in course_timetables_dict["1015889"]["channels"]
+            and "martedì" not in course_timetables_dict["1015889"]["channels"]["2"]
+        ):
+            course_timetables_dict["1015889"]["channels"]["2"]["martedì"] = [
+              {
+                "teachers": {
+                  "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
+                },
+                "timeslot": "14 - 17",
+                "classrooms": {
+                    "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+                }
+              }
+            ]
 
     elif degree_programme_code == "33502": # ACSAI
         pass
@@ -566,10 +582,13 @@ if __name__ == '__main__':
                     classroomUrl  = None
 
                     if "teachers" in day_schedule:
+                        # 1038141 - NATURAL LANGUAGE PROCESSING
                         if course_code == "1038141":
                             day_schedule["teachers"]["1986beaa-9a9b-493a-932c-82a3ff97b6f9"] = "FARALLI STEFANO"
+                        # 10607006 - FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING
                         elif course_code == "10607006":
                             day_schedule["teachers"]["8ed8a497-ed02-41ea-b32a-96de43093776"] = "ZULIANI PAOLO"
+                        # 10620665 - LOGICS AND REASONING
                         elif course_code == "10620665":
                             day_schedule["teachers"]["b6bb1ba8-7e12-48b3-bc4e-dccbb9840942"] = "CARLUCCI LORENZO"
 
