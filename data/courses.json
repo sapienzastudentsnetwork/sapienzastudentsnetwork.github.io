@@ -282,7 +282,7 @@
     "10593235": {
         "name": "Programmazione di Sistemi Embedded e Multicore",
         "shortName": "Multicore",
-        "abbr": "PEM",
+        "abbr": "PMC",
         "tgGroup": "https://t.me/+vrv-7-gEDINhMzZk",
         "cfu": 6
     },
@@ -630,6 +630,12 @@
         "tgGroup": "https://t.me/+-iMx8soyQyNmYTk8"
     },
     "1047636": {
+        "name": "Mathematical Logic for Computer Science",
+        "shortName": "Math. Logic for CS",
+        "abbr": "MATH",
+        "tgGroup": "https://t.me/+o5P3c6dDULM2YmE0"
+    },
+    "10620665": {
         "name": "Logics and Reasoning",
         "shortName": "Logics and Reasoning",
         "abbr": "LR",
