@@ -28,7 +28,7 @@ timetables:
       - '1047622'  # CRYPTOGRAPHY
       - '1047640'  # NETWORK ALGORITHMS
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
-bookHidden: false
+bookHidden: true
 ---
 
 Check out the lesson timetable for the first semester of Computer Science
