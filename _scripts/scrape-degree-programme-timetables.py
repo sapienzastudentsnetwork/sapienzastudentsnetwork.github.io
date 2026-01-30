@@ -546,30 +546,7 @@ if __name__ == '__main__':
         pass
 
     elif degree_programme_code == "33508": # Computer Science
-        # Remove the specific schedules of "FUNDAMENTALS OF DATA SCIENCE" (1047224)
-        # from those of "FOUNDATIONS OF DATA SCIENCE" (1047627)
-        if (
-            "1047627" in course_timetables_dict
-            and "channels" in course_timetables_dict["1047627"]
-            and "0" in course_timetables_dict["1047627"]["channels"]
-        ):
-           if "giovedì" in course_timetables_dict["1047627"]["channels"]["0"]:
-               course_timetables_dict["1047627"]["channels"]["0"].pop("giovedì")
-           if "venerdì" not in course_timetables_dict["1047627"]["channels"]["0"]:
-                course_timetables_dict["1047627"]["channels"]["0"]["venerdì"] = [
-                  {
-                    "teachers": {
-                      "41bb3661-c6ac-423b-996f-91f764daa880": "CINELLI MATTEO",
-                      "a1981481-7d65-45e4-9aca-56fe37e9b95b": "SPINELLI INDRO"
-                    },
-                    "timeslot": "11 - 13",
-                    "classrooms": {
-                      "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                    }
-                  }
-                ]
-
-        #pass
+        pass
 
     elif degree_programme_code == "33516": # Cybersecurity
         pass
@@ -585,58 +562,6 @@ if __name__ == '__main__':
         for channel_id, channel_data in course_data["channels"].items():
             for day_name, day_schedules in channel_data.items():
                 for day_schedule in day_schedules:
-                    # 10621549_1 - ANALISI MATEMATICA I MODULO
-                    if course_code == "10621549_1" and channel_id == "1":
-                        if "teachers" in day_schedule:
-                            day_schedule["teachers"]["2933c5a1-f1b1-4ecf-9b70-a990780c704e"] = "AIELLO VALERIANO"
-                        #if day_name == "venerdì" and "classrooms" in day_schedule and "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
-                        #    day_schedule["classrooms"].pop("41f8d660-fcfd-4b27-9dc6-8da0e075088b")
-                        #    day_schedule["classrooms"]["27a4966a-0abc-418d-aa04-ea3973e3cdef"] = "Aula 3 (Edificio: RM018)"
-                    # 1015886 - ALGEBRA
-                    elif course_code == "1015886" and channel_id == "1" and "teachers" in day_schedule:
-                        day_schedule["teachers"]["c9a7e4f6-798f-4f17-a5a3-93e09d0b1817"] = "DE SOLE ALBERTO"
-                    # 1015883 - FONDAMENTI DI PROGRAMMAZIONE
-                    # Wednesday laboratory classes
-                    elif course_code == "1015883" and day_name == "mercoledì" and "teachers" in day_schedule:
-                        if channel_id == "1":
-                            day_schedule["teachers"] = {
-                                "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "FRIOLO DANIELE"
-                            }
-                        elif channel_id == "2":
-                            day_schedule["teachers"] = {
-                                "1138287c-ed09-4d3e-be57-d50b8f12e7a2": "PONTARELLI SALVATORE"
-                            }
-                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
-                    elif course_code == "1055681":
-                        day_schedule["teachers"]["6c3bba26-eefd-4122-8fec-d79f670c521b"] = "QUERZONI LEONARDO"
-                    # 10616636 - MACHINE LEARNING SECURITY
-                    elif course_code == "10616636":
-                        day_schedule["teachers"]["5457d8e3-6352-4c7b-ab90-a3b8a3db1968"] = "HITAJ DORJAN"
-                    # 1055061 - SECURITY GOVERNANCE
-                    elif course_code == "1055061":
-                        day_schedule["teachers"]["c7077354-e19e-49c5-a528-9a6094a07b76"] = "FABRIZIO D'AMORE"
-                    # 1027171 - NETWORK INFRASTRUCTURES
-                    elif course_code == "1027171":
-                        day_schedule["teachers"]["61eac323-9fc2-4e48-b469-957e446ddaff"] = "FRANCESCA CUOMO"
-                    # AAF2511 - INGLESE LIVELLO B2
-                    elif course_code == "AAF2511":
-                        if "teachers" not in day_schedule or not day_schedule["teachers"]:
-                            day_schedule["teacherInfo"] = "BIGLINO LAURA"
-                    # 1022807 - DISTRIBUTED SYSTEMS (CYBERSECURITY)
-                    if course_code == "1022807":
-                        if (
-                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
-                            and "c3c3ddad-bb6e-4e83-a9a1-211ce885f591" in day_schedule["classrooms"] # Aula Sala Studio (CU017)
-                        ):
-                            day_schedule["classrooms"].pop("c3c3ddad-bb6e-4e83-a9a1-211ce885f591")
-                    # 1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
-                    elif course_code == "1055681":
-                        if (
-                            "8e92b19a-4c17-4a44-973e-5e1adbb804df" in day_schedule["classrooms"]     # AULA 201 - Regina Elena - Edificio D
-                            and "5f955d3a-f9f4-42fb-9f38-0a58ef2dc232" in day_schedule["classrooms"] # Aula Alfa
-                        ):
-                            day_schedule["classrooms"].pop("5f955d3a-f9f4-42fb-9f38-0a58ef2dc232")
-
                     classroomInfo = None
                     classroomUrl  = None
 
@@ -655,14 +580,6 @@ if __name__ == '__main__':
                         if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
                             classroomInfo = "Aula 4 (Edificio: RM158)"
                             classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
-
-                        if (
-                            course_code == "1047618"
-                            and day_name == "martedì"
-                            and "398537f5-1be4-4287-be7b-eb76298c4a8f" in day_schedule["classrooms"] # AULA 101 - Regina Elena - Edificio D
-                            and "7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a" in day_schedule["classrooms"] # Aula 5 - Aule di Botanica - Aule blu
-                        ):
-                            day_schedule["classrooms"].pop("7b51d3d5-e04b-4794-b7a4-2b1a42bbcf7a")
 
                     if classroomInfo is not None:
                         day_schedule.pop("classrooms")
