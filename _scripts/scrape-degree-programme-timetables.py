@@ -570,6 +570,8 @@ if __name__ == '__main__':
                             day_schedule["teachers"]["1986beaa-9a9b-493a-932c-82a3ff97b6f9"] = "FARALLI STEFANO"
                         elif course_code == "10607006":
                             day_schedule["teachers"]["8ed8a497-ed02-41ea-b32a-96de43093776"] = "ZULIANI PAOLO"
+                        elif course_code == "10620665":
+                            day_schedule["teachers"]["b6bb1ba8-7e12-48b3-bc4e-dccbb9840942"] = "CARLUCCI LORENZO"
 
                     if "classrooms" in day_schedule:
                         #if (

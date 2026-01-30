@@ -1038,7 +1038,8 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE"
+              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE",
+              "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
             },
             "timeslot": "10 - 13",
             "classrooms": {
@@ -1049,7 +1050,8 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE"
+              "e05a5768-0250-4ddf-853d-57f2dad889a6": "PERELLI GIUSEPPE",
+              "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
             },
             "timeslot": "11 - 13",
             "classrooms": {
