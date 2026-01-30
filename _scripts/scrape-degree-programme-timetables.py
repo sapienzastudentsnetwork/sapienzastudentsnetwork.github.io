@@ -75,7 +75,7 @@ def parse(DOM):
             #      lunedì dalle 08:00 alle 11:00
             #      venerdì dalle 08:00 alle 10:00
 
-            for tr in h3.findNext().find_all('tr')[1:]:
+            for tr in h3.find_next().find_all('tr')[1:]:
                 (course_column, classroom_column, schedule_column) = tuple(tr.find_all('td'))
                 
                 # Find the <a> element containing the course's code
@@ -245,7 +245,7 @@ def parse(DOM):
                 'timetable': []
             }
 
-            for tr in h3.findNext().find_all('tr')[1:]:
+            for tr in h3.find_next().find_all('tr')[1:]:
                 (course, room, schedule) = tuple(tr.find_all('td'))
 
                 section = {
