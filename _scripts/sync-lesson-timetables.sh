@@ -5,7 +5,7 @@ rm ../data/timetables.json
 
 declare -a degree_programme_codes=("33503" "33508" "33516" "33502")
 academic_year="2025/2026"
-semester="primo"
+semester="secondo"
 
 for ((i=0; i<${#degree_programme_codes[@]}; i++)); do
     export DEGREE_PROGRAMME_CODE="${degree_programme_codes[i]}"
