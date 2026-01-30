@@ -997,29 +997,11 @@
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
-          },
-          {
-            "teachers": {
-              "00000000-0000-0000-0000-000000000000": ""
-            },
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
           }
         ],
         "venerd\u00ec": [
           {
             "teachers": {},
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          },
-          {
-            "teachers": {
-              "00000000-0000-0000-0000-000000000000": ""
-            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"

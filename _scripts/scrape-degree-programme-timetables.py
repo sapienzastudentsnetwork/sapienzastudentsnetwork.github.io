@@ -597,6 +597,17 @@ if __name__ == '__main__':
                         if classroomUrl is not None:
                             day_schedule["classroomUrl"] = classroomUrl
 
+    if "1047634" in course_timetables_dict:
+        for day_name in course_timetables_dict["1047634"]["channels"]["0"]:
+            update_day_schedules = False
+            day_schedules_tmp = []
+            for day_schedule in course_timetables_dict["1047634"]["channels"]["0"][day_name]:
+                if "teachers" in day_schedule and "00000000-0000-0000-0000-000000000000" in day_schedule["teachers"]:
+                    update_day_schedules = True
+                else:
+                    day_schedules_tmp.append(day_schedule)
+            if update_day_schedules:
+                course_timetables_dict["1047634"]["channels"]["0"][day_name] = day_schedules_tmp
 
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
