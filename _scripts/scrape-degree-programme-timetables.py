@@ -565,6 +565,12 @@ if __name__ == '__main__':
                     classroomInfo = None
                     classroomUrl  = None
 
+                    if "teachers" in day_schedule:
+                        if course_code == "1038141":
+                            day_schedule["teachers"]["1986beaa-9a9b-493a-932c-82a3ff97b6f9"] = "FARALLI STEFANO"
+                        elif course_code == "10607006":
+                            day_schedule["teachers"]["8ed8a497-ed02-41ea-b32a-96de43093776"] = "ZULIANI PAOLO"
+
                     if "classrooms" in day_schedule:
                         #if (
                         #    "1e079880-d2d2-49ef-8058-c58ab0baa4b4" in day_schedule["classrooms"]
