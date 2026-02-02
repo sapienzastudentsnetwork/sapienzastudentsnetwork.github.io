@@ -8,33 +8,31 @@
 /* } */
 
 @font-face {
-    font-family: 'OpenDyslexic';
-    src: url('opendyslexic/OpenDyslexic-Regular.woff2') format('woff2');
+    font-family: "OpenDyslexic";
+    src: url("opendyslexic/OpenDyslexic-Regular.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: 'OpenDyslexic';
-    src: url('opendyslexic/OpenDyslexic-Bold.woff2') format('woff2');
+    font-family: "OpenDyslexic";
+    src: url("opendyslexic/OpenDyslexic-Bold.woff2") format("woff2");
     font-weight: bold;
 }
 
-
 @font-face {
-    font-family: 'OpenDyslexic';
-    src: url('opendyslexic/OpenDyslexic-Italic.woff2') format('woff2');
+    font-family: "OpenDyslexic";
+    src: url("opendyslexic/OpenDyslexic-Italic.woff2") format("woff2");
     font-style: italic;
 }
-
 
 /* * { */
 /*     font-family: 'OpenDyslexic' !important; */
 /* } */
 
 .dyslexic * {
-    font-family: 'OpenDyslexic' !important;
-    font-size-adjust: .45;
+    font-family: "OpenDyslexic" !important;
+    font-size-adjust: 0.45;
 }
-
+/*
 .sapienza-1 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fmain-entrance-university-city-studies-la-sapienza-roma-ital-italy-90047500.jpg&f=1&nofb=1&ipt=3ef1bb17eb72a538f7c7586a7e45e11cff3b6acfd83bb27975920b70b95632ae&ipo=images');
     @apply bg-cover opacity-5;
@@ -54,19 +52,19 @@
 .sapienza-4 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.casilinanews.it%2Fwp-content%2Fuploads%2F2016%2F07%2Fsapienza.jpg&f=1&nofb=1&ipt=32d5a57a1a68af621d870b7325ccfd96291e090d5a9f5a3690808eb63559405d&ipo=images');
     @apply bg-cover opacity-5;
-}
+}*/
 
 .sapienza-5 {
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Froma.metropolitanmagazine.it%2Fwp-content%2Fuploads%2F2021%2F05%2FVilla-Mirafiori.jpg&f=1&nofb=1&ipt=da973e2ebf807f0f3b1f5d40dddd23e02ae43e9133c7c4f9a20a30cdc7cafa9a');
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Froma.metropolitanmagazine.it%2Fwp-content%2Fuploads%2F2021%2F05%2FVilla-Mirafiori.jpg&f=1&nofb=1&ipt=da973e2ebf807f0f3b1f5d40dddd23e02ae43e9133c7c4f9a20a30cdc7cafa9a");
     @apply bg-cover opacity-5;
 }
 
 .sapienza-6 {
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.meer.com%2Fattachments%2Fd98e16519c30d08cfb11b738773e7346466fdd6c%2Fstore%2Ffill%2F690%2F388%2F3959f1792f03229f1f990b55f6edc923b958bd154945e6a4d032044e6217%2FVilla-Mirafiori-veduta-generale-foto-Roberto-Luciani.jpg&f=1&nofb=1&ipt=9377fc1a19606da3161020958e218c94b25d8e94697d7ad85fc054d9bd93dea7');
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.meer.com%2Fattachments%2Fd98e16519c30d08cfb11b738773e7346466fdd6c%2Fstore%2Ffill%2F690%2F388%2F3959f1792f03229f1f990b55f6edc923b958bd154945e6a4d032044e6217%2FVilla-Mirafiori-veduta-generale-foto-Roberto-Luciani.jpg&f=1&nofb=1&ipt=9377fc1a19606da3161020958e218c94b25d8e94697d7ad85fc054d9bd93dea7");
     @apply bg-cover opacity-5;
 }
 
-nav  > a {
+nav > a {
     @apply no-underline;
 }
 
@@ -79,22 +77,22 @@ a {
 }
 
 @keyframes pulse {
-  0% {
-    @apply scale-100;
-  }
-  50% {
-    @apply scale-[1.02];
-  }
-  100% {
-    @apply scale-100;
-  }
+    0% {
+        @apply scale-100;
+    }
+    50% {
+        @apply scale-[1.02];
+    }
+    100% {
+        @apply scale-100;
+    }
 }
-     
+
 .minecraft {
-    font-family: 'Minecraft' !important;
+    font-family: "Minecraft" !important;
     text-shadow: 2px 2px black;
     animation: pulse 1s infinite ease-in-out;
-    @apply text-amber-400 ;
+    @apply text-amber-400;
 }
 
 .diamond {
