@@ -5,7 +5,7 @@ services:
     volumes:
       # Mount the current directory to the container
       # This is useful for updating the website without rebuilding the container
-      - ".:/app"
+      - ".:/app:z"
 
     ports:
       # Map the container's port 1313 to the host's port 1313
