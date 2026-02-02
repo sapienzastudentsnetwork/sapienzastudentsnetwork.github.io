@@ -95,6 +95,7 @@ Furthermore, **only for EU applicants or non-EU legally residing in Italy** the 
 
 - the applicant obtain at least 36 points in the English TOLC-I test
 - the applicant obtain at least 24 points in the English section of the Italian TOLC-I or TOLC-S.
+- the applicant obtain at least 970 points in the SAT test
 
 If you are a non-EU applicant not residing in Italy or a EU applicant that has not obtained enough points in TOLC tests, **you must provide one of the certificates explained in the options 1-5**. The certificate must be sent to [acsai@di.uniroma1.it](mailto:acsai@di.uniroma1.it) by the end of the pre-enrollment for the first round winners or by the end of the enrollment for second and third round winners (see the section [Pre-enrollment or enrollment](#pre-enrollment-or-enrollment))
 
