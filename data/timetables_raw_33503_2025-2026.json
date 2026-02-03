@@ -1,0 +1,1278 @@
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "AAF2511",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "INGLESE LIVELLO B2",
+            "teachers": [
+              "Biglino Laura "
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1015883",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015883",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015883",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621297",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "METODI MATEMATICI PER L'INFORMATICA",
+            "teachers": [
+              "CARLUCCI LORENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621549",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
+            "teachers": [
+              "LANZARA FLAVIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621549",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
+            "teachers": [
+              "LANZARA FLAVIA"
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015883",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015883",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1015883",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621297",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "METODI MATEMATICI PER L'INFORMATICA",
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621549",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
+            "teachers": [
+              "ORSINA LUIGI"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1015884",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10620599",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ALGORITMI 1",
+            "teachers": [
+              "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621298",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ALGEBRA LINEARE E GEOMETRIA",
+            "teachers": [
+              "O'GRADY KIERAN GREGORY"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621549",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA II MODULO",
+            "teachers": [
+              "TERRACINA ANDREA"
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015884",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "METODOLOGIE DI PROGRAMMAZIONE",
+            "teachers": [
+              "FARALLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10620599",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ALGORITMI 1",
+            "teachers": [
+              "MONTI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621298",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ALGEBRA LINEARE E GEOMETRIA",
+            "teachers": [
+              "TIOZZO GIULIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621549",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA II MODULO",
+            "teachers": [
+              "ANSINI NADIA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015886",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "ALGEBRA",
+            "teachers": [
+              "D'ALESSANDRO FLAVIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015887",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "BASI DI DATI I MODULO",
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1020421",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "CALCOLO DELLE PROBABILITA'",
+            "teachers": [
+              "NAPPO GIOVANNA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1020422",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI I MODULO",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1015886",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "ALGEBRA",
+            "teachers": [
+              "PELLARIN FEDERICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "1015886",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ALGEBRA",
+            "teachers": [
+              "PELLARIN FEDERICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015887",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "BASI DI DATI I MODULO",
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015889",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "RETI DI ELABORATORI",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1020421",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "CALCOLO DELLE PROBABILITA'",
+            "teachers": [
+              "SILVESTRI VITTORIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "1020421",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "CALCOLO DELLE PROBABILITA'",
+            "teachers": [
+              "SILVESTRI VITTORIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1020422",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI I MODULO",
+            "teachers": [
+              "DE GASPARI FABIO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1015887",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "BASI DI DATI II MODULO",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015888",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "PROGETTAZIONE DI ALGORITMI",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1015889",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "RETI DI ELABORATORI",
+            "teachers": [
+              "CHECCO ALESSANDRO"
+            ]
+          }
+        ]
+      },
+      {
+        "channel": "Canale 2",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1015887",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BASI DI DATI II MODULO",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015888",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "PROGETTAZIONE DI ALGORITMI",
+            "teachers": [
+              "MONTI ANGELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1015889",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "RETI DI ELABORATORI",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - secondo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM111",
+            "course": "1022263",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "INTERAZIONE UOMO MACCHINA",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1022264",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "LINGUAGGI DI PROGRAMMAZIONE",
+            "teachers": [
+              "CENCIARELLI PIETRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1022267",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "PROGRAMMAZIONE PER IL WEB",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1022301",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "INGEGNERIA DEL SOFTWARE",
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1041727",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10593235",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+            "teachers": [
+              "DE SENSI DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "10593235",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+            "teachers": [
+              "DE SENSI DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10606972",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "DATA SCIENCE E DIRITTO",
+            "teachers": [
+              "ASARO CARMELO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "97597",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FISICA",
+            "teachers": [
+              "GERMANO MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "97597",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FISICA",
+            "teachers": [
+              "GERMANO MASSIMO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Terzo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1021828",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "MATEMATICA DISCRETA",
+            "teachers": [
+              "CAPPARELLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1021828",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "MATEMATICA DISCRETA",
+            "teachers": [
+              "CAPPARELLI STEFANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1022262",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "INTELLIGENZA ARTIFICIALE",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1022262",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "INTELLIGENZA ARTIFICIALE",
+            "teachers": [
+              "MANCINI TONI"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1022265",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "MODELLI E OTTIMIZZAZIONE",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1022265",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "MODELLI E OTTIMIZZAZIONE",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1022268",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SICUREZZA",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1031337",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "BIOLOGIA COMPUTAZIONALE",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1031337",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "BIOLOGIA COMPUTAZIONALE",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1041761",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "LINGUAGGI E COMPILATORI",
+            "teachers": [
+              "FRANCESCHINI GIANNI"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10589652",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA",
+            "teachers": [
+              "SALVO IVANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10596283",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "teachers": [
+              "GATTI MAURO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10596283",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "teachers": [
+              "GATTI MAURO"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10600494",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI",
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Terzo anno - secondo semestre"
+  }
+]
