@@ -1,7 +1,7 @@
 ---
 title: Curriculum
 aliases: ["/30786/courses/curriculum"]
-weight: 1
+weight: 3
 ---
 
 # Curriculum

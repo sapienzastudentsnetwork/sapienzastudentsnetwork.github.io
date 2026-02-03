@@ -1,7 +1,7 @@
 ---
 title: Risorse
 aliases: ["/it/insegnamenti/resources"]
-weight: 4
+weight: 5
 ---
 
 # Risorse

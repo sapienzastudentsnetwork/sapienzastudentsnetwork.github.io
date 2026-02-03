@@ -1,6 +1,6 @@
 ---
 title: Curriculum A.A. 2024/25
-weight: 1
+weight: 3
 bookHidden: true
 ---
 

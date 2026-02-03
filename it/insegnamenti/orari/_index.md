@@ -1,7 +1,7 @@
 ---
 title: Orario delle lezioni
 bookCollapseSection: true
-weight: 3
+weight: 4
 ---
 
 # Orario delle lezioni
