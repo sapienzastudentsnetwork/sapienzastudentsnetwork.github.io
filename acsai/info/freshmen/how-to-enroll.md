@@ -31,15 +31,17 @@ Enrolling in Applied Computer Science requires you to follow the following cruci
 Before starting, there will be some steps that vary depending on which is your nationality. In the call for the course, students are either referred to as **EU** or **non-EU** students; here, we'll use that same split.
 
 You are considered a **EU** student if:
- - you have an Italian citizenship / a citizenship from any EU country;
- - you have a non-EU country but are in possession of a regular residence permit.
+
+- you have an Italian citizenship / a citizenship from any EU country;
+- you have a non-EU country but are in possession of a regular residence permit.
 
 If you **do not** fall in one of the previous cases, then you are considered as a **non-EU** student.
 
 **All students**, regardless of their citizenship, must have the following documents in order to enroll:
- - a **high school diploma** taken in / to be obtained in 2025;
- - a valid **entrance test** (see [the admission tests section](#admission-tests) for further details);
- - an adequate knowledge of the English language (see [the English requirements section](#english-requirements) for further details).
+
+- a **high school diploma** taken in / to be obtained in 2025;
+- a valid **entrance test** (see [the admission tests section](#admission-tests) for further details);
+- an adequate knowledge of the English language (see [the English requirements section](#english-requirements) for further details).
 
 Now, if you are a EU citizen, you can skip the following two sections and [go directly here](#english-requirements), otherwise, you should read the following sections, since they contain important info for you.
 
@@ -50,8 +52,9 @@ Here we will mention what non-EU students will need in order to participate to t
 ### Extra documents
 
 Non-EU students will need, together with the documents mentioned in [the preliminary steps](#preliminary-steps), the following documents:
- - the pre-acceptance letter (in `.pdf` format) from the pre-selection procedure carried out from [https://www.uniroma1.it/en/admissions](https://www.uniroma1.it/en/admissions);
- - the online pre-enrolment application for the "university enrolment study visa" from the [Universitaly platform](https://www.universitaly.it/). The application must be carried out **before June 30, 2025** on the platform, for the academic year 2025-2026.
+
+- the pre-acceptance letter (in `.pdf` format) from the pre-selection procedure carried out from [https://www.uniroma1.it/en/admissions](https://www.uniroma1.it/en/admissions);
+- the online pre-enrolment application for the "university enrolment study visa" from the [Universitaly platform](https://www.universitaly.it/). The application must be carried out **before June 30, 2025** on the platform, for the academic year 2025-2026.
 
 ### Visa
 
@@ -67,15 +70,15 @@ If you are an EU citizen or come from EFTA countries (Iceland, Liechtenstein, No
 
 ## Preselection (mandatory for non-EU applicants)
 
-The [MoveIN](https://sapienza.gomovein.com/) pre-selection is a required preliminary assessment for non-EU candidates residing abroad and optional for Italian, EU candidates, and non-EU citizens residing in Italy. A positive outcome results in a pre-acceptance letter, inviting the candidate to proceed to the selection process. 
+The [MoveIN](https://sapienza.gomovein.com/) pre-selection is a required preliminary assessment for non-EU candidates residing abroad and optional for Italian, EU candidates, and non-EU citizens residing in Italy. A positive outcome results in a pre-acceptance letter, inviting the candidate to proceed to the selection process.
 
 For non-EU citizens abroad, this allows them to submit a pre-enrolment application on [Universitaly](https://www.universitaly.it/) for a study visa by June 30, 2025. Registration details and timeframes for the MoveIN pre-selections are outlined at [this link](https://www.uniroma1.it/en/admissions2024).
 
 To be pre-selected for the degree programme, the following is required:
 
- - A **high school diploma (or equivalent qualification)** obtained by the school year **2024/2025** and after no less than 12 years of study;
- - Evidence of **adequate knowledge of the English language** according to the parameters indicated in [Annex 2](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf);
- - **At least one of the admission tests** indicated in [Section 1](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf) passed with a result of not less than 36/100.
+- A **high school diploma (or equivalent qualification)** obtained by the school year **2024/2025** and after no less than 12 years of study;
+- Evidence of **adequate knowledge of the English language** according to the parameters indicated in [Annex 2](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf);
+- **At least one of the admission tests** indicated in [Section 1](https://www.uniroma1.it/sites/default/files/field_file_allegati/14824_e_1.pdf) passed with a result of not less than 36/100.
 
 Mind that **pre-selection alone is not sufficient** for enrolment. The following admission process depends on passing the selection. Candidates from non-EU countries legally residing abroad cannot participate in the selection rounds without receiving the pre-acceptance letter and confirming the invitation it contains. For more details, click [here](https://www.uniroma1.it/en/admissions2024).
 
@@ -95,7 +98,7 @@ Furthermore, **only for EU applicants or non-EU legally residing in Italy** the 
 
 - the applicant obtain at least 36 points in the English TOLC-I test
 - the applicant obtain at least 24 points in the English section of the Italian TOLC-I or TOLC-S.
-- the applicant obtain at least 970 points in the SAT test
+- the applicant obtain at least 960 points in the SAT test
 
 If you are a non-EU applicant not residing in Italy or a EU applicant that has not obtained enough points in TOLC tests, **you must provide one of the certificates explained in the options 1-5**. The certificate must be sent to [acsai@di.uniroma1.it](mailto:acsai@di.uniroma1.it) by the end of the pre-enrollment for the first round winners or by the end of the enrollment for second and third round winners (see the section [Pre-enrollment or enrollment](#pre-enrollment-or-enrollment))
 
@@ -160,7 +163,7 @@ SAT scores are **not** acquired automatically by Sapienza. You must send them th
 
 - **Sapienza University of Rome** as the name of the institution
 - **9038** as the institution code
-{{% /hint %}}
+  {{% /hint %}}
 
 ## Infostud
 
