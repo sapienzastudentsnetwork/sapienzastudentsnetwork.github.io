@@ -30,15 +30,9 @@
 </article>
 
 <div class="relative" id="main">
-    <div class="flex flex-wrap gap-2 justify-end mb-2">
-        <button class="addSubjs flex items-center gap-2" onclick="openSubjectsDialog()">
-            {{ T "Subjs_CustomTimetable_AddButton" }}
-        </button>
-        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="exportICS()" style="display:none;">
-            <i class="fa-solid fa-download"></i>
-            {{ T "Subjs_CustomTimetable_ExportICS" }}
-        </button>
-    </div>
+    <button class="addSubjs flex items-center gap-2" onclick="openSubjectsDialog()">
+        {{ T "Subjs_CustomTimetable_AddButton" }}
+    </button>
     <!-- { .Content } -->
     {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
@@ -58,6 +52,12 @@
             <tbody class="desktop hidden sm:table-row-group"></tbody>
             <tbody class="mobile table-row-group sm:hidden"></tbody>
         </table>
+    </div>
+    <div class="flex justify-end mt-2">
+        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="exportICS()" style="display:none;">
+            <i class="fa-solid fa-download"></i>
+            {{ T "Subjs_CustomTimetable_ExportICS" }}
+        </button>
     </div>
 </div>
 
