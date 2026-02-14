@@ -268,3 +268,6 @@
 
 - id: BackToTop
   translation: Torna su
+
+- id: DismissBanner
+  translation: Chiudi

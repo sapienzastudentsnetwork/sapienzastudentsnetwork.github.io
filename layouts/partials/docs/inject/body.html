@@ -33,3 +33,20 @@
   });
 })();
 </script>
+
+<script>
+(function() {
+  // Announcement banner dismiss logic
+  document.querySelectorAll('.announcement-banner-close').forEach(function(btn) {
+    var id = btn.getAttribute('data-dismiss');
+    // Hide if already dismissed
+    if (localStorage.getItem('dismissed-' + id)) {
+      btn.parentElement.style.display = 'none';
+    }
+    btn.addEventListener('click', function() {
+      localStorage.setItem('dismissed-' + id, '1');
+      btn.parentElement.style.display = 'none';
+    });
+  });
+})();
+</script>

@@ -1,0 +1,25 @@
+{{/* Dismissible announcement banners — data-driven from data/announcements.json */}}
+{{ $lang := .Site.Language.Lang }}
+{{ $now := now }}
+{{ range site.Data.announcements }}
+  {{/* Skip expired announcements */}}
+  {{ $expired := false }}
+  {{ with .expiresAt }}
+    {{ if time.AsTime . | lt $now }}{{ $expired = true }}{{ end }}
+  {{ end }}
+  {{ if not $expired }}
+    {{ $msg := .message }}
+    {{ if and (eq $lang "it") .messageIT }}{{ $msg = .messageIT }}{{ end }}
+    {{ $levelClass := printf "banner-%s" (default "info" .level) }}
+    <div class="announcement-banner {{ $levelClass }}" data-announcement-id="{{ .id }}" role="alert">
+      <span class="announcement-banner-message">
+        {{ if .url }}<a href="{{ .url }}">{{ $msg }}</a>{{ else }}{{ $msg }}{{ end }}
+      </span>
+      <button class="announcement-banner-close"
+              aria-label="{{ i18n "DismissBanner" | default "Dismiss" }}"
+              data-dismiss="{{ .id }}">
+        &times;
+      </button>
+    </div>
+  {{ end }}
+{{ end }}
