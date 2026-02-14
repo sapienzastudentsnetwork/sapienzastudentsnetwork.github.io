@@ -187,6 +187,15 @@
 - id: Subjs_CustomTimetable_SelectMenuTitle
   translation: Select the subjects you wish to add or remove
 
+- id: Subjs_CustomTimetable_SearchPlaceholder
+  translation: Search subjects...
+
+- id: Subjs_CustomTimetable_ExportICS
+  translation: Export to calendar (.ics)
+
+- id: Subjs_Timetables_ConflictWarning
+  translation: Schedule conflict
+
 #
 #   C O N T A C T S   P A G E
 #

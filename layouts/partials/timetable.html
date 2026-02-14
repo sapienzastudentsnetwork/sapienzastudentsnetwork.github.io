@@ -142,6 +142,11 @@
                 const courses = schedule[day]
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
+                if (courses.length > 1) {
+                    desktopTd.classList.add('timetable-conflict');
+                    mobileTd.classList.add('timetable-conflict');
+                }
+
                 let hasMoreThanACourse = false;
                 for (const { courseCode, alerts, cancelled, classroomDesc } of courses) {
                     const course = COURSES[courseCode];

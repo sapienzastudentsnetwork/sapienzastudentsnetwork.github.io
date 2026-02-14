@@ -374,3 +374,73 @@ a {
         padding: 6px 8px;
     }
 }
+
+/* Conflict indicator for overlapping courses */
+.timetable-conflict {
+    border-left: 3px solid var(--hint-color-danger) !important;
+    background-color: rgba(255, 102, 102, 0.08) !important;
+    position: relative;
+}
+
+.timetable-conflict::before {
+    content: '⚠';
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+/* Subject search input in the dialog */
+.subjsSearchInput {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1.5px solid var(--table-border-color);
+    background-color: var(--body-background);
+    color: var(--body-font-color);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+
+    &::placeholder {
+        color: var(--gray-500);
+    }
+
+    &:focus {
+        border-color: var(--link-color);
+        box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.15);
+    }
+}
+
+/* ICS Export button */
+.exportIcsBtn {
+    border-radius: 8px;
+    height: 36px;
+    padding: 0 16px;
+    background-color: var(--timetable-close-button-bg);
+    color: var(--body-font-color);
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: solid var(--table-border-color) 1.5px;
+    box-shadow: 0 2px 6px var(--table-shadow-color);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    gap: 6px;
+
+    &:hover {
+        background-color: var(--timetable-close-button-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 10px var(--table-shadow-color);
+    }
+
+    &:active {
+        transform: translateY(0);
+        box-shadow: 0 1px 3px var(--table-shadow-color);
+    }
+}

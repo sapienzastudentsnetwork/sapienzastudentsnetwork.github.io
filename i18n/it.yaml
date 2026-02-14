@@ -153,6 +153,15 @@
 - id: Subjs_CustomTimetable_SelectMenuTitle
   translation: Seleziona le materie da inserire o rimuovere
 
+- id: Subjs_CustomTimetable_SearchPlaceholder
+  translation: Cerca materie...
+
+- id: Subjs_CustomTimetable_ExportICS
+  translation: Esporta nel calendario (.ics)
+
+- id: Subjs_Timetables_ConflictWarning
+  translation: Conflitto di orario
+
 #
 #   S S N   P A G E
 #

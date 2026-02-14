@@ -30,11 +30,15 @@
 </article>
 
 <div class="relative" id="main">
-    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button class="addSubjs absolute right-0 top-2 flex items-center gap-2" onclick="openSubjectsDialog()">
-        {{ T "Subjs_CustomTimetable_AddButton" }}
-        <!-- <span class="material-symbols-outlined">add</span> -->
-    </button>
+    <div class="flex flex-wrap gap-2 justify-end mb-2">
+        <button class="addSubjs flex items-center gap-2" onclick="openSubjectsDialog()">
+            {{ T "Subjs_CustomTimetable_AddButton" }}
+        </button>
+        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="exportICS()" style="display:none;">
+            <i class="fa-solid fa-download"></i>
+            {{ T "Subjs_CustomTimetable_ExportICS" }}
+        </button>
+    </div>
     <!-- { .Content } -->
     {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
@@ -61,6 +65,7 @@
     onclick="closeSubjectsDialog()">
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
+        <input type="text" id="subjsSearchInput" class="subjsSearchInput" placeholder="{{ T "Subjs_CustomTimetable_SearchPlaceholder" }}" oninput="filterSubjects(this.value)" autocomplete="off">
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
             {{ $courses := site.Data.courses }}
 
@@ -242,6 +247,7 @@
         );
 
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+        updateExportButton();
     }
 
     addEventListener("DOMContentLoaded", () => {
@@ -286,14 +292,143 @@
         }
 
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+        updateExportButton();
     });
+
+    function updateExportButton() {
+        const btn = document.getElementById('exportIcsBtn');
+        if (btn) {
+            btn.style.display = selectedSubjects.size > 0 ? 'flex' : 'none';
+        }
+    }
 
     function openSubjectsDialog() {
         document.getElementById("subjsPopUp").showModal();
+        const searchInput = document.getElementById("subjsSearchInput");
+        if (searchInput) {
+            searchInput.value = '';
+            filterSubjects('');
+            searchInput.focus();
+        }
     }
 
     function closeSubjectsDialog() {
         document.getElementById("subjsPopUp").close();
+    }
+
+    function filterSubjects(query) {
+        const normalizedQuery = query.toLowerCase().trim();
+        const buttons = document.querySelectorAll('.subjButton');
+        const groupTitles = document.querySelectorAll('.subjsGroupTitle');
+
+        buttons.forEach(button => {
+            const text = button.textContent.toLowerCase();
+            button.style.display = (!normalizedQuery || text.includes(normalizedQuery)) ? '' : 'none';
+        });
+
+        // Hide group headers if all their buttons are hidden
+        groupTitles.forEach(title => {
+            const courseDiv = title.nextElementSibling;
+            if (courseDiv && courseDiv.classList.contains('subjsSingCourse')) {
+                const visibleButtons = courseDiv.querySelectorAll('.subjButton:not([style*="display: none"])');
+                title.style.display = visibleButtons.length > 0 ? '' : 'none';
+                // Also hide the separator line after the course div
+                const separator = courseDiv.nextElementSibling;
+                if (separator && separator.tagName === 'DIV' && separator.style.height === '1px') {
+                    separator.style.display = visibleButtons.length > 0 ? '' : 'none';
+                }
+            }
+        });
+    }
+
+    function exportICS() {
+        if (selectedSubjects.size === 0) return;
+
+        const DAY_MAP = {
+            'lunedì': { ics: 'MO', offset: 0 },
+            'martedì': { ics: 'TU', offset: 1 },
+            'mercoledì': { ics: 'WE', offset: 2 },
+            'giovedì': { ics: 'TH', offset: 3 },
+            'venerdì': { ics: 'FR', offset: 4 },
+        };
+
+        // Use a Monday as anchor date for DTSTART calculation
+        // This is a generic Monday that serves as a starting reference
+        const anchorMonday = new Date(2026, 1, 16); // Feb 16, 2026 (Monday)
+
+        function pad(n) { return n.toString().padStart(2, '0'); }
+        function formatDate(date, hour) {
+            return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(hour)}0000`;
+        }
+
+        let events = [];
+        let uid = 0;
+
+        for (const subjectId of selectedSubjects) {
+            const [courseCode, channelId] = subjectId.split('-');
+            if (!TIMETABLES[courseCode]) continue;
+
+            const courseName = COURSES[courseCode] ? COURSES[courseCode].name : courseCode;
+            const days = TIMETABLES[courseCode]['channels'][channelId || '0'] || {};
+
+            for (const [day, hoursRaw] of Object.entries(days)) {
+                const hours = Array.isArray(hoursRaw) ? hoursRaw : [hoursRaw];
+                const dayInfo = DAY_MAP[day];
+                if (!dayInfo) continue;
+
+                for (const time of hours) {
+                    if (time.cancelled) continue;
+
+                    const [startTime, endTime] = time.timeslot.split('-').map(t => parseInt(t));
+
+                    // Calculate the specific date for this day of the week
+                    const eventDate = new Date(anchorMonday);
+                    eventDate.setDate(anchorMonday.getDate() + dayInfo.offset);
+
+                    // Build location string
+                    let location = '';
+                    if (time.classroomInfo) {
+                        location = time.classroomInfo;
+                    } else if (time.classrooms) {
+                        location = Object.values(time.classrooms).join(', ');
+                    }
+
+                    uid++;
+                    events.push([
+                        'BEGIN:VEVENT',
+                        `UID:${uid}-${courseCode}@sapienzastudents.net`,
+                        `DTSTART:${formatDate(eventDate, startTime)}`,
+                        `DTEND:${formatDate(eventDate, endTime)}`,
+                        `RRULE:FREQ=WEEKLY;BYDAY=${dayInfo.ics};COUNT=15`,
+                        `SUMMARY:${courseName}`,
+                        location ? `LOCATION:${location}` : '',
+                        `DESCRIPTION:Course code: ${courseCode}`,
+                        'END:VEVENT',
+                    ].filter(Boolean).join('\r\n'));
+                }
+            }
+        }
+
+        const icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//SapienzaStudents//Timetable//EN',
+            'CALSCALE:GREGORIAN',
+            'METHOD:PUBLISH',
+            'X-WR-CALNAME:Sapienza Timetable',
+            ...events,
+            'END:VCALENDAR',
+        ].join('\r\n');
+
+        const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'sapienza-timetable.ics';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     }
 </script>
 {{ end }}
