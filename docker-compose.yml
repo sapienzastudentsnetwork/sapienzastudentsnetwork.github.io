@@ -6,6 +6,9 @@ services:
       # Mount the current directory to the container
       # This is useful for updating the website without rebuilding the container
       - ".:/app"
+      # Preserve build-time artifacts from being overwritten by the bind mount
+      - /app/node_modules
+      - /app/static/generated
 
     ports:
       # Map the container's port 1313 to the host's port 1313

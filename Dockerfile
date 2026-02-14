@@ -1,10 +1,15 @@
 FROM hugomods/hugo:dart-sass-git-0.152.2
 
+RUN apk add --no-cache nodejs npm
+
 RUN git config --global --add safe.directory /app
 
 # Copia i file del progetto nella directory /app
 WORKDIR /app
 COPY . .
+
+# Install npm dependencies and build Tailwind CSS
+RUN npm install && npm run build
 
 # Espone la porta per il server Hugo
 EXPOSE 1313
