@@ -30,9 +30,11 @@
 /*     font-family: 'OpenDyslexic' !important; */
 /* } */
 
-.dyslexic * {
+.dyslexic *:not([class*="fa-"]):not(.katex):not(.katex *) {
     font-family: 'OpenDyslexic' !important;
     font-size-adjust: .45;
+    letter-spacing: -0.03em;
+    word-spacing: -0.1em;
 }
 
 .sapienza-1 {
