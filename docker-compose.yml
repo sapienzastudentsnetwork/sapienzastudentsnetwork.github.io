@@ -15,6 +15,10 @@ services:
       # If you need to use a reverse proxy, comment this line
       - "1313:1313"
 
+    # In development, run the Tailwind watcher alongside Hugo so CSS
+    # rebuilds automatically when templates change.
+    command: sh -c "npm run dev & hugo server --disableFastRender --bind 0.0.0.0"
+
     # Will restart the container if it crashes
     # Even after a reboot
     restart: unless-stopped
