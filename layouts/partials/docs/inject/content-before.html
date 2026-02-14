@@ -1,0 +1,11 @@
+{{/* Breadcrumb navigation */}}
+{{ if and (not .IsHome) .Parent }}
+<nav class="breadcrumb-nav" aria-label="Breadcrumb">
+  <ol>
+    {{ range .Ancestors.Reverse }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    <li aria-current="page">{{ .LinkTitle }}</li>
+  </ol>
+</nav>
+{{ end }}
