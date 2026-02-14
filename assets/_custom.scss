@@ -112,3 +112,70 @@
     outline-offset: 2px;
   }
 }
+
+// -------------------------------------------------------
+// Announcement banner
+// -------------------------------------------------------
+.announcement-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding-8 $padding-16;
+  margin-bottom: $padding-8;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-smaller);
+  gap: $padding-8;
+
+  &-message {
+    flex: 1;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
+  &-close {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.7;
+    padding: $padding-4;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-link);
+      outline-offset: 2px;
+    }
+  }
+}
+
+.banner-info {
+  background: rgba(100, 180, 255, 0.15);
+  border-left: 4px solid var(--color-link);
+  color: var(--body-font-color);
+}
+
+.banner-warning {
+  background: rgba(255, 221, 102, 0.15);
+  border-left: 4px solid #fd6;
+  color: var(--body-font-color);
+}
+
+.banner-critical {
+  background: rgba(255, 102, 102, 0.15);
+  border-left: 4px solid #f66;
+  color: var(--body-font-color);
+}

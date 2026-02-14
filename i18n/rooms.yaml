@@ -25,3 +25,6 @@
 
 - id: BackToTop
   translation: Back to top
+
+- id: DismissBanner
+  translation: Dismiss
