@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Theme-adaptive color tokens for homepage */
+@layer base {
+  :root {
+    /* Light theme (default) */
+    --tw-primary-rgb: 248 250 252;
+    --tw-accent-rgb: 30 41 59;
+    --tw-diamond-rgb: 59 130 246;
+    --tw-faint-rgb: 203 213 225;
+  }
+
+  [data-theme="dark"] {
+    --tw-primary-rgb: 19 36 65;
+    --tw-accent-rgb: 255 255 255;
+    --tw-diamond-rgb: 45 88 181;
+    --tw-faint-rgb: 38 66 129;
+  }
+}
+
 /* @font-face { */
 /*     font-family: 'Minecraft'; */
 /*     src: url('minecraft.woff') format('woff'); */

@@ -19,3 +19,9 @@
 
 - id: 404_Report
   translation: Report an issue
+
+- id: DarkMode
+  translation: Dark mode
+
+- id: BackToTop
+  translation: Back to top
