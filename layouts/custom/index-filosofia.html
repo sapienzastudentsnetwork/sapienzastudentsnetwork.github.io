@@ -4,6 +4,7 @@
 
 <head>
     {{ partial "docs/html-head" . }}
+    {{ partial "docs/inject/head" . }}
 
     <link rel="stylesheet" href="/generated/tailwindcss.css" />
 
@@ -112,6 +113,8 @@
     <div class="border-faint h-14 border-t border-dashed">
         <div class="border-faint mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
     </div>
+
+    {{ partial "docs/inject/body" . }}
 </body>
 
 </html>
