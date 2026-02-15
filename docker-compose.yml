@@ -6,11 +6,18 @@ services:
       # Mount the current directory to the container
       # This is useful for updating the website without rebuilding the container
       - ".:/app"
+      # Preserve build-time artifacts from being overwritten by the bind mount
+      - /app/node_modules
+      - /app/static/generated
 
     ports:
       # Map the container's port 1313 to the host's port 1313
       # If you need to use a reverse proxy, comment this line
       - "1313:1313"
+
+    # In development, run the Tailwind watcher alongside Hugo so CSS
+    # rebuilds automatically when templates change.
+    command: sh -c "npm run dev & hugo server --disableFastRender --bind 0.0.0.0"
 
     # Will restart the container if it crashes
     # Even after a reboot

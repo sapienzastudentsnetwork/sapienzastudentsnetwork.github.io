@@ -1,7 +1,7 @@
 /public/
 /resources/
 /node_modules
-/static/tailwindcss.css
+/static/generated/
 .DS_Store
 ._DS_Store
 .sass-cache
