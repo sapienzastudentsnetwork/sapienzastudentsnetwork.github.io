@@ -1,0 +1,52 @@
+{{/* Back-to-top button */}}
+<button id="back-to-top" class="back-to-top"
+        aria-label="{{ i18n "BackToTop" | default "Back to top" }}"
+        title="{{ i18n "BackToTop" | default "Back to top" }}">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+       fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+       stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
+
+<script>
+(function() {
+  // Back to top
+  var btn = document.getElementById('back-to-top');
+  if (btn) {
+    window.addEventListener('scroll', function() {
+      btn.classList.toggle('visible', window.scrollY > 300);
+    }, { passive: true });
+
+    btn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  // Listen for OS theme changes (only when no explicit preference stored)
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  mq.addEventListener('change', function(e) {
+    if (!localStorage.getItem('theme')) {
+      var theme = e.matches ? 'dark' : 'light';
+      document.documentElement.dataset.theme = theme;
+      var toggle = document.getElementById('theme-toggle');
+      if (toggle) toggle.checked = e.matches;
+    }
+  });
+})();
+</script>
+
+<script>
+(function() {
+  // Announcement banner dismiss logic
+  document.querySelectorAll('.announcement-banner-close').forEach(function(btn) {
+    var id = btn.getAttribute('data-dismiss');
+    // Hide if already dismissed
+    if (localStorage.getItem('dismissed-' + id)) {
+      btn.parentElement.style.display = 'none';
+    }
+    btn.addEventListener('click', function() {
+      localStorage.setItem('dismissed-' + id, '1');
+      btn.parentElement.style.display = 'none';
+    });
+  });
+})();
+</script>
