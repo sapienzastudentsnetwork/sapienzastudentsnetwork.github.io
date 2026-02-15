@@ -1,7 +1,7 @@
 {
   "name": "sapienzastudentsnetwork.github.io",
   "scripts": {
-    "dev": "npx tailwindcss -i assets/index.css -o static/generated/tailwindcss.css --watch",
+  "dev": "npx tailwindcss -i assets/index.css -o static/generated/tailwindcss.css --watch=always",
     "build": "npx tailwindcss -i assets/index.css -o static/generated/tailwindcss.css --minify"
   },
   "devDependencies": {
