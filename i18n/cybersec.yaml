@@ -248,3 +248,9 @@
 
 - id: B_Stud_DIRepr_Desc
   translation: Student Representative on the Department Council of Computer Science
+
+- id: DarkMode
+  translation: Dark mode
+
+- id: BackToTop
+  translation: Back to top
