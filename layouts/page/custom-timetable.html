@@ -352,14 +352,76 @@
             'venerdì': { ics: 'FR', offset: 4 },
         };
 
-        // Use a Monday as anchor date for DTSTART calculation
-        // This is a generic Monday that serves as a starting reference
-        const anchorMonday = new Date(2026, 1, 16); // Feb 16, 2026 (Monday)
-
         function pad(n) { return n.toString().padStart(2, '0'); }
         function formatDate(date, hour) {
             return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(hour)}0000`;
         }
+        function formatUntil(dateStr) {
+            // UNTIL uses UTC, so we set 23:59:59Z on the semester end date
+            const [y, m, d] = dateStr.split('-');
+            return `${y}${m}${d}T215959Z`;
+        }
+
+        // Determine the current semester from SEMESTER_DATES.
+        // Pick the most recent academic year whose S1 or S2 start date
+        // is <= today, preferring S2 over S1 when both have started.
+        const now = new Date();
+        let semesterStart = null;
+        let semesterEnd = null;
+
+        for (const [year, semesters] of Object.entries(SEMESTER_DATES)) {
+            for (const key of ['S2', 'S1']) {
+                const s = semesters[key];
+                if (!s) continue;
+                const start = new Date(s.start + 'T00:00:00');
+                const end = new Date(s.end + 'T23:59:59');
+                if (now >= start && now <= end) {
+                    semesterStart = s.start;
+                    semesterEnd = s.end;
+                    break;
+                }
+            }
+            if (semesterStart) break;
+        }
+
+        // Fallback: if no active semester found, pick the nearest future one
+        if (!semesterStart) {
+            let closest = null;
+            for (const [year, semesters] of Object.entries(SEMESTER_DATES)) {
+                for (const key of ['S1', 'S2']) {
+                    const s = semesters[key];
+                    if (!s) continue;
+                    const start = new Date(s.start + 'T00:00:00');
+                    if (start > now && (!closest || start < closest.startDate)) {
+                        closest = { startDate: start, start: s.start, end: s.end };
+                    }
+                }
+            }
+            if (closest) {
+                semesterStart = closest.start;
+                semesterEnd = closest.end;
+            }
+        }
+
+        // Derive anchorMonday from the semester start date.
+        // Find the Monday of the week containing the start date.
+        let anchorMonday;
+        if (semesterStart) {
+            const [y, m, d] = semesterStart.split('-').map(Number);
+            anchorMonday = new Date(y, m - 1, d);
+            // getDay(): 0=Sun … 6=Sat — shift to Monday-based week
+            const dayOfWeek = anchorMonday.getDay();
+            const mondayOffset = dayOfWeek === 0 ? 1 : (dayOfWeek === 1 ? 0 : 8 - dayOfWeek);
+            anchorMonday.setDate(anchorMonday.getDate() + mondayOffset);
+        } else {
+            // Last-resort hardcoded fallback
+            anchorMonday = new Date(2026, 1, 16);
+        }
+
+        // Build the RRULE — prefer UNTIL if we have an end date, else COUNT=15
+        const rruleSuffix = semesterEnd
+            ? `UNTIL=${formatUntil(semesterEnd)}`
+            : 'COUNT=15';
 
         let events = [];
         let uid = 0;
@@ -397,9 +459,9 @@
                     events.push([
                         'BEGIN:VEVENT',
                         `UID:${uid}-${courseCode}@sapienzastudents.net`,
-                        `DTSTART:${formatDate(eventDate, startTime)}`,
-                        `DTEND:${formatDate(eventDate, endTime)}`,
-                        `RRULE:FREQ=WEEKLY;BYDAY=${dayInfo.ics};COUNT=15`,
+                        `DTSTART;TZID=Europe/Rome:${formatDate(eventDate, startTime)}`,
+                        `DTEND;TZID=Europe/Rome:${formatDate(eventDate, endTime)}`,
+                        `RRULE:FREQ=WEEKLY;BYDAY=${dayInfo.ics};${rruleSuffix}`,
                         `SUMMARY:${courseName}`,
                         location ? `LOCATION:${location}` : '',
                         `DESCRIPTION:Course code: ${courseCode}`,
@@ -409,6 +471,28 @@
             }
         }
 
+        // VTIMEZONE for Europe/Rome (CET/CEST) — required for
+        // calendar apps to honour RRULE on DTSTART;TZID= events.
+        const vtimezone = [
+            'BEGIN:VTIMEZONE',
+            'TZID:Europe/Rome',
+            'BEGIN:STANDARD',
+            'DTSTART:19701025T030000',
+            'RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10',
+            'TZOFFSETFROM:+0200',
+            'TZOFFSETTO:+0100',
+            'TZNAME:CET',
+            'END:STANDARD',
+            'BEGIN:DAYLIGHT',
+            'DTSTART:19700329T020000',
+            'RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3',
+            'TZOFFSETFROM:+0100',
+            'TZOFFSETTO:+0200',
+            'TZNAME:CEST',
+            'END:DAYLIGHT',
+            'END:VTIMEZONE',
+        ].join('\r\n');
+
         const icsContent = [
             'BEGIN:VCALENDAR',
             'VERSION:2.0',
@@ -416,6 +500,7 @@
             'CALSCALE:GREGORIAN',
             'METHOD:PUBLISH',
             'X-WR-CALNAME:Sapienza Timetable',
+            vtimezone,
             ...events,
             'END:VCALENDAR',
         ].join('\r\n');
