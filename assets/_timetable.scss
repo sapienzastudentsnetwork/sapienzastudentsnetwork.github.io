@@ -157,6 +157,13 @@ table td:first-child {
     z-index: 1;
 }
 
+#customSchedule th:first-child,
+table th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+}
+
 #customSchedule th,
 table th {
     background-color: var(--table-header-bg);
@@ -359,7 +366,23 @@ a {
 }
 
 /* Table in narrower viewports */
-@media (max-width: 640px) {
+@media (max-width: 56rem) {
+
+    /* #main is inside .book-page (padding: 1rem); make it span full width */
+    #main {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Bleed the timetable container into .book-page's 1rem padding so
+       only the table spans the full viewport width.  Other page content
+       (headings, info boxes, buttons) keeps the normal padding for
+       readability.  !important overrides any Tailwind margin utilities. */
+    .timetable-container {
+        margin-left: -1rem !important;
+        margin-right: -1rem !important;
+        width: calc(100% + 2rem);
+    }
 
     #customSchedule,
     table {
@@ -371,6 +394,98 @@ a {
     table th,
     table td,
     .timetableTableCell {
-        padding: 6px 8px;
+        padding: 6px 4px;
+    }
+}
+
+/* Extra-tight spacing on very small screens (≤ 480 px) */
+@media (max-width: 480px) {
+    #customSchedule,
+    table {
+        font-size: 0.78rem;
+    }
+
+    #customSchedule th,
+    #customSchedule td,
+    table th,
+    table td,
+    .timetableTableCell {
+        padding: 4px 2px;
+    }
+
+    /* Abbreviate day-of-week header text */
+    #customSchedule th {
+        font-size: 0.72rem;
+        letter-spacing: -0.02em;
+    }
+}
+
+/* Conflict indicator for overlapping courses */
+.timetable-conflict {
+    border-left: 3px solid var(--hint-color-danger) !important;
+    background-color: rgba(255, 102, 102, 0.08) !important;
+    position: relative;
+}
+
+.timetable-conflict::before {
+    content: '⚠';
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    font-size: 0.7rem;
+    opacity: 0.7;
+}
+
+/* Subject search input in the dialog */
+.subjsSearchInput {
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1.5px solid var(--table-border-color);
+    background-color: var(--body-background);
+    color: var(--body-font-color);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+
+    &::placeholder {
+        color: var(--gray-500);
+    }
+
+    &:focus {
+        border-color: var(--link-color);
+        box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.15);
+    }
+}
+
+/* ICS Export button */
+.exportIcsBtn {
+    border-radius: 8px;
+    height: 36px;
+    padding: 0 16px;
+    background-color: var(--timetable-close-button-bg);
+    color: var(--body-font-color);
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border: solid var(--table-border-color) 1.5px;
+    box-shadow: 0 2px 6px var(--table-shadow-color);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    gap: 6px;
+
+    &:hover {
+        background-color: var(--timetable-close-button-hover);
+        transform: translateY(-1px);
+        box-shadow: 0 4px 10px var(--table-shadow-color);
+    }
+
+    &:active {
+        transform: translateY(0);
+        box-shadow: 0 1px 3px var(--table-shadow-color);
     }
 }
