@@ -628,6 +628,130 @@ if __name__ == '__main__':
             if update_day_schedules:
                 course_timetables_dict["1047634"]["channels"]["0"][day_name] = day_schedules_tmp
 
+    # 1015884 - METODOLOGIE DI PROGRAMMAZIONE
+    if "1015884" in course_timetables_dict:
+        if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["1"]:
+            course_timetables_dict["1015884"]["channels"]["1"] = [
+              {
+                "teachers": {
+                  "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+                },
+                "timeslot": "12 - 16",
+                "classrooms": {
+                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+                }
+              }
+            ]
+
+        if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["2"]:
+            course_timetables_dict["1015884"]["channels"]["2"] = [
+              {
+                "teachers": {
+                  "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "FARALLI STEFANO"
+                },
+                "timeslot": "8 - 12",
+                "classrooms": {
+                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+                }
+              }
+            ]
+
+    # 1020422_2 - SISTEMI OPERATIVI (II MODULO)
+    if degree_programme_code == "33503":
+        course_timetables_dict["1020422_2"] = {
+            "subject": "SISTEMI OPERATIVI II MODULO",
+            "degree": "33503",
+            "channels": {
+                "1": {},
+                "2": {}
+            }
+        }
+
+    if "1020422_2" in course_timetables_dict:
+        if "mercoledì" not in course_timetables_dict["1020422_2"]["channels"]["1"]:
+            course_timetables_dict["1020422_2"]["channels"]["1"]["mercoledì"] = [
+              {
+                "teachers": {
+                  "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+                },
+                "timeslot": "16 - 19",
+                "classrooms": {
+                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                }
+              }
+            ]
+
+        if "venerdì" not in course_timetables_dict["1020422_2"]["channels"]["1"]:
+            course_timetables_dict["1020422_2"]["channels"]["1"]["venerdì"] = [
+              {
+                "teachers": {
+                  "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+                },
+                "timeslot": "9 - 12",
+                "classrooms": {
+                  "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+                }
+              }
+            ]
+
+        if "lunedì" not in course_timetables_dict["1020422_2"]["channels"]["2"]:
+            course_timetables_dict["1020422_2"]["channels"]["2"]["lunedì"] = [
+               {
+                 "teachers": {
+                   "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+                 },
+                 "timeslot": "16 - 19",
+                 "classrooms": {
+                   "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                 }
+               }
+            ]
+
+        if "mercoledì" not in course_timetables_dict["1020422_2"]["channels"]["2"]:
+            course_timetables_dict["1020422_2"]["channels"]["2"]["mercoledì"] = [
+              {
+                "teachers": {
+                  "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+                },
+                "timeslot": "16 - 19",
+                "classrooms": {
+                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+                }
+              }
+            ]
+
+    # 10589555 - PRACTICAL NETWORK DEFENSE
+    if "10589555" in course_timetables_dict:
+        if "giovedì" not in course_timetables_dict["10589555"]["channels"]["0"]:
+            course_timetables_dict["10589555"]["channels"]["0"]["giovedì"] = [
+               {
+                 "teachers": {
+                    "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
+                 },
+                 "timeslot": "12 - 15",
+                 "classrooms": {
+                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                 }
+               }
+            ]
+
+    # ETHICAL HACKING
+    if "1055682" in course_timetables_dict:
+        if "venerdì" not in course_timetables_dict["1055682"]["channels"]["0"]:
+            course_timetables_dict["1055682"]["channels"]["0"]["venerdì"] = [
+               {
+                 "teachers": {
+                   "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "MANCINI LUIGI VINCENZO"
+                 },
+                 "timeslot": "8 - 11",
+                 "classrooms": {
+                   "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+                 }
+               }
+            ]
+
     #
     # ▒█▀▀▀ ▀▄▒▄▀ ▒█▀▀█ ▒█▀▀▀█ ▒█▀▀█ ▀▀█▀▀ 　 ▒█▀▀▄ ░█▀▀█ ▀▀█▀▀ ░█▀▀█
     # ▒█▀▀▀ ░▒█░░ ▒█▄▄█ ▒█░░▒█ ▒█▄▄▀ ░▒█░░ 　 ▒█░▒█ ▒█▄▄█ ░▒█░░ ▒█▄▄█

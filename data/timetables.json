@@ -174,6 +174,18 @@
             }
           }
         ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
+            },
+            "timeslot": "12 - 16",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -195,6 +207,18 @@
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
             "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
           }
         ],
         "gioved\u00ec": [
@@ -259,6 +283,60 @@
       }
     },
     "code": "1015887"
+  },
+  "1020422_2": {
+    "subject": "SISTEMI OPERATIVI II MODULO",
+    "degree": "33503",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    }
   },
   "1015888": {
     "subject": "PROGETTAZIONE DI ALGORITMI",
@@ -1320,6 +1398,17 @@
             "timeslot": "8 - 10",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "MANCINI LUIGI VINCENZO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
             }
           }
         ]
