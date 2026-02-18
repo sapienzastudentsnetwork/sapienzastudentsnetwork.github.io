@@ -591,6 +591,9 @@ if __name__ == '__main__':
                         # 10620665 - LOGICS AND REASONING
                         elif course_code == "10620665":
                             day_schedule["teachers"]["b6bb1ba8-7e12-48b3-bc4e-dccbb9840942"] = "CARLUCCI LORENZO"
+                        # 10595537 - LAW AND COMPUTER SCIENCE
+                        elif course_code == "10595537":
+                            day_schedule["teachers"]["d487b5a4-5e48-44c8-9130-f12bfda39f2b"] = "SIGISMONDI IRENE"
 
                     if "classrooms" in day_schedule:
                         #if (
@@ -631,7 +634,7 @@ if __name__ == '__main__':
     # 1015884 - METODOLOGIE DI PROGRAMMAZIONE
     if "1015884" in course_timetables_dict:
         if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["1"]:
-            course_timetables_dict["1015884"]["channels"]["1"] = [
+            course_timetables_dict["1015884"]["channels"]["1"]["mercoledì"] = [
               {
                 "teachers": {
                   "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
@@ -645,10 +648,10 @@ if __name__ == '__main__':
             ]
 
         if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["2"]:
-            course_timetables_dict["1015884"]["channels"]["2"] = [
+            course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"] = [
               {
                 "teachers": {
-                  "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "FARALLI STEFANO"
+                  "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
                 },
                 "timeslot": "8 - 12",
                 "classrooms": {
@@ -660,14 +663,15 @@ if __name__ == '__main__':
 
     # 1020422_2 - SISTEMI OPERATIVI (II MODULO)
     if degree_programme_code == "33503":
-        course_timetables_dict["1020422_2"] = {
-            "subject": "SISTEMI OPERATIVI II MODULO",
-            "degree": "33503",
-            "channels": {
-                "1": {},
-                "2": {}
+        if "1020422_2" not in course_timetables_dict:
+            course_timetables_dict["1020422_2"] = {
+                "subject": "SISTEMI OPERATIVI II MODULO",
+                "degree": "33503",
+                "channels": {
+                    "1": {},
+                    "2": {}
+                }
             }
-        }
 
     if "1020422_2" in course_timetables_dict:
         if "mercoledì" not in course_timetables_dict["1020422_2"]["channels"]["1"]:
@@ -743,7 +747,7 @@ if __name__ == '__main__':
             course_timetables_dict["1055682"]["channels"]["0"]["venerdì"] = [
                {
                  "teachers": {
-                   "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "MANCINI LUIGI VINCENZO"
+                   "18d45fcf-5ea5-4a70-a144-e816865509eb": "MANCINI LUIGI VINCENZO"
                  },
                  "timeslot": "8 - 11",
                  "classrooms": {

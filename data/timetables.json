@@ -212,7 +212,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "a95c60d3-6f14-4eb3-8867-0c09ea24a150": "LA MORGIA MASSIMO"
+              "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
             },
             "timeslot": "8 - 12",
             "classrooms": {
@@ -283,60 +283,6 @@
       }
     },
     "code": "1015887"
-  },
-  "1020422_2": {
-    "subject": "SISTEMI OPERATIVI II MODULO",
-    "degree": "33503",
-    "channels": {
-      "1": {
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
-            },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
-            },
-            "timeslot": "9 - 12",
-            "classrooms": {
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-            }
-          }
-        ]
-      },
-      "2": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }
-        ]
-      }
-    }
   },
   "1015888": {
     "subject": "PROGETTAZIONE DI ALGORITMI",
@@ -760,6 +706,60 @@
       }
     },
     "code": "10600494"
+  },
+  "1020422_2": {
+    "subject": "SISTEMI OPERATIVI II MODULO",
+    "degree": "33503",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    }
   },
   "1047613": {
     "subject": "ADVANCED ALGORITHMS",
@@ -1243,6 +1243,17 @@
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
         ]
       }
     },
@@ -1404,7 +1415,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "3ce2ec52-79a0-4093-8ad8-78b8790882a8": "MANCINI LUIGI VINCENZO"
+              "18d45fcf-5ea5-4a70-a144-e816865509eb": "MANCINI LUIGI VINCENZO"
             },
             "timeslot": "8 - 11",
             "classrooms": {
@@ -1842,7 +1853,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -1851,7 +1864,9 @@
         ],
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
