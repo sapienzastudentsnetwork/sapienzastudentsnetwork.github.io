@@ -603,12 +603,6 @@
             localStorage.setItem(CUSTOM_COURSES_KEY, JSON.stringify(courses));
         }
 
-        function updateAddCourseCard() {
-            const card = document.getElementById("addCourseCard");
-            if (!card) return;
-            card.style.display = getCustomCourses().length >= MAX_CUSTOM_COURSES ? "none" : "";
-        }
-
         function createAddCourseCard() {
             const li = document.createElement("li");
             li.className = "add-course-card";
@@ -678,6 +672,14 @@
 
             if (isCustom) {
                 li.classList.add("custom-course");
+
+                checkbox.addEventListener("change", () => {
+                    if (checkbox.checked && getSelectedCustomCourseCount() > MAX_CUSTOM_COURSES) {
+                        checkbox.checked = false;
+                        alert(`You can select at most ${MAX_CUSTOM_COURSES} custom free-choice courses at a time.`);
+                    }
+                });
+
                 const badge = document.createElement("span");
                 badge.className = "custom-course-badge";
                 badge.textContent = "×";
@@ -693,16 +695,17 @@
             return li;
         }
 
+        function getSelectedCustomCourseCount() {
+            const customCourses = new Set(getCustomCourses());
+            return getSelectedCourses().filter((c) => customCourses.has(c)).length;
+        }
+
         let newlyAddedCourse = null;
 
         function addCustomCourse(name) {
             const customCourses = getCustomCourses();
             const allExisting = [...allCourses, ...customCourses];
 
-            if (customCourses.length >= MAX_CUSTOM_COURSES) {
-                alert(`You can add at most ${MAX_CUSTOM_COURSES} custom courses.`);
-                return;
-            }
             if (allExisting.some((c) => c.toLowerCase() === name.toLowerCase())) {
                 alert("This course already exists.");
                 return;
@@ -747,14 +750,14 @@
                 if (cb) cb.checked = true;
             });
 
-            // Auto-check newly added custom course
             if (newlyAddedCourse) {
-                const cb = document.getElementById(newlyAddedCourse);
-                if (cb) cb.checked = true;
+                if (getSelectedCustomCourseCount() < MAX_CUSTOM_COURSES) {
+                    const cb = document.getElementById(newlyAddedCourse);
+                    if (cb) cb.checked = true;
+                }
                 newlyAddedCourse = null;
             }
 
-            updateAddCourseCard();
             searchCourses();
         }
 
