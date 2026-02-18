@@ -13,7 +13,7 @@
         --tertiary-hover: #fb8c00;
         --success-color: #388e3c;
         --success-light: #81c784;
-        --border-radius: 4px;
+        --border-radius: 8px;
         --shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         --transition: all 0.2s ease-in-out;
         --selected-bg-color: #e3f2fd;
@@ -58,7 +58,7 @@
         padding: 10px;
         min-height: 100px;
         max-height: 100px;
-        transition: var(--transition);
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out, order 0s;
     }
 
     #courseList li:hover {
@@ -176,8 +176,16 @@
 
     .exam-list {
         list-style-type: decimal;
+        list-style-position: inside;
         margin-top: 10px;
-        padding-left: 20px;
+        padding-left: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease-in-out;
+    }
+
+    .exam-list.expanded {
+        max-height: 2000px;
     }
 
     .exam-list li {
@@ -204,24 +212,56 @@
 
     #searchContainer {
         margin-bottom: 20px;
+        position: relative;
+        max-width: 1000px;
     }
 
     #searchInput {
         width: 100%;
-        max-width: 1000px;
-        padding: 10px;
+        padding: 10px 36px 10px 10px;
         font-size: 16px;
         border: 1px solid var(--result-border-color);
         border-radius: var(--border-radius);
         background-color: var(--item-bg-color);
         color: var(--text-color);
         transition: var(--transition);
+        box-sizing: border-box;
     }
 
     #searchInput:focus {
         outline: none;
         border-color: var(--primary-color);
         box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    }
+
+    #searchClear {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        font-size: 18px;
+        color: var(--secondary-color);
+        cursor: pointer;
+        padding: 4px 8px;
+        line-height: 1;
+        display: none;
+        border-radius: 50%;
+        transition: var(--transition);
+    }
+
+    #searchClear:hover {
+        color: var(--text-color);
+        background-color: var(--result-border-color);
+    }
+
+    #selectionCounter {
+        font-size: 13px;
+        color: var(--secondary-color);
+        font-style: italic;
+        margin-top: 8px;
+        max-width: 1000px;
     }
 
     #courseList li.add-course-card {
@@ -394,11 +434,16 @@
         .custom-course-badge {
             border-color: var(--item-bg-color);
         }
+
+        #selectionCounter {
+            color: var(--text-color);
+        }
     }
 
     @media (max-width: 600px) {
         body {
             padding: 10px;
+            padding-bottom: 80px;
         }
 
         #courseList {
@@ -451,12 +496,29 @@
         }
 
         .button-container {
-            flex-direction: column;
-            align-items: stretch;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            flex-direction: row;
+            background-color: var(--result-bg-color);
+            border-top: 1px solid var(--result-border-color);
+            padding: 12px 16px;
+            z-index: 10;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+            margin: 0;
+            gap: 10px;
         }
 
         .button-container button {
-            margin-bottom: 10px;
+            flex: 1;
+            margin-bottom: 0;
+            min-height: 44px;
+        }
+
+        #searchClear {
+            padding: 8px 12px;
+            font-size: 22px;
         }
 
         .result-item {
@@ -469,7 +531,9 @@
     <p id="description">Please select all the courses you are interested in:</p>
     <div id="searchContainer">
         <input type="text" id="searchInput" placeholder="Search for courses..." />
+        <button type="button" id="searchClear" aria-label="Clear search">✕</button>
     </div>
+    <div id="selectionCounter"></div>
 
     <div id="courseSelection">
         <ul id="courseList"></ul>
@@ -511,7 +575,7 @@
             relatedCoursesSet.difference(rcpCoursesSet);
 
         const MAX_FREE_CHOICE_CREDITS = 15;
-        const ALLOWED_CFU_VALUES = [6, 9, 12];
+        const ALLOWED_CFU_VALUES = [6, 9, 12]; // in the future, if we want to add the 3 CFU courses, we can just add them to this array
         const CUSTOM_COURSES_KEY = "rcpCustomCourses";
 
         let results = [];
@@ -905,7 +969,7 @@
                 <p class="covered-courses">Covered courses: ${result.coveredCourses.join(", ")}</p>
                 ${freeChoiceNotice}
                 <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
-                <ol class="exam-list" id="examList${index}" style="display: none">
+                <ol class="exam-list" id="examList${index}">
                     ${buildExamListHTML(result)}
                 </ol>`;
         }
@@ -929,13 +993,12 @@
         function toggleExamList(index) {
             const examList = document.getElementById(`examList${index}`);
             const button = examList.previousElementSibling;
-            const isHidden =
-                examList.style.display === "none" || !examList.style.display;
+            const isExpanded = examList.classList.contains("expanded");
 
-            examList.style.display = isHidden ? "block" : "none";
-            button.textContent = isHidden
-                ? "Hide All Courses"
-                : "Show All Courses";
+            examList.classList.toggle("expanded");
+            button.textContent = isExpanded
+                ? "Show All Courses"
+                : "Hide All Courses";
         }
 
         function calculateResults() {
@@ -960,6 +1023,7 @@
                 .forEach((checkbox) => (checkbox.checked = false));
 
             document.getElementById("searchInput").value = "";
+            updateSelectionCounter();
             searchCourses();
             window.scrollTo(0, 0);
         }
@@ -970,16 +1034,23 @@
         }
 
         function searchCourses() {
-            const filter = document
-                .getElementById("searchInput")
-                .value.toLowerCase();
+            const input = document.getElementById("searchInput");
+            const clearBtn = document.getElementById("searchClear");
+            const filter = input.value.toLowerCase();
 
-            document.querySelectorAll("#courseList li").forEach((item) => {
-                const text = (
-                    item.textContent || item.innerText
-                ).toLowerCase();
+            clearBtn.style.display = filter ? "block" : "none";
+
+            const items = Array.from(document.querySelectorAll("#courseList li"));
+            items.forEach((item) => {
+                const text = (item.textContent || item.innerText).toLowerCase();
                 item.style.display = text.includes(filter) ? "" : "none";
             });
+        }
+
+        function updateSelectionCounter() {
+            const count = getSelectedCourses().length;
+            const counter = document.getElementById("selectionCounter");
+            counter.textContent = count > 0 ? `${count} course${count > 1 ? "s" : ""} selected` : "";
         }
 
         window.addEventListener("popstate", (event) => {
@@ -994,9 +1065,22 @@
 
         window.onload = () => {
             populateCourseList();
-            document
-                .getElementById("searchInput")
-                .addEventListener("keyup", searchCourses);
+            const searchInput = document.getElementById("searchInput");
+            searchInput.addEventListener("keyup", searchCourses);
+            searchInput.addEventListener("input", searchCourses);
+
+            document.getElementById("searchClear").addEventListener("click", () => {
+                searchInput.value = "";
+                searchCourses();
+                searchInput.focus();
+            });
+
+            document.getElementById("courseList").addEventListener("change", () => {
+                updateSelectionCounter();
+                searchCourses();
+            });
+            updateSelectionCounter();
+
             history.replaceState({ page: "selection" }, "", "#selection");
         };
     </script>
