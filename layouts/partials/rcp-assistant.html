@@ -327,6 +327,40 @@
         position: relative;
     }
 
+    #courseList li.custom-course label {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .custom-course-label-row {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cfu-select {
+        padding: 4px 10px;
+        font-size: 14px;
+        border: 1px solid var(--result-border-color);
+        border-radius: 10px;
+        background-color: var(--item-bg-color);
+        color: var(--text-color);
+        cursor: pointer;
+        margin-left: auto;
+        flex-shrink: 0;
+        transition: var(--transition);
+        -webkit-appearance: none;
+        appearance: none;
+        text-align: center;
+        min-width: 70px;
+    }
+
+    .cfu-select:focus {
+        outline: none;
+        border-color: var(--primary-color);
+    }
+
     .custom-course-badge {
         position: absolute;
         top: -8px;
@@ -401,6 +435,13 @@
             min-height: 44px;
         }
 
+        .cfu-select {
+            padding: 10px 14px;
+            font-size: 16px;
+            min-height: 44px;
+            min-width: 85px;
+        }
+
         .custom-course-badge {
             width: 28px;
             height: 28px;
@@ -469,7 +510,8 @@
         const coursesOnlyInRelated =
             relatedCoursesSet.difference(rcpCoursesSet);
 
-        const MAX_CUSTOM_COURSES = 2;
+        const MAX_FREE_CHOICE_CREDITS = 15;
+        const ALLOWED_CFU_VALUES = [6, 9, 12];
         const CUSTOM_COURSES_KEY = "rcpCustomCourses";
 
         let results = [];
@@ -593,14 +635,44 @@
 
         function getCustomCourses() {
             try {
-                return JSON.parse(localStorage.getItem(CUSTOM_COURSES_KEY)) || [];
+                const raw = JSON.parse(localStorage.getItem(CUSTOM_COURSES_KEY)) || [];
+                return raw.map((entry) =>
+                    typeof entry === "string" ? { name: entry, credits: 6 } : entry,
+                );
             } catch {
                 return [];
             }
         }
 
+        function getCustomCourseNames() {
+            return getCustomCourses().map((c) => c.name);
+        }
+
+        function getCustomCourseCredits(courseName) {
+            const entry = getCustomCourses().find((c) => c.name === courseName);
+            return entry ? entry.credits : 6;
+        }
+
         function saveCustomCourses(courses) {
             localStorage.setItem(CUSTOM_COURSES_KEY, JSON.stringify(courses));
+        }
+
+        function getSelectedCustomCredits() {
+            const customNames = new Set(getCustomCourseNames());
+            return getSelectedCourses()
+                .filter((c) => customNames.has(c))
+                .reduce((sum, c) => sum + getCustomCourseCredits(c), 0);
+        }
+
+        function canSelectCustomCourse(courseCredits) {
+            return getSelectedCustomCredits() + courseCredits <= MAX_FREE_CHOICE_CREDITS;
+        }
+
+        function canChangeCfuTo(courseName, newCredits) {
+            const checkbox = document.getElementById(courseName);
+            if (!checkbox || !checkbox.checked) return true;
+            const oldCredits = getCustomCourseCredits(courseName);
+            return getSelectedCustomCredits() - oldCredits + newCredits <= MAX_FREE_CHOICE_CREDITS;
         }
 
         function createAddCourseCard() {
@@ -666,17 +738,43 @@
             });
 
             label.htmlFor = course;
-            label.appendChild(checkbox);
-            label.appendChild(document.createTextNode(course));
-            li.appendChild(label);
 
             if (isCustom) {
                 li.classList.add("custom-course");
 
+                const labelRow = document.createElement("span");
+                labelRow.className = "custom-course-label-row";
+                labelRow.appendChild(checkbox);
+                labelRow.appendChild(document.createTextNode(course));
+                label.appendChild(labelRow);
+
+                const select = document.createElement("select");
+                select.className = "cfu-select";
+                const currentCredits = getCustomCourseCredits(course);
+                ALLOWED_CFU_VALUES.forEach((val) => {
+                    const opt = document.createElement("option");
+                    opt.value = val;
+                    opt.textContent = `${val} CFU`;
+                    if (val === currentCredits) opt.selected = true;
+                    select.appendChild(opt);
+                });
+                select.addEventListener("click", (e) => e.stopPropagation());
+                select.addEventListener("change", (e) => {
+                    e.stopPropagation();
+                    const newVal = parseInt(select.value);
+                    if (!canChangeCfuTo(course, newVal)) {
+                        select.value = currentCredits;
+                        alert("Too many credits selected.");
+                        return;
+                    }
+                    setCustomCourseCredits(course, newVal);
+                });
+                label.appendChild(select);
+
                 checkbox.addEventListener("change", () => {
-                    if (checkbox.checked && getSelectedCustomCourseCount() > MAX_CUSTOM_COURSES) {
+                    if (checkbox.checked && getSelectedCustomCredits() > MAX_FREE_CHOICE_CREDITS) {
                         checkbox.checked = false;
-                        alert(`You can select at most ${MAX_CUSTOM_COURSES} custom free-choice courses at a time.`);
+                        alert("Too many credits selected.");
                     }
                 });
 
@@ -689,36 +787,44 @@
                     e.stopPropagation();
                     removeCustomCourse(course);
                 });
+                li.appendChild(label);
                 li.appendChild(badge);
+            } else {
+                label.appendChild(checkbox);
+                label.appendChild(document.createTextNode(course));
+                li.appendChild(label);
             }
 
             return li;
         }
 
-        function getSelectedCustomCourseCount() {
-            const customCourses = new Set(getCustomCourses());
-            return getSelectedCourses().filter((c) => customCourses.has(c)).length;
+        function setCustomCourseCredits(courseName, newCredits) {
+            const courses = getCustomCourses().map((c) =>
+                c.name === courseName ? { ...c, credits: newCredits } : c,
+            );
+            saveCustomCourses(courses);
+            populateCourseList();
         }
 
         let newlyAddedCourse = null;
 
         function addCustomCourse(name) {
             const customCourses = getCustomCourses();
-            const allExisting = [...allCourses, ...customCourses];
+            const allNames = [...allCourses, ...customCourses.map((c) => c.name)];
 
-            if (allExisting.some((c) => c.toLowerCase() === name.toLowerCase())) {
+            if (allNames.some((c) => c.toLowerCase() === name.toLowerCase())) {
                 alert("This course already exists.");
                 return;
             }
 
-            customCourses.push(name);
+            customCourses.push({ name, credits: 6 });
             saveCustomCourses(customCourses);
             newlyAddedCourse = name;
             populateCourseList();
         }
 
         function removeCustomCourse(name) {
-            const customCourses = getCustomCourses().filter((c) => c !== name);
+            const customCourses = getCustomCourses().filter((c) => c.name !== name);
             saveCustomCourses(customCourses);
             populateCourseList();
         }
@@ -735,7 +841,7 @@
                 fragment.appendChild(createCourseListItem(course, false));
             });
 
-            getCustomCourses().forEach((course) => {
+            getCustomCourseNames().forEach((course) => {
                 fragment.appendChild(createCourseListItem(course, true));
             });
 
@@ -751,7 +857,8 @@
             });
 
             if (newlyAddedCourse) {
-                if (getSelectedCustomCourseCount() < MAX_CUSTOM_COURSES) {
+                const newCredits = getCustomCourseCredits(newlyAddedCourse);
+                if (canSelectCustomCourse(newCredits)) {
                     const cb = document.getElementById(newlyAddedCourse);
                     if (cb) cb.checked = true;
                 }
