@@ -1,18 +1,18 @@
 {
-    "date_range": "Monday 02 February 2026 - Friday 06 February 2026",
+    "date_range": "Monday 16 February 2026 - Friday 20 February 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
-            "09:00-10:00": "TUTORAGGIO LEONARDI",
-            "10:00-11:00": "TUTORAGGIO LEONARDI",
-            "11:00-12:00": "TUTORAGGIO LEONARDI",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": "",
+            "14:00-15:00": "OPENDI",
+            "15:00-16:00": "OPENDI",
+            "16:00-17:00": "OPENDI",
+            "17:00-18:00": "OPENDI",
+            "18:00-19:00": "OPENDI",
             "19:00-19:30": ""
         },
         "tuesday": {
@@ -59,9 +59,9 @@
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Appello METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN - Prof.ssa ALESSANDRA DE VITIS",
-            "10:00-11:00": "Appello METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN - Prof.ssa ALESSANDRA DE VITIS",
-            "11:00-12:00": "Appello METHODS IN COMPUTER SCIENCE EDUCATION: DESIGN - Prof.ssa ALESSANDRA DE VITIS",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
