@@ -260,14 +260,11 @@
         }
     }
 </style>
+
 <body>
     <p id="description">Please select all the courses you are interested in:</p>
     <div id="searchContainer">
-        <input
-            type="text"
-            id="searchInput"
-            placeholder="Search for courses..."
-        />
+        <input type="text" id="searchInput" placeholder="Search for courses..." />
     </div>
     <div id="courseSelection">
         <ul id="courseList"></ul>
@@ -277,40 +274,155 @@
         <div id="resultsList"></div>
     </div>
     <div class="button-container">
-        <button
-            onclick="calculateResults()"
-            class="primary-button"
-            id="calculateButton"
-        >
+        <button onclick="calculateResults()" class="primary-button" id="calculateButton">
             Submit
         </button>
-        <button
-            onclick="resetSelection()"
-            class="secondary-button"
-            id="resetButton"
-        >
+        <button onclick="resetSelection()" class="secondary-button" id="resetButton">
             Clear
         </button>
-        <button
-            onclick="editSelection()"
-            class="primary-button"
-            id="editButton"
-            style="display: none"
-        >
+        <button onclick="editSelection()" class="primary-button" id="editButton" style="display: none">
             Edit Selection
         </button>
     </div>
     <script>
-        const RCP = JSON.parse("{{ .Site.Data.rcpData.RCP | jsonify }}");
+        const MAX_EXAMS = 13;
+        const GROUPS_PER_COMBO = 2;
+        const MAX_NON_RCP_COURSES = 4;
+        const TOP_RESULTS_COUNT = 5;
+
+        const rcpGroups = JSON.parse(
+            "{{ .Site.Data.rcpData.RCP | jsonify }}",
+        );
         const relatedCourses = JSON.parse(
             "{{ .Site.Data.rcpData.relatedCourses | jsonify }}",
         );
-        const rcpCoursesSet = new Set(RCP.flatMap(([, courses]) => courses));
+
+        const rcpCoursesSet = new Set(
+            rcpGroups.flatMap(([, courses]) => courses),
+        );
         const relatedCoursesSet = new Set(relatedCourses);
         const allCourses = [...rcpCoursesSet.union(relatedCoursesSet)].sort();
-        const notInRCP = relatedCoursesSet.difference(rcpCoursesSet);
+        const coursesOnlyInRelated =
+            relatedCoursesSet.difference(rcpCoursesSet);
 
         let results = [];
+
+        function setDisplay(ids, value) {
+            ids.forEach(
+                (id) => (document.getElementById(id).style.display = value),
+            );
+        }
+
+        function getSelectedCourses() {
+            return Array.from(
+                document.querySelectorAll(
+                    '#courseList input[type="checkbox"]:checked',
+                ),
+            ).map((cb) => cb.value);
+        }
+
+        function combinations(arr, size) {
+            if (size === 1) {
+                return arr.map((el) => [el]);
+            }
+            return arr.flatMap((el, i) =>
+                combinations(arr.slice(i + 1), size - 1).map((combo) => [
+                    el,
+                    ...combo,
+                ]),
+            );
+        }
+
+        function limitNonRcpCourses(selectedCourses) {
+            const nonRcpSelected = selectedCourses.filter((course) =>
+                coursesOnlyInRelated.has(course),
+            );
+            const rcpSelected = selectedCourses.filter(
+                (course) => !coursesOnlyInRelated.has(course),
+            );
+            return [
+                ...rcpSelected,
+                ...nonRcpSelected.slice(0, MAX_NON_RCP_COURSES),
+            ];
+        }
+
+        function buildCombinationResults(limitedSelectedCourses) {
+            return combinations(rcpGroups, GROUPS_PER_COMBO).map(
+                ([group1, group2]) => {
+                    const unionSet = new Set([...group1[1], ...group2[1]]);
+                    const allAvailableCourses = [...unionSet];
+
+                    const coveredCourses = limitedSelectedCourses.filter(
+                        (course) => unionSet.has(course),
+                    );
+                    const excludedSelectedCourses =
+                        limitedSelectedCourses.filter(
+                            (course) => !unionSet.has(course),
+                        );
+
+                    const freeChoiceSlots = Math.max(
+                        0,
+                        MAX_EXAMS - allAvailableCourses.length,
+                    );
+                    const additionalCoverage = Math.min(
+                        freeChoiceSlots,
+                        excludedSelectedCourses.length,
+                    );
+
+                    return {
+                        groups: [group1, group2],
+                        coverage: coveredCourses.length + additionalCoverage,
+                        baseCoverage: coveredCourses.length,
+                        coveredCourses,
+                        allCourses: allAvailableCourses,
+                        excludedSelectedCourses,
+                        freeChoiceSlots,
+                        coverableByFreeChoice: excludedSelectedCourses.slice(
+                            0,
+                            freeChoiceSlots,
+                        ),
+                    };
+                },
+            );
+        }
+
+        function sortByBestCoverage(combinationResults) {
+            return combinationResults.sort((a, b) =>
+                b.coverage !== a.coverage
+                    ? b.coverage - a.coverage
+                    : b.baseCoverage - a.baseCoverage,
+            );
+        }
+
+        function showResults() {
+            setDisplay(
+                [
+                    "description",
+                    "searchContainer",
+                    "courseSelection",
+                    "calculateButton",
+                    "resetButton",
+                ],
+                "none",
+            );
+            setDisplay(["results", "editButton"], "block");
+            window.scrollTo(0, 0);
+        }
+
+        function showSelection() {
+            setDisplay(["results", "editButton"], "none");
+            setDisplay(
+                [
+                    "courseSelection",
+                    "calculateButton",
+                    "resetButton",
+                    "description",
+                    "searchContainer",
+                ],
+                "block",
+            );
+            window.scrollTo(0, 0);
+        }
 
         function populateCourseList() {
             const courseList = document.getElementById("courseList");
@@ -338,151 +450,60 @@
             courseList.appendChild(fragment);
         }
 
-        const getSelectedCourses = () =>
-            Array.from(
-                document.querySelectorAll(
-                    '#courseList input[type="checkbox"]:checked',
-                ),
-            ).map((cb) => cb.value);
+        function buildExamListHTML(result) {
+            const courseItems = result.allCourses
+                .sort()
+                .map((course) => {
+                    const cssClass = result.coveredCourses.includes(course)
+                        ? "covered"
+                        : "";
+                    return `<li class="${cssClass}">${course}</li>`;
+                })
+                .join("");
 
-        const combinations = (arr, r) =>
-            r === 1
-                ? arr.map((el) => [el])
-                : arr.flatMap((el, i) =>
-                      combinations(arr.slice(i + 1), r - 1).map((combo) => [
-                          el,
-                          ...combo,
-                      ]),
-                  );
+            const freeChoiceItems = result.coverableByFreeChoice
+                .map(
+                    (course) =>
+                        `<li class="free-choice">${course} (free choice)</li>`,
+                )
+                .join("");
 
-        function limitNotInRcpCourses(selectedCourses, maxNotInRcp = 4) {
-            const [notInRcpSelected, rcpSelected] = [
-                selectedCourses.filter((course) => notInRCP.has(course)),
-                selectedCourses.filter((course) => !notInRCP.has(course)),
-            ];
-            return [...rcpSelected, ...notInRcpSelected.slice(0, maxNotInRcp)];
+            return courseItems + freeChoiceItems;
         }
 
-        function showResults() {
-            ["description", "searchContainer"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            ["courseSelection", "calculateButton", "resetButton"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            ["results", "editButton"].forEach(
-                (id) => (document.getElementById(id).style.display = "block"),
-            );
-            window.scrollTo(0, 0);
+        function buildResultHTML(result, index, totalSelected) {
+            const title = `${result.groups[0][0]} + ${result.groups[1][0]}`;
+            const coverageText = `${result.coverage}/${totalSelected}`;
+            const breakdown = `(${result.baseCoverage} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
+
+            const freeChoiceNotice =
+                result.freeChoiceSlots > 0
+                    ? `<div class="free-choice-notice">This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.</div>`
+                    : "";
+
+            return `
+                <div class="result-title">${title}</div>
+                <div class="coverage-info">Selected courses covered: ${coverageText} ${breakdown}</div>
+                <p class="covered-courses">Covered courses: ${result.coveredCourses.join(", ")}</p>
+                ${freeChoiceNotice}
+                <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
+                <ol class="exam-list" id="examList${index}" style="display: none">
+                    ${buildExamListHTML(result)}
+                </ol>`;
         }
 
-        function showSelection() {
-            ["results"].forEach(
-                (id) => (document.getElementById(id).style.display = "none"),
-            );
-            [
-                "courseSelection",
-                "calculateButton",
-                "resetButton",
-                "description",
-                "searchContainer",
-            ].forEach(
-                (id) => (document.getElementById(id).style.display = "block"),
-            );
-            document.getElementById("editButton").style.display = "none";
-            window.scrollTo(0, 0);
-        }
-
-        function calculateResults() {
-            const selectedCourses = getSelectedCourses();
-            const limitedSelectedCourses =
-                limitNotInRcpCourses(selectedCourses);
-
-            results = combinations(RCP, 2).map(([group1, group2]) => {
-                const unionSet = new Set([
-                    ...new Set(group1[1]),
-                    ...new Set(group2[1]),
-                ]);
-                const allAvailableCourses = [...unionSet];
-                const coveredCourses = limitedSelectedCourses.filter((course) =>
-                    unionSet.has(course),
-                );
-                const excludedSelectedCourses = limitedSelectedCourses.filter(
-                    (course) => !unionSet.has(course),
-                );
-                const freeChoiceSlots = Math.max(
-                    0,
-                    13 - allAvailableCourses.length,
-                );
-                const additionalCoverage = Math.min(
-                    freeChoiceSlots,
-                    excludedSelectedCourses.length,
-                );
-
-                return {
-                    groups: [group1, group2],
-                    coverage: coveredCourses.length + additionalCoverage,
-                    baseCoverage: coveredCourses.length,
-                    coveredCourses,
-                    allCourses: allAvailableCourses,
-                    excludedSelectedCourses,
-                    freeChoiceSlots,
-                    coverableByFreeChoice: excludedSelectedCourses.slice(
-                        0,
-                        freeChoiceSlots,
-                    ),
-                };
-            });
-
-            results.sort((a, b) =>
-                b.coverage !== a.coverage
-                    ? b.coverage - a.coverage
-                    : b.baseCoverage - a.baseCoverage,
-            );
-
-            displayResults(results.slice(0, 5), selectedCourses.length);
-            history.pushState({ page: "results" }, "", "#results");
-            showResults();
-        }
-
-        function displayResults(results, totalSelected) {
-            const resultsDiv = document.getElementById("results");
+        function displayResults(topResults, totalSelected) {
             const resultsList = document.getElementById("resultsList");
             resultsList.innerHTML = "";
 
-            results.forEach((result, index) => {
+            topResults.forEach((result, index) => {
                 const resultItem = document.createElement("div");
                 resultItem.className = "result-item";
-
-                const totalCoverageText = `${result.coverage}/${totalSelected}`;
-                const coverageBreakdown = `(${result.baseCoverage} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
-                const freeChoiceText =
-                    result.freeChoiceSlots > 0
-                        ? `<div class="free-choice-notice">This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.</div>`
-                        : "";
-
-                resultItem.innerHTML = `
-                <div class="result-title">${result.groups[0][0]} + ${result.groups[1][0]}</div>
-                <div class="coverage-info">Selected courses covered: ${totalCoverageText} ${coverageBreakdown}</div>
-                <p class="covered-courses">Covered courses: ${result.coveredCourses.join(", ")}</p>
-                ${freeChoiceText}
-                <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
-                <ol class="exam-list" id="examList${index}" style="display: none">
-                    ${result.allCourses
-                        .sort()
-                        .map(
-                            (course) =>
-                                `<li class="${result.coveredCourses.includes(course) ? "covered" : ""}">${course}</li>`,
-                        )
-                        .join("")}
-                    ${result.coverableByFreeChoice
-                        .map(
-                            (course) =>
-                                `<li class="free-choice">${course} (free choice)</li>`,
-                        )
-                        .join("")}
-                </ol>`;
-
+                resultItem.innerHTML = buildResultHTML(
+                    result,
+                    index,
+                    totalSelected,
+                );
                 resultsList.appendChild(resultItem);
             });
         }
@@ -492,18 +513,35 @@
             const button = examList.previousElementSibling;
             const isHidden =
                 examList.style.display === "none" || !examList.style.display;
+
             examList.style.display = isHidden ? "block" : "none";
             button.textContent = isHidden
                 ? "Hide All Courses"
                 : "Show All Courses";
         }
 
+        function calculateResults() {
+            const selectedCourses = getSelectedCourses();
+            const limitedSelectedCourses = limitNonRcpCourses(selectedCourses);
+
+            results = sortByBestCoverage(
+                buildCombinationResults(limitedSelectedCourses),
+            );
+
+            displayResults(
+                results.slice(0, TOP_RESULTS_COUNT),
+                selectedCourses.length,
+            );
+            history.pushState({ page: "results" }, "", "#results");
+            showResults();
+        }
+
         function resetSelection() {
             document
                 .querySelectorAll('#courseList input[type="checkbox"]')
                 .forEach((checkbox) => (checkbox.checked = false));
-            const searchInput = document.getElementById("searchInput");
-            searchInput.value = "";
+
+            document.getElementById("searchInput").value = "";
             searchCourses();
             window.scrollTo(0, 0);
         }
@@ -517,22 +555,20 @@
             const filter = document
                 .getElementById("searchInput")
                 .value.toLowerCase();
+
             document.querySelectorAll("#courseList li").forEach((item) => {
-                item.style.display = (item.textContent || item.innerText)
-                    .toLowerCase()
-                    .includes(filter)
-                    ? ""
-                    : "none";
+                const text = (
+                    item.textContent || item.innerText
+                ).toLowerCase();
+                item.style.display = text.includes(filter) ? "" : "none";
             });
         }
 
-        window.addEventListener("popstate", function (event) {
-            if (event.state) {
-                if (event.state.page === "selection") {
-                    showSelection();
-                } else if (event.state.page === "results") {
-                    showResults();
-                }
+        window.addEventListener("popstate", (event) => {
+            if (event.state?.page === "selection") {
+                showSelection();
+            } else if (event.state?.page === "results") {
+                showResults();
             } else {
                 showSelection();
             }
