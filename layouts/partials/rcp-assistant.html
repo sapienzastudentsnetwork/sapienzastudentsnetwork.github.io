@@ -224,9 +224,141 @@
         box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
     }
 
+    #courseList li.add-course-card {
+        border: 2px dashed var(--result-border-color);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        cursor: pointer;
+        color: var(--secondary-color);
+        font-size: 14px;
+        gap: 6px;
+        transition: var(--transition);
+    }
+
+    #courseList li.add-course-card:hover {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+    }
+
+    .add-course-card .add-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1;
+        flex-shrink: 0;
+        transition: var(--transition);
+    }
+
+    #courseList li.add-course-card:hover .add-icon {
+        transform: scale(1.1);
+        background-color: var(--primary-hover);
+    }
+
+    #courseList li.add-course-card.editing {
+        border-color: var(--primary-color);
+        padding: 10px;
+        flex-direction: column;
+        gap: 8px;
+        cursor: default;
+    }
+
+    .add-course-card .inline-input {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid var(--result-border-color);
+        border-radius: var(--border-radius);
+        background-color: var(--result-bg-color);
+        color: var(--text-color);
+        outline: none;
+        transition: var(--transition);
+    }
+
+    .add-course-card .inline-input:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+    }
+
+    .add-course-card .inline-actions {
+        display: flex;
+        gap: 6px;
+        width: 100%;
+    }
+
+    .add-course-card .inline-actions button {
+        flex: 1;
+        padding: 6px 10px;
+        font-size: 13px;
+        border-radius: var(--border-radius);
+        border: none;
+        cursor: pointer;
+        transition: var(--transition);
+    }
+
+    .add-course-card .inline-confirm {
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .add-course-card .inline-confirm:hover {
+        background-color: var(--primary-hover);
+    }
+
+    .add-course-card .inline-cancel {
+        background-color: var(--item-bg-color);
+        color: var(--text-color);
+        border: 1px solid var(--result-border-color) !important;
+    }
+
+    .add-course-card .inline-cancel:hover {
+        background-color: var(--result-border-color);
+    }
+
+    #courseList li.custom-course {
+        border: 2px dashed var(--primary-color);
+        position: relative;
+    }
+
+    .custom-course-badge {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        width: 22px;
+        height: 22px;
+        background-color: #e53935;
+        color: white;
+        border-radius: 50%;
+        border: 2px solid var(--result-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1;
+        cursor: pointer;
+        transition: transform 0.15s ease-in-out;
+        z-index: 1;
+    }
+
+    .custom-course-badge:hover {
+        transform: scale(1.2);
+    }
+
     @media (prefers-color-scheme: dark) {
         .exam-list li.covered {
             color: var(--success-light);
+        }
+
+        .custom-course-badge {
+            border-color: var(--item-bg-color);
         }
     }
 
@@ -244,6 +376,37 @@
             max-width: none;
             min-height: 60px;
             max-height: none;
+        }
+
+        #courseList li.add-course-card {
+            min-height: 70px;
+            font-size: 16px;
+        }
+
+        #courseList li.add-course-card.editing {
+            min-height: auto;
+            max-height: none;
+            padding: 14px;
+            gap: 10px;
+        }
+
+        .add-course-card .inline-input {
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        .add-course-card .inline-actions button {
+            padding: 12px 14px;
+            font-size: 16px;
+            min-height: 44px;
+        }
+
+        .custom-course-badge {
+            width: 28px;
+            height: 28px;
+            font-size: 18px;
+            top: -10px;
+            right: -10px;
         }
 
         .button-container {
@@ -266,6 +429,7 @@
     <div id="searchContainer">
         <input type="text" id="searchInput" placeholder="Search for courses..." />
     </div>
+
     <div id="courseSelection">
         <ul id="courseList"></ul>
     </div>
@@ -304,6 +468,9 @@
         const allCourses = [...rcpCoursesSet.union(relatedCoursesSet)].sort();
         const coursesOnlyInRelated =
             relatedCoursesSet.difference(rcpCoursesSet);
+
+        const MAX_CUSTOM_COURSES = 2;
+        const CUSTOM_COURSES_KEY = "rcpCustomCourses";
 
         let results = [];
 
@@ -424,30 +591,171 @@
             window.scrollTo(0, 0);
         }
 
+        function getCustomCourses() {
+            try {
+                return JSON.parse(localStorage.getItem(CUSTOM_COURSES_KEY)) || [];
+            } catch {
+                return [];
+            }
+        }
+
+        function saveCustomCourses(courses) {
+            localStorage.setItem(CUSTOM_COURSES_KEY, JSON.stringify(courses));
+        }
+
+        function updateAddCourseCard() {
+            const card = document.getElementById("addCourseCard");
+            if (!card) return;
+            card.style.display = getCustomCourses().length >= MAX_CUSTOM_COURSES ? "none" : "";
+        }
+
+        function createAddCourseCard() {
+            const li = document.createElement("li");
+            li.className = "add-course-card";
+            li.id = "addCourseCard";
+            li.innerHTML = `<span class="add-icon">+</span><span>Add free-choice course</span>`;
+            li.addEventListener("click", () => openInlineEditor(li));
+            return li;
+        }
+
+        function openInlineEditor(card) {
+            if (card.classList.contains("editing")) return;
+            card.classList.add("editing");
+            card.innerHTML = `
+                <input class="inline-input" type="text" placeholder="Course name..." />
+                <div class="inline-actions">
+                    <button class="inline-confirm" type="button">Add</button>
+                    <button class="inline-cancel" type="button">Cancel</button>
+                </div>`;
+
+            const input = card.querySelector(".inline-input");
+            const confirmBtn = card.querySelector(".inline-confirm");
+            const cancelBtn = card.querySelector(".inline-cancel");
+
+            input.focus();
+
+            const confirm = () => {
+                const name = input.value.trim();
+                if (name) addCustomCourse(name);
+            };
+
+            input.addEventListener("keydown", (e) => {
+                if (e.key === "Enter") confirm();
+                if (e.key === "Escape") closeInlineEditor(card);
+            });
+            confirmBtn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                confirm();
+            });
+            cancelBtn.addEventListener("click", (e) => {
+                e.stopPropagation();
+                closeInlineEditor(card);
+            });
+        }
+
+        function closeInlineEditor(card) {
+            card.classList.remove("editing");
+            card.innerHTML = `<span class="add-icon">+</span><span>Add free-choice course</span>`;
+            card.addEventListener("click", () => openInlineEditor(card), { once: false });
+        }
+
+        function createCourseListItem(course, isCustom) {
+            const li = document.createElement("li");
+            const checkbox = document.createElement("input");
+            const label = document.createElement("label");
+
+            Object.assign(checkbox, {
+                type: "checkbox",
+                id: course,
+                name: course,
+                value: course,
+            });
+
+            label.htmlFor = course;
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(course));
+            li.appendChild(label);
+
+            if (isCustom) {
+                li.classList.add("custom-course");
+                const badge = document.createElement("span");
+                badge.className = "custom-course-badge";
+                badge.textContent = "×";
+                badge.title = "Remove custom course";
+                badge.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    removeCustomCourse(course);
+                });
+                li.appendChild(badge);
+            }
+
+            return li;
+        }
+
+        let newlyAddedCourse = null;
+
+        function addCustomCourse(name) {
+            const customCourses = getCustomCourses();
+            const allExisting = [...allCourses, ...customCourses];
+
+            if (customCourses.length >= MAX_CUSTOM_COURSES) {
+                alert(`You can add at most ${MAX_CUSTOM_COURSES} custom courses.`);
+                return;
+            }
+            if (allExisting.some((c) => c.toLowerCase() === name.toLowerCase())) {
+                alert("This course already exists.");
+                return;
+            }
+
+            customCourses.push(name);
+            saveCustomCourses(customCourses);
+            newlyAddedCourse = name;
+            populateCourseList();
+        }
+
+        function removeCustomCourse(name) {
+            const customCourses = getCustomCourses().filter((c) => c !== name);
+            saveCustomCourses(customCourses);
+            populateCourseList();
+        }
+
         function populateCourseList() {
             const courseList = document.getElementById("courseList");
+
+            const previouslyChecked = new Set(getSelectedCourses());
+
+            courseList.innerHTML = "";
             const fragment = document.createDocumentFragment();
 
             allCourses.forEach((course) => {
-                const li = document.createElement("li");
-                const checkbox = document.createElement("input");
-                const label = document.createElement("label");
-
-                Object.assign(checkbox, {
-                    type: "checkbox",
-                    id: course,
-                    name: course,
-                    value: course,
-                });
-
-                label.htmlFor = course;
-                label.appendChild(checkbox);
-                label.appendChild(document.createTextNode(course));
-                li.appendChild(label);
-                fragment.appendChild(li);
+                fragment.appendChild(createCourseListItem(course, false));
             });
 
+            getCustomCourses().forEach((course) => {
+                fragment.appendChild(createCourseListItem(course, true));
+            });
+
+            // "Add" card at the end
+            fragment.appendChild(createAddCourseCard());
+
             courseList.appendChild(fragment);
+
+            // Restore checked state
+            previouslyChecked.forEach((course) => {
+                const cb = document.getElementById(course);
+                if (cb) cb.checked = true;
+            });
+
+            // Auto-check newly added custom course
+            if (newlyAddedCourse) {
+                const cb = document.getElementById(newlyAddedCourse);
+                if (cb) cb.checked = true;
+                newlyAddedCourse = null;
+            }
+
+            updateAddCourseCard();
+            searchCourses();
         }
 
         function buildExamListHTML(result) {
