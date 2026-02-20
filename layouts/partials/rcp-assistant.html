@@ -554,9 +554,9 @@
         </button>
     </div>
     <script>
-        const MAX_EXAMS = 13;
+        const TOTAL_CFU = 78;
         const GROUPS_PER_COMBO = 2;
-        const MAX_NON_RCP_COURSES = 4;
+        const MAX_NON_RCP_CFU = 24;
         const TOP_RESULTS_COUNT = 5;
 
         const rcpGroups = JSON.parse(
@@ -575,7 +575,7 @@
             relatedCoursesSet.difference(rcpCoursesSet);
 
         const MAX_FREE_CHOICE_CREDITS = 15;
-        const ALLOWED_CFU_VALUES = [6, 9, 12];
+        const ALLOWED_CFU_VALUES = [3, 6, 9, 12];
         const CUSTOM_COURSES_KEY = "rcpCustomCourses";
 
         let results = [];
@@ -594,6 +594,15 @@
             ).map((cb) => cb.value);
         }
 
+        function getCourseCredits(courseName) {
+            const customEntry = getCustomCourses().find(c => c.name === courseName);
+            return customEntry ? customEntry.credits : 6;
+        }
+
+        function getTotalCredits(courses) {
+            return courses.reduce((sum, c) => sum + getCourseCredits(c), 0);
+        }
+
         function combinations(arr, size) {
             if (size === 1) {
                 return arr.map((el) => [el]);
@@ -608,14 +617,25 @@
 
         function limitNonRcpCourses(selectedCourses) {
             const nonRcpSelected = selectedCourses.filter((course) =>
-                coursesOnlyInRelated.has(course),
+                coursesOnlyInRelated.has(course) || getCustomCourseNames().includes(course),
             );
             const rcpSelected = selectedCourses.filter(
-                (course) => !coursesOnlyInRelated.has(course),
+                (course) => !nonRcpSelected.includes(course),
             );
+
+            let currentNonRcpCFU = 0;
+            const limitedNonRcp = [];
+            for (const course of nonRcpSelected) {
+                const credits = getCourseCredits(course);
+                if (currentNonRcpCFU + credits <= MAX_NON_RCP_CFU) {
+                    limitedNonRcp.push(course);
+                    currentNonRcpCFU += credits;
+                }
+            }
+
             return [
                 ...rcpSelected,
-                ...nonRcpSelected.slice(0, MAX_NON_RCP_COURSES),
+                ...limitedNonRcp,
             ];
         }
 
@@ -633,27 +653,34 @@
                             (course) => !unionSet.has(course),
                         );
 
-                    const freeChoiceSlots = Math.max(
-                        0,
-                        MAX_EXAMS - allAvailableCourses.length,
-                    );
-                    const additionalCoverage = Math.min(
-                        freeChoiceSlots,
-                        excludedSelectedCourses.length,
-                    );
+                    const rcpCFU = allAvailableCourses.length * 6;
+                    const baseFreeChoiceCFU = Math.max(0, TOTAL_CFU - rcpCFU);
+                    const maxFreeChoiceCFU = baseFreeChoiceCFU + 3;
+
+                    let currentFC_CFU = 0;
+                    const coverableByFreeChoice = [];
+                    for (const course of excludedSelectedCourses) {
+                        const credits = getCourseCredits(course);
+                        if (currentFC_CFU + credits <= maxFreeChoiceCFU) {
+                            coverableByFreeChoice.push(course);
+                            currentFC_CFU += credits;
+                        }
+                    }
+
+                    const coveredCFU = getTotalCredits(coveredCourses);
+                    const freeChoiceCoveredCFU = getTotalCredits(coverableByFreeChoice);
 
                     return {
                         groups: [group1, group2],
-                        coverage: coveredCourses.length + additionalCoverage,
-                        baseCoverage: coveredCourses.length,
+                        coverage: coveredCFU + freeChoiceCoveredCFU,
+                        baseCoverage: coveredCFU,
                         coveredCourses,
                         allCourses: allAvailableCourses,
                         excludedSelectedCourses,
-                        freeChoiceSlots,
-                        coverableByFreeChoice: excludedSelectedCourses.slice(
-                            0,
-                            freeChoiceSlots,
-                        ),
+                        baseFreeChoiceCFU,
+                        maxFreeChoiceCFU,
+                        coverableByFreeChoice,
+                        freeChoiceCoveredCFU
                     };
                 },
             );
@@ -944,23 +971,25 @@
                 .join("");
 
             const freeChoiceItems = result.coverableByFreeChoice
-                .map(
-                    (course) =>
-                        `<li class="free-choice">${course} (free choice)</li>`,
-                )
+                .map((course) => {
+                    const credits = getCourseCredits(course);
+                    const cfuSuffix = credits !== 6 ? `, ${credits} CFU` : "";
+                    return `<li class="free-choice">${course} (free choice${cfuSuffix})</li>`;
+                })
                 .join("");
 
             return courseItems + freeChoiceItems;
         }
 
-        function buildResultHTML(result, index, totalSelected) {
+        function buildResultHTML(result, index, totalSelectedCourses) {
             const title = `${result.groups[0][0]} + ${result.groups[1][0]}`;
-            const coverageText = `${result.coverage}/${totalSelected}`;
-            const breakdown = `(${result.baseCoverage} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
+            const totalCoveredCourses = result.coveredCourses.length + result.coverableByFreeChoice.length;
+            const coverageText = `${totalCoveredCourses}/${totalSelectedCourses}`;
+            const breakdown = `(${result.coveredCourses.length} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
 
             const freeChoiceNotice =
-                result.freeChoiceSlots > 0
-                    ? `<div class="free-choice-notice">This combination allows for ${result.freeChoiceSlots} free choice course${result.freeChoiceSlots > 1 ? "s" : ""}.</div>`
+                result.baseFreeChoiceCFU > 0
+                    ? `<div class="free-choice-notice">This combination allows for ${result.baseFreeChoiceCFU} free choice CFU (up to ${result.maxFreeChoiceCFU} CFU).</div>`
                     : "";
 
             return `
@@ -974,7 +1003,7 @@
                 </ol>`;
         }
 
-        function displayResults(topResults, totalSelected) {
+        function displayResults(topResults, totalSelectedCoursesCount) {
             const resultsList = document.getElementById("resultsList");
             resultsList.innerHTML = "";
 
@@ -984,7 +1013,7 @@
                 resultItem.innerHTML = buildResultHTML(
                     result,
                     index,
-                    totalSelected,
+                    totalSelectedCoursesCount,
                 );
                 resultsList.appendChild(resultItem);
             });
@@ -1048,9 +1077,11 @@
         }
 
         function updateSelectionCounter() {
-            const count = getSelectedCourses().length;
+            const selected = getSelectedCourses();
+            const count = selected.length;
+            const totalCFU = getTotalCredits(selected);
             const counter = document.getElementById("selectionCounter");
-            counter.textContent = count > 0 ? `${count} course${count > 1 ? "s" : ""} selected` : "";
+            counter.textContent = count > 0 ? `${count} course${count > 1 ? "s" : ""} selected (${totalCFU} CFU)` : "";
         }
 
         window.addEventListener("popstate", (event) => {
