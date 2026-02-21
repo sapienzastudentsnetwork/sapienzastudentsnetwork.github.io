@@ -2,6 +2,7 @@
     const COURSES = JSON.parse(`{{ .Site.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
     const TIMETABLES = JSON.parse(`{{ .Site.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
     const HARDCODED_TIMETABLES = JSON.parse(`{{ .Site.Data.hardcodedTimetables | jsonify }}`)
+    const SEMESTER_DATES = JSON.parse(`{{ .Site.Data.semesterDates | jsonify }}`);
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
     const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 
@@ -141,6 +142,11 @@
 
                 const courses = schedule[day]
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
+
+                if (courses.length > 1) {
+                    desktopTd.classList.add('timetable-conflict');
+                    mobileTd.classList.add('timetable-conflict');
+                }
 
                 let hasMoreThanACourse = false;
                 for (const { courseCode, alerts, cancelled, classroomDesc } of courses) {
