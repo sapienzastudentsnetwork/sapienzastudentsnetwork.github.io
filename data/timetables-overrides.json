@@ -9,6 +9,22 @@
           "2": {}
         }
       }
+    },
+    "33516": {
+      "10616549": {
+        "subject": "ADVANCED CRYPTOGRAPHY",
+        "degree": "33516",
+        "channels": {
+          "0": {}
+        }
+      },
+      "10600449": {
+        "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+        "degree": "33516",
+        "channels": {
+          "0": {}
+        }
+      }
     }
   },
   "add_schedules": {
@@ -97,13 +113,57 @@
           }]
         }
       }
+    },
+    "1054963": {
+      "channels": {
+        "0": {
+          "venerdì": [{
+            "teachers": {"4d47edaf-0256-4657-b451-42f52820dabf": "LIBERATI FRANCESCO"},
+            "timeslot": "12 - 15",
+            "classrooms": {"70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"}
+          }]
+        }
+      }
+    },
+    "10616549": {
+      "channels": {
+        "0": {
+          "lunedì": [{
+            "teachers": {"1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"},
+            "timeslot": "16 - 19",
+            "classrooms": {"792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 Via Ariosto, 25"}
+          }],
+          "venerdì": [{
+            "teachers": {"1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"},
+            "timeslot": "15 - 17",
+            "classrooms": {"d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"}
+          }]
+        }
+      }
+    },
+    "10600449": {
+      "channels": {
+        "0": {
+          "giovedì": [{
+            "teachers": {"8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"},
+            "timeslot": "15 - 17",
+            "classrooms": {"cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 Via Ariosto, 25"}
+          }],
+          "venerdì": [{
+            "teachers": {"8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"  },
+            "timeslot": "9 - 12",
+            "classrooms": {"bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 Via Ariosto, 25"}
+          }]
+        }
+      }
     }
   },
   "add_teachers": {
     "1038141": {"1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"},
     "10607006": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
     "10620665": {"b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"},
-    "10595537": {"d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"}
+    "10595537": {"d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"},
+    "1047639": {"f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"}
   },
   "replace_classrooms": {
     "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
@@ -134,6 +194,34 @@
           "mercoledì": {
             "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
           }
+        }
+      }
+    },
+    "1022262": {
+      "channels": {
+        "0": {
+          "venerdì": {
+            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+          }
+        }
+      }
+    },
+    "1047629": {
+      "channels": {
+        "0": {
+          "venerdì": {
+            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+          }
+        }
+      }
+    }
+  },
+  "change_timeslot": {
+    "1022262": {
+      "channels": {
+        "0": {
+          "lunedì": "11 - 13",
+          "venerdì": "10 - 13"
         }
       }
     }

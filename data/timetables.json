@@ -469,7 +469,7 @@
             "teachers": {
               "b536ebee-dac6-4ae2-ba88-e4393154afba": "MANCINI TONI"
             },
-            "timeslot": "10 - 13",
+            "timeslot": "11 - 13",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
@@ -480,9 +480,9 @@
             "teachers": {
               "b536ebee-dac6-4ae2-ba88-e4393154afba": "MANCINI TONI"
             },
-            "timeslot": "10 - 12",
+            "timeslot": "10 - 13",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
             }
           }
         ]
@@ -1034,7 +1034,7 @@
             },
             "timeslot": "10 - 12",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
         ]
@@ -1172,7 +1172,8 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO"
+              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
             },
             "timeslot": "9 - 12",
             "classrooms": {
@@ -1183,7 +1184,8 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO"
+              "c53030c6-d4db-4301-8180-1f9d95164cfc": "AVOLA DANILO",
+              "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
             },
             "timeslot": "9 - 11",
             "classrooms": {
@@ -1473,6 +1475,17 @@
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "4d47edaf-0256-4657-b451-42f52820dabf": "LIBERATI FRANCESCO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
         ]
       }
     },
@@ -1497,6 +1510,66 @@
       }
     },
     "code": "AAF1803"
+  },
+  "10616549": {
+    "subject": "ADVANCED CRYPTOGRAPHY",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "10600449": {
+    "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    }
   },
   "1049269": {
     "subject": "ALGORITHMS",
