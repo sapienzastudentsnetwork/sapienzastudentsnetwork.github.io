@@ -275,9 +275,9 @@
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "marted\u00ec",
-                "from": "13:00",
-                "to": "16:00"
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               },
               {
                 "day": "venerd\u00ec",
@@ -740,9 +740,9 @@
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "marted\u00ec",
-                "from": "13:00",
-                "to": "16:00"
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               },
               {
                 "day": "venerd\u00ec",
