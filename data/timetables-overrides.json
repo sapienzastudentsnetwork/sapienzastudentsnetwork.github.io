@@ -117,5 +117,25 @@
   },
   "remove_teachers": {
     "1047634": ["00000000-0000-0000-0000-000000000000"]
+  },
+  "change_classrooms": {
+    "10595533": {
+      "channels": {
+        "0": {
+          "mercoledì": {
+            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+          }
+        }
+      }
+    },
+    "1022265": {
+      "channels": {
+        "0": {
+          "mercoledì": {
+            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+          }
+        }
+      }
+    }
   }
 }
