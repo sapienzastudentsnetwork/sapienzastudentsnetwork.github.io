@@ -1,0 +1,121 @@
+{
+  "add_courses": {
+    "33503": {
+      "1020422_2": {
+        "subject": "SISTEMI OPERATIVI II MODULO",
+        "degree": "33503",
+        "channels": {
+          "1": {},
+          "2": {}
+        }
+      }
+    }
+  },
+  "add_schedules": {
+    "1015889": {
+      "degree_limit": "33503",
+      "channels": {
+        "2": {
+          "martedì": [{
+            "teachers": {"35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"},
+            "timeslot": "14 - 17",
+            "classrooms": {"0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"}
+          }]
+        }
+      }
+    },
+    "1015884": {
+      "channels": {
+        "1": {
+          "mercoledì": [{
+            "teachers": {"1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"},
+            "timeslot": "12 - 16",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }]
+        },
+        "2": {
+          "mercoledì": [{
+            "teachers": {"1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"},
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }]
+        }
+      }
+    },
+    "1020422_2": {
+      "channels": {
+        "1": {
+          "mercoledì": [{
+            "teachers": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
+            "timeslot": "16 - 19",
+            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
+          }],
+          "venerdì": [{
+            "teachers": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
+            "timeslot": "9 - 12",
+            "classrooms": {"4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"}
+          }]
+        },
+        "2": {
+          "lunedì": [{
+            "teachers": {"aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"},
+            "timeslot": "16 - 19",
+            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
+          }],
+          "mercoledì": [{
+            "teachers": {"aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"},
+            "timeslot": "16 - 19",
+            "classrooms": {"deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"}
+          }]
+        }
+      }
+    },
+    "10589555": {
+      "channels": {
+        "0": {
+          "giovedì": [{
+            "teachers": {"d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"},
+            "timeslot": "12 - 15",
+            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
+          }]
+        }
+      }
+    },
+    "1055682": {
+      "channels": {
+        "0": {
+          "venerdì": [{
+            "teachers": {"18d45fcf-5ea5-4a70-a144-e816865509eb": "MANCINI LUIGI VINCENZO"},
+            "timeslot": "8 - 11",
+            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
+          }]
+        }
+      }
+    }
+  },
+  "add_teachers": {
+    "1038141": {"1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"},
+    "10607006": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
+    "10620665": {"b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"},
+    "10595537": {"d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"}
+  },
+  "replace_classrooms": {
+    "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
+      "classroomInfo": "Aula 3 (Edificio: RM158)",
+      "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+    },
+    "0423606b-48fc-4638-a851-eab7563981a2": {
+      "classroomInfo": "Aula 4 (Edificio: RM158)",
+      "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+    }
+  },
+  "remove_teachers": {
+    "1047634": ["00000000-0000-0000-0000-000000000000"]
+  }
+}

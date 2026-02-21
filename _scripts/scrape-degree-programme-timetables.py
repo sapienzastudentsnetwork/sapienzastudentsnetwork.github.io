@@ -393,247 +393,103 @@ def extract_classrooms(DOM, classrooms_dict):
 
 def apply_manual_overrides(course_timetables_dict, degree_programme_code):
     """
-    Applies hardcoded overrides for specific courses, teachers, and classrooms.
+    Applies overrides for specific courses, teachers, and classrooms
+    by reading from an external JSON configuration file.
     """
-    currentDate = datetime.now()
+    overrides_file_path = "../data/timetables-overrides.json"
+    overrides = load_dict_from_json(overrides_file_path)
 
-    zoom_register_it = "Zoom (registrarsi tramite questo link)"
-    zoom_register_en = "Zoom (register using this link)"
-    zoom_login_it = "Zoom (effettuare l'accesso tramite account Sapienza)"
-    zoom_login_en = "Zoom (login with Sapienza account)"
-    scienzebiochimiche_aulaA = "Aula A Scienze Biochimiche (CU010)"
-    scienzebiochimiche = "https://maps.app.goo.gl/FDurWQ4cwoQVqCn5A"
-    reginaelena_edificioa_aula_re1 = "Aula RE1 Regina Elena Ed. A"
-    reginaelena_edificioa_aula_re2 = "Aula RE2 Regina Elena Ed. A"
-    reginaelena_edificioa = "https://maps.app.goo.gl/A8FX2uvXFKc5Km3PA"
-    reginaelena_edificiod_aula_101 = "Aula 101 Regina Elena Ed. D"
-    reginaelena_edificiod_aula_201 = "Aula 201 Regina Elena Ed. D"
-    reginaelena_edificiod_aula_301 = "Aula 301 Regina Elena Ed. D"
-    reginaelena_edificiod = "https://maps.app.goo.gl/7MAGdzdLAbU3Tae7A"
-    chimica_aula_1 = "Aula I Caglioti"
-    chimica_caglioti = "https://maps.app.goo.gl/eZN2ob1D6fSCS5iU6"
-    matematica_aula_iv = "Aula IV Matematica G. Castelnuovo (CU006)"
-    matematica_aula_v = "Aula V Matematica G. Castelnuovo (CU006)"
-    matematica_building = "https://maps.app.goo.gl/oU37nArvFccRYNvQ7"
-    clinica_odontoiatrica_aula_a1 = 'Aula A1 Luigi Capozzi Via Caserta, 6'
-    clinica_odontoiatrica_aula_a2 = 'Aula A2 Luigi Capozzi Via Caserta, 6'
-    clinica_odontoiatrica_aula_g = 'Aula G Via Caserta, 6'
-    clinica_odontoiatrica = "https://maps.app.goo.gl/TwTzZBTvbskzgjPNA"
-    viascarpa_classroom_id = "1e079880-d2d2-49ef-8058-c58ab0baa4b4"
-    viascarpa_classroom_desc = "Aula 11 (Edificio: RM005)"
-    aula_1l_classroom_id = "3247d3bb-417e-4bba-8e7e-829bbb3863de"
-    aula_1l_classroom_desc = "Aula 1 (Edificio: RM018)"
-    aula_2l_classroom_id = "625390f2-0bbb-4072-b866-50902fa1bad9"
-    aula_2l_classroom_desc = "Aula 2 (Edificio: RM018)"
-    aula_8l_classroom_desc = "Aula 8 (Edificio: RM018)"
-    aula_8l_classroom_url = "https://maps.app.goo.gl/MJLFT64KPxPo58Jt7"
-    aula_magna_rm111_id = "74a8a956-ade6-4883-b10f-416c38c9d93d"
-    aula_magna_rm111_desc = "Aula Magna (Edificio: RM111)"
-    marcopolo_aula_203 = 'Aula 203 (Edificio: RM021)'
-    marcopolo_edificio = 'https://maps.app.goo.gl/ptkUVyxzr74eiBmHA'
+    if not overrides:
+        print(f"No overrides found in '{overrides_file_path}' or the file is empty.")
+        return
 
-    #first_year_informatica_teachings = set(["101226", "1015883", "10621297", "1015880"])
-    #second_year_informatica_teachings = set(["1015886", "1015887_1", "1020421", "1020422_1"])
-    #first_and_second_year_informatica_teachings = first_year_informatica_teachings | second_year_informatica_teachings
+    # Initialize missing courses
+    # Retrieve the courses to add for the specific degree programme
+    add_courses = overrides.get("add_courses", {}).get(degree_programme_code, {})
+    for course_code, course_data in add_courses.items():
+        if course_code not in course_timetables_dict:
+            course_timetables_dict[course_code] = course_data
 
-    #first_year_acsai_teachings = set(["10595099_1", "10595546_1", "10595524", "10595102_1", "10595102_2"])
-    #second_year_acsai_teachings = set(["10595529", "10595617_1", "10595525", "10595616_1", "10595616_2"])
-    #first_and_second_year_acsai_teachings = first_year_acsai_teachings | second_year_acsai_teachings
-
-    if degree_programme_code == "33503": # Informatica
-        # 1015889 - RETI DI ELABORATORI
-        if (
-            "1015889" in course_timetables_dict
-            and "2" in course_timetables_dict["1015889"]["channels"]
-            and "martedì" not in course_timetables_dict["1015889"]["channels"]["2"]
-        ):
-            course_timetables_dict["1015889"]["channels"]["2"]["martedì"] = [{
-                "teachers": {
-                  "35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"
-                },
-                "timeslot": "14 - 17",
-                "classrooms": {
-                    "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
-                }
-            }]
-    elif degree_programme_code == "33502": # ACSAI
-        pass
-    elif degree_programme_code == "33508": # Computer Science
-        pass
-    elif degree_programme_code == "33516": # Cybersecurity
-        pass
-
-    master_degrees = ("33508", "33516")
-
-    for course_code, course_data in course_timetables_dict.items():
-        course_degree = course_data["degree"]
-
-        if "degree" in course_data and course_degree != degree_programme_code and (degree_programme_code not in master_degrees or course_degree not in master_degrees):
+    # Add manual extra schedules
+    add_schedules = overrides.get("add_schedules", {})
+    for course_code, config in add_schedules.items():
+        # Check if the override is limited to a specific degree programme
+        limit_degree = config.get("degree_limit")
+        if limit_degree and limit_degree != degree_programme_code:
             continue
 
-        for channel_id, channel_data in course_data["channels"].items():
+        if course_code in course_timetables_dict:
+            for channel, days in config.get("channels", {}).items():
+                if channel not in course_timetables_dict[course_code]["channels"]:
+                    course_timetables_dict[course_code]["channels"][channel] = {}
+
+                for day, schedules in days.items():
+                    if day not in course_timetables_dict[course_code]["channels"][channel]:
+                        course_timetables_dict[course_code]["channels"][channel][day] = schedules
+
+    # Iterate through data for inline updates (teachers and classrooms)
+    master_degrees = ("33508", "33516")
+    add_teachers = overrides.get("add_teachers", {})
+    replace_classrooms = overrides.get("replace_classrooms", {})
+    remove_teachers = overrides.get("remove_teachers", {})
+
+    for course_code, course_data in course_timetables_dict.items():
+        course_degree = course_data.get("degree")
+
+        # Skip courses that do not belong to the current degree programme,
+        # unless both are master degrees
+        if (
+            course_degree != degree_programme_code
+            and (degree_programme_code not in master_degrees or course_degree not in master_degrees)
+        ):
+            continue
+
+        for channel_id, channel_data in course_data.get("channels", {}).items():
             for day_name, day_schedules in channel_data.items():
+                filtered_day_schedules = []
+
                 for day_schedule in day_schedules:
-                    classroomInfo = None
-                    classroomUrl  = None
+                    skip_schedule = False
 
-                    if "teachers" in day_schedule:
-                        # 1038141 - NATURAL LANGUAGE PROCESSING
-                        if course_code == "1038141":
-                            day_schedule["teachers"]["1986beaa-9a9b-493a-932c-82a3ff97b6f9"] = "FARALLI STEFANO"
-                        # 10607006 - FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING
-                        elif course_code == "10607006":
-                            day_schedule["teachers"]["8ed8a497-ed02-41ea-b32a-96de43093776"] = "ZULIANI PAOLO"
-                        # 10620665 - LOGICS AND REASONING
-                        elif course_code == "10620665":
-                            day_schedule["teachers"]["b6bb1ba8-7e12-48b3-bc4e-dccbb9840942"] = "CARLUCCI LORENZO"
-                        # 10595537 - LAW AND COMPUTER SCIENCE
-                        elif course_code == "10595537":
-                            day_schedule["teachers"]["d487b5a4-5e48-44c8-9130-f12bfda39f2b"] = "SIGISMONDI IRENE"
+                    # Remove invalid schedules based on specific dummy/empty teacher IDs
+                    if "teachers" in day_schedule and course_code in remove_teachers:
+                        for bad_teacher_id in remove_teachers[course_code]:
+                            if bad_teacher_id in day_schedule["teachers"]:
+                                # Skip this schedule entirely
+                                skip_schedule = True
+                                break
 
+                    if skip_schedule:
+                        continue
+
+                    # Update or add teacher names if they match the override configuration
+                    if "teachers" in day_schedule and course_code in add_teachers:
+                        for teacher_id, new_name in add_teachers[course_code].items():
+                            day_schedule["teachers"][teacher_id] = new_name
+
+                    # Replace classroom details with custom info/URL mapping
                     if "classrooms" in day_schedule:
-                        #if (
-                        #    "1e079880-d2d2-49ef-8058-c58ab0baa4b4" in day_schedule["classrooms"]
-                        #    and currentDate < datetime(currentDate.year, 10, 1)
-                        #):
-                        #    classroomInfo = marcopolo_aula_203
-                        #    classroomUrl  = marcopolo_edificio
+                        classroom_info = None
+                        classroom_url = None
 
-                        if "41f8d660-fcfd-4b27-9dc6-8da0e075088b" in day_schedule["classrooms"]:
-                            classroomInfo = "Aula 3 (Edificio: RM158)"
-                            classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+                        for room_id in day_schedule["classrooms"].keys():
+                            if room_id in replace_classrooms:
+                                classroom_info = replace_classrooms[room_id]["classroomInfo"]
+                                classroom_url = replace_classrooms[room_id].get("classroomUrl")
+                                # Apply the first found replacement and stop
+                                break
 
-                        if "0423606b-48fc-4638-a851-eab7563981a2" in day_schedule["classrooms"]:
-                            classroomInfo = "Aula 4 (Edificio: RM158)"
-                            classroomUrl  = "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+                        if classroom_info:
+                            # Remove the default 'classrooms' dict and use custom string fields
+                            day_schedule.pop("classrooms")
+                            day_schedule["classroomInfo"] = classroom_info
+                            if classroom_url:
+                                day_schedule["classroomUrl"] = classroom_url
 
-                    if classroomInfo is not None:
-                        day_schedule.pop("classrooms")
-                        day_schedule["classroomInfo"] = classroomInfo
+                    filtered_day_schedules.append(day_schedule)
 
-                        if classroomUrl is not None:
-                            day_schedule["classroomUrl"] = classroomUrl
-
-    if "1047634" in course_timetables_dict:
-        for day_name in course_timetables_dict["1047634"]["channels"]["0"]:
-            update_day_schedules = False
-            day_schedules_tmp = []
-            for day_schedule in course_timetables_dict["1047634"]["channels"]["0"][day_name]:
-                if "teachers" in day_schedule and "00000000-0000-0000-0000-000000000000" in day_schedule["teachers"]:
-                    update_day_schedules = True
-                else:
-                    day_schedules_tmp.append(day_schedule)
-            if update_day_schedules:
-                course_timetables_dict["1047634"]["channels"]["0"][day_name] = day_schedules_tmp
-
-    # 1015884 - METODOLOGIE DI PROGRAMMAZIONE
-    if "1015884" in course_timetables_dict:
-        if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["1"]:
-            course_timetables_dict["1015884"]["channels"]["1"]["mercoledì"] = [{
-                "teachers": {
-                  "1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"
-                },
-                "timeslot": "12 - 16",
-                "classrooms": {
-                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-                }
-            }]
-
-        if "mercoledì" not in course_timetables_dict["1015884"]["channels"]["2"]:
-            course_timetables_dict["1015884"]["channels"]["2"]["mercoledì"] = [{
-                "teachers": {
-                  "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
-                },
-                "timeslot": "8 - 12",
-                "classrooms": {
-                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-                }
-            }]
-
-    # 1020422_2 - SISTEMI OPERATIVI (II MODULO)
-    if degree_programme_code == "33503":
-        if "1020422_2" not in course_timetables_dict:
-            course_timetables_dict["1020422_2"] = {
-                "subject": "SISTEMI OPERATIVI II MODULO",
-                "degree": "33503",
-                "channels": {
-                    "1": {},
-                    "2": {}
-                }
-            }
-
-    if "1020422_2" in course_timetables_dict:
-        if "mercoledì" not in course_timetables_dict["1020422_2"]["channels"]["1"]:
-            course_timetables_dict["1020422_2"]["channels"]["1"]["mercoledì"] = [{
-                "teachers": {
-                  "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
-                },
-                "timeslot": "16 - 19",
-                "classrooms": {
-                  "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                }
-            }]
-
-        if "venerdì" not in course_timetables_dict["1020422_2"]["channels"]["1"]:
-            course_timetables_dict["1020422_2"]["channels"]["1"]["venerdì"] = [{
-                "teachers": {
-                  "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
-                },
-                "timeslot": "9 - 12",
-                "classrooms": {
-                  "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
-                }
-            }]
-
-        if "lunedì" not in course_timetables_dict["1020422_2"]["channels"]["2"]:
-            course_timetables_dict["1020422_2"]["channels"]["2"]["lunedì"] = [{
-                 "teachers": {
-                   "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
-                 },
-                 "timeslot": "16 - 19",
-                 "classrooms": {
-                   "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                 }
-            }]
-
-        if "mercoledì" not in course_timetables_dict["1020422_2"]["channels"]["2"]:
-            course_timetables_dict["1020422_2"]["channels"]["2"]["mercoledì"] = [{
-                "teachers": {
-                  "aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"
-                },
-                "timeslot": "16 - 19",
-                "classrooms": {
-                  "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-                }
-            }]
-
-    # 10589555 - PRACTICAL NETWORK DEFENSE
-    if "10589555" in course_timetables_dict:
-        if "giovedì" not in course_timetables_dict["10589555"]["channels"]["0"]:
-            course_timetables_dict["10589555"]["channels"]["0"]["giovedì"] = [{
-                 "teachers": {
-                    "d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"
-                 },
-                 "timeslot": "12 - 15",
-                 "classrooms": {
-                    "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                 }
-            }]
-
-    # ETHICAL HACKING
-    if "1055682" in course_timetables_dict:
-        if "venerdì" not in course_timetables_dict["1055682"]["channels"]["0"]:
-            course_timetables_dict["1055682"]["channels"]["0"]["venerdì"] = [{
-                 "teachers": {
-                   "18d45fcf-5ea5-4a70-a144-e816865509eb": "MANCINI LUIGI VINCENZO"
-                 },
-                 "timeslot": "8 - 11",
-                 "classrooms": {
-                   "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
-                 }
-            }]
+                # Apply the filtered and updated schedules back to the day
+                channel_data[day_name] = filtered_day_schedules
 
 
 def main():
