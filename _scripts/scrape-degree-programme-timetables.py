@@ -438,6 +438,18 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
                                 for schedule in course_timetables_dict[course_code]["channels"][channel][day]:
                                     schedule["classrooms"] = new_classrooms
 
+    # Override timeslots for specific days
+    if "change_timeslot" in overrides:
+        for course_code, course_data in overrides["change_timeslot"].items():
+            if course_code in course_timetables_dict:
+                for channel, channel_data in course_data.get("channels", {}).items():
+                    if channel in course_timetables_dict[course_code]["channels"]:
+                        for day, new_timeslot in channel_data.items():
+                            if day in course_timetables_dict[course_code]["channels"][channel]:
+                                # Update the timeslot for all occurrences of that day
+                                for schedule in course_timetables_dict[course_code]["channels"][channel][day]:
+                                    schedule["timeslot"] = new_timeslot
+
     # Iterate through data for inline updates (teachers and classrooms)
     master_degrees = ("33508", "33516")
     add_teachers = overrides.get("add_teachers", {})
