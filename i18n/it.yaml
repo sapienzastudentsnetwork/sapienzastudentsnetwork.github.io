@@ -253,3 +253,12 @@
 
 - id: B_Stud_DIRepr_Desc
   translation: Rappresentante degli Studenti al Consiglio di Dipartimento di Informatica
+
+- id: DarkMode
+  translation: Tema scuro
+
+- id: BackToTop
+  translation: Torna su
+
+- id: DismissBanner
+  translation: Chiudi
