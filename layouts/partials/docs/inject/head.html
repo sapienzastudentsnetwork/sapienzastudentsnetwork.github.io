@@ -1,0 +1,11 @@
+{{/* Anti-FOUC: detect and apply theme before first paint */}}
+<script>
+(function() {
+  var d = document.documentElement;
+  var t = localStorage.getItem('theme');
+  if (!t) {
+    t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+  d.dataset.theme = t;
+})();
+</script>

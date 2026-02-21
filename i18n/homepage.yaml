@@ -31,3 +31,9 @@
 
 - id: SSN_Repo_Managers
   translation: Repo Managers
+
+- id: DarkMode
+  translation: Dark mode
+
+- id: BackToTop
+  translation: Back to top

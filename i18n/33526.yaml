@@ -53,3 +53,9 @@
 
 - id: B_Stud_Repr_CAD_Desc
   translation: Il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica ("CAD") di Filosofia
+
+- id: DarkMode
+  translation: Tema scuro
+
+- id: BackToTop
+  translation: Torna su
