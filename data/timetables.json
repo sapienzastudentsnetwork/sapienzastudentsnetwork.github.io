@@ -759,7 +759,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "1020422"
   },
   "1047613": {
     "subject": "ADVANCED ALGORITHMS",
@@ -1539,7 +1540,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "10616549"
   },
   "10600449": {
     "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
@@ -1569,7 +1571,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "10600449"
   },
   "1047197": {
     "subject": "DATA MANAGEMENT FOR DATA SCIENCE",
@@ -2041,7 +2044,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "10600197"
   },
   "10616532": {
     "subject": "ECONOMICS AND COMPUTATION",
@@ -2073,7 +2077,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "10616532"
   },
   "10589730": {
     "subject": "GEOMATICS AND GEOINFORMATION",
@@ -2101,7 +2106,8 @@
           }
         ]
       }
-    }
+    },
+    "code": "10589730"
   },
   "1049269": {
     "subject": "ALGORITHMS",
