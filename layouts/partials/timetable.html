@@ -72,6 +72,12 @@
                             const match = time.classroomInfo.match(classroomPattern);
                             if (match) {
                                 let roomNumber = match[0]; // Extract the matched room number
+
+                                // If the classroom is located in Via Eudossiana, append "SPV"
+                                if (time.classroomInfo.includes("Eudossiana")) {
+                                    return roomNumber + " SPV";
+                                }
+
                                 // If the classroom information contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
                                 return time.classroomInfo.includes("RM018") ? roomNumber + "L" : roomNumber;
                             }
@@ -84,6 +90,12 @@
                                 const match = room.match(classroomPattern);
                                 if (match) {
                                     let roomNumber = match[0]; // Extract the matched room number
+
+                                    // If the classroom is located in Via Eudossiana, append "SPV"
+                                    if (room.includes("Eudossiana")) {
+                                        return roomNumber + " SPV";
+                                    }
+
                                     // If the room string contains "RM018" (Aule L Castro Laurenziano), append "L" to the room number
                                     return room.includes("RM018") ? roomNumber + "L" : roomNumber;
                                 }
