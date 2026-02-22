@@ -142,7 +142,12 @@
 
                                                 {{ range $teacherId, $teacherName := $teachers }}
                                                     {{ $formattedName := $teacherName | lower | title }}
+
                                                     {{ $teacherUrl := printf "https://gomppublic.uniroma1.it/Docenti/Render.aspx?UID=%s" $teacherId }}
+                                                    {{ if eq (len $teacherId) 56 }}
+                                                        {{ $teacherUrl = printf "https://corsidilaurea.uniroma1.it/it/lecturer/%s" $teacherId }}
+                                                    {{ end }}
+
                                                     {{ $teacherLinks = $teacherLinks | append (printf "<a href='%s'>%s</a>" $teacherUrl $formattedName) }}
                                                 {{ end }}
 

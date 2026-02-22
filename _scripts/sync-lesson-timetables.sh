@@ -1,9 +1,8 @@
 #!/bin/bash
 
-rm ../data/classrooms.json
 rm ../data/timetables.json
 
-declare -a degree_programme_codes=("33503" "33508" "33516" "33502")
+declare -a degree_programme_codes=("33503" "33508" "33516" "33519" "33502")
 academic_year="2025/2026"
 semester="secondo"
 

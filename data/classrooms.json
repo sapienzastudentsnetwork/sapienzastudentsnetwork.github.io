@@ -118,5 +118,135 @@
     "description": "Aula Sala Studio - Centro teatro ateneo, Dopolavoro, Bar",
     "address": null,
     "mapsUrl": null
+  },
+  "89b27605-769d-4b35-b337-1b6651d59c30": {
+    "description": "Aula 11 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "6b63d969-df98-412b-a372-01d3f8dc8cd0": {
+    "description": "Aula 12 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "8d6d7bea-1a75-4816-b808-87a547b8c977": {
+    "description": "Aula 24 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "dbc3ab05-89de-4b5d-8779-9f2ce3fe28c8": {
+    "description": "Aula 25 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "08f43120-dff4-4e30-ae3b-ebbd3b3282f6": {
+    "description": "Aula 28 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "91050860-2f69-4562-89ac-d227b563b0b7": {
+    "description": "Aula 29 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "0de47c55-9f21-4008-9241-7bb3069c7793": {
+    "description": "Aula 33 - S. Pietro in Vincoli - Edificio B",
+    "address": null,
+    "mapsUrl": null
+  },
+  "0b514dda-fdb2-4eeb-83d7-d4206cf8cb48": {
+    "description": "Aula 38 - Carlo Mazzetti - S. Pietro in Vincoli - Ingegneria chimica",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "55b03ff9-42c2-4d98-97d6-010c9aae2a9e": {
+    "description": "Aula 39 - S. Pietro in Vincoli - Ingegneria Elettrica",
+    "address": "Via Eudossiana, 18 00100",
+    "mapsUrl": null
+  },
+  "fa85f316-c933-4ddd-b8af-89b6bc7da996": {
+    "description": "Aula 40 - S. Pietro in Vincoli - Ingegneria Elettrica",
+    "address": null,
+    "mapsUrl": null
+  },
+  "40717383-da9c-4f58-93f0-cb46ca3877ba": {
+    "description": "Aula 5 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": {
+    "description": "Aula 7 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "69429b6f-c498-41b2-858f-9abd6bc7db27": {
+    "description": "Aula 8 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "6fad41a0-d55b-44d1-81c1-322a7f6dfe29": {
+    "description": "Aula 9 - S. Pietro in Vincoli - Edificio principale",
+    "address": "Via Eudossiana, 18",
+    "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "792e5ab2-58db-44ed-8723-8374acee0da0": {
+    "description": "Aula A3 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
+  },
+  "d90b7d49-919d-4e78-839c-db91892e3ac6": {
+    "description": "Aula A4 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
+  },
+  "bdefdb67-cc5f-4031-a58d-858f26e3d33d": {
+    "description": "Aula A7 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
+  },
+  "267bbb25-1c7a-421c-ab60-ef0a6e29aece": {
+    "description": "Aula B2 -",
+    "address": "Via Ariosto, 25",
+    "mapsUrl": "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
+  },
+  "8c93a07d-b833-4dae-a4ff-302f0f065453": {
+    "description": "Aula 1 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "6a0dd3a4-5a1a-4f02-a439-806072eb7882": {
+    "description": "Aula 103 - Edificio \\\"Marco Polo\\\"",
+    "address": "Circonvallazione Tiburtina, 4",
+    "mapsUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
+  },
+  "7c9eda03-998a-4efe-ac0b-6cd1fb1bac04": {
+    "description": "Aula 105 - Edificio \\\"Marco Polo\\\"",
+    "address": "Circonvallazione Tiburtina, 4",
+    "mapsUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
+  },
+  "41000368-3616-4dd9-81da-9c9d4c5449de": {
+    "description": "Aula 108 - Edificio \\\"Marco Polo\\\"",
+    "address": "Circonvallazione Tiburtina, 4",
+    "mapsUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
+  },
+  "3a8425bb-8b53-4693-ba55-e3420248109b": {
+    "description": "Aula 2 - Aule temporanee",
+    "address": null,
+    "mapsUrl": "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+  },
+  "b1991f85-d4be-4169-936f-4f8c47fbb399": {
+    "description": "Aula 202 - Edificio \\\"Marco Polo\\\"",
+    "address": "Circonvallazione Tiburtina, 4",
+    "mapsUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
+  },
+  "d1e19e6a-4800-46f1-8e38-204e28bcc92b": {
+    "description": "Aula 204 - Edificio \\\"Marco Polo\\\"",
+    "address": "Circonvallazione Tiburtina, 4",
+    "mapsUrl": "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
+  },
+  "e0f2f5db-bcc2-45d5-932b-f96267f96575": {
+    "description": "Aula VI - Sc. Stat. - Giurisprudenza; Scienze politiche e Scienze statistiche; Ingegneria dell'informazione, informatica e statistica",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": null
   }
 }

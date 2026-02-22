@@ -67,14 +67,14 @@
             {{ $degrees := dict }}
             {{ if or (eq $pageDegreeCode "33503") (eq $pageDegreeCode "33502") }}
                 {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" }}
-            {{ else if or (eq $pageDegreeCode "33508") (eq $pageDegreeCode "33516") }}
-                {{ $degrees = dict "33508" "Computer Science" "33516" "Cybersecurity" }}
+            {{ else if or (eq $pageDegreeCode "33508") (eq $pageDegreeCode "33516") (eq $pageDegreeCode "33519") }}
+                {{ $degrees = dict "33508" "Computer Science" "33516" "Cybersecurity" "33519" "Data Science" }}
             {{ else }}
-                {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" "33508" "Computer Science" "33516" "Cybersecurity"
+                {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" "33508" "Computer Science" "33516" "Cybersecurity" "33519" "Data Science"
             }}
             {{ end }}
 
-            {{ $colors := dict "33503" "#709DD1" "33502" "#B15252" "33508" "#49C15B" "33516" "#FCC005" }}
+            {{ $colors := dict "33503" "#709DD1" "33502" "#B15252" "33508" "#49C15B" "33516" "#FCC005" "33519" "#FF781F" }}
 
             {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
             {{ $dataTimetables := site.Data.timetables }}
@@ -165,6 +165,9 @@
             } else if (button.classList.contains("c-33516-disabled")) {
                 button.classList.remove("c-33516-disabled")
                 button.classList.add("c-33516")
+            } else if (button.classList.contains("c-33519-disabled")) {
+                button.classList.remove("c-33519-disabled")
+                button.classList.add("c-33519")
             } else if (button.classList.contains("c-33503-disabled")) {
                 button.classList.remove("c-33503-disabled")
                 button.classList.add("c-33503")
@@ -208,6 +211,9 @@
             } else if (button.classList.contains("c-33516")) {
                 button.classList.add("c-33516-disabled")
                 button.classList.remove("c-33516")
+            } else if (button.classList.contains("c-33519")) {
+                button.classList.add("c-33519-disabled")
+                button.classList.remove("c-33519")
             } else if (button.classList.contains("c-33503")) {
                 button.classList.add("c-33503-disabled")
                 button.classList.remove("c-33503")
@@ -258,6 +264,9 @@
                 } else if (button.classList.contains("c-33516")) {
                     button.classList.add("c-33516-disabled");
                     button.classList.remove("c-33516");
+                } else if (button.classList.contains("c-33519")) {
+                    button.classList.add("c-33519-disabled");
+                    button.classList.remove("c-33519");
                 } else if (button.classList.contains("c-33503")) {
                     button.classList.add("c-33503-disabled");
                     button.classList.remove("c-33503");

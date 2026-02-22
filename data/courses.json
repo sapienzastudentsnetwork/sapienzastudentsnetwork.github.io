@@ -566,7 +566,7 @@
     },
     "10600490": {
         "name": "Blockchain and Distributed Ledger Technologies",
-        "shortName": "Blockchain and DLT",
+        "shortName": "Blockchain & DLT",
         "abbr": "BDLT",
         "tgGroup": "https://t.me/+x45vqQjj-YA0MWM8"
     },
@@ -637,7 +637,7 @@
     },
     "10620665": {
         "name": "Logics and Reasoning",
-        "shortName": "Logics and Reasoning",
+        "shortName": "Logics & Reasoning",
         "abbr": "LR",
         "tgGroup": "https://t.me/+o5P3c6dDULM2YmE0"
     },
@@ -755,7 +755,7 @@
     },
     "1044415": {
         "name": "Mobile Applications and Cloud Computing",
-        "shortName": "Mobile Apps and Cloud Comp.",
+        "shortName": "Mobile Apps & Cloud Comp.",
         "abbr": "MAC",
         "tgGroup": "https://t.me/joinchat/CfmfQ0wDb1i3PsVS_itHpg"
     },
@@ -791,7 +791,7 @@
     },
     "10600449": {
         "name": "Advanced Information Systems Security and Blockchain",
-        "shortName": "AISS and Blockchain",
+        "shortName": "AISS & Blockchain",
         "abbr": "AISB",
         "tgGroup": "https://t.me/+elPZF0tnJ-xkYzJk"
     },
@@ -836,5 +836,95 @@
         "shortName": "Adv. Cryptography",
         "abbr": "AC",
         "tgGroup": "https://t.me/+vSa1AG8hmGs2YmJk"
+    },
+    "1047197": {
+        "name": "Data Management for Data Science",
+        "shortName": "Data Mgmt for DS",
+        "abbr": "DMDS"
+    },
+    "1047222": {
+        "name": "Efficiency and Productivity Analysis",
+        "shortName": "Eff. & Prod. Analysis",
+        "abbr": "EPA"
+    },
+    "10621172": {
+        "name": "Fundamentals of Networking and Signal Processing",
+        "shortName": "Net. & Signal Proc.",
+        "abbr": "FNSP"
+    },
+    "10621178_1": {
+        "name": "Fundamentals of Statistical Learning I",
+        "shortName": "Fund. Stat. Learn. 1",
+        "abbr": "FSL1"
+    },
+    "10621178_2": {
+        "name": "Fundamentals of Statistical Learning II",
+        "shortName": "Fund. Stat. Learn. 2",
+        "abbr": "FSL2"
+    },
+    "10621173": {
+        "name": "Natural Language Processing and Text Mining",
+        "shortName": "NLP & Text Mining",
+        "abbr": "NLPT"
+    },
+    "10606725": {
+        "name": "Optimization Methods for Data Science",
+        "shortName": "Opt. Methods for DS",
+        "abbr": "OMDS"
+    },
+    "1047209": {
+        "name": "Quantitative Models for Economic Analysis and Management",
+        "shortName": "Quantitative Models",
+        "abbr": "QME"
+    },
+    "10621099": {
+        "name": "Statistical Machine Learning",
+        "shortName": "Statistical ML",
+        "abbr": "SML"
+    },
+    "10615930": {
+        "name": "Stochastic Processes for Data Science",
+        "shortName": "Stochastic Proc. for DS",
+        "abbr": "SPDS"
+    },
+    "1047218": {
+        "name": "Earth Observation Data Analysis",
+        "shortName": "Earth Obs. Data Analysis",
+        "abbr": "EODA"
+    },
+    "1047212": {
+        "name": "Economics of Network Industries",
+        "shortName": "Economics of Net. Ind.",
+        "abbr": "ENI"
+    },
+    "10616533": {
+        "name": "Graph Mining and Applications",
+        "shortName": "Graph Mining",
+        "abbr": "GMA"
+    },
+    "1047215": {
+        "name": "Intellectual Property Competition and Data Protection Law",
+        "shortName": "IPC & Data Prot. Law",
+        "abbr": "IPDP"
+    },
+    "1056023": {
+        "name": "Smart Environments",
+        "shortName": "Smart Environments",
+        "abbr": "SENV"
+    },
+    "10600197": {
+        "name": "Data Driven Economics",
+        "shortName": "Data Driven Econ.",
+        "abbr": "DDE"
+    },
+    "10589730": {
+        "name": "Geomatics and Geoinformation",
+        "shortName": "Geomatics & Geoinfo",
+        "abbr": "G&G"
+    },
+    "10616532": {
+        "name": "Economics and Computation",
+        "shortName": "Economics & Comp.",
+        "abbr": "E&C"
     }
 }

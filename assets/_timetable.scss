@@ -269,9 +269,17 @@ table th {
     background-color: rgba(195, 156, 31, 0.75);
 }
 
+.c-33519 {
+    background-color: rgba(255, 120, 31, 0.75);
+}
+
 /* Left border indicators for selected subjects */
 .c-33502-disabled {
     border-left: 3px solid #B15252;
+}
+
+.c-33503-disabled {
+    border-left: 3px solid #709DD1;
 }
 
 .c-33508-disabled {
@@ -282,8 +290,8 @@ table th {
     border-left: 3px solid #FCC005;
 }
 
-.c-33503-disabled {
-    border-left: 3px solid #709DD1;
+.c-33519-disabled {
+    border-left: 3px solid #FF781F;
 }
 
 #subjsCloseMenu {

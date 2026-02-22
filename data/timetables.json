@@ -1571,6 +1571,538 @@
       }
     }
   },
+  "1047197": {
+    "subject": "DATA MANAGEMENT FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "543a2a4d-28ad-4d11-aedf-e2357daa1fe9": "LEMBO DOMENICO",
+              "92031bb1-4da8-400a-a2e9-5ef2ba177a43": "ROSATI RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "543a2a4d-28ad-4d11-aedf-e2357daa1fe9": "LEMBO DOMENICO",
+              "92031bb1-4da8-400a-a2e9-5ef2ba177a43": "ROSATI RICCARDO"
+            },
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047197"
+  },
+  "1047222": {
+    "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "09c88509-94c2-457f-938e-839681ae72cd": "MAGGI BERNARDO"
+            },
+            "timeslot": "14 - 18",
+            "classrooms": {
+              "e0f2f5db-bcc2-45d5-932b-f96267f96575": "Aula VI (Edificio: CU002)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "09c88509-94c2-457f-938e-839681ae72cd": "MAGGI BERNARDO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "e0f2f5db-bcc2-45d5-932b-f96267f96575": "Aula VI (Edificio: CU002)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047222"
+  },
+  "10621172": {
+    "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "4dc786ba-d948-4019-8a23-e5468733fd9c": "ERAMO VINCENZO",
+              "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "4dc786ba-d948-4019-8a23-e5468733fd9c": "ERAMO VINCENZO",
+              "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "4dc786ba-d948-4019-8a23-e5468733fd9c": "ERAMO VINCENZO",
+              "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621172"
+  },
+  "10621173": {
+    "subject": "NATURAL LANGUAGE PROCESSING AND TEXT MINING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1f5ec403-932a-4a6b-ae0d-2fa7ef388c5e": "SILVESTRI FABRIZIO",
+              "9c08b70d-a56a-4141-92fb-5ef505b61325": "BECCHETTI LUCA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1f5ec403-932a-4a6b-ae0d-2fa7ef388c5e": "SILVESTRI FABRIZIO",
+              "9c08b70d-a56a-4141-92fb-5ef505b61325": "BECCHETTI LUCA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621173"
+  },
+  "10606725": {
+    "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d8f0e6e1-7623-437f-b770-1fd0f36e659a": "SALZO SAVERIO"
+            },
+            "timeslot": "17 - 20",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "d8f0e6e1-7623-437f-b770-1fd0f36e659a": "SALZO SAVERIO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10606725"
+  },
+  "1047209": {
+    "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "db1f6ca2-4b99-4b1e-adf0-94944bdfa28f": "DARAIO CINZIA"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "db1f6ca2-4b99-4b1e-adf0-94944bdfa28f": "DARAIO CINZIA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047209"
+  },
+  "10621099": {
+    "subject": "STATISTICAL MACHINE LEARNING",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "bbb4dc49-4136-4ac6-a74d-136292176c5a": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "bbb4dc49-4136-4ac6-a74d-136292176c5a": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10621099"
+  },
+  "10615930": {
+    "subject": "STOCHASTIC PROCESSES FOR DATA SCIENCE",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "4f5f33e7-81a9-43de-8955-47470e0e9cda": "SCALAS ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "4f5f33e7-81a9-43de-8955-47470e0e9cda": "SCALAS ENRICO"
+            },
+            "timeslot": "15 - 19",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10615930"
+  },
+  "1047218": {
+    "subject": "EARTH OBSERVATION DATA ANALYSIS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "20c50a2f-60cc-41f1-b1ce-a09f5ab66ea8": "NUNZIATA FERDINANDO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "20c50a2f-60cc-41f1-b1ce-a09f5ab66ea8": "NUNZIATA FERDINANDO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047218"
+  },
+  "1047212": {
+    "subject": "Economics of Network Industries",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "d47e163f-b9ca-485d-a247-97ac76ab2d15": "REVERBERI PIERFRANCESCO"
+            },
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d47e163f-b9ca-485d-a247-97ac76ab2d15": "REVERBERI PIERFRANCESCO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047212"
+  },
+  "10616533": {
+    "subject": "GRAPH MINING AND APPLICATIONS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "52157de1-1608-4a51-b2ba-931fb75f1f70": "ANAGNOSTOPOULOS ARISTIDIS"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "52157de1-1608-4a51-b2ba-931fb75f1f70": "ANAGNOSTOPOULOS ARISTIDIS"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616533"
+  },
+  "1047215": {
+    "subject": "INTELLECTUAL PROPERTY COMPETITION AND DATA PROTECTION LAW",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "26d82b31-1513-4032-804d-dedbc47ad90f": "ORLANDO SALVATORE"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "26d82b31-1513-4032-804d-dedbc47ad90f": "ORLANDO SALVATORE"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047215"
+  },
+  "1056023": {
+    "subject": "SMART ENVIRONMENTS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA",
+              "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
+            },
+            "timeslot": "8 - 12",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA",
+              "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
+            },
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1056023"
+  },
+  "10621178_2": {
+    "subject": "FUNDAMENTALS OF STATISTICAL LEARNING II",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "41a1bf55-c750-4c37-af6b-68ad5c31ef5d": "TARDELLA LUCA"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621178"
+  },
+  "10600197": {
+    "subject": "DATA DRIVEN ECONOMICS",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d763962b-b0f7-4c1a-9b27-6c13155afc6f": "MARZANO RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "d763962b-b0f7-4c1a-9b27-6c13155afc6f": "MARZANO RICCARDO"
+            },
+            "timeslot": "15 - 18",
+            "classrooms": {
+              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "10616532": {
+    "subject": "ECONOMICS AND COMPUTATION",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
+              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
+              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "10589730": {
+    "subject": "GEOMATICS AND GEOINFORMATION",
+    "degree": "33519",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 47 Via Eudossiana, 18",
+            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"
+            },
+            "timeslot": "11 - 14",
+            "classroomInfo": "Aula 4 Via Eudossiana, 18",
+            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+          }
+        ]
+      }
+    }
+  },
   "1049269": {
     "subject": "ALGORITHMS",
     "degree": "33502",
