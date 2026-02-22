@@ -327,6 +327,15 @@
           }
         }
       }
+    },
+    "10616533": {
+      "channels": {
+        "0": {
+          "giovedì": {
+            "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 (Edificio: RM102)"
+          }
+        }
+      }
     }
   },
   "change_timeslot": {
