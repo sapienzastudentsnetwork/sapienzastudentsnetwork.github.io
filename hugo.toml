@@ -108,6 +108,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     math = true
     BookTheme = 'auto'
     BookToC = true
+    BookServiceWorker = true
     BookLogo = 'logo.png'
     BookSection = '*'
 
