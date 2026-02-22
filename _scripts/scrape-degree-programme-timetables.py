@@ -355,6 +355,8 @@ def extract_classrooms(DOM, classrooms_dict):
             #      address: Viale Regina Elena, 295
             if " - Regina Elena - " in description and address is None:
                 address = "Viale Regina Elena, 295"
+            if "S. Pietro in Vincoli - Edificio principale" in description and address is None:
+                address = "Via Eudossiana, 18"
             if id == "cab0d0ee-1faa-4552-9587-7a559480dde4" and address is None:
                 address = "Via Ariosto, 25"
 
@@ -373,13 +375,17 @@ def extract_classrooms(DOM, classrooms_dict):
             elif "Aule temporanee Via De Lollis" in raw_description:
                 map_link = "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
             elif address == "Via Ariosto, 25":
-                map_link = "https://maps.app.goo.gl/WjRwtKmStfPfRwQF9"
+                map_link = "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
+            elif address == "Via Eudossiana, 18":
+                map_link = "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
             elif "Regina Elena - Edificio C" in description:
                 map_link = "https://maps.app.goo.gl/6LEoK2i3SZqcW2gD6"
             elif "Regina Elena - Edificio D" in description:
                 map_link = "https://maps.app.goo.gl/CSz17Qw3a4SfHT6n9"
             elif "Regina Elena - Edificio E" in description:
                 map_link = "https://maps.app.goo.gl/vbt5p3VWWn8dWYka6"
+            elif "Edificio \"Marco Polo\"" in description:
+                map_link = "https://maps.app.goo.gl/ptkUVyxzr74eiBmHA"
             else:
                 map_link = None
 
