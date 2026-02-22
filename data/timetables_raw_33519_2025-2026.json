@@ -1,0 +1,849 @@
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM018",
+            "course": "1047221",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1047221",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047221",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047224",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "Fundamentals of Data Science",
+            "teachers": [
+              "CINELLI MATTEO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "1047224",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "Fundamentals of Data Science",
+            "teachers": [
+              "CINELLI MATTEO"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "10621178",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10621178",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621178",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM102",
+            "course": "1047197",
+            "room": "Aula B2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "DATA MANAGEMENT FOR DATA SCIENCE",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047197",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "DATA MANAGEMENT FOR DATA SCIENCE",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047205",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "CLOUD COMPUTING",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1047209",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
+            "teachers": [
+              "DARAIO CINZIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047209",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
+            "teachers": [
+              "DARAIO CINZIA"
+            ]
+          },
+          {
+            "building": "Edificio: CU002",
+            "course": "1047222",
+            "room": "Aula VI - Sc. Stat.",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+            "teachers": [
+              "MAGGI BERNARDO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10606725",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "20:00"
+              }
+            ],
+            "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+            "teachers": [
+              "SALZO SAVERIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10606725",
+            "room": "Aula A7",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+            "teachers": [
+              "SALZO SAVERIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10615930",
+            "room": "Aula A6",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "STOCHASTIC PROCESSES FOR DATA SCIENCE",
+            "teachers": [
+              "SCALAS ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "10621099",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "STATISTICAL MACHINE LEARNING",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10621099",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "STATISTICAL MACHINE LEARNING",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10621172",
+            "room": "Aula B2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "12:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
+            "teachers": [
+              "ERAMO VINCENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "10621172",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
+            "teachers": [
+              "ERAMO VINCENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621172",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
+            "teachers": [
+              "ERAMO VINCENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10621173",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NATURAL LANGUAGE PROCESSING AND TEXT MINING",
+            "teachers": [
+              "SILVESTRI FABRIZIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10621173",
+            "room": "Aula A4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "NATURAL LANGUAGE PROCESSING AND TEXT MINING",
+            "teachers": [
+              "SILVESTRI FABRIZIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10621178",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning II",
+            "teachers": [
+              "TARDELLA LUCA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM102",
+            "course": "1044406",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS",
+              "BECCHETTI LUCA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1044406",
+            "room": "Aula A6",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS",
+              "BECCHETTI LUCA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1047214",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "DATA PRIVACY AND SECURITY",
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1056085",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BIG DATA FOR OFFICIAL STATISTICS",
+            "teachers": [
+              "MAGGINO FILOMENA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10589621",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "ADVANCED MACHINE LEARNING",
+            "teachers": [
+              "GALASSO FABIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10589627",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NEURAL NETWORKS FOR DATA SCIENCE APPLICATIONS",
+            "teachers": [
+              "SCARDAPANE SIMONE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10589627",
+            "room": "Aula A6",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NEURAL NETWORKS FOR DATA SCIENCE APPLICATIONS",
+            "teachers": [
+              "SCARDAPANE SIMONE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10593052",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "BIOINFORMATICS AND NETWORK MEDICINE",
+            "teachers": [
+              "PETTI MANUELA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10593053",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "DIGITAL EPIDEMIOLOGY AND PRECISION MEDICINE",
+            "teachers": [
+              "PETTI MANUELA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10600503",
+            "room": "Aula A4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "DATA-DRIVEN MODELING OF COMPLEX SYSTEMS",
+            "teachers": [
+              "QUATTROCIOCCHI WALTER"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10600503",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "DATA-DRIVEN MODELING OF COMPLEX SYSTEMS",
+            "teachers": [
+              "QUATTROCIOCCHI WALTER"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10610252",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SIGNAL PROCESSING FOR MACHINE LEARNING",
+            "teachers": [
+              "BARBAROSSA SERGIO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM102",
+            "course": "1047212",
+            "room": "Aula B2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "Economics of Network Industries",
+            "teachers": [
+              "REVERBERI PIERFRANCESCO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1047215",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "INTELLECTUAL PROPERTY COMPETITION AND DATA PROTECTION LAW",
+            "teachers": [
+              "ORLANDO SALVATORE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1047218",
+            "room": "Aula A2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "EARTH OBSERVATION DATA ANALYSIS",
+            "teachers": [
+              "NUNZIATA FERDINANDO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1047218",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "EARTH OBSERVATION DATA ANALYSIS",
+            "teachers": [
+              "NUNZIATA FERDINANDO"
+            ]
+          },
+          {
+            "building": "Edificio: CU002",
+            "course": "1047222",
+            "room": "Aula VI - Sc. Stat.",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+            "teachers": [
+              "MAGGI BERNARDO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1056023",
+            "room": "Aula A4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "SMART ENVIRONMENTS",
+            "teachers": [
+              "COLONNESE STEFANIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10616533",
+            "room": "Aula A3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "GRAPH MINING AND APPLICATIONS",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10616533",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "GRAPH MINING AND APPLICATIONS",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - secondo semestre"
+  }
+]
