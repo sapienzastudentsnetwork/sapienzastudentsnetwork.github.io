@@ -4,6 +4,7 @@
 
 <head>
     {{ partial "docs/html-head" . }}
+    {{ partial "docs/inject/head" . }}
 
     <link rel="stylesheet" href="/generated/tailwindcss.css" />
 
@@ -13,7 +14,7 @@
 </head>
 
 <body
-    class="bg-primary prose prose-invert flex min-h-screen max-w-none flex-col lg:prose-base xl:prose-lg 2xl:prose-xl">
+    class="bg-primary prose dark:prose-invert flex min-h-screen max-w-none flex-col lg:prose-base xl:prose-lg 2xl:prose-xl">
     <div class="border-faint h-14 border-b border-dashed">
         <div class="border-faint mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
     </div>
@@ -21,7 +22,7 @@
 
     <div class="border-faint mx-3 flex flex-grow flex-col border-l border-r border-dashed sm:mx-14">
         <div
-            class="border-faint relative grid place-items-center border-b border-dashed bg-gradient-to-r from-transparent via-gray-800/80 to-transparent p-4">
+            class="border-faint relative grid place-items-center border-b border-dashed bg-gradient-to-r from-transparent via-gray-200/80 dark:via-gray-800/80 to-transparent p-4">
             <span class="text-center">
                 <h1 class="!mb-2">Sapienza Students Network</h1>
                 <!--<h1 class="!mb-4 relative">
@@ -62,6 +63,7 @@
                 </a>
 
                 {{ partial "font-toggle" . }}
+                {{ partial "theme-toggle" . }}
             </span>
 
             <div class="diamond top-left"></div>
@@ -76,7 +78,7 @@
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-red-800/20 hover:bg-red-500/20 md:border-none">
                     <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
-                        class="w-24 invert lg:w-36 2xl:w-48" />
+                        class="w-24 dark:invert lg:w-36 2xl:w-48" />
                     <h2 class="!m-0">ACSAI</h2>
                     <p><!--<strong>33502</strong> -->Bachelor's Degree</p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
@@ -87,7 +89,7 @@
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-green-800/20 hover:bg-green-500/20 md:border-b-0 md:border-l md:border-r">
                     <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
-                        class="w-24 invert lg:w-36 2xl:w-48" />
+                        class="w-24 dark:invert lg:w-36 2xl:w-48" />
                     <h2 class="!m-0 text-center">Computer Science</h2>
                     <p><!--<strong>33508</strong> -->Master's Degree</p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
@@ -98,7 +100,7 @@
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-yellow-600/20 hover:bg-yellow-300/20 md:border-b-0 md:border-l md:border-r">
                     <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
-                         class="w-24 invert lg:w-36 2xl:w-48" />
+                         class="w-24 dark:invert lg:w-36 2xl:w-48" />
                     <h2 class="!m-0 text-center">Cybersecurity</h2>
                     <p><!--<strong>33516</strong> -->Master's Degree</p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
@@ -109,7 +111,7 @@
                 <div
                     class="relative flex h-full max-w-none flex-col items-center justify-center bg-gradient-to-t from-blue-800/20 hover:bg-blue-500/20">
                     <img src="/sapienza-logo.png" alt="Sapienza Università di Roma logo"
-                        class="w-24 invert lg:w-36 2xl:w-48" />
+                        class="w-24 dark:invert lg:w-36 2xl:w-48" />
                     <h2 class="!m-0">Informatica</h2>
                     <p><!--<strong>33503</strong> -->Bachelor's Degree</p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
@@ -131,8 +133,8 @@
             <div class="diamond bottom-right"></div>
         </div>
         <div class="p-2">
-            <div class="p-2 border-amber-400 border-4">
-                <div>⚠️ <b class="text-amber-400">Warning!</b></div>
+            <div class="p-2 border-amber-600 dark:border-amber-400 border-4">
+                <div>⚠️ <b class="text-amber-700 dark:text-amber-400">Warning!</b></div>
                 <!-- <br> -->
                 <span>
                     The only legally-binding source of information about your course programme is the
@@ -147,6 +149,8 @@
     <div class="border-faint h-14 border-t border-dashed">
         <div class="border-faint mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
     </div>
+
+    {{ partial "docs/inject/body" . }}
 </body>
 
 </html>

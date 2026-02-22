@@ -18,3 +18,97 @@
     display: block;
   }
 }
+
+// -------------------------------------------------------
+// Theme toggle — attribute-based dark/light mode override
+// Specificity :root[attr] (0,2,0) beats :root (0,1,0)
+// -------------------------------------------------------
+:root[data-theme="dark"] {
+  @include theme-dark;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  @include theme-light;
+  color-scheme: light;
+}
+
+// -------------------------------------------------------
+// Breadcrumb navigation
+// -------------------------------------------------------
+.breadcrumb-nav {
+  font-size: var(--font-size-smaller);
+  color: var(--gray-500);
+  padding: $padding-8 $padding-16;
+
+  ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 0.25rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child)::after {
+      content: "›";
+      margin-left: 0.5rem;
+      color: var(--gray-500);
+    }
+
+    &[aria-current="page"] {
+      color: var(--body-font-color);
+    }
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// -------------------------------------------------------
+// Back-to-top button
+// -------------------------------------------------------
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  background: var(--body-background);
+  color: var(--body-font-color);
+  border: 1px solid var(--gray-200);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &:hover {
+    background: var(--gray-100);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-link);
+    outline-offset: 2px;
+  }
+}
