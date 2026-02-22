@@ -403,6 +403,31 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
         print(f"No overrides found in '{overrides_file_path}' or the file is empty.")
         return
 
+    # Rename course keys based on the subject name
+    # Useful for subjects split into different units
+    # Processed first to ensure subsequent manual overrides target the updated course keys
+    change_course_keys = overrides.get("change_course_keys", {})
+    for old_code, rules in change_course_keys.items():
+        if old_code in course_timetables_dict:
+            subject = course_timetables_dict[old_code].get("subject", "")
+            new_code = None
+
+            # Iterate through rules and stop at the first match
+            for rule in rules:
+                if rule["contains"] in subject:
+                    new_code = rule["new_code"]
+                    break
+
+            if new_code and new_code != old_code:
+                # Replace the key by transferring all data to the new code
+                course_timetables_dict[new_code] = course_timetables_dict.pop(old_code)
+
+    # Override course subjects to fix upstream scraping inaccuracies or formatting issues
+    change_subjects = overrides.get("change_subjects", {})
+    for course_code, new_subject in change_subjects.items():
+        if course_code in course_timetables_dict:
+            course_timetables_dict[course_code]["subject"] = new_subject
+
     # Initialize missing courses
     # Retrieve the courses to add for the specific degree programme
     add_courses = overrides.get("add_courses", {}).get(degree_programme_code, {})
