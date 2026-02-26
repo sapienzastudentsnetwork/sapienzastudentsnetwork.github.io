@@ -1808,7 +1808,7 @@
     "code": "10596283"
   },
   "10600197": {
-    "subject": "DATA DRIVEN ECONOMICS",
+    "subject": "Data Driven Economics",
     "degree": "33519",
     "channels": {
       "0": {
@@ -1819,7 +1819,7 @@
             },
             "timeslot": "15 - 17",
             "classrooms": {
-              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+              "a9e2260b-39ef-4279-ae3d-61b9d7d8e927": "Aula 1 (Edificio: RM031)"
             }
           }
         ],
@@ -1830,7 +1830,7 @@
             },
             "timeslot": "15 - 18",
             "classrooms": {
-              "8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"
+              "89b27605-769d-4b35-b337-1b6651d59c30": "Aula 11 (Edificio: RM031)"
             }
           }
         ]
