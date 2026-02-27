@@ -1052,7 +1052,7 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "04be579af80ce4071b63bda30a71717fe853fe3df7bd03582ad070cd": "FRANCATI DANILO"
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
@@ -1062,7 +1062,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "401a2ee6cc7c26671171d1d7ff50a3c99b00490c62b9c58e0fd08073": "CHIERICHETTI FLAVIO"
+              "04be579af80ce4071b63bda30a71717fe853fe3df7bd03582ad070cd": "FRANCATI DANILO"
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
@@ -1580,7 +1580,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d043d6be-c18b-4866-98ab-f41ee5f1e7f8": "PENNESI ALICE"
+            },
             "timeslot": "14 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
@@ -1589,7 +1591,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d043d6be-c18b-4866-98ab-f41ee5f1e7f8": "PENNESI ALICE"
+            },
             "timeslot": "9 - 12",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
