@@ -1,10 +1,9 @@
 {
-    "date_range": "Monday 23 February 2026 - Friday 27 February 2026",
+    "date_range": "Monday 02 March 2026 - Friday 06 March 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
-            "09:00-09:30": "",
-            "09:30-10:00": "Verifiche tecniche e risoluzione di problemi logistici per l'erogazione del corso di Secure Computation",
+            "09:00-10:00": "",
             "10:00-11:00": "Cybersecurity LM-66 R 1054962 SECURE COMPUTATION VISCONTI I.",
             "11:00-12:00": "Cybersecurity LM-66 R 1054962 SECURE COMPUTATION VISCONTI I.",
             "12:00-13:00": "Cybersecurity LM-66 R 1054962 SECURE COMPUTATION VISCONTI I.",
@@ -18,8 +17,7 @@
         },
         "tuesday": {
             "08:00-09:00": "",
-            "09:00-09:30": "",
-            "09:30-10:00": "",
+            "09:00-10:00": "",
             "10:00-11:00": "Cybersecurity LM-66 R 1055055 CYBER AND COMPUTER LAW AVITABILE L.",
             "11:00-12:00": "Cybersecurity LM-66 R 1055055 CYBER AND COMPUTER LAW AVITABILE L.",
             "12:00-13:00": "Cybersecurity LM-66 R 1055055 CYBER AND COMPUTER LAW AVITABILE L.",
@@ -33,8 +31,7 @@
         },
         "wednesday": {
             "08:00-09:00": "",
-            "09:00-09:30": "",
-            "09:30-10:00": "",
+            "09:00-10:00": "",
             "10:00-11:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "11:00-12:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "12:00-13:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
@@ -48,8 +45,7 @@
         },
         "thursday": {
             "08:00-09:00": "",
-            "09:00-09:30": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
-            "09:30-10:00": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
+            "09:00-10:00": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
             "10:00-11:00": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
             "11:00-12:00": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
             "12:00-13:00": "",
@@ -63,8 +59,7 @@
         },
         "friday": {
             "08:00-09:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
-            "09:00-09:30": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
-            "09:30-10:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
+            "09:00-10:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
             "10:00-11:00": "Computer Science - Informatica LM-18 1047629 GRAPH THEORY WOLLAN P.",
             "11:00-12:00": "Computer Science - Informatica LM-18 1047629 GRAPH THEORY WOLLAN P.",
             "12:00-13:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
