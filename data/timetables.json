@@ -429,16 +429,16 @@
     "degree": "33503",
     "channels": {
       "0": {
-        "gioved\u00ec": [
+        "luned\u00ec": [
           {
             "teachers": {},
-            "timeslot": "13 - 16",
+            "timeslot": "16 - 19",
             "classrooms": {
-              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
         ],
-        "venerd\u00ec": [
+        "marted\u00ec": [
           {
             "teachers": {},
             "timeslot": "8 - 10",
@@ -1169,6 +1169,17 @@
     "degree": "33516",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "5abed536d1e74423ec4c390c9efd0c727ec17d34f4c03874c27479af": "AVITABILE LUISA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
         "marted\u00ec": [
           {
             "teachers": {
@@ -1866,23 +1877,23 @@
     "degree": "33503",
     "channels": {
       "0": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
-            },
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-            }
-          }
-        ],
         "mercoled\u00ec": [
           {
             "teachers": {
               "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
             },
             "timeslot": "10 - 13",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "14 - 16",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
