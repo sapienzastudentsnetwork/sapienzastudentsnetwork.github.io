@@ -371,15 +371,26 @@
             ]
           },
           {
-            "building": "Edificio: RM113",
+            "building": "Edificio: RM112",
             "course": "1055055",
-            "room": "Aula T1 ",
+            "room": "AULA 101",
             "schedule": [
               {
-                "day": "luned\u00ec",
-                "from": "14:00",
-                "to": "16:00"
-              },
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CYBER AND COMPUTER LAW",
+            "teachers": [
+              "AVITABILE LUISA"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "1055055",
+            "room": "Aula Magna",
+            "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "10:00",

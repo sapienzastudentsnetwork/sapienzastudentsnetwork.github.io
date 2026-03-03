@@ -1282,15 +1282,26 @@
             ]
           },
           {
-            "building": "Edificio: RM111",
+            "building": "Edificio: RM113",
             "course": "10589652",
-            "room": "Aula Magna",
+            "room": "Aula T1 ",
             "schedule": [
               {
                 "day": "marted\u00ec",
                 "from": "10:00",
                 "to": "13:00"
-              },
+              }
+            ],
+            "subject": "TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA",
+            "teachers": [
+              "SALVO IVANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
+            "course": "10589652",
+            "room": "Aula Magna",
+            "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "11:00",
