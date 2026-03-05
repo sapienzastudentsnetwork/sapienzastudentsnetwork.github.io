@@ -550,6 +550,51 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
     for course_code, course_data in course_timetables_dict.items():
         course_degree = course_data.get("degree")
 
+        # 1055055 - CYBER AND COMPUTER LAW
+        if course_code == "1055055":
+            from datetime import timedelta
+            now = datetime.now()
+            
+            # If it's Friday evening (after 6:00 PM) or the weekend, point to the following week
+            if (now.weekday() == 4 and now.hour >= 18) or now.weekday() > 4:
+                ref_date = now + timedelta(days=3)
+            else:
+                ref_date = now
+            
+            # Month and Day for exception checking
+            current_md = (ref_date.month, ref_date.day)
+
+            for channel_id, channel_data in course_data.get("channels", {}).items():
+                # MONDAY handling (Target: Room 2 L or Room 201)
+                if "lunedì" in channel_data:
+                    for schedule in channel_data["lunedì"]:
+                        if "classrooms" in schedule and len(schedule["classrooms"]) == 2:
+                            # Exceptions: April 13th and May 4th -> Room 201
+                            if current_md in [(4, 13), (5, 4)]:
+                                schedule["classrooms"] = {
+                                    "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+                                }
+                            else:
+                                # Monday Default -> Room 2 L
+                                schedule["classrooms"] = {
+                                    "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+                                }
+            
+                # TUESDAY handling (Target: Room 101 or Aula Magna)
+                if "martedì" in channel_data:
+                    for schedule in channel_data["martedì"]:
+                        if "classrooms" in schedule and len(schedule["classrooms"]) == 2:
+                            # Exceptions: March 17th and April 21st -> Aula Magna
+                            if current_md in [(3, 17), (4, 21)]:
+                                schedule["classrooms"] = {
+                                    "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+                                }
+                            else:
+                                # Tuesday Default -> Room 101
+                                schedule["classrooms"] = {
+                                    "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+                                }
+
         # Skip courses that do not belong to the current degree programme,
         # unless both are master degrees
         if (
