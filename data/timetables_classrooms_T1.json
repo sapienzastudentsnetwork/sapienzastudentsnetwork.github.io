@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 02 March 2026 - Friday 06 March 2026",
+    "date_range": "Monday 09 March 2026 - Friday 13 March 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -10,14 +10,14 @@
             "13:00-14:00": "",
             "14:00-15:00": "",
             "15:00-16:00": "",
-            "16:00-17:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
-            "17:00-18:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
-            "18:00-19:00": "",
+            "16:00-17:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
+            "17:00-18:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
+            "18:00-19:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
             "19:00-19:30": ""
         },
         "tuesday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
+            "08:00-09:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
+            "09:00-10:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE",
             "10:00-11:00": "Informatica L-31 R 10589652 TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA SALVO I.",
             "11:00-12:00": "Informatica L-31 R 10589652 TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA SALVO I.",
             "12:00-13:00": "Informatica L-31 R 10589652 TECNICHE DI PROGRAMMAZIONE FUNZIONALE E IMPERATIVA SALVO I.",
@@ -50,8 +50,8 @@
             "11:00-12:00": "Applied Computer Science and Artificial Intelligence â Informatica Applicata e Intelligenza Artificiale L-31 R 10595536 BUSINESS AND COMPUTER SCIENCE PENNESI A.",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
+            "14:00-15:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
+            "15:00-16:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "16:00-17:00": "",
             "17:00-18:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
             "18:00-19:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",

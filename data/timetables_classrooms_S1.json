@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 02 March 2026 - Friday 06 March 2026",
+    "date_range": "Monday 09 March 2026 - Friday 13 March 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -17,10 +17,10 @@
         },
         "tuesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "Corso per i dottorandi, Prof Maurizio Mancini",
-            "10:00-11:00": "Corso per i dottorandi, Prof Maurizio Mancini",
-            "11:00-12:00": "Corso per i dottorandi, Prof Maurizio Mancini",
-            "12:00-13:00": "Corso per i dottorandi, Prof Maurizio Mancini",
+            "09:00-10:00": "",
+            "10:00-11:00": "",
+            "11:00-12:00": "",
+            "12:00-13:00": "",
             "13:00-14:00": "",
             "14:00-15:00": "",
             "15:00-16:00": "",
