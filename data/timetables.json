@@ -462,7 +462,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "b580c54bfb84caf6244b9174a6a741906b3f5ed73d5eb9d5d7937040": "CASTRIGNANO' TIZIANA"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
@@ -471,7 +473,9 @@
         ],
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "b580c54bfb84caf6244b9174a6a741906b3f5ed73d5eb9d5d7937040": "CASTRIGNANO' TIZIANA"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
