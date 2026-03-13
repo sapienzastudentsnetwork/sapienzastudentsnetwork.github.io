@@ -731,6 +731,22 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM031",
+            "course": "1047212",
+            "room": "Aula 7",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "Economics of Network Industries",
+            "teachers": [
+              "REVERBERI PIERFRANCESCO"
+            ]
+          },
+          {
             "building": "Edificio: RM102",
             "course": "1047212",
             "room": "Aula B2",
