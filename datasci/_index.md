@@ -17,7 +17,7 @@ bookToc: False
 
 👥 Make sure you also visit the [Telegram groups of the degree course](channels/groups) in order to receive further answers on any topics not yet covered on the pages of this site 😉
 
-\*\<i\> ⚠️ The information on this website is not legally binding. For official texts, please refer to the [university's official website](https://www.uniroma1.it/en/) and the [Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33519) pages (also available in an [accessible version](https://cdl.sapienzastudents.net/33519/en/index.html)).\</i\>
+\*<i> ⚠️ The information on this website is not legally binding. For official texts, please refer to the [university's official website](https://www.uniroma1.it/en/) and the [Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33519) pages (also available in an [accessible version](https://cdl.sapienzastudents.net/33519/en/index.html)).</i>
 
 <!--
 ## Featured pages
