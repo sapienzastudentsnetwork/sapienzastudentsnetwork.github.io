@@ -2,6 +2,7 @@
 title: Tutoring
 aliases: ["/30786/info/services/tutoring"]
 weight: 7
+bookHidden: true
 ---
 
 # Tutoring

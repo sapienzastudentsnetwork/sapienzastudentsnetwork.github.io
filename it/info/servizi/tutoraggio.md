@@ -1,6 +1,7 @@
 ---
 title: Tutoraggio
 weight: 7
+bookHidden: true
 ---
 
 # Tutoraggio

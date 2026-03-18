@@ -154,6 +154,39 @@ a.home-button-link:hover {
     background-size: cover;
 }
 
+#home_schedules, #home_orari {
+    position: relative;
+    overflow: hidden;
+}
+
+#home_schedules::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://i.imgur.com/EYmranJ.png");
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+#home_orari::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://i.imgur.com/hIQWOzi.png");
+    background-position: center;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -1;
+}
+
 #home_tutoring {
     background-image: url("https://i.imgur.com/WSaDxzI.jpeg");
     background-position: center;
