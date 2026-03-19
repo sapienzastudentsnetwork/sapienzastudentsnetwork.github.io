@@ -99,6 +99,9 @@
 - id: Subjs_DelayedStart
   translation: "Le lezioni del secondo semestre sono iniziate il 23 febbraio 2026, a meno di eventuali insegnamenti per cui è stato riportato diversamente con avvisi sul foglio predisposto dalla Segreteria Didattica: "
 
+- id: Subjs_Referendum
+  translation: "Le lezioni saranno sospese lunedì 23 marzo 2026, per favorire la partecipazione al referendum costituzionale."
+
 - id: Subjs_WorkInProgress
   translation: Orari in fase di aggiornamento. Ti preghiamo di non farci affidamento per il momento e riprovare più tardi!
 

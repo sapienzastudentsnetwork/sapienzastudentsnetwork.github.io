@@ -100,6 +100,9 @@
 - id: Subjs_DelayedStart
   translation: "Second semester classes began on 23 February 2026, except for any courses for which otherwise indicated in notices posted on the sheet prepared by the Educational Affairs Office"
 
+- id: Subjs_Referendum
+  translation: "Teaching will be suspended on Monday, March 23, 2026, in order to encourage participation in the constitutional referendum."
+
 - id: Subjs_WorkInProgress
   translation: Timetable currently being updated. Please do not rely on it for now and try again later!
 
