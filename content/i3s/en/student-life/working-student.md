@@ -1,10 +1,10 @@
 # Working Student
 
-## Absence from Work for Study Reasons
+## Absence from Work for Exam Participation
 
-A [form for absence from work for study reasons](https://drive.google.com/file/d/1etM2r6Of8Bh7KBR3n9KZ3gsmqoDHkNkB/view?usp=sharing) is available.
+A [form to certify your participation in an exam](https://corsidilaurea.uniroma1.it/sites/default/files/avvisi/giustificato_per_esami_excused_for_exams.docx) is available. Students must complete all sections of the form and request the signature of the lecturer with whom the exam was taken.
 
-The **stamp** is **issued by the Educational Affairs Office**, via email ([segr.didattica@di.uniroma1.it](mailto:segr.didattica@di.uniroma1.it)), upon the student's request **and only if the professor’s signature is present**.
+The **Department stamp** to confirm its validity is **affixed by the Educational Affairs Office**, via email ([segr.didattica@di.uniroma1.it](mailto:segr.didattica@di.uniroma1.it)) by sending the form within a few days after the exam date, upon the student's request **and only if the lecturer’s signature is present**.
 
 ## Extraordinary Exam Sessions
 

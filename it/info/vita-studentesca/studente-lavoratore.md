@@ -6,11 +6,11 @@ weight: 6
 
 # Studente Lavoratore
 
-## Assenza dal Lavoro per Motivi di Studio
+## Assenza dal Lavoro per Partecipazione agli Esami
 
-È disponibile un [modulo di assenza dal lavoro per motivi di studio](https://drive.google.com/file/d/1etM2r6Of8Bh7KBR3n9KZ3gsmqoDHkNkB/view?usp=sharing). 
+È disponibile un [modulo per attestare la partecipazione a un esame](https://corsidilaurea.uniroma1.it/sites/default/files/avvisi/giustificato_per_esami_excused_for_exams.docx). Lo studente deve compilare tutte le sezioni del modulo e richiederne la firma al docente presso cui è stato sostenuto l'esame.
 
-Il **timbro** viene **posto dalla Segreteria Didattica**, via e-mail ([segr.didattica@di.uniroma1.it](mailto:segr.didattica@di.uniroma1.it)), su richiesta dello studente **e solo se è presente la firma del docente**.
+Il **timbro del Dipartimento** per confermarne la validità viene **posto dalla Segreteria Didattica**, via e-mail ([segr.didattica@di.uniroma1.it](mailto:segr.didattica@di.uniroma1.it)) inviando il modulo entro pochi giorni dalla data dell'esame, su richiesta dello studente **e solo se è presente la firma del docente**.
 
 ## Appelli d'Esame Straordinari
 
