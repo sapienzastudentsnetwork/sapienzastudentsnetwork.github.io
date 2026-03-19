@@ -2,6 +2,7 @@
 title: 📜 CS Rulebook
 aliases: ["/29932/rulebook"]
 weight: 2
+bookHidden: true
 ---
 
 # CS Rulebook

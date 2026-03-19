@@ -1,6 +1,7 @@
 ---
 title: 📜 Regolamento del Corso
 weight: 2
+bookHidden: true
 ---
 
 # Regolamento del Corso di Laurea in Informatica

@@ -2,6 +2,7 @@
 title: 📜 ACSAI Rulebook
 aliases: ["/30786/rulebook"]
 weight: 2
+bookHidden: true
 ---
 
 # ACSAI Rulebook
