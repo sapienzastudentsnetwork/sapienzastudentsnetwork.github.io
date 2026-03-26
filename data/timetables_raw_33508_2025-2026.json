@@ -679,13 +679,8 @@
             "schedule": [
               {
                 "day": "luned\u00ec",
-                "from": "10:00",
-                "to": "13:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "17:00",
-                "to": "19:00"
+                "from": "12:00",
+                "to": "14:00"
               }
             ],
             "subject": "INTERNET OF THINGS",
@@ -1554,13 +1549,8 @@
             "schedule": [
               {
                 "day": "luned\u00ec",
-                "from": "10:00",
-                "to": "13:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "17:00",
-                "to": "19:00"
+                "from": "12:00",
+                "to": "14:00"
               }
             ],
             "subject": "INTERNET OF THINGS",

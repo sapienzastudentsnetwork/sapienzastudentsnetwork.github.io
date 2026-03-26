@@ -963,16 +963,7 @@
         "luned\u00ec": [
           {
             "teachers": {},
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {},
-            "timeslot": "17 - 19",
+            "timeslot": "12 - 14",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
