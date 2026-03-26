@@ -133,6 +133,9 @@
 - id: Subjs_DelayedStart
   translation: "Second semester classes began on 23 February 2026, except for any courses for which otherwise indicated in notices on the degree programme page in the course catalogue: "
 
+- id: Subjs_EasterHolidays
+  translation: "Teaching activities will be interrupted for the Easter period from Thursday, April 2 to Tuesday, April 7, 2026."
+
 - id: Subjs_Referendum
   translation: "Teaching will be suspended on Monday, March 23, 2026, in order to encourage participation in the constitutional referendum."
 

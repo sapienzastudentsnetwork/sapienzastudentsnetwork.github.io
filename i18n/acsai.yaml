@@ -133,6 +133,9 @@
 - id: Subjs_DelayedStart
   translation: "Second semester classes began on 23 February 2026, except for any courses for which otherwise indicated in notices posted on the sheet prepared by the Educational Affairs Office: "
 
+- id: Subjs_EasterHolidays
+  translation: "Teaching activities will be interrupted for the Easter period from Thursday, April 2 to Tuesday, April 7, 2026. Furthermore, for the Bachelor's degree programs in ACSAI and Informatica, teaching activities will remain suspended from April 8 to April 14, 2026, to allow midterm exams to take place and to ensure classroom availability for the extraordinary exam sessions."
+
 - id: Subjs_Referendum
   translation: "Teaching will be suspended on Monday, March 23, 2026, in order to encourage participation in the constitutional referendum."
 

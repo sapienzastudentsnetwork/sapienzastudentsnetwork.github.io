@@ -99,6 +99,9 @@
 - id: Subjs_DelayedStart
   translation: "Le lezioni del secondo semestre sono iniziate il 23 febbraio 2026, a meno di eventuali insegnamenti per cui è stato riportato diversamente con avvisi sul foglio predisposto dalla Segreteria Didattica: "
 
+- id: Subjs_EasterHolidays
+  translation: "L'attività didattica sarà interrotta per il periodo pasquale da giovedì 2 aprile a martedì 7 aprile 2026. Inoltre, le lezioni degli insegnamenti afferenti ai corsi di laurea triennale in Informatica e ACSAI rimarranno sospese dall’8 al 14 aprile 2026 per consentire lo svolgimento delle prove intermedie e garantire la disponibilità delle aule per gli appelli straordinari."
+
 - id: Subjs_Referendum
   translation: "Le lezioni saranno sospese lunedì 23 marzo 2026, per favorire la partecipazione al referendum costituzionale."
 
