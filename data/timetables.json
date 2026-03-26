@@ -968,6 +968,15 @@
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
             }
           }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
         ]
       }
     },
