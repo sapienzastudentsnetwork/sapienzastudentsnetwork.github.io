@@ -286,6 +286,22 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047634",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              "Vegni Anna Maria"
+            ]
+          },
+          {
             "building": "Edificio: RM113",
             "course": "1054962",
             "room": "Aula T1 ",
@@ -813,6 +829,22 @@
                 "day": "luned\u00ec",
                 "from": "12:00",
                 "to": "14:00"
+              }
+            ],
+            "subject": "INTERNET OF THINGS",
+            "teachers": [
+              "Vegni Anna Maria"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1047634",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
               }
             ],
             "subject": "INTERNET OF THINGS",

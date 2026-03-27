@@ -973,7 +973,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "fabec294-0311-42a3-ab85-2c6fbac8370f": "Vegni Anna Maria"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
