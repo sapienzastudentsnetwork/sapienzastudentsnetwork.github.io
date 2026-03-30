@@ -537,6 +537,22 @@
           {
             "building": "Edificio: RM115",
             "course": "1047614",
+            "room": "Aula G0",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ADVANCED SOFTWARE ENGINEERING",
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047614",
             "room": "Aula G50",
             "schedule": [
               {
@@ -1418,6 +1434,22 @@
             "subject": "ADVANCED ALGORITHMS",
             "teachers": [
               "Giacchini Mirko"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047614",
+            "room": "Aula G0",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ADVANCED SOFTWARE ENGINEERING",
+            "teachers": [
+              "BOTTONI PAOLO GASPARE"
             ]
           },
           {

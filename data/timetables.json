@@ -805,6 +805,17 @@
     "degree": "33508",
     "channels": {
       "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "0367319152d06ab660b81cb70e940cfd03c7937775e6a32962e3dd9b": "BOTTONI PAOLO GASPARE"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "19cb3112-33cb-4dfa-9e08-54f8ebc94b68": "Aula G0 (Edificio: RM115)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {
