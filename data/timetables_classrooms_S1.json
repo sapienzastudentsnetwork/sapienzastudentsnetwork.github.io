@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 30 March 2026 - Friday 03 April 2026",
+    "date_range": "Monday 06 April 2026 - Friday 10 April 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -36,11 +36,11 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "SEDUTA DI LAUREA",
-            "15:00-16:00": "SEDUTA DI LAUREA",
-            "16:00-17:00": "SEDUTA DI LAUREA",
-            "17:00-18:00": "SEDUTA DI LAUREA",
-            "18:00-19:00": "SEDUTA DI LAUREA",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
+            "16:00-17:00": "",
+            "17:00-18:00": "Seminario",
+            "18:00-19:00": "Seminario",
             "19:00-19:30": ""
         },
         "thursday": {
