@@ -161,7 +161,7 @@
     );
 
     const selectedSubjects = new Set(
-        JSON.parse(localStorage.getItem("selectedSubjects")),
+        JSON.parse(localStorage.getItem("selectedSubjects") ?? "[]"),
     );
 
     function toggleSubject(subjectId) {
@@ -427,7 +427,7 @@
             anchorMonday = new Date(y, m - 1, d);
             // getDay(): 0=Sun … 6=Sat — shift to Monday-based week
             const dayOfWeek = anchorMonday.getDay();
-            const mondayOffset = dayOfWeek === 0 ? 1 : (dayOfWeek === 1 ? 0 : 8 - dayOfWeek);
+            const mondayOffset = dayOfWeek === 0 ? -6 : (1 - dayOfWeek);
             anchorMonday.setDate(anchorMonday.getDate() + mondayOffset);
         } else {
             // Last-resort hardcoded fallback
