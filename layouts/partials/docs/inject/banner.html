@@ -5,7 +5,7 @@
   {{/* Skip expired announcements */}}
   {{ $expired := false }}
   {{ with .expiresAt }}
-    {{ if time.AsTime . | lt $now }}{{ $expired = true }}{{ end }}
+    {{ if gt $now (time.AsTime .) }}{{ $expired = true }}{{ end }}
   {{ end }}
   {{ if not $expired }}
     {{ $msg := .message }}
