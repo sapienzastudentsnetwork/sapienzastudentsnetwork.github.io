@@ -421,13 +421,20 @@
             'END:VCALENDAR',
         ].join('\r\n');
 
-        const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+        // Use application/octet-stream to force a file-save dialog instead of
+        // triggering Firefox's text/calendar MIME handler, which on some Linux
+        // systems is configured to "open in Firefox" — causing an infinite loop
+        // of new tabs opening file:///tmp/mozilla_neervana0/sapienza-timetable.ics.
+        const blob = new Blob([icsContent], { type: 'application/octet-stream' });
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = 'sapienza-timetable.ics';
-        a.rel = 'noopener';
-        setTimeout(() => URL.revokeObjectURL(url), 40000);
-        a.dispatchEvent(new MouseEvent('click'));
+        a.setAttribute('download', 'sapienza-timetable.ics');
+        a.rel = 'noopener noreferrer';
+        a.style.cssText = 'position:fixed;left:-9999px;top:-9999px;';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
 </script>
