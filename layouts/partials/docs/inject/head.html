@@ -4,7 +4,7 @@
   var d = document.documentElement;
   var t = localStorage.getItem('theme');
   if (!t) {
-    t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    t = 'dark';
   }
   d.dataset.theme = t;
 })();
