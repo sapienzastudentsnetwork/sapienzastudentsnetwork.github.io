@@ -118,7 +118,6 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     math = true
     BookTheme = 'auto'
     BookToC = true
-    BookServiceWorker = true
     BookLogo = 'logo.png'
     BookSection = '*'
 
@@ -129,3 +128,8 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     BookCommitPath = 'commit'
     BookEditPath = 'edit/main'
     BookDateFormat = '2 January 2006'
+
+[[server.headers]]
+  for = "**.css"
+  [server.headers.values]
+    Content-Type = "text/css; charset=utf-8"
