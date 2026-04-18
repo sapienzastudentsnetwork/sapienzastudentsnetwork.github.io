@@ -166,19 +166,18 @@
     left: calc(100% - 1.1rem - 0.2rem);
   }
 
-  // Icons sit outside the track, after it in the DOM
-  &-icon {
-    font-size: 0.85rem;
-    line-height: 1;
+  // Label outside track — swaps text to show current state
+  &-label {
+    font-size: var(--font-size-smaller);
     color: var(--body-font-color);
+    white-space: nowrap;
 
-    // Theme toggle: light icon hidden when dark, dark icon hidden when light
-    &--light { display: inline; }
-    &--dark  { display: none; }
+    &--on  { display: none; }
+    &--off { display: inline; }
   }
 
-  input:checked ~ .toggle-switch-track ~ .toggle-switch-icon--light { display: none; }
-  input:checked ~ .toggle-switch-track ~ .toggle-switch-icon--dark  { display: inline; }
+  input:checked ~ .toggle-switch-track ~ .toggle-switch-label .toggle-switch-label--off { display: none; }
+  input:checked ~ .toggle-switch-track ~ .toggle-switch-label .toggle-switch-label--on  { display: inline; }
 
   &:focus-within .toggle-switch-track {
     outline: 2px solid var(--color-link);
