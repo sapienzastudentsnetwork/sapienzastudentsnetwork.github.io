@@ -17,6 +17,9 @@
     --tw-faint-rgb: 203 213 225;
     --sapienza-opacity: 0.22;
     --icon-info-color: #1a73e8;
+    --icon-warn-color: #b07d00;
+    --icon-tip-color: #1a7f37;
+    --separator-color: #c0c4cc;
   }
 
   [data-theme="dark"] {
@@ -26,6 +29,9 @@
     --tw-faint-rgb: 38 66 129;
     --sapienza-opacity: 0.05;
     --icon-info-color: #74C0FC;
+    --icon-warn-color: #FFD43B;
+    --icon-tip-color: #3fb950;
+    --separator-color: #444;
   }
 }
 

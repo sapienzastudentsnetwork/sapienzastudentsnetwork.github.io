@@ -149,7 +149,7 @@
 .prof_img {
     width: var(--pfp-width);
     border-radius: 100%;
-    border: 3.5px solid #dedede;
+    border: 3.5px solid var(--prof-img-border-color);
     margin: 0 0 3px 0;
 }
 
@@ -175,7 +175,7 @@
 }
 
 .class_icon {
-    color: #8e9693;
+    color: var(--social-icon-color);
     margin: 0 12px 0 12px;
 }
 
@@ -215,10 +215,10 @@
 /*      B A D G E S     P O P U P       */
 
 .explore_badges, .course_mat {
-    background-color: #eeeeee;
+    background-color: var(--gray-200);
     font-family: 'DM Sans';
     font-weight: 200;
-    color: #252d3f;
+    color: var(--body-font-color);
     height: 28px;
     display: flex;
     justify-content: center;
