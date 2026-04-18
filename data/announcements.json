@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "id": "easter-2026",
+    "level": "info",
+    "message": "Teaching activities will be interrupted for the Easter period from Thursday, April 2 to Tuesday, April 7, 2026. Furthermore, for the Bachelor's degree programs in ACSAI and Informatica, lectures will remain suspended from April 8 to April 14, 2026, to allow midterm exams to take place and to ensure classroom availability for the extraordinary exam sessions.",
+    "messageIT": "Le attività didattiche saranno interrotte per il periodo pasquale da giovedì 2 aprile a martedì 7 aprile 2026. Inoltre, per i corsi di laurea triennale in ACSAI e Informatica, le lezioni rimarranno sospese dall'8 al 14 aprile 2026, per consentire lo svolgimento delle prove intercorso e garantire la disponibilità delle aule per le sessioni d'esame straordinarie.",
+    "expiresAt": "2026-06-30T23:59:59Z"
+  }
+]
