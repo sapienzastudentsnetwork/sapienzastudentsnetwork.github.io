@@ -426,9 +426,8 @@
         const a = document.createElement('a');
         a.href = url;
         a.download = 'sapienza-timetable.ics';
-        document.body.appendChild(a);
-        a.dispatchEvent(new MouseEvent('click', { bubbles: false, cancelable: true, view: window }));
-        document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 100);
+        a.rel = 'noopener';
+        setTimeout(() => URL.revokeObjectURL(url), 40000);
+        a.dispatchEvent(new MouseEvent('click'));
     }
 </script>
