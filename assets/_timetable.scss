@@ -487,6 +487,89 @@ a {
     }
 }
 
+/* ICS export warning modal */
+#icsWarningModal {
+    background: var(--body-background);
+    border: 1.5px solid var(--table-border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 480px;
+    width: 90vw;
+    box-shadow: 0px 8px 32px var(--timetable-popup-shadow-color);
+    font-family: "DM Sans", sans-serif;
+    color: var(--body-font-color);
+
+    &::backdrop {
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+    }
+
+    .ics-modal-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0 0 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .ics-modal-body {
+        font-size: 0.92rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        color: var(--body-font-color);
+
+        a {
+            color: var(--link-color);
+            text-decoration: underline;
+        }
+    }
+
+    .ics-modal-actions {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+    }
+
+    .ics-modal-cancel {
+        border-radius: 8px;
+        height: 36px;
+        padding: 0 16px;
+        background-color: var(--timetable-close-button-bg);
+        color: var(--body-font-color);
+        font-family: "DM Sans", sans-serif;
+        font-weight: 600;
+        font-size: 0.85rem;
+        border: solid var(--table-border-color) 1.5px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            background-color: var(--timetable-close-button-hover);
+        }
+    }
+
+    .ics-modal-accept {
+        border-radius: 8px;
+        height: 36px;
+        padding: 0 16px;
+        background-color: var(--link-color);
+        color: #fff;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 600;
+        font-size: 0.85rem;
+        border: none;
+        cursor: pointer;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+            opacity: 0.85;
+        }
+    }
+}
+
 /* ICS Export button */
 .exportIcsBtn {
     border-radius: 8px;

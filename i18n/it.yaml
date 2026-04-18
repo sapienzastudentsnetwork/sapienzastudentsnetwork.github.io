@@ -168,6 +168,18 @@
 - id: Subjs_CustomTimetable_ExportICS
   translation: Esporta nel calendario (.ics)
 
+- id: Subjs_ExportWarning_Title
+  translation: "Attenzione: esportazione statica"
+
+- id: Subjs_ExportWarning_Body
+  translation: "Il file .ics esportato è uno snapshot statico e NON riceverà aggiornamenti automatici quando gli orari cambiano. Per l'orario più aggiornato, visita sempre"
+
+- id: Subjs_ExportWarning_Accept
+  translation: Accetta e scarica
+
+- id: Subjs_ExportWarning_Cancel
+  translation: Annulla
+
 - id: Subjs_Timetables_ConflictWarning
   translation: Conflitto di orario
 

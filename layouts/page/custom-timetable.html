@@ -61,12 +61,32 @@
         </table>
     </div>
     <div class="flex justify-end mt-2">
-        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="exportICS()" style="display:none;">
+        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="showIcsWarningModal()" style="display:none;">
             <i class="fa-solid fa-download"></i>
             {{ T "Subjs_CustomTimetable_ExportICS" }}
         </button>
     </div>
 </div>
+
+<dialog id="icsWarningModal" onclick="handleIcsModalBackdropClick(event)">
+    <p class="ics-modal-title">
+        <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+        {{ T "Subjs_ExportWarning_Title" }}
+    </p>
+    <p class="ics-modal-body">
+        {{ T "Subjs_ExportWarning_Body" }}
+        <a href="https://sapienzastudents.net/" target="_blank" rel="noopener noreferrer">sapienzastudents.net</a>.
+    </p>
+    <div class="ics-modal-actions">
+        <button class="ics-modal-cancel" onclick="closeIcsWarningModal()">
+            {{ T "Subjs_ExportWarning_Cancel" }}
+        </button>
+        <button class="ics-modal-accept" onclick="acceptAndDownloadICS()">
+            <i class="fa-solid fa-download" aria-hidden="true"></i>
+            {{ T "Subjs_ExportWarning_Accept" }}
+        </button>
+    </div>
+</dialog>
 
 <dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
     onclick="closeSubjectsDialog()">
@@ -355,6 +375,27 @@
                 }
             }
         });
+    }
+
+    function showIcsWarningModal() {
+        document.getElementById('icsWarningModal').showModal();
+    }
+
+    function closeIcsWarningModal() {
+        document.getElementById('icsWarningModal').close();
+    }
+
+    function handleIcsModalBackdropClick(event) {
+        const modal = document.getElementById('icsWarningModal');
+        // The dialog element itself receives the click when the backdrop is clicked
+        if (event.target === modal) {
+            modal.close();
+        }
+    }
+
+    function acceptAndDownloadICS() {
+        closeIcsWarningModal();
+        exportICS();
     }
 
     function exportICS() {
