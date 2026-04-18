@@ -1,28 +1,22 @@
-<!-- style="margin-top: 20px; margin-bottom: 10px;" -->
-
-<div>
-    <!--
-        Overriding the theme's rule (in _defaults.scss).
-        Without display: initial, the label defaults to display: flex,
-        causing the checkbox to wrap to a new line.
-    -->
-    <label for="font" style="display: initial;">
-        Font DSA
-    </label>
-    <input type="checkbox" name="font" id="font">
-</div>
+<label class="toggle-switch" title="Font DSA (OpenDyslexic)">
+  <input type="checkbox" name="font" id="font"
+         role="switch" aria-label="Font DSA (OpenDyslexic)">
+  <span class="toggle-switch-track">
+    <span class="toggle-switch-icon toggle-switch-icon--off" aria-hidden="true">Aa</span>
+    <span class="toggle-switch-icon toggle-switch-icon--on"  aria-hidden="true">Aa</span>
+    <span class="toggle-switch-thumb"></span>
+  </span>
+</label>
 
 <script>
-    addEventListener("DOMContentLoaded", (event) => { 
-    let fontElement = document.getElementById('font');
-
-    let isFontDSA = localStorage.getItem("isFontDSA");
-    if (isFontDSA) {
-        fontElement.checked = true; 
+addEventListener("DOMContentLoaded", function() {
+    var fontEl = document.getElementById('font');
+    if (!fontEl) return;
+    if (localStorage.getItem("isFontDSA")) {
+        fontEl.checked = true;
         document.body.classList.add('dyslexic');
     }
-
-    fontElement.addEventListener('click', function(e) {
+    fontEl.addEventListener('change', function() {
         if (this.checked) {
             document.body.classList.add('dyslexic');
             localStorage.setItem("isFontDSA", true);
@@ -30,6 +24,6 @@
             document.body.classList.remove('dyslexic');
             localStorage.removeItem("isFontDSA");
         }
-    })
-    })
+    });
+});
 </script>
