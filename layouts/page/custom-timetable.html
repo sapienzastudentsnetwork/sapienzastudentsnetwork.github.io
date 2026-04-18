@@ -78,10 +78,10 @@
         <a href="https://sapienzastudents.net/" target="_blank" rel="noopener noreferrer">sapienzastudents.net</a>.
     </p>
     <div class="ics-modal-actions">
-        <button class="ics-modal-cancel" onclick="closeIcsWarningModal()">
+        <button type="button" class="ics-modal-cancel" onclick="event.stopPropagation(); closeIcsWarningModal()">
             {{ T "Subjs_ExportWarning_Cancel" }}
         </button>
-        <button class="ics-modal-accept" onclick="acceptAndDownloadICS()">
+        <button type="button" class="ics-modal-accept" onclick="event.stopPropagation(); acceptAndDownloadICS()">
             <i class="fa-solid fa-download" aria-hidden="true"></i>
             {{ T "Subjs_ExportWarning_Accept" }}
         </button>
@@ -395,7 +395,7 @@
 
     function acceptAndDownloadICS() {
         closeIcsWarningModal();
-        exportICS();
+        setTimeout(exportICS, 0);
     }
 
     function exportICS() {
