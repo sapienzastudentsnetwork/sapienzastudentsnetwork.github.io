@@ -92,13 +92,53 @@
             {{ partial "timetables-per-teaching.html" . }}
         {{ end }}
 
-    <!-- {{ range .Params.timetables }} -->
-    <!--     {{ .title }} -->
-    <!--     {{ .channel }} -->
-    <!--     {{ .courses }} -->
-    <!-- {{ end }} -->
-    <!-- {{ range $key, $value := .Site.Data.timetables }} -->
-    <!--     <p>test!!! {{ $key }}</p> -->
-    <!-- {{ end }} -->
+        <div class="flex justify-end mt-2">
+            <button class="exportIcsBtn flex items-center gap-2" onclick="showIcsWarningModal()">
+                <i class="fa-solid fa-download"></i>
+                {{ T "Subjs_CustomTimetable_ExportICS" }}
+            </button>
+        </div>
     </div>
+
+    <dialog id="icsWarningModal" onclick="handleIcsModalBackdropClick(event)">
+        <p class="ics-modal-title">
+            <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+            {{ T "Subjs_ExportWarning_Title" }}
+        </p>
+        <p class="ics-modal-body">
+            {{ T "Subjs_ExportWarning_Body" }}
+            <a href="https://sapienzastudents.net/" target="_blank" rel="noopener noreferrer">sapienzastudents.net</a>.
+        </p>
+        <div class="ics-modal-actions">
+            <button type="button" class="ics-modal-cancel" onclick="closeIcsWarningModal()">
+                {{ T "Subjs_ExportWarning_Cancel" }}
+            </button>
+            <button type="button" class="ics-modal-accept" onclick="acceptAndDownloadICS()">
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                {{ T "Subjs_ExportWarning_Accept" }}
+            </button>
+        </div>
+    </dialog>
+
+    <script>
+        const pageSubjects = new Set([
+            {{ range .Params.timetables }}{{ $ch := default 0 .channel }}{{ range .courses }}`{{ . }}-{{ $ch }}`,
+            {{ end }}{{ end }}
+        ]);
+
+        function showIcsWarningModal() {
+            document.getElementById('icsWarningModal').showModal();
+        }
+        function closeIcsWarningModal() {
+            document.getElementById('icsWarningModal').close();
+        }
+        function handleIcsModalBackdropClick(event) {
+            const modal = document.getElementById('icsWarningModal');
+            if (event.target === modal) { modal.close(); }
+        }
+        function acceptAndDownloadICS() {
+            closeIcsWarningModal();
+            exportICSForSubjects(pageSubjects);
+        }
+    </script>
 {{ end }}
