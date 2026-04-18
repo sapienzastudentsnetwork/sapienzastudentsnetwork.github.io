@@ -39,13 +39,33 @@
   // Announcement banner dismiss logic
   document.querySelectorAll('.announcement-banner-close').forEach(function(btn) {
     var id = btn.getAttribute('data-dismiss');
-    // Hide if already dismissed
     if (localStorage.getItem('dismissed-' + id)) {
       btn.parentElement.style.display = 'none';
     }
     btn.addEventListener('click', function() {
       localStorage.setItem('dismissed-' + id, '1');
       btn.parentElement.style.display = 'none';
+    });
+  });
+
+  // Announcement modal logic — auto-show on load, dismiss on button or backdrop click
+  document.querySelectorAll('dialog[data-announcement-id]').forEach(function(dialog) {
+    var id = dialog.dataset.announcementId;
+    if (!localStorage.getItem('dismissed-' + id)) {
+      dialog.showModal();
+    }
+    var closeBtn = dialog.querySelector('.announcement-modal-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        localStorage.setItem('dismissed-' + id, '1');
+        dialog.close();
+      });
+    }
+    dialog.addEventListener('click', function(e) {
+      if (e.target === dialog) {
+        localStorage.setItem('dismissed-' + id, '1');
+        dialog.close();
+      }
     });
   });
 })();

@@ -1,4 +1,4 @@
-{{/* Dismissible announcement banners — data-driven from data/announcements.json */}}
+{{/* Dismissible announcement banners/modals — data-driven from data/announcements.json */}}
 {{ $lang := .Site.Language.Lang }}
 {{ $now := now }}
 {{ range site.Data.announcements }}
@@ -11,6 +11,24 @@
     {{ $msg := .message }}
     {{ if and (eq $lang "it") .messageIT }}{{ $msg = .messageIT }}{{ end }}
     {{ $levelClass := printf "banner-%s" (default "info" .level) }}
+    {{ $title := .title | default "" }}
+    {{ if and (eq $lang "it") .titleIT }}{{ $title = .titleIT }}{{ end }}
+
+    {{ if .modal }}
+    <dialog class="announcement-modal {{ $levelClass }}" id="announcement-modal-{{ .id }}" data-announcement-id="{{ .id }}">
+      <div class="announcement-modal-header">
+        {{ if $title }}<p class="announcement-modal-title">{{ $title }}</p>{{ end }}
+        <button class="announcement-modal-close"
+                aria-label="{{ i18n "DismissBanner" | default "Dismiss" }}"
+                data-dismiss="{{ .id }}">
+          &times;
+        </button>
+      </div>
+      <div class="announcement-modal-body">
+        {{ if .url }}<a href="{{ .url }}">{{ $msg }}</a>{{ else }}{{ $msg }}{{ end }}
+      </div>
+    </dialog>
+    {{ else }}
     <div class="announcement-banner {{ $levelClass }}" data-announcement-id="{{ .id }}" role="alert">
       <span class="announcement-banner-message">
         {{ if .url }}<a href="{{ .url }}">{{ $msg }}</a>{{ else }}{{ $msg }}{{ end }}
@@ -21,5 +39,6 @@
         &times;
       </button>
     </div>
+    {{ end }}
   {{ end }}
 {{ end }}
