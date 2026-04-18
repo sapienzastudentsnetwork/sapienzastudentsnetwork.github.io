@@ -1,19 +1,18 @@
-<div>
-    <label for="theme-toggle" style="display: initial;">
-        {{ i18n "DarkMode" | default "Dark mode" }}
-    </label>
-    <input type="checkbox" name="theme-toggle" id="theme-toggle"
-           aria-label="{{ i18n "DarkMode" | default "Dark mode" }}">
-</div>
+<label class="toggle-switch" title="{{ i18n "DarkMode" | default "Dark mode" }}">
+  <input type="checkbox" name="theme-toggle" id="theme-toggle"
+         role="switch" aria-label="{{ i18n "DarkMode" | default "Dark mode" }}">
+  <span class="toggle-switch-track">
+    <span class="toggle-switch-icon toggle-switch-icon--off" aria-hidden="true">☀️</span>
+    <span class="toggle-switch-icon toggle-switch-icon--on"  aria-hidden="true">🌙</span>
+    <span class="toggle-switch-thumb"></span>
+  </span>
+</label>
 
 <script>
 addEventListener("DOMContentLoaded", function() {
     var toggle = document.getElementById('theme-toggle');
     if (!toggle) return;
-
-    // Sync checkbox with current theme (set by inject/head.html)
     toggle.checked = document.documentElement.dataset.theme === 'dark';
-
     toggle.addEventListener('change', function() {
         var theme = this.checked ? 'dark' : 'light';
         document.documentElement.dataset.theme = theme;
