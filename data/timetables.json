@@ -629,17 +629,6 @@
               "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
             }
           }
-        ],
-        "gioved\u00ec": [
-          {
-            "teachers": {
-              "b038c0bfb696668b1bfa1a4dd217cad43060b93ef961f694f5439679": "DARAIO CINZIA"
-            },
-            "timeslot": "13 - 15",
-            "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
-            }
-          }
         ]
       }
     },
@@ -2334,18 +2323,6 @@
             "timeslot": "12 - 15",
             "classrooms": {
               "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teachers": {
-              "4b0e4fbd4999e8aaa21b213b3f5423d3b77aba584d204370113fc635": "COLONNESE STEFANIA",
-              "0f1032e1a67fd22ad52f5e6c704df4131d8e29231a5119a7f98aa105": "ERAMO VINCENZO"
-            },
-            "timeslot": "10 - 13",
-            "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
             }
           }
         ],

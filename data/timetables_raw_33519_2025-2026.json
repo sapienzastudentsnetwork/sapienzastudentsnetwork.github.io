@@ -217,22 +217,6 @@
             ]
           },
           {
-            "building": "Edificio: RM112",
-            "course": "1047209",
-            "room": "AULA 201",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              }
-            ],
-            "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
-            "teachers": [
-              "DARAIO CINZIA"
-            ]
-          },
-          {
             "building": "Edificio: CU002",
             "course": "1047222",
             "room": "Aula VI - Sc. Stat.",
@@ -379,22 +363,6 @@
                 "day": "luned\u00ec",
                 "from": "12:00",
                 "to": "15:00"
-              }
-            ],
-            "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
-            "teachers": [
-              "ERAMO VINCENZO"
-            ]
-          },
-          {
-            "building": "Edificio: RM112",
-            "course": "10621172",
-            "room": "AULA 201",
-            "schedule": [
-              {
-                "day": "gioved\u00ec",
-                "from": "10:00",
-                "to": "13:00"
               }
             ],
             "subject": "FUNDAMENTALS OF NETWORKING AND SIGNAL PROCESSING",
