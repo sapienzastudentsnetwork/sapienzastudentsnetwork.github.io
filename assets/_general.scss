@@ -1,44 +1,45 @@
+// Metric-normalized OpenDyslexic — size-adjust + line metric overrides
+// bring glyph dimensions close to DM Sans, eliminating layout shift on switch.
+// WCAG 1.4.12: line-height ≥ 1.5, word-spacing ≥ 0.16em applied in .dyslexic.
 @font-face {
     font-family: 'OpenDyslexic';
     src: url('opendyslexic/OpenDyslexic-Regular.woff2') format('woff2');
+    size-adjust: 82%;
+    ascent-override: 94%;
+    descent-override: 24%;
+    line-gap-override: 0%;
 }
 
 @font-face {
     font-family: 'OpenDyslexic';
     src: url('opendyslexic/OpenDyslexic-Bold.woff2') format('woff2');
     font-weight: bold;
+    size-adjust: 82%;
+    ascent-override: 94%;
+    descent-override: 24%;
+    line-gap-override: 0%;
 }
-
 
 @font-face {
     font-family: 'OpenDyslexic';
     src: url('opendyslexic/OpenDyslexic-Italic.woff2') format('woff2');
     font-style: italic;
+    size-adjust: 82%;
+    ascent-override: 94%;
+    descent-override: 24%;
+    line-gap-override: 0%;
 }
 
 .dyslexic *:not([class*="fa-"]):not(.katex):not(.katex *) {
     font-family: 'OpenDyslexic', sans-serif !important;
-    font-size-adjust: .45;
-    letter-spacing: -0.03em;
-    word-spacing: -0.1em;
+    line-height: 1.5 !important;
+    word-spacing: 0.16em !important;
 }
 
-.dyslexic h1 {
-    font-family: 'OpenDyslexic', sans-serif !important;
-}
-
-.dyslexic h2 {
-    font-family: 'OpenDyslexic', sans-serif !important;
-}
-
-.dyslexic h3 {
-    font-family: 'OpenDyslexic', sans-serif !important;
-}
-
-.dyslexic h4 {
-    font-family: 'OpenDyslexic', sans-serif !important;
-}
-
+.dyslexic h1,
+.dyslexic h2,
+.dyslexic h3,
+.dyslexic h4,
 .dyslexic h5 {
     font-family: 'OpenDyslexic', sans-serif !important;
 }

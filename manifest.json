@@ -1,5 +1,5 @@
 {
-    "short_name": "Informatica",
+    "short_name": "SSN",
     "name": "sapienzastudents.net",
     "start_url": "/",
     "prefer_related_applications": false,
@@ -24,31 +24,31 @@
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-144.png",
+            "src": "/icon/icon-144.png",
             "type": "image/png",
             "sizes": "144x144",
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-168.png",
+            "src": "/icon/icon-168.png",
             "type": "image/png",
             "sizes": "168x168",
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-192.png",
+            "src": "/icon/icon-192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-256.png",
+            "src": "/icon/icon-256.png",
             "type": "image/png",
             "sizes": "256x256",
             "purpose": "any maskable"
         },
         {
-            "src": "/icon-512.png",
+            "src": "/icon/icon-512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "any maskable"
