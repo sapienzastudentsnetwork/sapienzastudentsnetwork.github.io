@@ -61,6 +61,10 @@ $hint-colors: (
   @include accent("success", #3bad3b);
   @include accent("danger", #f66);
 
+  --home-page-border-color: #d5d5d5;
+  --prof-img-border-color: #dedede;
+  --social-icon-color: #4a5568;
+
   --course-dash-background: #F9F9F9;
   --course-panel-background: #E2E3E7;
 
@@ -123,6 +127,10 @@ $hint-colors: (
   @include accent("info", #6bf);
   @include accent("success", #3bad3b);
   @include accent("danger", #f66);
+
+  --home-page-border-color: #4a4f55;
+  --prof-img-border-color: #555b62;
+  --social-icon-color: #9aa5b4;
 
   --course-dash-background: #3E444A;
   --course-panel-background: #454C52;

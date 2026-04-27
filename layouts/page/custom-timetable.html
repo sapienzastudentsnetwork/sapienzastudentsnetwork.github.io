@@ -21,12 +21,14 @@
     </details>
 
     <blockquote class="book-hint tip">
-        <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> {{ T "Subjs_Info_Tip" }}
+        <i class="fa-solid fa-lightbulb" style="color: var(--icon-tip-color);"></i> {{ T "Subjs_Info_Tip" }}
     </blockquote>
 
     <!--
     <blockquote class="book-hint info">
-        <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> {{ T "Subjs_DelayedStart" }}
+        <i class="fa-solid fa-circle-info" style="color: var(--icon-info-color);"></i> {{ T "Subjs_EasterHolidays" }}
+        <!--
+        <i class="fa-solid fa-circle-info" style="color: var(--icon-info-color);"></i> {{ T "Subjs_DelayedStart" }}
         {{ if not (in .Permalink "/datasci/") }}
         <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKHIj_LtE4_dp5Osq4MIZcVS_gz4nXcFzg8cnWLQXOd7514pKuN1mAt5V8z2WuO4fiDCogNrOolSZl/pubhtml?gid=96416658&single=true">https://docs.google.com/spreadsheets/d/e/2PACX-1vQKHIj_LtE4_dp5Osq4MIZcVS_gz4nXcFzg8cnWLQXOd7514pKuN1mAt5V8z2WuO4fiDCogNrOolSZl/pubhtml?gid=96416658&single=true</a>
         {{ else }}
@@ -136,7 +138,7 @@
                 {{ end }}
             </div>
 
-            <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
+            <div style="width: 99%; height: 1px; background-color: var(--separator-color); margin: 20px auto 0 auto;"></div>
             {{ end }}
         </div>
         <button id="subjsCloseMenu" onclick="closeSubjectsDialog()">

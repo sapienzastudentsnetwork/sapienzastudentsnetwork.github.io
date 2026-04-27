@@ -18,3 +18,312 @@
     display: block;
   }
 }
+
+// -------------------------------------------------------
+// Theme toggle — attribute-based dark/light mode override
+// Specificity :root[attr] (0,2,0) beats :root (0,1,0)
+// -------------------------------------------------------
+:root[data-theme="dark"] {
+  @include theme-dark;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  @include theme-light;
+  color-scheme: light;
+}
+
+// -------------------------------------------------------
+// Breadcrumb navigation
+// -------------------------------------------------------
+.breadcrumb-nav {
+  font-size: var(--font-size-smaller);
+  color: var(--gray-500);
+  padding: $padding-8 $padding-16;
+
+  ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 0.25rem;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child)::after {
+      content: "›";
+      margin-left: 0.5rem;
+      color: var(--gray-500);
+    }
+
+    &[aria-current="page"] {
+      color: var(--body-font-color);
+    }
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// -------------------------------------------------------
+// Back-to-top button
+// -------------------------------------------------------
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 100;
+  background: var(--body-background);
+  color: var(--body-font-color);
+  border: 1px solid var(--gray-200);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, background-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.visible {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  &:hover {
+    background: var(--gray-100);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-link);
+    outline-offset: 2px;
+  }
+}
+
+// -------------------------------------------------------
+// Toggle switch — used for dark mode + DSA font
+// -------------------------------------------------------
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  padding: $padding-4 $padding-8;
+
+  input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+  }
+
+  &-track {
+    position: relative;
+    display: inline-block;
+    width: 2.75rem;
+    height: 1.5rem;
+    border-radius: 999px;
+    background: var(--gray-200);
+    border: 1px solid var(--gray-300);
+    transition: background 0.2s ease, border-color 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  input:checked ~ &-track {
+    background: var(--color-link);
+    border-color: var(--color-link);
+  }
+
+  &-thumb {
+    position: absolute;
+    top: 50%;
+    left: 0.2rem;
+    transform: translateY(-50%);
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    transition: left 0.2s ease;
+  }
+
+  input:checked ~ .toggle-switch-track .toggle-switch-thumb {
+    left: calc(100% - 1.1rem - 0.2rem);
+  }
+
+  &-label {
+    font-size: var(--font-size-smaller);
+    color: var(--body-font-color);
+    white-space: nowrap;
+
+    &--on  { display: none; }
+    &--off { display: inline; }
+  }
+
+  input:checked ~ .toggle-switch-track ~ .toggle-switch-label .toggle-switch-label--off { display: none; }
+  input:checked ~ .toggle-switch-track ~ .toggle-switch-label .toggle-switch-label--on  { display: inline; }
+
+  &:focus-within .toggle-switch-track {
+    outline: 2px solid var(--color-link);
+    outline-offset: 2px;
+  }
+}
+
+// -------------------------------------------------------
+// Announcement banner
+// -------------------------------------------------------
+.announcement-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding-8 $padding-16;
+  margin-bottom: $padding-8;
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-smaller);
+  gap: $padding-8;
+
+  &-message {
+    flex: 1;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+
+  &-close {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.7;
+    padding: $padding-4;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-link);
+      outline-offset: 2px;
+    }
+  }
+}
+
+.banner-info {
+  background: rgba(100, 180, 255, 0.15);
+  border-left: 4px solid var(--color-link);
+  color: var(--body-font-color);
+}
+
+.banner-warning {
+  background: rgba(255, 221, 102, 0.15);
+  border-left: 4px solid #fd6;
+  color: var(--body-font-color);
+}
+
+.banner-critical {
+  background: rgba(255, 102, 102, 0.15);
+  border-left: 4px solid #f66;
+  color: var(--body-font-color);
+}
+
+// -------------------------------------------------------
+// Announcement modal
+// -------------------------------------------------------
+.announcement-modal {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  max-width: 560px;
+  width: calc(100% - 2rem);
+  max-height: calc(100vh - 4rem);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--gray-200);
+  background: var(--body-background);
+  color: var(--body-font-color);
+  padding: $padding-16;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.24);
+  flex-direction: column;
+  gap: $padding-8;
+
+  // Explicit display: none when closed — prevents display:flex overriding UA stylesheet
+  &:not([open]) { display: none; }
+  &[open] { display: flex; }
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  }
+
+  &-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: $padding-8;
+  }
+
+  &-title {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  &-body {
+    font-size: var(--font-size-smaller);
+    line-height: 1.6;
+
+    a {
+      color: var(--color-link);
+      text-decoration: underline;
+    }
+  }
+
+  &-close {
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.7;
+    padding: $padding-4;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+
+    &:hover { opacity: 1; }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-link);
+      outline-offset: 2px;
+    }
+  }
+}
