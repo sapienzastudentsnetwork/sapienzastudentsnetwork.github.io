@@ -163,6 +163,27 @@
 - id: Subjs_CustomTimetable_SelectMenuTitle
   translation: Select the subjects you wish to add or remove
 
+- id: Subjs_CustomTimetable_SearchPlaceholder
+  translation: Search subjects...
+
+- id: Subjs_CustomTimetable_ExportICS
+  translation: Export to calendar (.ics)
+
+- id: Subjs_ExportWarning_Title
+  translation: "Warning: static export"
+
+- id: Subjs_ExportWarning_Body
+  translation: "The exported .ics file is a static snapshot and will NOT receive live updates when timetables change. For the most up-to-date schedule, always visit"
+
+- id: Subjs_ExportWarning_Accept
+  translation: Accept & Download
+
+- id: Subjs_ExportWarning_Cancel
+  translation: Cancel
+
+- id: Subjs_Timetables_ConflictWarning
+  translation: Schedule conflict
+
 #
 #   S S N   P A G E
 #

@@ -2,6 +2,7 @@
     const COURSES = JSON.parse(`{{ .Site.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
     const TIMETABLES = JSON.parse(`{{ .Site.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
     const HARDCODED_TIMETABLES = JSON.parse(`{{ .Site.Data.hardcodedTimetables | jsonify }}`)
+    const SEMESTER_DATES = JSON.parse(`{{ .Site.Data.semesterDates | jsonify }}`);
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
     const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 
@@ -137,6 +138,7 @@
                         'domenica': 'sunday',
                     }[day]
 
+                    if (!schedule[en_day]) continue;
                     schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] && alerts[channel][day], cancelled: cancelled, classroomDesc: classrooms || null });
 
                     classesStartTime = Math.min(classesStartTime, startTime) || startTime;
@@ -180,6 +182,11 @@
 
                 const courses = schedule[day]
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
+
+                if (courses.length > 1) {
+                    desktopTd.classList.add('timetable-conflict');
+                    mobileTd.classList.add('timetable-conflict');
+                }
 
                 let hasMoreThanACourse = false;
                 for (const { courseCode, alerts, cancelled, classroomDesc } of courses) {
@@ -262,5 +269,172 @@
             }
         } else if (alertsLegend)
             alertsLegend.remove();
+    }
+
+    function exportICSForSubjects(subjects) {
+        if (!subjects || subjects.size === 0) return;
+
+        const DAY_MAP = {
+            'lunedì': { ics: 'MO', offset: 0 },
+            'martedì': { ics: 'TU', offset: 1 },
+            'mercoledì': { ics: 'WE', offset: 2 },
+            'giovedì': { ics: 'TH', offset: 3 },
+            'venerdì': { ics: 'FR', offset: 4 },
+        };
+
+        function pad(n) { return n.toString().padStart(2, '0'); }
+        function formatDate(date, hour) {
+            return `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}T${pad(hour)}0000`;
+        }
+        function formatUntil(dateStr) {
+            const [y, m, d] = dateStr.split('-');
+            return `${y}${m}${d}T215959Z`;
+        }
+
+        const now = new Date();
+        let semesterStart = null;
+        let semesterEnd = null;
+
+        for (const [year, semesters] of Object.entries(SEMESTER_DATES)) {
+            for (const key of ['S2', 'S1']) {
+                const s = semesters[key];
+                if (!s) continue;
+                const start = new Date(s.start + 'T00:00:00');
+                const end = new Date(s.end + 'T23:59:59');
+                if (now >= start && now <= end) {
+                    semesterStart = s.start;
+                    semesterEnd = s.end;
+                    break;
+                }
+            }
+            if (semesterStart) break;
+        }
+
+        if (!semesterStart) {
+            let closest = null;
+            for (const [year, semesters] of Object.entries(SEMESTER_DATES)) {
+                for (const key of ['S1', 'S2']) {
+                    const s = semesters[key];
+                    if (!s) continue;
+                    const start = new Date(s.start + 'T00:00:00');
+                    if (start > now && (!closest || start < closest.startDate)) {
+                        closest = { startDate: start, start: s.start, end: s.end };
+                    }
+                }
+            }
+            if (closest) {
+                semesterStart = closest.start;
+                semesterEnd = closest.end;
+            }
+        }
+
+        let anchorMonday;
+        if (semesterStart) {
+            const [y, m, d] = semesterStart.split('-').map(Number);
+            anchorMonday = new Date(y, m - 1, d);
+            const dayOfWeek = anchorMonday.getDay();
+            const mondayOffset = dayOfWeek === 0 ? -6 : (1 - dayOfWeek);
+            anchorMonday.setDate(anchorMonday.getDate() + mondayOffset);
+        } else {
+            anchorMonday = new Date(2026, 1, 16);
+        }
+
+        const rruleSuffix = semesterEnd
+            ? `UNTIL=${formatUntil(semesterEnd)}`
+            : 'COUNT=15';
+
+        let events = [];
+        let uid = 0;
+
+        for (const subjectId of subjects) {
+            const [courseCode, channelId] = subjectId.toString().split('-');
+            if (!TIMETABLES[courseCode]) continue;
+
+            const courseName = COURSES[courseCode] ? COURSES[courseCode].name : courseCode;
+            const days = TIMETABLES[courseCode]['channels'][channelId || '0'] || {};
+
+            for (const [day, hoursRaw] of Object.entries(days)) {
+                const hours = Array.isArray(hoursRaw) ? hoursRaw : [hoursRaw];
+                const dayInfo = DAY_MAP[day];
+                if (!dayInfo) continue;
+
+                for (const time of hours) {
+                    if (time.cancelled) continue;
+
+                    const [startTime, endTime] = time.timeslot.split('-').map(t => parseInt(t));
+
+                    const eventDate = new Date(anchorMonday);
+                    eventDate.setDate(anchorMonday.getDate() + dayInfo.offset);
+
+                    let location = '';
+                    if (time.classroomInfo) {
+                        location = time.classroomInfo;
+                    } else if (time.classrooms) {
+                        location = Object.values(time.classrooms).join(', ');
+                    }
+
+                    uid++;
+                    events.push([
+                        'BEGIN:VEVENT',
+                        `UID:${uid}-${courseCode}@sapienzastudents.net`,
+                        `DTSTART;TZID=Europe/Rome:${formatDate(eventDate, startTime)}`,
+                        `DTEND;TZID=Europe/Rome:${formatDate(eventDate, endTime)}`,
+                        `RRULE:FREQ=WEEKLY;BYDAY=${dayInfo.ics};${rruleSuffix}`,
+                        `SUMMARY:${courseName}`,
+                        location ? `LOCATION:${location}` : '',
+                        `DESCRIPTION:Course code: ${courseCode}`,
+                        'END:VEVENT',
+                    ].filter(Boolean).join('\r\n'));
+                }
+            }
+        }
+
+        const vtimezone = [
+            'BEGIN:VTIMEZONE',
+            'TZID:Europe/Rome',
+            'BEGIN:STANDARD',
+            'DTSTART:19701025T030000',
+            'RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10',
+            'TZOFFSETFROM:+0200',
+            'TZOFFSETTO:+0100',
+            'TZNAME:CET',
+            'END:STANDARD',
+            'BEGIN:DAYLIGHT',
+            'DTSTART:19700329T020000',
+            'RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3',
+            'TZOFFSETFROM:+0100',
+            'TZOFFSETTO:+0200',
+            'TZNAME:CEST',
+            'END:DAYLIGHT',
+            'END:VTIMEZONE',
+        ].join('\r\n');
+
+        const icsContent = [
+            'BEGIN:VCALENDAR',
+            'VERSION:2.0',
+            'PRODID:-//SapienzaStudents//Timetable//EN',
+            'CALSCALE:GREGORIAN',
+            'METHOD:PUBLISH',
+            'X-WR-CALNAME:Sapienza Timetable',
+            vtimezone,
+            ...events,
+            'END:VCALENDAR',
+        ].join('\r\n');
+
+        // Use application/octet-stream to force a file-save dialog instead of
+        // triggering Firefox's text/calendar MIME handler, which on some Linux
+        // systems is configured to "open in Firefox" — causing an infinite loop
+        // of new tabs opening file:///tmp/mozilla_neervana0/sapienza-timetable.ics.
+        const blob = new Blob([icsContent], { type: 'application/octet-stream' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.setAttribute('download', 'sapienza-timetable.ics');
+        a.rel = 'noopener noreferrer';
+        a.style.cssText = 'position:fixed;left:-9999px;top:-9999px;';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
     }
 </script>
