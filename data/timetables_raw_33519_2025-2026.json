@@ -235,7 +235,7 @@
           {
             "building": "Edificio: CU002",
             "course": "1047222",
-            "room": "Aula VI - Sc. Stat.",
+            "room": "Aula VI - Sc. Stat. INAGIBILE",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
@@ -818,7 +818,7 @@
           {
             "building": "Edificio: CU002",
             "course": "1047222",
-            "room": "Aula VI - Sc. Stat.",
+            "room": "Aula VI - Sc. Stat. INAGIBILE",
             "schedule": [
               {
                 "day": "mercoled\u00ec",
