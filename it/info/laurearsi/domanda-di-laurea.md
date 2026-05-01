@@ -52,7 +52,7 @@ Il Piano di Studio da allegare corrisponde al documento riassumente il [Percorso
 Tutti gli esami presenti nel Percorso Formativo devono essere verbalizzati almeno 2-3 giorni prima della scadenza dell'invio della Domanda di Laurea (consultare la tabella delle scadenze previste sul [Calendario](../../../insegnamenti/calendario/)). 
 {{% /hint %}}
 
-Per quanto riguarda la __Ricevuta compilazione questionario AlmaLaurea__, è necessario registrarsi, accedere e compilare il questionario presente sul sito di [AlmaLaurea](https://www2.uniroma1.it/AiS/alma/almauno.php). Una volta completato il questionario sarà possibile scaricare la ricevuta di compilazione. 
+Per quanto riguarda la __Ricevuta compilazione questionario AlmaLaurea__, è necessario registrarsi, accedere e compilare il questionario presente sul sito di [AlmaLaurea](https://www3.almalaurea.it/cgi-bin/lau/registrazione/index_atenei.pm?LANG=it). Una volta completato il questionario sarà possibile scaricare la ricevuta di compilazione. 
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>

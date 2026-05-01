@@ -52,7 +52,7 @@ The Study Plan to be attached corresponds to the document summarizing the [study
 All exams in the Educational Pathway must be recorded at least 2-3 days before the deadline for submitting the Graduation Application (refer to the deadline table in the [Calendar](../../../courses/calendar/)). 
 {{% /hint %}}
 
-Regarding the __Receipt of AlmaLaurea questionnaire completion__, you must register, log in, and complete the questionnaire available on the [AlmaLaurea](https://www2.uniroma1.it/AiS/alma/almauno.php) website. Once the questionnaire is completed, you can download the receipt of completion.
+Regarding the __Receipt of AlmaLaurea questionnaire completion__, you must register, log in, and complete the questionnaire available on the [AlmaLaurea](https://www3.almalaurea.it/cgi-bin/lau/registrazione/index_atenei.pm?LANG=en) website. Once the questionnaire is completed, you can download the receipt of completion.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>
