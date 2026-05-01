@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 27 April 2026 - Friday 01 May 2026",
+    "date_range": "Monday 04 May 2026 - Friday 08 May 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -8,8 +8,8 @@
             "11:00-12:00": "Cybersecurity LM-66 R 1054962 SECURE COMPUTATION VISCONTI I.",
             "12:00-13:00": "Cybersecurity LM-66 R 1054962 SECURE COMPUTATION VISCONTI I.",
             "13:00-14:00": "",
-            "14:00-15:00": "Invited Talk prof. Friolo",
-            "15:00-16:00": "Invited Talk prof. Friolo",
+            "14:00-15:00": "",
+            "15:00-16:00": "",
             "16:00-17:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
             "17:00-18:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
             "18:00-19:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
