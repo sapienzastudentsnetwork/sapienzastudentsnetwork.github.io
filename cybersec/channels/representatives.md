@@ -4,8 +4,8 @@ weight: 2
 bookHidden: true
 ---
 
-{{% include "content/cad/en/channels/representatives.md" %}}
+{{% include "content/di/en/channels/representatives.md" %}}
 
-{{% include "content/cad/en/channels/representatives-cdd.md" %}}
+{{% include "content/di/en/channels/representatives-cdd.md" %}}
 
-{{% include "content/cad/en/channels/representatives-cpds.md" %}}
+{{% include "content/di/en/channels/representatives-cpds.md" %}}

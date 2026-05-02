@@ -3,11 +3,11 @@ title: "Representatives"
 weight: 4
 ---
 
-{{% include "content/cad/en/channels/representatives.md" %}}
+{{% include "content/di/en/channels/representatives.md" %}}
 
 {{% include "content/cad/en/channels/representatives-cad.md" %}}
 
-{{% include "content/cad/en/channels/representatives-cdd.md" %}}
+{{% include "content/di/en/channels/representatives-cdd.md" %}}
 
 ## Quality Assurance Management Commission ("CGAQ")
 
@@ -19,4 +19,4 @@ The Commission is responsible for drafting the **Annual Monitoring Sheet** (*Sch
 * Ferruccio **Animali**
 * Daniele **Tegliucci**
 
-{{% include "content/cad/en/channels/representatives-cpds.md" %}}
+{{% include "content/di/en/channels/representatives-cpds.md" %}}
