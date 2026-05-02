@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'selector',
+  darkMode: ['selector', '[data-theme="dark"]'],
   content: [
     "layouts/**/*.{html,js}",
     "cybersec/**/*.md",
@@ -11,12 +11,11 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-            'primary': '#132441',
+            'primary': 'rgb(var(--tw-primary-rgb) / <alpha-value>)',
             'primary-dark': '#021330',
-            'accent': '#ffffff',
-            'diamond': '#2d58b5',
-            'faint': '#264281',
-            // 'faint': '#2d58b5'
+            'accent': 'rgb(var(--tw-accent-rgb) / <alpha-value>)',
+            'diamond': 'rgb(var(--tw-diamond-rgb) / <alpha-value>)',
+            'faint': 'rgb(var(--tw-faint-rgb) / <alpha-value>)',
         }
     },
   },
