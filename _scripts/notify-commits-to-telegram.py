@@ -24,7 +24,7 @@ author_conversion_table = {
     "Lorenzo Antonelli": "Lorenzoantonelli",
     "Simone Bianco": "Exyss",
     "Leonardo Biason": "ElBi21",
-    "Ionut Cicio": "CuriousCI",
+    "Ionut Cicio": "IonutCicio",
     "Matteo Collica": "matypist",
     "Oriana Deliallisi": "orianani311",
     "Rokshana Diya": "RoxyDiya",

@@ -23,7 +23,7 @@ Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno
 ### Anno di immatricolazione 2022/23
 
 - [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
-- [Ionut Cicio (CuriousCI)](https://curiousci.github.io/university/)
+- [Ionut Cicio (IonutCicio)](https://ionutcicio.github.io/university/)
 - [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
 - [Lorenzo Sabatino (loresaba)](https://github.com/loresaba/scritti-di-informatica)
 

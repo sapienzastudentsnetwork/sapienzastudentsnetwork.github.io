@@ -19,7 +19,7 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 
 - [Sapienza Students Network](https://github.com/orgs/sapienzastudentsnetwork/repositories)
 - [Appunti CasuFrost _(Marco Casu)_](https://github.com/CasuFrost/University_notes)
-- [Appunti CuriousCI _(Ionut Cicio)_](https://curiousci.github.io/university/)
+- [Appunti IonutCicio _(Ionut Cicio)_](https://ionutcicio.github.io/university/)
 - [Appunti Exyss _(Simone Bianco)_](https://github.com/Exyss/university-notes)
 - [Appunti aflaag _(Alessio Bandiera)_](https://github.com/aflaag-notes)
 - [Appunti Rurik-D _(Emanuele D'Agostino)_](https://github.com/Rurik-D/University-notes)
