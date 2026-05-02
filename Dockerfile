@@ -1,4 +1,4 @@
-FROM hugomods/hugo:dart-sass-git-0.152.2
+FROM hugomods/hugo:dart-sass-git-0.158.0
 
 RUN apk add --no-cache nodejs npm
 
