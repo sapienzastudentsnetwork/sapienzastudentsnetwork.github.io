@@ -1,0 +1,174 @@
+#
+#   S I T E   G E N E R A L
+#
+
+- id: Search
+  translation: Search something...
+
+- id: EditPage
+  translation: Edit this page
+
+- id: 404_Desc_1
+  translation: The page that you are trying to reach could have been removed,
+
+- id: 404_Desc_2
+  translation: its name could've been edited or it could be not reachable at the moment.
+
+- id: 404_Homepage
+  translation: Go to the homepage
+
+- id: 404_Report
+  translation: Report an issue
+
+- id: DaysOfTheWeek_Monday
+  translation: Mon
+
+- id: DaysOfTheWeek_Tuesday
+  translation: Tue
+
+- id: DaysOfTheWeek_Wednesday
+  translation: Wed
+
+- id: DaysOfTheWeek_Thursday
+  translation: Thu
+
+- id: DaysOfTheWeek_Friday
+  translation: Fri
+
+- id: DaysOfTheWeek_Saturday
+  translation: Sat
+
+- id: DaysOfTheWeek_Sunday
+  translation: Sun
+
+- id: DaysOfTheWeek_Monday_Full
+  translation: Monday
+
+- id: DaysOfTheWeek_Tuesday_Full
+  translation: Tuesday
+
+- id: DaysOfTheWeek_Wednesday_Full
+  translation: Wednesday
+
+- id: DaysOfTheWeek_Thursday_Full
+  translation: Thursday
+
+- id: DaysOfTheWeek_Friday_Full
+  translation: Friday
+
+- id: DaysOfTheWeek_Saturday_Full
+  translation: Saturday
+
+- id: DaysOfTheWeek_Sunday_Full
+  translation: Sunday
+
+
+#
+#   S U B J E C T S   T I M E T A B L E
+#
+
+- id: Subjs_ThisWeekOnly
+  translation: This page displays, for this week, the provisional timetable for the current week of classes. For the following weeks, timetables and/or classrooms will change; it is therefore advisable to keep up-to-date with the Degree Course Attendance page or the Telegram and WhatsApp groups.
+
+- id: Subjs_WorkInProgress
+  translation: Timetable currently being updated. Please do not rely on it for now and try again later!
+
+- id: Subjs_Timetables_Time
+  translation: Time
+
+- id: Subjs_Timetables_AlertsLegend
+  translation: Check the available warnings by clicking on the subject names followed by asterisks
+
+- id: Subjs_TimetablesPerTeaching_Title
+  translation: Timetables per teaching
+
+- id: Subjs_TimetablesPerTeaching_NoTimetable
+  translation: No timetable available for this week. This might be a course whose start of classes has been postponed or whose classes have already ended. It is advisable to stay updated through the 'Attendance' page of the Degree Program or via Telegram and WhatsApp groups.
+
+- id: Subjs_TimetablesPerTeaching_Day
+  translation: Day
+
+- id: Subjs_TimetablesPerTeaching_Time
+  translation: Time
+
+- id: Subjs_TimetablesPerTeaching_Teacher
+  translation: Teacher
+
+- id: Subjs_TimetablesPerTeaching_Classroom
+  translation: Classroom
+
+- id: Subjs_TimetablesPerTeaching_ConstructionSite
+  translation: Temporary classroom (changes from time to time) due to ongoing work in the assigned classroom, for the current classroom look for an announcement from Sapienza or the professor
+
+- id: Subjs_TimetablesPerTeaching_TBA
+  translation: Classroom still to be announced, you can try searching for an announcement from Sapienza or the professor (or click on this link and see if it has been updated in the timetable published by the Secretariat)
+
+- id: Subjs_TimetablesPerTeaching_Telegram_JoinGroup
+  translation: Join the
+
+- id: Subjs_TimetablesPerTeaching_Telegram_TelegramGroup
+  translation: Telegram Group of
+
+- id: Subjs_TimetablesPerTeaching_Telegram_StayUpdated
+  translation: to stay updated on any schedule changes, resources, and course information
+
+- id: Subjs_CustomTimetable_Title
+  translation: Your timetable
+
+- id: Subjs_CustomTimetable_AddButton
+  translation: Add and remove subjects
+
+- id: Subjs_CustomTimetable_CloseMenuButton
+  translation: Close the menu
+
+- id: Subjs_CustomTimetable_SelectMenuTitle
+  translation: Select the subjects you wish to add or remove
+
+- id: Subjs_CustomTimetable_SearchPlaceholder
+  translation: Search subjects...
+
+- id: Subjs_CustomTimetable_ExportICS
+  translation: Export to calendar (.ics)
+
+- id: Subjs_ExportWarning_Title
+  translation: "Warning: static export"
+
+- id: Subjs_ExportWarning_Body
+  translation: "The exported .ics file is a static snapshot and will NOT receive live updates when timetables change. For the most up-to-date schedule, always visit"
+
+- id: Subjs_ExportWarning_Accept
+  translation: Accept & Download
+
+- id: Subjs_ExportWarning_Cancel
+  translation: Cancel
+
+- id: Subjs_Timetables_ConflictWarning
+  translation: Schedule conflict
+
+#
+#   C O N T A C T S   P A G E
+#
+
+- id: Contacts_Title
+  translation: 🖋 Contacts of the wiki's main curators
+
+- id: Contacts_BadgeMeaning
+  translation: What do the badges mean?
+
+- id: B_Course
+  translation: Course
+
+- id: B_Course_Desc
+  translation: Course of study in which the curator studies/studied during their period of studies at Sapienza
+
+- id: B_CyberSecRepr
+  translation: Representative @ CyberSec
+
+- id: B_CyberSecRepr_Desc
+  translation: The curator is a Cybersecurity Student Representative
+
+- id: B_CSRepr
+  translation: Representative @ CS
+
+- id: B_CSRepr_Desc
+  translation: The curator is a Computer Science Student Representative

@@ -37,16 +37,14 @@
 </article>
 
 <div class="relative" id="main">
-    <!-- TODO: customizzare il pulsante con lo stile https://m3.material.io/components/all-buttons -->
-    <button class="addSubjs absolute right-0 top-2 flex items-center gap-2" onclick="openSubjectsDialog()">
+    <button class="addSubjs flex items-center gap-2" onclick="openSubjectsDialog()">
         {{ T "Subjs_CustomTimetable_AddButton" }}
-        <!-- <span class="material-symbols-outlined">add</span> -->
     </button>
     <!-- { .Content } -->
     {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
     <!-- { comment }} <div> around table is necessary for alerts { endcomment }} -->
-    <div class="my-8 w-full max-w-5xl mx-auto overflow-x-auto">
+    <div class="timetable-container my-8 w-full overflow-x-auto">
         <table id="customSchedule" class="w-full border-collapse shadow-lg">
             <thead>
                 <tr>
@@ -62,12 +60,39 @@
             <tbody class="mobile table-row-group sm:hidden"></tbody>
         </table>
     </div>
+    <div class="flex justify-end mt-2">
+        <button class="exportIcsBtn flex items-center gap-2" id="exportIcsBtn" onclick="showIcsWarningModal()" style="display:none;">
+            <i class="fa-solid fa-download"></i>
+            {{ T "Subjs_CustomTimetable_ExportICS" }}
+        </button>
+    </div>
 </div>
+
+<dialog id="icsWarningModal" onclick="handleIcsModalBackdropClick(event)">
+    <p class="ics-modal-title">
+        ⚠️ <i class="fa-solid fa-triangle-exclamation" aria-hidden="true"></i>
+        {{ T "Subjs_ExportWarning_Title" }}
+    </p>
+    <p class="ics-modal-body">
+        {{ T "Subjs_ExportWarning_Body" }}
+        <a href="https://sapienzastudents.net/" target="_blank" rel="noopener noreferrer">sapienzastudents.net</a>.
+    </p>
+    <div class="ics-modal-actions">
+        <button type="button" class="ics-modal-cancel" onclick="closeIcsWarningModal()">
+            {{ T "Subjs_ExportWarning_Cancel" }}
+        </button>
+        <button type="button" class="ics-modal-accept" onclick="acceptAndDownloadICS()">
+            <i class="fa-solid fa-download" aria-hidden="true"></i>
+            {{ T "Subjs_ExportWarning_Accept" }}
+        </button>
+    </div>
+</dialog>
 
 <dialog class="ml-0 h-full items-center rounded-r-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
     onclick="closeSubjectsDialog()">
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
+        <input type="text" id="subjsSearchInput" class="subjsSearchInput" placeholder="{{ T "Subjs_CustomTimetable_SearchPlaceholder" }}" oninput="filterSubjects(this.value)" autocomplete="off">
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
             {{ $courses := site.Data.courses }}
 
@@ -156,7 +181,7 @@
     );
 
     const selectedSubjects = new Set(
-        JSON.parse(localStorage.getItem("selectedSubjects")),
+        JSON.parse(localStorage.getItem("selectedSubjects") ?? "[]"),
     );
 
     function toggleSubject(subjectId) {
@@ -255,6 +280,7 @@
         );
 
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+        updateExportButton();
     }
 
     addEventListener("DOMContentLoaded", () => {
@@ -302,14 +328,78 @@
         }
 
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);
+        updateExportButton();
     });
+
+    function updateExportButton() {
+        const btn = document.getElementById('exportIcsBtn');
+        if (btn) {
+            btn.style.display = selectedSubjects.size > 0 ? 'flex' : 'none';
+        }
+    }
 
     function openSubjectsDialog() {
         document.getElementById("subjsPopUp").showModal();
+        const searchInput = document.getElementById("subjsSearchInput");
+        if (searchInput) {
+            searchInput.value = '';
+            filterSubjects('');
+            searchInput.focus();
+        }
     }
 
     function closeSubjectsDialog() {
         document.getElementById("subjsPopUp").close();
+    }
+
+    function filterSubjects(query) {
+        const normalizedQuery = query.toLowerCase().trim();
+        const buttons = document.querySelectorAll('.subjButton');
+        const groupTitles = document.querySelectorAll('.subjsGroupTitle');
+
+        buttons.forEach(button => {
+            const text = button.textContent.toLowerCase();
+            button.style.display = (!normalizedQuery || text.includes(normalizedQuery)) ? '' : 'none';
+        });
+
+        // Hide group headers if all their buttons are hidden
+        groupTitles.forEach(title => {
+            const courseDiv = title.nextElementSibling;
+            if (courseDiv && courseDiv.classList.contains('subjsSingCourse')) {
+                const visibleButtons = courseDiv.querySelectorAll('.subjButton:not([style*="display: none"])');
+                title.style.display = visibleButtons.length > 0 ? '' : 'none';
+                // Also hide the separator line after the course div
+                const separator = courseDiv.nextElementSibling;
+                if (separator && separator.tagName === 'DIV' && separator.style.height === '1px') {
+                    separator.style.display = visibleButtons.length > 0 ? '' : 'none';
+                }
+            }
+        });
+    }
+
+    function showIcsWarningModal() {
+        document.getElementById('icsWarningModal').showModal();
+    }
+
+    function closeIcsWarningModal() {
+        document.getElementById('icsWarningModal').close();
+    }
+
+    function handleIcsModalBackdropClick(event) {
+        const modal = document.getElementById('icsWarningModal');
+        // The dialog element itself receives the click when the backdrop is clicked
+        if (event.target === modal) {
+            modal.close();
+        }
+    }
+
+    function acceptAndDownloadICS() {
+        closeIcsWarningModal();
+        exportICS();
+    }
+
+    function exportICS() {
+        exportICSForSubjects(selectedSubjects);
     }
 </script>
 {{ end }}
