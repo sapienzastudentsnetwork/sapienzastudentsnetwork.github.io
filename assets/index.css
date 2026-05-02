@@ -7,6 +7,34 @@
 /*     src: url('minecraft.woff') format('woff'); */
 /* } */
 
+/* Theme-adaptive color tokens for homepage */
+@layer base {
+  :root {
+    /* Light theme (default) */
+    --tw-primary-rgb: 248 250 252;
+    --tw-accent-rgb: 30 41 59;
+    --tw-diamond-rgb: 59 130 246;
+    --tw-faint-rgb: 203 213 225;
+    --sapienza-opacity: 0.30;
+    --icon-info-color: #1a73e8;
+    --icon-warn-color: #b07d00;
+    --icon-tip-color: #1a7f37;
+    --separator-color: #c0c4cc;
+  }
+
+  [data-theme="dark"] {
+    --tw-primary-rgb: 19 36 65;
+    --tw-accent-rgb: 255 255 255;
+    --tw-diamond-rgb: 45 88 181;
+    --tw-faint-rgb: 38 66 129;
+    --sapienza-opacity: 0.05;
+    --icon-info-color: #74C0FC;
+    --icon-warn-color: #FFD43B;
+    --icon-tip-color: #3fb950;
+    --separator-color: #444;
+  }
+}
+
 @font-face {
     font-family: 'OpenDyslexic';
     src: url('opendyslexic/OpenDyslexic-Regular.woff2') format('woff2');
@@ -39,33 +67,39 @@
 
 .sapienza-1 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fmain-entrance-university-city-studies-la-sapienza-roma-ital-italy-90047500.jpg&f=1&nofb=1&ipt=3ef1bb17eb72a538f7c7586a7e45e11cff3b6acfd83bb27975920b70b95632ae&ipo=images');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 
 .sapienza-2 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc2.staticflickr.com%2F6%2F5106%2F5562273833_3f0ce81f73_b.jpg&f=1&nofb=1&ipt=01e4668ad3f73c8372034ccfb8db9334d770ebf67a461382675d766f41d28603&ipo=images');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 .sapienza-3 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F65535%2F52899945700_be1f8b6bae_b.jpg&f=1&nofb=1&ipt=e02870b6e647ed88eb80b73e1b77ff24c84d3adf6106064bd52a085cd61a56d3&ipo=images');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 .sapienza-4 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.casilinanews.it%2Fwp-content%2Fuploads%2F2016%2F07%2Fsapienza.jpg&f=1&nofb=1&ipt=32d5a57a1a68af621d870b7325ccfd96291e090d5a9f5a3690808eb63559405d&ipo=images');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 .sapienza-5 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Froma.metropolitanmagazine.it%2Fwp-content%2Fuploads%2F2021%2F05%2FVilla-Mirafiori.jpg&f=1&nofb=1&ipt=da973e2ebf807f0f3b1f5d40dddd23e02ae43e9133c7c4f9a20a30cdc7cafa9a');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 .sapienza-6 {
     background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.meer.com%2Fattachments%2Fd98e16519c30d08cfb11b738773e7346466fdd6c%2Fstore%2Ffill%2F690%2F388%2F3959f1792f03229f1f990b55f6edc923b958bd154945e6a4d032044e6217%2FVilla-Mirafiori-veduta-generale-foto-Roberto-Luciani.jpg&f=1&nofb=1&ipt=9377fc1a19606da3161020958e218c94b25d8e94697d7ad85fc054d9bd93dea7');
-    @apply bg-cover opacity-5;
+    @apply bg-cover;
+    opacity: var(--sapienza-opacity);
 }
 
 nav  > a {
@@ -91,7 +125,7 @@ a {
     @apply scale-100;
   }
 }
-     
+
 .minecraft {
     font-family: 'Minecraft' !important;
     text-shadow: 2px 2px black;

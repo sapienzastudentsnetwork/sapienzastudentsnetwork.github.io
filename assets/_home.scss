@@ -1,5 +1,5 @@
 a.home-button-link {
-    color: white !important;
+    color: #{"rgb(var(--tw-accent-rgb))"} !important;
 }
 
 a.home-button-link:hover {
@@ -20,7 +20,7 @@ a.home-button-link:hover {
         height: 370px;
         margin: 10px;
         border-radius: 12px;
-        border: 2px solid #d5d5d5;
+        border: 2px solid var(--home-page-border-color);
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -34,7 +34,7 @@ a.home-button-link:hover {
         height: 370px;
         margin: 10px;
         border-radius: 12px;
-        border: 2px solid #d5d5d5;
+        border: 2px solid var(--home-page-border-color);
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -52,7 +52,7 @@ a.home-button-link:hover {
         height: 370px;
         margin: 10px;
         border-radius: 12px;
-        border: 2px solid #d5d5d5;
+        border: 2px solid var(--home-page-border-color);
         display: flex;
         flex-direction: column;
         justify-content: end;
@@ -206,11 +206,11 @@ a.home-button-link:hover {
 }
 
 .explore_more {
-    background-color: #eeeeee;
+    background-color: var(--gray-200);
     font-family: 'DM Sans';
     font-weight: 200;
     font-size: 18px;
-    color: #252d3f;
+    color: var(--body-font-color);
     width: 120px;
     height: 28px;
     display: flex;

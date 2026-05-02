@@ -1,0 +1,24 @@
+<label class="toggle-switch" title="{{ i18n "DarkMode" | default "Dark mode" }}">
+  <input type="checkbox" name="theme-toggle" id="theme-toggle"
+         role="switch" aria-label="{{ i18n "DarkMode" | default "Dark mode" }}">
+  <span class="toggle-switch-track">
+    <span class="toggle-switch-thumb"></span>
+  </span>
+  <span class="toggle-switch-label">
+    <span class="toggle-switch-label--off">☀️ Light</span>
+    <span class="toggle-switch-label--on">🌙 Dark</span>
+  </span>
+</label>
+
+<script>
+addEventListener("DOMContentLoaded", function() {
+    var toggle = document.getElementById('theme-toggle');
+    if (!toggle) return;
+    toggle.checked = document.documentElement.dataset.theme === 'dark';
+    toggle.addEventListener('change', function() {
+        var theme = this.checked ? 'dark' : 'light';
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('theme', theme);
+    });
+});
+</script>

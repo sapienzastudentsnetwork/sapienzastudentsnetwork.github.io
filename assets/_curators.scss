@@ -4,6 +4,10 @@
     --border-color: #dedede;
 }
 
+[data-theme="dark"] {
+    --border-color: #555b62;
+}
+
 @media screen and (min-width: 100px) {
     .curatorList {
         display: flex;
@@ -124,7 +128,7 @@
 }
 
 .curSocialIcon {
-    color: #8e9693;
+    color: var(--social-icon-color);
     margin: 0 15px 0 15px;
 }
 
