@@ -32,6 +32,9 @@ https://github.com/alex-shpak/hugo-book
 {{- $styles := resources.Get "book.scss" | resources.ExecuteAsTemplate "book.scss" . | css.Sass | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ partial "docs/links/resource-precache" $styles }}" {{ template "integrity" $styles }}>
 
+<!-- FontAwesome stylesheet -->
+<link rel="stylesheet" href="/fa/css/all.min.css">
+
 <!-- Search -->
 {{- if default true .Site.Params.BookSearch -}}
   {{- $searchJSFile := printf "%s.search.js" .Language.Lang }}
