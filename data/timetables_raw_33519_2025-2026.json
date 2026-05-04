@@ -254,6 +254,22 @@
             ]
           },
           {
+            "building": "Edificio: CU002",
+            "course": "1047222",
+            "room": "Aula 2 - Sc. Stat.",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+            "teachers": [
+              "MAGGI BERNARDO"
+            ]
+          },
+          {
             "building": "Edificio: RM031",
             "course": "10600197",
             "room": "Aula 1 - Antonio Ruberti",
@@ -825,6 +841,22 @@
                 "from": "14:00",
                 "to": "18:00"
               },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+            "teachers": [
+              "MAGGI BERNARDO"
+            ]
+          },
+          {
+            "building": "Edificio: CU002",
+            "course": "1047222",
+            "room": "Aula 2 - Sc. Stat.",
+            "schedule": [
               {
                 "day": "gioved\u00ec",
                 "from": "08:00",

@@ -761,6 +761,7 @@
             },
             "timeslot": "8 - 10",
             "classrooms": {
+              "3ee3db10-4a52-41a5-9ba1-3dc72cb6519a": "Aula 2 (Edificio: CU002)",
               "e0f2f5db-bcc2-45d5-932b-f96267f96575": "Aula VI (Edificio: CU002)"
             }
           }
