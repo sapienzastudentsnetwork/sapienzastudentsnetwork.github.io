@@ -1,7 +1,7 @@
 <script>
-    const COURSES = JSON.parse(`{{ .Site.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
-    const TIMETABLES = JSON.parse(`{{ .Site.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
-    const HARDCODED_TIMETABLES = JSON.parse(`{{ .Site.Data.hardcodedTimetables | jsonify }}`)
+    const COURSES = JSON.parse(`{{ hugo.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
+    const TIMETABLES = JSON.parse(`{{ hugo.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
+    const HARDCODED_TIMETABLES = JSON.parse(`{{ hugo.Data.hardcodedTimetables | jsonify }}`)
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
     const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
 

@@ -560,10 +560,10 @@
         const TOP_RESULTS_COUNT = 5;
 
         const rcpGroups = JSON.parse(
-            "{{ .Site.Data.rcpData.RCP | jsonify }}",
+            "{{ hugo.Data.rcpData.RCP | jsonify }}",
         );
         const relatedCourses = JSON.parse(
-            "{{ .Site.Data.rcpData.relatedCourses | jsonify }}",
+            "{{ hugo.Data.rcpData.relatedCourses | jsonify }}",
         );
 
         const rcpCoursesSet = new Set(

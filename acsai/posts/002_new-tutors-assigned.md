@@ -6,7 +6,7 @@ title: "New tutors assigned"
 categories:
   - "A.Y. 2024/25"
 menu: "main"
-_build:
+build:
     list: never
 ---
 

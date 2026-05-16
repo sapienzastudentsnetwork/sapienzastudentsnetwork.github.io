@@ -17,7 +17,7 @@
         <input type="checkbox" id="languages" class="toggle" />
         <label for="languages" class="flex justify-between">
             <a role="button" class="flex align-center">
-                <i class="fa-solid fa-graduation-cap"></i>&nbsp;{{ $.Site.Language.LanguageName }}
+                <i class="fa-solid fa-graduation-cap"></i>&nbsp;{{ $.Site.Language.Label }}
             </a>
         </label>
 
@@ -31,7 +31,7 @@
                 {{ $otherLang := cond (eq $.Site.Language.Lang "33526") "33525" "33526" }}
                 {{ with index $translations $otherLang }}
                 <li>
-                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                    <a href="{{ .Permalink }}"> {{ .Language.Label }} </a>
                 </li>
                 {{ end }}
 
@@ -40,12 +40,12 @@
                 <!-- Show both 33525 and 33526 languages on '/filosofia' -->
                 {{ with index $translations "33525" }}
                 <li>
-                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                    <a href="{{ .Permalink }}"> {{ .Language.Label }} </a>
                 </li>
                 {{ end }}
                 {{ with index $translations "33526" }}
                 <li>
-                    <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                    <a href="{{ .Permalink }}"> {{ .Language.Label }} </a>
                 </li>
                 {{ end }}
 
@@ -55,7 +55,7 @@
                     {{ if and (ne .Lang "33525") (ne .Lang "33526") }}
                         {{ with index $translations .Lang }}
                         <li>
-                            <a href="{{ .Permalink }}"> {{ .Language.LanguageName }} </a>
+                            <a href="{{ .Permalink }}"> {{ .Language.Label }} </a>
                         </li>
                         {{ end }}
                     {{ end }}

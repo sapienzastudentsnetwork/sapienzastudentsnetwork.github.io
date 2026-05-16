@@ -10,7 +10,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
         # BookSearch = false
         contentDir = 'homepage'
         disabled = false
-        languageName = 'Homepage'
+        label = 'Homepage'
         title = "Homepage"
         weight = 0
 
@@ -20,7 +20,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.acsai]
         contentDir = 'acsai'
         disabled = false
-        languageName = 'ACSAI'
+        label = 'ACSAI'
         title = 'ACSAI'
         weight = 1
 
@@ -30,7 +30,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.it]
         contentDir = 'it'
         disabled = false
-        languageName = 'Informatica'
+        label = 'Informatica'
         title = 'Informatica'
         weight = 2
 
@@ -40,7 +40,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.compsci]
         contentDir = 'compsci'
         disabled = false
-        languageName = 'Computer Science'
+        label = 'Computer Science'
         title = 'Computer Science'
         weight = 3
 
@@ -50,7 +50,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.cybersec]
         contentDir = 'cybersec'
         disabled = false
-        languageName = 'Cybersecurity'
+        label = 'Cybersecurity'
         title = 'Cybersecurity'
         weight = 4
 
@@ -60,7 +60,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.datasci]
         contentDir = 'datasci'
         disabled = false
-        languageName = 'Data Science'
+        label = 'Data Science'
         title = 'Data Science'
         weight = 5
 
@@ -70,7 +70,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.33525]
         contentDir = '33525'
         disabled = false
-        languageName = 'Filosofia'
+        label = 'Filosofia'
         title = 'Filosofia'
         weight = 6
 
@@ -80,7 +80,7 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.33526]
         contentDir = '33526'
         disabled = false
-        languageName = 'Filosofia e IA'
+        label = 'Filosofia e IA'
         title = 'Filosofia e IA'
         weight = 7
 
@@ -90,14 +90,14 @@ custom_css = ["css/contributors.css", "assets/*.scss"]
     [languages.dev]
         contentDir = 'dev'
         disabled = true
-        languageName = 'Developers Wiki'
+        label = 'Developers Wiki'
         title = 'Developers Wiki'
         weight = 8
 
     [languages.rooms]
         contentDir = 'rooms'
         disabled = false
-        languageName = 'Rooms'
+        label = 'Rooms'
         title = 'Rooms'
         weight = 9
 

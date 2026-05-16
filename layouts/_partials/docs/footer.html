@@ -4,7 +4,7 @@
   {{ if and .GitInfo .Site.Params.BookLastChangeLink }}
   {{- $date := partial "docs/date" (dict "Date" .Lastmod "Format" .Site.Params.BookDateFormat) -}}
   {{- $username := .GitInfo.AuthorName -}}
-  {{- $displayName := index .Site.Data.git_authors $username "display_name" | default $username -}}
+  {{- $displayName := index hugo.Data.git_authors $username "display_name" | default $username -}}
 
   <a class="flex align-center" href="{{ partial "docs/links/commit" . }}" title='{{ partial "docs/text/i18n" "Last modified by" }} {{ $displayName }} | {{ $date }}' target="_blank" rel="noopener">
     <img src="{{ partial "docs/icon" "calendar" }}" class="book-icon" alt="" />
