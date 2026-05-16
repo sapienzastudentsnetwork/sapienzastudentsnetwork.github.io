@@ -19,7 +19,7 @@ services:
       - "1313:1313"
 
     # Check the env variable: if true, builds public/ and generates aliases.
-    # If false, runs the python script just to clean up static/aliases/
+    # If false, runs the python script just to clean up static/
     command: >
       sh -c '
       if [ "$$GENERATE_ALIASES" = "true" ]; then

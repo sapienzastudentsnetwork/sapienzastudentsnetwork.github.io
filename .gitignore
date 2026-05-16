@@ -7,4 +7,21 @@
 .sass-cache
 .jekyll-metadata
 .hugo_build.lock
-/static/aliases/
+# Dynamically generated aliases from generate_aliases.py
+static/30786/
+static/33502/
+static/29932/
+static/33508/
+static/computerscience/
+static/29389/
+static/33516/
+static/cybersecurity/
+static/32344/
+static/33519/
+static/datascience/
+static/29923/
+static/29400/
+static/33503/
+static/33504/
+static/inf/
+static/informatica/

@@ -97,7 +97,7 @@ jobs:
               "compsci": ["29932", "33508", "computerscience"],
               "cybersec": ["29389", "33516", "cybersecurity"],
               "datasci": ["32344", "33519", "datascience"],
-              "it": ["informatica", "inf", "29923", "29400", "33503", "33504"]
+              "it": ["29923", "29400", "33503", "33504", "inf", "informatica"]
           }
 
           for target, aliases in mappings.items():

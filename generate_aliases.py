@@ -11,13 +11,13 @@ mappings = {
     "compsci": ["29932", "33508", "computerscience"],
     "cybersec": ["29389", "33516", "cybersecurity"],
     "datasci": ["32344", "33519", "datascience"],
-    "it": ["informatica", "inf", "29923", "29400", "33503", "33504"]
+    "it": ["29923", "29400", "33503", "33504", "inf", "informatica"]
 }
 
-# Cleanup previous generated aliases in static/aliases/ to avoid orphaned files
+# Cleanup previous generated aliases in static/ to avoid orphaned files
 for aliases in mappings.values():
     for alias in aliases:
-        alias_dir = Path(f'static/aliases/{alias}')
+        alias_dir = Path(f'static/{alias}')
         if alias_dir.exists():
             shutil.rmtree(alias_dir)
 
@@ -36,7 +36,7 @@ for target, aliases in mappings.items():
 
         for alias in aliases:
             # Write to static/ so Hugo's live server can serve them
-            dest_file = Path(f'static/aliases/{alias}') / rel_path
+            dest_file = Path(f'static/{alias}') / rel_path
             dest_file.parent.mkdir(parents=True, exist_ok=True)
 
             if rel_path.name == 'index.html':
