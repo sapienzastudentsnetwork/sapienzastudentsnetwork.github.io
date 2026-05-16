@@ -1,6 +1,6 @@
 ---
 title: Home
-aliases: ["/informatica"]
+aliases: ["informatica", "29923", "33503"]
 bookToc: False
 ---
 
