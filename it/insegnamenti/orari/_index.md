@@ -9,15 +9,15 @@ weight: 4
 ## Informatica (triennale)
 
 ### Primo anno
-- [Canale A-L (1)](https://sapienzastudents.net/it/insegnamenti/orari/primo-anno/a-l/)
-- [Canale M-Z (2)](https://sapienzastudents.net/it/insegnamenti/orari/primo-anno/m-z/)
+- [Canale A-L (1)](/it/insegnamenti/orari/primo-anno/a-l/)
+- [Canale M-Z (2)](/it/insegnamenti/orari/primo-anno/m-z/)
 
 ### Secondo anno
-- [Canale A-L (1)](https://sapienzastudents.net/it/insegnamenti/orari/secondo-anno/a-l/)
-- [Canale M-Z (2)](https://sapienzastudents.net/it/insegnamenti/orari/secondo-anno/m-z/)
+- [Canale A-L (1)](/it/insegnamenti/orari/secondo-anno/a-l/)
+- [Canale M-Z (2)](/it/insegnamenti/orari/secondo-anno/m-z/)
 
 ### Terzo anno
-- [Canale Unico](https://sapienzastudents.net/it/insegnamenti/orari/terzo-anno/)
+- [Canale Unico](/it/insegnamenti/orari/terzo-anno/)
 
 ## Orario personalizzato
 
