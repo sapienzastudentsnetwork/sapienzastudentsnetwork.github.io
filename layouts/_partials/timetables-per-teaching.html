@@ -58,7 +58,7 @@
 
         {{ if $courseCode }}
             <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
-                <h3>{{ $courseCode }} - {{ $courseSubject }} {{ if or $courseShortName $courseAbbr }}<span style="color: var(--h4-color); font-size: 1rem;">{{ if $courseShortName }} ({{ $courseShortName }}) {{ end }} {{ if $courseAbbr }} [{{ $courseAbbr }}] {{ end }}</span>{{ end }}</h3>
+                <h3>{{ $courseCode }} - {{ $courseSubject }} {{ if or (and $courseShortName (ne $courseShortName $courseName)) $courseAbbr }}<span style="color: var(--h4-color); font-size: 1rem;">{{ if and $courseShortName (ne $courseShortName $courseName) }} ({{ $courseShortName }}) {{ end }}{{ if $courseAbbr }} [{{ $courseAbbr }}] {{ end }}</span>{{ end }}</h3>
 
                 {{ $telegram_group := index $courseCourses "tgGroup" }}
                 {{ if $telegram_group }}
