@@ -2,6 +2,9 @@ services:
   sapienzastudents:
     build: .
     container_name: sapienzastudents
+    environment:
+      # Change to "true" to generate local aliases, "false" to remove them
+      - GENERATE_ALIASES=false
     volumes:
       # Mount the current directory to the container
       # This is useful for updating the website without rebuilding the container
@@ -15,9 +18,17 @@ services:
       # If you need to use a reverse proxy, comment this line
       - "1313:1313"
 
-    # In development, run the Tailwind watcher alongside Hugo so CSS
-    # rebuilds automatically when templates change.
-    command: sh -c "npm run dev & hugo server --disableFastRender --bind 0.0.0.0"
+    # Check the env variable: if true, builds public/ and generates aliases.
+    # If false, runs the python script just to clean up static/aliases/
+    command: >
+      sh -c '
+      if [ "$$GENERATE_ALIASES" = "true" ]; then
+        hugo && python3 generate_aliases.py;
+      else
+        python3 generate_aliases.py;
+      fi &&
+      npm run dev & hugo server --disableFastRender --bind 0.0.0.0
+      '
 
     # Will restart the container if it crashes
     # Even after a reboot

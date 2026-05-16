@@ -1,6 +1,6 @@
 FROM hugomods/hugo:dart-sass-git-0.161.1
 
-RUN apk add --no-cache nodejs npm
+RUN apk add --no-cache nodejs npm python3
 
 RUN git config --global --add safe.directory /app
 

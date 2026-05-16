@@ -79,6 +79,67 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --theme hugo-book
+
+      - name: Generate HTML Redirects for Aliases
+        shell: python
+        env:
+          # Passing the GitHub Pages base URL to safely construct absolute redirect links
+          BASE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          import os
+          from pathlib import Path
+
+          base_url = os.environ.get('BASE_URL', '').rstrip('/')
+
+          # Define the target-to-aliases mapping dictionary
+          mappings = {
+              "acsai": ["30786", "33502"],
+              "compsci": ["29932", "33508", "computerscience"],
+              "cybersec": ["29389", "33516", "cybersecurity"],
+              "datasci": ["32344", "33519", "datascience"],
+              "it": ["informatica", "inf", "29923", "29400", "33503", "33504"]
+          }
+
+          for target, aliases in mappings.items():
+              target_dir = Path(f'public/{target}')
+          
+              # Skip if the Hugo target folder doesn't exist to prevent errors
+              if not target_dir.exists():
+                  continue
+
+              for html_file in target_dir.glob('**/*.html'):
+                  rel_path = html_file.relative_to(target_dir)
+
+                  for alias in aliases:
+                      dest_file = Path(f'public/{alias}') / rel_path
+                      dest_file.parent.mkdir(parents=True, exist_ok=True)
+
+                      # Construct the correct path suffix
+                      if rel_path.name == 'index.html':
+                          if str(rel_path.parent) != '.':
+                              path_suffix = f"{target}/{rel_path.parent}/"
+                          else:
+                              path_suffix = f"{target}/"
+                      else:
+                          path_suffix = f"{target}/{rel_path}"
+
+                      # Normalize paths for web and combine with absolute base URL
+                      path_suffix = path_suffix.replace('\\', '/')
+                      url_path = f"{base_url}/{path_suffix}"
+
+                      # Write Hugo native HTML redirect template with dynamic lang attribute
+                      hugo_alias_template = f'''<!DOCTYPE html>
+          <html lang="{target}">
+            <head>
+              <title>{url_path}</title>
+              <link rel="canonical" href="{url_path}">
+              <meta charset="utf-8">
+              <meta http-equiv="refresh" content="0; url={url_path}">
+            </head>
+          </html>'''
+          
+                      dest_file.write_text(hugo_alias_template, encoding='utf-8')
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

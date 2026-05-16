@@ -7,3 +7,4 @@
 .sass-cache
 .jekyll-metadata
 .hugo_build.lock
+/static/aliases/
