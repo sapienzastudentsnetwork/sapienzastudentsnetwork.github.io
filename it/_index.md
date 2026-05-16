@@ -1,6 +1,6 @@
 ---
 title: Home
-aliases: ["informatica", "29923", "33503"]
+aliases: ["29923", "33503", "inf", "informatica"]
 bookToc: False
 ---
 
