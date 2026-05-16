@@ -14,6 +14,7 @@
     {{ $courseCodeWithUnit := . }}
 
     {{ $courseTimetables := index $dataTimetables $courseCodeWithUnit }}
+    {{ $courseCourses := index $dataCourses $courseCodeWithUnit }}
     {{ $courseHardcodedTimetables := index $dataHardcodedTimetables $courseCodeWithUnit }}
 
     {{ if or $courseTimetables $courseHardcodedTimetables }}
@@ -38,26 +39,30 @@
             {{ $courseChannels = $hardcodedTimetableChannels }}
         {{ end }}
 
+        {{ $courseSubjectPascalCase := $courseSubject | lower | title }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "a'" "à" }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "i'" "ì" }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "o'" "ò" }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "u'" "ù" }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "e'" "ù" }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Delle " " delle " }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Di " " di " }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " E " " e " }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Il " " il " }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Lo " " lo " }}
+        {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "L'" "l'" }}
+
+        {{ $courseName := index $courseCourses "name" | default $courseSubjectPascalCase }}
+        {{ $courseShortName := index $courseCourses "shortName" }}
+        {{ $courseAbbr := index $courseCourses "abbr" }}
+
         {{ if $courseCode }}
             <div id="{{ $courseCodeWithUnit }}" class="{{ if $defaultHidden }}hidden{{ end }}">
+                <h3>{{ $courseCode }} - {{ $courseSubject }} {{ if or $courseShortName $courseAbbr }}<span style="color: var(--h4-color); font-size: 1rem;">{{ if $courseShortName }} ({{ $courseShortName }}) {{ end }} {{ if $courseAbbr }} [{{ $courseAbbr }}] {{ end }}</span>{{ end }}</h3>
 
-                <h3>{{ $courseCode }} - {{ $courseSubject }}</h3>
-
-                {{ $telegram_group := index $dataCourses $courseCodeWithUnit "tgGroup" }}
+                {{ $telegram_group := index $courseCourses "tgGroup" }}
                 {{ if $telegram_group }}
-                    {{ $courseSubjectPascalCase := $courseSubject | lower | title }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "a'" "à" }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "i'" "ì" }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "o'" "ò" }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "ù'" "ù" }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Delle " " delle " }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Di " " di " }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " E " " e " }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Il " " il " }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase " Lo " " lo " }}
-                    {{ $courseSubjectPascalCase = replace $courseSubjectPascalCase "L'" "l'" }}
-
-                    ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseSubjectPascalCase}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
+                    ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseName}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
                     <br/>
                 {{ end }}
 
@@ -85,7 +90,7 @@
                     {{ end }}
 
                     {{ if and $courseCodeWithUnit (index $dataCourses $courseCodeWithUnit) }}
-                        {{ $alerts := index $dataCourses $courseCodeWithUnit "alerts" }}
+                        {{ $alerts := index $courseCourses "alerts" }}
                         {{ if $alerts }}
                             {{ if index $alerts $channel_id }}
                                 {{ range $day, $dayAlerts := index $alerts $channel_id }}
@@ -251,7 +256,7 @@
                             </tbody>
                         </table>
                     {{ else }}
-                        {{ $alerts := index $dataCourses $courseCodeWithUnit "alerts" }}
+                        {{ $alerts := index $courseCourses "alerts" }}
                         {{ if or (not $alerts) (not (index $alerts $channel_id)) }}
                             {{ T "Subjs_TimetablesPerTeaching_NoTimetable" }}
                         {{ end }}
