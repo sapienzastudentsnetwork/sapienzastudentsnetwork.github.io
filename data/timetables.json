@@ -583,37 +583,6 @@
     },
     "code": "1047197"
   },
-  "1047205": {
-    "subject": "CLOUD COMPUTING",
-    "degree": "33508",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teachers": {
-              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teachers": {
-              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
-            },
-            "timeslot": "15 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047205"
-  },
   "1047209": {
     "subject": "QUANTITATIVE MODELS FOR ECONOMIC ANALYSIS AND MANAGEMENT",
     "degree": "33519",

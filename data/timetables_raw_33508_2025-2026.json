@@ -472,27 +472,6 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
-            "course": "1047205",
-            "room": "Aula 2",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "12:00",
-                "to": "14:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "15:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "CLOUD COMPUTING",
-            "teachers": [
-              "CASALICCHIO EMILIANO"
-            ]
-          },
-          {
             "building": "Edificio: RM115",
             "course": "1047613",
             "room": "Aula G50",
@@ -1318,27 +1297,6 @@
             "subject": "NATURAL LANGUAGE PROCESSING",
             "teachers": [
               "MASI IACOPO"
-            ]
-          },
-          {
-            "building": "Edificio: RM018",
-            "course": "1047205",
-            "room": "Aula 2",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "12:00",
-                "to": "14:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "15:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "CLOUD COMPUTING",
-            "teachers": [
-              "CASALICCHIO EMILIANO"
             ]
           },
           {

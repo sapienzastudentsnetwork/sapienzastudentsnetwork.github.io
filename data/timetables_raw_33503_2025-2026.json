@@ -911,38 +911,6 @@
             "teachers": [
               "MASELLI GAIA"
             ]
-          },
-          {
-            "building": "Edificio: RM025",
-            "course": "1020422",
-            "room": "Aula informatica 15",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "SISTEMI OPERATIVI II MODULO",
-            "teachers": [
-              "CASALICCHIO EMILIANO"
-            ]
-          },
-          {
-            "building": "Edificio: RM025",
-            "course": "1020422",
-            "room": "Aula informatica 16 ",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "SISTEMI OPERATIVI II MODULO",
-            "teachers": [
-              "CASALICCHIO EMILIANO"
-            ]
           }
         ]
       }

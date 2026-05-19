@@ -180,27 +180,6 @@
             ]
           },
           {
-            "building": "Edificio: RM018",
-            "course": "1047205",
-            "room": "Aula 2",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "12:00",
-                "to": "14:00"
-              },
-              {
-                "day": "gioved\u00ec",
-                "from": "15:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "CLOUD COMPUTING",
-            "teachers": [
-              "CASALICCHIO EMILIANO"
-            ]
-          },
-          {
             "building": "Edificio: RM102",
             "course": "1047209",
             "room": "Aula A5",
