@@ -11,7 +11,8 @@
             "14:00-15:00": "",
             "15:00-16:00": "",
             "16:00-17:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
-            "17:00-18:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "17:00-17:30": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
+            "17:30-18:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
             "18:00-19:00": "Informatica L-31 R 1031337 BIOLOGIA COMPUTAZIONALE CASTRIGNANO' T.",
             "19:00-19:30": ""
         },
@@ -25,7 +26,8 @@
             "14:00-15:00": "",
             "15:00-16:00": "",
             "16:00-17:00": "Cybersecurity LM-66 R 1055047 ECONOMICS OF TECHNOLOGY AND MANAGEMENT D'ADAMO I.",
-            "17:00-18:00": "Cybersecurity LM-66 R 1055047 ECONOMICS OF TECHNOLOGY AND MANAGEMENT D'ADAMO I.",
+            "17:00-17:30": "Cybersecurity LM-66 R 1055047 ECONOMICS OF TECHNOLOGY AND MANAGEMENT D'ADAMO I.",
+            "17:30-18:00": "Cybersecurity LM-66 R 1055047 ECONOMICS OF TECHNOLOGY AND MANAGEMENT D'ADAMO I.",
             "18:00-19:00": "Cybersecurity LM-66 R 1055047 ECONOMICS OF TECHNOLOGY AND MANAGEMENT D'ADAMO I.",
             "19:00-19:30": ""
         },
@@ -39,8 +41,9 @@
             "14:00-15:00": "Computer Science - Informatica LM-18 10607006 FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING MANCINI T.",
             "15:00-16:00": "Computer Science - Informatica LM-18 10607006 FORMAL METHODS FOR AI-BASED SYSTEMS ENGINEERING MANCINI T.",
             "16:00-17:00": "",
-            "17:00-18:00": "",
-            "18:00-19:00": "",
+            "17:00-17:30": "",
+            "17:30-18:00": "Evento Mancini",
+            "18:00-19:00": "Evento Mancini",
             "19:00-19:30": ""
         },
         "thursday": {
@@ -53,7 +56,8 @@
             "14:00-15:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "15:00-16:00": "Informatica L-31 R 10600494 VERIFICA E VALIDAZIONE DI SISTEMI INTELLIGENTI TRONCI E.",
             "16:00-17:00": "",
-            "17:00-18:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
+            "17:00-17:30": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
+            "17:30-18:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
             "18:00-19:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
             "19:00-19:30": ""
         },
@@ -67,7 +71,8 @@
             "14:00-15:00": "Cybersecurity LM-66 R 1054963 SYSTEMS AND CONTROL METHODS FOR CYBER-PHYSICAL SECURITY LIBERATI F.",
             "15:00-16:00": "Tutoraggio Analisi Matematica",
             "16:00-17:00": "Tutoraggio Analisi Matematica",
-            "17:00-18:00": "",
+            "17:00-17:30": "",
+            "17:30-18:00": "",
             "18:00-19:00": "",
             "19:00-19:30": ""
         }
