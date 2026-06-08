@@ -53,7 +53,7 @@
         <tr>
             <td class="timetableTableCell font-light classroomTimetableText">{{ $time }}</td>
             {{- range $day := slice "monday" "tuesday" "wednesday" "thursday" "friday" }}
-            <td class="timetableTableCell font-light classroomTimetableText">
+            <td class="timetableTableCell font-light classroomTimetableText" {{- with index $timetable.timetables $day $time }} data-description="{{ . }}" {{ end }}>
                 {{- with index $timetable.timetables $day $time }}
                     {{- if or
                         (findRE "^(Computer Science|Informatica|Applied Computer Science|Cybersecurity|Lezione|Lesson)" .)
@@ -82,12 +82,136 @@
     <!--<h3>Photos</h3>
 
     Coming Soon!-->
+
+     <div id="timetable-tooltip" class="timetable-tooltip" style="opacity: 0; pointer-events: none; position: fixed; z-index: 9999; transition: opacity 0.3s ease;"></div>
+
+    <style>
+    .timetable-tooltip {
+        padding: 12px 16px;
+        background: var(--timetable-popup-background, rgba(255, 255, 255, 0.8));
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--table-border-color, rgba(255, 255, 255, 0.2));
+        border-radius: 12px;
+        box-shadow: 0 10px 25px var(--table-shadow-color, rgba(0, 0, 0, 0.1));
+        font-size: 0.9rem;
+        color: var(--body-font-color, #333);
+        max-width: 320px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        font-family: inherit;
+    }
+
+    /* Highlight hoverable cells to indicate they have more info */
+    .timetableTableCell[data-description]:hover {
+        background-color: rgba(102, 187, 255, 0.15) !important;
+    }
+    </style>
     
     <script>
 
     // this entire script highlights the current day and time in the timetable
 
     document.addEventListener("DOMContentLoaded", function() {
+        const tooltip = document.getElementById('timetable-tooltip');
+        let hoverTimer;
+
+        const cells = document.querySelectorAll('.timetableTableCell[data-description]');
+        cells.forEach(cell => {
+            // Events for desktop
+            cell.addEventListener('mouseenter', function(e) {
+                const description = this.getAttribute('data-description');
+                if (!description) return;
+
+                hoverTimer = setTimeout(() => {
+                    tooltip.innerHTML = `<strong>Lesson Details:</strong><br>${description}`;
+                    tooltip.style.opacity = '1';
+                    
+                    // Position tooltip relative to viewport
+                    const rect = this.getBoundingClientRect();
+                    const tooltipRect = tooltip.getBoundingClientRect();
+                    
+                    let left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2);
+                    let top = rect.bottom + 10;
+
+                    // Keep tooltip within viewport
+                    if (left < 10) left = 10;
+                    if (left + tooltip.offsetWidth > window.innerWidth - 10) {
+                        left = window.innerWidth - tooltip.offsetWidth - 10;
+                    }
+                    if (top + tooltip.offsetHeight > window.innerHeight - 10) {
+                        top = rect.top - tooltip.offsetHeight - 10;
+                    }
+
+                    tooltip.style.left = `${left}px`;
+                    tooltip.style.top = `${top}px`;
+                }, 500);
+            });
+
+            cell.addEventListener('mouseleave', function() {
+                clearTimeout(hoverTimer);
+                tooltip.style.opacity = '0';
+            });
+
+            // Events for mobile
+            cell.addEventListener('touchstart', function(e) {
+                const description = this.getAttribute('data-description');
+                if (!description) return;
+
+                // Prevent default to avoid hover effects
+                e.preventDefault();
+                
+                // Hide previous tooltip if any
+                tooltip.style.opacity = '0';
+                currentCell = this;
+                
+                // Show tooltip immediately on touch (no delay)
+                showTooltip(this, description);
+            });
+
+            cell.addEventListener('touchend', function(e) {
+                // Keep tooltip visible until user touches elsewhere
+            });
+
+            // Hide tooltip when touching elsewhere
+            document.addEventListener('touchstart', function(e) {
+                if (!e.target.closest('.timetableTableCell[data-description]')) {
+                    tooltip.style.opacity = '0';
+                    currentCell = null;
+                }
+            });
+
+            // Helper function to show tooltip
+            function showTooltip(element, description) {
+                tooltip.innerHTML = `<strong>Lesson Details:</strong><br>${description}`;
+                tooltip.style.opacity = '1';
+                
+                // Position tooltip relative to viewport
+                const rect = element.getBoundingClientRect();
+                
+                let left = rect.left + (rect.width / 2) - (tooltip.offsetWidth / 2);
+                let top = rect.bottom + 10;
+
+                // Keep tooltip within viewport
+                if (left < 10) left = 10;
+                if (left + tooltip.offsetWidth > window.innerWidth - 10) {
+                    left = window.innerWidth - tooltip.offsetWidth - 10;
+                }
+                if (top + tooltip.offsetHeight > window.innerHeight - 10) {
+                    top = rect.top - tooltip.offsetHeight - 10;
+                }
+
+                tooltip.style.left = `${left}px`;
+                tooltip.style.top = `${top}px`;
+            }
+
+            // Hide tooltip if scrolling
+            window.addEventListener('scroll', () => {
+                clearTimeout(hoverTimer);
+                tooltip.style.opacity = '0';
+            }, { passive: true });
+        });
+
         const now = new Date();
         const dayIndex = now.getDay(); // 0 is Sunday, 1 is Monday, etc.
         const currentHour = now.getHours();
