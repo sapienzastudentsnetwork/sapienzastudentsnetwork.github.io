@@ -1,25 +1,10 @@
 {
-    "date_range": "Monday 29 June 2026 - Friday 03 July 2026",
+    "date_range": "Monday 06 July 2026 - Friday 10 July 2026",
     "timetables": {
         "monday": {
-            "08:00-09:00": "festivo su Roma",
-            "09:00-10:00": "festivo su Roma",
-            "10:00-11:00": "festivo su Roma",
-            "11:00-12:00": "festivo su Roma",
-            "12:00-13:00": "festivo su Roma",
-            "13:00-14:00": "festivo su Roma",
-            "14:00-15:00": "festivo su Roma",
-            "15:00-16:00": "festivo su Roma",
-            "16:00-17:00": "festivo su Roma",
-            "17:00-18:00": "festivo su Roma",
-            "18:00-19:00": "festivo su Roma",
-            "19:00-07:30": "festivo su Roma",
-            "07:30-20:00": "festivo su Roma"
-        },
-        "tuesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
+            "09:00-10:00": "Esame di Formal Methods for AI-based Systems Engineering.",
+            "10:00-11:00": "Esame di Formal Methods for AI-based Systems Engineering.",
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
@@ -28,43 +13,54 @@
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
-            "19:00-07:30": "",
-            "07:30-20:00": ""
+            "19:00-19:30": ""
+        },
+        "tuesday": {
+            "08:00-09:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "09:00-10:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "10:00-11:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "11:00-12:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "12:00-13:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "13:00-14:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "14:00-15:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "15:00-16:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "16:00-17:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "17:00-18:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "18:00-19:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "19:00-19:30": ""
         },
         "wednesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
+            "09:00-10:00": "Esame di Formal Methods for AI-based Systems Engineering",
+            "10:00-11:00": "Esame di Formal Methods for AI-based Systems Engineering",
+            "11:00-12:00": "Organizzazione e Gestione per lo Start-Up Aziendale\tSmeriglio Michelangelo",
+            "12:00-13:00": "Organizzazione e Gestione per lo Start-Up Aziendale\tSmeriglio Michelangelo",
+            "13:00-14:00": "Organizzazione e Gestione per lo Start-Up Aziendale\tSmeriglio Michelangelo",
             "14:00-15:00": "",
             "15:00-16:00": "",
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
-            "19:00-07:30": "",
-            "07:30-20:00": ""
+            "19:00-19:30": ""
         },
         "thursday": {
-            "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
-            "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "Esame Blockchain and DLT",
-            "16:00-17:00": "Esame Blockchain and DLT",
-            "17:00-18:00": "Esame Blockchain and DLT",
-            "18:00-19:00": "",
-            "19:00-07:30": "",
-            "07:30-20:00": ""
+            "08:00-09:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "09:00-10:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "10:00-11:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "11:00-12:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "12:00-13:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "13:00-14:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "14:00-15:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "15:00-16:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "16:00-17:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "17:00-18:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "18:00-19:00": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini",
+            "19:00-19:30": "Esame di ammissione al Dottorato in Informatica - Prof Maurizio Mancini"
         },
         "friday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
-            "10:00-11:00": "",
+            "09:00-10:00": "Appello di QUANTUM COMPUTING\tBabbage\tZuliani Paolo",
+            "10:00-11:00": "Appello di QUANTUM COMPUTING\tBabbage\tZuliani Paolo",
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
@@ -73,8 +69,7 @@
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
-            "19:00-07:30": "",
-            "07:30-20:00": ""
+            "19:00-19:30": ""
         }
     }
 }
