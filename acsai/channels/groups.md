@@ -16,17 +16,17 @@ The main Telegram group is dedicated to general discussions regarding **ACSAI an
 
 ## Year groups
 
-### First Year
+### First Year (A.Y. 2026/2027)
 
-[![First Year Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://telegram.me/SapienzaACSAI) [![First Year WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/El5sFyWPJEKEnsR2J33eez)
+[![First Year A.Y. 2026/2027 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://telegram.me/SapienzaACSAI) [![First Year A.Y. 2026/2027 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/El5sFyWPJEKEnsR2J33eez)
 
-### Second Year
+### Second Year (A.Y. 2025/2026)
 
-[![Second Year Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+dSkOFM61kFtlMDdk) [![Second Year WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
+[![Second Year A.Y. 2025/2026 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+dSkOFM61kFtlMDdk) [![Second Year A.Y. 2025/2026 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
 
-### Third Year
+### Third Year (A.Y. 2024/2025)
 
-[![Third Year Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+TqbBK1MrzYs2ODNk) [![Third Year WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
+[![Third Year A.Y. 2024/2025 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+TqbBK1MrzYs2ODNk) [![Third Year A.Y. 2024/2025 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
 
 ## Teaching groups
 
