@@ -133,17 +133,15 @@ Per quanto riguarda i corsi opzionali interni, la loro divisione e scelta cambia
 
 #### Gruppo: Insegnamenti affini di completamento
 
-| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
-|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Organizzazione e Gestione per lo Start-Up Aziendale*| `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
-| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
-| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
-| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-| Sicurezza                                           | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
-| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-
-\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
+| Insegnamento                                         | Codice     | Semestre    |                Telegram                |
+|------------------------------------------------------|------------|-------------|:--------------------------------------:|
+| Interazione Uomo Macchina                            | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
+| Organizzazione e Gestione per lo Start-Up Aziendale  | `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
+| Gamification e Game Design                           | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
+| Programmazione per il Web                            | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
+| Verifica e Validazione di Sistemi Intelligenti       | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
+| Sicurezza                                            | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
+| Intelligenza Artificiale                             | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
 
 #### Gruppo: Ambiti specialistici
 
@@ -181,8 +179,6 @@ Per quanto riguarda i corsi opzionali interni, la loro divisione e scelta cambia
 | Sicurezza                                           | `1022268`  | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
 | Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
 | Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-
-\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
 
 {{% /tab %}}
 {{% /tabs %}}
