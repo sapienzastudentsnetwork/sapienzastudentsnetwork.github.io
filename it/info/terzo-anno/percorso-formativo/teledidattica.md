@@ -1,6 +1,7 @@
 ---
 title: "Informatica - teledidattica"
 weight: 3
+aliases: ["/info/terzo-anno/percorso-formativo/percorso-formativo-tele"]
 ---
 
 # Percorso Formativo

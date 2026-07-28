@@ -1,6 +1,7 @@
 ---
 title: "Informatica - in presenza"
 weight: 2
+aliases: ["/info/terzo-anno/percorso-formativo/percorso-formativo"]
 ---
 
 # Percorso Formativo
