@@ -56,8 +56,13 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 - [Inglese Livello B2](https://t.me/+clLwVwTLUHk3YzM0)
 - [Metodi Matematici per l'Informatica](https://t.me/+m_-WkFEmQzdmZDZk)
 
-[Vecchio ordinamento](https://t.me/addlist/OS2lMU_4FqMwMTU0)
+<details style="border: none; background: transparent; padding: 0; box-shadow: none; margin-top: 30px; margin-bottom: 32px; margin-left: 20px;">
+<summary style="font-size: 0.9em; opacity: 0.85; cursor: pointer; padding: 2px 0;"><b>Vecchio ordinamento</b></summary>
+
+[Entra in tutti](https://t.me/addlist/OS2lMU_4FqMwMTU0)
+
 - [Progettazione di Sistemi Digitali](https://t.me/+hr9OFwWWGCZhODU0)
+</details>
 
 #### Secondo Semestre
 
@@ -68,9 +73,14 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 - [Analisi Matematica II Modulo](https://t.me/+lnnFbmFQNNBjNGRk)
 - [Metodologie di Programmazione](https://t.me/+8iyKxeRgfXtmY2Y0)
 
-[Vecchio ordinamento](https://t.me/addlist/67z3BS7RlIFlYzM0)
+<details style="border: none; background: transparent; padding: 0; box-shadow: none; margin-top: 30px; margin-bottom: 32px; margin-left: 20px;">
+<summary style="font-size: 0.9em; opacity: 0.85; cursor: pointer; padding: 2px 0;"><b>Vecchio ordinamento</b></summary>
+
+[Entra in tutti](https://t.me/addlist/67z3BS7RlIFlYzM0)
+
 - [Architettura degli Elaboratori](https://t.me/+2PAqwS4raLY4N2U0)
 - [Lingua Inglese](https://t.me/+clLwVwTLUHk3YzM0)
+</details>
 
 ### Secondo Anno
 
@@ -83,12 +93,16 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 - [Basi di Dati](https://t.me/+eRVplF3Va3dlNDJk)
 - [Sistemi Operativi](https://t.me/+oF0ppISY8EFmOTZk)
 
-[Vecchio Ordinamento](https://t.me/addlist/yQxr6yhOkLozYTE0)
+<details style="border: none; background: transparent; padding: 0; box-shadow: none; margin-top: 30px; margin-bottom: 32px; margin-left: 20px;">
+<summary style="font-size: 0.9em; opacity: 0.85; cursor: pointer; padding: 2px 0;"><b>Vecchio ordinamento</b></summary>
+
+[Entra in tutti](https://t.me/addlist/yQxr6yhOkLozYTE0)
 
 - [Algebra](https://t.me/+798mXLThj_JmYTBk)
 - [Basi di Dati 1](https://t.me/+eRVplF3Va3dlNDJk)
 - [Calcolo delle Probabilità](https://t.me/+Dq6lPczRbJtmNmVk)
 - [Sistemi Operativi 1](https://t.me/+oF0ppISY8EFmOTZk)
+</details>
 
 #### Secondo Semestre
 
