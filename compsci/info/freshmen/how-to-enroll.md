@@ -54,7 +54,7 @@ You are also required to have knowledge of:
 - Operating systems;
 - Computability and complexity theory.
 
-## Assessment of academic knowledge
+## Assessment of personal knowledge
 
 Your preparation will be evaluated based on:
 
@@ -74,20 +74,19 @@ You must either provide valid certification or attend an **interview**, as deter
 
 ## Assessment of requirements and deadlines
 
-For the 2025/2026 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
+For the 2026/2027 academic year, you can submit your application and pay the €10 fee on Infostud by one of the following deadlines:
 
-- September 16, 2025 (only date available for non-EU candidates who request a student visa);
-- October 16, 2025;
-- November 18, 2025;
-- December 16, 2025;
-- January 15, 2026 (reserved for students graduating at Sapienza).
+- September 15, 2026 (only date available for non-EU candidates who request a student visa);
+- October 15, 2026;
+- November 17, 2026;
+- December 17, 2026;
+- January 14, 2027 (reserved for students graduating at Sapienza).
 
 Payment must be made via PagoPA using course code **33508**. More info regarding the enrolling payments are available at the [Infostud section](#infostud).
 
 ### Candidates from other Italian universities
 
-If you graduated from a university other than Sapienza, you must email the Didactic Committee at [commissionedidattica@di.uniroma1.it](mailto:commissionedidattica@di.uniroma1.it) by the same dates as those envisaged for the application
-for the assessment of entry requirements, including:
+If you graduated from a university other than Sapienza, you must email the Didactic Committee at [calamo@di.uniroma1.it](mailto:calamo@di.uniroma1.it) by the same dates as those envisaged for the application for the assessment of entry requirements, including:
 
 - A self-certification of your degree;
 - A list of exams with their scientific-disciplinary sectors (SSD);
@@ -97,8 +96,8 @@ for the assessment of entry requirements, including:
 
 You may still apply for assessment, but you must obtain your degree by:
 
-- December 20, 2025 if you are from another university;
-- January 24, 2026 if you are graduating from Sapienza.
+- December 19, 2026 if you are from another university;
+- January 23, 2027 if you are graduating from Sapienza.
 
 ## Candidates with a non-Italian qualification
 
