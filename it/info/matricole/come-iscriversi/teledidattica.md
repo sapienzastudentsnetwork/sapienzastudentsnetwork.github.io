@@ -8,7 +8,7 @@ aliases: ["/it/info/matricole/iscriversi-teledidattica"]
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
-Le informazioni qui riportate sono basate sul [**D.R. n. 1278/2026**](https://www.uniroma1.it/sites/default/files/field_file_allegati/14874_i_0.pdf). Si consiglia di controllare la [pagina del corso di studi](https://corsidilaurea.uniroma1.it/it/course/33504/apply) per verificare la presenza di eventuali avvisi o aggiornamenti.
+Le informazioni qui riportate sono basate sul [**D.R. n. 1278/2026**](https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/14874_i_0.pdf). Si consiglia di controllare la [pagina del corso di studi](https://corsidilaurea.uniroma1.it/it/course/33504/apply) per verificare la presenza di eventuali avvisi o aggiornamenti.
 {{% /hint %}}
 
 {{% hint info %}}
