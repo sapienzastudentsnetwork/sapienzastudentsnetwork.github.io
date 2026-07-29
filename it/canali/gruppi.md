@@ -19,10 +19,11 @@ In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsAp
 
 ### Secondo Anno (A.A. 2025/2026)
 
-|                                                                      Telegram                                                                      |                                                                               WhatsApp                                                                               |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [![Canale A-L](https://img.shields.io/badge/Canale_A--L-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+d48JCYoNsBVlN2Fk) | [![Canale A-L](https://img.shields.io/badge/Canale_A--L-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/ICg6ABiiufbAHEgbFKKW0t) |
-| [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+XYn7MpH2ja5jZGNk) | [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/BngqtXoZfs06wpq0cLofST) |
+|                                                                        Telegram                                                                         |                                                                               WhatsApp                                                                               |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   [![Canale A-L](https://img.shields.io/badge/Canale_A--L-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+d48JCYoNsBVlN2Fk)    | [![Canale A-L](https://img.shields.io/badge/Canale_A--L-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/ICg6ABiiufbAHEgbFKKW0t) |
+|   [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+XYn7MpH2ja5jZGNk)    | [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/BngqtXoZfs06wpq0cLofST) |
+| [![Teledidattica](https://img.shields.io/badge/Teledidattica-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+p_NLeLvBlkowYmI0) |                                                                                  -                                                                                   |
 
 ### Terzo Anno (A.A. 2024/2025)
 
@@ -75,7 +76,14 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 #### Primo Semestre
 
-[Entra in tutti](https://t.me/addlist/yQxr6yhOkLozYTE0)
+[Entra in tutti](https://t.me/addlist/IgD81uPoXnYwMGU0)
+
+- [Algoritmi 2](https://t.me/+qtCCTLlBW4pjY2Jk)
+- [Architettura degli Elaboratori 1](https://t.me/+hr9OFwWWGCZhODU0)
+- [Basi di Dati](https://t.me/+eRVplF3Va3dlNDJk)
+- [Sistemi Operativi](https://t.me/+oF0ppISY8EFmOTZk)
+
+[Vecchio Ordinamento](https://t.me/addlist/yQxr6yhOkLozYTE0)
 
 - [Algebra](https://t.me/+798mXLThj_JmYTBk)
 - [Basi di Dati 1](https://t.me/+eRVplF3Va3dlNDJk)
