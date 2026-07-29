@@ -226,6 +226,6 @@ Rinunciando all'iscrizione si perdono i requisiti per il soggiorno in Italia con
 | **Registrazione ad Infostud e pagamento contributo di € 10**                | Dal **2 luglio 2026** al **29 ottobre 2026**     | Codice prova Infostud: **14874**       |
 | **Pagamento 1ª rata immatricolazione (€800 + tassa reg. + €16 bollo)**      | Dal **1° settembre 2026** al **5 novembre 2026** | Codice corso Infostud: **33504**       |
 | **Presentazione domanda di passaggio da altro corso Sapienza**              | Entro il **5 novembre 2026**                     | Invio via email alle segreterie        |
-| **Presentazione domanda di trasferimento da altro Ateneo**                  | Entro **10 giorni** dal pagamento rata           | Previsto pagamento rata entro il 05/11 |
-| **Richiesta riconoscimento CFU per seconda laurea**                         | Entro **15 giorni** dal pagamento rata           | Previsto pagamento rata entro il 05/11 |
+| **Presentazione domanda di trasferimento da altro Ateneo**                  | Entro **10 giorni** dal pagamento rata           | -                                      |
+| **Richiesta riconoscimento CFU per seconda laurea**                         | Entro **15 giorni** dal pagamento rata           | -                                      |
 | **Compilazione 1ª finestra Piano di Studi 1° Anno**                         | Dal **1° ottobre** al **10 ottobre 2026**        | Scelta insegnamento Inglese B1/B2      |
