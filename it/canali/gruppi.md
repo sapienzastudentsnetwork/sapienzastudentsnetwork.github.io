@@ -7,15 +7,29 @@ weight: 1
 
 In questa pagina puoi trovare i link ai **gruppi Telegram** e i **gruppi WhatsApp** per le Lauree Triennali in **Informatica** (33503 / 29923) e **Informatica - erogato in modalità prevalentemente a distanza** (33504 / 29400)
 
-## Gruppi matricole
+## Gruppi per anno
 
-Gruppi **del Primo Anno** (matricole A.A. 2025/2026):
+### Primo Anno (matricole A.A. 2026/2027)
 
-|                        Telegram                        |                            WhatsApp                            |
-|:------------------------------------------------------:|:--------------------------------------------------------------:|
-|  [Canale A-L](https://t.me/addlist/ndfNiRzIyQ85MmNk)   | [Canale A-L](https://chat.whatsapp.com/KS2J9kiURoH250s2JPnZbM) |
-|  [Canale M-Z](https://t.me/addlist/SRYO6cWOAIcwOGY0)   | [Canale M-Z](https://chat.whatsapp.com/DFhEH3F2KR4DZI5yYZKpPN) |
-| [Teledidattica](https://t.me/addlist/NXcZMBVx1BNkODVk) |                               -                                |
+|                                                                            Telegram                                                                            |                                                                               WhatsApp                                                                               |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|   [![Canale A-L](https://img.shields.io/badge/Canale_A--L-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/addlist/ndfNiRzIyQ85MmNk)    | [![Canale A-L](https://img.shields.io/badge/Canale_A--L-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/KS2J9kiURoH250s2JPnZbM) |
+|   [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/addlist/SRYO6cWOAIcwOGY0)    | [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/DFhEH3F2KR4DZI5yYZKpPN) |
+| [![Teledidattica](https://img.shields.io/badge/Teledidattica-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/addlist/NXcZMBVx1BNkODVk) |                                                                                  -                                                                                   |
+
+### Secondo Anno (A.A. 2025/2026)
+
+|                                                                      Telegram                                                                      |                                                                               WhatsApp                                                                               |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [![Canale A-L](https://img.shields.io/badge/Canale_A--L-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+d48JCYoNsBVlN2Fk) | [![Canale A-L](https://img.shields.io/badge/Canale_A--L-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/ICg6ABiiufbAHEgbFKKW0t) |
+| [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+XYn7MpH2ja5jZGNk) | [![Canale M-Z](https://img.shields.io/badge/Canale_M--Z-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/BngqtXoZfs06wpq0cLofST) |
+
+### Terzo Anno (A.A. 2024/2025)
+
+|                                                                        Telegram                                                                         |                                                                            WhatsApp                                                                             |
+|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|      [![Presenza](https://img.shields.io/badge/Presenza-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+u6hEDMJqXsNhZjk0)      | [![Presenza](https://img.shields.io/badge/Presenza-128C7E?style=for-the-badge&logo=WhatsApp&logoColor=white)](https://chat.whatsapp.com/KtmbMv22oLB8nvPYUxEaMy) |
+| [![Teledidattica](https://img.shields.io/badge/Teledidattica-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+KzntdBCkIgk1ZTE0) |                                                                                -                                                                                |
 
 ## Gruppi generali
 
@@ -23,8 +37,8 @@ I gruppi generali su Telegram riuniscono **tutti** gli studenti e le studentesse
 
 - [Affitti](https://t.me/SapienzaAffittiGroup) (❕non gestito da studenti)
 - [Birra e politica](https://t.me/sapienzapolitica) (OffTopic group)
-- [CdL in Informatica in presenza (29923)](https://t.me/+zj6QEcHwZU82M2Y0)
-- [CdL in Informatica in teledidattica (29400)](https://t.me/+ly5tVN1h3yZmNDdk)
+- [CdL in Informatica in presenza](https://t.me/+zj6QEcHwZU82M2Y0)
+- [CdL in Informatica in teledidattica](https://t.me/+ly5tVN1h3yZmNDdk)
 - [Discussioni generali sull'ateneo](https://t.me/sapienzadiscussioni)
 - [Sapienza GNU/Linux community](https://t.me/+r-InQzG0ctkwNjNk)
 
@@ -83,11 +97,11 @@ Il terzo anno è a **canale unificato** anziché diviso in due canali e molti in
 
 #### Insegnamenti obbligatori
 
-- Per il **corso in presenza** (29923) è disponibile un [gruppo unico](https://t.me/+u6hEDMJqXsNhZjk0) per i due insegnamenti obbligatori del Terzo Anno
+- Per il **corso in presenza** (29923 / 33503) è disponibile un [gruppo unico](https://t.me/+u6hEDMJqXsNhZjk0) per i due insegnamenti obbligatori del Terzo Anno
 
-- Per il **corso in teledidattica** (29400) sono disponibili due gruppi separati:
-    - [Automi, Calcolabilità e Complessità](https://t.me/+cyF-V6dnurcyNGQ0)
-    - [Ingegneria del Software](https://t.me/+ziirbiKQi2g5ZjU0)
+- Per il **corso erogato in modalità prevalentemente a distanza** (29400 / 33504) sono disponibili due gruppi separati:
+  - [Automi, Calcolabilità e Complessità](https://t.me/+cyF-V6dnurcyNGQ0)
+  - [Ingegneria del Software](https://t.me/+ziirbiKQi2g5ZjU0)
 
 #### Insegnamenti a scelta
 
@@ -107,7 +121,7 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [Fisica](https://t.me/+-ZO2tsF0w8YyNDE8)
 - [Interazione Uomo Macchina](https://t.me/+HPJydQNfbJRmM2Y8)
 - [Linguaggi di Programmazione](https://t.me/+YNWScBhdFWE1NWNk)
-- [Organizzazione e Gestione per lo Start-Up Aziendale (OGA)*](https://t.me/+TW9IFCi061Q0Nzk8)
+- [Organizzazione e Gestione per lo Start-Up Aziendale (OGA)](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Programmazione di Sistemi Embedded e Multicore](https://t.me/+vrv-7-gEDINhMzZk)
 - [Programmazione per il Web / [ACSAI] WASA](https://t.me/+TopZxkqZSSo2MzQ0)
 - [[ACSAI] Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
@@ -120,7 +134,6 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [Linguaggi e Compilatori](https://t.me/+EOvDZsXSLI0zZGRk)
 - [Matematica Discreta](https://t.me/+9gj83CXWj6MxZTM8)
 - [Modelli e Ottimizzazione / [ACSAI] Optimization](https://t.me/+nx7dseifrswzNGU6)
-- [Organizzazione e Gestione per lo Start-Up Aziendale (OGA)*](https://t.me/+TW9IFCi061Q0Nzk8)
 - [Sicurezza](https://t.me/+WfOOX_dUtBJkZmVk)
 - [Tecniche di Programmazione Funzionale e Imperativa](https://t.me/+X7XCdT3tfA83OTVk)
 - [Verifica e Validazione di Sistemi Intelligenti](https://t.me/+D1TVbwQqf8kxZjRk)
@@ -128,5 +141,3 @@ Per altri corsi di laurea, sono disponibili ulteriori gruppi nel bot Telegram [S
 - [[ACSAI] Human Computer Interaction](https://t.me/+vKK_-l_aqoJjMmQ0)
 - [[ACSAI] Law and Computer Science](https://t.me/+Mvi6pA7Mlc4xNDU0)
 - [[Teledidattica] Gamification e Game Design](https://t.me/+CnCSKOzEdU05ODE0)
-
-\* _Nell'A.A. 2025/26, l'insegnamento di Organizzazione e Gestione per lo Start-up Aziendale verrà erogato al primo semestre (Prof. Michelangelo Smeriglio) per il corso di laurea erogato a distanza ("Teledidattica") e al secondo semestre per il corso di laurea in presenza (Prof. Mauro Gatti)._
