@@ -36,7 +36,7 @@ Per affrontare con successo il percorso di studio sono necessarie le conoscenze 
 
 L'immatricolazione al Corso di Laurea in Informatica è subordinata al superamento di una prova di ammissione.
 
-Le modalità di iscrizione, di svolgimento e di valutazione della prova sono definite dal bando relativo alle modalità di ammissione al corso di laurea in Informatica, pubblicato dalla Sapienza e consultabile all'indirizzo: https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni
+Le modalità di iscrizione, di svolgimento e di valutazione della prova sono definite dal bando relativo alle modalità di ammissione al corso di laurea in Informatica, pubblicato dalla Sapienza e consultabile all'indirizzo: https://www.uniroma1.it/it/node/40540
 
 Gli studenti in possesso di altra laurea o diploma universitario possono essere ammessi, senza sostenere la prova, compatibilmente alla disponibilità di posti, oppure sostenere la prova senza fare valere titoli precedenti.
 

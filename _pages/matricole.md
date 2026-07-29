@@ -15,7 +15,7 @@ Informazioni utili per le matricole
 
 ## Informazioni al volo
 
-- [Pagina per le graduatorie](https://www.uniroma1.it/it/pagina/corsi-ad-accesso-programmato-con-tolc-i-e-selezioni)
+- [Pagina per le graduatorie](https://www.uniroma1.it/it/node/40540)
 - [Bando per l'iscrizione](https://www.uniroma1.it/sites/default/files/field_file_allegati/14616_ingegnerie_tolcap_2023_2024_0.pdf)
 - [Gruppi chat e server Discord](./gruppi)
 - [Pagina "frequentare" del corso](https://corsidilaurea.uniroma1.it/it/corso/2023/29923/programmazione?guid_cv)
