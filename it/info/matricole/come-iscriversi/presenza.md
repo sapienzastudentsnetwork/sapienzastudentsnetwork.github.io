@@ -1,6 +1,7 @@
 ---
-title: Come iscriversi
-aliases: ["/it/info/matricole/iscriversi"]
+title: Informatica - in presenza
+aliases: ["/info/matricole/iscriversi"]
+weight: 1
 ---
 
 # Iscrizione al CdL in Informatica
@@ -17,7 +18,7 @@ Le informazioni qui riportate sono basate sul [**D.R. n. 690/2026**](https://www
 È disponibile una [chat Telegram](/it/canali/gruppi/), gestita tra studentesse e studenti del corso di laurea, dove puoi trovare supporto in caso di problemi o maggiori informazioni.
 {{% /hint %}}
 
-L'iscrizione al Corso di Laurea in Informatica segue una serie di passaggi fondamentali:
+L'iscrizione al Corso di Laurea in Informatica (Classe L-31, Codice `33503`) segue una serie di passaggi fondamentali:
 1. [Sostenere il test di ingresso TOLC-I](#sostenere-il-test-di-ingresso-tolc-i)
 2. [Registrarsi ad Infostud](#registrarsi-ad-infostud)
 3. [Pagare il contributo di €10](#pagamento-del-contributo-di-10)
