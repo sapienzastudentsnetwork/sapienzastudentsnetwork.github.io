@@ -1,12 +1,26 @@
 {{ define "main" }}
     {{ $timetable := index site.Data (printf "timetables_classrooms_%s" .Params.classroom) }}
 
-    <h2>Classroom {{ .Params.classroom }}</h2>
+    <h2>
+        {{ if or (eq .Params.classroom "T1") (eq .Params.classroom "S1") }}
+            Room
+        {{ else if or (eq .Params.classroom "Colossus") (eq .Params.classroom "HAL9000") }}
+            Lab.
+        {{ else }}
+            Classroom
+        {{ end }} {{ .Params.classroom }}
+    </h2>
 
     <blockquote class="book-hint info" style="border-color: #6bf; background-color: rgba(102, 187, 255, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #6bf; border-radius: .25rem;">
-        <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
-        <p>The classroom is on the <strong>{{ .Params.floor }}</strong> of <strong>Building E</strong> in the Viale Regina Elena complex, accessible from <a href="https://www.google.com/maps/place/Viale+Regina+Elena,+295,+00161+Roma+RM">Viale Regina Elena, 295</a>, or <a href="https://www.google.com/maps/place/Via+del+Castro+Laurenziano,+6,+00161+Roma+RM">Via del Castro Laurenziano, 6</a>.</p>
-        <br/>
+        {{ if or (eq .Params.classroom "T1") (eq .Params.classroom "S1") }}
+            <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
+            <p>The classroom is on the <strong>{{ .Params.floor }}</strong> of <strong>Building E</strong> in the Viale Regina Elena complex, accessible from <a href="https://www.google.com/maps/place/Viale+Regina+Elena,+295,+00161+Roma+RM">Viale Regina Elena, 295</a>, or <a href="https://www.google.com/maps/place/Via+del+Castro+Laurenziano,+6,+00161+Roma+RM">Via del Castro Laurenziano, 6</a>.</p>
+            <br/>
+        {{ else if or (eq .Params.classroom "Colossus") (eq .Params.classroom "HAL9000") }}
+            <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
+            <p>The laboratory is on the <strong>{{ .Params.floor }}</strong> of the <a href="https://www.google.com/maps/place/Via+Salaria,+113,+00198+Roma+RM">Via Salaria, 113</a> complex.</p>
+            <br/>
+        {{ end }}
         <i class="fa-solid fa-chair" style="color: #74C0FC;"></i> <strong>Capacity</strong>
         <p>The classroom has a stated capacity of <strong>{{ .Params.seats }}</strong> seats.</p>
     </blockquote>
