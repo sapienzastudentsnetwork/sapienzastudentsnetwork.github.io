@@ -269,6 +269,150 @@
     },
     "code": "1044415"
   },
+  "1047616": {
+    "subject": "COMPUTATIONAL COMPLEXITY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "33d2504d767f677ee6070d9f0ce6ef7065464613b94d701aff37706e": "LAURIA MASSIMO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "33d2504d767f677ee6070d9f0ce6ef7065464613b94d701aff37706e": "LAURIA MASSIMO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047616"
+  },
+  "1047617": {
+    "subject": "COMPUTER NETWORK PERFORMANCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "fbe3938b0e1589813248bf7b34f7e7162627e8dcd0a57d18a9ac7ab6": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "fbe3938b0e1589813248bf7b34f7e7162627e8dcd0a57d18a9ac7ab6": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047617"
+  },
+  "1047638": {
+    "subject": "MODELS OF COMPUTATION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1d392b437964acb80534d84b84be20957804098a0842162d88461b32": "PIPERNO ADOLFO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1d392b437964acb80534d84b84be20957804098a0842162d88461b32": "PIPERNO ADOLFO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047638"
+  },
+  "1047640": {
+    "subject": "NETWORK ALGORITHMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "8353250b517d80413abcb5ed6e7c1b3644cfdda01f2c4f67324cf0be": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8353250b517d80413abcb5ed6e7c1b3644cfdda01f2c4f67324cf0be": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047640"
+  },
+  "1055061": {
+    "subject": "SECURITY GOVERNANCE",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1055061"
+  },
   "10593235": {
     "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
     "degree": "33503",
@@ -300,6 +444,37 @@
     },
     "code": "10593235"
   },
+  "10596281": {
+    "subject": "AUTONOMOUS NETWORKING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10596281"
+  },
   "10600449": {
     "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
     "degree": "33516",
@@ -330,6 +505,37 @@
       }
     },
     "code": "10600449"
+  },
+  "10600495": {
+    "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600495"
   },
   "10606972": {
     "subject": "DATA SCIENCE E DIRITTO",
@@ -389,6 +595,68 @@
     },
     "code": "10616549"
   },
+  "10620565": {
+    "subject": "QUANTUM COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10620565"
+  },
+  "10621403": {
+    "subject": "SECURITY AND PRIVACY OF SMART ENVIRONMENTS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621403"
+  },
   "10626055": {
     "subject": "DISTRIBUTED SYSTEMS",
     "degree": "33516",
@@ -408,6 +676,254 @@
       }
     },
     "code": "10626055"
+  },
+  "10626968": {
+    "subject": "BIOMETRIC SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "65816d4db3c3490a6f9ebd8ceed2d87fead474a980f41016a6d61e8e": "DE MARSICO MARIA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "65816d4db3c3490a6f9ebd8ceed2d87fead474a980f41016a6d61e8e": "DE MARSICO MARIA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10626968"
+  },
+  "10627173": {
+    "subject": "MODELS OF COMPUTATION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "1d392b437964acb80534d84b84be20957804098a0842162d88461b32": "PIPERNO ADOLFO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1d392b437964acb80534d84b84be20957804098a0842162d88461b32": "PIPERNO ADOLFO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10627173"
+  },
+  "10627472": {
+    "subject": "QUANTUM COMPUTING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10627472"
+  },
+  "10627537": {
+    "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10627537"
+  },
+  "10627582": {
+    "subject": "COMPUTATIONAL COMPLEXITY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "33d2504d767f677ee6070d9f0ce6ef7065464613b94d701aff37706e": "LAURIA MASSIMO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "33d2504d767f677ee6070d9f0ce6ef7065464613b94d701aff37706e": "LAURIA MASSIMO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10627582"
+  },
+  "10628280": {
+    "subject": "NETWORK ALGORITHMS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "8353250b517d80413abcb5ed6e7c1b3644cfdda01f2c4f67324cf0be": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "8353250b517d80413abcb5ed6e7c1b3644cfdda01f2c4f67324cf0be": "CALAMONERI TIZIANA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10628280"
+  },
+  "10628736": {
+    "subject": "AUTONOMOUS NETWORKING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10628736"
+  },
+  "10630015": {
+    "subject": "COMPUTER NETWORK PERFORMANCE",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "fbe3938b0e1589813248bf7b34f7e7162627e8dcd0a57d18a9ac7ab6": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "fbe3938b0e1589813248bf7b34f7e7162627e8dcd0a57d18a9ac7ab6": "BARTOLINI NOVELLA"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10630015"
   },
   "97597": {
     "subject": "FISICA",

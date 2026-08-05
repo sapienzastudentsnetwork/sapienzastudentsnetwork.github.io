@@ -1,0 +1,337 @@
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM115",
+            "course": "10626968",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "BIOMETRIC SYSTEMS",
+            "teachers": [
+              "DE MARSICO MARIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10627173",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "MODELS OF COMPUTATION",
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10627472",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "QUANTUM COMPUTING",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10627537",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10627582",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "COMPUTATIONAL COMPLEXITY",
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10628280",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "NETWORK ALGORITHMS",
+            "teachers": [
+              "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10628736",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10630015",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "COMPUTER NETWORK PERFORMANCE",
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM115",
+            "course": "1047616",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "COMPUTATIONAL COMPLEXITY",
+            "teachers": [
+              "LAURIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047617",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "COMPUTER NETWORK PERFORMANCE",
+            "teachers": [
+              "BARTOLINI NOVELLA"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "1047638",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "MODELS OF COMPUTATION",
+            "teachers": [
+              "PIPERNO ADOLFO"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "1047640",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "NETWORK ALGORITHMS",
+            "teachers": [
+              "CALAMONERI TIZIANA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10596281",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTONOMOUS NETWORKING",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM115",
+            "course": "10600495",
+            "room": "Aula G50",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
+            "teachers": [
+              "TRONCI ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM113",
+            "course": "10620565",
+            "room": "Aula T1 ",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "14:00",
+                "to": "17:00"
+              }
+            ],
+            "subject": "QUANTUM COMPUTING",
+            "teachers": [
+              "ZULIANI PAOLO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
+  }
+]
