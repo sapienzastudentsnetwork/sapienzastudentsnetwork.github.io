@@ -1,1 +1,443 @@
-{}
+{
+  "1020422_2": {
+    "subject": "SISTEMI OPERATIVI II MODULO",
+    "degree": "33503",
+    "channels": {
+      "1": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ]
+      },
+      "2": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1020422"
+  },
+  "1021828": {
+    "subject": "MATEMATICA DISCRETA",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1021828"
+  },
+  "1022263": {
+    "subject": "INTERAZIONE UOMO MACCHINA",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1022263"
+  },
+  "1022264": {
+    "subject": "LINGUAGGI DI PROGRAMMAZIONE",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d78c07674587ddd7ce68859a88057950c43c4a764b11412a1ccee5da": "CENCIARELLI PIETRO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d78c07674587ddd7ce68859a88057950c43c4a764b11412a1ccee5da": "CENCIARELLI PIETRO"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1022264"
+  },
+  "1022267": {
+    "subject": "PROGRAMMAZIONE PER IL WEB",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1022267"
+  },
+  "1022301": {
+    "subject": "INGEGNERIA DEL SOFTWARE",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
+            },
+            "timeslot": "16 - 18",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1022301"
+  },
+  "1041727": {
+    "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1041727"
+  },
+  "1044415": {
+    "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "46396e48252043a0ba97dd0a92412fafa7be4b4138f42951943ae1d9": "BERALDI ROBERTO"
+            },
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "46396e48252043a0ba97dd0a92412fafa7be4b4138f42951943ae1d9": "BERALDI ROBERTO"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1044415"
+  },
+  "10593235": {
+    "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10593235"
+  },
+  "10600449": {
+    "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "6ff4ba2e4c4d78e9d49b44c20727bab8ef65534ccde90e97df0d6422": "LAZZERETTI RICCARDO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10600449"
+  },
+  "10606972": {
+    "subject": "DATA SCIENCE E DIRITTO",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10606972"
+  },
+  "10616549": {
+    "subject": "ADVANCED CRYPTOGRAPHY",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 Via Ariosto, 25"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "a1e9700ddc085d2684fc2c1cda6496b4b18e59d00f333ec058d5a7b8": "VISCONTI IVAN"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10616549"
+  },
+  "10626055": {
+    "subject": "DISTRIBUTED SYSTEMS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "4c66b6b5b325da811da1984148bb74f364dc5f95c3aee7f43b08d8b3": "DI LUNA GIUSEPPE ANTONIO"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10626055"
+  },
+  "97597": {
+    "subject": "FISICA",
+    "degree": "33503",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "c0e06d16ba5f3e0661337506aaf59f180e1081067c990ead60b50014": "GERMANO MASSIMO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "c0e06d16ba5f3e0661337506aaf59f180e1081067c990ead60b50014": "GERMANO MASSIMO"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "97597"
+  }
+}
