@@ -494,6 +494,17 @@
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
         ]
       }
     },

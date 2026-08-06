@@ -187,6 +187,11 @@
                 "day": "marted\u00ec",
                 "from": "10:00",
                 "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "12:00"
               }
             ],
             "subject": "SECURITY GOVERNANCE",
