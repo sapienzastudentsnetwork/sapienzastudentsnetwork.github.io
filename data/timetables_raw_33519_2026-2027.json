@@ -1,0 +1,98 @@
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM112",
+            "course": "10628014",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "10631198",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM102",
+            "course": "1044406",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS",
+              "BECCHETTI LUCA"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "1044406",
+            "room": "Aula A6",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "ANAGNOSTOPOULOS ARISTIDIS",
+              "BECCHETTI LUCA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
+  }
+]

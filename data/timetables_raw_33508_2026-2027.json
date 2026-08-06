@@ -110,6 +110,22 @@
             ]
           },
           {
+            "building": "Edificio: RM112",
+            "course": "10628018",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10628280",
             "room": "Aula G50",
@@ -171,6 +187,27 @@
             "teachers": [
               "BARTOLINI NOVELLA"
             ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "10630016",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
           }
         ]
       }
@@ -222,6 +259,43 @@
             "subject": "COMPUTER NETWORK PERFORMANCE",
             "teachers": [
               "BARTOLINI NOVELLA"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047622",
+            "room": "AULA 101",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "CRYPTOGRAPHY",
+            "teachers": [
+              "VENTURI DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM112",
+            "course": "1047624",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
             ]
           },
           {
