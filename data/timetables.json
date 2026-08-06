@@ -1222,6 +1222,26 @@
     },
     "code": "10628280"
   },
+  "10628637": {
+    "subject": "STATISTICS",
+    "degree": "33516",
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "c576aff061883e7e1abb092f4808c36b9118a21d065cd74ce854b703": "GASTALDI TOMMASO"
+            },
+            "timeslot": "14 - 20",
+            "classrooms": {
+              "eafd6b97-1f1b-4e4d-85b7-a9c2b8d26ba7": "Aula informatica XI (Edificio: CU007)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10628637"
+  },
   "10628736": {
     "subject": "AUTONOMOUS NETWORKING",
     "degree": "33508",

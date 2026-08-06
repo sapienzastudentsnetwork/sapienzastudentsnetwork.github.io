@@ -253,5 +253,10 @@
     "description": "Aula 1 - Antonio Ruberti - S. Pietro in Vincoli - Edificio principale",
     "address": "Via Eudossiana, 18",
     "mapsUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+  },
+  "eafd6b97-1f1b-4e4d-85b7-a9c2b8d26ba7": {
+    "description": "Aula informatica XI - ex tipografia Tumminelli",
+    "address": null,
+    "mapsUrl": null
   }
 }

@@ -106,6 +106,22 @@
             ]
           },
           {
+            "building": "Edificio: CU007",
+            "course": "10628637",
+            "room": "Aula informatica XI",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "14:00",
+                "to": "20:00"
+              }
+            ],
+            "subject": "STATISTICS",
+            "teachers": [
+              "GASTALDI TOMMASO"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10630016",
             "room": "AULA 101",
