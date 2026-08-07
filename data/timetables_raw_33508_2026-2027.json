@@ -5,6 +5,44 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "10625773",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "10626358",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              ""
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10626968",
             "room": "Aula G50",
@@ -68,6 +106,38 @@
             ]
           },
           {
+            "building": "Edificio: RM005",
+            "course": "10627535",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10627535",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10627537",
             "room": "Aula G50",
@@ -86,6 +156,38 @@
             "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
             "teachers": [
               "TRONCI ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10627562",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10627562",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
             ]
           },
           {
@@ -110,6 +212,27 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "10628017",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              ""
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10628018",
             "room": "AULA 201",
@@ -118,6 +241,22 @@
                 "day": "marted\u00ec",
                 "from": "13:00",
                 "to": "16:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "10628018",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
@@ -165,6 +304,27 @@
             "subject": "AUTONOMOUS NETWORKING",
             "teachers": [
               "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10629525",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "HIGH-PERFORMANCE COMPUTING",
+            "teachers": [
+              "PONTARELLI SALVATORE"
             ]
           },
           {
@@ -220,6 +380,38 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "1041764",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1041764",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "BIG DATA COMPUTING",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "1047616",
             "room": "Aula G50",
@@ -262,6 +454,27 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "1047618",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "COMPUTER VISION",
+            "teachers": [
+              " "
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "1047622",
             "room": "AULA 101",
@@ -291,6 +504,22 @@
                 "day": "marted\u00ec",
                 "from": "13:00",
                 "to": "16:00"
+              }
+            ],
+            "subject": "DISTRIBUTED SYSTEMS",
+            "teachers": [
+              "MEI ALESSANDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "1047624",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
               }
             ],
             "subject": "DISTRIBUTED SYSTEMS",
@@ -341,6 +570,22 @@
             ]
           },
           {
+            "building": "Edificio: RM005",
+            "course": "1047642",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+            "teachers": [
+              " "
+            ]
+          },
+          {
             "building": "Edificio: RM115",
             "course": "10596281",
             "room": "Aula G50",
@@ -359,6 +604,38 @@
             "subject": "AUTONOMOUS NETWORKING",
             "teachers": [
               "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM005",
+            "course": "10600490",
+            "room": "Aula 11",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10600490",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
+            "teachers": [
+              "LA MORGIA MASSIMO"
             ]
           },
           {
@@ -401,6 +678,28 @@
             "subject": "QUANTUM COMPUTING",
             "teachers": [
               "ZULIANI PAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10620566",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "HIGH-PERFORMANCE COMPUTING",
+            "teachers": [
+              "PONTARELLI SALVATORE",
+              "DE SENSI DANIELE"
             ]
           }
         ]

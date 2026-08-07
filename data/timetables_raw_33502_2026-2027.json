@@ -5,6 +5,69 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "10595530",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
+            "teachers": [
+              "GORLA DANIELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10595531",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "DEEP LEARNING",
+            "teachers": [
+              "SPINELLI INDRO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10595532",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "CYBERSECURITY",
+            "teachers": [
+              "SPOGNARDI ANGELO"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10595534",
             "room": "AULA 201",
@@ -13,6 +76,22 @@
                 "day": "luned\u00ec",
                 "from": "14:00",
                 "to": "16:00"
+              }
+            ],
+            "subject": "WEB AND SOFTWARE ARCHITECTURE",
+            "teachers": [
+              "PANIZZI EMANUELE"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10595534",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               }
             ],
             "subject": "WEB AND SOFTWARE ARCHITECTURE",

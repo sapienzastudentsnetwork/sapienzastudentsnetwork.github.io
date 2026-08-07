@@ -5,6 +5,22 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "10628014",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              ""
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10628014",
             "room": "AULA 101",
@@ -21,6 +37,27 @@
             ]
           },
           {
+            "building": "Edificio: RM018",
+            "course": "10629400",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "Fundamentals of Data Science",
+            "teachers": [
+              "CINELLI MATTEO"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10631198",
             "room": "AULA 101",
@@ -29,6 +66,22 @@
                 "day": "mercoled\u00ec",
                 "from": "13:00",
                 "to": "16:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "10631198",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
               }
             ],
             "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
