@@ -28,7 +28,7 @@ timetables:
       - '10589555' # PRACTICAL NETWORK DEFENSE
       - '1047643'  # TOPICS IN PHYSICS
 bookToc: false
-bookHidden: false
+bookHidden: true
 ---
 
 Check out the lesson timetable for the second semester of Computer Science

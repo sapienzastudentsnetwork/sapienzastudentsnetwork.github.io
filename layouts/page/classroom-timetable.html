@@ -11,6 +11,12 @@
         {{ end }} {{ .Params.classroom }}
     </h2>
 
+    {{ if or (eq .Params.classroom "T1") (eq .Params.classroom "S1") }}
+        {{ partial "room-summer-closure.html" "building-e" }}
+    {{ else if or (eq .Params.classroom "Colossus") (eq .Params.classroom "HAL9000") }}
+        {{ partial "room-summer-closure.html" "salaria-labs" }}
+    {{ end }}
+
     <blockquote class="book-hint info" style="border-color: #6bf; background-color: rgba(102, 187, 255, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #6bf; border-radius: .25rem;">
         {{ if or (eq .Params.classroom "T1") (eq .Params.classroom "S1") }}
             <i class="fa-solid fa-location-pin" style="color: #74C0FC;"></i> <strong>Location</strong>
