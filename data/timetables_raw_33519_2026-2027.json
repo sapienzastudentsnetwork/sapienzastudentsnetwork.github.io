@@ -58,22 +58,6 @@
             ]
           },
           {
-            "building": "Edificio: RM112",
-            "course": "10631198",
-            "room": "AULA 101",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "13:00",
-                "to": "16:00"
-              }
-            ],
-            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
-            "teachers": [
-              "BRUTTI PIERPAOLO"
-            ]
-          },
-          {
             "building": "Edificio: RM018",
             "course": "10631198",
             "room": "Aula 2",

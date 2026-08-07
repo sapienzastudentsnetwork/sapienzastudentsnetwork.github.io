@@ -5,22 +5,6 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM112",
-            "course": "10626055",
-            "room": "AULA 201",
-            "schedule": [
-              {
-                "day": "luned\u00ec",
-                "from": "16:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "DISTRIBUTED SYSTEMS",
-            "teachers": [
-              "DI LUNA GIUSEPPE ANTONIO"
-            ]
-          },
-          {
             "building": "Edificio: RM111",
             "course": "10626055",
             "room": "Aula Magna",
@@ -45,22 +29,6 @@
                 "day": "luned\u00ec",
                 "from": "10:00",
                 "to": "12:00"
-              }
-            ],
-            "subject": "NETWORK INFRASTRUCTURES",
-            "teachers": [
-              "POLVERINI MARCO"
-            ]
-          },
-          {
-            "building": "Edificio: RM112",
-            "course": "10626272",
-            "room": "AULA 101",
-            "schedule": [
-              {
-                "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "11:00"
               }
             ],
             "subject": "NETWORK INFRASTRUCTURES",
@@ -158,11 +126,6 @@
             "course": "10630016",
             "room": "AULA 101",
             "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              },
               {
                 "day": "venerd\u00ec",
                 "from": "11:00",

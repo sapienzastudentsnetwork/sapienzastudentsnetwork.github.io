@@ -354,11 +354,6 @@
             "room": "AULA 101",
             "schedule": [
               {
-                "day": "marted\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              },
-              {
                 "day": "venerd\u00ec",
                 "from": "11:00",
                 "to": "13:00"
@@ -479,11 +474,6 @@
             "course": "1047622",
             "room": "AULA 101",
             "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              },
               {
                 "day": "venerd\u00ec",
                 "from": "11:00",

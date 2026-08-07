@@ -475,17 +475,6 @@
     "degree": "33516",
     "channels": {
       "0": {
-        "marted\u00ec": [
-          {
-            "teachers": {
-              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-            },
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -1375,17 +1364,6 @@
     "degree": "33516",
     "channels": {
       "0": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "4c66b6b5b325da811da1984148bb74f364dc5f95c3aee7f43b08d8b3": "DI LUNA GIUSEPPE ANTONIO"
-            },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
-            }
-          }
-        ],
         "mercoled\u00ec": [
           {
             "teachers": {
@@ -1414,17 +1392,6 @@
             "timeslot": "10 - 12",
             "classrooms": {
               "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "0c78e43351e850cb2be8beabcae820c350058cdc7b29a4c5dc52666b": "POLVERINI MARCO"
-            },
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
             }
           }
         ]
@@ -2030,17 +1997,6 @@
     "degree": "33508",
     "channels": {
       "0": {
-        "marted\u00ec": [
-          {
-            "teachers": {
-              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-            },
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -2081,17 +2037,6 @@
     "degree": "33519",
     "channels": {
       "0": {
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "1b749331b4241719b72be3d21a0c920aaf4ee73f0afd73647a1f295b": "BRUTTI PIERPAOLO"
-            },
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teachers": {
