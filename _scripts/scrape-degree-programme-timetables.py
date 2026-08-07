@@ -144,8 +144,8 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
 
     # Hard-coded list of (course_code, channel, teacher_name) erroneous combinations to be ignored
     ignore_conditions = [
-        # ("1015883", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 1015883 on channel 1
-        # ("10621297", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
+        # ("10628189", "1", "MASI IACOPO"),  # Ignore MASI IACOPO's class for course 10628189 on channel 1
+        # ("10629623", "1", "PIPERNO ADOLFO")  # Ignore PIPERNO ADOLFO's class for course 1020420 on channel 1
     ]
 
     # Iterate through the tables and extract class timetables

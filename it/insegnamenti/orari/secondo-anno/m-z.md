@@ -8,9 +8,9 @@ timetables:
       channel: 2
       courses:
         - '1015886'   # ALGEBRA
-        - '1015887_1' # BASI DI DATI I MODULO
-        - '1020421'   # CALCOLO DELLE PROBABILITA'
-        - '1020422_1' # SISTEMI OPERATIVI I MODULO
+        - '10620601'  # ARCHITETTURA DEGLI ELABORATORI 1
+        - '1023608'   # BASI DI DATI
+        - '10620642'  # SISTEMI OPERATIVI
         #- '1015887_2' # BASI DI DATI II MODULO
         #- '1015888'   # PROGETTAZIONE DI ALGORITMI
         #- '1015889'   # RETI DI ELABORATORI

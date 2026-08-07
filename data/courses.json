@@ -1,5 +1,5 @@
 {
-    "10621549_1": {
+    "10631195_1": {
         "name": "Analisi Matematica (I Modulo)",
         "shortName": "Analisi",
         "abbr": "AM1",
@@ -23,7 +23,7 @@
         "cfu": 6,
         "department": "MAT"
     },
-    "1015883": {
+    "10628189": {
         "name": "Fondamenti di Programmazione",
         "shortName": "Python",
         "abbr": "FDP",
@@ -31,7 +31,7 @@
         "cfu": 9,
         "department": "INF"
     },
-    "10621297": {
+    "10629623": {
         "name": "Metodi Matematici per l'Informatica",
         "shortName": "Metodi Matem.",
         "abbr": "MMI",
@@ -47,7 +47,15 @@
         "cfu": 6,
         "department": "INF"
     },
-    "10621549_2": {
+    "10620601": {
+        "name": "Architettura degli Elaboratori 1",
+        "shortName": "Arch. Elab. 1",
+        "abbr": "AE1",
+        "tgGroup": "https://t.me/+hr9OFwWWGCZhODU0",
+        "cfu": 6,
+        "department": "INF"
+    },
+    "10631195_2": {
         "name": "Analisi Matematica (II Modulo)",
         "shortName": "Analisi",
         "abbr": "AM2",
@@ -135,6 +143,14 @@
         "cfu": 6,
         "department": "INF"
     },
+    "1023608": {
+        "name": "Basi di Dati",
+        "shortName": "Basi di Dati",
+        "abbr": "BD",
+        "tgGroup": "https://t.me/+eRVplF3Va3dlNDJk",
+        "cfu": 9,
+        "department": "INF"
+    },
     "1015887_2": {
         "name": "Basi di Dati (II Modulo)",
         "shortName": "Basi di Dati",
@@ -157,6 +173,14 @@
         "abbr": "SO1",
         "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
         "cfu": 6,
+        "department": "INF"
+    },
+    "10620642": {
+        "name": "Sistemi Operativi",
+        "shortName": "Sist. Op.",
+        "abbr": "SO",
+        "tgGroup": "https://t.me/+oF0ppISY8EFmOTZk",
+        "cfu": 9,
         "department": "INF"
     },
     "1020422_2": {

@@ -2,7 +2,7 @@
 {{- if eq $notice "building-e" -}}
     {{- $expiresAt := time.AsTime "2026-08-15T00:00:00+02:00" -}}
     {{- if lt now.Unix $expiresAt.Unix }}
-<blockquote class="book-hint warning">
+<blockquote class="book-hint warning" style="border-color: #fd6; background-color: rgba(253, 214, 102, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #fd6; border-radius: .25rem;">
     <i class="fa-solid fa-circle-exclamation" style="color: #FFD43B;"></i> <strong>Summer closure</strong>
     <p><strong>Building E will be closed from August 10 to August 14, 2026</strong>.</p>
 </blockquote>
@@ -10,7 +10,7 @@
 {{- else if eq $notice "salaria-labs" -}}
     {{- $expiresAt := time.AsTime "2026-09-01T00:00:00+02:00" -}}
     {{- if lt now.Unix $expiresAt.Unix }}
-<blockquote class="book-hint warning">
+<blockquote class="book-hint warning" style="border-color: #fd6; background-color: rgba(253, 214, 102, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #fd6; border-radius: .25rem;">
     <i class="fa-solid fa-circle-exclamation" style="color: #FFD43B;"></i> <strong>Summer laboratory closure</strong>
     <p>From <strong>August 1 to August 31, 2026, the teaching laboratories</strong> in the basement of <strong>Via Salaria, 113</strong> (Lab. Colossus and HAL9000) <strong>will be closed</strong>. Activities will resume as usual on Tuesday, September 1, 2026.</p>
 </blockquote>

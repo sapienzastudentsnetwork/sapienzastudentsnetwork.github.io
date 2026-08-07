@@ -21,7 +21,7 @@ timetables:
     courses:
       - '10600495' # AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS
       - '10596281' # AUTONOMOUS NETWORKING
-      - '1041792'  # BIOMETRIC SYSTEMS    
+      - '1041792'  # BIOMETRIC SYSTEMS
       - '10600490' # BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
       - '1047616'  # COMPUTATIONAL COMPLEXITY
       - '1047617'  # COMPUTER NETWORK PERFORMANCE
@@ -29,7 +29,7 @@ timetables:
       - '1047640'  # NETWORK ALGORITHMS
       - '1047642'  # SECURITY IN SOFTWARE APPLICATIONS
 bookToc: false
-bookHidden: true
+bookHidden: false
 ---
 
 Check out the lesson timetable for the first semester of Computer Science
