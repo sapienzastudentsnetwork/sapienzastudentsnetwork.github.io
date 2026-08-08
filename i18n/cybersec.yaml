@@ -79,6 +79,9 @@
 - id: Subjs_Info_Tip
   translation: Click the acronym of a course name for more details about classrooms and professors
 
+- id: Subjs_Info_Tooltip
+  translation: Click for more details about classrooms and professors.
+
 - id: Subjs_Info_Text_1
   translation: The information on this page is automatically synchronized every hour with a Sapienza API;
 

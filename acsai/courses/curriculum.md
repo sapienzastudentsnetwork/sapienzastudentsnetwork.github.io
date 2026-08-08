@@ -17,8 +17,8 @@ The first year courses are all compulsory and are:
 | `10595099`    | Calculus 1, Unit 1            | First    | 6   | MAT/05 |
 | `10595546`    | Computer Architecture, Unit 1 | First    | 6   | INF/01 |
 | `10595524`    | Linear Algebra                | First    | 6   | MAT/02 |
-| `10595102`    | Programming, Unit 1           | First    | 6   | INF/01 |
-| `10595102`    | Programming, Unit 2           | First    | 6   | INF/01 |
+| `10630468`    | Programming, Unit 1           | First    | 6   | INF/01 |
+| `10630468`    | Programming, Unit 2           | First    | 6   | INF/01 |
 | `1049269`     | Algorithms                    | Second   | 6   | INF/01 |
 | `10595099`    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 |
 | `10595546`    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 |

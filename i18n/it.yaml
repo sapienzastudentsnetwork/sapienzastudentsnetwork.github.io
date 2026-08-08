@@ -78,6 +78,9 @@
 - id: Subjs_Info_Tip
   translation: Fai clic sull'acronimo del nome di un insegnamento per ulteriori dettagli su aule e professori
 
+- id: Subjs_Info_Tooltip
+  translation: Fai clic per ulteriori dettagli su aule e professori.
+
 - id: Subjs_Info_Text_1
   translation: Le informazioni contenute in questa pagina si sincronizzano automaticamente, ogni ora, con un'API di Sapienza;
 

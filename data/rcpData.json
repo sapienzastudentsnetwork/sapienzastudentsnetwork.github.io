@@ -14,7 +14,7 @@
     [
       "RCP in Artificial Intelligence",
       [
-        "Advanced Machine Learning and Computer Vision",
+        "Advanced Machine Learning",
         "Big Data Computing",
         "Computer Vision",
         "Deep Learning and Applied Artificial Intelligence",
@@ -34,7 +34,7 @@
     [
       "RCP in Data Science",
       [
-        "Advanced Machine Learning and Computer Vision",
+        "Advanced Machine Learning",
         "Big Data Computing",
         "Cloud Computing",
         "Data and Network Security",
@@ -90,7 +90,7 @@
   "relatedCourses": [
     "Advanced Algorithms",
     "Advanced Architectures",
-    "Advanced Machine Learning and Computer Vision",
+    "Advanced Machine Learning",
     "Advanced Software Engineering",
     "Automatic Verification of Intelligent Systems",
     "Autonomous Networking",

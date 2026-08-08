@@ -62,8 +62,10 @@
 
                 {{ $telegram_group := index $courseCourses "tgGroup" }}
                 {{ if $telegram_group }}
-                    ℹ️️ {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseName}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
-                    <br/>
+                    <blockquote class="book-hint tip" style="border-color: #7ee787; background-color: rgba(35, 134, 54, 0.10); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #7ee787; border-radius: var(--border-radius);">
+                        <i class="fa-solid fa-lightbulb" style="color: #238636;"></i>
+                        {{ T "Subjs_TimetablesPerTeaching_Telegram_JoinGroup" }} <a href="{{ $telegram_group }}" target="_blank" rel="noopener noreferrer">{{ T "Subjs_TimetablesPerTeaching_Telegram_TelegramGroup" }} {{$courseName}}</a> {{ T "Subjs_TimetablesPerTeaching_Telegram_StayUpdated" }}
+                    </blockquote>
                 {{ end }}
 
                 {{ range $channel_id, $channel := $courseChannels }}

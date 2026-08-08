@@ -1,5 +1,6 @@
 import os
 import json
+import copy
 import re
 from datetime import datetime
 from requests import get
@@ -260,10 +261,10 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                             "code": course_column.find(class_='codiceInsegnamento').text
                         }
 
-                        # 1041792 - Biometric Systems
-                        # 1047622 - Cryptography
+                        # 10626968 - Biometric Systems
+                        # 10630016 - Cryptography
                         # 10589555 - Practical Network Defense
-                        if course_code in ("1041792", "1047622", "10589555"):
+                        if course_code in ("10626968", "10630016", "10589555"):
                             course_timetables_dict[course_code]["degree"] = "33516"
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
@@ -454,6 +455,71 @@ def extract_classrooms(DOM, classrooms_dict):
                 "address": address,
                 "mapsUrl": map_link
             }
+
+
+def normalize_unassigned_teachers(channels):
+    """
+    Normalizes equivalent representations of an unassigned teacher while
+    preserving actual teacher assignments for timetable comparisons.
+    """
+    placeholder_names = {
+        "", "N/A", "NA", "TBD", "TO BE DEFINED",
+        "NON ASSEGNATO", "DOCENTE NON ASSEGNATO"
+    }
+    normalized_channels = copy.deepcopy(channels)
+
+    for channel_data in normalized_channels.values():
+        for day_schedules in channel_data.values():
+            for schedule in day_schedules:
+                teachers = schedule.get("teachers")
+                if teachers is None:
+                    schedule["teachers"] = {}
+                    continue
+
+                has_only_placeholders = all(
+                    not teacher_id
+                    or teacher_id == "00000000-0000-0000-0000-000000000000"
+                    or str(teacher_name).strip().upper() in placeholder_names
+                    for teacher_id, teacher_name in teachers.items()
+                )
+                if has_only_placeholders:
+                    schedule["teachers"] = {}
+
+    return normalized_channels
+
+
+def reconcile_legacy_course_codes(course_timetables_dict, code_mapping):
+    """
+    Moves legacy-only timetable entries to their current course code and
+    removes legacy duplicates when both entries have the same timetable data.
+    """
+    for legacy_code, current_code in code_mapping.items():
+        legacy_course = course_timetables_dict.get(legacy_code)
+        current_course = course_timetables_dict.get(current_code)
+
+        if legacy_course is None:
+            continue
+
+        if current_course is None:
+            course_timetables_dict[current_code] = course_timetables_dict.pop(legacy_code)
+            course_timetables_dict[current_code]["code"] = current_code
+            continue
+
+        legacy_data = {
+            "subject": legacy_course.get("subject"),
+            "channels": normalize_unassigned_teachers(
+                legacy_course.get("channels", {})
+            )
+        }
+        current_data = {
+            "subject": current_course.get("subject"),
+            "channels": normalize_unassigned_teachers(
+                current_course.get("channels", {})
+            )
+        }
+
+        if legacy_data == current_data:
+            del course_timetables_dict[legacy_code]
 
 
 def apply_manual_overrides(course_timetables_dict, degree_programme_code):
@@ -671,6 +737,11 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
 
                 # Apply the filtered and updated schedules back to the day
                 channel_data[day_name] = filtered_day_schedules
+
+    legacy_course_code_mappings = overrides.get("legacy_course_code_mappings", {})
+    reconcile_legacy_course_codes(
+        course_timetables_dict, legacy_course_code_mappings
+    )
 
 
 def apply_teacher_id_mapping(course_timetables_dict, teachers_dict):

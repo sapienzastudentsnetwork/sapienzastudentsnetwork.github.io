@@ -125,6 +125,7 @@
                         roomArray = Object.values(time.classrooms);
                     }
 
+                    const classroomFullName = roomArray.length ? roomArray.join(", ") : null;
                     let classrooms = formatClassrooms(roomArray);
 
                     let en_day = {
@@ -137,7 +138,7 @@
                         'domenica': 'sunday',
                     }[day]
 
-                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] && alerts[channel][day], cancelled: cancelled, classroomDesc: classrooms || null });
+                    schedule[en_day].push({ courseCode: courseCode, startTime, endTime, alerts: alerts && alerts[channel] && alerts[channel][day], cancelled: cancelled, classroomDesc: classrooms || null, classroomFullName });
 
                     classesStartTime = Math.min(classesStartTime, startTime) || startTime;
                     classesEndTime = Math.max(classesEndTime, endTime) || endTime;
@@ -182,7 +183,7 @@
                     .filter(({ startTime, endTime }) => startTime <= time && endTime > time);
 
                 let hasMoreThanACourse = false;
-                for (const { courseCode, alerts, cancelled, classroomDesc } of courses) {
+                for (const { courseCode, alerts, cancelled, classroomDesc, classroomFullName } of courses) {
                     const course = COURSES[courseCode];
 
                     const desktopCourseLink = document.createElement('a');
@@ -196,10 +197,13 @@
                     desktopCourseLink.href = `#${courseCode}`
                     desktopCourseLink.textContent = course ?
                         course.shortName || course.name : courseCode;
+                    const courseTooltip = course ? `${course.name}. {{ T "Subjs_Info_Tooltip" }}` : courseCode;
+                    desktopCourseLink.title = courseTooltip;
 
                     const mobileCourseLink = desktopCourseLink.cloneNode(true);
                     mobileCourseLink.textContent = course ?
                         course.abbr || course.name.substring(0, 2).toUpperCase() : courseCode;
+                    mobileCourseLink.title = courseTooltip;
 
                     if (mobileCourseLink.textContent.length === 3) mobileCourseLink.style.fontSize = '0.8em';
                     else if (mobileCourseLink.textContent.length === 4) mobileCourseLink.style.fontSize = '0.75em';
@@ -227,10 +231,12 @@
                         const desktopClassroomDescElem = document.createElement('div');
                         desktopClassroomDescElem.classList.add('font-italic');
                         desktopClassroomDescElem.textContent = "(" + classroomDesc + ")";
+                        desktopClassroomDescElem.title = classroomFullName || classroomDesc;
 
                         const mobileClassroomDescElem = document.createElement('div');
                         mobileClassroomDescElem.classList.add('font-italic');
                         mobileClassroomDescElem.textContent = "(" + classroomDesc + ")";
+                        mobileClassroomDescElem.title = classroomFullName || classroomDesc;
 
                         if (mobileClassroomDescElem.textContent.length === 3) mobileClassroomDescElem.style.fontSize = '0.7em';
                         else if (mobileClassroomDescElem.textContent.length === 4) mobileClassroomDescElem.style.fontSize = '0.65em';

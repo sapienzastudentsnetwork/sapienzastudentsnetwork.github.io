@@ -15,357 +15,42 @@
     "10621178_1": "FUNDAMENTALS OF STATISTICAL LEARNING I",
     "10621178_2": "FUNDAMENTALS OF STATISTICAL LEARNING II"
   },
-  "add_courses": {
-    "33503": {
-      "1020422_2": {
-        "subject": "SISTEMI OPERATIVI II MODULO",
-        "degree": "33503",
-        "channels": {
-          "1": {},
-          "2": {}
-        },
-        "code": "1020422"
-      },
-      "1021828": {
-        "subject": "MATEMATICA DISCRETA",
-        "degree": "33503",
-        "channels": {
-          "0": {
-            "luned\u00ec": [
-              {
-                "teachers": {
-                  "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
-                },
-                "timeslot": "8 - 11",
-                "classrooms": {
-                  "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-                }
-              }
-            ],
-            "gioved\u00ec": [
-              {
-                "teachers": {
-                  "be67ada94f05ddff2f83ea03c356a47a43ff62b65a3ac0ba70251f21": "CAPPARELLI STEFANO"
-                },
-                "timeslot": "8 - 10",
-                "classrooms": {
-                  "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-                }
-              }
-            ]
-          }
-        },
-        "code": "1021828"
-      }
-    },
-    "33516": {
-      "10616549": {
-        "subject": "ADVANCED CRYPTOGRAPHY",
-        "degree": "33516",
-        "channels": {
-          "0": {}
-        },
-        "code": "10616549"
-      },
-      "10600449": {
-        "subject": "ADVANCED INFORMATION SYSTEMS SECURITY AND BLOCKCHAIN",
-        "degree": "33516",
-        "channels": {
-          "0": {}
-        },
-        "code": "10600449"
-      }
-    },
-    "33519": {
-      "10600197": {
-        "subject": "DATA DRIVEN ECONOMICS",
-        "degree": "33519",
-        "channels": {
-          "0": {}
-        },
-        "code": "10600197"
-      },
-      "10616532": {
-        "subject": "ECONOMICS AND COMPUTATION",
-        "degree": "33519",
-        "channels": {
-          "0": {}
-        },
-        "code": "10616532"
-      },
-      "10589730": {
-        "subject": "GEOMATICS AND GEOINFORMATION",
-        "degree": "33519",
-        "channels": {
-          "0": {}
-        },
-        "code": "10589730"
-      }
-    }
+  "legacy_course_code_mappings": {
+    "10595546_1": "10631060_1",
+    "10595524": "10627226",
+    "10595102_1": "10630468_1",
+    "10595102_2": "10630468_2",
+    "10589621": "10626793",
+    "1041764": "10627562",
+    "1047618": "10628017",
+    "1047624": "10628018",
+    "10620566": "10629525",
+    "10589558": "10629076",
+    "1047638": "10627173",
+    "10600495": "10627537",
+    "10596281": "10628736",
+    "1041792": "10626968",
+    "1047616": "10627582",
+    "1047617": "10630015",
+    "1047622": "10630016",
+    "1047640": "10628280",
+    "1047642": "10626358",
+    "10589557": "10629076",
+    "1054960": "10626703",
+    "1022807": "10626055",
+    "1027171": "10626272",
+    "1055043_2": "10628637",
+    "10621189": "10626793",
+    "1056023": "10621435",
+    "10620565": "10627472",
+    "10600490": "10627535"
   },
-  "add_schedules": {
-    "1015889": {
-      "degree_limit": "33503",
-      "channels": {
-        "2": {
-          "martedì": [{
-            "teachers": {"35085c26-00da-4721-b7df-cd1d0970f13c": "MASELLI GAIA"},
-            "timeslot": "14 - 17",
-            "classrooms": {"0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"}
-          }]
-        }
-      }
-    },
-    "1015884": {
-      "channels": {
-        "1": {
-          "mercoledì": [{
-            "teachers": {"1e2c2769-41ca-4500-889c-5f4b56b460a6": "FRANCATI DANILO"},
-            "timeslot": "12 - 16",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }]
-        },
-        "2": {
-          "mercoledì": [{
-            "teachers": {"1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"},
-            "timeslot": "8 - 12",
-            "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-            }
-          }]
-        }
-      }
-    },
-    "1020422_2": {
-      "channels": {
-        "1": {
-          "mercoledì": [{
-            "teachers": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
-            "timeslot": "16 - 19",
-            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
-          }],
-          "venerdì": [{
-            "teachers": {"8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"},
-            "timeslot": "9 - 12",
-            "classrooms": {"4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"}
-          }]
-        },
-        "2": {
-          "lunedì": [{
-            "teachers": {"aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"},
-            "timeslot": "16 - 19",
-            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
-          }],
-          "mercoledì": [{
-            "teachers": {"aca42953-c2c6-40e7-939b-de68f20065e8": "CASALICCHIO EMILIANO"},
-            "timeslot": "16 - 19",
-            "classrooms": {"deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"}
-          }]
-        }
-      }
-    },
-    "10589555": {
-      "channels": {
-        "0": {
-          "giovedì": [{
-            "teachers": {"d774d700-87a4-4e84-8281-d6d61aa5cda9": "SPOGNARDI ANGELO"},
-            "timeslot": "12 - 15",
-            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
-          }]
-        }
-      }
-    },
-    "1055682": {
-      "channels": {
-        "0": {
-          "venerdì": [{
-            "teachers": {"18d45fcf-5ea5-4a70-a144-e816865509eb": "MANCINI LUIGI VINCENZO"},
-            "timeslot": "8 - 11",
-            "classrooms": {"50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"}
-          }]
-        }
-      }
-    },
-    "1054963": {
-      "channels": {
-        "0": {
-          "venerdì": [{
-            "teachers": {"4d47edaf-0256-4657-b451-42f52820dabf": "LIBERATI FRANCESCO"},
-            "timeslot": "12 - 15",
-            "classrooms": {"70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"}
-          }]
-        }
-      }
-    },
-    "10616549": {
-      "channels": {
-        "0": {
-          "lunedì": [{
-            "teachers": {"1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"},
-            "timeslot": "16 - 19",
-            "classrooms": {"792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 Via Ariosto, 25"}
-          }],
-          "venerdì": [{
-            "teachers": {"1d03fadf-0db4-443c-94df-15eafa3740c0": "VISCONTI IVAN"},
-            "timeslot": "15 - 17",
-            "classrooms": {"d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"}
-          }]
-        }
-      }
-    },
-    "10600449": {
-      "channels": {
-        "0": {
-          "giovedì": [{
-            "teachers": {"8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"},
-            "timeslot": "15 - 17",
-            "classrooms": {"cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 Via Ariosto, 25"}
-          }],
-          "venerdì": [{
-            "teachers": {"8d25ef00-eff0-4492-bdfb-0fb6c5c1b2fe": "LAZZERETTI RICCARDO"  },
-            "timeslot": "9 - 12",
-            "classrooms": {"bdefdb67-cc5f-4031-a58d-858f26e3d33d": "Aula A7 Via Ariosto, 25"}
-          }]
-        }
-      }
-    },
-    "10600197": {
-      "channels": {
-        "0": {
-          "lunedì": [{
-            "teachers": {"d763962b-b0f7-4c1a-9b27-6c13155afc6f": "MARZANO RICCARDO"},
-            "timeslot": "15 - 17",
-            "classrooms": {"8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"}
-          }],
-          "martedì": [{
-            "teachers": {"d763962b-b0f7-4c1a-9b27-6c13155afc6f": "MARZANO RICCARDO"},
-            "timeslot": "15 - 18",
-            "classrooms": {"8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"}
-          }]
-        }
-      }
-    },
-    "1047212": {
-      "channels": {
-        "0": {
-          "mercoledì": [{
-            "teachers": {"d47e163f-b9ca-485d-a247-97ac76ab2d15": "REVERBERI PIERFRANCESCO"},
-            "timeslot": "15 - 18",
-            "classrooms": {"8048db6d-ea7a-4478-8b6b-e7f6c7d2ed2d": "Aula 7 Via Eudossiana, 18"}
-          }]
-        }
-      }
-    },
-    "10616532": {
-      "channels": {
-        "0": {
-          "lunedì": [{
-            "teachers": {
-              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
-              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
-            },
-            "timeslot": "15 - 17",
-            "classrooms": {"d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"}
-          }],
-          "mercoledì": [{
-            "teachers": {
-              "3c2d5b0d3bd0d4575e15f53155c97320f9fd7546dd1a927231e29029": "LEONARDI STEFANO",
-              "c50724273ffdbe4d2268abec20bc0cfd6bd448f170dfb42babe48bb4": "BRUESTLE JOHANNES"
-            },
-            "timeslot": "12 - 15",
-            "classrooms": {"d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 Via Ariosto, 25"}
-          }]
-        }
-      }
-    },
-    "10589730": {
-      "channels": {
-        "0": {
-          "martedì": [{
-            "teachers": {"c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"},
-            "timeslot": "8 - 11",
-            "classroomInfo": "Aula 47 Via Eudossiana, 18",
-            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
-          }],
-          "mercoledì": [{
-            "teachers": {"c4ab26f1b1dc2ac39cb930ee0713f4189efcbefc9b10498b2d160a7e": "CRESPI MATTIA GIOVANNI"},
-            "timeslot": "11 - 14",
-            "classroomInfo": "Aula 4 Via Eudossiana, 18",
-            "classroomUrl": "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
-          }]
-        }
-      }
-    },
-    "1047634": {
-      "channels": {
-        "0": {
-          "venerd\u00ec": [
-            {
-              "teachers": {},
-              "timeslot": "16 - 19",
-              "classrooms": {
-                "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
-              }
-            }
-          ]
-        }
-      }
-    }
-  },
+  "add_courses": {},
+  "add_schedules": {},
   "add_teachers": {
-    "1038141": {
+    "10629525": {
       "0": {
-        "1986beaa-9a9b-493a-932c-82a3ff97b6f9": "FARALLI STEFANO"
-      }
-    },
-    "10607006": {
-      "0": {
-        "8ed8a497-ed02-41ea-b32a-96de43093776": "ZULIANI PAOLO"
-      }
-    },
-    "10620665": {
-      "0": {
-        "b6bb1ba8-7e12-48b3-bc4e-dccbb9840942": "CARLUCCI LORENZO"
-      }
-    },
-    "10595537": {
-      "0": {
-        "d487b5a4-5e48-44c8-9130-f12bfda39f2b": "SIGISMONDI IRENE"
-      }
-    },
-    "1047639": {
-      "0": {
-        "f738330a-ffb2-4dc3-b40e-205299ff9ad1": "MANCINI MAURIZIO"
-      }
-    },
-    "1047197": {
-      "0": {
-        "543a2a4d-28ad-4d11-aedf-e2357daa1fe9": "LEMBO DOMENICO",
-        "92031bb1-4da8-400a-a2e9-5ef2ba177a43": "ROSATI RICCARDO"
-      }
-    },
-    "10621172": {
-      "0": {
-        "2d3939bb-2659-406d-a6db-5a27c6fe25dd": "COLONNESE STEFANIA"
-      }
-    },
-    "10621173": {
-      "0": {
-        "9c08b70d-a56a-4141-92fb-5ef505b61325": "BECCHETTI LUCA"
-      }
-    },
-    "1056023": {
-      "0": {
-        "1f83a5408282953c50f215c4fad15d975dfc7d64bb6e3c04eae31c0f": "SPADACCINO PIETRO"
-      }
-    },
-    "10631195_2": {
-      "1": {
-        "6f7a12ae2d349c788c5d08abc288eb88e6835d7742f8925933eabb62": "LANZARA FLAVIA"
+        "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
       }
     }
   },
@@ -379,71 +64,7 @@
       "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
     }
   },
-  "remove_teachers": {
-    "1047634": ["00000000-0000-0000-0000-000000000000"]
-  },
-  "change_classrooms": {
-    "10595533": {
-      "channels": {
-        "0": {
-          "mercoledì": {
-            "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
-          }
-        }
-      }
-    },
-    "1022262": {
-      "channels": {
-        "0": {
-          "venerdì": {
-            "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
-          }
-        }
-      }
-    },
-    "1047629": {
-      "channels": {
-        "0": {
-          "venerdì": {
-            "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-          }
-        }
-      }
-    },
-    "10616533": {
-      "channels": {
-        "0": {
-          "giovedì": {
-            "792e5ab2-58db-44ed-8723-8374acee0da0": "Aula A3 (Edificio: RM102)"
-          }
-        }
-      }
-    },
-    "10589652": {
-      "channels": {
-        "0": {
-          "martedì": {
-            "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-          }
-        }
-      }
-    }
-  },
-  "change_timeslot": {
-    "1022262": {
-      "channels": {
-        "0": {
-          "lunedì": "11 - 13",
-          "venerdì": "10 - 13"
-        }
-      }
-    },
-    "1047197": {
-      "channels": {
-        "0": {
-          "venerdì": "15 - 19"
-        }
-      }
-    }
-  }
+  "remove_teachers": {},
+  "change_classrooms": {},
+  "change_timeslot": {}
 }

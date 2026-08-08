@@ -366,35 +366,35 @@
         "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
-    "10595546_1": {
+    "10631060_1": {
         "name": "Computer Architecture (Unit 1)",
         "shortName": "Comp. Arch.",
         "abbr": "CAU1",
         "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
-    "10595546_2": {
+    "10631060_2": {
         "name": "Computer Architecture (Unit 2)",
         "shortName": "Comp. Arch.",
         "abbr": "CAU2",
         "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
-    "10595524": {
+    "10627226": {
         "name": "Linear Algebra",
         "shortName": "Lin. Alg.",
         "abbr": "LA",
         "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 6
     },
-    "10595102_1": {
+    "10630468_1": {
         "name": "Programming (Unit 1)",
         "shortName": "Prog. U1",
         "abbr": "PRU1",
         "tgGroup": "https://t.me/+o3fO3XEZwZs4NDJk",
         "cfu": 12
     },
-    "10595102_2": {
+    "10630468_2": {
         "name": "Programming (Unit 2)",
         "shortName": "Prog. U2",
         "abbr": "PRU2",
@@ -432,29 +432,34 @@
         "name": "Data Management and Analysis (Unit 1)",
         "shortName": "DMA U1",
         "abbr": "DMA1",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595617_2": {
         "name": "Data Management and Analysis (Unit 2)",
         "shortName": "DMA U2",
         "abbr": "DMA2",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595525": {
         "name": "Probability",
         "shortName": "Prob.",
         "abbr": "PRB",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595616_1": {
         "name": "Systems and Networking (Unit 1)",
         "shortName": "Network (S&N U1)",
         "abbr": "SNU1",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595616_2": {
         "name": "Systems and Networking (Unit 2)",
         "shortName": "Systems (S&N U2)",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "abbr": "SNU2",
         "cfu": 6
     },
@@ -462,12 +467,14 @@
         "name": "Artificial Intelligence and Machine Learning (Unit 1)",
         "shortName": "AI (U1)",
         "abbr": "AI",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595618_2": {
         "name": "Artificial Intelligence and Machine Learning (Unit 2)",
         "shortName": "ML (U2)",
         "abbr": "ML",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595610": {
@@ -481,6 +488,7 @@
         "name": "Statistics",
         "shortName": "Stats",
         "abbr": "STAT",
+        "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595530": {
@@ -537,91 +545,91 @@
         "tgGroup": "https://t.me/+Mvi6pA7Mlc4xNDU0",
         "cfu": 6
     },
-    "10596281": {
+    "10628736": {
         "name": "Autonomous Networking",
         "shortName": "Autonomous Net.",
         "abbr": "ANET",
         "tgGroup": "https://t.me/+S2AJbgMrd8LhbABF"
     },
-    "1041764": {
+    "10627562": {
         "name": "Big Data Computing",
         "shortName": "Big Data Comp.",
         "abbr": "BDC",
         "tgGroup": "https://t.me/+KSHTVVfzDQ42MTU8"
     },
-    "1041792": {
+    "10626968": {
         "name": "Biometric Systems",
         "shortName": "Biometric Sys.",
         "abbr": "BIO",
         "tgGroup": "https://t.me/+cTqgWjub2OtiYTRk"
     },
-    "1047617": {
+    "10630015": {
         "name": "Computer Network Performance",
-        "shortName": "Computer Net. Perf.",
+        "shortName": "Comp. Net. Perf.",
         "abbr": "CNP",
         "tgGroup": "https://t.me/+p0-u-meZ1rE3MGU0"
     },
-    "1047622": {
+    "10630016": {
         "name": "Cryptography",
         "shortName": "Cryptography",
         "abbr": "CRY",
         "tgGroup": "https://t.me/+y8iiBzH5qTo1N2U8"
     },
-    "1047624": {
+    "10628018": {
         "name": "Distributed Systems (INF/01)",
         "shortName": "Distributed Sys.",
         "abbr": "DS",
         "tgGroup": "https://t.me/+VKIsENZg1uzB2n1v"
     },
-    "1047627": {
+    "10625773": {
         "name": "Foundations of Data Science",
         "shortName": "Found. of DS",
         "abbr": "FDS",
         "tgGroup": "https://t.me/+zIFUj3d_Puk3ZjBk"
     },
-    "1047638": {
+    "10627173": {
         "name": "Models of Computation",
         "shortName": "Models of Comput.",
         "abbr": "MOC",
         "tgGroup": "https://t.me/+WCzSlKOyfy42ZGJk"
     },
-    "1047642": {
+    "10626358": {
         "name": "Security in Software Applications",
         "shortName": "Sec. in Soft. Appl.",
         "abbr": "SSA",
         "tgGroup": "https://t.me/+uUESHKhMhBUyZGI0"
     },
-    "10589621": {
+    "10626793": {
         "name": "Advanced Machine Learning",
         "shortName": "Adv. Machine Learn.",
         "abbr": "AML",
         "tgGroup": "https://t.me/+ut8SmYWsoR41MzZl"
     },
-    "10600495": {
+    "10627537": {
         "name": "Automatic Verification of Intelligent Systems",
         "shortName": "Auto. Ver. Int. Sys.",
         "abbr": "AVIS",
         "tgGroup": "https://t.me/+npTs-awpbTM3MzA0"
     },
-    "10600490": {
+    "10627535": {
         "name": "Blockchain and Distributed Ledger Technologies",
         "shortName": "Blockchain & DLT",
         "abbr": "BDLT",
         "tgGroup": "https://t.me/+x45vqQjj-YA0MWM8"
     },
-    "1047616": {
+    "10627582": {
         "name": "Computational Complexity",
         "shortName": "Comput. Compl.",
-        "abbr": "COMP",
+        "abbr": "CC",
         "tgGroup": "https://t.me/+cFO5rxhe0ak3YjFk"
     },
-    "1047618": {
+    "10628017": {
         "name": "Computer Vision",
         "shortName": "Computer Vision",
         "abbr": "CV",
         "tgGroup": "https://t.me/+AUr_HfwR3kAxNDA0"
     },
-    "1047640": {
+    "10628280": {
         "name": "Network Algorithms",
         "shortName": "Network Algo",
         "abbr": "NA",
@@ -643,12 +651,6 @@
         "shortName": "Adv. Soft. Eng.",
         "abbr": "ASE",
         "tgGroup": "https://t.me/+SRnmNKaAM3kwYzk8"
-    },
-    "1047205": {
-        "name": "Cloud Computing",
-        "shortName": "Cloud Comp.",
-        "abbr": "CC",
-        "tgGroup": "https://t.me/+TFOpJk7wLJMUSZaH"
     },
     "10593236": {
         "name": "Deep Learning and Applied Artificial Intelligence",
@@ -727,7 +729,7 @@
         "abbr": "MI",
         "tgGroup": "https://t.me/+RSYya0P9YzDiLP27"
     },
-    "10620666": {
+    "10629076": {
         "name": "Methods in Computer Science Education",
         "shortName": "Meth. in CS Edu",
         "abbr": "CSED",
@@ -762,25 +764,25 @@
         "shortName": "Att. Form. Compl.",
         "abbr": "AFC"
     },
-    "1054960": {
+    "10626703": {
         "name": "Computer Systems and Programming",
         "shortName": "Comp. Sys. & Prog.",
         "abbr": "CSP",
         "tgGroup": "https://t.me/+WeMUQBv-PJsxODY8"
     },
-    "1022807": {
+    "10626055": {
         "name": "Distributed Systems (ING-INF/05)",
         "shortName": "Distributed Sys.",
         "abbr": "DS",
         "tgGroup": "https://t.me/+GGxdP61DHeY4Yzg0"
     },
-    "1027171": {
+    "10626272": {
         "name": "Network Infrastructures",
         "shortName": "Network Infra.",
         "abbr": "NI",
         "tgGroup": "https://t.me/joinchat/CfmfQ0jQaxvUpWib9qKM2Q"
     },
-    "1055043_2": {
+    "10628637": {
         "name": "Statistics",
         "shortName": "Stats",
         "abbr": "STAT",
@@ -852,13 +854,13 @@
         "abbr": "CSEM",
         "tgGroup": "https://t.me/joinchat/CfmfQxXteHLLf1DR6K_SXg"
     },
-    "10620566": {
+    "10629525": {
         "name": "High-Performance Computing",
         "shortName": "High-Perf. Comp.",
         "abbr": "HPC",
         "tgGroup": "https://t.me/+-ECRVNH9w9ZjN2Rk"
     },
-    "10620565": {
+    "10627472": {
         "name": "Quantum Computing",
         "shortName": "Quantum Computing",
         "abbr": "QC",
@@ -876,23 +878,11 @@
         "abbr": "AC",
         "tgGroup": "https://t.me/+vSa1AG8hmGs2YmJk"
     },
-    "1047197": {
-        "name": "Data Management for Data Science",
-        "shortName": "Data Mgmt",
-        "abbr": "DMDS",
-        "tgGroup": "https://t.me/+jmKdlKDdL3w0ZGVk"
-    },
     "1047222": {
         "name": "Efficiency and Productivity Analysis",
         "shortName": "Eff. & Prod. Analysis",
         "abbr": "EPA",
         "tgGroup": "https://t.me/+XB1Lc-13jfY1NTdk"
-    },
-    "10621172": {
-        "name": "Fundamentals of Networking and Signal Processing",
-        "shortName": "Net. & Sign. Proc.",
-        "abbr": "FNS",
-        "tgGroup": "https://t.me/+Pys3Pk9KerEwZjY0"
     },
     "10621178_1": {
         "name": "Fundamentals of Statistical Learning (Unit 1)",
@@ -906,47 +896,17 @@
         "abbr": "FSL",
         "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
     },
-    "10621173": {
-        "name": "Natural Language Processing and Text Mining",
-        "shortName": "NLP & Text Mining",
-        "abbr": "NTM",
-        "tgGroup": "https://t.me/+dPESpi1ktho3ODdk"
-    },
-    "10606725": {
+    "10628766": {
         "name": "Optimization Methods for Data Science",
-        "shortName": "Opt. Meth.",
+        "shortName": "Opt. Meth. for DS",
         "abbr": "OMDS",
         "tgGroup": "https://t.me/+6k34zI3afm8xNzVk"
-    },
-    "1047209": {
-        "name": "Quantitative Models for Economic Analysis and Management",
-        "shortName": "Quant. Models",
-        "abbr": "QME",
-        "tgGroup": "https://t.me/+_M2qDZkjPC5hMjVk"
-    },
-    "10621099": {
-        "name": "Statistical Machine Learning",
-        "shortName": "Stat. ML",
-        "abbr": "SML",
-        "tgGroup": "https://t.me/+hPFr4Z0_aIo2MTk8"
-    },
-    "10615930": {
-        "name": "Stochastic Processes for Data Science",
-        "shortName": "Stoch. Proc.",
-        "abbr": "SPDS",
-        "tgGroup": "https://t.me/+DZxL8-Bq85gzODg0"
     },
     "1047218": {
         "name": "Earth Observation Data Analysis",
         "shortName": "Earth Obs. Data Analysis",
         "abbr": "EODA",
         "tgGroup": "https://t.me/+1eMiQKNSo_UzYTU0"
-    },
-    "1047212": {
-        "name": "Economics of Network Industries",
-        "shortName": "Econ. Net. Ind.",
-        "abbr": "ENI",
-        "tgGroup": "https://t.me/+JkzqXvC9v6ZhODBk"
     },
     "10616533": {
         "name": "Graph Mining and Applications",
@@ -960,21 +920,9 @@
         "abbr": "IPDP",
         "tgGroup": "https://t.me/+fC4XwUA8BbBiM2Nk"
     },
-    "1056023": {
-        "name": "Smart Environments",
-        "shortName": "Smart Envs.",
-        "abbr": "SENV",
-        "tgGroup": "https://t.me/+_mmxI3ZDxPdlZmU0"
-    },
-    "10600197": {
-        "name": "Data Driven Economics",
-        "shortName": "Data Driv. Econ.",
-        "abbr": "DDE",
-        "tgGroup": "https://t.me/+0AkHMXIUABw2NTQ0"
-    },
     "10589730": {
         "name": "Geomatics and Geoinformation",
-        "shortName": "Geom. & Geoinfo",
+        "shortName": "Geomatics",
         "abbr": "G&G",
         "tgGroup": "https://t.me/+oqGo4DdkLG83ODM0"
     },
@@ -983,5 +931,149 @@
         "shortName": "Econ. & Comp.",
         "abbr": "E&C",
         "tgGroup": "https://t.me/+lJ3cIF3wDMs2N2Q8"
+    },
+    "10626985": {
+        "name": "Cloud Computing",
+        "shortName": "Cloud Comp.",
+        "abbr": "CLC",
+        "tgGroup": "https://t.me/+TFOpJk7wLJMUSZaH"
+    },
+    "10629042": {
+        "name": "Data Driven Economics",
+        "shortName": "Data Driven Econ.",
+        "abbr": "DDE",
+        "tgGroup": "https://t.me/+0AkHMXIUABw2NTQ0"
+    },
+    "10632153": {
+        "name": "Data Management for Data Science",
+        "shortName": "Data Mgmt. for DS",
+        "abbr": "DMDS",
+        "tgGroup": "https://t.me/+jmKdlKDdL3w0ZGVk"
+    },
+    "10629278": {
+        "name": "Fundamentals of Networking and Signal Processing",
+        "shortName": "Net. & Sign. Proc.",
+        "abbr": "FNS",
+        "tgGroup": "https://t.me/+Pys3Pk9KerEwZjY0"
+    },
+    "10631198": {
+        "name": "Fundamentals of Statistical Learning",
+        "shortName": "Fund. Stat. Learn.",
+        "abbr": "FSL",
+        "tgGroup": "https://t.me/+Hd_ZKYHSH7M1ODNk"
+    },
+    "10629620": {
+        "name": "Natural Language Processing and Text Mining",
+        "shortName": "NLP & Text Mining",
+        "abbr": "NTM",
+        "tgGroup": "https://t.me/+dPESpi1ktho3ODdk"
+    },
+    "10626986": {
+        "name": "Quantitative Models for Economic Analysis and Management",
+        "shortName": "Quant. Models",
+        "abbr": "QME",
+        "tgGroup": "https://t.me/+_M2qDZkjPC5hMjVk"
+    },
+    "10621099": {
+        "name": "Statistical Machine Learning",
+        "shortName": "Stat. ML",
+        "abbr": "SML",
+        "tgGroup": "https://t.me/+hPFr4Z0_aIo2MTk8"
+    },
+    "10627257": {
+        "name": "Stochastic Processes for Data Science",
+        "shortName": "Stoch. Proc. for DS",
+        "abbr": "SPDS",
+        "tgGroup": "https://t.me/+DZxL8-Bq85gzODg0"
+    },
+    "10628014": {
+        "name": "Algorithmic Methods of Data Mining and Laboratory",
+        "shortName": "Alg. Data Min. & Lab.",
+        "abbr": "AMDL",
+        "tgGroup": "https://t.me/+8rs6Fj0Bd3gyN2Nk"
+    },
+    "10629400": {
+        "name": "Fundamentals of Data Science",
+        "shortName": "Fundamentals of DS",
+        "abbr": "FDSD",
+        "tgGroup": "https://t.me/+zt8Dme5sz7hiMjRk"
+    },
+    "1047214": {
+        "name": "Data Privacy and Security",
+        "shortName": "Data Privacy & Sec.",
+        "abbr": "DPS",
+        "tgGroup": "https://t.me/+NMuz2CIyhUs3MTQ0"
+    },
+    "10610252": {
+        "name": "Signal Processing for Machine Learning",
+        "shortName": "Signal Proc. for ML",
+        "abbr": "SPML",
+        "tgGroup": "https://t.me/+Az2Ep6UmZcc1MWRk"
+    },
+    "1044406": {
+        "name": "Big Data Computing",
+        "shortName": "Big Data Computing",
+        "abbr": "BDCD",
+        "tgGroup": "https://t.me/+EEwS-vHaS2FlYjY8"
+    },
+    "10621190": {
+        "name": "Network Science and Complex Systems",
+        "shortName": "Net. Sc. & Compl. Sys.",
+        "abbr": "NSCS",
+        "tgGroup": "https://t.me/+1NScVqS3hk8zOTk0"
+    },
+    "1056085": {
+        "name": "Big Data for Official Statistics",
+        "shortName": "Big Data for Off. Stat.",
+        "abbr": "BDST",
+        "tgGroup": "https://t.me/+8ZsXnRxfLdBlZDI0"
+    },
+    "10593052": {
+        "name": "Bioinformatics and Network Medicine",
+        "shortName": "Bioinf. & Net. Med.",
+        "abbr": "BNM",
+        "tgGroup": "https://t.me/+bJEdN96lbxVmMTFk"
+    },
+    "10593053": {
+        "name": "Digital Epidemiology and Precision Medicine",
+        "shortName": "Dig. Epid. & Prec. Med.",
+        "abbr": "DEPM",
+        "tgGroup": "https://t.me/+iEnKlmE4CsQwYjA0"
+    },
+    "10621175": {
+        "name": "Neural Networks for Data Science",
+        "shortName": "Neural Networks",
+        "abbr": "NNDS",
+        "tgGroup": "https://t.me/+tMegeKdiGi1kZDVk"
+    },
+    "10621435": {
+        "name": "Smart Environments and Cyber Physical Spaces",
+        "shortName": "Smart Env. & Cyb. Phy. Sp.",
+        "abbr": "SECS",
+        "tgGroup": "https://t.me/+PJvGBkfA8i0xZTY0"
+    },
+    "10621177": {
+        "name": "European Data Law in a Global Digital Economy",
+        "shortName": "European Data Law",
+        "abbr": "EDL",
+        "tgGroup": "https://t.me/+_x6JPGtOH0w1Njhk"
+    },
+    "10621659": {
+        "name": "Economics of Network Industries",
+        "shortName": "Network Industries",
+        "abbr": "ECNI",
+        "tgGroup": "https://t.me/+JkzqXvC9v6ZhODBk"
+    },
+    "10621176": {
+        "name": "Generative Models for Audio",
+        "shortName": "Gen. Models for Audio",
+        "abbr": "GMAU",
+        "tgGroup": "https://t.me/+hv4BLVbNT1cxZGQ0"
+    },
+    "10621403": {
+        "name": "Security and Privacy of Smart Environments",
+        "shortName": "Sec. & Priv. Smart Envs.",
+        "abbr": "SPSE",
+        "tgGroup": "https://t.me/+Z24vUDjf6k8xYWY8"
     }
 }
