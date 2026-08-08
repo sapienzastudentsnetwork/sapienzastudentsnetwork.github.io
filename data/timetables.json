@@ -96,6 +96,7 @@
         "luned\u00ec": [
           {
             "teachers": {
+              "03ed820157baa29c9671ff82b11d1fbda0f06d117976e3de3f67b766": "MANCINI TONI",
               "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
             },
             "timeslot": "14 - 17",
@@ -107,6 +108,7 @@
         "gioved\u00ec": [
           {
             "teachers": {
+              "03ed820157baa29c9671ff82b11d1fbda0f06d117976e3de3f67b766": "MANCINI TONI",
               "d0333aace56233062e9617115fb0e6c5e8e3dfa4a9d74793105ff698": "TRONCI ENRICO"
             },
             "timeslot": "16 - 18",
