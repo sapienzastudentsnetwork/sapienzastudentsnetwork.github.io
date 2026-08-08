@@ -14,16 +14,16 @@ The first year courses are all compulsory and are:
 
 | Course code | Course                        | Semester | CFU | SSD    |
 | ----------- | ----------------------------- | -------- | --- | ------ |
-| `10595099`    | Calculus 1, Unit 1            | First    | 6   | MAT/05 |
-| `10595546`    | Computer Architecture, Unit 1 | First    | 6   | INF/01 |
-| `10595524`    | Linear Algebra                | First    | 6   | MAT/02 |
-| `10630468`    | Programming, Unit 1           | First    | 6   | INF/01 |
-| `10630468`    | Programming, Unit 2           | First    | 6   | INF/01 |
-| `1049269`     | Algorithms                    | Second   | 6   | INF/01 |
-| `10595099`    | Calculus 1, Unit 2            | Second   | 6   | MAT/05 |
-| `10595546`    | Computer Architecture, Unit 2 | Second   | 6   | INF/01 |
-| `10595523`    | Physics                       | Second   | 6   | FIS/01 |
-| `10600241`    | Programming 2                 | Second   | 6   | INF/01 |
+| `10630324`    | Calculus 1, Unit 1            | First    | 6   | MATH-03/A |
+| `10631060`    | Computer Architecture, Unit 1 | First    | 6   | INFO-01/A |
+| `10627226`    | Linear Algebra                | First    | 6   | MATH-02/A |
+| `10630468`    | Programming, Unit 1           | First    | 6   | INFO-01/A |
+| `10630468`    | Programming, Unit 2           | First    | 6   | INFO-01/A |
+| `1049269`     | Algorithms                    | Second   | 6   | INFO-01/A |
+| `10630324`    | Calculus 1, Unit 2            | Second   | 6   | MATH-03/A |
+| `10631060`    | Computer Architecture, Unit 2 | Second   | 6   | INFO-01/A |
+| `10595523`    | Physics                       | Second   | 6   | PHYS-01/A |
+| `10600241`    | Programming 2                 | Second   | 6   | INFO-01/A |
 
 
 ## Second Year
@@ -41,7 +41,7 @@ The second year courses are all compulsory and are:
 | `10595616`    | Systems and networking, Unit 2                       | First    | 6   | INF/01    |
 | `10595618`    | Artificial Intelligence and Machine Learning, Unit 1 | Second   | 6   | INF/01    |
 | `10595618`    | Artificial Intelligence and Machine Learning, Unit 2 | Second   | 6   | INF/01    |
-| `10595546`    | AI Lab: Computer Vision and NLP                      | Second   | 6   | INF/01    |
+| `10595610`    | AI Lab: Computer Vision and NLP                      | Second   | 6   | INF/01    |
 | `10595617`    | Data management and analysis, Unit 2                 | Second   | 6   | INF/01    |
 | `1055043`     | Statistics                                           | Second   | 6   | SECS-S/01 |
 

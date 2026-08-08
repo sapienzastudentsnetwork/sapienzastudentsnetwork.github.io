@@ -7,13 +7,13 @@ type: 'page'
 timetables:
     - title: "First Year"
       courses:
-        - '10595099_1' # CALCULUS UNIT 1
+        - '10630324_1' # CALCULUS UNIT 1
         - '10631060_1' # COMPUTER ARCHITECTURE UNIT 1
         - '10627226'   # LINEAR ALGEBRA
         - '10630468_1' # PROGRAMMING UNIT 1
         - '10630468_2' # PROGRAMMING UNIT 2
         #- '1049269'     # ALGORITHMS
-        #- '10595099_2'  # CALCULUS UNIT 2
+        #- '10630324_2'  # CALCULUS UNIT 2
         #- '10631060_2'  # COMPUTER ARCHITECTURE
         #- '10595523'    # PHYSICS
         #- '10600241'    # PROGRAMMING 2
