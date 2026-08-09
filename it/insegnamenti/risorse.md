@@ -11,10 +11,16 @@ weight: 5
 Gli studenti e le studentesse iscritte in diversi anni di immatricolazione hanno condiviso i propri appunti di insegnamenti del corso di laurea, creando un insieme di materiale utile per il ripasso e l'approfondimento. Gli appunti di ogni studente o studentessa seguono una struttura propria: alcuni sono più dettagliati e prolissi, spiegando l'intero ragionamento, mentre altri sono più rapidi e concisi 🧙‍♂️
 
 {{% hint warning %}}
-**Attenzione:** programmi, contenuti e modalità d'esame possono cambiare in base all'anno accademico e al docente. Anche completezza e qualità degli appunti possono variare: lo staff di Sapienza Students Network non verifica sistematicamente il materiale e non può garantire l'assenza di errori o refusi. Consultalo quindi con spirito critico e a tuo rischio, confrontandolo sempre con il programma e il materiale ufficiale del corso. Molte raccolte sono comunque di ottima qualità e alcune offrono meccanismi pratici per segnalare eventuali refusi direttamente ai rispettivi autori.
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
+
+Programmi, contenuti e modalità d'esame possono cambiare in base all'anno accademico e al docente. Anche completezza e qualità degli appunti possono variare: lo staff di Sapienza Students Network non verifica sistematicamente il materiale e non può garantire l'assenza di errori o refusi. Consultalo quindi con spirito critico e a tuo rischio, confrontandolo sempre con il programma e il materiale ufficiale del corso. Molte raccolte sono comunque di ottima qualità e alcune offrono meccanismi pratici per segnalare eventuali refusi direttamente ai rispettivi autori.
 {{% /hint %}}
 
-Hai una raccolta di appunti che vuoi mettere a disposizione di tutti? Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram dedicato](https://telegram.me/SapienzaStudentsNetworkBot), [aprendo una issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new) oppure [proponendo direttamente una modifica alla pagina](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/edit/main/it/insegnamenti/risorse.md), dalla quale potrai poi creare una pull request.
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Hai una raccolta di appunti che vorresti mettere a disposizione di tutti?**
+
+Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram dedicato](https://telegram.me/SapienzaStudentsNetworkBot), [aprendo una issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new) oppure [proponendo direttamente una modifica alla pagina](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/edit/main/it/insegnamenti/risorse.md), dalla quale potrai poi creare una pull request.
+{{% /hint %}}
 
 > «Se tu hai una mela, e io ho una mela, e ce le scambiamo, allora tu ed io abbiamo sempre una mela per uno. Ma se tu hai un'idea, ed io ho un'idea, e ce le scambiamo, allora abbiamo entrambi due idee»  
 > — **Charles F. Brannan**
