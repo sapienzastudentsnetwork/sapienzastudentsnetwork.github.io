@@ -47,11 +47,11 @@ Spazi collaborativi organizzati per insegnamento, ospitati su GitHub, nei quali 
 
 ## Gruppi Telegram degli insegnamenti
 
-I [gruppi Telegram](/it/canali/gruppi/) sono canali utili per confrontarsi con altri studenti e scambiarsi informazioni e materiale relativo ai diversi insegnamenti. A differenza dei gruppi WhatsApp, su Telegram anche i nuovi membri possono consultare l'intera cronologia della chat, poiché messaggi e file condivisi sono conservati nel cloud. Per questo motivo, consigliamo di cercare anche nei messaggi precedenti: nel tempo potrebbero essere stati condivisi esercizi, chiarimenti, appunti e tracce di vecchi appelli d'esame.
+I [gruppi Telegram dei singoli insegnamenti](/it/canali/gruppi/#gruppi-dei-singoli-insegnamenti) sono canali utili per confrontarsi con altri studenti e scambiarsi informazioni e materiale relativo ai diversi insegnamenti. A differenza dei gruppi WhatsApp, su Telegram anche i nuovi membri possono consultare l'intera cronologia della chat, poiché messaggi e file condivisi sono conservati nel cloud. Per questo motivo, consigliamo di cercare anche nei messaggi precedenti: nel tempo potrebbero essere stati condivisi esercizi, chiarimenti, appunti e tracce di vecchi appelli d'esame.
 
 ## Materiale ufficiale ed e-learning dei corsi
 
-All'inizio di ogni semestre cerca nelle bacheche dei docenti e nei gruppi chat i collegamenti aggiornati alle pagine e-learning dei singoli insegnamenti: Google Classroom, Google Groups, E-learning Sapienza (Moodle) o siti dedicati dei corsi. Sono normalmente gli spazi nei quali i docenti pubblicano durante le lezioni slide, dispense, esercizi, avvisi e altro materiale ufficiale.
+All'inizio di ogni semestre cerca nelle [bacheche dei docenti](https://sapienzastudents.net/sapienzafeed/corsidilaurea/33503/it/teachers.html) e nei [gruppi chat](/it/canali/gruppi/) i collegamenti aggiornati alle pagine e-learning dei singoli insegnamenti: Google Classroom, Google Groups, E-learning Sapienza (Moodle) o siti dedicati dei corsi. Sono normalmente gli spazi nei quali i docenti pubblicano durante le lezioni slide, dispense, esercizi, avvisi e altro materiale ufficiale.
 
 ## Archivio risorse vecchio ordinamento
 
