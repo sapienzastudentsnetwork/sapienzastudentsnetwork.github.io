@@ -31,25 +31,27 @@ anche attraverso l'apposito [bot Telegram di contatto](https://telegram.me/Sapie
 ### Primo Semestre
 
 - [Metodi Matematici per l'Informatica](https://github.com/sapienzastudentsnetwork/metodi-matematici-per-l-informatica)
-- [Progettazione di Sistemi Digitali](https://github.com/sapienzastudentsnetwork/progettazione-di-sistemi-digitali)
+- [Progettazione di Sistemi Digitali (vecchio ordinamento)](https://github.com/sapienzastudentsnetwork/progettazione-di-sistemi-digitali)
 
 ### Secondo Semestre
 
-- [Architettura degli Elaboratori](https://github.com/sapienzastudentsnetwork/architettura-degli-elaboratori)
+- [Architettura degli Elaboratori (vecchio ordinamento)](https://github.com/sapienzastudentsnetwork/architettura-degli-elaboratori)
 
 ## Secondo Anno
 
 ### Primo Semestre
 
-- [Algebra](https://github.com/sapienzastudentsnetwork/algebra)
-- [Basi di Dati I](https://github.com/sapienzastudentsnetwork/basi-di-dati-1)
-- [Calcolo delle Probabilità](https://github.com/sapienzastudentsnetwork/calcolo-delle-probabilita)
+- [Architettura degli Elaboratori 1](https://github.com/sapienzastudentsnetwork/progettazione-di-sistemi-digitali)
+- [Algebra (vecchio ordinamento)](https://github.com/sapienzastudentsnetwork/algebra)
+- [Basi di Dati](https://github.com/sapienzastudentsnetwork/basi-di-dati-1)
+- [Calcolo delle Probabilità (vecchio ordinamento)](https://github.com/sapienzastudentsnetwork/calcolo-delle-probabilita)
 
 ### Secondo Semestre
 
-- [Basi di Dati II](https://github.com/sapienzastudentsnetwork/basi-di-dati-2)
-- [Progettazione di Algoritmi](https://github.com/sapienzastudentsnetwork/progettazione-di-algoritmi)
-- [Reti di Elaboratori](https://github.com/sapienzastudentsnetwork/reti-di-elaboratori)
+- [Algoritmi 2 (ex "Progettazione di Algoritmi")](https://github.com/sapienzastudentsnetwork/progettazione-di-algoritmi)
+- [Architettura degli Elaboratori 2](https://github.com/sapienzastudentsnetwork/architettura-degli-elaboratori)
+- [Basi di Dati II (vecchio ordinamento)](https://github.com/sapienzastudentsnetwork/basi-di-dati-2)
+- [Fondamenti di Internet (ex "Reti di Elaboratori")](https://github.com/sapienzastudentsnetwork/reti-di-elaboratori)
 
 ## Terzo Anno
 

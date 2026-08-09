@@ -45,7 +45,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Optimization Methods for Data Science](https://t.me/+AYCZVjxraig3OGY0)
 - [Quantitative Models for Economic Analysis and Management](https://t.me/+_M2qDZkjPC5hMjVk)
 - [Signal Processing for Machine Learning](https://t.me/+Az2Ep6UmZcc1MWRk)
-- [Smart Environments](https://t.me/+_mmxI3ZDxPdlZmU0)
+- [Smart Environments and Cyber Physical Spaces](https://t.me/+_mmxI3ZDxPdlZmU0)
 - [Statistical Machine Learning](https://t.me/+hPFr4Z0_aIo2MTk8)
 - [Stochastic Processes for Data Science](https://t.me/+DZxL8-Bq85gzODg0)
 
