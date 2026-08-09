@@ -1,37 +1,88 @@
-# Studying at the university and searching for texts
+# Libraries and study rooms
 
-Sapienza offers more than 40 libraries (with almost 3 milion available texts), many study halls and free access to 170 online databases.
+The Sapienza Library System includes more than 40 libraries across numerous branches and provides reading seats, bookable group-study rooms, computer workstations, borrowing services, bibliographic assistance, and classes on research methods and bibliography preparation.
 
-## Studying at the university
+Its collections include about 2.7 million books, journals and multimedia resources. Sapienza students can also use thousands of e-books and electronic journals and more than 170 databases, including off-campus access where permitted by the Library System.
 
-Each library offers a certain number of seats to read and study: you can find a map [here](https://opac.uniroma1.it/SebinaOpacRMS/article/biblioteche-sapienza/biblioteche). We point out the library `Ingegneria dell'Informazione, Elettronica e Telecomunicazioni`, which is in Via Eudossiana 18, in Edificio RM032 (Floor 3), but every student of Sapienza has access to **all the libraries in the university buildings**. Access requirse only to **show an ID document.**
+For an official and up-to-date overview, see the [Sapienza Library System page](https://www.uniroma1.it/en/pagina/sapienza-library-system).
 
-There is no precise list of the study halls, but you can find them almost in every building of Sapienza. We point out here the study hall frequently used by computer science students:
-* Viale Regina Elena 295:
-    * Aula studio aula S4, edificio E (Floor -1);
-    * Aula studio, Edificio G (Ground Floor);
+## Finding a library
 
-* Via Salaria 113:
-    * Laboratorio Colossus (Floor -1);
-    * Unnamed study halls, ask for them to the reception (Ground Floor).
+The current list of libraries, including locations, contact details, opening hours and available services, is published in the [Sapienza Libraries Catalogue](https://opac.uniroma1.it/SebinaOpacRMS/article/biblioteche-sapienza/biblioteche?locale=eng).
 
-## Searching for texts
+> The Information Engineering, Electronics and Telecommunications Library in Via Eudossiana is listed as **inactive** and is therefore not included among the recommended facilities on this page.
 
-Sapienza offers the possibility to search for all the free texts available to the students through [**MyEBSCO**](https://research.ebsco.com/c/2j64g6/search). There, you can also find a private area accessible with Infostud credentials, where you can save the texts you have found. On MyEBSCO it is possible to do research for title author or argument.
+### Libraries convenient for Department locations
 
-Let's do an example to show how it works. Suppose you have to search for "Learning Python":
-1. Write the name of the text of the search bar of MyEBSCO (in the case of search for a specific text it is better to insert the name of the author to reduce the results shown);
-2. If the research goes well, click on "**Opzioni accesso**" (Option of access) under the chosen text;
+The following libraries are often convenient for Department students, particularly because they are close to the Via Antonio Scarpa and Marco Polo locations:
 
-![ciao](https://i.imgur.com/vXip7re.png)
+- **Basic and Applied Sciences for Engineering**  
+  Via Antonio Scarpa 10 — RM002 Building  
+  Email: [biblio@sbai.uniroma1.it](mailto:biblio@sbai.uniroma1.it)  
+  Phone: +39 06 4976 6666  
+  [Library website](https://www.sbai.uniroma1.it/strutture/biblioteche)
 
-3. If you want to read it online, click on **"Verifica la disponibilità in formato elettronico"** (Verify online availability) or "**Accedi alla Risorsa**" (Access to the resource): if available online, you will be shown where you can download it;
-4. If the text is available on paper in the Sapienza libraries and you want to read it in that format, click on "**Vai al Catalogo**" (Go to catalogue): you will be redirected to [OPAC](https://opac.uniroma1.it/SebinaOpacRMS/.do), the catalogue of texts that can be found in Sapienza libraries. Here, you can see in which of library it is available: in our example, "Learning Python" is only in the library ‘Ricerca sociale, informatica e comunicazione'; if the text is available is more than one library, one can chose the one you prefer; remember to make a note of **'codice inventario' ** (inventory code) and    **'codice collocazione'** (collocation code). Lastly, go to one of the library in which the text is available, request a consultation or loan module and fill it with the previous codes.
+- **Anatomical Sciences and Precision Medicine — Histology branch**  
+  Via Antonio Scarpa 16 — RM008 Building, Ground Floor  
+  Email: [biblio.saimlal@uniroma1.it](mailto:biblio.saimlal@uniroma1.it)  
+  Phone: +39 06 4991 6579
 
-{{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
+- **Marco Polo Library**  
+  Circonvallazione Tiburtina 4 — Marco Polo Building, Floor 2  
+  Email: [bibliostudiorientali@uniroma1.it](mailto:bibliostudiorientali@uniroma1.it)  
+  Phone: +39 06 8837 8001
 
-Remember that it is possible to request a text **ONLY AND EXCLUSIVELY in the libraries where it is available**! If you go to another library of Sapienza the request will be denied.
-{{% /hint %}}
+- **Modern Foreign Languages and Literatures**  
+  Circonvallazione Tiburtina 4 — Marco Polo Building, Floor 2  
+  Email: [bibliolingue@uniroma1.it](mailto:bibliolingue@uniroma1.it)  
+  Phone: +39 06 8837 8076 / 8075
 
-![ciao](https://i.imgur.com/Rbwdziu.png)
+Addresses, contacts and access arrangements may change. Always check the relevant entry in the official catalogue before visiting.
+
+## Department study rooms
+
+The following spaces are particularly useful for students of the Department of Computer Science:
+
+- **Room S1** — Regina Elena, Building E, Floor -1;
+- **Room T1** — Regina Elena, Building E, Floor 0;
+- **Study Room S4** — Regina Elena, Building E, Floor -1;
+- **Lab. Colossus** — Via Salaria 113, Floor -1;
+- **Lab. HAL9000** — Via Salaria 113, Floor -1.
+
+For locations, availability and current information, see [Rooms](https://sapienzastudents.net/rooms/).
+
+For **S1, T1, Colossus and HAL9000**, a room is available for study only when it is not being used for lectures or other institutional events. These rooms are closed on national holidays and whenever the relevant facility is closed, regardless of the events displayed in the timetable. Check the Rooms page daily: its timetable is synchronised automatically with GOMP, but some lectures or events may not appear. S4 is specifically designated as a study room.
+
+## 24-hour reading rooms
+
+Sapienza lists the following reading rooms:
+
+1. **Umberto I General Hospital** — entrances from Viale del Policlinico 155 and Viale Regina Elena 324;
+2. **Earth Sciences** — Geology Building, CU005, access from Piazzale Aldo Moro;
+3. **Faculty of Law — Private Law** — Plesso Tecce, CU018 Building, access from Piazzale Aldo Moro;
+4. **Basic and Applied Sciences for Engineering — Sala Ghizzetti** — Via Antonio Scarpa 16, RM007 Building;
+5. **Oriental Studies** — Marco Polo Building, Circonvallazione Tiburtina 4, RM021 Building;
+6. **Modern Foreign Languages and Literatures** — Marco Polo Building, Circonvallazione Tiburtina 4, RM021 Building.
+
+Not every room listed necessarily operates continuously at all times of the year. Check the official [24H Reading Rooms page](https://www.uniroma1.it/en/pagina/24h-reading-rooms) for:
+
+- current opening hours and scheduled or exceptional closures;
+- access requirements and procedures, including the student card;
+- seating capacity, where published;
+- available services, such as Wi-Fi and electrical outlets;
+- regulations and any location-specific registration arrangements.
+
+## Finding books, articles and other resources
+
+The [Sapienza Libraries Catalogue](https://opac.uniroma1.it/) can be used to find books, journals and other materials held by Sapienza libraries and to identify the libraries where they are available.
+
+[DiscoverySapienza](https://research.ebsco.com/c/2j64g6/) searches the catalogue together with many electronic resources. You can search by title, author or subject and, where required, sign in with institutional credentials to use personal services and access eligible resources off campus.
+
+For an effective search:
+
+1. enter the title and, if known, the author's name;
+2. check the access options to see whether the resource is available online;
+3. for a printed copy, open the catalogue record and check the holding library, availability and shelf mark;
+4. check the library's page before travelling, as borrowing, consultation, booking and entry may be subject to local rules.
+
+A printed item must be requested from a library that holds it. For help, use the in-person or email reference services listed by the individual libraries.
