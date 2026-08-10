@@ -48,27 +48,58 @@
     toggle(id) { this.state.selected = this.state.selected.includes(id) ? this.state.selected.filter(value => value !== id) : [...this.state.selected,id]; this.persist(); this.render(); }
     removeCustom(id) { this.state.custom=this.state.custom.filter(item=>item.id!==id); this.state.selected=this.state.selected.filter(value=>value!==id); this.persist(); this.render(); }
 
+    canAllocateGroups(courses, requirements) {
+      const entries=courses.filter(course=>!course.external&&course.tags?.some(tag=>requirements[tag]));
+      const tags=Object.keys(requirements);
+      const search=(index,totals)=>{
+        if(tags.every(tag=>(totals[tag]||0)>=requirements[tag])) return true;
+        if(index>=entries.length) return false;
+        const course=entries[index];
+        if(search(index+1,totals)) return true;
+        return course.tags.some(tag=>requirements[tag]&&search(index+1,{...totals,[tag]:(totals[tag]||0)+course.cfu}));
+      };
+      return search(0,{});
+    }
+
     validation() {
-      const chosen=this.chosen(), total=chosen.reduce((sum,item)=>sum+item.cfu,0), externalRaw=chosen.filter(item=>item.external).reduce((sum,item)=>sum+item.cfu,0), internal=total-externalRaw;
-      const rules=[{text:'30 CFU complessivi',ok:total===30},{text:'Massimo 15 CFU esterni selezionati',ok:externalRaw<=15},{text:'Massimo 12 CFU esterni riconoscibili',ok:externalRaw<=12,warning:externalRaw>12&&externalRaw<=15}];
+      const chosen=this.chosen();
+      const externalRaw=chosen.filter(item=>item.external).reduce((sum,item)=>sum+item.cfu,0);
+      const internal=chosen.filter(item=>!item.external).reduce((sum,item)=>sum+item.cfu,0);
+      const externalRecognized=Math.min(externalRaw,12);
+      const total=internal+externalRecognized;
+      const rules=[
+        {text:'30 CFU complessivi riconosciuti',ok:total===30},
+        {text:'Massimo 15 CFU esterni selezionati',ok:externalRaw<=15},
+        {text:'Massimo 12 CFU esterni riconoscibili',ok:externalRaw<=12,warning:externalRaw>12&&externalRaw<=15}
+      ];
       const sumTag=(tag)=>chosen.filter(item=>!item.external&&item.tags?.includes(tag)).reduce((sum,item)=>sum+item.cfu,0);
-      if(this.state.mode==='presenza'&&this.state.regulation==='new'){rules.push({text:'Almeno 12 CFU dal Gruppo opzionale',ok:sumTag('optional')>=12},{text:'Almeno 6 CFU da IA e Machine Learning',ok:sumTag('aiml')>=6});}
+      if(this.state.mode==='presenza'&&this.state.regulation==='new'){
+        rules.push({text:'Almeno 12 CFU dal Gruppo opzionale',ok:sumTag('optional')>=12},{text:'Almeno 6 CFU da IA e Machine Learning',ok:sumTag('aiml')>=6});
+      }
       if(this.state.mode==='presenza'&&this.state.regulation==='old'){
-        if(this.state.curriculum==='methodological') rules.push({text:'Almeno 12 CFU metodologici caratterizzanti (mc)',ok:sumTag('mc')>=12},{text:'Almeno 6 CFU metodologici affini (ma)',ok:sumTag('ma')>=6});
-        if(this.state.curriculum==='technological') rules.push({text:'Almeno 6 CFU metodologici di completamento (tmc)',ok:sumTag('tmc')>=6},{text:'Almeno 6 CFU tecnologici affini (ta)',ok:sumTag('ta')>=6},{text:'Almeno 6 CFU tecnologici di completamento (tc)',ok:sumTag('tc')>=6});
+        if(this.state.curriculum==='methodological'){
+          const allocated=this.canAllocateGroups(chosen,{mc:12,ma:6});
+          rules.push({text:'Almeno 12 CFU metodologici caratterizzanti (mc) e 6 CFU metodologici affini (ma), senza conteggiare due volte lo stesso insegnamento',ok:allocated});
+        }
+        if(this.state.curriculum==='technological'){
+          const allocated=this.canAllocateGroups(chosen,{tmc:6,ta:6,tc:6});
+          rules.push({text:'Almeno 6 CFU per ciascun gruppo tmc, ta e tc, senza conteggiare due volte lo stesso insegnamento',ok:allocated});
+        }
         if(this.state.curriculum==='individual') rules.push({text:'Almeno 18 CFU interni nel percorso individuale',ok:internal>=18});
       }
       if(this.state.mode==='teledidattica'){
-        const a=this.state.regulation==='old'?'characterizing':'related', b=this.state.regulation==='old'?'related':'specialist';
-        rules.push({text:`Almeno 12 CFU: ${labels[a]}`,ok:sumTag(a)>=12},{text:`Almeno 6 CFU: ${labels[b]}`,ok:sumTag(b)>=6});
+        const a=this.state.regulation==='old'?'characterizing':'related';
+        const b=this.state.regulation==='old'?'related':'specialist';
+        const allocated=this.canAllocateGroups(chosen,{[a]:12,[b]:6});
+        rules.push({text:`Almeno 12 CFU: ${labels[a]}, e almeno 6 CFU: ${labels[b]}, senza conteggiare due volte lo stesso insegnamento`,ok:allocated});
       }
-      return {chosen,total,externalRaw,internal,rules,valid:rules.every(rule=>rule.ok||rule.warning)};
+      return {chosen,total,externalRaw,externalRecognized,internal,rules,valid:rules.every(rule=>rule.ok||rule.warning)};
     }
 
     render() {
       this.root.querySelector('[data-field="regulation"]').value=this.state.regulation; this.root.querySelector('[data-field="curriculum"]').value=this.state.curriculum;
       this.root.querySelector('[data-curriculum-field]').classList.toggle('sp-hidden',!(this.state.mode==='presenza'&&this.state.regulation==='old'));
-      const result=this.validation(); this.root.querySelector('.sp-summary').innerHTML=`<div class="sp-metric"><span>Totale</span><strong>${result.total}/30 CFU</strong></div><div class="sp-metric"><span>Interni</span><strong>${result.internal} CFU</strong></div><div class="sp-metric"><span>Esterni</span><strong>${result.externalRaw} CFU</strong></div><div class="sp-metric"><span>Esito quantitativo</span><strong class="${result.valid?'sp-ok':'sp-bad'}">${result.valid?'Conforme':'Da completare'}</strong></div>`;
+      const result=this.validation(); this.root.querySelector('.sp-summary').innerHTML=`<div class="sp-metric"><span>Totale</span><strong>${result.total}/30 CFU</strong></div><div class="sp-metric"><span>Interni</span><strong>${result.internal} CFU</strong></div><div class="sp-metric"><span>Esterni</span><strong>${result.externalRaw} selezionati${result.externalRaw>12?` / ${result.externalRecognized} riconosciuti`:''} CFU</strong></div><div class="sp-metric"><span>Esito quantitativo</span><strong class="${result.valid?'sp-ok':'sp-bad'}">${result.valid?'Conforme':'Da completare'}</strong></div>`;
       this.root.querySelector('.sp-rules').innerHTML=result.rules.map(rule=>`<div class="sp-rule ${rule.ok?'sp-ok':'sp-bad'}">${rule.ok?'✓':rule.warning?'⚠':'✗'} ${rule.text}${rule.warning?' (saranno riconosciuti 12 CFU)':''}</div>`).join('');
       this.renderCourses(); this.renderPlan();
     }
