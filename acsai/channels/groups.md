@@ -42,6 +42,7 @@ The main Telegram group is dedicated to general discussions regarding **ACSAI an
 
 - [Business and Computer Science](https://t.me/+Z8YI05oono0yNjFk)
 - [Cybersecurity](https://t.me/+ZLceB7Q8cSA2NzA0)
+- [Deep Learning](https://t.me/+proAmd3fLvs5NmE0)
 - [Web and Software Architecture](https://t.me/+TopZxkqZSSo2MzQ0)
 
 For external elective courses in Italian, to be taken from the "Informatica" (29923) Bachelor's Degree Program, click [HERE](/it/canali/gruppi#primo-semestre-2)
