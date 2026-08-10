@@ -24,8 +24,26 @@ Il tirocinio:
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
-Il tirocinio ha una durata di 105 giorni, è molto importante quindi tenere in considerazione questa durata per scegliere la sessione di laurea.
+Il tirocinio corrisponde a un impegno indicativo di **circa tre mesi**. Per i tirocini esterni il progetto formativo prevede **375 ore**; nei tirocini interni non viene effettuato un conteggio formale delle ore e fanno fede il progetto concordato e la valutazione del Responsabile Interno. I **105 giorni** non rappresentano quindi la durata del tirocinio: sono il periodo di riferimento tra l'assegnazione e la sessione di laurea, necessario per lasciare spazio anche alla relazione e agli adempimenti finali.
 {{% /hint %}}
+
+## Quando posso richiedere il tirocinio?
+
+Puoi richiedere l'assegnazione a partire dal secondo semestre del terzo anno, dopo aver conseguito almeno **126 CFU**. La soglia di 126 CFU vale per gli studenti della laurea triennale in Informatica sia del nuovo sia del precedente ordinamento.
+
+Nel conteggio possono rientrare anche singole unità già superate ma non ancora verbalizzate. Nella richiesta di assegnazione puoi quindi autodichiarare il totale dei CFU includendo queste unità.
+
+## Cronoprogramma orientativo
+
+Se hai già scelto la sessione in cui vuoi laurearti, procedi a ritroso:
+
+1. **Richiesta e assegnazione del tirocinio:** scegli la tipologia di tirocinio, segui la procedura e invia i moduli indicati nelle sezioni [tirocinio interno](#come-richiedere-il-tirocinio-interno) o [tirocinio esterno](#come-richiedere-il-tirocinio-esterno). Il tirocinio deve risultare assegnato almeno **105 giorni prima della sessione di laurea**; il riferimento iniziale è la data di assegnazione.
+2. **Per circa tre mesi:** svolgi il tirocinio e prepara autonomamente la relazione, confrontandoti durante il lavoro con il Responsabile Interno. Per i tirocini esterni il progetto formativo prevede 375 ore; per quelli interni non viene effettuato un conteggio formale delle ore. Tra l'assegnazione del tirocinio e la consegna della relazione devono comunque trascorrere almeno 90 giorni.
+3. **Entro la scadenza indicata per la sessione:** presenta la [domanda di laurea](../../../laurearsi/domanda-di-laurea/). La scadenza è normalmente collocata circa 30 giorni prima della sessione, ma fa sempre fede il calendario ufficiale. **La scadenza è vincolante: senza una domanda presentata nei termini non è possibile laurearsi nella sessione scelta.**
+4. **Circa 15 giorni prima della seduta:** invia la relazione secondo le istruzioni ricevute dalla Segreteria Didattica. La relazione non va caricata su Infostud.
+5. **Negli ultimi 7/5 giorni:** quando l'appello è disponibile, prenota su Infostud la prova di tirocinio/prova finale e controlla il prospetto con luogo e orario della seduta.
+
+Le scadenze esatte cambiano da una sessione all'altra: consulta il [calendario dell'anno accademico in cui intendi laurearti](/it/insegnamenti/calendari/). Per la procedura consulta invece la pagina sulla [domanda di laurea](../../../laurearsi/domanda-di-laurea/) e, per il punteggio finale, quella dedicata al [voto di laurea](../../../laurearsi/voto-di-laurea/).
 
 ## Quale tirocinio fa più per me?
 
@@ -66,3 +84,17 @@ Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede
 11. Il progetto formativo, completo di tutte le firme, viene restituito allo studente.
 12. Tutta la documentazione deve essere inviata alla segreteria tramite il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), insieme agli altri moduli richiesti: il [modulo di autorizzazione al trattamento dei dati personali ad aziende ed enti per fini di placement](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing) (opzionale) e la [dichiarazione di presa visione delle linee guida sul plagio](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view).
 13. È possibile iniziare il tirocinio. È consigliabile verificare con il Professor Gorla che tutta la documentazione sia in ordine.
+
+## Il giorno della seduta di laurea
+
+Durante la seduta di laurea discuterai la relazione di tirocinio con una sottocommissione, nel luogo e nell'orario indicati nel prospetto della seduta.
+
+Studenti, studentesse e invitati devono rispettare la normativa vigente sul comportamento durante le sedute di laurea, riportata nella pagina ufficiale Sapienza [Laurearsi](https://www.uniroma1.it/it/pagina/laurearsi).
+
+## Riferimenti ufficiali utili
+
+Per gli aspetti generali relativi ai tirocini curriculari ed esterni puoi consultare:
+
+- la pagina Sapienza [Tirocini](https://www.uniroma1.it/it/pagina/tirocini);
+- il [Regolamento per i tirocini curriculari](https://www.uniroma1.it/sites/default/files/regolamenti/Regolamentotirocinicurriculari.pdf);
+- la pagina interna sul [Career Service](/it/info/servizi/career-service/), che raccoglie le informazioni su TSP Sapienza, ricerca delle opportunità e candidature.

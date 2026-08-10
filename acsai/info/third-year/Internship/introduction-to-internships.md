@@ -22,10 +22,29 @@ The internship:
 * **External**: It is carried out at a company or an external organization, under the supervision of a company tutor (External Supervisor) and a professor from the University (Internal Supervisor). During the external internship, the student will have the opportunity to apply the skills acquired during the degree program by working on real projects and tackling typical challenges of the professional world.
 
 {{% hint warning %}}
-<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
+<i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attention**
 
-The internship lasts 105 days, so it is very important to take this duration into account when choosing the graduation session.
+The internship corresponds to an indicative commitment of **about three months**. For external internships, the training project provides for **375 hours**; internal internships are not subject to formal hour tracking, and the agreed project and the Internal Supervisor's assessment are what matter. The **105 days** are therefore not the duration of the internship: they are the reference period between assignment and the graduation session, leaving time for the report and the final administrative steps.
 {{% /hint %}}
+
+## When can I request the internship?
+
+You can request the internship assignment from the second semester of the third year, after acquiring at least **126 ECTS credits**.
+
+Individual course units that have already been passed but not yet recorded may also count towards the threshold. In the internship-assignment request, you may therefore self-declare the total number of ECTS credits including those units.
+
+## Suggested timeline
+
+Once you have chosen the graduation session you are aiming for, work backwards:
+
+1. **Internship request and assignment:** choose the type of internship, follow the relevant procedure and submit the forms listed under [internal internship](#how-to-apply-for-the-internship-internal) or [external internship](#how-to-apply-for-the-internship-external). The internship must have been assigned at least **105 days before the graduation session**; the starting reference is the assignment date.
+2. **For approximately three months:** complete the internship and write the report independently, consulting your Internal Supervisor throughout the work. External training projects provide for 375 hours; internal internships are not subject to formal hour tracking. In every case, at least 90 days must elapse between the internship assignment and submission of the report.
+3. **By the deadline for the selected session:** submit the [graduation application](../../../graduating/graduation-application/). The deadline is normally around 30 days before the session, but the official calendar always takes precedence. **The deadline is binding: without an application submitted on time, you cannot graduate in the selected session.**
+4. **Approximately 15 days before the graduation date:** send the report according to the instructions received from the Educational Affairs Office. Do not upload the report to Infostud.
+5. **During the final 7/5 days:** once the exam session is available, book the internship/final examination on Infostud and check the published schedule for the place and time.
+
+Exact deadlines vary between sessions: check the [calendar for the academic year in which you intend to graduate](/acsai/courses/calendars/). For the procedure, see the [graduation-application page](../../../graduating/graduation-application/), and for the final score see the [graduation-grade page](../../../graduating/graduation-grade/).
+
 
 ## Which Internship Is Best for Me?
 
@@ -70,3 +89,17 @@ Applying for an internal internship is a fairly simple process that requires a f
 11. The training project, with all signatures, is returned to the student.
 12. All documentation must be submitted to the administration via the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), along with the other required forms: the [authorisation form for the transfer of personal data to companies and institutions for placement purposes](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing) (optional) and the [declaration of acknowledgement of the guidelines on anti-plagiarism control](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view?usp=sharing).
 13. The internship can begin. It is advisable to check with Professor Gorla that all documentation is in order.
+
+## On the day of the graduation session
+
+During the graduation session, you will discuss your internship report with a subcommittee at the place and time indicated in the session schedule.
+
+Students and guests must comply with the current rules on conduct during graduation sessions, available on the official Sapienza [Graduation](https://www.uniroma1.it/en/pagina/graduation) page.
+
+## Useful official resources
+
+For general information about curricular and external internships, see:
+
+- the Sapienza [Internships](https://www.uniroma1.it/en/pagina/internships) page;
+- the [Regulations for curricular internships](https://www.uniroma1.it/sites/default/files/regolamenti/Regolamentotirocinicurriculari.pdf) (in Italian);
+- the internal [Career Service](/acsai/info/services/career-service/) page, which covers TSP Sapienza, internship searches and applications.
