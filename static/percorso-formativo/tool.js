@@ -104,7 +104,21 @@
       this.renderCourses(); this.renderPlan();
     }
 
-    renderCourses() { const query=this.root.querySelector('.sp-search').value.trim().toLowerCase(); const selected=new Set(this.state.selected); this.root.querySelector('.sp-courses').innerHTML=this.catalog().filter(c=>`${c.name} ${c.code}`.toLowerCase().includes(query)).map(c=>`<div class="sp-course"><div><strong>${this.escape(c.name)}</strong><small>${this.escape(c.code)} · ${c.cfu} CFU</small></div><span class="sp-semester">${c.semester}° sem.</span><span class="sp-tags">${c.tags.map(t=>labels[t]||t).join(', ')}</span><button type="button" data-course="${this.escape(c.id)}" data-selected="${selected.has(c.id)}">${selected.has(c.id)?'Rimuovi':'Aggiungi'}</button></div>`).join('') || '<p>Nessun insegnamento trovato.</p>'; }
+    renderCourses() {
+      const query=this.root.querySelector('.sp-search').value.trim().toLowerCase();
+      const selected=new Set(this.state.selected);
+      const courses=this.allCourses().filter(course=>`${course.name} ${course.code||''}`.toLowerCase().includes(query));
+      this.root.querySelector('.sp-courses').innerHTML=courses.map(course=>{
+        const details=course.external
+          ? `${this.escape(course.code||'senza codice')} · ${course.cfu} CFU · insegnamento esterno personalizzato`
+          : `${this.escape(course.code)} · ${course.cfu} CFU`;
+        const semester=course.external?'':`<span class="sp-semester">${course.semester}° sem.</span>`;
+        const groups=course.external
+          ? '<span class="sp-tags">Esterno personalizzato</span>'
+          : `<span class="sp-tags">${course.tags.map(tag=>labels[tag]||tag).join(', ')}</span>`;
+        return `<div class="sp-course"><div><strong>${this.escape(course.name)}</strong><small>${details}</small></div>${semester}${groups}<button type="button" data-course="${this.escape(course.id)}" data-selected="${selected.has(course.id)}">${selected.has(course.id)?'Rimuovi':'Aggiungi'}</button></div>`;
+      }).join('') || '<p>Nessun insegnamento trovato.</p>';
+    }
     renderPlan() { const chosen=this.validation().chosen; this.root.querySelector('.sp-plan').innerHTML=`<h3>Il tuo percorso</h3>${chosen.length?`<table><thead><tr><th>Insegnamento</th><th>Codice</th><th>CFU</th><th>Tipo</th><th></th></tr></thead><tbody>${chosen.map(c=>`<tr><td>${this.escape(c.name)}</td><td>${this.escape(c.code||'—')}</td><td>${c.cfu}</td><td>${c.external?'Esterno':'Interno'}</td><td><button type="button" data-course="${this.escape(c.id)}">Rimuovi</button>${c.external?` <button type="button" data-remove="${this.escape(c.id)}">Elimina definitivamente</button>`:''}</td></tr>`).join('')}</tbody></table>`:'<p>Non hai ancora aggiunto insegnamenti.</p>'}`; }
 
     action(name) { if(name==='json') this.download('percorso-formativo.json',JSON.stringify({...this.state,exportedAt:new Date().toISOString()},null,2),'application/json'); if(name==='import') this.root.querySelector('[data-import]').click(); if(name==='png') this.exportPng(); if(name==='reset' && window.confirm('Vuoi davvero azzerare questo percorso formativo? Questa operazione rimuoverà le selezioni e gli insegnamenti esterni personalizzati dell’ordinamento corrente.')){this.state.selected=[];this.state.custom=[];this.saveDraft();this.persist();this.render();} }
