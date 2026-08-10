@@ -19,8 +19,8 @@ Gli insegnamenti opzionali potranno infatti essere prenotati e verbalizzati solt
 ### Quanti insegnamenti scegliere
 **Con il nuovo ordinamento (immatricolati dall'A.A. 2025/26 in poi)**, al Primo Anno è prevista la scelta di un insegnamento all'interno del Gruppo opzionale "Inglese", tra le seguenti alternative:
  
-- AAF2512 – Inglese ESP (livello B1)
-- AAF1902 – Lingua Inglese (livello B2)
+- AAF2512 – Inglese ESP Livello B1
+- AAF1902 – Lingua Inglese Livello B2
 
 Durante il Terzo Anno, ogni studente deve acquisire **30 CFU** tramite **insegnamenti opzionali**.
 - La scelta può avvenire con qualsiasi combinazione che porti al totale di 30 CFU: ad esempio 5 insegnamenti da 6 CFU, oppure 3 insegnamenti da 6 CFU e 1 da 12 CFU, ecc.
@@ -35,16 +35,16 @@ Il percorso formativo può essere presentato dal **1 Ottobre di ogni anno fino a
 
 La Commissione valuterà i percorsi pervenuti secondo il seguente schema:
 
-| **Periodo di presentazione** | **Scadenza per la valutazione**   |
-|-------------------------------------------------|-----------------------------------|
-| Dal 1 ottobre al 10 ottobre                     | Entro il 30 ottobre               |
-| Dall'11 ottobre al 30 novembre                  | Entro il 31 dicembre              |
-| Dal 1 dicembre al 15 gennaio                    | Entro il 31 gennaio               |
-| Dal 16 gennaio al 28 febbraio                   | Entro il 31 marzo                 |
-| Dal 1 marzo al 30 aprile                        | Entro il 31 maggio                |
-| Dal 1 maggio al 30 giugno                       | Entro il 31 luglio                |
-| Dal 1 luglio al 14 settembre                    | **Non si effettuano valutazioni** |
-| Dal 15 settembre al 30 settembre                | Entro il 31 ottobre               |
+| **Periodo di presentazione**     | **Scadenza per la valutazione**   |
+|----------------------------------|-----------------------------------|
+| Dal 1 ottobre al 10 ottobre      | Entro il 30 ottobre               |
+| Dall'11 ottobre al 30 novembre   | Entro il 31 dicembre              |
+| Dal 1 dicembre al 15 gennaio     | Entro il 31 gennaio               |
+| Dal 16 gennaio al 28 febbraio    | Entro il 31 marzo                 |
+| Dal 1 marzo al 30 aprile         | Entro il 31 maggio                |
+| Dal 1 maggio al 30 giugno        | Entro il 31 luglio                |
+| Dal 1 luglio al 14 settembre     | **Non si effettuano valutazioni** |
+| Dal 15 settembre al 30 settembre | Entro il 31 ottobre               |
 
 ### Come presentare o rinnovare il proprio percorso formativo
 
@@ -99,17 +99,17 @@ Il docente di riferimento nella Commissione competente per la laurea triennale �
 
 Con l'introduzione del **nuovo ordinamento (A.A. 2025/26)**, per completare i 6 CFU di Inglese e approfondire la conoscenza della lingua, al Primo Anno è necessario scegliere uno tra i due corsi:
 
-| Insegnamento                        |  Codice   | CFU |
-|-------------------------------------|:---------:|:---:|
-| Inglese ESP Livello B1 [ENG]        | `AAF2512 `|  3  |
-| Lingua Inglese Livello B2 [ITA]     | `AAF1902 `|  3  |
+| Nome                      |   Codice   | CFU |
+|---------------------------|:----------:|:---:|
+| Inglese ESP Livello B1    | `AAF2512 ` |  3  |
+| Lingua Inglese Livello B2 | `AAF1902 ` |  3  |
 
 ### Terzo Anno - Insegnamenti obbligatori
 
-| Insegnamento                        |  Codice   | CFU |
-|-------------------------------------|:---------:|:---:|
-| Automi, Calcolabilità e Complessità | `1041727` |  6  |
-| Ingegneria Del Software             | `10620617`|  6  |
+| Nome                                |   Codice   | CFU |
+|-------------------------------------|:----------:|:---:|
+| Automi, Calcolabilità e Complessità | `10627559`  |  6  |
+| Ingegneria Del Software             | `10628857` |  6  |
 
 ### Terzo Anno - Insegnamenti a scelta interni
 
@@ -127,59 +127,60 @@ Un simile percorso formativo **sarà sottoposto alla valutazione del Consiglio d
 
 Per quanto riguarda i corsi opzionali interni, la loro divisione e scelta cambia tra il **vecchio ordinamento** *(immatricolati fino all'A.A. 2024/25)* e il **nuovo ordinamento** *(immatricolati dall'A.A. 2025/26 in poi)*:
 
-{{% tabs "runningsite" %}}
-{{% tab "✨ Nuovo Ordinamento" %}}
-È necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti affini di completamento"** e **6 CFU** dal secondo gruppo **"Ambiti specialistici"**, elencati di seguito.
-
-#### Gruppo: Insegnamenti affini di completamento
-
-| Insegnamento                                         | Codice     | Semestre    |                Telegram                |
-|------------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Interazione Uomo Macchina                            | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Organizzazione e Gestione per lo Start-Up Aziendale  | `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
-| Gamification e Game Design                           | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
-| Programmazione per il Web                            | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
-| Verifica e Validazione di Sistemi Intelligenti       | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-| Sicurezza                                            | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
-| Intelligenza Artificiale                             | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-
-#### Gruppo: Ambiti specialistici
-
-| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
-|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
-| Sicurezza                                           | `10620643` | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
-
-<!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
-{{% /tab %}}
+{{% tabs "ordinamento-teledidattica-insegnamenti" %}}
 {{% tab "🕰️ Vecchio Ordinamento" %}}
 
-È necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti caratterizzanti di completamento"** e **6 CFU** dal secondo gruppo **"Insegnamenti affini di completamento"**, elencati di seguito.
+<b>Per gli immatricolati prima dell'A.A. 2025/26</b>, è necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti caratterizzanti di completamento"** e **6 CFU** dal secondo gruppo **"Insegnamenti affini di completamento"**, elencati di seguito.
 
 #### Gruppo: Insegnamenti caratterizzanti di completamento
 
-| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
-|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
-| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
-| Sicurezza                                           | `1022268`  | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
-| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+| Nome                                           | Semestre |                    Chat                    | Codice     |
+|------------------------------------------------|----------|:------------------------------------------:|------------|
+| Interazione Uomo Macchina                      | 1°       | [Telegram](https://t.me/+HPJydQNfbJRmM2Y8) | `1022263`  |
+| Programmazione per il Web                      | 2°       | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) | `1022267`  |
+| Gamification e Game Design                     | 2°       | [Telegram](https://t.me/+TDCwJongMEJfC_6V) | `1047674`  |
+| Sicurezza                                      | 2°       | [Telegram](https://t.me/+VOfFTJId_33Juoly) | `1022268`  |
+| Verifica e Validazione di Sistemi Intelligenti | 2°       | [Telegram](https://t.me/+D1TVbwQqf8kxZjRk) | `10600494` |
+| Intelligenza Artificiale                       | 2°       | [Telegram](https://t.me/+qSkWuJbIauY2ODI0) | `1022262`  |
 
 #### Gruppo: Insegnamenti affini di completamento
 
-| Insegnamento                                        | Codice     | Semestre    |                Telegram                |
-|-----------------------------------------------------|------------|-------------|:--------------------------------------:|
-| Interazione Uomo Macchina                           | `1022263`  | 1°          | [Chat](https://t.me/+HPJydQNfbJRmM2Y8) |
-| Organizzazione e Gestione per lo Start-Up Aziendale*| `10596283` | 1°          | [Chat](https://t.me/+TW9IFCi061Q0Nzk8) |
-| Gamification e Game Design                          | `1047674`  | 2°          | [Chat](https://t.me/+TDCwJongMEJfC_6V) |
-| Programmazione per il Web                           | `1022267`  | 2°          | [Chat](https://t.me/+TopZxkqZSSo2MzQ0) |
-| Sicurezza                                           | `1022268`  | 2°          | [Chat](https://t.me/+VOfFTJId_33Juoly) |
-| Verifica e Validazione di Sistemi Intelligenti      | `10600494` | 2°          | [Chat](https://t.me/+D1TVbwQqf8kxZjRk) |
-| Intelligenza Artificiale                            | `1022262`  | 2°          | [Chat](https://t.me/+qSkWuJbIauY2ODI0) |
+| Nome                                                 | Semestre |                    Chat                    | Codice     |
+|------------------------------------------------------|----------|:------------------------------------------:|------------|
+| Interazione Uomo Macchina                            | 1°       | [Telegram](https://t.me/+HPJydQNfbJRmM2Y8) | `1022263`  |
+| Organizzazione e Gestione per lo Start-Up Aziendale* | 1°       | [Telegram](https://t.me/+TW9IFCi061Q0Nzk8) | `10596283` |
+| Gamification e Game Design                           | 2°       | [Telegram](https://t.me/+TDCwJongMEJfC_6V) | `1047674`  |
+| Programmazione per il Web                            | 2°       | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) | `1022267`  |
+| Sicurezza                                            | 2°       | [Telegram](https://t.me/+VOfFTJId_33Juoly) | `1022268`  |
+| Verifica e Validazione di Sistemi Intelligenti       | 2°       | [Telegram](https://t.me/+D1TVbwQqf8kxZjRk) | `10600494` |
+| Intelligenza Artificiale                             | 2°       | [Telegram](https://t.me/+qSkWuJbIauY2ODI0) | `1022262`  |
 
+{{% /tab %}}
+{{% tab "✨ Nuovo Ordinamento" %}}
+
+<b>Per gli immatricolati dall’A.A. 2025/26</b>, è necessario ottenere **12 CFU** dal primo gruppo **"Insegnamenti affini di completamento"** e **6 CFU** dal secondo gruppo **"Ambiti specialistici"**, elencati di seguito.
+
+#### Gruppo: Insegnamenti affini di completamento
+
+| Nome                                                | Semestre |                    Chat                    | Codice     |
+|-----------------------------------------------------|----------|:------------------------------------------:|------------|
+| Interazione Uomo Macchina                           | 1°       | [Telegram](https://t.me/+HPJydQNfbJRmM2Y8) | `10629196` |
+| Organizzazione e Gestione per lo Start-Up Aziendale | 1°       | [Telegram](https://t.me/+TW9IFCi061Q0Nzk8) | `10628426` |
+| Gamification e Game Design                          | 2°       | [Telegram](https://t.me/+TDCwJongMEJfC_6V) | `10628604` |
+| Programmazione per il Web                           | 2°       | [Telegram](https://t.me/+TopZxkqZSSo2MzQ0) | `10626676` |
+| Verifica e Validazione di Sistemi Intelligenti      | 2°       | [Telegram](https://t.me/+D1TVbwQqf8kxZjRk) | `10627536` |
+| Sicurezza Informatica                               | 2°       | [Telegram](https://t.me/+VOfFTJId_33Juoly) | `10628081` |
+| Intelligenza Artificiale                            | 2°       | [Telegram](https://t.me/+qSkWuJbIauY2ODI0) | `10626438` |
+
+#### Gruppo: Ambiti specialistici
+
+| Nome                      | Semestre |                    Chat                    | Codice     |
+|---------------------------|----------|:------------------------------------------:|------------|
+| Interazione Uomo Macchina | 1°       | [Telegram](https://t.me/+HPJydQNfbJRmM2Y8) | `10629196`  |
+| Intelligenza Artificiale  | 2°       | [Telegram](https://t.me/+qSkWuJbIauY2ODI0) | `10626438`  |
+| Sicurezza Informatica     | 2°       | [Telegram](https://t.me/+VOfFTJId_33Juoly) | `10628081` |
+
+<!--| Machine Learning | 1047635 | mc, tmc | Chat |-->
 {{% /tab %}}
 {{% /tabs %}}
 
@@ -199,40 +200,40 @@ Assicurati di consultare anche le indicazioni su [come scegliere gli insegnament
 
 Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di Informatica, in anni accademici precedenti, come insegnamenti esterni:
 
-| Insegnamento                                  | Codice     | CdL                                                                                                            | CFU | Chat                                                 |
-|-----------------------------------------------|------------|----------------------------------------------------------------------------------------------------------------|-----|------------------------------------------------------|
-| AI LAB: COMPUTER VISION AND NLP               | `10595610` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 6   | [Telegram](https://t.me/+wg42G94fUtJlY2Fk)           |
-| ALGEBRA LINEARE                               | `97786`    | [Matematica](https://corsidilaurea.uniroma1.it/it/course/33592)                     | 9   | [Telegram](https://t.me/sapienzamatematicatriennale) |
-| ANALISI II                                    | `10599698` | [Matematica](https://corsidilaurea.uniroma1.it/it/course/33592)                     | 9   | [Telegram](https://t.me/sapienzamatematicatriennale) |
-| ANALISI MATEMATICA II                         | `1017219`  | [Ingegneria edile-architettura](https://corsidilaurea.uniroma1.it/it/course/33470)  | 6   | -                                                    |
-| APPLICAZIONI DELL'AUTOMATICA                  | `1056052`  | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           |
-| ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING  | `10595618` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 12  | [Telegram](https://t.me/appliedCS_AI)                |
-| AUTOMAZIONE                                   | `1041466`  | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           |
-| BIOINFORMATICS I                              | `10592707` | [Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                 | 6   | -                                                    |
-| BIOINFORMATICS II                             | `1049266`  | [Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                 | 6   | -                                                    |
-| CALCOLO NUMERICO                              | `1021737`  | [Ing. Elettronica](https://corsidilaurea.uniroma1.it/it/course/33499)               | 6   | -                                                    |
-| CHIMICA GENERALE E INORGANICA CON LABORATORIO | `1020316`  | [Scienze Chimiche](https://corsidilaurea.uniroma1.it/it/course/33587)               | 12  | -                                                    |
-| CYBERSECURITY                                 | `10595532` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 6   | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0)           |
-| ELETTRONICA                                   | `1016596`  | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           |
-| FISICA MEDICA                                 | `97907`    | [Medicina e chirurgia](https://corsidilaurea.uniroma1.it/it/course/33559)           | 6   | -                                                    |
-| FISICA TECNICA                                | `1001987`  | [Ingegneria Clinica](https://corsidilaurea.uniroma1.it/it/course/33476)             | 6   | -                                                    |
-| FONDAMENTI DI AUTOMATICA                      | `1022157`  | [Ing. delle Telecomunicazioni](https://corsidilaurea.uniroma1.it/it/course/33497) | 6   | -                                                    |
-| FONDAMENTI DI INTELLIGENZA ARTIFICIALE        | `10599901` | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)              | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           |
-| HUMAN COMPUTER INTERACTION                    | `10595535` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 6   | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0)           |
-| INTELLIGENZA ARTIFICIALE I                    | `10603309` | [Filosofia e IA](https://corsidilaurea.uniroma1.it/it/course/33526)                 | 9   | -                                                    |
-| LABORATORIO DI CALCOLO                        | `1035105`  | [Fisica](https://corsidilaurea.uniroma1.it/it/course/33588)                                            | 6   | [Telegram](https://t.me/fisicasapienza)              |
-| LABORATORIO DI FISICA COMPUTAZIONALE I        | `1012086`  | [Fisica](https://corsidilaurea.uniroma1.it/it/course/33588)                                            | 6   | [Telegram](https://t.me/fisicasapienza)              |
-| LABORATORIO DI PROGRAMMAZIONE                 | `AAF1474`  | [Ing. delle Telecomunicazioni](https://corsidilaurea.uniroma1.it/it/course/33497) | 6   | -                                                    |
-| LAW AND COMPUTER SCIENCE                      | `10595537` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 6   | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0)           |
-| STATISTICA ECONOMICA                          | `98457`    | [Statistica gestionale](https://corsidilaurea.uniroma1.it/it/course/33507)          | 9   | -                                                    |
-| SYSTEMS AND NETWORKING                        | `10595616` | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                          | 12  | [Telegram](https://t.me/appliedCS_AI)                |
-| TEORIA DEI SEGNALI                            | `1041892`  | [Ing. dell'Inf. (Latina)](https://corsidilaurea.uniroma1.it/it/course/33498)        | 3   | -                                                    |
+| Nome                                          | CdL                                                                                | CFU | Chat                                                 | Codice     |
+|-----------------------------------------------|------------------------------------------------------------------------------------|-----|------------------------------------------------------|------------|
+| AI LAB: COMPUTER VISION AND NLP               | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 6   | [Telegram](https://t.me/+wg42G94fUtJlY2Fk)           | `10595610` |
+| ALGEBRA LINEARE                               | [Matematica](https://corsidilaurea.uniroma1.it/it/course/33592)                    | 9   | [Telegram](https://t.me/sapienzamatematicatriennale) | `97786`    |
+| ANALISI II                                    | [Matematica](https://corsidilaurea.uniroma1.it/it/course/33592)                    | 9   | [Telegram](https://t.me/sapienzamatematicatriennale) | `10599698` |
+| ANALISI MATEMATICA II                         | [Ingegneria edile-architettura](https://corsidilaurea.uniroma1.it/it/course/33470) | 6   | -                                                    | `1017219`  |
+| APPLICAZIONI DELL'AUTOMATICA                  | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)             | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           | `1056052`  |
+| ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING  | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 12  | [Telegram](https://t.me/appliedCS_AI)                | `10595618` |
+| AUTOMAZIONE                                   | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)             | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           | `1041466`  |
+| BIOINFORMATICS I                              | [Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                | 6   | -                                                    | `10592707` |
+| BIOINFORMATICS II                             | [Bioinformatics](https://corsidilaurea.uniroma1.it/en/course/33455)                | 6   | -                                                    | `1049266`  |
+| CALCOLO NUMERICO                              | [Ing. Elettronica](https://corsidilaurea.uniroma1.it/it/course/33499)              | 6   | -                                                    | `1021737`  |
+| CHIMICA GENERALE E INORGANICA CON LABORATORIO | [Scienze Chimiche](https://corsidilaurea.uniroma1.it/it/course/33587)              | 12  | -                                                    | `1020316`  |
+| CYBERSECURITY                                 | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 6   | [Telegram](https://t.me/+ZLceB7Q8cSA2NzA0)           | `10595532` |
+| ELETTRONICA                                   | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)             | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           | `1016596`  |
+| FISICA MEDICA                                 | [Medicina e chirurgia](https://corsidilaurea.uniroma1.it/it/course/33559)          | 6   | -                                                    | `97907`    |
+| FISICA TECNICA                                | [Ingegneria Clinica](https://corsidilaurea.uniroma1.it/it/course/33476)            | 6   | -                                                    | `1001987`  |
+| FONDAMENTI DI AUTOMATICA                      | [Ing. delle Telecomunicazioni](https://corsidilaurea.uniroma1.it/it/course/33497)  | 6   | -                                                    | `1022157`  |
+| FONDAMENTI DI INTELLIGENZA ARTIFICIALE        | [Ing.  Inf. e Aut.](https://corsidilaurea.uniroma1.it/it/course/33501)             | 6   | [Telegram](https://t.me/+QPY5Z74o0Zff3INn)           | `10599901` |
+| HUMAN COMPUTER INTERACTION                    | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 6   | [Telegram](https://t.me/+vKK_-l_aqoJjMmQ0)           | `10595535` |
+| INTELLIGENZA ARTIFICIALE I                    | [Filosofia e IA](https://corsidilaurea.uniroma1.it/it/course/33526)                | 9   | -                                                    | `10603309` |
+| LABORATORIO DI CALCOLO                        | [Fisica](https://corsidilaurea.uniroma1.it/it/course/33588)                        | 6   | [Telegram](https://t.me/fisicasapienza)              | `1035105`  |
+| LABORATORIO DI FISICA COMPUTAZIONALE I        | [Fisica](https://corsidilaurea.uniroma1.it/it/course/33588)                        | 6   | [Telegram](https://t.me/fisicasapienza)              | `1012086`  |
+| LABORATORIO DI PROGRAMMAZIONE                 | [Ing. delle Telecomunicazioni](https://corsidilaurea.uniroma1.it/it/course/33497)  | 6   | -                                                    | `AAF1474`  |
+| LAW AND COMPUTER SCIENCE                      | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 6   | [Telegram](https://t.me/+Mvi6pA7Mlc4xNDU0)           | `10595537` |
+| STATISTICA ECONOMICA                          | [Statistica gestionale](https://corsidilaurea.uniroma1.it/it/course/33507)         | 9   | -                                                    | `98457`    |
+| SYSTEMS AND NETWORKING                        | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 12  | [Telegram](https://t.me/appliedCS_AI)                | `10595616` |
+| TEORIA DEI SEGNALI                            | [Ing. dell'Inf. (Latina)](https://corsidilaurea.uniroma1.it/it/course/33498)       | 3   | -                                                    | `1041892`  |
 
 ## FAQ
 
 <details>
     <summary>Posso scegliere tutti insegnamenti interni?</summary>
-    <b>Sì</b>, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (33504). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
+    <b>Sì</b>, volendo puoi scegliere solo insegnamenti interni al Corso di Laurea in Informatica (29400 / 33504). Tuttavia, hai anche la possibilità di includere fino a 12 CFU di insegnamenti da altri Corsi di Laurea e facoltà, se lo desideri. Non è obbligatorio fare questa scelta, ma è un'opzione disponibile.
 </details>
 
 <details>

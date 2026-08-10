@@ -1,0 +1,156 @@
+/* Opt-in responsive tables and expandable sections */
+
+.markdown:has(.responsive-tables),
+.book-article:has(.responsive-tables) {
+  min-width: 0 !important;
+  max-width: none !important;
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
+
+.markdown:has(.responsive-tables) > div,
+.markdown:has(.responsive-tables) > section,
+.book-article:has(.responsive-tables) > div,
+.book-article:has(.responsive-tables) > section {
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+.markdown:has(.responsive-tables) .table-responsive,
+.book-article:has(.responsive-tables) .table-responsive {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  margin: 1.25rem 0;
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #a8b0bb transparent;
+}
+
+.markdown:has(.responsive-tables) .table-responsive::-webkit-scrollbar,
+.book-article:has(.responsive-tables) .table-responsive::-webkit-scrollbar {
+  height: 9px;
+}
+
+.markdown:has(.responsive-tables) .table-responsive::-webkit-scrollbar-thumb,
+.book-article:has(.responsive-tables) .table-responsive::-webkit-scrollbar-thumb {
+  background: #a8b0bb;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+.markdown:has(.responsive-tables) .table-responsive table,
+.book-article:has(.responsive-tables) .table-responsive table {
+  display: table !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  margin: 0 !important;
+  table-layout: auto !important;
+  overflow: visible !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 1px solid rgba(127, 127, 127, 0.3);
+  border-radius: 0.5rem;
+}
+
+.markdown:has(.responsive-tables) table thead,
+.book-article:has(.responsive-tables) table thead {
+  display: table-header-group !important;
+}
+
+.markdown:has(.responsive-tables) table tbody,
+.book-article:has(.responsive-tables) table tbody {
+  display: table-row-group !important;
+}
+
+.markdown:has(.responsive-tables) table tr,
+.book-article:has(.responsive-tables) table tr {
+  display: table-row !important;
+}
+
+.markdown:has(.responsive-tables) table th,
+.markdown:has(.responsive-tables) table td,
+.book-article:has(.responsive-tables) table th,
+.book-article:has(.responsive-tables) table td {
+  position: static !important;
+  display: table-cell !important;
+  padding: 0.85rem 1rem !important;
+  vertical-align: middle;
+  text-align: left;
+  border-right: 1px solid rgba(127, 127, 127, 0.2);
+  border-bottom: 1px solid rgba(127, 127, 127, 0.2);
+}
+
+.markdown:has(.responsive-tables) table th,
+.book-article:has(.responsive-tables) table th {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.markdown:has(.responsive-tables) table th:last-child,
+.markdown:has(.responsive-tables) table td:last-child,
+.book-article:has(.responsive-tables) table th:last-child,
+.book-article:has(.responsive-tables) table td:last-child {
+  border-right: 0;
+}
+
+.markdown:has(.responsive-tables) table tbody tr:last-child td,
+.book-article:has(.responsive-tables) table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.markdown:has(.responsive-tables) table a,
+.book-article:has(.responsive-tables) table a {
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown:has(.responsive-tables) table th,
+  .markdown:has(.responsive-tables) table td,
+  .book-article:has(.responsive-tables) table th,
+  .book-article:has(.responsive-tables) table td {
+    padding: 0.7rem 0.8rem !important;
+  }
+}
+
+.markdown:has(.responsive-tables) table th:first-child,
+.markdown:has(.responsive-tables) table td:first-child,
+.book-article:has(.responsive-tables) table th:first-child,
+.book-article:has(.responsive-tables) table td:first-child {
+  position: sticky !important;
+  left: 0;
+  z-index: 1;
+  width: 12.5rem;
+  min-width: 8.5rem;
+  max-width: 12.5rem;
+  white-space: normal !important;
+  overflow-wrap: break-word;
+  word-break: normal;
+  box-shadow: 1px 0 rgba(127, 127, 127, 0.25);
+}
+
+
+.markdown:has(.responsive-tables) table th:first-child,
+.book-article:has(.responsive-tables) table th:first-child {
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .markdown:has(.responsive-tables) table th:first-child,
+  .markdown:has(.responsive-tables) table td:first-child,
+  .book-article:has(.responsive-tables) table th:first-child,
+  .book-article:has(.responsive-tables) table td:first-child {
+    width: 10rem;
+    min-width: 8.5rem;
+    max-width: 10rem;
+  }
+}
