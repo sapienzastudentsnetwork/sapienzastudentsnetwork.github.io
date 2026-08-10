@@ -1,0 +1,7 @@
+{{- $mode := .Get "mode" | default "presenza" -}}
+<link rel="stylesheet" href="{{ "percorso-formativo/tool.css" | relURL }}">
+<div id="study-plan-{{ .Ordinal }}" class="study-plan-tool" data-study-plan-tool data-mode="{{ $mode }}">
+  <noscript>Per utilizzare il configuratore è necessario abilitare JavaScript.</noscript>
+</div>
+<script src="{{ "percorso-formativo/catalog.js" | relURL }}" defer></script>
+<script src="{{ "percorso-formativo/tool.js" | relURL }}" defer></script>

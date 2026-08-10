@@ -229,6 +229,14 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 | SYSTEMS AND NETWORKING                        | [ACSAI](https://corsidilaurea.uniroma1.it/en/course/33502)                         | 12  | [Telegram](https://t.me/appliedCS_AI)                | `10595616` |
 | TEORIA DEI SEGNALI                            | [Ing. dell'Inf. (Latina)](https://corsidilaurea.uniroma1.it/it/course/33498)       | 3   | -                                                    | `1041892`  |
 
+<span id="configuratore-percorso-formativo"></span>
+
+## Crea il tuo percorso formativo
+
+Il configuratore seguente aiuta a verificare i vincoli quantitativi del percorso. **Non sostituisce la valutazione della Commissione**, soprattutto per gli insegnamenti esterni.
+
+{{< percorso-formativo-tool mode="teledidattica" >}}
+
 ## FAQ
 
 <details>

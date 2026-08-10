@@ -278,6 +278,14 @@ Segue una lista di alcuni insegnamenti che sono stati verbalizzati a studenti di
 
 <!--| GAMIFICATION E GAME DESIGN                    | `1047674`  | [Inf. in Teledidattica](https://corsidilaurea.uniroma1.it/it/corso/2024/29400/programmazione)                  | 6   | [Telegram](https://t.me/+CnCSKOzEdU05ODE0)           |-->
 
+<span id="configuratore-percorso-formativo"></span>
+
+## Crea il tuo percorso formativo
+
+Il configuratore seguente aiuta a verificare i vincoli quantitativi del percorso. **Non sostituisce la valutazione della Commissione**, soprattutto per gli insegnamenti esterni.
+
+{{< percorso-formativo-tool mode="presenza" >}}
+
 ## FAQ
 
 <details>
