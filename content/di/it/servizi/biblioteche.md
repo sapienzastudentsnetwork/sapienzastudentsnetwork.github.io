@@ -49,7 +49,7 @@ Per gli studenti del Dipartimento di Informatica sono particolarmente utili ques
 - **Laboratorio Colossus** — Via Salaria 113, piano -1;
 - **Laboratorio HAL9000** — Via Salaria 113, piano -1.
 
-Per posizione, disponibilità e informazioni aggiornate consulta [Rooms](https://sapienzastudents.net/rooms/), pagina in lingua inglese dedicata agli spazi di studio del Dipartimento.
+Per posizione, disponibilità e informazioni aggiornate consulta la [pagina dedicata agli spazi di studio del Dipartimento](https://sapienzastudents.net/rooms/).
 
 Per **S1, T1, Colossus e HAL9000**, l'aula può essere usata per studiare solo quando non è occupata da lezioni o altri eventi istituzionali. Questi spazi sono chiusi nelle festività nazionali e quando la sede è chiusa, indipendentemente da ciò che appare nel calendario. È consigliabile controllare la pagina Rooms ogni giorno: gli orari sono sincronizzati automaticamente con GOMP, ma alcune lezioni o attività potrebbero non comparire. L'aula S4 è invece indicata direttamente come aula studio.
 

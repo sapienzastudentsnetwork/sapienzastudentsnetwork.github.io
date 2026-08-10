@@ -49,7 +49,7 @@ The following spaces are particularly useful for students of the Department of C
 - **Lab. Colossus** — Via Salaria 113, Floor -1;
 - **Lab. HAL9000** — Via Salaria 113, Floor -1.
 
-For locations, availability and current information, see [Rooms](https://sapienzastudents.net/rooms/).
+For locations, availability and current information, see the [page dedicated to the Department's study spaces](https://sapienzastudents.net/rooms/).
 
 For **S1, T1, Colossus and HAL9000**, a room is available for study only when it is not being used for lectures or other institutional events. These rooms are closed on national holidays and whenever the relevant facility is closed, regardless of the events displayed in the timetable. Check the Rooms page daily: its timetable is synchronised automatically with GOMP, but some lectures or events may not appear. S4 is specifically designated as a study room.
 
