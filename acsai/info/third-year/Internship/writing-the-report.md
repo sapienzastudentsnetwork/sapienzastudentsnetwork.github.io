@@ -9,6 +9,13 @@ weight: 2
 The internship report is an important document that summarizes the training experience carried out during the internship. Although there are no official guidelines for writing the report, here you will find some useful tips for structuring and writing a high-quality internship report.
 
 {{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Before you start**
+
+If you have not already read it, we recommend consulting the [introduction to internships](../introduction-to-internships), which summarises the available options, requirements, procedures and deadlines.
+{{% /hint %}}
+
+
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Telegram Group**
 
 There is also a [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by students of the degree course, dedicated to topics related to the thesis and internship.
@@ -28,12 +35,12 @@ LaTeX allows you to create your report more efficiently, letting you focus on th
 
 ### Overleaf and recommended template
 
-To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that requires no installation on your computer. For your report, you can begin with this [template for the Sapienza bachelor’s thesis](https://ctan.org/pkg/sapthesis). Although designed for a thesis, it can easily be used for an internship report. The template needs to be imported manually. To do so, download the zip file, then in Overleaf click on **New Project** and select **Upload Project**. Upload the zip file you downloaded and afterwards you will only need to create a new .tex file.
+To get started with LaTeX, we suggest using [Overleaf](https://www.overleaf.com), an online LaTeX editor that requires no installation on your computer. For your report, you can begin with this [template for the Sapienza bachelor's thesis](https://ctan.org/pkg/sapthesis). Although designed for a thesis, it can easily be used for an internship report. The template needs to be imported manually. To do so, download the zip file, then in Overleaf click on **New Project** and select **Upload Project**. Upload the zip file you downloaded and afterwards you will only need to create a new .tex file.
 
 {{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Learning LaTeX**
 
-If you have never used LaTeX before, don’t worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basics.
+If you have never used LaTeX before, don't worry! You can start with this [30-minute quick guide](https://it.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) to familiarize yourself with the basics.
 {{% /hint %}}
 
 {{% hint tip %}}

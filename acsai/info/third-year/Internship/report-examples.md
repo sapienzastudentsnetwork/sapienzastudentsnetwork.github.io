@@ -8,6 +8,12 @@ weight: 3
 
 Here you will find a list of **internship reports shared by other students** from the Degree Program (and related fields) who have already completed their training experience in various academic and corporate environments. These documents provide a useful reference to understand how to organize the content, which sections to include, and which aspects of the internship to highlight, offering inspiration on how to structure your own report while respecting academic standards and effectively integrating practical experience with the theoretical knowledge acquired during your studies.
 
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Before reading the examples**
+
+If you have not already read it, consult the [introduction to internships](../introduction-to-internships). For guidance on the report's structure, tools and writing process, also read [how to write the internship report](../writing-the-report).
+{{% /hint %}}
+
 {{< button href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues/new?assignees=Lorenzoantonelli%2CExyss&labels=Internship+Report&projects=&template=add-internship-report-it.yml&title=Aggiunta+relazione+di+tirocinio" >}} Add your report to the list{{< /button >}}
 
 <!-- Sort the table by Surname and keep the Topic short! -->

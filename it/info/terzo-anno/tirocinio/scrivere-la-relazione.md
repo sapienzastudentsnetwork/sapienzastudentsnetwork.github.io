@@ -9,6 +9,13 @@ weight: 2
 La relazione di tirocinio è un documento importante che riassume l'esperienza formativa svolta durante il tirocinio. Nonostante non ci siano delle linee guida vere e proprie per la scrittura della relazione, qui troverai alcuni consigli utili per strutturare e scrivere una relazione di tirocinio di qualità.
 
 {{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Prima di iniziare**
+
+Se non l'hai già letta, ti consigliamo di consultare anche la guida di [introduzione al tirocinio](../introduzione-al-tirocinio), che riepiloga tipologie, requisiti, procedure e scadenze.
+{{% /hint %}}
+
+
+{{% hint info %}}
 <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Gruppo Telegram**
 
 È disponibile anche una [chat Telegram](https://t.me/+2SvebeG5BS0yYzc8), gestita tra studenti e studentesse del corso di laurea, dedicata agli argomenti laurea e tirocinio.
@@ -40,7 +47,7 @@ Se non hai mai usato LaTeX, non preoccuparti! Puoi iniziare con questa [guida ra
 {{% hint tip %}}
 <i class="fa-solid fa-video" style="color: #238636;"></i> **Video tutorial**
 
-È disponibile un video tutorial dedicato all’utilizzo del template sapthesis per la relazione di tirocinio:
+È disponibile un video tutorial dedicato all'utilizzo del template sapthesis per la relazione di tirocinio:
 
 
 {{< youtube aBsTexeejkc >}}

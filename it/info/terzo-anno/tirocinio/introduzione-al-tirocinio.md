@@ -15,16 +15,25 @@ weight: 1
 
 ## Come funziona il tirocinio
 
-Il tirocinio è un passo fondamentale nel percorso di studi, in quanto permette di mettere in pratica le competenze acquisite durante il corso di laurea. Esso può essere svolto presso un'azienda, un ente o un laboratorio di ricerca, e può essere interno o esterno all'Università.
+Il corso di laurea triennale prevede lo svolgimento obbligatorio di un tirocinio formativo, necessario per acquisire i CFU previsti dal percorso didattico. Al termine del tirocinio deve essere redatta una relazione, che viene discussa durante la seduta di laurea come prova di tirocinio e prova finale. Il tirocinio deve quindi essere concluso prima della laurea e la sua conclusione è requisito per partecipare alla relativa sessione.
+
+Il tirocinio permette di mettere in pratica le competenze acquisite durante il corso di laurea. Può essere interno, esterno oppure riconosciuto sulla base di un'attività lavorativa pregressa coerente con il percorso formativo.
 
 Il tirocinio:
 * **Interno**: viene svolto nell'ambito dell'Università, con la supervisione di un docente o del suo laboratorio di ricerca. Durante il tirocinio interno, lo studente può svolgere attività di ricerca, progettazione, sviluppo, test e valutazione di sistemi informatici in diverse aree tematiche.
 * **Esterno**: viene svolto presso un'azienda o un ente esterno, con la supervisione di un tutor aziendale (Responsabile Esterno) e di un docente dell'Università (Responsabile Interno). Durante il tirocinio esterno lo studente avrà modo di mettere in pratica le competenze acquisite durante il corso di laurea, lavorando a progetti reali e affrontando le problematiche tipiche del mondo del lavoro.
+* **Riconosciuto per attività lavorativa pregressa**: può essere richiesto quando il lavoro già svolto è coerente con il percorso formativo. La richiesta è sottoposta a valutazione e restano obbligatorie la relazione di tirocinio e le procedure previste per la laurea.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i>  **Attenzione**
 
 Il tirocinio corrisponde a un impegno indicativo di **circa tre mesi**. Per i tirocini esterni il progetto formativo prevede **375 ore**; nei tirocini interni non viene effettuato un conteggio formale delle ore e fanno fede il progetto concordato e la valutazione del Responsabile Interno. I **105 giorni** non rappresentano quindi la durata del tirocinio: sono il periodo di riferimento tra l'assegnazione e la sessione di laurea, necessario per lasciare spazio anche alla relazione e agli adempimenti finali.
+{{% /hint %}}
+
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Guide sulla relazione**
+
+Quando inizi a preparare l'elaborato finale, consulta la guida su [come scrivere la relazione](../scrivere-la-relazione) e gli [esempi di relazione](../esempi-di-relazione) condivisi da altri studenti e studentesse.
 {{% /hint %}}
 
 ## Quando posso richiedere il tirocinio?
@@ -37,8 +46,8 @@ Nel conteggio possono rientrare anche singole unità già superate ma non ancora
 
 Se hai già scelto la sessione in cui vuoi laurearti, procedi a ritroso:
 
-1. **Richiesta e assegnazione del tirocinio:** scegli la tipologia di tirocinio, segui la procedura e invia i moduli indicati nelle sezioni [tirocinio interno](#come-richiedere-il-tirocinio-interno) o [tirocinio esterno](#come-richiedere-il-tirocinio-esterno). Il tirocinio deve risultare assegnato almeno **105 giorni prima della sessione di laurea**; il riferimento iniziale è la data di assegnazione.
-2. **Per circa tre mesi:** svolgi il tirocinio e prepara autonomamente la relazione, confrontandoti durante il lavoro con il Responsabile Interno. Per i tirocini esterni il progetto formativo prevede 375 ore; per quelli interni non viene effettuato un conteggio formale delle ore. Tra l'assegnazione del tirocinio e la consegna della relazione devono comunque trascorrere almeno 90 giorni.
+1. **Richiesta e assegnazione del tirocinio:** scegli la tipologia di tirocinio, segui la procedura e invia i moduli indicati nelle sezioni [tirocinio interno](#come-richiedere-il-tirocinio-interno) o [tirocinio esterno](#come-richiedere-il-tirocinio-esterno). Per il riconoscimento di un'attività lavorativa pregressa, consulta la sezione [dedicata](#come-richiedere-il-riconoscimento-di-unattività-lavorativa-pregressa). Il tirocinio deve risultare assegnato almeno **105 giorni prima della sessione di laurea**. La data di assegnazione corrisponde al momento in cui il docente firma il modulo di assegnazione, fermo restando che la successiva verifica non presenti criticità.
+2. **Per circa tre mesi:** svolgi il tirocinio e prepara la relazione sotto la supervisione del Responsabile Interno, confrontandoti con lui durante il lavoro. Per i tirocini esterni il progetto formativo prevede 375 ore; per quelli interni non viene effettuato un conteggio formale delle ore. Tra l'assegnazione del tirocinio e la consegna della relazione devono comunque trascorrere almeno 90 giorni.
 3. **Entro la scadenza indicata per la sessione:** presenta la [domanda di laurea](../../../laurearsi/domanda-di-laurea/). La scadenza è normalmente collocata circa 30 giorni prima della sessione, ma fa sempre fede il calendario ufficiale. **La scadenza è vincolante: senza una domanda presentata nei termini non è possibile laurearsi nella sessione scelta.**
 4. **Circa 15 giorni prima della seduta:** invia la relazione secondo le istruzioni ricevute dalla Segreteria Didattica. La relazione non va caricata su Infostud.
 5. **Negli ultimi 7/5 giorni:** quando l'appello è disponibile, prenota su Infostud la prova di tirocinio/prova finale e controlla il prospetto con luogo e orario della seduta.
@@ -84,6 +93,18 @@ Richiedere il tirocinio interno è un processo abbastanza semplice, che richiede
 11. Il progetto formativo, completo di tutte le firme, viene restituito allo studente.
 12. Tutta la documentazione deve essere inviata alla segreteria tramite il [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), insieme agli altri moduli richiesti: il [modulo di autorizzazione al trattamento dei dati personali ad aziende ed enti per fini di placement](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing) (opzionale) e la [dichiarazione di presa visione delle linee guida sul plagio](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view).
 13. È possibile iniziare il tirocinio. È consigliabile verificare con il Professor Gorla che tutta la documentazione sia in ordine.
+
+
+### Come richiedere il riconoscimento di un'attività lavorativa pregressa
+
+Per chiedere il riconoscimento di un'attività lavorativa pregressa, contatta il **Professor Daniele Gorla** ([gorla@di.uniroma1.it](mailto:gorla@di.uniroma1.it)). Per la valutazione possono essere richiesti:
+
+- il contratto di assunzione;
+- l'individuazione di un singolo prodotto sviluppato interamente da te, con una breve descrizione del lavoro che vorresti far riconoscere come tirocinio e prova finale;
+- una dichiarazione del supervisore aziendale che attesti che il lavoro è stato svolto interamente da te e non in gruppo;
+- l'assenza di vincoli di riservatezza o non divulgazione, in modo da poter descrivere adeguatamente il lavoro e riportare nella relazione porzioni significative di codice.
+
+Anche in caso di riconoscimento restano obbligatorie la relazione di tirocinio e le procedure previste per la laurea. Questo tipo di percorso tende in genere a ricevere una valutazione contenuta in sede di laurea, indicativamente **4 o 5 punti al massimo sui 9 disponibili**. Si tratta soltanto di un'indicazione generale: il punteggio effettivo dipende dalla qualità del lavoro e dalla valutazione della commissione di laurea.
 
 ## Il giorno della seduta di laurea
 

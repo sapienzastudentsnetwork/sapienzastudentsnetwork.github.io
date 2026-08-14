@@ -15,16 +15,25 @@ There is also a [Telegram chat](https://t.me/+2SvebeG5BS0yYzc8), managed by stud
 
 ## How the Internship Works
 
-The internship is a fundamental step in the academic journey, as it allows students to put into practice the skills acquired during the degree program. It can be carried out at a company, an organization, or a research laboratory, and can be either internal or external to the University.
+The Bachelor's degree programme includes a compulsory internship, which is part of the ECTS credits required by the study plan. At the end of the internship, students must write an internship report, which is defended during the graduation session as the internship examination and final examination. The internship must therefore be completed before graduation, and its completion is required to participate in the relevant graduation session.
+
+The internship allows students to put into practice the skills acquired during the degree programme. It may be internal, external, or recognised on the basis of previous work activity consistent with the degree programme.
 
 The internship:
 * **Internal**: It is carried out within the University, under the supervision of a professor or their research laboratory. During the internal internship, the student can engage in research, design, development, testing, and evaluation of computer systems in various thematic areas.
 * **External**: It is carried out at a company or an external organization, under the supervision of a company tutor (External Supervisor) and a professor from the University (Internal Supervisor). During the external internship, the student will have the opportunity to apply the skills acquired during the degree program by working on real projects and tackling typical challenges of the professional world.
+* **Recognised on the basis of previous work activity**: Recognition may be requested when work already carried out is consistent with the degree programme. The request is assessed individually, and the internship report and graduation procedures remain compulsory.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attention**
 
 The internship corresponds to an indicative commitment of **about three months**. For external internships, the training project provides for **375 hours**; internal internships are not subject to formal hour tracking, and the agreed project and the Internal Supervisor's assessment are what matter. The **105 days** are therefore not the duration of the internship: they are the reference period between assignment and the graduation session, leaving time for the report and the final administrative steps.
+{{% /hint %}}
+
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Internship report guides**
+
+When you start preparing your final report, read the guide on [how to write the internship report](../writing-the-report) and consult the [report examples](../report-examples) shared by other students.
 {{% /hint %}}
 
 ## When can I request the internship?
@@ -37,8 +46,8 @@ Individual course units that have already been passed but not yet recorded may a
 
 Once you have chosen the graduation session you are aiming for, work backwards:
 
-1. **Internship request and assignment:** choose the type of internship, follow the relevant procedure and submit the forms listed under [internal internship](#how-to-apply-for-the-internship-internal) or [external internship](#how-to-apply-for-the-internship-external). The internship must have been assigned at least **105 days before the graduation session**; the starting reference is the assignment date.
-2. **For approximately three months:** complete the internship and write the report independently, consulting your Internal Supervisor throughout the work. External training projects provide for 375 hours; internal internships are not subject to formal hour tracking. In every case, at least 90 days must elapse between the internship assignment and submission of the report.
+1. **Internship request and assignment:** choose the type of internship, follow the relevant procedure and submit the forms listed under [internal internship](#how-to-apply-for-the-internship-internal) or [external internship](#how-to-apply-for-the-internship-external). For recognition of previous work activity, see the [dedicated section](#how-to-request-recognition-of-previous-work-activity). The internship must have been assigned at least **105 days before the graduation session**. The assignment date corresponds to when the professor signs the internship assignment form, provided that the subsequent checks do not reveal any issues.
+2. **For approximately three months:** complete the internship and write the report under the supervision of your Internal Supervisor, consulting them throughout the work. External training projects provide for 375 hours; internal internships are not subject to formal hour tracking. In every case, at least 90 days must elapse between the internship assignment and submission of the report.
 3. **By the deadline for the selected session:** submit the [graduation application](../../../graduating/graduation-application/). The deadline is normally around 30 days before the session, but the official calendar always takes precedence. **The deadline is binding: without an application submitted on time, you cannot graduate in the selected session.**
 4. **Approximately 15 days before the graduation date:** send the report according to the instructions received from the Educational Affairs Office. Do not upload the report to Infostud.
 5. **During the final 7/5 days:** once the exam session is available, book the internship/final examination on Infostud and check the published schedule for the place and time.
@@ -89,6 +98,18 @@ Applying for an internal internship is a fairly simple process that requires a f
 11. The training project, with all signatures, is returned to the student.
 12. All documentation must be submitted to the administration via the [Google Form](https://goo.gl/forms/kzYh7zgvCvKHFnyA2), along with the other required forms: the [authorisation form for the transfer of personal data to companies and institutions for placement purposes](https://drive.google.com/file/d/16Ujgdm4QnE_AFEIdvTU0MPmXR5LgTuIh/view?usp=sharing) (optional) and the [declaration of acknowledgement of the guidelines on anti-plagiarism control](https://drive.google.com/file/d/1hIkCi8PQZe9faZGZ00ZuqZtFVH8QeSHs/view?usp=sharing).
 13. The internship can begin. It is advisable to check with Professor Gorla that all documentation is in order.
+
+
+### How to request recognition of previous work activity
+
+To request recognition of previous work activity, contact **Professor Daniele Gorla** ([gorla@di.uniroma1.it](mailto:gorla@di.uniroma1.it)). The assessment may require:
+
+- the employment contract;
+- the identification of a single product developed entirely by you, together with a short description of the work you would like to have recognised as your internship and final project;
+- a statement from your company supervisor confirming that the work was carried out entirely by you and not as part of a team;
+- confirmation that no confidentiality or non-disclosure restrictions prevent you from adequately describing the work and including significant portions of code in the report.
+
+The internship report and all graduation procedures remain compulsory. This route generally tends to receive a limited graduation score, indicatively **no more than 4 or 5 points out of the 9 available**. This is only a general indication: the actual score depends on the quality of the work and the graduation committee's assessment.
 
 ## On the day of the graduation session
 
