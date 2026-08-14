@@ -32,7 +32,7 @@ A dedicated group for each subject is available on Telegram, you can join them t
 - [Economics of Network Industries](https://t.me/+JkzqXvC9v6ZhODBk)
 - [Efficiency and Productivity Analysis](https://t.me/+XB1Lc-13jfY1NTdk)
 - [European Data Law in a Global Digital Economy](https://t.me/+_x6JPGtOH0w1Njhk)
-- [Fundamentals of Data Science](https://t.me/+zt8Dme5sz7hiMjRk)
+- [Fundamentals of Data Science](https://t.me/+tLqxuTm0-eUyMDI0)
 - [Fundamentals of Networking and Signal Processing](https://t.me/+Pys3Pk9KerEwZjY0)
 - [Fundamentals of Statistical Learning 1](https://t.me/+MQ3wOxzPp5Y5NDE0)
 - [Fundamentals of Statistical Learning 2](https://t.me/+bFrz7flXpC1mMmM0)
