@@ -33,11 +33,11 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 - [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
 - [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
-- [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/notes-ig)
+- [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/bsc-notes)
 
 ### Anno di immatricolazione 2022/23
 
-- [Marco Casu (CasuFrost)](https://github.com/CasuFrost/University_notes)
+- [Marco Casu (CasuFrost)](https://github.com/CasuFrost/university-notes-Informatica)
 - [Ionut Cicio (IonutCicio)](https://ionutcicio.github.io/university/)
 - [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
 - [Lorenzo Sabatino (loresaba)](https://github.com/loresaba/scritti-di-informatica)
