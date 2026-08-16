@@ -4,6 +4,8 @@ weight: 3
 aliases: ["/info/terzo-anno/percorso-formativo/percorso-formativo-tele"]
 ---
 
+<div class="responsive-tables" hidden></div>
+
 # Percorso Formativo
 
 Le studentesse e gli studenti **iscritti al primo anno** del Corso di Laurea in **Informatica (erogato in modalità prevalentemente a distanza)** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
@@ -253,3 +255,19 @@ Il configuratore seguente aiuta a verificare i vincoli quantitativi del percorso
     <summary>Cosa posso fare se ho scelto un insegnamento che non mi piace?</summary>
     Se <b>non hai ancora inviato il percorso formativo</b>, puoi modificare la tua scelta di insegnamenti. Se invece hai già inviato il percorso, dovrai attendere l'Anno Accademico successivo per effettuare eventuali cambiamenti. In alcuni casi, è possibile richiedere una modifica anticipata al <a href="#docente-di-riferimento">docente responsabile per i percorsi formativi</a>, previa autorizzazione.
 </details>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const marker = document.querySelector(".responsive-tables");
+  const article = marker?.closest(".markdown, .book-article, article");
+
+  article?.querySelectorAll("table").forEach((table) => {
+    if (table.parentElement.classList.contains("table-responsive")) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-responsive";
+    table.before(wrapper);
+    wrapper.append(table);
+  });
+});
+</script>
