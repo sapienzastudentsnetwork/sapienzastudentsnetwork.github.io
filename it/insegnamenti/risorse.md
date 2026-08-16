@@ -50,12 +50,12 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 - [Marco Casu (CasuFrost)](https://github.com/CasuFrost/university-notes-Informatica)
 - [Ionut Cicio (IonutCicio)](https://ionutcicio.github.io/university/)
-- [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
+- [Simone Lidonnici (SimoneLid)](https://github.com/SimoneLid/Notes-Informatica)
 - [Lorenzo Sabatino (loresaba)](https://github.com/loresaba/scritti-di-informatica)
 
 #### Anno di immatricolazione 2021/22
 
-- [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
+- [Alessio Bandiera (aflaag-notes)](https://github.com/aflaag-notes)
 - [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
 
 ## Forum Esercizi e Soluzioni
