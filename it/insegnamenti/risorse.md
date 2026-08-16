@@ -27,6 +27,7 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 ### Anno di immatricolazione 2024/25
 
+- [Emanuele D'Ambrosio [Algebra A-L]](https://www.notion.so/emanueledambrosio/Algebra-09fc18fe59784e3291a7ea1f41d132dd?source=copy_link)
 - [Davide Galilei (DavideGalilei) [BD1]](https://davidegalilei.github.io/appunti-bd1/)
 - [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
 
