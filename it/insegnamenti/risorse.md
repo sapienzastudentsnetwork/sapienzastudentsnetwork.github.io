@@ -25,26 +25,35 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 > «Se tu hai una mela, e io ho una mela, e ce le scambiamo, allora tu ed io abbiamo sempre una mela per uno. Ma se tu hai un'idea, ed io ho un'idea, e ce le scambiamo, allora abbiamo entrambi due idee»  
 > — **Charles F. Brannan**
 
-### Anno di immatricolazione 2024/25
+### Nuovo ordinamento (33503 / 33504)
+
+#### Anno di immatricolazione 2025/26
+
+- [Catalin Ceban (catalin-ceban)](https://github.com/catalin-ceban/appunti-universitari)
+
+### Vecchio ordinamento (29923 / 29400)
+
+#### Anno di immatricolazione 2024/25
 
 - [Emanuele D'Ambrosio [Algebra A-L]](https://www.notion.so/emanueledambrosio/Algebra-09fc18fe59784e3291a7ea1f41d132dd?source=copy_link)
 - [Davide Galilei (DavideGalilei) [BD1]](https://davidegalilei.github.io/appunti-bd1/)
+- ["JackSparr0w999"](https://github.com/JackSparr0w999/University_Notes)
 - [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
 
-### Anno di immatricolazione 2023/24
+#### Anno di immatricolazione 2023/24
 
 - [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
 - [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
 - [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/bsc-notes)
 
-### Anno di immatricolazione 2022/23
+#### Anno di immatricolazione 2022/23
 
 - [Marco Casu (CasuFrost)](https://github.com/CasuFrost/university-notes-Informatica)
 - [Ionut Cicio (IonutCicio)](https://ionutcicio.github.io/university/)
 - [Simone Lidonnici (SimLid)](https://github.com/SimoneLid/Notes-Informatica)
 - [Lorenzo Sabatino (loresaba)](https://github.com/loresaba/scritti-di-informatica)
 
-### Anno di immatricolazione 2021/22
+#### Anno di immatricolazione 2021/22
 
 - [Alessio Bandiera (aflaag)](https://github.com/aflaag-notes)
 - [Simone Bianco (Exyss)](https://github.com/Exyss/university-notes)
