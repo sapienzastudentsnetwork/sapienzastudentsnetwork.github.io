@@ -27,6 +27,7 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 ### Anno di immatricolazione 2024/25
 
+- [Davide Galilei (DavideGalilei) [BD1]](https://davidegalilei.github.io/appunti-bd1/)
 - [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
 
 ### Anno di immatricolazione 2023/24
