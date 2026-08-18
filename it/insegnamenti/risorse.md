@@ -37,7 +37,7 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 - [Emanuele D'Ambrosio [Algebra A-L]](https://www.notion.so/emanueledambrosio/Algebra-09fc18fe59784e3291a7ea1f41d132dd?source=copy_link)
 - [Davide Galilei (DavideGalilei) [BD1]](https://davidegalilei.github.io/appunti-bd1/)
-- ["JackSparr0w999"](https://github.com/JackSparr0w999/University_Notes)
+- [Giovanni Paolo Tricarico (JackSparr0w999)](https://github.com/JackSparr0w999/University_Notes)
 - [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
 
 #### Anno di immatricolazione 2023/24
