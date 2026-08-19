@@ -265,3 +265,6 @@
 
 - id: B_Stud_DIRepr_Desc
   translation: Rappresentante degli Studenti al Consiglio di Dipartimento di Informatica
+
+- id: GoatCounter information
+  translation: "Visite conteggiate dal 19/08/2026 tramite GoatCounter: statistiche aggregate senza cookie o identificatori persistenti"

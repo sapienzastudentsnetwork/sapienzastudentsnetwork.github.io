@@ -53,3 +53,6 @@
 
 - id: B_Stud_Repr_CAD_Desc
   translation: Il curatore è un Rappresentante degli Studenti al Consiglio di Area Didattica ("CAD") di Filosofia
+
+- id: GoatCounter information
+  translation: "Visite conteggiate dal 19/08/2026 tramite GoatCounter: statistiche aggregate senza cookie o identificatori persistenti"

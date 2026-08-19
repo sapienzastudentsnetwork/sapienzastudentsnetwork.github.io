@@ -31,3 +31,6 @@
 
 - id: SSN_Repo_Managers
   translation: Repo Managers
+
+- id: GoatCounter information
+  translation: "Visits counted since 19/08/2026 through GoatCounter: aggregate statistics without cookies or persistent identifiers"

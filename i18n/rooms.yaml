@@ -19,3 +19,6 @@
 
 - id: 404_Report
   translation: Report an issue
+
+- id: GoatCounter information
+  translation: "Visits counted since 19/08/2026 through GoatCounter: aggregate statistics without cookies or persistent identifiers"

@@ -265,3 +265,6 @@
 
 - id: B_Stud_DIRepr_Desc
   translation: Student Representative on the Department Council of Computer Science
+
+- id: GoatCounter information
+  translation: "Visits counted since 19/08/2026 through GoatCounter: aggregate statistics without cookies or persistent identifiers"

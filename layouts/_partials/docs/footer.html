@@ -13,6 +13,11 @@
 {{ end }}
 </div>
 
+<div id="page-view-counter" class="flex align-center" hidden>
+  <i class="fa-regular fa-eye" aria-hidden="true" style="margin-right: 0.5rem;"></i><span id="page-view-count">0</span>
+  <sup><a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer" title='{{ partial "docs/text/i18n" "GoatCounter information" }}' aria-label='{{ partial "docs/text/i18n" "GoatCounter information" }}'>GC</a></sup>
+</div>
+
 <div>
 {{ if and .File .Site.Params.BookEditLink }}
   <a class="flex align-center" href="{{ partial "docs/links/edit" . }}" target="_blank" rel="noopener edit">
@@ -23,3 +28,37 @@
 </div>
 
 </div>
+
+<script>
+(function () {
+  function loadPageViewCount() {
+    if (!window.goatcounter || !window.goatcounter.get_data) return;
+
+    var path = window.goatcounter.get_data().p;
+    var endpoint = 'https://ssnet.goatcounter.com/counter/' +
+      encodeURIComponent(path) + '.json?start=2026-08-19';
+
+    window.fetch(endpoint)
+      .then(function (response) {
+        if (!response.ok) throw new Error('Unable to load page view count');
+        return response.json();
+      })
+      .then(function (data) {
+        if (!data.count) return;
+        document.getElementById('page-view-count').textContent = data.count;
+        document.getElementById('page-view-counter').hidden = false;
+      })
+      .catch(function () {
+        // Keep the optional counter hidden if GoatCounter is unavailable.
+      });
+  }
+
+  var script = document.getElementById('goatcounter-script');
+
+  if (window.goatcounter && window.goatcounter.get_data) {
+    loadPageViewCount();
+  } else if (script) {
+    script.addEventListener('load', loadPageViewCount, { once: true });
+  }
+})();
+</script>
