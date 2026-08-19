@@ -12,9 +12,9 @@
       return;
     }
 
-    var path = window.goatcounter.get_data().p;
+    var path = window.goatcounter.get_data().p.replace(/\/$/, "");
     var endpoint =
-      "https://ssnet.goatcounter.com/counter/" +
+      "https://gc.sapienzastudents.net/counter/" +
       encodeURIComponent(path) +
       ".json?start=2026-08-19";
 
