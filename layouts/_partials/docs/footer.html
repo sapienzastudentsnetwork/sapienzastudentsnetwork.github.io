@@ -29,47 +29,4 @@
 
 </div>
 
-<script>
-(function () {
-  var attempts = 0;
-  var maxAttempts = 100;
-  var timer = window.setInterval(function () {
-    attempts += 1;
-
-    if (window.goatcounter && window.goatcounter.visit_count) {
-      window.clearInterval(timer);
-
-      window.goatcounter.visit_count({
-        append: '#page-view-count',
-        path: window.goatcounter.get_data().p,
-        start: '2026-08-19',
-        no_branding: true,
-        attr: {
-          'aria-label': {{ partial "docs/text/i18n" "GoatCounter information" | jsonify | safeJS }}
-        },
-        style: `
-          div {
-            display: inline;
-            width: auto;
-            height: auto;
-            padding: 0;
-            border: 0;
-            color: inherit;
-            background: transparent;
-            font: inherit;
-          }
-          #gcvc-for, #gcvc-by { display: none; }
-          #gcvc-views { font: inherit; }
-        `
-      });
-
-      document.getElementById('page-view-counter').hidden = false;
-      return;
-    }
-
-    if (attempts >= maxAttempts) {
-      window.clearInterval(timer);
-    }
-  }, 100);
-})();
-</script>
+<script defer src="{{ "js/page-view-counter.js" | relURL }}"></script>
