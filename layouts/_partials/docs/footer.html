@@ -14,7 +14,7 @@
 </div>
 
 <div id="page-view-counter" class="flex align-center" hidden>
-  <i class="fa-regular fa-eye" aria-hidden="true" style="margin-right: 0.5rem;"></i><span id="page-view-count">0</span>
+  <i class="fa-regular fa-eye" aria-hidden="true" style="margin-right: 0.5rem;"></i><span id="page-view-count"></span>
   <sup><a href="https://www.goatcounter.com/" target="_blank" rel="noopener noreferrer" title='{{ partial "docs/text/i18n" "GoatCounter information" }}' aria-label='{{ partial "docs/text/i18n" "GoatCounter information" }}'>GC</a></sup>
 </div>
 
@@ -31,34 +31,45 @@
 
 <script>
 (function () {
-  function loadPageViewCount() {
-    if (!window.goatcounter || !window.goatcounter.get_data) return;
+  var attempts = 0;
+  var maxAttempts = 100;
+  var timer = window.setInterval(function () {
+    attempts += 1;
 
-    var path = window.goatcounter.get_data().p;
-    var endpoint = 'https://ssnet.goatcounter.com/counter/' +
-      encodeURIComponent(path) + '.json?start=2026-08-19';
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      window.clearInterval(timer);
 
-    window.fetch(endpoint)
-      .then(function (response) {
-        if (!response.ok) throw new Error('Unable to load page view count');
-        return response.json();
-      })
-      .then(function (data) {
-        if (!data.count) return;
-        document.getElementById('page-view-count').textContent = data.count;
-        document.getElementById('page-view-counter').hidden = false;
-      })
-      .catch(function () {
-        // Keep the optional counter hidden if GoatCounter is unavailable.
+      window.goatcounter.visit_count({
+        append: '#page-view-count',
+        path: window.goatcounter.get_data().p,
+        start: '2026-08-19',
+        no_branding: true,
+        attr: {
+          'aria-label': {{ partial "docs/text/i18n" "GoatCounter information" | jsonify | safeJS }}
+        },
+        style: `
+          div {
+            display: inline;
+            width: auto;
+            height: auto;
+            padding: 0;
+            border: 0;
+            color: inherit;
+            background: transparent;
+            font: inherit;
+          }
+          #gcvc-for, #gcvc-by { display: none; }
+          #gcvc-views { font: inherit; }
+        `
       });
-  }
 
-  var script = document.getElementById('goatcounter-script');
+      document.getElementById('page-view-counter').hidden = false;
+      return;
+    }
 
-  if (window.goatcounter && window.goatcounter.get_data) {
-    loadPageViewCount();
-  } else if (script) {
-    script.addEventListener('load', loadPageViewCount, { once: true });
-  }
+    if (attempts >= maxAttempts) {
+      window.clearInterval(timer);
+    }
+  }, 100);
 })();
 </script>
