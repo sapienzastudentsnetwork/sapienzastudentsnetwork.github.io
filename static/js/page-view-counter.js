@@ -16,7 +16,7 @@
     var endpoint =
       "https://gc.sapienzastudents.net/counter/" +
       encodeURIComponent(path) +
-      ".json?start=2026-08-19";
+      ".json";
 
     window.fetch(endpoint, {
       mode: "cors",
