@@ -27,8 +27,6 @@ or to a [member of the Sapienza Students Network Executive Board](../contributin
 ## First Semester
 
 * [Cryptography](https://github.com/sapienzastudentsnetwork/cryptography)
-* [Distributed Systems](https://github.com/sapienzastudentsnetwork/distributed-systems)
-* [High Performance Computing](https://github.com/sapienzastudentsnetwork/high-performance-computing)
 
 ## Second Semester
 
