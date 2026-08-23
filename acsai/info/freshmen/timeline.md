@@ -72,12 +72,12 @@ At the beginning of the third year, you will need to fill out your Study Plan by
 For all the information on how to fill out the Study Plan and the list of courses to choose from, refer to the [Study Plan guide](/acsai/info/third-year/study-plan/).
 
 ## **Once You Reach 126 Credits**: Internship
-The internship is an important learning experience that will allow you to apply your knowledge in a real work context. You can complete the internship either internally, collaborating with a professor or research group, or externally, at a company or organization. You can find more information on the [internship page](/acsai/info/third-year/internship/).
+The internship is an important learning experience that will allow you to apply your knowledge in a real work context. You can complete the internship either internally, collaborating with a professor or research group, or externally, at a company or organization. You can find more information on the [internship page](/acsai/info/third-year/internship/introduction-to-internships/).
 
 ## **Towards the End of the Internship**: Write the Internship Report
 The Bachelor's Degree in Applied Computer Science and Artificial Intelligence does not include a traditional thesis, but rather an internship report. This report is a written document that describes the work carried out during the internship and the results obtained.
 
-For all the information on how to write the internship report, what template to use, and useful tips, consult the [internship report guide](/acsai/info/third-year/internship/#how-to-write-an-internship-report).
+For all the information on how to write the internship report, what template to use, and useful tips, consult the [internship report guide](/acsai/info/third-year/internship/writing-the-report/).
 
 ## **After Completing the Internship and Exams**: Graduation
 Once you have completed all the exams and the internship report, you can finally graduate with a degree in Applied Computer Science and Artificial Intelligence. To prepare everything, you will need to fill out the graduation application, submit the internship report to the Academic Office, and register for the graduation session via InfoStud.
