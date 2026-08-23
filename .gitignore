@@ -25,3 +25,5 @@ static/33503/
 static/33504/
 static/inf/
 static/informatica/
+# Generated before the Hugo build
+data/page_source_metadata.json

@@ -1,16 +1,34 @@
+{{- $pagePath := "" -}}
+{{- with .File -}}
+  {{- $rawPath := strings.TrimPrefix hugo.WorkingDir .Filename -}}
+  {{- $pagePath = strings.TrimPrefix "/" (strings.Replace $rawPath "\\" "/") -}}
+{{- end -}}
+{{- $sourceMetadata := dict -}}
+{{- with hugo.Data.page_source_metadata -}}
+  {{- $sourceMetadata = index . $pagePath | default dict -}}
+{{- end -}}
+{{- $lastChange := $sourceMetadata.last_change -}}
+{{- $editSources := $sourceMetadata.edit_sources -}}
+
 <div class="flex flex-wrap justify-between">
-
 <div>
-  {{ if and .GitInfo .Site.Params.BookLastChangeLink }}
-  {{- $date := partial "docs/date" (dict "Date" .Lastmod "Format" .Site.Params.BookDateFormat) -}}
-  {{- $username := .GitInfo.AuthorName -}}
-  {{- $displayName := index hugo.Data.git_authors $username "display_name" | default $username -}}
-
-  <a class="flex align-center" href="{{ partial "docs/links/commit" . }}" title='{{ partial "docs/text/i18n" "Last modified by" }} {{ $displayName }} | {{ $date }}' target="_blank" rel="noopener">
-    <img src="{{ partial "docs/icon" "calendar" }}" class="book-icon" alt="" />
-    <span>{{ $date }} | {{ $displayName }}</span>
-  </a>
-{{ end }}
+  {{ if $lastChange }}
+    {{- $date := partial "docs/date" (dict "Date" (time.AsTime $lastChange.lastmod) "Format" .Site.Params.BookDateFormat) -}}
+    {{- $username := $lastChange.author -}}
+    {{- $displayName := index hugo.Data.git_authors $username "display_name" | default $username -}}
+    <a class="flex align-center" href="{{ $lastChange.commit_url }}" title='{{ partial "docs/text/i18n" "Last modified by" }} {{ $displayName }} | {{ $date }}' target="_blank" rel="noopener">
+      <img src="{{ partial "docs/icon" "calendar" }}" class="book-icon" alt="" />
+      <span>{{ $date }} | {{ $displayName }}</span>
+    </a>
+  {{ else if and .GitInfo .Site.Params.BookLastChangeLink }}
+    {{- $date := partial "docs/date" (dict "Date" .Lastmod "Format" .Site.Params.BookDateFormat) -}}
+    {{- $username := .GitInfo.AuthorName -}}
+    {{- $displayName := index hugo.Data.git_authors $username "display_name" | default $username -}}
+    <a class="flex align-center" href="{{ partial "docs/links/commit" . }}" title='{{ partial "docs/text/i18n" "Last modified by" }} {{ $displayName }} | {{ $date }}' target="_blank" rel="noopener">
+      <img src="{{ partial "docs/icon" "calendar" }}" class="book-icon" alt="" />
+      <span>{{ $date }} | {{ $displayName }}</span>
+    </a>
+  {{ end }}
 </div>
 
 <div id="page-view-counter" class="flex align-center" hidden>
@@ -19,14 +37,22 @@
 </div>
 
 <div>
-{{ if and .File .Site.Params.BookEditLink }}
-  <a class="flex align-center" href="{{ partial "docs/links/edit" . }}" target="_blank" rel="noopener edit">
-    <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
-    <span>{{ partial "docs/text/i18n" "Edit this page" }}</span>
-  </a>
-{{ end }}
+  {{ if $editSources }}
+    <span class="flex align-center">
+      <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
+      {{ range $index, $source := $editSources }}
+        {{ if $index }}<span>&nbsp;•&nbsp;</span>{{ end }}
+        <a href="{{ $source.edit_url }}" title="{{ $source.path }}" target="_blank" rel="noopener edit">
+          {{ if eq (len $editSources) 1 }}{{ partial "docs/text/i18n" "Edit this page" }}{{ else }}{{ path.Base $source.path }}{{ end }}
+        </a>
+      {{ end }}
+    </span>
+  {{ else if and .File .Site.Params.BookEditLink }}
+    <a class="flex align-center" href="{{ partial "docs/links/edit" . }}" target="_blank" rel="noopener edit">
+      <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
+      <span>{{ partial "docs/text/i18n" "Edit this page" }}</span>
+    </a>
+  {{ end }}
 </div>
-
 </div>
-
 <script defer src="{{ "js/page-view-counter.js" | relURL }}"></script>

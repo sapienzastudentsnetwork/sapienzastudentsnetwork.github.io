@@ -60,6 +60,12 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Fetch complete submodule history
+        run: git submodule foreach --recursive 'git fetch --unshallow 2>/dev/null || git fetch --all --tags'
+
+      - name: Generate page source metadata
+        run: python3 _scripts/generate-page-source-metadata.py
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
