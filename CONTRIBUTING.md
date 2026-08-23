@@ -85,11 +85,13 @@ Lo script consulta esclusivamente i file, i submodule e la cronologia Git dispon
 
 Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/).
 
+Docker genera automaticamente i metadati delle sorgenti prima di avviare Hugo. Se vuoi avviare il sito usando soltanto i metadati nativi di Hugo, imposta `GENERATE_SOURCE_METADATA=false`.
+
 4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
 docker build -t hugo-site . # Solo la prima volta che cloni il fork
-sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Avvio standard
-sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/app hugo-site # Con metadati delle sorgenti
+sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Genera i metadati delle sorgenti
+sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=false -v $(pwd):/app hugo-site # Disabilita la generazione
 ```
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
@@ -99,10 +101,12 @@ sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/ap
 
 Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/) e [**Docker Compose**](https://docs.docker.com/compose/install/).
 
+Docker Compose genera automaticamente i metadati delle sorgenti. Per disabilitare la generazione per un singolo avvio, assegna esplicitamente `false` a `GENERATE_SOURCE_METADATA`.
+
 4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
-docker compose up -d --build # Avvio standard
-GENERATE_SOURCE_METADATA=true docker compose up -d --build # Con metadati delle sorgenti
+docker compose up -d --build # Genera i metadati delle sorgenti
+GENERATE_SOURCE_METADATA=false docker compose up -d --build # Disabilita la generazione
 ```
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.

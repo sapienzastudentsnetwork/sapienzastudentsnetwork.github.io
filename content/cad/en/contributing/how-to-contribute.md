@@ -86,11 +86,13 @@ Now the problem should have disappeared, and you should be able to build without
 
 Before starting, check if you have [**Docker**](https://www.docker.com/) installed.
 
+Docker generates the included-source metadata automatically before starting Hugo. To start the site using only Hugo's native metadata, set `GENERATE_SOURCE_METADATA=false`.
+
 4. In order to run the site locally and test your code, run the following commands:
 ```bash
 docker build -t hugo-site . # Just the first time that you clone the fork
-sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Standard startup
-sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/app hugo-site # With included-source metadata
+sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Generates included-source metadata
+sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=false -v $(pwd):/app hugo-site # Disables metadata generation
 ```
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
@@ -102,10 +104,12 @@ sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/ap
 
 Before starting, check if you have [**Docker**](https://www.docker.com/) and [**Docker Compose**](https://docs.docker.com/compose/install/) installed.
 
+Docker Compose generates the included-source metadata automatically. To disable generation for a single startup, explicitly set `GENERATE_SOURCE_METADATA=false`.
+
 4. In order to run the site locally and test your code, run the following commands:
 ```bash
-docker compose up -d --build # Standard startup
-GENERATE_SOURCE_METADATA=true docker compose up -d --build # With included-source metadata
+docker compose up -d --build # Generates included-source metadata
+GENERATE_SOURCE_METADATA=false docker compose up -d --build # Disables metadata generation
 ```
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
