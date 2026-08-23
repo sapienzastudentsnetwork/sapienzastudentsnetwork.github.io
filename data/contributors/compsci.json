@@ -1,0 +1,97 @@
+{
+  "generated_at": "2026-08-23T23:43:05Z",
+  "source_commit": "5e37a66c502d241c5dc094381fbdd4ea8602f4c7",
+  "contributors": [
+    {
+      "name": "matypist",
+      "github": "https://github.com/matypist",
+      "avatar": "https://github.com/matypist.png?size=160",
+      "initials": "M",
+      "unresolved": false,
+      "commits": 128,
+      "additions": 2075,
+      "deletions": 1227,
+      "effective_lines": 3302,
+      "score": 100.0,
+      "rank": 1
+    },
+    {
+      "name": "palmaaaa",
+      "github": "https://github.com/palmaaaa",
+      "avatar": "https://github.com/palmaaaa.png?size=160",
+      "initials": "P",
+      "unresolved": false,
+      "commits": 20,
+      "additions": 1209,
+      "deletions": 577,
+      "effective_lines": 1786,
+      "score": 80.5,
+      "rank": 2
+    },
+    {
+      "name": "Lorenzoantonelli",
+      "github": "https://github.com/Lorenzoantonelli",
+      "avatar": "https://github.com/Lorenzoantonelli.png?size=160",
+      "initials": "L",
+      "unresolved": false,
+      "commits": 16,
+      "additions": 789,
+      "deletions": 626,
+      "effective_lines": 1415,
+      "score": 77.0,
+      "rank": 3
+    },
+    {
+      "name": "ElBi21",
+      "github": "https://github.com/ElBi21",
+      "avatar": "https://github.com/ElBi21.png?size=160",
+      "initials": "E",
+      "unresolved": false,
+      "commits": 5,
+      "additions": 156,
+      "deletions": 52,
+      "effective_lines": 208,
+      "score": 54.3,
+      "rank": 4
+    },
+    {
+      "name": "claudiadcrl",
+      "github": "https://github.com/claudiadcrl",
+      "avatar": "https://github.com/claudiadcrl.png?size=160",
+      "initials": "C",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 0,
+      "deletions": 6,
+      "effective_lines": 6,
+      "score": 20.1,
+      "rank": 5
+    },
+    {
+      "name": "robertiacobus",
+      "github": "https://github.com/robertiacobus",
+      "avatar": "https://github.com/robertiacobus.png?size=160",
+      "initials": "R",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 3,
+      "deletions": 1,
+      "effective_lines": 4,
+      "score": 17.6,
+      "rank": 6
+    },
+    {
+      "name": "IonutCicio",
+      "github": "https://github.com/IonutCicio",
+      "avatar": "https://github.com/IonutCicio.png?size=160",
+      "initials": "I",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 2,
+      "deletions": 1,
+      "effective_lines": 3,
+      "score": 16.0,
+      "rank": 7
+    }
+  ]
+}

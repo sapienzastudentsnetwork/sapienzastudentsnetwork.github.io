@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-08-23T23:17:05Z",
+  "source_commit": "5e37a66c502d241c5dc094381fbdd4ea8602f4c7",
+  "contributors": [
+    {
+      "name": "matypist",
+      "github": "https://github.com/matypist",
+      "avatar": "https://github.com/matypist.png?size=160",
+      "initials": "M",
+      "unresolved": false,
+      "commits": 18,
+      "additions": 705,
+      "deletions": 122,
+      "effective_lines": 827,
+      "score": 100.0,
+      "rank": 1
+    }
+  ]
+}

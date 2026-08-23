@@ -1,0 +1,28 @@
+{
+  "en": {
+    "detected": "contributors found in Git history.",
+    "updated": "Data is updated automatically for every new commit merged into the project.",
+    "avatar": "GitHub avatar for",
+    "commits": "commits",
+    "lines": "effective lines",
+    "unresolved": "GitHub profile not identified; link opens user search.",
+    "method": "How Impact Rank works",
+    "methodText": "Impact Rank combines contribution frequency and effective changes: commits count for 40% and added plus deleted lines for 60%, with logarithmic normalization within each ranking. Merge commits, binary files, build output, dependencies, generated and minified files are excluded.",
+    "wikiTitle": "Wiki contributions",
+    "sitewideTitle": "Project-wide contributions",
+    "sitewideIntro": "Contributions to shared code, layouts, configuration, automation, and resources used across the website."
+  },
+  "it": {
+    "detected": "contributor rilevati nella cronologia Git.",
+    "updated": "I dati vengono aggiornati automaticamente a ogni nuovo commit integrato nel progetto.",
+    "avatar": "Avatar GitHub di",
+    "commits": "commit",
+    "lines": "linee effettive",
+    "unresolved": "Profilo GitHub non identificato; il link apre la ricerca utenti.",
+    "method": "Come funziona l'Impact Rank",
+    "methodText": "L'Impact Rank combina continuità e quantità delle modifiche: i commit pesano il 40% e le righe aggiunte più quelle rimosse il 60%, con normalizzazione logaritmica all'interno di ogni classifica. Sono esclusi merge, file binari, build, dipendenze, file generati e minificati.",
+    "wikiTitle": "Contributi alla wiki",
+    "sitewideTitle": "Contributi all'intero progetto",
+    "sitewideIntro": "Contributi al codice condiviso, ai layout, alla configurazione, alle automazioni e alle risorse utilizzate in tutto il sito."
+  }
+}

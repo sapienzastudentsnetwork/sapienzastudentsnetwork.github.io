@@ -1,5 +1,5 @@
 ---
-title: "Project curators"
+title: "Wiki maintainers"
 aliases: ['/cybersec/contributing/project-curators', '/29389/contributing/contacts']
 bookToC: false
 weight: 2
@@ -7,4 +7,4 @@ layout: 'cybersec'
 type: 'page/contacts'
 ---
 
-Main curators' contacts for the sapienzastudents.net project
+Contact details for the maintainers coordinating the Cybersecurity degree programme's wiki.

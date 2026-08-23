@@ -222,8 +222,85 @@
 
 .curSeparator {
     width: 98%;
+    min-height: 1.5px;
     height: 1.5px;
+    flex-shrink: 0;
     background-color: #a3a3a3;
     border-radius: 3px;
     margin: 25px 0 20px 0;
+}
+
+// Contact-page cards use content-driven sizing and compact vertical spacing.
+.contactsList {
+    align-items: stretch;
+    row-gap: 24px;
+}
+
+.contactsList .curator {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 245px;
+    padding: 58px 12px 14px;
+    margin-bottom: 8px;
+    justify-content: flex-start;
+    overflow: visible;
+}
+
+.contactsList .curPic {
+    width: 112px;
+    height: 112px;
+    flex: 0 0 112px;
+    object-fit: cover;
+    margin-top: -112px;
+}
+
+.contactsList .curTitle {
+    margin: 8px 0 4px;
+    text-align: center;
+}
+
+.contactsList .curSocials {
+    min-height: 38px;
+    margin-top: 0;
+}
+
+.contactsList .curSeparator {
+    margin: 6px 0 10px;
+}
+
+.contactsList .curBadges {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 519px) {
+    .contactsList {
+        row-gap: 34px;
+    }
+
+    .contactsList .curator {
+        width: 90%;
+        min-height: 300px;
+        padding: 78px 16px 16px;
+        margin-top: 58px;
+    }
+
+    .contactsList .curPic {
+        width: 150px;
+        height: 150px;
+        flex-basis: 150px;
+        margin-top: -152px;
+    }
+
+    .contactsList .curTitle {
+        margin: 8px 0 4px;
+    }
+
+    .contactsList .curSocials {
+        min-height: 40px;
+    }
+
+    .contactsList .curSeparator {
+        margin: 8px 0 12px;
+    }
 }

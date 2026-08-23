@@ -1,0 +1,154 @@
+{{- $courseData := index site.Data.contributors .Params.contributorsKey -}}
+{{- $sitewideData := site.Data.contributors.sitewide -}}
+{{- $language := .Params.contributorsLanguage | default "en" -}}
+{{- $labels := index site.Data.contributor_labels $language -}}
+
+<style>
+  .contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0 2rem;
+  }
+
+  .contributor-card {
+    box-sizing: border-box;
+    min-width: 0;
+    min-height: 255px;
+    padding: 1.25rem 1rem 1rem;
+    border-radius: 8px;
+    background: #5d656a30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .contributor-avatar {
+    box-sizing: border-box;
+    width: 92px;
+    height: 92px;
+    flex: 0 0 92px;
+    border: 3px solid var(--border-color, #dedede);
+    border-radius: 50%;
+    object-fit: cover;
+    background: #24292f;
+  }
+
+  .contributor-avatar-fallback {
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #6e7781, #24292f);
+  }
+
+  .contributor-name {
+    width: 100%;
+    margin: 0.75rem 0 0.45rem;
+    overflow-wrap: anywhere;
+    line-height: 1.25;
+  }
+
+  .contributor-stats {
+    margin: auto 0 0;
+    line-height: 1.55;
+  }
+
+  .contributor-unresolved {
+    display: block;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    opacity: 0.75;
+  }
+
+  .contributors-method {
+    margin: 0.75rem 0 1.5rem;
+    padding: 1rem;
+    border-left: 4px solid currentColor;
+    background: #5d656a20;
+  }
+</style>
+
+{{- define "contributor-ranking-list" -}}
+  {{- $data := index . "data" -}}
+  {{- $labels := index . "labels" -}}
+
+  <p>
+    <strong>{{ len $data.contributors }}</strong>
+    {{ $labels.detected }} {{ $labels.updated }}
+  </p>
+
+  <div class="contributors-grid">
+    {{- range $data.contributors }}
+      <section class="contributor-card">
+        {{- if .avatar }}
+          <img
+            src="{{ .avatar }}"
+            class="contributor-avatar"
+            alt="{{ $labels.avatar }} {{ .name }}"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+          >
+        {{- else }}
+          <div
+            class="contributor-avatar contributor-avatar-fallback"
+            aria-hidden="true"
+          >
+            {{ .initials }}
+          </div>
+        {{- end }}
+
+        <div class="contributor-name">
+          <strong>
+            #{{ .rank }}
+            <a
+              href="{{ .github }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ .name }}
+            </a>
+          </strong>
+        </div>
+
+        <div class="contributor-stats">
+          {{ .commits }} {{ $labels.commits }}<br>
+          {{ .effective_lines }} {{ $labels.lines }}<br>
+          <strong>Impact Rank: {{ .score }}</strong>
+
+          {{- if .unresolved }}
+            <span class="contributor-unresolved">
+              {{ $labels.unresolved }}
+            </span>
+          {{- end }}
+        </div>
+      </section>
+    {{- end }}
+  </div>
+{{- end -}}
+
+<article class="markdown book-article">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+
+  <aside class="contributors-method">
+    <strong>{{ $labels.method }}.</strong>
+    {{ $labels.methodText }}
+  </aside>
+
+  <h2>{{ $labels.wikiTitle }}</h2>
+  {{ template "contributor-ranking-list" (dict
+      "data" $courseData
+      "labels" $labels
+  ) }}
+
+  <h2>{{ $labels.sitewideTitle }}</h2>
+  <p>{{ $labels.sitewideIntro }}</p>
+  {{ template "contributor-ranking-list" (dict
+      "data" $sitewideData
+      "labels" $labels
+  ) }}
+</article>
