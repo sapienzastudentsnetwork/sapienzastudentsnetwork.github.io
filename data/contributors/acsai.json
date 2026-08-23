@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-08-23T23:43:05Z",
-  "source_commit": "5e37a66c502d241c5dc094381fbdd4ea8602f4c7",
+  "generated_at": "2026-08-23T23:54:51Z",
+  "source_commit": "aaa3eb7e56aff411b12a1ccc3eedd39e3e90babd",
   "contributors": [
     {
       "name": "matypist",
       "github": "https://github.com/matypist",
-      "avatar": "https://github.com/matypist.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 167,
-      "additions": 2070,
-      "deletions": 2468,
-      "effective_lines": 4538,
+      "commits": 168,
+      "additions": 2075,
+      "deletions": 2471,
+      "effective_lines": 4546,
       "score": 100.0,
       "rank": 1
     },
     {
       "name": "ElBi21",
       "github": "https://github.com/ElBi21",
-      "avatar": "https://github.com/ElBi21.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/64312343?v=4",
       "initials": "E",
       "unresolved": false,
       "commits": 48,
       "additions": 2833,
       "deletions": 1380,
       "effective_lines": 4213,
-      "score": 89.9,
+      "score": 89.8,
       "rank": 2
     },
     {
       "name": "Lorenzoantonelli",
       "github": "https://github.com/Lorenzoantonelli",
-      "avatar": "https://github.com/Lorenzoantonelli.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
       "initials": "L",
       "unresolved": false,
       "commits": 22,
       "additions": 380,
       "deletions": 394,
       "effective_lines": 774,
-      "score": 71.9,
+      "score": 71.8,
       "rank": 3
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "claudiadcrl",
       "github": "https://github.com/claudiadcrl",
-      "avatar": "https://github.com/claudiadcrl.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/168536707?v=4",
       "initials": "C",
       "unresolved": false,
       "commits": 4,
@@ -83,7 +83,7 @@
     {
       "name": "palmaaaa",
       "github": "https://github.com/palmaaaa",
-      "avatar": "https://github.com/palmaaaa.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/80824277?v=4",
       "initials": "P",
       "unresolved": false,
       "commits": 3,
@@ -96,7 +96,7 @@
     {
       "name": "Exyss",
       "github": "https://github.com/Exyss",
-      "avatar": "https://github.com/Exyss.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/65043207?v=4",
       "initials": "E",
       "unresolved": false,
       "commits": 1,
@@ -109,7 +109,7 @@
     {
       "name": "DavideGalilei",
       "github": "https://github.com/DavideGalilei",
-      "avatar": "https://github.com/DavideGalilei.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/43778739?v=4",
       "initials": "D",
       "unresolved": false,
       "commits": 1,
@@ -122,7 +122,7 @@
     {
       "name": "NilAtabey",
       "github": "https://github.com/NilAtabey",
-      "avatar": "https://github.com/NilAtabey.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/73126291?v=4",
       "initials": "N",
       "unresolved": false,
       "commits": 1,
@@ -135,14 +135,14 @@
     {
       "name": "marciesmonde-maker",
       "github": "https://github.com/marciesmonde-maker",
-      "avatar": "https://github.com/marciesmonde-maker.png?size=160",
+      "avatar": "https://avatars.githubusercontent.com/u/257679066?v=4",
       "initials": "MM",
       "unresolved": false,
       "commits": 1,
       "additions": 1,
       "deletions": 0,
       "effective_lines": 1,
-      "score": 10.4,
+      "score": 10.3,
       "rank": 11
     }
   ]
