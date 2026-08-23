@@ -1,0 +1,53 @@
+.edit-source-dialog {
+  width: calc(100% - 2rem);
+  max-width: 36rem;
+  max-height: calc(100% - 2rem);
+  box-sizing: border-box;
+  padding: 1rem;
+  color: inherit;
+  background: var(--body-background, #fff);
+  border: 1px solid var(--gray-200, #d8d8d8);
+  border-radius: 0.35rem;
+
+  &::backdrop {
+    background: rgba(0, 0, 0, 0.55);
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+
+  li + li {
+    margin-top: 0.75rem;
+  }
+
+  a {
+    overflow-wrap: anywhere;
+  }
+
+  small {
+    display: block;
+    margin-top: 0.15rem;
+    color: var(--gray-500, #737373);
+  }
+}
+
+.edit-source-dialog-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.edit-source-dialog-close {
+  padding: 0 0.25rem;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  font: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}

@@ -3,12 +3,20 @@
   {{- $rawPath := strings.TrimPrefix hugo.WorkingDir .Filename -}}
   {{- $pagePath = strings.TrimPrefix "/" (strings.Replace $rawPath "\\" "/") -}}
 {{- end -}}
-{{- $sourceMetadata := dict -}}
+
+{{- $lastChange := dict -}}
+{{- $editSources := slice -}}
 {{- with hugo.Data.page_source_metadata -}}
-  {{- $sourceMetadata = index . $pagePath | default dict -}}
+  {{- with index . $pagePath -}}
+    {{- with .last_change -}}
+      {{- $lastChange = . -}}
+    {{- end -}}
+    {{- with .edit_sources -}}
+      {{- $editSources = . -}}
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
-{{- $lastChange := $sourceMetadata.last_change -}}
-{{- $editSources := $sourceMetadata.edit_sources -}}
+{{- $editSourceCount := len $editSources -}}
 
 <div class="flex flex-wrap justify-between">
 <div>
@@ -37,16 +45,34 @@
 </div>
 
 <div>
-  {{ if $editSources }}
-    <span class="flex align-center">
+  {{ if eq $editSourceCount 1 }}
+    {{- $source := index $editSources 0 -}}
+    <a class="flex align-center" href="{{ $source.edit_url }}" target="_blank" rel="noopener edit">
       <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
-      {{ range $index, $source := $editSources }}
-        {{ if $index }}<span>&nbsp;•&nbsp;</span>{{ end }}
-        <a href="{{ $source.edit_url }}" title="{{ $source.path }}" target="_blank" rel="noopener edit">
-          {{ if eq (len $editSources) 1 }}{{ partial "docs/text/i18n" "Edit this page" }}{{ else }}{{ path.Base $source.path }}{{ end }}
-        </a>
-      {{ end }}
-    </span>
+      <span>{{ partial "docs/text/i18n" "Edit this page" }}</span>
+    </a>
+  {{ else if gt $editSourceCount 1 }}
+    <a class="flex align-center" href="#edit-source-dialog" data-edit-source-trigger role="button">
+      <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
+      <span>{{ partial "docs/text/i18n" "Edit this page" }}</span>
+    </a>
+
+    <dialog id="edit-source-dialog" class="edit-source-dialog" aria-labelledby="edit-source-dialog-title">
+      <div class="edit-source-dialog-header">
+        <strong id="edit-source-dialog-title">{{ partial "docs/text/i18n" "Edit this page" }}</strong>
+        <button type="button" class="edit-source-dialog-close" data-edit-source-close aria-label="Close">&times;</button>
+      </div>
+      <ul>
+        {{ range $source := $editSources }}
+          <li>
+            <a href="{{ $source.edit_url }}" target="_blank" rel="noopener edit">
+              <strong>{{ path.Base $source.path }}</strong>
+              <small>{{ $source.repository }} &middot; {{ $source.path }}</small>
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </dialog>
   {{ else if and .File .Site.Params.BookEditLink }}
     <a class="flex align-center" href="{{ partial "docs/links/edit" . }}" target="_blank" rel="noopener edit">
       <img src="{{ partial "docs/icon" "edit" }}" class="book-icon" alt="" />
@@ -55,4 +81,8 @@
   {{ end }}
 </div>
 </div>
+
+{{ if gt $editSourceCount 1 }}
+<script defer src="{{ "js/edit-source-dialog.js" | relURL }}"></script>
+{{ end }}
 <script defer src="{{ "js/page-view-counter.js" | relURL }}"></script>

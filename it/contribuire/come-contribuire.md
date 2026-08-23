@@ -41,10 +41,23 @@ Ci sono tre modi per eseguire il sito localmente. Uno è utilizzando i **binarie
 
 Prima di iniziare, verifica se hai installato i [binaries di Hugo](https://gohugo.io/installation/).
 
-4. Mentre sei ancora nella cartella del repository, puoi eseguire localmente il sito con
+4. Mentre sei ancora nella cartella del repository, puoi eseguire localmente il sito con:
 ```bash
 hugo server
 ```
+
+#### Metadati delle sorgenti inclusi
+
+Il sito può essere avviato senza preparazione aggiuntiva. In questa modalità il footer usa i metadati Git forniti direttamente da Hugo per il file della pagina.
+
+Alcune pagine assemblano il proprio contenuto con gli shortcode `include` e `includeWithoutToc`, anche da repository collegati come submodule. Per verificare localmente anche la data dell'ultima modifica e i collegamenti di modifica relativi ai file effettivamente inclusi, genera il data file prima di avviare Hugo:
+
+```bash
+python3 _scripts/generate-page-source-metadata.py
+hugo server
+```
+
+Lo script consulta esclusivamente i file, i submodule e la cronologia Git disponibili nel clone locale; non effettua richieste di rete. Il risultato viene scritto in `data/page_source_metadata.json`, un file generato e ignorato da Git. Se il file non è presente, il footer continua a funzionare usando i metadati nativi di Hugo. Dopo aver modificato la struttura degli include, aggiornato un submodule o creato nuovi commit, esegui nuovamente lo script per aggiornare il data file.
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
 
@@ -83,7 +96,8 @@ Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.co
 4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
 docker build -t hugo-site . # Solo la prima volta che cloni il fork
-docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Ogni volta che lavori sul progetto
+docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Avvio standard
+docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/app hugo-site # Con metadati delle sorgenti
 ```
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
@@ -96,7 +110,8 @@ Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.co
 
 4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
-docker compose up -d --build
+docker compose up -d --build # Avvio standard
+GENERATE_SOURCE_METADATA=true docker compose up -d --build # Con metadati delle sorgenti
 ```
 
 5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.

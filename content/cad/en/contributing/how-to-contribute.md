@@ -34,10 +34,23 @@ There are currently three ways to run the site locally. One is by using the **Hu
 
 Before starting, check if you have the [Hugo binaries](https://gohugo.io/installation/) installed.
 
-4. While still being on the folder of the repo, you can run locally the site by doing
+4. While in the repository directory, start the local site with:
 ```bash
 hugo server
 ```
+
+#### Included-source metadata
+
+The site can be started without any additional preparation. In this mode, the footer uses the Git metadata that Hugo provides for each page file.
+
+Some pages assemble their content with the `include` and `includeWithoutToc` shortcodes, including files stored in Git submodules. To test the effective last-modified date and edit links for those included files, generate the Hugo data file before starting the server:
+
+```bash
+python3 _scripts/generate-page-source-metadata.py
+hugo server
+```
+
+The script reads only the files, submodules, and Git history available in the local clone; it does not make network requests. It writes `data/page_source_metadata.json`, which is generated locally and ignored by Git. If the file is absent, the footer continues to work with Hugo's native metadata. Run the script again after changing include relationships, updating a submodule, or creating commits that should be reflected in the footer.
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Warning**
 
@@ -76,7 +89,8 @@ Before starting, check if you have [**Docker**](https://www.docker.com/) install
 4. In order to run the site locally and test your code, run the following commands:
 ```bash
 docker build -t hugo-site . # Just the first time that you clone the fork
-sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Everytime that you work on the project
+sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Standard startup
+sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=true -v $(pwd):/app hugo-site # With included-source metadata
 ```
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.
@@ -90,7 +104,8 @@ Before starting, check if you have [**Docker**](https://www.docker.com/) and [**
 
 4. In order to run the site locally and test your code, run the following commands:
 ```bash
-docker compose up -d --build
+docker compose up -d --build # Standard startup
+GENERATE_SOURCE_METADATA=true docker compose up -d --build # With included-source metadata
 ```
 
 5. Open [`localhost:1313`](http://localhost:1313/) in the browser, and there you go! You can now preview the site.

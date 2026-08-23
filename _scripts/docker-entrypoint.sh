@@ -1,0 +1,27 @@
+#!/bin/sh
+set -eu
+
+cd /app
+
+# The project is bind-mounted from the host, so Git may consider the main
+# repository and its submodules to have dubious ownership inside the container.
+# Trust only the project worktree and the submodule paths declared by this
+# checkout; do not disable Git's ownership checks globally.
+git config --global --add safe.directory /app
+if [ -f .gitmodules ]; then
+  git config --file .gitmodules --get-regexp '^submodule\..*\.path$' 2>/dev/null |
+    while IFS=' ' read -r _submodule_key submodule_path; do
+      [ -n "$submodule_path" ] || continue
+      git config --global --add safe.directory "/app/$submodule_path"
+    done
+fi
+
+# Source-aware metadata is an optional local enhancement. If generation is
+# disabled or fails, Hugo still starts and the footer uses its native fallback.
+if [ "${GENERATE_SOURCE_METADATA:-false}" = "true" ]; then
+  if ! python3 _scripts/generate-page-source-metadata.py; then
+    echo "WARNING: unable to generate page source metadata; starting Hugo with the available fallback metadata." >&2
+  fi
+fi
+
+exec "$@"

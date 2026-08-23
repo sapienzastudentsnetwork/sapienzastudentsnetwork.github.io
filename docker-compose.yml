@@ -5,6 +5,8 @@ services:
     environment:
       # Change to "true" to generate local aliases, "false" to remove them
       - GENERATE_ALIASES=false
+      # Generate source-aware footer metadata when explicitly enabled.
+      - GENERATE_SOURCE_METADATA=${GENERATE_SOURCE_METADATA:-false}
     volumes:
       # Mount the current directory to the container
       # This is useful for updating the website without rebuilding the container

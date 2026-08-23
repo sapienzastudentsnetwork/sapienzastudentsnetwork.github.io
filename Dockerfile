@@ -11,6 +11,11 @@ COPY . .
 # Install npm dependencies and build Tailwind CSS
 RUN npm install && npm run build
 
+# Optionally generate source-aware metadata after local volumes are mounted.
+COPY _scripts/docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
+
 # Espone la porta per il server Hugo
 EXPOSE 1313
 
