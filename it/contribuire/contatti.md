@@ -1,5 +1,5 @@
 ---
-title: "Contatti gestori"
+title: "Gestori wiki"
 aliases: ["/it/contribuire/curatori-progetto"]
 bookToC: false
 weight: 2
