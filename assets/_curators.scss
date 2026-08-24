@@ -222,21 +222,119 @@
 
 .curSeparator {
     width: 98%;
-    min-height: 1.5px;
     height: 1.5px;
-    flex-shrink: 0;
     background-color: #a3a3a3;
     border-radius: 3px;
     margin: 25px 0 20px 0;
 }
 
-// Contact pages use a smaller card than the historical curator profile cards.
-.contactsList .curator {
-    height: 300px;
+// Contact-page cards keep every element in normal document flow. Badges
+// contribute to card height, while the grid prevents avoidable row wrapping.
+.contactsList {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 28px 20px;
 }
 
-@media screen and (max-width: 719px) {
+.contactsList .curator {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto !important;
+    min-height: 0;
+    padding: 16px 12px 14px;
+    margin: 38px 0 10px;
+    justify-content: flex-start;
+    overflow: visible;
+}
+
+.contactsList .curPic {
+    width: 112px;
+    height: 112px;
+    flex: 0 0 112px;
+    object-fit: cover;
+    margin-top: -58px;
+}
+
+.contactsList .curTitle {
+    margin: 8px 0 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.contactsList .curSocials {
+    min-height: 0;
+    margin: -2px 0 0;
+    line-height: 1;
+}
+
+.contactsList .curSocials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+}
+
+.contactsList .curSeparator {
+    min-height: 1.5px;
+    flex-shrink: 0;
+    margin: 4px 0 10px;
+}
+
+.contactsList .curBadges {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    flex: 0 0 auto;
+}
+
+@media screen and (min-width: 520px) and (max-width: 719px) {
+    .contactsList {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 519px) {
+    .contactsList {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        gap: 34px;
+        margin-top: 30px;
+    }
+
     .contactsList .curator {
-        height: 280px;
+        width: 90%;
+        height: auto !important;
+        min-height: 0;
+        padding: 18px 16px 16px;
+        margin: 46px auto 0;
+    }
+
+    .contactsList .curPic {
+        width: 150px;
+        height: 150px;
+        flex: 0 0 150px;
+        margin-top: -64px;
+    }
+
+    .contactsList .curTitle {
+        margin: 8px 0 0;
+    }
+
+    .contactsList .curSocials {
+        min-height: 0;
+        margin-top: -2px;
+    }
+
+    .contactsList .curSocials a {
+        min-height: 40px;
+    }
+
+    .contactsList .curSeparator {
+        margin: 6px 0 12px;
+    }
+
+    .contactsList .curBadges {
+        padding-bottom: 2px;
     }
 }
