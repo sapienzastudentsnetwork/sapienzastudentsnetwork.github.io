@@ -265,7 +265,10 @@
   #course-wikis > a > div { min-height: 8.25rem; }
   #course-wikis img { width: 4.5rem; }
   #course-wikis h2 { font-size: 1.15rem; }
-  #course-wikis p { margin-bottom: 0; font-size: 0.78rem; }
+  #course-wikis p {
+    margin-bottom: 1rem;
+    font-size: 0.78rem;
+  }
 }
 
 /* Header, language selector, and official-information note. */
