@@ -19,7 +19,6 @@ bookToc: False
 
 \*<i> ⚠️ **The information on this website is not legally binding.** For official texts, please refer to the [university's official website](https://www.uniroma1.it/en/) and the [Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33516) pages (also available in an [accessible version](https://cdl.sapienzastudents.net/33516/en/index.html)).</i>
 
-<!--
 ## Featured pages
 <div class="home_evid">
     <div class="home_page" id="home_enroll">
@@ -38,4 +37,4 @@ bookToc: False
         <button class="explore_more" onclick="window.location.href = 'courses/timetables/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
--->
+

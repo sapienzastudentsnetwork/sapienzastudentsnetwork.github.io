@@ -1,5 +1,6 @@
 ---
 title: How to enroll
+aliases: ["/info/freshman/how-to-enroll"]
 bookHidden: false
 ---
 
