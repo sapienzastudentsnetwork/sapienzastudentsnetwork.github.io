@@ -1,43 +1,131 @@
 {{ define "main" }}
+{{ $isAboutPage := eq .RelPermalink "/sapienza-students-network/" }}
+{{ $lang := cond (eq .Site.Language.Lang "it") "it" "en" }}
+{{ $ssn := index .Site.Data.ssn $lang }}
 <article class="markdown book-article">
+    {{ if $isAboutPage }}
+    <div class="ssn-language-switch" role="group" aria-label="Language / Lingua">
+        <button type="button" data-ssn-language="en" class="active" aria-pressed="true">English</button>
+        <button type="button" data-ssn-language="it" aria-pressed="false">Italiano</button>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var translations = {
+        en: {{ .Site.Data.ssn.en | jsonify | safeJS }},
+        it: {{ .Site.Data.ssn.it | jsonify | safeJS }}
+      };
+      var buttons = document.querySelectorAll('[data-ssn-language]');
+      function browserLanguage() {
+        var values = navigator.languages || [navigator.language || 'en'];
+        return values.some(function (value) { return /^it(?:-|$)/i.test(value); }) ? 'it' : 'en';
+      }
+      function applyLanguage(language, remember) {
+        document.querySelectorAll('[data-ssn-key]').forEach(function (element) {
+          var value = translations[language][element.dataset.ssnKey];
+          if (typeof value !== 'undefined') element.innerHTML = value;
+        });
+        buttons.forEach(function (button) {
+          var active = button.dataset.ssnLanguage === language;
+          button.classList.toggle('active', active);
+          button.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+        document.querySelector('.book-article').setAttribute('lang', language);
+        if (remember) localStorage.setItem('ssnAboutLanguage', language);
+      }
+      buttons.forEach(function (button) {
+        button.addEventListener('click', function () { applyLanguage(button.dataset.ssnLanguage, true); });
+      });
+      var savedLanguage = localStorage.getItem('ssnAboutLanguage');
+      var initialLanguage = savedLanguage === 'it' || savedLanguage === 'en'
+        ? savedLanguage
+        : browserLanguage();
+      applyLanguage(initialLanguage, false);
+    });
+    </script>
+    {{ end }}
     <h1  class="text-center">
         Sapienza Students Network
 
         <a class="anchor" href="#-project-curators">#</a>
     </h1>
     <h2 class="text-center">
-        {{ T "SSN_Introduction_Title" }}
+        <span data-ssn-key="SSN_Introduction_Title">{{ index $ssn "SSN_Introduction_Title" }}</span>
 
         <a class="anchor" href="#-introduction">#</a>
     </h2>
-    <div class="text-center">
-        {{ T "SSN_Introduction_Text" }}
-        <br/><br/>
-        <a href="https://github.com/SapienzaStudentsNetwork"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)"></a>
-        <a href="https://telegram.me/SapienzaStudentsNetwork"><img alt="Telegram" src="https://img.shields.io/badge/Telegram-26A5E4?&logo=Telegram&logoColor=white"></a>
-        <a href="https://instagram.com/SapienzaStudentsNetwork"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"></a>
-        <br/>
-        <a href="https://www.linkedin.com/company/sapienzastudentsnetwork/"><img alt="LinkedIn" src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff"></a>
-        <a href="https://www.youtube.com/@SapienzaStudentsNetwork"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white"></a>
-        <a href="https://discord.sapienzastudents.net"><img alt="Discord" src="https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white"></a>
-        <br/><br/>
-        {{ T "SSN_Introduction_Contact_1" }}
-        <br/>
-        {{ T "SSN_Introduction_Contact_2" }} <a href="https://telegram.me/SapienzaStudentsNetworkBot">[Telegram]</a> <a href="mailto:info@sapienzastudents.net">[Email]</a> 💬
+    <div class="text-center ssn-intro">
+        <span data-ssn-key="SSN_Introduction_Text">{{ index $ssn "SSN_Introduction_Text" }}</span>
     </div>
     <h2 class="text-center">
-        {{ T "SSN_Founder" }}
-
-        <a class="anchor" href="#-founder">#</a>
+        <span data-ssn-key="SSN_Channels_Title">{{ index $ssn "SSN_Channels_Title" }}</span>
+        <a class="anchor" href="#-channels">#</a>
     </h2>
+    <p class="text-center"><span data-ssn-key="SSN_Channels_Description">{{ index $ssn "SSN_Channels_Description" }}</span></p>
+    <nav class="ssn-channel-grid" aria-label="Channels and contacts / Canali e contatti">
+        <a class="ssn-channel-card" href="https://sapienzastudents.net/">
+            <strong><img class="ssn-channel-favicon" src="/favicon.png" alt="" aria-hidden="true"><span data-ssn-key="SSN_Channel_Website">{{ index $ssn "SSN_Channel_Website" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_Website_Desc">{{ index $ssn "SSN_Channel_Website_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://telegram.me/SapienzaStudentsNetwork">
+            <strong><i class="fa-brands fa-telegram" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_Telegram">{{ index $ssn "SSN_Channel_Telegram" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_Telegram_Desc">{{ index $ssn "SSN_Channel_Telegram_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://github.com/SapienzaStudentsNetwork">
+            <strong><i class="fa-brands fa-github" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_GitHub">{{ index $ssn "SSN_Channel_GitHub" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_GitHub_Desc">{{ index $ssn "SSN_Channel_GitHub_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://instagram.com/SapienzaStudentsNetwork">
+            <strong><i class="fa-brands fa-instagram" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_Instagram">{{ index $ssn "SSN_Channel_Instagram" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_Instagram_Desc">{{ index $ssn "SSN_Channel_Instagram_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://www.linkedin.com/company/sapienzastudentsnetwork/">
+            <strong><i class="fa-brands fa-linkedin" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_LinkedIn">{{ index $ssn "SSN_Channel_LinkedIn" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_LinkedIn_Desc">{{ index $ssn "SSN_Channel_LinkedIn_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://www.youtube.com/@SapienzaStudentsNetwork">
+            <strong><i class="fa-brands fa-youtube" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_YouTube">{{ index $ssn "SSN_Channel_YouTube" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_YouTube_Desc">{{ index $ssn "SSN_Channel_YouTube_Desc" }}</span></span>
+        </a>
+        <a class="ssn-channel-card" href="https://discord.sapienzastudents.net">
+            <strong><i class="fa-brands fa-discord" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_Discord">{{ index $ssn "SSN_Channel_Discord" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_Discord_Desc">{{ index $ssn "SSN_Channel_Discord_Desc" }}</span></span>
+        </a>
+        <div class="ssn-channel-card ssn-contact-card">
+            <strong><i class="fa-solid fa-envelope" aria-hidden="true"></i><span data-ssn-key="SSN_Channel_Contact">{{ index $ssn "SSN_Channel_Contact" }}</span></strong>
+            <span><span data-ssn-key="SSN_Channel_Contact_Desc">{{ index $ssn "SSN_Channel_Contact_Desc" }}</span></span>
+            <span class="ssn-contact-links">
+                <a href="https://telegram.me/SapienzaStudentsNetworkBot"><i class="fa-brands fa-telegram" aria-hidden="true"></i>Telegram</a>
+                <a href="mailto:info@sapienzastudents.net"><i class="fa-solid fa-envelope" aria-hidden="true"></i>Email</a>
+            </span>
+        </div>
+    </nav>
+    <h2 class="text-center">
+        <span data-ssn-key="SSN_Activities_Title">{{ index $ssn "SSN_Activities_Title" }}</span>
+
+        <a class="anchor" href="#-what-we-do">#</a>
+    </h2>
+    <div>
+        <div data-ssn-key="SSN_Activities_Text">{{ index $ssn "SSN_Activities_Text" | safeHTML }}</div>
+    </div>
+    <h2 class="text-center">
+        <span data-ssn-key="SSN_Coordinator">{{ index $ssn "SSN_Coordinator" }}</span>
+
+        <a class="anchor" href="#-general-coordinator">#</a>
+    </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Coordinator_Description">{{ index $ssn "SSN_Coordinator_Description" | safeHTML }}</span></p>
+    </div>
     <div class="curatorList" style="justify-content: center;">
         {{ partial "staff/matypist" . }}
     </div>
     <h2 class="text-center">
-        {{ T "SSN_Executive_Board" }}
+        <span data-ssn-key="SSN_Executive_Board">{{ index $ssn "SSN_Executive_Board" }}</span>
 
         <a class="anchor" href="#-executive-board">#</a>
     </h2>
+    <div class="ssn-project-description ssn-board-contact">
+        <p><span data-ssn-key="SSN_Executive_Board_Contact">{{ index $ssn "SSN_Executive_Board_Contact" | safeHTML }}</span></p>
+    </div>
     <div class="curatorList">
         {{ partial "staff/matypist" . }}
         {{ partial "staff/Lorenzoantonelli" . }}
@@ -49,8 +137,15 @@
     <h2 class="text-center">
         sapienzastudents.net
 
-        <a class="anchor" href="#-github-forums">#</a>
+        <a class="anchor" href="#-website">#</a>
     </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Website_Description">{{ index $ssn "SSN_Website_Description" }}</span></p>
+        <div class="ssn-project-links">
+            <a href="https://sapienzastudents.net/"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i><span data-ssn-key="SSN_Website_Open">{{ index $ssn "SSN_Website_Open" }}</span></a>
+            <a href="https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-ssn-key="SSN_Project_Repository">{{ index $ssn "SSN_Project_Repository" }}</span></a>
+        </div>
+    </div>
     <div class="curatorList">
         {{ partial "staff/matypist" . }}
         {{ partial "staff/Lorenzoantonelli" . }}
@@ -59,19 +154,27 @@
         {{ partial "staff/IonutCicio" (dict "context" . "nobold" .) }}
     </div>
     <h2 class="text-center">
-        GitHub • {{ T "SSN_Forums" }}
+        GitHub • <span data-ssn-key="SSN_Forums">{{ index $ssn "SSN_Forums" }}</span>
 
         <a class="anchor" href="#-github-forums">#</a>
     </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Forums_Description">{{ index $ssn "SSN_Forums_Description" | safeHTML }}</span></p>
+        <div class="ssn-project-links"><a href="https://github.com/sapienzastudentsnetwork#-forum-esercizi-e-soluzioni-202627"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-ssn-key="SSN_Forums_Open">{{ index $ssn "SSN_Forums_Open" }}</span></a></div>
+    </div>
     <div class="curatorList">
         {{ partial "staff/FeddyLix17" . }}
         {{ partial "staff/SSN_Repo_Managers" . }}
     </div>
     <h2 class="text-center">
-        Telegram • {{ T "SSN_Groups" }}
+        Telegram • <span data-ssn-key="SSN_Groups">{{ index $ssn "SSN_Groups" }}</span>
 
         <a class="anchor" href="#-telegram">#</a>
     </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Groups_Description">{{ index $ssn "SSN_Groups_Description" | safeHTML }}</span></p>
+        <div class="ssn-project-links"><a href="https://t.me/SapienzaStudentsBot"><i class="fa-brands fa-telegram" aria-hidden="true"></i><span data-ssn-key="SSN_Groups_OpenBot">{{ index $ssn "SSN_Groups_OpenBot" }}</span></a></div>
+    </div>
     <div class="curatorList">
         {{ partial "staff/matypist" . }}
         {{ partial "staff/dag7dev" . }}
@@ -86,8 +189,15 @@
     <h2 class="text-center">
         Telegram • SapienzaStudentsBot
 
-        <a class="anchor" href="#-github-forums">#</a>
+        <a class="anchor" href="#-sapienzastudentsbot">#</a>
     </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Bot_Description">{{ index $ssn "SSN_Bot_Description" }}</span></p>
+        <div class="ssn-project-links">
+            <a href="https://t.me/SapienzaStudentsBot"><i class="fa-brands fa-telegram" aria-hidden="true"></i><span data-ssn-key="SSN_Bot_Open">{{ index $ssn "SSN_Bot_Open" }}</span></a>
+            <a href="https://github.com/sapienzastudentsnetwork/sapienzastudentsbot"><i class="fa-brands fa-github" aria-hidden="true"></i><span data-ssn-key="SSN_Project_Repository">{{ index $ssn "SSN_Project_Repository" }}</span></a>
+        </div>
+    </div>
     <div class="curatorList justify-center">
         {{ partial "staff/matypist" . }}
         {{ partial "staff/dag7dev" . }}
@@ -97,6 +207,12 @@
 
         <a class="anchor" href="#-social-media-manager">#</a>
     </h2>
+    <div class="ssn-project-description">
+        <p><span data-ssn-key="SSN_Meta_Description">{{ index $ssn "SSN_Meta_Description" | safeHTML }}</span></p>
+        <div class="ssn-project-links">
+            <a href="https://instagram.com/SapienzaStudentsNetwork"><i class="fa-brands fa-instagram" aria-hidden="true"></i><span data-ssn-key="SSN_Meta_Open">{{ index $ssn "SSN_Meta_Open" }}</span></a>
+        </div>
+    </div>
     <div class="curatorList justify-center">
         {{ partial "staff/Gio0203c" . }}
     </div>

@@ -1,0 +1,87 @@
+SSN_Activities_Text: '<p><strong>Sapienza Students Network mette in comune persone, conoscenze e tecnologia per rendere più semplice la vita universitaria</strong></p>
+
+  <ul>
+
+  <li><strong>Community e orientamento:</strong> crea e coordina gruppi e spazi di confronto, aiutando matricole e studenti a trovare persone, informazioni e supporto tra pari;</li>
+
+  <li><strong>Informazione e risorse:</strong> cura wiki, guide, orari e raccolte di risorse utili per orientarsi tra corsi, servizi e opportunità della Sapienza;</li>
+
+  <li><strong>Open source e collaborazione didattica:</strong> sviluppa progetti aperti e gestisce forum dedicati a esercizi, progetti e prove d''esame, favorendo il confronto sulle soluzioni e la condivisione responsabile del materiale;</li>
+
+  <li><strong>Servizi digitali:</strong> realizza strumenti per migliorare accessibilità, navigazione e reperimento delle informazioni;</li>
+
+  <li><strong>Partecipazione:</strong> accoglie proposte, contributi e nuovi maintainer, offrendo uno spazio concreto in cui trasformare idee utili alla comunità in progetti condivisi</li>
+
+  </ul>'
+SSN_Activities_Title: Di cosa ci occupiamo
+SSN_Bot_Description: >-
+  Il bot indicizza e rende più accessibili i gruppi gestiti dagli studenti, facilitando la ricerca
+  soprattutto per matricole e nuovi iscritti.
+SSN_Bot_Open: Apri il bot →
+SSN_Channel_Contact: Contattaci
+SSN_Channel_Contact_Desc: Scrivi al bot di contatto o via email
+SSN_Channel_Discord: Discord
+SSN_Channel_Discord_Desc: >-
+  Canali vocali per parlare e conoscere colleghi dello stesso corso di laurea o di altri corsi
+  della Sapienza
+SSN_Channel_GitHub: GitHub
+SSN_Channel_GitHub_Desc: Progetti open source, forum e contributi
+SSN_Channel_Instagram: Instagram
+SSN_Channel_Instagram_Desc: Aggiornamenti e contenuti dalla community
+SSN_Channel_LinkedIn: LinkedIn
+SSN_Channel_LinkedIn_Desc: Progetti, collaborazioni e rete professionale
+SSN_Channel_Telegram: Telegram
+SSN_Channel_Telegram_Desc: Notizie, community e gruppi studenteschi
+SSN_Channel_Website: Sito e wiki
+SSN_Channel_Website_Desc: Guide, risorse e servizi per la vita universitaria
+SSN_Channel_YouTube: YouTube
+SSN_Channel_YouTube_Desc: Video, incontri e contenuti informativi
+SSN_Channels_Description: >-
+  Seguici su tutti i canali che usi, entra nelle community e contattaci: più partecipazione
+  significa una rete studentesca più utile e attiva.
+SSN_Channels_Title: Canali e contatti
+SSN_Coordinator: Coordinatore
+SSN_Coordinator_Description: >-
+  <strong>Matteo Collica</strong> ha creato Sapienza Students Network nel 2021 e da allora ne è
+  uno dei principali contributori, progettando e coordinando molti dei progetti oggi esistenti.
+  Favorisce inoltre il coordinamento complessivo dell’organizzazione e l’allineamento fra
+  progetti, community e iniziative, operando in collaborazione con il Consiglio Direttivo.
+SSN_Executive_Board: Consiglio Direttivo
+SSN_Executive_Board_Contact: >-
+  Il Consiglio Direttivo è il gruppo che legge e risponde in via esclusiva ai messaggi inviati
+  tramite il <a href="https://telegram.me/SapienzaStudentsNetworkBot">bot ufficiale di
+  contatto</a>.
+SSN_Forums: Forum
+SSN_Forums_Description: >-
+  I Forum GitHub di Esercizi e Soluzioni sono spazi aperti per confrontare soluzioni a esercizi e
+  prove d’esame, accompagnati da raccolte didattiche mantenute dalla community. <strong>Valerio
+  Fontana</strong> è il Delegato per la gestione dei Forum dell’organizzazione GitHub e il
+  riferimento per chi desidera contribuire alla gestione di un forum esistente oppure proporre,
+  attivare e gestire un nuovo forum.
+SSN_Forums_Open: Esplora i Forum →
+SSN_Groups: Gruppi
+SSN_Groups_Description: >-
+  Le community Telegram mettono in contatto studenti di corsi e insegnamenti diversi;
+  SapienzaStudentsBot aiuta a trovare e raggiungere i gruppi disponibili. Per garantire continuità
+  organizzativa, <strong>Matteo Collica</strong> è owner di oltre 140 gruppi dedicati ai corsi di
+  laurea del Dipartimento di Informatica e alla Sapienza più in generale, ed è il principale
+  riferimento per le community Telegram gestite da Sapienza Students Network.
+SSN_Groups_OpenBot: Trova i gruppi →
+SSN_Institutional_Relations: Relazioni Istituzionali
+SSN_Introduction_Contact_1: 🙌 Ti piacerebbe essere anche tu di aiuto per la comunità studentesca?
+SSN_Introduction_Contact_2: 'Contattaci:'
+SSN_Introduction_Text: >-
+  🚀 Organizzazione studentesca indipendente che sviluppa community, progetti open source e servizi
+  digitali, favorendo collaborazione e aiuto reciproco per vivere al meglio la Sapienza 💙
+SSN_Introduction_Title: Introduzione
+SSN_Meta_Description: >-
+  Gestione dell’account Instagram dell’organizzazione, curata da <strong>Giovanni
+  Cinieri</strong>.
+SSN_Meta_Open: Account Instagram →
+SSN_Project_Open: Apri il progetto →
+SSN_Project_Repository: Repository GitHub →
+SSN_Repo_Managers: Gestori Repo
+SSN_Website_Description: >-
+  Il sito collaborativo dell’organizzazione raccoglie wiki, guide, orari, risorse e strumenti
+  pensati per aiutare gli studenti a orientarsi nei corsi e nei servizi della Sapienza.
+SSN_Website_Open: Visita il sito →

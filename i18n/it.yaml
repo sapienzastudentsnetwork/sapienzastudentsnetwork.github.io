@@ -166,40 +166,6 @@
   translation: Seleziona le materie da inserire o rimuovere
 
 #
-#   S S N   P A G E
-#
-
-- id: SSN_Introduction_Title
-  translation: Introduzione
-
-- id: SSN_Introduction_Text
-  translation: 🚀 Organizzazione studentesca indipendente mirata a promuovere iniziative collaborative e a favorire un senso di comunità tra gli studenti e le studentesse dell'Ateneo più grande d'Europa 💙
-
-- id: SSN_Introduction_Contact_1
-  translation: 🙌 Ti piacerebbe essere anche tu di aiuto per la comunità studentesca?
-
-- id: SSN_Introduction_Contact_2
-  translation: "Contattaci:"
-
-- id: SSN_Founder
-  translation: Fondatore
-
-- id: SSN_Executive_Board
-  translation: Consiglio Direttivo
-
-- id: SSN_Groups
-  translation: "Gruppi"
-
-- id: SSN_Forums
-  translation: "Forum"
-
-- id: SSN_Institutional_Relations
-  translation: Relazioni Istituzionali
-
-- id: SSN_Repo_Managers
-  translation: Gestori Repo
-
-#
 #   C O N T A C T S   P A G E
 #
 

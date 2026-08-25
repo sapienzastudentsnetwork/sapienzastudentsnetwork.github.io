@@ -69,42 +69,9 @@
   translation: Sunday
 
 #
-#   S S N   P A G E
-#
-
-- id: SSN_Introduction_Title
-  translation: Introduction
-
-- id: SSN_Introduction_Text
-  translation: 🚀 Independent student organization aimed at promoting collaborative initiatives and fostering a sense of community among the students of the largest university in Europe 💙
-
-- id: SSN_Introduction_Contact_1
-  translation: 🙌 Would you like to help the student community too?
-
-- id: SSN_Introduction_Contact_2
-  translation: "Contact us:"
-
-- id: SSN_Founder
-  translation: Founder
-
-- id: SSN_Executive_Board
-  translation: Executive Board
-
-- id: SSN_Groups
-  translation: "Groups"
-
-- id: SSN_Forums
-  translation: "Forums"
-
-- id: SSN_Institutional_Relations
-  translation: Institutional Relations
-
-- id: SSN_Repo_Managers
-  translation: Repo Managers
-
-#
 #   S U B J E C T S   T I M E T A B L E
 #
+
 
 - id: Subjs_Info_Title
   translation: ℹ️ Useful info for appropriate consultation

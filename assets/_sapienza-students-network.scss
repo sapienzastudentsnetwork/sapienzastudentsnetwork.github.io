@@ -1,0 +1,212 @@
+/* Sapienza Students Network page */
+.ssn-intro {
+  max-width: 52rem;
+  margin: 0 auto 1.5rem;
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.ssn-channel-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .9rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.ssn-channel-card {
+  display: flex;
+  flex-direction: column;
+  gap: .45rem;
+  min-height: 5.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(71,85,105,.28);
+  border-radius: .75rem;
+  color: #1f2937 !important;
+  text-decoration: none !important;
+  background: #f1f5f9;
+  box-shadow: 0 2px 8px rgba(15,23,42,.08);
+  transition: transform .15s ease, border-color .15s ease, background .15s ease, box-shadow .15s ease;
+}
+
+.ssn-channel-card:hover, .ssn-channel-card:focus-visible {
+  transform: translateY(-2px);
+  border-color: #64748b;
+  background: #e8eef5;
+  box-shadow: 0 5px 14px rgba(15,23,42,.13);
+}
+
+.ssn-channel-card strong {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  font-size: 1.05rem;
+  color: inherit !important;
+}
+
+.ssn-channel-card strong i {
+  width: 1.2rem;
+  text-align: center;
+  font-size: 1.12rem;
+}
+
+.ssn-channel-card span {
+  font-size: .92rem;
+  line-height: 1.4;
+  color: inherit !important;
+}
+
+.ssn-channel-card .fa-telegram {
+  color: #229ed9;
+}
+
+.ssn-channel-card .fa-github {
+  color: #24292f;
+}
+
+.ssn-channel-card .fa-instagram {
+  color: #c13584;
+}
+
+.ssn-channel-card .fa-linkedin {
+  color: #0a66c2;
+}
+
+.ssn-channel-card .fa-youtube {
+  color: #ff0000;
+}
+
+.ssn-channel-card .fa-discord {
+  color: #5865f2;
+}
+
+.ssn-contact-links, .ssn-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-top: .35rem;
+}
+
+.ssn-contact-links a, .ssn-project-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .38rem .7rem;
+  border: 1px solid currentColor;
+  border-radius: .45rem;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+
+.ssn-contact-links a {
+  color: #1d4ed8 !important;
+  background: rgba(255,255,255,.55);
+}
+
+.ssn-project-description {
+  max-width: 50rem;
+  margin: -.25rem auto 1.25rem;
+  padding: .95rem 1.05rem;
+  border: 1px solid rgba(71,85,105,.22);
+  border-left: .3rem solid #64748b;
+  border-radius: .45rem;
+  color: inherit;
+  background: rgba(148,163,184,.13);
+}
+
+.ssn-project-description p {
+  margin: 0 0 .5rem;
+}
+
+.ssn-project-description p:last-child {
+  margin-bottom: 0;
+}
+
+.ssn-project-links a {
+  font-size: .92rem;
+}
+
+.ssn-board-contact {
+  border-left-color: #229ed9;
+}
+
+.ssn-secondary-member {
+  opacity: .72;
+  transform: scale(.9);
+  transform-origin: top center;
+}
+
+.ssn-secondary-member:hover, .ssn-secondary-member:focus-within {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .ssn-channel-card {
+    color: #f1f5f9 !important;
+    background: #424a53;
+    border-color: rgba(226,232,240,.25);
+    box-shadow: 0 2px 8px rgba(0,0,0,.22);
+  }
+  .ssn-channel-card:hover, .ssn-channel-card:focus-visible {
+    background: #4b5560;
+    border-color: rgba(255,255,255,.55);
+  }
+  .ssn-channel-card .fa-github {
+    color: #f1f5f9;
+  }
+  .ssn-contact-links a {
+    color: #dbeafe !important;
+    background: rgba(15,23,42,.28);
+  }
+  .ssn-project-description {
+    background: rgba(71,85,105,.38);
+    border-color: rgba(226,232,240,.2);
+    border-left-color: #94a3b8;
+  }
+  .ssn-board-contact {
+    border-left-color: #38bdf8;
+  }
+}
+
+@media screen and (max-width: 42rem) {
+  .ssn-channel-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ssn-channel-favicon {
+  width: 1.2em;
+  height: 1.2em;
+  object-fit: contain;
+  flex: 0 0 auto;
+  border-radius: .18rem;
+}
+
+/* Language switch shown only on the canonical About Us page */
+.ssn-language-switch {
+  display: flex;
+  justify-content: flex-end;
+  gap: .35rem;
+  margin: 0 0 1rem;
+}
+
+.ssn-language-switch button {
+  padding: .4rem .75rem;
+  border: 1px solid rgba(127,127,127,.45);
+  border-radius: .5rem;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ssn-language-switch button:hover, .ssn-language-switch button:focus-visible {
+  border-color: currentColor;
+  background: rgba(127,127,127,.1);
+}
+
+.ssn-language-switch button.active {
+  color: #fff;
+  background: #0b6aa2;
+  border-color: #0b6aa2;
+}
