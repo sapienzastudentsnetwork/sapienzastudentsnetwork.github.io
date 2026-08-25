@@ -32,7 +32,7 @@ Il sito locale sarà disponibile su `http://localhost:1313`. Sono disponibili an
 
 ## 🤝 Contribuisci
 
-**Non serve essere sviluppatori**: puoi correggere un'informazione, aggiornare una scadenza, migliorare una guida, aggiungere una risorsa o proporre una nuova funzionalità. Ogni contributo aiuta migliaia di studenti.
+**Non serve essere sviluppatori**: puoi correggere un'informazione, aggiornare una scadenza, migliorare una guida, aggiungere una risorsa o proporre una nuova funzionalità. **Ogni contributo aiuta migliaia di studenti.**
 
 Leggi [CONTRIBUTING.md](CONTRIBUTING.md), consulta la [guida interattiva](https://sapienzastudents.net/it/contribuire/come-contribuire/) oppure apri direttamente una [issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues).
 
