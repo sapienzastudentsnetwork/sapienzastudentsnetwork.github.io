@@ -1,6 +1,6 @@
 ---
 title: Cronoprogramma del Corso di Laurea in Informatica
-bookHidden: false
+bookHidden: true
 ---
 # Cronoprogramma del Corso di Laurea in Informatica
 

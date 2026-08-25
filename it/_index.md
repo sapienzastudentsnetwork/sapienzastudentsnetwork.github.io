@@ -23,10 +23,10 @@ bookToc: False
 
 ## In evidenza
 <div class="home_evid">
-    <div class="home_page" id="home_timeline">
-        <p class="home_box_text_title" id="home_timeline_text">Guide</p>
-        <p class="home_box_text">Dall'iscrizione alla laurea</p>
-        <button class="explore_more" onclick="window.location.href = 'info/matricole/cronoprogramma/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_enroll">
+        <p class="home_box_text_title" id="home_enroll_text">Iscrizione</p>
+        <p class="home_box_text">Entra ad Informatica</p>
+        <button class="explore_more" onclick="window.location.href = 'info/matricole/come-iscriversi/'">Esplora&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_ssn_groups">
         <p class="home_box_text_title" id="home_ssn_groups_text">Gruppi</p>
