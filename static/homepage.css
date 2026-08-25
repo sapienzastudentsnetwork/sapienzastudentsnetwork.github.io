@@ -678,3 +678,9 @@
     min-height: 24rem;
   }
 }
+
+@media (max-width: 767px) { 
+  .diamond {
+    display: none;
+  }
+}
