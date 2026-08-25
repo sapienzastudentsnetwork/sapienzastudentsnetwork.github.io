@@ -1,6 +1,6 @@
 # SapienzaStudents.net
 
-> **La wiki open source costruita da studenti e studentesse per orientarsi, studiare e vivere meglio l'università.**
+> **La wiki open source realizzata da studenti e studentesse per orientarsi, studiare e vivere appieno l'università.**
 
 [Visita il sito](https://sapienzastudents.net/) · [Scopri come contribuire](https://sapienzastudents.net/it/contribuire/come-contribuire/) · [Segnala un problema](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues)
 

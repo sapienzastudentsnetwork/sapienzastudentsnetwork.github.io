@@ -1,3 +1,4 @@
+{{ $homepageStats := site.Data.homepage_stats }}
 <!doctype html>
 <html lang="{{ default .Site.Language.Lang .Site.Language.Locale }}" dir="{{ default " ltr"
     .Site.Language.Direction }}">
@@ -6,6 +7,11 @@
     {{ partial "docs/html-head" . }}
 
     <link rel="stylesheet" href="/generated/tailwindcss.css" />
+    <link rel="stylesheet" href="/homepage.css" />
+
+    <script id="goatcounter-script"
+        data-goatcounter="https://ssnhp.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
     {{ if .Param "math" }}
     {{ partialCached "math.html" . }}
@@ -14,115 +20,96 @@
 
 <body
     class="bg-primary prose prose-invert flex min-h-screen max-w-none flex-col lg:prose-base xl:prose-lg 2xl:prose-xl">
-    <div class="border-faint h-14 border-b border-dashed">
-        <div class="border-faint mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
-    </div>
-
-
-    <div class="border-faint mx-3 flex flex-grow flex-col border-l border-r border-dashed sm:mx-14">
+    <div class="home-entry-panel home-above-fold-shell border-faint mx-3 flex flex-grow flex-col border-l border-r border-dashed sm:mx-14">
         <div
-            class="border-faint relative grid place-items-center border-b border-dashed bg-gradient-to-r from-transparent via-gray-800/80 to-transparent p-4">
-            <span class="text-center">
-                <h1 class="!mb-2">Sapienza Students Network</h1>
-                <!--<h1 class="!mb-4 relative">
-                    Sapienza Students Network
-                    <span
-                        class="absolute -right-5 bottom-0 md:bottom-2 minecraft md:translate-x-1/2 md:translate-y-1/2 text-sm -rotate-12">
-                        <a href="https://raw.githubusercontent.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/refs/heads/main/content/pdf/Informatica - OpenDI - 20 febbraio 2025.pdf">OpenDI 2025</a>
-                    </span>
-                </h1>-->
-                <strong>DI</strong> students' website
-                <i>(Computer Science Department)</i>
+            class="home-network-header border-faint relative grid place-items-center p-4">
+            <span class="home-network-title text-center">
+                <h1 class="!mb-2">SapienzaStudents.net</h1>
+                <span class="home-network-subtitle" data-en="The open-source wiki built by students to help the community navigate, study and experience university life." data-it="La wiki open source realizzata da studenti e studentesse per orientarsi, studiare e vivere appieno l’università.">The open-source wiki built by students to help the community navigate, study and experience university life.</span>
             </span>
-            <span class="flex flex-wrap gap-3 items-center justify-center sm:flex-row sm:gap-6">
-                <a href="./sapienza-students-network" style="flex: none;" class="flex items-center gap-2 underline-offset-4">
-                    About Us
-                    <img class="w-6 !m-0" src="/ssn.png" alt="">
+            <nav class="home-header-actions" aria-label="Sapienza Students Network links">
+                <a href="./sapienza-students-network">
+                    <img src="/ssn.png" alt="" />
+                    <span data-en="About us" data-it="Chi siamo">About us</span>
                 </a>
-                <a href="https://t.me/+YLdIByN9WhZiNzA0" style="flex: none;" class="flex items-center gap-2 underline-offset-4">
-                    Group
-                    <img class="w-6 !m-0" src="/telegram.svg" alt="">
+                <a href="https://t.me/addlist/8jXnS8NuTsxkMDlk" target="_blank" rel="noopener noreferrer">
+                    <img src="/telegram.svg" alt="" />
+                    <span data-en="Group" data-it="Gruppo">Group</span>
                 </a>
-                <!--<a href="https://telegram.me/SapienzaStudentsNetwork"
-                    class="flex items-center gap-2 underline-offset-4">
-                    Channel
-                    <img class="w-8 !m-0" src="/communication.svg" alt="">
+                <a href="https://github.com/SapienzaStudentsNetwork/sapienzastudentsnetwork.github.io">
+                    <img src="/github.svg" alt="" />
+                    <span>GitHub</span>
                 </a>
-                <a href="https://discord.sapienzastudents.net/" class="flex items-center gap-2 underline-offset-4">
-                    Discord
-                    <img class="w-6 !m-0" src="/headset_mic.svg" alt="">
-                </a>-->
-                <a href="https://github.com/SapienzaStudentsNetwork/sapienzastudentsnetwork.github.io" style="flex: none;" class="flex items-center gap-2 underline-offset-4">
-                    GitHub
-                    <img class="w-6 !m-0" src="/github.svg" alt="">
+                <a href="/rooms/">
+                    <img src="/rooms.svg" alt="" />
+                    <span data-en="Study Rooms" data-it="Aule studio">Study Rooms</span>
                 </a>
-                <a href="rooms" style="flex: none;" class="flex items-center gap-2 underline-offset-4">
-                    Rooms
-                    <img class="w-6 !m-0" src="/rooms.svg" alt="">
-                </a>
-
+            </nav>
+            <span class="home-language-preference" aria-label="Language">
+                <span class="home-language-toggle">
+                    <button type="button" data-set-lang="it" aria-pressed="false">IT</button>
+                    <button type="button" data-set-lang="en" aria-pressed="true">EN</button>
+                </span>
+            </span>
+            <span class="home-font-preference" aria-label="Display preferences">
                 {{ partial "font-toggle" . }}
             </span>
-
-            <div class="diamond top-left"></div>
-            <div class="diamond top-right"></div>
-            <div class="diamond bottom-left"></div>
-            <div class="diamond bottom-right"></div>
         </div>
 
-        <div
+        <section class="home-wiki-shell" aria-label="Course wikis">
+        <div id="course-wikis"
             class="relative grid w-full flex-grow grid-rows-5 md:grid-cols-5 md:grid-rows-none border-dashed border-b border-faint">
-            <a href="/acsai" class="no-underline home-button-link">
+            <a href="/acsai" class="no-underline home-button-link home-course-card">
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-red-800/20 hover:bg-red-500/20 md:border-none">
                     <img src="/icon/ssn-crest.png" alt="Sapienza Università di Roma logo"
                         class="w-24 lg:w-36 2xl:w-48" />
                     <h2 class="!m-0">ACSAI</h2>
-                    <p><!--<strong>33502</strong> -->Bachelor's Degree</p>
+                    <p><span data-en="Bachelor's Degree" data-it="Laurea triennale">Bachelor's Degree</span></p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
                 </div>
             </a>
 
-            <a href="/it" class="no-underline home-button-link">
+            <a href="/it" class="no-underline home-button-link home-course-card">
                 <div
                         class="relative flex h-full max-w-none flex-col items-center justify-center bg-gradient-to-t from-blue-800/20 hover:bg-blue-500/20">
                     <img src="/icon/ssn-crest.png" alt="Sapienza Università di Roma logo"
                          class="w-24 lg:w-36 2xl:w-48" />
                     <h2 class="!m-0">Informatica</h2>
-                    <p><!--<strong>33503</strong> -->Bachelor's Degree</p>
+                    <p><span data-en="Bachelor's Degree" data-it="Laurea triennale">Bachelor's Degree</span></p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
                 </div>
             </a>
 
-            <a href="/compsci" class="no-underline home-button-link">
+            <a href="/compsci" class="no-underline home-button-link home-course-card">
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-green-800/20 hover:bg-green-500/20 md:border-b-0 md:border-l md:border-r">
                     <img src="/icon/ssn-crest.png" alt="Sapienza Università di Roma logo"
                         class="w-24 lg:w-36 2xl:w-48" />
                     <h2 class="!m-0 text-center">Computer Science</h2>
-                    <p><!--<strong>33508</strong> -->Master's Degree</p>
+                    <p><span data-en="Master's Degree" data-it="Laurea magistrale">Master's Degree</span></p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
                 </div>
             </a>
 
-            <a href="/cybersec" class="no-underline home-button-link">
+            <a href="/cybersec" class="no-underline home-button-link home-course-card">
                 <div
                     class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-yellow-600/20 hover:bg-yellow-300/20 md:border-b-0 md:border-l md:border-r">
                     <img src="/icon/ssn-crest.png" alt="Sapienza Università di Roma logo"
                          class="w-24 lg:w-36 2xl:w-48" />
                     <h2 class="!m-0 text-center">Cybersecurity</h2>
-                    <p><!--<strong>33516</strong> -->Master's Degree</p>
+                    <p><span data-en="Master's Degree" data-it="Laurea magistrale">Master's Degree</span></p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
                 </div>
             </a>
 
-            <a href="/datasci" class="no-underline home-button-link">
+            <a href="/datasci" class="no-underline home-button-link home-course-card">
                 <div
                         class="border-faint relative flex h-full flex-col items-center justify-center border-b border-dashed bg-gradient-to-t from-purple-800/20 hover:bg-purple-500/20 md:border-b-0 md:border-l md:border-r">
                     <img src="/icon/ssn-crest.png" alt="Sapienza Università di Roma logo"
                          class="w-24 lg:w-36 2xl:w-48" />
                     <h2 class="!m-0 text-center">Data Science</h2>
-                    <p><!--<strong>33519</strong> -->Master's Degree</p>
+                    <p><span data-en="Master's Degree" data-it="Laurea magistrale">Master's Degree</span></p>
                     <div class="sapienza-4 absolute left-0 top-0 z-[-10] h-full w-full"></div>
                 </div>
             </a>
@@ -138,26 +125,236 @@
                 <rect width="100%" height="100%" stroke-width="0" fill="url(#:r9:)"></rect>
             </svg>
 
+            <div class="diamond top-left"></div>
+            <div class="diamond top-right"></div>
             <div class="diamond bottom-left"></div>
             <div class="diamond bottom-right"></div>
         </div>
-        <div class="p-2">
-            <div class="p-2 border-amber-400 border-4">
-                <div>⚠️ <b class="text-amber-400">Warning!</b></div>
-                <!-- <br> -->
-                <span>
-                    The only legally-binding source of information about your course programme is the
-                    <a href="https://corsidilaurea.uniroma1.it/"> institutional Sapienza site </a>
-                </span>
+        </section>
+        <section class="home-extra home-extra-freshmen" aria-labelledby="home-freshmen-title">
+            <div>
+                <span data-en="ACADEMIC YEAR 2026/2027" data-it="ANNO ACCADEMICO 2026/2027">ACADEMIC YEAR 2026/2027</span>
+                <h2 id="home-freshmen-title" data-en="Starting this year?" data-it="Inizi quest’anno?">Starting this year?</h2>
+                <p data-en="Visit the page dedicated to 2026/2027 freshmen to easily find and join the Telegram and WhatsApp groups for your Bachelor's or Master's degree."
+                data-it="Visita la pagina dedicata alle matricole 2026/2027 per trovare e unirti facilmente ai gruppi Telegram e WhatsApp del tuo corso di laurea triennale o magistrale.">
+                    Visit the page dedicated to 2026/2027 freshmen to easily find and join the Telegram and WhatsApp groups for your Bachelor's or Master's degree.
+                </p>
             </div>
-            <div class="diamond bottom-left"></div>
-            <div class="diamond bottom-right"></div>
-        </div>
+            <a class="home-freshmen-button" href="https://matricole.sapienzastudents.net/" data-en="Visit the freshmen portal ↗"
+            data-it="Vai al portale delle matricole ↗">
+                Visit the freshmen portal ↗
+            </a>
+        </section>
+
+        <section class="home-extra home-extra-about" aria-labelledby="home-about-title">
+            <div class="home-extra-heading">
+                <span data-en="NOT JUST WIKIS" data-it="NON SOLO WIKI">NOT JUST WIKIS</span>
+                <h2 id="home-about-title" data-en="A wider student-run network." data-it="Una rete studentesca più ampia.">A wider student-run network.</h2>
+            </div>
+            <div class="home-extra-grid">
+                <article>
+                    <span class="home-extra-index">01</span>
+                    <h3>Sapienza Students Network</h3>
+                    <p data-en="An independent student organisation building communities, open-source projects and digital services that help Sapienza students navigate university life."
+                    data-it="Un’organizzazione studentesca indipendente che costruisce community, progetti open source e servizi digitali per aiutare studenti e studentesse della Sapienza a orientarsi e vivere appieno l’università.">An independent student organisation building communities, open-source projects and digital services that help Sapienza students navigate university life.</p>
+                    <a href="./sapienza-students-network" data-en="Meet the Network →" data-it="Scopri il Network →">Meet the Network →</a>
+                </article>
+                <article>
+                    <span class="home-extra-index">02</span>
+                    <h3 data-en="A whole ecosystem" data-it="Un intero ecosistema">A whole ecosystem</h3>
+                    <p data-en="The ecosystem includes the wiki, degree communities, exercise and solution forums, SapienzaStudentsBot and other collaborative tools."
+                    data-it="L’ecosistema comprende la wiki, le community dei corsi di laurea, i Forum di Esercizi e Soluzioni, SapienzaStudentsBot e altri strumenti collaborativi.">The ecosystem includes the wiki, degree communities, exercise and solution forums, SapienzaStudentsBot and other collaborative tools.</p>
+                    <a href="https://github.com/SapienzaStudentsNetwork" data-en="Explore the projects ↗" data-it="Esplora i progetti ↗">Explore the projects ↗</a>
+                </article>
+                <article>
+                    <span class="home-extra-index">03</span>
+                    <h3 data-en="Collaborative knowledge" data-it="Conoscenza collaborativa">Collaborative knowledge</h3>
+                    <p data-en="Open-source guides, degree information, resources and tools are maintained collaboratively: every page can be improved by the community."
+                    data-it="Guide open source, informazioni sui corsi di laurea, risorse e strumenti sono mantenuti in modo collaborativo: ogni pagina può essere migliorata dalla community.">Open-source guides, degree information, resources and tools are maintained collaboratively: every page can be improved by the community.</p>
+                    <a href="#contribute" data-en="Discover how to contribute ↓" data-it="Scopri come contribuire ↓">Discover how to contribute ↓</a>
+                </article>
+                <article>
+                    <span class="home-extra-index">04</span>
+                    <h3 data-en="Study rooms and spaces" data-it="Aule studio e spazi per studiare">Study rooms and spaces</h3>
+                    <p data-en="Practical information on Department study rooms and spaces: where they are, when they are open, or when they are free from classes and other official activities."
+                    data-it="Informazioni pratiche su aule studio e spazi per studiare del Dipartimento: dove si trovano, quando sono aperte o quando sono liberi da lezioni o altre attività istituzionali.">
+                        Practical information on Department study rooms and spaces: where they are, when they are open, or when they are free from classes and other official activities.
+                    </p>
+                    <a href="/rooms/" data-en="Check study rooms and spaces →" data-it="Consulta aule studio e spazi →">
+                        Check study rooms and spaces →
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contribute" class="home-extra home-extra-contribute" aria-labelledby="home-contribute-title">
+            <div class="home-extra-heading">
+                <span data-en="OPEN COLLABORATION" data-it="COLLABORAZIONE APERTA">OPEN COLLABORATION</span>
+                <h2 id="home-contribute-title" data-en="Discover how to contribute." data-it="Scopri come contribuire.">Discover how to contribute.</h2>
+                <p data-en="Every page can be checked, corrected and expanded. Students can improve existing information or contribute new guides directly through GitHub."
+                    data-it="Ogni pagina può essere verificata, corretta e ampliata. Studenti e studentesse possono migliorare le informazioni esistenti o contribuire con nuove guide direttamente tramite GitHub.">
+                    Every page can be checked, corrected and expanded. Students can improve existing information or contribute new guides directly through GitHub.</p>
+            </div>
+            <div class="home-link-list home-contribute-links">
+                <a class="home-guide-link" href="/it/contribuire/come-contribuire/" data-href-en="/how-to-contribute/?lang=en" data-href-it="/how-to-contribute/?lang=it"><span data-en="Guide" data-it="Guida">Guide</span>
+                    <strong data-en="Read the guide on how to contribute" data-it="Leggi la guida su come contribuire">Read the guide on how to contribute</strong><b data-en="OPEN →" data-it="APRI →">OPEN →</b></a>
+                <a href="https://github.com/SapienzaStudentsNetwork/sapienzastudentsnetwork.github.io">
+                    <span data-en="Repository" data-it="Repository">Repository</span>
+                    <strong data-en="Contribute on GitHub" data-it="Contribuisci su GitHub">Contribute on GitHub</strong><b>GITHUB ↗</b></a>
+                <a href="https://t.me/addlist/8jXnS8NuTsxkMDlk" target="_blank" rel="noopener noreferrer">
+                    <span data-en="Chat" data-it="Chat">Chat</span>
+                    <strong data-en="Join the website development chat" data-it="Unisciti alla chat di sviluppo del sito">Join the website development chat</strong><b>TELEGRAM ↗</b></a>
+            </div>
+        </section>
+
+        <section class="home-extra home-extra-numbers" aria-labelledby="home-numbers-title">
+            <div class="home-extra-heading">
+                <span data-en="THE WEBSITE IN NUMBERS" data-it="IL SITO IN NUMERI">THE WEBSITE IN NUMBERS</span>
+                <h2 id="home-numbers-title" data-en="A project that matters." data-it="Un progetto che conta.">A project that matters.</h2>
+            </div>
+            <div class="home-number-grid">
+                <div>
+                    <strong>1.5M+</strong>
+                    <span>
+                        <a class="home-metric-term" 
+                            href="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions" 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            data-href-en="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions" 
+                            data-href-it="https://support.google.com/webmasters/answer/7042828?hl=it#impressions" 
+                            aria-describedby="home-impressions-help" 
+                            data-en="Google Search impressions" 
+                            data-it="impressioni nella Ricerca Google">Google Search impressions</a>
+                        <small id="home-impressions-help" class="home-metric-help" role="tooltip"
+                            data-en="The number of times a page from the website appeared in Google Search results, whether or not it was clicked."
+                            data-it="Il numero di volte in cui una pagina del sito è comparsa nei risultati della Ricerca Google, indipendentemente 
+                            dal fatto che sia stata cliccata.">The number of times a page from the website appeared in Google Search results, whether
+                            or not it was clicked.</small>
+                    </span>
+                </div>
+                <div><strong>27k+</strong><span data-en="clicks from Google Search" data-it="clic dalla Ricerca Google">clicks from Google Search</span></div>
+                <div><strong>{{ $homepageStats.pages }}</strong><span data-en="pages" data-it="pagine">pages</span></div>
+                <div><strong>{{ $homepageStats.contributors }}</strong><span data-en="people who contributed" data-it="persone che hanno contribuito">people who contributed</span></div>
+            </div>
+            <p class="home-extra-note" data-en="Google Search Console data over 16 months." data-it="Dati Google Search Console su 16 mesi.">Google Search Console data over 16 months.</p>
+        </section>
+
+        <section class="home-extra home-extra-opendi" aria-labelledby="home-opendi-title">
+            <div class="home-extra-heading">
+                <span data-en="PRESENTATIONS AND EVENTS" data-it="PRESENTAZIONI ED EVENTI">PRESENTATIONS AND EVENTS</span>
+                <h2 id="home-opendi-title" data-en="As seen at OpenDI." data-it="Come visto ad OpenDI.">As seen at OpenDI.</h2>
+                <p data-en="The project was presented to prospective students during the official orientation events of the Computer Science Department (OpenDI)."
+                    data-it="Il progetto è stato presentato a studentesse e studenti interessati ad iscriversi durante gli eventi ufficiali di orientamento del Dipartimento di Informatica (OpenDI).">
+                    The project was presented to prospective students during the official orientation events of the Computer Science Department (OpenDI).</p>
+            </div>
+            <div class="home-link-list">
+                <a href="https://www.youtube.com/live/ycmIWcCQU8c?t=7503">
+                    <span>OpenDI 2025</span><strong data-en="Watch on YouTube" data-it="Guarda su YouTube">Watch on YouTube</strong><b>VIDEO ↗</b></a>
+                <a href="https://www.youtube.com/watch?v=omDUKDX2hOA">
+                    <span>OpenDI 2026</span><strong data-en="Watch on YouTube" data-it="Guarda su YouTube">Watch on YouTube</strong><b>VIDEO ↗</b></a>
+            </div>
+        </section>
+
+        <aside class="home-official-note">
+            <span class="home-official-icon" aria-hidden="true">i</span>
+            <div>
+                <strong data-en="Official information" data-it="Informazioni ufficiali">Official information</strong>
+                <p data-en="The only legally binding source for official university information is the institutional Sapienza website."
+                   data-it="L’unica fonte con valore legale per le informazioni ufficiali dell’università è il sito istituzionale Sapienza.">
+                   The only legally binding source for official university information is the institutional Sapienza website.</p>
+            </div>
+            <a href="https://www.uniroma1.it/" data-en="Open the institutional website ↗" data-it="Apri il sito istituzionale ↗">
+                Open the institutional website ↗</a>
+        </aside>
     </div>
 
-    <div class="border-faint h-14 border-t border-dashed">
-        <div class="border-faint mx-3 h-full border-l border-r border-dashed sm:mx-14"></div>
-    </div>
+    <script>
+    (() => {
+        const buttons = document.querySelectorAll('[data-set-lang]');
+        const entries = document.querySelectorAll('[data-en][data-it]');
+        const applyLanguage = (lang) => {
+            const selected = lang === 'it' ? 'it' : 'en';
+            document.documentElement.lang = selected;
+            entries.forEach((entry) => { entry.textContent = entry.dataset[selected]; });
+            buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.setLang === selected)));
+            try { localStorage.setItem('ssn-home-language', selected); } catch (_) {}
+        };
+        buttons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.setLang)));
+        const queryLanguage = new URLSearchParams(location.search).get('lang');
+        let savedLanguage = null;
+        try { savedLanguage = localStorage.getItem('ssn-home-language'); } catch (_) {}
+        applyLanguage(queryLanguage || savedLanguage || 'en');
+    })();
+    </script>
+    <script>
+        (() => {
+          const updateDynamicLinks = (language) => {
+            const langKey = `href${language.charAt(0).toUpperCase()}${language.slice(1)}`;
+            document.querySelectorAll('[data-href-en][data-href-it]').forEach((link) => {
+              if (link.dataset[langKey]) {
+                link.href = link.dataset[langKey];
+              }
+            });
+          };
+
+          const applyGuideLanguage = () => {
+            const selected = document.querySelector('.home-language-toggle button[aria-pressed="true"]');
+            const lang = selected?.dataset.setLang || document.documentElement.lang || 'en';
+            updateDynamicLinks(lang);
+          };
+
+          document.querySelectorAll('.home-language-toggle button').forEach((button) => {
+            button.addEventListener('click', () => requestAnimationFrame(applyGuideLanguage));
+          });
+          applyGuideLanguage();
+          const hideMetricHelp = (el) => {
+            const help = el.nextElementSibling;
+            if (!help?.classList.contains('home-metric-help')) return;
+            help.classList.remove('is-visible');
+          };
+
+          const positionMetricHelp = (el) => {
+            const help = el.nextElementSibling;
+            if (!help?.classList.contains('home-metric-help')) return;
+
+            const margin = 12;
+            const gap = 8;
+            help.classList.add('is-visible');
+            help.style.left = `${margin}px`;
+            help.style.top = `${margin}px`;
+
+            const trigger = el.getBoundingClientRect();
+            const box = help.getBoundingClientRect();
+            const maxLeft = Math.max(margin, window.innerWidth - box.width - margin);
+            const left = Math.min(Math.max(trigger.left, margin), maxLeft);
+            const spaceAbove = trigger.top - gap - margin;
+            const spaceBelow = window.innerHeight - trigger.bottom - gap - margin;
+            let top = spaceAbove >= box.height
+              ? trigger.top - box.height - gap
+              : trigger.bottom + gap;
+
+            if (spaceAbove < box.height && spaceBelow < box.height) {
+              top = Math.min(Math.max(margin, trigger.top - box.height / 2), window.innerHeight - box.height - margin);
+            }
+
+            help.style.left = `${left}px`;
+            help.style.top = `${Math.max(margin, Math.min(top, window.innerHeight - box.height - margin))}px`;
+          };
+          document.querySelectorAll('.home-metric-term').forEach((el) => {
+            el.addEventListener('mouseenter', () => positionMetricHelp(el));
+            el.addEventListener('focus', () => positionMetricHelp(el));
+            el.addEventListener('mouseleave', () => hideMetricHelp(el));
+            el.addEventListener('blur', () => hideMetricHelp(el));
+          });
+
+          window.addEventListener('resize', () => {
+            document.querySelectorAll('.home-metric-term').forEach((el) => {
+              const help = el.nextElementSibling;
+              if (help?.classList.contains('is-visible')) positionMetricHelp(el);
+            });
+          });
+        })();
+    </script>
 </body>
 
 </html>

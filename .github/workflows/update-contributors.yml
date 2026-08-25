@@ -14,10 +14,12 @@ jobs:
       - name: Generate rankings
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 _scripts/generate_contributors.py
+        run: |
+          python3 _scripts/generate_contributors.py
+          python3 _scripts/update_homepage_stats.py
       - name: Commit generated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/contributors
+          git add data/contributors data/homepage_stats.json
           git diff --cached --quiet || (git commit -m "chore: update contributor rankings" && git push)

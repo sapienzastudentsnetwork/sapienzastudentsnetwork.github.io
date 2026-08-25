@@ -4,7 +4,7 @@
 {{ $ssn := index .Site.Data.ssn $lang }}
 <article class="markdown book-article">
     {{ if $isAboutPage }}
-    <div class="ssn-language-switch" role="group" aria-label="Language / Lingua">
+    <div class="language-switch" role="group" aria-label="Language / Lingua">
         <button type="button" data-ssn-language="en" class="active" aria-pressed="true">English</button>
         <button type="button" data-ssn-language="it" aria-pressed="false">Italiano</button>
     </div>

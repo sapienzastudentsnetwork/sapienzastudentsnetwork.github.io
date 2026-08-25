@@ -180,33 +180,3 @@
   flex: 0 0 auto;
   border-radius: .18rem;
 }
-
-/* Language switch shown only on the canonical About Us page */
-.ssn-language-switch {
-  display: flex;
-  justify-content: flex-end;
-  gap: .35rem;
-  margin: 0 0 1rem;
-}
-
-.ssn-language-switch button {
-  padding: .4rem .75rem;
-  border: 1px solid rgba(127,127,127,.45);
-  border-radius: .5rem;
-  color: inherit;
-  background: transparent;
-  font: inherit;
-  font-weight: 600;
-  cursor: pointer;
-}
-
-.ssn-language-switch button:hover, .ssn-language-switch button:focus-visible {
-  border-color: currentColor;
-  background: rgba(127,127,127,.1);
-}
-
-.ssn-language-switch button.active {
-  color: #fff;
-  background: #0b6aa2;
-  border-color: #0b6aa2;
-}
