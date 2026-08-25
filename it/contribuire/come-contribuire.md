@@ -9,6 +9,12 @@ weight: 1
 
 Questo progetto è immenso, e non sempre lo staff che ci lavora può occuparsene. È un progetto nato dagli studenti per gli studenti, quindi ogni possibile aiuto è apprezzato. Vuoi dare una mano? Segui questa guida per sapere come puoi contribuire!
 
+{{% hint tip %}}
+<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Collaboratori del progetto**
+
+Puoi consultare la pagina dei [collaboratori](../collaboratori/) per vedere chi ha contribuito alla wiki e, più in generale, al progetto del sito.
+{{% /hint %}}
+
 Per contribuire è possibile utilizzare **GitHub**, quindi è importante conoscere un po' le basi (principalmente cos'è **git**, come eseguire **fork** e **clone** di una repo, cosa sono i **commits** e le **pull requests**). Se non te la senti di farlo tramite la **CLI** (Command Line Interface), puoi farlo tramite VSCode o il tuo editor preferito. In questa guida vedrai come farlo tramite CLI, in modo da imparare qualcosa su come funziona **git**.
 
 {{% hint info %}}

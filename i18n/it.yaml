@@ -268,3 +268,10 @@
 
 - id: GoatCounter information
   translation: "Visite conteggiate dal 19/08/2026 tramite GoatCounter: statistiche aggregate senza cookie o identificatori persistenti"
+
+- id: Contacts_ContributorsHint_Title
+  translation: Scopri chi ha contribuito alla wiki
+
+- id: Contacts_ContributorsHint_Text
+  translation: 'Vuoi conoscere chi ha contribuito alla wiki e, più in generale, al progetto del sito? Consulta la pagina dei <a href="../collaboratori/"><strong>collaboratori wiki</strong></a>.'
+

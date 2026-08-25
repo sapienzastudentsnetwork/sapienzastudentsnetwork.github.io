@@ -1,8 +1,7 @@
 name: Update contributor rankings
 on:
-  push:
-    branches: [main]
-    paths-ignore: ['data/contributors/**']
+  schedule:
+    - cron: '17 3 * * *'
   workflow_dispatch:
 permissions:
   contents: write

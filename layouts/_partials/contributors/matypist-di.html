@@ -8,6 +8,6 @@
     </div>
     <div class="curSeparator"></div>
     <div class="curBadges">
-        <a href="#anch_curBadge_DIRepr"><div class="curBadge curDIRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> {{ T "B_Stud_DIRepr" }}</div></a>
+        <a href="{{ if eq .Lang "it" }}https://www.di.uniroma1.it/it/consiglio-di-dipartimento{{ else }}https://www.di.uniroma1.it/en/department-council{{ end }}" target="_blank" rel="noopener noreferrer"><div class="curBadge curDIRepr"><i class="fa-solid fa-bolt" style="color: #feffff;"></i> {{ T "B_Stud_DIRepr" }}</div></a>
     </div>
 </div>

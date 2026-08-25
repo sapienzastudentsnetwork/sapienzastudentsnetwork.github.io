@@ -11,7 +11,7 @@ bookToc: False
 
 👋 Welcome to the student wiki\* of the Bachelor's Degree in Applied Computer Science and Artificial Intelligence (also called ACSAI), maintained by the students of the course. Whether you are a prospective student or already enrolled, **you will find a lot of useful information here!**
 
-🔍 **Browse the sections and articles available in the sidebar** and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to **[contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides** 💪
+🔍 **Browse the sections and articles available in the sidebar** and don't hesitate to [contact us](contributing/contacts/) if you have any doubts or to **[contribute](contributing/how-to-contribute/) yourself, correcting any typos or adding new information and guides**. Join the people who keep this project growing: your contribution will also be recognised on the [wiki contributors page](contributing/contributors/) 💪
 
 🙌 Join the [sapienzastudents.net Telegram group](https://t.me/+HNxbzlSpXA9lYWY8) to follow or participate in the site's development
 

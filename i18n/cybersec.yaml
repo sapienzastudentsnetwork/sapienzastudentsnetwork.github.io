@@ -263,3 +263,10 @@
 
 - id: GoatCounter information
   translation: "Visits counted since 19/08/2026 through GoatCounter: aggregate statistics without cookies or persistent identifiers"
+
+- id: Contacts_ContributorsHint_Title
+  translation: Meet the wiki contributors
+
+- id: Contacts_ContributorsHint_Text
+  translation: 'Want to see everyone who has contributed to this wiki and to the wider website project? Visit the <a href="../contributors/"><strong>wiki contributors</strong></a> page.'
+

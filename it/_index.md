@@ -11,7 +11,7 @@ bookToc: False
 
 👋 Ti diamo il benvenuto nella wiki studentesca* del Corso di Laurea Triennale in Informatica, curata dagli studenti e le studentesse del corso. Che tu sia un aspirante futura matricola o già iscritto/a, **qui troverai molte informazioni utili per il tuo percorso!**
 
-🔍 **Naviga le sezioni e gli articoli disponibili nella barra laterale** e non esitare a [contattarci](contribuire/contatti/) in caso di eventuali dubbi o a **[contribuire](contribuire/come-contribuire/) anche tu, correggendo eventuali refusi o integrando nuove informazioni e guide** 💪
+🔍 **Naviga le sezioni e gli articoli disponibili nella barra laterale** e non esitare a [contattarci](contribuire/contatti/) in caso di eventuali dubbi o a **[contribuire](contribuire/come-contribuire/) anche tu, correggendo eventuali refusi o integrando nuove informazioni e guide**. Unisciti a chi contribuisce al progetto: anche il tuo apporto sarà riconosciuto nella pagina dei [collaboratori della wiki](contribuire/collaboratori/) 💪
 
 🙌 Unisciti al [gruppo Telegram di sapienzastudents.net](https://t.me/+iXnS2FfADsdhNTQ0) per seguire o partecipare allo sviluppo del sito
 
