@@ -24,7 +24,7 @@
         <div
             class="home-network-header border-faint relative grid place-items-center p-4">
             <span class="home-network-title text-center">
-                <h1 class="!mb-2">SapienzaStudents.net</h1>
+                <h1 class="!mb-2">Sapienza<wbr>Students<wbr>.net</h1>
                 <span
                     class="home-network-subtitle"
                     data-en="The open-source wiki built by students of the Computer Science Department <br class='hidden md:block'>to help the community navigate, <br class='md:hidden'>study and experience university life."
@@ -157,7 +157,7 @@
         <section class="home-extra home-extra-about" aria-labelledby="home-about-title">
             <div class="home-extra-heading">
                 <span data-en="NOT JUST WIKIS" data-it="NON SOLO WIKI">NOT JUST WIKIS</span>
-                <h2 id="home-about-title" data-en="A wider student-run network." data-it="Una rete studentesca più ampia.">A wider student-run network.</h2>
+                <h2 id="home-about-title" class="lg:whitespace-normal whitespace-pre-line" data-en="A wider student-run network." data-it="Una rete studentesca &NewLine; più ampia.">A wider student-run network.</h2>
             </div>
             <div class="home-extra-grid">
                 <article>
@@ -220,19 +220,19 @@
                 <div>
                     <strong>1.5M+</strong>
                     <span>
-                        <a class="home-metric-term" 
-                            href="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions" 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            data-href-en="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions" 
-                            data-href-it="https://support.google.com/webmasters/answer/7042828?hl=it#impressions" 
+                        <a class="home-metric-term"
+                            href="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-href-en="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions"
+                            data-href-it="https://support.google.com/webmasters/answer/7042828?hl=it#impressions"
                             aria-describedby="home-impressions-help"
-                            aria-expanded="false" 
-                            data-en="Google Search impressions" 
+                            aria-expanded="false"
+                            data-en="Google Search impressions"
                             data-it="impressioni nella Ricerca Google">Google Search impressions</a>
                         <small id="home-impressions-help" class="home-metric-help" role="tooltip"
                             data-en="The number of times a page from the website appeared in Google Search results, whether or not it was clicked."
-                            data-it="Il numero di volte in cui una pagina del sito è comparsa nei risultati della Ricerca Google, indipendentemente 
+                            data-it="Il numero di volte in cui una pagina del sito è comparsa nei risultati della Ricerca Google, indipendentemente
                             dal fatto che sia stata cliccata.">The number of times a page from the website appeared in Google Search results, whether
                             or not it was clicked.</small>
                     </span>
@@ -269,7 +269,18 @@
                     <span data-en="Chat" data-it="Chat">Chat</span>
                     <strong data-en="Join the website development chat" data-it="Unisciti alla chat di sviluppo del sito">Join the website development chat</strong><b>TELEGRAM ↗</b></a>
             </div>
+
         </section>
+
+
+
+        <div class="my-10 flex items-center justify-center">
+            <button id="up-button" class="home-button" type="button">
+                <span aria-hidden="true">↑</span>
+                <span data-en="Go to top" data-it="Torna su">Go to top</span>
+            </button>
+        </div>
+
 
         <aside class="home-official-note">
             <span class="home-official-icon" aria-hidden="true">i</span>
@@ -394,6 +405,19 @@
             });
           });
         })();
+    </script>
+    <script>
+      const goUpBtn = document.getElementById("up-button")
+      goUpBtn.addEventListener('click', () => {
+        const reduceMotion = window.matchMedia(
+          '(prefers-reduced-motion: reduce)'
+        ).matches;
+
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+      });
     </script>
 </body>
 

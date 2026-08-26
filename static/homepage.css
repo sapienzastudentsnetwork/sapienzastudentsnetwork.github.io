@@ -1,710 +1,1073 @@
 /* Homepage sections loaded by layouts/custom/index.html. */
 .home-extra {
-  padding: clamp(2.5rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
-  background: rgb(17 24 39 / 0.2);
+    padding: clamp(2.5rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    background: rgb(17 24 39 / 0.2);
 }
-.home-extra-heading { max-width: 850px; }
+.home-extra-heading {
+    max-width: 850px;
+}
 .home-extra-heading > span,
 .home-extra-freshmen span {
-  display: block;
-  margin-bottom: 0.75rem;
-  color: rgb(94 234 212);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.13em;
+    display: block;
+    margin-bottom: 0.75rem;
+    color: rgb(94 234 212);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.13em;
 }
 .home-extra h2 {
-  margin: 0 0 1rem;
-  font-size: clamp(2rem, 4vw, 3.8rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 4vw, 3.8rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
 }
 .home-extra-heading p,
 .home-extra-freshmen p {
-  max-width: 760px;
-  color: rgb(203 213 225);
-  line-height: 1.65;
+    max-width: 760px;
+    color: rgb(203 213 225);
+    line-height: 1.65;
 }
 .home-extra-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 2.5rem;
-  border-top: 1px dashed rgb(75 85 99 / 0.65);
-  border-left: 1px dashed rgb(75 85 99 / 0.65);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 2.5rem;
+    border-top: 1px dashed rgb(75 85 99 / 0.65);
+    border-left: 1px dashed rgb(75 85 99 / 0.65);
 }
 .home-extra-grid article {
-  min-height: 245px;
-  padding: 1.4rem;
-  display: flex;
-  flex-direction: column;
-  border-right: 1px dashed rgb(75 85 99 / 0.65);
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    min-height: 245px;
+    padding: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px dashed rgb(75 85 99 / 0.65);
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
 }
-.home-extra-index { color: rgb(94 234 212); font: 700 0.75rem monospace; }
-.home-extra-grid h3 { margin: 2rem 0 0.65rem; font-size: 1.25rem; }
-.home-extra-grid p { margin: 0; color: rgb(203 213 225); font-size: 0.88rem; line-height: 1.55; }
-.home-extra-grid a { margin-top: auto; padding-top: 1.5rem; font-size: 0.82rem; }
-.home-extra-numbers { background: rgb(226 232 240); color: rgb(15 23 42); }
-.home-extra-numbers .home-extra-heading > span { color: rgb(15 118 110); }
+.home-extra-index {
+    color: rgb(94 234 212);
+    font: 700 0.75rem monospace;
+}
+.home-extra-grid h3 {
+    margin: 2rem 0 0.65rem;
+    font-size: 1.25rem;
+}
+.home-extra-grid p {
+    margin: 0;
+    color: rgb(203 213 225);
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+.home-extra-grid a {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    font-size: 0.82rem;
+}
+.home-extra-numbers {
+    background: rgb(226 232 240);
+    color: rgb(15 23 42);
+}
+.home-extra-numbers .home-extra-heading > span {
+    color: rgb(15 118 110);
+}
 .home-number-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 2.5rem;
-  border-top: 1px solid rgb(15 23 42 / 0.22);
-  border-left: 1px solid rgb(15 23 42 / 0.22);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 2.5rem;
+    border-top: 1px solid rgb(15 23 42 / 0.22);
+    border-left: 1px solid rgb(15 23 42 / 0.22);
 }
-.home-number-grid div { padding: 1.5rem; border-right: 1px solid rgb(15 23 42 / 0.22); border-bottom: 1px solid rgb(15 23 42 / 0.22); }
-.home-number-grid strong { display: block; font-size: clamp(2.4rem, 5vw, 5rem); line-height: 1; letter-spacing: -0.06em; }
-.home-number-grid span { display: block; max-width: 180px; margin-top: 0.9rem; font-size: 0.8rem; }
-.home-extra-note { margin: 1rem 0 0; opacity: 0.65; font-size: 0.7rem; }
-.home-extra-opendi { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(360px, 1.15fr); gap: clamp(2rem, 6vw, 6rem); }
-.home-link-list { border-top: 1px dashed rgb(75 85 99 / 0.65); }
+.home-number-grid div {
+    padding: 1.5rem;
+    border-right: 1px solid rgb(15 23 42 / 0.22);
+    border-bottom: 1px solid rgb(15 23 42 / 0.22);
+}
+.home-number-grid strong {
+    display: block;
+    font-size: clamp(2.4rem, 5vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.06em;
+}
+.home-number-grid span {
+    display: block;
+    max-width: 180px;
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+}
+.home-extra-note {
+    margin: 1rem 0 0;
+    opacity: 0.65;
+    font-size: 0.7rem;
+}
+.home-extra-opendi {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(360px, 1.15fr);
+    gap: clamp(2rem, 6vw, 6rem);
+}
+.home-link-list {
+    border-top: 1px dashed rgb(75 85 99 / 0.65);
+}
 .home-link-list a {
-  display: grid;
-  grid-template-columns: 0.8fr 1.5fr auto;
-  gap: 1rem;
-  align-items: center;
-  padding: 1.25rem 0.25rem;
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
-  color: inherit;
-  text-decoration: none;
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.25rem 0.25rem;
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    color: inherit;
+    text-decoration: none;
 }
-.home-link-list a:hover { background: rgb(255 255 255 / 0.04); }
-.home-link-list span { color: rgb(148 163 184); font-size: 0.75rem; }
-.home-link-list b { color: rgb(94 234 212); font-size: 0.68rem; }
+.home-link-list a:hover {
+    background: rgb(255 255 255 / 0.04);
+}
+.home-link-list span {
+    color: rgb(148 163 184);
+    font-size: 0.75rem;
+}
+.home-link-list b {
+    color: rgb(94 234 212);
+    font-size: 0.68rem;
+}
 .home-extra-freshmen {
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 2rem;
-  background: linear-gradient(110deg, rgb(17 46 62), rgb(26 76 76));
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 2rem;
+    background: linear-gradient(110deg, rgb(17 46 62), rgb(26 76 76));
 }
-.home-extra-freshmen > div { max-width: 760px; }
+.home-extra-freshmen > div {
+    max-width: 760px;
+}
 .home-freshmen-button {
-  flex: none;
-  padding: 0.8rem 1rem;
-  border-radius: 0.35rem;
-  background: rgb(248 250 252);
-  color: rgb(15 23 42) !important;
-  font-weight: 700;
-  text-decoration: none;
+    flex: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.35rem;
+    background: rgb(248 250 252);
+    color: rgb(15 23 42) !important;
+    font-weight: 700;
+    text-decoration: none;
 }
 @media (max-width: 900px) {
-  .home-extra-grid, .home-number-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .home-extra-opendi { grid-template-columns: 1fr; }
+    .home-extra-grid,
+    .home-number-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .home-extra-opendi {
+        grid-template-columns: 1fr;
+    }
 }
 @media (max-width: 560px) {
-  .home-extra-grid, .home-number-grid { grid-template-columns: 1fr; }
-  .home-extra-freshmen { align-items: flex-start; flex-direction: column; }
-  .home-link-list a { grid-template-columns: 1fr auto; }
-  .home-link-list strong { grid-column: 1 / -1; grid-row: 2; }
+    .home-extra-grid,
+    .home-number-grid {
+        grid-template-columns: 1fr;
+    }
+    .home-extra-freshmen {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .home-link-list a {
+        grid-template-columns: 1fr auto;
+    }
+    .home-link-list strong {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
 }
 
 /* Wiki section header and visual frame. */
 .home-header-preferences {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
 }
 .home-wiki-shell {
-  position: relative;
-  padding: clamp(2.25rem, 5vw, 4.5rem) clamp(0.75rem, 3vw, 2.5rem) clamp(3rem, 6vw, 5.5rem);
-  overflow: hidden;
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
-  background:
-    radial-gradient(circle at 50% 100%, rgb(45 212 191 / 0.09), transparent 42%),
-    linear-gradient(180deg, rgb(15 23 42 / 0.58), rgb(8 13 24 / 0.84));
+    position: relative;
+    padding: clamp(2.25rem, 5vw, 4.5rem) clamp(0.75rem, 3vw, 2.5rem)
+        clamp(3rem, 6vw, 5.5rem);
+    overflow: hidden;
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    background:
+        radial-gradient(
+            circle at 50% 100%,
+            rgb(45 212 191 / 0.09),
+            transparent 42%
+        ),
+        linear-gradient(180deg, rgb(15 23 42 / 0.58), rgb(8 13 24 / 0.84));
 }
 .home-wiki-shell::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.18;
-  background-image:
-    linear-gradient(rgb(94 234 212 / 0.2) 1px, transparent 1px),
-    linear-gradient(90deg, rgb(94 234 212 / 0.2) 1px, transparent 1px);
-  background-size: 32px 32px;
-  mask-image: linear-gradient(to bottom, transparent, black 36%, black 82%, transparent);
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.18;
+    background-image:
+        linear-gradient(rgb(94 234 212 / 0.2) 1px, transparent 1px),
+        linear-gradient(90deg, rgb(94 234 212 / 0.2) 1px, transparent 1px);
+    background-size: 32px 32px;
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        black 36%,
+        black 82%,
+        transparent
+    );
 }
 .home-wiki-intro,
-.home-wiki-frame { position: relative; z-index: 1; }
+.home-wiki-frame {
+    position: relative;
+    z-index: 1;
+}
 .home-wiki-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
-  gap: clamp(1.5rem, 5vw, 5rem);
-  align-items: end;
-  max-width: 1220px;
-  margin: 0 auto 2.25rem;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.72fr);
+    gap: clamp(1.5rem, 5vw, 5rem);
+    align-items: end;
+    max-width: 1220px;
+    margin: 0 auto 2.25rem;
 }
 .home-wiki-intro span {
-  display: block;
-  margin-bottom: 0.7rem;
-  color: rgb(94 234 212);
-  font: 700 0.72rem/1.2 monospace;
-  letter-spacing: 0.14em;
+    display: block;
+    margin-bottom: 0.7rem;
+    color: rgb(94 234 212);
+    font: 700 0.72rem/1.2 monospace;
+    letter-spacing: 0.14em;
 }
 .home-wiki-intro h2 {
-  max-width: 760px;
-  margin: 0;
-  font-size: clamp(2rem, 4.4vw, 4.6rem);
-  line-height: 0.98;
-  letter-spacing: -0.045em;
+    max-width: 760px;
+    margin: 0;
+    font-size: clamp(2rem, 4.4vw, 4.6rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
 }
 .home-wiki-intro p {
-  max-width: 560px;
-  margin: 0;
-  color: rgb(203 213 225);
-  line-height: 1.65;
+    max-width: 560px;
+    margin: 0;
+    color: rgb(203 213 225);
+    line-height: 1.65;
 }
 .home-wiki-frame {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0.55rem;
-  border: 1px solid rgb(94 234 212 / 0.52);
-  box-shadow: 0 0 0 8px rgb(94 234 212 / 0.035), 0 24px 80px rgb(0 0 0 / 0.38);
-  background: rgb(3 8 18 / 0.76);
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.55rem;
+    border: 1px solid rgb(94 234 212 / 0.52);
+    box-shadow:
+        0 0 0 8px rgb(94 234 212 / 0.035),
+        0 24px 80px rgb(0 0 0 / 0.38);
+    background: rgb(3 8 18 / 0.76);
 }
 .home-wiki-frame::before,
 .home-wiki-frame::after {
-  content: "";
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  border-color: rgb(94 234 212);
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-color: rgb(94 234 212);
 }
-.home-wiki-frame::before { top: -5px; left: -5px; border-top: 2px solid; border-left: 2px solid; }
-.home-wiki-frame::after { right: -5px; bottom: -5px; border-right: 2px solid; border-bottom: 2px solid; }
+.home-wiki-frame::before {
+    top: -5px;
+    left: -5px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+}
+.home-wiki-frame::after {
+    right: -5px;
+    bottom: -5px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
 .home-wiki-label {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.35rem 0.55rem 0.75rem;
-  color: rgb(148 163 184);
-  font: 700 0.64rem/1.2 monospace;
-  letter-spacing: 0.12em;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.35rem 0.55rem 0.75rem;
+    color: rgb(148 163 184);
+    font: 700 0.64rem/1.2 monospace;
+    letter-spacing: 0.12em;
 }
-.home-wiki-label b { color: rgb(94 234 212); }
-.home-extra-about { background: rgb(17 24 39 / 0.38); }
+.home-wiki-label b {
+    color: rgb(94 234 212);
+}
+.home-extra-about {
+    background: rgb(17 24 39 / 0.38);
+}
 
 .home-extra-numbers,
 .home-extra-numbers h2,
 .home-extra-numbers strong,
 .home-extra-numbers .home-number-grid span,
 .home-extra-numbers .home-extra-note {
-  color: rgb(15 23 42) !important;
+    color: rgb(15 23 42) !important;
 }
-.home-extra-numbers .home-extra-heading > span { color: rgb(15 118 110) !important; }
+.home-extra-numbers .home-extra-heading > span {
+    color: rgb(15 118 110) !important;
+}
 .home-extra-numbers .home-number-grid {
-  border-color: rgb(15 23 42 / 0.28) !important;
+    border-color: rgb(15 23 42 / 0.28) !important;
 }
 .home-extra-numbers .home-number-grid div {
-  border-color: rgb(15 23 42 / 0.28) !important;
+    border-color: rgb(15 23 42 / 0.28) !important;
 }
-.home-extra-numbers .home-extra-note { opacity: 0.68; }
+.home-extra-numbers .home-extra-note {
+    opacity: 0.68;
+}
 
 @media (max-width: 760px) {
-  .home-wiki-intro { grid-template-columns: 1fr; }
-  .home-wiki-frame { padding: 0.35rem; }
-  .home-wiki-label { align-items: flex-start; flex-direction: column; }
+    .home-wiki-intro {
+        grid-template-columns: 1fr;
+    }
+    .home-wiki-frame {
+        padding: 0.35rem;
+    }
+    .home-wiki-label {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
 
 /* Immediate wiki access and dark statistics section. */
 .home-wiki-shell {
-  padding: clamp(0.65rem, 1.4vw, 1.2rem);
-  background:
-    radial-gradient(circle at 50% 120%, rgb(45 212 191 / 0.08), transparent 44%),
-    linear-gradient(180deg, rgb(15 23 42 / 0.42), rgb(8 13 24 / 0.72));
+    padding: clamp(0.65rem, 1.4vw, 1.2rem);
+    background:
+        radial-gradient(
+            circle at 50% 120%,
+            rgb(45 212 191 / 0.08),
+            transparent 44%
+        ),
+        linear-gradient(180deg, rgb(15 23 42 / 0.42), rgb(8 13 24 / 0.72));
 }
 .home-wiki-shell::before {
-  opacity: 0.1;
-  mask-image: none;
+    opacity: 0.1;
+    mask-image: none;
 }
-.home-wiki-intro { display: none; }
+.home-wiki-intro {
+    display: none;
+}
 .home-wiki-frame {
-  max-width: none;
-  margin: 0;
-  padding: 0.35rem;
-  border-color: rgb(94 234 212 / 0.42);
-  box-shadow: 0 0 0 4px rgb(94 234 212 / 0.025), 0 12px 36px rgb(0 0 0 / 0.24);
+    max-width: none;
+    margin: 0;
+    padding: 0.35rem;
+    border-color: rgb(94 234 212 / 0.42);
+    box-shadow:
+        0 0 0 4px rgb(94 234 212 / 0.025),
+        0 12px 36px rgb(0 0 0 / 0.24);
 }
-.home-wiki-label { padding: 0.25rem 0.45rem 0.55rem; }
+.home-wiki-label {
+    padding: 0.25rem 0.45rem 0.55rem;
+}
 
 /* Statistics use the dark homepage colour system. */
 .home-extra-numbers {
-  color: rgb(226 232 240) !important;
-  background:
-    radial-gradient(circle at 84% 12%, rgb(45 212 191 / 0.12), transparent 30rem),
-    linear-gradient(115deg, rgb(10 18 34), rgb(15 31 52));
+    color: rgb(226 232 240) !important;
+    background:
+        radial-gradient(
+            circle at 84% 12%,
+            rgb(45 212 191 / 0.12),
+            transparent 30rem
+        ),
+        linear-gradient(115deg, rgb(10 18 34), rgb(15 31 52));
 }
 .home-extra-numbers h2,
 .home-extra-numbers strong,
 .home-extra-numbers .home-number-grid span,
-.home-extra-numbers .home-extra-note { color: rgb(226 232 240) !important; }
-.home-extra-numbers .home-extra-heading > span { color: rgb(94 234 212) !important; }
-.home-extra-numbers .home-number-grid,
-.home-extra-numbers .home-number-grid div { border-color: rgb(148 163 184 / 0.26) !important; }
-.home-extra-numbers .home-number-grid div { background: rgb(15 23 42 / 0.18); }
-.home-extra-numbers .home-number-grid span { color: rgb(203 213 225) !important; }
 .home-extra-numbers .home-extra-note {
-  color: rgb(148 163 184) !important;
-  opacity: 1;
+    color: rgb(226 232 240) !important;
+}
+.home-extra-numbers .home-extra-heading > span {
+    color: rgb(94 234 212) !important;
+}
+.home-extra-numbers .home-number-grid,
+.home-extra-numbers .home-number-grid div {
+    border-color: rgb(148 163 184 / 0.26) !important;
+}
+.home-extra-numbers .home-number-grid div {
+    background: rgb(15 23 42 / 0.18);
+}
+.home-extra-numbers .home-number-grid span {
+    color: rgb(203 213 225) !important;
+}
+.home-extra-numbers .home-extra-note {
+    color: rgb(148 163 184) !important;
+    opacity: 1;
 }
 
 @media (max-width: 760px) {
-  .home-wiki-shell { padding: 0.4rem; }
-  .home-wiki-frame { padding: 0.25rem; box-shadow: none; }
-  .home-wiki-label {
-    flex-direction: row;
-    align-items: center;
-    padding: 0.2rem 0.35rem 0.45rem;
-  }
-  #course-wikis > a > div { min-height: 8.25rem; }
-  #course-wikis img { width: 4.5rem; }
-  #course-wikis h2 { font-size: 1.15rem; }
-  #course-wikis p {
-    margin-bottom: 1rem;
-    font-size: 0.78rem;
-  }
+    .home-wiki-shell {
+        padding: 0.4rem;
+    }
+    .home-wiki-frame {
+        padding: 0.25rem;
+        box-shadow: none;
+    }
+    .home-wiki-label {
+        flex-direction: row;
+        align-items: center;
+        padding: 0.2rem 0.35rem 0.45rem;
+    }
+    #course-wikis > a > div {
+        min-height: 8.25rem;
+    }
+    #course-wikis img {
+        width: 4.5rem;
+    }
+    #course-wikis h2 {
+        font-size: 1.15rem;
+    }
+    #course-wikis p {
+        margin-bottom: 1rem;
+        font-size: 0.78rem;
+    }
 }
 
 /* Header, language selector, and official-information note. */
 .home-network-header {
-  min-height: 12.5rem;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 50% 120%, rgb(45 212 191 / 0.16), transparent 52%),
-    linear-gradient(115deg, rgb(8 13 24), rgb(17 31 50) 52%, rgb(8 13 24));
+    min-height: 12.5rem;
+    overflow: hidden;
+    background:
+        radial-gradient(
+            circle at 50% 120%,
+            rgb(45 212 191 / 0.16),
+            transparent 52%
+        ),
+        linear-gradient(115deg, rgb(8 13 24), rgb(17 31 50) 52%, rgb(8 13 24));
 }
 .home-network-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  opacity: 0.16;
-  background-image: linear-gradient(rgb(148 163 184 / 0.32) 1px, transparent 1px), linear-gradient(90deg, rgb(148 163 184 / 0.32) 1px, transparent 1px);
-  background-size: 28px 28px;
-  mask-image: linear-gradient(to bottom, black, transparent 90%);
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.16;
+    background-image:
+        linear-gradient(rgb(148 163 184 / 0.32) 1px, transparent 1px),
+        linear-gradient(90deg, rgb(148 163 184 / 0.32) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: linear-gradient(to bottom, black, transparent 90%);
 }
-.home-network-title { position: relative; z-index: 1; padding: 1.8rem 1rem; }
-.home-network-title h1 { font-size: clamp(2rem, 5vw, 4.4rem); letter-spacing: -0.055em; line-height: 1; }
-.home-network-kicker { display: block; margin-bottom: 0.75rem; color: rgb(94 234 212); font: 700 0.67rem/1.2 monospace; letter-spacing: 0.13em; }
-.home-network-subtitle { display: block; max-width: 680px; color: rgb(203 213 225); font-size: clamp(0.82rem, 1.5vw, 1rem); }
-.home-header-preferences { position: absolute; z-index: 3; top: 0.8rem; right: 0.8rem; display: flex; align-items: center; gap: 0.55rem; }
-.home-language-toggle { display: inline-flex; padding: 0.18rem; border: 1px solid rgb(148 163 184 / 0.42); border-radius: 0.35rem; background: rgb(8 13 24 / 0.72); }
-.home-language-toggle button { min-width: 2.1rem; padding: 0.28rem 0.42rem; border: 0; border-radius: 0.22rem; color: rgb(148 163 184); background: transparent; font: 700 0.68rem/1 monospace; cursor: pointer; }
-.home-language-toggle button[aria-pressed="true"] { color: rgb(8 13 24); background: rgb(94 234 212); }
-.home-official-note { display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; padding: 1.1rem clamp(1rem, 3vw, 2rem); border-bottom: 1px dashed rgb(75 85 99 / 0.65); background: rgb(15 23 42 / 0.56); }
-.home-official-icon { width: 1.8rem; height: 1.8rem; display: grid; place-items: center; border: 1px solid rgb(148 163 184 / 0.55); border-radius: 50%; color: rgb(203 213 225); font: 700 0.8rem serif; }
-.home-official-note strong { display: block; margin-bottom: 0.2rem; font-size: 0.82rem; }
-.home-official-note p { margin: 0; color: rgb(148 163 184); font-size: 0.76rem; line-height: 1.45; }
-.home-official-note > a { font-size: 0.75rem; white-space: nowrap; }
+.home-network-title {
+    position: relative;
+    z-index: 1;
+    padding: 1.8rem 1rem;
+    min-width: 0;
+}
+.home-network-title h1 {
+    font-size: clamp(2rem, 5vw, 4.4rem);
+    letter-spacing: -0.055em;
+    line-height: 1;
+}
+.home-network-kicker {
+    display: block;
+    margin-bottom: 0.75rem;
+    color: rgb(94 234 212);
+    font: 700 0.67rem/1.2 monospace;
+    letter-spacing: 0.13em;
+}
+.home-network-subtitle {
+    display: block;
+    max-width: 680px;
+    color: rgb(203 213 225);
+    font-size: clamp(0.82rem, 1.5vw, 1rem);
+}
+.home-header-preferences {
+    position: absolute;
+    z-index: 3;
+    top: 0.8rem;
+    right: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+.home-language-toggle {
+    display: inline-flex;
+    padding: 0.18rem;
+    border: 1px solid rgb(148 163 184 / 0.42);
+    border-radius: 0.35rem;
+    background: rgb(8 13 24 / 0.72);
+}
+.home-language-toggle button {
+    min-width: 2.1rem;
+    padding: 0.28rem 0.42rem;
+    border: 0;
+    border-radius: 0.22rem;
+    color: rgb(148 163 184);
+    background: transparent;
+    font: 700 0.68rem/1 monospace;
+    cursor: pointer;
+}
+.home-language-toggle button[aria-pressed="true"] {
+    color: rgb(8 13 24);
+    background: rgb(94 234 212);
+}
+.home-official-note {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    padding: 1.1rem clamp(1rem, 3vw, 2rem);
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    background: rgb(15 23 42 / 0.56);
+}
+.home-official-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(148 163 184 / 0.55);
+    border-radius: 50%;
+    color: rgb(203 213 225);
+    font: 700 0.8rem serif;
+}
+.home-official-note strong {
+    display: block;
+    margin-bottom: 0.2rem;
+    font-size: 0.82rem;
+}
+.home-official-note p {
+    margin: 0;
+    color: rgb(148 163 184);
+    font-size: 0.76rem;
+    line-height: 1.45;
+}
+.home-official-note > a {
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
 @media (max-width: 650px) {
-  .home-network-header { min-height: 14.5rem; padding-top: 2.8rem; }
-  .home-header-preferences { top: 0.55rem; right: 0.55rem; }
-  .home-official-note { grid-template-columns: auto 1fr; align-items: start; }
-  .home-official-note > a { grid-column: 2; white-space: normal; }
+    .home-network-header {
+        min-height: 14.5rem;
+        padding-top: 2.8rem;
+    }
+    .home-header-preferences {
+        top: 0.55rem;
+        right: 0.55rem;
+    }
+    .home-official-note {
+        grid-template-columns: auto 1fr;
+        align-items: start;
+    }
+    .home-official-note > a {
+        grid-column: 2;
+        white-space: normal;
+    }
 }
 
 /* Header actions, desktop wiki sizing, and unified colour system. */
 .home-network-header {
-  min-height: 13.5rem;
-  background:
-    radial-gradient(circle at 50% 112%, rgb(45 212 191 / 0.13), transparent 48%),
-    linear-gradient(120deg, rgb(12 24 43), rgb(16 42 58) 52%, rgb(12 24 43));
+    min-height: 13.5rem;
+    background:
+        radial-gradient(
+            circle at 50% 112%,
+            rgb(45 212 191 / 0.13),
+            transparent 48%
+        ),
+        linear-gradient(120deg, rgb(12 24 43), rgb(16 42 58) 52%, rgb(12 24 43));
 }
-.home-network-title { padding: 1.55rem 1rem 0.7rem; }
-.home-network-subtitle { color: rgb(203 213 225); }
+.home-network-title {
+    padding: 1.55rem 1rem 0.7rem;
+}
+.home-network-subtitle {
+    color: rgb(203 213 225);
+}
 .home-header-actions {
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.65rem 1.35rem;
-  padding: 0.45rem 1rem 1.2rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.65rem 1.35rem;
+    padding: 0.45rem 1rem 1.2rem;
 }
 .home-header-actions a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  color: rgb(203 213 225);
-  font-size: 0.78rem;
-  text-decoration: none;
-  text-underline-offset: 0.25rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: rgb(203 213 225);
+    font-size: 0.78rem;
+    text-decoration: none;
+    text-underline-offset: 0.25rem;
 }
-.home-header-actions a:hover { color: white; text-decoration: underline; }
+.home-header-actions a:hover {
+    color: white;
+    text-decoration: underline;
+}
 .home-header-actions img {
-  width: 1.35rem;
-  height: 1.35rem;
-  margin: 0;
-  object-fit: contain;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: 0;
+    object-fit: contain;
 }
 .home-wiki-shell {
-  padding: 0.7rem;
-  background: linear-gradient(180deg, rgb(11 22 40 / 0.82), rgb(13 30 48 / 0.88));
+    padding: 0.7rem;
+    background: linear-gradient(
+        180deg,
+        rgb(11 22 40 / 0.82),
+        rgb(13 30 48 / 0.88)
+    );
 }
-.home-wiki-frame { max-width: none; margin: 0; }
+.home-wiki-frame {
+    max-width: none;
+    margin: 0;
+}
 .home-extra-freshmen {
-  background: linear-gradient(120deg, rgb(13 31 50), rgb(17 53 61));
+    background: linear-gradient(120deg, rgb(13 31 50), rgb(17 53 61));
 }
-@media (min-width: 901px) {
-  #course-wikis { min-height: clamp(26rem, calc(100vh - 19rem), 38rem); }
-  #course-wikis > a > div { min-height: inherit; }
-  #course-wikis img { width: clamp(8rem, 9vw, 12rem); }
-  #course-wikis h2 { font-size: clamp(1.35rem, 1.5vw, 2rem); }
-  #course-wikis p { font-size: 0.9rem; }
-}
-@media (max-width: 760px) {
-  .home-network-header { min-height: 16rem; padding-top: 2.4rem; }
-  .home-header-actions { gap: 0.45rem; padding-bottom: 0.8rem; }
-  .home-header-actions a {
+.home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
     padding: 0.32rem 0.5rem;
     border: 1px solid rgb(148 163 184 / 0.2);
     border-radius: 0.25rem;
-  }
-  .home-header-actions a span { font-size: 0.68rem; }
+    background: transparent;
+    color: rgb(203 213 225);
+    font: inherit;
+    font-size: medium;
+    text-decoration: none;
+    text-underline-offset: 0.25rem;
+    cursor: pointer;
+}
+.home-button:hover {
+    background-color: rgb(15 23 42 / 0.56);
+}
+@media (min-width: 901px) {
+    #course-wikis {
+        min-height: clamp(26rem, calc(100vh - 19rem), 38rem);
+    }
+    #course-wikis > a > div {
+        min-height: inherit;
+    }
+    #course-wikis img {
+        width: clamp(8rem, 9vw, 12rem);
+    }
+    #course-wikis h2 {
+        font-size: clamp(1.35rem, 1.5vw, 2rem);
+    }
+    #course-wikis p {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 760px) {
+    .home-network-header {
+        min-height: 16rem;
+        padding-top: 2.4rem;
+    }
+    .home-header-actions {
+        gap: 0.45rem;
+        padding-bottom: 0.8rem;
+    }
+    .home-header-actions a {
+        padding: 0.32rem 0.5rem;
+        border: 1px solid rgb(148 163 184 / 0.2);
+        border-radius: 0.25rem;
+        justify-content: center;
+    }
+    .home-header-actions a span {
+        font-size: 0.68rem;
+    }
 }
 
 .home-entry-panel {
-  margin: 0.55rem;
-  overflow: hidden;
-  border: 1px solid rgb(94 234 212 / 0.26);
-  background:
-    radial-gradient(circle at 50% 0%, rgb(45 212 191 / 0.10), transparent 38rem),
-    linear-gradient(180deg, rgb(8 17 31), rgb(7 13 24));
-  box-shadow: 0 12px 42px rgb(0 0 0 / 0.20);
+    margin: 0.55rem;
+    overflow: hidden;
+    border: 1px solid rgb(94 234 212 / 0.26);
+    background:
+        radial-gradient(
+            circle at 50% 0%,
+            rgb(45 212 191 / 0.1),
+            transparent 38rem
+        ),
+        linear-gradient(180deg, rgb(8 17 31), rgb(7 13 24));
+    box-shadow: 0 12px 42px rgb(0 0 0 / 0.2);
 }
 .home-entry-panel .home-network-header {
-  min-height: 10.5rem;
-  border-bottom: 1px dashed rgb(94 234 212 / 0.22);
-  background: transparent;
+    min-height: 10.5rem;
+    border-bottom: 1px dashed rgb(94 234 212 / 0.22);
+    background: transparent;
 }
-.home-entry-panel .home-network-title { padding: 1.15rem 1rem 0.55rem; }
-.home-entry-panel .home-network-title h1 { margin-bottom: 0.7rem !important; }
+.home-entry-panel .home-network-title {
+    padding: 1.15rem 1rem 0.55rem;
+}
+.home-entry-panel .home-network-title h1 {
+    margin-bottom: 0.7rem !important;
+}
 .home-entry-panel .home-network-subtitle {
-  max-width: 760px;
-  margin: 0 auto;
-  line-height: 1.5;
+    max-width: 760px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
-.home-entry-panel .home-header-actions { margin: 0.45rem 0 0.9rem; }
+.home-entry-panel .home-header-actions {
+    margin: 0.45rem 0 0.9rem;
+}
 .home-entry-panel .home-wiki-shell {
-  padding: 0.45rem;
-  background: transparent;
+    padding: 0.45rem;
+    background: transparent;
 }
 .home-entry-panel .home-wiki-frame {
-  border-color: rgb(94 234 212 / 0.30);
-  box-shadow: none;
+    border-color: rgb(94 234 212 / 0.3);
+    box-shadow: none;
 }
 /* Statistics labels stay on one line at standard desktop widths. */
 .home-number-grid span {
-  max-width: none;
-  white-space: nowrap;
-  font-size: clamp(0.67rem, 0.78vw, 0.82rem);
+    max-width: none;
+    white-space: nowrap;
+    font-size: clamp(0.67rem, 0.78vw, 0.82rem);
 }
 /* The official-information note is left-aligned. */
 .home-official-note,
 .home-official-note > div,
 .home-official-note strong,
 .home-official-note p {
-  text-align: left !important;
-  justify-items: start;
+    text-align: left !important;
+    justify-items: start;
 }
-.home-official-note strong { width: 100%; }
+.home-official-note strong {
+    width: 100%;
+}
 @media (max-width: 760px) {
-  .home-entry-panel { margin: 0.3rem; }
-  .home-entry-panel .home-network-header { min-height: 13.5rem; }
-  .home-entry-panel .home-wiki-shell { padding: 0.25rem; }
-  .home-number-grid span { white-space: normal; }
+    .home-entry-panel {
+        margin: 0.3rem;
+    }
+    .home-entry-panel .home-network-header {
+        min-height: 13.5rem;
+    }
+    .home-entry-panel .home-wiki-shell {
+        padding: 0.25rem;
+    }
+    .home-number-grid span {
+        white-space: normal;
+    }
 }
 
 .home-network-header {
-  min-height: 12rem;
-  margin: 0;
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
-  background: linear-gradient(90deg, transparent, rgb(31 41 55 / 0.72), transparent);
+    min-height: 12rem;
+    margin: 0;
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgb(31 41 55 / 0.72),
+        transparent
+    );
 }
-.home-network-header::before { opacity: 0.07; }
-.home-network-title { padding: 1.45rem 1rem 0.65rem; }
+.home-network-header::before {
+    opacity: 0.07;
+}
+.home-network-title {
+    padding: 1.45rem 1rem 0.65rem;
+}
 .home-wiki-shell {
-  padding: 0;
-  border-bottom: 1px dashed rgb(75 85 99 / 0.65);
-  background: transparent;
+    padding: 0;
+    border-bottom: 1px dashed rgb(75 85 99 / 0.65);
+    background: transparent;
 }
-#course-wikis { border-bottom: 0; }
+#course-wikis {
+    border-bottom: 0;
+}
 .home-language-preference {
-  position: absolute;
-  z-index: 3;
-  top: 0.8rem;
-  right: 0.8rem;
+    position: absolute;
+    z-index: 3;
+    top: 0.8rem;
+    right: 0.8rem;
 }
 .home-font-preference {
-  position: absolute;
-  z-index: 3;
-  top: 0.8rem;
-  left: 0.8rem;
-  color: rgb(203 213 225);
-  font-size: 0.78rem;
+    position: absolute;
+    z-index: 3;
+    top: 0.8rem;
+    left: 0.8rem;
+    color: rgb(203 213 225);
+    font-size: 0.78rem;
 }
 
-.home-entry-panel { display: contents; }
+.home-entry-panel {
+    display: contents;
+}
 .home-entry-panel .home-network-header,
-.home-entry-panel .home-wiki-shell { background: initial; }
+.home-entry-panel .home-wiki-shell {
+    background: initial;
+}
 .home-contribute-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.8rem;
 }
 .home-contribute-actions a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2.8rem;
-  padding: 0.7rem 0.95rem;
-  border: 1px solid rgb(94 234 212 / 0.42);
-  border-radius: 0.35rem;
-  background: rgb(15 23 42 / 0.54);
-  color: rgb(226 232 240);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.8rem;
+    padding: 0.7rem 0.95rem;
+    border: 1px solid rgb(94 234 212 / 0.42);
+    border-radius: 0.35rem;
+    background: rgb(15 23 42 / 0.54);
+    color: rgb(226 232 240);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8rem;
 }
-.home-contribute-actions a:hover { background: rgb(45 212 191 / 0.12); }
+.home-contribute-actions a:hover {
+    background: rgb(45 212 191 / 0.12);
+}
 @media (max-width: 650px) {
-  .home-network-header { min-height: 15rem; padding-top: 2.6rem; }
-  .home-language-preference { top: 0.55rem; right: 0.55rem; }
-  .home-font-preference { top: 0.55rem; left: 0.55rem; }
+    .home-network-header {
+        min-height: 15rem;
+        padding-top: 2.6rem;
+    }
+    .home-language-preference {
+        top: 0.55rem;
+        right: 0.55rem;
+    }
+    .home-font-preference {
+        top: 0.55rem;
+        left: 0.55rem;
+    }
 }
 
 @media (min-width: 900px) {
-  .home-network-subtitle {
-    max-width: none;
-    white-space: nowrap;
-  }
+    .home-network-subtitle {
+        max-width: none;
+        white-space: nowrap;
+    }
 }
 /* Accessibility preferences */
 .home-font-preference {
-  display: inline-flex;
-  align-items: center;
-  min-height: 2rem;
-  padding: 0.18rem 0.48rem;
-  border: 1px solid rgb(148 163 184 / 0.42);
-  border-radius: 0.35rem;
-  background: rgb(8 13 24 / 0.72);
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.18rem 0.48rem;
+    border: 1px solid rgb(148 163 184 / 0.42);
+    border-radius: 0.35rem;
+    background: rgb(8 13 24 / 0.72);
 }
 .home-font-preference label,
 .home-font-preference span,
 .home-font-preference button {
-  margin: 0;
-  color: rgb(203 213 225);
-  font: 700 0.68rem/1 monospace;
+    margin: 0;
+    color: rgb(203 213 225);
+    font: 700 0.68rem/1 monospace;
 }
-.home-font-preference input { margin: 0 0 0 0.4rem; accent-color: rgb(94 234 212); }
+.home-font-preference input {
+    margin: 0 0 0 0.4rem;
+    accent-color: rgb(94 234 212);
+}
 /* Contribution section */
 .home-extra-contribute {
-  display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(360px, 1.15fr);
-  gap: clamp(2rem, 6vw, 6rem);
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(360px, 1.15fr);
+    gap: clamp(2rem, 6vw, 6rem);
 }
-.home-contribute-links { align-self: start; }
+.home-contribute-links {
+    align-self: start;
+}
 @media (max-width: 900px) {
-  .home-extra-contribute { grid-template-columns: 1fr; }
+    .home-extra-contribute {
+        grid-template-columns: 1fr;
+    }
 }
 @media (max-width: 650px) {
-  .home-network-subtitle { white-space: normal; }
-  .home-font-preference { max-width: 45%; }
+    .home-network-subtitle {
+        white-space: normal;
+    }
+    .home-font-preference {
+        max-width: 45%;
+    }
 }
 
 /* Homepage metric definition */
-.home-number-grid span { position: relative; }
+.home-number-grid span {
+    position: relative;
+}
 .home-metric-term {
-  padding: 0;
-  border: 0;
-  border-bottom: 1px dotted currentColor;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  text-align: left;
-  cursor: help;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px dotted currentColor;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: help;
 }
 .home-metric-help {
-  position: absolute;
-  left: 0;
-  bottom: calc(100% + 0.65rem);
-  z-index: 20;
-  display: none;
-  width: min(18rem, 75vw);
-  padding: 0.75rem;
-  border: 1px solid rgb(148 163 184 / 0.5);
-  border-radius: 0.35rem;
-  background: rgb(7 11 18 / 0.98);
-  box-shadow: 0 12px 32px rgb(0 0 0 / 0.35);
-  color: rgb(226 232 240);
-  font-size: 0.75rem;
-  line-height: 1.45;
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 0.65rem);
+    z-index: 20;
+    display: none;
+    width: min(18rem, 75vw);
+    padding: 0.75rem;
+    border: 1px solid rgb(148 163 184 / 0.5);
+    border-radius: 0.35rem;
+    background: rgb(7 11 18 / 0.98);
+    box-shadow: 0 12px 32px rgb(0 0 0 / 0.35);
+    color: rgb(226 232 240);
+    font-size: 0.75rem;
+    line-height: 1.45;
 }
 .home-metric-term:hover + .home-metric-help,
 .home-metric-term:focus-visible + .home-metric-help,
-.home-metric-term[aria-expanded="true"] + .home-metric-help { display: block; }
+.home-metric-term[aria-expanded="true"] + .home-metric-help {
+    display: block;
+}
 
 /* Desktop course viewport */
 @media (min-width: 1024px) and (min-height: 720px) {
-  .home-wiki-shell { min-height: calc(100vh - 3.5rem); }
+    .home-wiki-shell {
+        min-height: calc(100vh - 3.5rem);
+    }
 }
 
 .home-extra-numbers {
-  background: rgb(17 24 39 / 0.38);
-  box-shadow: none;
+    background: rgb(17 24 39 / 0.38);
+    box-shadow: none;
 }
-.home-extra-numbers .home-number-grid div { background: rgb(15 23 42 / 0.18); }
+.home-extra-numbers .home-number-grid div {
+    background: rgb(15 23 42 / 0.18);
+}
 
 /* Metric tooltip and course-card sizing. */
 .home-metric-help {
-  position: fixed;
-  z-index: 50;
-  display: none;
-  width: 14rem;
-  max-width: calc(100vw - 2rem);
-  padding: .65rem .75rem;
-  border: 1px solid rgb(148 163 184 / .5);
-  border-radius: .75rem;
-  background: rgb(7 11 18 / .98);
-  color: rgb(226 232 240);
-  font-size: .75rem;
-  line-height: 1.4;
-  white-space: normal;
-  overflow-wrap: anywhere;
-  pointer-events: none;
+    position: fixed;
+    z-index: 50;
+    display: none;
+    width: 14rem;
+    max-width: calc(100vw - 2rem);
+    padding: 0.65rem 0.75rem;
+    border: 1px solid rgb(148 163 184 / 0.5);
+    border-radius: 0.75rem;
+    background: rgb(7 11 18 / 0.98);
+    color: rgb(226 232 240);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    pointer-events: none;
 }
 #course-wikis > .home-course-card {
-  min-height: clamp(10rem, 20vh, 15rem);
+    min-height: clamp(10rem, 20vh, 15rem);
 }
 @media (min-width: 768px) {
-  #course-wikis > .home-course-card {
-    height: calc(100vh - 3.5rem);
-    min-height: 32rem;
-  }
-  .home-wiki-shell {
-    min-height: 0;
-  }
+    #course-wikis > .home-course-card {
+        height: calc(100vh - 3.5rem);
+        min-height: 32rem;
+    }
+    .home-wiki-shell {
+        min-height: 0;
+    }
 }
 .home-footer-actions {
-  display: flex;
-  justify-content: center;
-  padding: 1.25rem 1rem 2rem;
-  border-top: 1px dashed rgb(75 85 99 / .65);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1rem 2rem;
+    border-top: 1px dashed rgb(75 85 99 / 0.65);
 }
 
 /* On desktop, the header and five course cards fill one viewport. */
 @media (min-width: 768px) and (min-height: 640px) {
-  .home-above-fold-shell {
-    height: calc(100svh - 3.5rem);
-    min-height: 0;
-    flex-grow: 0;
-  }
+    .home-above-fold-shell {
+        height: calc(100svh - 3.5rem);
+        min-height: 0;
+        flex-grow: 0;
+    }
 
-  .home-above-fold-shell > .home-network-header {
-    flex: 0 0 auto;
-  }
+    .home-above-fold-shell > .home-network-header {
+        flex: 0 0 auto;
+    }
 
-  .home-above-fold-shell > .home-wiki-shell {
-    display: flex;
-    flex: 1 1 auto;
-    min-height: 0;
-    padding: 0;
-  }
+    .home-above-fold-shell > .home-wiki-shell {
+        display: flex;
+        flex: 1 1 auto;
+        min-height: 0;
+        padding: 0;
+    }
 
-  #course-wikis {
-    height: auto;
-    min-height: 0;
-    flex: 1 1 auto;
-  }
+    #course-wikis {
+        height: auto;
+        min-height: 0;
+        flex: 1 1 auto;
+    }
 
-  #course-wikis > .home-course-card {
-    height: auto;
-    min-height: 0;
-  }
+    #course-wikis > .home-course-card {
+        height: auto;
+        min-height: 0;
+    }
 }
 
 /* Tooltip and wiki-shell behaviour. */
 .home-number-grid .home-metric-help {
-  position: fixed !important;
-  inset: auto !important;
-  z-index: 1000 !important;
-  display: none !important;
-  box-sizing: border-box;
-  width: 13.5rem !important;
-  max-width: calc(100vw - 1.5rem) !important;
-  height: auto !important;
-  min-height: 0 !important;
-  max-height: calc(100vh - 1.5rem) !important;
-  margin: 0 !important;
-  padding: 0.65rem 0.75rem !important;
-  overflow: auto !important;
-  border-radius: 0.75rem;
-  font-size: 0.75rem !important;
-  line-height: 1.45 !important;
-  white-space: normal !important;
-  overflow-wrap: anywhere;
-  text-align: left;
+    position: fixed !important;
+    inset: auto !important;
+    z-index: 1000 !important;
+    display: none !important;
+    box-sizing: border-box;
+    width: 13.5rem !important;
+    max-width: calc(100vw - 1.5rem) !important;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: calc(100vh - 1.5rem) !important;
+    margin: 0 !important;
+    padding: 0.65rem 0.75rem !important;
+    overflow: auto !important;
+    border-radius: 0.75rem;
+    font-size: 0.75rem !important;
+    line-height: 1.45 !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    text-align: left;
 }
 .home-number-grid .home-metric-help.is-visible {
-  display: block !important;
+    display: block !important;
 }
 .home-metric-term:hover + .home-metric-help:not(.is-visible),
 .home-metric-term:focus-visible + .home-metric-help:not(.is-visible),
 .home-metric-term[aria-expanded="true"] + .home-metric-help:not(.is-visible) {
-  display: none !important;
+    display: none !important;
 }
 
 .home-entry-panel.home-above-fold-shell {
-  height: auto;
-  min-height: 0;
-  flex-grow: 0;
-}
-@media (min-width: 768px) {
-  .home-entry-panel.home-above-fold-shell > .home-wiki-shell {
-    display: block;
-    min-height: 0;
-    padding: clamp(0.65rem, 1.4vw, 1.2rem);
-  }
-  .home-entry-panel #course-wikis {
-    display: grid;
     height: auto;
     min-height: 0;
-  }
-  .home-entry-panel #course-wikis > .home-course-card {
-    height: clamp(24rem, calc(100svh - 18rem), 34rem);
-    min-height: 24rem;
-  }
+    flex-grow: 0;
+}
+@media (min-width: 768px) {
+    .home-entry-panel.home-above-fold-shell > .home-wiki-shell {
+        display: block;
+        min-height: 0;
+        padding: clamp(0.65rem, 1.4vw, 1.2rem);
+    }
+    .home-entry-panel #course-wikis {
+        display: grid;
+        height: auto;
+        min-height: 0;
+    }
+    .home-entry-panel #course-wikis > .home-course-card {
+        height: clamp(24rem, calc(100svh - 18rem), 34rem);
+        min-height: 24rem;
+    }
 }
 
-@media (max-width: 767px) { 
-  .diamond {
-    display: none;
-  }
+@media (max-width: 767px) {
+    .diamond {
+        display: none;
+    }
 }
+
 /* Google Search impressions tooltip: CSS fallback */
 .home-extra-numbers,
 .home-extra-numbers .home-number-grid,
 .home-extra-numbers .home-number-grid > div,
 .home-extra-numbers .home-number-grid > div > span {
-  overflow: visible;
+    overflow: visible;
 }
 .home-number-grid .home-metric-help {
-  position: absolute !important;
-  inset: auto auto calc(100% + 0.65rem) 0 !important;
-  z-index: 1000 !important;
-  overflow: visible !important;
-  pointer-events: none;
+    position: absolute !important;
+    inset: auto auto calc(100% + 0.65rem) 0 !important;
+    z-index: 1000 !important;
+    overflow: visible !important;
+    pointer-events: none;
 }
 .home-number-grid .home-metric-term:hover + .home-metric-help,
 .home-number-grid .home-metric-term:focus + .home-metric-help,
 .home-number-grid .home-metric-term:focus-visible + .home-metric-help,
 .home-number-grid .home-metric-term[aria-expanded="true"] + .home-metric-help,
 .home-number-grid .home-metric-help.is-visible {
-  display: block !important;
+    display: block !important;
 }
