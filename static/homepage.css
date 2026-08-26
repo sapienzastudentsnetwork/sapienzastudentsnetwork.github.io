@@ -36,7 +36,7 @@
     border-left: 1px dashed rgb(75 85 99 / 0.65);
 }
 .home-extra-grid article {
-    min-height: 245px;
+    min-height: 0;
     padding: 1.4rem;
     display: flex;
     flex-direction: column;
@@ -291,6 +291,9 @@
 }
 .home-extra-about {
     background: rgb(17 24 39 / 0.38);
+}
+.home-extra-about .home-extra-grid article {
+    padding: 1.4rem;
 }
 .home-extra-about .home-extra-grid article a,
 .home-extra-about .home-extra-grid article a:link,
@@ -854,10 +857,7 @@
         top: 0.55rem;
         left: 0.55rem;
     }
-    .home-extra-about .home-extra-grid article {
-        min-height: 245px;
-        padding-block: 2rem;
-    }
+    
 }
 
 @media (min-width: 651px) {
