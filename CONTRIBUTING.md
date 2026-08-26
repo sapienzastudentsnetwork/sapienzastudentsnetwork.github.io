@@ -1,128 +1,169 @@
-# Come Contribuire
+# Come contribuire
 
 > [!NOTE]
-> La pagina integrale e più interattiva su come contribuire è consultabile [presso il sito stesso](https://sapienzastudents.net/how-to-contribute/?lang=it)
-
-Questo progetto è immenso, e non sempre lo staff che ci lavora può occuparsene. È un progetto nato dagli studenti per gli studenti, quindi ogni possibile aiuto è apprezzato. Vuoi dare una mano? Segui questa guida per sapere come puoi contribuire!
-
-Per contribuire è possibile utilizzare **GitHub**, quindi è importante conoscere un po' le basi (principalmente cos'è **git**, come eseguire **fork** e **clone** di una repo, cosa sono i **commits** e le **pull requests**). Se non te la senti di farlo tramite la **CLI** (Command Line Interface), puoi farlo tramite VSCode o il tuo editor preferito. In questa guida vedrai come farlo tramite CLI, in modo da imparare qualcosa su come funziona **git**.
+> **English readers:** this document is written in Italian. Please refer to the [complete interactive contribution guide in English](https://sapienzastudents.net/how-to-contribute/?lang=en).
 
 > [!NOTE]
-> **Regole per contribuire e per le Pull Requests**
+> La versione più completa e interattiva di questa guida è disponibile anche [sul sito](https://sapienzastudents.net/how-to-contribute/?lang=it).
+
+SapienzaStudents.net è un progetto costruito **da studenti e studentesse, per studenti e studentesse**. Riunisce informazioni pratiche spesso sparse tra molte fonti e le trasforma in guide, strumenti e risorse condivise usate da migliaia di persone. Per mantenere accurato e utile un progetto di queste dimensioni serve una comunità: **anche una piccola correzione può evitare dubbi e far risparmiare tempo a moltissimi studenti**.
+
+Per contribuire non devi essere uno sviluppatore, installare programmi o avviare il sito in locale. Correggere un refuso, aggiornare una scadenza, chiarire un paragrafo poco comprensibile, sostituire un link non più valido o proporre una guida mancante sono tutti contributi preziosi.
+
+> [!TIP]
+> **Scegli il percorso più semplice**
 >
-> Puoi trovare maggiori informazioni su come fare una corretta pull request [**qui**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls)
+> - **Piccola modifica ai contenuti:** usa il pulsante di modifica della pagina e l'editor web di GitHub;
+> - **Segnalazione, informazione non aggiornata o bug:** apri una issue. Non serve sapere quale file modificare;
+> - **Modifica più ampia ai contenuti o al codice:** usa un fork e, quando è utile, avvia il sito in locale
 >
-> Se non sei familiare con **git** e **GitHub**, puoi seguire la [guida di GitHub](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) su come contribuire ai progetti degli altri, o eventualmente chiedere aiuto allo [staff del progetto](/it/contribuire/contatti) o in uno dei [gruppi disponibili](/it/canali/gruppi).
+> L'ambiente di sviluppo locale è una possibilità, non un requisito per iniziare.
 
-## Clonare il progetto
+## Contributo rapido: modifica una pagina dal browser
 
-Per contribuire allo sviluppo del sito, devi creare un **fork** del progetto e modificarlo. Una volta effettuata la modifica, puoi aprire una **pull request** e inviarci le tue modifiche. Vediamo come fare:
+Per la maggior parte delle correzioni a testi e link, questo è il percorso consigliato. Serve soltanto un account GitHub gratuito.
 
-1. Su GitHub, apri la [**repository del sito**](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io) e crea un fork tramite il pulsante in alto a destra. Puoi chiamarlo come vuoi, non influirà sulla repo originale;
-2. Una volta creato il fork, devi **clonarlo in locale**. Prima di clonarlo, devi copiare l'indirizzo del repository: sulla pagina del fork che hai appena creato, clicca sul pulsante verde "**<i class="fa-solid fa-code" style="color: #63E6BE;"></i> Code**" che trovi in alto sulla pagina e copia l'URL `https` che dovrebbe terminare in `.git` dalla finestra pop-up appena aperta;
-3. Apri un terminale e naviga in una cartella dove vuoi clonare il fork. Una volta scelta la cartella, digita `git clone --recurse-submodules` e poi incolla il tuo URL dopo il comando. Vedrai qualcosa del tipo:
+1. Apri su SapienzaStudents.net la pagina che vuoi migliorare;
+2. Usa il link **modifica pagina** o il pulsante con la matita presente nella pagina. Se il contenuto è composto da più file condivisi, il sito potrebbe mostrarti più sorgenti: scegli quella che contiene il testo da correggere;
+3. GitHub aprirà il file Markdown corretto. Se richiesto, premi **Fork this repository** per creare automaticamente una tua copia del progetto;
+4. Premi l'icona della matita, effettua la modifica e controlla il risultato nella scheda **Preview**;
+5. Seleziona **Propose changes**, descrivi brevemente cosa hai cambiato e apri la pull request
+
+Hai finito. GitHub gestisce per te fork, branch e pull request; chi mantiene il progetto potrà controllare la modifica prima della pubblicazione. Per una piccola correzione ai contenuti **non** devi clonare il repository, usare il terminale, installare Hugo o compilare il sito.
+
+> [!NOTE]
+> **Il contenuto può trovarsi in un altro repository**
+>
+> Alcune guide sono condivise tramite submodule Git. Il link di modifica della pagina porta al repository che contiene davvero il testo: seguilo invece di cercare manualmente il file nel repository principale.
+
+## Segnala un problema o proponi un'idea
+
+Se non sai come correggere un problema, oppure vuoi avanzare una proposta senza preparare direttamente la modifica, [apri una issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) nel repository principale.
+
+Indica, se possibile:
+
+- l'indirizzo della pagina interessata;
+- cosa manca o risulta errato o poco chiaro;
+- l'informazione corretta e una fonte autorevole, quando pertinente;
+- screenshot o passaggi per riprodurre il problema, nel caso di un bug
+
+Puoi anche chiedere aiuto allo [staff del progetto](https://sapienzastudents.net/sapienza-students-network/?lang=it#sapienzastudentsnet) oppure unirti alla [chat dedicata allo sviluppo del sito](https://t.me/addlist/8jXnS8NuTsxkMDlk). Una segnalazione precisa è già un contributo utile.
+
+## In che modo puoi contribuire
+
+I contributi non riguardano soltanto il codice. Puoi, ad esempio:
+
+- correggere refusi, grammatica, formattazione e link non funzionanti;
+- aggiornare date, procedure, contatti e informazioni sui corsi;
+- rendere più chiara una spiegazione o migliorare la versione italiana o inglese;
+- aggiungere una risorsa utile, una FAQ, una relazione di tirocinio o una guida mancante;
+- migliorare accessibilità, grafica, template, automazioni o dati;
+- segnalare un problema e aiutare a verificare le informazioni
+
+Quando una pagina esiste in entrambe le lingue, se possibile aggiorna tutte e due le versioni mantenendone allineato il significato. Meglio una formulazione naturale e adatta al contesto che una traduzione letterale. Se puoi intervenire soltanto su una lingua, scrivilo nella pull request: qualcun altro potrà completare la localizzazione.
+
+## Prima di inviare il contributo
+
+Un buon contributo è mirato e facile da verificare:
+
+- separa in pull request diverse le modifiche non collegate tra loro;
+- spiega **cosa** hai cambiato e **perché**;
+- conserva front matter, shortcode e struttura Markdown circostante;
+- controlla i link e usa l'anteprima del testo formattato;
+- non inserire dati personali, contenuti riservati o materiale protetto senza autorizzazione;
+- per informazioni amministrative o soggette a scadenza, indica una fonte ufficiale o affidabile;
+- usa un linguaggio chiaro, accogliente e inclusivo
+
+Puoi consultare le [pull request aperte](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls) per vedere alcuni esempi. Se durante la revisione ti vengono richieste modifiche, è una normale parte del lavoro collaborativo.
+
+> [!TIP]
+> **Chi ha contribuito al progetto**
+>
+> Visita la pagina dei [contributori](https://sapienzastudents.net/contributors/?lang=it) per scoprire chi ha aiutato a far crescere la wiki e il sito nel suo insieme. Ogni contributo accettato, grande o piccolo, entra a far parte di una risorsa che la comunità studentesca può continuare a migliorare insieme.
+
+## Procedura completa in locale
+
+Usa questa procedura per modifiche ampie, interventi sul codice o sulla struttura e per tutto ciò che vuoi verificare localmente. È utile conoscere le basi di Git, fork, commit e pull request, ma puoi impararle strada facendo.
+
+### 1. Crea un fork e clona il repository
+
+1. Apri il [repository del sito](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io) e seleziona **Fork**;
+2. Clona il tuo fork includendo i submodule:
+
 ```bash
-git clone --recurse-submodules https://github.com/<tuo_username>/<nome_fork>.git
+git clone --recurse-submodules https://github.com/<tuo-username>/sapienzastudentsnetwork.github.io.git
+cd sapienzastudentsnetwork.github.io
 ```
-Ora hai clonato il fork localmente, il che significa che aprendo un editor di testo puoi iniziare a modificare i file del sito.
 
-## Avviare il sito localmente
+Se hai già clonato il progetto senza submodule, inizializzali con:
 
-Ci sono tre modi per eseguire il sito localmente. Uno è utilizzando i **binaries di Hugo**, uno usando **Docker**, e l'altro è usando **Docker Compose**. Anche se forniscono le stesse funzioni, Docker/Docker Compose potrebbe essere uno strumento difficile se lo usi per la prima volta. Ti incoraggiamo a provarlo, ma se non te la senti puoi semplicemente usare i binaries di Hugo:
-
-### Usare Hugo
-
-Prima di iniziare, verifica se hai installato i [binaries di Hugo](https://gohugo.io/installation/).
-
-4. Mentre sei ancora nella cartella del repository, puoi eseguire localmente il sito con:
 ```bash
+git submodule update --init --recursive
+```
+
+3. Crea un branch dal nome descrittivo:
+
+```bash
+git switch -c migliora-guida-contributi
+```
+
+4. Effettua le modifiche e controllale prima del commit:
+
+```bash
+git status
+git diff
+```
+
+### 2. Avvia il sito in locale, se serve
+
+L'anteprima locale è fortemente consigliata per modifiche a template, stile, script, navigazione o formattazione complessa. Di solito non è necessaria per una piccola correzione testuale effettuata dall'editor di GitHub.
+
+### Docker Compose
+
+Installa [Docker](https://www.docker.com/) con Docker Compose, quindi esegui:
+
+```bash
+docker compose up --build
+```
+
+Apri [`localhost:1313`](http://localhost:1313/) nel browser. Ferma il sito con `Ctrl+C`; se lo hai avviato in modalità detached, usa `docker compose down`.
+
+Docker genera automaticamente i metadati delle sorgenti delle pagine. Per saltare questo passaggio in una singola esecuzione:
+
+```bash
+GENERATE_SOURCE_METADATA=false docker compose up --build
+```
+### Hugo
+
+Installa una versione di Hugo compatibile con il repository e le dipendenze front-end del progetto. Dalla cartella principale esegui:
+
+```bash
+npm install
+npm run build
 hugo server
 ```
 
-#### Metadati delle sorgenti inclusi
+Apri [`localhost:1313`](http://localhost:1313/). Hugo aggiorna la pagina quando i file cambiano; premi `Ctrl+C` per fermarlo.
 
-Il sito può essere avviato senza preparazione aggiuntiva. In questa modalità il footer usa i metadati Git forniti direttamente da Hugo per il file della pagina.
-
-Alcune pagine assemblano il proprio contenuto con gli shortcode `include` e `includeWithoutToc`, anche da repository collegati come submodule. Per verificare localmente anche la data dell'ultima modifica e i collegamenti di modifica relativi ai file effettivamente inclusi, genera il data file prima di avviare Hugo:
+Il sito funziona con i metadati Git nativi di Hugo. Per verificare anche i link di modifica e le informazioni sull'ultimo aggiornamento dei contenuti inclusi da altri file o submodule, genera prima il data file locale facoltativo:
 
 ```bash
 python3 _scripts/generate-page-source-metadata.py
 hugo server
 ```
 
-Lo script consulta esclusivamente i file, i submodule e la cronologia Git disponibili nel clone locale; non effettua richieste di rete. Il risultato viene scritto in `data/page_source_metadata.json`, un file generato e ignorato da Git. Se il file non è presente, il footer continua a funzionare usando i metadati nativi di Hugo. Dopo aver modificato la struttura degli include, aggiornato un submodule o creato nuovi commit, esegui nuovamente lo script per aggiornare il data file.
+Il file generato `data/page_source_metadata.json` è ignorato da Git.
 
-> [!WARNING]
-> Se hai ricevuto un errore come il seguente
-> ```txt
-> Error: error building site: process: readAndProcessContent: "/home/<user>
-> /SapienzaStudentsNetworkFork/it/canali/discord.md:7:1": failed to extract
-> shortcode: template for shortcode "button" not found
-> ```
-> significa che il tema del sito non è stato clonato correttamente. Per risolvere questo problema, hai due modi:
-> 1. Rimuovi da git la cartella del tema con:
-> ```bash
-> git rm themes/hugo-book
-> ```
-> 
-> 2. Rimuovi la cartella del tema. Su sistemi UNIX-like, puoi eseguire:
-> ```bash
-> rm -rf themes/hugo-book
-> ```
-> 
-> 3. Installa nuovamente il tema con git, utilizzando il seguente comando:
-> ```bash
-> git submodule add https://github.com/alex-shpak/hugo-book themes/hugo-book
-> ```
-> 
-> Ora il problema dovrebbe essere scomparso e dovresti essere in grado di buildare il sito senza problemi.
+### 3. Crea il commit e apri una pull request
 
-5. Apri [`localhost:1313`](http://localhost:1313/) nel tuo browser ed ecco fatto! Ora puoi visualizzare il sito in tempo reale. Poiché Hugo supporta il ricaricamento automatico, ogni volta che un file cambia, cambierà anche il sito.
-
-6. Se vuoi fermare il server, premi semplicemente `Ctrl + C` nel terminale.
-
-### Usare Docker
-
-Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/).
-
-Docker genera automaticamente i metadati delle sorgenti prima di avviare Hugo. Se vuoi avviare il sito usando soltanto i metadati nativi di Hugo, imposta `GENERATE_SOURCE_METADATA=false`.
-
-4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
 ```bash
-docker build -t hugo-site . # Solo la prima volta che cloni il fork
-sudo docker run --rm -p 1313:1313 -v $(pwd):/app hugo-site # Genera i metadati delle sorgenti
-sudo docker run --rm -p 1313:1313 -e GENERATE_SOURCE_METADATA=false -v $(pwd):/app hugo-site # Disabilita la generazione
+git add <file-modificati>
+git commit -m "docs: migliora la guida ai contributi"
+git push -u origin migliora-guida-contributi
 ```
 
-5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
-6. Se vuoi fermare il server, premi semplicemente `Ctrl+C` nel terminale.
+Apri il link mostrato da Git, oppure visita il tuo fork su GitHub, e crea una pull request verso il branch `main` del repository principale. Nella descrizione riassumi la modifica, spiega come l'hai verificata e collega eventuali issue correlate.
 
-### Usare Docker Compose
+## Hai bisogno di aiuto?
 
-Prima di iniziare, verifica se hai installato [**Docker**](https://www.docker.com/) e [**Docker Compose**](https://docs.docker.com/compose/install/).
-
-Docker Compose genera automaticamente i metadati delle sorgenti. Per disabilitare la generazione per un singolo avvio, assegna esplicitamente `false` a `GENERATE_SOURCE_METADATA`.
-
-4. Per eseguire il sito localmente e testare il tuo codice, esegui i seguenti comandi:
-```bash
-docker compose up -d --build # Genera i metadati delle sorgenti
-GENERATE_SOURCE_METADATA=false docker compose up -d --build # Disabilita la generazione
-```
-
-5. Apri [`localhost:1313`](http://localhost:1313/) nel browser ed ecco fatto! Ora puoi visualizzare il sito.
-
-6. Se vuoi fermare il server, esegui il comando:
-```bash
-docker compose down
-```
-
-> [!NOTE] Se vuoi osservare i log del server, esegui il comando:
-> ```bash
-> docker compose logs -f
-> ```
-> Per fermare il log, premi `Ctrl + C`: ciò non fermerà il server.
-
-
-## Proposte / Bug
-
-Se hai suggerimenti per migliorare il sito, o vuoi segnalare un bug, puoi aprire un'[issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues) sul repository GitHub (**NON** sul tuo fork!). Grazie in anticipo per qualsiasi aiuto tu possa darci!
+Non lasciare che uno strumento che non conosci ti impedisca di migliorare il progetto. Puoi [aprire una issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues), inviare direttamente il testo che proponi o chiedere indicazioni alla comunità. Chi mantiene il sito può aiutarti a trasformare una buona osservazione in un contributo completo.
