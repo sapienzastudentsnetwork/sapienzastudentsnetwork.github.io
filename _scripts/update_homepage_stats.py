@@ -29,7 +29,7 @@ def is_public_markdown_page(path: str) -> bool:
         return False
     text = (ROOT / path).read_text(encoding="utf-8", errors="ignore")[:4000]
     hidden = re.search(r"(?mi)^\s*(draft|headless|bookHidden)\s*:\s*true\s*$", text)
-    index_layout = re.search(r"(?mi)^\s*layout\s*:\s*['"]?index-page['"]?\s*$", text)
+    index_layout = re.search(r'''(?mi)^\s*layout\s*:\s*['"]?index-page['"]?\s*$''', text)
     return hidden is None and index_layout is None
 
 
