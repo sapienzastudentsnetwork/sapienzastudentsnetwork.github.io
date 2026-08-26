@@ -1,5 +1,6 @@
-{{ $file := .Get 0 }}
+{{ $file := "content/cad/it/contributing/how-to-contribute.md" }}
 {{ $content := $file | readFile | replaceRE "^---[\\s\\S]+?---" "" }}
+{{ $content = replace $content "../collaboratori/" "/contributors/?lang=it" }}
 {{ $renderedContent := $content | markdownify }}
 {{ $renderedContent | safeHTML }}
 {{ partial "generateToc" . }}
