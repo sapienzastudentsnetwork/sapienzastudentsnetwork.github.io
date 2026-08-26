@@ -436,7 +436,8 @@ def extract_classrooms(DOM, classrooms_dict):
             if map_a_tag:
                 map_link = map_a_tag.get('href')
             elif "Aule temporanee Via De Lollis" in raw_description:
-                map_link = "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9"
+                #map_link = "https://maps.app.goo.gl/gxUJ8cNbmBPtiHcd9" # Tiburtina, 205
+                map_link = "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
             elif address == "Via Ariosto, 25":
                 map_link = "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
             elif address == "Via Eudossiana, 18":
@@ -918,7 +919,7 @@ def main():
     degree_programme_code = os.getenv("DEGREE_PROGRAMME_CODE", "33503")
 
     # Academic Year of the degree program to scrape data for
-    academic_year = os.getenv("ACADEMIC_YEAR", "2025/2026")
+    academic_year = os.getenv("ACADEMIC_YEAR", "2026/2027")
 
     # Url of the gomppublic page containing timetables and classrooms for the specific degree program
     gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL", 'https://gomppublic.uniroma1.it/ScriptService/OffertaFormativa/Ofs.6.0/AuleOrariScriptService/GenerateOrario.aspx?params={"controlID":"","aulaUrl":"","codiceInterno":{codiceInterno},"annoAccademico":"{annoAccademico}","virtuale":false,"timeSlots":null,"displayMode":"Manifesto","showStyles":false,"codiceAulaTagName":"","nomeAulaCssClass":"","navigateUrlInsegnamentoMode":"","navigateUrlInsegnamento":"","navigateUrlDocenteMode":"","navigateUrlDocente":"","repeatTrClass":""}&_=1702740827520')\

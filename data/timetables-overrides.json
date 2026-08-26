@@ -78,6 +78,36 @@
         "degree": "33502",
         "channels": {},
         "code": "10630468"
+      },
+      "10595525": {
+        "subject": "PROBABILITY",
+        "degree": "33502",
+        "channels": {},
+        "code": "10595525"
+      },
+      "10595529": {
+        "subject": "CALCULUS 2",
+        "degree": "33502",
+        "channels": {},
+        "code": "10595529"
+      },
+      "10595616_1": {
+        "subject": "SYSTEMS AND NETWORKING UNIT I",
+        "degree": "33502",
+        "channels": {},
+        "code": "10595616"
+      },
+      "10595616_2": {
+        "subject": "SYSTEMS AND NETWORKING UNIT II",
+        "degree": "33502",
+        "channels": {},
+        "code": "10595616"
+      },
+      "10595617_1": {
+        "subject": "DATA MANAGEMENT AND ANALYSIS UNIT 1",
+        "degree": "33502",
+        "channels": {},
+        "code": "10595617"
       }
     },
     "33508": {
@@ -810,7 +840,7 @@
               "teachers": {},
               "timeslot": "8 - 11",
               "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
             }
           ],
           "giovedì": [
@@ -907,7 +937,7 @@
               },
               "timeslot": "10 - 13",
               "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
             }
           ],
           "martedì": [
@@ -1021,6 +1051,147 @@
           ]
         }
       }
+    },
+    "10595525": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "lunedì": [
+            {
+              "teachers": {
+                "ecf21e46efa0f790d7d9d7867444474b472130b52c5c014de7ea19bd": "SILVESTRI VITTORIA"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "ecf21e46efa0f790d7d9d7867444474b472130b52c5c014de7ea19bd": "SILVESTRI VITTORIA"
+              },
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10595529": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "mercoledì": [
+            {
+              "teachers": {
+                "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+              },
+              "timeslot": "13 - 15",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10595616_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "lunedì": [
+            {
+              "teachers": {
+                "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+              },
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+              },
+              "timeslot": "15 - 18",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10595616_2": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {
+                "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+              },
+              "timeslot": "14 - 16",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10595617_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {},
+              "timeslot": "16 - 19",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {},
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "add_teachers": {
@@ -1038,11 +1209,11 @@
   "replace_classrooms": {
     "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
       "classroomInfo": "Aula 3 (Edificio: RM158)",
-      "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+      "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
     },
     "0423606b-48fc-4638-a851-eab7563981a2": {
       "classroomInfo": "Aula 4 (Edificio: RM158)",
-      "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+      "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
     }
   },
   "remove_teachers": {},

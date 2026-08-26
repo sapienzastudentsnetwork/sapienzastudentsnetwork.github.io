@@ -133,7 +133,7 @@
             },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -143,7 +143,7 @@
             },
             "timeslot": "15 - 17",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "venerd\u00ec": [
@@ -153,7 +153,7 @@
             },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -363,7 +363,7 @@
             "teachers": {},
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -482,6 +482,64 @@
       }
     },
     "code": "10593235"
+  },
+  "10595525": {
+    "subject": "PROBABILITY",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "ecf21e46efa0f790d7d9d7867444474b472130b52c5c014de7ea19bd": "SILVESTRI VITTORIA"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "ecf21e46efa0f790d7d9d7867444474b472130b52c5c014de7ea19bd": "SILVESTRI VITTORIA"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ]
+      }
+    },
+    "code": "10595525"
+  },
+  "10595529": {
+    "subject": "CALCULUS 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ]
+      }
+    },
+    "code": "10595529"
   },
   "10595530": {
     "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
@@ -607,6 +665,89 @@
     },
     "code": "10595534"
   },
+  "10595616_1": {
+    "subject": "SYSTEMS AND NETWORKING UNIT I",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+            },
+            "timeslot": "15 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  },
+  "10595616_2": {
+    "subject": "SYSTEMS AND NETWORKING UNIT II",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+            },
+            "timeslot": "14 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ]
+      }
+    },
+    "code": "10595616"
+  },
+  "10595617_1": {
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "16 - 19",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+          }
+        ]
+      }
+    },
+    "code": "10595617"
+  },
   "10606972": {
     "subject": "DATA SCIENCE E DIRITTO",
     "degree": "33503",
@@ -658,7 +799,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       }
@@ -677,7 +818,7 @@
             },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "mercoled\u00ec": [
@@ -687,7 +828,7 @@
             },
             "timeslot": "13 - 16",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -730,7 +871,7 @@
             },
             "timeslot": "15 - 18",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "venerd\u00ec": [
@@ -740,7 +881,7 @@
             },
             "timeslot": "16 - 18",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -783,7 +924,7 @@
             },
             "timeslot": "15 - 18",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "mercoled\u00ec": [
@@ -793,7 +934,7 @@
             },
             "timeslot": "16 - 18",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -803,7 +944,7 @@
             },
             "timeslot": "13 - 15",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -976,7 +1117,7 @@
             "teachers": {},
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "venerd\u00ec": [
@@ -1124,7 +1265,7 @@
             },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "marted\u00ec": [
@@ -1134,7 +1275,7 @@
             },
             "timeslot": "11 - 14",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       }
@@ -1397,7 +1538,7 @@
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "mercoled\u00ec": [
@@ -1419,7 +1560,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -1618,7 +1759,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -1628,7 +1769,7 @@
             },
             "timeslot": "11 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -1733,7 +1874,7 @@
             },
             "timeslot": "9 - 12",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "venerd\u00ec": [
@@ -1743,7 +1884,7 @@
             },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       }
@@ -1762,7 +1903,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "mercoled\u00ec": [
@@ -1826,7 +1967,7 @@
             },
             "timeslot": "9 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -1836,7 +1977,7 @@
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 3 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       }
@@ -1855,7 +1996,7 @@
             },
             "timeslot": "8 - 10",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ],
         "gioved\u00ec": [
@@ -1865,7 +2006,7 @@
             },
             "timeslot": "8 - 11",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       },
@@ -1888,7 +2029,7 @@
             },
             "timeslot": "10 - 13",
             "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
           }
         ]
       }

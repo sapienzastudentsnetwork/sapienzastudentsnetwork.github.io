@@ -451,14 +451,14 @@
     },
     "10595616_1": {
         "name": "Systems and Networking (Unit 1)",
-        "shortName": "Network (S&N U1)",
+        "shortName": "Systems (S&N U1)",
         "abbr": "SNU1",
         "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "cfu": 6
     },
     "10595616_2": {
         "name": "Systems and Networking (Unit 2)",
-        "shortName": "Systems (S&N U2)",
+        "shortName": "Network (S&N U2)",
         "tgGroup": "https://t.me/+dSkOFM61kFtlMDdk",
         "abbr": "SNU2",
         "cfu": 6
