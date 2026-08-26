@@ -30,15 +30,21 @@
           button.setAttribute('aria-pressed', active ? 'true' : 'false');
         });
         document.querySelector('.book-article').setAttribute('lang', language);
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', language);
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
         if (remember) localStorage.setItem('ssnAboutLanguage', language);
       }
       buttons.forEach(function (button) {
         button.addEventListener('click', function () { applyLanguage(button.dataset.ssnLanguage, true); });
       });
+      var queryLanguage = new URLSearchParams(window.location.search).get('lang');
       var savedLanguage = localStorage.getItem('ssnAboutLanguage');
-      var initialLanguage = savedLanguage === 'it' || savedLanguage === 'en'
-        ? savedLanguage
-        : browserLanguage();
+      var initialLanguage = queryLanguage === 'it' || queryLanguage === 'en'
+        ? queryLanguage
+        : savedLanguage === 'it' || savedLanguage === 'en'
+          ? savedLanguage
+          : browserLanguage();
       applyLanguage(initialLanguage, false);
     });
     </script>
