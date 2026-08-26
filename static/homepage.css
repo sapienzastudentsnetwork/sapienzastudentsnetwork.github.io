@@ -807,6 +807,7 @@
 .home-contribute-actions a:hover {
     background: rgb(45 212 191 / 0.12);
 }
+
 @media (max-width: 650px) {
     .home-network-header {
         min-height: 15rem;
@@ -819,6 +820,42 @@
     .home-font-preference {
         top: 0.55rem;
         left: 0.55rem;
+    }
+}
+
+@media (min-width: 651px) {
+    .home-link-list a {
+        grid-template-columns:
+            minmax(7.5rem, 1fr)
+            auto
+            minmax(7.5rem, 1fr);
+    }
+
+    .home-link-list a > span {
+        justify-self: start;
+    }
+
+    .home-link-list a > strong {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .home-link-list a > b {
+        justify-self: end;
+        white-space: nowrap;
+    }
+
+    .home-extra-freshmen {
+        display: grid;
+        grid-template-columns: minmax(0, 720px) auto;
+        align-items: center;
+        justify-content: space-between;
+        gap: clamp(3rem, 7vw, 7rem);
+    }
+
+    .home-freshmen-button {
+        justify-self: start;
+        white-space: nowrap;
     }
 }
 
