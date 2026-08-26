@@ -447,6 +447,7 @@
     position: relative;
     z-index: 1;
     padding: 1.8rem 1rem;
+    min-width: 0;
 }
 .home-network-title h1 {
     font-size: clamp(2rem, 5vw, 4.4rem);
