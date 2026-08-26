@@ -25,7 +25,15 @@
             class="home-network-header border-faint relative grid place-items-center p-4">
             <span class="home-network-title text-center">
                 <h1 class="!mb-2">SapienzaStudents.net</h1>
-                <span class="home-network-subtitle" data-en="The open-source wiki built by students to help the community navigate, study and experience university life." data-it="La wiki open source realizzata da studenti e studentesse per orientarsi, studiare e vivere appieno l’università.">The open-source wiki built by students to help the community navigate, study and experience university life.</span>
+                <span
+                    class="home-network-subtitle"
+                    data-en="The open-source wiki built by students of the Computer Science Department <br class='hidden md:block'>to help the community navigate, <br class='md:hidden'>study and experience university life."
+                    data-it="La wiki open source realizzata da studenti e studentesse del Dipartimento <br class='hidden md:block'>di Informatica per orientarsi, studiare e <br class='md:hidden'>vivere appieno l’università."
+                >
+                    The open-source wiki built by students of the Computer Science Department to help<br class="hidden md:block">
+                    the community navigate, study and experience <br class="md:hidden">
+                    university life.
+                </span>
             </span>
             <nav class="home-header-actions" aria-label="Sapienza Students Network links">
                 <a href="./sapienza-students-network">
@@ -275,7 +283,13 @@
         const applyLanguage = (lang) => {
             const selected = lang === 'it' ? 'it' : 'en';
             document.documentElement.lang = selected;
-            entries.forEach((entry) => { entry.textContent = entry.dataset[selected]; });
+            entries.forEach((entry) => {
+                if (entry.classList.contains('home-network-subtitle')) {
+                    entry.innerHTML = entry.dataset[selected];
+                    return;
+                }
+                entry.textContent = entry.dataset[selected];
+            });
             buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.setLang === selected)));
             try { localStorage.setItem('ssn-home-language', selected); } catch (_) {}
         };
