@@ -43,12 +43,8 @@
     border-right: 1px dashed rgb(75 85 99 / 0.65);
     border-bottom: 1px dashed rgb(75 85 99 / 0.65);
 }
-.home-extra-index {
-    color: rgb(94 234 212);
-    font: 700 0.75rem monospace;
-}
 .home-extra-grid h3 {
-    margin: 2rem 0 0.65rem;
+    margin: 0 0 0.65rem;
     font-size: 1.25rem;
 }
 .home-extra-grid p {
@@ -80,6 +76,11 @@
     padding: 1.5rem;
     border-right: 1px solid rgb(15 23 42 / 0.22);
     border-bottom: 1px solid rgb(15 23 42 / 0.22);
+}
+.home-extra-numbers .home-number-grid > div,
+.home-extra-numbers .home-number-grid span,
+.home-extra-numbers .home-metric-term {
+    text-align: center;
 }
 .home-number-grid strong {
     display: block;
@@ -291,6 +292,25 @@
 .home-extra-about {
     background: rgb(17 24 39 / 0.38);
 }
+.home-extra-about .home-extra-grid article a,
+.home-extra-about .home-extra-grid article a:link,
+.home-extra-about .home-extra-grid article a:visited {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    color: rgb(94 234 212);
+    text-decoration: none;
+}
+
+.home-extra-about .home-extra-grid article a:hover,
+.home-extra-about .home-extra-grid article a:focus-visible {
+    color: rgb(94 234 212);
+}
+
+
+.home-extra-about .home-extra-grid article p {
+    max-width: 38ch;
+}
 
 .home-extra-numbers,
 .home-extra-numbers h2,
@@ -382,6 +402,19 @@
 }
 .home-extra-numbers .home-number-grid div {
     background: rgb(15 23 42 / 0.18);
+}
+.home-extra-numbers .home-number-grid a,
+.home-extra-numbers .home-number-grid a:link,
+.home-extra-numbers .home-number-grid a:visited {
+    border-bottom: 0;
+    color: rgb(94 234 212) !important;
+    text-decoration: none !important;
+}
+.home-extra-numbers .home-number-grid a:hover,
+.home-extra-numbers .home-number-grid a:focus-visible {
+    border-bottom: 0;
+    color: rgb(94 234 212) !important;
+    text-decoration: none !important;
 }
 .home-extra-numbers .home-number-grid span {
     color: rgb(203 213 225) !important;
@@ -821,6 +854,10 @@
         top: 0.55rem;
         left: 0.55rem;
     }
+    .home-extra-about .home-extra-grid article {
+        min-height: 245px;
+        padding-block: 2rem;
+    }
 }
 
 @media (min-width: 651px) {
@@ -857,6 +894,14 @@
         justify-self: start;
         white-space: nowrap;
     }
+
+    .home-extra-about .home-extra-grid article a {
+        align-self: flex-start;
+    }
+}
+
+.home-extra-freshmen p, .home-extra-opendi p, .home-extra-contribute p, .home-extra-grid p {
+    text-wrap: balance;
 }
 
 @media (min-width: 900px) {
