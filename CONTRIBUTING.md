@@ -1,7 +1,7 @@
 # Come Contribuire
 
 > [!NOTE]
-> La pagina integrale e più interattiva su come contribuire è consultabile [presso il sito stesso](https://sapienzastudents.net/it/contribuire/come-contribuire/)
+> La pagina integrale e più interattiva su come contribuire è consultabile [presso il sito stesso](https://sapienzastudents.net/how-to-contribute/?lang=it)
 
 Questo progetto è immenso, e non sempre lo staff che ci lavora può occuparsene. È un progetto nato dagli studenti per gli studenti, quindi ogni possibile aiuto è apprezzato. Vuoi dare una mano? Segui questa guida per sapere come puoi contribuire!
 
