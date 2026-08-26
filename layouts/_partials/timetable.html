@@ -18,32 +18,42 @@
         }
     }
 
-    // Extract classroom number and its specific suffix
+    // Extract the classroom identifier and its location suffix.
     function getRoomData(roomString) {
-        if (!roomString) return null;
+        if (typeof roomString !== "string" || roomString.trim() === "") return null;
 
-        // Regex pattern to match Roman numerals or alphanumeric room identifiers
-        const classroomPattern = /\b(Zoom|Meet|I{1,3}|IV|V{1,3}|VI|IX|X|XI bis|XI|Alfa|Magna|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/;
-        const match = roomString.match(classroomPattern);
-
-        if (match) {
-            let roomNumber = match[0]; // Extract the matched room number
-            let suffix = "";
-
-            // Determine the correct suffix based on the building/location
-            if (roomString.includes("Eudossiana")) suffix = " SPV";
-            else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
-            else if (roomString.includes("RM112")) suffix = " RE";     // Regina Elena
-            else if (roomString.includes("RM113")) suffix = " RE";     // Regina Elena
-            else if (roomString.includes("RM005")) suffix = " SC";     // Via Antonio Scarpa
-            else if (roomString.includes("RM025")) suffix = " TIB";    // Laboratori Tiburtina
-            else if (roomString.includes("CU002")) suffix = " ST";     // Scienze Statistiche
-            else if (roomString.includes("RM018")) suffix = "L";       // Aule L Castro Laurenziano
-
-            return { room: roomNumber, suffix: suffix };
+        // Handle the specific Aula C mapping before applying generic parsing rules.
+        if (
+            roomString.includes("(CU035-E01PTEL011)")
+        ) {
+            return { room: "C", suffix: " CU" };
         }
 
-        return null; // Return null if no match is found
+        // Match computer-room labels without treating "inf" as a prefix of "informatica".
+        const computerRoomMatch = roomString.match(
+            /\bAula\s+(?:informatica\b|inf\.(?=\s))\s*([A-Za-z]*\d+[A-Za-z]*)\b/i
+        );
+
+        // Match supported named rooms, Roman numerals, and alphanumeric identifiers.
+        const genericRoomMatch = roomString.match(
+            /\b(Zoom|Meet|XI bis|I{1,3}|IV|V{1,3}|VI|IX|X|XI|Alfa|Magna|G|Tullio)\b|\b[A-Za-z]*\d+[A-Za-z]*\b/
+        );
+
+        const roomNumber = computerRoomMatch?.[1] || genericRoomMatch?.[0];
+        if (!roomNumber) return null;
+
+        let suffix = "";
+        if (roomString.includes("Eudossiana")) suffix = " SPV";
+        else if (roomString.includes("CU"))    suffix = " CU";    // Città Universitaria
+        else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
+        else if (roomString.includes("RM112")) suffix = " RE";     // Regina Elena
+        else if (roomString.includes("RM113")) suffix = " RE";     // Regina Elena
+        else if (roomString.includes("RM005")) suffix = " SC";     // Via Antonio Scarpa
+        else if (roomString.includes("RM025") || /Tiburtina/i.test(roomString)) suffix = " TIB";
+        else if (roomString.includes("CU002")) suffix = " ST";     // Scienze Statistiche
+        else if (roomString.includes("RM018")) suffix = "L";       // Castro Laurenziano
+
+        return { room: roomNumber, suffix };
     }
 
     // Group classrooms that share the same suffix to avoid repetitions (e.g., "15, 16 TIB")

@@ -258,5 +258,15 @@
     "description": "Aula informatica XI - ex tipografia Tumminelli",
     "address": null,
     "mapsUrl": null
+  },
+  "f261a8c9-64ff-4fed-a203-1a2b44767b31": {
+    "description": "Aula C - Aule di Giurisprudenza e Scienze statistiche",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": "https://www.corsidilaurea.uniroma1.it/sites/default/files/avvisi/ex_officine_ortopediche.pdf"
+  },
+  "12f90ddc-cd6d-4288-9307-6af581cdc384": {
+    "description": "Aula 15 - Aule di Giurisprudenza e Scienze statistiche",
+    "address": "Piazzale Aldo Moro, 5",
+    "mapsUrl": "https://www.corsidilaurea.uniroma1.it/sites/default/files/avvisi/ex_officine_ortopediche.pdf"
   }
 }

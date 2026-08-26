@@ -261,10 +261,13 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                             "code": course_column.find(class_='codiceInsegnamento').text
                         }
 
-                        # 10626968 - Biometric Systems
                         # 10630016 - Cryptography
+                        if course_code in ("10630016",):
+                            course_timetables_dict[course_code]["degree"] = "33508"
+
+                        # 10626968 - Biometric Systems
                         # 10589555 - Practical Network Defense
-                        if course_code in ("10626968", "10630016", "10589555"):
+                        if course_code in ("10626968", "10589555"):
                             course_timetables_dict[course_code]["degree"] = "33516"
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
@@ -611,6 +614,7 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
     # Initialize missing courses
     # Retrieve the courses to add for the specific degree programme
     add_courses = overrides.get("add_courses", {}).get(degree_programme_code, {})
+    current_degree_course_codes = set(add_courses.keys())
     for course_code, course_data in add_courses.items():
         if course_code not in course_timetables_dict:
             course_timetables_dict[course_code] = course_data
@@ -624,6 +628,8 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
             continue
 
         if course_code in course_timetables_dict:
+            # Without degree_limit, channels are attached to the teaching code
+            # and apply to every degree programme that includes that code.
             for channel, days in config.get("channels", {}).items():
                 if channel not in course_timetables_dict[course_code]["channels"]:
                     course_timetables_dict[course_code]["channels"][channel] = {}
@@ -637,8 +643,63 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
                         # additions on a day already populated by the upstream scraper
                         # without duplicating events on subsequent runs.
                         for schedule in schedules:
-                            if schedule not in channel_schedules[day]:
+                            # Same day/timeslot is the same lesson even when the
+                            # upstream and manual sources use different room IDs.
+                            same_slot = any(
+                                existing.get("timeslot") == schedule.get("timeslot")
+                                for existing in channel_schedules[day]
+                            )
+                            if not same_slot:
                                 channel_schedules[day].append(schedule)
+
+    # Remove individual schedules by matching channel, day, timeslot, and classrooms.
+    # A filter can omit classrooms to match only the timeslot, but when classrooms
+    # are provided both classroom IDs and descriptions must match exactly.
+    remove_schedules = overrides.get("remove_schedules", {})
+    for course_code, course_config in remove_schedules.items():
+        course_data = course_timetables_dict.get(course_code)
+        if course_data is None:
+            continue
+
+        limit_degree = course_config.get("degree_limit")
+        if limit_degree and limit_degree != degree_programme_code:
+            continue
+
+        for channel, days in course_config.get("channels", {}).items():
+            channel_data = course_data.get("channels", {}).get(channel)
+            if channel_data is None:
+                continue
+
+            for day, schedule_filters in days.items():
+                day_schedules = channel_data.get(day)
+                if day_schedules is None:
+                    continue
+
+                retained_schedules = []
+                for schedule in day_schedules:
+                    remove_schedule = False
+                    for schedule_filter in schedule_filters:
+                        filter_timeslot = schedule_filter.get("timeslot")
+                        filter_classrooms = schedule_filter.get("classrooms")
+                        timeslot_matches = (
+                            filter_timeslot is None
+                            or schedule.get("timeslot") == filter_timeslot
+                        )
+                        classrooms_match = (
+                            filter_classrooms is None
+                            or schedule.get("classrooms") == filter_classrooms
+                        )
+                        if timeslot_matches and classrooms_match:
+                            remove_schedule = True
+                            break
+
+                    if not remove_schedule:
+                        retained_schedules.append(schedule)
+
+                if retained_schedules:
+                    channel_data[day] = retained_schedules
+                else:
+                    del channel_data[day]
 
     # Override classrooms for specific days without altering teachers or timeslots
     if "change_classrooms" in overrides:
@@ -751,6 +812,7 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
         # unless both are master degrees
         if (
             course_degree != degree_programme_code
+            and course_code not in current_degree_course_codes
             and (degree_programme_code not in master_degrees or course_degree not in master_degrees)
         ):
             continue
