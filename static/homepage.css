@@ -687,3 +687,24 @@
     display: none;
   }
 }
+/* Google Search impressions tooltip: CSS fallback */
+.home-extra-numbers,
+.home-extra-numbers .home-number-grid,
+.home-extra-numbers .home-number-grid > div,
+.home-extra-numbers .home-number-grid > div > span {
+  overflow: visible;
+}
+.home-number-grid .home-metric-help {
+  position: absolute !important;
+  inset: auto auto calc(100% + 0.65rem) 0 !important;
+  z-index: 1000 !important;
+  overflow: visible !important;
+  pointer-events: none;
+}
+.home-number-grid .home-metric-term:hover + .home-metric-help,
+.home-number-grid .home-metric-term:focus + .home-metric-help,
+.home-number-grid .home-metric-term:focus-visible + .home-metric-help,
+.home-number-grid .home-metric-term[aria-expanded="true"] + .home-metric-help,
+.home-number-grid .home-metric-help.is-visible {
+  display: block !important;
+}

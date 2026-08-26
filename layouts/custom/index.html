@@ -226,7 +226,8 @@
                             rel="noopener noreferrer" 
                             data-href-en="https://support.google.com/webmasters/answer/7042828?hl=en-GB#impressions" 
                             data-href-it="https://support.google.com/webmasters/answer/7042828?hl=it#impressions" 
-                            aria-describedby="home-impressions-help" 
+                            aria-describedby="home-impressions-help"
+                            aria-expanded="false" 
                             data-en="Google Search impressions" 
                             data-it="impressioni nella Ricerca Google">Google Search impressions</a>
                         <small id="home-impressions-help" class="home-metric-help" role="tooltip"
@@ -332,6 +333,7 @@
             const help = el.nextElementSibling;
             if (!help?.classList.contains('home-metric-help')) return;
             help.classList.remove('is-visible');
+            el.setAttribute('aria-expanded', 'false');
           };
 
           const positionMetricHelp = (el) => {
@@ -341,6 +343,7 @@
             const margin = 12;
             const gap = 8;
             help.classList.add('is-visible');
+            el.setAttribute('aria-expanded', 'true');
             help.style.left = `${margin}px`;
             help.style.top = `${margin}px`;
 
@@ -361,11 +364,27 @@
             help.style.left = `${left}px`;
             help.style.top = `${Math.max(margin, Math.min(top, window.innerHeight - box.height - margin))}px`;
           };
-          document.querySelectorAll('.home-metric-term').forEach((el) => {
+          const metricTerms = document.querySelectorAll('.home-metric-term');
+          metricTerms.forEach((el) => {
             el.addEventListener('mouseenter', () => positionMetricHelp(el));
             el.addEventListener('focus', () => positionMetricHelp(el));
             el.addEventListener('mouseleave', () => hideMetricHelp(el));
             el.addEventListener('blur', () => hideMetricHelp(el));
+            el.addEventListener('click', (event) => {
+              if (!window.matchMedia('(hover: none)').matches) return;
+              if (el.getAttribute('aria-expanded') === 'true') return;
+              event.preventDefault();
+              metricTerms.forEach((term) => hideMetricHelp(term));
+              positionMetricHelp(el);
+            });
+          });
+
+          document.addEventListener('pointerdown', (event) => {
+            if (event.target.closest('.home-metric-term, .home-metric-help')) return;
+            metricTerms.forEach((el) => hideMetricHelp(el));
+          });
+          document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') metricTerms.forEach((el) => hideMetricHelp(el));
           });
 
           window.addEventListener('resize', () => {
