@@ -294,6 +294,71 @@
     },
     "code": "1044415"
   },
+  "1047618": {
+    "subject": "COMPUTER VISION",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047618"
+  },
+  "1047622": {
+    "subject": "CRYPTOGRAPHY",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047622"
+  },
+  "1047642": {
+    "subject": "SECURITY IN SOFTWARE APPLICATIONS",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "1047642"
+  },
   "1055050": {
     "subject": "RISK MANAGEMENT",
     "degree": "33516",
@@ -859,6 +924,14 @@
     "degree": "33508",
     "channels": {
       "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {},
@@ -898,6 +971,37 @@
       }
     },
     "code": "10626703"
+  },
+  "10626793": {
+    "subject": "ADVANCED MACHINE LEARNING",
+    "degree": "33508",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10626793"
   },
   "10626968": {
     "subject": "BIOMETRIC SYSTEMS",
@@ -1179,7 +1283,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "6463ffc418404edf2e493dc1b39661eb389aa43f98aa7d5855a631ca": "MARINI MARCO RAOUL"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -1188,7 +1294,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "6463ffc418404edf2e493dc1b39661eb389aa43f98aa7d5855a631ca": "MARINI MARCO RAOUL"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -1540,6 +1648,15 @@
     "degree": "33516",
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula C - Citt\u00e0 Universitaria (CU035-E01PTEL011)"
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {

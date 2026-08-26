@@ -79,6 +79,14 @@
         "channels": {},
         "code": "10630468"
       }
+    },
+    "33508": {
+      "10626793": {
+        "subject": "ADVANCED MACHINE LEARNING",
+        "degree": "33508",
+        "channels": {},
+        "code": "10626793"
+      }
     }
   },
   "add_schedules": {
@@ -493,6 +501,67 @@
           ]
         }
       }
+    },
+    "10630016": {
+      "degree_limit": "33508",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {
+                "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+              },
+              "timeslot": "8 - 11",
+              "classroomInfo": "Aula C - Città Universitaria (CU035-E01PTEL011)"
+            }
+          ]
+        }
+      }
+    },
+    "10626358": {
+      "degree_limit": "33508",
+      "channels": {
+        "0": {
+          "mercoledì": [
+            {
+              "teachers": {},
+              "timeslot": "8 - 10",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10626793": {
+      "degree_limit": "33508",
+      "channels": {
+        "0": {
+          "lunedì": [
+            {
+              "teachers": {
+                "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+              },
+              "timeslot": "12 - 14",
+              "classrooms": {
+                "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "add_teachers": {
@@ -606,6 +675,15 @@
           }
         }
       }
+    },
+    "10628018": {
+      "channels": {
+        "0": {
+          "martedì": {
+            "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+          }
+        }
+      }
     }
   },
   "change_timeslot": {
@@ -615,6 +693,18 @@
           "lunedì": {
             "10 - 13": "11 - 13"
           }
+        }
+      }
+    }
+  },
+  "override_teachers": {
+    "10628017": {
+      "0": {
+        "martedì": {
+          "6463ffc418404edf2e493dc1b39661eb389aa43f98aa7d5855a631ca": "MARINI MARCO RAOUL"
+        },
+        "giovedì": {
+          "6463ffc418404edf2e493dc1b39661eb389aa43f98aa7d5855a631ca": "MARINI MARCO RAOUL"
         }
       }
     }
