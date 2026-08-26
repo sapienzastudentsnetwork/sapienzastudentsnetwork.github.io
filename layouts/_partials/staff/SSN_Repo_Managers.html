@@ -1,6 +1,8 @@
+{{ $lang := cond (eq .Site.Language.Lang "it") "it" "en" }}
+{{ $ssn := index .Site.Data.ssn $lang }}
 <div class="curator staffCurator">
     <img src="https://www.github.com/SapienzaStudentsNetwork.png" class="curPic">
-    <p class="staffTitle"><b>{{ T "SSN_Repo_Managers" }}</b><p>
+    <p class="staffTitle"><b><span data-ssn-key="SSN_Repo_Managers">{{ index $ssn "SSN_Repo_Managers" }}</span></b><p>
     <div class="curSocials">
         <a href="https://github.com/sapienzastudentsnetwork#-gestori-repository-dellorganizzazione"><i class="fa-brands fa-github curSocialIcon fa-2xl"></i></a>
         <a href="https://t.me/SapienzaStudentsNetworkBot"><i class="fa-brands fa-telegram curSocialIcon fa-2xl"></i></a>
