@@ -610,6 +610,25 @@
 .home-extra-freshmen {
     background: linear-gradient(120deg, rgb(13 31 50), rgb(17 53 61));
 }
+.home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.32rem 0.5rem;
+    border: 1px solid rgb(148 163 184 / 0.2);
+    border-radius: 0.25rem;
+    background: transparent;
+    color: rgb(203 213 225);
+    font: inherit;
+    font-size: medium;
+    text-decoration: none;
+    text-underline-offset: 0.25rem;
+    cursor: pointer;
+}
+.home-button:hover {
+    background-color: rgb(15 23 42 / 0.56);
+}
 @media (min-width: 901px) {
     #course-wikis {
         min-height: clamp(26rem, calc(100vh - 19rem), 38rem);
@@ -1030,6 +1049,7 @@
         display: none;
     }
 }
+
 /* Google Search impressions tooltip: CSS fallback */
 .home-extra-numbers,
 .home-extra-numbers .home-number-grid,
