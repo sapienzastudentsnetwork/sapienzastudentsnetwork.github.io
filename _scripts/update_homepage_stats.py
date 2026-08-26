@@ -3,9 +3,9 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import subprocess
-import os
 import urllib.request
 from pathlib import Path
 
@@ -23,13 +23,13 @@ def is_public_markdown_page(path: str) -> bool:
     parts = Path(path).parts
     if not parts or Path(path).suffix.lower() != ".md":
         return False
-    if parts[0] in EXCLUDED_ROOTS or any(part.startswith(".") for part in parts):
+    if parts[0].lower() in EXCLUDED_ROOTS or any(part.startswith(".") for part in parts):
         return False
     if Path(path).name.lower() in EXCLUDED_FILES:
         return False
     text = (ROOT / path).read_text(encoding="utf-8", errors="ignore")[:4000]
     hidden = re.search(r"(?mi)^\s*(draft|headless|bookHidden)\s*:\s*true\s*$", text)
-    index_layout = re.search(r'''(?mi)^\s*layout\s*:\s*['"]?index-page['"]?\s*$''', text)
+    index_layout = re.search(r"(?mi)^\s*layout\s*:\s*['\"]?index-page['\"]?\s*$", text)
     return hidden is None and index_layout is None
 
 
