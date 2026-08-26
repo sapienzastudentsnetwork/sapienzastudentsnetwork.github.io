@@ -1,6 +1,6 @@
 {
-  "generated_at": "seeded from existing rankings; regenerate with _scripts/generate_contributors.py",
-  "source_commit": "seed",
+  "generated_at": "2026-08-26T01:58:05Z",
+  "source_commit": "5d1c1e72e5ac8a6919e44943f483b36cd03ac653",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 1291,
-      "additions": 76012,
-      "deletions": 65285,
-      "effective_lines": 141297,
+      "commits": 920,
+      "additions": 79114,
+      "deletions": 65907,
+      "effective_lines": 145021,
       "score": 100.0,
       "rank": 1
     },
@@ -21,11 +21,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/40034429?v=4",
       "initials": "I",
       "unresolved": false,
-      "commits": 75,
+      "commits": 72,
       "additions": 26758,
       "deletions": 12829,
       "effective_lines": 39587,
-      "score": 77.7,
+      "score": 78.6,
       "rank": 2
     },
     {
@@ -34,7 +34,7 @@
       "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
       "initials": "L",
       "unresolved": false,
-      "commits": 99,
+      "commits": 81,
       "additions": 5314,
       "deletions": 2903,
       "effective_lines": 8217,
@@ -47,11 +47,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/64312343?v=4",
       "initials": "E",
       "unresolved": false,
-      "commits": 100,
+      "commits": 76,
       "additions": 5838,
       "deletions": 2168,
       "effective_lines": 8006,
-      "score": 71.2,
+      "score": 70.8,
       "rank": 4
     },
     {
@@ -64,7 +64,7 @@
       "additions": 1256,
       "deletions": 586,
       "effective_lines": 1842,
-      "score": 56.2,
+      "score": 57.1,
       "rank": 5
     },
     {
@@ -73,11 +73,11 @@
       "avatar": "https://github.com/orianani311.png?size=160",
       "initials": "O",
       "unresolved": false,
-      "commits": 18,
+      "commits": 16,
       "additions": 1216,
       "deletions": 65,
       "effective_lines": 1281,
-      "score": 52.6,
+      "score": 52.7,
       "rank": 6
     },
     {
@@ -86,25 +86,12 @@
       "avatar": "https://avatars.githubusercontent.com/u/65043207?v=4",
       "initials": "E",
       "unresolved": false,
-      "commits": 21,
+      "commits": 16,
       "additions": 526,
       "deletions": 278,
       "effective_lines": 804,
-      "score": 51.1,
+      "score": 50.4,
       "rank": 7
-    },
-    {
-      "name": "marcellogalisai",
-      "github": "https://github.com/marcellogalisai",
-      "avatar": "https://github.com/marcellogalisai.png?size=160",
-      "initials": "M",
-      "unresolved": false,
-      "commits": 23,
-      "additions": 408,
-      "deletions": 112,
-      "effective_lines": 520,
-      "score": 49.4,
-      "rank": 8
     },
     {
       "name": "dario-loi",
@@ -116,8 +103,8 @@
       "additions": 817,
       "deletions": 514,
       "effective_lines": 1331,
-      "score": 49.3,
-      "rank": 9
+      "score": 49.8,
+      "rank": 8
     },
     {
       "name": "claudiadcrl",
@@ -125,11 +112,24 @@
       "avatar": "https://avatars.githubusercontent.com/u/168536707?v=4",
       "initials": "C",
       "unresolved": false,
-      "commits": 11,
+      "commits": 10,
       "additions": 489,
       "deletions": 483,
       "effective_lines": 972,
-      "score": 48.7,
+      "score": 48.8,
+      "rank": 9
+    },
+    {
+      "name": "marcellogalisai",
+      "github": "https://github.com/marcellogalisai",
+      "avatar": "https://github.com/marcellogalisai.png?size=160",
+      "initials": "M",
+      "unresolved": false,
+      "commits": 13,
+      "additions": 408,
+      "deletions": 112,
+      "effective_lines": 520,
+      "score": 47.0,
       "rank": 10
     },
     {
@@ -142,21 +142,8 @@
       "additions": 189,
       "deletions": 8,
       "effective_lines": 197,
-      "score": 37.6,
+      "score": 38.1,
       "rank": 11
-    },
-    {
-      "name": "DavideGalilei",
-      "github": "https://github.com/DavideGalilei",
-      "avatar": "https://avatars.githubusercontent.com/u/43778739?v=4",
-      "initials": "D",
-      "unresolved": false,
-      "commits": 3,
-      "additions": 108,
-      "deletions": 62,
-      "effective_lines": 170,
-      "score": 33.8,
-      "rank": 12
     },
     {
       "name": "Fra179",
@@ -168,21 +155,8 @@
       "additions": 260,
       "deletions": 5,
       "effective_lines": 265,
-      "score": 32.1,
-      "rank": 13
-    },
-    {
-      "name": "ENDERZOMBI102",
-      "github": "https://github.com/ENDERZOMBI102",
-      "avatar": "https://avatars.githubusercontent.com/u/36399599?v=4",
-      "initials": "E",
-      "unresolved": false,
-      "commits": 3,
-      "additions": 111,
-      "deletions": 11,
-      "effective_lines": 122,
-      "score": 32.1,
-      "rank": 14
+      "score": 32.3,
+      "rank": 12
     },
     {
       "name": "alem1105",
@@ -194,7 +168,33 @@
       "additions": 253,
       "deletions": 0,
       "effective_lines": 253,
-      "score": 31.9,
+      "score": 32.0,
+      "rank": 13
+    },
+    {
+      "name": "ENDERZOMBI102",
+      "github": "https://github.com/ENDERZOMBI102",
+      "avatar": "https://avatars.githubusercontent.com/u/36399599?v=4",
+      "initials": "E",
+      "unresolved": false,
+      "commits": 2,
+      "additions": 111,
+      "deletions": 11,
+      "effective_lines": 122,
+      "score": 30.7,
+      "rank": 14
+    },
+    {
+      "name": "DavideGalilei",
+      "github": "https://github.com/DavideGalilei",
+      "avatar": "https://avatars.githubusercontent.com/u/43778739?v=4",
+      "initials": "D",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 108,
+      "deletions": 62,
+      "effective_lines": 170,
+      "score": 30.0,
       "rank": 15
     },
     {
@@ -207,7 +207,7 @@
       "additions": 48,
       "deletions": 15,
       "effective_lines": 63,
-      "score": 27.2,
+      "score": 27.4,
       "rank": 16
     },
     {
@@ -220,7 +220,7 @@
       "additions": 23,
       "deletions": 12,
       "effective_lines": 35,
-      "score": 22.0,
+      "score": 22.2,
       "rank": 17
     },
     {
@@ -233,7 +233,7 @@
       "additions": 20,
       "deletions": 1,
       "effective_lines": 21,
-      "score": 19.5,
+      "score": 19.7,
       "rank": 18
     },
     {
@@ -246,7 +246,7 @@
       "additions": 8,
       "deletions": 8,
       "effective_lines": 16,
-      "score": 18.2,
+      "score": 18.4,
       "rank": 19
     },
     {
@@ -259,7 +259,7 @@
       "additions": 10,
       "deletions": 3,
       "effective_lines": 13,
-      "score": 17.2,
+      "score": 17.4,
       "rank": 20
     },
     {
@@ -272,7 +272,7 @@
       "additions": 2,
       "deletions": 1,
       "effective_lines": 3,
-      "score": 13.1,
+      "score": 13.4,
       "rank": 21
     },
     {
@@ -285,7 +285,7 @@
       "additions": 3,
       "deletions": 1,
       "effective_lines": 4,
-      "score": 12.0,
+      "score": 12.2,
       "rank": 22
     },
     {
@@ -298,7 +298,7 @@
       "additions": 1,
       "deletions": 1,
       "effective_lines": 2,
-      "score": 9.4,
+      "score": 9.6,
       "rank": 23
     },
     {
@@ -311,7 +311,7 @@
       "additions": 1,
       "deletions": 1,
       "effective_lines": 2,
-      "score": 9.4,
+      "score": 9.6,
       "rank": 24
     },
     {
@@ -324,7 +324,7 @@
       "additions": 1,
       "deletions": 0,
       "effective_lines": 1,
-      "score": 7.4,
+      "score": 7.6,
       "rank": 25
     }
   ]
