@@ -1153,3 +1153,8 @@
 .home-number-grid .home-metric-help.is-visible {
     display: block !important;
 }
+@media (max-width: 767px) {
+    .datasci-mobile-position {
+        background-position: center 15% !important;
+    }
+}
