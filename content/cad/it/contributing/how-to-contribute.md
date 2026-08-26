@@ -2,6 +2,12 @@
 
 SapienzaStudents.net è un progetto costruito **da studenti e studentesse, per studenti e studentesse**. Riunisce informazioni pratiche spesso sparse tra molte fonti e le trasforma in guide, strumenti e risorse condivise usate da migliaia di persone. Per mantenere accurato e utile un progetto di queste dimensioni serve una comunità: **anche una piccola correzione può evitare dubbi e far risparmiare tempo a moltissimi studenti**.
 
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Chi ha contribuito al progetto**
+
+Visita la pagina dei [collaboratori](../collaboratori/) per scoprire chi ha aiutato a far crescere la wiki e il sito nel suo insieme. Ogni contributo accettato, grande o piccolo, entra a far parte di una risorsa che la comunità studentesca può continuare a migliorare insieme.
+{{% /hint %}}
+
 Per contribuire non devi essere uno sviluppatore, installare programmi o avviare il sito in locale. Correggere un refuso, aggiornare una scadenza, chiarire un paragrafo poco comprensibile, sostituire un link non più valido o proporre una guida mancante sono tutti contributi preziosi.
 
 {{% hint tip %}}
@@ -71,12 +77,6 @@ Un buon contributo è mirato e facile da verificare:
 - usa un linguaggio chiaro, accogliente e inclusivo
 
 Puoi consultare le [pull request aperte](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls) per vedere alcuni esempi. Se durante la revisione ti vengono richieste modifiche, è una normale parte del lavoro collaborativo.
-
-{{% hint tip %}}
-<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Chi ha contribuito al progetto**
-
-Visita la pagina dei [contributori](../contributors/) per scoprire chi ha aiutato a far crescere la wiki e il sito nel suo insieme. Ogni contributo accettato, grande o piccolo, entra a far parte di una risorsa che la comunità studentesca può continuare a migliorare insieme.
-{{% /hint %}}
 
 ## Procedura completa in locale
 

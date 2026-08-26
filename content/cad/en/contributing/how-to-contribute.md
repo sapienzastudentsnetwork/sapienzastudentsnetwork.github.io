@@ -1,6 +1,11 @@
 # Contributing
 
 SapienzaStudents.net is built **by students, for students**. It brings together practical information that is often scattered across many sources and turns it into guides, tools and shared resources that thousands of students can use. Keeping a project of this size accurate and useful takes a community: **even a small correction can save many people time and confusion**.
+{{% hint info %}}
+<i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> **Project contributors**
+
+Visit the [contributors](../contributors/) page to see the people who have helped the wiki and the wider website grow. Every accepted contribution, large or small, becomes part of a resource the student community can keep improving together.
+{{% /hint %}}
 
 You do not need to be a developer, install anything or run the website locally to contribute. Fixing a typo, updating a deadline, clarifying a confusing paragraph, replacing a broken link or suggesting a missing guide are all valuable contributions.
 
@@ -71,12 +76,6 @@ A good contribution is focused and easy to verify:
 - use clear, welcoming and inclusive language
 
 You can browse [open pull requests](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/pulls) for examples. If maintainers request changes, that is a normal part of collaborative review.
-
-{{% hint tip %}}
-<i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Project contributors**
-
-Visit the [contributors](../contributors/) page to see the people who have helped the wiki and the wider website grow. Every accepted contribution, large or small, becomes part of a resource the student community can keep improving together.
-{{% /hint %}}
 
 ## Full local workflow
 
