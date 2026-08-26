@@ -7,7 +7,7 @@ timetables:
     - title: "Secondo Anno (M-Z)"
       channel: 2
       courses:
-        - '1015886'   # ALGEBRA
+        - '10620600'  # ALGORITMI 2
         - '10620601'  # ARCHITETTURA DEGLI ELABORATORI 1
         - '1023608'   # BASI DI DATI
         - '10620642'  # SISTEMI OPERATIVI

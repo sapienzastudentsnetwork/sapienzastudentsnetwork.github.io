@@ -47,8 +47,454 @@
     "10595099_1": "10630324_1",
     "10595099_2": "10630324_2"
   },
-  "add_courses": {},
-  "add_schedules": {},
+  "add_courses": {
+    "33502": {
+      "10627226": {
+        "subject": "LINEAR ALGEBRA",
+        "degree": "33502",
+        "channels": {},
+        "code": "10627226"
+      },
+      "10631060_1": {
+        "subject": "COMPUTER ARCHITECTURE UNIT 1",
+        "degree": "33502",
+        "channels": {},
+        "code": "10631060"
+      },
+      "10630324_1": {
+        "subject": "CALCULUS UNIT 1",
+        "degree": "33502",
+        "channels": {},
+        "code": "10630324"
+      },
+      "10630468_1": {
+        "subject": "PROGRAMMING UNIT 1",
+        "degree": "33502",
+        "channels": {},
+        "code": "10630468"
+      },
+      "10630468_2": {
+        "subject": "PROGRAMMING UNIT 2",
+        "degree": "33502",
+        "channels": {},
+        "code": "10630468"
+      }
+    }
+  },
+  "add_schedules": {
+    "10627226": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "lunedì": [
+            {
+              "teachers": {
+                "0ab860a416b8b37f38529f8f7cd0e5cf67a5214ad60e04af6ba7c3b6": "TSCHAIKOWSKI MAX"
+              },
+              "timeslot": "8 - 10",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "martedì": [
+            {
+              "teachers": {
+                "0ab860a416b8b37f38529f8f7cd0e5cf67a5214ad60e04af6ba7c3b6": "TSCHAIKOWSKI MAX"
+              },
+              "timeslot": "11 - 14",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10631060_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {
+                "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+              },
+              "timeslot": "9 - 11",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+              },
+              "timeslot": "8 - 11",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10630324_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "mercoledì": [
+            {
+              "teachers": {
+                "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+              },
+              "timeslot": "9 - 12",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+              },
+              "timeslot": "8 - 10",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10630468_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "lunedì": [
+            {
+              "teachers": {
+                "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+              },
+              "timeslot": "12 - 14",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15",
+                "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10630468_2": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "mercoledì": [
+            {
+              "teachers": {
+                "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+              },
+              "timeslot": "14 - 16",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15",
+                "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15",
+                "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10631195_1": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "martedì": [
+            {
+              "teachers": {
+                "efb32bb89b2a3360eeea76125b7ae187d32f9f2efa0ae11e20079d00": "AIELLO VALERIANO"
+              },
+              "timeslot": "8 - 10",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "efb32bb89b2a3360eeea76125b7ae187d32f9f2efa0ae11e20079d00": "AIELLO VALERIANO"
+              },
+              "timeslot": "8 - 11",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        },
+        "2": {
+          "venerdì": [
+            {
+              "teachers": {
+                "dea8e9f545c121c2bfee184813542ebd9bb7247fac6161ad6b25b94b": "ORSINA LUIGI"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10629623": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "martedì": [
+            {
+              "teachers": {
+                "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+              },
+              "timeslot": "11 - 13",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10628189": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "lunedì": [
+            {
+              "teachers": {
+                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+              },
+              "timeslot": "8 - 11",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15",
+                "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+              },
+              "timeslot": "10 - 13",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        },
+        "2": {
+          "mercoledì": [
+            {
+              "teachers": {
+                "1a1ac86e28807c8465fd68d17a0b76adaa1bdfc769ab8836a774c2d9": "SAMORY MATTIA"
+              },
+              "timeslot": "16 - 19",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15",
+                "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "1023608": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "lunedì": [
+            {
+              "teachers": {
+                "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              },
+              "timeslot": "13 - 15",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              },
+              "timeslot": "15 - 17",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10620600": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "martedì": [
+            {
+              "teachers": {
+                "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+              },
+              "timeslot": "13 - 15",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10620601": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "lunedì": [
+            {
+              "teachers": {
+                "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+              },
+              "timeslot": "15 - 18",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "venerdì": [
+            {
+              "teachers": {
+                "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+              },
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10620642": {
+      "degree_limit": "33503",
+      "channels": {
+        "1": {
+          "martedì": [
+            {
+              "teachers": {
+                "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              },
+              "timeslot": "15 - 18",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "mercoledì": [
+            {
+              "teachers": {
+                "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              },
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ],
+          "giovedì": [
+            {
+              "teachers": {
+                "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              },
+              "timeslot": "13 - 15",
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
   "add_teachers": {
     "10629525": {
       "0": {
@@ -72,6 +518,105 @@
     }
   },
   "remove_teachers": {},
-  "change_classrooms": {},
-  "change_timeslot": {}
+  "change_classrooms": {
+    "AAF2511": {
+      "channels": {
+        "0": {
+          "lunedì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          },
+          "venerdì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10631195_1": {
+      "channels": {
+        "2": {
+          "mercoledì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10629623": {
+      "channels": {
+        "2": {
+          "lunedì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          },
+          "giovedì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10628189": {
+      "channels": {
+        "2": {
+          "mercoledì": {
+            "by_timeslot": {
+              "11 - 14": {
+                "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+              }
+            }
+          },
+          "giovedì": {
+            "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10620600": {
+      "channels": {
+        "2": {
+          "mercoledì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          },
+          "giovedì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10620601": {
+      "channels": {
+        "2": {
+          "lunedì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          },
+          "venerdì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        }
+      }
+    },
+    "10620642": {
+      "channels": {
+        "2": {
+          "martedì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          },
+          "giovedì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          },
+          "venerdì": {
+            "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+          }
+        }
+      }
+    }
+  },
+  "change_timeslot": {
+    "10628189": {
+      "channels": {
+        "1": {
+          "lunedì": {
+            "10 - 13": "11 - 13"
+          }
+        }
+      }
+    }
+  }
 }

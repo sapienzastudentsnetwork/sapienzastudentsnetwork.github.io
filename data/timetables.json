@@ -125,6 +125,38 @@
     "subject": "Basi di dati",
     "degree": "33503",
     "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+            },
+            "timeslot": "15 - 17",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "luned\u00ec": [
           {
@@ -548,6 +580,28 @@
     "subject": "ALGORITMI 2",
     "degree": "33503",
     "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1bc0b942e1da31ffa70f9a65719bb0fc4331711da1602e311918d8e3": "WOLLAN PAUL JOSEPH"
+            },
+            "timeslot": "13 - 16",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "mercoled\u00ec": [
           {
@@ -579,6 +633,28 @@
     "subject": "ARCHITETTURA DEGLI ELABORATORI 1",
     "degree": "33503",
     "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+            },
+            "timeslot": "15 - 18",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "luned\u00ec": [
           {
@@ -610,6 +686,38 @@
     "subject": "SISTEMI OPERATIVI",
     "degree": "33503",
     "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "15 - 18",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "16 - 18",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+            },
+            "timeslot": "13 - 15",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "marted\u00ec": [
           {
@@ -758,15 +866,6 @@
             "classrooms": {
               "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
             }
-          },
-          {
-            "teachers": {
-              "00000000-0000-0000-0000-000000000000": ""
-            },
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
           }
         ]
       }
@@ -861,6 +960,35 @@
       }
     },
     "code": "10627173"
+  },
+  "10627226": {
+    "subject": "LINEAR ALGEBRA",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "0ab860a416b8b37f38529f8f7cd0e5cf67a5214ad60e04af6ba7c3b6": "TSCHAIKOWSKI MAX"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "0ab860a416b8b37f38529f8f7cd0e5cf67a5214ad60e04af6ba7c3b6": "TSCHAIKOWSKI MAX"
+            },
+            "timeslot": "11 - 14",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10627226"
   },
   "10627472": {
     "subject": "QUANTUM COMPUTING",
@@ -1106,6 +1234,40 @@
     "subject": "FONDAMENTI DI PROGRAMMAZIONE",
     "degree": "33503",
     "channels": {
+      "1": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "mercoled\u00ec": [
           {
@@ -1115,6 +1277,16 @@
             "timeslot": "11 - 14",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
+            }
+          },
+          {
+            "teachers": {
+              "1a1ac86e28807c8465fd68d17a0b76adaa1bdfc769ab8836a774c2d9": "SAMORY MATTIA"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15"
             }
           }
         ],
@@ -1283,6 +1455,28 @@
     "subject": "METODI MATEMATICI PER L'INFORMATICA",
     "degree": "33503",
     "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "4fa70537ab8f306cdd60f6d50076b8863bc60228463838ddd83c46d2": "CARLUCCI LORENZO"
+            },
+            "timeslot": "11 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "luned\u00ec": [
           {
@@ -1361,10 +1555,154 @@
     },
     "code": "10630016"
   },
+  "10630324_1": {
+    "subject": "CALCULUS UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+            },
+            "timeslot": "9 - 12",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10630324"
+  },
+  "10630468_1": {
+    "subject": "PROGRAMMING UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "luned\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "de96c9c8abadcc7aff887a9dab762c2ecdc4802c21962b01a2bf0887": "STERBINI ANDREA"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10630468"
+  },
+  "10630468_2": {
+    "subject": "PROGRAMMING UNIT 2",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "14 - 16",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "cb07c5c1ada02c8f7a23ce6e20e20a7bf1365e3bc64f0a48c22bc1f5": "SPOGNARDI ANGELO"
+            },
+            "timeslot": "10 - 13",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10630468"
+  },
+  "10631060_1": {
+    "subject": "COMPUTER ARCHITECTURE UNIT 1",
+    "degree": "33502",
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+            },
+            "timeslot": "9 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 3 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      }
+    },
+    "code": "10631060"
+  },
   "10631195_1": {
     "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
     "degree": "33503",
     "channels": {
+      "1": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "efb32bb89b2a3360eeea76125b7ae187d32f9f2efa0ae11e20079d00": "AIELLO VALERIANO"
+            },
+            "timeslot": "8 - 10",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "efb32bb89b2a3360eeea76125b7ae187d32f9f2efa0ae11e20079d00": "AIELLO VALERIANO"
+            },
+            "timeslot": "8 - 11",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
+          }
+        ]
+      },
       "2": {
         "mercoled\u00ec": [
           {
@@ -1375,6 +1713,16 @@
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "dea8e9f545c121c2bfee184813542ebd9bb7247fac6161ad6b25b94b": "ORSINA LUIGI"
+            },
+            "timeslot": "10 - 13",
+            "classroomInfo": "Aula 4 (Edificio: RM158)",
+            "classroomUrl": "https://maps.google.com/maps?q=41.899921,+12.5167&iwloc=A&hl=it"
           }
         ]
       }

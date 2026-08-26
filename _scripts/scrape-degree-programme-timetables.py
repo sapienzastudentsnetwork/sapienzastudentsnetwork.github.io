@@ -488,6 +488,55 @@ def normalize_unassigned_teachers(channels):
     return normalized_channels
 
 
+def normalize_and_deduplicate_schedules(course_timetables_dict):
+    """
+    Normalizes equivalent representations of unassigned teachers and merges
+    duplicate schedules created by those equivalent representations.
+    """
+    placeholder_names = {
+        "", "N/A", "NA", "TBD", "TO BE DEFINED",
+        "NON ASSEGNATO", "DOCENTE NON ASSEGNATO"
+    }
+    unassigned_teacher_id = "00000000-0000-0000-0000-000000000000"
+
+    for course_data in course_timetables_dict.values():
+        for channel_data in course_data.get("channels", {}).values():
+            for day_name, day_schedules in channel_data.items():
+                unique_schedules = []
+                schedules_by_key = {}
+
+                for schedule in day_schedules:
+                    teachers = schedule.get("teachers") or {}
+                    normalized_teachers = {
+                        teacher_id: teacher_name
+                        for teacher_id, teacher_name in teachers.items()
+                        if teacher_id
+                        and teacher_id != unassigned_teacher_id
+                        and str(teacher_name).strip().upper() not in placeholder_names
+                    }
+                    schedule["teachers"] = normalized_teachers
+
+                    schedule_key = (
+                        schedule.get("timeslot"),
+                        tuple(sorted(normalized_teachers.items())),
+                        schedule.get("classroomInfo"),
+                        schedule.get("classroomUrl")
+                    )
+                    existing_schedule = schedules_by_key.get(schedule_key)
+
+                    if existing_schedule is None:
+                        schedules_by_key[schedule_key] = schedule
+                        unique_schedules.append(schedule)
+                        continue
+
+                    if "classrooms" in schedule:
+                        existing_schedule.setdefault("classrooms", {}).update(
+                            schedule["classrooms"]
+                        )
+
+                channel_data[day_name] = unique_schedules
+
+
 def reconcile_legacy_course_codes(course_timetables_dict, code_mapping):
     """
     Moves legacy-only timetable entries to their current course code and
@@ -580,8 +629,16 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
                     course_timetables_dict[course_code]["channels"][channel] = {}
 
                 for day, schedules in days.items():
-                    if day not in course_timetables_dict[course_code]["channels"][channel]:
-                        course_timetables_dict[course_code]["channels"][channel][day] = schedules
+                    channel_schedules = course_timetables_dict[course_code]["channels"][channel]
+                    if day not in channel_schedules:
+                        channel_schedules[day] = schedules
+                    else:
+                        # Append only genuinely missing events. This supports manual
+                        # additions on a day already populated by the upstream scraper
+                        # without duplicating events on subsequent runs.
+                        for schedule in schedules:
+                            if schedule not in channel_schedules[day]:
+                                channel_schedules[day].append(schedule)
 
     # Override classrooms for specific days without altering teachers or timeslots
     if "change_classrooms" in overrides:
@@ -589,10 +646,18 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
             if course_code in course_timetables_dict:
                 for channel, channel_data in course_data.get("channels", {}).items():
                     if channel in course_timetables_dict[course_code]["channels"]:
-                        for day, new_classrooms in channel_data.items():
+                        for day, classroom_override in channel_data.items():
                             if day in course_timetables_dict[course_code]["channels"][channel]:
                                 for schedule in course_timetables_dict[course_code]["channels"][channel][day]:
-                                    schedule["classrooms"] = new_classrooms
+                                    if isinstance(classroom_override, dict) and "by_timeslot" in classroom_override:
+                                        # Target one event when the same course has multiple
+                                        # schedules on the same day.
+                                        timeslot_map = classroom_override["by_timeslot"]
+                                        current_timeslot = schedule.get("timeslot")
+                                        if current_timeslot in timeslot_map:
+                                            schedule["classrooms"] = timeslot_map[current_timeslot]
+                                    else:
+                                        schedule["classrooms"] = classroom_override
 
     # Override timeslots for specific days
     if "change_timeslot" in overrides:
@@ -600,11 +665,18 @@ def apply_manual_overrides(course_timetables_dict, degree_programme_code):
             if course_code in course_timetables_dict:
                 for channel, channel_data in course_data.get("channels", {}).items():
                     if channel in course_timetables_dict[course_code]["channels"]:
-                        for day, new_timeslot in channel_data.items():
+                        for day, timeslot_override in channel_data.items():
                             if day in course_timetables_dict[course_code]["channels"][channel]:
-                                # Update the timeslot for all occurrences of that day
                                 for schedule in course_timetables_dict[course_code]["channels"][channel][day]:
-                                    schedule["timeslot"] = new_timeslot
+                                    if isinstance(timeslot_override, dict):
+                                        # Target a specific existing timeslot. This is required
+                                        # when the same course has multiple events on one day.
+                                        current_timeslot = schedule.get("timeslot")
+                                        if current_timeslot in timeslot_override:
+                                            schedule["timeslot"] = timeslot_override[current_timeslot]
+                                    else:
+                                        # Backward-compatible behavior: update every event that day.
+                                        schedule["timeslot"] = timeslot_override
 
     # Iterate through data for inline updates (teachers and classrooms)
     master_degrees = ("33508", "33516")
@@ -874,6 +946,7 @@ def main():
     apply_manual_overrides(course_timetables_dict, degree_programme_code)
 
     apply_teacher_id_mapping(course_timetables_dict, teachers_dict)
+    normalize_and_deduplicate_schedules(course_timetables_dict)
 
     # Save the classrooms information to a JSON file
     with open(f"../data/classrooms.json", 'w') as classroomsFile:
