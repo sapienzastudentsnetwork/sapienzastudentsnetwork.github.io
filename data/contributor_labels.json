@@ -14,7 +14,10 @@
     "joinTitle": "Join the people who have already contributed",
     "joinText": "Leave your mark on this project, a central resource for the Department of Computer Science student community.",
     "joinLink": "Find out how to contribute",
-    "joinHref": "../how-to-contribute/"
+    "joinHref": "../how-to-contribute/",
+    "title": "Contributors",
+    "allTitle": "All contributions",
+    "allIntro": "Contributions to every wiki and to the shared website project, combined in a single ranking."
   },
   "it": {
     "detected": "contributor rilevati nella <a href=\"https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/graphs/contributors?all=1\" target=\"_blank\" rel=\"noopener noreferrer\">cronologia Git</a>.",
@@ -31,6 +34,9 @@
     "joinTitle": "Unisciti a chi ha già contribuito",
     "joinText": "Lascia il tuo segno in questo progetto, una risorsa centrale per la comunità studentesca del Dipartimento di Informatica.",
     "joinLink": "Scopri come contribuire",
-    "joinHref": "../come-contribuire/"
+    "joinHref": "../come-contribuire/",
+    "title": "Collaboratori",
+    "allTitle": "Tutti i contributi",
+    "allIntro": "I contributi a tutte le wiki e al progetto condiviso del sito, riuniti in un’unica classifica."
   }
 }

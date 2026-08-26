@@ -17,7 +17,7 @@ bookToC: true
 </div>
 <div data-guide-panel="it" hidden>
 
-{{% include "content/cad/it/contributing/how-to-contribute.md" %}}
+{{% include "content/cad/it/contributing/how-to-contribute.md" "../collaboratori/" "/contributors/?lang=it" %}}
 
 </div>
 

@@ -1,5 +1,8 @@
 {{ $file := .Get 0 }}
 {{ $content := $file | readFile | replaceRE "^---[\\s\\S]+?---" "" }}
+{{ if ge (len .Params) 3 }}
+  {{ $content = replace $content (.Get 1) (.Get 2) }}
+{{ end }}
 {{ $renderedContent := $content | markdownify }}
 {{ $renderedContent | safeHTML }}
 {{ partial "generateToc" . }}

@@ -198,6 +198,9 @@ def accepted_file(path: str, scope: str) -> bool:
         return False
 
     first_part = file_path.parts[0] if file_path.parts else ""
+    if scope == "all":
+        return True
+
     if scope == "sitewide":
         return first_part not in ALL_COURSE_ROOTS
 
@@ -334,7 +337,7 @@ def collect_contributors(scope: str, identities: dict, git_log: str) -> list:
 
 
 def main() -> None:
-    """Generate all course rankings and the shared project-wide ranking."""
+    """Generate course, project-wide, and combined contributor rankings."""
     identities = github_identities()
     git_log = git(
         "log",
@@ -355,7 +358,7 @@ def main() -> None:
     output_directory = ROOT / "data" / "contributors"
     output_directory.mkdir(parents=True, exist_ok=True)
 
-    ranking_scopes = [*COURSE_PATHS, "sitewide"]
+    ranking_scopes = [*COURSE_PATHS, "sitewide", "all"]
     for scope in ranking_scopes:
         key = scope
         payload = {

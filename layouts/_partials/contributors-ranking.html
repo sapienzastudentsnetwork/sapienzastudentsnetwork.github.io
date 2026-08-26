@@ -1,7 +1,8 @@
 {{- $courseData := index site.Data.contributors .Params.contributorsKey -}}
 {{- $sitewideData := site.Data.contributors.sitewide -}}
-{{- $language := .Params.contributorsLanguage | default "en" -}}
-{{- $labels := index site.Data.contributor_labels $language -}}
+{{- $languages := .Params.contributorsLanguages | default (slice (.Params.contributorsLanguage | default "en")) -}}
+{{- $isGeneral := eq .Layout "homepage" -}}
+{{- $page := . -}}
 
 <style>
   .contributors-grid {
@@ -131,29 +132,76 @@
 {{- end -}}
 
 <article class="markdown book-article">
+  {{- if gt (len $languages) 1 }}
+    <div class="language-switch" role="group" aria-label="Language · Lingua">
+      {{- range $languages }}
+        <button type="button" data-contributors-button="{{ . }}" aria-pressed="false">{{ if eq . "it" }}Italiano{{ else }}English{{ end }}</button>
+      {{- end }}
+    </div>
+  {{- end }}
+
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
-  <blockquote class="book-hint tip">
-    <p><i class="fa-solid fa-lightbulb" style="color: #238636;"></i> <strong>{{ $labels.joinTitle }}</strong></p>
-    <p>{{ $labels.joinText }} <a href="{{ $labels.joinHref }}">{{ $labels.joinLink }}</a>.</p>
-  </blockquote>
+  {{- range $languages }}
+    {{- $language := . -}}
+    {{- $labels := index site.Data.contributor_labels $language -}}
+    <div data-contributors-panel="{{ $language }}"{{ if ne $language (index $languages 0) }} hidden{{ end }}>
+      <blockquote class="book-hint tip">
+        <p><i class="fa-solid fa-lightbulb" style="color: #238636;"></i> <strong>{{ $labels.joinTitle }}</strong></p>
+        <p>{{ $labels.joinText }} <a href="{{ $page.Params.contributorsJoinHref | default $labels.joinHref }}">{{ $labels.joinLink }}</a>.</p>
+      </blockquote>
 
-  <aside class="contributors-method">
-    <strong>{{ $labels.method }}.</strong>
-    {{ $labels.methodText }}
-  </aside>
+      <aside class="contributors-method">
+        <strong>{{ $labels.method }}.</strong>
+        {{ $labels.methodText }}
+      </aside>
 
-  <h2>{{ $labels.wikiTitle }}</h2>
-  {{ template "contributor-ranking-list" (dict
-      "data" $courseData
-      "labels" $labels
-  ) }}
+      {{- if $isGeneral }}
+        <h2>{{ $labels.allTitle }}</h2>
+        <p>{{ $labels.allIntro }}</p>
+        {{ template "contributor-ranking-list" (dict
+            "data" $courseData
+            "labels" $labels
+        ) }}
+      {{- else }}
+        <h2>{{ $labels.wikiTitle }}</h2>
+        {{ template "contributor-ranking-list" (dict
+            "data" $courseData
+            "labels" $labels
+        ) }}
 
-  <h2>{{ $labels.sitewideTitle }}</h2>
-  <p>{{ $labels.sitewideIntro }}</p>
-  {{ template "contributor-ranking-list" (dict
-      "data" $sitewideData
-      "labels" $labels
-  ) }}
+        <h2>{{ $labels.sitewideTitle }}</h2>
+        <p>{{ $labels.sitewideIntro }}</p>
+        {{ template "contributor-ranking-list" (dict
+            "data" $sitewideData
+            "labels" $labels
+        ) }}
+      {{- end }}
+    </div>
+  {{- end }}
 </article>
+
+{{- if gt (len $languages) 1 }}
+<script>
+(() => {
+  const buttons = document.querySelectorAll('[data-contributors-button]');
+  const panels = document.querySelectorAll('[data-contributors-panel]');
+  const apply = (value) => {
+    const language = value === 'it' ? 'it' : 'en';
+    document.documentElement.lang = language;
+    buttons.forEach((button) => {
+      const active = button.dataset.contributorsButton === language;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    panels.forEach((panel) => { panel.hidden = panel.dataset.contributorsPanel !== language; });
+    const url = new URL(location.href);
+    url.searchParams.set('lang', language);
+    history.replaceState(null, '', url);
+  };
+  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.contributorsButton)));
+  apply(new URLSearchParams(location.search).get('lang') || '{{ index $languages 0 }}');
+})();
+</script>
+{{- end }}
