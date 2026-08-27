@@ -1,0 +1,28 @@
+[
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM112",
+            "course": "10629336",
+            "room": "AULA 201",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "MACHINE LEARNING",
+            "teachers": [
+              "IOCCHI LUCA"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - primo semestre"
+  }
+]

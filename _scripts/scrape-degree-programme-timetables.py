@@ -139,7 +139,7 @@ def get_deterministic_timetables(timetables_dict):
     return ordered_dict
 
 
-def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict):
+def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict, target_course_codes=None):
     """
     Iterates through the HTML tables to extract class timetables and populate teachers and courses dictionaries.
     """
@@ -188,6 +188,11 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                 # Extract the course code from the course name
                 course_name = course_code_link.text
                 course_code = extract_course_code(course_name)
+
+                # When a target list is configured, ignore every other teaching before
+                # extracting teachers, classrooms or schedules.
+                if target_course_codes and course_code not in target_course_codes:
+                    continue
 
                 # Find the <a> element containing the teacher's name
                 teacher_divs = course_column.find_all('div', class_='docente')
@@ -322,7 +327,7 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
         course_timetables_dict[course_code]["channels"] = sorted_channels
 
 
-def extract_raw_timetables_data(DOM):
+def extract_raw_timetables_data(DOM, target_course_codes=None):
     """
     Extracts raw scheduled timetable data from the HTML into a structured list.
     """
@@ -343,6 +348,10 @@ def extract_raw_timetables_data(DOM):
             for tr in h3.find_next().find_all('tr')[1:]:
                 (course, room, schedule) = tuple(tr.find_all('td'))
 
+                course_code = extract_course_code(course.find('a').text)
+                if target_course_codes and course_code not in target_course_codes:
+                    continue
+
                 section = {
                     'course': course.find(class_='codiceInsegnamento').text,
                     'subject': ' '.join(course.find('a').text.split()[1:]),
@@ -361,8 +370,10 @@ def extract_raw_timetables_data(DOM):
                     })
 
                 channel['timetable'].append(section)
-            year['channels'].append(channel)
-        data.append(year)
+            if channel['timetable']:
+                year['channels'].append(channel)
+        if year['channels']:
+            data.append(year)
 
     sort_days_order_dict = {
         "lunedì": 0, "martedì": 1, "mercoledì": 2, "giovedì": 3, "venerdì": 4, "sabato": 5, "domenica": 6
@@ -380,10 +391,23 @@ def extract_raw_timetables_data(DOM):
     return data
 
 
-def extract_classrooms(DOM, classrooms_dict):
+def extract_classrooms(DOM, classrooms_dict, target_course_codes=None):
     """
     Iterates through the classrooms table to extract location and map details.
     """
+    allowed_classroom_ids = None
+    if target_course_codes:
+        allowed_classroom_ids = set()
+        for div in DOM.find_all(class_='sommario'):
+            for h3 in div.find_all('h3'):
+                for tr in h3.find_next().find_all('tr')[1:]:
+                    (course, room, _) = tuple(tr.find_all('td'))
+                    course_code = extract_course_code(course.find('a').text)
+                    if course_code in target_course_codes:
+                        room_link = room.find('a')
+                        if room_link and room_link.get('href', '').startswith('#aula_'):
+                            allowed_classroom_ids.add(room_link['href'].replace('#aula_', ''))
+
     # Get all the rows in the classrooms table except the first one (header)
     rows = DOM.find(class_='elenco_aule').find_all('tr')[1:]
 
@@ -402,6 +426,8 @@ def extract_classrooms(DOM, classrooms_dict):
         if a_tag:
             # Extract the 'name' attribute and remove the 'aula_' prefix to get the classroom ID
             id = a_tag.get('name').replace('aula_', '')
+            if allowed_classroom_ids is not None and id not in allowed_classroom_ids:
+                continue
 
             # Extract the classroom description and address, removing superfluous and/or repeated information
             td_tags = row.find_all('td')
@@ -934,6 +960,14 @@ def main():
     # Academic Year of the degree program to scrape data for
     academic_year = os.getenv("ACADEMIC_YEAR", "2026/2027")
 
+    # Optional comma-separated allowlist. When set, only these teachings are
+    # extracted and persisted, including in the raw timetable file.
+    target_course_codes = {
+        code.strip()
+        for code in os.getenv("TARGET_COURSE_CODES", "").split(",")
+        if code.strip()
+    } or None
+
     # Url of the gomppublic page containing timetables and classrooms for the specific degree program
     gomppublic_generateorario_url = os.getenv("GOMPPUBLIC_GENERATEORARIO_URL", 'https://gomppublic.uniroma1.it/ScriptService/OffertaFormativa/Ofs.6.0/AuleOrariScriptService/GenerateOrario.aspx?params={"controlID":"","aulaUrl":"","codiceInterno":{codiceInterno},"annoAccademico":"{annoAccademico}","virtuale":false,"timeSlots":null,"displayMode":"Manifesto","showStyles":false,"codiceAulaTagName":"","nomeAulaCssClass":"","navigateUrlInsegnamentoMode":"","navigateUrlInsegnamento":"","navigateUrlDocenteMode":"","navigateUrlDocente":"","repeatTrClass":""}&_=1702740827520')\
         .replace("{codiceInterno}", degree_programme_code)\
@@ -1009,15 +1043,15 @@ def main():
             print("Warning: Backup file not found. Exiting without modifications.")
             return
 
-    extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict)
+    extract_timetables_and_teachers(DOM, semester, degree_programme_code, course_timetables_dict, teachers_dict, target_course_codes)
 
-    raw_data = extract_raw_timetables_data(DOM)
+    raw_data = extract_raw_timetables_data(DOM, target_course_codes)
 
     # Save the timetables to a JSON file
     with open(f"../data/timetables_raw_{degree_programme_code}_{academic_year.replace('/', '-')}.json", 'w') as rawTimetablesFile:
         json.dump(raw_data, rawTimetablesFile, indent=2, sort_keys=True)
 
-    extract_classrooms(DOM, classrooms_dict)
+    extract_classrooms(DOM, classrooms_dict, target_course_codes)
 
     apply_manual_overrides(course_timetables_dict, degree_programme_code)
 

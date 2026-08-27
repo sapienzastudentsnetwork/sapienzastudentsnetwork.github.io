@@ -1766,6 +1766,29 @@
     },
     "code": "10628736"
   },
+  "10629336": {
+    "subject": "MACHINE LEARNING",
+    "degree": "33514",
+    "degrees": [
+      "33514"
+    ],
+    "channels": {
+      "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "f1c41ed9f77244cd05f84b72eaa5563045643d01ee589b473192cad1": "IOCCHI LUCA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10629336"
+  },
   "10629400": {
     "subject": "Fundamentals of Data Science",
     "degree": "33519",
