@@ -1,0 +1,335 @@
+/* Custom timetable controls */
+.custom-subject-action {
+  display: inline-flex;
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  border: 1px solid var(--table-border-color);
+  border-radius: 4px;
+  background: var(--table-header-bg);
+  color: var(--table-header-color);
+  cursor: pointer;
+}
+.custom-subject-action.hidden { display: none; }
+
+/* Content-sized dialogs. Scrolling starts only when content exceeds the viewport. */
+.custom-subject-dialog {
+  width: 94vw;
+  max-width: 38rem;
+  height: auto;
+  max-height: 88vh;
+  margin: auto;
+  padding: 0;
+  border: 1px solid var(--table-border-color);
+  border-radius: 10px;
+  background: var(--body-background);
+  color: var(--body-font-color);
+  overflow: hidden;
+}
+.custom-subject-dialog::backdrop { background: rgba(0,0,0,.48); }
+.custom-subject-form,
+.custom-subject-manager {
+  display: flex !important;
+  flex-direction: column !important;
+  height: auto;
+  min-height: 0;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+.custom-subject-dialog__header,
+.custom-subject-dialog__footer { flex: 0 0 auto; padding: .75rem 1rem; }
+.custom-subject-dialog__header { border-bottom: 1px solid var(--table-border-color); }
+.custom-subject-dialog__header h2 { margin: 0; font-size: 1.15rem; }
+.custom-subject-dialog__footer { display: flex; justify-content: flex-end; gap: .6rem; border-top: 1px solid var(--table-border-color); }
+.custom-subject-grid,
+.custom-subject-editor-section { margin: .75rem 1rem; }
+.custom-subject-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; }
+.custom-subject-field { display: flex !important; flex-direction: column !important; gap: .25rem; }
+.custom-subject-field--wide { grid-column: 1 / -1; }
+.custom-subject-field input,
+.custom-subject-dynamic-field input,
+.custom-subject-dynamic-field select {
+  width: 100%; min-width: 0; box-sizing: border-box; padding: .5rem;
+  border: 1px solid var(--table-border-color); border-radius: 5px;
+  background: var(--body-background); color: var(--body-font-color);
+}
+.custom-subject-editor-section { padding: .75rem; border: 1px solid var(--table-border-color); border-radius: 8px; }
+.custom-subject-editor-section__heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: .65rem; }
+.custom-subject-editor-section__heading h3 { margin: 0; font-size: 1rem; }
+.custom-subject-stack { display: flex; flex-direction: column; gap: .65rem; }
+.custom-subject-dynamic-row { display: grid; gap: .55rem; padding: .65rem; align-items: end; border: 1px solid var(--table-border-color); border-radius: 6px; }
+.custom-subject-lesson-row { grid-template-columns: 1fr 1fr; }
+.custom-subject-dynamic-field { display: flex; flex-direction: column; gap: .25rem; min-width: 0; }
+.custom-subject-dynamic-field span { font-size: .78rem; font-weight: 600; }
+.custom-subject-mini-button { width: 28px; height: 28px; padding: 0; justify-self: end; }
+.custom-subject-button { padding: .55rem .9rem; border: 1px solid var(--table-border-color); border-radius: 5px; cursor: pointer; transition: transform .12s, box-shadow .12s, filter .12s; }
+.custom-subject-button:hover { filter: brightness(1.08); box-shadow: 0 2px 6px var(--table-shadow-color); }
+.custom-subject-button:active { transform: translateY(1px); box-shadow: none; }
+.custom-subject-button--primary { background: var(--timetable-add-button-background); border-color: var(--timetable-add-button-border); color: var(--timetable-add-button-color); font-weight: 700; }
+.custom-subject-button--primary:hover { background: var(--timetable-add-button-hover); }
+.custom-subject-card-list { display: flex; flex-direction: column; gap: .6rem; padding: .75rem 1rem; }
+.custom-subject-card { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .7rem; border: 1px solid var(--table-border-color); border-radius: 7px; }
+.custom-subject-card h3,.custom-subject-card p { margin: 0; }
+.custom-subject-card__actions { display: flex; gap: .45rem; }
+
+/* Custom subjects use the same direct cell children and utility classes as regular subjects. */
+@media screen and (max-width: 700px) {
+  .custom-subject-dialog { width: calc(100vw - 1rem); max-width: none; max-height: calc(100vh - 1rem); }
+  .custom-subject-form,.custom-subject-manager { max-height: calc(100vh - 1rem); }
+  .custom-subject-grid,.custom-subject-lesson-row { grid-template-columns: 1fr; }
+  .custom-subject-field--wide { grid-column: auto; }
+  .custom-subject-card { align-items: stretch; flex-direction: column; }
+  .custom-subject-card__actions { justify-content: flex-end; }
+  .custom-subject-dialog__footer { display: grid; grid-template-columns: 1fr 1fr; }
+  .custom-subject-button { width: 100%; }
+}
+
+
+/* Custom subject management and schedule editor layout. */
+.custom-subject-card__content { min-width: 0; }
+.custom-subject-card__content h3 { margin-bottom: .15rem; }
+.custom-subject-card__content p { opacity: .85; }
+.custom-subject-card__actions { flex-wrap: wrap; justify-content: flex-end; }
+.custom-subject-lesson-row {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(4),
+.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(6),
+.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(7),
+.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(8) {
+  grid-column: span 1;
+}
+.custom-subject-lesson-row > .custom-subject-mini-button { grid-column: 1 / -1; }
+@media screen and (min-width: 620px) {
+  .custom-subject-lesson-row { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(4),
+  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(6),
+  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(7),
+  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(8) { grid-column: span 2; }
+}
+@media screen and (max-width: 700px) {
+  .custom-subject-card__actions { justify-content: flex-start; }
+}
+
+/* Compact content-driven dialogs and clearer lesson rows. */
+#customSubjectsManagerDialog.custom-subject-dialog,
+#customSubjectDialog.custom-subject-dialog {
+  height: fit-content;
+  max-height: 88vh;
+}
+#customSubjectsManagerDialog .custom-subject-manager,
+#customSubjectDialog .custom-subject-form {
+  height: fit-content;
+  min-height: 0;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+#customSubjectsManagerDialog .custom-subject-card-list { flex: 0 0 auto; }
+#customSubjectsManagerDialog .custom-subject-dialog__footer { margin-top: 0; }
+.custom-subject-dynamic-field--teacher { grid-column: 1 / 3 !important; }
+.custom-subject-dynamic-field--teacher-url { grid-column: 3 / 5 !important; }
+@media screen and (max-width: 619px) {
+  .custom-subject-dynamic-field--teacher,
+  .custom-subject-dynamic-field--teacher-url { grid-column: 1 / -1 !important; }
+}
+
+
+/* Unified custom subjects toolbar and entry menu. */
+.custom-timetable-toolbar {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.custom-subjects-menu-button {
+  white-space: nowrap;
+}
+.custom-subject-choice-dialog {
+  max-width: 28rem;
+}
+.custom-subject-choice-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .75rem;
+  padding: 1rem;
+}
+.custom-subject-choice {
+  display: flex;
+  min-height: 6rem;
+  padding: .9rem;
+  align-items: center;
+  gap: .75rem;
+  border: 1px solid var(--table-border-color);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--body-font-color);
+  text-align: left;
+  cursor: pointer;
+}
+.custom-subject-choice:hover:not(:disabled) {
+  background: var(--table-row-hover);
+}
+.custom-subject-choice:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+.custom-subject-choice > i {
+  flex: 0 0 auto;
+  width: 1.5rem;
+  font-size: 1.15rem;
+  text-align: center;
+}
+.custom-subject-choice span,
+.custom-subject-choice strong,
+.custom-subject-choice small {
+  display: block;
+}
+.custom-subject-choice small {
+  margin-top: .2rem;
+  opacity: .8;
+  font-weight: 400;
+}
+@media screen and (max-width: 560px) {
+  .custom-timetable-toolbar {
+    position: static;
+    margin: .5rem 0 1rem;
+  }
+  .custom-timetable-toolbar .addSubjs {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+  .custom-subject-choice-list {
+    grid-template-columns: 1fr;
+  }
+  .custom-subject-choice {
+    min-height: 4.75rem;
+  }
+}
+
+
+/* Compact unified custom-subject entry dialog. */
+#customSubjectsMenuDialog.custom-subject-dialog {
+  width: 94vw;
+  max-width: 32rem;
+  height: fit-content !important;
+  min-height: 0 !important;
+  max-height: 88vh;
+  padding: 0;
+}
+#customSubjectsMenuDialog > .custom-subject-manager {
+  display: block !important;
+  height: fit-content !important;
+  min-height: 0 !important;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+#customSubjectsMenuDialog .custom-subject-choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  padding: 1rem;
+}
+#customSubjectsMenuDialog .custom-subject-choice {
+  display: flex;
+  width: 100%;
+  min-height: 5.5rem;
+  padding: 1rem 1.15rem;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+#customSubjectsMenuDialog .custom-subject-choice > i {
+  width: 1.5rem;
+  font-size: 1.2rem;
+}
+#customSubjectsMenuDialog .custom-subject-choice > span {
+  flex: 0 1 auto;
+}
+#customSubjectsMenuDialog .custom-subject-choice strong {
+  font-size: 1rem;
+}
+#customSubjectsMenuDialog .custom-subject-choice small {
+  margin-top: .25rem;
+  line-height: 1.3;
+}
+#customSubjectsMenuDialog .custom-subject-dialog__footer {
+  margin: 0;
+  padding: .75rem 1rem;
+}
+@media screen and (max-width: 560px) {
+  #customSubjectsMenuDialog.custom-subject-dialog {
+    width: calc(100vw - 1rem);
+  }
+  #customSubjectsMenuDialog .custom-subject-choice {
+    min-height: 5rem;
+  }
+}
+
+
+/* Final toolbar spacing and visual distinction. */
+.custom-timetable-toolbar {
+  gap: .4rem !important;
+}
+.custom-timetable-toolbar > .addSubjs {
+  margin: 0 !important;
+}
+.custom-timetable-toolbar > .custom-subjects-menu-button {
+  background: #7c3aed;
+  border-color: #6d28d9;
+  color: #fff;
+}
+.custom-timetable-toolbar > .custom-subjects-menu-button:hover {
+  background: #6d28d9;
+  border-color: #5b21b6;
+}
+
+
+/* Centered toolbar and cyan custom-subject action. */
+.custom-timetable-toolbar {
+  left: 50% !important;
+  right: auto !important;
+  width: max-content;
+  max-width: 100%;
+  justify-content: center !important;
+  transform: translateX(-50%);
+}
+.custom-timetable-toolbar > .custom-subjects-menu-button {
+  background: #0891b2;
+  border-color: #0e7490;
+  color: #fff;
+}
+.custom-timetable-toolbar > .custom-subjects-menu-button:hover {
+  background: #0e7490;
+  border-color: #155e75;
+}
+@media screen and (max-width: 560px) {
+  .custom-timetable-toolbar {
+    width: 100%;
+    transform: none;
+  }
+}
+
+
+/* Keep the toolbar centered within the timetable container. */
+.custom-timetable-toolbar {
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  width: 100% !important;
+  max-width: none;
+  margin: 0 0 .75rem;
+  justify-content: center !important;
+  transform: none !important;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 560px) {
+  .custom-timetable-toolbar {
+    width: 100% !important;
+    margin-bottom: .75rem;
+  }
+}

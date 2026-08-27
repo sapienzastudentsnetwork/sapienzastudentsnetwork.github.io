@@ -214,7 +214,7 @@
   translation: Aula
 
 - id: Subjs_CustomTimetable_CustomClassroomExample
-  translation: es. Aula 1, CU028
+  translation: es. Aula 201 Regina Elena Ed. D
 
 - id: Subjs_CustomTimetable_CustomCancel
   translation: Annulla
@@ -230,6 +230,51 @@
 
 - id: Subjs_CustomTimetable_CustomClose
   translation: Chiudi
+
+- id: Subjs_CustomTimetable_CustomRemoveConfirm
+  translation: Eliminare la materia personalizzata “%s”?
+
+- id: Subjs_CustomTimetable_CustomClassroomAbbr
+  translation: Acronimo aula
+
+- id: Subjs_CustomTimetable_CustomClassroomAbbrExample
+  translation: es. 201 RE
+
+- id: Subjs_CustomTimetable_UserInserted
+  translation: Insegnamento inserito dall'utente
+
+- id: Subjs_CustomTimetable_CustomHide
+  translation: Nascondi
+
+- id: Subjs_CustomTimetable_CustomShow
+  translation: Mostra
+
+- id: Subjs_CustomTimetable_CustomScheduleCount
+  translation: "%d orari inseriti"
+
+- id: Subjs_CustomTimetable_CustomColor
+  translation: Colore
+
+- id: Subjs_CustomTimetable_CustomEnd
+  translation: Ora di fine
+
+- id: Subjs_CustomTimetable_CustomClassroomUrl
+  translation: URL aula
+
+- id: Subjs_CustomTimetable_CustomTeacherUrl
+  translation: URL docente
+
+- id: Subjs_CustomTimetable_CustomMenuButton
+  translation: Materie personalizzate
+
+- id: Subjs_CustomTimetable_CustomMenuTitle
+  translation: Materie personalizzate
+
+- id: Subjs_CustomTimetable_CustomAddDescription
+  translation: Crea un nuovo insegnamento con orari personalizzati
+
+- id: Subjs_CustomTimetable_CustomManageDescription
+  translation: Modifica, nascondi o rimuovi gli insegnamenti salvati
 
 #
 #   C O N T A C T S   P A G E

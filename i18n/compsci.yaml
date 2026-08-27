@@ -206,7 +206,7 @@
   translation: e.g. HPC
 
 - id: Subjs_CustomTimetable_CustomTeacher
-  translation: Teacher
+  translation: Professor
 
 - id: Subjs_CustomTimetable_CustomTeacherExample
   translation: e.g. Ada Lovelace
@@ -215,7 +215,7 @@
   translation: Classroom
 
 - id: Subjs_CustomTimetable_CustomClassroomExample
-  translation: e.g. Room 1, CU028
+  translation: e.g. Aula 201 Regina Elena Ed. D
 
 - id: Subjs_CustomTimetable_CustomCancel
   translation: Cancel
@@ -231,6 +231,51 @@
 
 - id: Subjs_CustomTimetable_CustomClose
   translation: Close
+
+- id: Subjs_CustomTimetable_CustomRemoveConfirm
+  translation: Remove the custom subject “%s”?
+
+- id: Subjs_CustomTimetable_CustomClassroomAbbr
+  translation: Classroom acronym
+
+- id: Subjs_CustomTimetable_CustomClassroomAbbrExample
+  translation: e.g. 201 RE
+
+- id: Subjs_CustomTimetable_UserInserted
+  translation: User-added teaching
+
+- id: Subjs_CustomTimetable_CustomHide
+  translation: Hide
+
+- id: Subjs_CustomTimetable_CustomShow
+  translation: Show
+
+- id: Subjs_CustomTimetable_CustomScheduleCount
+  translation: "%d schedules added"
+
+- id: Subjs_CustomTimetable_CustomColor
+  translation: Color
+
+- id: Subjs_CustomTimetable_CustomEnd
+  translation: End time
+
+- id: Subjs_CustomTimetable_CustomClassroomUrl
+  translation: Classroom URL
+
+- id: Subjs_CustomTimetable_CustomTeacherUrl
+  translation: Professor URL
+
+- id: Subjs_CustomTimetable_CustomMenuButton
+  translation: Custom subjects
+
+- id: Subjs_CustomTimetable_CustomMenuTitle
+  translation: Custom subjects
+
+- id: Subjs_CustomTimetable_CustomAddDescription
+  translation: Create a new teaching with custom schedules
+
+- id: Subjs_CustomTimetable_CustomManageDescription
+  translation: Edit, hide or remove saved teachings
 
 #
 #   C O N T A C T S   P A G E
