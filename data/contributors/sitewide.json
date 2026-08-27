@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T04:06:00Z",
-  "source_commit": "f422b4df70adac67194ea20e851edb244b7b6ce6",
+  "generated_at": "2026-08-27T13:05:52Z",
+  "source_commit": "f80471d3bd1e1f7d488b56ab021f110b625028d9",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 665,
-      "additions": 67949,
-      "deletions": 57643,
-      "effective_lines": 125592,
+      "commits": 689,
+      "additions": 73597,
+      "deletions": 59431,
+      "effective_lines": 133028,
       "score": 100.0,
       "rank": 1
     },
@@ -25,7 +25,7 @@
       "additions": 26671,
       "deletions": 12827,
       "effective_lines": 39498,
-      "score": 80.5,
+      "score": 80.1,
       "rank": 2
     },
     {
@@ -38,7 +38,7 @@
       "additions": 2683,
       "deletions": 704,
       "effective_lines": 3387,
-      "score": 63.9,
+      "score": 63.6,
       "rank": 3
     },
     {
@@ -51,7 +51,7 @@
       "additions": 3313,
       "deletions": 1638,
       "effective_lines": 4951,
-      "score": 63.8,
+      "score": 63.4,
       "rank": 4
     },
     {
@@ -64,8 +64,21 @@
       "additions": 817,
       "deletions": 514,
       "effective_lines": 1331,
-      "score": 50.9,
+      "score": 50.7,
       "rank": 5
+    },
+    {
+      "name": "neoSnakex34",
+      "github": "https://github.com/neoSnakex34",
+      "avatar": "https://avatars.githubusercontent.com/u/97003970?v=4",
+      "initials": "N",
+      "unresolved": false,
+      "commits": 2,
+      "additions": 959,
+      "deletions": 504,
+      "effective_lines": 1463,
+      "score": 43.8,
+      "rank": 6
     },
     {
       "name": "Exyss",
@@ -77,8 +90,8 @@
       "additions": 176,
       "deletions": 116,
       "effective_lines": 292,
-      "score": 42.5,
-      "rank": 6
+      "score": 42.3,
+      "rank": 7
     },
     {
       "name": "mivige",
@@ -90,8 +103,8 @@
       "additions": 145,
       "deletions": 7,
       "effective_lines": 152,
-      "score": 36.7,
-      "rank": 7
+      "score": 36.5,
+      "rank": 8
     },
     {
       "name": "Fra179",
@@ -103,8 +116,8 @@
       "additions": 260,
       "deletions": 5,
       "effective_lines": 265,
-      "score": 32.8,
-      "rank": 8
+      "score": 32.6,
+      "rank": 9
     },
     {
       "name": "DavideGalilei",
@@ -116,8 +129,8 @@
       "additions": 72,
       "deletions": 53,
       "effective_lines": 125,
-      "score": 29.0,
-      "rank": 9
+      "score": 28.8,
+      "rank": 10
     },
     {
       "name": "atyion",
@@ -129,8 +142,8 @@
       "additions": 48,
       "deletions": 15,
       "effective_lines": 63,
-      "score": 28.0,
-      "rank": 10
+      "score": 27.9,
+      "rank": 11
     },
     {
       "name": "ENDERZOMBI102",
@@ -142,8 +155,8 @@
       "additions": 53,
       "deletions": 6,
       "effective_lines": 59,
-      "score": 27.7,
-      "rank": 11
+      "score": 27.5,
+      "rank": 12
     },
     {
       "name": "simonesestito",
@@ -155,8 +168,8 @@
       "additions": 20,
       "deletions": 1,
       "effective_lines": 21,
-      "score": 20.1,
-      "rank": 12
+      "score": 20.0,
+      "rank": 13
     },
     {
       "name": "palmaaaa",
@@ -168,8 +181,8 @@
       "additions": 18,
       "deletions": 0,
       "effective_lines": 18,
-      "score": 19.3,
-      "rank": 13
+      "score": 19.2,
+      "rank": 14
     },
     {
       "name": "claudiadcrl",
@@ -181,8 +194,8 @@
       "additions": 11,
       "deletions": 0,
       "effective_lines": 11,
-      "score": 17.0,
-      "rank": 14
+      "score": 16.9,
+      "rank": 15
     },
     {
       "name": "CasuFrost",
@@ -195,7 +208,7 @@
       "deletions": 1,
       "effective_lines": 3,
       "score": 13.8,
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "marcellogalisai",
@@ -207,8 +220,8 @@
       "additions": 2,
       "deletions": 0,
       "effective_lines": 2,
-      "score": 9.9,
-      "rank": 16
+      "score": 9.8,
+      "rank": 17
     },
     {
       "name": "SimoneLid",
@@ -220,8 +233,8 @@
       "additions": 1,
       "deletions": 1,
       "effective_lines": 2,
-      "score": 9.9,
-      "rank": 17
+      "score": 9.8,
+      "rank": 18
     }
   ]
 }

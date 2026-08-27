@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T04:06:00Z",
-  "source_commit": "f422b4df70adac67194ea20e851edb244b7b6ce6",
+  "generated_at": "2026-08-27T13:05:52Z",
+  "source_commit": "f80471d3bd1e1f7d488b56ab021f110b625028d9",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 263,
-      "additions": 4715,
-      "deletions": 3968,
-      "effective_lines": 8683,
+      "commits": 264,
+      "additions": 4726,
+      "deletions": 3979,
+      "effective_lines": 8705,
       "score": 100.0,
       "rank": 1
     },
@@ -38,21 +38,8 @@
       "additions": 338,
       "deletions": 150,
       "effective_lines": 488,
-      "score": 59.4,
+      "score": 59.3,
       "rank": 3
-    },
-    {
-      "name": "marcellogalisai",
-      "github": "https://github.com/marcellogalisai",
-      "avatar": "https://github.com/marcellogalisai.png?size=160",
-      "initials": "M",
-      "unresolved": false,
-      "commits": 11,
-      "additions": 217,
-      "deletions": 32,
-      "effective_lines": 249,
-      "score": 54.4,
-      "rank": 4
     },
     {
       "name": "orianani311",
@@ -64,6 +51,19 @@
       "additions": 512,
       "deletions": 15,
       "effective_lines": 527,
+      "score": 54.3,
+      "rank": 4
+    },
+    {
+      "name": "marcellogalisai",
+      "github": "https://github.com/marcellogalisai",
+      "avatar": "https://github.com/marcellogalisai.png?size=160",
+      "initials": "M",
+      "unresolved": false,
+      "commits": 11,
+      "additions": 217,
+      "deletions": 32,
+      "effective_lines": 249,
       "score": 54.3,
       "rank": 5
     },
