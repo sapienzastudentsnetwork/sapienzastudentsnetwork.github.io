@@ -261,6 +261,27 @@
         return document.querySelectorAll(`[data-subject-id="${subjectId}"]`);
     }
 
+    function sortSubjectSectionsAlphabetically() {
+        const locale = document.documentElement.lang || undefined;
+        const collator = new Intl.Collator(locale, {
+            sensitivity: "base",
+            numeric: true,
+        });
+
+        for (const section of document.querySelectorAll(".subjsSingCourse")) {
+            const subjects = Array.from(section.querySelectorAll(":scope > .subjButton"));
+
+            subjects.sort((first, second) =>
+                collator.compare(
+                    first.textContent.trim(),
+                    second.textContent.trim(),
+                ),
+            );
+
+            section.append(...subjects);
+        }
+    }
+
     function setSubjectButtonsSelected(subjectId, isSelected) {
         for (const button of getSubjectButtons(subjectId)) {
             for (const degreeCode of degreeCodes) {
@@ -315,6 +336,8 @@
     }
 
     addEventListener("DOMContentLoaded", () => {
+        sortSubjectSectionsAlphabetically();
+
         for (const subjectId of selectedSubjects) {
             setSubjectButtonsSelected(subjectId, true);
 
