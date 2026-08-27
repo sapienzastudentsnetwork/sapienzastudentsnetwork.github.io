@@ -326,12 +326,24 @@ table th {
 }
 
 #subjsPopUp {
+    box-sizing: border-box;
+    width: calc(100% - 2rem);
+    max-width: 1100px;
+    margin-inline: auto;
     background: var(--timetable-popup-background);
     backdrop-filter: blur(6.8px);
     -webkit-backdrop-filter: blur(6.8px);
     border: none;
     border-radius: 8px;
     box-shadow: 0px 0px var(--timetable-popup-shadow-size) var(--timetable-popup-shadow-color);
+}
+
+@media screen and (min-width: 80rem) {
+    #subjsPopUp {
+        width: calc(100% - 18rem);
+        margin-left: 17rem;
+        margin-right: 1rem;
+    }
 }
 
 /* Course detail sections styling */
