@@ -1,16 +1,16 @@
 <!-- style="margin-top: 20px; margin-bottom: 10px;" -->
 
-<div class="flex justify-center items-center">
     <!--
         Overriding the theme's rule (in _defaults.scss).
         Without display: initial, the label defaults to display: flex,
         causing the checkbox to wrap to a new line.
     -->
-    <label for="font" style="display: initial;">
-        OpenDyslexic
-    </label>
-    <input type="checkbox" name="font" id="font">
-</div>
+    <div class="{{ if eq .RelPermalink "/" }}flex justify-center items-center w-full{{ end }}">
+        <label for="font" style="display: initial;">
+            OpenDyslexic
+        </label>
+        <input type="checkbox" name="font" id="font">
+    </div>
 
 <script>
     addEventListener("DOMContentLoaded", (event) => {
