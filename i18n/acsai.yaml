@@ -165,6 +165,72 @@
 - id: Subjs_CustomTimetable_SelectMenuTitle
   translation: Select the subjects you wish to add or remove
 
+- id: Subjs_CustomTimetable_CustomAdd
+  translation: Add a custom subject
+
+- id: Subjs_CustomTimetable_CustomManage
+  translation: Manage custom subjects
+
+- id: Subjs_CustomTimetable_CustomTitle
+  translation: Custom subject
+
+- id: Subjs_CustomTimetable_CustomDay
+  translation: Day
+
+- id: Subjs_CustomTimetable_CustomStart
+  translation: Start time
+
+- id: Subjs_CustomTimetable_CustomDuration
+  translation: Duration
+
+- id: Subjs_CustomTimetable_CustomHours
+  translation: hour(s)
+
+- id: Subjs_CustomTimetable_CustomName
+  translation: Full name
+
+- id: Subjs_CustomTimetable_CustomNameExample
+  translation: e.g. Programming (Unit 2)
+
+- id: Subjs_CustomTimetable_CustomShortName
+  translation: Short name
+
+- id: Subjs_CustomTimetable_CustomShortNameExample
+  translation: e.g. Prog. U2
+
+- id: Subjs_CustomTimetable_CustomAbbr
+  translation: Acronym
+
+- id: Subjs_CustomTimetable_CustomAbbrExample
+  translation: e.g. PRU2
+
+- id: Subjs_CustomTimetable_CustomTeacher
+  translation: Teacher
+
+- id: Subjs_CustomTimetable_CustomTeacherExample
+  translation: e.g. Ada Lovelace
+
+- id: Subjs_CustomTimetable_CustomClassroom
+  translation: Classroom
+
+- id: Subjs_CustomTimetable_CustomClassroomExample
+  translation: e.g. Room 1, CU028
+
+- id: Subjs_CustomTimetable_CustomCancel
+  translation: Cancel
+
+- id: Subjs_CustomTimetable_CustomSave
+  translation: Save
+
+- id: Subjs_CustomTimetable_CustomManageTitle
+  translation: Custom subjects
+
+- id: Subjs_CustomTimetable_CustomRemove
+  translation: Remove
+
+- id: Subjs_CustomTimetable_CustomClose
+  translation: Close
+
 #
 #   C O N T A C T S   P A G E
 #
