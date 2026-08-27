@@ -91,11 +91,35 @@
             {{ $dataTimetables := site.Data.timetables }}
             {{ $allCourses := dict }}
             {{ $pageDegreeSubjects := slice }}
+            {{ $isMasterDegree := in (slice "33508" "33516" "33519") $pageDegreeCode }}
+            {{ $showRecommendedBachelorCourses := eq $pageDegreeCode "33508" }}
+            {{/* Selected bachelor-level electives recommended to Computer Science master's
+                 students. These are exposed only from the master's custom timetable. */}}
+            {{ $recommendedBachelorCourses := dict
+                "1022268" "Informatica"
+                "10595532" "ACSAI"
+                "1022262" "Informatica"
+                "10595618_1" "ACSAI"
+                "10595618_2" "ACSAI"
+                "10593235" "Informatica"
+                "10606972" "Informatica"
+            }}
+            {{/* Legacy aliases must not be displayed as independent choices. */}}
+            {{ $legacyCourseCodes := dict
+                "10595546_1" true "10595524" true "10595102_1" true "10595102_2" true
+                "10589621" true "1041764" true "1047618" true "1047624" true
+                "10620566" true "10589558" true "1047638" true "10600495" true
+                "10596281" true "1041792" true "1047616" true "1047617" true
+                "1047622" true "1047640" true "1047642" true "10589557" true
+                "1054960" true "1022807" true "1027171" true "1055043_2" true
+                "10621189" true "1056023" true "10620565" true "10600490" true
+                "10595099_1" true "10595099_2" true
+            }}
 
             {{ range $courseCode, $courseData := $dataTimetables }}
                 {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-                {{ if index $degrees $courseData.degree }}
+                {{ if and (not (index $legacyCourseCodes $courseCode)) (index $degrees $courseData.degree) }}
                     {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
                 {{ end }}
             {{ end }}
@@ -103,8 +127,16 @@
             {{ range $courseCode, $courseData := $hardcodedDataTimetables }}
                 {{ $allCourses = merge $allCourses (dict $courseCode $courseData) }}
 
-                {{ if index $degrees $courseData.degree }}
+                {{ if and (not (index $legacyCourseCodes $courseCode)) (index $degrees $courseData.degree) }}
                     {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                {{ end }}
+            {{ end }}
+
+            {{ if $showRecommendedBachelorCourses }}
+                {{ range $courseCode, $_ := $recommendedBachelorCourses }}
+                    {{ if and (not (index $legacyCourseCodes $courseCode)) (index $allCourses $courseCode) }}
+                        {{ $pageDegreeSubjects = $pageDegreeSubjects | append $courseCode }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
 
@@ -116,14 +148,52 @@
 
             <div class="subjsSingCourse">
                 {{ range $code, $data := $allCourses }}
-                    {{ if eq $data.degree $degreeCode }}
+                    {{ $courseDegrees := $data.degrees | default (slice $data.degree) }}
+                    {{ if and (not (index $legacyCourseCodes $code)) (in $courseDegrees $degreeCode) }}
                         {{ $subject_info := index $courses $code }}
                         {{ range $channel_id, $_ := $data.channels }}
-                        <button id="dialog-{{ $code }}-{{ $channel_id }}"
-                            class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                        <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
+                            data-subject-id="{{ $code }}-{{ $channel_id }}"
+                            class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
                             onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
                             <span class="w-full truncate text-left">
                                 {{ $subject_info.name }}
+                                {{ if ne $channel_id "0" }}
+                                    {{ if eq $channel_id "1" }}
+                                        (A-L)
+                                    {{ else if eq $channel_id "2" }}
+                                        (M-Z)
+                                    {{ else }}
+                                        (Canale {{ $channel_id }})
+                                    {{ end }}
+                                {{ end }}
+                            </span>
+                        </button>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+
+            <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
+            {{ end }}
+
+            {{ if $showRecommendedBachelorCourses }}
+            <h2 class="subjsGroupTitle" id="subjsRecommendedBachelorCourses">
+                <span style="color: #709DD1">Recommended bachelor-level electives</span>
+            </h2>
+
+            <div class="subjsSingCourse">
+                {{ range $code, $sourceDegree := $recommendedBachelorCourses }}
+                    {{ $data := index $allCourses $code }}
+                    {{ if and $data (not (index $legacyCourseCodes $code)) }}
+                        {{ $subject_info := index $courses $code }}
+                        {{ range $channel_id, $_ := $data.channels }}
+                        <button id="dialog-bachelor-{{ $code }}-{{ $channel_id }}"
+                            data-subject-id="{{ $code }}-{{ $channel_id }}"
+                            class="c-{{ $data.degree }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                            onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                            <span class="w-full truncate text-left">
+                                {{ $subject_info.name }} ({{ $sourceDegree }})
                                 {{ if ne $channel_id "0" }}
                                     {{ if eq $channel_id "1" }}
                                         (A-L)
@@ -159,102 +229,85 @@
         JSON.parse(`{{ $pageDegreeSubjects | jsonify }}`)
     );
 
-    const selectedSubjects = new Set(
-        JSON.parse(localStorage.getItem("selectedSubjects")),
+    const isMasterCustomTimetable = {{ $isMasterDegree }};
+    const selectedSubjectsStorageKey = isMasterCustomTimetable
+        ? "selectedSubjects-masters"
+        : "selectedSubjects-bachelors";
+
+    let storedSelectedSubjects = JSON.parse(
+        localStorage.getItem(selectedSubjectsStorageKey),
     );
 
+    // Migrate the old shared storage once, retaining only subjects available
+    // in the current timetable scope so master and bachelor choices stay separate.
+    if (storedSelectedSubjects === null) {
+        const legacySelectedSubjects = JSON.parse(
+            localStorage.getItem("selectedSubjects"),
+        ) || [];
+        storedSelectedSubjects = legacySelectedSubjects.filter((subjectId) =>
+            pageDegreeSubjects.has(subjectId.split("-")[0]),
+        );
+        localStorage.setItem(
+            selectedSubjectsStorageKey,
+            JSON.stringify(storedSelectedSubjects),
+        );
+    }
+
+    const selectedSubjects = new Set(storedSelectedSubjects);
+
+    const degreeCodes = ["33502", "33503", "33508", "33516", "33519"];
+
+    function getSubjectButtons(subjectId) {
+        return document.querySelectorAll(`[data-subject-id="${subjectId}"]`);
+    }
+
+    function setSubjectButtonsSelected(subjectId, isSelected) {
+        for (const button of getSubjectButtons(subjectId)) {
+            for (const degreeCode of degreeCodes) {
+                const enabledClass = `c-${degreeCode}`;
+                const disabledClass = `c-${degreeCode}-disabled`;
+                if (isSelected && button.classList.contains(enabledClass)) {
+                    button.classList.replace(enabledClass, disabledClass);
+                } else if (!isSelected && button.classList.contains(disabledClass)) {
+                    button.classList.replace(disabledClass, enabledClass);
+                }
+            }
+
+            button.classList.toggle("bg-black", isSelected);
+            button.classList.toggle("text-white", isSelected);
+            button.classList.toggle("dark:bg-white", isSelected);
+            button.classList.toggle("dark:text-black", isSelected);
+            button.classList.toggle("subjIsSelected", isSelected);
+            button.classList.toggle("bg-gray-50", !isSelected);
+            button.classList.toggle("dark:bg-gray-900", !isSelected);
+            button.classList.toggle("dark:text-white", !isSelected);
+        }
+    }
+
     function toggleSubject(subjectId) {
-        let button = document.getElementById("dialog-" + subjectId);
+        const wasSelected = selectedSubjects.has(subjectId);
+        setSubjectButtonsSelected(subjectId, !wasSelected);
 
-        if (selectedSubjects.has(subjectId)) {  // If subject is in JSON, then remove it
-            if (button.classList.contains("c-33502-disabled")) {
-                button.classList.remove("c-33502-disabled")
-                button.classList.add("c-33502")
-            } else if (button.classList.contains("c-33508-disabled")) {
-                button.classList.remove("c-33508-disabled")
-                button.classList.add("c-33508")
-            } else if (button.classList.contains("c-33516-disabled")) {
-                button.classList.remove("c-33516-disabled")
-                button.classList.add("c-33516")
-            } else if (button.classList.contains("c-33519-disabled")) {
-                button.classList.remove("c-33519-disabled")
-                button.classList.add("c-33519")
-            } else if (button.classList.contains("c-33503-disabled")) {
-                button.classList.remove("c-33503-disabled")
-                button.classList.add("c-33503")
+        const subjectCode = subjectId.split("-")[0];
+        const subjectDiv = document.getElementById(subjectCode);
+        const channelDiv = document.getElementById(subjectId);
+
+        if (wasSelected) {
+            const selectedChannelsForSubject = Array.from(selectedSubjects)
+                .filter((item) => item.startsWith(`${subjectCode}-`));
+            if (selectedChannelsForSubject.length === 1 && subjectDiv) {
+                subjectDiv.classList.add("hidden");
             }
-
-            button.classList.remove(
-                "bg-black",
-                "text-white",
-                "dark:bg-white",
-                "dark:text-black",
-                "subjIsSelected"
-            );
-            button.classList.add(
-                "bg-gray-50",
-                "dark:bg-gray-900",
-                "dark:text-white",
-            );
-
-            let subjectCode = subjectId.split("-")[0];
-
-            // Hide this subject's timetable div only if the subject was not also added with another channel
-            let otherSubjectIdsWithSameCode = Array.from(
-                selectedSubjects,
-            ).filter((item) => item.startsWith(subjectCode));
-            if (otherSubjectIdsWithSameCode.length === 1) {
-                let subject_div = document.getElementById(subjectCode);
-                if (subject_div) subject_div.classList.add("hidden");
-            }
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.add("hidden");
-
+            if (channelDiv) channelDiv.classList.add("hidden");
             selectedSubjects.delete(subjectId);
-        } else {    // If subject is not in the JSON, then add it
-            if (button.classList.contains("c-33502")) {
-                button.classList.add("c-33502-disabled")
-                button.classList.remove("c-33502")
-            } else if (button.classList.contains("c-33508")) {
-                button.classList.add("c-33508-disabled")
-                button.classList.remove("c-33508")
-            } else if (button.classList.contains("c-33516")) {
-                button.classList.add("c-33516-disabled")
-                button.classList.remove("c-33516")
-            } else if (button.classList.contains("c-33519")) {
-                button.classList.add("c-33519-disabled")
-                button.classList.remove("c-33519")
-            } else if (button.classList.contains("c-33503")) {
-                button.classList.add("c-33503-disabled")
-                button.classList.remove("c-33503")
-            }
-
-            button.classList.remove(
-                "bg-gray-50",
-                "dark:bg-gray-900",
-                "dark:text-white",
-            );
-            button.classList.add(
-                "bg-black",
-                "text-white",
-                "dark:bg-white",
-                "dark:text-black",
-                "subjIsSelected"
-            );
-
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode);
-            if (subject_div) subject_div.classList.remove("hidden");
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.remove("hidden");
-
+        } else {
+            if (subjectDiv) subjectDiv.classList.remove("hidden");
+            if (channelDiv) channelDiv.classList.remove("hidden");
             selectedSubjects.add(subjectId);
         }
 
         localStorage.setItem(
-            "selectedSubjects",
+            selectedSubjectsStorageKey,
             JSON.stringify(Array.from(selectedSubjects)),
         );
 
@@ -263,46 +316,14 @@
 
     addEventListener("DOMContentLoaded", () => {
         for (const subjectId of selectedSubjects) {
-            const button = document.getElementById("dialog-" + subjectId);
+            setSubjectButtonsSelected(subjectId, true);
 
-            if (button) { // Check if the button exists
-                if (button.classList.contains("c-33502")) {
-                    button.classList.add("c-33502-disabled");
-                    button.classList.remove("c-33502");
-                } else if (button.classList.contains("c-33508")) {
-                    button.classList.add("c-33508-disabled");
-                    button.classList.remove("c-33508");
-                } else if (button.classList.contains("c-33516")) {
-                    button.classList.add("c-33516-disabled");
-                    button.classList.remove("c-33516");
-                } else if (button.classList.contains("c-33519")) {
-                    button.classList.add("c-33519-disabled");
-                    button.classList.remove("c-33519");
-                } else if (button.classList.contains("c-33503")) {
-                    button.classList.add("c-33503-disabled");
-                    button.classList.remove("c-33503");
-                }
+            const subjectCode = subjectId.split("-")[0];
+            const subjectDiv = document.getElementById(subjectCode);
+            if (subjectDiv) subjectDiv.classList.remove("hidden");
 
-                button.classList.remove(
-                    "bg-gray-50",
-                    "dark:bg-gray-900",
-                    "dark:text-white",
-                );
-                button.classList.add(
-                    "bg-black",
-                    "text-white",
-                    "dark:bg-white",
-                    "dark:text-black",
-                    "subjIsSelected"
-                );
-            }
-
-            let subjectCode = subjectId.split("-")[0];
-            let subject_div = document.getElementById(subjectCode);
-            if (subject_div) subject_div.classList.remove("hidden");
-
-            let channel_div = document.getElementById(subjectId);
-            if (channel_div) channel_div.classList.remove("hidden");
+            const channelDiv = document.getElementById(subjectId);
+            if (channelDiv) channelDiv.classList.remove("hidden");
         }
 
         fillTimetable("customSchedule", Array.from(selectedSubjects), Array.from(pageDegreeSubjects), 0);

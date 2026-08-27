@@ -2,6 +2,9 @@
   "1022263": {
     "subject": "INTERAZIONE UOMO MACCHINA",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -33,6 +36,9 @@
   "1022264": {
     "subject": "LINGUAGGI DI PROGRAMMAZIONE",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -64,6 +70,9 @@
   "1022267": {
     "subject": "PROGRAMMAZIONE PER IL WEB",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -91,6 +100,9 @@
   "1022301": {
     "subject": "INGEGNERIA DEL SOFTWARE",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -124,6 +136,9 @@
   "1023608": {
     "subject": "Basi di dati",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "luned\u00ec": [
@@ -198,6 +213,9 @@
   "1041727": {
     "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -229,6 +247,9 @@
   "1044406": {
     "subject": "BIG DATA COMPUTING",
     "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -264,6 +285,9 @@
   "1044415": {
     "subject": "MOBILE APPLICATIONS AND CLOUD COMPUTING",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -288,74 +312,12 @@
     },
     "code": "1044415"
   },
-  "1047618": {
-    "subject": "COMPUTER VISION",
-    "degree": "33508",
-    "channels": {
-      "0": {
-        "marted\u00ec": [
-          {
-            "teachers": {},
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "gioved\u00ec": [
-          {
-            "teachers": {},
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047618"
-  },
-  "1047622": {
-    "subject": "CRYPTOGRAPHY",
-    "degree": "33508",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-            },
-            "timeslot": "11 - 13",
-            "classrooms": {
-              "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047622"
-  },
-  "1047642": {
-    "subject": "SECURITY IN SOFTWARE APPLICATIONS",
-    "degree": "33508",
-    "channels": {
-      "0": {
-        "venerd\u00ec": [
-          {
-            "teachers": {},
-            "timeslot": "16 - 19",
-            "classrooms": {
-              "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1047642"
-  },
   "1055050": {
     "subject": "RISK MANAGEMENT",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -382,6 +344,9 @@
   "1055061": {
     "subject": "SECURITY GOVERNANCE",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -413,6 +378,9 @@
   "1055681": {
     "subject": "MALWARE ANALYSIS AND INCIDENT FORENSICS",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -455,6 +423,9 @@
   "10593235": {
     "subject": "PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -486,6 +457,9 @@
   "10595525": {
     "subject": "PROBABILITY",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -515,6 +489,9 @@
   "10595529": {
     "subject": "CALCULUS 2",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -544,6 +521,9 @@
   "10595530": {
     "subject": "FOUNDATIONS OF COMPUTER SCIENCE",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -575,6 +555,9 @@
   "10595531": {
     "subject": "DEEP LEARNING",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -606,6 +589,9 @@
   "10595532": {
     "subject": "CYBERSECURITY",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -637,6 +623,9 @@
   "10595534": {
     "subject": "WEB AND SOFTWARE ARCHITECTURE",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -668,6 +657,9 @@
   "10595616_1": {
     "subject": "SYSTEMS AND NETWORKING UNIT I",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -697,6 +689,9 @@
   "10595616_2": {
     "subject": "SYSTEMS AND NETWORKING UNIT II",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -726,6 +721,9 @@
   "10595617_1": {
     "subject": "DATA MANAGEMENT AND ANALYSIS UNIT 1",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -751,6 +749,9 @@
   "10606972": {
     "subject": "DATA SCIENCE E DIRITTO",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -778,6 +779,9 @@
   "10616636": {
     "subject": "MACHINE LEARNING SECURITY",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -809,6 +813,9 @@
   "10620600": {
     "subject": "ALGORITMI 2",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "marted\u00ec": [
@@ -862,6 +869,9 @@
   "10620601": {
     "subject": "ARCHITETTURA DEGLI ELABORATORI 1",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "luned\u00ec": [
@@ -915,6 +925,9 @@
   "10620642": {
     "subject": "SISTEMI OPERATIVI",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "marted\u00ec": [
@@ -983,6 +996,9 @@
   "10621403": {
     "subject": "SECURITY AND PRIVACY OF SMART ENVIRONMENTS",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1014,6 +1030,9 @@
   "10625773": {
     "subject": "FOUNDATIONS OF DATA SCIENCE",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1047,6 +1066,9 @@
   "10626055": {
     "subject": "DISTRIBUTED SYSTEMS",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1078,6 +1100,9 @@
   "10626272": {
     "subject": "NETWORK INFRASTRUCTURES",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1110,6 +1135,10 @@
   "10626358": {
     "subject": "SECURITY IN SOFTWARE APPLICATIONS",
     "degree": "33508",
+    "degrees": [
+      "33508",
+      "33516"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -1136,6 +1165,9 @@
   "10626703": {
     "subject": "Computer systems and programming",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1163,6 +1195,9 @@
   "10626793": {
     "subject": "ADVANCED MACHINE LEARNING",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1194,6 +1229,10 @@
   "10626968": {
     "subject": "BIOMETRIC SYSTEMS",
     "degree": "33516",
+    "degrees": [
+      "33508",
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1225,6 +1264,9 @@
   "10627173": {
     "subject": "MODELS OF COMPUTATION",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1256,6 +1298,9 @@
   "10627226": {
     "subject": "LINEAR ALGEBRA",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1285,6 +1330,10 @@
   "10627472": {
     "subject": "QUANTUM COMPUTING",
     "degree": "33508",
+    "degrees": [
+      "33508",
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1316,6 +1365,10 @@
   "10627535": {
     "subject": "BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES",
     "degree": "33508",
+    "degrees": [
+      "33508",
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1347,6 +1400,9 @@
   "10627537": {
     "subject": "AUTOMATIC VERIFICATION OF INTELLIGENT SYSTEMS",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1378,6 +1434,9 @@
   "10627562": {
     "subject": "BIG DATA COMPUTING",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -1409,6 +1468,9 @@
   "10627582": {
     "subject": "COMPUTATIONAL COMPLEXITY",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1440,6 +1502,9 @@
   "10628014": {
     "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
     "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1467,6 +1532,9 @@
   "10628017": {
     "subject": "COMPUTER VISION",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1498,6 +1566,9 @@
   "10628018": {
     "subject": "DISTRIBUTED SYSTEMS",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1529,6 +1600,9 @@
   "10628189": {
     "subject": "FONDAMENTI DI PROGRAMMAZIONE",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "luned\u00ec": [
@@ -1604,6 +1678,9 @@
   "10628280": {
     "subject": "NETWORK ALGORITHMS",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1635,6 +1712,9 @@
   "10628637": {
     "subject": "STATISTICS",
     "degree": "33516",
+    "degrees": [
+      "33516"
+    ],
     "channels": {
       "0": {
         "gioved\u00ec": [
@@ -1655,6 +1735,9 @@
   "10628736": {
     "subject": "AUTONOMOUS NETWORKING",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "gioved\u00ec": [
@@ -1686,6 +1769,9 @@
   "10629400": {
     "subject": "Fundamentals of Data Science",
     "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1717,6 +1803,9 @@
   "10629525": {
     "subject": "HIGH-PERFORMANCE COMPUTING",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -1750,6 +1839,9 @@
   "10629623": {
     "subject": "METODI MATEMATICI PER L'INFORMATICA",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "marted\u00ec": [
@@ -1803,6 +1895,9 @@
   "10630015": {
     "subject": "COMPUTER NETWORK PERFORMANCE",
     "degree": "33508",
+    "degrees": [
+      "33508"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1834,6 +1929,10 @@
   "10630016": {
     "subject": "CRYPTOGRAPHY",
     "degree": "33508",
+    "degrees": [
+      "33508",
+      "33516"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1865,6 +1964,9 @@
   "10630324_1": {
     "subject": "CALCULUS UNIT 1",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -1894,6 +1996,9 @@
   "10630468_1": {
     "subject": "PROGRAMMING UNIT 1",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [
@@ -1925,6 +2030,9 @@
   "10630468_2": {
     "subject": "PROGRAMMING UNIT 2",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "mercoled\u00ec": [
@@ -1958,6 +2066,9 @@
   "10631060_1": {
     "subject": "COMPUTER ARCHITECTURE UNIT 1",
     "degree": "33502",
+    "degrees": [
+      "33502"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -1987,6 +2098,9 @@
   "10631195_1": {
     "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "1": {
         "marted\u00ec": [
@@ -2039,6 +2153,9 @@
   "10631198": {
     "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
     "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
     "channels": {
       "0": {
         "venerd\u00ec": [
@@ -2059,6 +2176,9 @@
   "97597": {
     "subject": "FISICA",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "marted\u00ec": [
@@ -2090,6 +2210,9 @@
   "AAF2511": {
     "subject": "INGLESE LIVELLO B2",
     "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
     "channels": {
       "0": {
         "luned\u00ec": [

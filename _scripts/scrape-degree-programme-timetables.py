@@ -129,6 +129,9 @@ def get_deterministic_timetables(timetables_dict):
         ordered_dict[course_code] = {
             "subject": course_data.get("subject"),
             "degree": course_data.get("degree"),
+            "degrees": sorted(set(
+                course_data.get("degrees", [course_data.get("degree")])
+            )),
             "channels": ordered_channels,
             "code": course_data.get("code")
         }
@@ -257,6 +260,7 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                         course_timetables_dict[course_code] = {
                             "subject": ' '.join(course_column.find('a').text.split()[1:]),
                             "degree": degree_programme_code,
+                            "degrees": [degree_programme_code],
                             "channels": {},
                             "code": course_column.find(class_='codiceInsegnamento').text
                         }
@@ -269,6 +273,12 @@ def extract_timetables_and_teachers(DOM, semester, degree_programme_code, course
                         # 10589555 - Practical Network Defense
                         if course_code in ("10626968", "10589555"):
                             course_timetables_dict[course_code]["degree"] = "33516"
+
+                    course_degrees = course_timetables_dict[course_code].setdefault(
+                        "degrees", [course_timetables_dict[course_code].get("degree", degree_programme_code)]
+                    )
+                    if degree_programme_code not in course_degrees:
+                        course_degrees.append(degree_programme_code)
 
                     if f"{channel}" not in course_timetables_dict[course_code]["channels"]:
                         course_timetables_dict[course_code]["channels"][f"{channel}"] = {}
@@ -542,37 +552,40 @@ def normalize_and_deduplicate_schedules(course_timetables_dict):
 
 
 def reconcile_legacy_course_codes(course_timetables_dict, code_mapping):
-    """
-    Moves legacy-only timetable entries to their current course code and
-    removes legacy duplicates when both entries have the same timetable data.
-    """
+    """Merge legacy aliases into current codes and remove every legacy key."""
     for legacy_code, current_code in code_mapping.items():
         legacy_course = course_timetables_dict.get(legacy_code)
-        current_course = course_timetables_dict.get(current_code)
-
         if legacy_course is None:
             continue
-
+        current_course = course_timetables_dict.get(current_code)
         if current_course is None:
-            course_timetables_dict[current_code] = course_timetables_dict.pop(legacy_code)
-            course_timetables_dict[current_code]["code"] = current_code
+            current_course = course_timetables_dict.pop(legacy_code)
+            current_course["code"] = current_code
+            course_timetables_dict[current_code] = current_course
             continue
-
-        legacy_data = {
-            "subject": legacy_course.get("subject"),
-            "channels": normalize_unassigned_teachers(
-                legacy_course.get("channels", {})
-            )
-        }
-        current_data = {
-            "subject": current_course.get("subject"),
-            "channels": normalize_unassigned_teachers(
-                current_course.get("channels", {})
-            )
-        }
-
-        if legacy_data == current_data:
-            del course_timetables_dict[legacy_code]
+        current_degrees = current_course.setdefault("degrees", [current_course.get("degree")])
+        for degree in legacy_course.get("degrees", [legacy_course.get("degree")]):
+            if degree and degree not in current_degrees:
+                current_degrees.append(degree)
+        for channel, days in legacy_course.get("channels", {}).items():
+            current_channel = current_course.setdefault("channels", {}).setdefault(channel, {})
+            for day, schedules in days.items():
+                current_schedules = current_channel.setdefault(day, [])
+                for schedule in schedules:
+                    matching_schedule = next((
+                        existing for existing in current_schedules
+                        if existing.get("timeslot") == schedule.get("timeslot")
+                        and existing.get("classrooms") == schedule.get("classrooms")
+                        and existing.get("classroomInfo") == schedule.get("classroomInfo")
+                        and existing.get("classroomUrl") == schedule.get("classroomUrl")
+                    ), None)
+                    if matching_schedule is None:
+                        current_schedules.append(schedule)
+                    else:
+                        matching_schedule.setdefault("teachers", {}).update(
+                            schedule.get("teachers", {})
+                        )
+        del course_timetables_dict[legacy_code]
 
 
 def apply_manual_overrides(course_timetables_dict, degree_programme_code):
