@@ -140,14 +140,21 @@
             {{ $degrees := dict }}
             {{ if or (eq $pageDegreeCode "33503") (eq $pageDegreeCode "33502") }}
                 {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" }}
-            {{ else if or (eq $pageDegreeCode "33508") (eq $pageDegreeCode "33516") (eq $pageDegreeCode "33519") }}
+            {{ else if eq $pageDegreeCode "33508" }}
+                {{ $degrees = dict
+                    "33508" "Computer Science"
+                    "33516" "Cybersecurity"
+                    "33519" "Data Science"
+                    "33514" "Artificial Intelligence and Robotics"
+                }}
+            {{ else if or (eq $pageDegreeCode "33516") (eq $pageDegreeCode "33519") }}
                 {{ $degrees = dict "33508" "Computer Science" "33516" "Cybersecurity" "33519" "Data Science" }}
             {{ else }}
                 {{ $degrees = dict "33503" "Informatica" "33502" "ACSAI" "33508" "Computer Science" "33516" "Cybersecurity" "33519" "Data Science"
             }}
             {{ end }}
 
-            {{ $colors := dict "33503" "#709DD1" "33502" "#B15252" "33508" "#49C15B" "33516" "#FCC005" "33519" "#FF781F" }}
+            {{ $colors := dict "33503" "#709DD1" "33502" "#B15252" "33508" "#49C15B" "33516" "#FCC005" "33519" "#FF781F" "33514" "#A9522B" }}
 
             {{ $hardcodedDataTimetables := site.Data.hardcodedTimetables }}
             {{ $dataTimetables := site.Data.timetables }}
@@ -202,7 +209,30 @@
                 {{ end }}
             {{ end }}
 
-            {{ range $degreeCode, $degreeName := $degrees }}
+            {{ $orderedDegreeCodes := slice }}
+            {{ if or (eq $pageDegreeCode "33503") (eq $pageDegreeCode "33502") }}
+                {{ $orderedDegreeCodes = slice "33502" "33503" }}
+            {{ else if eq $pageDegreeCode "33508" }}
+                {{/* Keep AIRO last, after the other master's degree sections. */}}
+                {{ $orderedDegreeCodes = slice "33508" "33516" "33519" "33514" }}
+            {{ else if or (eq $pageDegreeCode "33516") (eq $pageDegreeCode "33519") }}
+                {{ $orderedDegreeCodes = slice "33508" "33516" "33519" }}
+            {{ else }}
+                {{ $orderedDegreeCodes = slice "33502" "33503" "33508" "33516" "33519" }}
+            {{ end }}
+
+            {{ range $degreeCode := $orderedDegreeCodes }}
+                {{ $degreeName := index $degrees $degreeCode }}
+                {{ $degreeCourses := slice }}
+                {{ range $code, $data := $allCourses }}
+                    {{ $courseDegrees := $data.degrees | default (slice $data.degree) }}
+                    {{ if and (not (index $legacyCourseCodes $code)) (in $courseDegrees $degreeCode) }}
+                        {{ $degreeCourses = $degreeCourses | append $code }}
+                    {{ end }}
+                {{ end }}
+
+                {{/* Do not render empty sections, including AIRO when no current timetable exists. */}}
+                {{ if gt (len $degreeCourses) 0 }}
             <section class="subjsDegreeSection" data-subject-section>
             <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
                 <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
@@ -210,35 +240,34 @@
             </h2>
 
             <div class="subjsSingCourse">
-                {{ range $code, $data := $allCourses }}
-                    {{ $courseDegrees := $data.degrees | default (slice $data.degree) }}
-                    {{ if and (not (index $legacyCourseCodes $code)) (in $courseDegrees $degreeCode) }}
-                        {{ $subject_info := index $courses $code }}
-                        {{ range $channel_id, $_ := $data.channels }}
-                        <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
-                            data-subject-id="{{ $code }}-{{ $channel_id }}"
-                            class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
-                            onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
-                            <span class="w-full truncate text-left">
-                                {{ $subject_info.name }}
-                                {{ if ne $channel_id "0" }}
-                                    {{ if eq $channel_id "1" }}
-                                        (A-L)
-                                    {{ else if eq $channel_id "2" }}
-                                        (M-Z)
-                                    {{ else }}
-                                        (Canale {{ $channel_id }})
-                                    {{ end }}
+                {{ range $code := $degreeCourses }}
+                    {{ $data := index $allCourses $code }}
+                    {{ $subject_info := index $courses $code }}
+                    {{ range $channel_id, $_ := $data.channels }}
+                    <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
+                        data-subject-id="{{ $code }}-{{ $channel_id }}"
+                        class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                        onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                        <span class="w-full truncate text-left">
+                            {{ $subject_info.name }}
+                            {{ if ne $channel_id "0" }}
+                                {{ if eq $channel_id "1" }}
+                                    (A-L)
+                                {{ else if eq $channel_id "2" }}
+                                    (M-Z)
+                                {{ else }}
+                                    (Canale {{ $channel_id }})
                                 {{ end }}
-                            </span>
-                        </button>
-                        {{ end }}
+                            {{ end }}
+                        </span>
+                    </button>
                     {{ end }}
                 {{ end }}
             </div>
 
             <div class="subjsSectionDivider"></div>
             </section>
+                {{ end }}
             {{ end }}
 
             {{ if $showRecommendedBachelorCourses }}
@@ -326,7 +355,7 @@
 
     const selectedSubjects = new Set(storedSelectedSubjects);
 
-    const degreeCodes = ["33502", "33503", "33508", "33516", "33519"];
+    const degreeCodes = ["33502", "33503", "33508", "33514", "33516", "33519"];
 
     function getSubjectButtons(subjectId) {
         return document.querySelectorAll(`[data-subject-id="${subjectId}"]`);
