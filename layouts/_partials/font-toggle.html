@@ -1,6 +1,6 @@
 <!-- style="margin-top: 20px; margin-bottom: 10px;" -->
 
-<div>
+<div class="flex justify-center items-center">
     <!--
         Overriding the theme's rule (in _defaults.scss).
         Without display: initial, the label defaults to display: flex,
@@ -13,12 +13,12 @@
 </div>
 
 <script>
-    addEventListener("DOMContentLoaded", (event) => { 
+    addEventListener("DOMContentLoaded", (event) => {
     let fontElement = document.getElementById('font');
 
     let isFontDSA = localStorage.getItem("isFontDSA");
     if (isFontDSA) {
-        fontElement.checked = true; 
+        fontElement.checked = true;
         document.body.classList.add('dyslexic');
     }
 
