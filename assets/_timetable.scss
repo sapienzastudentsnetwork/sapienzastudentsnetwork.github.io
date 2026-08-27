@@ -220,9 +220,9 @@ table th {
     display: flex;
     flex-direction: column;
     margin-bottom: 4px;
-    height: 100%;
+    height: auto;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: visible;
 }
 
 .subjsSingCourse {
@@ -243,14 +243,35 @@ table th {
     border-radius: 4px;
     transition: background-color 0.2s, transform 0.2s;
 
-    &:hover {
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .subjButton:hover {
         background-color: var(--subjbutton-hover-bg);
     }
 }
 
+.subjButton[hidden],
+.subjsDegreeSection[hidden] {
+    display: none !important;
+}
+
+.subjButton:focus {
+    outline: none;
+}
+
+.subjButton:focus-visible {
+    outline: 2px solid var(--body-font-color);
+    outline-offset: 2px;
+}
+
+.subjButton:active {
+    transform: scale(0.98);
+}
+
 .subjIsSelected {
-    background-color: rgba(168, 172, 185, 0.75);
     border: none;
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.16);
 }
 
 .c-33502 {
@@ -275,23 +296,83 @@ table th {
 
 /* Left border indicators for selected subjects */
 .c-33502-disabled {
+    background-color: rgba(143, 61, 61, 0.92);
     border-left: 3px solid #B15252;
 }
 
 .c-33503-disabled {
+    background-color: rgba(52, 119, 153, 0.92);
     border-left: 3px solid #709DD1;
 }
 
 .c-33508-disabled {
+    background-color: rgba(48, 137, 72, 0.92);
     border-left: 3px solid #49C15B;
 }
 
 .c-33516-disabled {
+    background-color: rgba(112, 82, 0, 0.96);
     border-left: 3px solid #FCC005;
 }
 
 .c-33519-disabled {
+    background-color: rgba(201, 82, 14, 0.94);
     border-left: 3px solid #FF781F;
+}
+
+.subjsSearchWrap {
+    display: flex;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto 0.75rem;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.55rem 0.75rem;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--body-background);
+}
+
+#subjsSearch {
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: var(--body-font-color);
+    font: inherit;
+}
+
+.subjsSectionDivider {
+    width: 99%;
+    height: 1px;
+    margin: 20px auto 0;
+    background-color: #444;
+}
+
+@media screen and (max-width: 799px) {
+    .subjsDial { padding: 12px; }
+    #subjsSelTitle { margin-bottom: 0.75rem; line-height: 1.25; }
+    .subjsList { padding-right: 0; }
+    .subjsSingCourse { gap: 8px; }
+    .subjButton {
+        width: 100%;
+        min-height: 48px;
+        height: auto;
+        margin: 0;
+        padding: 0.65rem 1rem;
+        border-radius: 8px;
+        line-height: 1.25;
+    }
+    .subjButton > span {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: clip;
+        text-align: center;
+        text-wrap: balance;
+    }
+    .subjsGroupTitle { margin: 16px 0 12px; text-align: center; }
 }
 
 #subjsCloseMenu {

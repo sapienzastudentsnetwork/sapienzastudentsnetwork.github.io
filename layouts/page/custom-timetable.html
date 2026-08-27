@@ -130,6 +130,10 @@
     onclick="closeSubjectsDialog()">
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
+        <label class="subjsSearchWrap" for="subjsSearch">
+            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+            <input id="subjsSearch" type="search" autocomplete="off" placeholder="Search subjects..." aria-label="Search subjects" oninput="filterSubjects(this.value)">
+        </label>
         <div class="subjsList mb-4 h-full w-full overflow-y-scroll pr-4">
             {{ $courses := site.Data.courses }}
 
@@ -199,6 +203,7 @@
             {{ end }}
 
             {{ range $degreeCode, $degreeName := $degrees }}
+            <section class="subjsDegreeSection" data-subject-section>
             <h2 class="subjsGroupTitle" id="subjs{{ $degreeName }}">
                 <span style="color: {{ index $colors $degreeCode }}">{{ $degreeName }}</span>
                 <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
@@ -232,12 +237,14 @@
                 {{ end }}
             </div>
 
-            <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
+            <div class="subjsSectionDivider"></div>
+            </section>
             {{ end }}
 
             {{ if $showRecommendedBachelorCourses }}
+            <section class="subjsDegreeSection" data-subject-section>
             <h2 class="subjsGroupTitle" id="subjsRecommendedBachelorCourses">
-                <span style="color: #709DD1">Recommended bachelor-level electives</span>
+                <span style="color: #709DD1">Bachelor-level electives</span>
             </h2>
 
             <div class="subjsSingCourse">
@@ -268,7 +275,8 @@
                 {{ end }}
             </div>
 
-            <div style="width: 99%; height: 1px; background-color: #444; margin: 20px auto 0 auto;"></div>
+            <div class="subjsSectionDivider"></div>
+            </section>
             {{ end }}
         </div>
         <button id="subjsCloseMenu" onclick="closeSubjectsDialog()">
@@ -356,18 +364,26 @@
                     button.classList.replace(disabledClass, enabledClass);
                 }
             }
-
-            button.classList.toggle("bg-black", isSelected);
-            button.classList.toggle("text-white", isSelected);
-            button.classList.toggle("dark:bg-white", isSelected);
-            button.classList.toggle("dark:text-black", isSelected);
             button.classList.toggle("subjIsSelected", isSelected);
-            button.classList.toggle("bg-gray-50", !isSelected);
-            button.classList.toggle("dark:bg-gray-900", !isSelected);
-            button.classList.toggle("dark:text-white", !isSelected);
         }
     }
 
+    function normalizeSubjectSearch(value) {
+        return value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase().trim();
+    }
+    function filterSubjects(query) {
+        const terms = normalizeSubjectSearch(query).split(/\s+/).filter(Boolean);
+        for (const section of document.querySelectorAll("[data-subject-section]")) {
+            let matchesInSection = 0;
+            for (const button of section.querySelectorAll(".subjButton")) {
+                const name = normalizeSubjectSearch(button.textContent);
+                const matches = terms.every((term) => name.includes(term));
+                button.hidden = !matches;
+                if (matches) matchesInSection += 1;
+            }
+            section.hidden = matchesInSection === 0;
+        }
+    }
     function toggleSubject(subjectId) {
         const wasSelected = selectedSubjects.has(subjectId);
         setSubjectButtonsSelected(subjectId, !wasSelected);
@@ -621,6 +637,9 @@
     }
     function openSubjectsDialog() {
         const dialog = document.getElementById("subjsPopUp");
+        const search = document.getElementById("subjsSearch");
+        if (search) search.value = "";
+        filterSubjects("");
         positionSubjectsDialog();
         dialog.showModal();
         requestAnimationFrame(positionSubjectsDialog);
