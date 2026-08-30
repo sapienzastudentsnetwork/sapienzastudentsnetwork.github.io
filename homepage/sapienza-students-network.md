@@ -6,4 +6,5 @@ type: page/
 ssnLanguage: it
 translationHref: /en/sapienza-students-network/
 ---
-Sapienza Students Network
+
+Presentazione di Sapienza Students Network, organizzazione studentesca indipendente che sviluppa community, progetti open source e servizi digitali.Sapienza Students Network

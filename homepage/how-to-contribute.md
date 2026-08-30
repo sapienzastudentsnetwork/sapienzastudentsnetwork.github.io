@@ -2,6 +2,7 @@
 title: "Come contribuire"
 bookHidden: true
 bookToC: true
+description: "Guida per contribuire a SapienzaStudents.net correggendo contenuti, segnalando problemi o proponendo nuove risorse."
 ---
 
 <script defer src="/js/language-preference.js"></script>

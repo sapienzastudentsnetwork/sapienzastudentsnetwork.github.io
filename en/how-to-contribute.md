@@ -2,6 +2,7 @@
 title: "How to contribute"
 bookHidden: true
 bookToC: true
+description: "Guide to contributing to SapienzaStudents.net by improving content, reporting problems or proposing new resources."
 ---
 
 <script defer src="/js/language-preference.js"></script>
