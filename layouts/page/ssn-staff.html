@@ -16,7 +16,7 @@
       };
       var buttons = document.querySelectorAll('[data-preferred-language]');
       function browserLanguage() {
-        return /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+        return /^it(?:-|$)/i.test((navigator.languages && navigator.languages[0]) || navigator.language || 'en') ? 'it' : 'en';
       }
       function applyLanguage(language, remember) {
         document.querySelectorAll('[data-ssn-key]').forEach(function (element) {

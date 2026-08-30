@@ -25,7 +25,7 @@ bookToC: true
 (() => {
   const buttons = document.querySelectorAll('[data-guide-button]');
   const panels = document.querySelectorAll('[data-guide-panel]');
-  const browserLanguage = () => /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+  const browserLanguage = () => /^it(?:-|$)/i.test((navigator.languages && navigator.languages[0]) || navigator.language || 'en') ? 'it' : 'en';
   const apply = (value, remember = false) => {
     const language = value === 'it' ? 'it' : 'en';
     document.documentElement.lang = language;

@@ -298,7 +298,7 @@
     (() => {
         const buttons = document.querySelectorAll('[data-set-lang]');
         const entries = document.querySelectorAll('[data-en][data-it]');
-        const browserLanguage = () => /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+        const browserLanguage = () => /^it(?:-|$)/i.test((navigator.languages && navigator.languages[0]) || navigator.language || 'en') ? 'it' : 'en';
         const applyLanguage = (lang, remember = false) => {
             const selected = lang === 'it' ? 'it' : 'en';
             document.documentElement.lang = selected;
