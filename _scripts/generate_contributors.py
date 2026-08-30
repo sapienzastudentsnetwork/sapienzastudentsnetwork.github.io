@@ -361,12 +361,28 @@ def main() -> None:
     ranking_scopes = [*COURSE_PATHS, "sitewide", "all"]
     for scope in ranking_scopes:
         key = scope
-        payload = {
-            "generated_at": generated_at,
-            "source_commit": source_commit,
-            "contributors": collect_contributors(scope, identities, git_log),
-        }
+        contributors = collect_contributors(scope, identities, git_log)
         output_path = output_directory / f"{key}.json"
+
+        # Keep generation metadata stable when the actual ranking did not change.
+        # This prevents the scheduled workflow from committing timestamp-only
+        # updates (and source_commit changes caused by its own previous commit).
+        previous_payload = None
+        if output_path.exists():
+            try:
+                previous_payload = json.loads(output_path.read_text(encoding="utf-8"))
+            except (json.JSONDecodeError, OSError):
+                pass
+
+        if previous_payload and previous_payload.get("contributors") == contributors:
+            payload = previous_payload
+        else:
+            payload = {
+                "generated_at": generated_at,
+                "source_commit": source_commit,
+                "contributors": contributors,
+            }
+
         output_path.write_text(
             json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
