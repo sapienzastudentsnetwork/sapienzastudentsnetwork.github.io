@@ -127,7 +127,7 @@
 </dialog>
 
 <dialog class="h-full items-center rounded-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
-    onclick="closeSubjectsDialog()">
+    onclick="if (event.target === this) closeSubjectsDialog()">
     <div class="subjsDial flex h-full w-full flex-col items-start">
         <h2 id="subjsSelTitle">{{ T "Subjs_CustomTimetable_SelectMenuTitle" }}</h2>
         <label class="subjsSearchWrap" for="subjsSearch">
