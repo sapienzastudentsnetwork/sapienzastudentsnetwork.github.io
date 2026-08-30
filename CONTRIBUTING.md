@@ -1,7 +1,7 @@
 # Come contribuire
 
 > [!NOTE]
-> **English readers:** this document is written in Italian. Please refer to the [complete interactive contribution guide in English](https://sapienzastudents.net/how-to-contribute/).
+> **English readers:** this document is written in Italian. Please refer to the [complete interactive contribution guide in English](https://sapienzastudents.net/en/how-to-contribute/).
 
 > [!NOTE]
 > La versione più completa e interattiva di questa guida è disponibile anche [sul sito](https://sapienzastudents.net/how-to-contribute/).
