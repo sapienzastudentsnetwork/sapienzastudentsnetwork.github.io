@@ -1,53 +1,20 @@
 {{ define "main" }}
-{{ $isAboutPage := eq .RelPermalink "/sapienza-students-network/" }}
-{{ $lang := cond (eq .Site.Language.Lang "it") "it" "en" }}
+{{ $lang := .Params.ssnLanguage | default (cond (eq .Site.Language.Lang "it") "it" "en") }}
 {{ $ssn := index .Site.Data.ssn $lang }}
-<article class="markdown book-article">
-    {{ if $isAboutPage }}
+{{ with .Params.translationHref }}
+<script defer src="/js/language-preference.js"></script>
+{{ end }}
+<article class="markdown book-article" lang="{{ $lang }}">
+    {{ with .Params.translationHref }}
     <div class="language-switch" role="group" aria-label="Language / Lingua">
-        <button type="button" data-preferred-language="en" class="active" aria-pressed="true">English</button>
-        <button type="button" data-preferred-language="it" aria-pressed="false">Italiano</button>
+      {{ if eq $lang "en" }}
+        <button type="button" data-preferred-language="en" data-language-link="en" data-language-href="{{ $.RelPermalink }}" class="active" aria-pressed="true">English</button>
+        <button type="button" data-preferred-language="it" data-language-link="it" data-language-href="{{ . }}" aria-pressed="false">Italiano</button>
+      {{ else }}
+        <button type="button" data-preferred-language="en" data-language-link="en" data-language-href="{{ . }}" aria-pressed="false">English</button>
+        <button type="button" data-preferred-language="it" data-language-link="it" data-language-href="{{ $.RelPermalink }}" class="active" aria-pressed="true">Italiano</button>
+      {{ end }}
     </div>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var translations = {
-        en: {{ .Site.Data.ssn.en | jsonify | safeJS }},
-        it: {{ .Site.Data.ssn.it | jsonify | safeJS }}
-      };
-      var buttons = document.querySelectorAll('[data-preferred-language]');
-      function browserLanguage() {
-        return /^it(?:-|$)/i.test((navigator.languages && navigator.languages[0]) || navigator.language || 'en') ? 'it' : 'en';
-      }
-      function applyLanguage(language, remember) {
-        document.querySelectorAll('[data-ssn-key]').forEach(function (element) {
-          var value = translations[language][element.dataset.ssnKey];
-          if (typeof value !== 'undefined') element.innerHTML = value;
-        });
-        buttons.forEach(function (button) {
-          var active = button.dataset.preferredLanguage === language;
-          button.classList.toggle('active', active);
-          button.setAttribute('aria-pressed', active ? 'true' : 'false');
-        });
-        document.querySelector('.book-article').setAttribute('lang', language);
-        if (remember) {
-          try { localStorage.setItem('preferred-language', language); } catch (_) {}
-        }
-      }
-      buttons.forEach(function (button) {
-        button.addEventListener('click', function () { applyLanguage(button.dataset.preferredLanguage, true); });
-      });
-      var savedLanguage = null;
-      try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
-      var initialLanguage = savedLanguage === 'it' || savedLanguage === 'en'
-        ? savedLanguage
-        : browserLanguage();
-      var url = new URL(window.location.href);
-      if (url.searchParams.delete('lang')) {
-        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
-      }
-      applyLanguage(initialLanguage, false);
-    });
-    </script>
     {{ end }}
     <h1  class="text-center">
         Sapienza Students Network

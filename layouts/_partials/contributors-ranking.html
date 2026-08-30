@@ -131,7 +131,22 @@
   </div>
 {{- end -}}
 
+{{- if and $isGeneral .Params.translationHref }}
+<script defer src="/js/language-preference.js"></script>
+{{- end }}
+
 <article class="markdown book-article">
+  {{- if and $isGeneral .Params.translationHref }}
+    <div class="language-switch" role="group" aria-label="Language / Lingua">
+      {{- if eq (index $languages 0) "en" }}
+        <button type="button" data-contributors-button="en" data-language-link="en" data-language-href="{{ .RelPermalink }}" class="active" aria-pressed="true">English</button>
+        <button type="button" data-contributors-button="it" data-language-link="it" data-language-href="{{ .Params.translationHref }}" aria-pressed="false">Italiano</button>
+      {{- else }}
+        <button type="button" data-contributors-button="en" data-language-link="en" data-language-href="{{ .Params.translationHref }}" aria-pressed="false">English</button>
+        <button type="button" data-contributors-button="it" data-language-link="it" data-language-href="{{ .RelPermalink }}" class="active" aria-pressed="true">Italiano</button>
+      {{- end }}
+    </div>
+  {{- end }}
   {{- if gt (len $languages) 1 }}
     <div class="language-switch" role="group" aria-label="Language · Lingua">
       {{- range $languages }}
@@ -182,33 +197,3 @@
   {{- end }}
 </article>
 
-{{- if gt (len $languages) 1 }}
-<script>
-(() => {
-  const buttons = document.querySelectorAll('[data-contributors-button]');
-  const panels = document.querySelectorAll('[data-contributors-panel]');
-  const browserLanguage = () => /^it(?:-|$)/i.test((navigator.languages && navigator.languages[0]) || navigator.language || 'en') ? 'it' : 'en';
-  const apply = (value, remember = false) => {
-    const language = value === 'it' ? 'it' : 'en';
-    document.documentElement.lang = language;
-    buttons.forEach((button) => {
-      const active = button.dataset.contributorsButton === language;
-      button.classList.toggle('active', active);
-      button.setAttribute('aria-pressed', active ? 'true' : 'false');
-    });
-    panels.forEach((panel) => { panel.hidden = panel.dataset.contributorsPanel !== language; });
-    if (remember) {
-      try { localStorage.setItem('preferred-language', language); } catch (_) {}
-    }
-  };
-  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.contributorsButton, true)));
-  let savedLanguage = null;
-  try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
-  const url = new URL(location.href);
-  if (url.searchParams.delete('lang')) {
-    history.replaceState(null, '', url.pathname + url.search + url.hash);
-  }
-  apply(savedLanguage === 'it' || savedLanguage === 'en' ? savedLanguage : browserLanguage());
-})();
-</script>
-{{- end }}

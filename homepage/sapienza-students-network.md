@@ -1,9 +1,9 @@
 ---
 title: Sapienza Students Network
 bookHidden: true
-weight: 5
-layout: 'ssn-staff'
-type: 'page/'
+layout: ssn-staff
+type: page/
+ssnLanguage: it
+translationHref: /en/sapienza-students-network/
 ---
-
 Sapienza Students Network

@@ -1,10 +1,11 @@
 ---
-title: "Contributors · Collaboratori"
+title: "Collaboratori"
 bookHidden: true
 bookToC: false
 layout: "homepage"
 type: "page/contributors"
 contributorsKey: "all"
-contributorsLanguages: ["en", "it"]
+contributorsLanguage: "it"
 contributorsJoinHref: "/how-to-contribute/"
+translationHref: "/en/contributors/"
 ---

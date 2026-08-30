@@ -50,7 +50,7 @@
             {{ else }}
                 <!-- Otherwise, show all other languages (Computer Science Department) -->
                 {{ range .Site.Languages }}
-                    {{ if and (ne .Lang "33525") (ne .Lang "33526") }}
+                    {{ if and (ne .Lang "33525") (ne .Lang "33526") (ne .Lang "en") }}
                         {{ with index $translations .Lang }}
                         <li>
                             <a href="{{ .Permalink }}"> {{ .Language.Label }} </a>
