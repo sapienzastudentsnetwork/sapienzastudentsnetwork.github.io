@@ -36,7 +36,7 @@
                 </span>
             </span>
             <nav class="home-header-actions" aria-label="Sapienza Students Network links">
-                <a href="/sapienza-students-network/?lang=en" data-href-en="/sapienza-students-network/?lang=en" data-href-it="/sapienza-students-network/?lang=it">
+                <a href="/sapienza-students-network/" data-href-en="/sapienza-students-network/" data-href-it="/sapienza-students-network/">
                     <img src="/ssn.png" alt="" />
                     <span data-en="About us" data-it="Chi siamo">About us</span>
                 </a>
@@ -238,7 +238,7 @@
                 </div>
                 <div><strong>27k+</strong><span data-en="Clicks from Google Search" data-it="Clic dalla Ricerca Google">Clicks from Google Search</span></div>
                 <div><strong>{{ $homepageStats.pages }}</strong><span data-en="Pages" data-it="Pagine">Pages</span></div>
-                <div><strong>{{ $homepageStats.contributors }}</strong><span><a href="/contributors/?lang=en" data-href-en="/contributors/?lang=en" data-href-it="/contributors/?lang=it" data-en="People who contributed →" data-it="Persone che hanno contribuito →">People who contributed →</a></span></div>
+                <div><strong>{{ $homepageStats.contributors }}</strong><span><a href="/contributors/" data-href-en="/contributors/" data-href-it="/contributors/" data-en="People who contributed →" data-it="Persone che hanno contribuito →">People who contributed →</a></span></div>
             </div>
             <p class="home-extra-note" data-en="Google Search Console data over 16 months." data-it="Dati Google Search Console su 16 mesi.">Google Search Console data over 16 months.</p>
         </section>
@@ -259,7 +259,7 @@
                 </p>
             </div>
             <div class="home-link-list home-contribute-links">
-                <a class="home-guide-link" href="/it/contribuire/come-contribuire/" data-href-en="/how-to-contribute/?lang=en" data-href-it="/how-to-contribute/?lang=it"><span data-en="Guide" data-it="Guida">Guide</span>
+                <a class="home-guide-link" href="/it/contribuire/come-contribuire/" data-href-en="/how-to-contribute/" data-href-it="/how-to-contribute/"><span data-en="Guide" data-it="Guida">Guide</span>
                     <strong data-en="Read the guide on how to contribute" data-it="Leggi la guida su come contribuire">Read the guide on how to contribute</strong><b data-en="Open →" data-it="Apri →">Open →</b></a>
                 <a href="https://github.com/SapienzaStudentsNetwork/sapienzastudentsnetwork.github.io">
                     <span data-en="Repository" data-it="Repository">Repository</span>
@@ -298,7 +298,8 @@
     (() => {
         const buttons = document.querySelectorAll('[data-set-lang]');
         const entries = document.querySelectorAll('[data-en][data-it]');
-        const applyLanguage = (lang) => {
+        const browserLanguage = () => /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+        const applyLanguage = (lang, remember = false) => {
             const selected = lang === 'it' ? 'it' : 'en';
             document.documentElement.lang = selected;
             entries.forEach((entry) => {
@@ -309,13 +310,18 @@
                 entry.textContent = entry.dataset[selected];
             });
             buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.setLang === selected)));
-            try { localStorage.setItem('ssn-home-language', selected); } catch (_) {}
+            if (remember) {
+                try { localStorage.setItem('preferred-language', selected); } catch (_) {}
+            }
         };
-        buttons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.setLang)));
-        const queryLanguage = new URLSearchParams(location.search).get('lang');
+        buttons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.setLang, true)));
         let savedLanguage = null;
-        try { savedLanguage = localStorage.getItem('ssn-home-language'); } catch (_) {}
-        applyLanguage(queryLanguage || savedLanguage || 'en');
+        try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
+        const url = new URL(location.href);
+        if (url.searchParams.delete('lang')) {
+            history.replaceState(null, '', url.pathname + url.search + url.hash);
+        }
+        applyLanguage(savedLanguage === 'it' || savedLanguage === 'en' ? savedLanguage : browserLanguage());
     })();
     </script>
     <script>

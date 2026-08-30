@@ -6,5 +6,5 @@ layout: "homepage"
 type: "page/contributors"
 contributorsKey: "all"
 contributorsLanguages: ["en", "it"]
-contributorsJoinHref: "/how-to-contribute/?lang=en"
+contributorsJoinHref: "/how-to-contribute/"
 ---

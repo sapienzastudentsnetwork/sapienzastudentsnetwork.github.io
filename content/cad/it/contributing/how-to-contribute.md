@@ -49,7 +49,7 @@ Indica, se possibile:
 - l'informazione corretta e una fonte autorevole, quando pertinente;
 - screenshot o passaggi per riprodurre il problema, nel caso di un bug
 
-Puoi anche chiedere aiuto allo [staff del progetto](https://sapienzastudents.net/sapienza-students-network/?lang=it#sapienzastudentsnet) oppure unirti alla [chat dedicata allo sviluppo del sito](https://t.me/addlist/8jXnS8NuTsxkMDlk). Una segnalazione precisa è già un contributo utile.
+Puoi anche chiedere aiuto allo [staff del progetto](https://sapienzastudents.net/sapienza-students-network/#sapienzastudentsnet) oppure unirti alla [chat dedicata allo sviluppo del sito](https://t.me/addlist/8jXnS8NuTsxkMDlk). Una segnalazione precisa è già un contributo utile.
 
 ## In che modo puoi contribuire
 

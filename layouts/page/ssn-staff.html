@@ -5,8 +5,8 @@
 <article class="markdown book-article">
     {{ if $isAboutPage }}
     <div class="language-switch" role="group" aria-label="Language / Lingua">
-        <button type="button" data-ssn-language="en" class="active" aria-pressed="true">English</button>
-        <button type="button" data-ssn-language="it" aria-pressed="false">Italiano</button>
+        <button type="button" data-preferred-language="en" class="active" aria-pressed="true">English</button>
+        <button type="button" data-preferred-language="it" aria-pressed="false">Italiano</button>
     </div>
     <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -14,10 +14,9 @@
         en: {{ .Site.Data.ssn.en | jsonify | safeJS }},
         it: {{ .Site.Data.ssn.it | jsonify | safeJS }}
       };
-      var buttons = document.querySelectorAll('[data-ssn-language]');
+      var buttons = document.querySelectorAll('[data-preferred-language]');
       function browserLanguage() {
-        var values = navigator.languages || [navigator.language || 'en'];
-        return values.some(function (value) { return /^it(?:-|$)/i.test(value); }) ? 'it' : 'en';
+        return /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
       }
       function applyLanguage(language, remember) {
         document.querySelectorAll('[data-ssn-key]').forEach(function (element) {
@@ -25,26 +24,27 @@
           if (typeof value !== 'undefined') element.innerHTML = value;
         });
         buttons.forEach(function (button) {
-          var active = button.dataset.ssnLanguage === language;
+          var active = button.dataset.preferredLanguage === language;
           button.classList.toggle('active', active);
           button.setAttribute('aria-pressed', active ? 'true' : 'false');
         });
         document.querySelector('.book-article').setAttribute('lang', language);
-        var url = new URL(window.location.href);
-        url.searchParams.set('lang', language);
-        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
-        if (remember) localStorage.setItem('ssnAboutLanguage', language);
+        if (remember) {
+          try { localStorage.setItem('preferred-language', language); } catch (_) {}
+        }
       }
       buttons.forEach(function (button) {
-        button.addEventListener('click', function () { applyLanguage(button.dataset.ssnLanguage, true); });
+        button.addEventListener('click', function () { applyLanguage(button.dataset.preferredLanguage, true); });
       });
-      var queryLanguage = new URLSearchParams(window.location.search).get('lang');
-      var savedLanguage = localStorage.getItem('ssnAboutLanguage');
-      var initialLanguage = queryLanguage === 'it' || queryLanguage === 'en'
-        ? queryLanguage
-        : savedLanguage === 'it' || savedLanguage === 'en'
-          ? savedLanguage
-          : browserLanguage();
+      var savedLanguage = null;
+      try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
+      var initialLanguage = savedLanguage === 'it' || savedLanguage === 'en'
+        ? savedLanguage
+        : browserLanguage();
+      var url = new URL(window.location.href);
+      if (url.searchParams.delete('lang')) {
+        window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+      }
       applyLanguage(initialLanguage, false);
     });
     </script>

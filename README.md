@@ -2,7 +2,7 @@
 
 > **La wiki open source realizzata da studenti e studentesse per orientarsi, studiare e vivere appieno l'università.**
 
-[Visita il sito](https://sapienzastudents.net/) · [Scopri come contribuire](https://sapienzastudents.net/how-to-contribute/?lang=it) · [Segnala un problema](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues)
+[Visita il sito](https://sapienzastudents.net/) · [Scopri come contribuire](https://sapienzastudents.net/how-to-contribute/) · [Segnala un problema](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues)
 
 SapienzaStudents.net raccoglie in **un unico portale** le informazioni che più spesso risultano frammentate: **immatricolazione, insegnamenti, orari e calendari, esami, piani di studio, tirocini, laurea e servizi**, insieme a **gruppi e risorse condivise** dalla comunità. Il progetto copre diversi corsi afferenti al **Dipartimento di Informatica** e altre comunità studentesche, come quella del [Dipartimento di Filosofia](https://sapienzastudents.net/filosofia/), con contenuti in **italiano e inglese**.
 
@@ -28,13 +28,13 @@ cd sapienzastudentsnetwork.github.io
 docker compose up --build
 ```
 
-Il sito locale sarà disponibile su `http://localhost:1313`. Sono disponibili anche altre modalità di esecuzione, descritte nella [guida su come contribuire](https://sapienzastudents.net/how-to-contribute/?lang=it).
+Il sito locale sarà disponibile su `http://localhost:1313`. Sono disponibili anche altre modalità di esecuzione, descritte nella [guida su come contribuire](https://sapienzastudents.net/how-to-contribute/).
 
 ## 🤝 Contribuisci
 
 **Non serve essere sviluppatori**: puoi correggere un'informazione, aggiornare una scadenza, migliorare una guida, aggiungere una risorsa o proporre una nuova funzionalità. **Ogni contributo aiuta migliaia di studenti.**
 
-Leggi [CONTRIBUTING.md](CONTRIBUTING.md), consulta la [guida interattiva](https://sapienzastudents.net/how-to-contribute/?lang=it) oppure apri direttamente una [issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues).
+Leggi [CONTRIBUTING.md](CONTRIBUTING.md), consulta la [guida interattiva](https://sapienzastudents.net/how-to-contribute/) oppure apri direttamente una [issue](https://github.com/sapienzastudentsnetwork/sapienzastudentsnetwork.github.io/issues).
 
 ## 📜 Licenza
 

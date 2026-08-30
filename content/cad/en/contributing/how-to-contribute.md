@@ -48,7 +48,7 @@ Please include:
 - the corrected information and an authoritative source, when relevant;
 - screenshots or steps to reproduce the problem, for bugs
 
-You can also ask the [project staff](https://sapienzastudents.net/sapienza-students-network/?lang=en#sapienzastudentsnet) for help or join the [chat dedicated to the development of the website](https://t.me/addlist/8jXnS8NuTsxkMDlk). A precise report is already a useful contribution.
+You can also ask the [project staff](https://sapienzastudents.net/sapienza-students-network/#sapienzastudentsnet) for help or join the [chat dedicated to the development of the website](https://t.me/addlist/8jXnS8NuTsxkMDlk). A precise report is already a useful contribution.
 
 ## What you can contribute
 

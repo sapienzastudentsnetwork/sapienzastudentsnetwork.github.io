@@ -1,10 +1,10 @@
 # Come contribuire
 
 > [!NOTE]
-> **English readers:** this document is written in Italian. Please refer to the [complete interactive contribution guide in English](https://sapienzastudents.net/how-to-contribute/?lang=en).
+> **English readers:** this document is written in Italian. Please refer to the [complete interactive contribution guide in English](https://sapienzastudents.net/how-to-contribute/).
 
 > [!NOTE]
-> La versione più completa e interattiva di questa guida è disponibile anche [sul sito](https://sapienzastudents.net/how-to-contribute/?lang=it).
+> La versione più completa e interattiva di questa guida è disponibile anche [sul sito](https://sapienzastudents.net/how-to-contribute/).
 
 SapienzaStudents.net è un progetto costruito **da studenti e studentesse, per studenti e studentesse**. Riunisce informazioni pratiche spesso sparse tra molte fonti e le trasforma in guide, strumenti e risorse condivise usate da migliaia di persone. Per mantenere accurato e utile un progetto di queste dimensioni serve una comunità: **anche una piccola correzione può evitare dubbi e far risparmiare tempo a moltissimi studenti**.
 
@@ -47,7 +47,7 @@ Indica, se possibile:
 - l'informazione corretta e una fonte autorevole, quando pertinente;
 - screenshot o passaggi per riprodurre il problema, nel caso di un bug
 
-Puoi anche chiedere aiuto allo [staff del progetto](https://sapienzastudents.net/sapienza-students-network/?lang=it#sapienzastudentsnet) oppure unirti alla [chat dedicata allo sviluppo del sito](https://t.me/addlist/8jXnS8NuTsxkMDlk). Una segnalazione precisa è già un contributo utile.
+Puoi anche chiedere aiuto allo [staff del progetto](https://sapienzastudents.net/sapienza-students-network/#sapienzastudentsnet) oppure unirti alla [chat dedicata allo sviluppo del sito](https://t.me/addlist/8jXnS8NuTsxkMDlk). Una segnalazione precisa è già un contributo utile.
 
 ## In che modo puoi contribuire
 
@@ -79,7 +79,7 @@ Puoi consultare le [pull request aperte](https://github.com/sapienzastudentsnetw
 > [!TIP]
 > **Chi ha contribuito al progetto**
 >
-> Visita la pagina dei [contributori](https://sapienzastudents.net/contributors/?lang=it) per scoprire chi ha aiutato a far crescere la wiki e il sito nel suo insieme. Ogni contributo accettato, grande o piccolo, entra a far parte di una risorsa che la comunità studentesca può continuare a migliorare insieme.
+> Visita la pagina dei [contributori](https://sapienzastudents.net/contributors/) per scoprire chi ha aiutato a far crescere la wiki e il sito nel suo insieme. Ogni contributo accettato, grande o piccolo, entra a far parte di una risorsa che la comunità studentesca può continuare a migliorare insieme.
 
 ## Procedura completa in locale
 

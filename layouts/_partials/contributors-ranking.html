@@ -187,7 +187,8 @@
 (() => {
   const buttons = document.querySelectorAll('[data-contributors-button]');
   const panels = document.querySelectorAll('[data-contributors-panel]');
-  const apply = (value) => {
+  const browserLanguage = () => /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+  const apply = (value, remember = false) => {
     const language = value === 'it' ? 'it' : 'en';
     document.documentElement.lang = language;
     buttons.forEach((button) => {
@@ -196,12 +197,18 @@
       button.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
     panels.forEach((panel) => { panel.hidden = panel.dataset.contributorsPanel !== language; });
-    const url = new URL(location.href);
-    url.searchParams.set('lang', language);
-    history.replaceState(null, '', url);
+    if (remember) {
+      try { localStorage.setItem('preferred-language', language); } catch (_) {}
+    }
   };
-  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.contributorsButton)));
-  apply(new URLSearchParams(location.search).get('lang') || '{{ index $languages 0 }}');
+  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.contributorsButton, true)));
+  let savedLanguage = null;
+  try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
+  const url = new URL(location.href);
+  if (url.searchParams.delete('lang')) {
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+  }
+  apply(savedLanguage === 'it' || savedLanguage === 'en' ? savedLanguage : browserLanguage());
 })();
 </script>
 {{- end }}

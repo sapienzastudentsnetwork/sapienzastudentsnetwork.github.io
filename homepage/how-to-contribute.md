@@ -25,7 +25,8 @@ bookToC: true
 (() => {
   const buttons = document.querySelectorAll('[data-guide-button]');
   const panels = document.querySelectorAll('[data-guide-panel]');
-  const apply = (value) => {
+  const browserLanguage = () => /^it(?:-|$)/i.test(navigator.language || 'en') ? 'it' : 'en';
+  const apply = (value, remember = false) => {
     const language = value === 'it' ? 'it' : 'en';
     document.documentElement.lang = language;
     buttons.forEach(function (button) {
@@ -34,11 +35,17 @@ bookToC: true
       button.setAttribute('aria-pressed', active ? 'true' : 'false');
     });
     panels.forEach((panel) => { panel.hidden = panel.dataset.guidePanel !== language; });
-    const url = new URL(location.href);
-    url.searchParams.set('lang', language);
-    history.replaceState(null, '', url);
+    if (remember) {
+      try { localStorage.setItem('preferred-language', language); } catch (_) {}
+    }
   };
-  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.guideButton)));
-  apply(new URLSearchParams(location.search).get('lang') || 'en');
+  buttons.forEach((button) => button.addEventListener('click', () => apply(button.dataset.guideButton, true)));
+  let savedLanguage = null;
+  try { savedLanguage = localStorage.getItem('preferred-language'); } catch (_) {}
+  const url = new URL(location.href);
+  if (url.searchParams.delete('lang')) {
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+  }
+  apply(savedLanguage === 'it' || savedLanguage === 'en' ? savedLanguage : browserLanguage());
 })();
 </script>
