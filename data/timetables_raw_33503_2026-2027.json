@@ -28,6 +28,43 @@
         ]
       },
       {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM025",
+            "course": "10628189",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10628189",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          }
+        ]
+      },
+      {
         "channel": "Canale 2",
         "timetable": [
           {
@@ -44,6 +81,38 @@
                 "day": "gioved\u00ec",
                 "from": "11:00",
                 "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10628189",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "SAMORY MATTIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10628189",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "19:00"
               }
             ],
             "subject": "FONDAMENTI DI PROGRAMMAZIONE",

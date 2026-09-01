@@ -27,6 +27,23 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "10625773",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "FOUNDATIONS OF DATA SCIENCE",
+            "teachers": [
+              "CINELLI MATTEO",
+              "SPINELLI INDRO"
+            ]
+          },
+          {
             "building": "Edificio: RM005",
             "course": "10626358",
             "room": "Aula 11",

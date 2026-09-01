@@ -21,6 +21,22 @@
             ]
           },
           {
+            "building": "Edificio: RM025",
+            "course": "10628014",
+            "room": "Aula informatica 17",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ALGORITHMIC METHODS OF DATA MINING AND LABORATORY",
+            "teachers": [
+              ""
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10628014",
             "room": "AULA 101",
@@ -55,6 +71,38 @@
             "subject": "Fundamentals of Data Science",
             "teachers": [
               "CINELLI MATTEO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10629400",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "Fundamentals of Data Science",
+            "teachers": [
+              "CINELLI MATTEO"
+            ]
+          },
+          {
+            "building": "Edificio: RM025",
+            "course": "10631198",
+            "room": "Aula informatica 15",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "FUNDAMENTALS OF STATISTICAL LEARNING Fundamentals of Statistical Learning I",
+            "teachers": [
+              "BRUTTI PIERPAOLO"
             ]
           },
           {

@@ -408,7 +408,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "cd0ce8bd3e41e940f0a1e642e3c01eb7212f9447bae79a34fcf8f109": "QUERZONI LEONARDO"
+              "d1f1cb20a781b6b1c42e90d4a26e16c10b9190124b5c4d36395bc1b5": "D'ELIA DANIELE CONO"
             },
             "timeslot": "14 - 17",
             "classrooms": {
@@ -1047,6 +1047,18 @@
             }
           }
         ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO",
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -1078,7 +1090,7 @@
             },
             "timeslot": "16 - 19",
             "classrooms": {
-              "12f90ddc-cd6d-4288-9307-6af581cdc384": "Aula 15 - Citt\u00e0 Universitaria (CU035-E01PTEL012)"
+              "12f90ddc-cd6d-4288-9307-6af581cdc384": "Aula 15 (Edificio: CU035)"
             }
           }
         ],
@@ -1516,6 +1528,15 @@
             }
           }
         ],
+        "marted\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "15 - 19",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {},
@@ -1621,6 +1642,16 @@
               "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
             },
             "timeslot": "8 - 11",
+            "classrooms": {
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          },
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "8 - 12",
             "classrooms": {
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)",
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
@@ -1805,6 +1836,17 @@
             "timeslot": "10 - 13",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO"
+            },
+            "timeslot": "16 - 19",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
             }
           }
         ],
@@ -2077,8 +2119,8 @@
             },
             "timeslot": "11 - 14",
             "classrooms": {
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)",
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
+              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
             }
           }
         ]
@@ -2181,6 +2223,17 @@
     ],
     "channels": {
       "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "1b749331b4241719b72be3d21a0c920aaf4ee73f0afd73647a1f295b": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
