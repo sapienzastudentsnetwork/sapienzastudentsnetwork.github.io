@@ -5,7 +5,7 @@
         Without display: initial, the label defaults to display: flex,
         causing the checkbox to wrap to a new line.
     -->
-    <div class="{{ if eq .RelPermalink "/" }}flex justify-center items-center w-full{{ end }}">
+    <div class="{{ if or (eq .RelPermalink "/") (eq .RelPermalink "/en/") }}flex justify-center items-center w-full{{ end }}">
         <label for="font" style="display: initial;">
             OpenDyslexic
         </label>
