@@ -33,7 +33,7 @@ bookHidden: true
         <p class="home_box_text degree_choice_box_text">Via Salaria, 113, Floor -1</p>
         <button class="explore_more" onclick="window.location.href = 'salaria/colossus/'">Info&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page centered_content_page darken_overlay" style="background-image: url('https://i.imgur.com/PbO27AE.jpeg')">
+    <div class="home_page centered_content_page darken_overlay" style="background-image: url('https://i.imgur.com/5rGoRIR.jpeg')">
         <p class="home_box_text_title degree_choice_box_text_title" id="home_enroll_text">Lab. HAL9000</p>
         <p class="home_box_text degree_choice_box_text">Via Salaria, 113, Floor -1</p>
         <button class="explore_more" onclick="window.location.href = 'salaria/hal9000/'">Info&nbsp<i class="fa-solid fa-arrow-right"></i></button>
