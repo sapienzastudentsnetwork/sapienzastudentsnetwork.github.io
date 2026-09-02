@@ -182,7 +182,7 @@ table th {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .classroomTimetableText {
@@ -502,4 +502,21 @@ a {
     table tbody.mobile {
         display: table-row-group;
     }
+}
+
+/* Keep the first timetable close to the introductory tip. */
+.timetable-page-intro {
+    margin-bottom: 0;
+}
+
+.timetable-page-intro > .book-hint:last-child {
+    margin-bottom: 0;
+}
+
+#main.timetable-page-content {
+    padding-top: 0;
+}
+
+#main.timetable-page-content > div:first-child > h2:first-child {
+    margin-top: 1.5rem;
 }

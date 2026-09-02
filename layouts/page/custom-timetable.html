@@ -5,6 +5,8 @@
 
 <h1>{{ T "Subjs_CustomTimetable_Title" }}</h1>
 
+{{ partial "academic-year-2026-27-notices.html" (dict "degreeCode" $pageDegreeCode) }}
+
 <!--{{ $excludedCodes := slice "33503" "33502" }}
     {{ if not (in $excludedCodes $pageDegreeCode) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
@@ -15,8 +17,11 @@
 </blockquote>-->
 
 <article class="markdown book-article">
-    <details>
-        <summary>{{ T "Subjs_Info_Title" }}</summary>
+    <details class="academic-year-notice tip">
+        <summary>
+            <i class="fa-solid fa-file" style="color: #74C0FC;" aria-hidden="true"></i>
+            <span>{{ replaceRE `^ℹ️\s*` "" (T "Subjs_Info_Title") }}</span>
+        </summary>
         <ul>
             <li>{{ T "Subjs_Info_Text_1" }}</li>
             <li>{{ T "Subjs_Info_Text_2" }}</li>

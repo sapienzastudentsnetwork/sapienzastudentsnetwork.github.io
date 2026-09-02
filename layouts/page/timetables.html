@@ -1,6 +1,22 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
+    {{ $pageDegreeCode := "" }}
+    {{ if in .RelPermalink "/acsai/" }}
+        {{ $pageDegreeCode = "33502" }}
+    {{ else if in .RelPermalink "/it/" }}
+        {{ $pageDegreeCode = "33503" }}
+    {{ else if in .RelPermalink "/compsci/" }}
+        {{ $pageDegreeCode = "33508" }}
+    {{ else if in .RelPermalink "/cybersec/" }}
+        {{ $pageDegreeCode = "33516" }}
+    {{ else if in .RelPermalink "/datasci/" }}
+        {{ $pageDegreeCode = "33519" }}
+    {{ end }}
+    {{ with $pageDegreeCode }}
+        {{ partial "academic-year-2026-27-notices.html" (dict "degreeCode" .) }}
+    {{ end }}
+
     <!--{{ if not (or (in .Permalink "/it/") (in .Permalink "/33508") (in .Permalink "/33502")) }}
         ⚠️ {{ T "Subjs_WorkInProgress" }}
     {{ end }}-->
@@ -9,9 +25,12 @@
         <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> {{ T "Subjs_WorkInProgress" }}
     </blockquote>-->
 
-    <article class="markdown book-article">
-        <details>
-            <summary>{{ T "Subjs_Info_Title" }}</summary>
+    <article class="markdown book-article timetable-page-intro">
+        <details class="academic-year-notice tip">
+            <summary>
+                <i class="fa-solid fa-file" style="color: #74C0FC;" aria-hidden="true"></i>
+                <span>{{ replaceRE `^ℹ️\s*` "" (T "Subjs_Info_Title") }}</span>
+            </summary>
             <ul>
                 <li>{{ T "Subjs_Info_Text_1" }}</li>
                 <li>{{ T "Subjs_Info_Text_2" }}</li>
@@ -35,7 +54,7 @@
         -->
     </article>
 
-    <div class="channel-1 relative" id="main">
+    <div class="channel-1 relative timetable-page-content" id="main">
         {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
 
         {{ range .Params.timetables }}

@@ -1,0 +1,112 @@
+{{- $degreeCode := printf "%v" .degreeCode -}}
+{{- $isItalian := eq $degreeCode "33503" -}}
+{{- $isCAD := in (slice "33502" "33503" "33508") $degreeCode -}}
+{{- $calendarURL := dict
+    "33502" "/acsai/courses/calendars/2026-27/"
+    "33503" "/it/insegnamenti/calendari/2026-27/"
+    "33508" "/compsci/courses/calendars/2026-27/"
+    "33516" "/cybersec/courses/calendars/2026-27/"
+    "33519" "/datasci/courses/calendars/2026-27/"
+-}}
+{{- $announcementsURL := dict
+    "33502" "https://sapienzastudents.net/sapienzafeed/corsidilaurea/33502/en/announcements.html"
+    "33503" "https://sapienzastudents.net/sapienzafeed/corsidilaurea/33503/en/announcements.html"
+    "33508" "https://sapienzastudents.net/sapienzafeed/corsidilaurea/33508/en/announcements.html"
+    "33516" "https://sapienzastudents.net/sapienzafeed/corsidilaurea/33516/en/announcements.html"
+    "33519" "https://sapienzastudents.net/sapienzafeed/corsidilaurea/33519/en/announcements.html"
+-}}
+{{- $calendarLink := index $calendarURL $degreeCode -}}
+{{- $announcementsLink := index $announcementsURL $degreeCode -}}
+{{- $semesterNoticeExpiresAt := time.AsTime "2026-10-01T00:00:00+02:00" -}}
+{{- $suspensionNoticeStartsAt := time.AsTime "2026-10-01T00:00:00+02:00" -}}
+{{- $suspensionNoticeExpiresAt := time.AsTime "2026-11-04T00:00:00+01:00" -}}
+
+<style>
+.academic-year-notice {
+    margin: 0.75rem 0;
+}
+
+.academic-year-notice > summary {
+    display: grid;
+    grid-template-columns: 0.75rem 1rem minmax(0, 1fr);
+    align-items: center;
+    column-gap: 0.55rem;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid rgba(127, 127, 127, 0.28);
+    border-radius: 0.35rem;
+    cursor: pointer;
+    font-weight: 600;
+    list-style: none;
+}
+
+.academic-year-notice > summary::-webkit-details-marker {
+    display: none;
+}
+
+.academic-year-notice > summary::before {
+    content: "›";
+    line-height: 1;
+    text-align: center;
+    transform: rotate(0deg);
+    transition: transform 0.15s ease;
+}
+
+.academic-year-notice[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+.academic-year-notice > summary > i {
+    width: 1rem;
+    text-align: center;
+}
+
+.academic-year-notice > summary > span {
+    min-width: 0;
+    line-height: 1.35;
+}
+
+.academic-year-notice[open] > summary {
+    margin-bottom: 0.5rem;
+}
+
+.academic-year-notice > .book-hint {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+</style>
+
+<div class="markdown book-article academic-year-notices">
+{{- if and $calendarLink (lt now.Unix $semesterNoticeExpiresAt.Unix) }}
+<details class="academic-year-notice">
+    <summary>
+        <i class="fa-solid fa-circle-info" style="color: #74C0FC;" aria-hidden="true"></i>
+        <span>{{- if $isItalian }}Inizio delle lezioni{{ else }}Start of classes{{ end }}</span>
+    </summary>
+<blockquote class="book-hint info">
+    {{- if $isItalian }}
+    <p>Salvo avvisi relativi a singole lezioni, pubblicati anzitutto dalla <strong>Segreteria Didattica</strong> nella sezione <a href="{{ $announcementsLink }}" target="_blank" rel="noopener noreferrer">Avvisi</a> del catalogo dei corsi di studio, oppure dai docenti nelle proprie bacheche o attraverso i canali dei corsi, come Google Classroom, Google Groups, E-learning Sapienza (Moodle) o i siti web degli insegnamenti, le lezioni inizieranno <strong>mercoledì 23 settembre 2026</strong> e termineranno <strong>martedì 22 dicembre 2026</strong>.</p>
+    <p>Per ulteriori informazioni, consulta il <a href="{{ $calendarLink | relURL }}">calendario didattico 2026/27</a>.</p>
+    {{- else }}
+    <p>Unless changes affecting individual classes are announced first by the <strong>Educational Affairs Office</strong> in the degree programme catalogue's <a href="{{ $announcementsLink }}" target="_blank" rel="noopener noreferrer">Announcements</a> section, or by lecturers on their noticeboards or through course channels, such as Google Classroom, Google Groups, E-learning Sapienza (Moodle), or course websites, classes will begin on <strong>Wednesday, September 23, 2026</strong> and end on <strong>Tuesday, December 22, 2026</strong>.</p>
+    <p>See the <a href="{{ $calendarLink | relURL }}">2026/27 academic calendar</a>.</p>
+    {{- end }}
+</blockquote>
+</details>
+{{- end }}
+
+{{- if and $isCAD (ge now.Unix $suspensionNoticeStartsAt.Unix) (lt now.Unix $suspensionNoticeExpiresAt.Unix) }}
+<details class="academic-year-notice">
+    <summary>
+        <i class="fa-solid fa-circle-exclamation" style="color: #FFD43B;" aria-hidden="true"></i>
+        <span>{{- if $isItalian }}Sospensione delle lezioni{{ else }}Teaching suspension{{ end }}</span>
+    </summary>
+<blockquote class="book-hint warning">
+    {{- if $isItalian }}
+    <p>Le lezioni dei corsi di laurea in <strong>Applied Computer Science and Artificial Intelligence (ACSAI)</strong>, <strong>Informatica</strong> e <strong>Computer Science</strong>, afferenti al <strong>Consiglio di Area Didattica (CAD) in Informatica</strong>, sono sospese da <strong>mercoledì 28 ottobre</strong> a <strong>martedì 3 novembre 2026</strong>. La sospensione potrebbe non riguardare gli insegnamenti a scelta erogati dai corsi di laurea in <strong>Cybersecurity</strong> e <strong>Data Science</strong>, così come gli insegnamenti erogati da altri Dipartimenti e Facoltà. Durante questa settimana potranno svolgersi eventuali prove intermedie.</p>
+    {{- else }}
+    <p>Classes for the <strong>Applied Computer Science and Artificial Intelligence (ACSAI)</strong>, <strong>Informatica</strong>, and <strong>Computer Science</strong> degree programmes, which belong to the <strong>Didactic Area Council (CAD) in Computer Science</strong>, are suspended from <strong>Wednesday, October 28</strong> to <strong>Tuesday, November 3, 2026</strong>. The suspension may not apply to elective courses offered by the <strong>Cybersecurity</strong> and <strong>Data Science</strong> degree programmes, as well as courses delivered by other departments and faculties. Any scheduled mid-term assessments may take place during this week.</p>
+    {{- end }}
+</blockquote>
+</details>
+{{- end }}
+</div>
