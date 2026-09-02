@@ -955,47 +955,6 @@
         }
       }
     },
-    "1055681": {
-      "channels": {
-        "0": {
-          "martedì": [
-            {
-              "teachers": {
-                "cd0ce8bd3e41e940f0a1e642e3c01eb7212f9447bae79a34fcf8f109": "QUERZONI LEONARDO",
-                "9ce880b577a83be132f10ac44509ba128001e3664ec235ec96959d58": "D'ELIA DANIELE"
-              },
-              "timeslot": "14 - 16",
-              "classrooms": {
-                "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-              }
-            }
-          ],
-          "giovedì": [
-            {
-              "teachers": {
-                "cd0ce8bd3e41e940f0a1e642e3c01eb7212f9447bae79a34fcf8f109": "QUERZONI LEONARDO",
-                "9ce880b577a83be132f10ac44509ba128001e3664ec235ec96959d58": "D'ELIA DANIELE"
-              },
-              "timeslot": "14 - 17",
-              "classrooms": {
-                "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
-              }
-            }
-          ],
-          "venerdì": [
-            {
-              "teachers": {
-                "cd0ce8bd3e41e940f0a1e642e3c01eb7212f9447bae79a34fcf8f109": "QUERZONI LEONARDO"
-              },
-              "timeslot": "14 - 17",
-              "classrooms": {
-                "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10621403": {
       "channels": {
         "0": {
@@ -1353,6 +1312,18 @@
           "6463ffc418404edf2e493dc1b39661eb389aa43f98aa7d5855a631ca": "MARINI MARCO RAOUL"
         }
       }
+    },
+    "1055681": {
+      "0": {
+        "martedì": {
+          "d1f1cb20a781b6b1c42e90d4a26e16c10b9190124b5c4d36395bc1b5": "D'ELIA DANIELE CONO",
+          "18b7ab9238460e4989271457a4e48801b59a676855286a2a504ee673": "QUERZONI LEONARDO"
+        },
+        "giovedì": {
+          "d1f1cb20a781b6b1c42e90d4a26e16c10b9190124b5c4d36395bc1b5": "D'ELIA DANIELE CONO",
+          "18b7ab9238460e4989271457a4e48801b59a676855286a2a504ee673": "QUERZONI LEONARDO"
+        }
+      }
     }
   },
   "remove_schedules": {
@@ -1365,6 +1336,21 @@
               "classrooms": {
                 "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
                 "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10625773": {
+      "degree_limit": "33508",
+      "channels": {
+        "0": {
+          "giovedì": [
+            {
+              "timeslot": "16 - 19",
+              "classrooms": {
+                "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
               }
             }
           ]
