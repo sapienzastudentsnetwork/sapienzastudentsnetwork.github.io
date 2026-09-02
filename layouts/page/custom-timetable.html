@@ -239,31 +239,63 @@
                 <span style="font-size: 14px; font-weight: 300;">({{ $degreeCode }})</span>
             </h2>
 
-            <div class="subjsSingCourse">
-                {{ range $code := $degreeCourses }}
-                    {{ $data := index $allCourses $code }}
-                    {{ $subject_info := index $courses $code }}
-                    {{ range $channel_id, $_ := $data.channels }}
-                    <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
-                        data-subject-id="{{ $code }}-{{ $channel_id }}"
-                        class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
-                        onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
-                        <span class="w-full truncate text-left">
-                            {{ $subject_info.name }}
-                            {{ if ne $channel_id "0" }}
-                                {{ if eq $channel_id "1" }}
-                                    (A-L)
-                                {{ else if eq $channel_id "2" }}
-                                    (M-Z)
-                                {{ else }}
-                                    (Canale {{ $channel_id }})
+            {{ if and (eq $pageDegreeCode "33508") (eq $degreeCode "33508") }}
+                {{ $babbageCodes := slice "10626793" "10627562" "10628017" "10628018" "10625773" "10629525" "10627173" "10627472" }}
+                {{ $lovelaceCodes := slice "10627537" "10628736" "10626968" "10627535" "10627582" "10630015" "10630016" "10628280" "10626358" }}
+                {{ $computerScienceGroups := slice
+                    (dict "title" "Babbage" "codes" $babbageCodes)
+                    (dict "title" "Lovelace" "codes" $lovelaceCodes)
+                }}
+                {{ range $group := $computerScienceGroups }}
+                <div class="subjsCurriculumGroup" data-subject-subsection>
+                    <h3 class="subjsCurriculumTitle">{{ $group.title }}</h3>
+                    <div class="subjsSingCourse">
+                        {{ range $code := $degreeCourses }}
+                            {{ if in $group.codes $code }}
+                                {{ $data := index $allCourses $code }}
+                                {{ $subject_info := index $courses $code }}
+                                {{ range $channel_id, $_ := $data.channels }}
+                                <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
+                                    data-subject-id="{{ $code }}-{{ $channel_id }}"
+                                    class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                                    onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                                    <span class="w-full truncate text-left">
+                                        {{ $subject_info.name }}
+                                    </span>
+                                </button>
                                 {{ end }}
                             {{ end }}
-                        </span>
-                    </button>
-                    {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
                 {{ end }}
-            </div>
+            {{ else }}
+                <div class="subjsSingCourse">
+                    {{ range $code := $degreeCourses }}
+                            {{ $data := index $allCourses $code }}
+                            {{ $subject_info := index $courses $code }}
+                            {{ range $channel_id, $_ := $data.channels }}
+                            <button id="dialog-{{ $degreeCode }}-{{ $code }}-{{ $channel_id }}"
+                                data-subject-id="{{ $code }}-{{ $channel_id }}"
+                                class="c-{{ $degreeCode }} subjButton group mb-2 flex h-12 w-72 items-center px-4 py-1"
+                                onclick="event.stopPropagation(); toggleSubject(`{{ $code }}-{{ $channel_id }}`)">
+                                <span class="w-full truncate text-left">
+                                    {{ $subject_info.name }}
+                                    {{ if ne $channel_id "0" }}
+                                        {{ if eq $channel_id "1" }}
+                                            (A-L)
+                                        {{ else if eq $channel_id "2" }}
+                                            (M-Z)
+                                        {{ else }}
+                                            (Canale {{ $channel_id }})
+                                        {{ end }}
+                                    {{ end }}
+                                </span>
+                            </button>
+                            {{ end }}
+                    {{ end }}
+                </div>
+            {{ end }}
 
             <div class="subjsSectionDivider"></div>
             </section>

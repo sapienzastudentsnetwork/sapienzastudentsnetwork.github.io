@@ -19,4 +19,4 @@ timetables:
 bookToc: false
 ---
 
-Check out "Babbage" lesson timetable for the master's degree in Computer Science
+Check out "Clarks" lesson timetable for the master's degree in Computer Science

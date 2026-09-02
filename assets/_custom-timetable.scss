@@ -333,3 +333,20 @@
     margin-bottom: .75rem;
   }
 }
+
+
+/* Computer Science curriculum subdivisions in the subject picker. */
+.subjsCurriculumGroup {
+  width: 100%;
+  margin: 0.75rem 0 1rem;
+}
+
+.subjsCurriculumTitle {
+  margin: 0 0 0.55rem;
+  padding-left: 0.7rem;
+  border-left: 3px solid #49c15b;
+  color: #d9eadd;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
