@@ -219,6 +219,9 @@
 - id: Subjs_CustomTimetable_CustomCancel
   translation: Annulla
 
+- id: Subjs_CustomTimetable_CustomUnsavedChangesConfirm
+  translation: "Annullare le modifiche? Tutte le modifiche non salvate andranno perse."
+
 - id: Subjs_CustomTimetable_CustomSave
   translation: Salva
 
@@ -300,8 +303,32 @@
 - id: Subjs_CustomTimetable_CustomImportDescription
   translation: "Importa una materia personalizzata da un file JSON"
 
+- id: Subjs_CustomTimetable_CustomBack
+  translation: 'Indietro'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewTitle
+  translation: 'Conferma importazione'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewDescription
+  translation: 'Controlla i dati della materia prima di importarla.'
+
+- id: Subjs_CustomTimetable_CustomScheduleCountLabel
+  translation: 'Lezioni'
+
+- id: Subjs_CustomTimetable_CustomConfirmImport
+  translation: 'Importa materia'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewOverwriteWarning
+  translation: 'Esiste già una materia con questo ID (%s). Confermando, i dati esistenti verranno sostituiti.'
+
 - id: Subjs_CustomTimetable_CustomImportOverwriteConfirm
   translation: 'Esiste già una materia personalizzata con ID "%s". Sovrascriverla? Tutti i dati esistenti per questa materia verranno sostituiti.'
+
+- id: Subjs_CustomTimetable_CustomImportIdInvalid
+  translation: "L’ID non è valido. Inserisci un ID nel formato custom-{timestamp}-{UUID}."
+
+- id: Subjs_CustomTimetable_CustomImportIdDuplicate
+  translation: "Questo ID appartiene già a un’altra materia. Importando, la materia esistente verrà sovrascritta."
 
 - id: Subjs_CustomTimetable_CustomImportError
   translation: "Impossibile importare la materia: il file non è valido o non è compatibile."
@@ -381,4 +408,3 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Vuoi conoscere chi ha contribuito alla wiki e, più in generale, al progetto del sito? Consulta la pagina dei <a href="../collaboratori/"><strong>collaboratori wiki</strong></a>.'
-

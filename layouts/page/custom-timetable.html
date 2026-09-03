@@ -112,7 +112,7 @@
                 </span>
             </button>
             <input id="customSubjectImportInput" type="file" accept="application/json,.json" hidden
-                onchange="importCustomSubjectFile(event)">
+                onchange="prepareCustomSubjectImport(event)">
         </div>
         <footer class="custom-subject-dialog__footer">
             <button type="button" class="custom-subject-button" onclick="closeCustomSubjectsMenu()">
@@ -125,8 +125,19 @@
 <dialog id="customSubjectDialog" class="custom-subject-dialog" onclick="if (event.target === this) closeCustomSubjectDialog()">
   <form id="customSubjectForm" class="custom-subject-form" onsubmit="saveCustomSubject(event)">
     <input id="customSubjectId" type="hidden">
-    <header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomTitle" }}</h2></header>
+
+    <header class="custom-subject-dialog__header custom-subject-dialog__header--with-close">
+      <h2 id="customSubjectDialogTitle">{{ T "Subjs_CustomTimetable_CustomTitle" }}</h2>
+      <button type="button" class="custom-subject-dialog__close" onclick="closeCustomSubjectDialog()" aria-label="{{ T "Subjs_CustomTimetable_CustomCancel" }}" title="{{ T "Subjs_CustomTimetable_CustomCancel" }}">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+    </header>
     <div class="custom-subject-grid">
+    <label id="customSubjectImportIdField" class="custom-subject-field custom-subject-field--wide custom-subject-import-id-field hidden" hidden>
+      <span>ID <span aria-hidden="true">*</span></span>
+      <input id="customSubjectImportId" type="text" autocomplete="off" spellcheck="false" oninput="updateCustomSubjectImportIdState()">
+      <small id="customSubjectImportIdMessage" class="custom-subject-import-id-message" aria-live="polite"></small>
+    </label>
       <label class="custom-subject-field custom-subject-field--wide"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span aria-hidden="true">*</span></span><input id="customSubjectName" required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
       <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }} <span aria-hidden="true">*</span></span><input id="customSubjectShortName" required maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
       <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }} <span aria-hidden="true">*</span></span><input id="customSubjectAbbr" required maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
@@ -134,14 +145,11 @@
     </div>
     <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h3><button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</span></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
     <p class="custom-subject-required-note">{{ T "Subjs_CustomTimetable_CustomRequiredNote" }}</p>
-    <footer class="custom-subject-dialog__footer" style="justify-content: space-between;">
-      <button type="button" class="custom-subject-button" onclick="closeCustomSubjectDialog()">{{ T "Subjs_CustomTimetable_CustomCancel" }}</button>
-      <button type="submit" class="custom-subject-button custom-subject-button--primary">{{ T "Subjs_CustomTimetable_CustomSave" }}</button>
-    </footer>
+    <footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectEditor()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button id="customSubjectSubmitButton" type="submit" class="custom-subject-button custom-subject-button--primary" disabled>{{ T "Subjs_CustomTimetable_CustomSave" }}</button></footer>
   </form>
 </dialog>
 <dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" onclick="if (event.target === this) this.close()">
-  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer"><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
+  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
 </dialog>
 
 <dialog class="h-full items-center rounded-3xl p-4 shadow-xl backdrop:backdrop-blur-sm" id="subjsPopUp"
@@ -616,10 +624,68 @@
 
         row.append(timeGroup, classroomGroup, teacherGroup, removeRowButton(row));
         document.getElementById("customSubjectLessons").append(row);
+        updateCustomSubjectSaveVisibility();
     }
 
-    function openCustomSubjectDialog(id = null) {
-        const subject = getCustomSubjects().find((item) => item.id === id);
+    let customSubjectEditorMode = "edit";
+    let customSubjectEditorInitialState = null;
+
+    function getCustomSubjectEditorState() {
+        const form = document.getElementById("customSubjectForm");
+        return JSON.stringify(Array.from(form.querySelectorAll("input, select")).map((control) => ({
+            id: control.id,
+            value: control.value,
+            disabled: control.disabled,
+        })));
+    }
+
+    function customSubjectEditorHasUnsavedChanges() {
+        return customSubjectEditorInitialState !== null
+            && getCustomSubjectEditorState() !== customSubjectEditorInitialState;
+    }
+
+    function updateCustomSubjectSaveVisibility() {
+        const submitButton = document.getElementById("customSubjectSubmitButton");
+        const hasChanges = customSubjectEditorHasUnsavedChanges();
+        const invalidImportId = customSubjectEditorMode === "import"
+            && !isValidCustomSubjectId(document.getElementById("customSubjectImportId").value);
+        submitButton.disabled = !hasChanges || invalidImportId;
+    }
+
+    function confirmDiscardCustomSubjectChanges() {
+        return !customSubjectEditorHasUnsavedChanges()
+            || confirm("{{ T "Subjs_CustomTimetable_CustomUnsavedChangesConfirm" }}");
+    }
+
+    function isValidCustomSubjectId(id) {
+        return /^custom-\d{13}-(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|[a-z0-9]{6,})$/i.test(id.trim());
+    }
+
+    function updateCustomSubjectImportIdState() {
+        const field = document.getElementById("customSubjectImportIdField");
+        const input = document.getElementById("customSubjectImportId");
+        const message = document.getElementById("customSubjectImportIdMessage");
+        const id = input.value.trim();
+        const valid = isValidCustomSubjectId(id);
+        const duplicate = valid && getCustomSubjects().some((subject) => subject.id === id);
+        field.classList.toggle("custom-subject-import-id-field--invalid", !valid);
+        field.classList.toggle("custom-subject-import-id-field--duplicate", duplicate);
+        input.setCustomValidity(valid ? "" : "{{ T "Subjs_CustomTimetable_CustomImportIdInvalid" }}");
+        message.textContent = !valid
+            ? "{{ T "Subjs_CustomTimetable_CustomImportIdInvalid" }}"
+            : duplicate
+                ? "{{ T "Subjs_CustomTimetable_CustomImportIdDuplicate" }}"
+                : "";
+        updateCustomSubjectSaveVisibility();
+        return { valid, duplicate };
+    }
+
+    function openCustomSubjectDialog(id = null, importedSubject = null) {
+        const importMode = id === null && importedSubject !== null;
+        customSubjectEditorMode = importMode ? "import" : "edit";
+        const subject = importMode
+            ? importedSubject
+            : getCustomSubjects().find((item) => item.id === id);
         document.getElementById("customSubjectForm").reset();
         document.getElementById("customSubjectId").value = subject?.id || "";
         document.getElementById("customSubjectName").value = subject?.name || "";
@@ -628,13 +694,58 @@
         document.getElementById("customSubjectColor").value = subject?.color || "#fbc02d";
         document.getElementById("customSubjectLessons").replaceChildren();
         (subject?.lessons?.length ? subject.lessons : [{}]).forEach(addCustomLessonRow);
+
+        const importIdField = document.getElementById("customSubjectImportIdField");
+        const importIdInput = document.getElementById("customSubjectImportId");
+        importIdField.hidden = !importMode;
+        importIdField.style.display = importMode ? "flex" : "none";
+        importIdField.classList.toggle("hidden", !importMode);
+        importIdInput.disabled = !importMode;
+        document.getElementById("customSubjectDialogTitle").textContent = importMode
+            ? "{{ T "Subjs_CustomTimetable_CustomImportPreviewTitle" }}"
+            : "{{ T "Subjs_CustomTimetable_CustomTitle" }}";
+        document.getElementById("customSubjectSubmitButton").textContent = importMode
+            ? "{{ T "Subjs_CustomTimetable_CustomConfirmImport" }}"
+            : "{{ T "Subjs_CustomTimetable_CustomSave" }}";
+        document.getElementById("customSubjectSubmitButton").disabled = true;
+        const importIdMessage = document.getElementById("customSubjectImportIdMessage");
+        if (importMode) {
+            importIdInput.value = subject?.id || "";
+            updateCustomSubjectImportIdState();
+        } else {
+            importIdInput.value = "";
+            importIdInput.setCustomValidity("");
+            importIdMessage.textContent = "";
+            importIdField.classList.remove(
+                "custom-subject-import-id-field--invalid",
+                "custom-subject-import-id-field--duplicate",
+            );
+        }
+        customSubjectEditorInitialState = getCustomSubjectEditorState();
+        updateCustomSubjectSaveVisibility();
+        const form = document.getElementById("customSubjectForm");
+        if (!form.dataset.changeTrackingBound) {
+            form.addEventListener("input", updateCustomSubjectSaveVisibility);
+            form.addEventListener("change", updateCustomSubjectSaveVisibility);
+            form.dataset.changeTrackingBound = "true";
+        }
         document.getElementById("customSubjectDialog").showModal();
     }
-    function closeCustomSubjectDialog() {
+
+    function closeCustomSubjectDialog(force = false) {
+        if (!force && !confirmDiscardCustomSubjectChanges()) return;
+        pendingCustomSubjectImport = null;
+        customSubjectEditorInitialState = null;
         document.getElementById("customSubjectDialog").close();
     }
+
     function saveCustomSubject(event) {
         event.preventDefault();
+        const importMode = customSubjectEditorMode === "import";
+        if (importMode && !updateCustomSubjectImportIdState().valid) {
+            document.getElementById("customSubjectImportId").reportValidity();
+            return;
+        }
         const lessons = Array.from(document.querySelectorAll("#customSubjectLessons .custom-subject-lesson-row"))
             .map((row) => {
                 const controls = row.querySelectorAll("select, input");
@@ -651,8 +762,12 @@
             })
             .filter((lesson) => lesson.endTime > lesson.startTime);
         if (!lessons.length) return;
-        const id = document.getElementById("customSubjectId").value || customId();
-        const previous = getCustomSubjects().find((subject) => subject.id === id);
+        const id = importMode
+            ? document.getElementById("customSubjectImportId").value.trim()
+            : document.getElementById("customSubjectId").value || customId();
+        const subjects = getCustomSubjects();
+        const existingIndex = subjects.findIndex((item) => item.id === id);
+        const previous = existingIndex >= 0 ? subjects[existingIndex] : null;
         const subject = {
             id,
             hidden: previous?.hidden || false,
@@ -662,11 +777,23 @@
             color: document.getElementById("customSubjectColor").value,
             lessons,
         };
-        const subjects = getCustomSubjects().filter((item) => item.id !== id);
-        subjects.push(subject);
+        if (existingIndex >= 0) subjects[existingIndex] = subject;
+        else subjects.push(subject);
         setCustomSubjects(subjects);
-        closeCustomSubjectDialog();
+        pendingCustomSubjectImport = null;
+        document.getElementById("customSubjectId").value = id;
+        customSubjectEditorMode = "edit";
+        const importIdField = document.getElementById("customSubjectImportIdField");
+        const importIdInput = document.getElementById("customSubjectImportId");
+        importIdField.hidden = true;
+        importIdField.style.display = "none";
+        importIdField.classList.add("hidden");
+        importIdInput.disabled = true;
+        document.getElementById("customSubjectDialogTitle").textContent = "{{ T "Subjs_CustomTimetable_CustomTitle" }}";
+        document.getElementById("customSubjectSubmitButton").textContent = "{{ T "Subjs_CustomTimetable_CustomSave" }}";
         renderCustomSubjects();
+        customSubjectEditorInitialState = getCustomSubjectEditorState();
+        updateCustomSubjectSaveVisibility();
     }
     function updateCustomSubjectControls() {
         const hasSubjects = getCustomSubjects().length > 0;
@@ -681,6 +808,23 @@
 
     function closeCustomSubjectsMenu() {
         document.getElementById("customSubjectsMenuDialog").close();
+    }
+
+    function reopenCustomSubjectsMenu(dialogId) {
+        document.getElementById(dialogId).close();
+        updateCustomSubjectControls();
+        document.getElementById("customSubjectsMenuDialog").showModal();
+    }
+
+    function backFromCustomSubjectEditor() {
+        if (!confirmDiscardCustomSubjectChanges()) return;
+        pendingCustomSubjectImport = null;
+        customSubjectEditorInitialState = null;
+        reopenCustomSubjectsMenu("customSubjectDialog");
+    }
+
+    function backFromCustomSubjectsManager() {
+        reopenCustomSubjectsMenu("customSubjectsManagerDialog");
     }
 
     function openNewCustomSubjectFromMenu() {
@@ -779,7 +923,6 @@
     function validImportedCustomSubject(subject) {
         return subject && typeof subject === "object"
             && typeof subject.id === "string"
-            && /^custom-\d{13}-(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|[a-z0-9]{6,})$/i.test(subject.id.trim())
             && typeof subject.name === "string" && subject.name.trim()
             && typeof subject.shortName === "string" && subject.shortName.trim()
             && typeof subject.abbr === "string" && subject.abbr.trim()
@@ -794,7 +937,32 @@
                 && (lesson.roomAbbr === undefined || typeof lesson.roomAbbr === "string"));
     }
 
-    async function importCustomSubjectFile(event) {
+    let pendingCustomSubjectImport = null;
+
+    function normalizeImportedCustomSubject(subject) {
+        const imported = structuredClone(subject);
+        imported.id = imported.id.trim();
+        imported.hidden = Boolean(imported.hidden);
+        imported.name = imported.name.trim();
+        imported.shortName = imported.shortName.trim();
+        imported.abbr = imported.abbr.trim().toUpperCase();
+        imported.lessons = imported.lessons.map((lesson) => {
+            const teacherName = lesson.teacherName?.trim() || "";
+            return {
+                dayIndex: Number(lesson.dayIndex),
+                startTime: lesson.startTime,
+                endTime: lesson.endTime,
+                roomName: lesson.roomName?.trim() || "",
+                roomAbbr: lesson.roomAbbr?.trim() || "",
+                roomUrl: lesson.roomUrl?.trim() || "",
+                teacherName,
+                teacherUrl: teacherName ? lesson.teacherUrl?.trim() || "" : "",
+            };
+        });
+        return imported;
+    }
+
+    async function prepareCustomSubjectImport(event) {
         const input = event.currentTarget;
         const file = input.files?.[0];
         input.value = "";
@@ -803,39 +971,11 @@
             const payload = JSON.parse(await file.text());
             if (payload?.type !== "custom-timetable-subject" || payload?.version !== 1
                 || !validImportedCustomSubject(payload.subject)) throw new Error("invalid");
-            const imported = structuredClone(payload.subject);
-            imported.id = imported.id.trim();
-            imported.hidden = false;
-            imported.name = imported.name.trim();
-            imported.shortName = imported.shortName.trim();
-            imported.abbr = imported.abbr.trim().toUpperCase();
-            imported.lessons = imported.lessons.map((lesson) => {
-                const teacherName = lesson.teacherName?.trim() || "";
-                return {
-                    ...lesson,
-                    roomName: lesson.roomName?.trim() || "",
-                    roomAbbr: lesson.roomAbbr?.trim() || "",
-                    roomUrl: lesson.roomUrl?.trim() || "",
-                    teacherName,
-                    teacherUrl: teacherName ? lesson.teacherUrl?.trim() || "" : "",
-                };
-            });
-            const subjects = getCustomSubjects();
-            const existingIndex = subjects.findIndex((subject) => subject.id === imported.id);
-            if (existingIndex >= 0) {
-                const message = `{{ T "Subjs_CustomTimetable_CustomImportOverwriteConfirm" }}`
-                    .replace("%s", imported.id);
-                if (!confirm(message)) return;
-                imported.hidden = subjects[existingIndex].hidden;
-                subjects[existingIndex] = imported;
-            } else {
-                subjects.push(imported);
-            }
-            setCustomSubjects(subjects);
+            pendingCustomSubjectImport = normalizeImportedCustomSubject(payload.subject);
             closeCustomSubjectsMenu();
-            renderCustomSubjects();
-            openCustomSubjectsManager();
+            openCustomSubjectDialog(null, pendingCustomSubjectImport);
         } catch {
+            pendingCustomSubjectImport = null;
             alert("{{ T "Subjs_CustomTimetable_CustomImportError" }}");
         }
     }

@@ -220,6 +220,9 @@
 - id: Subjs_CustomTimetable_CustomCancel
   translation: Cancel
 
+- id: Subjs_CustomTimetable_CustomUnsavedChangesConfirm
+  translation: "Discard changes? All unsaved changes will be lost."
+
 - id: Subjs_CustomTimetable_CustomSave
   translation: Save
 
@@ -301,8 +304,32 @@
 - id: Subjs_CustomTimetable_CustomImportDescription
   translation: "Import a custom subject from a JSON file"
 
+- id: Subjs_CustomTimetable_CustomBack
+  translation: 'Back'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewTitle
+  translation: 'Confirm import'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewDescription
+  translation: 'Review the subject details before importing it.'
+
+- id: Subjs_CustomTimetable_CustomScheduleCountLabel
+  translation: 'Lessons'
+
+- id: Subjs_CustomTimetable_CustomConfirmImport
+  translation: 'Import subject'
+
+- id: Subjs_CustomTimetable_CustomImportPreviewOverwriteWarning
+  translation: 'A subject with this ID (%s) already exists. Confirming will replace the existing data.'
+
 - id: Subjs_CustomTimetable_CustomImportOverwriteConfirm
   translation: 'A custom subject with ID "%s" already exists. Overwrite it? All existing data for this subject will be replaced.'
+
+- id: Subjs_CustomTimetable_CustomImportIdInvalid
+  translation: "The ID is invalid. Enter an ID in the format custom-{timestamp}-{UUID}."
+
+- id: Subjs_CustomTimetable_CustomImportIdDuplicate
+  translation: "This ID already belongs to another subject. Importing will overwrite the existing subject."
 
 - id: Subjs_CustomTimetable_CustomImportError
   translation: "The subject could not be imported: the file is invalid or incompatible."
@@ -382,4 +409,3 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Want to see everyone who has contributed to this wiki and to the wider website project? Visit the <a href="../contributors/"><strong>wiki contributors</strong></a> page.'
-

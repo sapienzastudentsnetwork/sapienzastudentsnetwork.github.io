@@ -530,3 +530,147 @@
   min-width: 0;
   justify-self: stretch;
 }
+
+
+/* Secondary identifier for distinguishing custom subjects with equal names. */
+.custom-subject-card__id {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin-top: .2rem;
+  overflow: hidden;
+  color: color-mix(in srgb, var(--body-font-color) 58%, transparent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+  font-size: .72rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* Back navigation and import confirmation preview. */
+.custom-subject-dialog__footer--with-back,
+.custom-subject-dialog__footer--navigation {
+  align-items: center;
+}
+
+.custom-subject-back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-right: auto;
+}
+
+.custom-subject-import-preview {
+  padding: 1rem;
+}
+
+.custom-subject-import-preview__intro {
+  margin: 0 0 .85rem;
+  color: color-mix(in srgb, var(--body-font-color) 78%, transparent);
+}
+
+.custom-subject-import-preview__details {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--body-font-color) 30%, transparent);
+  border-radius: 8px;
+}
+
+.custom-subject-import-preview__details > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, .8fr) minmax(0, 1.6fr);
+  gap: .75rem;
+  padding: .65rem .75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--body-font-color) 20%, transparent);
+}
+
+.custom-subject-import-preview__details > div:last-child {
+  border-bottom: 0;
+}
+
+.custom-subject-import-preview__details dt {
+  color: color-mix(in srgb, var(--body-font-color) 68%, transparent);
+  font-weight: 600;
+}
+
+.custom-subject-import-preview__details dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.custom-subject-import-preview__warning {
+  margin: .85rem 0 0;
+  padding: .7rem .8rem;
+  border: 1px solid color-mix(in srgb, #f59e0b 65%, transparent);
+  border-radius: 6px;
+  background: color-mix(in srgb, #f59e0b 12%, transparent);
+}
+
+@media screen and (max-width: 700px) {
+  .custom-subject-dialog__footer--with-back {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #customSubjectDialog .custom-subject-dialog__footer--with-back .custom-subject-back-button {
+    grid-column: 1 / -1;
+  }
+
+  .custom-subject-import-preview__details > div {
+    grid-template-columns: 1fr;
+    gap: .15rem;
+  }
+}
+
+
+/* Editable import review, aligned with the standard subject editor. */
+.custom-subject-import-id-message { min-height: 1.25rem; font-size: .78rem; line-height: 1.3; }
+.custom-subject-import-id-field--invalid input { border-color: #dc2626 !important; box-shadow: 0 0 0 1px #dc2626; }
+.custom-subject-import-id-field--invalid .custom-subject-import-id-message { color: #ef4444; }
+.custom-subject-import-id-field--duplicate input { border-color: #d97706 !important; box-shadow: 0 0 0 1px #d97706; background: color-mix(in srgb, #f59e0b 10%, var(--body-background)); }
+.custom-subject-import-id-field--duplicate .custom-subject-import-id-message { color: #f59e0b; }
+#customSubjectSubmitButton:disabled { opacity: .5; cursor: not-allowed; filter: none; }
+
+
+/* The import-only ID field must stay hidden in add/edit mode. */
+#customSubjectImportIdField.hidden {
+  display: none !important;
+}
+
+
+/* Editor close action, conditional save action and import-only ID visibility. */
+#customSubjectImportIdField[hidden],
+#customSubjectImportIdField.hidden {
+  display: none !important;
+}
+
+.custom-subject-dialog__header--with-close {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.custom-subject-dialog__close {
+  display: inline-flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex: 0 0 2.25rem;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--body-font-color) 30%, transparent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--body-font-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.custom-subject-dialog__close:hover {
+  background: var(--table-row-hover);
+}
