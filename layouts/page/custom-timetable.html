@@ -104,6 +104,15 @@
                     <small>{{ T "Subjs_CustomTimetable_CustomManageDescription" }}</small>
                 </span>
             </button>
+            <button type="button" class="custom-subject-choice" onclick="importCustomSubjectFromMenu()">
+                <i class="fa-solid fa-file-import" aria-hidden="true"></i>
+                <span>
+                    <strong>{{ T "Subjs_CustomTimetable_CustomImport" }}</strong>
+                    <small>{{ T "Subjs_CustomTimetable_CustomImportDescription" }}</small>
+                </span>
+            </button>
+            <input id="customSubjectImportInput" type="file" accept="application/json,.json" hidden
+                onchange="importCustomSubjectFile(event)">
         </div>
         <footer class="custom-subject-dialog__footer">
             <button type="button" class="custom-subject-button" onclick="closeCustomSubjectsMenu()">
@@ -118,13 +127,17 @@
     <input id="customSubjectId" type="hidden">
     <header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomTitle" }}</h2></header>
     <div class="custom-subject-grid">
-      <label class="custom-subject-field custom-subject-field--wide"><span>{{ T "Subjs_CustomTimetable_CustomName" }}</span><input id="customSubjectName" required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }}</span><input id="customSubjectShortName" required maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }}</span><input id="customSubjectAbbr" required maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
+      <label class="custom-subject-field custom-subject-field--wide"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span aria-hidden="true">*</span></span><input id="customSubjectName" required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
+      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }} <span aria-hidden="true">*</span></span><input id="customSubjectShortName" required maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
+      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }} <span aria-hidden="true">*</span></span><input id="customSubjectAbbr" required maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
       <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomColor" }}</span><input id="customSubjectColor" type="color" value="#fbc02d"></label>
     </div>
-    <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h3><button type="button" class="custom-subject-mini-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus"></i></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
-    <footer class="custom-subject-dialog__footer"><button type="button" class="custom-subject-button" onclick="closeCustomSubjectDialog()">{{ T "Subjs_CustomTimetable_CustomCancel" }}</button><button type="submit" class="custom-subject-button custom-subject-button--primary">{{ T "Subjs_CustomTimetable_CustomSave" }}</button></footer>
+    <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h3><button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</span></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
+    <p class="custom-subject-required-note">{{ T "Subjs_CustomTimetable_CustomRequiredNote" }}</p>
+    <footer class="custom-subject-dialog__footer" style="justify-content: space-between;">
+      <button type="button" class="custom-subject-button" onclick="closeCustomSubjectDialog()">{{ T "Subjs_CustomTimetable_CustomCancel" }}</button>
+      <button type="submit" class="custom-subject-button custom-subject-button--primary">{{ T "Subjs_CustomTimetable_CustomSave" }}</button>
+    </footer>
   </form>
 </dialog>
 <dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" onclick="if (event.target === this) this.close()">
@@ -504,19 +517,161 @@
     const customTimetableDayShorts = [{{ range $index, $day := $days }}{{ if $index }},{{ end }}{{ printf "%q" (T (printf "DaysOfTheWeek_%s" $day)) | safeJS }}{{ end }}];
     const customTimetableStartHour = 8, customTimetableEndHour = 20;
     const customId = () => `custom-${Date.now()}-${crypto.randomUUID?.() || Math.random().toString(36).slice(2)}`;
-    function getCustomSubjects(){try{const v=JSON.parse(localStorage.getItem(customSubjectsStorageKey));return Array.isArray(v)?v:[]}catch{return[]}}
-    function setCustomSubjects(v){localStorage.setItem(customSubjectsStorageKey,JSON.stringify(v));updateCustomSubjectControls()}
-    function makeField(type,value,placeholder=""){const i=document.createElement("input");i.type=type;i.value=value||"";i.placeholder=placeholder;return i}
-    function timeSelect(value){const s=document.createElement("select");for(let h=customTimetableStartHour;h<=customTimetableEndHour;h++){const v=`${String(h).padStart(2,"0")}:00`;s.add(new Option(v,v))}s.value=value||"08:00";return s}
-    function removeRowButton(row){const b=document.createElement("button");b.type="button";b.className="custom-subject-mini-button custom-subject-mini-button--danger";b.innerHTML='<i class="fa-solid fa-minus"></i>';b.onclick=()=>row.remove();return b}
-    function labeledCustomField(label,control,extraClass=""){const field=document.createElement("label");field.className=`custom-subject-dynamic-field ${extraClass}`.trim();const caption=document.createElement("span");caption.textContent=label;field.append(caption,control);return field}
-    function addCustomLessonRow(lesson={}){const row=document.createElement("div");row.className="custom-subject-dynamic-row custom-subject-lesson-row";const day=document.createElement("select");customTimetableDays.forEach((d,i)=>day.add(new Option(d,i)));day.value=String(lesson.dayIndex??0);row.append(labeledCustomField("{{ T "Subjs_CustomTimetable_CustomDay" }}",day),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomStart" }}",timeSelect(lesson.startTime)),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}",timeSelect(lesson.endTime||"09:00")),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}",makeField("text",lesson.roomName,"{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}")),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}",makeField("text",lesson.roomAbbr,"{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}",makeField("text",lesson.roomUrl,"https://maps.app.goo.gl/...")),labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}",makeField("text",lesson.teacherName,"{{ T "Subjs_CustomTimetable_CustomTeacherExample" }}"),"custom-subject-dynamic-field--teacher"),labeledCustomField("{{ T "Subjs_CustomTimetable_CustomTeacherUrl" }}",makeField("text",lesson.teacherUrl,"https://corsidilaurea.uniroma1.it/it/lecturer/..."),"custom-subject-dynamic-field--teacher-url"),removeRowButton(row));document.getElementById("customSubjectLessons").append(row)}
-    function openCustomSubjectDialog(id=null){const subject=getCustomSubjects().find(s=>s.id===id);document.getElementById("customSubjectForm").reset();document.getElementById("customSubjectId").value=subject?.id||"";document.getElementById("customSubjectName").value=subject?.name||"";document.getElementById("customSubjectShortName").value=subject?.shortName||"";document.getElementById("customSubjectAbbr").value=subject?.abbr||"";document.getElementById("customSubjectColor").value=subject?.color||"#fbc02d";document.getElementById("customSubjectLessons").replaceChildren();(subject?.lessons?.length?subject.lessons:[{}]).forEach(addCustomLessonRow);document.getElementById("customSubjectDialog").showModal()}
-    function closeCustomSubjectDialog(){document.getElementById("customSubjectDialog").close()}
-    function saveCustomSubject(e){e.preventDefault();const lessons=[...document.querySelectorAll(".custom-subject-lesson-row")].map(r=>{const controls=[...r.querySelectorAll("select,input")];return{dayIndex:Number(controls[0].value),startTime:controls[1].value,endTime:controls[2].value,roomName:controls[3].value.trim(),roomAbbr:controls[4].value.trim(),roomUrl:controls[5].value.trim(),teacherName:controls[6].value.trim(),teacherUrl:controls[7].value.trim()}}).filter(l=>l.endTime>l.startTime&&l.teacherName);if(!lessons.length)return;const id=document.getElementById("customSubjectId").value||customId();const previous=getCustomSubjects().find(subject=>subject.id===id);const subject={id,hidden:previous?.hidden||false,name:document.getElementById("customSubjectName").value.trim(),shortName:document.getElementById("customSubjectShortName").value.trim(),abbr:document.getElementById("customSubjectAbbr").value.trim().toUpperCase(),color:document.getElementById("customSubjectColor").value,lessons};const all=getCustomSubjects().filter(s=>s.id!==id);all.push(subject);setCustomSubjects(all);closeCustomSubjectDialog();renderCustomSubjects()}
+    function getCustomSubjects() {
+        try {
+            const value = JSON.parse(localStorage.getItem(customSubjectsStorageKey));
+            return Array.isArray(value) ? value : [];
+        } catch {
+            return [];
+        }
+    }
+    function setCustomSubjects(subjects) {
+        localStorage.setItem(customSubjectsStorageKey, JSON.stringify(subjects));
+        updateCustomSubjectControls();
+    }
+    function makeField(type, value, placeholder = "") {
+        const input = document.createElement("input");
+        input.type = type;
+        input.value = value || "";
+        input.placeholder = placeholder;
+        return input;
+    }
+    function timeSelect(value) {
+        const select = document.createElement("select");
+        for (let hour = customTimetableStartHour; hour <= customTimetableEndHour; hour++) {
+            const optionValue = `${String(hour).padStart(2, "0")}:00`;
+            select.add(new Option(optionValue, optionValue));
+        }
+        select.value = value || "08:00";
+        return select;
+    }
+    function removeRowButton(row) {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "custom-subject-remove-lesson-button";
+        button.innerHTML = [
+            '<i class="fa-solid fa-trash-can" aria-hidden="true"></i>',
+            '<span>{{ T "Subjs_CustomTimetable_CustomRemoveLesson" }}</span>',
+        ].join("");
+        button.onclick = () => {
+            const message = "{{ T "Subjs_CustomTimetable_CustomRemoveLessonConfirm" }}";
+            if (confirm(message)) row.remove();
+        };
+        return button;
+    }
+    function labeledCustomField(label, control, extraClass = "", required = false) {
+        const field = document.createElement("label");
+        field.className = `custom-subject-dynamic-field ${extraClass}`.trim();
+        const caption = document.createElement("span");
+        caption.textContent = required ? `${label} *` : label;
+        if (required) control.required = true;
+        field.append(caption, control);
+        return field;
+    }
+    function addCustomLessonRow(lesson = {}) {
+        const row = document.createElement("div");
+        row.className = "custom-subject-dynamic-row custom-subject-lesson-row";
+        const day = document.createElement("select");
+        customTimetableDays.forEach((d, i) => day.add(new Option(d, i)));
+        day.value = String(lesson.dayIndex ?? 0);
+        const teacherInput = makeField(
+            "text",
+            lesson.teacherName,
+            "{{ T "Subjs_CustomTimetable_CustomTeacherExample" }}",
+        );
+        const teacherUrlInput = makeField(
+            "url",
+            lesson.teacherUrl,
+            "https://corsidilaurea.uniroma1.it/...",
+        );
+        const updateTeacherUrlState = () => {
+            const hasTeacher = teacherInput.value.trim().length > 0;
+            teacherUrlInput.disabled = !hasTeacher;
+        };
+        teacherInput.addEventListener("input", updateTeacherUrlState);
+        updateTeacherUrlState();
+
+        const timeGroup = document.createElement("div");
+        timeGroup.className = "custom-subject-field-group custom-subject-field-group--time";
+        timeGroup.append(
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomDay" }}", day, "", true),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomStart" }}", timeSelect(lesson.startTime), "", true),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}", timeSelect(lesson.endTime || "09:00"), "", true),
+        );
+
+        const classroomGroup = document.createElement("div");
+        classroomGroup.className = "custom-subject-field-group custom-subject-field-group--classroom";
+        classroomGroup.append(
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}", makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}")),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}", makeField("url", lesson.roomUrl, "https://maps.app.goo.gl/...")),
+        );
+
+        const teacherGroup = document.createElement("div");
+        teacherGroup.className = "custom-subject-field-group custom-subject-field-group--teacher";
+        teacherGroup.append(
+            labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomTeacherUrl" }}", teacherUrlInput),
+        );
+
+        row.append(timeGroup, classroomGroup, teacherGroup, removeRowButton(row));
+        document.getElementById("customSubjectLessons").append(row);
+    }
+
+    function openCustomSubjectDialog(id = null) {
+        const subject = getCustomSubjects().find((item) => item.id === id);
+        document.getElementById("customSubjectForm").reset();
+        document.getElementById("customSubjectId").value = subject?.id || "";
+        document.getElementById("customSubjectName").value = subject?.name || "";
+        document.getElementById("customSubjectShortName").value = subject?.shortName || "";
+        document.getElementById("customSubjectAbbr").value = subject?.abbr || "";
+        document.getElementById("customSubjectColor").value = subject?.color || "#fbc02d";
+        document.getElementById("customSubjectLessons").replaceChildren();
+        (subject?.lessons?.length ? subject.lessons : [{}]).forEach(addCustomLessonRow);
+        document.getElementById("customSubjectDialog").showModal();
+    }
+    function closeCustomSubjectDialog() {
+        document.getElementById("customSubjectDialog").close();
+    }
+    function saveCustomSubject(event) {
+        event.preventDefault();
+        const lessons = Array.from(document.querySelectorAll("#customSubjectLessons .custom-subject-lesson-row"))
+            .map((row) => {
+                const controls = row.querySelectorAll("select, input");
+                return {
+                    dayIndex: Number(controls[0].value),
+                    startTime: controls[1].value,
+                    endTime: controls[2].value,
+                    roomName: controls[3].value.trim(),
+                    roomAbbr: controls[4].value.trim(),
+                    roomUrl: controls[5].value.trim(),
+                    teacherName: controls[6].value.trim(),
+                    teacherUrl: controls[6].value.trim() ? controls[7].value.trim() : "",
+                };
+            })
+            .filter((lesson) => lesson.endTime > lesson.startTime);
+        if (!lessons.length) return;
+        const id = document.getElementById("customSubjectId").value || customId();
+        const previous = getCustomSubjects().find((subject) => subject.id === id);
+        const subject = {
+            id,
+            hidden: previous?.hidden || false,
+            name: document.getElementById("customSubjectName").value.trim(),
+            shortName: document.getElementById("customSubjectShortName").value.trim(),
+            abbr: document.getElementById("customSubjectAbbr").value.trim().toUpperCase(),
+            color: document.getElementById("customSubjectColor").value,
+            lessons,
+        };
+        const subjects = getCustomSubjects().filter((item) => item.id !== id);
+        subjects.push(subject);
+        setCustomSubjects(subjects);
+        closeCustomSubjectDialog();
+        renderCustomSubjects();
+    }
     function updateCustomSubjectControls() {
+        const hasSubjects = getCustomSubjects().length > 0;
         const manageChoice = document.getElementById("manageCustomSubjectsChoice");
-        if (manageChoice) manageChoice.disabled = getCustomSubjects().length === 0;
+        if (manageChoice) manageChoice.disabled = !hasSubjects;
     }
 
     function openCustomSubjectsMenu() {
@@ -538,6 +693,11 @@
         closeCustomSubjectsMenu();
         openCustomSubjectsManager();
     }
+    function compactCustomSubjectId(id) {
+        const readableId = id.startsWith("custom-") ? id.slice(7) : id;
+        return readableId.length > 12 ? `…${readableId.slice(-12)}` : readableId;
+    }
+
     function openCustomSubjectsManager() {
         const list = document.getElementById("customSubjectsManagerList");
         list.replaceChildren();
@@ -552,7 +712,11 @@
             const count = subject.lessons.length;
             meta.textContent = `{{ T "Subjs_CustomTimetable_CustomScheduleCount" }}`
                 .replace("%d", count);
-            content.append(heading, meta);
+            const idLabel = document.createElement("code");
+            idLabel.className = "custom-subject-card__id";
+            idLabel.textContent = `ID: ${compactCustomSubjectId(subject.id)}`;
+            idLabel.title = subject.id;
+            content.append(heading, meta, idLabel);
             const actions = document.createElement("div");
             actions.className = "custom-subject-card__actions";
             const toggle = document.createElement("button");
@@ -565,21 +729,115 @@
             const edit = document.createElement("button");
             edit.type = "button";
             edit.className = "custom-subject-button";
-            edit.innerHTML = '<i class="fa-solid fa-pencil"></i>';
+            edit.textContent = `{{ T "Subjs_CustomTimetable_CustomEdit" }}`;
             edit.onclick = () => {
                 document.getElementById("customSubjectsManagerDialog").close();
                 openCustomSubjectDialog(subject.id);
             };
+            const exportButton = document.createElement("button");
+            exportButton.type = "button";
+            exportButton.className = "custom-subject-button";
+            exportButton.textContent = "{{ T "Subjs_CustomTimetable_CustomExport" }}";
+            exportButton.onclick = () => exportCustomSubject(subject.id);
             const remove = document.createElement("button");
             remove.type = "button";
             remove.className = "custom-subject-button";
             remove.textContent = "{{ T "Subjs_CustomTimetable_CustomRemove" }}";
             remove.onclick = () => removeCustomSubject(subject.id);
-            actions.append(toggle, edit, remove);
+            actions.append(toggle, edit, exportButton, remove);
             card.append(content, actions);
             list.append(card);
         });
         document.getElementById("customSubjectsManagerDialog").showModal();
+    }
+
+    function customSubjectDownloadName(subject) {
+        const safeName = subject.name.toLowerCase().normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-|-$/g, "") || "custom-subject";
+        return `${safeName}.json`;
+    }
+
+    function exportCustomSubject(id) {
+        const subject = getCustomSubjects().find((item) => item.id === id);
+        if (!subject) return;
+        const payload = { version: 1, type: "custom-timetable-subject", subject };
+        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = customSubjectDownloadName(subject);
+        link.click();
+        URL.revokeObjectURL(url);
+    }
+
+    function importCustomSubjectFromMenu() {
+        document.getElementById("customSubjectImportInput").click();
+    }
+
+    function validImportedCustomSubject(subject) {
+        return subject && typeof subject === "object"
+            && typeof subject.id === "string"
+            && /^custom-\d{13}-(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|[a-z0-9]{6,})$/i.test(subject.id.trim())
+            && typeof subject.name === "string" && subject.name.trim()
+            && typeof subject.shortName === "string" && subject.shortName.trim()
+            && typeof subject.abbr === "string" && subject.abbr.trim()
+            && typeof subject.color === "string" && /^#[0-9a-f]{6}$/i.test(subject.color)
+            && Array.isArray(subject.lessons) && subject.lessons.length
+            && subject.lessons.every((lesson) => Number.isInteger(Number(lesson.dayIndex))
+                && Number(lesson.dayIndex) >= 0 && Number(lesson.dayIndex) < customTimetableDays.length
+                && /^\d{2}:00$/.test(lesson.startTime) && /^\d{2}:00$/.test(lesson.endTime)
+                && lesson.endTime > lesson.startTime
+                && (lesson.teacherName === undefined || typeof lesson.teacherName === "string")
+                && (lesson.roomName === undefined || typeof lesson.roomName === "string")
+                && (lesson.roomAbbr === undefined || typeof lesson.roomAbbr === "string"));
+    }
+
+    async function importCustomSubjectFile(event) {
+        const input = event.currentTarget;
+        const file = input.files?.[0];
+        input.value = "";
+        if (!file) return;
+        try {
+            const payload = JSON.parse(await file.text());
+            if (payload?.type !== "custom-timetable-subject" || payload?.version !== 1
+                || !validImportedCustomSubject(payload.subject)) throw new Error("invalid");
+            const imported = structuredClone(payload.subject);
+            imported.id = imported.id.trim();
+            imported.hidden = false;
+            imported.name = imported.name.trim();
+            imported.shortName = imported.shortName.trim();
+            imported.abbr = imported.abbr.trim().toUpperCase();
+            imported.lessons = imported.lessons.map((lesson) => {
+                const teacherName = lesson.teacherName?.trim() || "";
+                return {
+                    ...lesson,
+                    roomName: lesson.roomName?.trim() || "",
+                    roomAbbr: lesson.roomAbbr?.trim() || "",
+                    roomUrl: lesson.roomUrl?.trim() || "",
+                    teacherName,
+                    teacherUrl: teacherName ? lesson.teacherUrl?.trim() || "" : "",
+                };
+            });
+            const subjects = getCustomSubjects();
+            const existingIndex = subjects.findIndex((subject) => subject.id === imported.id);
+            if (existingIndex >= 0) {
+                const message = `{{ T "Subjs_CustomTimetable_CustomImportOverwriteConfirm" }}`
+                    .replace("%s", imported.id);
+                if (!confirm(message)) return;
+                imported.hidden = subjects[existingIndex].hidden;
+                subjects[existingIndex] = imported;
+            } else {
+                subjects.push(imported);
+            }
+            setCustomSubjects(subjects);
+            closeCustomSubjectsMenu();
+            renderCustomSubjects();
+            openCustomSubjectsManager();
+        } catch {
+            alert("{{ T "Subjs_CustomTimetable_CustomImportError" }}");
+        }
     }
 
     function toggleCustomSubjectVisibility(id) {
@@ -592,10 +850,53 @@
         openCustomSubjectsManager();
     }
 
-    function removeCustomSubject(id){const s=getCustomSubjects().find(x=>x.id===id);if(!s||!confirm(`{{ T "Subjs_CustomTimetable_CustomRemoveConfirm" }}`.replace("%s",s.name)))return;setCustomSubjects(getCustomSubjects().filter(x=>x.id!==id));renderCustomSubjects();if(getCustomSubjects().length)openCustomSubjectsManager();else document.getElementById("customSubjectsManagerDialog").close()}
-    function ensureCustomTimetableGrid(){["desktop","mobile"].forEach(mode=>{const body=document.querySelector(`#customSchedule tbody.${mode}`);if(!body||body.rows.length)return;for(let h=customTimetableStartHour;h<customTimetableEndHour;h++){const row=body.insertRow();const t=row.insertCell();t.className="timetableTableCell sticky left-0 z-10";t.textContent=`${h} – ${h+1}`;customTimetableDays.forEach(()=>{const c=row.insertCell();c.className="timetableTableCell"})}})}
-    function hourOf(t){return Number(t.split(":")[0])}
-    function safeLink(label,url){if(!url){const span=document.createElement("span");span.textContent=label;return span}const a=document.createElement("a");a.textContent=label;a.href=url;a.target="_blank";a.rel="noopener noreferrer";return a}
+    function removeCustomSubject(id) {
+        const subject = getCustomSubjects().find((item) => item.id === id);
+        if (!subject) return;
+        const message = `{{ T "Subjs_CustomTimetable_CustomRemoveConfirm" }}`
+            .replace("%s", subject.name)
+            .replace("%id", compactCustomSubjectId(subject.id));
+        if (!confirm(message)) return;
+        setCustomSubjects(getCustomSubjects().filter((item) => item.id !== id));
+        renderCustomSubjects();
+        if (getCustomSubjects().length) {
+            openCustomSubjectsManager();
+        } else {
+            document.getElementById("customSubjectsManagerDialog").close();
+        }
+    }
+    function ensureCustomTimetableGrid() {
+        ["desktop", "mobile"].forEach((mode) => {
+            const body = document.querySelector(`#customSchedule tbody.${mode}`);
+            if (!body || body.rows.length) return;
+            for (let hour = customTimetableStartHour; hour < customTimetableEndHour; hour++) {
+                const row = body.insertRow();
+                const timeCell = row.insertCell();
+                timeCell.className = "timetableTableCell sticky left-0 z-10";
+                timeCell.textContent = `${hour} – ${hour + 1}`;
+                customTimetableDays.forEach(() => {
+                    const cell = row.insertCell();
+                    cell.className = "timetableTableCell";
+                });
+            }
+        });
+    }
+    function hourOf(time) {
+        return Number(time.split(":")[0]);
+    }
+    function safeLink(label, url) {
+        if (!url) {
+            const span = document.createElement("span");
+            span.textContent = label;
+            return span;
+        }
+        const link = document.createElement("a");
+        link.textContent = label;
+        link.href = url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        return link;
+    }
     function setCustomMobileTextSize(element) {
         const length = element.textContent.length;
         if (length === 3) element.style.fontSize = "0.8em";
@@ -653,11 +954,12 @@
                     if (mode === "mobile") setCustomMobileTextSize(courseLink);
                     cell.append(courseLink);
 
-                    if (lesson.roomAbbr) {
+                    const classroomLabel = lesson.roomAbbr || lesson.roomName;
+                    if (classroomLabel) {
                         const classroom = document.createElement("div");
                         classroom.dataset.customSubjectId = subject.id;
                         classroom.classList.add("font-italic");
-                        classroom.textContent = `(${lesson.roomAbbr})`;
+                        classroom.textContent = `(${classroomLabel})`;
                         classroom.title = lesson.roomName || lesson.roomAbbr;
                         if (mode === "mobile") setCustomMobileClassroomSize(classroom);
                         cell.append(classroom);
@@ -670,8 +972,63 @@
         updateCustomSubjectControls();
     }
 
-    function formatCustomTime(value){return value.endsWith(":00")?value.slice(0,-3):value}
-    function renderCustomSubjectDetails(subjects){const section=document.getElementById("customSubjectsDetails"),list=document.getElementById("customSubjectsDetailsList");list.replaceChildren();section.classList.toggle("hidden",!subjects.length);subjects.forEach(subject=>{const article=document.createElement("div");article.id=`custom-subject-details-${subject.id}`;const h=document.createElement("h3");h.textContent=`${subject.name} (${subject.shortName}) [${subject.abbr}]`;const userInserted=document.createElement("p");userInserted.textContent="{{ T "Subjs_CustomTimetable_UserInserted" }}";const table=document.createElement("table"),head=document.createElement("thead"),hr=document.createElement("tr");["{{ T "Subjs_TimetablesPerTeaching_Day" }}","{{ T "Subjs_TimetablesPerTeaching_Time" }}","{{ T "Subjs_TimetablesPerTeaching_Teacher" }}","{{ T "Subjs_TimetablesPerTeaching_Classroom" }}"].forEach(x=>{const th=document.createElement("th");th.className="timetableTableCell";th.textContent=x;hr.append(th)});head.append(hr);const body=document.createElement("tbody");subject.lessons.forEach(l=>{const r=document.createElement("tr");const values=[customTimetableDayShorts[l.dayIndex],`${formatCustomTime(l.startTime)} – ${formatCustomTime(l.endTime)}`];values.forEach(v=>{const td=document.createElement("td");td.className="timetableTableCell";td.textContent=v;r.append(td)});const tdT=document.createElement("td");tdT.className="timetableTableCell";tdT.append(safeLink(l.teacherName,l.teacherUrl));const tdR=document.createElement("td");tdR.className="timetableTableCell";tdR.append(safeLink(l.roomName,l.roomUrl));r.append(tdT,tdR);body.append(r)});table.append(head,body);article.append(h,userInserted,table);list.append(article)})}
+    function formatCustomTime(value) {
+        return value.endsWith(":00") ? value.slice(0, -3) : value;
+    }
+    function renderCustomSubjectDetails(subjects) {
+        const section = document.getElementById("customSubjectsDetails");
+        const list = document.getElementById("customSubjectsDetailsList");
+        list.replaceChildren();
+        section.classList.toggle("hidden", !subjects.length);
+        subjects.forEach((subject) => {
+            const article = document.createElement("div");
+            article.id = `custom-subject-details-${subject.id}`;
+            const heading = document.createElement("h3");
+            heading.textContent = `${subject.name} (${subject.shortName}) [${subject.abbr}]`;
+            const userInserted = document.createElement("p");
+            userInserted.textContent = "{{ T "Subjs_CustomTimetable_UserInserted" }}";
+            const table = document.createElement("table");
+            const tableHead = document.createElement("thead");
+            const headerRow = document.createElement("tr");
+            [
+                "{{ T "Subjs_TimetablesPerTeaching_Day" }}",
+                "{{ T "Subjs_TimetablesPerTeaching_Time" }}",
+                "{{ T "Subjs_TimetablesPerTeaching_Teacher" }}",
+                "{{ T "Subjs_TimetablesPerTeaching_Classroom" }}",
+            ].forEach((label) => {
+                const header = document.createElement("th");
+                header.className = "timetableTableCell";
+                header.textContent = label;
+                headerRow.append(header);
+            });
+            tableHead.append(headerRow);
+            const tableBody = document.createElement("tbody");
+            subject.lessons.forEach((lesson) => {
+                const row = document.createElement("tr");
+                const values = [
+                    customTimetableDayShorts[lesson.dayIndex],
+                    `${formatCustomTime(lesson.startTime)} – ${formatCustomTime(lesson.endTime)}`,
+                ];
+                values.forEach((value) => {
+                    const cell = document.createElement("td");
+                    cell.className = "timetableTableCell";
+                    cell.textContent = value;
+                    row.append(cell);
+                });
+                const teacherCell = document.createElement("td");
+                teacherCell.className = "timetableTableCell";
+                teacherCell.append(safeLink(lesson.teacherName || "—", lesson.teacherUrl));
+                const roomCell = document.createElement("td");
+                roomCell.className = "timetableTableCell";
+                roomCell.append(safeLink(lesson.roomName || lesson.roomAbbr || "—", lesson.roomUrl));
+                row.append(teacherCell, roomCell);
+                tableBody.append(row);
+            });
+            table.append(tableHead, tableBody);
+            article.append(heading, userInserted, table);
+            list.append(article);
+        });
+    }
 
     function positionSubjectsDialog() {
         const dialog = document.getElementById("subjsPopUp");

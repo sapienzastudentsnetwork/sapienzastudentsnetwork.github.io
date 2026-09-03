@@ -232,7 +232,16 @@
   translation: Chiudi
 
 - id: Subjs_CustomTimetable_CustomRemoveConfirm
-  translation: Eliminare la materia personalizzata “%s”?
+  translation: 'Eliminare la materia personalizzata "%s" (ID: %id)? Tutti i dati inseriti per questa materia andranno persi.'
+
+- id: Subjs_CustomTimetable_CustomAddLesson
+  translation: "Aggiungi lezione"
+
+- id: Subjs_CustomTimetable_CustomRemoveLesson
+  translation: "Rimuovi lezione"
+
+- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
+  translation: "Rimuovere questa lezione? Tutti i dati inseriti per questa lezione andranno persi."
 
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Acronimo aula
@@ -274,7 +283,28 @@
   translation: Crea un nuovo insegnamento con orari personalizzati
 
 - id: Subjs_CustomTimetable_CustomManageDescription
-  translation: Modifica, nascondi o rimuovi gli insegnamenti salvati
+  translation: "Modifica, nascondi, esporta o rimuovi gli insegnamenti salvati"
+
+- id: Subjs_CustomTimetable_CustomRequiredNote
+  translation: "I campi contrassegnati con * sono obbligatori."
+
+- id: Subjs_CustomTimetable_CustomEdit
+  translation: "Modifica"
+
+- id: Subjs_CustomTimetable_CustomExport
+  translation: "Esporta"
+
+- id: Subjs_CustomTimetable_CustomImport
+  translation: "Importa"
+
+- id: Subjs_CustomTimetable_CustomImportDescription
+  translation: "Importa una materia personalizzata da un file JSON"
+
+- id: Subjs_CustomTimetable_CustomImportOverwriteConfirm
+  translation: 'Esiste già una materia personalizzata con ID "%s". Sovrascriverla? Tutti i dati esistenti per questa materia verranno sostituiti.'
+
+- id: Subjs_CustomTimetable_CustomImportError
+  translation: "Impossibile importare la materia: il file non è valido o non è compatibile."
 
 #
 #   C O N T A C T S   P A G E

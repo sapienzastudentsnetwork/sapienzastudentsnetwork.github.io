@@ -350,3 +350,183 @@
   font-weight: 600;
   letter-spacing: 0.01em;
 }
+
+/* Keep custom-subject management actions compact on narrow screens. */
+@media screen and (max-width: 700px) {
+  #customSubjectsManagerDialog .custom-subject-card__actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .5rem;
+    width: 100%;
+  }
+
+  #customSubjectsManagerDialog .custom-subject-card__actions .custom-subject-button {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+
+/* Polished custom-subject editor hierarchy and dark-theme contrast. */
+#customSubjectDialog {
+  --custom-subject-border: color-mix(in srgb, var(--body-font-color) 30%, transparent);
+  --custom-subject-separator: color-mix(in srgb, var(--body-font-color) 20%, transparent);
+}
+
+#customSubjectDialog.custom-subject-dialog,
+#customSubjectDialog .custom-subject-editor-section,
+#customSubjectDialog .custom-subject-dynamic-row,
+#customSubjectDialog .custom-subject-field input,
+#customSubjectDialog .custom-subject-dynamic-field input,
+#customSubjectDialog .custom-subject-dynamic-field select,
+#customSubjectDialog .custom-subject-button,
+#customSubjectDialog .custom-subject-mini-button {
+  border-color: var(--custom-subject-border);
+}
+
+#customSubjectDialog .custom-subject-dynamic-row {
+  background: color-mix(in srgb, var(--body-font-color) 2.5%, transparent);
+}
+
+.custom-subject-field-group {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: .55rem;
+  min-width: 0;
+}
+
+.custom-subject-field-group--time {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.custom-subject-field-group--classroom,
+.custom-subject-field-group--teacher {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding-top: .7rem;
+  border-top: 1px solid var(--custom-subject-separator);
+}
+
+.custom-subject-field-group--classroom > :last-child {
+  grid-column: 1 / -1;
+}
+
+.custom-subject-required-note {
+  margin: 0 1rem .75rem;
+  color: color-mix(in srgb, var(--body-font-color) 72%, transparent);
+  font-size: .82rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+#customSubjectDialog input:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 619px) {
+  .custom-subject-field-group--time,
+  .custom-subject-field-group--classroom,
+  .custom-subject-field-group--teacher {
+    grid-template-columns: 1fr;
+  }
+
+  .custom-subject-field-group--classroom > :last-child {
+    grid-column: auto;
+  }
+}
+
+
+/* Destructive lesson action: explicit label, separate placement and confirmation in JavaScript. */
+.custom-subject-remove-lesson-button {
+  display: inline-flex;
+  grid-column: 1 / -1;
+  width: auto;
+  min-height: 2.5rem;
+  padding: .5rem .8rem;
+  align-items: center;
+  justify-content: center;
+  justify-self: end;
+  gap: .45rem;
+  border: 1px solid color-mix(in srgb, #dc2626 72%, var(--custom-subject-border));
+  border-radius: 5px;
+  background: color-mix(in srgb, #dc2626 12%, transparent);
+  color: color-mix(in srgb, #ef4444 85%, var(--body-font-color));
+  font: inherit;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .12s, border-color .12s, transform .12s;
+}
+
+.custom-subject-remove-lesson-button:hover {
+  border-color: #dc2626;
+  background: color-mix(in srgb, #dc2626 22%, transparent);
+}
+
+.custom-subject-remove-lesson-button:active {
+  transform: translateY(1px);
+}
+
+.custom-subject-remove-lesson-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@media screen and (max-width: 619px) {
+  .custom-subject-remove-lesson-button {
+    width: 100%;
+    justify-self: stretch;
+  }
+}
+
+
+/* Explicit label for the add-lesson action. */
+.custom-subject-add-lesson-button {
+  display: inline-flex;
+  width: auto;
+  min-width: 0;
+  min-height: 2.5rem;
+  padding: .5rem .8rem;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 619px) {
+  .custom-subject-add-lesson-button {
+    min-height: 2.75rem;
+  }
+}
+
+/* Stronger menu-card borders and stable icon alignment. */
+#customSubjectsMenuDialog {
+  --custom-subject-menu-border: color-mix(in srgb, var(--body-font-color) 30%, transparent);
+}
+
+#customSubjectsMenuDialog.custom-subject-dialog,
+#customSubjectsMenuDialog .custom-subject-choice,
+#customSubjectsMenuDialog .custom-subject-dialog__header,
+#customSubjectsMenuDialog .custom-subject-dialog__footer {
+  border-color: var(--custom-subject-menu-border);
+}
+
+#customSubjectsMenuDialog .custom-subject-choice {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr) 2.25rem;
+  column-gap: .8rem;
+}
+
+#customSubjectsMenuDialog .custom-subject-choice > i {
+  grid-column: 1;
+  width: 2.25rem;
+  margin: 0;
+  justify-self: center;
+  text-align: center;
+}
+
+#customSubjectsMenuDialog .custom-subject-choice > span {
+  grid-column: 2;
+  min-width: 0;
+  justify-self: stretch;
+}

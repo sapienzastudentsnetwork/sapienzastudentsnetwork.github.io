@@ -233,7 +233,16 @@
   translation: Close
 
 - id: Subjs_CustomTimetable_CustomRemoveConfirm
-  translation: Remove the custom subject “%s”?
+  translation: 'Remove the custom subject "%s" (ID: %id)? All data entered for this subject will be lost.'
+
+- id: Subjs_CustomTimetable_CustomAddLesson
+  translation: "Add lesson"
+
+- id: Subjs_CustomTimetable_CustomRemoveLesson
+  translation: "Remove lesson"
+
+- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
+  translation: "Remove this lesson? All data entered for this lesson will be lost."
 
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Classroom acronym
@@ -275,7 +284,28 @@
   translation: Create a new teaching with custom schedules
 
 - id: Subjs_CustomTimetable_CustomManageDescription
-  translation: Edit, hide or remove saved teachings
+  translation: "Edit, hide, export or remove saved teachings"
+
+- id: Subjs_CustomTimetable_CustomRequiredNote
+  translation: "Fields marked with * are required."
+
+- id: Subjs_CustomTimetable_CustomEdit
+  translation: "Edit"
+
+- id: Subjs_CustomTimetable_CustomExport
+  translation: "Export"
+
+- id: Subjs_CustomTimetable_CustomImport
+  translation: "Import"
+
+- id: Subjs_CustomTimetable_CustomImportDescription
+  translation: "Import a custom subject from a JSON file"
+
+- id: Subjs_CustomTimetable_CustomImportOverwriteConfirm
+  translation: 'A custom subject with ID "%s" already exists. Overwrite it? All existing data for this subject will be replaced.'
+
+- id: Subjs_CustomTimetable_CustomImportError
+  translation: "The subject could not be imported: the file is invalid or incompatible."
 
 #
 #   C O N T A C T S   P A G E
