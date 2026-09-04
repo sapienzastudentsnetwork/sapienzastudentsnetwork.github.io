@@ -1,60 +1,75 @@
 {
-    "date_range": "Monday 31 August 2026 - Friday 04 September 2026",
+    "date_range": "Monday 07 September 2026 - Friday 11 September 2026",
     "timetables": {
         "monday": {
-            "09:30-10:30": "",
-            "10:30-11:30": "",
-            "11:30-12:30": "",
-            "12:30-13:30": "",
+            "09:30-10:30": "V Appello Sistemi Operativi II Canale 2",
+            "10:30-11:30": "V Appello Sistemi Operativi II Canale 2",
+            "11:30-12:30": "V Appello Sistemi Operativi II Canale 2",
+            "12:30-13:00": "V Appello Sistemi Operativi II Canale 2",
+            "13:00-13:30": "",
             "13:30-14:30": "",
             "14:30-15:30": "",
             "15:30-16:30": "",
             "16:30-17:30": "",
-            "17:30-18:00": ""
+            "17:30-18:00": "",
+            "09:00-09:30": "V Appello Sistemi Operativi II Canale 2",
+            "18:00-19:00": ""
         },
         "tuesday": {
             "09:30-10:30": "",
             "10:30-11:30": "",
             "11:30-12:30": "",
-            "12:30-13:30": "",
+            "12:30-13:00": "",
+            "13:00-13:30": "",
             "13:30-14:30": "",
             "14:30-15:30": "",
             "15:30-16:30": "",
             "16:30-17:30": "",
-            "17:30-18:00": ""
+            "17:30-18:00": "",
+            "09:00-09:30": "",
+            "18:00-19:00": ""
         },
         "wednesday": {
-            "09:30-10:30": "",
-            "10:30-11:30": "",
-            "11:30-12:30": "",
-            "12:30-13:30": "",
-            "13:30-14:30": "",
-            "14:30-15:30": "",
-            "15:30-16:30": "",
-            "16:30-17:30": "",
-            "17:30-18:00": ""
+            "09:30-10:30": "Appello Ingegneria del software Tronci",
+            "10:30-11:30": "Appello Ingegneria del software Tronci",
+            "11:30-12:30": "Appello Ingegneria del software Tronci",
+            "12:30-13:00": "Appello Ingegneria del software Tronci",
+            "13:00-13:30": "Appello Ingegneria del software Tronci",
+            "13:30-14:30": "Appello Ingegneria del software Tronci",
+            "14:30-15:30": "Appello Ingegneria del software Tronci",
+            "15:30-16:30": "Appello Ingegneria del software Tronci",
+            "16:30-17:30": "Appello Ingegneria del software Tronci",
+            "17:30-18:00": "Appello Ingegneria del software Tronci",
+            "09:00-09:30": "Appello Ingegneria del software Tronci",
+            "18:00-19:00": "Appello Ingegneria del software Tronci"
         },
         "thursday": {
             "09:30-10:30": "",
             "10:30-11:30": "",
             "11:30-12:30": "",
-            "12:30-13:30": "",
+            "12:30-13:00": "",
+            "13:00-13:30": "",
             "13:30-14:30": "",
             "14:30-15:30": "",
             "15:30-16:30": "",
             "16:30-17:30": "",
-            "17:30-18:00": ""
+            "17:30-18:00": "",
+            "09:00-09:30": "",
+            "18:00-19:00": ""
         },
         "friday": {
-            "09:30-10:30": "",
-            "10:30-11:30": "",
-            "11:30-12:30": "",
-            "12:30-13:30": "",
-            "13:30-14:30": "",
-            "14:30-15:30": "",
-            "15:30-16:30": "",
-            "16:30-17:30": "",
-            "17:30-18:00": ""
+            "09:30-10:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "10:30-11:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "11:30-12:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "12:30-13:00": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "13:00-13:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "13:30-14:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "14:30-15:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "15:30-16:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "16:30-17:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "17:30-18:00": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "09:00-09:30": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci",
+            "18:00-19:00": "Appello - Verifica e Validazione dei Sistemi Intelligenti  (in presenza ed in teledidattica) - Prof. Tronci"
         }
     }
 }

@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 31 August 2026 - Friday 04 September 2026",
+    "date_range": "Monday 07 September 2026 - Friday 11 September 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -50,10 +50,10 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
-            "16:00-17:00": "",
-            "17:00-18:00": "",
+            "14:00-15:00": "Appello Prof. L.V.Mancini - Cybersecurity Seminars",
+            "15:00-16:00": "Appello Prof. L.V.Mancini - Cybersecurity Seminars",
+            "16:00-17:00": "Appello Prof. L.V.Mancini - Cybersecurity Seminars",
+            "17:00-18:00": "Appello Prof. L.V.Mancini - Cybersecurity Seminars",
             "18:00-19:00": "",
             "19:00-19:30": ""
         },
