@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 03 August 2026 - Friday 07 August 2026",
+    "date_range": "Monday 31 August 2026 - Friday 04 September 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "",
@@ -19,11 +19,11 @@
             "08:00-09:00": "",
             "09:00-10:00": "",
             "10:00-11:00": "",
-            "11:00-12:00": "",
-            "12:00-13:00": "",
+            "11:00-12:00": "ESAME DigitalContentProcessing Cinelli",
+            "12:00-13:00": "ESAME DigitalContentProcessing Cinelli",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
+            "14:00-15:00": "Esame multimodal interaction - Prof Maurizio Mancini",
+            "15:00-16:00": "Esame multimodal interaction - Prof Maurizio Mancini",
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
@@ -64,8 +64,8 @@
             "11:00-12:00": "",
             "12:00-13:00": "",
             "13:00-14:00": "",
-            "14:00-15:00": "",
-            "15:00-16:00": "",
+            "14:00-15:00": "Appello di Interazione Uomo Macchina - Maurizio Mancini",
+            "15:00-16:00": "Appello di Interazione Uomo Macchina - Maurizio Mancini",
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
