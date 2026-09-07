@@ -110,6 +110,14 @@
         "code": "10595617"
       }
     },
+    "33503": {
+      "1041727": {
+        "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
+        "degree": "33503",
+        "channels": {},
+        "code": "1041727"
+      }
+    },
     "33508": {
       "10626793": {
         "subject": "ADVANCED MACHINE LEARNING",
@@ -212,6 +220,51 @@
     }
   },
   "add_schedules": {
+    "1041727": {
+      "degree_limit": "33503",
+      "channels": {
+        "0": {
+          "mercoled\u00ec": [
+            {
+              "teachers": {
+                "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+              },
+              "timeslot": "8 - 10",
+              "classroomInfo": "Aula 4 (Edificio: RM158)",
+              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+            }
+          ],
+          "venerd\u00ec": [
+            {
+              "teachers": {
+                "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+              },
+              "timeslot": "8 - 11",
+              "classroomInfo": "Aula 4 (Edificio: RM158)",
+              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+            }
+          ]
+        }
+      }
+    },
+    "1022263": {
+      "degree_limit": "33503",
+      "channels": {
+        "0": {
+          "mercoled\u00ec": [
+            {
+              "teachers": {
+                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+              },
+              "timeslot": "17 - 19",
+              "classrooms": {
+                "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
+              }
+            }
+          ]
+        }
+      }
+    },
     "10627226": {
       "degree_limit": "33502",
       "channels": {
