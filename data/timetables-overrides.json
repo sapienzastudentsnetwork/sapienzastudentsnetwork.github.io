@@ -230,8 +230,9 @@
                 "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
               },
               "timeslot": "8 - 10",
-              "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
             }
           ],
           "venerd\u00ec": [
@@ -240,8 +241,9 @@
                 "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
               },
               "timeslot": "8 - 11",
-              "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
             }
           ]
         }
@@ -892,8 +894,9 @@
             {
               "teachers": {},
               "timeslot": "8 - 11",
-              "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
             }
           ],
           "giovedì": [
@@ -989,8 +992,9 @@
                 "1aa26c61b3e58c09d1158952a188a7cefb7099e439fb6aac2611e97b": "HITAJ DORIAN"
               },
               "timeslot": "10 - 13",
-              "classroomInfo": "Aula 4 (Edificio: RM158)",
-              "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+              "classrooms": {
+                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              }
             }
           ],
           "martedì": [
@@ -1218,16 +1222,7 @@
       }
     }
   },
-  "replace_classrooms": {
-    "41f8d660-fcfd-4b27-9dc6-8da0e075088b": {
-      "classroomInfo": "Aula 3 (Edificio: RM158)",
-      "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
-    },
-    "0423606b-48fc-4638-a851-eab7563981a2": {
-      "classroomInfo": "Aula 4 (Edificio: RM158)",
-      "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
-    }
-  },
+  "replace_classrooms": {},
   "remove_teachers": {},
   "change_classrooms": {
     "AAF2511": {
