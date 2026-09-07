@@ -277,11 +277,6 @@
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "luned\u00ec",
-                "from": "17:00",
-                "to": "19:00"
-              },
-              {
                 "day": "venerd\u00ec",
                 "from": "14:00",
                 "to": "17:00"
@@ -353,27 +348,6 @@
             "subject": "INGEGNERIA DEL SOFTWARE",
             "teachers": [
               "TRONCI ENRICO"
-            ]
-          },
-          {
-            "building": "Edificio: RM111",
-            "course": "1041727",
-            "room": "Aula Magna",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "08:00",
-                "to": "11:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              }
-            ],
-            "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
-            "teachers": [
-              "VENTURI DANIELE"
             ]
           },
           {

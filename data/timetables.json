@@ -7,17 +7,6 @@
     ],
     "channels": {
       "0": {
-        "luned\u00ec": [
-          {
-            "teachers": {
-              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
-            },
-            "timeslot": "17 - 19",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -209,40 +198,6 @@
       }
     },
     "code": "1023608"
-  },
-  "1041727": {
-    "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
-    "degree": "33503",
-    "degrees": [
-      "33503"
-    ],
-    "channels": {
-      "0": {
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-            },
-            "timeslot": "8 - 11",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-            },
-            "timeslot": "8 - 10",
-            "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
-            }
-          }
-        ]
-      }
-    },
-    "code": "1041727"
   },
   "1044406": {
     "subject": "BIG DATA COMPUTING",
@@ -1147,8 +1102,9 @@
           {
             "teachers": {},
             "timeslot": "8 - 10",
-            "classroomInfo": "Aula 4 (Edificio: RM158)",
-            "classroomUrl": "https://maps.app.goo.gl/EFoDkdJLPZVKxb5KA"
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
           }
         ],
         "venerd\u00ec": [
