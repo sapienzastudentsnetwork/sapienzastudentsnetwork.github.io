@@ -316,15 +316,6 @@
               "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
             }
           }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "46396e48252043a0ba97dd0a92412fafa7be4b4138f42951943ae1d9": "BERALDI ROBERTO"
-            },
-            "timeslot": "12 - 14",
-            "classrooms": {}
-          }
         ]
       }
     },
@@ -399,17 +390,6 @@
             "timeslot": "10 - 12",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "29a4b6bbaca1fceadfeff98e4c2eac7aa28329d752ebd4e5a3dba5cf": "BONOMI SILVIA"
-            },
-            "timeslot": "9 - 12",
-            "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
         ]
