@@ -490,17 +490,6 @@
       "degree_limit": "33503",
       "channels": {
         "1": {
-          "lunedì": [
-            {
-              "teachers": {
-                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
-              },
-              "timeslot": "10 - 13",
-              "classrooms": {
-                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
-              }
-            }
-          ],
           "mercoledì": [
             {
               "teachers": {
@@ -510,6 +499,15 @@
               "classrooms": {
                 "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
                 "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+              }
+            },
+            {
+              "teachers": {
+                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+              },
+              "timeslot": "11 - 13",
+              "classrooms": {
+                "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
               }
             }
           ],
@@ -1330,26 +1328,7 @@
       }
     }
   },
-  "change_timeslot": {
-    "10628189": {
-      "channels": {
-        "1": {
-          "lunedì": {
-            "10 - 13": "11 - 13"
-          }
-        }
-      }
-    },
-    "1044415": {
-      "channels": {
-        "0": {
-          "lunedì": {
-            "12 - 15": "12 - 16"
-          }
-        }
-      }
-    }
-  },
+  "change_timeslot": {},
   "override_teachers": {
     "10628017": {
       "0": {
@@ -1375,21 +1354,6 @@
     }
   },
   "remove_schedules": {
-    "1044415": {
-      "channels": {
-        "0": {
-          "mercoledì": [
-            {
-              "timeslot": "13 - 15",
-              "classrooms": {
-                "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
-                "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10625773": {
       "degree_limit": "33508",
       "channels": {

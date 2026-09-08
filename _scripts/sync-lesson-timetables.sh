@@ -36,4 +36,7 @@ unset ACADEMIC_YEAR
 unset SEMESTER
 unset TARGET_COURSE_CODES
 
+# CSV exports correct classrooms only; GOMP/overrides remain authoritative for timeslots.
+python sync-csv-timetables.py
+
 rm -f ../data/timetables_backup.json

@@ -298,8 +298,23 @@
             "teachers": {
               "46396e48252043a0ba97dd0a92412fafa7be4b4138f42951943ae1d9": "BERALDI ROBERTO"
             },
-            "timeslot": "12 - 16",
-            "classrooms": {}
+            "timeslot": "12 - 15",
+            "classrooms": {
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "46396e48252043a0ba97dd0a92412fafa7be4b4138f42951943ae1d9": "BERALDI ROBERTO"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
           }
         ],
         "venerd\u00ec": [
@@ -1641,18 +1656,16 @@
     ],
     "channels": {
       "1": {
-        "luned\u00ec": [
+        "mercoled\u00ec": [
           {
             "teachers": {
               "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
             },
             "timeslot": "11 - 13",
             "classrooms": {
-              "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
             }
-          }
-        ],
-        "mercoled\u00ec": [
+          },
           {
             "teachers": {
               "5a8f6a013fb4503b6b55abf0114f043adb6bdfa185925129038b66ab": "DE SENSI DANIELE"
@@ -2132,7 +2145,7 @@
             "timeslot": "11 - 14",
             "classrooms": {
               "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "deffa19a-65db-4abe-be55-4178b791dc1b": "Aula informatica 16 (Edificio: RM025)"
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
             }
           }
         ]
