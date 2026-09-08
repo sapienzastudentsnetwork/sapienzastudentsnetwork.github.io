@@ -659,34 +659,6 @@
         }
       }
     },
-    "10630016": {
-      "channels": {
-        "0": {
-          "martedì": [
-            {
-              "teachers": {
-                "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
-              },
-              "timeslot": "8 - 11",
-              "classrooms": {
-                "f261a8c9-64ff-4fed-a203-1a2b44767b31": "Aula C - Città Universitaria (CU035-E01PTEL011)"
-              }
-            }
-          ],
-          "venerdì": [
-            {
-              "teachers": {
-                "8d56f4aee8fc8d84290f78259ef03f36d4bcb54395e66402a37f4a09": "VENTURI DANIELE"
-              },
-              "timeslot": "11 - 13",
-              "classrooms": {
-                "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10626358": {
       "channels": {
         "0": {
