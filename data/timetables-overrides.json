@@ -659,30 +659,6 @@
         }
       }
     },
-    "10626358": {
-      "channels": {
-        "0": {
-          "mercoledì": [
-            {
-              "teachers": {},
-              "timeslot": "8 - 10",
-              "classrooms": {
-                "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
-              }
-            }
-          ],
-          "venerdì": [
-            {
-              "teachers": {},
-              "timeslot": "16 - 19",
-              "classrooms": {
-                "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10626793": {
       "degree_limit": "33508",
       "channels": {
