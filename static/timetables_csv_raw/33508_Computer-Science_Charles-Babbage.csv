@@ -1,13 +1,13 @@
 ﻿Timetable,Monday,Tuesday,Wednesday,Thursday,Friday
 8:00-9:00,"10627173/1047638 - MODELS OF COMPUTATION
 (Piperno)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10627472/10620565 - QUANTUM COMPUTING
-(Zuliani)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10627562/1041764 - BIG DATA COMPUTING
+[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,"10627562/1041764 - BIG DATA COMPUTING
 (Tolomei)
 [Aula 1L - Via Del Castro Laurenziano 7a - RM018-E01PTEL013]","1047618/1047618 - COMPUTER VISION
 (Marini)
-[Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]",
+[Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]","10627472/10620565 - QUANTUM COMPUTING
+(Zuliani)
+[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]"
 9:00-10:00,,,,,
 10:00-11:00,"10625773/1047627 - FOUNDATIONS OF DATA SCIENCE
 (Cinelli-Spinelli)
@@ -30,12 +30,12 @@
 [Aula 201 (Edificio D) - Viale Regina Elena 295 - RM112-E01P02L005]",,,"10629525/10620566 - HIGH PERFORMANCE COMPUTING
 (Pontarelli-De Sensi)
 [Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]"
-14:00-15:00,,,"10627472/10620565 - QUANTUM COMPUTING
-(Zuliani)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10627173/1047638 - MODELS OF COMPUTATION
+14:00-15:00,,,,"10627173/1047638 - MODELS OF COMPUTATION
 (Piperno)
 [Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",
-15:00-16:00,,,,,
+15:00-16:00,,,"10627472/10620565 - QUANTUM COMPUTING
+(Zuliani)
+[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,
 16:00-17:00,,"10628017/1047618 - COMPUTER VISION
 (Marini)
 [Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]",,,

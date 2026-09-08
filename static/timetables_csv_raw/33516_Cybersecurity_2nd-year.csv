@@ -1,47 +1,47 @@
-﻿Timetable,Monday,Tuesday,Wednesday,Wednesday,Thursday,Friday
+﻿Timetable,Monday,Tuesday,Wednesday,Thursday,Friday
 8:00-9:00,"1055050 - RISK MANAGEMENT
 (bando)
-[Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]","10627472/10620565 - QUANTUM COMPUTING
+[Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]",,,,"10627472/10620565 - QUANTUM COMPUTING
 (Zuliani)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,,,
-9:00-10:00,,,,,,"1055061 - SECURITY GOVERNANCE
-(Bonomi-bando)
 [Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]"
+9:00-10:00,,,,,
 10:00-11:00,,"1055061 - SECURITY GOVERNANCE
 (Bonomi-bando)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10616636 - MACHINE LEARNING SECURITY
+[Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]","10616636 - MACHINE LEARNING SECURITY
 (De Gaspari - Hitaj)
-[Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]",,,
-11:00-12:00,,,,,,
+[Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]",,
+11:00-12:00,,,,,"1055061 - SECURITY GOVERNANCE
+(Bonomi-bando)
+[Aula 1L - Via Del Castro Laurenziano 7a - RM018-E01PTEL013]"
 12:00-13:00,"1044415 - MOBILE APPLICATIONS AND CLOUD COMPUTING
 (Beraldi)
 Aula A5-A6 Via Ariosto - DIAG ","10616636 - MACHINE LEARNING SECURITY
 (De Gaspari - Hitaj)
-[Aula 101 (Edificio D) - Viale Regina Elena 295 - RM112-E01P01L005]",,,"1055050 - RISK MANAGEMENT
+[Aula 101 (Edificio D) - Viale Regina Elena 295 - RM112-E01P01L005]",,"1055050 - RISK MANAGEMENT
 (bando)
 [Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]",
-13:00-14:00,,,,"1044415 - MOBILE APPLICATIONS AND CLOUD COMPUTING
+13:00-14:00,,,"1044415 - MOBILE APPLICATIONS AND CLOUD COMPUTING
 (Beraldi)
 Aula A5-A6 Via Ariosto - DIAG ",,
 14:00-15:00,,"1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
 (Querzoni-D'Elia)
-[Aula 101 (Edificio D) - Viale Regina Elena 295 - RM112-E01P01L005]","10627472/10620565 - QUANTUM COMPUTING
-(Zuliani)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,"1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
+[Aula 101 (Edificio D) - Viale Regina Elena 295 - RM112-E01P01L005]",,"1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
 (Querzoni-D'Elia)
 [Aula 201 (Edificio D) - Viale Regina Elena 295 - RM112-E01P02L005]","1055681 - MALWARE ANALYSIS AND INCIDENT FORENSICS
 (Querzoni)
 [Aula Informatica 16 - Via Tiburtina 205
 RM025-E01PTEL019]"
-15:00-16:00,,,,,,
+15:00-16:00,,,"10627472/10620565 - QUANTUM COMPUTING
+(Zuliani)
+[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,
 16:00-17:00,"10621403 - SECURITY AND PRIVACY OF SMART ENVIRONMENTS
 (Lazzeretti)
 [Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10627535/10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
 (La Morgia)
-[Aula 11 - Via Scarpa 14 - RM005-E01PTEL006]",,,,
+[Aula 11 - Via Scarpa 14 - RM005-E01PTEL006]",,,
 17:00-18:00,,,"10621403 - SECURITY AND PRIVACY OF SMART ENVIRONMENTS
 (Lazzeretti)
-[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]",,"10627535/10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
+[Aula T1 (Edificio E) - Viale Regina Elena 295 - RM113-E01PTEL001]","10627535/10600490 - BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES
 (La Morgia)
 [Aula 2L - Via Del Castro Laurenziano 7a - RM018-E01PTEL026]",
-18:00-19:00,,,,,,
+18:00-19:00,,,,,

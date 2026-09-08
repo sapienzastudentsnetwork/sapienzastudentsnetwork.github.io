@@ -7,6 +7,17 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {
@@ -394,18 +405,18 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+              "29a4b6bbaca1fceadfeff98e4c2eac7aa28329d752ebd4e5a3dba5cf": "BONOMI SILVIA"
             },
             "timeslot": "10 - 12",
             "classrooms": {
-              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
             }
           }
         ],
         "venerd\u00ec": [
           {
             "teachers": {
-              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+              "29a4b6bbaca1fceadfeff98e4c2eac7aa28329d752ebd4e5a3dba5cf": "BONOMI SILVIA"
             },
             "timeslot": "9 - 12",
             "classrooms": {
@@ -1589,7 +1600,7 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+              "5ce9b74b494f92b89f12ff84ee1237ba1048f0c7f35d483d9e187611": "ZULIANI PAOLO"
             },
             "timeslot": "8 - 10",
             "classrooms": {
@@ -1600,9 +1611,29 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+              "5ce9b74b494f92b89f12ff84ee1237ba1048f0c7f35d483d9e187611": "ZULIANI PAOLO"
             },
             "timeslot": "14 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          },
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "15 - 17",
+            "classrooms": {
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "71a5cf24a1542dffce1962c7f2b4ce9f215ec20f318292197f21a163": "ZULIANI PAOLO"
+            },
+            "timeslot": "8 - 11",
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
