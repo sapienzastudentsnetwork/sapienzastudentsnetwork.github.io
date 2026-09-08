@@ -3,6 +3,7 @@
 
 import csv, io, json, os, re, shutil, tempfile, unicodedata
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 BASE_URL = (
@@ -364,16 +365,68 @@ def merge(entries, timetables, classrooms):
     return stats
 
 
-def obtain(name, gid, fixture_dir=None):
+def obtain(name, gid, fixture_dir=None, timeout=10):
     if fixture_dir:
         # Fixture names are the old exporter names; find by degree/programme prefix.
         prefix = Path(name).stem.split("_", 1)[1].replace("-", "_")
         candidates = list(Path(fixture_dir).glob(prefix + ".csv"))
         if candidates:
             return candidates[0].read_bytes()
-    req = Request(BASE_URL.format(gid=gid), headers={"User-Agent": "Mozilla/5.0"})
-    with urlopen(req, timeout=60) as r:
-        return r.read()
+
+    request = Request(
+        BASE_URL.format(gid=gid),
+        headers={"User-Agent": "Mozilla/5.0"},
+    )
+    with urlopen(request, timeout=timeout) as response:
+        data = response.read()
+    if not data:
+        raise ValueError(f"Empty CSV response for {name}")
+    return data
+
+
+def raw_files_for_source(raw_directory, source_name):
+    source_stem = Path(source_name).stem
+    return sorted(raw_directory.glob(f"{source_stem}_*.csv"))
+
+
+def entries_from_raw_snapshot(raw_directory, source_name):
+    raw_files = raw_files_for_source(raw_directory, source_name)
+    if not raw_files:
+        raise RuntimeError(
+            f"The download of {source_name} failed and no previous raw CSV "
+            "snapshot exists for that spreadsheet"
+        )
+
+    entries = []
+    for path in raw_files:
+        rows = read_rows(path.read_bytes())
+        if not rows or not is_header(rows[0]):
+            raise ValueError(f"Invalid raw CSV snapshot: {path.name}")
+        entries.extend(csv_entries(path.name, rows))
+
+    print(
+        f"[CSV DOWNLOAD] Using the existing raw snapshot for {source_name} "
+        f"({len(raw_files)} files)."
+    )
+    return entries
+
+
+def replace_raw_files(raw_directory, source_name, rows):
+    with tempfile.TemporaryDirectory() as temporary_directory:
+        temporary_path = Path(temporary_directory)
+        generated = write_raw(source_name, rows, temporary_path)
+
+        # The new files have already been generated successfully. Replace only
+        # the raw files belonging to this spreadsheet, leaving all others alone.
+        for path in raw_files_for_source(raw_directory, source_name):
+            path.unlink()
+
+        entries = []
+        for temporary_file, block in generated:
+            destination = raw_directory / temporary_file.name
+            shutil.move(str(temporary_file), destination)
+            entries.extend(csv_entries(destination.name, block))
+        return entries
 
 
 def main():
@@ -381,15 +434,19 @@ def main():
     data = root / "data"
     raw = root / "static" / "timetables_csv_raw"
     raw.mkdir(parents=True, exist_ok=True)
-    # Remove stale generated CSVs so deletions are reflected in Git.
-    for p in raw.glob("*.csv"):
-        p.unlink()
     fixture = os.getenv("CSV_TIMETABLES_FIXTURE_DIR")
     entries = []
+
     for name, gid in SHEETS.items():
-        rows = read_rows(obtain(name, gid, fixture))
-        for path, block in write_raw(name, rows, raw):
-            entries.extend(csv_entries(path.name, block))
+        try:
+            rows = read_rows(obtain(name, gid, fixture))
+            # Validate and split this spreadsheet before replacing its previous
+            # raw files. A failure affects only this specific spreadsheet.
+            entries.extend(replace_raw_files(raw, name, rows))
+        except (HTTPError, URLError, TimeoutError, ValueError, OSError) as error:
+            print(f"[CSV DOWNLOAD] Could not refresh {name}: {error}.")
+            entries.extend(entries_from_raw_snapshot(raw, name))
+
     timetables = json.loads((data / "timetables.json").read_text())
     classrooms = json.loads((data / "classrooms.json").read_text())
     stats = merge(entries, timetables, classrooms)
