@@ -31,6 +31,22 @@
         "channel": "Canale 1",
         "timetable": [
           {
+            "building": "Edificio: RM018",
+            "course": "10628189",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          },
+          {
             "building": "Edificio: RM025",
             "course": "10628189",
             "room": "Aula informatica 15",
