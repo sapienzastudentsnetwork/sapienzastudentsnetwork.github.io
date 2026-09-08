@@ -839,34 +839,6 @@
         }
       }
     },
-    "10627472": {
-      "channels": {
-        "0": {
-          "martedì": [
-            {
-              "teachers": {
-                "5ce9b74b494f92b89f12ff84ee1237ba1048f0c7f35d483d9e187611": "ZULIANI PAOLO"
-              },
-              "timeslot": "8 - 10",
-              "classrooms": {
-                "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-              }
-            }
-          ],
-          "mercoledì": [
-            {
-              "teachers": {
-                "5ce9b74b494f92b89f12ff84ee1237ba1048f0c7f35d483d9e187611": "ZULIANI PAOLO"
-              },
-              "timeslot": "14 - 17",
-              "classrooms": {
-                "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "1044415": {
       "channels": {
         "0": {
