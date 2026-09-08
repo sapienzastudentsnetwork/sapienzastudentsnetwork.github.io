@@ -249,24 +249,6 @@
         }
       }
     },
-    "1022263": {
-      "degree_limit": "33503",
-      "channels": {
-        "0": {
-          "mercoled\u00ec": [
-            {
-              "teachers": {
-                "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
-              },
-              "timeslot": "17 - 19",
-              "classrooms": {
-                "1e079880-d2d2-49ef-8058-c58ab0baa4b4": "Aula 11 (Edificio: RM005)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10627226": {
       "degree_limit": "33502",
       "channels": {
