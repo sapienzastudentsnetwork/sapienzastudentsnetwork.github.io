@@ -279,16 +279,6 @@
                 "day": "luned\u00ec",
                 "from": "12:00",
                 "to": "15:00"
-              },
-              {
-                "day": "mercoled\u00ec",
-                "from": "16:00",
-                "to": "18:00"
-              },
-              {
-                "day": "venerd\u00ec",
-                "from": "16:00",
-                "to": "18:00"
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING AND COMPUTER VISION",

@@ -389,7 +389,7 @@
             },
             "timeslot": "10 - 12",
             "classrooms": {
-              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+              "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
           }
         ]
@@ -1420,26 +1420,6 @@
             "timeslot": "12 - 14",
             "classrooms": {
               "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
-            }
-          },
-          {
-            "teachers": {
-              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-            },
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-            },
-            "timeslot": "16 - 18",
-            "classrooms": {
-              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
             }
           }
         ]
