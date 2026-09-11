@@ -659,6 +659,24 @@
         }
       }
     },
+    "10626793": {
+      "degree_limit": "33508",
+      "channels": {
+        "0": {
+          "venerdì": [
+            {
+              "teachers": {
+                "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
+              },
+              "timeslot": "16 - 18",
+              "classrooms": {
+                "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+              }
+            }
+          ]
+        }
+      }
+    },
     "10626703": {
       "channels": {
         "0": {
