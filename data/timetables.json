@@ -1401,26 +1401,6 @@
             "classrooms": {
               "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
             }
-          },
-          {
-            "teachers": {
-              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-            },
-            "timeslot": "13 - 16",
-            "classrooms": {
-              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
-            }
-          }
-        ],
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-            },
-            "timeslot": "12 - 14",
-            "classrooms": {
-              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
-            }
           }
         ]
       }

@@ -659,35 +659,6 @@
         }
       }
     },
-    "10626793": {
-      "degree_limit": "33508",
-      "channels": {
-        "0": {
-          "lunedì": [
-            {
-              "teachers": {
-                "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-              },
-              "timeslot": "13 - 16",
-              "classrooms": {
-                "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
-              }
-            }
-          ],
-          "mercoledì": [
-            {
-              "teachers": {
-                "51f8a826f48cc117e58434915b54a21b6fedfd426dec0087a3de2826": "GALASSO FABIO"
-              },
-              "timeslot": "12 - 14",
-              "classrooms": {
-                "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10626703": {
       "channels": {
         "0": {
