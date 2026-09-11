@@ -16,6 +16,7 @@ SHEETS = {
     "33503_Informatica.csv": "1890069020",
     "33508_Computer-Science.csv": "259872005",
     "33516_Cybersecurity.csv": "1324510703",
+    "33519_Data-Science.csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPHqCaCRU-5HE9gpoFs3f2Ru6YeIF8NVuzwlg1cwN7SjTmGvsG6r5esVgqCC7x5gEHl7BxLNLxUncI/pubhtml?gid=1780311734&single=true",
 }
 HEADERS = {"timetable", "orario"}
 TIME_RE = re.compile(r"^\s*(\d{1,2})[:.]\d{2}\s*[-–—]\s*\d{1,2}[:.]\d{2}\s*$")
@@ -135,7 +136,7 @@ def parse_room(cell):
     rooms = []
     pattern = re.compile(
         r"(?i)\bAul[ae]\s+((?:Informatica\s+)?[A-Z]*\d+[A-Z]*|[A-Z]+)"
-        r"(?:\s*-\s*([A-Z]*\d+[A-Z]*))?"
+        r"(?:\s*(?:-|/)\s*([A-Z]*\d+[A-Z]*))?"
     )
     for match in pattern.finditer(cell):
         first = norm(match.group(1))
@@ -373,8 +374,13 @@ def obtain(name, gid, fixture_dir=None, timeout=10):
         if candidates:
             return candidates[0].read_bytes()
 
+    url = (
+        gid.replace("/pubhtml?", "/pub?output=csv&")
+        if gid.startswith("http")
+        else BASE_URL.format(gid=gid)
+    )
     request = Request(
-        BASE_URL.format(gid=gid),
+        url,
         headers={"User-Agent": "Mozilla/5.0"},
     )
     with urlopen(request, timeout=timeout) as response:
