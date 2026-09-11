@@ -5,6 +5,59 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM158",
+            "course": "10627226",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "LINEAR ALGEBRA",
+            "teachers": [
+              "TSCHAIKOWSKI MAX"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10630324",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "CALCULUS UNIT 1",
+            "teachers": [
+              "ANSINI NADIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10630468",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "PROGRAMMING UNIT 1",
+            "teachers": [
+              "STERBINI ANDREA"
+            ]
+          },
+          {
             "building": "Edificio: RM025",
             "course": "10630468",
             "room": "Aula informatica 15",
@@ -88,11 +141,173 @@
             "teachers": [
               "SPOGNARDI ANGELO"
             ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10631060",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "COMPUTER ARCHITECTURE UNIT 1",
+            "teachers": [
+              "DE SENSI DANIELE"
+            ]
           }
         ]
       }
     ],
     "year": "Primo anno - primo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "10627226",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "LINEAR ALGEBRA",
+            "teachers": [
+              "TSCHAIKOWSKI MAX"
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Primo anno - secondo semestre"
+  },
+  {
+    "channels": [
+      {
+        "channel": "Canale Unico",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "10595525",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "PROBABILITY",
+            "teachers": [
+              "SILVESTRI VITTORIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10595529",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "CALCULUS 2",
+            "teachers": [
+              "BANDIERA RUGGERO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10595616",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "SYSTEMS AND NETWORKING UNIT I",
+            "teachers": [
+              "CASALICCHIO EMILIANO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10595616",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "14:00",
+                "to": "16:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "SYSTEMS AND NETWORKING UNIT II",
+            "teachers": [
+              "MASELLI GAIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10595617",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "16:00",
+                "to": "19:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
+            "teachers": [
+              ""
+            ]
+          }
+        ]
+      }
+    ],
+    "year": "Secondo anno - primo semestre"
   },
   {
     "channels": [

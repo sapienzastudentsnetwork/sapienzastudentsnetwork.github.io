@@ -77,6 +77,64 @@
             "teachers": [
               "MANCINI MAURIZIO"
             ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10628189",
+            "room": "Aula 3",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "FONDAMENTI DI PROGRAMMAZIONE",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10629623",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "10:00",
+                "to": "13:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "METODI MATEMATICI PER L'INFORMATICA",
+            "teachers": [
+              "CARLUCCI LORENZO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10631195",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
+            "teachers": [
+              "AIELLO VALERIANO"
+            ]
           }
         ]
       },
@@ -172,6 +230,22 @@
             "teachers": [
               "ORSINA LUIGI"
             ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10631195",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "ANALISI MATEMATICA ANALISI MATEMATICA I MODULO",
+            "teachers": [
+              "ORSINA LUIGI"
+            ]
           }
         ]
       }
@@ -180,6 +254,105 @@
   },
   {
     "channels": [
+      {
+        "channel": "Canale 1",
+        "timetable": [
+          {
+            "building": "Edificio: RM158",
+            "course": "1023608",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "15:00",
+                "to": "17:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "Basi di dati",
+            "teachers": [
+              "PERELLI GIUSEPPE"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10620600",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "13:00",
+                "to": "16:00"
+              }
+            ],
+            "subject": "ALGORITMI 2",
+            "teachers": [
+              "WOLLAN PAUL JOSEPH"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10620601",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              }
+            ],
+            "subject": "ARCHITETTURA DEGLI ELABORATORI 1",
+            "teachers": [
+              "PONTARELLI SALVATORE"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10620642",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "15:00",
+                "to": "18:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "16:00",
+                "to": "18:00"
+              },
+              {
+                "day": "gioved\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "SISTEMI OPERATIVI",
+            "teachers": [
+              "TOLOMEI GABRIELE"
+            ]
+          }
+        ]
+      },
       {
         "channel": "Canale 2",
         "timetable": [
@@ -288,15 +461,26 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM109",
+            "course": "1022263",
+            "room": "Aula RE 2",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "INTERAZIONE UOMO MACCHINA",
+            "teachers": [
+              "MANCINI MAURIZIO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "1022263",
             "room": "Aula Magna",
             "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "08:00",
-                "to": "10:00"
-              },
               {
                 "day": "venerd\u00ec",
                 "from": "14:00",
@@ -369,6 +553,27 @@
             "subject": "INGEGNERIA DEL SOFTWARE",
             "teachers": [
               "TRONCI ENRICO"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "1041727",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "AUTOMI CALCOLABILITA' E COMPLESSITA'",
+            "teachers": [
+              "VENTURI DANIELE"
             ]
           },
           {

@@ -1,9 +1,7 @@
 ﻿Orario,Lunedì,Martedì,Mercoledì,Giovedì ,Venerdì
 8:00-9:00,"10606972 - DATA SCIENCE E DIRITTO
 (bando)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","1022263 - INTERAZIONE UOMO MACCHINA
-(M. Mancini)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","1041727 - AUTOMI CALCOLABILITÀ E COMPLESSITÀ
+[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,"1041727 - AUTOMI CALCOLABILITÀ E COMPLESSITÀ
 (Venturi)
 [Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]","1022264 - LINGUAGGI DI PROGRAMMAZIONE
 (Cenciarelli)
@@ -41,5 +39,7 @@
 16:00-17:00,,,,"1022301 - INGEGNERIA DEL SOFTWARE
 (Tronci-T. Mancini)
 [Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",
-17:00-18:00,,,,,
+17:00-18:00,,,"1022263 - INTERAZIONE UOMO MACCHINA
+(M. Mancini)
+[AulaRE 2 (Edificio A) - Viale Regina Elena 295 - RM109-E01PINTL028]",,
 18:00-19:00,,,,,

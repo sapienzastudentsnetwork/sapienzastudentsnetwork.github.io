@@ -53,6 +53,22 @@
             ]
           },
           {
+            "building": "Edificio: CU035",
+            "course": "10626272",
+            "room": "Aula C",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NETWORK INFRASTRUCTURES",
+            "teachers": [
+              "POLVERINI MARCO"
+            ]
+          },
+          {
             "building": "Edificio: RM111",
             "course": "10626358",
             "room": "Aula Magna",
@@ -238,6 +254,22 @@
             ]
           },
           {
+            "building": "Edificio: RM158",
+            "course": "1055050",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "luned\u00ec",
+                "from": "08:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "RISK MANAGEMENT",
+            "teachers": [
+              ""
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "1055050",
             "room": "Aula 2",
@@ -251,6 +283,38 @@
             "subject": "RISK MANAGEMENT",
             "teachers": [
               ""
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055061",
+            "room": "Aula 2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              }
+            ],
+            "subject": "SECURITY GOVERNANCE",
+            "teachers": [
+              "BONOMI SILVIA"
+            ]
+          },
+          {
+            "building": "Edificio: RM018",
+            "course": "1055061",
+            "room": "Aula 1",
+            "schedule": [
+              {
+                "day": "venerd\u00ec",
+                "from": "11:00",
+                "to": "13:00"
+              }
+            ],
+            "subject": "SECURITY GOVERNANCE",
+            "teachers": [
+              "BONOMI SILVIA"
             ]
           },
           {
@@ -342,6 +406,22 @@
                 "day": "marted\u00ec",
                 "from": "12:00",
                 "to": "14:00"
+              }
+            ],
+            "subject": "MACHINE LEARNING SECURITY",
+            "teachers": [
+              "HITAJ DORJAN"
+            ]
+          },
+          {
+            "building": "Edificio: RM158",
+            "course": "10616636",
+            "room": "Aula 4",
+            "schedule": [
+              {
+                "day": "mercoled\u00ec",
+                "from": "10:00",
+                "to": "13:00"
               }
             ],
             "subject": "MACHINE LEARNING SECURITY",

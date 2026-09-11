@@ -7,14 +7,14 @@
     ],
     "channels": {
       "0": {
-        "marted\u00ec": [
+        "mercoled\u00ec": [
           {
             "teachers": {
               "602fc59d475eb3424350ecb321baa87767d50003ddf1043a40f1fd90": "MANCINI MAURIZIO"
             },
-            "timeslot": "8 - 10",
+            "timeslot": "17 - 19",
             "classrooms": {
-              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+              "2fdcf454-7b17-4275-a0fc-36f8d2df1b52": "Aula RE 2 (Edificio: RM109)"
             }
           }
         ],
@@ -144,7 +144,7 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE"
             },
             "timeslot": "13 - 15",
             "classrooms": {
@@ -155,7 +155,7 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE"
             },
             "timeslot": "15 - 17",
             "classrooms": {
@@ -166,7 +166,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "c50f51edc018286c1870a43791da58a1c41785c80e21fe65757461d4": "PERELLI GIUSEPPE"
+              "c7916dc0ae86ebc56ee3b1499c08d6df6224338a7e762644db158c3e": "PERELLI GIUSEPPE"
             },
             "timeslot": "13 - 16",
             "classrooms": {
@@ -329,6 +329,17 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "f2a274462a073d014053257c7c37e8aa8b40000ae03fc48baf4acf64": "VENTURI DANIELE"
+            },
+            "timeslot": "14 - 17",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {
@@ -391,6 +402,26 @@
             "classrooms": {
               "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
             }
+          },
+          {
+            "teachers": {
+              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "3b9cee710dcf9ec86cade7bd5ee3c7dd886ebe3e71a9a2b6591d9246": "BONOMI SILVIA"
+            },
+            "timeslot": "11 - 13",
+            "classrooms": {
+              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+            }
           }
         ]
       }
@@ -452,6 +483,17 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "2c88e3a4-e6a1-4479-b3b7-84dcbbd6625d": "MAGGINO FILOMENA"
+            },
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "cab0d0ee-1faa-4552-9587-7a559480dde4": "Aula A2 (Edificio: RM102)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {
@@ -614,7 +656,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+              "ce410978-aac7-4bbc-8976-c78828599034": "BANDIERA RUGGERO"
             },
             "timeslot": "13 - 16",
             "classrooms": {
@@ -625,7 +667,7 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "19fc71c8f9c4e99c17d9edaac05e9da08d53f31611cd2359e4300b1e": "BANDIERA RUGGERO"
+              "ce410978-aac7-4bbc-8976-c78828599034": "BANDIERA RUGGERO"
             },
             "timeslot": "13 - 15",
             "classrooms": {
@@ -784,7 +826,7 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
             },
             "timeslot": "16 - 18",
             "classrooms": {
@@ -795,7 +837,7 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "a3914dee563c0d657af54130dfb414ef1fb8d2788ce950d483501097": "CASALICCHIO EMILIANO"
+              "a694c7295093c4c327056a69b52ca84415bfb8978639a3a32a24ba40": "CASALICCHIO EMILIANO"
             },
             "timeslot": "15 - 18",
             "classrooms": {
@@ -818,7 +860,7 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
             },
             "timeslot": "14 - 16",
             "classrooms": {
@@ -829,7 +871,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "54f0b7036c3aa012f9b954a905d4cdada0d56d9a96e299d6600cf4b7": "MASELLI GAIA"
+              "b911a093aa5200e6bee385aafccfb05592c8b08acc8d5024cb52ceb4": "MASELLI GAIA"
             },
             "timeslot": "13 - 16",
             "classrooms": {
@@ -842,7 +884,7 @@
     "code": "10595616"
   },
   "10595617_1": {
-    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT 1",
+    "subject": "DATA MANAGEMENT AND ANALYSIS UNIT I",
     "degree": "33502",
     "degrees": [
       "33502"
@@ -957,8 +999,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "2189b1618f3600c9485f99ee97179360fe766532960608a80dd22b01": "DE GASPARI FABIO",
-              "1aa26c61b3e58c09d1158952a188a7cefb7099e439fb6aac2611e97b": "HITAJ DORIAN"
+              "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
             },
             "timeslot": "10 - 13",
             "classrooms": {
@@ -1039,7 +1080,7 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+              "2d49d15a1021a18aee7768bb09de37397225857acf9ea64699447bdc": "PONTARELLI SALVATORE"
             },
             "timeslot": "15 - 18",
             "classrooms": {
@@ -1050,7 +1091,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "9047a23381b8c8c4e791feddc80d86404ef1d34c49e5d018a3896c06": "PONTARELLI SALVATORE"
+              "2d49d15a1021a18aee7768bb09de37397225857acf9ea64699447bdc": "PONTARELLI SALVATORE"
             },
             "timeslot": "16 - 18",
             "classrooms": {
@@ -1097,7 +1138,7 @@
         "marted\u00ec": [
           {
             "teachers": {
-              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              "e9b9b49f482d35b60f1a56d2e1afdac03f6cd59f033d5e6ede41b247": "TOLOMEI GABRIELE"
             },
             "timeslot": "15 - 18",
             "classrooms": {
@@ -1108,7 +1149,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
-              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              "e9b9b49f482d35b60f1a56d2e1afdac03f6cd59f033d5e6ede41b247": "TOLOMEI GABRIELE"
             },
             "timeslot": "16 - 18",
             "classrooms": {
@@ -1119,7 +1160,7 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "3213fc0c0357b3d8ccf4c5ed475df07dc53c5f14b388b0dbd6123b4c": "TOLOMEI GABRIELE"
+              "e9b9b49f482d35b60f1a56d2e1afdac03f6cd59f033d5e6ede41b247": "TOLOMEI GABRIELE"
             },
             "timeslot": "13 - 15",
             "classrooms": {
@@ -1309,12 +1350,11 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "f2e0f28b0be8698b1d83443fbf37479e8155afa211961edc19fe7993": "CUOMO FRANCESCA",
-              "c8403321a1e4b4f61ec8382ef5dfb03ead31419d370d3fe9d9849b42": "POLVERINI MARCO"
+              "0c78e43351e850cb2be8beabcae820c350058cdc7b29a4c5dc52666b": "POLVERINI MARCO"
             },
             "timeslot": "8 - 11",
             "classrooms": {
-              "f261a8c9-64ff-4fed-a203-1a2b44767b31": "Aula C - Citt\u00e0 Universitaria (CU035-E01PTEL011)"
+              "f261a8c9-64ff-4fed-a203-1a2b44767b31": "Aula C (Edificio: CU035)"
             }
           }
         ]
@@ -2405,6 +2445,17 @@
     ],
     "channels": {
       "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "1b749331b4241719b72be3d21a0c920aaf4ee73f0afd73647a1f295b": "BRUTTI PIERPAOLO"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "f261a8c9-64ff-4fed-a203-1a2b44767b31": "Aula C (Edificio: CU035)"
+            }
+          }
+        ],
         "gioved\u00ec": [
           {
             "teachers": {
