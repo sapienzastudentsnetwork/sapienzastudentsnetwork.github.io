@@ -263,8 +263,8 @@
             },
             "timeslot": "16 - 19",
             "classrooms": {
-              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
-              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
             }
           }
         ],
@@ -276,8 +276,8 @@
             },
             "timeslot": "12 - 14",
             "classrooms": {
-              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)",
-              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)"
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
             }
           }
         ]
