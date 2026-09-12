@@ -26,7 +26,7 @@
         if (
             roomString.includes("(CU035-E01PTEL011)")
         ) {
-            return { room: "C", suffix: " CU" };
+            return { room: "C", prefix: "", suffix: " CU" };
         }
 
         // Match computer-room labels without treating "inf" as a prefix of "informatica".
@@ -42,42 +42,51 @@
         const roomNumber = computerRoomMatch?.[1] || genericRoomMatch?.[0];
         if (!roomNumber) return null;
 
-        let suffix = "";
+        let prefix = "", suffix = "";
         if (roomString.includes("Eudossiana")) suffix = " SPV";
-        else if (roomString.includes("CU"))    suffix = " CU";    // Città Universitaria
+        else if (roomString.includes("CU"))    suffix = " CU";     // Città Universitaria
         else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
-        else if (roomString.includes("RM112")) suffix = " RE";     // Regina Elena
-        else if (roomString.includes("RM113")) suffix = " RE";     // Regina Elena
+        else if (roomString.includes("RM109")) prefix = "RE ";     // Regina Elena Ed. A
+        else if (roomString.includes("RM112")) suffix = " D";      // Regina Elena Ed. D
+        else if (roomString.includes("RM113")) suffix = " E";      // Regina Elena Ed. E
         else if (roomString.includes("RM005")) suffix = " SC";     // Via Antonio Scarpa
         else if (roomString.includes("RM025") || /Tiburtina/i.test(roomString)) suffix = " TIB";
         else if (roomString.includes("CU002")) suffix = " ST";     // Scienze Statistiche
         else if (roomString.includes("RM018")) suffix = "L";       // Castro Laurenziano
 
-        return { room: roomNumber, suffix };
+        return { room: roomNumber, prefix, suffix };
     }
 
-    // Group classrooms that share the same suffix to avoid repetitions (e.g., "15, 16 TIB")
+    // Group classrooms that share the same prefix and suffix to avoid repetitions (e.g., "RE 1, 2" or "15, 16 TIB")
     function formatClassrooms(roomStringsArray) {
         if (!roomStringsArray || roomStringsArray.length === 0) return null;
 
         const groups = {};
 
-        // Iterate over the raw room strings to extract and group them by suffix
+        // Iterate over the raw room strings to extract and group them by unique prefix + suffix combination
         for (const roomString of roomStringsArray) {
             const data = getRoomData(roomString);
             if (!data) continue;
 
-            // Initialize the array for a new suffix if it doesn't exist
-            if (!groups[data.suffix]) {
-                groups[data.suffix] = [];
+            const prefix = data.prefix || "";
+            const suffix = data.suffix || "";
+            const key = `${prefix}|${suffix}`;
+
+            if (!groups[key]) {
+                groups[key] = {
+                    prefix,
+                    suffix,
+                    rooms: []
+                };
             }
-            groups[data.suffix].push(data.room);
+            groups[key].rooms.push(data.room);
         }
 
         const result = [];
-        for (const suffix in groups) {
-            // Join room numbers (e.g., "15, 16") and append the shared suffix at the end
-            result.push(groups[suffix].join(', ') + suffix);
+        for (const key in groups) {
+            const group = groups[key];
+            // Prepend prefix, join room numbers (e.g., "1, 2"), and append suffix
+            result.push(`${group.prefix}${group.rooms.join(', ')}${group.suffix}`);
         }
 
         // Join different groups with a separator if they are in different buildings
