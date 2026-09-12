@@ -30,6 +30,7 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 #### Anno di immatricolazione 2025/26
 
 - [Catalin Ceban (catalin-ceban)](https://github.com/catalin-ceban/appunti-universitari)
+- [Lorenzo Ferraro (TonnoArcobaleno)](https://github.com/TonnoArcobaleno/uni-notes)
 
 ### Vecchio ordinamento (29923 / 29400)
 
