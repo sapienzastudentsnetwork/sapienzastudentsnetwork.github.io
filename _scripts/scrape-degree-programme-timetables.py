@@ -478,6 +478,8 @@ def extract_classrooms(DOM, classrooms_dict, target_course_codes=None):
                 map_link = "https://maps.app.goo.gl/o4YPdWL1yhVJPumf9"
             elif address == "Via Eudossiana, 18":
                 map_link = "https://maps.app.goo.gl/hJKHve1K4uumAmR7A"
+            elif "Regina Elena - Edificio A" in description:
+                map_link = "https://maps.app.goo.gl/A8FX2uvXFKc5Km3PA"
             elif "Regina Elena - Edificio C" in description:
                 map_link = "https://maps.app.goo.gl/6LEoK2i3SZqcW2gD6"
             elif "Regina Elena - Edificio D" in description:
