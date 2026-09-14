@@ -20,7 +20,7 @@ papers or exercises, is valuable for keeping individual forums up to date.
 If you wish to take a more active role in their management, you can reach out to the
 [respective current maintainers](https://github.com/sapienzastudentsnetwork#-gestori-repository-dellorganizzazione),
 to Valerio **Fontana** ([@FeddyLix17](https://github.com/FeddyLix17)) [[Telegram](https://telegram.me/FeddyLix17)],
-or to a [member of the Sapienza Students Network Executive Board](../contributing/sapienza-students-network/#-executive-board)
+or to a [member of the Sapienza Students Network Executive Board](../../contributing/sapienza-students-network/#-executive-board)
 — including via the dedicated [contact Telegram bot](https://telegram.me/SapienzaStudentsNetworkBot).
 {{% /hint %}}
 

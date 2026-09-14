@@ -1,6 +1,6 @@
 ---
 title: "Forums"
-weight: 2
+weight: 3
 ---
 
 # Exercise and Solution Forums
@@ -26,10 +26,8 @@ or to a [member of the Sapienza Students Network Executive Board](../../contribu
 
 ## First Semester
 
-* [Cryptography](https://github.com/sapienzastudentsnetwork/cryptography)
-* [Distributed Systems](https://github.com/sapienzastudentsnetwork/distributed-systems)
-* [High Performance Computing](https://github.com/sapienzastudentsnetwork/high-performance-computing)
+* [Multicore Programming ("Programmazione di Sistemi Embedded e Multicore")](https://github.com/sapienzastudentsnetwork/programmazione-di-sistemi-embedded-e-multicore)
 
 ## Second Semester
 
-* [Internet of Things](https://github.com/sapienzastudentsnetwork/internet-of-things)
+* [Optimization ("Modelli e Ottimizzazione")](https://github.com/sapienzastudentsnetwork/modelli-e-ottimizzazione)

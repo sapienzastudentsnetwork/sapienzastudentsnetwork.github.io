@@ -1,10 +1,10 @@
 ---
-title: Risorse
+title: Risorse per studiare
 aliases: ["/it/insegnamenti/resources"]
 weight: 5
 ---
 
-# Risorse
+# Risorse per studiare
 
 ## Appunti della comunità studentesca
 
