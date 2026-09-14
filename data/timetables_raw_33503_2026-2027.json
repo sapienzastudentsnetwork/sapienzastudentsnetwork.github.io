@@ -599,6 +599,27 @@
           },
           {
             "building": "Edificio: RM111",
+            "course": "10596283",
+            "room": "Aula Magna",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "17:00",
+                "to": "20:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "17:00",
+                "to": "19:00"
+              }
+            ],
+            "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+            "teachers": [
+              ""
+            ]
+          },
+          {
+            "building": "Edificio: RM111",
             "course": "10606972",
             "room": "Aula Magna",
             "schedule": [

@@ -53,6 +53,27 @@
             ]
           },
           {
+            "building": "Edificio: RM102",
+            "course": "10628766",
+            "room": "Aula B2",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              },
+              {
+                "day": "mercoled\u00ec",
+                "from": "11:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+            "teachers": [
+              "PALAGI LAURA"
+            ]
+          },
+          {
             "building": "Edificio: RM018",
             "course": "10629400",
             "room": "Aula 2",
@@ -298,6 +319,48 @@
           },
           {
             "building": "Edificio: RM102",
+            "course": "10621175",
+            "room": "Aula A5",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NEURAL NETWORKS FOR DATA SCIENCE",
+            "teachers": [
+              "SCARDAPANE SIMONE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10621175",
+            "room": "Aula A6",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "09:00",
+                "to": "12:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "09:00",
+                "to": "11:00"
+              }
+            ],
+            "subject": "NEURAL NETWORKS FOR DATA SCIENCE",
+            "teachers": [
+              "SCARDAPANE SIMONE"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
             "course": "10621189",
             "room": "Aula B2",
             "schedule": [
@@ -305,11 +368,32 @@
                 "day": "luned\u00ec",
                 "from": "12:00",
                 "to": "15:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "16:00",
+                "to": "18:00"
               }
             ],
             "subject": "ADVANCED MACHINE LEARNING AND COMPUTER VISION",
             "teachers": [
               "GALASSO FABIO"
+            ]
+          },
+          {
+            "building": "Edificio: RM102",
+            "course": "10621190",
+            "room": "Aula A4",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "12:00",
+                "to": "14:00"
+              }
+            ],
+            "subject": "NETWORK SCIENCE AND COMPLEX SYSTEMS",
+            "teachers": [
+              "QUATTROCIOCCHI WALTER"
             ]
           },
           {

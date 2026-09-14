@@ -913,6 +913,36 @@
     },
     "code": "10595617"
   },
+  "10596283": {
+    "subject": "ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE",
+    "degree": "33503",
+    "degrees": [
+      "33503"
+    ],
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "17 - 20",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "17 - 19",
+            "classrooms": {
+              "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10596283"
+  },
   "10606972": {
     "subject": "DATA SCIENCE E DIRITTO",
     "degree": "33503",
@@ -1201,6 +1231,42 @@
     },
     "code": "10620642"
   },
+  "10621175": {
+    "subject": "NEURAL NETWORKS FOR DATA SCIENCE",
+    "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
+    "channels": {
+      "0": {
+        "gioved\u00ec": [
+          {
+            "teachers": {
+              "7ab07ac0-471e-4dff-becc-5f8990ff6dea": "SCARDAPANE SIMONE"
+            },
+            "timeslot": "9 - 12",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "7ab07ac0-471e-4dff-becc-5f8990ff6dea": "SCARDAPANE SIMONE"
+            },
+            "timeslot": "9 - 11",
+            "classrooms": {
+              "c6bd11c5-df38-488f-90e2-5109c377eb5d": "Aula A6 (Edificio: RM102)",
+              "d40b6920-9b3a-4599-ac79-ad8975bf0325": "Aula A5 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10621175"
+  },
   "10621190": {
     "subject": "NETWORK SCIENCE AND COMPLEX SYSTEMS",
     "degree": "33519",
@@ -1209,6 +1275,17 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "d2de0549580acf978f938219f8c90d7529a2a8bf5616c9a18cbb134a": "QUATTROCIOCCHI WALTER"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
@@ -1216,7 +1293,7 @@
             },
             "timeslot": "11 - 14",
             "classrooms": {
-              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 -"
+              "d90b7d49-919d-4e78-839c-db91892e3ac6": "Aula A4 (Edificio: RM102)"
             }
           }
         ]
@@ -2008,6 +2085,40 @@
       }
     },
     "code": "10628736"
+  },
+  "10628766": {
+    "subject": "OPTIMIZATION METHODS FOR DATA SCIENCE",
+    "degree": "33519",
+    "degrees": [
+      "33519"
+    ],
+    "channels": {
+      "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "335afb9d-61e1-443b-a2a2-8a52879e7bbb": "PALAGI LAURA"
+            },
+            "timeslot": "12 - 14",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "335afb9d-61e1-443b-a2a2-8a52879e7bbb": "PALAGI LAURA"
+            },
+            "timeslot": "11 - 14",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10628766"
   },
   "10629336": {
     "subject": "MACHINE LEARNING",
