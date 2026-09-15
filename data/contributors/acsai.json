@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T09:18:39Z",
-  "source_commit": "0766ebeeadd16ae6c330fc6696451368d41b8d2f",
+  "generated_at": "2026-09-15T08:46:14Z",
+  "source_commit": "6453eaa2cc107e4e8c06bef789c3f68f494da4eb",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 169,
-      "additions": 2076,
+      "commits": 170,
+      "additions": 2169,
       "deletions": 2472,
-      "effective_lines": 4548,
+      "effective_lines": 4641,
       "score": 100.0,
       "rank": 1
     },
@@ -25,7 +25,7 @@
       "additions": 2833,
       "deletions": 1380,
       "effective_lines": 4213,
-      "score": 89.8,
+      "score": 89.6,
       "rank": 2
     },
     {
@@ -34,11 +34,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
       "initials": "L",
       "unresolved": false,
-      "commits": 22,
-      "additions": 380,
+      "commits": 23,
+      "additions": 381,
       "deletions": 394,
-      "effective_lines": 774,
-      "score": 71.8,
+      "effective_lines": 775,
+      "score": 72.0,
       "rank": 3
     },
     {
@@ -51,7 +51,7 @@
       "additions": 704,
       "deletions": 50,
       "effective_lines": 754,
-      "score": 67.8,
+      "score": 67.6,
       "rank": 4
     },
     {
@@ -64,7 +64,7 @@
       "additions": 189,
       "deletions": 80,
       "effective_lines": 269,
-      "score": 59.2,
+      "score": 59.1,
       "rank": 5
     },
     {
@@ -77,7 +77,7 @@
       "additions": 202,
       "deletions": 457,
       "effective_lines": 659,
-      "score": 58.8,
+      "score": 58.7,
       "rank": 6
     },
     {
@@ -90,7 +90,7 @@
       "additions": 17,
       "deletions": 9,
       "effective_lines": 26,
-      "score": 34.3,
+      "score": 34.2,
       "rank": 7
     },
     {
@@ -116,7 +116,7 @@
       "additions": 4,
       "deletions": 4,
       "effective_lines": 8,
-      "score": 21.1,
+      "score": 21.0,
       "rank": 9
     },
     {
