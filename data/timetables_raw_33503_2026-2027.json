@@ -461,30 +461,19 @@
         "channel": "Canale Unico",
         "timetable": [
           {
-            "building": "Edificio: RM109",
-            "course": "1022263",
-            "room": "Aula RE 2",
-            "schedule": [
-              {
-                "day": "mercoled\u00ec",
-                "from": "17:00",
-                "to": "19:00"
-              }
-            ],
-            "subject": "INTERAZIONE UOMO MACCHINA",
-            "teachers": [
-              "MANCINI MAURIZIO"
-            ]
-          },
-          {
             "building": "Edificio: RM111",
             "course": "1022263",
             "room": "Aula Magna",
             "schedule": [
               {
-                "day": "venerd\u00ec",
+                "day": "mercoled\u00ec",
                 "from": "14:00",
                 "to": "17:00"
+              },
+              {
+                "day": "venerd\u00ec",
+                "from": "14:00",
+                "to": "16:00"
               }
             ],
             "subject": "INTERAZIONE UOMO MACCHINA",
@@ -584,11 +573,11 @@
               {
                 "day": "marted\u00ec",
                 "from": "17:00",
-                "to": "20:00"
+                "to": "19:00"
               },
               {
                 "day": "venerd\u00ec",
-                "from": "17:00",
+                "from": "16:00",
                 "to": "19:00"
               }
             ],
