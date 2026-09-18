@@ -19,23 +19,21 @@ bookToc: False
 
 \*<i> ⚠️ **The information on this website is not legally binding.** For official texts, please refer to the [university's official website](https://www.uniroma1.it/en/) and the [Course Catalogue](https://corsidilaurea.uniroma1.it/en/course/33519) pages (also available in an [accessible version](https://cdl.sapienzastudents.net/33519/en/index.html)).</i>
 
-<!--
 ## Featured pages
 <div class="home_evid">
-    <div class="home_page" id="home_enroll">
-        <p class="home_box_text_title" id="home_enroll_text">Enroll</p>
-        <p class="home_box_text">Get into the Data Science course</p>
-        <button class="explore_more" onclick="window.location.href = 'info/freshmen/how-to-enroll/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_ds_resources">
+        <p class="home_box_text_title" id="home_ds_resources_text">Resources</p>
+        <p class="home_box_text">Study resources</p>
+        <button class="explore_more" onclick="window.location.href = 'courses/resources/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     <div class="home_page" id="home_ssn_groups">
         <p class="home_box_text_title" id="home_wiki_text">Groups</p>
         <p class="home_box_text">Join student chat groups</p>
         <button class="explore_more" onclick="window.location.href = 'channels/groups/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_study_plan">
-        <p class="home_box_text_title" id="home_wiki_text">Study Plan</p>
-        <p class="home_box_text">Match your interests</p>
-        <button class="explore_more" onclick="window.location.href = 'info/study-plan/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
+    <div class="home_page" id="home_schedules">
+        <p class="home_box_text_title" id="home_schedules_text">Timetables</p>
+        <p class="home_box_text">Lesson timetables</p>
+        <button class="explore_more" onclick="window.location.href = 'courses/timetables/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
 </div>
--->
