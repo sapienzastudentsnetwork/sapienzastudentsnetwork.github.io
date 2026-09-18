@@ -97,27 +97,6 @@
             ]
           },
           {
-            "building": "Edificio: RM115",
-            "course": "10626968",
-            "room": "Aula G50",
-            "schedule": [
-              {
-                "day": "marted\u00ec",
-                "from": "13:00",
-                "to": "15:00"
-              },
-              {
-                "day": "mercoled\u00ec",
-                "from": "10:00",
-                "to": "13:00"
-              }
-            ],
-            "subject": "BIOMETRIC SYSTEMS",
-            "teachers": [
-              "DE MARSICO MARIA"
-            ]
-          },
-          {
             "building": "Edificio: RM113",
             "course": "10627173",
             "room": "Aula T1 ",

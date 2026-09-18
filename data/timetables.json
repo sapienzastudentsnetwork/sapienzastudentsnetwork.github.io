@@ -335,7 +335,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "987320833b51f80dfb0da7cc0f48ccf336622615be73ed3c17e66333": "ZATTI STEFANO"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "0423606b-48fc-4638-a851-eab7563981a2": "Aula 4 (Edificio: RM158)"
@@ -344,7 +346,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "987320833b51f80dfb0da7cc0f48ccf336622615be73ed3c17e66333": "ZATTI STEFANO"
+            },
             "timeslot": "12 - 14",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -1454,7 +1458,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "fe89d218146f928b93d072069f7a09e0b53c73f1929d2c13e4bae634": "RICHELLI GIORGIO"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
@@ -1463,7 +1469,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "fe89d218146f928b93d072069f7a09e0b53c73f1929d2c13e4bae634": "RICHELLI GIORGIO"
+            },
             "timeslot": "14 - 17",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -1513,7 +1521,6 @@
     "subject": "BIOMETRIC SYSTEMS",
     "degree": "33516",
     "degrees": [
-      "33508",
       "33516"
     ],
     "channels": {
