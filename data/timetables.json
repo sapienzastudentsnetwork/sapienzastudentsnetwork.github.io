@@ -863,7 +863,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
@@ -872,7 +874,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
+            },
             "timeslot": "16 - 18",
             "classrooms": {
               "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
@@ -2607,7 +2611,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
@@ -2616,7 +2622,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
