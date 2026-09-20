@@ -22,12 +22,12 @@ for ((i=0; i<${#degree_programme_codes[@]}; i++)); do
     unset SEMESTER
 done
 
-# AIRO: scrape only Machine Learning (10629336) from degree programme 33514.
+# AIRO: scrape only the courses exposed in the Computer Science custom timetable.
 # TARGET_COURSE_CODES also restricts the corresponding raw JSON output.
 export DEGREE_PROGRAMME_CODE="33514"
 export ACADEMIC_YEAR="${academic_year}"
 export SEMESTER="${semester}"
-export TARGET_COURSE_CODES="10629336"
+export TARGET_COURSE_CODES="10629336,10606827"
 
 python scrape-degree-programme-timetables.py
 

@@ -921,6 +921,27 @@
     },
     "code": "10596283"
   },
+  "10606827": {
+    "subject": "REINFORCEMENT LEARNING",
+    "degree": "33514",
+    "degrees": [
+      "33514"
+    ],
+    "channels": {
+      "0": {
+        "venerd\u00ec": [
+          {
+            "teachers": {},
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
+            }
+          }
+        ]
+      }
+    },
+    "code": "10606827"
+  },
   "10606972": {
     "subject": "DATA SCIENCE E DIRITTO",
     "degree": "33503",

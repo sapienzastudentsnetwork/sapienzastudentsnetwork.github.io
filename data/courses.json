@@ -1081,5 +1081,10 @@
     "shortName": "Machine Learning",
     "abbr": "ML",
     "tgGroup": "https://t.me/+euJc4B0kuIA0YTFk"
+  },
+  "10606827": {
+    "name": "Reinforcement Learning (AIRO)",
+    "shortName": "Reinf. Learn.",
+    "abbr": "RL"
   }
 }
