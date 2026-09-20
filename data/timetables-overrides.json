@@ -1083,7 +1083,7 @@
               },
               "timeslot": "13 - 16",
               "classrooms": {
-                "7d67b57b-e472-47ab-86b8-e8bd69ecc354": "Aula 41 - S. Pietro in Vincoli"
+                "7d67b57b-e472-47ab-86b8-e8bd69ecc354": "Aula 41 (Edificio: RM041)"
               }
             }
           ]
@@ -1292,7 +1292,7 @@
   },
   "protected_classrooms": {
     "7d67b57b-e472-47ab-86b8-e8bd69ecc354": {
-      "description": "Aula 41 - S. Pietro in Vincoli",
+      "description": "Aula 41 - S. Pietro in Vincoli - Parcheggio/Mensa",
       "address": "Via delle Sette Sale, 29",
       "mapsUrl": "https://maps.app.goo.gl/wPK3Sr55pGDdVQpf9"
     }

@@ -38,7 +38,9 @@
         let prefix = "", suffix = "";
         const universityCityBuilding = roomString.match(/\bCU(\d{3})\b/i);
 
-        if (roomString.includes("Eudossiana")) suffix = " SPV";
+        if ((roomString.includes("Eudossiana")) ||
+            (roomString.includes("S. Pietro in Vincoli")) ||
+            (roomString.includes("RM041"))) suffix = " SPV";
         else if (universityCityBuilding?.[1] === "002") suffix = " ST"; // Scienze Statistiche
         else if (universityCityBuilding) suffix = ` ${universityCityBuilding[1]}`;
         else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
