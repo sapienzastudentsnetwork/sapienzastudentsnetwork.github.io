@@ -31,8 +31,8 @@ bookToc: False
         <p class="home_box_text">Join student chat groups</p>
         <button class="explore_more" onclick="window.location.href = 'channels/groups/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>
-    <div class="home_page" id="home_schedules">
-        <p class="home_box_text_title" id="home_schedules_text">Timetables</p>
+    <div class="home_page" id="home_timetables">
+        <p class="home_box_text_title" id="home_timetables_text">Timetables</p>
         <p class="home_box_text">Lesson timetables</p>
         <button class="explore_more" onclick="window.location.href = 'courses/timetables/'">Explore&nbsp<i class="fa-solid fa-arrow-right"></i></button>
     </div>

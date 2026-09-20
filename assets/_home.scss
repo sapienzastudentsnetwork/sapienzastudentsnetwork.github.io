@@ -160,20 +160,20 @@ a.home-button-link:hover {
     background-size: cover;
 }
 
-#home_schedules,
+#home_timetables,
 #home_orari,
-#home_cs_schedules,
-#home_csec_schedules,
-#home_ds_schedules {
+#home_cs_timetables,
+#home_csec_timetables,
+#home_ds_timetables {
     position: relative;
     overflow: hidden;
 }
 
-#home_schedules::before,
+#home_timetables::before,
 #home_orari::before,
-#home_cs_schedules::before,
-#home_csec_schedules::before,
-#home_ds_schedules::before {
+#home_cs_timetables::before,
+#home_csec_timetables::before,
+#home_ds_timetables::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -183,7 +183,7 @@ a.home-button-link:hover {
     z-index: -1;
 }
 
-#home_schedules::before {
+#home_timetables::before {
     background-image: url("https://i.imgur.com/EYmranJ.png");
 }
 
@@ -191,15 +191,15 @@ a.home-button-link:hover {
     background-image: url("https://i.imgur.com/hIQWOzi.png");
 }
 
-#home_cs_schedules::before {
+#home_cs_timetables::before {
     background-image: url("https://i.imgur.com/k0yaBbI.png");
 }
 
-#home_csec_schedules::before {
+#home_csec_timetables::before {
     background-image: url("https://i.imgur.com/9mVqz6n.png");
 }
 
-#home_ds_schedules::before {
+#home_ds_timetables::before {
     background-image: url("https://i.imgur.com/IJ6UDfk.png");
 }
 
