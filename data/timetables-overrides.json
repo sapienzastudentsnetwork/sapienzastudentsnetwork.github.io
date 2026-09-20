@@ -828,23 +828,6 @@
         }
       }
     },
-    "1055061": {
-      "channels": {
-        "0": {
-          "martedì": [
-            {
-              "teachers": {
-                "29a4b6bbaca1fceadfeff98e4c2eac7aa28329d752ebd4e5a3dba5cf": "BONOMI SILVIA"
-              },
-              "timeslot": "10 - 12",
-              "classrooms": {
-                "70000b7b-daf3-4315-839c-3f4b0ab0e131": "Aula T1 (Edificio: RM113)"
-              }
-            }
-          ]
-        }
-      }
-    },
     "10616636": {
       "channels": {
         "0": {
