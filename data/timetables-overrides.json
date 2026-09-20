@@ -1071,6 +1071,42 @@
           ]
         }
       }
+    },
+    "10629336": {
+      "degree_limit": "33514",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {
+                "f1c41ed9f77244cd05f84b72eaa5563045643d01ee589b473192cad1": "IOCCHI LUCA"
+              },
+              "timeslot": "13 - 16",
+              "classrooms": {
+                "7d67b57b-e472-47ab-86b8-e8bd69ecc354": "Aula 41 - S. Pietro in Vincoli"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "10606827": {
+      "degree_limit": "33514",
+      "channels": {
+        "0": {
+          "martedì": [
+            {
+              "teachers": {
+                "f0296164d825576242c079732c899b0758ea3f01012b4f958427eae4": "CAPOBIANCO ROBERTO"
+              },
+              "timeslot": "10 - 12",
+              "classrooms": {
+                "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 -"
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "add_teachers": {
@@ -1214,6 +1250,13 @@
         "giovedì": {
           "d1f1cb20a781b6b1c42e90d4a26e16c10b9190124b5c4d36395bc1b5": "D'ELIA DANIELE CONO",
           "18b7ab9238460e4989271457a4e48801b59a676855286a2a504ee673": "QUERZONI LEONARDO"
+        }
+      }
+    },
+    "10606827": {
+      "0": {
+        "venerdì": {
+          "f0296164d825576242c079732c899b0758ea3f01012b4f958427eae4": "CAPOBIANCO ROBERTO"
         }
       }
     }

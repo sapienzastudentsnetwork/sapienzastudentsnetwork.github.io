@@ -929,9 +929,22 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "f0296164d825576242c079732c899b0758ea3f01012b4f958427eae4": "CAPOBIANCO ROBERTO"
+            },
+            "timeslot": "10 - 12",
+            "classrooms": {
+              "267bbb25-1c7a-421c-ab60-ef0a6e29aece": "Aula B2 (Edificio: RM102)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "f0296164d825576242c079732c899b0758ea3f01012b4f958427eae4": "CAPOBIANCO ROBERTO"
+            },
             "timeslot": "8 - 11",
             "classrooms": {
               "8e92b19a-4c17-4a44-973e-5e1adbb804df": "Aula 201 (Edificio: RM112)"
@@ -2131,6 +2144,17 @@
     ],
     "channels": {
       "0": {
+        "marted\u00ec": [
+          {
+            "teachers": {
+              "f1c41ed9f77244cd05f84b72eaa5563045643d01ee589b473192cad1": "IOCCHI LUCA"
+            },
+            "timeslot": "13 - 16",
+            "classrooms": {
+              "7d67b57b-e472-47ab-86b8-e8bd69ecc354": "Aula 41 - S. Pietro in Vincoli"
+            }
+          }
+        ],
         "mercoled\u00ec": [
           {
             "teachers": {
