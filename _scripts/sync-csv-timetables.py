@@ -54,6 +54,23 @@ AIRO_ROOM_IDS = {
     "b2 diag": "267bbb25-1c7a-421c-ab60-ef0a6e29aece",
     "41 spv": "7d67b57b-e472-47ab-86b8-e8bd69ecc354",
 }
+LEGACY_COURSE_CODE_MAPPINGS = {
+    "10595546": "10631060", "10595524": "10627226",
+    "10595102": "10630468", "10589621": "10626793",
+    "1041764": "10627562", "1047618": "10628017",
+    "1047624": "10628018", "10620566": "10629525",
+    "10589558": "10629076", "1047638": "10627173",
+    "10600495": "10627537", "10596281": "10628736",
+    "1041792": "10626968", "1047616": "10627582",
+    "1047617": "10630015", "1047622": "10630016",
+    "1047640": "10628280", "1047642": "10626358",
+    "10589557": "10629076", "1054960": "10626703",
+    "1022807": "10626055", "1027171": "10626272",
+    "1055043": "10628637", "10621189": "10626793",
+    "1056023": "10621435", "10620565": "10627472",
+    "10600490": "10627535", "10595099": "10630324",
+    "1047627": "10625773",
+}
 
 
 def norm(s):
@@ -323,6 +340,27 @@ def resolve_room(room, building, idx, names, canonical):
     return None
 
 
+def mapped_course_codes(codes):
+    """Return CSV codes plus their current equivalents, preserving unit suffixes."""
+    result = []
+    for code in codes:
+        base, separator, unit = code.partition("_")
+        current = LEGACY_COURSE_CODE_MAPPINGS.get(base)
+        for candidate in (code, f"{current}{separator}{unit}" if current else None):
+            if candidate and candidate not in result:
+                result.append(candidate)
+    return result
+
+
+def has_legacy_current_pair(codes):
+    """Whether one CSV cell explicitly contains both aliases of a course."""
+    bases = {code.partition("_")[0] for code in codes}
+    return any(
+        legacy in bases and current in bases
+        for legacy, current in LEGACY_COURSE_CODE_MAPPINGS.items()
+    )
+
+
 def debug_unresolved(reason, e, extra=""):
     details = (
         f"degree={e['degree']} channel={e['channel']} day={e['day']} "
@@ -345,10 +383,14 @@ def merge(entries, timetables, classrooms):
     for e in entries:
         course = None
         matched_code = None
-        for code in e["codes"]:
+        aliases_share_cell = has_legacy_current_pair(e["codes"])
+        for code in mapped_course_codes(e["codes"]):
             candidate = timetables.get(code)
-            if candidate and e["degree"] in candidate.get(
+            candidate_degrees = candidate.get(
                 "degrees", [candidate.get("degree")]
+            ) if candidate else []
+            if candidate and (
+                e["degree"] in candidate_degrees or aliases_share_cell
             ):
                 course = candidate
                 matched_code = code
