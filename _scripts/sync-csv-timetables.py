@@ -183,7 +183,10 @@ def parse_room(cell):
     buildings = [value.upper() for value in BUILDING_RE.findall(norm(cell))]
     rooms = []
     pattern = re.compile(
-        r"(?i)\bAul[ae]\s+((?:Informatica\s+)?[A-Z]*\d+[A-Z]*|[A-Z]+)"
+        r"(?i)\bAul[ae]\s+("
+        r"(?:Informatica\s+(?:[A-Z]*\d+[A-Z]*|[IVXLCDM]+|[A-Z]+))"
+        r"|(?:[A-Z]*\d+[A-Z]*|[A-Z]+)"
+        r")"
         r"(?:\s*(?:-|/)\s*([A-Z]*\d+[A-Z]*))?"
     )
     for match in pattern.finditer(cell):
