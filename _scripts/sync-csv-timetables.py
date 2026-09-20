@@ -17,8 +17,8 @@ SHEETS = {
     "33508_Computer-Science.csv": "259872005",
     "33516_Cybersecurity.csv": "1324510703",
     "33519_Data-Science.csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPHqCaCRU-5HE9gpoFs3f2Ru6YeIF8NVuzwlg1cwN7SjTmGvsG6r5esVgqCC7x5gEHl7BxLNLxUncI/pubhtml?gid=1780311734&single=true",
-    "33514_AIRO_1st.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=1999740778#gid=1999740778",
-    "33514_AIRO_2nd.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=983924806#gid=983924806",
+    "33514_AIRO_1st-year.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=1999740778#gid=1999740778",
+    "33514_AIRO_2nd-year.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=983924806#gid=983924806",
 }
 HEADERS = {"timetable", "orario"}
 TIME_RE = re.compile(r"^\s*(\d{1,2})[:.]\d{2}\s*[-–—]\s*\d{1,2}[:.]\d{2}\s*$")
@@ -172,6 +172,8 @@ def parse_room(cell):
     for match in pattern.finditer(cell):
         first = norm(match.group(1))
         second = norm(match.group(2) or "")
+        if second and BUILDING_RE.fullmatch(second):
+            second = ""
         rooms.append(f"Aula {first}")
         if second:
             # Aula A5-6 means Aula A5 + Aula A6; Aula 15-17 remains numeric.
