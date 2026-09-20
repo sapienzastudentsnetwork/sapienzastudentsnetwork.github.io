@@ -987,7 +987,8 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "84e25157-9af6-4812-8e5c-314aacf0dd45": "BARBAROSSA SERGIO"
+              "84e25157-9af6-4812-8e5c-314aacf0dd45": "BARBAROSSA SERGIO",
+              "161f6cb8ac97b460a616a4bc0ebe857b1ad100650298fee7e3ceb7f9": "DI LORENZO PAOLO"
             },
             "timeslot": "9 - 12",
             "classrooms": {
@@ -998,7 +999,8 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "84e25157-9af6-4812-8e5c-314aacf0dd45": "BARBAROSSA SERGIO"
+              "84e25157-9af6-4812-8e5c-314aacf0dd45": "BARBAROSSA SERGIO",
+              "161f6cb8ac97b460a616a4bc0ebe857b1ad100650298fee7e3ceb7f9": "DI LORENZO PAOLO"
             },
             "timeslot": "14 - 16",
             "classrooms": {
@@ -1021,6 +1023,7 @@
         "marted\u00ec": [
           {
             "teachers": {
+              "a18623c9d0a55e5a48c88bcc0313c4e37e0f7c61462e2096589c3baf": "DE GASPARI FABIO",
               "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
             },
             "timeslot": "12 - 14",
@@ -1032,6 +1035,7 @@
         "mercoled\u00ec": [
           {
             "teachers": {
+              "a18623c9d0a55e5a48c88bcc0313c4e37e0f7c61462e2096589c3baf": "DE GASPARI FABIO",
               "1d7f2572efcc18caab227fcf62db9ca08022e850ac3f90bda80c0afb": "HITAJ DORJAN"
             },
             "timeslot": "10 - 13",
@@ -1419,6 +1423,7 @@
         "luned\u00ec": [
           {
             "teachers": {
+              "8861ac6edb9b40024e5eaa83e4a8e255503869da589725fc18069377": "CUOMO FRANCESCA",
               "0c78e43351e850cb2be8beabcae820c350058cdc7b29a4c5dc52666b": "POLVERINI MARCO"
             },
             "timeslot": "10 - 12",
@@ -1430,6 +1435,7 @@
         "venerd\u00ec": [
           {
             "teachers": {
+              "8861ac6edb9b40024e5eaa83e4a8e255503869da589725fc18069377": "CUOMO FRANCESCA",
               "0c78e43351e850cb2be8beabcae820c350058cdc7b29a4c5dc52666b": "POLVERINI MARCO"
             },
             "timeslot": "8 - 11",
@@ -1827,7 +1833,10 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+            },
             "timeslot": "14 - 16",
             "classrooms": {
               "625390f2-0bbb-4072-b866-50902fa1bad9": "Aula 2 (Edificio: RM018)"
@@ -1836,7 +1845,10 @@
         ],
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+            },
             "timeslot": "15 - 19",
             "classrooms": {
               "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
@@ -1845,7 +1857,10 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+            },
             "timeslot": "14 - 16",
             "classrooms": {
               "398537f5-1be4-4287-be7b-eb76298c4a8f": "Aula 101 (Edificio: RM112)"
@@ -2172,7 +2187,8 @@
         "luned\u00ec": [
           {
             "teachers": {
-              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO"
+              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO",
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
             },
             "timeslot": "10 - 13",
             "classrooms": {
@@ -2183,7 +2199,8 @@
         "gioved\u00ec": [
           {
             "teachers": {
-              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO"
+              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO",
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
             },
             "timeslot": "16 - 19",
             "classrooms": {
@@ -2194,7 +2211,8 @@
         "venerd\u00ec": [
           {
             "teachers": {
-              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO"
+              "69f4965b064dc997920d90041ff6345a1f04a33a59d9f13196060073": "CINELLI MATTEO",
+              "8436bfd2acec3b603a44c49e144bfa1bfed17aae4e5ebd23cf01d3bb": "SPINELLI INDRO"
             },
             "timeslot": "11 - 13",
             "classrooms": {
