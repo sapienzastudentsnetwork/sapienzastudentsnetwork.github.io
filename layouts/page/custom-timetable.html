@@ -629,6 +629,7 @@
 
     let customSubjectEditorMode = "edit";
     let customSubjectEditorInitialState = null;
+    let customSubjectImportInitiallySaveable = false;
 
     function getCustomSubjectEditorState() {
         const form = document.getElementById("customSubjectForm");
@@ -649,7 +650,12 @@
         const hasChanges = customSubjectEditorHasUnsavedChanges();
         const invalidImportId = customSubjectEditorMode === "import"
             && !isValidCustomSubjectId(document.getElementById("customSubjectImportId").value);
-        submitButton.disabled = !hasChanges || invalidImportId;
+        submitButton.disabled = !(hasChanges || customSubjectImportInitiallySaveable) || invalidImportId;
+    }
+
+    function handleCustomSubjectEditorChange() {
+        customSubjectImportInitiallySaveable = false;
+        updateCustomSubjectSaveVisibility();
     }
 
     function confirmDiscardCustomSubjectChanges() {
@@ -683,6 +689,7 @@
     function openCustomSubjectDialog(id = null, importedSubject = null) {
         const importMode = id === null && importedSubject !== null;
         customSubjectEditorMode = importMode ? "import" : "edit";
+        customSubjectImportInitiallySaveable = importMode;
         const subject = importMode
             ? importedSubject
             : getCustomSubjects().find((item) => item.id === id);
@@ -725,8 +732,8 @@
         updateCustomSubjectSaveVisibility();
         const form = document.getElementById("customSubjectForm");
         if (!form.dataset.changeTrackingBound) {
-            form.addEventListener("input", updateCustomSubjectSaveVisibility);
-            form.addEventListener("change", updateCustomSubjectSaveVisibility);
+            form.addEventListener("input", handleCustomSubjectEditorChange);
+            form.addEventListener("change", handleCustomSubjectEditorChange);
             form.dataset.changeTrackingBound = "true";
         }
         document.getElementById("customSubjectDialog").showModal();
@@ -783,6 +790,7 @@
         pendingCustomSubjectImport = null;
         document.getElementById("customSubjectId").value = id;
         customSubjectEditorMode = "edit";
+        customSubjectImportInitiallySaveable = false;
         const importIdField = document.getElementById("customSubjectImportIdField");
         const importIdInput = document.getElementById("customSubjectImportId");
         importIdField.hidden = true;
