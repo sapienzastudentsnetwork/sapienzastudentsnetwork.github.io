@@ -402,7 +402,14 @@ def merge(entries, timetables, classrooms):
             stats["course_not_found"] += 1
             debug_unresolved("COURSE_NOT_FOUND", e)
             continue
-        schedules = course.get("channels", {}).get(e["channel"], {}).get(e["day"], [])
+        # AAF2511 ("INGLESE LIVELLO B2") is as a single-channel teaching.
+        # Match both CSV channel 1 and 2 entries against channel 0.
+        timetable_channel = (
+            "0"
+            if matched_code == "AAF2511" and e["degree"] == "33503"
+            else e["channel"]
+        )
+        schedules = course.get("channels", {}).get(timetable_channel, {}).get(e["day"], [])
         same = [
             schedule
             for schedule in schedules
