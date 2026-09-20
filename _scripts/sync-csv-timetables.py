@@ -340,26 +340,29 @@ def resolve_room(room, building, idx, names, canonical):
     return None
 
 
-def mapped_course_codes(codes):
-    """Return CSV codes plus their current equivalents, preserving unit suffixes."""
-    result = []
+def normalize_course_codes(codes):
+    """Replace legacy CSV course codes with current codes and remove duplicates."""
+    normalized = []
+    legacy_found = False
     for code in codes:
         base, separator, unit = code.partition("_")
         current = LEGACY_COURSE_CODE_MAPPINGS.get(base)
-        for candidate in (code, f"{current}{separator}{unit}" if current else None):
-            if candidate and candidate not in result:
-                result.append(candidate)
-    return result
+        if current:
+            code = f"{current}{separator}{unit}"
+            legacy_found = True
+        if code not in normalized:
+            normalized.append(code)
+    return normalized, legacy_found
 
 
-def has_legacy_current_pair(codes):
-    """Whether one CSV cell explicitly contains both aliases of a course."""
-    bases = {code.partition("_")[0] for code in codes}
-    return any(
-        legacy in bases and current in bases
-        for legacy, current in LEGACY_COURSE_CODE_MAPPINGS.items()
-    )
-
+def add_course_degree(course, degree):
+    """Record a degree confirmed by a CSV legacy-code mapping."""
+    degrees = course.setdefault("degrees", [])
+    primary_degree = course.get("degree")
+    if primary_degree and primary_degree not in degrees:
+        degrees.append(primary_degree)
+    if degree not in degrees:
+        degrees.append(degree)
 
 def debug_unresolved(reason, e, extra=""):
     details = (
@@ -383,15 +386,15 @@ def merge(entries, timetables, classrooms):
     for e in entries:
         course = None
         matched_code = None
-        aliases_share_cell = has_legacy_current_pair(e["codes"])
-        for code in mapped_course_codes(e["codes"]):
+        normalized_codes, legacy_found = normalize_course_codes(e["codes"])
+        for code in normalized_codes:
             candidate = timetables.get(code)
+            if candidate and legacy_found:
+                add_course_degree(candidate, e["degree"])
             candidate_degrees = candidate.get(
                 "degrees", [candidate.get("degree")]
             ) if candidate else []
-            if candidate and (
-                e["degree"] in candidate_degrees or aliases_share_cell
-            ):
+            if candidate and e["degree"] in candidate_degrees:
                 course = candidate
                 matched_code = code
                 break
