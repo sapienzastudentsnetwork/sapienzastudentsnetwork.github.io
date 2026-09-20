@@ -378,6 +378,32 @@ def debug_unresolved(reason, e, extra=""):
     print(f"[CSV DEBUG] {reason}: {details}{suffix}")
 
 
+def timeslot_matches_entry(timeslot, entry):
+    """Match a CSV row to a timetable event.
+
+    Most CSV sources publish one row per complete lesson and therefore require
+    an exact start-time match. AIRO instead repeats the lesson in one-hour rows,
+    while GOMP stores it as a single multi-hour interval. For AIRO only, accept
+    every CSV hour contained in that interval.
+    """
+    parts = str(timeslot).split("-", 1)
+    if len(parts) != 2:
+        return False
+
+    timetable_start = parts[0].strip()
+    if entry["degree"] != "33514":
+        return timetable_start == entry["start"]
+
+    try:
+        start_minutes = int(timetable_start) * 60
+        end_minutes = int(parts[1].strip()) * 60
+        entry_minutes = int(entry["start"]) * 60
+    except ValueError:
+        return False
+
+    return start_minutes <= entry_minutes < end_minutes
+
+
 def merge(entries, timetables, classrooms):
     idx, names, canonical = classroom_index(timetables, classrooms)
     stats = {
@@ -435,8 +461,7 @@ def merge(entries, timetables, classrooms):
             matching_schedules = [
                 schedule
                 for schedule in schedules
-                if str(schedule.get("timeslot", "")).split("-", 1)[0].strip()
-                == e["start"]
+                if timeslot_matches_entry(schedule.get("timeslot", ""), e)
             ]
             available = ",".join(
                 str(schedule.get("timeslot", "")) for schedule in schedules
