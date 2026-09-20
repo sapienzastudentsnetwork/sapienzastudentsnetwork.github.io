@@ -69,7 +69,7 @@ LEGACY_COURSE_CODE_MAPPINGS = {
     "1055043": "10628637", "10621189": "10626793",
     "1056023": "10621435", "10620565": "10627472",
     "10600490": "10627535", "10595099": "10630324",
-    "1047627": "10625773",
+    "1047627": "10625773", "10621178": "10631198",
 }
 
 
@@ -387,54 +387,81 @@ def merge(entries, timetables, classrooms):
         "slot_not_found": 0,
     }
     for e in entries:
-        course = None
-        matched_code = None
         normalized_codes, legacy_found = normalize_course_codes(e["codes"])
+        candidate_codes = []
         for code in normalized_codes:
+            # Some teachings are stored as unit variants even when the CSV
+            # publishes only their base code. Consider every compatible variant;
+            # the lesson slot, not candidate order, decides the final match.
+            for candidate_code in (code, f"{code}_1", f"{code}_2"):
+                if candidate_code not in candidate_codes:
+                    candidate_codes.append(candidate_code)
+
+        course_candidates = []
+        for code in candidate_codes:
             candidate = timetables.get(code)
-            if candidate and legacy_found:
+            if not candidate:
+                continue
+            if legacy_found:
                 add_course_degree(candidate, e["degree"])
             candidate_degrees = candidate.get(
                 "degrees", [candidate.get("degree")]
-            ) if candidate else []
-            if candidate and e["degree"] in candidate_degrees:
-                course = candidate
-                matched_code = code
-                break
-        if not course:
+            )
+            if e["degree"] in candidate_degrees:
+                course_candidates.append((code, candidate))
+
+        if not course_candidates:
             stats["course_not_found"] += 1
             debug_unresolved("COURSE_NOT_FOUND", e)
             continue
-        # AAF2511 ("INGLESE LIVELLO B2") is as a single-channel teaching.
-        # Match both CSV channel 1 and 2 entries against channel 0.
-        timetable_channel = (
-            "0"
-            if matched_code == "AAF2511" and e["degree"] == "33503"
-            else e["channel"]
-        )
-        schedules = course.get("channels", {}).get(timetable_channel, {}).get(e["day"], [])
-        same = [
-            schedule
-            for schedule in schedules
-            if str(schedule.get("timeslot", "")).split("-", 1)[0].strip() == e["start"]
-        ]
-        if not same:
-            stats["slot_not_found"] += 1
-            available = (
-                ",".join(str(x.get("timeslot", "")) for x in schedules) or "none"
+
+        slot_matches = []
+        available_by_code = []
+        for code, course in course_candidates:
+            # AAF2511 ("INGLESE LIVELLO B2") is a single-channel teaching.
+            # Match both CSV channel 1 and 2 entries against channel 0.
+            timetable_channel = (
+                "0"
+                if code == "AAF2511" and e["degree"] == "33503"
+                else e["channel"]
             )
+            schedules = (
+                course.get("channels", {})
+                .get(timetable_channel, {})
+                .get(e["day"], [])
+            )
+            matching_schedules = [
+                schedule
+                for schedule in schedules
+                if str(schedule.get("timeslot", "")).split("-", 1)[0].strip()
+                == e["start"]
+            ]
+            available = ",".join(
+                str(schedule.get("timeslot", "")) for schedule in schedules
+            ) or "none"
+            available_by_code.append(f"{code}:{available}")
+            slot_matches.extend(
+                (code, schedule) for schedule in matching_schedules
+            )
+
+        if not slot_matches:
+            stats["slot_not_found"] += 1
             debug_unresolved(
                 "SLOT_NOT_FOUND",
                 e,
-                f"matched_code={matched_code} available={available}",
+                f"candidates={','.join(code for code, _ in course_candidates)} "
+                f"available={';'.join(available_by_code)}",
             )
             continue
-        if len(same) > 1:
+        if len(slot_matches) > 1:
             stats["ambiguous"] += 1
+            matches = ",".join(code for code, _ in slot_matches)
             debug_unresolved(
-                "SLOT_AMBIGUOUS", e, f"matched_code={matched_code} count={len(same)}"
+                "SLOT_AMBIGUOUS", e, f"matches={matches} count={len(slot_matches)}"
             )
             continue
+
+        matched_code, schedule = slot_matches[0]
         if not e["rooms"]:
             stats["unresolved"] += 1
             debug_unresolved(
@@ -464,7 +491,6 @@ def merge(entries, timetables, classrooms):
                 f"matched_code={matched_code} missing={'; '.join(missing)}",
             )
         stats["matched"] += 1
-        schedule = same[0]
         if (
             schedule.get("classrooms") != resolved
             or "classroomInfo" in schedule

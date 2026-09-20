@@ -1,19 +1,19 @@
 {
   "change_course_keys": {
-    "10621178": [
+    "10631198": [
       {
         "contains": " II",
-        "new_code": "10621178_2"
+        "new_code": "10631198_2"
       },
       {
         "contains": " I",
-        "new_code": "10621178_1"
+        "new_code": "10631198_1"
       }
     ]
   },
   "change_subjects": {
-    "10621178_1": "FUNDAMENTALS OF STATISTICAL LEARNING I",
-    "10621178_2": "FUNDAMENTALS OF STATISTICAL LEARNING II"
+    "10631198_1": "FUNDAMENTALS OF STATISTICAL LEARNING I",
+    "10631198_2": "FUNDAMENTALS OF STATISTICAL LEARNING II"
   },
   "legacy_course_code_mappings": {
     "10595546_1": "10631060_1",
