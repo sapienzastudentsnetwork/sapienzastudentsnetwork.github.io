@@ -273,5 +273,10 @@
     "description": "Aula RE 2 - Regina Elena - Edificio A",
     "address": "Viale Regina Elena, 295",
     "mapsUrl": "https://maps.app.goo.gl/A8FX2uvXFKc5Km3PA"
+  },
+  "7d67b57b-e472-47ab-86b8-e8bd69ecc354": {
+    "description": "Aula 41 - S. Pietro in Vincoli",
+    "address": "Via delle Sette Sale, 29",
+    "mapsUrl": "https://maps.app.goo.gl/wPK3Sr55pGDdVQpf9"
   }
 }

@@ -6,7 +6,6 @@ from datetime import datetime
 from requests import get
 from bs4 import BeautifulSoup
 
-
 def extract_course_code(course_name):
     """
     Extracts the course ID and unit/module number from the course name.
@@ -497,6 +496,12 @@ def extract_classrooms(DOM, classrooms_dict, target_course_codes=None):
                 "address": address,
                 "mapsUrl": map_link
             }
+
+    # Curated classroom records from the shared overrides file are authoritative,
+    # even if the upstream catalogue omits them or later changes their metadata.
+    overrides = load_dict_from_json("../data/timetables-overrides.json")
+    protected_classrooms = overrides.get("protected_classrooms", {})
+    classrooms_dict.update(copy.deepcopy(protected_classrooms))
 
 
 def normalize_unassigned_teachers(channels):

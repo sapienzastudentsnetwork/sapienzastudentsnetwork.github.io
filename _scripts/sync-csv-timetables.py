@@ -17,6 +17,8 @@ SHEETS = {
     "33508_Computer-Science.csv": "259872005",
     "33516_Cybersecurity.csv": "1324510703",
     "33519_Data-Science.csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTPHqCaCRU-5HE9gpoFs3f2Ru6YeIF8NVuzwlg1cwN7SjTmGvsG6r5esVgqCC7x5gEHl7BxLNLxUncI/pubhtml?gid=1780311734&single=true",
+    "33514_AIRO_1st.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=1999740778#gid=1999740778",
+    "33514_AIRO_2nd.csv": "https://docs.google.com/spreadsheets/d/1lr7yhCmLzHiKWOZnqZSCvgnaO5w3d8YF/edit?pli=1&gid=983924806#gid=983924806",
 }
 HEADERS = {"timetable", "orario"}
 TIME_RE = re.compile(r"^\s*(\d{1,2})[:.]\d{2}\s*[-–—]\s*\d{1,2}[:.]\d{2}\s*$")
@@ -43,6 +45,15 @@ DAY_MAP = {
     "venerdì": "venerdì",
 }
 ROMAN = {"i": "1", "ii": "2", "iii": "3"}
+AIRO_COURSES = {
+    "reinforcement learning": "10606827",
+    "machine learning": "10629336",
+}
+AIRO_ROOM_IDS = {
+    "201 regina elena": "8e92b19a-4c17-4a44-973e-5e1adbb804df",
+    "b2 diag": "267bbb25-1c7a-421c-ab60-ef0a6e29aece",
+    "41 spv": "7d67b57b-e472-47ab-86b8-e8bd69ecc354",
+}
 
 
 def norm(s):
@@ -60,7 +71,16 @@ def key(s):
 
 
 def is_header(r):
-    return bool(r) and key(r[0]) in HEADERS
+    if not r:
+        return False
+    if key(r[0]) in HEADERS:
+        return True
+    # AIRO sheets do not use a "Timetable"/"Orario" label. Their header row
+    # starts with an empty cell followed by weekday names, in English or Italian.
+    # Recognise the row by its day columns without weakening validation for
+    # unrelated preamble rows.
+    day_columns = [DAY_MAP.get(key(cell)) for cell in r[1:] if norm(cell)]
+    return len(day_columns) >= 3 and len(set(day_columns)) == len(day_columns)
 
 
 def is_time(r):
@@ -121,6 +141,10 @@ def write_raw(source_name, rows, raw_dir):
     for n, (section, block) in enumerate(split_sections(rows), 1):
         stem = Path(source_name).stem
         # Keep degree code and readable programme/curriculum; omit single-channel noise.
+        # AIRO sources are already split by year in SHEETS. Avoid appending a
+        # preamble-derived suffix such as a notice or date range to their names.
+        if stem.startswith("33514_AIRO_"):
+            section = ""
         name = stem + ("_" + section if section else "") + ".csv"
         path = raw_dir / name
         with path.open("w", encoding="utf-8-sig", newline="") as f:
@@ -130,6 +154,13 @@ def write_raw(source_name, rows, raw_dir):
 
 
 def parse_room(cell):
+    # AIRO uses compact English labels without building/classroom codes. Keep the
+    # full qualifier so similarly numbered rooms at other sites cannot be selected.
+    compact_room = re.search(
+        r"(?i)\bRoom\s+(201\s+Regina\s+Elena|B2\s+DIAG|41\s+SPV)\b", cell
+    )
+    if compact_room:
+        return [("Room " + norm(compact_room.group(1)), None)]
     # Parse classroom names only after Aula/Aule, so hyphens in technical IDs such as
     # RM102-E01PR1L007 are never interpreted as classroom separators.
     buildings = [value.upper() for value in BUILDING_RE.findall(norm(cell))]
@@ -166,20 +197,42 @@ def csv_entries(source_name, block):
     elif section.endswith("_M-Z"):
         channel = "2"
     header = block[0]
+    # A spreadsheet may dedicate adjacent columns to overlapping lessons on the
+    # same weekday, writing the day only in the first header cell (for example,
+    # "Monday", "", "Tuesday"). Carry the last valid weekday across blank header
+    # cells so every parallel column is interpreted as belonging to that day.
+    header_days = []
+    current_day = None
+    for value in header:
+        explicit_day = DAY_MAP.get(key(value))
+        if explicit_day:
+            current_day = explicit_day
+        header_days.append(current_day)
     entries = []
+    current_start = None
     for row in block[1:]:
         tm = TIME_RE.match(norm(row[0]) if row else "")
-        if not tm:
+        if tm:
+            current_start = str(int(tm.group(1)))
+        elif degree != "33514" or current_start is None:
             continue
-        start = str(int(tm.group(1)))
+        # AIRO uses additional rows with an empty first cell when two courses
+        # occupy the same hour/day. Reuse the preceding timeslot for those rows.
+        start = current_start
         for col, cell in enumerate(row[1:], 1):
             if not norm(cell) or col >= len(header):
                 continue
-            day = DAY_MAP.get(key(header[col]))
+            day = header_days[col]
             cm = CODE_RE.search(cell)
-            if not day or not cm:
+            codes = [c for c in cm.groups() if c] if cm else []
+            if not codes and degree == "33514":
+                normalized_cell = key(cell)
+                for subject, course_code in AIRO_COURSES.items():
+                    if re.search(rf"(?:^| ){re.escape(subject)}(?: |$)", normalized_cell):
+                        codes = [course_code]
+                        break
+            if not day or not codes:
                 continue
-            codes = [c for c in cm.groups() if c]
             unit = None
             um = re.search(
                 r"(?i)\bUNIT\s*(I{1,3}|\d+)\b|\b(I{1,3}|\d+)\s+MODULO\b", cell
@@ -254,6 +307,10 @@ def classroom_index(timetables, classrooms):
 
 
 def resolve_room(room, building, idx, names, canonical):
+    compact_key = re.sub(r"^room ", "", key(room))
+    cid = AIRO_ROOM_IDS.get(compact_key)
+    if cid and cid in canonical:
+        return cid, canonical[cid]
     cid = idx.get((room_key(room), building))
     if cid:
         return cid, canonical[cid]
@@ -374,11 +431,24 @@ def obtain(name, gid, fixture_dir=None, timeout=10):
         if candidates:
             return candidates[0].read_bytes()
 
-    url = (
-        gid.replace("/pubhtml?", "/pub?output=csv&")
-        if gid.startswith("http")
-        else BASE_URL.format(gid=gid)
-    )
+    if gid.startswith("http"):
+        # Published sheets use /d/e/<publication-id>/pubhtml. Handle them before
+        # ordinary /d/<spreadsheet-id>/edit URLs, otherwise the generic pattern
+        # mistakes the literal "e" for the spreadsheet ID.
+        published_match = re.search(r"/spreadsheets/d/e/([^/]+)/pubhtml", gid)
+        edit_match = re.search(r"/spreadsheets/d/([^/]+)/", gid)
+        gid_match = re.search(r"[?&]gid=(\d+)", gid)
+        if published_match:
+            url = gid.replace("/pubhtml?", "/pub?output=csv&", 1)
+        elif edit_match and gid_match:
+            url = (
+                f"https://docs.google.com/spreadsheets/d/{edit_match.group(1)}/"
+                f"export?format=csv&gid={gid_match.group(1)}"
+            )
+        else:
+            url = gid.replace("/pubhtml?", "/pub?output=csv&", 1)
+    else:
+        url = BASE_URL.format(gid=gid)
     request = Request(
         url,
         headers={"User-Agent": "Mozilla/5.0"},
@@ -392,7 +462,14 @@ def obtain(name, gid, fixture_dir=None, timeout=10):
 
 def raw_files_for_source(raw_directory, source_name):
     source_stem = Path(source_name).stem
-    return sorted(raw_directory.glob(f"{source_stem}_*.csv"))
+    # Most spreadsheets are split into one or more suffixed snapshots. AIRO is
+    # already configured as one source per year, so its snapshot keeps the exact
+    # source name and must also be considered for replacement and fallback.
+    exact = raw_directory / source_name
+    files = list(raw_directory.glob(f"{source_stem}_*.csv"))
+    if exact.is_file():
+        files.append(exact)
+    return sorted(set(files))
 
 
 def entries_from_raw_snapshot(raw_directory, source_name):
@@ -451,7 +528,13 @@ def main():
             entries.extend(replace_raw_files(raw, name, rows))
         except (HTTPError, URLError, TimeoutError, ValueError, OSError) as error:
             print(f"[CSV DOWNLOAD] Could not refresh {name}: {error}.")
-            entries.extend(entries_from_raw_snapshot(raw, name))
+            try:
+                entries.extend(entries_from_raw_snapshot(raw, name))
+            except RuntimeError as snapshot_error:
+                # A newly configured sheet may not have a snapshot yet. Do not block
+                # synchronization of all other programmes; the next accessible run
+                # will create it.
+                print(f"[CSV DOWNLOAD] Skipping {name}: {snapshot_error}.")
 
     timetables = json.loads((data / "timetables.json").read_text())
     classrooms = json.loads((data / "classrooms.json").read_text())
