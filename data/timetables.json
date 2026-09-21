@@ -1554,8 +1554,8 @@
     "subject": "BIOMETRIC SYSTEMS",
     "degree": "33516",
     "degrees": [
-      "33516",
-      "33508"
+      "33508",
+      "33516"
     ],
     "channels": {
       "0": {
@@ -2485,8 +2485,8 @@
             },
             "timeslot": "11 - 14",
             "classrooms": {
-              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)",
-              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)"
+              "4af56786-2ca8-4ce1-8034-23fd243c90c1": "Aula informatica 17 (Edificio: RM025)",
+              "50369700-02c9-46b7-a8f6-cd0171322dee": "Aula informatica 15 (Edificio: RM025)"
             }
           }
         ]
