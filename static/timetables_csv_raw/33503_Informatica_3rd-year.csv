@@ -1,7 +1,5 @@
 ﻿Orario,Lunedì,Martedì,Mercoledì,Giovedì ,Venerdì
-8:00-9:00,"10606972 - DATA SCIENCE E DIRITTO
-(bando)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,"1041727 - AUTOMI CALCOLABILITÀ E COMPLESSITÀ
+8:00-9:00,,,"1041727 - AUTOMI CALCOLABILITÀ E COMPLESSITÀ
 (Venturi)
 [Aula 4 De Lollis - Via Tiburtina 205 - RM158-E01PTEL004]","1022264 - LINGUAGGI DI PROGRAMMAZIONE
 (Cenciarelli)
@@ -11,12 +9,12 @@
 9:00-10:00,,,,,
 10:00-11:00,,"97597 - FISICA
 (Germano)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,,
+[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","10606972 - DATA SCIENCE E DIRITTO
+(bando)
+[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,
 11:00-12:00,"1022264 - LINGUAGGI DI PROGRAMMAZIONE
 (Cenciarelli)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,"10606972 - DATA SCIENCE E DIRITTO
-(bando)
-[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","97597 - FISICA
+[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,,"97597 - FISICA
 (Germano)
 [Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","10593235 |- PROGRAMMAZIONE DI SISTEMI EMBEDDED E MULTICORE 
 (De Sensi)
@@ -39,7 +37,9 @@
 [Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","10596283 ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE 
 (Bando)
 [Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]"
-17:00-18:00,,"10596283 ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE 
+17:00-18:00,"10606972 - DATA SCIENCE E DIRITTO
+(bando)
+[Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]","10596283 ORGANIZZAZIONE E GESTIONE PER LO START-UP AZIENDALE 
 (Bando)
 [Aula Magna (Edificio C) - Viale Regina Elena 295 - RM111-E01PTEL001]",,,
 18:00-19:00,,,,,
