@@ -38,13 +38,14 @@ Puoi chiederne l'aggiunta a questo elenco contattandoci tramite il [bot Telegram
 
 - [Emanuele D'Ambrosio [Algebra A-L]](https://www.notion.so/emanueledambrosio/Algebra-09fc18fe59784e3291a7ea1f41d132dd?source=copy_link)
 - [Davide Galilei (DavideGalilei) [BD1]](https://davidegalilei.github.io/appunti-bd1/)
-- [Giovanni Paolo Tricarico (JackSparr0w999)](https://github.com/JackSparr0w999/University_Notes)
 - [Raul Iscu Lacatusu (@RaulIscu)](https://github.com/RaulIscu/University-Notes)
 - [Ruben Sabatini (RubenSab)](https://rubensab.github.io/wiki-sapienza-informatica/)
+- [Giovanni Paolo Tricarico (JackSparr0w999)](https://github.com/JackSparr0w999/University_Notes)
 
 #### Anno di immatricolazione 2023/24
 
 - [Alessia Cassetta (ajhxia)](https://github.com/ajhxia/UNI)
+- [Francesco Giammaria (giamm025)](https://github.com/giamm025/University-Notes)
 - [Alessio Marini (alem1105)](https://alem1105.github.io/Quartz/)
 - [Aglaia Norza (AglaiaNorza)](https://github.com/AglaiaNorza/bsc-notes)
 
