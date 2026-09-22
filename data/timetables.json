@@ -1461,7 +1461,9 @@
       "0": {
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "c5aede75-0b3e-43b8-a550-e41e1c653b5d": "Friolo Daniele"
+            },
             "timeslot": "8 - 10",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -1470,7 +1472,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "c5aede75-0b3e-43b8-a550-e41e1c653b5d": "Friolo Daniele"
+            },
             "timeslot": "13 - 16",
             "classrooms": {
               "b368dabe-4b63-4129-94bd-2c97ea916fd0": "Aula G50 (Edificio: RM115)"
