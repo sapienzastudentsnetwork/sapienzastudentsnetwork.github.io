@@ -1,0 +1,51 @@
+<div id="current-semester-groups">
+  <noscript>
+    <h3>First semester</h3>
+    <ul>
+      <li><a href="babbage-lovelace/lovelace/">Ada Lovelace group</a></li>
+      <li><a href="babbage-lovelace/babbage/">Charles Babbage group</a></li>
+    </ul>
+    <h3>Second semester</h3>
+    <ul>
+      <li><a href="clarks-turing/clarks/">Joan Clarks group</a></li>
+      <li><a href="clarks-turing/turing/">Alan Turing group</a></li>
+    </ul>
+  </noscript>
+</div>
+<script>
+(function () {
+  var container = document.getElementById('current-semester-groups');
+  if (!container) return;
+
+  var month = new Date().getMonth() + 1;
+  var firstSemester = month >= 9 || month === 1;
+  var semester = firstSemester ? {
+    title: 'First semester',
+    groups: [
+      ['Ada Lovelace group', 'babbage-lovelace/lovelace/'],
+      ['Charles Babbage group', 'babbage-lovelace/babbage/']
+    ]
+  } : {
+    title: 'Second semester',
+    groups: [
+      ['Joan Clarks group', 'clarks-turing/clarks/'],
+      ['Alan Turing group', 'clarks-turing/turing/']
+    ]
+  };
+
+  var heading = document.createElement('h3');
+  heading.textContent = semester.title;
+  var list = document.createElement('ul');
+
+  semester.groups.forEach(function (group) {
+    var item = document.createElement('li');
+    var link = document.createElement('a');
+    link.textContent = group[0];
+    link.href = group[1];
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+
+  container.replaceChildren(heading, list);
+}());
+</script>
