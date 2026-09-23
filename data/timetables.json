@@ -1211,7 +1211,9 @@
       "2": {
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "dac2781f-05ba-4261-ac06-c2e6ba919b79": "MARINI MARCO RAOUL"
+            },
             "timeslot": "13 - 15",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
@@ -1220,7 +1222,9 @@
         ],
         "gioved\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "dac2781f-05ba-4261-ac06-c2e6ba919b79": "MARINI MARCO RAOUL"
+            },
             "timeslot": "15 - 18",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
@@ -1229,7 +1233,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "dac2781f-05ba-4261-ac06-c2e6ba919b79": "MARINI MARCO RAOUL"
+            },
             "timeslot": "13 - 15",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
