@@ -894,7 +894,9 @@
       "0": {
         "marted\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "cbaeac0521b3744df43fd752f324c84724781c8d363b302679c25acd": "Smeriglio Michelangelo"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -903,7 +905,9 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "cbaeac0521b3744df43fd752f324c84724781c8d363b302679c25acd": "Smeriglio Michelangelo"
+            },
             "timeslot": "16 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -958,7 +962,9 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "df68295c-28a8-4034-97f5-8dbddf05bad2": "Riccio Gaetano"
+            },
             "timeslot": "17 - 19",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
@@ -967,7 +973,9 @@
         ],
         "mercoled\u00ec": [
           {
-            "teachers": {},
+            "teachers": {
+              "df68295c-28a8-4034-97f5-8dbddf05bad2": "Riccio Gaetano"
+            },
             "timeslot": "10 - 13",
             "classrooms": {
               "74a8a956-ade6-4883-b10f-416c38c9d93d": "Aula Magna (Edificio: RM111)"
