@@ -21,19 +21,14 @@
             ]
           },
           {
-            "building": "Edificio: RM158",
+            "building": "Edificio: RM018",
             "course": "10630324",
             "room": "Aula 3",
             "schedule": [
               {
-                "day": "mercoled\u00ec",
-                "from": "09:00",
-                "to": "12:00"
-              },
-              {
                 "day": "venerd\u00ec",
                 "from": "08:00",
-                "to": "10:00"
+                "to": "11:00"
               }
             ],
             "subject": "CALCULUS UNIT 1",

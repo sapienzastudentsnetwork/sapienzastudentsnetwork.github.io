@@ -1974,7 +1974,7 @@
             },
             "timeslot": "11 - 13",
             "classrooms": {
-              "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
             }
           },
           {
@@ -2415,25 +2415,14 @@
     ],
     "channels": {
       "0": {
-        "mercoled\u00ec": [
-          {
-            "teachers": {
-              "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
-            },
-            "timeslot": "9 - 12",
-            "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
-            }
-          }
-        ],
         "venerd\u00ec": [
           {
             "teachers": {
               "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
             },
-            "timeslot": "8 - 10",
+            "timeslot": "8 - 11",
             "classrooms": {
-              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
         ]
@@ -2697,17 +2686,6 @@
               "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
             },
             "timeslot": "8 - 11",
-            "classrooms": {
-              "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
-            }
-          }
-        ],
-        "venerd\u00ec": [
-          {
-            "teachers": {
-              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
-            },
-            "timeslot": "8 - 10",
             "classrooms": {
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
