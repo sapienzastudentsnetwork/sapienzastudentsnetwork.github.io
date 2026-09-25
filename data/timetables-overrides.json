@@ -302,6 +302,24 @@
         }
       }
     },
+    "10630324_1": {
+      "degree_limit": "33502",
+      "channels": {
+        "0": {
+          "mercoledì": [
+            {
+              "teachers": {
+                "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+              },
+              "timeslot": "8 - 11",
+              "classrooms": {
+                "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+              }
+            }
+          ]
+        }
+      }
+    },
     "AAF2511": {
       "degree_limit": "33503",
       "channels": {

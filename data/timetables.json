@@ -2415,6 +2415,17 @@
     ],
     "channels": {
       "0": {
+        "mercoled\u00ec": [
+          {
+            "teachers": {
+              "f239f16747654cfca4b4f64364f85827f3e4af654fa236b61c69213b": "ANSINI NADIA"
+            },
+            "timeslot": "8 - 11",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
+        ],
         "venerd\u00ec": [
           {
             "teachers": {
