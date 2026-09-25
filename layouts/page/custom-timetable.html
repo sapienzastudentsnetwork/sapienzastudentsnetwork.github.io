@@ -1016,9 +1016,10 @@
     function ensureCustomTimetableGrid() {
         ["desktop", "mobile"].forEach((mode) => {
             const body = document.querySelector(`#customSchedule tbody.${mode}`);
-            if (!body || body.rows.length) return;
-            for (let hour = customTimetableStartHour; hour < customTimetableEndHour; hour++) {
-                const row = body.insertRow();
+            if (!body) return;
+
+            const addRow = (hour, index = -1) => {
+                const row = body.insertRow(index);
                 const timeCell = row.insertCell();
                 timeCell.className = "timetableTableCell sticky left-0 z-10";
                 timeCell.textContent = `${hour} – ${hour + 1}`;
@@ -1026,6 +1027,20 @@
                     const cell = row.insertCell();
                     cell.className = "timetableTableCell";
                 });
+            };
+
+            const firstHour = body.rows.length
+                ? parseInt(body.rows[0].cells[0].textContent)
+                : customTimetableEndHour;
+            for (let hour = firstHour - 1; hour >= customTimetableStartHour; hour--) {
+                addRow(hour, 0);
+            }
+
+            const lastHour = body.rows.length
+                ? parseInt(body.rows[body.rows.length - 1].cells[0].textContent) + 1
+                : customTimetableStartHour;
+            for (let hour = lastHour; hour < customTimetableEndHour; hour++) {
+                addRow(hour);
             }
         });
     }
