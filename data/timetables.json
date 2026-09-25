@@ -2690,6 +2690,17 @@
               "27a4966a-0abc-418d-aa04-ea3973e3cdef": "Aula 3 (Edificio: RM018)"
             }
           }
+        ],
+        "venerd\u00ec": [
+          {
+            "teachers": {
+              "d95efa9d-7db1-4ae4-9d53-4dd5d00e7955": "Biglino Laura"
+            },
+            "timeslot": "8 - 10",
+            "classrooms": {
+              "41f8d660-fcfd-4b27-9dc6-8da0e075088b": "Aula 3 (Edificio: RM158)"
+            }
+          }
         ]
       }
     },

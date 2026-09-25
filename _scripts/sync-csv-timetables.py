@@ -414,6 +414,7 @@ def merge(entries, timetables, classrooms):
         "course_not_found": 0,
         "slot_not_found": 0,
     }
+    room_candidates = {}
     for e in entries:
         normalized_codes, legacy_found = normalize_course_codes(e["codes"])
         candidate_codes = []
@@ -518,6 +519,25 @@ def merge(entries, timetables, classrooms):
                 f"matched_code={matched_code} missing={'; '.join(missing)}",
             )
         stats["matched"] += 1
+        target = room_candidates.setdefault(
+            id(schedule),
+            {"schedule": schedule, "entry": e, "matched_code": matched_code, "rooms": []},
+        )
+        if resolved not in target["rooms"]:
+            target["rooms"].append(resolved)
+
+    for target in room_candidates.values():
+        if len(target["rooms"]) > 1:
+            stats["ambiguous"] += 1
+            debug_unresolved(
+                "CLASSROOM_AMBIGUOUS",
+                target["entry"],
+                f"matched_code={target['matched_code']} "
+                f"classrooms={'; '.join(str(room) for room in target['rooms'])}",
+            )
+            continue
+        schedule = target["schedule"]
+        resolved = target["rooms"][0]
         if (
             schedule.get("classrooms") != resolved
             or "classroomInfo" in schedule
@@ -527,8 +547,9 @@ def merge(entries, timetables, classrooms):
             schedule.pop("classroomInfo", None)
             schedule.pop("classroomUrl", None)
             stats["changed"] += 1
+            e = target["entry"]
             print(
-                f"[CSV UPDATE] degree={e['degree']} code={matched_code} channel={e['channel']} day={e['day']} start={e['start']} classrooms={resolved}"
+                f"[CSV UPDATE] degree={e['degree']} code={target['matched_code']} channel={e['channel']} day={e['day']} start={e['start']} classrooms={resolved}"
             )
     return stats
 
