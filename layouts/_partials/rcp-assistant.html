@@ -194,6 +194,12 @@
         overflow-wrap: anywhere;
     }
 
+	.exam-list .info {
+		font-weight: normal !important;
+		font-style: italic;
+		color: gray;
+	}
+
     .exam-list li.covered {
         font-weight: bold;
         color: var(--success-color);
@@ -553,29 +559,23 @@
             Edit Selection
         </button>
     </div>
-    <script>
-        const TOTAL_CFU = 78;
-        const GROUPS_PER_COMBO = 2;
-        const MAX_NON_RCP_CFU = 24;
-        const TOP_RESULTS_COUNT = 5;
-
-        const rcpGroups = JSON.parse(
+	<script>
+        window.RCP_GROUPS = JSON.parse(
             "{{ hugo.Data.rcpData.RCP | jsonify }}",
         );
-        const relatedCourses = JSON.parse(
+        window.TEACHINGS_RELATED = new Set(JSON.parse(
             "{{ hugo.Data.rcpData.relatedCourses | jsonify }}",
-        );
+        ));
+		window.TEACHINGS_RCP = new Set(RCP_GROUPS.flatMap(([, teachings]) => teachings));
+		window.TEACHINGS_ONLY_IN_RELATED = TEACHINGS_RELATED.difference(TEACHINGS_RCP);
+		window.TEACHINGS_ALL = TEACHINGS_RELATED.union(TEACHINGS_RCP);
 
-        const rcpCoursesSet = new Set(
-            rcpGroups.flatMap(([, courses]) => courses),
-        );
-        const relatedCoursesSet = new Set(relatedCourses);
-        const allCourses = [...rcpCoursesSet.union(relatedCoursesSet)].sort();
-        const coursesOnlyInRelated =
-            relatedCoursesSet.difference(rcpCoursesSet);
-
-        const MAX_FREE_CHOICE_CREDITS = 15;
+	</script>
+	<script src="{{ "js/rcp-assistant.js" | relURL }}"></script>
+    <script>
+        const TOP_RESULTS_COUNT = 5;
         const ALLOWED_CFU_VALUES = [3, 6, 9, 12];
+		const MAX_FREE_CHOICE_CREDITS = 15;
         const CUSTOM_COURSES_KEY = "rcpCustomCourses";
 
         let results = [];
@@ -601,97 +601,6 @@
 
         function getTotalCredits(courses) {
             return courses.reduce((sum, c) => sum + getCourseCredits(c), 0);
-        }
-
-        function combinations(arr, size) {
-            if (size === 1) {
-                return arr.map((el) => [el]);
-            }
-            return arr.flatMap((el, i) =>
-                combinations(arr.slice(i + 1), size - 1).map((combo) => [
-                    el,
-                    ...combo,
-                ]),
-            );
-        }
-
-        function limitNonRcpCourses(selectedCourses) {
-            const nonRcpSelected = selectedCourses.filter((course) =>
-                coursesOnlyInRelated.has(course) || getCustomCourseNames().includes(course),
-            );
-            const rcpSelected = selectedCourses.filter(
-                (course) => !nonRcpSelected.includes(course),
-            );
-
-            let currentNonRcpCFU = 0;
-            const limitedNonRcp = [];
-            for (const course of nonRcpSelected) {
-                const credits = getCourseCredits(course);
-                if (currentNonRcpCFU + credits <= MAX_NON_RCP_CFU) {
-                    limitedNonRcp.push(course);
-                    currentNonRcpCFU += credits;
-                }
-            }
-
-            return [
-                ...rcpSelected,
-                ...limitedNonRcp,
-            ];
-        }
-
-        function buildCombinationResults(limitedSelectedCourses) {
-            return combinations(rcpGroups, GROUPS_PER_COMBO).map(
-                ([group1, group2]) => {
-                    const unionSet = new Set([...group1[1], ...group2[1]]);
-                    const allAvailableCourses = [...unionSet];
-
-                    const coveredCourses = limitedSelectedCourses.filter(
-                        (course) => unionSet.has(course),
-                    );
-                    const excludedSelectedCourses =
-                        limitedSelectedCourses.filter(
-                            (course) => !unionSet.has(course),
-                        );
-
-                    const rcpCFU = allAvailableCourses.length * 6;
-                    const baseFreeChoiceCFU = Math.max(0, TOTAL_CFU - rcpCFU);
-                    const maxFreeChoiceCFU = baseFreeChoiceCFU + 3;
-
-                    let currentFC_CFU = 0;
-                    const coverableByFreeChoice = [];
-                    for (const course of excludedSelectedCourses) {
-                        const credits = getCourseCredits(course);
-                        if (currentFC_CFU + credits <= maxFreeChoiceCFU) {
-                            coverableByFreeChoice.push(course);
-                            currentFC_CFU += credits;
-                        }
-                    }
-
-                    const coveredCFU = getTotalCredits(coveredCourses);
-                    const freeChoiceCoveredCFU = getTotalCredits(coverableByFreeChoice);
-
-                    return {
-                        groups: [group1, group2],
-                        coverage: coveredCFU + freeChoiceCoveredCFU,
-                        baseCoverage: coveredCFU,
-                        coveredCourses,
-                        allCourses: allAvailableCourses,
-                        excludedSelectedCourses,
-                        baseFreeChoiceCFU,
-                        maxFreeChoiceCFU,
-                        coverableByFreeChoice,
-                        freeChoiceCoveredCFU
-                    };
-                },
-            );
-        }
-
-        function sortByBestCoverage(combinationResults) {
-            return combinationResults.sort((a, b) =>
-                b.coverage !== a.coverage
-                    ? b.coverage - a.coverage
-                    : b.baseCoverage - a.baseCoverage,
-            );
         }
 
         function showResults() {
@@ -901,7 +810,7 @@
 
         function addCustomCourse(name) {
             const customCourses = getCustomCourses();
-            const allNames = [...allCourses, ...customCourses.map((c) => c.name)];
+            const allNames = [...TEACHINGS_ALL, ...customCourses.map((c) => c.name)];
 
             if (allNames.some((c) => c.toLowerCase() === name.toLowerCase())) {
                 alert("This course already exists.");
@@ -928,7 +837,7 @@
             courseList.innerHTML = "";
             const fragment = document.createDocumentFragment();
 
-            allCourses.forEach((course) => {
+            TEACHINGS_ALL.forEach((course) => {
                 fragment.appendChild(createCourseListItem(course, false));
             });
 
@@ -959,43 +868,60 @@
             searchCourses();
         }
 
-        function buildExamListHTML(result) {
-            const courseItems = result.allCourses
-                .sort()
-                .map((course) => {
-                    const cssClass = result.coveredCourses.includes(course)
+        function buildExamListHTML(studyPlan) {
+			const courseItems = Array.from(studyPlan.teachings)
+				.sort((teaching1, teaching2) => {
+					return (studyPlan.info[teaching2].has("RCP1") - studyPlan.info[teaching1].has("RCP1"))
+						|| (studyPlan.info[teaching2].has("RCP2") - studyPlan.info[teaching1].has("RCP2"))
+						|| (studyPlan.info[teaching1].has("ELECTIVE") - studyPlan.info[teaching2].has("ELECTIVE"))
+						|| teaching1.localeCompare(teaching2);
+				})
+				.map((teaching) => {
+                    const cssClass = studyPlan.info[teaching].has("SELECTED")
                         ? "covered"
                         : "";
-                    return `<li class="${cssClass}">${course}</li>`;
-                })
-                .join("");
+					const reasons = Array.from(studyPlan.info[teaching]).map(
+						(info) => ({
+							"ELECTIVE": "Elective",
+							"SELECTED": "",
+							"RCP": "", 
+							"RCP1": studyPlan.groups[0][0], 
+							"RCP2": studyPlan.groups[1][0], 
+							"RCP_REQUIRED": "",
+							"GROUP_B": !studyPlan.info[teaching].has("RCP") ? "Other RCP" : "",
+							"GROUP_C": !studyPlan.info[teaching].has("RCP") ? "Related Teachings" : "",
+							"GROUP_D": "",
+						}[info])
+					)
+						.filter((reason) => reason)
+						.join("; ")
+					return `<li class="${cssClass}">${teaching} <span class="info">${reasons ? "(" + reasons + ")" : ""}</span></li>`;
+				})
+				.join("")
 
-            const freeChoiceItems = result.coverableByFreeChoice
-                .map((course) => {
-                    const credits = getCourseCredits(course);
-                    const cfuSuffix = credits !== 6 ? `, ${credits} CFU` : "";
-                    return `<li class="free-choice">${course} (free choice${cfuSuffix})</li>`;
-                })
-                .join("");
-
-            return courseItems + freeChoiceItems;
+            return courseItems;
         }
 
         function buildResultHTML(result, index, totalSelectedCourses) {
-            const title = `${result.groups[0][0]} + ${result.groups[1][0]}`;
-            const totalCoveredCourses = result.coveredCourses.length + result.coverableByFreeChoice.length;
-            const coverageText = `${totalCoveredCourses}/${totalSelectedCourses}`;
-            const breakdown = `(${result.coveredCourses.length} from RCP + ${result.coverableByFreeChoice.length} via free choice)`;
+			const selectedTeachingsCovered = 
+				Array.from(result.teachings)
+					.filter((teaching) => result.info[teaching].has("SELECTED"));
 
-            const freeChoiceNotice =
-                result.baseFreeChoiceCFU > 0
-                    ? `<div class="free-choice-notice">This combination allows for ${result.baseFreeChoiceCFU} free choice CFU (up to ${result.maxFreeChoiceCFU} CFU).</div>`
-                    : "";
+			const selectedTeachingsCoveredByRcp = 
+				selectedTeachingsCovered
+					.filter((teaching) => result.info[teaching].has("RCP"))
+					
+
+            const title = `${result.groups[0][0]} + ${result.groups[1][0]}`;
+            const coverageText = `${selectedTeachingsCovered.length}/${totalSelectedCourses}`;
+            const breakdown = `(${selectedTeachingsCoveredByRcp.length} from RCP + ${selectedTeachingsCovered.length - selectedTeachingsCoveredByRcp.length} via free choice)`;
+
+			const freeChoiceNotice = ``
 
             return `
                 <div class="result-title">${title}</div>
                 <div class="coverage-info">Selected courses covered: ${coverageText} ${breakdown}</div>
-                <p class="covered-courses">Covered courses: ${result.coveredCourses.join(", ")}</p>
+                <p class="covered-courses">Covered courses: ${selectedTeachingsCovered.join(", ")}</p>
                 ${freeChoiceNotice}
                 <button class="tertiary-button" onclick="toggleExamList(${index})">Show All Courses</button>
                 <ol class="exam-list" id="examList${index}">
@@ -1030,13 +956,18 @@
                 : "Hide All Courses";
         }
 
-        function calculateResults() {
-            const selectedCourses = getSelectedCourses();
-            const limitedSelectedCourses = limitNonRcpCourses(selectedCourses);
 
-            results = sortByBestCoverage(
-                buildCombinationResults(limitedSelectedCourses),
-            );
+        function calculateResults() {
+			const selectedCourses = getSelectedCourses();
+			results = 
+				Array.from(generateStudyPlans(selectedCourses))
+					.sort(studyPlanCompareFn)
+
+			for (const result of results) {
+			console.log(result);
+			console.log(studyPlanScore(result));
+			}
+
 
             displayResults(
                 results.slice(0, TOP_RESULTS_COUNT),
@@ -1114,5 +1045,6 @@
 
             history.replaceState({ page: "selection" }, "", "#selection");
         };
+
     </script>
 </body>
