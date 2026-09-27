@@ -64,6 +64,13 @@
             <i class="fa-solid fa-calendar-plus" aria-hidden="true"></i>
             {{ T "Subjs_CustomTimetable_CustomMenuButton" }}
         </button>
+        <button id="timetableTimeFormat" type="button"
+            class="addSubjs timetable-time-format flex items-center gap-2"
+            aria-pressed="false"
+            onclick="toggleTimetableTimeFormat()">
+            <i class="fa-solid fa-clock" aria-hidden="true"></i>
+            <span id="timetableTimeFormatLabel"></span>
+        </button>
         </div>
         <table id="customSchedule" class="w-full border-collapse shadow-lg">
             <thead>
@@ -81,6 +88,13 @@
         </table>
     </div>
 </div>
+
+<script>
+    addEventListener('DOMContentLoaded', () => {
+        updateTimetableTimeFormatControl();
+        setTimetableTimeFormat(timetableTimeFormat);
+    });
+</script>
 
 <dialog id="customSubjectsMenuDialog" class="custom-subject-dialog custom-subject-choice-dialog"
     onclick="if (event.target === this) closeCustomSubjectsMenu()">
@@ -1136,7 +1150,8 @@
     }
 
     function formatCustomTime(value) {
-        return value.endsWith(":00") ? value.slice(0, -3) : value;
+        const hour = parseInt(value, 10);
+        return Number.isNaN(hour) ? value : formatTimetableHour(hour);
     }
     function renderCustomSubjectDetails(subjects) {
         const section = document.getElementById("customSubjectsDetails");

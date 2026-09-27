@@ -117,6 +117,15 @@
 - id: Subjs_Timetables_Time
   translation: Time
 
+- id: Subjs_Timetables_TimeFormat
+  translation: Time format
+
+- id: Subjs_Timetables_24Hour
+  translation: 24-hour
+
+- id: Subjs_Timetables_12Hour
+  translation: AM/PM
+
 - id: Subjs_Timetables_AlertsLegend
   translation: Check the available warnings by clicking on the subject names followed by asterisks
 

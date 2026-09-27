@@ -4,6 +4,60 @@
     const HARDCODED_TIMETABLES = JSON.parse(`{{ hugo.Data.hardcodedTimetables | jsonify }}`)
     const COLORS = ['red', 'yellow', 'green', 'blue', 'purple', 'orange', 'emerald', 'cyan', 'fuchsia', 'teal'];
     const DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+    const TIMETABLE_TIME_FORMAT_STORAGE_KEY = 'timetable-time-format';
+    let timetableTimeFormat = localStorage.getItem(TIMETABLE_TIME_FORMAT_STORAGE_KEY) === '12' ? '12' : '24';
+
+    function formatTimetableHour(hour) {
+        if (timetableTimeFormat === '24') return `${hour}`;
+
+        const period = hour >= 12 ? 'PM' : 'AM';
+        const displayHour = hour % 12 || 12;
+        return `${displayHour} ${period}`;
+    }
+
+    function formatTimetableTimeRange(startTime, endTime, compact = false) {
+        if (timetableTimeFormat === '24') {
+            return compact ? `${startTime}-${endTime}` : `${startTime} - ${endTime}`;
+        }
+
+        return `${formatTimetableHour(startTime)} - ${formatTimetableHour(endTime)}`;
+    }
+
+    function formatTimetableTimeslot(timeslot) {
+        const parts = timeslot.split('-').map((time) => parseInt(time, 10));
+        if (parts.length !== 2 || parts.some(Number.isNaN)) return timeslot;
+        return formatTimetableTimeRange(parts[0], parts[1]);
+    }
+
+    function setTimetableTimeFormat(format) {
+        timetableTimeFormat = format === '12' ? '12' : '24';
+        localStorage.setItem(TIMETABLE_TIME_FORMAT_STORAGE_KEY, timetableTimeFormat);
+
+        document.querySelectorAll('[data-timetable-time-start]').forEach((cell) => {
+            const startTime = Number(cell.dataset.timetableTimeStart);
+            const endTime = Number(cell.dataset.timetableTimeEnd);
+            cell.textContent = formatTimetableTimeRange(startTime, endTime, cell.dataset.timetableTimeCompact === 'true');
+        });
+        document.querySelectorAll('[data-timetable-timeslot]').forEach((cell) => {
+            cell.textContent = formatTimetableTimeslot(cell.dataset.timetableTimeslot);
+        });
+        updateTimetableTimeFormatControl();
+    }
+
+    function updateTimetableTimeFormatControl() {
+        const formatButton = document.getElementById('timetableTimeFormat');
+        const formatLabel = document.getElementById('timetableTimeFormatLabel');
+        if (!formatButton || !formatLabel) return;
+
+        const is12Hour = timetableTimeFormat === '12';
+        formatButton.setAttribute('aria-pressed', String(is12Hour));
+        formatLabel.textContent = is12Hour ? '{{ T "Subjs_Timetables_12Hour" }}' : '{{ T "Subjs_Timetables_24Hour" }}';
+        formatButton.title = '{{ T "Subjs_Timetables_TimeFormat" }}';
+    }
+
+    function toggleTimetableTimeFormat() {
+        setTimetableTimeFormat(timetableTimeFormat === '24' ? '12' : '24');
+    }
 
     for (const courseId in HARDCODED_TIMETABLES) {
         if (TIMETABLES[courseId]) {
@@ -174,10 +228,13 @@
         for (let time = classesStartTime; time < classesEndTime; time++) {
             const timeTd = document.createElement('td');
             timeTd.classList.add('timetableTableCell', 'font-light', 'italic');
-            timeTd.innerHTML = `${time} - ${time + 1}`;
+            timeTd.dataset.timetableTimeStart = time;
+            timeTd.dataset.timetableTimeEnd = time + 1;
+            timeTd.textContent = formatTimetableTimeRange(time, time + 1);
 
             mobileTimeTd = timeTd.cloneNode(true)
-            mobileTimeTd.innerHTML = `${time}-${time + 1}`;
+            mobileTimeTd.dataset.timetableTimeCompact = 'true';
+            mobileTimeTd.textContent = formatTimetableTimeRange(time, time + 1, true);
 
             const desktopTr = document.createElement('tr');
             desktopTr.append(timeTd);

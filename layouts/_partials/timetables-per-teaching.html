@@ -141,7 +141,7 @@
                                                 {{ if eq $day "sabato" }}{{ T "DaysOfTheWeek_Saturday" }}{{ end }}
                                                 {{ if eq $day "domenica" }}{{ T "DaysOfTheWeek_Sunday" }}{{ end }}
                                             </td>
-                                            <td class="timetableTableCell">{{ $timeslot }}</td>
+                                            <td class="timetableTableCell" data-timetable-timeslot="{{ $timeslot }}">{{ $timeslot }}</td>
                                             <td class="timetableTableCell">
                                                 {{ $timeslotInDay := where $day_info "timeslot" "eq" $timeslot }}
 

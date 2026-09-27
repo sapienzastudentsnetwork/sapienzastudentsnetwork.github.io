@@ -146,6 +146,18 @@
 .custom-subjects-menu-button {
   white-space: nowrap;
 }
+.timetable-time-format {
+  white-space: nowrap;
+}
+.custom-timetable-toolbar > .timetable-time-format {
+  background: #d97706;
+  border-color: #b45309;
+  color: #fff;
+}
+.custom-timetable-toolbar > .timetable-time-format:hover {
+  background: #b45309;
+  border-color: #92400e;
+}
 .custom-subject-choice-dialog {
   max-width: 28rem;
 }
@@ -197,6 +209,10 @@
     margin: .5rem 0 1rem;
   }
   .custom-timetable-toolbar .addSubjs {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+  .timetable-time-format {
     flex: 1 1 100%;
     justify-content: center;
   }
