@@ -151,11 +151,11 @@ function studyPlanScore(studyPlan) {
 }
 
 function studyPlanCompareFn(studyPlan1, studyPlan2) {
-	for (
-		const [entry1, entry2] of
-		Iterator.zip([studyPlanScore(studyPlan1), studyPlanScore(studyPlan2)])
-	) {
-		const difference = entry2 - entry1;
+	const studyPlan1Score = studyPlanScore(studyPlan1);
+	const studyPlan2Score = studyPlanScore(studyPlan2);
+
+	for (let index = 0; index < studyPlan1Score.length; index++) {
+		const difference = studyPlan2Score[index] - studyPlan1Score[index];
 		if (difference !== 0) {
 			return difference;
 		}

@@ -963,12 +963,6 @@
 				Array.from(generateStudyPlans(selectedCourses))
 					.sort(studyPlanCompareFn)
 
-			for (const result of results) {
-			console.log(result);
-			console.log(studyPlanScore(result));
-			}
-
-
             displayResults(
                 results.slice(0, TOP_RESULTS_COUNT),
                 selectedCourses.length,
