@@ -5,6 +5,7 @@ const GROUP_E_CFU_THESIS = 36; // Thesis.
 const GROUP_F_CFU_AFC = 6; // AFC (Attività Fromativa Complementare).
 
 const TEACHING_CFU = 6; // Each teaching has 6 CFU.
+const MAX_EXTRA_CFU = 3; // Study plans are accepted up to 81 CFU (123 overall).
 
 function generateStudyPlan(internalTeachings, electiveTeachings, group1, group2) {
 	const teachings = new Set();
@@ -22,6 +23,8 @@ function generateStudyPlan(internalTeachings, electiveTeachings, group1, group2)
 		teachings.add(teaching);
 		(info[teaching] ??= new Set()).add("RCP_REQUIRED");
 	}
+
+	let cfu = teachings.size * TEACHING_CFU;
 
 	const GROUPS = [
 		{
@@ -70,10 +73,12 @@ function generateStudyPlan(internalTeachings, electiveTeachings, group1, group2)
 				});
 
 		for (const teaching of eligible) {
-			if (teachings.size * TEACHING_CFU >= targetCfu) {
-				break;
+			const credits = getCourseCredits(teaching);
+			if (cfu + credits > targetCfu + MAX_EXTRA_CFU) {
+				continue;
 			}
 			teachings.add(teaching);
+			cfu += credits;
 			(info[teaching] ??= new Set()).add(name)
 		}
 	}
