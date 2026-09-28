@@ -286,10 +286,10 @@ def get_classroom_schedule():
                     continue
 
                 # event[2] is the start time, event[3] is the end time, and
-                # event[11] is the activity title shown in the timetable.
+                # the activity title can be stored in event[11] or event[1].
                 start_dt = datetime.strptime(event[2], "%m/%d/%Y %H:%M")
                 end_dt = datetime.strptime(event[3], "%m/%d/%Y %H:%M")
-                title = event[11].strip()
+                title = event[11].strip() or event[1].strip()
 
                 # Keep only events falling within the selected Monday-Friday week.
                 if start_of_week.date() <= start_dt.date() <= end_of_week.date():
