@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T09:21:11Z",
-  "source_commit": "c6a231a8a44dc686b2b83849de1a39914a78678c",
+  "generated_at": "2026-09-28T09:54:34Z",
+  "source_commit": "db04aec4ae54016972e031940bc9cc94610d8f01",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 756,
-      "additions": 78258,
-      "deletions": 61820,
-      "effective_lines": 140078,
+      "commits": 757,
+      "additions": 78275,
+      "deletions": 61837,
+      "effective_lines": 140112,
       "score": 100.0,
       "rank": 1
     },
@@ -29,6 +29,19 @@
       "rank": 2
     },
     {
+      "name": "Lorenzoantonelli",
+      "github": "https://github.com/Lorenzoantonelli",
+      "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
+      "initials": "L",
+      "unresolved": false,
+      "commits": 27,
+      "additions": 3321,
+      "deletions": 1641,
+      "effective_lines": 4962,
+      "score": 63.2,
+      "rank": 3
+    },
+    {
       "name": "ElBi21",
       "github": "https://github.com/ElBi21",
       "avatar": "https://avatars.githubusercontent.com/u/64312343?v=4",
@@ -39,19 +52,6 @@
       "deletions": 704,
       "effective_lines": 3387,
       "score": 63.1,
-      "rank": 3
-    },
-    {
-      "name": "Lorenzoantonelli",
-      "github": "https://github.com/Lorenzoantonelli",
-      "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
-      "initials": "L",
-      "unresolved": false,
-      "commits": 26,
-      "additions": 3313,
-      "deletions": 1638,
-      "effective_lines": 4951,
-      "score": 63.0,
       "rank": 4
     },
     {
