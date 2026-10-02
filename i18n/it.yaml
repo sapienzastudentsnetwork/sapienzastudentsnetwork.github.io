@@ -408,3 +408,89 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Vuoi conoscere chi ha contribuito alla wiki e, più in generale, al progetto del sito? Consulta la pagina dei <a href="../collaboratori/"><strong>collaboratori wiki</strong></a>.'
+
+# Custom timetable planner
+
+- id: Planner_ManageSubjects
+  translation: "Gestisci materie"
+
+- id: Planner_ChooseSubjects
+  translation: "Scegli le materie"
+
+- id: Planner_WeekTitle
+  translation: "La tua settimana"
+
+- id: Planner_View
+  translation: "Visualizzazione dell’orario"
+
+- id: Planner_Week
+  translation: "Settimana"
+
+- id: Planner_Agenda
+  translation: "Giorno"
+
+- id: Planner_EmptyTitle
+  translation: "La tua settimana inizia qui"
+
+- id: Planner_EmptyText
+  translation: "Aggiungi le materie che segui: troverai qui lezioni, orari e aule."
+
+- id: Planner_Saved
+  translation: "Salvato su questo dispositivo"
+
+- id: Planner_LessonTip
+  translation: "Seleziona una lezione per tutti i dettagli."
+
+- id: Planner_PickerHint
+  translation: "Seleziona le materie che segui. Le modifiche sono salvate automaticamente."
+
+- id: Planner_Search
+  translation: "Cerca una materia…"
+
+- id: Planner_Degree
+  translation: "Corso di laurea"
+
+- id: Planner_AllDegrees
+  translation: "Tutti i corsi di laurea"
+
+- id: Planner_OnlySelected
+  translation: "Solo selezionate"
+
+- id: Planner_NoResults
+  translation: "Nessuna materia trovata. Prova un’altra ricerca o cambia i filtri."
+
+- id: Planner_Done
+  translation: "Mostra il mio orario"
+
+- id: Planner_SubjectCount
+  translation: "Materie: %n"
+
+- id: Planner_LessonCount
+  translation: "Lezioni: %n"
+
+- id: Planner_OverlapExplanation
+  translation: "Gli orari di queste lezioni si sovrappongono."
+
+- id: Planner_OverlapHint
+  translation: "Le lezioni sovrapposte sono affiancate. Scorri la settimana per vederle tutte."
+
+- id: Planner_Overlap
+  translation: "Lezioni sovrapposte"
+
+- id: Planner_NoLessons
+  translation: "Nessuna lezione in questo giorno"
+
+- id: Planner_NoLessonsHint
+  translation: "Scegli un altro giorno per vedere le tue lezioni."
+
+- id: Planner_NoScheduledLessons
+  translation: "Nessuna lezione in programma per le materie selezionate."
+
+- id: Planner_Cancelled
+  translation: "Lezione annullata"
+
+- id: Planner_RoomPending
+  translation: "Aula da confermare"
+
+- id: Planner_Alerts
+  translation: "Avvisi disponibili nei dettagli"

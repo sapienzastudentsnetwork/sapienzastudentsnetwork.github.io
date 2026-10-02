@@ -403,3 +403,89 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Want to see everyone who has contributed to this wiki and to the wider website project? Visit the <a href="../contributors/"><strong>wiki contributors</strong></a> page.'
+
+# Custom timetable planner
+
+- id: Planner_ManageSubjects
+  translation: "Manage subjects"
+
+- id: Planner_ChooseSubjects
+  translation: "Choose subjects"
+
+- id: Planner_WeekTitle
+  translation: "Your week"
+
+- id: Planner_View
+  translation: "Timetable view"
+
+- id: Planner_Week
+  translation: "Week"
+
+- id: Planner_Agenda
+  translation: "Day"
+
+- id: Planner_EmptyTitle
+  translation: "Your week starts here"
+
+- id: Planner_EmptyText
+  translation: "Add the subjects you attend to see your lessons, times and rooms here."
+
+- id: Planner_Saved
+  translation: "Saved on this device"
+
+- id: Planner_LessonTip
+  translation: "Select a lesson for full details."
+
+- id: Planner_PickerHint
+  translation: "Select the subjects you attend. Changes are saved automatically."
+
+- id: Planner_Search
+  translation: "Search for a subject…"
+
+- id: Planner_Degree
+  translation: "Degree programme"
+
+- id: Planner_AllDegrees
+  translation: "All degree programmes"
+
+- id: Planner_OnlySelected
+  translation: "Selected only"
+
+- id: Planner_NoResults
+  translation: "No subjects found. Try another search or change the filters."
+
+- id: Planner_Done
+  translation: "Show my timetable"
+
+- id: Planner_SubjectCount
+  translation: "Subjects: %n"
+
+- id: Planner_LessonCount
+  translation: "Lessons: %n"
+
+- id: Planner_OverlapExplanation
+  translation: "The times of these lessons overlap."
+
+- id: Planner_OverlapHint
+  translation: "Overlapping lessons appear side by side. Scroll across the week to see them all."
+
+- id: Planner_Overlap
+  translation: "Overlapping lessons"
+
+- id: Planner_NoLessons
+  translation: "No lessons on this day"
+
+- id: Planner_NoLessonsHint
+  translation: "Choose another day to see your lessons."
+
+- id: Planner_NoScheduledLessons
+  translation: "No scheduled lessons for your selected subjects."
+
+- id: Planner_Cancelled
+  translation: "Cancelled lesson"
+
+- id: Planner_RoomPending
+  translation: "Room to be confirmed"
+
+- id: Planner_Alerts
+  translation: "See details for notices"
