@@ -35,8 +35,13 @@ function plannerMinutes(time) {
     return hour * 60 + minute;
 }
 
-function plannerTime(minutes) {
-    return `${String(Math.floor(minutes / 60)).padStart(2, '0')}:${String(minutes % 60).padStart(2, '0')}`;
+// Times follow the browser's language: 12-hour for en-US, 24-hour for Italian and most others.
+const plannerTimeFormat = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
+const plannerHourFormat = new Intl.DateTimeFormat(undefined, { hour: 'numeric' });
+const plannerClock = minutes => new Date(2000, 0, 1, 0, minutes);
+
+function plannerTimeRange(start, end) {
+    return plannerTimeFormat.formatRange(plannerClock(start), plannerClock(end));
 }
 
 // Selected subjects get distinct colours before the palette repeats.
@@ -122,7 +127,7 @@ function plannerLesson(lesson, weekly = false) {
     const link = plannerElement('a', `planner-lesson${lesson.cancelled ? ' planner-lesson--cancelled' : ''}`);
     link.href = lesson.href;
     link.style.setProperty('--lesson-color', lesson.color);
-    const time = plannerElement('span', 'planner-lesson-time', `${plannerTime(lesson.start)} – ${plannerTime(lesson.end)}`);
+    const time = plannerElement('span', 'planner-lesson-time', plannerTimeRange(lesson.start, lesson.end));
     const name = plannerElement('strong', 'planner-lesson-name', weekly ? lesson.shortName : lesson.name);
     const room = plannerElement('span', 'planner-lesson-room', (weekly ? lesson.room : lesson.roomFull || lesson.room) || plannerLabels.roomPending);
     link.append(time, name, room);
@@ -161,7 +166,7 @@ function renderPlannerWeek() {
     });
     const axis = plannerElement('div', 'planner-time-axis');
     for (let time = start; time < end; time += 60) {
-        axis.append(plannerElement('span', 'planner-hour', plannerTime(time)));
+        axis.append(plannerElement('span', 'planner-hour', plannerHourFormat.format(plannerClock(time))));
     }
     week.append(axis);
     for (let day = 0; day < 5; day++) {
@@ -214,7 +219,7 @@ function setPlannerDay(day) {
             list.append(...group.map(card));
             continue;
         }
-        const range = `${plannerTime(Math.min(...group.map(lesson => lesson.start)))} – ${plannerTime(Math.max(...group.map(lesson => lesson.end)))}`;
+        const range = plannerTimeRange(Math.min(...group.map(lesson => lesson.start)), Math.max(...group.map(lesson => lesson.end)));
         const section = plannerElement('section', 'planner-conflict-group');
         const title = plannerElement('h4', 'planner-conflict-heading', `${plannerLabels.overlap} · ${range}`);
         const icon = plannerElement('i', 'fa-solid fa-triangle-exclamation planner-warning-icon');
