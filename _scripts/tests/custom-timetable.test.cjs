@@ -48,11 +48,12 @@ lessons = [{ start: 480, end: 600 }, { start: 540, end: 600, cancelled: true }];
 planner.layoutPlannerDay(lessons);
 assert.ok(lessons.every(lesson => !lesson.overlap));
 
-// Calendar dates cross month/year boundaries; Sunday still belongs to the past week.
+// Calendar dates cross month/year boundaries; weekends look ahead to the coming week.
 for (const [today, expected] of [
     [new Date(2026, 9, 2), ['9/28', '9/29', '9/30', '10/1', '10/2']],
     [new Date(2026, 0, 1), ['12/29', '12/30', '12/31', '1/1', '1/2']],
-    [new Date(2026, 9, 4), ['9/28', '9/29', '9/30', '10/1', '10/2']],
+    [new Date(2026, 9, 3), ['10/5', '10/6', '10/7', '10/8', '10/9']],
+    [new Date(2026, 9, 4), ['10/5', '10/6', '10/7', '10/8', '10/9']],
 ]) {
     const dates = planner.plannerWeekDates(today);
     assert.deepEqual(Array.from(dates, date => `${date.getMonth() + 1}/${date.getDate()}`), expected);

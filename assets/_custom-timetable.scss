@@ -5,6 +5,8 @@
   --planner-line: color-mix(in srgb, var(--body-font-color) 18%, var(--body-background));
   --planner-muted: color-mix(in srgb, var(--body-font-color) 70%, var(--body-background));
   --planner-surface: color-mix(in srgb, var(--body-font-color) 4%, var(--body-background));
+  // Mixing with the text colour darkens amber on light themes and lightens it on dark ones.
+  --planner-warning: color-mix(in srgb, #d97706 70%, var(--body-font-color));
   color: var(--body-font-color);
   font: inherit;
   font-variant-numeric: tabular-nums;
@@ -13,12 +15,19 @@
 
   [hidden] { display: none !important; }
   button, input, select { font: inherit; }
+  // Safari ignores the height of natively styled selects, so draw the chevron ourselves.
+  select {
+    appearance: none; padding-right: 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23888' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right .75rem center; background-size: .7rem;
+  }
   button { cursor: pointer; }
   button:disabled { opacity: .5; cursor: not-allowed; }
   :focus-visible { outline: 2px solid var(--color-link); outline-offset: 3px; }
   ::selection { background: var(--color-link); color: var(--body-background); }
   input { caret-color: var(--color-link); }
   input::placeholder { color: var(--planner-muted); opacity: 1; }
+  strong { text-align: inherit; }
 }
 
 #main.timetable-planner { width: 100%; max-width: none; padding: 0; margin: 1.5rem 0 2rem; }
@@ -54,6 +63,8 @@
 .planner-calendar-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; }
 .planner-calendar-header h2 { margin: 0; font-size: 1.25rem; }
 .planner-calendar-header p { margin: .35rem 0 0; color: var(--planner-muted); font-size: .85rem; }
+.planner-calendar-header p:empty { display: none; }
+.planner-calendar-actions .planner-button { font-size: .875rem; }
 .planner-view-switch { display: inline-flex; gap: .25rem; padding: .25rem; border-radius: 8px; background: var(--planner-surface); }
 .planner-view-switch button {
   display: flex; align-items: center; gap: .45rem; min-height: 40px; padding: .5rem .75rem;
@@ -64,17 +75,23 @@
 .planner-empty > i { font-size: 2rem; color: var(--color-link); }
 .planner-empty h3 { margin: 1rem 0 .5rem; color: var(--body-font-color); font-size: 1.2rem; font-weight: 600; }
 .planner-empty p { max-width: 42ch; margin: 0 auto 1.25rem; color: var(--planner-muted); }
-.planner-calendar-footer { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; padding: .85rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .78rem; }
+.planner-calendar-footer { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; padding: .85rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
 .planner-calendar-footer > i { color: var(--color-link); }
 .planner-calendar-footer > span { margin-left: auto; }
 .planner-week-scroll { overflow-x: auto; }
-.planner-week-hint { margin: 0; padding: .75rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; }
+.planner-week-hint { display: flex; align-items: center; gap: .5rem; margin: 0; padding: .75rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
+.planner-warning-icon { color: var(--planner-warning); }
 .planner-week {
-  --planner-hour-height: 80px;
-  display: grid; min-width: calc(3.75rem + var(--planner-lanes) * 10rem);
+  --planner-hour-height: 56px;
+  display: grid; min-width: calc(3.75rem + var(--planner-lanes) * 5rem);
   border-top: 1px solid var(--planner-line); font-size: .8rem;
 }
-.planner-week-heading { padding: .9rem .35rem; text-align: center; font-weight: 600; border-left: 1px solid var(--planner-line); background: var(--planner-surface); }
+.planner-week-heading {
+  padding: .75rem .35rem; text-align: center; font-weight: 600; border-left: 1px solid var(--planner-line); background: var(--planner-surface);
+  span { display: block; color: var(--planner-muted); font-weight: 400; }
+  &[aria-current="date"], &[aria-current="date"] span { color: var(--color-link); }
+}
+.planner-week-column--today { background: color-mix(in srgb, var(--color-link) 4%, var(--body-background)); }
 .planner-week-corner { position: sticky; left: 0; z-index: 2; background: var(--planner-surface); }
 .planner-time-axis { position: sticky; left: 0; z-index: 2; display: flex; flex-direction: column; background: var(--planner-surface); }
 .planner-hour { height: var(--planner-hour-height); padding-top: .3rem; text-align: center; color: var(--planner-muted); }
@@ -84,7 +101,11 @@
   display: flex; flex-direction: column; gap: .25rem; min-width: 0; padding: .85rem 1rem;
   border: 1px solid color-mix(in srgb, var(--lesson-color) 45%, var(--body-background));
   border-radius: 8px; background: color-mix(in srgb, var(--lesson-color) 10%, var(--body-background));
-  color: var(--body-font-color); text-decoration: none; overflow-wrap: anywhere; text-align: left;
+  text-decoration: none; overflow-wrap: anywhere; text-align: left;
+}
+// Outranks the site's link colour and alignment so lessons keep one colour on hover and tap.
+.timetable-planner a.planner-lesson {
+  align-items: stretch; color: var(--body-font-color);
   &:hover { background: color-mix(in srgb, var(--lesson-color) 18%, var(--body-background)); color: var(--body-font-color); text-decoration: none; }
 }
 .planner-lesson-time { font-size: .8rem; font-weight: 600; }
@@ -92,10 +113,12 @@
 .planner-lesson-room { color: var(--planner-muted); font-size: .85rem; }
 .planner-lesson-notice { display: flex; align-items: center; gap: .3rem; font-size: .75rem; font-weight: 600; }
 .planner-lesson--cancelled .planner-lesson-name { text-decoration: line-through; }
-.planner-week .planner-lesson { position: absolute; padding: .5rem; gap: .3rem; overflow-y: auto; }
-.planner-week .planner-lesson-time { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .35rem; }
-.planner-week .planner-lesson-name { font-size: .85rem; }
-.planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .75rem; }
+.planner-week .planner-lesson { position: absolute; padding: .35rem .45rem; gap: .1rem; overflow: hidden; container-type: size; }
+.planner-week .planner-lesson-time { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
+.planner-week .planner-lesson-name { font-size: .8rem; line-height: 1.25; }
+.planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .72rem; line-height: 1.3; }
+// Short or narrow blocks keep the time and name; the full room lives in the title and details.
+@container (max-height: 3.4rem) or (max-width: 5.5rem) { .planner-lesson-room { display: none; } }
 .planner-agenda { display: none; padding: 0 1.25rem 1.25rem; }
 .timetable-planner[data-view="agenda"] { .planner-week-view { display: none; } .planner-agenda { display: block; } }
 .planner-days { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .4rem; padding: .75rem 0; border-block: 1px solid var(--planner-line); }
@@ -103,19 +126,33 @@
   display: flex; flex-direction: column; align-items: center; gap: .25rem; min-height: 64px;
   padding: .5rem .2rem; border: 1px solid transparent; border-radius: 8px;
   background: transparent; color: var(--planner-muted); font-weight: 600;
+  position: relative;
   span { font-size: .75rem; font-weight: 400; }
   &:hover { background: var(--planner-surface); }
+  &[aria-current="date"] { color: var(--body-font-color); }
+  &[aria-current="date"]::after { content: ''; position: absolute; bottom: .3rem; width: .3rem; height: .3rem; border-radius: 50%; background: var(--color-link); }
   &[aria-pressed="true"] { color: var(--color-link); background: color-mix(in srgb, var(--color-link) 8%, var(--body-background)); border-color: var(--color-link); }
 }
 .planner-day-heading { margin: 1.25rem 0 .75rem; color: var(--body-font-color); font-size: 1rem; font-weight: 600; }
 .planner-day-lessons { display: grid; gap: .65rem; }
-.planner-conflict-group { padding-block: 1rem; border-block: 1px solid var(--planner-line); }
-.planner-conflict-heading { display: flex; align-items: center; gap: .5rem; margin: 0; color: var(--body-font-color); font-size: .9rem; font-weight: 600; }
-.planner-conflict-heading i { color: var(--color-link); }
-.planner-conflict-explanation { margin: .35rem 0 .85rem; color: var(--planner-muted); font-size: .8rem; }
+.planner-lesson--upcoming { box-shadow: 0 2px 10px color-mix(in srgb, var(--lesson-color) 25%, transparent); }
+.planner-badge { margin-right: .5rem; padding: .1rem .45rem; border-radius: 999px; background: var(--color-link); color: var(--body-background); font-size: .7rem; font-weight: 600; }
+.planner-conflict-group {
+  padding: .75rem; border: 1px solid color-mix(in srgb, var(--planner-warning) 40%, var(--body-background)); border-radius: 12px;
+  background: color-mix(in srgb, var(--planner-warning) 7%, var(--body-background));
+}
+.planner-conflict-heading { display: flex; align-items: center; gap: .5rem; margin: 0 0 .65rem; color: var(--body-font-color); font-size: .9rem; font-weight: 600; }
 .planner-day-empty { padding: 2rem .5rem; text-align: center; color: var(--planner-muted); }
 .planner-day-empty p { margin: 0 0 .4rem; font-weight: 600; }
 #plannerTeachingDetails, #customSubjectsDetails { scroll-margin-top: 1rem; }
+.planner-details :target { scroll-margin-top: 1rem; border-radius: 8px; outline: 2px solid var(--color-link); outline-offset: .5rem; }
+.planner-back-link {
+  position: sticky; bottom: 1rem; width: fit-content; align-items: center; gap: .5rem; margin: 1.5rem 0 0 auto;
+  padding: .6rem .9rem; border: 1px solid var(--planner-line); border-radius: 999px; background: var(--body-background);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .12); font-size: .875rem; font-weight: 600;
+}
+.planner-details .planner-back-link { display: none; }
+.planner-details:has(> section:not([hidden]):not(.hidden)) .planner-back-link { display: flex; }
 
 // Picker: stable header/footer with a scrollable, searchable list.
 #subjsPopUp.planner-picker,
@@ -136,7 +173,7 @@
 #subjsPopUp .subjsSearchWrap { width: auto; max-width: none; margin: 0 1.25rem .75rem; min-height: 48px; border-color: var(--planner-line); background: var(--planner-surface); }
 #subjsPopUp #subjsSearch { font-size: 1rem; }
 .planner-picker-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; padding: 0 1.25rem 1rem; }
-.planner-picker-filters select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; padding: .5rem; border: 1px solid var(--planner-line); border-radius: 8px; background: var(--body-background); color: var(--body-font-color); font-size: .85rem; }
+.planner-picker-filters select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; padding: .5rem 2rem .5rem .5rem; border: 1px solid var(--planner-line); border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font-size: .85rem; }
 .planner-picker-filters label { display: flex; align-items: center; gap: .5rem; min-height: 44px; font-size: .85rem; }
 .planner-picker-filters input { width: 18px; height: 18px; accent-color: var(--color-link); }
 #subjsPopUp .subjsList { display: block; flex: 1; min-height: 0; overflow-y: auto; padding: 0 1.25rem 1rem; margin: 0; width: 100%; border-top: 1px solid var(--planner-line); }
@@ -163,6 +200,7 @@
 #subjsCloseMenu { width: auto; height: auto; margin: 0; border-radius: 8px; box-shadow: none; background: var(--color-link); color: var(--body-background); }
 #subjsCloseMenu:hover { background: color-mix(in srgb, var(--color-link) 85%, var(--body-font-color)); }
 .planner-no-results { margin: 0; padding: 1.5rem 1.25rem; color: var(--planner-muted); }
+.planner-channel-warning { display: flex; gap: .5rem; align-items: baseline; margin: 0 1.25rem 1rem; color: var(--body-font-color); font-size: .85rem; line-height: 1.5; }
 
 // Custom subjects retain the existing editor and import/export workflow.
 .custom-subject-form, .custom-subject-manager { max-height: calc(100dvh - 2rem); overflow-y: auto; }
@@ -175,9 +213,10 @@
 .custom-subject-field--wide, .custom-subject-field-group { grid-column: 1 / -1; }
 .custom-subject-field input, .custom-subject-dynamic-field input, .custom-subject-dynamic-field select {
   width: 100%; min-width: 0; min-height: 44px; padding: .6rem; border: 1px solid var(--planner-line);
-  border-radius: 8px; background: var(--body-background); color: var(--body-font-color); font-size: 1rem;
+  border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font-size: 1rem;
 }
-.custom-subject-field input[type="color"] { padding: .25rem; }
+.custom-subject-dynamic-field select { padding-right: 2rem; }
+.custom-subject-field input[type="color"] { width: 5rem; padding: .25rem; }
 .custom-subject-field span, .custom-subject-dynamic-field span { font-weight: 500; }
 .custom-subject-field-group { display: grid; gap: .75rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .custom-subject-field-group--time { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -186,7 +225,11 @@
 .custom-subject-editor-section__heading h3 { margin: 0; font-size: 1rem; color: var(--body-font-color); }
 .custom-subject-stack { display: flex; flex-direction: column; gap: 1rem; }
 .custom-subject-dynamic-row { display: grid; gap: 1rem; padding: 1rem 0; border-block-start: 1px solid var(--planner-line); }
-.custom-subject-remove-lesson-button { grid-column: 1 / -1; justify-self: end; min-height: 44px; padding: .6rem; border: 1px solid var(--planner-line); border-radius: 8px; background: var(--body-background); color: var(--body-font-color); font: inherit; font-size: .85rem; }
+.custom-subject-lesson-row:only-child .custom-subject-remove-lesson-button { display: none; }
+.custom-subject-links summary { padding-block: .75rem; cursor: pointer; font-size: .85rem; font-weight: 500; }
+.custom-subject-links[open] summary { margin-bottom: .5rem; }
+.custom-subject-status:not(:empty) { margin: 1rem 1.25rem 0; padding: .65rem .85rem; border-radius: 8px; background: color-mix(in srgb, #238636 10%, var(--body-background)); font-size: .85rem; }
+.custom-subject-remove-lesson-button { display: inline-flex; align-items: center; gap: .4rem; grid-column: 1 / -1; justify-self: end; min-height: 44px; padding: .6rem; border: 1px solid var(--planner-line); border-radius: 8px; background: var(--body-background); color: var(--body-font-color); font: inherit; font-size: .85rem; }
 .custom-subject-remove-lesson-button:hover { background: var(--planner-surface); }
 .custom-subject-required-note { margin: 0 1.25rem 1rem; color: var(--planner-muted); font-size: .8rem; }
 .custom-subject-dialog.custom-subject-choice-dialog { max-width: 34rem; }
@@ -203,7 +246,7 @@
 .custom-subject-card h3, .custom-subject-card p { margin: 0 0 .25rem; }
 .custom-subject-card h3 { color: var(--body-font-color); font-size: 1rem; overflow-wrap: anywhere; }
 .custom-subject-card p { color: var(--planner-muted); font-size: .85rem; }
-.custom-subject-card__id { display: block; margin-bottom: .75rem; font-size: .75rem; overflow-wrap: anywhere; color: var(--planner-muted); }
+.custom-subject-card__content { margin-bottom: .75rem; }
 .custom-subject-card__actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 .custom-subject-import-id-message { min-height: 1.2rem; color: var(--planner-muted); font-size: .8rem; }
 .custom-subject-import-id-field--invalid input { border-color: #d84747; }
@@ -213,9 +256,9 @@
 @media (max-width: 760px) {
   .planner-view-switch, .planner-week-view { display: none !important; }
   .planner-agenda { display: block; }
-  .planner-calendar-header { gap: .75rem; }
-  .planner-calendar-actions .planner-button { font-size: .85rem; }
-  .planner-calendar-header { padding: 1rem; }
+  .planner-calendar-header { flex-wrap: nowrap; align-items: flex-start; gap: .75rem; padding: 1rem; }
+  .planner-calendar-actions .planner-button { width: 44px; padding: 0; }
+  .planner-button-label { display: none; }
   .planner-agenda { padding-inline: 1rem; }
   .planner-calendar-footer { padding: .85rem 1rem; }
   .planner-calendar-footer > span { flex-basis: 100%; margin: 0; }

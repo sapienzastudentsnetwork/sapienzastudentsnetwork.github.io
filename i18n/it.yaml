@@ -243,9 +243,6 @@
 - id: Subjs_CustomTimetable_CustomRemoveLesson
   translation: "Rimuovi lezione"
 
-- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
-  translation: "Rimuovere questa lezione? Tutti i dati inseriti per questa lezione andranno persi."
-
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Acronimo aula
 
@@ -262,7 +259,7 @@
   translation: Mostra
 
 - id: Subjs_CustomTimetable_CustomScheduleCount
-  translation: "%d orari inseriti"
+  translation: "Lezioni: %d"
 
 - id: Subjs_CustomTimetable_CustomColor
   translation: Colore
@@ -442,7 +439,7 @@
   translation: "Seleziona una lezione per tutti i dettagli."
 
 - id: Planner_PickerHint
-  translation: "Seleziona le materie che segui. Le modifiche sono salvate automaticamente."
+  translation: "Seleziona le materie che segui: le modifiche sono salvate automaticamente. A-L e M-Z indicano il canale, assegnato in base all’iniziale del cognome."
 
 - id: Planner_Search
   translation: "Cerca una materia…"
@@ -460,7 +457,7 @@
   translation: "Nessuna materia trovata. Prova un’altra ricerca o cambia i filtri."
 
 - id: Planner_Done
-  translation: "Mostra il mio orario"
+  translation: "Fatto"
 
 - id: Planner_SubjectCount
   translation: "Materie: %n"
@@ -468,11 +465,8 @@
 - id: Planner_LessonCount
   translation: "Lezioni: %n"
 
-- id: Planner_OverlapExplanation
-  translation: "Gli orari di queste lezioni si sovrappongono."
-
 - id: Planner_OverlapHint
-  translation: "Le lezioni sovrapposte sono affiancate. Scorri la settimana per vederle tutte."
+  translation: "Le lezioni sovrapposte sono affiancate."
 
 - id: Planner_Overlap
   translation: "Lezioni sovrapposte"
@@ -494,3 +488,33 @@
 
 - id: Planner_Alerts
   translation: "Avvisi disponibili nei dettagli"
+
+- id: Planner_Today
+  translation: "Oggi"
+
+- id: Planner_Now
+  translation: "In corso"
+
+- id: Planner_Next
+  translation: "Prossima"
+
+- id: Planner_BackToTimetable
+  translation: "Torna all’orario"
+
+- id: Planner_BothChannels
+  translation: "Hai scelto entrambi i canali (A-L e M-Z) di: %s"
+
+- id: Planner_SubjectSaved
+  translation: "“%s” salvata."
+
+- id: Planner_Hidden
+  translation: "Nascosta"
+
+- id: Planner_OptionalLinks
+  translation: "Link (facoltativi)"
+
+- id: Planner_Lessons
+  translation: "Lezioni"
+
+- id: Planner_TimeOrder
+  translation: "L’orario di fine deve essere successivo a quello di inizio."

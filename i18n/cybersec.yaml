@@ -244,9 +244,6 @@
 - id: Subjs_CustomTimetable_CustomRemoveLesson
   translation: "Remove lesson"
 
-- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
-  translation: "Remove this lesson? All data entered for this lesson will be lost."
-
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Classroom acronym
 
@@ -263,7 +260,7 @@
   translation: Show
 
 - id: Subjs_CustomTimetable_CustomScheduleCount
-  translation: "%d schedules added"
+  translation: "Lessons: %d"
 
 - id: Subjs_CustomTimetable_CustomColor
   translation: Color
@@ -437,7 +434,7 @@
   translation: "Select a lesson for full details."
 
 - id: Planner_PickerHint
-  translation: "Select the subjects you attend. Changes are saved automatically."
+  translation: "Select the subjects you attend; changes are saved automatically. A-L and M-Z are channels, assigned by surname initial."
 
 - id: Planner_Search
   translation: "Search for a subject…"
@@ -455,7 +452,7 @@
   translation: "No subjects found. Try another search or change the filters."
 
 - id: Planner_Done
-  translation: "Show my timetable"
+  translation: "Done"
 
 - id: Planner_SubjectCount
   translation: "Subjects: %n"
@@ -463,11 +460,8 @@
 - id: Planner_LessonCount
   translation: "Lessons: %n"
 
-- id: Planner_OverlapExplanation
-  translation: "The times of these lessons overlap."
-
 - id: Planner_OverlapHint
-  translation: "Overlapping lessons appear side by side. Scroll across the week to see them all."
+  translation: "Overlapping lessons appear side by side."
 
 - id: Planner_Overlap
   translation: "Overlapping lessons"
@@ -489,3 +483,33 @@
 
 - id: Planner_Alerts
   translation: "See details for notices"
+
+- id: Planner_Today
+  translation: "Today"
+
+- id: Planner_Now
+  translation: "Now"
+
+- id: Planner_Next
+  translation: "Next"
+
+- id: Planner_BackToTimetable
+  translation: "Back to timetable"
+
+- id: Planner_BothChannels
+  translation: "You picked both channels (A-L and M-Z) of: %s"
+
+- id: Planner_SubjectSaved
+  translation: "“%s” saved."
+
+- id: Planner_Hidden
+  translation: "Hidden"
+
+- id: Planner_OptionalLinks
+  translation: "Links (optional)"
+
+- id: Planner_Lessons
+  translation: "Lessons"
+
+- id: Planner_TimeOrder
+  translation: "The end time must be after the start time."

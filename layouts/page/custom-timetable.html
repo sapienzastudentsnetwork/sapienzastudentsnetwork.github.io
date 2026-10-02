@@ -7,6 +7,40 @@
 
 {{ partial "academic-year-2026-27-notices.html" (dict "degreeCode" $pageDegreeCode) }}
 
+{{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
+<section id="main" class="timetable-planner" aria-label="{{ T "Subjs_CustomTimetable_Title" }}">
+    <div class="planner-calendar">
+        <header class="planner-calendar-header">
+            <div><h2>{{ T "Planner_WeekTitle" }}</h2><p id="plannerSummary" role="status"></p></div>
+            <div class="planner-calendar-actions">
+                <button id="plannerManageButton" type="button" class="planner-button" onclick="openSubjectsDialog()" aria-label="{{ T "Planner_ManageSubjects" }}"><i class="fa-solid fa-sliders" aria-hidden="true"></i><span class="planner-button-label">{{ T "Planner_ManageSubjects" }}</span></button>
+                <div class="planner-view-switch" role="group" aria-label="{{ T "Planner_View" }}">
+                    <button type="button" data-planner-view="week" aria-pressed="true" onclick="setPlannerView('week')"><i class="fa-solid fa-table-columns" aria-hidden="true"></i>{{ T "Planner_Week" }}</button>
+                    <button type="button" data-planner-view="agenda" aria-pressed="false" onclick="setPlannerView('agenda')"><i class="fa-solid fa-list" aria-hidden="true"></i>{{ T "Planner_Agenda" }}</button>
+                </div>
+            </div>
+        </header>
+        <div id="plannerEmpty" class="planner-empty">
+            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            <h3>{{ T "Planner_EmptyTitle" }}</h3>
+            <p>{{ T "Planner_EmptyText" }}</p>
+            <button type="button" class="planner-button planner-button--primary" onclick="openSubjectsDialog()">{{ T "Planner_ChooseSubjects" }}</button>
+        </div>
+        <p id="plannerUnscheduled" class="planner-day-empty" hidden>{{ T "Planner_NoScheduledLessons" }}</p>
+        <div id="plannerSchedule" hidden>
+            <div class="planner-week-view">
+                <p id="plannerWeekHint" class="planner-week-hint" hidden><i class="fa-solid fa-triangle-exclamation planner-warning-icon" aria-hidden="true"></i>{{ T "Planner_OverlapHint" }}</p>
+                <div class="planner-week-scroll" tabindex="0" role="region" aria-label="{{ T "Planner_Week" }}"><div id="plannerWeek" class="planner-week"></div></div>
+            </div>
+            <div class="planner-agenda">
+                <div id="plannerDays" class="planner-days" role="group" aria-label="{{ T "Subjs_CustomTimetable_CustomDay" }}" onkeydown="plannerDaysKeydown(event)"></div>
+                <div id="plannerDaySchedule" aria-live="polite" ontouchstart="plannerSwipe(event)" ontouchend="plannerSwipe(event)"></div>
+            </div>
+        </div>
+        <footer class="planner-calendar-footer"><i class="fa-solid fa-check" aria-hidden="true"></i>{{ T "Planner_Saved" }}<span id="plannerLessonTip">{{ T "Planner_LessonTip" }}</span></footer>
+    </div>
+</section>
+
 <article class="markdown book-article">
     <details class="academic-year-notice tip">
         <summary>
@@ -22,42 +56,8 @@
 
 </article>
 
-{{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
-<section id="main" class="timetable-planner" aria-label="{{ T "Subjs_CustomTimetable_Title" }}">
-    <div class="planner-calendar">
-        <header class="planner-calendar-header">
-            <div><h2>{{ T "Planner_WeekTitle" }}</h2><p id="plannerSummary" role="status"></p></div>
-            <div class="planner-calendar-actions">
-                <button type="button" class="planner-button" onclick="openSubjectsDialog()"><i class="fa-solid fa-sliders" aria-hidden="true"></i>{{ T "Planner_ManageSubjects" }}</button>
-            <div class="planner-view-switch" role="group" aria-label="{{ T "Planner_View" }}">
-                <button type="button" data-planner-view="week" aria-pressed="true" onclick="setPlannerView('week')"><i class="fa-solid fa-table-columns" aria-hidden="true"></i>{{ T "Planner_Week" }}</button>
-                <button type="button" data-planner-view="agenda" aria-pressed="false" onclick="setPlannerView('agenda')"><i class="fa-solid fa-list" aria-hidden="true"></i>{{ T "Planner_Agenda" }}</button>
-            </div>
-            </div>
-        </header>
-        <div id="plannerEmpty" class="planner-empty">
-            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
-            <h3>{{ T "Planner_EmptyTitle" }}</h3>
-            <p>{{ T "Planner_EmptyText" }}</p>
-            <button type="button" class="planner-button planner-button--primary" onclick="openSubjectsDialog()">{{ T "Planner_ChooseSubjects" }}</button>
-        </div>
-        <p id="plannerUnscheduled" class="planner-day-empty" hidden>{{ T "Planner_NoScheduledLessons" }}</p>
-        <div id="plannerSchedule" hidden>
-            <div class="planner-week-view">
-                <p id="plannerWeekHint" class="planner-week-hint" hidden>{{ T "Planner_OverlapHint" }}</p>
-                <div class="planner-week-scroll" tabindex="0" role="region" aria-label="{{ T "Planner_Week" }}"><div id="plannerWeek" class="planner-week"></div></div>
-            </div>
-            <div class="planner-agenda">
-                <div id="plannerDays" class="planner-days" role="group" aria-label="{{ T "Subjs_CustomTimetable_CustomDay" }}"></div>
-                <div id="plannerDaySchedule" aria-live="polite"></div>
-            </div>
-        </div>
-        <footer class="planner-calendar-footer"><i class="fa-solid fa-check" aria-hidden="true"></i>{{ T "Planner_Saved" }}<span>{{ T "Planner_LessonTip" }}</span></footer>
-    </div>
-</section>
-
 <dialog id="customSubjectsMenuDialog" class="custom-subject-dialog custom-subject-choice-dialog"
-    onclick="if (event.target === this) closeCustomSubjectsMenu()">
+    onclick="if (event.target === this) backToSubjectsDialog()">
     <div class="custom-subject-manager">
         <header class="custom-subject-dialog__header">
             <h2>{{ T "Subjs_CustomTimetable_CustomMenuTitle" }}</h2>
@@ -89,8 +89,8 @@
                 onchange="prepareCustomSubjectImport(event)">
         </div>
         <footer class="custom-subject-dialog__footer">
-            <button type="button" class="custom-subject-button" onclick="closeCustomSubjectsMenu()">
-                {{ T "Subjs_CustomTimetable_CustomClose" }}
+            <button type="button" class="custom-subject-button custom-subject-back-button" onclick="backToSubjectsDialog()">
+                <i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span>
             </button>
         </footer>
     </div>
@@ -117,27 +117,28 @@
       <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }} <span aria-hidden="true">*</span></span><input id="customSubjectAbbr" required maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
       <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomColor" }}</span><input id="customSubjectColor" type="color" value="#fbc02d"></label>
     </div>
-    <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h3><button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</span></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
+    <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Planner_Lessons" }}</h3><button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</span></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
     <p class="custom-subject-required-note">{{ T "Subjs_CustomTimetable_CustomRequiredNote" }}</p>
     <footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectEditor()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button id="customSubjectSubmitButton" type="submit" class="custom-subject-button custom-subject-button--primary" disabled>{{ T "Subjs_CustomTimetable_CustomSave" }}</button></footer>
   </form>
 </dialog>
 <dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" onclick="if (event.target === this) this.close()">
-  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
+  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><p id="customSubjectsManagerStatus" class="custom-subject-status" role="status"></p><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
 </dialog>
 
 <dialog class="planner-picker" id="subjsPopUp" aria-labelledby="subjsSelTitle"
-    onclick="if (event.target === this) closeSubjectsDialog()">
+    onclick="if (event.target === this) closeSubjectsDialog()" onclose="restorePlannerFocus()">
     <div class="subjsDial">
         <header class="planner-picker-header"><div><h2 id="subjsSelTitle">{{ T "Planner_ManageSubjects" }}</h2><p>{{ T "Planner_PickerHint" }}</p></div><button type="button" class="custom-subject-dialog__close" onclick="closeSubjectsDialog()" aria-label="{{ T "Subjs_CustomTimetable_CustomClose" }}"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button></header>
         <label class="subjsSearchWrap" for="subjsSearch">
             <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
-            <input id="subjsSearch" type="search" autofocus autocomplete="off" placeholder="{{ T "Planner_Search" }}" aria-label="{{ T "Planner_Search" }}" oninput="filterSubjects(this.value)">
+            <input id="subjsSearch" type="search" autocomplete="off" placeholder="{{ T "Planner_Search" }}" aria-label="{{ T "Planner_Search" }}" oninput="filterSubjects(this.value)">
         </label>
         <div class="planner-picker-filters">
             <select id="plannerDegreeFilter" aria-label="{{ T "Planner_Degree" }}" onchange="filterSubjects(document.getElementById('subjsSearch').value)"><option value="">{{ T "Planner_AllDegrees" }}</option></select>
             <label><input id="plannerSelectedFilter" type="checkbox" onchange="filterSubjects(document.getElementById('subjsSearch').value)">{{ T "Planner_OnlySelected" }}</label>
         </div>
+        <p id="plannerChannelWarning" class="planner-channel-warning" role="status" hidden><i class="fa-solid fa-triangle-exclamation planner-warning-icon" aria-hidden="true"></i><span></span></p>
         <p id="plannerNoResults" class="planner-no-results" hidden>{{ T "Planner_NoResults" }}</p>
         <div class="subjsList">
             {{ $courses := site.Data.courses }}
@@ -347,28 +348,34 @@
     </div>
 </dialog>
 
-<section id="customSubjectsDetails" class="hidden">
-    <h2>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h2>
-    <div id="customSubjectsDetailsList"></div>
-</section>
-
+<div class="planner-details">
 <section id="plannerTeachingDetails" hidden>
 {{ with dict "courses" $pageDegreeSubjects "defaultHidden" true }}
     {{ partial "timetables-per-teaching.html" . }}
 {{ end }}
 </section>
+
+<section id="customSubjectsDetails" class="hidden">
+    <h2>{{ T "Subjs_TimetablesPerTeaching_Title" }}</h2>
+    <div id="customSubjectsDetailsList"></div>
+</section>
+<a class="planner-back-link" href="#main"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i>{{ T "Planner_BackToTimetable" }}</a>
+</div>
 <script>
     const plannerLocale = {{ cond (eq .Site.Language.Lang "it") "it" "en" }};
     const plannerLabels = {{ dict
         "subjectCount" (T "Planner_SubjectCount")
         "lessonCount" (T "Planner_LessonCount")
         "overlap" (T "Planner_Overlap")
-        "overlapExplanation" (T "Planner_OverlapExplanation")
         "noLessons" (T "Planner_NoLessons")
         "noLessonsHint" (T "Planner_NoLessonsHint")
         "cancelled" (T "Planner_Cancelled")
         "roomPending" (T "Planner_RoomPending")
         "alerts" (T "Planner_Alerts")
+        "today" (T "Planner_Today")
+        "now" (T "Planner_Now")
+        "next" (T "Planner_Next")
+        "bothChannels" (T "Planner_BothChannels")
         | jsonify | safeJS }};
 </script>
 <script src="{{ "js/custom-timetable.js" | relURL }}" defer></script>
@@ -501,7 +508,6 @@
         document.getElementById("plannerDegreeFilter").value = "{{ $pageDegreeCode }}";
         for (const button of document.querySelectorAll(".subjButton")) {
             button.setAttribute("aria-pressed", "false");
-            button.setAttribute("aria-label", button.textContent.trim());
         }
 
         for (const subjectId of selectedSubjects) {
@@ -516,12 +522,12 @@
         }
 
         renderCustomTimetable();
+        setPlannerView(localStorage.getItem("plannerView") || "week");
     });
 
     const customSubjectsStorageKey = `${selectedSubjectsStorageKey}-custom-v2`;
     const customTimetableDays = [{{ range $index, $day := $days }}{{ if $index }},{{ end }}{{ printf "%q" (T (printf "DaysOfTheWeek_%s_Full" $day)) | safeJS }}{{ end }}];
     const customTimetableDayShorts = [{{ range $index, $day := $days }}{{ if $index }},{{ end }}{{ printf "%q" (T (printf "DaysOfTheWeek_%s" $day)) | safeJS }}{{ end }}];
-    const customTimetableStartHour = 8, customTimetableEndHour = 20;
     const customId = () => `custom-${Date.now()}-${crypto.randomUUID?.() || Math.random().toString(36).slice(2)}`;
     function getCustomSubjects() {
         try {
@@ -542,14 +548,10 @@
         input.placeholder = placeholder;
         return input;
     }
-    function timeSelect(value) {
-        const select = document.createElement("select");
-        for (let hour = customTimetableStartHour; hour <= customTimetableEndHour; hour++) {
-            const optionValue = `${String(hour).padStart(2, "0")}:00`;
-            select.add(new Option(optionValue, optionValue));
-        }
-        select.value = value || "08:00";
-        return select;
+    function timeField(value) {
+        const input = makeField("time", value);
+        input.step = 900;
+        return input;
     }
     function removeRowButton(row) {
         const button = document.createElement("button");
@@ -560,8 +562,8 @@
             '<span>{{ T "Subjs_CustomTimetable_CustomRemoveLesson" }}</span>',
         ].join("");
         button.onclick = () => {
-            const message = "{{ T "Subjs_CustomTimetable_CustomRemoveLessonConfirm" }}";
-            if (confirm(message)) row.remove();
+            row.remove();
+            updateCustomSubjectSaveVisibility();
         };
         return button;
     }
@@ -597,12 +599,21 @@
         teacherInput.addEventListener("input", updateTeacherUrlState);
         updateTeacherUrlState();
 
+        const startInput = timeField(lesson.startTime);
+        const endInput = timeField(lesson.endTime);
+        const updateTimeOrder = () => endInput.setCustomValidity(
+            startInput.value && endInput.value && endInput.value <= startInput.value
+                ? "{{ T "Planner_TimeOrder" }}" : "",
+        );
+        startInput.addEventListener("input", updateTimeOrder);
+        endInput.addEventListener("input", updateTimeOrder);
+
         const timeGroup = document.createElement("div");
         timeGroup.className = "custom-subject-field-group custom-subject-field-group--time";
         timeGroup.append(
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomDay" }}", day, "", true),
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomStart" }}", timeSelect(lesson.startTime), "", true),
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}", timeSelect(lesson.endTime || "09:00"), "", true),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomStart" }}", startInput, "", true),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}", endInput, "", true),
         );
 
         const classroomGroup = document.createElement("div");
@@ -610,17 +621,24 @@
         classroomGroup.append(
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}", makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}")),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}", makeField("url", lesson.roomUrl, "https://maps.app.goo.gl/...")),
+            labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
         );
 
-        const teacherGroup = document.createElement("div");
-        teacherGroup.className = "custom-subject-field-group custom-subject-field-group--teacher";
-        teacherGroup.append(
-            labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
+        // Optional links stay folded until needed; field order matches saveCustomSubject.
+        const links = document.createElement("details");
+        links.className = "custom-subject-links";
+        links.open = Boolean(lesson.roomUrl || lesson.teacherUrl);
+        const linksSummary = document.createElement("summary");
+        linksSummary.textContent = "{{ T "Planner_OptionalLinks" }}";
+        const linksGroup = document.createElement("div");
+        linksGroup.className = "custom-subject-field-group custom-subject-field-group--teacher";
+        linksGroup.append(
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}", makeField("url", lesson.roomUrl, "https://maps.app.goo.gl/...")),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomTeacherUrl" }}", teacherUrlInput),
         );
+        links.append(linksSummary, linksGroup);
 
-        row.append(timeGroup, classroomGroup, teacherGroup, removeRowButton(row));
+        row.append(timeGroup, classroomGroup, links, removeRowButton(row));
         document.getElementById("customSubjectLessons").append(row);
         updateCustomSubjectSaveVisibility();
     }
@@ -760,13 +778,11 @@
                     endTime: controls[2].value,
                     roomName: controls[3].value.trim(),
                     roomAbbr: controls[4].value.trim(),
-                    roomUrl: controls[5].value.trim(),
-                    teacherName: controls[6].value.trim(),
-                    teacherUrl: controls[6].value.trim() ? controls[7].value.trim() : "",
+                    teacherName: controls[5].value.trim(),
+                    roomUrl: controls[6].value.trim(),
+                    teacherUrl: controls[5].value.trim() ? controls[7].value.trim() : "",
                 };
-            })
-            .filter((lesson) => lesson.endTime > lesson.startTime);
-        if (!lessons.length) return;
+            });
         const id = importMode
             ? document.getElementById("customSubjectImportId").value.trim()
             : document.getElementById("customSubjectId").value || customId();
@@ -785,26 +801,12 @@
         if (existingIndex >= 0) subjects[existingIndex] = subject;
         else subjects.push(subject);
         setCustomSubjects(subjects);
-        pendingCustomSubjectImport = null;
-        document.getElementById("customSubjectId").value = id;
-        customSubjectEditorMode = "edit";
-        customSubjectImportInitiallySaveable = false;
-        const importIdField = document.getElementById("customSubjectImportIdField");
-        const importIdInput = document.getElementById("customSubjectImportId");
-        importIdField.hidden = true;
-        importIdField.style.display = "none";
-        importIdField.classList.add("hidden");
-        importIdInput.disabled = true;
-        document.getElementById("customSubjectDialogTitle").textContent = "{{ T "Subjs_CustomTimetable_CustomTitle" }}";
-        document.getElementById("customSubjectSubmitButton").textContent = "{{ T "Subjs_CustomTimetable_CustomSave" }}";
         renderCustomTimetable();
-        customSubjectEditorInitialState = getCustomSubjectEditorState();
-        updateCustomSubjectSaveVisibility();
+        closeCustomSubjectDialog(true);
+        openCustomSubjectsManager("{{ T "Planner_SubjectSaved" }}".replace("%s", subject.name));
     }
     function updateCustomSubjectControls() {
-        const hasSubjects = getCustomSubjects().length > 0;
-        const manageChoice = document.getElementById("manageCustomSubjectsChoice");
-        if (manageChoice) manageChoice.disabled = !hasSubjects;
+        document.getElementById("manageCustomSubjectsChoice").hidden = !getCustomSubjects().length;
     }
 
     function openCustomSubjectsMenu() {
@@ -848,7 +850,8 @@
         return readableId.length > 12 ? `…${readableId.slice(-12)}` : readableId;
     }
 
-    function openCustomSubjectsManager() {
+    function openCustomSubjectsManager(status = "") {
+        document.getElementById("customSubjectsManagerStatus").textContent = status;
         const list = document.getElementById("customSubjectsManagerList");
         list.replaceChildren();
         getCustomSubjects().forEach((subject) => {
@@ -860,13 +863,11 @@
             heading.textContent = subject.name;
             const meta = document.createElement("p");
             const count = subject.lessons.length;
-            meta.textContent = `{{ T "Subjs_CustomTimetable_CustomScheduleCount" }}`
-                .replace("%d", count);
-            const idLabel = document.createElement("code");
-            idLabel.className = "custom-subject-card__id";
-            idLabel.textContent = `ID: ${compactCustomSubjectId(subject.id)}`;
-            idLabel.title = subject.id;
-            content.append(heading, meta, idLabel);
+            meta.textContent = [
+                `{{ T "Subjs_CustomTimetable_CustomScheduleCount" }}`.replace("%d", count),
+                subject.hidden && "{{ T "Planner_Hidden" }}",
+            ].filter(Boolean).join(" · ");
+            content.append(heading, meta);
             const actions = document.createElement("div");
             actions.className = "custom-subject-card__actions";
             const toggle = document.createElement("button");
@@ -936,7 +937,7 @@
             && Array.isArray(subject.lessons) && subject.lessons.length
             && subject.lessons.every((lesson) => Number.isInteger(Number(lesson.dayIndex))
                 && Number(lesson.dayIndex) >= 0 && Number(lesson.dayIndex) < customTimetableDays.length
-                && /^\d{2}:00$/.test(lesson.startTime) && /^\d{2}:00$/.test(lesson.endTime)
+                && /^\d{2}:\d{2}$/.test(lesson.startTime) && /^\d{2}:\d{2}$/.test(lesson.endTime)
                 && lesson.endTime > lesson.startTime
                 && (lesson.teacherName === undefined || typeof lesson.teacherName === "string")
                 && (lesson.roomName === undefined || typeof lesson.roomName === "string")
@@ -1090,14 +1091,29 @@
     }
 
     function openSubjectsDialog() {
+        document.getElementById("subjsSelTitle").textContent = selectedSubjects.size || getCustomSubjects().length
+            ? "{{ T "Planner_ManageSubjects" }}" : "{{ T "Planner_ChooseSubjects" }}";
         document.getElementById("subjsSearch").value = "";
         document.getElementById("plannerSelectedFilter").checked = false;
         filterSubjects("");
         document.getElementById("subjsPopUp").showModal();
+        // Touch keyboards would cover half of the list, so only pointer devices start in search.
+        if (matchMedia("(hover: hover)").matches) document.getElementById("subjsSearch").focus();
     }
 
     function closeSubjectsDialog() {
         document.getElementById("subjsPopUp").close();
+    }
+
+    function backToSubjectsDialog() {
+        closeCustomSubjectsMenu();
+        openSubjectsDialog();
+    }
+
+    // The empty-state opener may have just been hidden, so focus whichever opener is visible.
+    function restorePlannerFocus() {
+        const manageButton = document.getElementById("plannerManageButton");
+        (manageButton.hidden ? document.querySelector("#plannerEmpty button") : manageButton).focus();
     }
 </script>
 {{ end }}
