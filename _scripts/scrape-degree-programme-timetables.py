@@ -123,17 +123,24 @@ def get_deterministic_timetables(timetables_dict):
                         ordered_sched = {}
                         for key in ["teachers", "timeslot", "classrooms", "classroomInfo", "classroomUrl"]:
                             if key in sched:
-                                if key == "teachers":
-                                    # Sort teachers alphabetically by their names (values)
+                                if key in ("teachers", "classrooms"):
+                                    # Sort human-readable mappings by name, using the ID
+                                    # as a stable tie-breaker for duplicate names
                                     ordered_sched[key] = {
                                         k: v for k, v in sorted(
                                             sched[key].items(),
-                                            key=lambda item: item[1]
+                                            key=lambda item: (
+                                                str(item[1]).casefold(),
+                                                str(item[0]),
+                                            )
                                         )
                                     }
                                 elif isinstance(sched[key], dict):
-                                    # Sort other dicts (like classrooms) by their keys
-                                    ordered_sched[key] = {k: sched[key][k] for k in sorted(sched[key].keys())}
+                                    # Sort other dictionaries by their keys
+                                    ordered_sched[key] = {
+                                        k: sched[key][k]
+                                        for k in sorted(sched[key].keys())
+                                    }
                                 else:
                                     ordered_sched[key] = sched[key]
                         ordered_schedules.append(ordered_sched)

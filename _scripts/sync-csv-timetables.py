@@ -387,6 +387,32 @@ def add_course_degree(course, degree):
         degrees.append(primary_degree)
     if degree not in degrees:
         degrees.append(degree)
+    course["degrees"] = sorted(set(filter(None, degrees)))
+
+
+def canonicalize_timetable_order(timetables):
+    """Canonicalize order-sensitive JSON containers after CSV corrections."""
+    for course in timetables.values():
+        degrees = course.get("degrees")
+        if degrees is not None:
+            course["degrees"] = sorted(set(filter(None, degrees)))
+        for days in course.get("channels", {}).values():
+            for schedules in days.values():
+                for schedule in schedules:
+                    for key in ("teachers", "classrooms", "classroomInfo", "classroomUrl"):
+                        value = schedule.get(key)
+                        if not isinstance(value, dict):
+                            continue
+                        if key in ("teachers", "classrooms"):
+                            schedule[key] = dict(sorted(
+                                value.items(),
+                                key=lambda item: (
+                                    str(item[1]).casefold(),
+                                    str(item[0]),
+                                ),
+                            ))
+                        else:
+                            schedule[key] = dict(sorted(value.items()))
 
 def debug_unresolved(reason, e, extra=""):
     details = (
@@ -689,6 +715,7 @@ def main():
     timetables = json.loads((data / "timetables.json").read_text())
     classrooms = json.loads((data / "classrooms.json").read_text())
     stats = merge(entries, timetables, classrooms)
+    canonicalize_timetable_order(timetables)
     (data / "timetables.json").write_text(
         json.dumps(timetables, ensure_ascii=True, indent=2) + "\n"
     )
