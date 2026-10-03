@@ -243,9 +243,6 @@
 - id: Subjs_CustomTimetable_CustomRemoveLesson
   translation: "Rimuovi lezione"
 
-- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
-  translation: "Rimuovere questa lezione? Tutti i dati inseriti per questa lezione andranno persi."
-
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Acronimo aula
 
@@ -262,7 +259,7 @@
   translation: Mostra
 
 - id: Subjs_CustomTimetable_CustomScheduleCount
-  translation: "%d orari inseriti"
+  translation: "Lezioni: %d"
 
 - id: Subjs_CustomTimetable_CustomColor
   translation: Colore
@@ -408,3 +405,149 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Vuoi conoscere chi ha contribuito alla wiki e, più in generale, al progetto del sito? Consulta la pagina dei <a href="../collaboratori/"><strong>collaboratori wiki</strong></a>.'
+
+# Custom timetable planner
+
+- id: Planner_ManageSubjects
+  translation: "Gestisci materie"
+
+- id: Planner_ChooseSubjects
+  translation: "Scegli le materie"
+
+- id: Planner_WeekTitle
+  translation: "La tua settimana"
+
+- id: Planner_View
+  translation: "Visualizzazione dell’orario"
+
+- id: Planner_Week
+  translation: "Settimana"
+
+- id: Planner_Agenda
+  translation: "Giorno"
+
+- id: Planner_EmptyTitle
+  translation: "La tua settimana inizia qui"
+
+- id: Planner_EmptyText
+  translation: "Aggiungi le materie che segui: troverai qui lezioni, orari e aule."
+
+- id: Planner_Saved
+  translation: "Salvato su questo dispositivo"
+
+- id: Planner_LessonTip
+  translation: "Seleziona una lezione per tutti i dettagli."
+
+- id: Planner_PickerHint
+  translation: "Seleziona le materie che segui: le modifiche sono salvate automaticamente. A-L e M-Z indicano il canale, assegnato in base all’iniziale del cognome."
+
+- id: Planner_Search
+  translation: "Cerca una materia…"
+
+- id: Planner_Degree
+  translation: "Corso di laurea"
+
+- id: Planner_AllDegrees
+  translation: "Tutti i corsi di laurea"
+
+- id: Planner_OnlySelected
+  translation: "Solo selezionate"
+
+- id: Planner_NoResults
+  translation: "Nessuna materia trovata. Prova un’altra ricerca o cambia i filtri."
+
+- id: Planner_Done
+  translation: "Fatto"
+
+- id: Planner_SubjectCount
+  translation: "Materie: %n"
+
+- id: Planner_LessonCount
+  translation: "Lezioni: %n"
+
+- id: Planner_OverlapHint
+  translation: "Le lezioni sovrapposte sono affiancate."
+
+- id: Planner_Overlap
+  translation: "Lezioni sovrapposte"
+
+- id: Planner_NoLessons
+  translation: "Nessuna lezione in questo giorno"
+
+- id: Planner_NoLessonsHint
+  translation: "Scegli un altro giorno per vedere le tue lezioni."
+
+- id: Planner_NoScheduledLessons
+  translation: "Nessuna lezione in programma per le materie selezionate."
+
+- id: Planner_Cancelled
+  translation: "Lezione annullata"
+
+- id: Planner_RoomPending
+  translation: "Aula da confermare"
+
+- id: Planner_Alerts
+  translation: "Avvisi disponibili nei dettagli"
+
+- id: Planner_Today
+  translation: "Oggi"
+
+- id: Planner_Now
+  translation: "In corso"
+
+- id: Planner_Next
+  translation: "Prossima"
+
+- id: Planner_BackToTimetable
+  translation: "Torna all’orario"
+
+- id: Planner_BothChannels
+  translation: "Hai scelto entrambi i canali (A-L e M-Z) di: %s"
+
+- id: Planner_SubjectSaved
+  translation: "“%s” salvata."
+
+- id: Planner_Hidden
+  translation: "Nascosta"
+
+- id: Planner_OptionalLinks
+  translation: "Link (facoltativi)"
+
+- id: Planner_Lessons
+  translation: "Lezioni"
+
+- id: Planner_TimeOrder
+  translation: "L’orario di fine deve essere successivo a quello di inizio."
+
+- id: Planner_TimeFormat
+  translation: "Formato orario"
+
+- id: Planner_TimeAutomatic
+  translation: "Automatico"
+
+- id: Planner_Time12
+  translation: "12 ore"
+
+- id: Planner_Time24
+  translation: "24 ore"
+
+- id: Planner_RemoveLessonConfirm
+  translation: "Rimuovere questa lezione dalla materia personalizzata? La modifica sarà applicata quando salvi la materia."
+
+- id: Planner_ConfirmRemoval
+  translation: "Conferma eliminazione"
+
+- id: Planner_CustomNames
+  translation: "Abbreviazioni"
+
+- id: Planner_CustomNamesHint
+  translation: "Se lasci questi campi vuoti, useremo il nome completo e le sue iniziali."
+
+- id: Planner_OptionalLessonDetails
+  translation: "Docente, link e altri dettagli"
+
+- id: Planner_LessonNumber
+  translation: "Lezione %n"
+
+- id: Planner_SubjectRemoved
+  translation: "“%s” rimossa."

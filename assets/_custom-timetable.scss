@@ -1,697 +1,365 @@
-/* Custom timetable controls */
-.custom-subject-action {
-  display: inline-flex;
-  width: 26px;
-  height: 26px;
-  min-width: 26px;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
-  vertical-align: middle;
-  border: 1px solid var(--table-border-color);
-  border-radius: 4px;
-  background: var(--table-header-bg);
-  color: var(--table-header-color);
-  cursor: pointer;
-}
-.custom-subject-action.hidden { display: none; }
-
-/* Content-sized dialogs. Scrolling starts only when content exceeds the viewport. */
+// Custom timetable: theme-aware calendar, daily agenda and focused editors.
+.timetable-planner,
+.planner-picker,
 .custom-subject-dialog {
-  width: 94vw;
-  max-width: 38rem;
-  height: auto;
-  max-height: 88vh;
-  margin: auto;
-  padding: 0;
-  border: 1px solid var(--table-border-color);
-  border-radius: 10px;
-  background: var(--body-background);
+  --planner-line: color-mix(in srgb, var(--body-font-color) 18%, var(--body-background));
+  --planner-muted: color-mix(in srgb, var(--body-font-color) 70%, var(--body-background));
+  --planner-surface: color-mix(in srgb, var(--body-font-color) 4%, var(--body-background));
+  // Mixing with the text colour darkens amber on light themes and lightens it on dark ones.
+  --planner-warning: color-mix(in srgb, #d97706 70%, var(--body-font-color));
+  --planner-danger: color-mix(in srgb, #d84747 80%, var(--body-font-color));
   color: var(--body-font-color);
-  overflow: hidden;
-}
-.custom-subject-dialog::backdrop { background: rgba(0,0,0,.48); }
-.custom-subject-form,
-.custom-subject-manager {
-  display: flex !important;
-  flex-direction: column !important;
-  height: auto;
-  min-height: 0;
-  max-height: 88vh;
-  overflow-y: auto;
-}
-.custom-subject-dialog__header,
-.custom-subject-dialog__footer { flex: 0 0 auto; padding: .75rem 1rem; }
-.custom-subject-dialog__header { border-bottom: 1px solid var(--table-border-color); }
-.custom-subject-dialog__header h2 { margin: 0; font-size: 1.15rem; }
-.custom-subject-dialog__footer { display: flex; justify-content: flex-end; gap: .6rem; border-top: 1px solid var(--table-border-color); }
-.custom-subject-grid,
-.custom-subject-editor-section { margin: .75rem 1rem; }
-.custom-subject-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .65rem; }
-.custom-subject-field { display: flex !important; flex-direction: column !important; gap: .25rem; }
-.custom-subject-field--wide { grid-column: 1 / -1; }
-.custom-subject-field input,
-.custom-subject-dynamic-field input,
-.custom-subject-dynamic-field select {
-  width: 100%; min-width: 0; box-sizing: border-box; padding: .5rem;
-  border: 1px solid var(--table-border-color); border-radius: 5px;
-  background: var(--body-background); color: var(--body-font-color);
-}
-.custom-subject-editor-section { padding: .75rem; border: 1px solid var(--table-border-color); border-radius: 8px; }
-.custom-subject-editor-section__heading { display: flex; align-items: center; justify-content: space-between; margin-bottom: .65rem; }
-.custom-subject-editor-section__heading h3 { margin: 0; font-size: 1rem; }
-.custom-subject-stack { display: flex; flex-direction: column; gap: .65rem; }
-.custom-subject-dynamic-row { display: grid; gap: .55rem; padding: .65rem; align-items: end; border: 1px solid var(--table-border-color); border-radius: 6px; }
-.custom-subject-lesson-row { grid-template-columns: 1fr 1fr; }
-.custom-subject-dynamic-field { display: flex; flex-direction: column; gap: .25rem; min-width: 0; }
-.custom-subject-dynamic-field span { font-size: .78rem; font-weight: 600; }
-.custom-subject-mini-button { width: 28px; height: 28px; padding: 0; justify-self: end; }
-.custom-subject-button { padding: .55rem .9rem; border: 1px solid var(--table-border-color); border-radius: 5px; cursor: pointer; transition: transform .12s, box-shadow .12s, filter .12s; }
-.custom-subject-button:hover { filter: brightness(1.08); box-shadow: 0 2px 6px var(--table-shadow-color); }
-.custom-subject-button:active { transform: translateY(1px); box-shadow: none; }
-.custom-subject-button--primary { background: var(--timetable-add-button-background); border-color: var(--timetable-add-button-border); color: var(--timetable-add-button-color); font-weight: 700; }
-.custom-subject-button--primary:hover { background: var(--timetable-add-button-hover); }
-.custom-subject-card-list { display: flex; flex-direction: column; gap: .6rem; padding: .75rem 1rem; }
-.custom-subject-card { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: .7rem; border: 1px solid var(--table-border-color); border-radius: 7px; }
-.custom-subject-card h3,.custom-subject-card p { margin: 0; }
-.custom-subject-card__actions { display: flex; gap: .45rem; }
-
-/* Custom subjects use the same direct cell children and utility classes as regular subjects. */
-@media screen and (max-width: 700px) {
-  .custom-subject-dialog { width: calc(100vw - 1rem); max-width: none; max-height: calc(100vh - 1rem); }
-  .custom-subject-form,.custom-subject-manager { max-height: calc(100vh - 1rem); }
-  .custom-subject-grid,.custom-subject-lesson-row { grid-template-columns: 1fr; }
-  .custom-subject-field--wide { grid-column: auto; }
-  .custom-subject-card { align-items: stretch; flex-direction: column; }
-  .custom-subject-card__actions { justify-content: flex-end; }
-  .custom-subject-dialog__footer { display: grid; grid-template-columns: 1fr 1fr; }
-  .custom-subject-button { width: 100%; }
-}
-
-
-/* Custom subject management and schedule editor layout. */
-.custom-subject-card__content { min-width: 0; }
-.custom-subject-card__content h3 { margin-bottom: .15rem; }
-.custom-subject-card__content p { opacity: .85; }
-.custom-subject-card__actions { flex-wrap: wrap; justify-content: flex-end; }
-.custom-subject-lesson-row {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(4),
-.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(6),
-.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(7),
-.custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(8) {
-  grid-column: span 1;
-}
-.custom-subject-lesson-row > .custom-subject-mini-button { grid-column: 1 / -1; }
-@media screen and (min-width: 620px) {
-  .custom-subject-lesson-row { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(4),
-  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(6),
-  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(7),
-  .custom-subject-lesson-row > .custom-subject-dynamic-field:nth-child(8) { grid-column: span 2; }
-}
-@media screen and (max-width: 700px) {
-  .custom-subject-card__actions { justify-content: flex-start; }
-}
-
-/* Compact content-driven dialogs and clearer lesson rows. */
-#customSubjectsManagerDialog.custom-subject-dialog,
-#customSubjectDialog.custom-subject-dialog {
-  height: fit-content;
-  max-height: 88vh;
-}
-#customSubjectsManagerDialog .custom-subject-manager,
-#customSubjectDialog .custom-subject-form {
-  height: fit-content;
-  min-height: 0;
-  max-height: 88vh;
-  overflow-y: auto;
-}
-#customSubjectsManagerDialog .custom-subject-card-list { flex: 0 0 auto; }
-#customSubjectsManagerDialog .custom-subject-dialog__footer { margin-top: 0; }
-.custom-subject-dynamic-field--teacher { grid-column: 1 / 3 !important; }
-.custom-subject-dynamic-field--teacher-url { grid-column: 3 / 5 !important; }
-@media screen and (max-width: 619px) {
-  .custom-subject-dynamic-field--teacher,
-  .custom-subject-dynamic-field--teacher-url { grid-column: 1 / -1 !important; }
-}
-
-
-/* Unified custom subjects toolbar and entry menu. */
-.custom-timetable-toolbar {
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-.custom-subjects-menu-button {
-  white-space: nowrap;
-}
-.custom-subject-choice-dialog {
-  max-width: 28rem;
-}
-.custom-subject-choice-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: .75rem;
-  padding: 1rem;
-}
-.custom-subject-choice {
-  display: flex;
-  min-height: 6rem;
-  padding: .9rem;
-  align-items: center;
-  gap: .75rem;
-  border: 1px solid var(--table-border-color);
-  border-radius: 8px;
-  background: transparent;
-  color: var(--body-font-color);
-  text-align: left;
-  cursor: pointer;
-}
-.custom-subject-choice:hover:not(:disabled) {
-  background: var(--table-row-hover);
-}
-.custom-subject-choice:disabled {
-  opacity: .45;
-  cursor: not-allowed;
-}
-.custom-subject-choice > i {
-  flex: 0 0 auto;
-  width: 1.5rem;
-  font-size: 1.15rem;
-  text-align: center;
-}
-.custom-subject-choice span,
-.custom-subject-choice strong,
-.custom-subject-choice small {
-  display: block;
-}
-.custom-subject-choice small {
-  margin-top: .2rem;
-  opacity: .8;
-  font-weight: 400;
-}
-@media screen and (max-width: 560px) {
-  .custom-timetable-toolbar {
-    position: static;
-    margin: .5rem 0 1rem;
-  }
-  .custom-timetable-toolbar .addSubjs {
-    flex: 1 1 100%;
-    justify-content: center;
-  }
-  .custom-subject-choice-list {
-    grid-template-columns: 1fr;
-  }
-  .custom-subject-choice {
-    min-height: 4.75rem;
-  }
-}
-
-
-/* Compact unified custom-subject entry dialog. */
-#customSubjectsMenuDialog.custom-subject-dialog {
-  width: 94vw;
-  max-width: 32rem;
-  height: fit-content !important;
-  min-height: 0 !important;
-  max-height: 88vh;
-  padding: 0;
-}
-#customSubjectsMenuDialog > .custom-subject-manager {
-  display: block !important;
-  height: fit-content !important;
-  min-height: 0 !important;
-  max-height: 88vh;
-  overflow-y: auto;
-}
-#customSubjectsMenuDialog .custom-subject-choice-list {
-  display: flex;
-  flex-direction: column;
-  gap: .75rem;
-  padding: 1rem;
-}
-#customSubjectsMenuDialog .custom-subject-choice {
-  display: flex;
-  width: 100%;
-  min-height: 5.5rem;
-  padding: 1rem 1.15rem;
-  align-items: center;
-  justify-content: center;
-  gap: .8rem;
-  text-align: center;
-  box-sizing: border-box;
-}
-#customSubjectsMenuDialog .custom-subject-choice > i {
-  width: 1.5rem;
-  font-size: 1.2rem;
-}
-#customSubjectsMenuDialog .custom-subject-choice > span {
-  flex: 0 1 auto;
-}
-#customSubjectsMenuDialog .custom-subject-choice strong {
-  font-size: 1rem;
-}
-#customSubjectsMenuDialog .custom-subject-choice small {
-  margin-top: .25rem;
-  line-height: 1.3;
-}
-#customSubjectsMenuDialog .custom-subject-dialog__footer {
-  margin: 0;
-  padding: .75rem 1rem;
-}
-@media screen and (max-width: 560px) {
-  #customSubjectsMenuDialog.custom-subject-dialog {
-    width: calc(100vw - 1rem);
-  }
-  #customSubjectsMenuDialog .custom-subject-choice {
-    min-height: 5rem;
-  }
-}
-
-
-/* Final toolbar spacing and visual distinction. */
-.custom-timetable-toolbar {
-  gap: .4rem !important;
-}
-.custom-timetable-toolbar > .addSubjs {
-  margin: 0 !important;
-}
-.custom-timetable-toolbar > .custom-subjects-menu-button {
-  background: #7c3aed;
-  border-color: #6d28d9;
-  color: #fff;
-}
-.custom-timetable-toolbar > .custom-subjects-menu-button:hover {
-  background: #6d28d9;
-  border-color: #5b21b6;
-}
-
-
-/* Centered toolbar and cyan custom-subject action. */
-.custom-timetable-toolbar {
-  left: 50% !important;
-  right: auto !important;
-  width: max-content;
-  max-width: 100%;
-  justify-content: center !important;
-  transform: translateX(-50%);
-}
-.custom-timetable-toolbar > .custom-subjects-menu-button {
-  background: #0891b2;
-  border-color: #0e7490;
-  color: #fff;
-}
-.custom-timetable-toolbar > .custom-subjects-menu-button:hover {
-  background: #0e7490;
-  border-color: #155e75;
-}
-@media screen and (max-width: 560px) {
-  .custom-timetable-toolbar {
-    width: 100%;
-    transform: none;
-  }
-}
-
-
-/* Keep the toolbar centered within the timetable container. */
-.custom-timetable-toolbar {
-  position: static !important;
-  left: auto !important;
-  right: auto !important;
-  top: auto !important;
-  width: 100% !important;
-  max-width: none;
-  margin: 0 0 .75rem;
-  justify-content: center !important;
-  transform: none !important;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 560px) {
-  .custom-timetable-toolbar {
-    width: 100% !important;
-    margin-bottom: .75rem;
-  }
-}
-
-
-/* Computer Science curriculum subdivisions in the subject picker. */
-.subjsCurriculumGroup {
-  width: 100%;
-  margin: 0.75rem 0 1rem;
-}
-
-.subjsCurriculumTitle {
-  margin: 0 0 0.55rem;
-  padding-left: 0.7rem;
-  border-left: 3px solid #49c15b;
-  color: #d9eadd;
-  font-size: 1rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-}
-
-/* Keep custom-subject management actions compact on narrow screens. */
-@media screen and (max-width: 700px) {
-  #customSubjectsManagerDialog .custom-subject-card__actions {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .5rem;
-    width: 100%;
-  }
-
-  #customSubjectsManagerDialog .custom-subject-card__actions .custom-subject-button {
-    min-width: 0;
-    width: 100%;
-  }
-}
-
-
-/* Polished custom-subject editor hierarchy and dark-theme contrast. */
-#customSubjectDialog {
-  --custom-subject-border: color-mix(in srgb, var(--body-font-color) 30%, transparent);
-  --custom-subject-separator: color-mix(in srgb, var(--body-font-color) 20%, transparent);
-}
-
-#customSubjectDialog.custom-subject-dialog,
-#customSubjectDialog .custom-subject-editor-section,
-#customSubjectDialog .custom-subject-dynamic-row,
-#customSubjectDialog .custom-subject-field input,
-#customSubjectDialog .custom-subject-dynamic-field input,
-#customSubjectDialog .custom-subject-dynamic-field select,
-#customSubjectDialog .custom-subject-button,
-#customSubjectDialog .custom-subject-mini-button {
-  border-color: var(--custom-subject-border);
-}
-
-#customSubjectDialog .custom-subject-dynamic-row {
-  background: color-mix(in srgb, var(--body-font-color) 2.5%, transparent);
-}
-
-.custom-subject-field-group {
-  display: grid;
-  grid-column: 1 / -1;
-  gap: .55rem;
-  min-width: 0;
-}
-
-.custom-subject-field-group--time {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.custom-subject-field-group--classroom,
-.custom-subject-field-group--teacher {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding-top: .7rem;
-  border-top: 1px solid var(--custom-subject-separator);
-}
-
-.custom-subject-field-group--classroom > :last-child {
-  grid-column: 1 / -1;
-}
-
-.custom-subject-required-note {
-  margin: 0 1rem .75rem;
-  color: color-mix(in srgb, var(--body-font-color) 72%, transparent);
-  font-size: .82rem;
-  font-style: italic;
-  line-height: 1.35;
-}
-
-#customSubjectDialog input:disabled {
-  opacity: .55;
-  cursor: not-allowed;
-}
-
-@media screen and (max-width: 619px) {
-  .custom-subject-field-group--time,
-  .custom-subject-field-group--classroom,
-  .custom-subject-field-group--teacher {
-    grid-template-columns: 1fr;
-  }
-
-  .custom-subject-field-group--classroom > :last-child {
-    grid-column: auto;
-  }
-}
-
-
-/* Destructive lesson action: explicit label, separate placement and confirmation in JavaScript. */
-.custom-subject-remove-lesson-button {
-  display: inline-flex;
-  grid-column: 1 / -1;
-  width: auto;
-  min-height: 2.5rem;
-  padding: .5rem .8rem;
-  align-items: center;
-  justify-content: center;
-  justify-self: end;
-  gap: .45rem;
-  border: 1px solid color-mix(in srgb, #dc2626 72%, var(--custom-subject-border));
-  border-radius: 5px;
-  background: color-mix(in srgb, #dc2626 12%, transparent);
-  color: color-mix(in srgb, #ef4444 85%, var(--body-font-color));
   font: inherit;
-  font-size: .85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background .12s, border-color .12s, transform .12s;
-}
+  font-variant-numeric: tabular-nums;
+  scrollbar-color: var(--planner-line) var(--body-background);
+  scrollbar-width: thin;
 
-.custom-subject-remove-lesson-button:hover {
-  border-color: #dc2626;
-  background: color-mix(in srgb, #dc2626 22%, transparent);
-}
-
-.custom-subject-remove-lesson-button:active {
-  transform: translateY(1px);
-}
-
-.custom-subject-remove-lesson-button:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-@media screen and (max-width: 619px) {
-  .custom-subject-remove-lesson-button {
-    width: 100%;
-    justify-self: stretch;
+  [hidden] { display: none !important; }
+  button, input, select { font: inherit; }
+  // Safari ignores the height of natively styled selects, so draw the chevron ourselves.
+  select {
+    appearance: none; padding-right: 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23888' stroke-width='1.6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right .75rem center; background-size: .7rem;
   }
+  button { cursor: pointer; }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  :focus-visible { outline: 2px solid var(--color-link); outline-offset: 3px; }
+  ::selection { background: var(--color-link); color: var(--body-background); }
+  input { caret-color: var(--color-link); }
+  input::placeholder { color: var(--planner-muted); opacity: 1; }
+  strong { text-align: inherit; }
 }
 
-
-/* Explicit label for the add-lesson action. */
-.custom-subject-add-lesson-button {
-  display: inline-flex;
-  width: auto;
-  min-width: 0;
-  min-height: 2.5rem;
-  padding: .5rem .8rem;
-  align-items: center;
-  justify-content: center;
-  gap: .45rem;
-  white-space: nowrap;
-}
-
-@media screen and (max-width: 619px) {
-  .custom-subject-add-lesson-button {
-    min-height: 2.75rem;
-  }
-}
-
-/* Stronger menu-card borders and stable icon alignment. */
-#customSubjectsMenuDialog {
-  --custom-subject-menu-border: color-mix(in srgb, var(--body-font-color) 30%, transparent);
-}
-
-#customSubjectsMenuDialog.custom-subject-dialog,
-#customSubjectsMenuDialog .custom-subject-choice,
-#customSubjectsMenuDialog .custom-subject-dialog__header,
-#customSubjectsMenuDialog .custom-subject-dialog__footer {
-  border-color: var(--custom-subject-menu-border);
-}
-
-#customSubjectsMenuDialog .custom-subject-choice {
-  display: grid;
-  grid-template-columns: 2.25rem minmax(0, 1fr) 2.25rem;
-  column-gap: .8rem;
-}
-
-#customSubjectsMenuDialog .custom-subject-choice > i {
-  grid-column: 1;
-  width: 2.25rem;
-  margin: 0;
-  justify-self: center;
-  text-align: center;
-}
-
-#customSubjectsMenuDialog .custom-subject-choice > span {
-  grid-column: 2;
-  min-width: 0;
-  justify-self: stretch;
-}
-
-
-/* Secondary identifier for distinguishing custom subjects with equal names. */
-.custom-subject-card__id {
-  display: block;
-  width: fit-content;
-  max-width: 100%;
-  margin-top: .2rem;
-  overflow: hidden;
-  color: color-mix(in srgb, var(--body-font-color) 58%, transparent);
-  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
-  font-size: .72rem;
-  font-weight: 400;
-  line-height: 1.3;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-
-/* Back navigation and import confirmation preview. */
-.custom-subject-dialog__footer--with-back,
-.custom-subject-dialog__footer--navigation {
-  align-items: center;
-}
-
-.custom-subject-back-button {
-  display: inline-flex;
-  align-items: center;
-  gap: .45rem;
-  margin-right: auto;
-}
-
-.custom-subject-import-preview {
-  padding: 1rem;
-}
-
-.custom-subject-import-preview__intro {
-  margin: 0 0 .85rem;
-  color: color-mix(in srgb, var(--body-font-color) 78%, transparent);
-}
-
-.custom-subject-import-preview__details {
-  display: grid;
-  gap: 0;
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--body-font-color) 30%, transparent);
-  border-radius: 8px;
-}
-
-.custom-subject-import-preview__details > div {
-  display: grid;
-  grid-template-columns: minmax(8rem, .8fr) minmax(0, 1.6fr);
-  gap: .75rem;
-  padding: .65rem .75rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--body-font-color) 20%, transparent);
-}
-
-.custom-subject-import-preview__details > div:last-child {
-  border-bottom: 0;
-}
-
-.custom-subject-import-preview__details dt {
-  color: color-mix(in srgb, var(--body-font-color) 68%, transparent);
-  font-weight: 600;
-}
-
-.custom-subject-import-preview__details dd {
-  min-width: 0;
-  margin: 0;
-  overflow-wrap: anywhere;
-}
-
-.custom-subject-import-preview__warning {
-  margin: .85rem 0 0;
-  padding: .7rem .8rem;
-  border: 1px solid color-mix(in srgb, #f59e0b 65%, transparent);
-  border-radius: 6px;
-  background: color-mix(in srgb, #f59e0b 12%, transparent);
-}
-
-@media screen and (max-width: 700px) {
-  .custom-subject-dialog__footer--with-back {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  #customSubjectDialog .custom-subject-dialog__footer--with-back .custom-subject-back-button {
-    grid-column: 1 / -1;
-  }
-
-  .custom-subject-import-preview__details > div {
-    grid-template-columns: 1fr;
-    gap: .15rem;
-  }
-}
-
-
-/* Editable import review, aligned with the standard subject editor. */
-.custom-subject-import-id-message { min-height: 1.25rem; font-size: .78rem; line-height: 1.3; }
-.custom-subject-import-id-field--invalid input { border-color: #dc2626 !important; box-shadow: 0 0 0 1px #dc2626; }
-.custom-subject-import-id-field--invalid .custom-subject-import-id-message { color: #ef4444; }
-.custom-subject-import-id-field--duplicate input { border-color: #d97706 !important; box-shadow: 0 0 0 1px #d97706; background: color-mix(in srgb, #f59e0b 10%, var(--body-background)); }
-.custom-subject-import-id-field--duplicate .custom-subject-import-id-message { color: #f59e0b; }
-#customSubjectSubmitButton:disabled { opacity: .5; cursor: not-allowed; filter: none; }
-
-
-/* The import-only ID field must stay hidden in add/edit mode. */
-#customSubjectImportIdField.hidden {
-  display: none !important;
-}
-
-
-/* Editor close action, conditional save action and import-only ID visibility. */
-#customSubjectImportIdField[hidden],
-#customSubjectImportIdField.hidden {
-  display: none !important;
-}
-
-.custom-subject-dialog__header--with-close {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: .75rem;
-}
-
+#main.timetable-planner { width: 100%; max-width: none; padding: 0; margin: 1.5rem 0 2rem; }
+.planner-button,
+.custom-subject-button,
+.custom-subject-mini-button,
 .custom-subject-dialog__close {
   display: inline-flex;
-  width: 2.25rem;
-  height: 2.25rem;
-  flex: 0 0 2.25rem;
-  padding: 0;
+  min-height: 44px;
   align-items: center;
   justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--body-font-color) 30%, transparent);
-  border-radius: 6px;
-  background: transparent;
+  gap: .5rem;
+  padding: .6rem .9rem;
+  border: 1px solid var(--planner-line);
+  border-radius: 8px;
+  background: var(--body-background);
   color: var(--body-font-color);
-  font-size: 1.1rem;
-  cursor: pointer;
+  font-weight: 600;
+  line-height: 1.3;
+  transition: background-color .15s ease;
+
+  &:hover:not(:disabled) { background: var(--planner-surface); }
 }
-
-.custom-subject-dialog__close:hover {
-  background: var(--table-row-hover);
+.planner-button--primary,
+.custom-subject-button--primary {
+  background: var(--color-link);
+  border-color: var(--color-link);
+  color: var(--body-background);
+  &:hover:not(:disabled) { background: color-mix(in srgb, var(--color-link) 85%, var(--body-font-color)); }
 }
+.planner-calendar { border: 1px solid var(--planner-line); border-radius: 12px; overflow: hidden; }
+.planner-calendar-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.25rem; }
+.planner-calendar-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; }
+.planner-calendar-header h2 { margin: 0; font-size: 1.25rem; }
+.planner-calendar-header p { margin: .35rem 0 0; color: var(--planner-muted); font-size: .85rem; }
+.planner-calendar-header p:empty { display: none; }
+.planner-calendar-actions .planner-button { font-size: .875rem; }
+.planner-view-switch { display: inline-flex; gap: .25rem; padding: .25rem; border-radius: 8px; background: var(--planner-surface); }
+.planner-view-switch button {
+  display: flex; align-items: center; gap: .45rem; min-height: 40px; padding: .5rem .75rem;
+  border: 0; border-radius: 6px; color: var(--planner-muted); background: transparent; font-size: .85rem;
+  &[aria-pressed="true"] { background: var(--body-background); color: var(--color-link); font-weight: 600; }
+}
+.planner-empty { padding: 2.5rem 1.25rem 3rem; text-align: center; background: var(--planner-surface); }
+.planner-empty > i { font-size: 2rem; color: var(--color-link); }
+.planner-empty h3 { margin: 1rem 0 .5rem; color: var(--body-font-color); font-size: 1.2rem; font-weight: 600; }
+.planner-empty p { max-width: 42ch; margin: 0 auto 1.25rem; color: var(--planner-muted); }
+.planner-calendar-footer { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; padding: .85rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
+.planner-saved > i { color: var(--color-link); }
+.planner-week-scroll { overflow-x: auto; }
+.planner-week-hint { display: flex; align-items: center; gap: .5rem; margin: 0; padding: .75rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
+.planner-warning-icon { color: var(--planner-warning); }
+.planner-week {
+  --planner-hour-height: 56px;
+  --planner-axis: 3.75rem;
+  display: grid; grid-template-columns: var(--planner-axis) var(--planner-columns);
+  min-width: calc(var(--planner-axis) + var(--planner-lanes) * 5rem);
+  border-top: 1px solid var(--planner-line); font-size: .8rem;
+}
+.planner-week-heading {
+  padding: .75rem .35rem; text-align: center; font-weight: 600; border-left: 1px solid var(--planner-line); background: var(--planner-surface);
+  .planner-week-date { display: block; color: var(--planner-muted); font-weight: 400; }
+  &[aria-current="date"], &[aria-current="date"] .planner-week-date { color: var(--color-link); }
+}
+.planner-day-short { display: none; }
+.planner-week-column--today { background: color-mix(in srgb, var(--color-link) 4%, var(--body-background)); }
+.planner-week-corner { position: sticky; left: 0; z-index: 2; background: var(--planner-surface); }
+.planner-time-axis { position: sticky; left: 0; z-index: 2; display: flex; flex-direction: column; background: var(--planner-surface); }
+.planner-hour { height: var(--planner-hour-height); padding-top: .3rem; text-align: center; color: var(--planner-muted); }
+.planner-week-column { position: relative; min-width: 0; height: calc(var(--planner-hours) * var(--planner-hour-height)); border-left: 1px solid var(--planner-line); }
+.planner-hour-rule { height: var(--planner-hour-height); border-top: 1px solid var(--planner-line); box-sizing: border-box; pointer-events: none; }
+.planner-lesson {
+  display: flex; flex-direction: column; gap: .25rem; min-width: 0; padding: .85rem 1rem;
+  border: 1px solid color-mix(in srgb, var(--lesson-color) 45%, var(--body-background));
+  border-radius: 8px; background: color-mix(in srgb, var(--lesson-color) 10%, var(--body-background));
+  text-decoration: none; overflow-wrap: anywhere; text-align: left;
+}
+// Outranks the site's link colour and alignment so lessons keep one colour on hover and tap.
+.timetable-planner a.planner-lesson {
+  align-items: stretch; color: var(--body-font-color);
+  &:hover { background: color-mix(in srgb, var(--lesson-color) 18%, var(--body-background)); color: var(--body-font-color); text-decoration: none; }
+}
+.planner-lesson-time { font-size: .8rem; font-weight: 600; }
+.planner-lesson-name { font-size: 1rem; line-height: 1.3; }
+.planner-lesson-room { color: var(--planner-muted); font-size: .85rem; }
+.planner-lesson-notice { display: flex; align-items: center; gap: .3rem; font-size: .75rem; font-weight: 600; }
+.planner-lesson--cancelled :is(.planner-lesson-name, .planner-lesson-abbr) { text-decoration: line-through; }
+.planner-week .planner-lesson { position: absolute; padding: .35rem .45rem; gap: .1rem; overflow: hidden; container-type: size; }
+.planner-week .planner-lesson-time { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
+.planner-week .planner-lesson-name { font-size: .8rem; line-height: 1.25; }
+.planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .72rem; line-height: 1.3; }
+// Short blocks, and narrow ones without a spare line, keep the time and name; the full room lives in the title and details.
+@container (max-height: 3.4rem) or ((max-width: 5.5rem) and (height < 4.5rem)) { .planner-lesson-room { display: none; } }
+// Short lessons reserve two lines for the time and name, with the warning in the corner.
+@container (max-height: 3.4rem) {
+  .planner-lesson-time { display: block; }
+  .planner-lesson-time, .planner-lesson-name, .planner-lesson-abbr { flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .planner-lesson:has(.planner-warning-icon) :is(.planner-lesson-name, .planner-lesson-abbr) { padding-inline-end: 1rem; }
+  .planner-warning-icon { position: absolute; inset-inline-end: .45rem; bottom: .35rem; }
+}
+// Narrow columns keep the acronym, exact times and classroom together.
+.planner-lesson-abbr { display: none; font-size: .75rem; line-height: 1.25; }
+@container (max-width: 4.5rem) {
+  .planner-lesson-name { display: none; }
+  .planner-lesson-abbr { display: block; order: -1; }
+  .planner-week :is(.planner-lesson-time, .planner-lesson-room) { font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
+}
+.planner-agenda { --planner-agenda-gutter: 1.25rem; display: none; padding: 0 var(--planner-agenda-gutter) 1.25rem; }
+.planner-day-track {
+  display: flex; align-items: start; margin-inline: calc(-1 * var(--planner-agenda-gutter));
+  overflow: auto hidden; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none;
+}
+.planner-day-page { flex: 0 0 100%; box-sizing: border-box; padding: 0 var(--planner-agenda-gutter) .75rem; scroll-snap-align: start; scroll-snap-stop: always; }
+.planner-day-page[inert] { height: 0; }
+.timetable-planner[data-view="agenda"] { .planner-week-view { display: none; } .planner-agenda { display: block; } }
+.planner-days { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .4rem; padding: .75rem 0; border-block: 1px solid var(--planner-line); }
+.planner-day-button {
+  display: flex; flex-direction: column; align-items: center; gap: .25rem; min-height: 64px;
+  padding: .5rem .2rem; border: 1px solid transparent; border-radius: 8px;
+  background: transparent; color: var(--planner-muted); font-weight: 600;
+  position: relative;
+  span { font-size: .75rem; font-weight: 400; }
+  &:hover { background: var(--planner-surface); }
+  &[aria-current="date"] { color: var(--body-font-color); }
+  &[aria-current="date"]::after { content: ''; position: absolute; bottom: .3rem; width: .3rem; height: .3rem; border-radius: 50%; background: var(--color-link); }
+  &[aria-pressed="true"] { color: var(--color-link); background: color-mix(in srgb, var(--color-link) 8%, var(--body-background)); border-color: var(--color-link); }
+}
+.planner-day-heading { margin: 1.25rem 0 .75rem; color: var(--body-font-color); font-size: 1rem; font-weight: 600; }
+.planner-day-lessons { display: grid; gap: .65rem; }
+.planner-lesson--upcoming { box-shadow: 0 2px 10px color-mix(in srgb, var(--lesson-color) 25%, transparent); }
+.planner-badge { margin-right: .5rem; padding: .1rem .45rem; border-radius: 999px; background: var(--color-link); color: var(--body-background); font-size: .7rem; font-weight: 600; }
+.planner-conflict-group {
+  padding: .75rem; border: 1px solid color-mix(in srgb, var(--planner-warning) 40%, var(--body-background)); border-radius: 12px;
+  background: color-mix(in srgb, var(--planner-warning) 7%, var(--body-background));
+}
+.planner-conflict-heading { display: flex; align-items: center; gap: .5rem; margin: 0 0 .65rem; color: var(--body-font-color); font-size: .9rem; font-weight: 600; }
+.planner-day-empty { padding: 2rem .5rem; text-align: center; color: var(--planner-muted); }
+.planner-day-empty p { margin: 0 0 .4rem; font-weight: 600; }
+#plannerTeachingDetails, #customSubjectsDetails { scroll-margin-top: 1rem; }
+.planner-details :target { scroll-margin-top: 1rem; border-radius: 8px; outline: 2px solid var(--color-link); outline-offset: .5rem; }
+.planner-back-link {
+  position: sticky; bottom: 1rem; width: fit-content; align-items: center; gap: .5rem; margin: 1.5rem 0 0 auto;
+  padding: .6rem .9rem; border: 1px solid var(--planner-line); border-radius: 999px; background: var(--body-background);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .12); font-size: .875rem; font-weight: 600;
+}
+.planner-details .planner-back-link { display: none; }
+.planner-details:has(> section:not([hidden]):not(.hidden)) .planner-back-link { display: flex; }
 
-/* Keep Back and Save aligned on one row in the subject editor footer on mobile. */
-@media screen and (max-width: 700px) {
-  #customSubjectDialog .custom-subject-dialog__footer--with-back {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    align-items: stretch;
-  }
+.planner-saved { display: inline-flex; align-items: center; gap: .5rem; }
 
-  #customSubjectDialog .custom-subject-dialog__footer--with-back .custom-subject-back-button {
-    grid-column: 1;
-    width: 100%;
-    margin-right: 0;
-    justify-content: center;
+// Picker: stable header/footer with a scrollable, searchable list.
+#subjsPopUp.planner-picker,
+.custom-subject-dialog {
+  width: calc(100% - 2rem); max-width: 42rem; max-height: calc(100dvh - 2rem);
+  margin: auto; padding: 0; border: 1px solid var(--planner-line); border-radius: 12px;
+  background: var(--body-background); color: var(--body-font-color); box-shadow: none;
+  overflow: hidden; backdrop-filter: none;
+  &::backdrop { background: rgba(0, 0, 0, .45); }
+}
+#subjsPopUp.planner-picker { max-width: 52rem; height: 48rem; }
+#subjsPopUp .subjsDial { display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; height: 100%; padding: 0; }
+.planner-picker-header,
+.custom-subject-dialog__header { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: 1.25rem; flex-shrink: 0; }
+#subjsSelTitle, .custom-subject-dialog__header h2 { margin: 0; text-align: left; font-size: 1.2rem; font-weight: 600; }
+.planner-picker-header p { margin: .35rem 0 0; font-size: .85rem; color: var(--planner-muted); }
+.custom-subject-dialog__close { width: 44px; flex: 0 0 44px; padding: 0; }
+#subjsPopUp .subjsSearchWrap { width: auto; max-width: none; margin: 0 1.25rem .75rem; min-height: 48px; border-color: var(--planner-line); background: var(--planner-surface); }
+#subjsPopUp #subjsSearch { font-size: 1rem; }
+.planner-picker-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; padding: 0 1.25rem 1rem; }
+.planner-picker-filters select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; padding: .5rem 2rem .5rem .5rem; border: 1px solid var(--planner-line); border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font-size: .85rem; }
+.planner-picker-filters label { display: flex; align-items: center; gap: .5rem; min-height: 44px; font-size: .85rem; }
+.planner-time-preference { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
+.planner-time-preference select { min-height: 36px; max-width: 100%; padding: .25rem 2rem .25rem .6rem; border: 1px solid var(--planner-line); border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font: inherit; }
+.planner-picker-filters input { width: 18px; height: 18px; accent-color: var(--color-link); }
+#subjsPopUp .subjsList { display: block; flex: 1; min-height: 0; overflow-y: auto; padding: 0 1.25rem 1rem; margin: 0; width: 100%; border-top: 1px solid var(--planner-line); }
+#subjsPopUp .subjsGroupTitle { margin: 1.25rem 0 .5rem; text-align: left; font-size: 1rem; }
+#subjsPopUp {
+  [data-degree="33502"], .c-33502, .c-ACSAI { --degree-color: #ba5959; }
+  [data-degree="33503"], .c-33503, .c-Informatica { --degree-color: #599aba; }
+  [data-degree="33508"], .c-33508 { --degree-color: #59ba73; }
+  [data-degree="33514"], .c-33514 { --degree-color: #a9522b; }
+  [data-degree="33516"], .c-33516 { --degree-color: #c39c1f; }
+  [data-degree="33519"], .c-33519 { --degree-color: #ff781f; }
+  .subjsGroupTitle > span:first-child::before {
+    content: ''; display: inline-block; width: .55rem; height: .55rem; margin-right: .5rem;
+    border-radius: 50%; background: var(--degree-color, var(--color-link));
   }
+}
+#subjsPopUp .subjsGroupTitle > span { color: var(--body-font-color); }
+#subjsPopUp .planner-degree-code { color: var(--planner-muted); font-size: .875rem; font-weight: 300; }
+#subjsPopUp .subjsSingCourse { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+#subjsPopUp .subjButton {
+  position: relative; justify-content: flex-start; width: 100%; height: auto; min-height: 52px;
+  padding: .75rem 2.75rem .75rem .85rem; margin: 0;
+  border: 1px solid var(--planner-line); border-radius: 8px;
+  background: var(--body-background); box-shadow: none; color: var(--body-font-color);
+  font-size: .9rem; line-height: 1.4; text-align: left;
+  > span { white-space: normal; overflow: visible; text-align: left; text-wrap: auto; }
+  // Each course carries its programme's dot, so recommended courses from other degrees stay recognisable.
+  &::before { content: ''; flex: 0 0 .55rem; height: .55rem; margin-right: .65rem; border-radius: 50%; background: var(--degree-color, var(--planner-muted)); }
+  &::after { content: ''; position: absolute; right: .85rem; top: calc(50% - .6rem); width: 1.2rem; height: 1.2rem; border: 1px solid var(--planner-line); border-radius: 4px; }
+  --degree-strong: color-mix(in srgb, var(--degree-color) 75%, var(--body-font-color));
+  &:hover { background: color-mix(in srgb, var(--degree-color) 8%, var(--body-background)); }
+  &[aria-pressed="true"] { background: color-mix(in srgb, var(--degree-color) 15%, var(--body-background)); border-color: var(--degree-strong); }
+  &[aria-pressed="true"]::after { content: '\f00c'; font-family: var(--fa-family-classic); font-weight: 900; font-size: .75rem; line-height: 1.2rem; text-align: center; background: var(--degree-strong); border-color: var(--degree-strong); color: var(--body-background); }
+}
+#subjsPopUp .subjsCurriculumTitle { border: 0; padding: 0; margin: 1rem 0 .5rem; font-size: .85rem; color: var(--planner-muted); }
+#subjsPopUp .subjsSectionDivider { display: none; }
+.planner-picker-footer { display: flex; align-items: center; justify-content: space-between; gap: .75rem; padding: 1rem 1.25rem; border-top: 1px solid var(--planner-line); flex-shrink: 0; }
+.planner-picker-footer > span { font-size: .85rem; color: var(--planner-muted); }
+#subjsCloseMenu { width: auto; height: auto; margin: 0; border-radius: 8px; box-shadow: none; background: var(--color-link); color: var(--body-background); }
+#subjsCloseMenu:hover { background: color-mix(in srgb, var(--color-link) 85%, var(--body-font-color)); }
+.planner-no-results { margin: 0; padding: 1.5rem 1.25rem; color: var(--planner-muted); }
+.planner-channel-warning { display: flex; gap: .5rem; align-items: baseline; margin: 0 1.25rem 1rem; color: var(--body-font-color); font-size: .85rem; line-height: 1.5; }
 
-  #customSubjectDialog .custom-subject-dialog__footer--with-back #customSubjectSubmitButton {
-    grid-column: 2;
-    width: 100%;
-    justify-content: center;
-  }
+// Custom subjects retain the existing editor and import/export workflow.
+.custom-subject-form, .custom-subject-manager { max-height: calc(100dvh - 2rem); overflow-y: auto; }
+.custom-subject-form { display: flex; flex-direction: column; overflow: hidden; }
+.custom-subject-editor-body { min-height: 0; overflow-y: auto; }
+.custom-subject-form > .custom-subject-dialog__footer { flex-shrink: 0; }
+.custom-subject-color-field { align-items: center; }
+.custom-subject-name-fields { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: .85rem; }
+.custom-subject-help { margin: .25rem 0 .85rem; color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
+.custom-subject-names { min-width: 0; padding: 0; margin: 0; border: 0; }
+.custom-subject-names legend { padding: 0; font-size: .85rem; font-weight: 500; }
+.custom-subject-lesson-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.custom-subject-lesson-heading h4 { margin: 0; color: var(--body-font-color); font-size: .9rem; font-weight: 600; }
+.custom-subject-add-lesson-button { margin-top: .75rem; width: 100%; border-style: dashed; }
+.custom-subject-dialog__header { border-bottom: 1px solid var(--planner-line); }
+.custom-subject-dialog__footer { display: flex; justify-content: flex-end; gap: .65rem; padding: 1rem 1.25rem; border-top: 1px solid var(--planner-line); }
+.custom-subject-back-button { margin-right: auto; }
+.custom-subject-grid, .custom-subject-editor-section { margin: 1.25rem; }
+.custom-subject-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: .85rem; }
+.custom-subject-field, .custom-subject-dynamic-field { display: flex; flex-direction: column; gap: .35rem; min-width: 0; font-size: .85rem; }
+.custom-subject-field--wide, .custom-subject-field-group { grid-column: 1 / -1; }
+.custom-subject-field input, .custom-subject-dynamic-field input, .custom-subject-dynamic-field select {
+  width: 100%; min-width: 0; min-height: 44px; padding: .6rem; border: 1px solid var(--planner-line);
+  border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font-size: 1rem;
+}
+.custom-subject-dynamic-field select { padding-right: 2rem; }
+.custom-subject-field input[type="color"] { width: 5rem; padding: .25rem; }
+.custom-subject-field span, .custom-subject-dynamic-field span { font-weight: 500; }
+.custom-subject-field-group { display: grid; gap: .75rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.custom-subject-field-group--classroom { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+.custom-subject-field-group--time { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.custom-subject-editor-section__heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem; }
+.custom-subject-editor-section__heading h3 { margin: 0; font-size: 1rem; color: var(--body-font-color); }
+.custom-subject-stack { display: flex; flex-direction: column; gap: .75rem; }
+.custom-subject-dynamic-row { display: grid; gap: .75rem; padding: 1rem; border: 1px solid var(--planner-line); border-radius: 12px; background: var(--planner-surface); }
+.custom-subject-lesson-row:only-child .custom-subject-remove-lesson-button { display: none; }
+.custom-subject-links summary { padding-block: .75rem; cursor: pointer; font-size: .85rem; font-weight: 500; }
+.custom-subject-links[open] summary { margin-bottom: .5rem; }
+.custom-subject-status:not(:empty) { margin: 1rem 1.25rem 0; padding: .65rem .85rem; border-radius: 8px; background: color-mix(in srgb, #238636 10%, var(--body-background)); font-size: .85rem; }
+.custom-subject-button--icon { width: 44px; flex: 0 0 44px; padding: 0; }
+.custom-subject-button--remove { color: var(--planner-danger); }
+.custom-subject-required-note { margin: 1rem 1.25rem 0; padding: .6rem .85rem; border-radius: 8px; background: var(--planner-surface); color: var(--body-font-color); font-size: .85rem; }
+.custom-subject-required { color: var(--planner-danger); font-weight: 700; }
+.custom-subject-dialog.custom-removal-dialog { max-width: 30rem; }
+.custom-removal-message { margin: 1.25rem; line-height: 1.5; overflow-wrap: anywhere; }
+.custom-subject-button--danger {
+  background: #b42332; border-color: #b42332; color: #fff;
+  &:hover:not(:disabled) { background: #941c29; }
+}
+.custom-subject-dialog.custom-subject-choice-dialog { max-width: 34rem; }
+.custom-subject-choice-list { padding: .5rem 1.25rem; }
+.custom-subject-choice { display: flex; gap: 1rem; align-items: center; width: 100%; padding: 1rem 0; border: 0; border-bottom: 1px solid var(--planner-line); background: transparent; color: var(--body-font-color); text-align: left; }
+.custom-subject-choice:last-of-type { border: 0; }
+.custom-subject-choice > i { width: 1.5rem; color: var(--color-link); text-align: center; flex-shrink: 0; }
+.custom-subject-choice span, .custom-subject-choice strong, .custom-subject-choice small { display: block; }
+.custom-subject-choice small { margin-top: .3rem; color: var(--planner-muted); line-height: 1.4; }
+.custom-subject-choice:hover:not(:disabled) { background: var(--planner-surface); }
+.custom-subject-card-list { padding: 0 1.25rem; }
+.custom-subject-card { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; padding: 1rem 0; border-bottom: 1px solid var(--planner-line); }
+.custom-subject-card:last-child { border: 0; }
+.custom-subject-card__content { flex: 1 1 16rem; min-width: 0; }
+.custom-subject-card h3 { display: flex; align-items: center; gap: .6rem; margin: 0 0 .3rem; color: var(--body-font-color); font-size: 1rem; overflow-wrap: anywhere; }
+.custom-subject-card h3::before { content: ''; flex: 0 0 .75rem; height: .75rem; border-radius: 50%; background: var(--subject-color); }
+.custom-subject-card p { margin: 0 0 0 1.35rem; color: var(--planner-muted); font-size: .85rem; line-height: 1.5; }
+.custom-subject-card--hidden .custom-subject-card__content { opacity: .6; }
+.custom-subject-card__actions { display: flex; gap: .5rem; }
+.custom-subject-import-id-message { min-height: 1.2rem; color: var(--planner-muted); font-size: .8rem; }
+.custom-subject-import-id-field--invalid input { border-color: #d84747; }
+.custom-subject-import-id-field--duplicate input { border-color: #c47616; }
+.custom-subject-details-table { overflow-x: auto; }
+
+@media (max-width: 760px) {
+  .planner-calendar-header { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: .75rem; padding: 1rem; }
+  .planner-calendar-actions { display: contents; }
+  .planner-calendar-actions .planner-button { grid-column: 2; grid-row: 1; width: 44px; padding: 0; }
+  .planner-view-switch { grid-column: 1 / -1; }
+  .planner-view-switch button { flex: 1; justify-content: center; }
+  .planner-button-label { display: none; }
+  .planner-agenda { --planner-agenda-gutter: 1rem; }
+  // Lanes shrink to fit the phone; only very crowded weeks fall back to scrolling.
+  .planner-week { --planner-axis: 2.75rem; min-width: calc(var(--planner-axis) + var(--planner-lanes) * 2.5rem); }
+  .planner-hour { font-size: .7rem; }
+  .planner-week-heading { padding-inline: .15rem; }
+  .planner-day-full { display: none; }
+  .planner-day-short { display: inline; }
+  .planner-week .planner-lesson { padding: .3rem .2rem; }
+  .planner-lesson-abbr { font-size: .7rem; overflow-wrap: normal; }
+  .planner-calendar-footer { padding: .85rem 1rem; }
+  #plannerLessonTip { flex-basis: 100%; }
+  .planner-time-preference { margin-left: 0; }
+  #subjsPopUp .subjsSingCourse { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  #subjsPopUp.planner-picker, .custom-subject-dialog { width: calc(100% - 1rem); max-height: calc(100dvh - 1rem); }
+  #subjsPopUp.planner-picker { height: calc(100dvh - 1rem); }
+  .planner-picker-header, .custom-subject-dialog__header { padding: 1rem; }
+  #subjsPopUp .subjsSearchWrap { margin-inline: 1rem; }
+  .planner-picker-filters, #subjsPopUp .subjsList { padding-inline: 1rem; }
+  .planner-picker-filters { gap: .3rem; }
+  #plannerDegreeFilter { flex-basis: 100%; }
+  .planner-picker-footer { padding: .75rem 1rem; flex-wrap: wrap; }
+  .planner-picker-footer > span { flex-basis: 100%; }
+  .planner-picker-footer .planner-button { flex: 1; font-size: .85rem; }
+  .custom-subject-form, .custom-subject-manager { max-height: calc(100dvh - 1rem); }
+  .custom-subject-grid, .custom-subject-editor-section { margin: 1rem; }
+  .custom-subject-required-note { margin-inline: 1rem; }
+  :is(.custom-subject-field-group--teacher, .custom-subject-field-group--classroom) { grid-template-columns: 1fr; }
+  .custom-subject-field-group--time { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .custom-subject-field-group--time > :first-child { grid-column: 1 / -1; }
+  .custom-subject-field input[type="color"] { width: 3rem; }
+  .custom-subject-dialog__footer { padding: 1rem; }
+  .custom-subject-card__actions { flex-basis: 100%; }
+  .custom-subject-card__actions > :first-child { flex: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .planner-day-track { scroll-behavior: smooth; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .planner-button, .custom-subject-button, .custom-subject-mini-button, .custom-subject-dialog__close { transition: none; }
 }

@@ -244,9 +244,6 @@
 - id: Subjs_CustomTimetable_CustomRemoveLesson
   translation: "Remove lesson"
 
-- id: Subjs_CustomTimetable_CustomRemoveLessonConfirm
-  translation: "Remove this lesson? All data entered for this lesson will be lost."
-
 - id: Subjs_CustomTimetable_CustomClassroomAbbr
   translation: Classroom acronym
 
@@ -263,7 +260,7 @@
   translation: Show
 
 - id: Subjs_CustomTimetable_CustomScheduleCount
-  translation: "%d schedules added"
+  translation: "Lessons: %d"
 
 - id: Subjs_CustomTimetable_CustomColor
   translation: Color
@@ -409,3 +406,149 @@
 
 - id: Contacts_ContributorsHint_Text
   translation: 'Want to see everyone who has contributed to this wiki and to the wider website project? Visit the <a href="../contributors/"><strong>wiki contributors</strong></a> page.'
+
+# Custom timetable planner
+
+- id: Planner_ManageSubjects
+  translation: "Manage subjects"
+
+- id: Planner_ChooseSubjects
+  translation: "Choose subjects"
+
+- id: Planner_WeekTitle
+  translation: "Your week"
+
+- id: Planner_View
+  translation: "Timetable view"
+
+- id: Planner_Week
+  translation: "Week"
+
+- id: Planner_Agenda
+  translation: "Day"
+
+- id: Planner_EmptyTitle
+  translation: "Your week starts here"
+
+- id: Planner_EmptyText
+  translation: "Add the subjects you attend to see your lessons, times and rooms here."
+
+- id: Planner_Saved
+  translation: "Saved on this device"
+
+- id: Planner_LessonTip
+  translation: "Select a lesson for full details."
+
+- id: Planner_PickerHint
+  translation: "Select the subjects you attend; changes are saved automatically. A-L and M-Z are channels, assigned by surname initial."
+
+- id: Planner_Search
+  translation: "Search for a subject…"
+
+- id: Planner_Degree
+  translation: "Degree programme"
+
+- id: Planner_AllDegrees
+  translation: "All degree programmes"
+
+- id: Planner_OnlySelected
+  translation: "Selected only"
+
+- id: Planner_NoResults
+  translation: "No subjects found. Try another search or change the filters."
+
+- id: Planner_Done
+  translation: "Done"
+
+- id: Planner_SubjectCount
+  translation: "Subjects: %n"
+
+- id: Planner_LessonCount
+  translation: "Lessons: %n"
+
+- id: Planner_OverlapHint
+  translation: "Overlapping lessons appear side by side."
+
+- id: Planner_Overlap
+  translation: "Overlapping lessons"
+
+- id: Planner_NoLessons
+  translation: "No lessons on this day"
+
+- id: Planner_NoLessonsHint
+  translation: "Choose another day to see your lessons."
+
+- id: Planner_NoScheduledLessons
+  translation: "No scheduled lessons for your selected subjects."
+
+- id: Planner_Cancelled
+  translation: "Cancelled lesson"
+
+- id: Planner_RoomPending
+  translation: "Room to be confirmed"
+
+- id: Planner_Alerts
+  translation: "See details for notices"
+
+- id: Planner_Today
+  translation: "Today"
+
+- id: Planner_Now
+  translation: "Now"
+
+- id: Planner_Next
+  translation: "Next"
+
+- id: Planner_BackToTimetable
+  translation: "Back to timetable"
+
+- id: Planner_BothChannels
+  translation: "You picked both channels (A-L and M-Z) of: %s"
+
+- id: Planner_SubjectSaved
+  translation: "“%s” saved."
+
+- id: Planner_Hidden
+  translation: "Hidden"
+
+- id: Planner_OptionalLinks
+  translation: "Links (optional)"
+
+- id: Planner_Lessons
+  translation: "Lessons"
+
+- id: Planner_TimeOrder
+  translation: "The end time must be after the start time."
+
+- id: Planner_TimeFormat
+  translation: "Time format"
+
+- id: Planner_TimeAutomatic
+  translation: "Automatic"
+
+- id: Planner_Time12
+  translation: "12-hour"
+
+- id: Planner_Time24
+  translation: "24-hour"
+
+- id: Planner_RemoveLessonConfirm
+  translation: "Remove this lesson from the custom subject? The change will take effect when you save the subject."
+
+- id: Planner_ConfirmRemoval
+  translation: "Confirm removal"
+
+- id: Planner_CustomNames
+  translation: "Abbreviations"
+
+- id: Planner_CustomNamesHint
+  translation: "Leave these fields empty to use the full name and its initials."
+
+- id: Planner_OptionalLessonDetails
+  translation: "Teacher, links and other details"
+
+- id: Planner_LessonNumber
+  translation: "Lesson %n"
+
+- id: Planner_SubjectRemoved
+  translation: "“%s” removed."
