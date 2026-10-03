@@ -59,6 +59,10 @@ from which you can then create a pull request.
 
 * [Gianmaria Romano (GianmariaRomano)](https://github.com/GianmariaRomano/Data-Science-Notes)
 
+### Enrolment academic year 2025/26
+
+* [Stefano Solazzo (dsnotes)](https://ds-notes-fedb61.pages.dev)
+
 ## Teaching Telegram groups
 
 The [Telegram groups for individual courses](/datasci/channels/groups/#teaching-groups) are useful spaces for discussing with other students and exchanging information and material related to different courses. New Telegram members can also access the full chat history, since messages and shared files are stored in the cloud. We therefore recommend searching previous messages as well: over time, exercises, explanations, and useful resources may have been shared there.
