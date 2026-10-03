@@ -120,8 +120,8 @@
 .planner-week .planner-lesson-time { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
 .planner-week .planner-lesson-name { font-size: .8rem; line-height: 1.25; }
 .planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .72rem; line-height: 1.3; }
-// Short or narrow blocks keep the time and name; the full room lives in the title and details.
-@container (max-height: 3.4rem) or (max-width: 5.5rem) { .planner-lesson-room { display: none; } }
+// Short blocks, and narrow ones without a spare line, keep the time and name; the full room lives in the title and details.
+@container (max-height: 3.4rem) or ((max-width: 5.5rem) and (height < 4.5rem)) { .planner-lesson-room { display: none; } }
 // Short lessons reserve two lines for the time and name, with the warning in the corner.
 @container (max-height: 3.4rem) {
   .planner-lesson-time { display: block; }
@@ -135,9 +135,6 @@
   .planner-lesson-name { display: none; }
   .planner-lesson-abbr { display: block; order: -1; }
   .planner-week :is(.planner-lesson-time, .planner-lesson-room) { font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
-}
-@container (max-width: 4.5rem) and (min-height: 4.5rem) {
-  .planner-lesson-room { display: block; }
 }
 .planner-agenda { display: none; padding: 0 1.25rem 1.25rem; }
 .timetable-planner[data-view="agenda"] { .planner-week-view { display: none; } .planner-agenda { display: block; } }
@@ -319,9 +316,8 @@
   .planner-view-switch button { flex: 1; justify-content: center; }
   .planner-button-label { display: none; }
   .planner-agenda { padding-inline: 1rem; }
-  // Fit a simple week; overlapping lessons keep readable lanes inside the scroll region.
-  .planner-week { --planner-axis: 2.75rem; min-width: 0; }
-  .planner-week:has(.planner-warning-icon) { min-width: calc(var(--planner-axis) + var(--planner-lanes) * 10rem); }
+  // Lanes shrink to fit the phone; only very crowded weeks fall back to scrolling.
+  .planner-week { --planner-axis: 2.75rem; min-width: calc(var(--planner-axis) + var(--planner-lanes) * 2.5rem); }
   .planner-hour { font-size: .7rem; }
   .planner-week-heading { padding-inline: .15rem; }
   .planner-day-full { display: none; }
