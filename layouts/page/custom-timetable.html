@@ -892,56 +892,58 @@
         return readableId.length > 12 ? `…${readableId.slice(-12)}` : readableId;
     }
 
-    function openCustomSubjectsManager(status = "") {
+    // Re-rendering an open manager keeps focus on the matching control instead of dropping it.
+    function openCustomSubjectsManager(status = "", focus = "button") {
         document.getElementById("customSubjectsManagerStatus").textContent = status;
         const list = document.getElementById("customSubjectsManagerList");
         list.replaceChildren();
+        const button = (label, icon, onclick, className = "") => {
+            const element = document.createElement("button");
+            element.type = "button";
+            element.className = `custom-subject-button ${className}`.trim();
+            element.innerHTML = `<i class="fa-solid ${icon}" aria-hidden="true"></i>`;
+            if (className.includes("--icon")) {
+                element.setAttribute("aria-label", label);
+                element.title = label;
+            } else {
+                element.append(label);
+            }
+            element.onclick = onclick;
+            return element;
+        };
         getCustomSubjects().forEach((subject) => {
             const card = document.createElement("article");
-            card.className = "custom-subject-card";
+            card.className = `custom-subject-card${subject.hidden ? " custom-subject-card--hidden" : ""}`;
+            card.dataset.subjectId = subject.id;
+            card.style.setProperty("--subject-color", subject.color);
             const content = document.createElement("div");
             content.className = "custom-subject-card__content";
             const heading = document.createElement("h3");
             heading.textContent = subject.name;
             const meta = document.createElement("p");
-            const count = subject.lessons.length;
             meta.textContent = [
-                `{{ T "Subjs_CustomTimetable_CustomScheduleCount" }}`.replace("%d", count),
+                ...subject.lessons.map((lesson) => `${customTimetableDayShorts[lesson.dayIndex]} ${plannerTimeRange(plannerMinutes(lesson.startTime), plannerMinutes(lesson.endTime))}`),
                 subject.hidden && "{{ T "Planner_Hidden" }}",
             ].filter(Boolean).join(" · ");
             content.append(heading, meta);
             const actions = document.createElement("div");
             actions.className = "custom-subject-card__actions";
-            const toggle = document.createElement("button");
-            toggle.type = "button";
-            toggle.className = "custom-subject-button";
-            toggle.textContent = subject.hidden
-                ? "{{ T "Subjs_CustomTimetable_CustomShow" }}"
-                : "{{ T "Subjs_CustomTimetable_CustomHide" }}";
-            toggle.onclick = () => toggleCustomSubjectVisibility(subject.id);
-            const edit = document.createElement("button");
-            edit.type = "button";
-            edit.className = "custom-subject-button";
-            edit.textContent = `{{ T "Subjs_CustomTimetable_CustomEdit" }}`;
-            edit.onclick = () => {
-                document.getElementById("customSubjectsManagerDialog").close();
-                openCustomSubjectDialog(subject.id);
-            };
-            const exportButton = document.createElement("button");
-            exportButton.type = "button";
-            exportButton.className = "custom-subject-button";
-            exportButton.textContent = "{{ T "Subjs_CustomTimetable_CustomExport" }}";
-            exportButton.onclick = () => exportCustomSubject(subject.id);
-            const remove = document.createElement("button");
-            remove.type = "button";
-            remove.className = "custom-subject-button";
-            remove.textContent = "{{ T "Subjs_CustomTimetable_CustomRemove" }}";
-            remove.onclick = () => removeCustomSubject(subject.id);
-            actions.append(toggle, edit, exportButton, remove);
+            actions.append(
+                button(`{{ T "Subjs_CustomTimetable_CustomEdit" }}`, "fa-pen", () => {
+                    document.getElementById("customSubjectsManagerDialog").close();
+                    openCustomSubjectDialog(subject.id);
+                }),
+                button(subject.hidden ? "{{ T "Subjs_CustomTimetable_CustomShow" }}" : "{{ T "Subjs_CustomTimetable_CustomHide" }}",
+                    subject.hidden ? "fa-eye" : "fa-eye-slash", () => toggleCustomSubjectVisibility(subject.id), "custom-subject-button--icon custom-subject-toggle"),
+                button("{{ T "Subjs_CustomTimetable_CustomExport" }}", "fa-download", () => exportCustomSubject(subject.id), "custom-subject-button--icon"),
+                button("{{ T "Subjs_CustomTimetable_CustomRemove" }}", "fa-trash-can", () => removeCustomSubject(subject.id), "custom-subject-button--icon custom-subject-button--remove"),
+            );
             card.append(content, actions);
             list.append(card);
         });
-        document.getElementById("customSubjectsManagerDialog").showModal();
+        const dialog = document.getElementById("customSubjectsManagerDialog");
+        if (!dialog.open) return dialog.showModal();
+        (dialog.querySelector(focus) || dialog.querySelector("button")).focus();
     }
 
     function customSubjectDownloadName(subject) {
@@ -1036,7 +1038,7 @@
         subject.hidden = !subject.hidden;
         setCustomSubjects(subjects);
         renderCustomTimetable();
-        openCustomSubjectsManager();
+        openCustomSubjectsManager("", `[data-subject-id="${CSS.escape(id)}"] .custom-subject-toggle`);
     }
 
     function confirmCustomRemoval(message, onConfirm) {
@@ -1059,9 +1061,9 @@
             setCustomSubjects(getCustomSubjects().filter((item) => item.id !== id));
             renderCustomTimetable();
             if (getCustomSubjects().length) {
-                openCustomSubjectsManager();
+                openCustomSubjectsManager("{{ T "Planner_SubjectRemoved" }}".replace("%s", subject.name));
             } else {
-                document.getElementById("customSubjectsManagerDialog").close();
+                backFromCustomSubjectsManager();
             }
         });
     }
@@ -1138,7 +1140,10 @@
                 tableBody.append(row);
             });
             table.append(tableHead, tableBody);
-            article.append(heading, userInserted, table);
+            const tableScroll = document.createElement("div");
+            tableScroll.className = "custom-subject-details-table";
+            tableScroll.append(table);
+            article.append(heading, userInserted, tableScroll);
             list.append(article);
         });
     }

@@ -548,3 +548,6 @@
 
 - id: Planner_LessonNumber
   translation: "Lezione %n"
+
+- id: Planner_SubjectRemoved
+  translation: "“%s” rimossa."
