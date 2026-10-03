@@ -894,6 +894,15 @@
         const readableId = id.startsWith("custom-") ? id.slice(7) : id;
         return readableId.length > 12 ? `…${readableId.slice(-12)}` : readableId;
     }
+    function customSubjectIdentity(subject, subjects) {
+        const name = subject.name.trim().toLowerCase();
+        const sameName = subjects.filter((item) => item.name.trim().toLowerCase() === name);
+        if (sameName.length < 2) return "";
+        const shortId = compactCustomSubjectId(subject.id);
+        const id = sameName.some((item) => item.id !== subject.id && compactCustomSubjectId(item.id) === shortId)
+            ? subject.id : shortId;
+        return `ID ${id}`;
+    }
 
     // Re-rendering an open manager keeps focus on the matching control instead of dropping it.
     function openCustomSubjectsManager(status = "", focus = "button") {
@@ -914,7 +923,8 @@
             element.onclick = onclick;
             return element;
         };
-        getCustomSubjects().forEach((subject) => {
+        const subjects = getCustomSubjects();
+        subjects.forEach((subject) => {
             const card = document.createElement("article");
             card.className = `custom-subject-card${subject.hidden ? " custom-subject-card--hidden" : ""}`;
             card.dataset.subjectId = subject.id;
@@ -924,7 +934,10 @@
             const heading = document.createElement("h3");
             heading.textContent = subject.name;
             const meta = document.createElement("p");
+            const identity = customSubjectIdentity(subject, subjects);
+            meta.title = identity ? subject.id : "";
             meta.textContent = [
+                identity,
                 ...subject.lessons.map((lesson) => `${customTimetableDayShorts[lesson.dayIndex]} ${plannerTimeRange(plannerMinutes(lesson.startTime), plannerMinutes(lesson.endTime))}`),
                 subject.hidden && "{{ T "Planner_Hidden" }}",
             ].filter(Boolean).join(" · ");
@@ -1096,6 +1109,7 @@
     function renderCustomSubjectDetails(subjects) {
         const section = document.getElementById("customSubjectsDetails");
         const list = document.getElementById("customSubjectsDetailsList");
+        const allSubjects = getCustomSubjects();
         list.replaceChildren();
         section.classList.toggle("hidden", !subjects.length);
         subjects.forEach((subject) => {
@@ -1104,7 +1118,9 @@
             const heading = document.createElement("h3");
             heading.textContent = `${subject.name} (${subject.shortName}) [${subject.abbr}]`;
             const userInserted = document.createElement("p");
-            userInserted.textContent = "{{ T "Subjs_CustomTimetable_UserInserted" }}";
+            const identity = customSubjectIdentity(subject, allSubjects);
+            userInserted.title = identity ? subject.id : "";
+            userInserted.textContent = ["{{ T "Subjs_CustomTimetable_UserInserted" }}", identity].filter(Boolean).join(" · ");
             const table = document.createElement("table");
             const tableHead = document.createElement("thead");
             const headerRow = document.createElement("tr");
