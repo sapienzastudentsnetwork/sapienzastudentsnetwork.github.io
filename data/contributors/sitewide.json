@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T09:54:34Z",
-  "source_commit": "db04aec4ae54016972e031940bc9cc94610d8f01",
+  "generated_at": "2026-10-03T09:14:50Z",
+  "source_commit": "a4415f17a3034037ef76ecf82d843ba6ef0b5e7f",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 757,
-      "additions": 78275,
-      "deletions": 61837,
-      "effective_lines": 140112,
+      "commits": 760,
+      "additions": 79443,
+      "deletions": 62070,
+      "effective_lines": 141513,
       "score": 100.0,
       "rank": 1
     },
@@ -25,7 +25,7 @@
       "additions": 26940,
       "deletions": 12981,
       "effective_lines": 39921,
-      "score": 79.7,
+      "score": 79.6,
       "rank": 2
     },
     {
@@ -38,7 +38,7 @@
       "additions": 3321,
       "deletions": 1641,
       "effective_lines": 4962,
-      "score": 63.2,
+      "score": 63.1,
       "rank": 3
     },
     {
@@ -77,7 +77,7 @@
       "additions": 968,
       "deletions": 511,
       "effective_lines": 1479,
-      "score": 46.7,
+      "score": 46.6,
       "rank": 6
     },
     {
@@ -116,7 +116,7 @@
       "additions": 260,
       "deletions": 5,
       "effective_lines": 265,
-      "score": 32.5,
+      "score": 32.4,
       "rank": 9
     },
     {
@@ -129,7 +129,7 @@
       "additions": 72,
       "deletions": 53,
       "effective_lines": 125,
-      "score": 28.7,
+      "score": 28.6,
       "rank": 10
     },
     {
@@ -155,7 +155,7 @@
       "additions": 53,
       "deletions": 6,
       "effective_lines": 59,
-      "score": 27.4,
+      "score": 27.3,
       "rank": 12
     },
     {
@@ -194,7 +194,7 @@
       "additions": 11,
       "deletions": 0,
       "effective_lines": 11,
-      "score": 16.8,
+      "score": 16.7,
       "rank": 15
     },
     {
