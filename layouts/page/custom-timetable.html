@@ -117,29 +117,29 @@
       </button>
     </header>
     <div class="custom-subject-editor-body">
+    <p class="custom-subject-required-note">{{ replace (T "Subjs_CustomTimetable_CustomRequiredNote") "*" `<span class="custom-subject-required">*</span>` | safeHTML }}</p>
     <div class="custom-subject-grid">
     <label id="customSubjectImportIdField" class="custom-subject-field custom-subject-field--wide custom-subject-import-id-field hidden" hidden>
-      <span>ID <span aria-hidden="true">*</span></span>
+      <span>ID <span class="custom-subject-required" aria-hidden="true">*</span></span>
       <input id="customSubjectImportId" type="text" autocomplete="off" spellcheck="false" oninput="updateCustomSubjectImportIdState()">
       <small id="customSubjectImportIdMessage" class="custom-subject-import-id-message" aria-live="polite"></small>
     </label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span aria-hidden="true">*</span></span><input id="customSubjectName" autofocus required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
+      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span class="custom-subject-required" aria-hidden="true">*</span></span><input id="customSubjectName" autofocus required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
       <label class="custom-subject-field custom-subject-color-field"><span>{{ T "Subjs_CustomTimetable_CustomColor" }}</span><input id="customSubjectColor" type="color" value="#fbc02d"></label>
-      <details id="customSubjectNames" class="custom-subject-names custom-subject-field--wide">
-          <summary>{{ T "Planner_CustomNames" }}</summary>
+      <fieldset class="custom-subject-names custom-subject-field--wide">
+          <legend>{{ T "Planner_CustomNames" }}</legend>
           <p class="custom-subject-help">{{ T "Planner_CustomNamesHint" }}</p>
           <div class="custom-subject-name-fields">
               <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }}</span><input id="customSubjectShortName" maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
               <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }}</span><input id="customSubjectAbbr" maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
           </div>
-      </details>
+      </fieldset>
     </div>
     <section class="custom-subject-editor-section">
         <div class="custom-subject-editor-section__heading"><h3>{{ T "Planner_Lessons" }}</h3></div>
         <div id="customSubjectLessons" class="custom-subject-stack"></div>
         <button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</button>
     </section>
-    <p class="custom-subject-required-note">{{ T "Subjs_CustomTimetable_CustomRequiredNote" }}</p>
     </div>
     <footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectEditor()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button id="customSubjectSubmitButton" type="submit" class="custom-subject-button custom-subject-button--primary" disabled>{{ T "Subjs_CustomTimetable_CustomSave" }}</button></footer>
   </form>
@@ -608,7 +608,8 @@
         const field = document.createElement("label");
         field.className = `custom-subject-dynamic-field ${extraClass}`.trim();
         const caption = document.createElement("span");
-        caption.textContent = required ? `${label} *` : label;
+        caption.textContent = label;
+        if (required) caption.insertAdjacentHTML("beforeend", ' <span class="custom-subject-required" aria-hidden="true">*</span>');
         if (required) control.required = true;
         field.append(caption, control);
         return field;
@@ -653,19 +654,22 @@
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}", endInput, "", true),
         );
 
-        const classroom = labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}",
-            makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}"));
+        const classroom = document.createElement("div");
+        classroom.className = "custom-subject-field-group custom-subject-field-group--classroom";
+        classroom.append(
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}", makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}")),
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
+        );
 
         // Optional details stay folded for new lessons; field order matches saveCustomSubject.
         const links = document.createElement("details");
         links.className = "custom-subject-links";
-        links.open = Boolean(lesson.roomAbbr || lesson.teacherName || lesson.roomUrl || lesson.teacherUrl);
+        links.open = Boolean(lesson.teacherName || lesson.roomUrl || lesson.teacherUrl);
         const linksSummary = document.createElement("summary");
         linksSummary.textContent = "{{ T "Planner_OptionalLessonDetails" }}";
         const linksGroup = document.createElement("div");
         linksGroup.className = "custom-subject-field-group custom-subject-field-group--teacher";
         linksGroup.append(
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
             labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}", makeField("url", lesson.roomUrl, "https://maps.app.goo.gl/...")),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomTeacherUrl" }}", teacherUrlInput),
@@ -753,7 +757,6 @@
         document.getElementById("customSubjectShortName").value = subject?.shortName || "";
         document.getElementById("customSubjectAbbr").value = subject?.abbr || "";
         document.getElementById("customSubjectColor").value = subject?.color || "#fbc02d";
-        document.getElementById("customSubjectNames").open = false;
         document.getElementById("customSubjectLessons").replaceChildren();
         (subject?.lessons?.length ? subject.lessons : [{}]).forEach(addCustomLessonRow);
 

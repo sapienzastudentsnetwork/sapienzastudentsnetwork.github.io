@@ -538,7 +538,7 @@
   translation: "Conferma eliminazione"
 
 - id: Planner_CustomNames
-  translation: "Abbreviazioni (facoltative)"
+  translation: "Abbreviazioni"
 
 - id: Planner_CustomNamesHint
   translation: "Se lasci questi campi vuoti, useremo il nome completo e le sue iniziali."

@@ -533,7 +533,7 @@
   translation: "Confirm removal"
 
 - id: Planner_CustomNames
-  translation: "Abbreviations (optional)"
+  translation: "Abbreviations"
 
 - id: Planner_CustomNamesHint
   translation: "Leave these fields empty to use the full name and its initials."
