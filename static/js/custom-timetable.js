@@ -331,3 +331,13 @@ function plannerSwipe(event) {
     const dy = event.changedTouches[0].clientY - plannerTouch.clientY;
     if (Math.abs(dx) > 60 && Math.abs(dx) > 2 * Math.abs(dy)) setPlannerDay((plannerDay + (dx < 0 ? 1 : 4)) % 5);
 }
+
+// Abbreviations are optional when creating a course; imports retain their explicit names.
+function customSubjectNames(name, shortName, abbr) {
+    name = name.trim();
+    return {
+        name,
+        shortName: shortName.trim() || name,
+        abbr: (abbr.trim() || name.split(/\s+/).map(word => word[0]).join('').slice(0, 12)).toUpperCase(),
+    };
+}

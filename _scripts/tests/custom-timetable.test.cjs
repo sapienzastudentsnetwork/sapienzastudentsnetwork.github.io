@@ -91,4 +91,50 @@ screen.matches = true;
 planner.applyPlannerView();
 assert.equal(main.dataset.view, 'week');
 
+// Cancelling lesson removal keeps the editor row and its save state intact.
+const template = readFileSync(join(__dirname, '../../layouts/page/custom-timetable.html'), 'utf8');
+const removeButton = template.slice(template.indexOf('    function removeRowButton('), template.indexOf('    function updateCustomLessonNumbers('))
+    .replace(/{{ T "(\w+)" \| jsonify \| safeJS }}/g, '"$1"').replace(/{{ T "(\w+)" }}/g, '$1');
+let confirmed = false, removed = false, updated = false;
+const editor = {
+    document: { createElement: () => ({ setAttribute() {} }), querySelector: () => ({ focus() {} }) },
+    confirmCustomRemoval: (message, onConfirm) => { if (confirmed) onConfirm(); },
+    updateCustomSubjectSaveVisibility: () => { updated = true; },
+    updateCustomLessonNumbers() {},
+};
+vm.runInNewContext(removeButton, editor);
+const button = editor.removeRowButton({ remove: () => { removed = true; } });
+button.onclick();
+assert.equal(removed, false);
+assert.equal(updated, false);
+confirmed = true;
+button.onclick();
+assert.equal(removed, true);
+assert.equal(updated, true);
+// A new course needs one name; explicit abbreviations survive edits and imports.
+assert.deepEqual({ ...planner.customSubjectNames('  Machine Learning  ', '', '') },
+    { name: 'Machine Learning', shortName: 'Machine Learning', abbr: 'ML' });
+assert.deepEqual({ ...planner.customSubjectNames('Machine Learning', '  ML course ', ' ml ') },
+    { name: 'Machine Learning', shortName: 'ML course', abbr: 'ML' });
+// Escape shares Close/Back's discard guard, keeping a cancelled draft intact.
+const closeEditor = template.slice(template.indexOf('    function closeCustomSubjectDialog('), template.indexOf('    function saveCustomSubject('));
+const cancelHandler = template.match(/id="customSubjectDialog"[^>]*oncancel="([^"]+)"/)[1];
+let discarded = false, closed = false, prevented = false;
+const dismissal = {
+    confirmDiscardCustomSubjectChanges: () => discarded,
+    document: { getElementById: () => ({ close: () => { closed = true; } }) },
+    pendingCustomSubjectImport: 'draft import',
+    customSubjectEditorInitialState: 'draft state',
+    event: { preventDefault: () => { prevented = true; } },
+};
+vm.runInNewContext(closeEditor, dismissal);
+vm.runInNewContext(cancelHandler, dismissal);
+assert.equal(prevented, true);
+assert.equal(closed, false);
+assert.equal(dismissal.customSubjectEditorInitialState, 'draft state');
+discarded = true;
+vm.runInNewContext(cancelHandler, dismissal);
+assert.equal(closed, true);
+assert.equal(dismissal.customSubjectEditorInitialState, null);
+assert.equal(dismissal.pendingCustomSubjectImport, null);
 console.log('Custom timetable checks passed.');

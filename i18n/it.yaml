@@ -530,3 +530,21 @@
 
 - id: Planner_Time24
   translation: "24 ore"
+
+- id: Planner_RemoveLessonConfirm
+  translation: "Rimuovere questa lezione dalla materia personalizzata? La modifica sarà applicata quando salvi la materia."
+
+- id: Planner_ConfirmRemoval
+  translation: "Conferma eliminazione"
+
+- id: Planner_CustomNames
+  translation: "Abbreviazioni (facoltative)"
+
+- id: Planner_CustomNamesHint
+  translation: "Se lasci questi campi vuoti, useremo il nome completo e le sue iniziali."
+
+- id: Planner_OptionalLessonDetails
+  translation: "Docente, link e altri dettagli"
+
+- id: Planner_LessonNumber
+  translation: "Lezione %n"

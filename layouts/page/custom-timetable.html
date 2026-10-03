@@ -99,7 +99,7 @@
     </div>
 </dialog>
 
-<dialog id="customSubjectDialog" class="custom-subject-dialog" onclick="if (event.target === this) closeCustomSubjectDialog()">
+<dialog id="customSubjectDialog" class="custom-subject-dialog" aria-labelledby="customSubjectDialogTitle" onclick="if (event.target === this) closeCustomSubjectDialog()" oncancel="event.preventDefault(); closeCustomSubjectDialog()">
   <form id="customSubjectForm" class="custom-subject-form" onsubmit="saveCustomSubject(event)">
     <input id="customSubjectId" type="hidden">
 
@@ -109,22 +109,43 @@
         <i class="fa-solid fa-xmark" aria-hidden="true"></i>
       </button>
     </header>
+    <div class="custom-subject-editor-body">
     <div class="custom-subject-grid">
     <label id="customSubjectImportIdField" class="custom-subject-field custom-subject-field--wide custom-subject-import-id-field hidden" hidden>
       <span>ID <span aria-hidden="true">*</span></span>
       <input id="customSubjectImportId" type="text" autocomplete="off" spellcheck="false" oninput="updateCustomSubjectImportIdState()">
       <small id="customSubjectImportIdMessage" class="custom-subject-import-id-message" aria-live="polite"></small>
     </label>
-      <label class="custom-subject-field custom-subject-field--wide"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span aria-hidden="true">*</span></span><input id="customSubjectName" required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }} <span aria-hidden="true">*</span></span><input id="customSubjectShortName" required maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }} <span aria-hidden="true">*</span></span><input id="customSubjectAbbr" required maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
-      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomColor" }}</span><input id="customSubjectColor" type="color" value="#fbc02d"></label>
+      <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomName" }} <span aria-hidden="true">*</span></span><input id="customSubjectName" autofocus required maxlength="100" placeholder="{{ T "Subjs_CustomTimetable_CustomNameExample" }}"></label>
+      <label class="custom-subject-field custom-subject-color-field"><span>{{ T "Subjs_CustomTimetable_CustomColor" }}</span><input id="customSubjectColor" type="color" value="#fbc02d"></label>
+      <details id="customSubjectNames" class="custom-subject-names custom-subject-field--wide">
+          <summary>{{ T "Planner_CustomNames" }}</summary>
+          <p class="custom-subject-help">{{ T "Planner_CustomNamesHint" }}</p>
+          <div class="custom-subject-name-fields">
+              <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomShortName" }}</span><input id="customSubjectShortName" maxlength="40" placeholder="{{ T "Subjs_CustomTimetable_CustomShortNameExample" }}"></label>
+              <label class="custom-subject-field"><span>{{ T "Subjs_CustomTimetable_CustomAbbr" }}</span><input id="customSubjectAbbr" maxlength="12" placeholder="{{ T "Subjs_CustomTimetable_CustomAbbrExample" }}"></label>
+          </div>
+      </details>
     </div>
-    <section class="custom-subject-editor-section"><div class="custom-subject-editor-section__heading"><h3>{{ T "Planner_Lessons" }}</h3><button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</span></button></div><div id="customSubjectLessons" class="custom-subject-stack"></div></section>
+    <section class="custom-subject-editor-section">
+        <div class="custom-subject-editor-section__heading"><h3>{{ T "Planner_Lessons" }}</h3></div>
+        <div id="customSubjectLessons" class="custom-subject-stack"></div>
+        <button type="button" class="custom-subject-mini-button custom-subject-add-lesson-button" onclick="addCustomLessonRow()"><i class="fa-solid fa-plus" aria-hidden="true"></i>{{ T "Subjs_CustomTimetable_CustomAddLesson" }}</button>
+    </section>
     <p class="custom-subject-required-note">{{ T "Subjs_CustomTimetable_CustomRequiredNote" }}</p>
+    </div>
     <footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectEditor()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button id="customSubjectSubmitButton" type="submit" class="custom-subject-button custom-subject-button--primary" disabled>{{ T "Subjs_CustomTimetable_CustomSave" }}</button></footer>
   </form>
 </dialog>
+<dialog id="customRemovalDialog" class="custom-subject-dialog custom-removal-dialog" aria-labelledby="customRemovalTitle" aria-describedby="customRemovalMessage" onclick="if (event.target === this) this.close()">
+    <header class="custom-subject-dialog__header"><h2 id="customRemovalTitle">{{ T "Planner_ConfirmRemoval" }}</h2></header>
+    <p id="customRemovalMessage" class="custom-removal-message"></p>
+    <footer class="custom-subject-dialog__footer">
+        <button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()" autofocus>{{ T "Subjs_CustomTimetable_CustomCancel" }}</button>
+        <button id="customRemovalConfirm" type="button" class="custom-subject-button custom-subject-button--danger">{{ T "Subjs_CustomTimetable_CustomRemove" }}</button>
+    </footer>
+</dialog>
+
 <dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" onclick="if (event.target === this) this.close()">
   <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><p id="customSubjectsManagerStatus" class="custom-subject-status" role="status"></p><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
 </dialog>
@@ -566,16 +587,22 @@
     function removeRowButton(row) {
         const button = document.createElement("button");
         button.type = "button";
-        button.className = "custom-subject-remove-lesson-button";
-        button.innerHTML = [
-            '<i class="fa-solid fa-trash-can" aria-hidden="true"></i>',
-            '<span>{{ T "Subjs_CustomTimetable_CustomRemoveLesson" }}</span>',
-        ].join("");
-        button.onclick = () => {
+        button.className = "custom-subject-button custom-subject-button--icon custom-subject-button--remove custom-subject-remove-lesson-button";
+        button.innerHTML = '<i class="fa-solid fa-trash-can" aria-hidden="true"></i>';
+        button.title = "{{ T "Subjs_CustomTimetable_CustomRemoveLesson" }}";
+        button.setAttribute("aria-label", button.title);
+        button.onclick = () => confirmCustomRemoval({{ T "Planner_RemoveLessonConfirm" | jsonify | safeJS }}, () => {
             row.remove();
+            updateCustomLessonNumbers();
             updateCustomSubjectSaveVisibility();
-        };
+            document.querySelector(".custom-subject-add-lesson-button").focus();
+        });
         return button;
+    }
+    function updateCustomLessonNumbers() {
+        document.querySelectorAll(".custom-subject-lesson-heading h4").forEach((heading, index) => {
+            heading.textContent = "{{ T "Planner_LessonNumber" }}".replace("%n", index + 1);
+        });
     }
     function labeledCustomField(label, control, extraClass = "", required = false) {
         const field = document.createElement("label");
@@ -626,30 +653,31 @@
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomEnd" }}", endInput, "", true),
         );
 
-        const classroomGroup = document.createElement("div");
-        classroomGroup.className = "custom-subject-field-group custom-subject-field-group--classroom";
-        classroomGroup.append(
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}", makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}")),
-            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
-            labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
-        );
+        const classroom = labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroom" }}",
+            makeField("text", lesson.roomName, "{{ T "Subjs_CustomTimetable_CustomClassroomExample" }}"));
 
-        // Optional links stay folded until needed; field order matches saveCustomSubject.
+        // Optional details stay folded for new lessons; field order matches saveCustomSubject.
         const links = document.createElement("details");
         links.className = "custom-subject-links";
-        links.open = Boolean(lesson.roomUrl || lesson.teacherUrl);
+        links.open = Boolean(lesson.roomAbbr || lesson.teacherName || lesson.roomUrl || lesson.teacherUrl);
         const linksSummary = document.createElement("summary");
-        linksSummary.textContent = "{{ T "Planner_OptionalLinks" }}";
+        linksSummary.textContent = "{{ T "Planner_OptionalLessonDetails" }}";
         const linksGroup = document.createElement("div");
         linksGroup.className = "custom-subject-field-group custom-subject-field-group--teacher";
         linksGroup.append(
+            labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomAbbr" }}", makeField("text", lesson.roomAbbr, "{{ T "Subjs_CustomTimetable_CustomClassroomAbbrExample" }}")),
+            labeledCustomField("{{ T "Subjs_TimetablesPerTeaching_Teacher" }}", teacherInput),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomClassroomUrl" }}", makeField("url", lesson.roomUrl, "https://maps.app.goo.gl/...")),
             labeledCustomField("{{ T "Subjs_CustomTimetable_CustomTeacherUrl" }}", teacherUrlInput),
         );
         links.append(linksSummary, linksGroup);
 
-        row.append(timeGroup, classroomGroup, links, removeRowButton(row));
+        const heading = document.createElement("div");
+        heading.className = "custom-subject-lesson-heading";
+        heading.append(document.createElement("h4"), removeRowButton(row));
+        row.append(heading, timeGroup, classroom, links);
         document.getElementById("customSubjectLessons").append(row);
+        updateCustomLessonNumbers();
         updateCustomSubjectSaveVisibility();
     }
 
@@ -725,6 +753,7 @@
         document.getElementById("customSubjectShortName").value = subject?.shortName || "";
         document.getElementById("customSubjectAbbr").value = subject?.abbr || "";
         document.getElementById("customSubjectColor").value = subject?.color || "#fbc02d";
+        document.getElementById("customSubjectNames").open = false;
         document.getElementById("customSubjectLessons").replaceChildren();
         (subject?.lessons?.length ? subject.lessons : [{}]).forEach(addCustomLessonRow);
 
@@ -760,6 +789,7 @@
         if (!form.dataset.changeTrackingBound) {
             form.addEventListener("input", handleCustomSubjectEditorChange);
             form.addEventListener("change", handleCustomSubjectEditorChange);
+            form.addEventListener("invalid", (event) => event.target.closest("details")?.setAttribute("open", ""), true);
             form.dataset.changeTrackingBound = "true";
         }
         document.getElementById("customSubjectDialog").showModal();
@@ -802,9 +832,11 @@
         const subject = {
             id,
             hidden: previous?.hidden || false,
-            name: document.getElementById("customSubjectName").value.trim(),
-            shortName: document.getElementById("customSubjectShortName").value.trim(),
-            abbr: document.getElementById("customSubjectAbbr").value.trim().toUpperCase(),
+            ...customSubjectNames(
+                document.getElementById("customSubjectName").value,
+                document.getElementById("customSubjectShortName").value,
+                document.getElementById("customSubjectAbbr").value,
+            ),
             color: document.getElementById("customSubjectColor").value,
             lessons,
         };
@@ -1007,20 +1039,31 @@
         openCustomSubjectsManager();
     }
 
+    function confirmCustomRemoval(message, onConfirm) {
+        const dialog = document.getElementById("customRemovalDialog");
+        document.getElementById("customRemovalMessage").textContent = message;
+        document.getElementById("customRemovalConfirm").onclick = () => {
+            dialog.close();
+            onConfirm();
+        };
+        dialog.showModal();
+    }
+
     function removeCustomSubject(id) {
         const subject = getCustomSubjects().find((item) => item.id === id);
         if (!subject) return;
         const message = `{{ T "Subjs_CustomTimetable_CustomRemoveConfirm" }}`
             .replace("%s", subject.name)
             .replace("%id", compactCustomSubjectId(subject.id));
-        if (!confirm(message)) return;
-        setCustomSubjects(getCustomSubjects().filter((item) => item.id !== id));
-        renderCustomTimetable();
-        if (getCustomSubjects().length) {
-            openCustomSubjectsManager();
-        } else {
-            document.getElementById("customSubjectsManagerDialog").close();
-        }
+        confirmCustomRemoval(message, () => {
+            setCustomSubjects(getCustomSubjects().filter((item) => item.id !== id));
+            renderCustomTimetable();
+            if (getCustomSubjects().length) {
+                openCustomSubjectsManager();
+            } else {
+                document.getElementById("customSubjectsManagerDialog").close();
+            }
+        });
     }
     function safeLink(label, url) {
         if (!url) {

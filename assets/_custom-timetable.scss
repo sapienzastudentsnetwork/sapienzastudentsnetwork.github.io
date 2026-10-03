@@ -7,6 +7,7 @@
   --planner-surface: color-mix(in srgb, var(--body-font-color) 4%, var(--body-background));
   // Mixing with the text colour darkens amber on light themes and lightens it on dark ones.
   --planner-warning: color-mix(in srgb, #d97706 70%, var(--body-font-color));
+  --planner-danger: color-mix(in srgb, #d84747 80%, var(--body-font-color));
   color: var(--body-font-color);
   font: inherit;
   font-variant-numeric: tabular-nums;
@@ -232,11 +233,21 @@
 
 // Custom subjects retain the existing editor and import/export workflow.
 .custom-subject-form, .custom-subject-manager { max-height: calc(100dvh - 2rem); overflow-y: auto; }
+.custom-subject-form { display: flex; flex-direction: column; overflow: hidden; }
+.custom-subject-editor-body { min-height: 0; overflow-y: auto; }
+.custom-subject-form > .custom-subject-dialog__footer { flex-shrink: 0; }
+.custom-subject-color-field { align-items: center; }
+.custom-subject-name-fields { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: .85rem; }
+.custom-subject-help { margin: .25rem 0 .85rem; color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
+.custom-subject-names summary { cursor: pointer; padding-block: .5rem; font-size: .85rem; }
+.custom-subject-lesson-heading { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.custom-subject-lesson-heading h4 { margin: 0; color: var(--body-font-color); font-size: .9rem; font-weight: 600; }
+.custom-subject-add-lesson-button { margin-top: .75rem; width: 100%; border-style: dashed; }
 .custom-subject-dialog__header { border-bottom: 1px solid var(--planner-line); }
 .custom-subject-dialog__footer { display: flex; justify-content: flex-end; gap: .65rem; padding: 1rem 1.25rem; border-top: 1px solid var(--planner-line); }
 .custom-subject-back-button { margin-right: auto; }
 .custom-subject-grid, .custom-subject-editor-section { margin: 1.25rem; }
-.custom-subject-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+.custom-subject-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: .85rem; }
 .custom-subject-field, .custom-subject-dynamic-field { display: flex; flex-direction: column; gap: .35rem; min-width: 0; font-size: .85rem; }
 .custom-subject-field--wide, .custom-subject-field-group { grid-column: 1 / -1; }
 .custom-subject-field input, .custom-subject-dynamic-field input, .custom-subject-dynamic-field select {
@@ -248,18 +259,23 @@
 .custom-subject-field span, .custom-subject-dynamic-field span { font-weight: 500; }
 .custom-subject-field-group { display: grid; gap: .75rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .custom-subject-field-group--time { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.custom-subject-field-group--classroom > :last-child { grid-column: 1 / -1; }
 .custom-subject-editor-section__heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem; }
 .custom-subject-editor-section__heading h3 { margin: 0; font-size: 1rem; color: var(--body-font-color); }
-.custom-subject-stack { display: flex; flex-direction: column; gap: 1rem; }
-.custom-subject-dynamic-row { display: grid; gap: 1rem; padding: 1rem 0; border-block-start: 1px solid var(--planner-line); }
+.custom-subject-stack { display: flex; flex-direction: column; gap: .75rem; }
+.custom-subject-dynamic-row { display: grid; gap: .75rem; padding: 1rem; border: 1px solid var(--planner-line); border-radius: 12px; background: var(--planner-surface); }
 .custom-subject-lesson-row:only-child .custom-subject-remove-lesson-button { display: none; }
 .custom-subject-links summary { padding-block: .75rem; cursor: pointer; font-size: .85rem; font-weight: 500; }
 .custom-subject-links[open] summary { margin-bottom: .5rem; }
 .custom-subject-status:not(:empty) { margin: 1rem 1.25rem 0; padding: .65rem .85rem; border-radius: 8px; background: color-mix(in srgb, #238636 10%, var(--body-background)); font-size: .85rem; }
-.custom-subject-remove-lesson-button { display: inline-flex; align-items: center; gap: .4rem; grid-column: 1 / -1; justify-self: end; min-height: 44px; padding: .6rem; border: 1px solid var(--planner-line); border-radius: 8px; background: var(--body-background); color: var(--body-font-color); font: inherit; font-size: .85rem; }
-.custom-subject-remove-lesson-button:hover { background: var(--planner-surface); }
+.custom-subject-button--icon { width: 44px; flex: 0 0 44px; padding: 0; }
+.custom-subject-button--remove { color: var(--planner-danger); }
 .custom-subject-required-note { margin: 0 1.25rem 1rem; color: var(--planner-muted); font-size: .8rem; }
+.custom-subject-dialog.custom-removal-dialog { max-width: 30rem; }
+.custom-removal-message { margin: 1.25rem; line-height: 1.5; overflow-wrap: anywhere; }
+.custom-subject-button--danger {
+  background: #b42332; border-color: #b42332; color: #fff;
+  &:hover:not(:disabled) { background: #941c29; }
+}
 .custom-subject-dialog.custom-subject-choice-dialog { max-width: 34rem; }
 .custom-subject-choice-list { padding: .5rem 1.25rem; }
 .custom-subject-choice { display: flex; gap: 1rem; align-items: center; width: 100%; padding: 1rem 0; border: 0; border-bottom: 1px solid var(--planner-line); background: transparent; color: var(--body-font-color); text-align: left; }
@@ -315,7 +331,10 @@
   .planner-picker-footer .planner-button { flex: 1; font-size: .85rem; }
   .custom-subject-form, .custom-subject-manager { max-height: calc(100dvh - 1rem); }
   .custom-subject-grid, .custom-subject-editor-section { margin: 1rem; }
-  .custom-subject-field-group--teacher, .custom-subject-field-group--classroom { grid-template-columns: 1fr; }
+  .custom-subject-field-group--teacher { grid-template-columns: 1fr; }
+  .custom-subject-field-group--time { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .custom-subject-field-group--time > :first-child { grid-column: 1 / -1; }
+  .custom-subject-field input[type="color"] { width: 3rem; }
   .custom-subject-dialog__footer { padding: 1rem; }
   .custom-subject-card__actions { display: grid; grid-template-columns: 1fr 1fr; }
 }

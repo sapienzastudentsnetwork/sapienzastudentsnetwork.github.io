@@ -531,3 +531,21 @@
 
 - id: Planner_Time24
   translation: "24-hour"
+
+- id: Planner_RemoveLessonConfirm
+  translation: "Remove this lesson from the custom subject? The change will take effect when you save the subject."
+
+- id: Planner_ConfirmRemoval
+  translation: "Confirm removal"
+
+- id: Planner_CustomNames
+  translation: "Abbreviations (optional)"
+
+- id: Planner_CustomNamesHint
+  translation: "Leave these fields empty to use the full name and its initials."
+
+- id: Planner_OptionalLessonDetails
+  translation: "Teacher, links and other details"
+
+- id: Planner_LessonNumber
+  translation: "Lesson %n"
