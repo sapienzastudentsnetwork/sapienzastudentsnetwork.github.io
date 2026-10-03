@@ -191,6 +191,18 @@
 .planner-picker-filters input { width: 18px; height: 18px; accent-color: var(--color-link); }
 #subjsPopUp .subjsList { display: block; flex: 1; min-height: 0; overflow-y: auto; padding: 0 1.25rem 1rem; margin: 0; width: 100%; border-top: 1px solid var(--planner-line); }
 #subjsPopUp .subjsGroupTitle { margin: 1.25rem 0 .5rem; text-align: left; font-size: 1rem; }
+#subjsPopUp {
+  [data-degree="33502"], .c-33502, .c-ACSAI { --degree-color: #ba5959; }
+  [data-degree="33503"], .c-33503, .c-Informatica { --degree-color: #599aba; }
+  [data-degree="33508"], .c-33508 { --degree-color: #59ba73; }
+  [data-degree="33514"], .c-33514 { --degree-color: #a9522b; }
+  [data-degree="33516"], .c-33516 { --degree-color: #c39c1f; }
+  [data-degree="33519"], .c-33519 { --degree-color: #ff781f; }
+  .subjsGroupTitle > span:first-child::before {
+    content: ''; display: inline-block; width: .55rem; height: .55rem; margin-right: .5rem;
+    border-radius: 50%; background: var(--degree-color, var(--color-link));
+  }
+}
 #subjsPopUp .subjsGroupTitle > span { color: var(--body-font-color); }
 #subjsPopUp .planner-degree-code { color: var(--planner-muted); font-size: .875rem; font-weight: 300; }
 #subjsPopUp .subjsSingCourse { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
@@ -198,13 +210,16 @@
   position: relative; justify-content: flex-start; width: 100%; height: auto; min-height: 52px;
   padding: .75rem 2.75rem .75rem .85rem; margin: 0;
   border: 1px solid var(--planner-line); border-radius: 8px;
-  background: var(--body-background); color: var(--body-font-color); box-shadow: none;
+  background: var(--body-background); box-shadow: none; color: var(--body-font-color);
   font-size: .9rem; line-height: 1.4; text-align: left;
   > span { white-space: normal; overflow: visible; text-align: left; text-wrap: auto; }
+  // Each course carries its programme's dot, so recommended courses from other degrees stay recognisable.
+  &::before { content: ''; flex: 0 0 .55rem; height: .55rem; margin-right: .65rem; border-radius: 50%; background: var(--degree-color, var(--planner-muted)); }
   &::after { content: ''; position: absolute; right: .85rem; top: calc(50% - .6rem); width: 1.2rem; height: 1.2rem; border: 1px solid var(--planner-line); border-radius: 4px; }
-  &[aria-pressed="true"] { background: color-mix(in srgb, var(--color-link) 8%, var(--body-background)); border-color: var(--color-link); }
-  &[aria-pressed="true"]::after { content: '\f00c'; font-family: var(--fa-family-classic); font-weight: 900; font-size: .75rem; line-height: 1.2rem; text-align: center; background: var(--color-link); border-color: var(--color-link); color: var(--body-background); }
-  &:hover { background: var(--planner-surface); }
+  --degree-strong: color-mix(in srgb, var(--degree-color) 75%, var(--body-font-color));
+  &:hover { background: color-mix(in srgb, var(--degree-color) 8%, var(--body-background)); }
+  &[aria-pressed="true"] { background: color-mix(in srgb, var(--degree-color) 15%, var(--body-background)); border-color: var(--degree-strong); }
+  &[aria-pressed="true"]::after { content: '\f00c'; font-family: var(--fa-family-classic); font-weight: 900; font-size: .75rem; line-height: 1.2rem; text-align: center; background: var(--degree-strong); border-color: var(--degree-strong); color: var(--body-background); }
 }
 #subjsPopUp .subjsCurriculumTitle { border: 0; padding: 0; margin: 1rem 0 .5rem; font-size: .85rem; color: var(--planner-muted); }
 #subjsPopUp .subjsSectionDivider { display: none; }
