@@ -122,6 +122,13 @@
 .planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .72rem; line-height: 1.3; }
 // Short or narrow blocks keep the time and name; the full room lives in the title and details.
 @container (max-height: 3.4rem) or (max-width: 5.5rem) { .planner-lesson-room { display: none; } }
+// Short lessons reserve two lines for the time and name, with the warning in the corner.
+@container (max-height: 3.4rem) {
+  .planner-lesson-time { display: block; }
+  .planner-lesson-time, .planner-lesson-name, .planner-lesson-abbr { flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .planner-lesson:has(.planner-warning-icon) :is(.planner-lesson-name, .planner-lesson-abbr) { padding-inline-end: 1rem; }
+  .planner-warning-icon { position: absolute; inset-inline-end: .45rem; bottom: .35rem; }
+}
 // Narrow columns keep the acronym, exact times and classroom together.
 .planner-lesson-abbr { display: none; font-size: .75rem; line-height: 1.25; }
 @container (max-width: 4.5rem) {
