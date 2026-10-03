@@ -78,7 +78,6 @@
 .planner-empty p { max-width: 42ch; margin: 0 auto 1.25rem; color: var(--planner-muted); }
 .planner-calendar-footer { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; padding: .85rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
 .planner-saved > i { color: var(--color-link); }
-#plannerLessonTip { margin-left: auto; }
 .planner-week-scroll { overflow-x: auto; }
 .planner-week-hint { display: flex; align-items: center; gap: .5rem; margin: 0; padding: .75rem 1.25rem; border-top: 1px solid var(--planner-line); color: var(--planner-muted); font-size: .8rem; line-height: 1.5; }
 .planner-warning-icon { color: var(--planner-warning); }
@@ -187,8 +186,8 @@
 .planner-picker-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; padding: 0 1.25rem 1rem; }
 .planner-picker-filters select { flex: 1; min-width: 0; max-width: 100%; min-height: 44px; padding: .5rem 2rem .5rem .5rem; border: 1px solid var(--planner-line); border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font-size: .85rem; }
 .planner-picker-filters label { display: flex; align-items: center; gap: .5rem; min-height: 44px; font-size: .85rem; }
-.planner-picker-filters .planner-time-preference { flex-basis: 100%; color: var(--planner-muted); }
-.planner-time-preference select { flex: 0 1 auto; }
+.planner-time-preference { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
+.planner-time-preference select { min-height: 36px; max-width: 100%; padding: .25rem 2rem .25rem .6rem; border: 1px solid var(--planner-line); border-radius: 8px; background-color: var(--body-background); color: var(--body-font-color); font: inherit; }
 .planner-picker-filters input { width: 18px; height: 18px; accent-color: var(--color-link); }
 #subjsPopUp .subjsList { display: block; flex: 1; min-height: 0; overflow-y: auto; padding: 0 1.25rem 1rem; margin: 0; width: 100%; border-top: 1px solid var(--planner-line); }
 #subjsPopUp .subjsGroupTitle { margin: 1.25rem 0 .5rem; text-align: left; font-size: 1rem; }
@@ -316,7 +315,8 @@
   .planner-week .planner-lesson { padding: .3rem .2rem; }
   .planner-lesson-abbr { font-size: .65rem; overflow-wrap: normal; }
   .planner-calendar-footer { padding: .85rem 1rem; }
-  #plannerLessonTip { flex-basis: 100%; margin-left: 0; }
+  #plannerLessonTip { flex-basis: 100%; }
+  .planner-time-preference { margin-left: 0; }
   #subjsPopUp .subjsSingCourse { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {

@@ -40,6 +40,13 @@
         <footer class="planner-calendar-footer">
             <span class="planner-saved"><i class="fa-solid fa-check" aria-hidden="true"></i>{{ T "Planner_Saved" }}</span>
             <span id="plannerLessonTip">{{ T "Planner_LessonTip" }}</span>
+            <label class="planner-time-preference">{{ T "Planner_TimeFormat" }}
+                <select id="plannerTimeFormat" onchange="setPlannerTimeFormat(this.value)">
+                    <option value="auto">{{ T "Planner_TimeAutomatic" }}</option>
+                    <option value="12">{{ T "Planner_Time12" }}</option>
+                    <option value="24">{{ T "Planner_Time24" }}</option>
+                </select>
+            </label>
         </footer>
     </div>
 </section>
@@ -161,13 +168,6 @@
         <div class="planner-picker-filters">
             <select id="plannerDegreeFilter" aria-label="{{ T "Planner_Degree" }}" onchange="filterSubjects(document.getElementById('subjsSearch').value)"><option value="">{{ T "Planner_AllDegrees" }}</option></select>
             <label><input id="plannerSelectedFilter" type="checkbox" onchange="filterSubjects(document.getElementById('subjsSearch').value)">{{ T "Planner_OnlySelected" }}</label>
-            <label class="planner-time-preference">{{ T "Planner_TimeFormat" }}
-                <select id="plannerTimeFormat" onchange="setPlannerTimeFormat(this.value)">
-                    <option value="auto">{{ T "Planner_TimeAutomatic" }}</option>
-                    <option value="12">{{ T "Planner_Time12" }}</option>
-                    <option value="24">{{ T "Planner_Time24" }}</option>
-                </select>
-            </label>
         </div>
         <p id="plannerChannelWarning" class="planner-channel-warning" role="status" hidden><i class="fa-solid fa-triangle-exclamation planner-warning-icon" aria-hidden="true"></i><span></span></p>
         <p id="plannerNoResults" class="planner-no-results" hidden>{{ T "Planner_NoResults" }}</p>
