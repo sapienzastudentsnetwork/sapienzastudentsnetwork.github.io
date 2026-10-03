@@ -35,9 +35,22 @@ function plannerMinutes(time) {
     return hour * 60 + minute;
 }
 
-// Times follow the browser's language: 12-hour for en-US, 24-hour for Italian and most others.
-const plannerTimeFormat = new Intl.DateTimeFormat(undefined, { hour: 'numeric', minute: '2-digit' });
-const plannerHourFormat = new Intl.DateTimeFormat(undefined, { hour: 'numeric' });
+// Automatic follows the browser locale; explicit formats also handle midnight consistently.
+function plannerTimeFormats(format) {
+    const options = format === 'auto' ? {} : { hourCycle: format === '12' ? 'h12' : 'h23' };
+    return [
+        new Intl.DateTimeFormat(undefined, { ...options, hour: 'numeric', minute: '2-digit' }),
+        new Intl.DateTimeFormat(undefined, { ...options, hour: 'numeric' }),
+    ];
+}
+let [plannerTimeFormat, plannerHourFormat] = plannerTimeFormats(localStorage.getItem('plannerTimeFormat') || 'auto');
+
+function setPlannerTimeFormat(format) {
+    localStorage.setItem('plannerTimeFormat', format);
+    [plannerTimeFormat, plannerHourFormat] = plannerTimeFormats(format);
+    renderPlannerWeek();
+    if (plannerLessons.length) setPlannerDay(plannerDay);
+}
 const plannerClock = minutes => new Date(2000, 0, 1, 0, minutes);
 
 function plannerTimeRange(start, end) {
@@ -67,7 +80,7 @@ function collectPlannerLessons(customSubjects) {
                     const room = formatClassrooms(rooms) || rooms.join(', ');
                     const key = JSON.stringify([code, day, start, end, rooms, slot.cancelled]);
                     lessons.set(key, {
-                        name: course.name, shortName: course.shortName || course.name,
+                        name: course.name, shortName: course.shortName || course.name, abbr: course.abbr || course.shortName || course.name,
                         start, end, dayIndex, room, roomFull: rooms.join(', '),
                         color: plannerCourseColor(code), href: `#${code}`,
                         cancelled: slot.cancelled === true,
@@ -79,7 +92,7 @@ function collectPlannerLessons(customSubjects) {
     }
     for (const subject of customSubjects) {
         subject.lessons.forEach((lesson, index) => lessons.set(`${subject.id}-${index}`, {
-            name: subject.name, shortName: subject.shortName || subject.name,
+            name: subject.name, shortName: subject.shortName || subject.name, abbr: subject.abbr || subject.shortName || subject.name,
             start: plannerMinutes(lesson.startTime), end: plannerMinutes(lesson.endTime),
             dayIndex: lesson.dayIndex, room: lesson.roomAbbr || lesson.roomName,
             roomFull: lesson.roomName, color: subject.color,
@@ -131,6 +144,7 @@ function plannerLesson(lesson, weekly = false) {
     const name = plannerElement('strong', 'planner-lesson-name', weekly ? lesson.shortName : lesson.name);
     const room = plannerElement('span', 'planner-lesson-room', (weekly ? lesson.room : lesson.roomFull || lesson.room) || plannerLabels.roomPending);
     link.append(time, name, room);
+    if (weekly) link.append(plannerElement('strong', 'planner-lesson-abbr', lesson.abbr));
     if (lesson.cancelled) link.append(plannerElement('span', 'planner-lesson-notice', plannerLabels.cancelled));
     if (lesson.alerts) link.append(plannerElement('span', 'planner-lesson-notice', plannerLabels.alerts));
     if (lesson.overlap && weekly) {
@@ -155,12 +169,13 @@ function renderPlannerWeek() {
     week.style.setProperty('--planner-hours', (end - start) / 60);
     const lanes = Array.from({ length: 5 }, (_, day) => Math.max(1, ...plannerLessons.filter(lesson => lesson.dayIndex === day).map(lesson => lesson.lanes)));
     week.style.setProperty('--planner-lanes', lanes.reduce((sum, count) => sum + count, 0));
-    week.style.gridTemplateColumns = `3.75rem ${lanes.map(count => `minmax(0, ${count}fr)`).join(' ')}`;
+    week.style.setProperty('--planner-columns', lanes.map(count => `minmax(0, ${count}fr)`).join(' '));
     document.getElementById('plannerWeekHint').hidden = !plannerLessons.some(lesson => lesson.overlap);
     week.append(plannerElement('div', 'planner-week-corner', ''));
     customTimetableDays.forEach((day, index) => {
-        const heading = plannerElement('div', 'planner-week-heading', `${day} `);
-        heading.append(plannerElement('span', '', plannerShortDate(plannerDates[index])));
+        const heading = plannerElement('div', 'planner-week-heading');
+        heading.append(plannerElement('span', 'planner-day-full', day), plannerElement('span', 'planner-day-short', customTimetableDayShorts[index]),
+            plannerElement('span', 'planner-week-date', plannerShortDate(plannerDates[index])));
         if (index === plannerToday) heading.setAttribute('aria-current', 'date');
         week.append(heading);
     });
@@ -233,9 +248,22 @@ function setPlannerDay(day) {
     schedule.append(list);
 }
 
+const plannerSmallScreen = matchMedia('(max-width: 760px)');
+const plannerViewStorageKey = () => `plannerView-${plannerSmallScreen.matches ? 'mobile' : 'desktop'}`;
+
+function applyPlannerView() {
+    setPlannerView(localStorage.getItem(plannerViewStorageKey()) || (plannerSmallScreen.matches ? 'agenda' : 'week'));
+}
+
+function initPlannerPreferences() {
+    document.getElementById('plannerTimeFormat').value = localStorage.getItem('plannerTimeFormat') || 'auto';
+    applyPlannerView();
+    plannerSmallScreen.addEventListener('change', applyPlannerView);
+}
+
 function setPlannerView(view) {
     document.getElementById('main').dataset.view = view;
-    localStorage.setItem('plannerView', view);
+    localStorage.setItem(plannerViewStorageKey(), view);
     for (const button of document.querySelectorAll('[data-planner-view]')) {
         button.setAttribute('aria-pressed', String(button.dataset.plannerView === view));
     }

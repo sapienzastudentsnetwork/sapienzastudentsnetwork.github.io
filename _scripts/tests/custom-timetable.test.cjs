@@ -3,7 +3,11 @@ const { readFileSync } = require('node:fs');
 const { join } = require('node:path');
 const vm = require('node:vm');
 
+const preferences = new Map();
+const screen = { matches: false, addEventListener() {} };
 const planner = {
+    localStorage: { getItem: key => preferences.get(key), setItem: (key, value) => preferences.set(key, value) },
+    matchMedia: () => screen,
     plannerLocale: 'en',
     selectedSubjects: new Set(['course-1', 'course-2', 'obsolete-0']),
     pageDegreeSubjects: new Set(['course']),
@@ -59,4 +63,32 @@ for (const [today, expected] of [
     assert.deepEqual(Array.from(dates, date => `${date.getMonth() + 1}/${date.getDate()}`), expected);
 }
 assert.equal(vm.runInNewContext("plannerDateFormat.format(new Date(2026, 9, 2))", planner), 'October 2');
+// Explicit clock formats retain AM/PM in 12-hour mode and use 00 at midnight in 24-hour mode.
+const clock = new Date(2000, 0, 1, 13, 30);
+const [twelve] = planner.plannerTimeFormats('12');
+const [twentyFour] = planner.plannerTimeFormats('24');
+assert.equal(twelve.resolvedOptions().hourCycle, 'h12');
+assert.equal(twentyFour.resolvedOptions().hourCycle, 'h23');
+assert.ok(twelve.formatToParts(clock).some(part => part.type === 'dayPeriod'));
+assert.equal(twentyFour.format(new Date(2000, 0, 1)), '00:00');
+assert.equal(planner.plannerTimeFormats('auto')[0].resolvedOptions().hourCycle,
+    new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).resolvedOptions().hourCycle);
+
+// Each screen size starts with its own default and remembers only its own override.
+const main = { dataset: {} };
+planner.document = { getElementById: () => main, querySelectorAll: () => [] };
+planner.applyPlannerView();
+assert.equal(main.dataset.view, 'week');
+planner.setPlannerView('agenda');
+screen.matches = true;
+planner.applyPlannerView();
+assert.equal(main.dataset.view, 'agenda');
+planner.setPlannerView('week');
+screen.matches = false;
+planner.applyPlannerView();
+assert.equal(main.dataset.view, 'agenda');
+screen.matches = true;
+planner.applyPlannerView();
+assert.equal(main.dataset.view, 'week');
+
 console.log('Custom timetable checks passed.');

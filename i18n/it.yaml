@@ -518,3 +518,15 @@
 
 - id: Planner_TimeOrder
   translation: "L’orario di fine deve essere successivo a quello di inizio."
+
+- id: Planner_TimeFormat
+  translation: "Formato orario"
+
+- id: Planner_TimeAutomatic
+  translation: "Automatico"
+
+- id: Planner_Time12
+  translation: "12 ore"
+
+- id: Planner_Time24
+  translation: "24 ore"

@@ -513,3 +513,15 @@
 
 - id: Planner_TimeOrder
   translation: "The end time must be after the start time."
+
+- id: Planner_TimeFormat
+  translation: "Time format"
+
+- id: Planner_TimeAutomatic
+  translation: "Automatic"
+
+- id: Planner_Time12
+  translation: "12-hour"
+
+- id: Planner_Time24
+  translation: "24-hour"
