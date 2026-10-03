@@ -136,7 +136,13 @@
   .planner-lesson-abbr { display: block; order: -1; }
   .planner-week :is(.planner-lesson-time, .planner-lesson-room) { font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
 }
-.planner-agenda { display: none; padding: 0 1.25rem 1.25rem; }
+.planner-agenda { --planner-agenda-gutter: 1.25rem; display: none; padding: 0 var(--planner-agenda-gutter) 1.25rem; }
+.planner-day-track {
+  display: flex; align-items: start; margin-inline: calc(-1 * var(--planner-agenda-gutter));
+  overflow: auto hidden; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none;
+}
+.planner-day-page { flex: 0 0 100%; box-sizing: border-box; padding: 0 var(--planner-agenda-gutter) .75rem; scroll-snap-align: start; scroll-snap-stop: always; }
+.planner-day-page[inert] { height: 0; }
 .timetable-planner[data-view="agenda"] { .planner-week-view { display: none; } .planner-agenda { display: block; } }
 .planner-days { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .4rem; padding: .75rem 0; border-block: 1px solid var(--planner-line); }
 .planner-day-button {
@@ -315,7 +321,7 @@
   .planner-view-switch { grid-column: 1 / -1; }
   .planner-view-switch button { flex: 1; justify-content: center; }
   .planner-button-label { display: none; }
-  .planner-agenda { padding-inline: 1rem; }
+  .planner-agenda { --planner-agenda-gutter: 1rem; }
   // Lanes shrink to fit the phone; only very crowded weeks fall back to scrolling.
   .planner-week { --planner-axis: 2.75rem; min-width: calc(var(--planner-axis) + var(--planner-lanes) * 2.5rem); }
   .planner-hour { font-size: .7rem; }
@@ -350,6 +356,9 @@
   .custom-subject-dialog__footer { padding: 1rem; }
   .custom-subject-card__actions { flex-basis: 100%; }
   .custom-subject-card__actions > :first-child { flex: 1; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .planner-day-track { scroll-behavior: smooth; }
 }
 @media (prefers-reduced-motion: reduce) {
   .planner-button, .custom-subject-button, .custom-subject-mini-button, .custom-subject-dialog__close { transition: none; }

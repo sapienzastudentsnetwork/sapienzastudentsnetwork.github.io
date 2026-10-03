@@ -49,7 +49,7 @@ function setPlannerTimeFormat(format) {
     localStorage.setItem('plannerTimeFormat', format);
     [plannerTimeFormat, plannerHourFormat] = plannerTimeFormats(format);
     renderPlannerWeek();
-    if (plannerLessons.length) setPlannerDay(plannerDay);
+    renderPlannerDays();
 }
 const plannerClock = minutes => new Date(2000, 0, 1, 0, minutes);
 
@@ -202,16 +202,37 @@ function renderPlannerWeek() {
     }
 }
 
-function setPlannerDay(day) {
-    plannerDay = day;
+// Days sit side by side in a scroll-snapped track, so swipes follow the finger like phone home screens.
+function renderPlannerDays() {
+    document.getElementById('plannerDaySchedule').replaceChildren(...customTimetableDays.map((_, day) => plannerDayPage(day)));
+    setPlannerDay(plannerDay, 'instant');
+}
+
+function setPlannerDay(day, behavior) {
     const schedule = document.getElementById('plannerDaySchedule');
-    const heading = `${customTimetableDays[day]} ${plannerDateFormat.format(plannerDates[day])}`;
-    schedule.replaceChildren(plannerElement('h3', 'planner-day-heading', day === plannerToday ? `${plannerLabels.today} · ${heading}` : heading));
+    showPlannerDay(day);
+    schedule.scrollTo({ left: day * schedule.clientWidth, behavior });
+}
+
+function showPlannerDay(day) {
+    plannerDay = day;
     for (const button of document.querySelectorAll('[data-planner-day]')) {
         const selected = Number(button.dataset.plannerDay) === day;
         button.setAttribute('aria-pressed', String(selected));
         button.tabIndex = selected ? 0 : -1;
     }
+    [...document.getElementById('plannerDaySchedule').children].forEach((page, index) => page.inert = index !== day);
+}
+
+function plannerDayScroll(event) {
+    const day = Math.round(event.target.scrollLeft / event.target.clientWidth);
+    if (day !== plannerDay) showPlannerDay(day);
+}
+
+function plannerDayPage(day) {
+    const schedule = plannerElement('section', 'planner-day-page');
+    const heading = `${customTimetableDays[day]} ${plannerDateFormat.format(plannerDates[day])}`;
+    schedule.append(plannerElement('h3', 'planner-day-heading', day === plannerToday ? `${plannerLabels.today} · ${heading}` : heading));
     const lessons = plannerLessons.filter(lesson => lesson.dayIndex === day);
     if (!lessons.length) {
         const empty = plannerElement('div', 'planner-day-empty');
@@ -246,6 +267,7 @@ function setPlannerDay(day) {
         list.append(section);
     }
     schedule.append(list);
+    return schedule;
 }
 
 const plannerSmallScreen = matchMedia('(max-width: 760px)');
@@ -267,6 +289,7 @@ function setPlannerView(view) {
     for (const button of document.querySelectorAll('[data-planner-view]')) {
         button.setAttribute('aria-pressed', String(button.dataset.plannerView === view));
     }
+    if (view === 'agenda') setPlannerDay(plannerDay, 'instant');
 }
 
 function stepPlannerDay(step) {
@@ -309,27 +332,16 @@ function renderPlanner(customSubjects) {
         days.append(button);
     });
     renderPlannerWeek();
-    if (plannerLessons.length) setPlannerDay(plannerDay);
+    renderPlannerDays();
     if (document.getElementById('subjsPopUp').open) filterSubjects(document.getElementById('subjsSearch').value);
 }
 
-// Arrow keys and horizontal swipes move between days.
+// Arrow keys move between days.
 function plannerDaysKeydown(event) {
     const step = { ArrowLeft: -1, ArrowRight: 1 }[event.key];
     if (!step) return;
     event.preventDefault();
     stepPlannerDay(step);
-}
-
-let plannerTouch = null;
-function plannerSwipe(event) {
-    if (event.type === 'touchstart') {
-        plannerTouch = event.touches[0];
-        return;
-    }
-    const dx = event.changedTouches[0].clientX - plannerTouch.clientX;
-    const dy = event.changedTouches[0].clientY - plannerTouch.clientY;
-    if (Math.abs(dx) > 60 && Math.abs(dx) > 2 * Math.abs(dy)) setPlannerDay((plannerDay + (dx < 0 ? 1 : 4)) % 5);
 }
 
 // Abbreviations are optional when creating a course; imports retain their explicit names.

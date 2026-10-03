@@ -34,7 +34,7 @@
             </div>
             <div class="planner-agenda">
                 <div id="plannerDays" class="planner-days" role="group" aria-label="{{ T "Subjs_CustomTimetable_CustomDay" }}" onkeydown="plannerDaysKeydown(event)"></div>
-                <div id="plannerDaySchedule" aria-live="polite" ontouchstart="plannerSwipe(event)" ontouchend="plannerSwipe(event)"></div>
+                <div id="plannerDaySchedule" class="planner-day-track" onscroll="plannerDayScroll(event)"></div>
             </div>
         </div>
         <footer class="planner-calendar-footer">

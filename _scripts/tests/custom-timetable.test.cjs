@@ -75,7 +75,7 @@ assert.equal(planner.plannerTimeFormats('auto')[0].resolvedOptions().hourCycle,
     new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).resolvedOptions().hourCycle);
 
 // Each screen size starts with its own default and remembers only its own override.
-const main = { dataset: {} };
+const main = { dataset: {}, children: [], clientWidth: 0, scrollTo() {} };
 planner.document = { getElementById: () => main, querySelectorAll: () => [] };
 planner.applyPlannerView();
 assert.equal(main.dataset.view, 'week');
