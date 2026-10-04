@@ -546,3 +546,6 @@
 
 - id: Planner_SubjectRemoved
   translation: "“%s” removed."
+
+- id: Planner_RecurringNote
+  translation: "Weekly schedule: academic breaks and announcements from lecturers may override it."

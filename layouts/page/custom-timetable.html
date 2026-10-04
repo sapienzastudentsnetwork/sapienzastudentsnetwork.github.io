@@ -24,11 +24,11 @@
 
 </article>
 
-<dialog id="customSubjectsMenuDialog" class="custom-subject-dialog custom-subject-choice-dialog"
+<dialog id="customSubjectsMenuDialog" class="custom-subject-dialog custom-subject-choice-dialog" aria-labelledby="customSubjectsMenuTitle"
     onclick="if (event.target === this) backToSubjectsDialog()">
     <div class="custom-subject-manager">
         <header class="custom-subject-dialog__header">
-            <h2>{{ T "Subjs_CustomTimetable_CustomMenuTitle" }}</h2>
+            <h2 id="customSubjectsMenuTitle">{{ T "Subjs_CustomTimetable_CustomMenuTitle" }}</h2>
         </header>
         <div class="custom-subject-choice-list">
             <button type="button" class="custom-subject-choice" onclick="openNewCustomSubjectFromMenu()">
@@ -77,7 +77,7 @@
     <div class="custom-subject-editor-body">
     <p class="custom-subject-required-note">{{ replace (T "Subjs_CustomTimetable_CustomRequiredNote") "*" `<span class="custom-subject-required">*</span>` | safeHTML }}</p>
     <div class="custom-subject-grid">
-    <label id="customSubjectImportIdField" class="custom-subject-field custom-subject-field--wide custom-subject-import-id-field hidden" hidden>
+    <label id="customSubjectImportIdField" class="custom-subject-field custom-subject-field--wide custom-subject-import-id-field" hidden>
       <span>ID <span class="custom-subject-required" aria-hidden="true">*</span></span>
       <input id="customSubjectImportId" type="text" autocomplete="off" spellcheck="false" oninput="updateCustomSubjectImportIdState()">
       <small id="customSubjectImportIdMessage" class="custom-subject-import-id-message" aria-live="polite"></small>
@@ -111,8 +111,8 @@
     </footer>
 </dialog>
 
-<dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" onclick="if (event.target === this) this.close()">
-  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2>{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><p id="customSubjectsManagerStatus" class="custom-subject-status" role="status"></p><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
+<dialog id="customSubjectsManagerDialog" class="custom-subject-dialog" aria-labelledby="customSubjectsManagerTitle" onclick="if (event.target === this) this.close()">
+  <div class="custom-subject-manager"><header class="custom-subject-dialog__header"><h2 id="customSubjectsManagerTitle">{{ T "Subjs_CustomTimetable_CustomManageTitle" }}</h2></header><p id="customSubjectsManagerStatus" class="custom-subject-status" role="status"></p><div id="customSubjectsManagerList" class="custom-subject-card-list"></div><footer class="custom-subject-dialog__footer custom-subject-dialog__footer--with-back"><button type="button" class="custom-subject-button custom-subject-back-button" onclick="backFromCustomSubjectsManager()"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i><span>{{ T "Subjs_CustomTimetable_CustomBack" }}</span></button><button type="button" class="custom-subject-button" onclick="this.closest('dialog').close()">{{ T "Subjs_CustomTimetable_CustomClose" }}</button></footer></div>
 </dialog>
 
 <dialog class="planner-picker" id="subjsPopUp" aria-labelledby="subjsSelTitle"
@@ -703,8 +703,6 @@
         const importIdField = document.getElementById("customSubjectImportIdField");
         const importIdInput = document.getElementById("customSubjectImportId");
         importIdField.hidden = !importMode;
-        importIdField.style.display = importMode ? "flex" : "none";
-        importIdField.classList.toggle("hidden", !importMode);
         importIdInput.disabled = !importMode;
         document.getElementById("customSubjectDialogTitle").textContent = importMode
             ? "{{ T "Subjs_CustomTimetable_CustomImportPreviewTitle" }}"

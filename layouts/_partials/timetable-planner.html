@@ -2,7 +2,7 @@
 <section id="{{ .id }}" class="timetable-planner" aria-label="{{ .title }}">
     <div class="planner-calendar">
         <header class="planner-calendar-header">
-            <div><h2>{{ .title }}</h2><p id="{{ $prefix }}plannerSummary" data-planner="plannerSummary" role="status"></p></div>
+            <div><h2>{{ .title }}</h2><p data-planner="plannerWeekRange"></p><p id="{{ $prefix }}plannerSummary" data-planner="plannerSummary" role="status"></p></div>
             <div class="planner-calendar-actions">
                 {{ if .custom }}<button id="{{ $prefix }}plannerManageButton" data-planner="plannerManageButton" type="button" class="planner-button" onclick="openSubjectsDialog()" aria-label="{{ T "Planner_ManageSubjects" }}"><i class="fa-solid fa-sliders" aria-hidden="true"></i><span class="planner-button-label">{{ T "Planner_ManageSubjects" }}</span></button>{{ end }}
                 <div class="planner-view-switch" role="group" aria-label="{{ T "Planner_View" }}">
@@ -30,6 +30,7 @@
         </div>
         <footer class="planner-calendar-footer">
             {{ if .custom }}<span class="planner-saved"><i class="fa-solid fa-check" aria-hidden="true"></i>{{ T "Planner_Saved" }}</span>{{ end }}
+            <span>{{ T "Planner_RecurringNote" }}</span>
             <span id="{{ $prefix }}plannerLessonTip" data-planner="plannerLessonTip">{{ T "Planner_LessonTip" }}</span>
             <label class="planner-time-preference">{{ T "Planner_TimeFormat" }}
                 <select id="{{ $prefix }}plannerTimeFormat" data-planner="plannerTimeFormat">

@@ -551,3 +551,6 @@
 
 - id: Planner_SubjectRemoved
   translation: "“%s” rimossa."
+
+- id: Planner_RecurringNote
+  translation: "Orario settimanale: sospensioni e comunicazioni dei docenti possono modificarlo."

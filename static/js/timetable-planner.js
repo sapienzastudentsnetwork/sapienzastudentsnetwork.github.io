@@ -137,6 +137,8 @@ function layoutPlannerDay(lessons) {
 function createTimetablePlanner(root) {
     const find = id => root.querySelector(`[data-planner="${id}"]`);
     let plannerLessons = [], plannerDay = Math.max(0, plannerToday);
+    const weekFormat = new Intl.DateTimeFormat(plannerLocale, { day: 'numeric', month: 'long', year: 'numeric' });
+    find('plannerWeekRange').textContent = weekFormat.formatRange(plannerDates[0], plannerDates[4]);
 
     function plannerLesson(lesson, weekly = false) {
         const link = plannerElement('a', `planner-lesson${lesson.cancelled ? ' planner-lesson--cancelled' : ''}`);
