@@ -1,0 +1,44 @@
+{{ $prefix := cond .custom "" (printf "%s-" .id) }}
+<section id="{{ .id }}" class="timetable-planner" aria-label="{{ .title }}">
+    <div class="planner-calendar">
+        <header class="planner-calendar-header">
+            <div><h2>{{ .title }}</h2><p data-planner="plannerWeekRange"></p><p id="{{ $prefix }}plannerSummary" data-planner="plannerSummary" role="status"></p></div>
+            <div class="planner-calendar-actions">
+                {{ if .custom }}<button id="{{ $prefix }}plannerManageButton" data-planner="plannerManageButton" type="button" class="planner-button" onclick="openSubjectsDialog()" aria-label="{{ T "Planner_ManageSubjects" }}"><i class="fa-solid fa-sliders" aria-hidden="true"></i><span class="planner-button-label">{{ T "Planner_ManageSubjects" }}</span></button>{{ end }}
+                <div class="planner-view-switch" role="group" aria-label="{{ T "Planner_View" }}">
+                    <button type="button" data-planner-view="week" aria-pressed="true"><i class="fa-solid fa-table-columns" aria-hidden="true"></i>{{ T "Planner_Week" }}</button>
+                    <button type="button" data-planner-view="agenda" aria-pressed="false"><i class="fa-solid fa-list" aria-hidden="true"></i>{{ T "Planner_Agenda" }}</button>
+                </div>
+            </div>
+        </header>
+        {{ if .custom }}<div id="{{ $prefix }}plannerEmpty" data-planner="plannerEmpty" class="planner-empty">
+            <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+            <h3>{{ T "Planner_EmptyTitle" }}</h3>
+            <p>{{ T "Planner_EmptyText" }}</p>
+            <button type="button" class="planner-button planner-button--primary" onclick="openSubjectsDialog()">{{ T "Planner_ChooseSubjects" }}</button>
+        </div>
+        {{ end }}<p id="{{ $prefix }}plannerUnscheduled" data-planner="plannerUnscheduled" class="planner-day-empty" hidden>{{ T "Planner_NoScheduledLessons" }}</p>
+        <div id="{{ $prefix }}plannerSchedule" data-planner="plannerSchedule" hidden>
+            <div class="planner-week-view">
+                <p id="{{ $prefix }}plannerWeekHint" data-planner="plannerWeekHint" class="planner-week-hint" hidden><i class="fa-solid fa-triangle-exclamation planner-warning-icon" aria-hidden="true"></i>{{ T "Planner_OverlapHint" }}</p>
+                <div class="planner-week-scroll" tabindex="0" role="region" aria-label="{{ T "Planner_Week" }}"><div id="{{ $prefix }}plannerWeek" data-planner="plannerWeek" class="planner-week"></div></div>
+            </div>
+            <div class="planner-agenda">
+                <div id="{{ $prefix }}plannerDays" data-planner="plannerDays" class="planner-days" role="group" aria-label="{{ T "Subjs_CustomTimetable_CustomDay" }}"></div>
+                <div id="{{ $prefix }}plannerDaySchedule" data-planner="plannerDaySchedule" class="planner-day-track"></div>
+            </div>
+        </div>
+        <footer class="planner-calendar-footer">
+            {{ if .custom }}<span class="planner-saved"><i class="fa-solid fa-check" aria-hidden="true"></i>{{ T "Planner_Saved" }}</span>{{ end }}
+            <span>{{ T "Planner_RecurringNote" }}</span>
+            <span id="{{ $prefix }}plannerLessonTip" data-planner="plannerLessonTip">{{ T "Planner_LessonTip" }}</span>
+            <label class="planner-time-preference">{{ T "Planner_TimeFormat" }}
+                <select id="{{ $prefix }}plannerTimeFormat" data-planner="plannerTimeFormat">
+                    <option value="auto">{{ T "Planner_TimeAutomatic" }}</option>
+                    <option value="12">{{ T "Planner_Time12" }}</option>
+                    <option value="24">{{ T "Planner_Time24" }}</option>
+                </select>
+            </label>
+        </footer>
+    </div>
+</section>

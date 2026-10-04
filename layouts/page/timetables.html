@@ -1,6 +1,8 @@
 {{ define "main" }}
     {{ partial "timetable.html" . }}
 
+    <h1>{{ .Title }}</h1>
+
     {{ $pageDegreeCode := "" }}
     {{ if in .RelPermalink "/acsai/" }}
         {{ $pageDegreeCode = "33502" }}
@@ -17,14 +19,11 @@
         {{ partial "academic-year-2026-27-notices.html" (dict "degreeCode" .) }}
     {{ end }}
 
-    <!--{{ if not (or (in .Permalink "/it/") (in .Permalink "/33508") (in .Permalink "/33502")) }}
-        ⚠️ {{ T "Subjs_WorkInProgress" }}
-    {{ end }}-->
-
-    <!--<blockquote class="book-hint warning" style="border-color: #fd6; background-color: rgba(253, 214, 102, 0.1); margin: 1rem 0; padding: .5rem 1rem .5rem .75rem; border-inline-start: .25rem solid #fd6; border-radius: .25rem;">
-        <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> {{ T "Subjs_WorkInProgress" }}
-    </blockquote>-->
-
+    <div id="main" class="timetable-page-content">
+        {{ range .Params.timetables }}
+            {{ partial "timetable-planner.html" (dict "id" (.title | urlize) "title" .title "custom" false) }}
+        {{ end }}
+    </div>
     <article class="markdown book-article timetable-page-intro">
         <details class="academic-year-notice tip">
             <summary>
@@ -38,90 +37,30 @@
             </ul>
         </details>
 
-        <blockquote class="book-hint tip">
-            <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> {{ T "Subjs_Info_Tip" }}
-        </blockquote>
-
-        <!--
-        <blockquote class="book-hint info">
-            <i class="fa-solid fa-circle-info" style="color: #74C0FC;"></i> {{ T "Subjs_DelayedStart" }}
-            {{ if not (in .Permalink "/datasci/") }}
-            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQKHIj_LtE4_dp5Osq4MIZcVS_gz4nXcFzg8cnWLQXOd7514pKuN1mAt5V8z2WuO4fiDCogNrOolSZl/pubhtml?gid=96416658&single=true">https://docs.google.com/spreadsheets/d/e/2PACX-1vQKHIj_LtE4_dp5Osq4MIZcVS_gz4nXcFzg8cnWLQXOd7514pKuN1mAt5V8z2WuO4fiDCogNrOolSZl/pubhtml?gid=96416658&single=true</a>
-            {{ else }}
-            <a href="https://corsidilaurea.uniroma1.it/en/course/33519/announcements">https://corsidilaurea.uniroma1.it/en/course/33519/announcements</a>
-            {{ end }}
-        </blockquote>
-        -->
     </article>
 
-    <div class="channel-1 relative timetable-page-content" id="main">
-        {{ $days := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}
-
-        {{ range .Params.timetables }}
-            <div id="{{ .title | urlize }}" class="channel-{{ .channel }}">
-                <h2>{{ .title }}</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th scope="col" class="timetableTableCell font-light">{{ T "Subjs_Timetables_Time" }}</th>
-                            {{ range $days }}
-                                <!--<th class="timetableTableCell hidden sm:table-cell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>-->
-                                <!--<th class="timetableTableCell table-cell sm:hidden" scope="col">{{ T (printf "DaysOfTheWeek_%s_Full" .) }}</th>-->
-                                <th class="timetableTableCell" scope="col">{{ T (printf "DaysOfTheWeek_%s" .) }}</th>
-                            {{ end }}
-                        </tr>
-                    </thead>
-                    <!--<tbody class="mobile hidden sm:table-row-group"></tbody>-->
-                    <tbody class="mobile"></tbody>
-                    <!--<tbody class="desktop table-row-group sm:hidden"></tbody>-->
-                    <tbody class="desktop hidden"></tbody>
-                </table>
-            </div>
-
-            <script>
-                addEventListener('DOMContentLoaded', (event) => {
-                    fillTimetable(
-                        `{{ .title | urlize }}`,
-                        JSON.parse(`{{ .courses | jsonify }}`),
-                        JSON.parse(`{{ .courses | jsonify }}`),
-                        `{{ default 0 .channel }}`,
-                    );
-                });
-            </script>
-        {{ end }}
-
-        {{ $allCourses := slice }} <!-- Create an empty list to accumulate all courses -->
-        {{ $uniqueCourses := slice }} <!-- Create an empty list for unique courses -->
-        {{ $seen := dict }} <!-- Create a dictionary to track seen courses -->
-        
-        {{ range .Params.timetables }} <!-- Iterate through all timetables -->
-            {{ range .courses }} <!-- Iterate through all courses in each timetable -->
-                {{ $courseCode := . }} <!-- Convert course code to string -->
-                {{ $allCourses = $allCourses | append $courseCode }} <!-- Add course code to the list -->
+    <div class="planner-details">
+        <section>
+            {{ $courses := slice }}
+            {{ range .Params.timetables }}
+                {{ range .courses }}
+                    {{ $courses = $courses | append . }}
+                {{ end }}
             {{ end }}
-        {{ end }}
-
-        <!-- Remove duplicates from the course list -->
-        {{ range $allCourses }}
-            {{ $courseCode := . }} <!-- Convert course code to string -->
-            {{ if not (index $seen $courseCode) }} <!-- Check if the course has not been seen -->
-                {{ $uniqueCourses = $uniqueCourses | append $courseCode }} <!-- Add course code to the unique list -->
-                {{ $seen = merge $seen (dict $courseCode true) }} <!-- Mark the course as seen -->
-            {{ end }}
-        {{ end }}        
-
-        <!-- Add the "Timetables per teaching" part for the year's courses -->
-        {{ with dict "courses" $uniqueCourses "channel" .Params.channel }}
-            {{ partial "timetables-per-teaching.html" . }}
-        {{ end }}
-
-    <!-- {{ range .Params.timetables }} -->
-    <!--     {{ .title }} -->
-    <!--     {{ .channel }} -->
-    <!--     {{ .courses }} -->
-    <!-- {{ end }} -->
-    <!-- {{ range $key, $value := hugo.Data.timetables }} -->
-    <!--     <p>test!!! {{ $key }}</p> -->
-    <!-- {{ end }} -->
+            {{ partial "timetables-per-teaching.html" (dict "courses" ($courses | uniq) "channel" .Params.channel) }}
+        </section>
+        <a class="planner-back-link" href="#main"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i>{{ T "Planner_BackToTimetable" }}</a>
     </div>
+    {{ partial "timetable-planner-scripts.html" . }}
+    <script>
+        addEventListener('DOMContentLoaded', () => {
+            {{ range .Params.timetables }}
+                {
+                    const subjectIds = {{ .courses | jsonify | safeJS }}.map(code => `${code}-{{ default 0 .channel }}`);
+                    const planner = createTimetablePlanner(document.getElementById({{ .title | urlize }}));
+                    planner.render(collectPlannerLessons(subjectIds), subjectIds.length);
+                }
+            {{ end }}
+        });
+    </script>
 {{ end }}

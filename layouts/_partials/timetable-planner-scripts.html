@@ -1,0 +1,20 @@
+<script>
+    const plannerLocale = {{ cond (eq .Site.Language.Lang "it") "it" "en" }};
+    const plannerLabels = {{ dict
+        "subjectCount" (T "Planner_SubjectCount")
+        "lessonCount" (T "Planner_LessonCount")
+        "overlap" (T "Planner_Overlap")
+        "noLessons" (T "Planner_NoLessons")
+        "noLessonsHint" (T "Planner_NoLessonsHint")
+        "cancelled" (T "Planner_Cancelled")
+        "roomPending" (T "Planner_RoomPending")
+        "alerts" (T "Planner_Alerts")
+        "today" (T "Planner_Today")
+        "now" (T "Planner_Now")
+        "next" (T "Planner_Next")
+        "bothChannels" (T "Planner_BothChannels")
+        | jsonify | safeJS }};
+    const plannerDays = [{{ range $index, $day := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}{{ if $index }},{{ end }}{{ T (printf "DaysOfTheWeek_%s_Full" $day) | jsonify | safeJS }}{{ end }}];
+    const plannerDayShorts = [{{ range $index, $day := slice "Monday" "Tuesday" "Wednesday" "Thursday" "Friday" }}{{ if $index }},{{ end }}{{ T (printf "DaysOfTheWeek_%s" $day) | jsonify | safeJS }}{{ end }}];
+</script>
+<script src="{{ "js/timetable-planner.js" | relURL }}" defer></script>
