@@ -2,6 +2,11 @@
     const COURSES = JSON.parse(`{{ hugo.Data.courses | jsonify (dict "noHTMLEscape" true) }}`);
     const TIMETABLES = JSON.parse(`{{ hugo.Data.timetables | jsonify (dict "noHTMLEscape" true) }}`);
     const HARDCODED_TIMETABLES = JSON.parse(`{{ hugo.Data.hardcodedTimetables | jsonify }}`)
+    const CLASSROOM_REPLACEMENTS = JSON.parse(`{{ hugo.Data.classroom_replacements | jsonify (dict "noHTMLEscape" true) }}`);
+    const CLASSROOM_LABELS = {
+        constructionSite: {{ T "Subjs_TimetablesPerTeaching_ConstructionSite" | jsonify }},
+        tba: {{ T "Subjs_TimetablesPerTeaching_TBA" | jsonify }}
+    };
 
     for (const courseId in HARDCODED_TIMETABLES) {
         if (TIMETABLES[courseId]) {
@@ -41,7 +46,7 @@
             (roomString.includes("RM041"))) suffix = " SPV";
         else if (universityCityBuilding?.[1] === "002") suffix = " ST"; // Scienze Statistiche
         else if (universityCityBuilding) suffix = ` ${universityCityBuilding[1]}`;
-        else if (roomString.includes("RM158")) suffix = " DL";     // De Lollis
+        else if (roomString.includes("RM158") || /De Lollis/i.test(roomString)) suffix = " DL"; // De Lollis
         else if (roomString.includes("RM109")) prefix = "RE ";     // Regina Elena Ed. A
         else if (roomString.includes("RM112")) suffix = " D";      // Regina Elena Ed. D
         else if (roomString.includes("RM113")) suffix = " E";      // Regina Elena Ed. E

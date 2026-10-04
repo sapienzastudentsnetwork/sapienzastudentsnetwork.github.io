@@ -62,6 +62,15 @@ function plannerCourseColor(code, subjectIds) {
     return plannerPalette[codes.indexOf(code) % plannerPalette.length];
 }
 
+function interpretClassroom(classroom) {
+    for (const [oldValue, newValue] of Object.entries(CLASSROOM_REPLACEMENTS)) {
+        classroom = classroom.replaceAll(oldValue, newValue);
+    }
+    if (classroom.includes('AREA DI CANTIERE')) return CLASSROOM_LABELS.constructionSite;
+    if (classroom.includes('TBA')) return CLASSROOM_LABELS.tba;
+    return classroom;
+}
+
 function collectPlannerLessons(subjectIds, customSubjects = []) {
     const lessons = new Map();
     for (const subjectId of subjectIds) {
@@ -75,7 +84,7 @@ function collectPlannerLessons(subjectIds, customSubjects = []) {
                 if (dayIndex < 0) continue;
                 for (const slot of [slots].flat()) {
                     const [start, end] = slot.timeslot.split('-').map(plannerMinutes);
-                    const rooms = slot.classroomInfo ? [slot.classroomInfo] : Object.values(slot.classrooms || {});
+                    const rooms = (slot.classroomInfo ? [slot.classroomInfo] : Object.values(slot.classrooms || {})).map(interpretClassroom);
                     const room = formatClassrooms(rooms) || rooms.join(', ');
                     const key = JSON.stringify([code, day, start, end, rooms, slot.cancelled]);
                     lessons.set(key, {

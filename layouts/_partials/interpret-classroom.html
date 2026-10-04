@@ -1,0 +1,10 @@
+{{- $classroom := . -}}
+{{- range $old, $new := site.Data.classroom_replacements -}}
+    {{- $classroom = replace $classroom $old $new -}}
+{{- end -}}
+{{- if strings.Contains $classroom "AREA DI CANTIERE" -}}
+    {{- $classroom = T "Subjs_TimetablesPerTeaching_ConstructionSite" -}}
+{{- else if strings.Contains $classroom "TBA" -}}
+    {{- $classroom = T "Subjs_TimetablesPerTeaching_TBA" -}}
+{{- end -}}
+{{- return $classroom -}}

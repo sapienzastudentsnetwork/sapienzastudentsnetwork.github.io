@@ -5,6 +5,16 @@ const vm = require('node:vm');
 
 const preferences = new Map();
 const screen = { matches: false, listeners: [], addEventListener: (_, listener) => screen.listeners.push(listener) };
+const timetableTemplate = readFileSync(join(__dirname, '../../layouts/_partials/timetable.html'), 'utf8');
+const roomHelpers = timetableTemplate.slice(
+    timetableTemplate.indexOf('    function getRoomData('),
+    timetableTemplate.indexOf('</script>')
+);
+const classroomFormatter = {};
+vm.runInNewContext(roomHelpers, classroomFormatter);
+assert.equal(classroomFormatter.formatClassrooms(['Aula 4 - De Lollis - Tiburtina, 205']), '4 DL');
+assert.equal(classroomFormatter.formatClassrooms(['Aula 15 - Via Tiburtina (Edificio: RM025)']), '15 TIB');
+
 const planner = {
     localStorage: { getItem: key => preferences.get(key), setItem: (key, value) => preferences.set(key, value) },
     matchMedia: () => screen,
@@ -13,11 +23,13 @@ const planner = {
     pageDegreeSubjects: new Set(['course']),
     COURSES: { course: { name: 'Course', shortName: 'Short course' } },
     TIMETABLES: { course: { channels: {
-        0: { lunedì: [{ timeslot: '08:30 - 09:30', classrooms: { room: 'Room A' } }] },
+        0: { lunedì: [{ timeslot: '08:30 - 09:30', classrooms: { room: 'Room A' }, classroomInfo: 'Aula Magna (Edificio: RM111)' }] },
         1: { martedì: [{ timeslot: '10 - 12' }] },
         2: { mercoledì: { timeslot: '14 - 16', cancelled: true } },
     } } },
     formatClassrooms: rooms => rooms.join(', '),
+    CLASSROOM_REPLACEMENTS: { 'Aula informatica': 'Aula inf.', '(Edificio: RM111)': 'Regina Elena Ed. C' },
+    CLASSROOM_LABELS: { constructionSite: 'Construction site', tba: 'TBA' },
 };
 for (const file of ['timetable-planner.js', 'custom-timetable.js']) {
     vm.runInNewContext(readFileSync(join(__dirname, '../../static/js', file), 'utf8'), planner);
@@ -28,7 +40,12 @@ let lessons = planner.collectPlannerLessons(planner.selectedSubjects);
 assert.equal(lessons.length, 3);
 assert.equal(lessons[0].start, 510);
 assert.equal(lessons[0].end, 570);
-assert.equal(lessons[0].room, 'Room A');
+assert.equal(lessons[0].room, 'Aula Magna Regina Elena Ed. C');
+assert.equal(lessons[0].roomFull, 'Aula Magna Regina Elena Ed. C');
+assert.equal(planner.interpretClassroom('Aula Magna (Edificio: RM111)'), 'Aula Magna Regina Elena Ed. C');
+assert.equal(planner.interpretClassroom('Aula informatica 1'), 'Aula inf. 1');
+assert.equal(planner.interpretClassroom('AREA DI CANTIERE (Edificio: RM111)'), 'Construction site');
+assert.equal(planner.interpretClassroom('TBA (Edificio: RM111)'), 'TBA');
 assert.equal(lessons[2].cancelled, true);
 
 lessons = planner.collectPlannerLessons(planner.selectedSubjects, [{
