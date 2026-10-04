@@ -86,7 +86,7 @@
   --planner-hour-height: 56px;
   --planner-axis: 3.75rem;
   display: grid; grid-template-columns: var(--planner-axis) var(--planner-columns);
-  min-width: calc(var(--planner-axis) + var(--planner-lanes) * 5rem);
+  min-width: var(--planner-min-width, calc(var(--planner-axis) + var(--planner-lanes) * 5rem));
   border-top: 1px solid var(--planner-line); font-size: .8rem;
 }
 .planner-week-heading {
@@ -121,20 +121,20 @@
 .planner-week .planner-lesson-time { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; }
 .planner-week .planner-lesson-name { font-size: .8rem; line-height: 1.25; }
 .planner-week .planner-lesson-time, .planner-week .planner-lesson-room { font-size: .72rem; line-height: 1.3; }
-// Short blocks, and narrow ones without a spare line, keep the time and name; the full room lives in the title and details.
-@container (max-height: 3.4rem) or ((max-width: 5.5rem) and (height < 4.5rem)) { .planner-lesson-room { display: none; } }
-// Short lessons reserve two lines for the time and name, with the warning in the corner.
-@container (max-height: 3.4rem) {
-  .planner-lesson-time { display: block; }
-  .planner-lesson-time, .planner-lesson-name, .planner-lesson-abbr { flex-shrink: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .planner-lesson:has(.planner-warning-icon) :is(.planner-lesson-name, .planner-lesson-abbr) { padding-inline-end: 1rem; }
-  .planner-warning-icon { position: absolute; inset-inline-end: .45rem; bottom: .35rem; }
+// Rare short lessons share a line for their name and room, without stretching the week.
+.planner-week .planner-lesson--short {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-content: start; padding: .25rem .2rem;
+  .planner-lesson-time { grid-column: 1 / -1; grid-row: 1; display: block; font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
+  .planner-lesson-name, .planner-lesson-abbr { grid-column: 1; grid-row: 2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .planner-lesson-room { grid-column: 2; grid-row: 2; max-width: 3rem; font-size: .65rem; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  // The shared conflict hint and accessible lesson label still identify overlaps.
+  .planner-warning-icon { display: none; }
 }
 // Narrow columns keep the acronym, exact times and classroom together.
 .planner-lesson-abbr { display: none; font-size: .75rem; line-height: 1.25; }
 @container (max-width: 4.5rem) {
   .planner-lesson-name { display: none; }
-  .planner-lesson-abbr { display: block; order: -1; }
+  .planner-lesson-abbr { display: block; order: -1; white-space: nowrap; }
   .planner-week :is(.planner-lesson-time, .planner-lesson-room) { font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
 }
 .planner-agenda { --planner-agenda-gutter: 1.25rem; display: none; padding: 0 var(--planner-agenda-gutter) 1.25rem; }
@@ -323,14 +323,14 @@
   .planner-view-switch button { flex: 1; justify-content: center; }
   .planner-button-label { display: none; }
   .planner-agenda { --planner-agenda-gutter: 1rem; }
-  // Lanes shrink to fit the phone; only very crowded weeks fall back to scrolling.
-  .planner-week { --planner-axis: 2.75rem; min-width: calc(var(--planner-axis) + var(--planner-lanes) * 2.5rem); }
+  // Keep the compact week; expand only when an overlapping acronym cannot fit.
+  .planner-week { --planner-axis: 2.75rem; min-width: var(--planner-min-width, calc(var(--planner-axis) + var(--planner-lanes) * 2.5rem)); }
   .planner-hour { font-size: .7rem; }
   .planner-week-heading { padding-inline: .15rem; }
   .planner-day-full { display: none; }
   .planner-day-short { display: inline; }
   .planner-week .planner-lesson { padding: .3rem .2rem; }
-  .planner-lesson-abbr { font-size: .7rem; overflow-wrap: normal; }
+  .planner-lesson-abbr { font-size: .65rem; overflow-wrap: normal; }
   .planner-calendar-footer { padding: .85rem 1rem; }
   [data-planner="plannerLessonTip"] { flex-basis: 100%; }
   .planner-time-preference { margin-left: 0; }

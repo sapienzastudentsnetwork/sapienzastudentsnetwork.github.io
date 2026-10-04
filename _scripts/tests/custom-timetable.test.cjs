@@ -54,6 +54,24 @@ lessons = [{ start: 480, end: 600 }, { start: 540, end: 600, cancelled: true }];
 planner.layoutPlannerDay(lessons);
 assert.ok(lessons.every(lesson => !lesson.overlap));
 
+// Fit the existing week first; widen only by the space missing from an overlapping acronym.
+const weekWidth = new Map([['--planner-min-width', '999px']]);
+let acronyms = [{ scrollWidth: 30, clientWidth: 35, parentElement: { offsetWidth: 43 } }];
+const week = {
+    clientWidth: 341,
+    style: { removeProperty: key => weekWidth.delete(key), setProperty: (key, value) => weekWidth.set(key, value) },
+    querySelector: () => ({ offsetWidth: 44 }),
+    querySelectorAll: () => acronyms,
+};
+planner.fitPlannerWeek(week);
+assert.equal(weekWidth.has('--planner-min-width'), false);
+acronyms = [{ scrollWidth: 35, clientWidth: 25, parentElement: { offsetWidth: 33 } }];
+planner.fitPlannerWeek(week);
+assert.equal(weekWidth.get('--planner-min-width'), '422px');
+acronyms = [];
+planner.fitPlannerWeek(week);
+assert.equal(weekWidth.has('--planner-min-width'), false);
+
 // Calendar dates cross month/year boundaries; weekends look ahead to the coming week.
 for (const [today, expected] of [
     [new Date(2026, 9, 2), ['9/28', '9/29', '9/30', '10/1', '10/2']],
@@ -75,6 +93,8 @@ assert.ok(twelve.formatToParts(clock).some(part => part.type === 'dayPeriod'));
 assert.equal(twentyFour.format(new Date(2000, 0, 1)), '00:00');
 assert.equal(planner.plannerTimeFormats('auto')[0].resolvedOptions().hourCycle,
     new Intl.DateTimeFormat(undefined, { hour: 'numeric' }).resolvedOptions().hourCycle);
+assert.ok(!planner.plannerTimeRange(540, 600, true).includes(':'));
+assert.ok(planner.plannerTimeRange(570, 630, true).includes(':30'));
 
 // Several fixed calendars keep view state scoped to their own controls.
 const element = () => ({

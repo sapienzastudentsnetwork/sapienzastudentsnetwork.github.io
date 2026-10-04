@@ -51,8 +51,9 @@ function setPlannerTimeFormat(format) {
 }
 const plannerClock = minutes => new Date(2000, 0, 1, 0, minutes);
 
-function plannerTimeRange(start, end) {
-    return plannerTimeFormat.formatRange(plannerClock(start), plannerClock(end));
+function plannerTimeRange(start, end, compact = false) {
+    const format = compact && start % 60 === 0 && end % 60 === 0 ? plannerHourFormat : plannerTimeFormat;
+    return format.formatRange(plannerClock(start), plannerClock(end));
 }
 
 // Selected subjects get distinct colours before the palette repeats.
@@ -134,6 +135,16 @@ function layoutPlannerDay(lessons) {
     return groups;
 }
 
+// Start fitted, then add only the width missing from overlapping acronyms.
+function fitPlannerWeek(week) {
+    week.style.removeProperty('--planner-min-width');
+    if (!week.clientWidth) return;
+    const axisWidth = week.querySelector('.planner-time-axis').offsetWidth;
+    const expansion = Math.max(0, ...[...week.querySelectorAll('.planner-lesson:has(.planner-warning-icon) .planner-lesson-abbr')]
+        .map(abbr => (abbr.scrollWidth - abbr.clientWidth) / (abbr.parentElement.offsetWidth + 4)));
+    if (expansion) week.style.setProperty('--planner-min-width', `${Math.ceil(week.clientWidth + (week.clientWidth - axisWidth) * expansion)}px`);
+}
+
 function createTimetablePlanner(root) {
     const find = id => root.querySelector(`[data-planner="${id}"]`);
     let plannerLessons = [], plannerDay = Math.max(0, plannerToday);
@@ -142,11 +153,13 @@ function createTimetablePlanner(root) {
 
     function plannerLesson(lesson, weekly = false) {
         const link = plannerElement('a', `planner-lesson${lesson.cancelled ? ' planner-lesson--cancelled' : ''}`);
+        if (weekly && lesson.end - lesson.start <= 60) link.classList.add('planner-lesson--short');
         link.href = lesson.href;
         link.style.setProperty('--lesson-color', lesson.color);
-        const time = plannerElement('span', 'planner-lesson-time', plannerTimeRange(lesson.start, lesson.end));
+        const time = plannerElement('span', 'planner-lesson-time', plannerTimeRange(lesson.start, lesson.end, weekly && lesson.end - lesson.start <= 60));
         const name = plannerElement('strong', 'planner-lesson-name', weekly ? lesson.shortName : lesson.name);
         const room = plannerElement('span', 'planner-lesson-room', (weekly ? lesson.room : lesson.roomFull || lesson.room) || plannerLabels.roomPending);
+        room.hidden = weekly && lesson.end - lesson.start <= 60 && !lesson.room;
         link.append(time, name, room);
         if (weekly) link.append(plannerElement('strong', 'planner-lesson-abbr', lesson.abbr));
         if (lesson.cancelled) link.append(plannerElement('span', 'planner-lesson-notice', plannerLabels.cancelled));
@@ -204,6 +217,7 @@ function createTimetablePlanner(root) {
             }
             week.append(column);
         }
+        fitPlannerWeek(week);
     }
 
     // Days sit side by side in a scroll-snapped track, so swipes follow the finger like phone home screens.
@@ -295,6 +309,7 @@ function createTimetablePlanner(root) {
             button.setAttribute('aria-pressed', String(button.dataset.plannerView === view));
         }
         if (view === 'agenda') setPlannerDay(plannerDay, 'instant');
+        if (view === 'week' && plannerLessons.length) fitPlannerWeek(find('plannerWeek'));
     }
 
     function stepPlannerDay(step) {
@@ -344,12 +359,20 @@ function createTimetablePlanner(root) {
     const track = find('plannerDaySchedule');
     track.addEventListener('scroll', plannerDayScroll);
     let trackWidth = 0;
-    new ResizeObserver(() => {
+    const weekScroll = root.querySelector('.planner-week-scroll');
+    let weekWidth = 0;
+    const resizeObserver = new ResizeObserver(() => {
         if (track.clientWidth && track.clientWidth !== trackWidth) {
             trackWidth = track.clientWidth;
             setPlannerDay(plannerDay, 'instant');
         }
-    }).observe(track);
+        if (weekScroll.clientWidth && weekScroll.clientWidth !== weekWidth && plannerLessons.length) {
+            weekWidth = weekScroll.clientWidth;
+            fitPlannerWeek(find('plannerWeek'));
+        }
+    });
+    resizeObserver.observe(track);
+    resizeObserver.observe(weekScroll);
     initPlannerPreferences();
     const planner = {
         render,
