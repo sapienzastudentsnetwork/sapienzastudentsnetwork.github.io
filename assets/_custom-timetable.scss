@@ -1,4 +1,4 @@
-// Custom timetable: theme-aware calendar, daily agenda and focused editors.
+// Timetables: shared calendar and agenda, with focused custom-course editors.
 .timetable-planner,
 .planner-picker,
 .custom-subject-dialog {
@@ -31,7 +31,8 @@
   strong { text-align: inherit; }
 }
 
-#main.timetable-planner { width: 100%; max-width: none; padding: 0; margin: 1.5rem 0 2rem; }
+#main.timetable-planner, .timetable-planner { width: 100%; max-width: none; padding: 0; margin: 1.5rem 0 2rem; }
+#main.timetable-page-content { width: 100%; max-width: none; padding: 0; }
 .planner-button,
 .custom-subject-button,
 .custom-subject-mini-button,
@@ -331,7 +332,7 @@
   .planner-week .planner-lesson { padding: .3rem .2rem; }
   .planner-lesson-abbr { font-size: .7rem; overflow-wrap: normal; }
   .planner-calendar-footer { padding: .85rem 1rem; }
-  #plannerLessonTip { flex-basis: 100%; }
+  [data-planner="plannerLessonTip"] { flex-basis: 100%; }
   .planner-time-preference { margin-left: 0; }
   #subjsPopUp .subjsSingCourse { grid-template-columns: 1fr; }
 }
