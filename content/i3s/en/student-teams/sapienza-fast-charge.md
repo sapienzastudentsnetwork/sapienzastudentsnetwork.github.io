@@ -6,7 +6,7 @@
 For the content of this page, we have directly involved the team discussed, which corresponds to their presentation of it.
 {{% /hint %}}
 
-**Sapienza Fast Charge** is the Formula Student Electric team of **Sapienza University of Rome**.
+[**Sapienza Fast Charge**](https://sapienzafastcharge.it/) is the Formula Student Electric team of **Sapienza University of Rome**.
 
 The team operates similarly to a real automotive company, with students involved in every stage of the project: from vehicle design and manufacturing to marketing, communication, management, and track operations.
 
@@ -131,4 +131,4 @@ This approach allows students to develop both technical and professional skills 
 
 ---
 
-**Join us** in this exciting journey at the frontier of sustainable, high-tech racing!
+[**Join us**](https://linktr.ee/sapienzafastcharge) in this exciting journey at the frontier of sustainable, high-tech racing!
