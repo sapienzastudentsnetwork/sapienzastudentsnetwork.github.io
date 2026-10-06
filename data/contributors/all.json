@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T10:35:05Z",
-  "source_commit": "491402c92c2e735f16d40d114c874643527b7a86",
+  "generated_at": "2026-10-06T10:27:18Z",
+  "source_commit": "aa39ebd60d4181d77bfb211b3ffb4370f69af1ff",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 1025,
-      "additions": 91096,
-      "deletions": 70440,
-      "effective_lines": 161536,
+      "commits": 1028,
+      "additions": 91483,
+      "deletions": 70456,
+      "effective_lines": 161939,
       "score": 100.0,
       "rank": 1
     },
@@ -116,7 +116,7 @@
       "additions": 489,
       "deletions": 483,
       "effective_lines": 972,
-      "score": 48.3,
+      "score": 48.2,
       "rank": 9
     },
     {
@@ -159,6 +159,19 @@
       "rank": 12
     },
     {
+      "name": "JustCh3cco-19",
+      "github": "https://github.com/JustCh3cco-19",
+      "avatar": "https://avatars.githubusercontent.com/u/148681206?v=4",
+      "initials": "J1",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 218,
+      "deletions": 52,
+      "effective_lines": 270,
+      "score": 32.0,
+      "rank": 13
+    },
+    {
       "name": "Fra179",
       "github": "https://github.com/Fra179",
       "avatar": "https://avatars.githubusercontent.com/u/30384516?v=4",
@@ -169,7 +182,7 @@
       "deletions": 5,
       "effective_lines": 265,
       "score": 31.9,
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "alem1105",
@@ -182,7 +195,7 @@
       "deletions": 0,
       "effective_lines": 253,
       "score": 31.7,
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "ENDERZOMBI102",
@@ -195,7 +208,7 @@
       "deletions": 11,
       "effective_lines": 122,
       "score": 30.4,
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "DavideGalilei",
@@ -208,7 +221,7 @@
       "deletions": 62,
       "effective_lines": 170,
       "score": 29.7,
-      "rank": 16
+      "rank": 17
     },
     {
       "name": "atyion",
@@ -221,7 +234,7 @@
       "deletions": 15,
       "effective_lines": 63,
       "score": 27.1,
-      "rank": 17
+      "rank": 18
     },
     {
       "name": "sapienzauser420",
@@ -234,7 +247,7 @@
       "deletions": 12,
       "effective_lines": 35,
       "score": 21.9,
-      "rank": 18
+      "rank": 19
     },
     {
       "name": "simonesestito",
@@ -247,7 +260,7 @@
       "deletions": 1,
       "effective_lines": 21,
       "score": 19.5,
-      "rank": 19
+      "rank": 20
     },
     {
       "name": "thegeek-sys",
@@ -260,7 +273,7 @@
       "deletions": 8,
       "effective_lines": 16,
       "score": 18.2,
-      "rank": 20
+      "rank": 21
     },
     {
       "name": "vitome",
@@ -273,7 +286,7 @@
       "deletions": 3,
       "effective_lines": 13,
       "score": 17.2,
-      "rank": 21
+      "rank": 22
     },
     {
       "name": "CasuFrost",
@@ -286,7 +299,7 @@
       "deletions": 1,
       "effective_lines": 3,
       "score": 13.3,
-      "rank": 22
+      "rank": 23
     },
     {
       "name": "robertiacobus",
@@ -298,8 +311,8 @@
       "additions": 3,
       "deletions": 1,
       "effective_lines": 4,
-      "score": 12.1,
-      "rank": 23
+      "score": 12.0,
+      "rank": 24
     },
     {
       "name": "NilAtabey",
@@ -312,7 +325,7 @@
       "deletions": 1,
       "effective_lines": 2,
       "score": 9.5,
-      "rank": 24
+      "rank": 25
     },
     {
       "name": "SimoneLid",
@@ -325,7 +338,7 @@
       "deletions": 1,
       "effective_lines": 2,
       "score": 9.5,
-      "rank": 25
+      "rank": 26
     },
     {
       "name": "marciesmonde-maker",
@@ -338,7 +351,7 @@
       "deletions": 0,
       "effective_lines": 1,
       "score": 7.5,
-      "rank": 26
+      "rank": 27
     }
   ]
 }

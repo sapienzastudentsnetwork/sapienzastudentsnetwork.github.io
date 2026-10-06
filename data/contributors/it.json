@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T08:37:59Z",
-  "source_commit": "cddafc0df13c64d6aca4c104bb407e139f4a6b66",
+  "generated_at": "2026-10-06T10:27:18Z",
+  "source_commit": "aa39ebd60d4181d77bfb211b3ffb4370f69af1ff",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 269,
-      "additions": 4733,
-      "deletions": 3983,
-      "effective_lines": 8716,
+      "commits": 270,
+      "additions": 4960,
+      "deletions": 3989,
+      "effective_lines": 8949,
       "score": 100.0,
       "rank": 1
     },
@@ -25,7 +25,7 @@
       "additions": 833,
       "deletions": 245,
       "effective_lines": 1078,
-      "score": 72.0,
+      "score": 71.8,
       "rank": 2
     },
     {
@@ -38,21 +38,8 @@
       "additions": 338,
       "deletions": 150,
       "effective_lines": 488,
-      "score": 59.3,
+      "score": 59.1,
       "rank": 3
-    },
-    {
-      "name": "orianani311",
-      "github": "https://github.com/orianani311",
-      "avatar": "https://github.com/orianani311.png?size=160",
-      "initials": "O",
-      "unresolved": false,
-      "commits": 5,
-      "additions": 512,
-      "deletions": 15,
-      "effective_lines": 527,
-      "score": 54.3,
-      "rank": 4
     },
     {
       "name": "marcellogalisai",
@@ -64,7 +51,20 @@
       "additions": 217,
       "deletions": 32,
       "effective_lines": 249,
-      "score": 54.3,
+      "score": 54.2,
+      "rank": 4
+    },
+    {
+      "name": "orianani311",
+      "github": "https://github.com/orianani311",
+      "avatar": "https://github.com/orianani311.png?size=160",
+      "initials": "O",
+      "unresolved": false,
+      "commits": 5,
+      "additions": 512,
+      "deletions": 15,
+      "effective_lines": 527,
+      "score": 54.1,
       "rank": 5
     },
     {
@@ -77,7 +77,7 @@
       "additions": 166,
       "deletions": 32,
       "effective_lines": 198,
-      "score": 52.1,
+      "score": 52.0,
       "rank": 6
     },
     {
@@ -90,7 +90,7 @@
       "additions": 276,
       "deletions": 20,
       "effective_lines": 296,
-      "score": 50.5,
+      "score": 50.3,
       "rank": 7
     },
     {
@@ -103,7 +103,7 @@
       "additions": 253,
       "deletions": 0,
       "effective_lines": 253,
-      "score": 41.6,
+      "score": 41.5,
       "rank": 8
     },
     {
@@ -116,7 +116,7 @@
       "additions": 85,
       "deletions": 1,
       "effective_lines": 86,
-      "score": 37.4,
+      "score": 37.3,
       "rank": 9
     },
     {
@@ -129,7 +129,7 @@
       "additions": 58,
       "deletions": 5,
       "effective_lines": 63,
-      "score": 32.5,
+      "score": 32.4,
       "rank": 10
     },
     {
@@ -142,7 +142,7 @@
       "additions": 44,
       "deletions": 1,
       "effective_lines": 45,
-      "score": 30.3,
+      "score": 30.2,
       "rank": 11
     },
     {
@@ -155,7 +155,7 @@
       "additions": 32,
       "deletions": 5,
       "effective_lines": 37,
-      "score": 29.0,
+      "score": 28.9,
       "rank": 12
     },
     {
@@ -168,7 +168,7 @@
       "additions": 23,
       "deletions": 12,
       "effective_lines": 35,
-      "score": 28.7,
+      "score": 28.6,
       "rank": 13
     },
     {
@@ -181,7 +181,7 @@
       "additions": 8,
       "deletions": 8,
       "effective_lines": 16,
-      "score": 23.7,
+      "score": 23.6,
       "rank": 14
     },
     {
