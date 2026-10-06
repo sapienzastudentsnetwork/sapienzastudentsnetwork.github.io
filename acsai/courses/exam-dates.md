@@ -3,7 +3,7 @@ title: Exam dates
 weight: 1
 ---
 
-# Exam dates calendars
+# Exam dates
 
 ## Extraordinary examination sessions
 
