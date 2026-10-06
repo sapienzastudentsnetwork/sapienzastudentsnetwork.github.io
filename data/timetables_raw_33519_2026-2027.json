@@ -437,6 +437,22 @@
             "teachers": [
               "MAGGI BERNARDO"
             ]
+          },
+          {
+            "building": "Edificio: CU007",
+            "course": "1047222",
+            "room": "Aula 13 ",
+            "schedule": [
+              {
+                "day": "gioved\u00ec",
+                "from": "08:00",
+                "to": "10:00"
+              }
+            ],
+            "subject": "EFFICIENCY AND PRODUCTIVITY ANALYSIS",
+            "teachers": [
+              "MAGGI BERNARDO"
+            ]
           }
         ]
       }
