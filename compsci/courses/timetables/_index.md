@@ -16,6 +16,8 @@ Courses are divided into scheduling groups.
 
 {{< hint info >}}
 The group names identify sets of courses whose lessons are scheduled without overlaps <strong>within the same group</strong>. Courses belonging to different groups may overlap.
+<br/><br/>
+For the recommended two-year attendance strategy and the complete A.Y. 2026/27 group lists, read the official <a href="https://corsidilaurea.uniroma1.it/sites/default/files/avvisi/instructions_on_choosing_which_classes_to_take_each_semester.pdf">English guide</a> or the <a href="https://corsidilaurea.uniroma1.it/sites/default/files/avvisi/istruzioni_per_la_scelta_delle_lezioni_da_seguire_in_ogni_semestre.pdf">Italian guide</a>.
 {{< /hint >}}
 
 ## Your timetable
