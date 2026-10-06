@@ -2,7 +2,7 @@
 title: Vita Studentesca
 bookCollapseSection: true
 bookHidden: false
-weight: 2
+weight: 3
 layout: 'index-page'
 type: 'page'
 ---

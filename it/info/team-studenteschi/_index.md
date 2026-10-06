@@ -2,7 +2,7 @@
 title: Team Studenteschi
 bookCollapseSection: true
 bookHidden: false
-weight: 3
+weight: 4
 layout: 'index-page'
 type: 'page'
 ---

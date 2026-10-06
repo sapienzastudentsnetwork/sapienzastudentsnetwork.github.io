@@ -6,7 +6,7 @@ aliases: ["/info/terzo-anno/percorso-formativo/percorso-formativo-tele"]
 
 <div class="responsive-tables" hidden></div>
 
-# Percorso Formativo
+# Percorso Formativo - CdL a distanza
 
 Le studentesse e gli studenti **iscritti al primo anno** del Corso di Laurea in **Informatica (erogato in modalità prevalentemente a distanza)** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
 
