@@ -20,4 +20,4 @@ According to the [Student Regulations](https://www.uniroma1.it/en/content/examin
   - universal civil voluntary work for a public or private body;
   - commercial, craft or agricultural business activities.
 
-The form must be sent **to the professor of the exam** the student wishes to take **and**, for students enrolled in one of the Degree Programmes offered by the Department of Computer Science, **to the Administrative Office of the Faculty** of Information Engineering, Computer Science, and Statistics ("I3S", segrstudenti.i3s@uniroma1.it) **at least 20 days before the exam date**.
+The self-certification form is one of the mandatory requirements for access to extraordinary examination sessions. The additional requirements and the current links are listed below.

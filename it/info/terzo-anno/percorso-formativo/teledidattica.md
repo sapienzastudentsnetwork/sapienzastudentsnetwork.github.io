@@ -8,7 +8,7 @@ aliases: ["/info/terzo-anno/percorso-formativo/percorso-formativo-tele"]
 
 # Percorso Formativo - CdL a distanza
 
-Le studentesse e gli studenti **iscritti al primo anno** del Corso di Laurea in **Informatica (erogato in modalità prevalentemente a distanza)** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
+Le studentesse e gli studenti **iscritti al primo anno** del Corso di Laurea in **Informatica - erogato in modalità prevalentemente a distanza** devono presentare un percorso formativo (noto anche come "piano di studio" o "piano di completamento") che includa le proprie scelte per gli insegnamenti opzionali, evidenziando così la direzione in cui intendono approfondire la propria preparazione.
 
 {{% hint warning %}}
 <i class="fa-solid fa-triangle-exclamation" style="color: #FFD43B;"></i> **Attenzione**
@@ -27,7 +27,7 @@ Gli insegnamenti opzionali potranno infatti essere prenotati e verbalizzati solt
 Durante il Terzo Anno, ogni studente deve acquisire **30 CFU** tramite **insegnamenti opzionali**.
 - La scelta può avvenire con qualsiasi combinazione che porti al totale di 30 CFU: ad esempio 5 insegnamenti da 6 CFU, oppure 3 insegnamenti da 6 CFU e 1 da 12 CFU, ecc.
 
-Di questi 30 CFU, fino a **12 CFU** possono provenire da insegnamenti esterni al Manifesto del Corso di Laurea in Informatica (erogato in modalità prevalentemente a distanza), anche appartenenti ad altre facoltà, secondo le modalità descritte nella [sezione apposita di questa pagina](#come-scegliere-gli-insegnamenti-esterni).
+Di questi 30 CFU, fino a **12 CFU** possono provenire da insegnamenti esterni al Manifesto del Corso di Laurea in Informatica - erogato in modalità prevalentemente a distanza, anche appartenenti ad altre facoltà, secondo le modalità descritte nella [sezione apposita di questa pagina](#come-scegliere-gli-insegnamenti-esterni).
 
 ### Quando presentare il proprio percorso formativo
 

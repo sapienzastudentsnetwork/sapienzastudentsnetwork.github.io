@@ -31,4 +31,6 @@ Secondo il [Regolamento Studenti](https://www.uniroma1.it/it/content/esami-di-pr
 - attività di volontariato civile universale in ente pubblico o privato;
 - attività d’impresa di tipo commerciale, o artigianale o agricola.
 
-Il modulo va inviato **al docente dell'esame** che si vuole svolgere **e**, per gli studenti e le studentesse di uno dei Corsi di Laurea erogati dal Dipartimento di Informatica, **alla Segreteria Amministrativa della Facoltà** di Ingegneria dell'informazione, informatica e statistica (I3S, segrstudenti.i3s@uniroma1.it) **entro 20 giorni dalla data dell'appello**.
+Il modulo di autocertificazione è uno dei requisiti obbligatori per accedere agli appelli straordinari. Gli ulteriori adempimenti e i collegamenti aggiornati sono indicati di seguito.
+
+{{% extraordinary-exam-requirements degreeCode="33503" language="it" %}}

@@ -1,0 +1,25 @@
+{{- $degreeCode := .Get "degreeCode" -}}
+{{- $language := .Get "language" | default "en" -}}
+{{- $announcementsURL := printf "https://sapienzastudents.net/sapienzafeed/corsidilaurea/%s/%s/announcements.html" $degreeCode $language -}}
+{{- if eq $language "it" -}}
+<h3>Requisiti per l'accesso alla sessione straordinaria</h3>
+<p>Può partecipare agli appelli straordinari chi soddisfa almeno uno dei requisiti indicati nel modulo di richiesta di partecipazione o nell'<a href="https://www.uniroma1.it/it/content/esami-di-profitto-idoneita-tirocini-altre-attivita-formative#7-appelli-straordinari">art. 21, punto 7, del Regolamento studenti</a>.</p>
+<p>Le iscritte e gli iscritti al corso di laurea in <strong>Informatica - erogato in modalità prevalentemente a distanza</strong> hanno diritto all'accesso senza ulteriori requisiti; per loro non è quindi prevista la selezione di un requisito nel modulo di richiesta di partecipazione.</p>
+<p>Per partecipare è comunque necessario:</p>
+<ol>
+    <li>compilare, <strong>entro la scadenza indicata</strong>, il modulo di richiesta di partecipazione reso disponibile dalla Segreteria Didattica nella <a href="{{ $announcementsURL }}">sezione avvisi del corso di laurea</a>;</li>
+    <li>prenotarsi all'appello su <strong>Infostud</strong>;</li>
+    <li><strong>solo se si accede alla sessione in qualità di studente lavoratore</strong>, compilare anche il modulo di autocertificazione dello status di studente lavoratore e seguire le modalità di invio previste dal Regolamento studenti.</li>
+</ol>
+<p>Il calendario aggiornato degli appelli straordinari è disponibile nella pagina <a href="../../../insegnamenti/appelli/">Appelli d'esame</a> del corso di laurea. Il possesso di un requisito di accesso non sostituisce la compilazione del modulo di richiesta di partecipazione né la prenotazione su Infostud.</p>
+{{- else -}}
+<h3>Requirements for access to extraordinary examination sessions</h3>
+<p>You may take part in extraordinary examination sessions if you meet at least one of the requirements listed in the participation request form or in <a href="https://www.uniroma1.it/en/content/examinations-qualifying-examinations-internships-other-educational-activities#7-extraordinary-exam-sessions">Article 21, point 7, of the Student Regulations</a>.</p>
+<p>To take part, you must in any case:</p>
+<ol>
+    <li>complete, <strong>by the stated deadline</strong>, the participation request form made available by the Educational Affairs Office in the <a href="{{ $announcementsURL }}">degree programme announcements</a>;</li>
+    <li>register for the exam on <strong>Infostud</strong>;</li>
+    <li><strong>only if you are accessing the session on the basis of working student status</strong>, also complete the self-certification form for working student status and follow the submission procedure specified in the Student Regulations.</li>
+</ol>
+<p>The current extraordinary examination schedule is available on the degree programme's <a href="../../../courses/exam-dates/">Exam dates</a> page. Meeting an access requirement does not replace completion of the participation request form or registration on Infostud.</p>
+{{- end -}}
