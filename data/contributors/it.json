@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T10:27:18Z",
-  "source_commit": "aa39ebd60d4181d77bfb211b3ffb4370f69af1ff",
+  "generated_at": "2026-10-07T10:21:57Z",
+  "source_commit": "0f1024cb8fccfd325e7cdd732ce63cf306d7dd10",
   "contributors": [
     {
       "name": "matypist",
@@ -8,10 +8,10 @@
       "avatar": "https://avatars.githubusercontent.com/u/69389461?v=4",
       "initials": "M",
       "unresolved": false,
-      "commits": 270,
-      "additions": 4960,
-      "deletions": 3989,
-      "effective_lines": 8949,
+      "commits": 271,
+      "additions": 4992,
+      "deletions": 4002,
+      "effective_lines": 8994,
       "score": 100.0,
       "rank": 1
     },
@@ -42,19 +42,6 @@
       "rank": 3
     },
     {
-      "name": "marcellogalisai",
-      "github": "https://github.com/marcellogalisai",
-      "avatar": "https://github.com/marcellogalisai.png?size=160",
-      "initials": "M",
-      "unresolved": false,
-      "commits": 11,
-      "additions": 217,
-      "deletions": 32,
-      "effective_lines": 249,
-      "score": 54.2,
-      "rank": 4
-    },
-    {
       "name": "orianani311",
       "github": "https://github.com/orianani311",
       "avatar": "https://github.com/orianani311.png?size=160",
@@ -64,6 +51,19 @@
       "additions": 512,
       "deletions": 15,
       "effective_lines": 527,
+      "score": 54.1,
+      "rank": 4
+    },
+    {
+      "name": "marcellogalisai",
+      "github": "https://github.com/marcellogalisai",
+      "avatar": "https://github.com/marcellogalisai.png?size=160",
+      "initials": "M",
+      "unresolved": false,
+      "commits": 11,
+      "additions": 217,
+      "deletions": 32,
+      "effective_lines": 249,
       "score": 54.1,
       "rank": 5
     },
@@ -103,7 +103,7 @@
       "additions": 253,
       "deletions": 0,
       "effective_lines": 253,
-      "score": 41.5,
+      "score": 41.4,
       "rank": 8
     },
     {
@@ -194,7 +194,7 @@
       "additions": 10,
       "deletions": 3,
       "effective_lines": 13,
-      "score": 22.4,
+      "score": 22.3,
       "rank": 15
     },
     {
@@ -207,7 +207,7 @@
       "additions": 12,
       "deletions": 0,
       "effective_lines": 12,
-      "score": 21.9,
+      "score": 21.8,
       "rank": 16
     }
   ]
