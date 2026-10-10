@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 05 October 2026 - Friday 09 October 2026",
+    "date_range": "Monday 12 October 2026 - Friday 16 October 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
@@ -36,13 +36,13 @@
         "wednesday": {
             "08:00-09:00": "",
             "09:00-10:00": "",
-            "10:00-11:00": "",
-            "11:00-11:30": "",
-            "11:30-12:00": "",
-            "12:00-13:00": "",
+            "10:00-11:00": "Aula per lezione",
+            "11:00-11:30": "Aula per lezione",
+            "11:30-12:00": "Aula per lezione",
+            "12:00-13:00": "Aula per lezione",
             "13:00-13:30": "",
             "13:30-14:00": "",
-            "14:00-15:00": "",
+            "14:00-15:00": "Riunione gruppo quantum",
             "15:00-16:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "16:00-17:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "17:00-18:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
@@ -69,9 +69,9 @@
             "08:00-09:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "09:00-10:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "10:00-11:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
-            "11:00-11:30": "Appello straordinario di Quantum Computing",
-            "11:30-12:00": "Appello straordinario di Quantum Computing",
-            "12:00-13:00": "Appello straordinario di Quantum Computing",
+            "11:00-11:30": "",
+            "11:30-12:00": "",
+            "12:00-13:00": "",
             "13:00-13:30": "",
             "13:30-14:00": "",
             "14:00-15:00": "",
