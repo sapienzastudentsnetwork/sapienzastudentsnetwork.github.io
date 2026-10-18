@@ -24,3 +24,7 @@ Ogni utente può aggiungere in qualsiasi momento e autonomamente proprie risorse
 - [Appunti aflaag _(Alessio Bandiera)_](https://github.com/aflaag-notes)
 - [Appunti Rurik-D _(Emanuele D'Agostino)_](https://github.com/Rurik-D/University-notes)
 - [Appunti SimLid _(Simone Lidonnici)_](https://github.com/SimoneLid/Notes-Informatica)
+
+## Guide e libri gratuiti
+
+- [The Concise TypeScript Book](https://gibbok.github.io/typescript-book/it-it/) — guida gratuita e open source in italiano per imparare TypeScript.
