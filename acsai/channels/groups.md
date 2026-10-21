@@ -18,7 +18,7 @@ The main Telegram group is dedicated to general discussions regarding **ACSAI an
 
 ### First Year (A.Y. 2026/2027)
 
-[![First Year A.Y. 2026/2027 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://telegram.me/SapienzaACSAI) [![First Year A.Y. 2026/2027 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/El5sFyWPJEKEnsR2J33eez)
+[![First Year A.Y. 2026/2027 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://telegram.me/SapienzaACSAI) [![First Year A.Y. 2026/2027 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/BXYYe3zWIwD4iyJlte54Hw)
 
 ### Second Year (A.Y. 2025/2026)
 
