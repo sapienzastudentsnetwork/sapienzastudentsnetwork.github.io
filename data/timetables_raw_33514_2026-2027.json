@@ -5,6 +5,22 @@
         "channel": "Canale Unico",
         "timetable": [
           {
+            "building": "Edificio: RM041",
+            "course": "10629336",
+            "room": "Aula L41",
+            "schedule": [
+              {
+                "day": "marted\u00ec",
+                "from": "13:00",
+                "to": "15:00"
+              }
+            ],
+            "subject": "MACHINE LEARNING",
+            "teachers": [
+              "IOCCHI LUCA"
+            ]
+          },
+          {
             "building": "Edificio: RM112",
             "course": "10629336",
             "room": "AULA 201",

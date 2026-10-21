@@ -1855,7 +1855,8 @@
           {
             "teachers": {
               "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
-              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO",
+              "eaea1770-0c1b-41da-9e65-8217c231e1f3": "Siciliano Federico"
             },
             "timeslot": "14 - 16",
             "classrooms": {
@@ -1867,7 +1868,8 @@
           {
             "teachers": {
               "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
-              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO",
+              "eaea1770-0c1b-41da-9e65-8217c231e1f3": "Siciliano Federico"
             },
             "timeslot": "15 - 19",
             "classrooms": {
@@ -1879,7 +1881,8 @@
           {
             "teachers": {
               "f2851c21b90cd4c1e1d818c6d9b658767d01dc157bd0437a6ade3312": "ANAGNOSTOPOULOS ARISTIDIS",
-              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO"
+              "4dddbea354d0f4f1d0e22802a8f4c813721244bd7624428fc1108b1b": "SICILIANO FEDERICO",
+              "eaea1770-0c1b-41da-9e65-8217c231e1f3": "Siciliano Federico"
             },
             "timeslot": "14 - 16",
             "classrooms": {
@@ -2171,6 +2174,15 @@
     "channels": {
       "0": {
         "marted\u00ec": [
+          {
+            "teachers": {
+              "f1c41ed9f77244cd05f84b72eaa5563045643d01ee589b473192cad1": "IOCCHI LUCA"
+            },
+            "timeslot": "13 - 15",
+            "classrooms": {
+              "7d67b57b-e472-47ab-86b8-e8bd69ecc354": "Aula L41 (Edificio: RM041)"
+            }
+          },
           {
             "teachers": {
               "f1c41ed9f77244cd05f84b72eaa5563045643d01ee589b473192cad1": "IOCCHI LUCA"
