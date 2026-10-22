@@ -16,6 +16,8 @@ assert.equal(classroomFormatter.formatClassrooms(['Aula 4 - De Lollis - Tiburtin
 assert.equal(classroomFormatter.formatClassrooms(['Aula 15 - Via Tiburtina (Edificio: RM025)']), '15 TIB');
 
 const planner = {
+    setInterval() {},
+    document: { addEventListener() {} },
     localStorage: { getItem: key => preferences.get(key), setItem: (key, value) => preferences.set(key, value) },
     matchMedia: () => screen,
     plannerLocale: 'en',
@@ -33,6 +35,47 @@ const planner = {
 };
 for (const file of ['timetable-planner.js', 'custom-timetable.js']) {
     vm.runInNewContext(readFileSync(join(__dirname, '../../static/js', file), 'utf8'), planner);
+}
+
+// Only ongoing lessons are current, including overlaps and the exact start but not the end.
+planner.plannerLabels = { next: 'Next' };
+planner.document.createElement = () => ({});
+function lessonLink(start, end, weekly = true) {
+    const link = {
+        dataset: { start, end }, current: null, upcoming: false, badge: null,
+        setAttribute(_, value) { this.current = value; },
+        removeAttribute() { this.current = null; },
+        classList: { toggle: (_, value) => { link.upcoming = value; } },
+        closest: () => weekly,
+        querySelector(selector) {
+            return selector === '.planner-badge'
+                ? this.badge && { remove: () => { this.badge = null; } }
+                : { prepend: badge => { this.badge = badge.textContent; } };
+        },
+    };
+    return link;
+}
+const at = (day, hour, minute = 0) => new Date(2026, 9, day, hour, minute).getTime();
+const currentLinks = [lessonLink(at(19, 11), at(19, 13)), lessonLink(at(19, 12), at(19, 14)),
+    lessonLink(at(20, 11), at(20, 13)), lessonLink(at(19, 11), at(19, 13), false)];
+const currentRoot = { querySelectorAll: () => currentLinks };
+planner.updatePlannerCurrentLessons(currentRoot, at(19, 10, 59));
+assert.ok(currentLinks.every(link => link.current === null));
+assert.equal(currentLinks[3].badge, 'Next');
+planner.updatePlannerCurrentLessons(currentRoot, at(19, 11));
+assert.deepEqual(currentLinks.map(link => link.current), ['time', null, null, 'time']);
+assert.ok(currentLinks.every(link => link.badge === null));
+assert.equal(currentLinks[3].upcoming, false);
+planner.updatePlannerCurrentLessons(currentRoot, at(19, 12, 30));
+assert.deepEqual(currentLinks.map(link => link.current), ['time', 'time', null, 'time']);
+assert.ok(currentLinks.every(link => link.badge === null));
+planner.updatePlannerCurrentLessons(currentRoot, at(19, 13));
+assert.deepEqual(currentLinks.map(link => link.current), [null, 'time', null, null]);
+planner.updatePlannerCurrentLessons(currentRoot, at(19, 14));
+assert.ok(currentLinks.every(link => link.current === null && link.badge === null));
+for (const day of [18, 24, 26]) {
+    planner.updatePlannerCurrentLessons(currentRoot, at(day, 12));
+    assert.ok(currentLinks.every(link => link.current === null && link.badge === null));
 }
 
 // Shared channel lessons appear once; exact times, rooms and cancellation survive.

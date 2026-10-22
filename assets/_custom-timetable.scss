@@ -95,7 +95,6 @@
   &[aria-current="date"], &[aria-current="date"] .planner-week-date { color: var(--color-link); }
 }
 .planner-day-short { display: none; }
-.planner-week-column--today { background: color-mix(in srgb, var(--color-link) 4%, var(--body-background)); }
 .planner-week-corner { position: sticky; left: 0; z-index: 2; background: var(--planner-surface); }
 .planner-time-axis { position: sticky; left: 0; z-index: 2; display: flex; flex-direction: column; background: var(--planner-surface); }
 .planner-hour { height: var(--planner-hour-height); padding-top: .3rem; text-align: center; color: var(--planner-muted); }
@@ -111,6 +110,12 @@
 .timetable-planner a.planner-lesson {
   align-items: stretch; color: var(--body-font-color);
   &:hover { background: color-mix(in srgb, var(--lesson-color) 18%, var(--body-background)); color: var(--body-font-color); text-decoration: none; }
+  &[aria-current="time"] {
+    --lesson-current: color-mix(in srgb, var(--lesson-color) 70%, var(--body-font-color));
+    border-color: var(--lesson-current);
+    box-shadow: inset 0 0 0 1px var(--lesson-current);
+    background: color-mix(in srgb, var(--lesson-color) 20%, var(--body-background));
+  }
 }
 .planner-lesson-time { font-size: .8rem; font-weight: 600; }
 .planner-lesson-name { font-size: 1rem; line-height: 1.3; }
@@ -127,7 +132,6 @@
   .planner-lesson-time { grid-column: 1 / -1; grid-row: 1; display: block; font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
   .planner-lesson-name, .planner-lesson-abbr { grid-column: 1; grid-row: 2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .planner-lesson-room { grid-column: 2; grid-row: 2; max-width: 3rem; font-size: .65rem; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  // The shared conflict hint and accessible lesson label still identify overlaps.
   .planner-warning-icon { display: none; }
 }
 // Narrow columns keep the acronym, exact times and classroom together.

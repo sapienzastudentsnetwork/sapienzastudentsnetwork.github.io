@@ -493,9 +493,6 @@
 - id: Planner_Today
   translation: "Today"
 
-- id: Planner_Now
-  translation: "Now"
-
 - id: Planner_Next
   translation: "Next"
 

@@ -34,6 +34,23 @@ function plannerMinutes(time) {
     return hour * 60 + minute;
 }
 
+function updatePlannerCurrentLessons(root, now = Date.now()) {
+    const links = [...root.querySelectorAll('.planner-lesson[data-start]')];
+    const today = new Date(now).toDateString();
+    const upcoming = Math.min(...links.filter(link => Number(link.dataset.end) > now
+        && new Date(Number(link.dataset.start)).toDateString() === today).map(link => Number(link.dataset.start)));
+    for (const link of links) {
+        const current = Number(link.dataset.start) <= now && now < Number(link.dataset.end);
+        const next = !current && Number(link.dataset.start) === upcoming && !link.closest('.planner-week');
+        if (current) link.setAttribute('aria-current', 'time');
+        else link.removeAttribute('aria-current');
+        link.classList.toggle('planner-lesson--upcoming', next);
+        link.querySelector('.planner-badge')?.remove();
+        if (next) link.querySelector('.planner-lesson-time').prepend(
+            plannerElement('span', 'planner-badge', plannerLabels.next));
+    }
+}
+
 // Automatic follows the browser locale; explicit formats also handle midnight consistently.
 function plannerTimeFormats(format) {
     const options = format === 'auto' ? {} : { hourCycle: format === '12' ? 'h12' : 'h23' };
@@ -162,6 +179,10 @@ function createTimetablePlanner(root) {
 
     function plannerLesson(lesson, weekly = false) {
         const link = plannerElement('a', `planner-lesson${lesson.cancelled ? ' planner-lesson--cancelled' : ''}`);
+        if (!lesson.cancelled) {
+            link.dataset.start = new Date(plannerDates[lesson.dayIndex]).setHours(0, lesson.start, 0, 0);
+            link.dataset.end = new Date(plannerDates[lesson.dayIndex]).setHours(0, lesson.end, 0, 0);
+        }
         if (weekly && lesson.end - lesson.start <= 60) link.classList.add('planner-lesson--short');
         link.href = lesson.href;
         link.style.setProperty('--lesson-color', lesson.color);
@@ -212,7 +233,6 @@ function createTimetablePlanner(root) {
         week.append(axis);
         for (let day = 0; day < 5; day++) {
             const column = plannerElement('div', 'planner-week-column');
-            if (day === plannerToday) column.classList.add('planner-week-column--today');
             for (let time = start; time < end; time += 60) {
                 column.append(plannerElement('div', 'planner-hour-rule'));
             }
@@ -267,20 +287,10 @@ function createTimetablePlanner(root) {
             empty.append(plannerElement('p', '', plannerLabels.noLessons), plannerElement('small', '', plannerLabels.noLessonsHint));
             schedule.append(empty);
         }
-        const now = new Date().getHours() * 60 + new Date().getMinutes();
-        const upcoming = day === plannerToday && lessons.find(lesson => !lesson.cancelled && lesson.end > now);
         const list = plannerElement('div', 'planner-day-lessons');
-        const card = lesson => {
-            const link = plannerLesson(lesson);
-            if (lesson === upcoming) {
-                link.classList.add('planner-lesson--upcoming');
-                link.querySelector('.planner-lesson-time').prepend(plannerElement('span', 'planner-badge', lesson.start <= now ? plannerLabels.now : plannerLabels.next));
-            }
-            return link;
-        };
         for (const group of layoutPlannerDay(lessons)) {
             if (!group.some(lesson => lesson.overlap)) {
-                list.append(...group.map(card));
+                list.append(...group.map(lesson => plannerLesson(lesson)));
                 continue;
             }
             const range = plannerTimeRange(Math.min(...group.map(lesson => lesson.start)), Math.max(...group.map(lesson => lesson.end)));
@@ -290,7 +300,7 @@ function createTimetablePlanner(root) {
             icon.setAttribute('aria-hidden', 'true');
             title.prepend(icon);
             const conflicts = plannerElement('div', 'planner-day-lessons');
-            conflicts.append(...group.map(card));
+            conflicts.append(...group.map(lesson => plannerLesson(lesson)));
             section.append(title, conflicts);
             list.append(section);
         }
@@ -350,6 +360,7 @@ function createTimetablePlanner(root) {
         });
         renderPlannerWeek();
         renderPlannerDays();
+        updatePlannerCurrentLessons(root);
     }
 
     // Arrow keys move between days.
@@ -389,8 +400,13 @@ function createTimetablePlanner(root) {
             find('plannerTimeFormat').value = localStorage.getItem('plannerTimeFormat') || 'auto';
             renderPlannerWeek();
             renderPlannerDays();
+            updatePlannerCurrentLessons(root);
         },
+        refreshCurrentLessons: () => updatePlannerCurrentLessons(root),
     };
     timetablePlanners.push(planner);
     return planner;
 }
+
+setInterval(() => timetablePlanners.forEach(planner => planner.refreshCurrentLessons()), 60_000);
+document.addEventListener('visibilitychange', () => timetablePlanners.forEach(planner => planner.refreshCurrentLessons()));

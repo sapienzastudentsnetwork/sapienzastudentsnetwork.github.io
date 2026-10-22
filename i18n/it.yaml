@@ -492,9 +492,6 @@
 - id: Planner_Today
   translation: "Oggi"
 
-- id: Planner_Now
-  translation: "In corso"
-
 - id: Planner_Next
   translation: "Prossima"
 
