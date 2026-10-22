@@ -3,6 +3,8 @@ title: Informatica - a distanza
 weight: 2
 ---
 
+<div class="responsive-tables" hidden></div>
+
 # Cambio di ordinamento - CdL a distanza
 
 {{% hint info %}}
@@ -51,7 +53,7 @@ Sono previste tre modalità:
 | Metodologie di Programmazione             |   9 | Metodologie di Programmazione       |   9 | Diretto                                         |
 | Introduzione agli Algoritmi               |   6 | Algoritmi 1                         |   6 | Diretto                                         |
 | Progettazione di Algoritmi                |   9 | Algoritmi 2                         |   6 | Diretto, con 3 CFU in esubero                   |
-| Algebra                                   |   6 | Algebra lineare e geometria         |   6 | Diretto                                         |
+| Algebra                                   |   9 | Algebra lineare e geometria         |   6 | Diretto, con 3 CFU in esubero                   |
 | Progettazione di Sistemi Digitali         |   6 | Architettura degli Elaboratori 1    |   6 | Diretto                                         |
 | Architettura degli Elaboratori            |   6 | Architettura degli Elaboratori 2    |   6 | Diretto                                         |
 | Basi di Dati                              |  12 | Basi di dati                        |   9 | Diretto, con 3 CFU in esubero                   |
@@ -104,3 +106,19 @@ Per chiarimenti sulle convalide puoi contattare il **prof. Daniele De Sensi**, d
 {{% /hint %}}
 
 Per i casi non descritti nella guida ufficiale vale la delibera del **CAD** del 14 settembre 2026 sul piano di conversione e sui criteri di riconoscimento dei CFU.
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const marker = document.querySelector(".responsive-tables");
+  const article = marker?.closest(".markdown, .book-article, article");
+
+  article?.querySelectorAll("table").forEach((table) => {
+    if (table.parentElement.classList.contains("table-responsive")) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "table-responsive";
+    table.before(wrapper);
+    wrapper.append(table);
+  });
+});
+</script>
