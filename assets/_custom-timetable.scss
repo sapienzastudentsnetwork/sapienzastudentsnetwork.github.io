@@ -132,13 +132,11 @@
   .planner-lesson-time { grid-column: 1 / -1; grid-row: 1; display: block; font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }
   .planner-lesson-name, .planner-lesson-abbr { grid-column: 1; grid-row: 2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .planner-lesson-room { grid-column: 2; grid-row: 2; max-width: 3rem; font-size: .65rem; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  // Keep exact times readable; the border marks current lessons and the shared hint identifies conflicts.
-  .planner-badge, .planner-warning-icon { display: none; }
+  .planner-warning-icon { display: none; }
 }
 // Narrow columns keep the acronym, exact times and classroom together.
 .planner-lesson-abbr { display: none; font-size: .75rem; line-height: 1.25; }
 @container (max-width: 4.5rem) {
-  .planner-badge { display: none; }
   .planner-lesson-name { display: none; }
   .planner-lesson-abbr { display: block; order: -1; white-space: nowrap; }
   .planner-week :is(.planner-lesson-time, .planner-lesson-room) { font-size: .65rem; line-height: 1.25; overflow-wrap: normal; }

@@ -46,8 +46,8 @@ function updatePlannerCurrentLessons(root, now = Date.now()) {
         else link.removeAttribute('aria-current');
         link.classList.toggle('planner-lesson--upcoming', next);
         link.querySelector('.planner-badge')?.remove();
-        if (current || next) link.querySelector('.planner-lesson-time').prepend(
-            plannerElement('span', 'planner-badge', current ? plannerLabels.now : plannerLabels.next));
+        if (next) link.querySelector('.planner-lesson-time').prepend(
+            plannerElement('span', 'planner-badge', plannerLabels.next));
     }
 }
 

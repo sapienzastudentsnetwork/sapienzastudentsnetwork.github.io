@@ -38,7 +38,7 @@ for (const file of ['timetable-planner.js', 'custom-timetable.js']) {
 }
 
 // Only ongoing lessons are current, including overlaps and the exact start but not the end.
-planner.plannerLabels = { now: 'Now', next: 'Next' };
+planner.plannerLabels = { next: 'Next' };
 planner.document.createElement = () => ({});
 function lessonLink(start, end, weekly = true) {
     const link = {
@@ -64,10 +64,11 @@ assert.ok(currentLinks.every(link => link.current === null));
 assert.equal(currentLinks[3].badge, 'Next');
 planner.updatePlannerCurrentLessons(currentRoot, at(19, 11));
 assert.deepEqual(currentLinks.map(link => link.current), ['time', null, null, 'time']);
-assert.equal(currentLinks[3].badge, 'Now');
+assert.ok(currentLinks.every(link => link.badge === null));
 assert.equal(currentLinks[3].upcoming, false);
 planner.updatePlannerCurrentLessons(currentRoot, at(19, 12, 30));
 assert.deepEqual(currentLinks.map(link => link.current), ['time', 'time', null, 'time']);
+assert.ok(currentLinks.every(link => link.badge === null));
 planner.updatePlannerCurrentLessons(currentRoot, at(19, 13));
 assert.deepEqual(currentLinks.map(link => link.current), [null, 'time', null, null]);
 planner.updatePlannerCurrentLessons(currentRoot, at(19, 14));
