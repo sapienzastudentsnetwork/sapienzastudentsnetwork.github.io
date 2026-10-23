@@ -22,11 +22,11 @@ The main Telegram group is dedicated to general discussions regarding **ACSAI an
 
 ### Second Year (A.Y. 2025/2026)
 
-[![Second Year A.Y. 2025/2026 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+dSkOFM61kFtlMDdk) [![Second Year A.Y. 2025/2026 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/E43NEzupyO33L81fMaviSt)
+[![Second Year A.Y. 2025/2026 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+dSkOFM61kFtlMDdk) [![Second Year A.Y. 2025/2026 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/L7JWPCZcAsIE0cdSZSVmDW)
 
 ### Third Year (A.Y. 2024/2025)
 
-[![Third Year A.Y. 2024/2025 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+TqbBK1MrzYs2ODNk) [![Third Year A.Y. 2024/2025 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/LKQ77bVUP5cG4Ia3cvJmSe)
+[![Third Year A.Y. 2024/2025 Telegram Group](https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&logo=Telegram&logoColor=white)](https://t.me/+TqbBK1MrzYs2ODNk) [![Third Year A.Y. 2024/2025 WhatsApp Group](https://img.shields.io/badge/-WhatsApp-128C7E?style=for-the-badge&logo=WhatsApp)](https://chat.whatsapp.com/HtilX5kymav6P24wZUqNZF)
 
 ## Teaching groups
 
