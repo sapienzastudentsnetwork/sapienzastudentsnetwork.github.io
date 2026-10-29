@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T08:13:17Z",
-  "source_commit": "f90fde3890eb679785a20d1063acaa4abb193994",
+  "generated_at": "2026-10-29T10:07:00Z",
+  "source_commit": "4675bcae8ab985bedb041b073054588264c12f0d",
   "contributors": [
     {
       "name": "matypist",
@@ -34,11 +34,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/56717474?v=4",
       "initials": "L",
       "unresolved": false,
-      "commits": 85,
-      "additions": 7466,
+      "commits": 86,
+      "additions": 7468,
       "deletions": 4301,
-      "effective_lines": 11767,
-      "score": 72.5,
+      "effective_lines": 11769,
+      "score": 72.6,
       "rank": 3
     },
     {
@@ -86,11 +86,11 @@
       "avatar": "https://avatars.githubusercontent.com/u/65043207?v=4",
       "initials": "E",
       "unresolved": false,
-      "commits": 16,
-      "additions": 526,
-      "deletions": 278,
-      "effective_lines": 804,
-      "score": 49.8,
+      "commits": 17,
+      "additions": 536,
+      "deletions": 284,
+      "effective_lines": 820,
+      "score": 50.2,
       "rank": 7
     },
     {
