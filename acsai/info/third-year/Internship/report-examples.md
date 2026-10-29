@@ -18,16 +18,19 @@ If you have not already read it, consult the [introduction to internships](../in
 
 <!-- Sort the table by Surname and keep the Topic short! -->
 
-| Title | Author | Topic | Language | Link |
-| :---: | :----: | :---: | :------: | :--: |
+| Titolo | Autore | Topic | Lingua | Link |
+| :----: | :----: | :---: | :----: | :--: |
 | SAPERE: A Sequential Recommender System for Suggesting Exams to Sapienza Students | Lorenzo Antonelli | Machine Learning | 🇮🇹 | [Link](https://drive.google.com/file/d/1zhCFEowzVNKl64JWuKO3e21FqMsbxy7K/view?usp=sharing) |
 | A Comparative Analysis of Algorithms for Identifying Cancer Driver Pathways | Alessio Bandiera | Bioinformatics | 🇬🇧 | [Link](https://raw.githubusercontent.com/aflaag/bsc-thesis/main/src/Thesis.pdf) |
 | Performance Evaluation of Software Architectures using Discrete Event Simulation | Ionut R. Barbalata | System Infrastructure | 🇬🇧 | [Link](https://drive.google.com/file/d/1RJaIevsn3ZXZYLknvlIxWKAZmtGHeJbk/view) |
 | Efficient Parity Decision Trees and Their Connections to Logical Proofs and Total Search Problems in NP | Simone Bianco | Computational Complexity | 🇬🇧 | [Link](https://raw.githubusercontent.com/exyss/bsc-thesis/main/src/Thesis.pdf) |
-| CereMath: a library of ML kernels for dataflow architectures | Leonardo Biason | HPC & Novel HW Accelerators | 🇬🇧 | [Link](https://www.leonardobiason.com/attachments/thesis_bsc.pdf) |
+| CereMath: a library of ML kernels for dataflow architectures | Leonardo Biason | High Performance Computing | 🇬🇧 | [Link](https://www.leonardobiason.com/attachments/thesis_bsc.pdf) |
+| Sintesi Scenario-Based di Barrier Certificate per la Verifica di Circuiti Quantistici | Marco Casu | Quantum Computing | 🇮🇹 | [Link](https://raw.githubusercontent.com/CasuFrost/bsc-thesis/refs/heads/main/src/Thesis.pdf) |
 | Achieving Max Flow in Strongly Polynomial Time for Sparse Networks: Beyond the Edmonds-Karp Algorithm | Armando Coppola | Graph Algorithms | 🇬🇧 | [Link](https://raw.githubusercontent.com/LavoroPulito/MaxFlow_Algorithms/main/src/Thesis.pdf) |
 | Machine Learning for Human Movement Classification Based on Kinect Skeleton Data | Lucian D. Crainic | Machine Learning | 🇬🇧 | [Link](https://github.com/user-attachments/files/17007434/full-version.pdf) |
-| Development of a Machine Learning Model for the ‘GeneroCity’ Smart Parking Application: Creation of Synthetic Data and Preliminary Analysis | Francesco D'Aprile | Machine Learning | 🇮🇹 | [Link](https://raw.githubusercontent.com/fraadap/BachelorThesis/main/Bachelor%20Degree%20Thesis.pdf) |
+| Sviluppo di un Modello di Machine Learning per l'Applicazione di Smart Parking ‘GeneroCity’: Creazione di Dati Sintetici e Analisi Preliminare | Francesco D'Aprile | Machine Learning | 🇮🇹 | [Link](https://raw.githubusercontent.com/fraadap/BachelorThesis/main/Bachelor%20Degree%20Thesis.pdf) |
+Examining Agentic Behaviour through Trace-Grounded Structured Explanations | Claudia Di Carlo | AI Explainability | 🇬🇧 | [Link](https://drive.google.com/file/d/1kiYaet-BsmTVWVqfeUTyFg4HhY25nLnE/view?usp=sharing)
 | Finding Hamiltonian Cycles in the Line Graphs of Highly Connected Graphs | Amirhossein Khishvand | Graph Theory | 🇬🇧 | [Link](https://github.com/Amirhossein-2020/Tesi/blob/51ba26bad3ac835a9c1c743d9ba635513e7a32df/The%20Thesis%20-%20raw.pdf) |
 | Gait-ViViT: A Video Processing Model for Parkinson's Disease Detection | Gianmaria Romano | Computer Vision | 🇬🇧 | [Link](https://github.com/GianmariaRomano/Gait-ViViT/blob/main/presentation/report.pdf) |
 | MazingaSmokeClassifier: deep learning e visione artificiale per la classificazione di fumi industriali | Daniele Verde | Machine Learning | 🇮🇹 | [Link](https://drive.google.com/file/d/1IvIjAfnhnwvz_6FGfmweMFB9RsPGd_Hf/view?usp=drivesdk) |
+| SalUn-Guided Feature Visualization: Visualizing the Internal Changes of Neural Networks During Unlearning | Leila Zanoni | Machine Learning | 🇬🇧 | [Link](https://raw.githubusercontent.com/LleilaA13/Thesis-MUL/refs/heads/main/thesis.pdf) |
