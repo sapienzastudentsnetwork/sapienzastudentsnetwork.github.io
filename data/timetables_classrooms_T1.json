@@ -1,41 +1,44 @@
 {
-    "date_range": "Monday 02 November 2026 - Friday 06 November 2026",
+    "date_range": "Monday 09 November 2026 - Friday 13 November 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
-            "09:00-10:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
-            "10:00-11:00": "Appelli straordinari",
-            "11:00-11:30": "Appelli straordinari",
-            "11:30-12:00": "Appelli straordinari",
-            "12:00-13:00": "Appelli straordinari",
-            "13:00-13:30": "Appelli straordinari",
-            "13:30-14:00": "Appelli straordinari",
-            "14:00-15:00": "Appelli straordinari",
-            "15:00-16:00": "Appelli straordinari",
+            "09:00-09:30": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
+            "09:30-10:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
+            "10:00-11:00": "",
+            "11:00-11:30": "",
+            "11:30-12:00": "",
+            "12:00-13:00": "",
+            "13:00-13:30": "",
+            "13:30-14:00": "",
+            "14:00-15:00": "Tutoraggio di Programming, Oscar Norelli.",
+            "15:00-16:00": "Tutoraggio di Programming, Oscar Norelli.",
             "16:00-17:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
             "17:00-18:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
             "18:00-19:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
-            "19:00-20:00": ""
+            "19:00-19:30": ""
         },
         "tuesday": {
-            "08:00-09:00": "Appelli straordinari",
-            "09:00-10:00": "Appelli straordinari",
-            "10:00-11:00": "Appelli straordinari",
-            "11:00-11:30": "Appelli straordinari",
-            "11:30-12:00": "Appelli straordinari",
-            "12:00-13:00": "Appelli straordinari",
-            "13:00-13:30": "Appelli straordinari",
-            "13:30-14:00": "Appelli straordinari",
-            "14:00-15:00": "Appelli straordinari",
-            "15:00-16:00": "Appelli straordinari",
-            "16:00-17:00": "Appelli straordinari",
-            "17:00-18:00": "Appelli straordinari",
-            "18:00-19:00": "Appelli straordinari",
-            "19:00-20:00": ""
+            "08:00-09:00": "",
+            "09:00-09:30": "",
+            "09:30-10:00": "",
+            "10:00-11:00": "",
+            "11:00-11:30": "",
+            "11:30-12:00": "",
+            "12:00-13:00": "",
+            "13:00-13:30": "",
+            "13:30-14:00": "",
+            "14:00-15:00": "",
+            "15:00-16:00": "Tutoraggio Sara BERXHAJ",
+            "16:00-17:00": "Tutoraggio Sara BERXHAJ",
+            "17:00-18:00": "",
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         },
         "wednesday": {
             "08:00-09:00": "",
-            "09:00-10:00": "",
+            "09:00-09:30": "",
+            "09:30-10:00": "",
             "10:00-11:00": "",
             "11:00-11:30": "",
             "11:30-12:00": "",
@@ -47,13 +50,14 @@
             "16:00-17:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "17:00-18:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
             "18:00-19:00": "10621403 SECURITY AND PRIVACY OF SMART ENVIRONMENTS - Cybersecurity LM-66 R \r\nDocente: LAZZERETTI RICCARDO",
-            "19:00-20:00": ""
+            "19:00-19:30": ""
         },
         "thursday": {
-            "08:00-09:00": "Business and Computer Science esame prof.ssa  Alice Pennesi <alice.pennesi@uniroma1.it>",
-            "09:00-10:00": "Business and Computer Science esame prof.ssa  Alice Pennesi <alice.pennesi@uniroma1.it>",
-            "10:00-11:00": "Business and Computer Science esame prof.ssa  Alice Pennesi <alice.pennesi@uniroma1.it>",
-            "11:00-11:30": "Business and Computer Science esame prof.ssa  Alice Pennesi <alice.pennesi@uniroma1.it>",
+            "08:00-09:00": "",
+            "09:00-09:30": "",
+            "09:30-10:00": "Attività di tutoraggio per il corso di Basi di Dati\nCanale A-L (Perelli)\nCanale M-Z (De Marsico)\n\nNome Tutor: Francesco Signori",
+            "10:00-11:00": "Attività di tutoraggio per il corso di Basi di Dati\nCanale A-L (Perelli)\nCanale M-Z (De Marsico)\n\nNome Tutor: Francesco Signori",
+            "11:00-11:30": "Attività di tutoraggio per il corso di Basi di Dati\nCanale A-L (Perelli)\nCanale M-Z (De Marsico)\n\nNome Tutor: Francesco Signori",
             "11:30-12:00": "ACSAI-Tutoraggio - Egnald Cela",
             "12:00-13:00": "ACSAI-Tutoraggio - Egnald Cela",
             "13:00-13:30": "ACSAI-Tutoraggio - Egnald Cela",
@@ -61,13 +65,14 @@
             "14:00-15:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
             "15:00-16:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
             "16:00-17:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
-            "17:00-18:00": "Prof. gatti",
-            "18:00-19:00": "Prof. gatti",
-            "19:00-20:00": "Prof. gatti"
+            "17:00-18:00": "",
+            "18:00-19:00": "",
+            "19:00-19:30": ""
         },
         "friday": {
             "08:00-09:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
-            "09:00-10:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
+            "09:00-09:30": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
+            "09:30-10:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "10:00-11:00": "10627472 QUANTUM COMPUTING - Computer Science - Informatica LM-18 \r\nDocente: ZULIANI PAOLO",
             "11:00-11:30": "",
             "11:30-12:00": "",
@@ -79,7 +84,7 @@
             "16:00-17:00": "",
             "17:00-18:00": "",
             "18:00-19:00": "",
-            "19:00-20:00": ""
+            "19:00-19:30": ""
         }
     }
 }
