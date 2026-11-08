@@ -11,7 +11,7 @@ The SalvaStudenti project was created with the goal of offering strategic suppor
 {{% hint tip %}}
 <i class="fa-solid fa-lightbulb" style="color: #238636;"></i> **Who is it for?**
 
-SalvaStudenti is primarily designed for students enrolled in the Bachelor's Degree programs in **Computer Science** and **ACSAI** who still need to take the exams required by their first-year study plan, while remaining open to evaluating requests from students with similar needs.
+SalvaStudenti is primarily designed for students enrolled in the Bachelor's Degree programs in **Informatica** and **ACSAI** who still need to take the exams required by their first-year study plan, while remaining open to evaluating requests from students with similar needs.
 {{% /hint %}}
 
 ## How it works
