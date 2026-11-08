@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T10:07:00Z",
-  "source_commit": "4675bcae8ab985bedb041b073054588264c12f0d",
+  "generated_at": "2026-11-08T10:30:23Z",
+  "source_commit": "5b646caf96216a948388117157e6ff463821b2de",
   "contributors": [
     {
       "name": "matypist",
@@ -146,6 +146,19 @@
       "rank": 11
     },
     {
+      "name": "neodymo",
+      "github": "https://github.com/neodymo",
+      "avatar": "https://avatars.githubusercontent.com/u/165384096?v=4",
+      "initials": "N",
+      "unresolved": false,
+      "commits": 1,
+      "additions": 38,
+      "deletions": 0,
+      "effective_lines": 38,
+      "score": 29.1,
+      "rank": 12
+    },
+    {
       "name": "DavideGalilei",
       "github": "https://github.com/DavideGalilei",
       "avatar": "https://avatars.githubusercontent.com/u/43778739?v=4",
@@ -156,7 +169,7 @@
       "deletions": 5,
       "effective_lines": 37,
       "score": 28.9,
-      "rank": 12
+      "rank": 13
     },
     {
       "name": "sapienzauser420",
@@ -169,7 +182,7 @@
       "deletions": 12,
       "effective_lines": 35,
       "score": 28.5,
-      "rank": 13
+      "rank": 14
     },
     {
       "name": "thegeek-sys",
@@ -182,7 +195,7 @@
       "deletions": 8,
       "effective_lines": 16,
       "score": 23.6,
-      "rank": 14
+      "rank": 15
     },
     {
       "name": "vitome",
@@ -195,7 +208,7 @@
       "deletions": 3,
       "effective_lines": 13,
       "score": 22.3,
-      "rank": 15
+      "rank": 16
     },
     {
       "name": "palmaaaa",
@@ -208,7 +221,7 @@
       "deletions": 0,
       "effective_lines": 12,
       "score": 21.8,
-      "rank": 16
+      "rank": 17
     }
   ]
 }
