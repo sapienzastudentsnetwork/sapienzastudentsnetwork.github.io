@@ -1,5 +1,5 @@
 {
-    "date_range": "Monday 09 November 2026 - Friday 13 November 2026",
+    "date_range": "Monday 16 November 2026 - Friday 20 November 2026",
     "timetables": {
         "monday": {
             "08:00-09:00": "10627173 MODELS OF COMPUTATION - Computer Science - Informatica LM-18 \r\nDocente: PIPERNO ADOLFO",
@@ -22,13 +22,13 @@
             "08:00-09:00": "",
             "09:00-09:30": "",
             "09:30-10:00": "",
-            "10:00-11:00": "",
-            "11:00-11:30": "",
-            "11:30-12:00": "",
-            "12:00-13:00": "",
+            "10:00-11:00": "Research Talk by Michelle Yeo",
+            "11:00-11:30": "Research Talk by Michelle Yeo",
+            "11:30-12:00": "Research Talk by Michelle Yeo",
+            "12:00-13:00": "Research Talk by Michelle Yeo",
             "13:00-13:30": "",
             "13:30-14:00": "",
-            "14:00-15:00": "Workshop on continual learning",
+            "14:00-15:00": "",
             "15:00-16:00": "Tutoraggio Sara BERXHAJ",
             "16:00-17:00": "Tutoraggio Sara BERXHAJ",
             "17:00-18:00": "",
