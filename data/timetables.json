@@ -690,9 +690,7 @@
       "0": {
         "luned\u00ec": [
           {
-            "teachers": {
-              "8137f754-9e51-4b19-ac21-8b03ccf12706": "SPINELLI INDRO"
-            },
+            "teachers": {},
             "timeslot": "8 - 10",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
@@ -701,9 +699,7 @@
         ],
         "venerd\u00ec": [
           {
-            "teachers": {
-              "8137f754-9e51-4b19-ac21-8b03ccf12706": "SPINELLI INDRO"
-            },
+            "teachers": {},
             "timeslot": "8 - 11",
             "classrooms": {
               "3247d3bb-417e-4bba-8e7e-829bbb3863de": "Aula 1 (Edificio: RM018)"
