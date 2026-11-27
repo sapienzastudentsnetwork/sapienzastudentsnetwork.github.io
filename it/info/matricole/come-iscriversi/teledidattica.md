@@ -184,7 +184,7 @@ Per tutte le modalità operative, le finestre temporali e le istruzioni dettagli
 
 ## Obblighi Formativi Aggiuntivi (OFA)
 
-Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica vengono assegnati se nel **TOLC-I** si è conseguito un punteggio nella sezione di Matematica inferiore a **16/50**.
+Gli Obblighi Formativi Aggiuntivi (OFA) in Matematica vengono assegnati se nel **TOLC-I** si è conseguito un punteggio nella sezione di Matematica inferiore a **16/20**.
 
 L'esito della sezione di inglese del test non incide sull'assegnazione dell'OFA.
 
